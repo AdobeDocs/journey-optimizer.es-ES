@@ -10,16 +10,16 @@ level: Intermediate
 keywords: actividad, recorrido, lectura de audiencia, audiencia, segmento, lote, punto de entrada, déclencheur, programación, calificación de audiencia
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 7d4dcd9ed4edb5985d19acae197e7710b3b75938
 workflow-type: tm+mt
-source-wordcount: '3677'
+source-wordcount: '3312'
 ht-degree: 5%
 
 ---
 
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
 
-Utilice la actividad Leer audiencia para iniciar recorridos con audiencias definidas. Usted elige la audiencia y cuándo se ejecuta; luego usa [condiciones para segmentar, excluir o combinar ramas](#audience-targeting-in-journeys), temporizadores y acciones para personalizar la ruta de acceso de cada perfil.
+Utilice la actividad Leer audiencia para iniciar recorridos con audiencias definidas. Usted elige la audiencia y cuándo se ejecuta; luego usa [condiciones](#audience-targeting-in-journeys), temporizadores y acciones para personalizar la ruta de cada perfil.
 
 ## Acerca de la actividad Leer público {#about-segment-trigger-activity}
 
@@ -38,9 +38,9 @@ La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido
 | La audiencia se evalúa por lotes (por ejemplo, instantánea diaria). | La audiencia se transmite por streaming o se basa en eventos. |
 | Se considera aceptable un retraso entre la evaluación de audiencia y la entrada de recorrido. | Necesita una entrada inmediata cuando un perfil reúne los requisitos. |
 
-**Límites clave:** Una audiencia de lectura por recorrido (debe ser la primera actividad o la segunda después de un evento empresarial); una audiencia por actividad; hasta cinco ejecuciones simultáneas de Audiencia de lectura por organización; 20 000 perfiles por segundo por zona protegida; tiempo de espera de trabajo de 12 horas. Detalles completos en [Protecciones y recomendaciones](#must-read).
+**Límites clave:** Una audiencia de lectura por recorrido (debe ser la primera actividad); una audiencia por actividad; hasta cinco ejecuciones simultáneas de Audiencia de lectura por organización; 20 000 perfiles por segundo por zona protegida; tiempo de espera de trabajo de 12 horas. Detalles completos en [Protecciones y limitaciones](../start/guardrails.md#read-segment-g).
 
-**Requisitos previos:** Una audiencia de [!DNL Adobe Experience Platform] que se ha creado y evaluado (estado Realized), un área de nombres de identidad basada en personas seleccionada para el recorrido y, para ejecuciones recurrentes, una comprensión de [los límites de programación y rendimiento](#must-read).
+**Requisitos previos:** Una audiencia de [!DNL Adobe Experience Platform] que se ha creado y evaluado (estado Realized), un área de nombres de identidad basada en personas seleccionada para el recorrido y, para ejecuciones recurrentes, una comprensión de [los límites de programación y rendimiento](../start/guardrails.md#read-segment-g).
 
 Por ejemplo, la audiencia `Luma app opening and checkout` creada en el caso de uso [Generar audiencias](../audience/about-audiences.md) se puede usar como punto de entrada. Todos los perfiles cualificados entran en el recorrido y progresan a través de rutas individualizadas mediante condiciones, temporizadores, eventos y acciones.
 
@@ -83,7 +83,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
    >[!NOTE]
    >
    >Además, puede segmentar [!DNL Adobe Experience Platform] audiencias creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md).
-   >También puede segmentar audiencias [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >También puede segmentar audiencias [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
    >[Más información acerca de cómo generar y segmentar audiencias en Journey Optimizer](../audience/about-audiences.md).
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
@@ -98,7 +98,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -114,27 +114,13 @@ Si lo desea, puede habilitar **Usar un identificador suplementario** para ejecut
 
 ### Mecanismos de protección y recomendaciones {#must-read}
 
-* Solo se puede usar una actividad **[!UICONTROL Leer audiencia]** en un recorrido. Debe ser la primera actividad en el lienzo, excepto en los recorridos que comiencen con una actividad **Evento empresarial**, en cuyo caso es la segunda actividad.
+Todas las protecciones y limitaciones de la actividad **Leer audiencia** (concurrencia, rendimiento, una audiencia por actividad, tiempo de espera del trabajo, reintentos y más) se enumeran en [Protecciones y limitaciones](../start/guardrails.md#read-segment-g).
 
-* La actividad **[!UICONTROL Leer audiencia]** solo puede dirigirse a una audiencia. Si se requieren varias audiencias, considere la posibilidad de combinarlas en una sola antes de utilizarlas. [Aprenda a combinar audiencias mediante flujos de trabajo de composición](../audience/get-started-audience-orchestration.md)
+**Recommendations**
 
-* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos. Sin embargo, evite tener más de cinco recorridos (con **Leer audiencia**, programados o que se inicien &quot;lo antes posible&quot;) que empiecen al mismo tiempo. La práctica recomendada es difundirlas a lo largo del tiempo, por ejemplo, con una diferencia de 5 a 10 minutos.
-
-* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por una actividad de **Leer audiencia**, una actividad de **[calificación de audiencia](audience-qualification-events.md)** o una actividad de evento empresarial.
-
-* Como práctica recomendada, recomendamos que solo use audiencias por lotes en una actividad **Leer audiencia**. Esto proporciona un recuento fiable y coherente de las audiencias utilizadas en un recorrido. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, utilice la actividad **[Calificación de audiencias](audience-qualification-events.md)**.
-
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
-
-* Límite de audiencia de lectura simultánea por organización: cada organización puede ejecutar hasta cinco instancias de audiencia de lectura simultáneamente. Esto incluye tanto las ejecuciones programadas como las activadas por eventos empresariales. El límite se aplica a todos los entornos limitados y recorridos. Este límite se impone para garantizar una asignación justa y equilibrada de los recursos en todas las organizaciones.
-
-* Administración del rendimiento de la zona protegida: el sistema administra dinámicamente el rendimiento de procesamiento por zona protegida con un límite máximo de 20 000 perfiles por segundo compartidos en todas las actividades de Lectura de audiencias. Las actividades de Audiencia de lectura individuales se pueden configurar con una velocidad mínima de 500 perfiles por segundo. Si se alcanzan los límites de rendimiento de nivel de zona protegida, los trabajos pueden colocarse en cola para garantizar una asignación de recursos justa.
-
-* Tiempo de espera de procesamiento de trabajo: los trabajos de lectura de audiencia que no se puedan procesar en un plazo de 12 horas debido a los límites de protección se limpiarán automáticamente y nunca se ejecutarán. Esto evita la acumulación de trabajos y garantiza la estabilidad del sistema.
-
-* Cuando utilice segmentos por lotes, asegúrese de que la ingesta y las actualizaciones diarias de instantáneas se hayan completado mucho antes de que comience el recorrido. Considere un período de espera adicional si los segmentos deben reflejar los datos introducidos el mismo día. Si la actualización inmediata del perfil es crítica, utilice un método basado en eventos o de flujo continuo en lugar de un método diario por lotes. Como alternativa, inserte un mecanismo de espera para permitir que los datos actualizados se propaguen antes de la evaluación del recorrido.
-
-Las protecciones relacionadas con la actividad **Leer audiencia** se enumeran en [esta página](../start/guardrails.md#read-segment-g).
+* Se recomienda usar audiencias por lotes en una actividad **Leer audiencia** para obtener recuentos confiables y consistentes. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, use la actividad [Calificación de audiencias](audience-qualification-events.md) en su lugar.
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+* Cuando utilice segmentos por lotes, asegúrese de que las actualizaciones de ingesta y de instantáneas diarias se completen mucho antes de que comience el recorrido. Considere un período de espera adicional si los segmentos deben reflejar los datos introducidos el mismo día. Si la actualización inmediata del perfil es crítica, usa un método de streaming o basado en eventos, o agrega una actividad **Wait** para permitir que los datos actualizados se propaguen antes de la evaluación.
 
 >[!CAUTION]
 >
@@ -207,10 +193,6 @@ De forma predeterminada, los recorridos están configurados para ejecutarse una 
 1. Se muestran las propiedades del recorrido. En la lista desplegable **[!UICONTROL Tipo de programador]**, seleccione la frecuencia con la que desea que se ejecute el recorrido.
 
    ![Menú desplegable de tipo de planificador con opciones de frecuencia: una vez, diariamente, semanalmente, mensualmente](assets/read-segment-schedule-list.png)
-
->[!TIP]
->
->Para enviar mensajes salientes en lotes a lo largo del tiempo en lugar de todos a la vez, puede configurar el envío de oleadas en la programación de recorrido. [Aprenda a enviar mediante olas en recorridos](send-using-waves.md)
 
 En el caso de los recorridos recurrentes, hay opciones específicas disponibles para ayudarle a administrar la entrada de perfiles en el recorrido. Expanda las secciones siguientes para obtener más información sobre cada opción.
 
@@ -298,10 +280,6 @@ Los recorridos basados en audiencias siempre comienzan con una actividad **Leer 
 
 Una vez que entran en el recorrido, se organizan mediante actividades **Condition**: segmentar por atributos o comportamiento, excluir parte de la población o volver a combinar ramas (union). Las secciones a continuación describen cada patrón.
 
->[!NOTE]
->
->La actividad [**Optimize**](optimize.md) proporciona una alternativa para el enrutamiento de rutas avanzadas, incluidas las reglas de experimentación y segmentación. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener más información.
-
 **Segmentación**
 
 Puede usar condiciones para realizar la segmentación con la actividad **Condition**. Por ejemplo, puede hacer que las personas de VIP sigan una ruta determinada y que los que no son de VIP sigan otra ruta.
@@ -365,7 +343,7 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 
 ### Tiempo y propagación de datos {#timing-and-data-propagation}
 
-* **Finalización del trabajo de segmentación por lotes**: Para las audiencias por lotes, asegúrese de que el trabajo de segmentación por lotes diario se haya completado y de que las instantáneas se actualicen antes de que se ejecute el recorrido. Las audiencias por lotes están listas para usarse aproximadamente **2 horas** después de que se complete el trabajo de segmentación. Más información sobre [métodos de evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#evaluate-segments){target="_blank"}.
+* **Finalización del trabajo de segmentación por lotes**: Para las audiencias por lotes, asegúrese de que el trabajo de segmentación por lotes diario se haya completado y de que las instantáneas se actualicen antes de que se ejecute el recorrido. Las audiencias por lotes están listas para usarse aproximadamente **2 horas** después de que se complete el trabajo de segmentación. Más información sobre [métodos de evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tiempo de ingesta de datos**: compruebe que la ingesta de datos de perfil se haya completado completamente antes de la ejecución del recorrido. Si los perfiles se incorporaron poco antes de que comenzara el recorrido, es posible que aún no se reflejen en la audiencia. Más información sobre la ingesta de [datos en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 
@@ -375,9 +353,9 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 
 ### Validación de datos {#data-validation-and-monitoring}
 
-* **Comprobar el estado del trabajo de segmentación**: supervise las horas de finalización del trabajo de segmentación por lotes en el [!DNL Adobe Experience Platform] [panel de monitorización](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=es){target="_blank"}. Utilícelo para verificar cuándo están listos los datos de audiencia.
+* **Comprobar el estado del trabajo de segmentación**: supervise las horas de finalización del trabajo de segmentación por lotes en el [!DNL Adobe Experience Platform] [panel de monitorización](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Utilícelo para verificar cuándo están listos los datos de audiencia.
 
-* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información sobre [políticas de combinación en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=es){target="_blank"}.
+* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información sobre [políticas de combinación en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Revisar definiciones de segmentos**: Confirme que las definiciones de segmentos están configuradas correctamente e incluyan todos los criterios de calificación esperados. Más información sobre [cómo generar audiencias](../audience/creating-a-segment-definition.md). Preste especial atención a:
    * Condiciones basadas en el tiempo que pueden excluir perfiles basados en marcas de tiempo de eventos
@@ -398,7 +376,7 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 
 ### Cuándo ponerse en contacto con el soporte
 
-Si el recuento no coincide o el perfil cero se ejecuta después de seguir los pasos anteriores, [póngase en contacto con el soporte técnico de Adobe](../start/user-interface.md#support-ticket-guidelines). Tenga listo: nombre/ID de audiencia, nombre/ID de recorrido, tiempo(s) de ejecución programado, zona protegida y una breve descripción de la discrepancia (por ejemplo, &quot;La audiencia muestra 10 000 realizados, solo 2 000 ingresaron al recorrido el [date]&quot;).
+Si el recuento no coincide o las ejecuciones de perfil cero persisten después de seguir los pasos anteriores, póngase en contacto con el soporte de Adobe. Tenga listo: nombre/ID de audiencia, nombre/ID de recorrido, tiempo(s) de ejecución programado, zona protegida y una breve descripción de la discrepancia (por ejemplo, &quot;La audiencia muestra 10 000 realizados, solo 2 000 ingresaron al recorrido el [date]&quot;).
 
 ## Reintentos {#read-audience-retry}
 
@@ -406,12 +384,14 @@ Los reintentos ahora se aplican de forma predeterminada en recorridos activados 
 
 Los déclencheur de **Lectura de audiencia** que no se han realizado correctamente se capturan y se muestran en **Alertas**. La **alerta Leer audiencia** le advierte si una actividad de **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora de ejecución programada. Este error puede deberse a problemas técnicos o a una audiencia vacía. Si el error se debe a problemas técnicos, aún pueden producirse reintentos según el tipo de problema. Por ejemplo, si la creación del trabajo de exportación falla, lo reintentamos cada 10 minutos durante un máximo de 1 hora. [Más información](../reports/alerts.md#alert-read-audiences)
 
+Para obtener la lista completa de protecciones de audiencia de lectura (incluidos los límites de reintento y rendimiento), consulte [Protecciones y limitaciones](../start/guardrails.md#read-segment-g).
+
 ## Temas relacionados
 
 * [Generar públicos](../audience/about-audiences.md)
 * [Actividad de calificación de público](audience-qualification-events.md)
 * [Uso de identificadores suplementarios en recorridos](supplemental-identifier.md)
-* [Propiedades y protecciones del recorrido](../start/guardrails.md#read-segment-g)
+* [Mecanismos de protección y limitaciones](../start/guardrails.md#read-segment-g)
 * [Recorrido de tasas de procesamiento y administración de entradas](entry-management.md)
 * [Prueba de un recorrido](testing-the-journey.md)
 * [Publicación de un recorrido](../building-journeys/publish-journey.md)
@@ -420,4 +400,4 @@ Los déclencheur de **Lectura de audiencia** que no se han realizado correctamen
 
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430360?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

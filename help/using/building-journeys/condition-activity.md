@@ -10,7 +10,7 @@ level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 16%
@@ -40,15 +40,15 @@ Los siguientes tipos de condiciones están disponibles:
 * [Condición de fecha](#date_condition)
 * [Límite de perfil](#profile_cap)
 
-También puede utilizar audiencias directamente en condiciones de recorrido. Consulte:
+También puede basar una condición en la pertenencia a audiencias. Consulte estas secciones:
 
-* [Uso de una audiencia en una condición](#using-a-segment): filtre qué perfiles toman una ruta determinada según el abono a la audiencia
-* [Crear y administrar audiencias](../audience/about-audiences.md): aprenda a crear, evaluar y segmentar audiencias en [!DNL Adobe Experience Platform]
-* [Patrones de segmentación de audiencia en recorrido](read-audience.md#audience-targeting-in-journeys): segmente, excluya o combine ramas de audiencia después de una entrada Leer audiencia
+* [Usar una audiencia en una condición](#using-a-segment): agregue rutas en función de si los perfiles pertenecen a una audiencia.
+* [Crear y segmentar audiencias](../audience/about-audiences.md): cree y administre audiencias en el menú Audiencias.
+* [Segmentación de audiencia en recorrido](read-audience.md#audience-targeting-in-journeys): después de una actividad Leer audiencia, segmente, excluya o combine ramas con las condiciones.
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adición y administración de rutas de condición {#about_condition}
 
@@ -194,4 +194,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 15%
+source-wordcount: '3069'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,33 @@ Puede hacer lo siguiente:
 >
 >Para los recorridos activos, esta pantalla muestra solo la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
-La opción **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas. Se copia la siguiente información: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+La opción **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de soporte técnico puede usar para solucionar problemas. Se copia la siguiente información:
+
+**General**
+
+* `JourneyVersion UID`: identificador único de esta versión del recorrido
+* `OrgID` - Identificador de su organización (IMS)
+* `orgName` - Nombre de su organización
+* `sandboxName`: nombre de la zona protegida donde se ejecuta el recorrido
+* `lastDeployedBy` - Usuario que publicó el recorrido por última vez
+* `lastDeployedAt` - Fecha y hora de la última publicación
+
+
+**Pausar y reanudar** (incluido cuando el recorrido se ha pausado al menos una vez)
+
+* `lastPausedAt` - Fecha y hora de la última vez que se pausó el recorrido
+* `lastPausedBy` - Nombre para mostrar del usuario que realizó la última pausa
+* `lastPausedById`: identificador interno del usuario que realizó la última pausa
+* `lastResumedAt` - Fecha y hora de la última vez que se reanudó el recorrido
+* `lastResumedBy` - Nombre para mostrar del usuario que realizó el último currículo
+* `lastResumedById`: identificador interno del usuario que realizó el último currículo
+
+**Configuración de recorrido en pausa** (en `pausedJourneySettings`, cuando el recorrido está o se ha pausado)
+
+* `pauseBehavior`: qué les sucede a los perfiles del recorrido cuando se pausa (por ejemplo, deséchelos o manténgalos en su lugar)
+* `maxPauseDurationInMinutes`: duración máxima de la pausa en minutos, después de la cual la recorrido se reanuda automáticamente (por ejemplo, 20160 = 14 días)
+* `transitionStateForAutoResume`: estado aplicado cuando el recorrido se reanuda automáticamente al final del período de pausa (por ejemplo, detener o continuar)
+* `pauseId`: identificador único de la instancia de pausa actual
 
 Obtenga más información acerca de los campos técnicos relacionados con un recorrido para un perfil determinado y cómo usarlos [en esta página](expression/journey-properties.md).
 

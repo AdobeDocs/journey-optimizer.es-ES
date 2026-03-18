@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2626'
 ht-degree: 5%
 
 ---
@@ -116,6 +116,15 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
 
+## Ver cuándo se pausó o reanudó un recorrido {#view-pause-resume-info}
+
+Para ver cuándo se detuvo o reanudó por última vez un recorrido y quién lo hizo, abra el recorrido y vaya a sus **propiedades** (haga clic en el icono de lápiz situado junto al nombre del recorrido). Utilice el botón **Copiar detalles técnicos** para copiar información técnica que incluya:
+
+* La fecha y hora de la última pausa y reanudación
+* El nombre para mostrar y el identificador del usuario que realizó la última pausa y la última reanudación
+* Configuración del recorrido en pausa (comportamiento de pausa, duración máxima de la pausa, estado de reanudación automática, ID de pausa)
+
+Esta información resulta útil para solucionar problemas, auditar o compartir con el soporte técnico. Para obtener la lista completa de los campos copiados, vea [Acceso a las propiedades de un recorrido](journey-properties.md#access-properties).
 
 ## Aplicar criterios de salida en un recorrido pausado {#journey-exit-criteria}
 
@@ -202,7 +211,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 97%
+source-wordcount: '4046'
+ht-degree: 93%
 
 ---
 
@@ -365,15 +365,17 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Público de 
 
 * Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
 * En la entrada de recorrido, los perfiles utilizan valores de atributo de la instantánea de público por lotes. Sin embargo, cuando un perfil alcanza una actividad de **Espera**, el recorrido actualiza automáticamente los atributos del perfil al recuperar los datos más recientes del Servicio de perfil unificado (UPS). Esto significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido.
-* Para los recorridos que utilizan una actividad **Leer público**, existe un número máximo de recorridos que pueden comenzar al mismo tiempo. El sistema realizará los reintentos, pero evite tener más de cinco recorridos (con **Leer público**, programados o que se inicien “lo antes posible”) que empiecen al mismo tiempo. Para ello, repártalos a lo largo del tiempo, por ejemplo, en intervalos de 5 y 10 minutos. Obtenga más información sobre las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 * La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
-* La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
+* La actividad **Leer audiencia** solo se puede usar como primera actividad en un recorrido o después de una actividad de evento empresarial.
 * Un recorrido solo puede tener una actividad **Leer público**.
-* Vea también las recomendaciones acerca de cómo usar la actividad **Leer público** en [esta página](../building-journeys/read-audience.md).
+* La actividad **Leer audiencia** solo puede dirigirse a una audiencia por recorrido. Si se requieren varias audiencias, combínelas primero en una sola. [Aprenda a combinar audiencias mediante flujos de trabajo de composición](../audience/get-started-audience-orchestration.md).
+* Cada organización puede ejecutar hasta cinco instancias de **Leer audiencia** simultáneamente (programadas o activadas por evento empresarial) en todas las zonas protegidas y recorridos. Evite tener más de cinco recorridos con **Leer audiencia** que comiencen al mismo tiempo; sepárelos con una diferencia de 5 a 10 minutos. Obtenga más información sobre las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
+* Rendimiento de zona protegida: el sistema administra el procesamiento por zona protegida con un máximo de 20 000 perfiles por segundo compartidos en todas las actividades de **Leer audiencia**. Las actividades individuales se pueden configurar de 500 a 20 000 perfiles por segundo. Si se alcanzan los límites de la zona protegida, los trabajos pueden ponerse en cola.
+* Tiempo de espera de procesamiento de trabajo: **Leer audiencia** trabajos que no se pueden procesar en un plazo de 12 horas se limpian automáticamente y no se ejecutarán.
 * Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
 * En el caso de los recorridos que utilizan ID suplementarios, la tasa de lectura de la actividad leer público para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
 
-Consulte [esta página](../building-journeys/read-audience.md#must-read).
+Consulte también [recomendaciones y configuración](../building-journeys/read-audience.md#must-read) para la actividad Leer audiencia.
 
 #### Actualizar actividad de perfil {#update-profile-g}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 4d62f9eedcf50f3ebaa2236b0a3286e7490c069c
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys
 
 Puede crear perfiles de prueba al [cargar un archivo CSV](#create-test-profiles-csv) o al usar [llamadas a la API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] también proporciona un [caso de uso en el producto](#use-case-1) específico para facilitar la creación del perfil de prueba.
 
-Puede cargar un archivo JSON en un conjunto de datos existente. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es#add-data-to-dataset){target="_blank"}.
+Puede cargar un archivo JSON en un conjunto de datos existente. Para obtener más información, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
 Crear un perfil de prueba es similar a crear perfiles normales en [!DNL Adobe Experience Platform]. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"}.
 
@@ -44,7 +44,7 @@ Para **crear un esquema**, siga estos pasos:
    ![Menú Esquemas con el botón Crear esquema](assets/test-profiles-0.png)
 
 1. Seleccione **[!UICONTROL Standard]** como opción de creación de esquema.
-1. Seleccione un tipo de esquema, por ejemplo **[!UICONTROL Perfil individual]**, y haga clic en **Siguiente**.
+1. Seleccione un tipo de esquema, por ejemplo **Perfil individual**, y haga clic en **Siguiente**.
    ![Selección de tipo de esquema que muestra la opción de perfil individual](assets/test-profiles-1.png)
 1. Escriba un nombre para el esquema y haga clic en **Finalizar**.
    ![Nombrar y guardar diálogo de esquema](assets/test-profiles-1-bis.png)
@@ -65,7 +65,7 @@ Una vez finalizado, haga clic en **[!UICONTROL Agregar grupos de campos]**: la l
    ![Panel de propiedades del esquema con la opción de perfil habilitada](assets/test-profiles-5.png)
 1. Haga clic en **Guardar**.
 
-Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#prerequisites){target="_blank"}.
+Para obtener más información sobre la creación de esquemas, consulte la [documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Entonces necesita **crear el conjunto de datos** en el que se importarán los pe
 
 >[!NOTE]
 >
-> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es#getting-started){target="_blank"}.
+> Para obtener más información sobre la creación de conjuntos de datos, consulte la [documentación del servicio de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso de uso dentro del producto {#use-case-1}
 
@@ -192,7 +192,7 @@ Los perfiles de prueba se han añadido y ahora se pueden utilizar para probar un
 
 >[!NOTE]
 >
->Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=es#tutorials){target="_blank"}.
+>Para obtener más información sobre las importaciones de csv, consulte la [documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
@@ -251,4 +251,4 @@ curl -X POST \
 
 Obtenga información sobre cómo crear perfiles de prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416330?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

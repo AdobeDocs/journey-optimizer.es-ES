@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
 * Elija un público para una **campaña**, donde el mensaje se envía a todos los particulares que pertenecen al público seleccionado. [Obtenga información sobre cómo definir el público de una campaña](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Use una actividad de orquestación **Leer audiencia** en un recorrido para hacer que todos los individuos de la audiencia entren al recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los clientes de plata entren en un recorrido. A continuación, puede enviarles una serie de mensajes personalizados. [Obtenga información sobre cómo configurar la actividad Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Use una actividad de orquestación **Leer audiencia** en un recorrido para hacer que todos los individuos de la audiencia entren al recorrido y reciban los mensajes incluidos en el recorrido. Supongamos que tiene un público de “clientes plata”. Con esta actividad, puede hacer que todos los clientes de plata entren en un recorrido. A continuación, puede enviarles una serie de mensajes personalizados. [Aprenda a configurar una actividad Leer audiencia](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Para segmentar, excluir o combinar ramas una vez que han entrado, consulte [Segmentación de audiencia en recorrido](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Después de la entrada, usa las actividades **Condition** para [segmentar por atributos o comportamiento, excluir parte de la población o combinar ramas](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
