@@ -19,7 +19,7 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"
->title="Actividad de prueba"
+>title="Actividad Prueba"
 >abstract="La actividad **Prueba** es una actividad de **Control de flujo**. Permite habilitar transiciones en función de condiciones especificadas."
 
 >[!CONTEXTUALHELP]
