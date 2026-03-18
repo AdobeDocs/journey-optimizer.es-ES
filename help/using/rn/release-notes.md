@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: ba89ad814b81e6194832cdc0619b7ac6322c797c
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 34%
+source-wordcount: '2029'
+ht-degree: 33%
 
 ---
 
@@ -80,7 +80,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -134,6 +134,11 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
   Fecha de disponibilidad: martes, 16 de marzo de 2026
 
+* **Detalles técnicos de pausa y reanudación en recorrido** - Los **detalles técnicos del recorrido** ahora incluyen información adicional de pausa y reanudación: la fecha y hora de la última pausa y reanudación, el nombre para mostrar y el identificador interno del usuario que realizó cada acción, y un conjunto completo de configuraciones de recorrido en pausa como el comportamiento de pausa, la duración máxima de la pausa y el estado de reanudación automática. [Más información](../building-journeys/journey-properties.md)
+
+  Fecha de disponibilidad: martes, 02 de marzo de 2026
+
+
 #### Configuración
 
 * **Cambio en el conjunto de datos de evento de comentarios secundarios de AJO** - Se está cambiando el nombre del conjunto de datos de evento de comentarios BCC de correo electrónico de AJO a Conjunto de datos de evento de comentarios secundarios de AJO.
@@ -141,13 +146,15 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
    * **Nuevos usuarios y nuevas zonas protegidas**: tanto el nombre para mostrar como el nombre de tabla utilizan el nuevo nombre.
    * **Usuarios/organizaciones existentes con zonas protegidas nuevas**: tanto el nombre para mostrar como el nombre de tabla cambian al nuevo nombre.
 
+     Fecha de disponibilidad: martes, 02 de marzo de 2026
+
 ## Notas de la versión de febrero de 2026 {#feb-26-01-rn}
 
 Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-01-improv) abarcan funcionalidades que ya están disponibles. La sección [Próximamente](#coming-soon) enumera las funciones y mejoras programadas para su lanzamiento en febrero.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
