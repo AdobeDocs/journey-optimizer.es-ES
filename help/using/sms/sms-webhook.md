@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
+source-git-commit: f91abf82dff8f9cc9e16d769bdfb65725f5e2983
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 1%
@@ -104,7 +104,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -113,9 +113,9 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -126,9 +126,9 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
       * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
@@ -137,7 +137,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
    +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -146,16 +146,16 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
       * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-   +++
+     +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -210,7 +210,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -219,9 +219,9 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -232,18 +232,18 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
       * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -252,16 +252,16 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
       * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-   +++
+     +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -323,7 +323,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
+   * 
      +++ Inclusión
 
       * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
@@ -332,9 +332,9 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opción de exclusión
 
       * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
@@ -345,18 +345,18 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
       * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Inclusión doble
 
       * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Ayuda
 
       * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
@@ -365,16 +365,16 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
       * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Personalizado
 
       * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
       * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-   +++
+     +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -393,7 +393,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,14 +432,14 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;estados&quot;: &lbrack;
-       &lbrace;
+       &quot;estados&quot;: [
+       {
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;estado&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
+       ]
        
        &quot;
    
