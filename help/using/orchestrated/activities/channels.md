@@ -5,9 +5,9 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
+source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1458'
 ht-degree: 43%
 
 ---
@@ -70,6 +70,11 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >En las campañas organizadas solo se admiten canales de SMS, push, de correo electrónico y de correo directo.
 
 ## Añadir una actividad de canal y definir sus propiedades {#add}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_category"
+>title="Target"
+>abstract="Marcador de posición para el campo Categoría"
 
 >[!PREREQUISITES]
 >
