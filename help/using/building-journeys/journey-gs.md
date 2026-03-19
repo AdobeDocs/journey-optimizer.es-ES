@@ -49,7 +49,7 @@ Cree recorridos de cliente de varios pasos para iniciar una secuencia de interac
 Obtenga más información acerca de cómo fluyen los perfiles entre los recorridos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
 <!-->[!TIP]
->>
+&#x200B;>>
 ¿No está seguro de si debe utilizar un recorrido o una campaña? [Aprenda a elegir el enfoque correcto](../start/journeys-vs-campaigns.md).
 >—>
 
