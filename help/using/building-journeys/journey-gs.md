@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
+source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1215'
 ht-degree: 10%
 
 ---
@@ -40,13 +40,11 @@ Los pasos principales para crear un recorrido se detallan en esta página. Se ra
 En esta guía debe hacer lo siguiente:
 
 * Definir un punto de entrada de recorrido: un segmento de audiencia o un evento en tiempo real
-* Agregar acciones de mensaje en varios canales (correo electrónico, push o SMS)
+* Añada acciones de mensaje en todos los canales: correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código, tarjeta de contenido y mucho más. [Ver canales admitidos](journey-action.md)
 * Pruebe el recorrido con perfiles de prueba antes de la activación
 * Publique el recorrido y monitorice su rendimiento
 
-Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes. Las audiencias de destino se definen en función del comportamiento, los datos contextuales y los eventos empresariales. Los requisitos previos dependen de su caso de uso y del [tipo de recorrido](entry-management.md#types-of-journeys) que esté generando.
-
-Obtenga más información acerca de cómo fluyen los perfiles entre los recorridos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
+Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes.
 
 <!--
 >[!TIP]
@@ -70,11 +68,9 @@ Los siguientes elementos son opcionales, pero pueden ser necesarios según el ca
 
 >[!NOTE]
 >
->Si usted es un ingeniero de datos responsable de la configuración técnica (eventos, fuentes de datos y acciones), consulte [esta sección](../configuration/about-data-sources-events-actions.md).
-
->[!NOTE]
+>* Si usted es un ingeniero de datos responsable de la configuración técnica (eventos, fuentes de datos y acciones), consulte [esta sección](../configuration/about-data-sources-events-actions.md).
 >
->Las limitaciones y protecciones de recorrido se detallan en [esta página](../start/guardrails.md).
+>* Las limitaciones y protecciones de recorrido se detallan en [esta página](../start/guardrails.md).
 
 ## Crear un recorrido {#jo-build}
 
@@ -88,7 +84,7 @@ Para crear un recorrido de varios pasos, siga estos pasos:
 
    >[!TIP]
    >
-   >**¿Qué tipo de recorrido debo elegir?** Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. Más información sobre [tipos de recorrido](entry-management.md#types-of-journeys).
+   >**¿Qué tipo de recorrido debo elegir?** Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. ¿Listo para profundizar? [Descubra todos los tipos de recorrido y sus reglas de entrada](entry-management.md#types-of-journeys).
 
    ![Panel de propiedades del Recorrido con opciones de configuración y configuración](assets/jo-properties.png)
 
@@ -140,19 +136,19 @@ Obtenga más información acerca de los informes de recorrido en esta [sección]
   <tr style="border: 0;">
     <td>
       <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
-        <img src="../assets/do-not-localize/icon-quick-start.svg">
+        <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
       </a>
       <div><strong>Serie de bienvenida</strong><br/>Incorpore automáticamente nuevos usuarios con una secuencia de mensajes después de registrarse, guiándolos a través de su producto o servicio.</div>
     </td>
     <td>
       <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
-        <img src="../assets/do-not-localize/icon-campaign.svg">
+        <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
       </a>
       <div><strong>Abandono del carro de compras</strong><br/>Vuelva a atraer a los clientes que se fueron sin completar una compra y envíenos un recordatorio oportuno con contenido personalizado.</div>
     </td>
     <td>
       <a href="jo-use-cases.md">
-        <img src="../assets/do-not-localize/icon-content.svg">
+        <img src="../assets/do-not-localize/icon-content.svg" width="35px">
       </a>
       <div><strong>Reparticipación</strong><br/>Recupere usuarios inactivos con ofertas o actualizaciones segmentadas basadas en su último comportamiento conocido.</div>
     </td>
@@ -166,6 +162,7 @@ Obtenga más información acerca de los informes de recorrido en esta [sección]
 
 ## Recursos adicionales
 
+* **[tipos de Recorrido y entrada de perfil](entry-management.md)**: comprenda todos los tipos de recorrido (evento unitario, evento empresarial, audiencia de lectura, calificación de audiencia) y cómo los perfiles entran, vuelven a entrar y fluyen por los recorridos.
 * **[Descripción general del diseñador de Recorridos](using-the-journey-designer.md)**: domine la interfaz de lienzo de recorrido para diseñar y organizar los recorridos de los clientes.
 * **[actividades de Recorrido](about-journey-activities.md)**: descubra todas las actividades disponibles, incluidos eventos, acciones y componentes de orquestación.
 * **[recorridos de prueba](testing-the-journey.md)**: aprenda a probar las recorridos mediante el modo de prueba antes de publicarlas en producción.
