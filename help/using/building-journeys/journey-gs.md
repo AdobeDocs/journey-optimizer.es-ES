@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 9%
+source-wordcount: '1213'
+ht-degree: 10%
 
 ---
 
@@ -48,10 +48,11 @@ Cree recorridos de cliente de varios pasos para iniciar una secuencia de interac
 
 Obtenga más información acerca de cómo fluyen los perfiles entre los recorridos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
-<!-->[!TIP]
-&#x200B;>>
-¿No está seguro de si debe utilizar un recorrido o una campaña? [Aprenda a elegir el enfoque correcto](../start/journeys-vs-campaigns.md).
->—>
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
 ## Antes de comenzar {#prerequisites}
 
