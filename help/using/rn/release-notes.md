@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 720cff6feca34f89851a28e1c2e6866ab2e51e2e
+source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 34%
+source-wordcount: '3121'
+ht-degree: 28%
 
 ---
 
@@ -27,24 +27,184 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
-## Actualizaciones de marzo de 2026 {#march-26-rn}
+## Notas previas al lanzamiento de marzo de 2026 {#march-26-rn}
+
+**Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
+
+Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Fecha de lanzamiento**: 24-25 de marzo de 2026
 
 ### Nuevas funciones {#march-26-features}
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Editor de HTML avanzado para plantillas de correo electrónico</strong><br/></th>
+<th><strong>LLM email optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El modo avanzado de HTML para plantillas de contenido de correo electrónico permite editar el origen de HTML del contenido en el Designer de correo electrónico, añadir expresiones avanzadas (como condiciones) en el origen y alternar entre la vista de HTML y la vista de escritorio sin perder los cambios.</p>
-<p>Esta capacidad solo está disponible en plantillas de contenido para el canal de correo electrónico. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener acceso.</p>
-<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>Para obtener más información, consulte la <a href="../content-management/email-template-expert-mode.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 10 de marzo de 2026</p>
+<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: Caso de uso de Crear campaña orquestada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Agent</strong>, con tecnología de Adobe Experience Platform Agent Orchestrator, ahora puede crear casos de uso completos de <strong>Campaign orquestada</strong> a través de una interfaz de lenguaje natural. Describa el objetivo y los requisitos de la campaña en un lenguaje sencillo y Journey Agent configurará la estructura de la campaña, las actividades y la segmentación automáticamente.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: Creación de contenido de canal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Mensajes transaccionales en campañas organizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, las campañas organizadas admiten <strong>mensajes transaccionales</strong>, lo que le permite almacenar en déclencheur mensajes en tiempo real impulsados por eventos (como confirmaciones de pedidos, notificaciones de reservas y actualizaciones de cuentas) directamente en el flujo de trabajo de la campaña.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Déclencheur de campañas orquestadas mediante API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede almacenar en déclencheur una campaña orquestada mediante API. Configure la campaña de Target como "Activada por una señal" y publíquela. A continuación, utilice una llamada de API para activar la campaña. La llamada de API puede incluir parámetros que estarán disponibles como variables en la campaña activada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de consulta incremental en campañas organizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay una nueva actividad <strong>Incremental query</strong> disponible en Campañas orquestadas. Esta actividad solo consulta registros nuevos o actualizados desde la última ejecución del flujo de trabajo, lo que reduce significativamente el tiempo de procesamiento y mejora la eficacia de las campañas recurrentes dirigidas a conjuntos de datos grandes.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de prueba en campañas organizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ya está disponible una nueva actividad <strong>Test</strong> en las campañas orquestadas. Esta actividad enruta la ejecución del flujo de trabajo a diferentes ramas en función de condiciones definidas, lo que permite validar la lógica y las configuraciones de la campaña antes de activar los envíos en directo.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimización de la ruta del recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>La optimización de la ruta de Recorrido</strong> usa IA para analizar el rendimiento del recorrido histórico y seleccionar automáticamente la mejor ruta para cada cliente, maximizando los resultados de conversión y participación.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con la búsqueda de conjuntos de datos en recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nueva actividad en recorrido, Búsqueda de conjuntos de datos, permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al utilizar esta capacidad, puede acceder a datos que podrían no estar en el perfil o en la carga útil del evento, lo que garantiza que sus interacciones con los clientes sean relevantes y oportunas. Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Para obtener más información, consulte la <a href="../building-journeys/dataset-lookup.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividades de acción del canal nativo obsoletas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Tras la disponibilidad general de la <strong>actividad de acción</strong> en febrero de 2026, las actividades de acción del canal nativo heredado (correo electrónico, SMS, push, en la aplicación, etc.) en el lienzo de recorrido ya no se utilizan. Los recorridos existentes que utilizan actividades de canal heredadas siguen funcionando sin necesidad de realizar cambios ni migraciones. Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede usar <strong>Decisioning</strong> para personalizar y optimizar el contenido de sus mensajes de correo electrónico. Aproveche las puntuaciones de prioridad, las fórmulas o los modelos de IA para mostrar las ofertas y el contenido más relevantes a cada destinatario.</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con esta versión de General Availability, ahora se admiten las páginas espejo.</p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/create-decision-policy.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -72,16 +232,14 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent: Creación de contenido de canal</strong><br/></th>
+<th><strong>Formularios personalizados en páginas de aterrizaje</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
+<p>Ahora puede crear <strong>formularios personalizados</strong> en páginas de aterrizaje para recopilar datos específicos del suscriptor más allá de los campos de inclusión estándar. Defina sus propios campos de formulario, reglas de validación y comportamientos de envío para admitir una gama más amplia de casos de uso de enriquecimiento de perfiles y suscripciones.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
 </tbody>
@@ -90,16 +248,48 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <table>
 <thead>
 <tr>
-<th><strong>Actividad en directo para iOS</strong><br/></th>
+<th><strong>Bandeja de entrada de mensaje</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Lleve las experiencias en tiempo real directamente a Lock Screens y Dynamic Island de sus clientes con la actividad en directo de iOS en Adobe Journey Optimizer. Proporcione actualizaciones en directo, desde el seguimiento de pedidos y el estado de los vuelos hasta la cuenta atrás de eventos, las puntuaciones en directo y el progreso de los envíos, sin que sea necesario que los usuarios abran la aplicación. Mantenga a su audiencia informada y comprometida exactamente en el momento adecuado, justo donde está.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p>Para obtener más información, consulte la <a href="../mobile-live/get-started-mobile-live.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: miércoles, 03 de marzo de 2026</p>
+<p>Ahora hay disponible una nueva <strong>Bandeja de entrada de mensajes</strong> en Adobe Journey Optimizer, que proporciona una vista centralizada de los mensajes recibidos en la aplicación, los mensajes push y los SMS. Los destinatarios pueden acceder a todos sus mensajes e interactuar con ellos en un solo lugar, lo que permite escenarios de participación y renovación de la participación más completos.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Conversión de imágenes en plantillas de contenido de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede convertir imágenes en plantillas de contenido de correo electrónico directamente en Journey Optimizer. Utilice el análisis con tecnología de IA para generar automáticamente plantillas de HTML estructuradas a partir de referencias visuales, lo que reduce significativamente el tiempo de diseño del correo electrónico.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Editor de HTML avanzado para plantillas de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El modo avanzado de HTML para plantillas de contenido de correo electrónico permite editar el origen de HTML del contenido en el Designer de correo electrónico, añadir expresiones avanzadas (como condiciones) en el origen y alternar entre la vista de HTML y la vista de escritorio sin perder los cambios.</p>
+<p>Esta capacidad solo está disponible en plantillas de contenido para el canal de correo electrónico. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../content-management/email-template-expert-mode.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 10 de marzo de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -124,9 +314,31 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Actividad en directo para iOS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Lleve las experiencias en tiempo real directamente a Lock Screens y Dynamic Island de sus clientes con la actividad en directo de iOS en Adobe Journey Optimizer. Proporcione actualizaciones en directo, desde el seguimiento de pedidos y el estado de los vuelos hasta la cuenta atrás de eventos, las puntuaciones en directo y el progreso de los envíos, sin que sea necesario que los usuarios abran la aplicación. Mantenga a su audiencia informada y comprometida exactamente en el momento adecuado, justo donde está.</p>
+<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../mobile-live/get-started-mobile-live.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 03 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mejoras {#march-26-improv}
 
+A continuación, se describen las mejoras incluidas en esta versión.
+
 #### Recorridos
+
+* **Arbitraje de Recorrido - Modelos de IA** - Además de las fórmulas de clasificación, los modelos de IA ahora se pueden usar con Arbitraje de Recorrido para clasificar y priorizar automáticamente la entrada de recorrido para los clientes, utilizando el aprendizaje automático para determinar el recorrido más relevante para cada perfil en función del comportamiento histórico y las señales contextuales. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 * **Envío masivo de mensajes salientes en recorridos**: ahora puede programar mensajes de recorridos de Journey Optimizer para que se entreguen en lotes controlados a lo largo del tiempo. [Más información](../building-journeys/send-using-waves.md)
 
@@ -138,15 +350,44 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
   Fecha de disponibilidad: martes, 02 de marzo de 2026
 
+#### Creación de informes
+
+* **Excluir clics de bots para informes de correo electrónico y SMS**: los informes de correo electrónico y SMS ahora filtran automáticamente los clics de bots de las métricas de clics, lo que proporciona datos de participación más precisos y evita que el tráfico automatizado infle las cifras de rendimiento.
+
+* **Optimización del tiempo de envío: la ubicación de los controles actualizados y el nuevo informe de alza** - Los controles de Optimización del tiempo de envío (STO) se han reubicado en el menú de configuración Acción. Además, ahora hay disponible un nuevo informe de alza en los informes de Recorrido para medir el impacto de STO en las métricas de rendimiento de la campaña.
+
+#### Diseñador de correo electrónico
+
+* **Personalización en tiempo abierto con Dynamic Media (Beta)**: ahora puede personalizar el contenido del correo electrónico en el momento de la apertura con recursos de Dynamic Media de Adobe, lo que permite imágenes y imágenes en tiempo real y específicas del destinatario que se generan dinámicamente en función de los atributos de cada destinatario en el momento de la apertura del correo electrónico. Esta capacidad se encuentra actualmente en Beta.
+
+* **Designer de correo electrónico mostrado en Unified Shell**: ahora, el Designer de correo electrónico se muestra dentro de la experiencia Unified Shell, lo que proporciona una experiencia de navegación y encabezado coherente que se alinea con otras aplicaciones de Adobe.
+
+* **Compatibilidad con el modo de texto en fragmentos**: los fragmentos ahora admiten la edición en modo de texto, lo que le permite crear y administrar versiones de texto sin formato de sus fragmentos de contenido para usarlos en flujos de trabajo de correo electrónico basados en texto y en escenarios multicanal.
+
+#### Toma de decisiones
+
+* **Compatibilidad con fuentes de cambio de referencia de fragmentos de expresiones en Edge Decisioning**: esta mejora permite que los cambios en las referencias de fragmentos se reflejen automáticamente en todos los elementos que hacen referencia a fragmentos, sin necesidad de actualizar nada manualmente (volviendo a publicar la campaña o la directiva de decisión).
+
+* **Fragmentos opcionales en elementos de decisión**: los fragmentos adjuntos a los elementos de decisión ahora se pueden configurar como opcionales, lo que proporciona una mayor flexibilidad en la composición de contenido cuando no todas las representaciones de elementos de decisión requieren un fragmento específico.
 
 #### Configuración
+
+* **Cifrado de parámetros de URL**: los parámetros de URL en los vínculos de seguimiento y las páginas de aterrizaje ahora se pueden cifrar, lo que proporciona una capa adicional de seguridad para los datos de parámetros confidenciales. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+* **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas, lo que permite una navegación estructurada y una administración más sencilla para los equipos que trabajan con grandes volúmenes de contenido. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 * **Cambio en el conjunto de datos de evento de comentarios secundarios de AJO** - Se está cambiando el nombre del conjunto de datos de evento de comentarios BCC de correo electrónico de AJO a Conjunto de datos de evento de comentarios secundarios de AJO.
    * **Usuarios existentes**: Solo cambia el nombre para mostrar. El nombre de la tabla subyacente permanece sin cambios.
    * **Nuevos usuarios y nuevas zonas protegidas**: tanto el nombre para mostrar como el nombre de tabla utilizan el nuevo nombre.
    * **Usuarios/organizaciones existentes con zonas protegidas nuevas**: tanto el nombre para mostrar como el nombre de tabla cambian al nuevo nombre.
 
-     Fecha de disponibilidad: martes, 02 de marzo de 2026
+  Fecha de disponibilidad: martes, 02 de marzo de 2026
+
+#### Campañas orquestadas
+
+* **Variables globales en campañas orquestadas**: las campañas orquestadas ahora admiten variables globales que se pueden definir una vez y reutilizar en todas las actividades dentro de un flujo de trabajo, lo que simplifica la configuración y garantiza la coherencia en los valores dinámicos, las expresiones y la personalización de contenido.
+
+* **Simplificación de la dimensión de destino en campañas orquestadas**: ahora puede seleccionar o deducir fácilmente las dimensiones de segmentación y secundarias correctas en campañas orquestadas para una activación de audiencia precisa y eficaz.
 
 ## Notas de la versión de febrero de 2026 {#feb-26-01-rn}
 
@@ -154,7 +395,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
