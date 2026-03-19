@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fce84d7b9ee636cec68c8fcbde8eeb88d19cacab
+source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
 workflow-type: tm+mt
-source-wordcount: '3183'
-ht-degree: 26%
+source-wordcount: '3136'
+ht-degree: 27%
 
 ---
 
@@ -80,7 +80,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -381,8 +381,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Diseñador de correo electrónico
 
-* **Personalización en tiempo abierto con Dynamic Media (Beta)**: ahora puede personalizar el contenido del correo electrónico en el momento de la apertura con recursos de Dynamic Media de Adobe, lo que permite imágenes y imágenes en tiempo real y específicas del destinatario que se generan dinámicamente en función de los atributos de cada destinatario en el momento de la apertura del correo electrónico. Esta capacidad se encuentra actualmente en Beta.
-
 * **Designer de correo electrónico mostrado en Unified Shell**: ahora, el Designer de correo electrónico se muestra dentro de la experiencia Unified Shell, lo que proporciona una experiencia de navegación y encabezado coherente que se alinea con otras aplicaciones de Adobe.
 
 * **Compatibilidad con modo de texto en fragmentos**: para admitir flujos de trabajo de correo electrónico basados en texto, ahora puede crear y administrar versiones de texto de los fragmentos visuales para un uso óptimo en la versión de texto sin formato de los correos electrónicos que incluyen ese fragmento.
@@ -419,7 +417,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
