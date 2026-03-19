@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: e0ad37aeba1bf577074382fc89c873af4c57b560
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 28%
+source-wordcount: '3241'
+ht-degree: 27%
 
 ---
 
@@ -80,8 +80,24 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitraje de recorrido: modelos de IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede utilizar modelos de IA en las fórmulas de clasificación para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <table>
 <thead>
 <tr>
+<th><strong>Cifrado de parámetros de URL</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los parámetros de URL en los vínculos de seguimiento y en las páginas de aterrizaje ahora se pueden cifrar, lo que proporciona una capa adicional de seguridad para los datos de parámetros confidenciales.</p>
+<ul>
+<li>Registre y administre claves de cifrado en un registro <strong>Administration</strong> dedicado.</li>
+<li>Utilice el nuevo asistente de cifrado en expresiones para cifrar datos confidenciales en vínculos de seguimiento y direcciones URL de páginas de aterrizaje para los parámetros de consulta que desea proteger en el momento del procesamiento.</li>
+</ul>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Optimización de la ruta del recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>La optimización de la ruta de Recorrido</strong> usa IA para analizar el rendimiento del recorrido histórico y seleccionar automáticamente la mejor ruta para cada cliente, maximizando los resultados de conversión y participación.</p>
+<p>Utilice el nuevo nodo Optimizar para dirigirse a audiencias específicas o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI centrados en el negocio.
+Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
+</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Tras la disponibilidad general de la <strong>actividad de acción</strong> en febrero de 2026, las actividades de acción del canal nativo heredado (correo electrónico, SMS, push, en la aplicación, etc.) en el lienzo de recorrido ya no se utilizan. Los recorridos existentes que utilizan actividades de canal heredadas siguen funcionando sin necesidad de realizar cambios ni migraciones. Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
+<p>Tras la disponibilidad general de la <strong>actividad de acción</strong> en febrero de 2026, las actividades de canal nativo heredadas (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en el lienzo de recorrido ya no se utilizan.</p>
+<p>Ahora utiliza una sola <strong>actividad de acción</strong> para configurar todas las acciones del canal, reemplazando la necesidad de nodos separados específicos del canal.</p>
+Los recorridos existentes que utilicen actividades de canal heredadas seguirán funcionando sin necesidad de realizar cambios ni migraciones.
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Recorridos
 
-* **Arbitraje de Recorrido - Modelos de IA** - Además de las fórmulas de clasificación, los modelos de IA ahora se pueden usar con Arbitraje de Recorrido para clasificar y priorizar automáticamente la entrada de recorrido para los clientes, utilizando el aprendizaje automático para determinar el recorrido más relevante para cada perfil en función del comportamiento histórico y las señales contextuales. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
 * **Envío masivo de mensajes salientes en recorridos**: ahora puede programar mensajes de recorridos de Journey Optimizer para que se entreguen en lotes controlados a lo largo del tiempo. [Más información](../building-journeys/send-using-waves.md)
 
   Esta capacidad, que se publicó anteriormente en Disponibilidad limitada para utilizarla en recorrido, ya está disponible en todos los entornos (disponibilidad general).
@@ -362,24 +401,25 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Designer de correo electrónico mostrado en Unified Shell**: ahora, el Designer de correo electrónico se muestra dentro de la experiencia Unified Shell, lo que proporciona una experiencia de navegación y encabezado coherente que se alinea con otras aplicaciones de Adobe.
 
-* **Compatibilidad con el modo de texto en fragmentos**: los fragmentos ahora admiten la edición en modo de texto, lo que le permite crear y administrar versiones de texto sin formato de sus fragmentos de contenido para usarlos en flujos de trabajo de correo electrónico basados en texto y en escenarios multicanal.
+* **Compatibilidad con modo de texto en fragmentos**: para admitir flujos de trabajo de correo electrónico basados en texto, ahora puede crear y administrar versiones de texto de los fragmentos visuales para un uso óptimo en la versión de texto sin formato de los correos electrónicos que incluyen ese fragmento.
+
+  **Precaución:** Al utilizar un fragmento creado antes de la versión actual, la versión de texto del fragmento puede procesarse incorrectamente, tanto en el Designer de correo electrónico como en el correo electrónico final enviado a los destinatarios. Para obtener los mejores resultados con fragmentos antiguos, edite, guarde y vuelva a publicar cada fragmento.
 
 #### Toma de decisiones
 
-* **Compatibilidad con fuentes de cambio de referencia de fragmentos de expresiones en Edge Decisioning**: esta mejora permite que los cambios en las referencias de fragmentos se reflejen automáticamente en todos los elementos que hacen referencia a fragmentos, sin necesidad de actualizar nada manualmente (volviendo a publicar la campaña o la directiva de decisión).
+* **Fuente de cambio de referencia de fragmento de expresión en Edge Decisioning**: esta mejora permite que los cambios en las referencias de fragmento se reflejen automáticamente en todos los elementos que hacen referencia a fragmentos, sin necesidad de actualizar nada manualmente (volviendo a publicar la campaña o la directiva de decisión).
 
-* **Fragmentos opcionales en elementos de decisión**: los fragmentos adjuntos a los elementos de decisión ahora se pueden configurar como opcionales, lo que proporciona una mayor flexibilidad en la composición de contenido cuando no todas las representaciones de elementos de decisión requieren un fragmento específico.
+* **Fragmentos opcionales en elementos de decisión**: al utilizar fragmentos en elementos de decisión, ahora puede hacer que un fragmento sea opcional para que, si no está disponible temporalmente en Edge, se omita y el recorrido o la campaña sigan procesando en lugar de dar error.
 
 #### Configuración
 
-* **Cifrado de parámetros de URL**: los parámetros de URL en los vínculos de seguimiento y las páginas de aterrizaje ahora se pueden cifrar, lo que proporciona una capa adicional de seguridad para los datos de parámetros confidenciales. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas, lo que permite una navegación estructurada y una administración más sencilla para los equipos que trabajan con grandes volúmenes de contenido. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-* **Cambio en el conjunto de datos de evento de comentarios secundarios de AJO** - Se está cambiando el nombre del conjunto de datos de evento de comentarios BCC de correo electrónico de AJO a Conjunto de datos de evento de comentarios secundarios de AJO.
-   * **Usuarios existentes**: Solo cambia el nombre para mostrar. El nombre de la tabla subyacente permanece sin cambios.
-   * **Nuevos usuarios y nuevas zonas protegidas**: tanto el nombre para mostrar como el nombre de tabla utilizan el nuevo nombre.
-   * **Usuarios/organizaciones existentes con zonas protegidas nuevas**: tanto el nombre para mostrar como el nombre de tabla cambian al nuevo nombre.
+* **Nombre del conjunto de datos de evento de comentarios secundarios de AJO** - Se ha cambiado el nombre del conjunto de datos de evento de comentarios BCC de correo electrónico de AJO a Conjunto de datos de evento de comentarios secundarios de destinatario de AJO. El impacto varía según la situación:
+
+   * **Usuarios existentes**: solo se actualiza el nombre para mostrar. El nombre de la tabla subyacente permanece sin cambios.
+   * **Nuevos usuarios y zonas protegidas**: Tanto el nombre para mostrar como el nombre de tabla reflejan el nuevo nombre.
+   * **Usuarios existentes con zonas protegidas nuevas**: tanto el nombre para mostrar como el nombre de tabla se actualizarán al nuevo nombre.
 
   Fecha de disponibilidad: martes, 02 de marzo de 2026
 
@@ -391,11 +431,11 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 ## Notas de la versión de febrero de 2026 {#feb-26-01-rn}
 
-Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-01-improv) abarcan funcionalidades que ya están disponibles. La sección [Próximamente](#coming-soon) enumera las funciones y mejoras programadas para su lanzamiento en febrero.
+Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-01-improv) abarcan funcionalidades que ya están disponibles. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
