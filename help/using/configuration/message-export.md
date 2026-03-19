@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: exportación, mensajes, HIPAA, correos electrónicos, SMS, configuración
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 3%
+source-wordcount: '701'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta del complemento Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.
+>Esta funcionalidad solo está disponible para el canal de correo electrónico y SMS, para organizaciones que han adquirido la oferta de complemento de Exportación de mensajes. Para obtener más información, contacte con su representante de Adobe.
 
 **Message Export** le permite transferir el contenido de mensajes SMS y de correo electrónico enviados desde [!DNL Journey Optimizer] a su propio almacenamiento a través de [!DNL Adobe Experience Platform] destinos, lo que le permite enviar datos de [!DNL Experience Platform] a extremos externos. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -52,15 +52,17 @@ El proceso de incorporación de la función Exportación de mensajes consta de d
 
 ### Configuración del flujo de datos de exportación {#set-up-export-dataflow}
 
-Antes de poder exportar los datos, debe configurar el proceso de exportación definiendo el destino [!DNL Experience Platform] y el conjunto de datos que se utilizará. Siga los pasos a continuación.
+Antes de poder exportar los datos, configure el proceso de exportación definiendo el destino [!DNL Experience Platform] y el flujo de exportación del conjunto de datos.
+
+Para ver los pasos detallados, los destinos de nube admitidos, los permisos requeridos y más información, consulte [esta sección](../data/export-datasets.md#export-datasets).
 
 >[!NOTE]
 >
 >Esta configuración debe configurarse para cada zona protegida.
 
-1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Cree un flujo de exportación de conjunto de datos con los siguientes datos:
 

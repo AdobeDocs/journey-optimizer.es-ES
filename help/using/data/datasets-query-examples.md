@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Opt
 * [Conjunto de datos de evento de experiencia de seguimiento push](#push-tracking-experience-event-dataset)
 * [Evento de paso de recorrido](#journey-step-event)
 * [Conjunto de datos de evento](#ode-decisionevents)
-* [Conjunto de datos de evento de comentarios CCO](#bcc-feedback-event-dataset)
+* [Conjunto de datos de evento de comentarios del destinatario secundario (CCO)](#bcc-feedback-event-dataset)
 * [Conjunto de datos de entidad](#entity-dataset)
 
 Para ver la lista completa de campos y atributos para cada esquema, consulte el [diccionario del esquema de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Conjunto de datos de evento de comentarios CCO{#bcc-feedback-event-dataset}
+## Conjunto de datos de evento de comentarios del destinatario secundario (CCO){#bcc-feedback-event-dataset}
 
-_Nombre en la interfaz: conjunto de datos de evento de comentarios BCC de AJO (conjunto de datos del sistema)_
+_Nombre en la interfaz: conjunto de datos de evento de comentarios secundarios del destinatario de AJO (conjunto de datos del sistema). En el servicio de consultas, la tabla del conjunto de datos aún puede llamarse `ajo_bcc_feedback_event_dataset`._
 
-Conjunto de datos para almacenar información para mensajes CCO.
+Conjunto de datos para mensajes CCO del correo electrónico (destinatario secundario) cuando el archivado de CCO está habilitado.
 
 Consulte todos los mensajes CCO en un plazo de 2 días (para una campaña en particular):
 
