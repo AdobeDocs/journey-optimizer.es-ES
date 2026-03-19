@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
+source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 80%
+source-wordcount: '1490'
+ht-degree: 72%
 
 ---
 
@@ -338,3 +338,18 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parámetros de encabezado"
 >abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery"
+>title="Consulta incremental"
+>abstract="La consulta incremental es una actividad de segmentación que ejecuta una consulta de base de datos cada vez que se ejecuta la campaña orquestada. Solo devuelve registros nuevos y excluye a cualquier persona que ya se haya incluido en una ejecución anterior, por lo que evita volver a dirigirse a las mismas personas o volver a exportar las mismas filas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_processeddata"
+>title="Datos procesados"
+>abstract="En Datos procesados, elija cómo excluir registros de ejecuciones anteriores. Con Exclude results of previous execution, la actividad mantiene una lista de registros devueltos en ejecuciones anteriores; cada ejecución excluye esos registros y devuelve solo los nuevos. Con la opción Use a date field, la actividad utiliza un campo de fecha seleccionado en lugar de rastrear ID individuales, y cada ejecución devuelve solo filas cuya fecha es posterior a la última ejecución."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_history"
+>title="Historial en días"
+>abstract="Esta opción controla cuánto tiempo se retiene esa lista. Un valor de 0 significa retención indefinida; no se eliminan registros."
