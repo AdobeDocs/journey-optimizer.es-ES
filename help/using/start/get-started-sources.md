@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -95,13 +95,17 @@ Adobe Journey Optimizer utiliza el marco de trabajo de fuentes de Adobe Experien
 
 Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano, lo que mantiene los datos de los clientes actualizados y listos para usarlos en los recorridos.
 
+>[!NOTE]
+>
+>**Ingesta de datos para campañas orquestadas**: para los orígenes de captura de datos modificados basados en archivos que se usan con campañas orquestadas, se requiere el campo `_change_request_type`. Los valores admitidos son `u` (actualización) o `d` (eliminación). Estos valores deben estar en minúsculas `u` y `d`, no en mayúsculas `U` y `D`. [Más información sobre las limitaciones y protecciones de las campañas orquestadas](../orchestrated/guardrails.md)
+
 ## Más información {#learn-more}
 
 ![](assets/sources-home.png)
 
 Vea este vídeo para comprender los conectores de origen y cómo configurarlos en Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422582?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Para obtener información detallada sobre cómo configurar y administrar fuentes, consulte la [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.
 

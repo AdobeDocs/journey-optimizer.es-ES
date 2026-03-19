@@ -5,9 +5,9 @@ title: Limitaciones y protecciones de campañas organizadas
 description: Obtenga información acerca de las limitaciones y protecciones de campañas orquestadas
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -33,15 +33,15 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * El número promedio de atributos por esquema **no debe exceder las 50 columnas** para mantener la capacidad de administración y el rendimiento.
 
-* No se pueden habilitar los esquemas relacionales para los **perfiles** de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* No se pueden habilitar los esquemas relacionales para los **perfiles** de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para **Perfiles** de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Ingesta de datos
+### Ingesta de datos {#data-ingestion}
 
 * Se requiere la ingesta de datos relacionales y de perfil.
 
 * Toda la ingesta debe realizarse a través de **Cambiar captura de datos** orígenes:
 
-   * Para **basado en archivos**: se requiere el campo `_change_request_type`. Los valores admitidos son `U` (actualizado) o `D` (eliminado).
+   * Para **basado en archivos**: se requiere el campo `_change_request_type`. Los valores admitidos son `u` (actualizado) o `d` (eliminado). Estos valores deben estar en minúsculas `u` y `d`, no en mayúsculas `U` y `D`.
 
    * Para **basado en la nube**: debe habilitarse el registro de tablas.
 
