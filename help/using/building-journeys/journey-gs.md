@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 19%
+source-wordcount: '1230'
+ht-degree: 9%
 
 ---
 
@@ -37,36 +37,43 @@ Los pasos principales para crear un recorrido se detallan en esta página. Se ra
 
 ![Pasos de creación de recorrido: crear, diseñar, probar y publicar](assets/journey-creation-process.png)
 
+En esta guía debe hacer lo siguiente:
+
+* Definir un punto de entrada de recorrido: un segmento de audiencia o un evento en tiempo real
+* Agregar acciones de mensaje en varios canales (correo electrónico, push o SMS)
+* Pruebe el recorrido con perfiles de prueba antes de la activación
+* Publique el recorrido y monitorice su rendimiento
 
 Cree recorridos de cliente de varios pasos para iniciar una secuencia de interacciones, ofertas y mensajes en varios canales en tiempo real. Este enfoque garantiza que los clientes se involucren en los momentos óptimos en función de sus acciones y señales comerciales relevantes. Las audiencias de destino se definen en función del comportamiento, los datos contextuales y los eventos empresariales. Los requisitos previos dependen de su caso de uso y del [tipo de recorrido](entry-management.md#types-of-journeys) que esté generando.
 
 Obtenga más información acerca de cómo fluyen los perfiles entre los recorridos y las tasas de procesamiento de recorridos en [esta sección](entry-management.md#journey-processing-rate).
 
-Antes de empezar a crear el recorrido, asegúrese de que se han completado los pasos de configuración relevantes:
+<!-->[!TIP]
+>>
+¿No está seguro de si debe utilizar un recorrido o una campaña? [Aprenda a elegir el enfoque correcto](../start/journeys-vs-campaigns.md).
+>—>
 
-* Si desea almacenar en déclencheur las recorridos individualmente cuando se reciba un evento, **configure un evento**. Defina la información esperada y cómo procesarla. [Más información](../event/about-events.md).
+## Antes de comenzar {#prerequisites}
 
-<!--   ![](assets/jo-event7bis.png)  -->
+Lo que debe configurar antes de crear depende de cómo se active el recorrido. La mayoría de los recorridos comienzan desde uno de estos dos puntos de entrada:
 
-* El recorrido también puede escuchar a las audiencias de Adobe Experience Platform para enviar mensajes por lotes a un conjunto específico de perfiles. Para esto, **cree audiencias**. [Más información](../audience/about-audiences.md).
+* **Entrada basada en audiencias**: el recorrido se ejecuta para un conjunto definido de perfiles a una hora programada. [Cree una audiencia](../audience/about-audiences.md) en Adobe Experience Platform antes de generar su recorrido. Este es el punto de partida recomendado si es su primera vez en Journey Optimizer.
 
-<!--   ![](assets/segment2.png)  -->
+* **Entrada basada en eventos**: el recorrido se activa en tiempo real cuando un individuo realiza una acción, como una compra o un registro. [Configura un evento](../event/about-events.md) para definir el déclencheur y los datos que lleva.
 
-* Defina una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos, por ejemplo, en las condiciones. Esta conexión se basa en un **origen de datos**. [Más información](../datasource/about-data-sources.md).
+Los siguientes elementos son opcionales, pero pueden ser necesarios según el caso de uso:
 
-<!--   ![](assets/jo-datasource.png)  -->
+* **Fuente de datos**: para enriquecer las condiciones del recorrido o la personalización con datos de un sistema externo, configure una [fuente de datos](../datasource/about-data-sources.md).
 
-* Journey Optimizer viene con [funciones integradas de mensajes](../building-journeys/journey-action.md). Si usa un sistema de terceros para enviar mensajes, puede **crear una acción personalizada**. Obtenga más información en esta [sección](../action/action.md).
-
-<!--    ![](assets/custom2.png)  -->
-
-
-Como ingeniero de datos, los pasos para configurar sus recorridos, incluidas las fuentes de datos, los eventos y las acciones, se detallan en [esta sección](../configuration/about-data-sources-events-actions.md).
-
+* **Acción personalizada**: si envía mensajes a través de un sistema de terceros en lugar de los canales integrados, configure una [acción personalizada](../action/action.md).
 
 >[!NOTE]
 >
->En [esta página](../start/guardrails.md) se detallan los mecanismos de protección y limitaciones de los recorridos
+>Si usted es un ingeniero de datos responsable de la configuración técnica (eventos, fuentes de datos y acciones), consulte [esta sección](../configuration/about-data-sources-events-actions.md).
+
+>[!NOTE]
+>
+>Las limitaciones y protecciones de recorrido se detallan en [esta página](../start/guardrails.md).
 
 ## Crear un recorrido {#jo-build}
 
@@ -78,25 +85,33 @@ Para crear un recorrido de varios pasos, siga estos pasos:
 
 1. Edite el panel de configuración del recorrido para definir el nombre del recorrido y sus propiedades. Aprenda a establecer las propiedades de su recorrido en [esta página](journey-properties.md).
 
+   >[!TIP]
+   >
+   >**¿Qué tipo de recorrido debo elegir?** Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. Más información sobre [tipos de recorrido](entry-management.md#types-of-journeys).
+
    ![Panel de propiedades del Recorrido con opciones de configuración y configuración](assets/jo-properties.png)
 
 A continuación, puede empezar a diseñar el recorrido.
 
 ## Diseño del recorrido {#jo-design}
 
-El diseñador de recorridos omnicanal le ayuda a crear recorridos de varios pasos con públicos destinatarios, actualizaciones basadas en interacciones comerciales o de clientes en tiempo real y mensajes omnicanal mediante una interfaz intuitiva de arrastrar y soltar.
-
->[!TIP]
->
->Para los recorridos con varias fases o varios puntos de contacto, considere la posibilidad de dividir el flujo de extremo a extremo en recorridos secundarios más pequeños y centrados conectados con la actividad **[!UICONTROL Jump]**. Este método reduce la complejidad y facilita las pruebas y el mantenimiento independientes de cada recorrido secundario. Más información en [Estrategia de diseño: recorridos secundarios](jump.md#jump-strategy).
+El diseñador de recorridos le permite crear recorridos de varios pasos con una interfaz intuitiva de arrastrar y soltar. Las actividades de la paleta izquierda están organizadas en tres categorías: **Eventos**, **Orquestación** y **Acciones**. Para obtener una descripción general completa del lienzo y sus controles, consulte [esta página](using-the-journey-designer.md).
 
 ![Interfaz de diseñador de Recorrido con paleta y lienzo de actividades](assets/journey38.png)
 
-1. Para empezar, arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
+Siga estos pasos para diseñar el recorrido:
+
+1. **Agregar un punto de entrada** — Arrastre un evento o una actividad de **[!UICONTROL Leer audiencia]** desde la paleta al lienzo. Define la forma en la que los perfiles entran en el recorrido: individualmente en tiempo real (basado en eventos) o todos a la vez desde una audiencia definida (basado en audiencias).
 
    ![Leer la configuración de actividades de Audiencia para seleccionar la audiencia objetivo](assets/read-segment.png)
 
-1. Arrastre y suelte un evento o una actividad **Leer audiencia** de la paleta en el lienzo. Para obtener más información sobre el diseño de recorrido, consulte [esta sección](using-the-journey-designer.md).
+1. **Agregar acciones de mensaje**: en la sección **[!UICONTROL Acciones]** de la paleta, arrastre una acción de canal al lienzo para enviar mensajes a los perfiles que fluyen por el recorrido. Las acciones están disponibles para correo electrónico, notificaciones push, SMS y más.
+
+1. **Agregar actividades de orquestación**: use una actividad **[!UICONTROL Condición]** para bifurcar el recorrido en varias rutas de acceso según el comportamiento o los atributos del perfil. Use una actividad **[!UICONTROL Wait]** para establecer un tiempo de espera entre pasos.
+
+>[!TIP]
+>
+>Para los recorridos con varias fases o varios puntos de contacto, considere la posibilidad de dividir el flujo de extremo a extremo en subrecorridos más pequeños conectados con la actividad **[!UICONTROL Jump]**. Esto reduce la complejidad y facilita las pruebas independientes de cada recorrido secundario. Más información en [Estrategia de diseño: recorridos secundarios](jump.md#jump-strategy).
 
 ## Prueba del recorrido {#jo-test}
 
@@ -116,6 +131,38 @@ Una vez publicado, puede monitorizar su recorrido mediante las herramientas de s
 
 Obtenga más información acerca de los informes de recorrido en esta [sección](../reports/live-report.md).
 
+## Casos de uso comunes {#use-cases}
+
+¿No estás seguro de por dónde empezar? Estos son tres escenarios típicos en los que los recorridos proporcionan el mayor valor:
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+      <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+        <img src="../assets/do-not-localize/icon-quick-start.svg">
+      </a>
+      <div><strong>Serie de bienvenida</strong><br/>Incorpore automáticamente nuevos usuarios con una secuencia de mensajes después de registrarse, guiándolos a través de su producto o servicio.</div>
+    </td>
+    <td>
+      <a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+        <img src="../assets/do-not-localize/icon-campaign.svg">
+      </a>
+      <div><strong>Abandono del carro de compras</strong><br/>Vuelva a atraer a los clientes que se fueron sin completar una compra y envíenos un recordatorio oportuno con contenido personalizado.</div>
+    </td>
+    <td>
+      <a href="jo-use-cases.md">
+        <img src="../assets/do-not-localize/icon-content.svg">
+      </a>
+      <div><strong>Reparticipación</strong><br/>Recupere usuarios inactivos con ofertas o actualizaciones segmentadas basadas en su último comportamiento conocido.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+  </tr>
+</table>
+
 ## Recursos adicionales
 
 * **[Descripción general del diseñador de Recorridos](using-the-journey-designer.md)**: domine la interfaz de lienzo de recorrido para diseñar y organizar los recorridos de los clientes.
@@ -126,6 +173,3 @@ Obtenga más información acerca de los informes de recorrido en esta [sección]
 * **[recorridos para solucionar problemas](troubleshooting.md)**: encuentre soluciones a problemas comunes de recorridos y prácticas recomendadas para la depuración.
 * **[Tutoriales de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}**: Explore tutoriales de vídeo paso a paso sobre la creación de recorridos y las prácticas recomendadas.
 
->[!NOTE]
->
->Si necesita modificar un recorrido de **live**, [cree una nueva versión](journey-ui.md#journey-filter) de su recorrido.
