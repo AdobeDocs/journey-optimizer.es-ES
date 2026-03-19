@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0088b81d0d8a45626611dfdcf063766e2bcf50c4
+source-git-commit: 50b32702daeb90fea097f384797dcb5f82c65796
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 72%
+source-wordcount: '1495'
+ht-degree: 73%
 
 ---
 
@@ -362,9 +362,4 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_inbox_app_id"
 >title="ID de la aplicación"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Ubicación o ruta dentro de la aplicación"
 >abstract="."
