@@ -5,9 +5,9 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1453'
 ht-degree: 43%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 43%
 >id="ajo_orchestration_push"
 >title="Actividad Push"
 >abstract="La actividad Push le permite enviar notificaciones Push como parte de la campaña orquestada. Permite enviar campañas orquestadas únicas y recurrentes, automatizando el envío de notificaciones push a un destino predefinido dentro de la campaña orquestada. Puede combinar actividades de canal en el lienzo de la campaña para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_target"
+>title="Target"
+>abstract="Marcador de posición para la sección Target"
 
 <!--
 UNUSED IDs in BJ
