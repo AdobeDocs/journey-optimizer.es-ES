@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -483,6 +483,29 @@ Para salida en minúsculas, combine con la función `lowerCase`:
 Salida: `sun`, `mon`, `tue`, etc.
 
 +++
+
++++Formato de una marca de tiempo desde un evento de contexto
+
+Al utilizar una marca de tiempo de un atributo de contexto de evento de recorrido, se aplican dos requisitos:
+
+* **Agrupe la marca de tiempo con`toDateTime()`**: `formatDate()` no reconoce automáticamente las marcas de tiempo de evento de contexto como valores de fecha y hora.
+* **Agrupar identificadores de evento numéricos en comillas invertidas**: si el identificador de evento es un número (por ejemplo, `1697323153`), debe especificarse con comillas invertidas en la ruta de acceso de la expresión; de lo contrario, el editor genera un error de sintaxis de PQL.
+* **Usar sintaxis de asignación `{% let %}`** — la sintaxis `{%= %}` en línea no admite este patrón. Asigne primero el resultado a una variable y después renderícelo con `{{varName}}`.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Salida (ejemplo): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Error común: &quot;entrada &#39;(&#39; no coincidente esperando \&lt;EOF\>&quot;**
+>
+>Este error de sintaxis de PQL se produce cuando se utiliza `formatDate()` con una marca de tiempo de evento de contexto en línea (`{%= formatDate(...) %}`). Las causas más comunes son un id. de evento numérico que no se ajusta entre comillas invertidas (`` ` ``) o un campo de marca de tiempo pasado directamente a `formatDate()` sin ajustarlo primero a `toDateTime()`. Para solucionar ambos problemas, utilice el patrón de asignación `{% let %}` que se muestra en el ejemplo anterior.
 
 ### Caracteres de patrón {#pattern-characters}
 

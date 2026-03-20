@@ -8,9 +8,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,19 @@ context.journey.events.<event_ID>.<fieldPath>
 * `<event_ID>`: el identificador único del evento, tal como se configuró en el recorrido
 * `<fieldPath>`: la ruta de acceso al campo o matriz dentro del esquema de evento
 
+>[!NOTE]
+>
+>**Los ID de evento numéricos requieren un acento grave.** Si el id. de evento es un número (por ejemplo, `1697323153`), ajuste entre comillas invertidas (`` ` ``) en la ruta de acceso de la expresión. Sin compases, el analizador de PQL genera un error de sintaxis.
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>Para obtener más información y un ejemplo completo que incluya el formato de fecha de las marcas de tiempo de evento, consulte [Formato de una marca de tiempo a partir de un evento de contexto](../personalization/functions/dates.md#format-date).
+
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4&rbrace;), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
@@ -1042,4 +1053,3 @@ Use [modo de prueba de recorrido](../building-journeys/testing-the-journey.md) p
 **Casos de uso de Personalization:** [Correo electrónico de abandono del carro de compras](personalization-use-case-helper-functions.md) | [Notificación de estado del pedido](personalization-use-case.md)
 
 **Diseño de mensaje:** [Introducción al diseño de correo electrónico](../email/get-started-email-design.md) | [Crear notificaciones push](../push/create-push.md) | [Crear mensajes SMS](../sms/create-sms.md) | [Previsualizar y probar tu contenido](../content-management/preview-test.md)
-

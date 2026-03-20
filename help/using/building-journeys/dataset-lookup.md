@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 
@@ -93,6 +93,10 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
    * Las claves pueden ser expresiones derivadas del contexto de recorrido, como SKU, ID de correo electrónico u otros identificadores. Ejemplo: `@profile.email` o `list(@event{purchase_event.products.sku})`.
 
    * Solo se admiten **cadenas** o **listas de cadenas**.
+
+   >[!IMPORTANT]
+   >
+   >Debe definir la clave de búsqueda mediante **modo avanzado**. Si utiliza el modo simple para establecer la clave, el resultado de la actividad de búsqueda del conjunto de datos no estará disponible como atributo de contexto en las actividades de flujo descendente y la sintaxis `@datasetLookup{}` fallará con el error &quot;No se encontró la búsqueda del conjunto de datos&quot; en las actividades de condición.
 
    +++Ejemplo
 
@@ -191,3 +195,15 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Solución de problemas {#troubleshooting}
+
+### Error &quot;No se encontró la búsqueda del conjunto de datos&quot; en la actividad de condición {#troubleshooting-not-found}
+
+**Síntoma:** La sintaxis `@datasetLookup{}` en el editor de expresiones avanzadas de una actividad de condición devuelve el error &quot;No se encontró la búsqueda de conjuntos de datos&quot;, aunque la actividad de búsqueda de conjuntos de datos esté configurada correctamente en la recorrido.
+
+**Causa:** La clave de búsqueda en la actividad de búsqueda del conjunto de datos se estableció mediante el modo simple. Cuando la clave no se define en el modo avanzado, el resultado de la actividad no se expone como atributo de contexto en las actividades descendentes.
+
+**Corrección:** Abra la actividad de búsqueda del conjunto de datos, busque el campo **[!UICONTROL Teclas de búsqueda]** y cambie a **modo avanzado** para redefinir la expresión de clave. Guarde la actividad y vuelva a publicar el recorrido.

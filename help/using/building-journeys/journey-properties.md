@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -272,6 +272,22 @@ A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el t
     </td>
     <td>
       <p>El perfil tendrá un TTL de 91 días, que coincide con el TTL de la versión del recorrido recién publicada. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Se detendrá mi recorrido de lectura de audiencia recurrente siempre activo después de 91 días?</p>
+    </td>
+    <td>
+      <p>No. Un recorrido de audiencia de lectura recurrente sin fecha de finalización permanece <strong>activo</strong> mientras se publique. Pasa al estado <strong>Finalizado</strong> solo 91 días después de la ejecución de su <strong>última incidencia</strong>. El tiempo de espera global de 91 días se aplica a perfiles individuales que fluyen por la recorrido (duración activa máxima por perfil), no al estado Activo del recorrido.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>¿Cuál es la diferencia entre el tiempo de espera de recorrido de 91 días y la ventana de creación de informes de 91 días?</p>
+    </td>
+    <td>
+      <p>Estos son dos conceptos separados. El tiempo de espera global de <strong>recorrido</strong> (91 días) es el tiempo máximo que un perfil individual puede permanecer activo en un recorrido: después de 91 días, se sale del perfil y se eliminan sus datos. La <strong>ventana de informes</strong> (aproximadamente 91 días) es un límite de visualización en la interfaz de usuario: los datos de rendimiento anteriores a ~91 días ya no son visibles en los informes, pero el recorrido en sí sigue ejecutándose y siguen entrando nuevos perfiles.</p>
     </td>
   </tr>
 </table>
