@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
+source-git-commit: 0563bf02ecdd0229cc24e9d463af9c496faaa0a2
 workflow-type: tm+mt
-source-wordcount: '3046'
-ht-degree: 27%
+source-wordcount: '2984'
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 **Las notas de la versión preliminar están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las notas de la versión en la fecha de lanzamiento.
 
-Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulte también [notas previas al lanzamiento de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -172,24 +172,6 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Formularios personalizados en páginas de aterrizaje</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede crear <strong>formularios personalizados</strong> en páginas de aterrizaje para recopilar datos específicos del suscriptor más allá de los campos de inclusión estándar. Defina sus propios campos de formulario, reglas de validación y comportamientos de envío para admitir una gama más amplia de casos de uso de enriquecimiento de perfiles y suscripciones.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="../landing-pages/lp-forms.md">Más información</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -289,7 +271,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -378,7 +360,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 

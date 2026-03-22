@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: cadena, funciones, expresión, recorrido, texto, manipulación
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 15%
 
 ---
@@ -320,6 +321,10 @@ Devuelve verdadero.
 
 Devuelve falso.
 
+`isEmpty(<null>)`
+
+Devuelve falso.
+
 +++
 
 ## isNotEmpty {#isNotEmpty}
@@ -543,7 +548,7 @@ La sustitución se realiza desde el principio de la cadena hasta el final, por e
 | Parámetro | Tipo |
 |-----------|--------------|
 | basar | cadena |
-| destino | cadena (RegExp) |
+| Target | cadena (RegExp) |
 | reemplazo | cadena |
 
 +++
@@ -601,7 +606,7 @@ La sustitución se realiza desde el principio de la cadena hasta el final, por e
 | Parámetro | Tipo |
 |-----------|--------------|
 | basar | cadena |
-| destino | cadena (RegExp) |
+| Target | cadena (RegExp) |
 | reemplazo | cadena |
 
 +++
@@ -872,4 +877,3 @@ Devuelve una cadena.
 Devuelve &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.
 
 +++
-
