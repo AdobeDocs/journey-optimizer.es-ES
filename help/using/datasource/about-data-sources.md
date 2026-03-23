@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 37%
 
 ---
@@ -51,7 +51,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 ## Elija su estrategia de acceso a datos {#data-access-strategy}
 
-Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opción 1: acceder a datos externos mediante acciones personalizadas (sin lago de datos)**
 
@@ -71,7 +71,7 @@ Ingeste datos en un conjunto de datos para almacenar en déclencheur y personali
 
 **Opción 3 — Conjunto de datos habilitado para el perfil en el lago de datos**
 
-Ingeste datos en un conjunto de datos habilitado para perfiles con el fin de crear audiencias, enriquecer gráficos de identidad y aprovechar datos en varios recorridos y destinos de RT-CDP. El más adecuado cuando:
+Ingresa datos en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para crear audiencias, enriquecer gráficos de identidad y aprovechar datos en varios recorridos y destinos de RT-CDP. El más adecuado cuando:
 
 * Los datos son útiles para las definiciones de audiencia utilizadas en canales distintos de Journey Optimizer.
 * Los datos contienen varias identidades que contribuyen a fragmentos de perfil más completos y vinculados.
@@ -82,11 +82,11 @@ Ingeste datos en un conjunto de datos habilitado para perfiles con el fin de cre
 | **Opción 2** — Conjunto de datos no habilitado para el perfil | Sí | No |
 | **Opción 3** — Conjunto de datos habilitado para el perfil | Sí | Sí |
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416633?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
