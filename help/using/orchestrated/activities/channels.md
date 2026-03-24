@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
+source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 43%
+source-wordcount: '1517'
+ht-degree: 41%
 
 ---
 
@@ -73,8 +73,8 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
->title="Target"
->abstract="Marcador de posición para el campo Categoría"
+>title="Categoría"
+>abstract="Elija Marketing o Transaccional para esta actividad de canal. Los mensajes de marketing utilizan configuraciones de canal de marketing y siguen las reglas comerciales estándar. Los mensajes transaccionales se utilizan para comunicaciones operativas, a menudo activadas por la acción de una persona (por ejemplo, un restablecimiento de contraseña o una confirmación de compra) o para avisos en los que el tiempo es un factor importante, como interrupciones o cancelaciones. Utilizan configuraciones de canal transaccional, se omiten las reglas empresariales y no se requiere la inclusión."
 
 >[!PREREQUISITES]
 >
