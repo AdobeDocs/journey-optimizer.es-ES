@@ -11,10 +11,10 @@ keywords: expresión, editor
 mini-toc-levels: 1
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 6%
+source-wordcount: '927'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->La capacidad de búsqueda de datos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+>La capacidad de búsqueda de datos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 Obtenga más información sobre cómo acceder a los conjuntos de datos y trabajar con ellos en esta sección: [Introducción a los conjuntos de datos](../data/get-started-datasets.md)
 

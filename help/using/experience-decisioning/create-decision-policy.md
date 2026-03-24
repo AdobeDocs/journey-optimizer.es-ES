@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 6%
 
 ---
@@ -45,7 +45,7 @@ Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue u
 >
 >Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y SMS.
 >
->La toma de decisiones del canal de correo electrónico está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+>La toma de decisiones del canal de correo electrónico está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ## Agregar una política de decisión {#add}
 

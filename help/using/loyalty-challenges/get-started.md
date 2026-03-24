@@ -12,10 +12,10 @@ hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '678'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Esta característica se encuentra actualmente en **versión beta privada**. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+>Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ## Información general {#overview}
 

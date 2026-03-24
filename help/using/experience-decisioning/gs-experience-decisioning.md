@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 21%
+source-wordcount: '684'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ Estos elementos de decisión se integran perfectamente en los mensajes y experie
 
 >[!IMPORTANT]
 >
->Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y **SMS**. La toma de decisiones para el canal **Correo electrónico** solo está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Más información sobre [etiquetas de disponibilidad](../rn/releases.md#availability-labels).
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y **SMS**. La toma de decisiones para el canal **Correo electrónico** solo está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -105,4 +105,4 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
