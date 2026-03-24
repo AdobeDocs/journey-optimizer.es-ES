@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18bb9845554b4610c0d07ac7ec2a711e2230a01d
+source-git-commit: b0f8d08a14de84671706aed4f496dda3a5ba2ec8
 workflow-type: tm+mt
-source-wordcount: '2989'
-ht-degree: 28%
+source-wordcount: '2876'
+ht-degree: 29%
 
 ---
 
@@ -87,7 +87,7 @@ Consulte también [notas previas al lanzamiento de Adobe Experience Platform](ht
 <table>
 <thead>
 <tr>
-<th><strong>Cifrado de parámetros de URL</strong><br/></th>
+<th><strong>Cifrado de parámetro de URL</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -271,7 +271,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -308,14 +308,14 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Excluir clics de bots para informes de correo electrónico y SMS**: los informes de correo electrónico y SMS ahora filtran automáticamente los clics de bots de las métricas de clics, lo que proporciona datos de participación más precisos y evita que el tráfico automatizado infle las cifras de rendimiento.
 
 * **Optimización del tiempo de envío: la ubicación de los controles actualizados y el nuevo informe de alza** - Los controles de Optimización del tiempo de envío (STO) se han reubicado en el menú de configuración Acción. Además, ahora hay disponible un nuevo informe de alza en los informes de Recorrido para medir el impacto de STO en las métricas de rendimiento de la campaña.
+<!--
+#### Email Designer
 
-#### Diseñador de correo electrónico
+* **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
 
-* **Designer de correo electrónico mostrado en Unified Shell**: ahora, el Designer de correo electrónico se muestra dentro de la experiencia Unified Shell, lo que proporciona una experiencia de navegación y encabezado coherente que se alinea con otras aplicaciones de Adobe.
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment.
 
-* **Compatibilidad con modo de texto en fragmentos**: para admitir flujos de trabajo de correo electrónico basados en texto, ahora puede crear y administrar versiones de texto de los fragmentos visuales para un uso óptimo en la versión de texto sin formato de los correos electrónicos que incluyen ese fragmento.
-
-  **Precaución:** Al utilizar un fragmento creado antes de la versión actual, la versión de texto del fragmento puede procesarse incorrectamente, tanto en el Designer de correo electrónico como en el correo electrónico final enviado a los destinatarios. Para obtener los mejores resultados con fragmentos antiguos, edite, guarde y vuelva a publicar cada fragmento.
+  **Caution:** When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered—both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.-->
 
 #### Toma de decisiones
 
@@ -360,7 +360,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
