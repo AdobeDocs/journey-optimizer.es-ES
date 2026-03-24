@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
+source-git-commit: c532c259538a3ce007621ae7e9f17a73623ea70d
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2974'
 ht-degree: 29%
 
 ---
@@ -42,13 +42,13 @@ Consulte también [notas previas al lanzamiento de Adobe Experience Platform](ht
 <table>
 <thead>
 <tr>
-<th><strong>Mensajes transaccionales en campañas organizadas</strong><br/></th>
+<th><strong>Campañas orquestadas transaccionales</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora, las campañas organizadas admiten <strong>mensajes transaccionales</strong>, lo que le permite almacenar en déclencheur mensajes en tiempo real impulsados por eventos (como confirmaciones de pedidos, notificaciones de reservas y actualizaciones de cuentas) directamente en el flujo de trabajo de la campaña.</p>
+<p>Ahora, las campañas orquestadas pueden designarse como <strong>transaccionales</strong>. Esto permite la entrega de mensajes transaccionales activados por acciones específicas realizadas por individuos, como solicitudes de restablecimiento de contraseña o compras en el carro de compras. Al asignar esta categoría, se aplican las configuraciones de canal transaccional y se omiten las reglas empresariales.</p>
 </td>
 </tr>
 </tbody>
@@ -57,7 +57,7 @@ Consulte también [notas previas al lanzamiento de Adobe Experience Platform](ht
 <table>
 <thead>
 <tr>
-<th><strong>Déclencheur de campañas orquestadas mediante API</strong><br/></th>
+<th><strong>Campañas organizadas por déclencheur mediante API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -116,7 +116,9 @@ Consulte también [notas previas al lanzamiento de Adobe Experience Platform](ht
 <p>Utilice el nuevo nodo Optimizar para dirigirse a audiencias específicas o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI centrados en el negocio.
 Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
 </p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="../building-journeys/optimize.md">Más información</a></p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Con disponibilidad general, esta versión presenta la selección de <strong>tipo de experimento</strong> (bandido A/B o multibrazo) y <strong>Escalar el ganador</strong> para recorridos unitarios.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/optimize.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -147,8 +149,8 @@ Esta herramienta le permite probar y variar, así como personalizar las comunica
 <tr>
 <td>
 <p>Tras la disponibilidad general de la <strong>actividad de acción</strong> en febrero de 2026, las actividades de canal nativo heredadas (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en el lienzo de recorrido ya no se utilizan.</p>
-<p>Ahora utiliza una sola <strong>actividad de acción</strong> para configurar todas las acciones del canal, reemplazando la necesidad de nodos separados específicos del canal.</p>
-Los recorridos existentes que utilicen actividades de canal heredadas seguirán funcionando sin necesidad de realizar cambios ni migraciones.
+<p>Ahora utiliza una sola <strong>actividad de acción</strong> para configurar todas las acciones del canal, reemplazando la necesidad de nodos separados específicos del canal.
+Los recorridos existentes que utilicen actividades de canal heredadas seguirán funcionando sin necesidad de realizar cambios ni migraciones.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -271,7 +273,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -305,10 +307,11 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Creación de informes
 
-* **Excluir clics de bots para informes de correo electrónico y SMS**: los informes de correo electrónico y SMS ahora filtran automáticamente los clics de bots de las métricas de clics, lo que proporciona datos de participación más precisos y evita que el tráfico automatizado infle las cifras de rendimiento.
-
 * **Optimización del tiempo de envío: la ubicación de los controles actualizados y el nuevo informe de alza** - Los controles de Optimización del tiempo de envío (STO) se han reubicado en el menú de configuración Acción. Además, ahora hay disponible un nuevo informe de alza en los informes de Recorrido para medir el impacto de STO en las métricas de rendimiento de la campaña.
+
 <!--
+* **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
+
 #### Email Designer
 
 * **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
@@ -341,6 +344,12 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Recorridos
 
+* **Tipo de experimento**: ahora puede elegir entre experimento A/B (división fija al principio) o bandido multibrazo (división automática con actualizaciones semanales del peso) al configurar un experimento de ruta.
+
+* **Experimentación de rutas: escalar el ganador**: ahora puede desplegar automática o manualmente la ruta ganadora de un experimento en toda la audiencia. Una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorear constantemente el experimento.
+
+  Esta funcionalidad solo está disponible en recorridos unitarios (cualificaciones de audiencia y activadas por eventos). No está disponible para recorridos de audiencia de lectura.
+
 * **Envío masivo de mensajes salientes en recorridos**: ahora puede programar mensajes de recorridos de Journey Optimizer para que se entreguen en lotes controlados a lo largo del tiempo. [Más información](../building-journeys/send-using-waves.md)
 
   Esta capacidad, que se publicó anteriormente en Disponibilidad limitada para utilizarla en recorrido, ya está disponible en todos los entornos (disponibilidad general).
@@ -358,7 +367,7 @@ Las secciones [Nuevas funcionalidades](#feb-26-01-features) y [Mejoras](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -583,6 +592,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
+* **Vista previa de decisiones en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Decisioning con el canal de experiencia basada en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse. [Más información](../code-based/test-code-based.md#preview-code-based)
+
+  Fecha de disponibilidad: jueves, 18 de febrero de 2026
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión. [Más información](../experience-decisioning/fragments-decision-policies.md)
 
@@ -607,11 +619,5 @@ A continuación, se describen las mejoras incluidas en esta versión.
 <!--## Coming soon {#coming-soon}
 
 The features and improvements below are planned for release later in February. Release dates and scope may change without prior notice.
-
-### Improvements {#coming-soon-improv}
-
-* **Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
-
-  Availability date: February 18, 2026
 -->
 
