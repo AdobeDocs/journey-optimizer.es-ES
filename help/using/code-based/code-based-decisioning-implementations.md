@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -25,9 +25,7 @@ Cuando utilice Decisioning en experiencias basadas en código, considere la posi
 
 ## Prueba de experiencias basadas en código mediante decisiones {#code-based-test-decisions}
 
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
-
-Al probar la [experiencia basada en código](create-code-based.md) con toma de decisiones, el indicador `dryRun` se puede usar para suprimir eventos de comentarios tanto para los contadores de informes como de límite.
+Al probar la [experiencia basada en código](create-code-based.md) con toma de decisiones, el indicador `dryRun` se puede usar para suprimir los eventos de comentarios tanto para los contadores de informes como de límite.
 
 Después de publicar la campaña, agregue el indicador `dryRun` al bloque de evento XDM `data` en la implementación del cliente:
 

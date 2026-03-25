@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ Para mostrar una previsualización de la experiencia basada en código modificad
 
 Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en [esta sección](../content-management/preview.md).
 
+Cuando la experiencia basada en código usa [Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md), puede obtener una vista previa de los elementos de decisión que se enviarán: seleccione uno o más perfiles de prueba en **[!UICONTROL Simular contenido]** y la vista previa mostrará los elementos de decisión que cumplen los requisitos para cada perfil.
+
 >[!NOTE]
 >
->Actualmente no puedes simular contenido desde la interfaz de usuario en una campaña o recorrido de experiencia basado en código usando [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Hay una solución disponible en [esta sección](../experience-decisioning/create-decision.md#test-and-publish).
-
+>Esta vista previa es solo **vista previa de contenido**: muestra qué elementos de decisión cumplen los requisitos para el perfil de prueba seleccionado y cómo se procesa el contenido creado. **Los datos de contexto** enviados en solicitudes activas de Edge (por ejemplo, datos usados en criterios de decisión o referenciados en la implementación de cliente) no se simulan en la vista previa de **[!UICONTROL Simular contenido]**.
 
 ## Previsualización en el dispositivo {#preview-on-device}
 
@@ -95,7 +96,7 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
    * Seleccione el botón **[!UICONTROL Copiar vínculo]** y comparta el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador móvil antes de que los cambios se activen.
 
-   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >

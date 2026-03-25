@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 5%
 
 ---
@@ -136,10 +136,6 @@ Una vez que el contenido esté listo, revise y publique la campaña o el recorri
 * [Revisión y activación de una campaña](../campaigns/review-activate-campaign.md)
 
 En el caso de las experiencias basadas en código, tan pronto como el desarrollador realice una llamada de API o SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
-
->[!NOTE]
->
->Actualmente no puedes simular contenido basado en decisiones para campañas o recorridos de [experiencia basada en código](../code-based/create-code-based.md). Hay una solución alternativa disponible [aquí](../code-based/code-based-decisioning-implementations.md).
 
 ## Uso de paneles de informes
 
