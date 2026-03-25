@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 83da64e7985b9fb5b723c60473db6ea743e3fe6e
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 22%
@@ -34,7 +34,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -83,6 +83,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Tras la disponibilidad general de la <strong>actividad de acción</strong> en febrero de 2026, las actividades de canal nativo heredadas (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en el lienzo de recorrido ya no se utilizan.</p>
 <p>Ahora utiliza una sola <strong>actividad de acción</strong> para configurar todas las acciones del canal, reemplazando la necesidad de nodos separados específicos del canal.
 Los recorridos existentes que utilicen actividades de canal heredadas seguirán funcionando sin necesidad de realizar cambios ni migraciones.</p>
+<p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -176,7 +177,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -240,7 +241,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Fecha de disponibilidad: martes, 02 de marzo de 2026
 
-<!--#### Orchestrated campaigns-->
 
 #### Recorridos
 
