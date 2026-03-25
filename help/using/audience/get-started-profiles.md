@@ -41,7 +41,7 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 >* [Introducción a la administración de datos en Journey Optimizer](../data/gs-data.md)
 >* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
 >* [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Documentación de ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* [Documentación de ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Panel de perfiles
 

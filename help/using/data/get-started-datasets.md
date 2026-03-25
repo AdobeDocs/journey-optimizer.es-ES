@@ -21,7 +21,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 ## Protecciones y limitaciones
 
-* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
 
 * A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
