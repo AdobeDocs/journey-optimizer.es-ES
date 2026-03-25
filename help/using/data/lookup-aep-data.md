@@ -11,10 +11,10 @@ keywords: expresión, editor
 mini-toc-levels: 1
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 9%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -56,8 +56,6 @@ Antes de empezar, revise las siguientes restricciones y directrices:
   **Lote 3**: Sku7, Sku8, Sku9, Sku10
 
   Si elimina **Lote 1**, Sku1, Sku2 y Sku3 se quitarán del almacén de búsqueda. Los datos de búsqueda resultantes contendrán: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **No hay búsquedas encadenadas**: las búsquedas de conjuntos de datos no se pueden encadenar. En otras palabras, no se puede utilizar el resultado de una búsqueda como variable para luego convertirse en la clave para realizar una segunda búsqueda.
 
 ### Derecho al servicio de búsqueda
 
