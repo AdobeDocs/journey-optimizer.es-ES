@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,11 @@ Las tareas definen las acciones o los hitos específicos que los clientes deben 
 Cada tarea representa una acción mensurable que contribuye a la finalización del desafío. Las tareas son componentes reutilizables que se pueden crear de forma independiente y, a continuación, añadir a uno o más desafíos, o crear directamente dentro de un desafío.
 
 ## Crear una tarea {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="Crear una tarea"
+>abstract="Seleccione una actividad de cliente (Compra o Gasto) y, a continuación, configure los atributos específicos de la actividad: cantidades o importes, artículos aptos y exclusiones y límites opcionales como gasto mínimo o transacciones máximas. En el panel Propiedades, establezca el nombre y la descripción de la tarea."
 
 Puede crear tareas a partir de dos puntos de entrada. El proceso de configuración es el mismo independientemente de dónde comience.
 
@@ -101,6 +106,11 @@ Atributos disponibles para actividades **Spend**:
 >[!ENDTABS]
 
 ## Definición de artículos y exclusiones aptos {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="Artículos y exclusiones aptos"
+>abstract="Controla qué compras cuentan para las tareas de compra y gasto. En el primer campo, escriba ID de elementos separados por comas, categorías o ID de destino para permitir solo esos elementos. Déjela vacía para que se cuenten todas las compras o escriba un asterisco para indicar todas las compras. En el segundo campo, enumere los elementos o categorías que no deben contar nunca, como tarjetas regalo o liquidación."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
