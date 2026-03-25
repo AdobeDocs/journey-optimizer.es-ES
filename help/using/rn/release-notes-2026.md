@@ -8,16 +8,267 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 87%
+source-wordcount: '2573'
+ht-degree: 64%
 
 ---
 
 # Notas de la versión de 2026 {#release-notes-2026}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2026.
+
+
+
+## Notas de la versión de febrero de 2026 {#feb-26-01-rn}
+
+### Nuevas funciones {#feb-26-01-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>arbitraje de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede usar <strong>fórmulas de clasificación</strong> para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
+<p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 24 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de acción en recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer admite una nueva actividad <strong>Action</strong> genérica que permite configurar tanto acciones únicas como grupos de acciones entrantes de varias acciones, lo que permite una configuración de acciones optimizada dentro del lienzo de recorrido. En particular, esta nueva función permite lo siguiente:</p>
+<ul>
+<li>Una configuración de acción nativa simplificada dentro del lienzo de recorrido.</li>
+<li>La capacidad para crear grupos de acciones entrantes de varias acciones.</li>
+<li>Capacidad de añadir optimización a cualquier acción de canal integrada.</li>
+<li>La capacidad de añadir opciones de experimentación y multilingües a cualquier acción.</li>
+</ul>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-action.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 20 de febrero de 2026</p>
+<p><strong>Nota:</strong> Ahora se puede acceder a todos los canales nativos a través de la actividad recorrido de acción. Las actividades heredadas del canal nativo quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Envío de ondas de mensajes salientes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede programar mensajes de campañas de Journey Optimizer o recorridos para que se entreguen en lotes controlados a lo largo del tiempo.</p>
+<p>El envío de ondas ofrece las siguientes ventajas:</p>
+<ul>
+<li>Mejor capacidad de entrega: la propagación envía con el tiempo para ayudar a mantener una sólida reputación del remitente y reducir el riesgo de ser marcado como correo no deseado.</li>
+<li>Control de carga: evite saturar los sistemas descendentes (por ejemplo, centros de llamadas, páginas de aterrizaje) limitando la cantidad de mensajes que se emiten a la vez.</li>
+<li>Casos de uso de gran volumen y sensibles al tiempo: adecuados para audiencias grandes o cuando necesite controlar el tiempo (por ejemplo, capacidad del centro de llamadas, ampliación u ofertas con límite de tiempo).</li>
+</ul>
+<p><img src="assets/do-not-localize/waves.gif"/></p>
+<p>En <strong>campañas</strong>, esta capacidad está disponible para todos los entornos (disponibilidad general). Para obtener más información, consulte la <a href="../campaigns/send-using-waves.md">documentación detallada</a>.</p>
+
+<p>En <strong>recorridos</strong>, esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada): para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener más información, consulte la <a href="../building-journeys/send-using-waves.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: viernes, 19 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Migrar subdominios a delegación personalizada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede migrar subdominios utilizando el modo de delegación CNAME a delegación personalizada directamente desde la interfaz, de modo que pueda cumplir políticas de seguridad más estrictas en línea con las directrices de su empresa sin volver a crear configuraciones de canal.</p>
+<p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../configuration/custom-subdomain-migration.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: viernes, 19 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Canal de notificaciones push web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ahora admite <strong>notificaciones push web</strong>, lo que expande el canal push más allá del móvil. Puede enviar notificaciones sin problemas a <strong>exploradores móviles y de escritorio</strong>, lo que permite llegar a los clientes directamente a través de sus dispositivos sin necesidad de una aplicación. Esta mejora le permite atraer a los usuarios con mensajes personalizados y oportunos en tiempo real, aprovechando los mismos flujos de trabajo de creación y las mismas funcionalidades de segmentación ya disponibles para las notificaciones push móviles.</p>
+<p><img src="assets/do-not-localize/web-push.gif"/></p>
+<p>Esta funcionalidad, lanzada anteriormente en Beta, estará disponible para todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../push/push-configuration-web.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: sábado, 13 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de decisión de contenido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay disponible una nueva <strong>actividad de decisión de contenido</strong> en el lienzo de recorrido para integrar ofertas personalizadas directamente en las recorridos de los clientes. Esta actividad le permite entregar contenido basado en decisiones y hacer referencia a esas ofertas en todo el recorrido: en condiciones para crear ramas basadas en la idoneidad, en acciones personalizadas para pasar datos de ofertas a sistemas externos y en otras actividades para crear experiencias de cliente totalmente personalizadas.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/content-decision.gif"/></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 10 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>API de herramientas de migración de autoservicio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las API de herramientas de migración ya están disponibles para migrar mediante programación las entidades de <strong>Administración de decisiones</strong> a <strong>Toma de decisiones</strong>, que incluyen:</p>
+<ul>
+<li>Ámbitos de migración flexibles (zona protegida, nivel de oferta o de decisión)</li>
+<li>Análisis y validación de dependencias automatizadas</li>
+<li>Compatibilidad con reversiones para migraciones completadas</li>
+<li>Informes de migración detallados con asignaciones de objetos</li>
+</ul>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/decisioning-migration-api.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 3 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitorización de acciones personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Obtenga información más detallada de insight sobre el estado y el rendimiento de los extremos de las acciones personalizadas con un nuevo tablero de monitorización y datos de eventos de pasos de recorrido enriquecidos. Rastree las llamadas, los errores, el rendimiento, los tiempos de respuesta y los tiempos de espera de cola correctos para comprender rápidamente cuándo, dónde y por qué se producen anomalías.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 3 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede personalizar y optimizar el contenido de sus mensajes SMS con Decisioning. Utilice puntuaciones de prioridad, fórmulas o modelos de IA para mostrar el mejor contenido a sus clientes.</p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/create-decision.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 2 de febrero de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras {#feb-26-01-improv}
+
+A continuación, se describen las mejoras incluidas en esta versión.
+
+#### Configuración
+
+* **Uso de eventos de experiencia en expresiones de recorrido**: a partir del 1 de abril de 2026, el uso de atributos de eventos de experiencia en expresiones de recorrido dejará de ser compatible con las organizaciones que no hayan utilizado esta capacidad en los últimos 90 días. Esta capacidad ya no está disponible para las nuevas organizaciones de clientes desde el 8 de julio de 2025. Para ver alternativas, consulte [Búsqueda de eventos de experiencia en recorrido](../building-journeys/exp-event-lookup.md).
+
+#### Administración de contenido
+
+<!--
+* **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
+-->
+
+* **Usar temáticas para convertir imágenes en plantillas de correo electrónico**: al convertir una imagen en una plantilla de correo electrónico en Journey Optimizer, ahora puede usar una temática como entrada para que el HTML generado siga los parámetros de su marca. El estilo, como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno, se aplica automáticamente, lo que reduce el trabajo de diseño manual y proporciona una plantilla lista para usar con ediciones mínimas. [Más información](../content-management/image-to-html.md)
+
+  Fecha de disponibilidad: 17 de febrero de 2026.
+
+<!--* **Text mode for fragments** - You can now create and manage text versions of your fragments, supporting workflows that rely on plain text content and providing the same flexibility as in email content. [Read more](../content-management/create-fragments.md)-->
+
+#### Diseñador de correo electrónico
+
+* **Sangría de texto**: ahora puede aplicar sangría izquierda personalizable a la primera línea de párrafos de los componentes de texto directamente desde el panel de propiedades. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Esto mejora la legibilidad del contenido de formato largo, como editoriales y artículos. [Más información](../email/get-started-email-style.md)
+
+  Fecha de disponibilidad: 18 de febrero de 2026.
+
+#### Toma de decisiones
+
+* **Compatibilidad de entrada de Edge con el uso de datos de Adobe Experience Platform en Decisioning**. El uso de datos de Adobe Experience Platform en Decisioning ahora admite casos de uso de entrada perimetral, además de acciones personalizadas y de correo electrónico en recorrido. [Más información](../experience-decisioning/aep-data-exd.md)
+
+  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+* **Vista previa de decisiones en el canal de experiencia basado en código**: ahora puede obtener una vista previa de los elementos de decisión al configurar Decisioning con el canal de experiencia basada en código. La vista previa está disponible directamente en la interfaz de creación antes de lanzarse. [Más información](../code-based/test-code-based.md#preview-code-based)
+
+  Fecha de disponibilidad: jueves, 18 de febrero de 2026
+
+* **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de experiencia basadas en código mediante políticas de decisión. [Más información](../experience-decisioning/fragments-decision-policies.md)
+
+  Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
+
+  Fecha de disponibilidad: 12 de febrero de 2026.
+
+#### Personalización
+
+* **Asistente para metadatos de ejecución** - La función de ayuda `executionMetadata` ya está disponible para todos los clientes de Journey Optimizer. Utilícela para anexar dinámicamente información contextual a cualquier acción nativa y capturarla en un conjunto de datos para exportarla a sistemas externos. [Más información](../personalization/functions/helpers.md#execution-metadata)
+
+  Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
+
+  Fecha de disponibilidad: 20 de febrero de 2026.
+
+#### SMS
+
+* **Webhooks de SMS**: ahora se admiten los webhooks en todos los proveedores de SMS. Puede configurar cada webhook en función de su objetivo: Los webhooks entrantes capturan los mensajes entrantes y los webhooks de comentarios para recibir las confirmaciones de entrega, las actualizaciones de estado y otros eventos relacionados con los mensajes. [Más información](../sms/sms-webhook.md)
+
+  Fecha de disponibilidad: 2 de febrero de 2026.
+
+
 
 ## Notas de la versión de enero de 2026 {#jan-26-rn}
 
@@ -184,7 +435,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality).
 
-  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Recorridos
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '2178'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+   >Las actividades heredadas de canales nativos (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026. Los recorridos existentes que utilizan estas actividades siguen funcionando sin ningún cambio; no se requiere ninguna migración.
 
 1. Seleccione **[!UICONTROL En la aplicación]** como tipo de acción.
 
@@ -89,7 +89,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -195,7 +195,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -246,7 +246,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -262,7 +262,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

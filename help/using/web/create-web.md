@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Para agregar una actividad **Web** a un recorrido, siga estos pasos:
 
    >[!IMPORTANT]
    >
-   >Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+   >Las actividades heredadas de canales nativos (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026. Los recorridos existentes que utilizan estas actividades siguen funcionando sin ningún cambio; no se requiere ninguna migración.
 
 1. Seleccione **[!UICONTROL Web]** como tipo de acción.
 
@@ -238,13 +238,13 @@ Una vez que haya definido la configuración de la campaña web y haya editado el
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-Su campaña web toma el **[!UICONTROL estado]** [&#x200B; en vivo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
+Su campaña web toma el **[!UICONTROL estado]** [ en vivo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios de las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 >
->Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado]** [&#x200B; programado](../campaigns/manage-campaigns.md#statuses) hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado]** [ programado](../campaigns/manage-campaigns.md#statuses) hasta que se alcance la fecha y la hora de inicio.
 
 Una vez que la experiencia esté activa, puede monitorizar los recorridos y campañas web. [Más información](monitor-web-experiences.md)
 
@@ -274,4 +274,4 @@ Cuando un recorrido web o una campaña están activos, puede detenerlos para evi
 
 El siguiente vídeo muestra cómo crear una campaña web, configurar sus propiedades, revisarla y publicarla.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449984/?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

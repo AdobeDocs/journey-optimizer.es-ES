@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1427'
 ht-degree: 9%
 
 ---
@@ -24,19 +24,17 @@ ht-degree: 9%
 >title="Actividad de acción"
 >abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
 
-[!DNL Journey Optimizer] viene con una nueva actividad **Action** genérica que permite configurar una sola acción de canal integrada y también varias actividades entrantes.
+La actividad **Action** es el único punto de entrada para todas las acciones de canal en el lienzo de recorrido. Sustituye a las actividades de canal integradas anteriores y consolida las actividades de correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido en un tipo de actividad unificado.
 
-La actividad Action ofrece:
+Úselo para lo siguiente:
 
-* Una configuración de acción nativa simplificada dentro del lienzo de recorrido.
-* La capacidad para crear grupos de acciones entrantes de varias acciones.
-* Capacidad de añadir optimización a cualquier acción de canal integrada.
-
-Para agregar una acción de canal integrada al recorrido, usa la actividad **Action**. Esta actividad unificada consolida todas las acciones de canal (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un solo tipo de actividad, sustituyendo a las actividades de canal individuales anteriores.
+* Configure cualquier acción de canal integrada desde una sola interfaz optimizada.
+* Crear grupos de acciones entrantes de varias acciones.
+* Aplique la optimización a cualquier acción del canal.
 
 >[!IMPORTANT]
 >
->Dado que ahora se puede acceder a todos los canales nativos a través de la actividad de acción, las actividades de canal nativo heredadas quedarán obsoletas con la versión de marzo. Los recorridos existentes que incluyen acciones heredadas seguirán funcionando tal cual; no se requiere ninguna migración.
+>Las actividades heredadas de canales nativos (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026. Los recorridos existentes que utilizan estas actividades siguen funcionando sin ningún cambio; no se requiere ninguna migración.
 
 También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
 
@@ -44,7 +42,9 @@ También puede configurar acciones personalizadas para enviar los mensajes en [!
 
 Para agregar una acción de canal integrada al recorrido mediante la actividad **[!UICONTROL Action]**, siga los pasos a continuación.
 
-Para obtener más información sobre los canales disponibles en recorrido, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
+>[!NOTE]
+>
+>Para obtener más información sobre los canales disponibles en recorrido, consulte la tabla de esta sección: [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 
 1. Inicie el recorrido con una actividad [Event](general-events.md) o [Read Audience](read-audience.md).
 

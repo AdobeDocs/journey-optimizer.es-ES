@@ -3,14 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Test en las campañas organizadas
 description: Aprenda a utilizar la actividad Prueba
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 83%
+source-wordcount: '379'
+ht-degree: 28%
 
 ---
 
@@ -27,36 +25,39 @@ ht-degree: 83%
 >title="Condiciones"
 >abstract="La actividad **Prueba** puede tener varias transiciones de salida. Durante la ejecución de la campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, la campaña orquestada continúa por la ruta de la **[!UICONTROL Condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña orquestada se detiene en este punto."
 
-La actividad **[!UICONTROL Prueba]** es una actividad de **[!UICONTROL Control de flujo]**. Permite habilitar transiciones en función de condiciones especificadas.
+La actividad **[!UICONTROL Prueba]** es una actividad de **[!UICONTROL Control de flujo]**. Utilícelo para bifurcar el flujo de campaña activando distintas transiciones según las condiciones definidas. Cada condición puede evaluar los datos de la transición entrante y puede elegir qué transición se ejecuta primero según el orden en que se evalúan las condiciones.
 
 ## Configuración de la actividad Prueba {#test-configuration}
 
-Siga estos pasos para configurar la actividad **[!UICONTROL Prueba]**:
+Para configurar la actividad **[!UICONTROL Test]**:
 
-1. Agregue una actividad **[!UICONTROL Test]** a su campaña orquestada.
+1. Suelte una actividad **[!UICONTROL Test]** en el lienzo de la campaña orquestada.
 
-1. De manera predeterminada, la actividad **[!UICONTROL Prueba]** presenta una prueba booleana simple. Si se cumple la condición definida en la transición &quot;Verdadero&quot;, se activará esta transición. De lo contrario, se activa la transición predeterminada “Falso”.
+1. De forma predeterminada, la actividad proporciona una sola prueba booleana: cuando se cumple la condición &quot;True&quot;, esa transición se activa; de lo contrario, se activa la transición &quot;False&quot; (predeterminada).
 
-1. Para configurar la condición asociada a una transición, haga clic en el icono **[!UICONTROL Cuadro de diálogo Abrir personalización]**. Utilice el editor de expresiones para definir las reglas necesarias para activar esta transición. También puede aprovechar las variables de eventos, las condiciones y las funciones de fecha y hora.
+   ![](../assets/test-1.png)
 
-   Además, puede modificar el campo **[!UICONTROL Label]** para personalizar el nombre de la transición en el lienzo de la campaña orquestada.
+1. Defina la condición para una transición completando estos campos:
 
-   ![](../assets/workflow-test-default.png)
+   * **Etiqueta**: un nombre para la transición para que pueda identificarla en el lienzo.
 
-1. Puede añadir varias transiciones de salida a una actividad **[!UICONTROL Prueba]**. Para ello, haga clic en el botón **[!UICONTROL Añadir condición]** y configure la etiqueta y la condición asociada para cada transición.
-v
-1. Durante la ejecución de la campaña orquestada, cada condición se prueba secuencialmente hasta que se cumpla una de ellas. Si no se cumple ninguna de las condiciones, las campañas orquestadas continúan en la ruta de la **[!UICONTROL condición predeterminada]**. Si no se activa ninguna condición predeterminada, la campaña se detiene en este momento.
+   * **Tipo de condición**: Los datos que se van a evaluar, de manera predeterminada, en el recuento de población.
+
+   * **Operador**: La comparación que se va a aplicar, por ejemplo, igual a, mayor que, menor que. La lista de operadores depende del tipo de datos del tipo de condición.
+
+   * **Valor**: Valor con el que comparar el tipo de condición.
+
+   ![](../assets/test-2.png)
+
+1. Para bifurcar más de dos resultados, haga clic en **[!UICONTROL Agregar condición]** y defina una etiqueta y una condición para cada transición adicional.
+
+1. En tiempo de ejecución, la campaña evalúa las condiciones en orden y sigue a la primera que coincide. Cuando no coincide ninguna condición, la ejecución sigue **[!UICONTROL Condición predeterminada]** si se establece una; de lo contrario, la campaña se detiene en la actividad **[!UICONTROL Test]**.
 
 ## Ejemplo {#example}
 
-En este ejemplo, se activan diferentes transiciones en función del número de perfiles a los que se dirige una actividad **[!UICONTROL Generar público]**:
+En este ejemplo, se activan diferentes transiciones en función del número de perfiles objetivo por una actividad **[!UICONTROL Generar audiencia]**. Las condiciones se evalúan en orden; la última transición es la predeterminada y se utiliza cuando no coincide ninguna condición anterior.
 
 * Si hay más de 10 000 perfiles de destino, se envía un mensaje de correo electrónico.
-* Para 1000 a 10 000 perfiles, se envía un SMS.
-* Si los perfiles destinados caen por debajo de 1000, se les dirige a la transición de “no contactar”.
+* Default (sin coincidencia de condición): cuando el recuento es de 10 000 o menos, la población se dirige a una transición de &quot;no contactar&quot;.
 
 ![](../assets/workflow-test-example.png)
-
-Para ello, se ha utilizado la variable de evento `vars.recCount` en las condiciones “correo electrónico” y “SMS” para contar el número de perfiles de destino y activar la transición adecuada.
-
-![](../assets/workflow-test-example-config.png)
