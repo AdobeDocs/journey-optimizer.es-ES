@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Retos de fidelización"
->abstract="Los desafíos de fidelización son programas interactivos que recompensan a los clientes por completar tareas. Descubra cuáles son, cómo difieren los desafíos estándar, de racha y secuenciales, y qué puede configurar antes de crear un desafío."
+>abstract="Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos."
 
 Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos.
 

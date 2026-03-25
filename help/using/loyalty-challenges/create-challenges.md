@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Una vez completada la configuración de mensajería, defina qué clientes pueden
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Público"
->abstract="En la pestaña Audiencia, elija quién puede participar en el desafío. Seleccione Seleccionar audiencia, elija la audiencia de destino entre las audiencias de Adobe Experience Platform disponibles en el cuadro de diálogo y, a continuación, seleccione Agregar audiencia. Solo son aptos los miembros de esa audiencia. Las audiencias se definen en Experience Platform: utilice una audiencia existente o cree una allí antes de finalizar este paso."
+>abstract="En la pestaña Audiencia, elija quién puede participar en el desafío entre las audiencias de Adobe Experience Platform disponibles."
 
 Defina qué clientes pueden participar en su desafío de fidelidad.
 
