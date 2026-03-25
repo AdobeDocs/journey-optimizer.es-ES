@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano,
 
 Vea este vídeo para comprender los conectores de origen y cómo configurarlos en Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422582?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Para obtener información detallada sobre cómo configurar y administrar fuentes, consulte la [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.
 
@@ -117,3 +117,4 @@ Ahora que comprende cuáles son las fuentes y por qué son importantes:
 * Obtenga información sobre cómo [crear una conexión de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=es){target="_blank"}
 * Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=es){target="_blank"}
 * Descubra cómo [usar datos importados en recorridos](../building-journeys/journey-gs.md)
+* Revise la información general de [Introducción a la administración de datos](../data/gs-data.md) para comprender cómo encajan las fuentes en la configuración de datos completa de Journey Optimizer

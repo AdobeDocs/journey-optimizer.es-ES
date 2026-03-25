@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
+>* [Introducción a la administración de datos en Journey Optimizer](gs-data.md)
 >* [Creación de un esquema y un conjunto de datos, e introducción de datos para añadir perfiles de prueba en Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Información general sobre el sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}
 >* [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=es){target="_blank"}
