@@ -15,7 +15,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -105,7 +105,7 @@ Configure cuándo se ejecuta el desafío:
 
 La programación de desafíos ya está configurada. A continuación, añada las tareas que los clientes necesitan completar.
 
-### Agregar tareas {#add-tasks}
+### Añadir tareas {#add-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
