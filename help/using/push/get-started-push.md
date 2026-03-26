@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 
 >[!NOTE]
 >
->Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de notificación a través del sistema operativo móvil o de los ajustes del navegador web.
+>Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de las notificaciones a través del sistema operativo móvil o de la configuración del explorador web. Para comprobar el estado de consentimiento push de un perfil en el visor de perfiles de AEP, consulte [Comprobar el estado de exclusión push](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

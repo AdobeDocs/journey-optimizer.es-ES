@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -31,6 +31,19 @@ Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclu
 >
 >Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### Comprobar estado de exclusión push {#push-opt-out-status}
+
+La exclusión push para aplicaciones móviles se gestiona en el nivel de dispositivo: cuando un usuario desactiva las notificaciones en su dispositivo, el token push se elimina de su perfil. La **presencia de un token push** en un perfil es, por lo tanto, el indicador de consentimiento push implícito.
+
+Para verificar el estado de consentimiento push de un perfil en Adobe Experience Platform:
+
+1. Abra el perfil en la sección **[!UICONTROL Perfiles]** de Adobe Experience Platform.
+1. Vaya a la pestaña **[!UICONTROL Atributos]** y busque el grupo de campos **[!UICONTROL Detalles de notificaciones push]**.
+1. Si hay un token push, el perfil ha aceptado implícitamente recibir notificaciones push. Si no se encuentra ningún token, el usuario ha optado por no participar en el nivel de dispositivo.
+
+>[!NOTE]
+>
+>Para casos de uso de conformidad que requieran un seguimiento explícito del consentimiento push, use el atributo **`consents.marketing.push.val`** del grupo de campos [Consentimientos y preferencias](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. Un valor de `y` indica la inclusión explícita; `n` indica la exclusión explícita.
 
 Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS de Journey Optimizer en estas secciones:
 
