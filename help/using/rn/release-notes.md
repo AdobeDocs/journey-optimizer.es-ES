@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
+source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 21%
+source-wordcount: '1537'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -66,7 +66,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Una nueva actividad en recorrido, Búsqueda de conjuntos de datos, permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform durante el tiempo de ejecución. Al utilizar esta capacidad, puede acceder a datos que podrían no estar en el perfil o en la carga útil del evento, lo que garantiza que sus interacciones con los clientes sean relevantes y oportunas. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). </p>
+<p>Una nueva actividad <strong>Búsqueda de conjuntos de datos</strong> en recorrido le permite recuperar dinámicamente datos de conjuntos de datos de registros de Adobe Experience Platform en tiempo de ejecución, lo que le permite acceder a información que no forma parte del perfil o la carga útil de evento, de modo que las interacciones de los clientes sigan siendo relevantes y oportunas.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). </p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/dataset-lookup.md">documentación detallada</a>.</p>
 </td>
@@ -180,7 +181,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -277,7 +278,7 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <tbody>
 <tr>
 <td>
-<p>Ahora puede almacenar en déclencheur una campaña orquestada a través de una señal enviada a través de las API. Configure la campaña de Target como "Activada por una señal" y publíquela. A continuación, utilice una llamada de API para activar la campaña. La llamada de API puede incluir parámetros que estarán disponibles como variables en la campaña activada. Nota: Una campaña orquestada iniciada por una señal sigue siendo una campaña **por lotes** y no es lo mismo que las campañas activadas por API.</p>
+<p>Ahora, las campañas orquestadas se pueden activar mediante una <strong>señal API</strong>. Para configurarlo, configure la campaña de Target como <strong>Activada por una señal</strong>, publíquela y luego actívela mediante una llamada de API. Cualquier parámetro incluido en la llamada de API está disponible como variable dentro de la campaña en ejecución. Tenga en cuenta que las campañas orquestadas activadas por señales siguen siendo <strong>campañas por lotes</strong> y son distintas de las campañas activadas por API.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>Fecha de disponibilidad: 1 de abril de 2026</p>
 </td>
