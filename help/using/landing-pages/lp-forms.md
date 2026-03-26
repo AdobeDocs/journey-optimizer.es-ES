@@ -1,29 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crear y usar formularios para las páginas de aterrizaje
+title: Creación y uso de formularios para las páginas de aterrizaje
 description: Aprenda a crear y utilizar formularios para sus páginas de aterrizaje en Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # Uso de formularios en las páginas de aterrizaje {#lp-forms}
 
->[!AVAILABILITY]
->
->Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.
-
-Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Optimizer] y enriquecer los conjuntos de datos de [!DNL Experience Platform], puede aprovechar los formularios en sus páginas de aterrizaje.
+Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Optimizer] y enriquecer los conjuntos de datos de [!DNL Experience Platform], puede aprovechar los formularios en sus páginas de aterrizaje. Para obtener una descripción general de los escenarios y requisitos de captura de datos, consulte [Captura de datos con páginas de aterrizaje](get-started-lp.md#data-capture-lp).
 
 ## Crear un ajuste preestablecido de un formulario {#create-form-preset}
 
@@ -78,7 +73,7 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
    >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
    >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
    >
-   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -270,7 +265,7 @@ Ahora puede incrustar este formulario en una página de aterrizaje para capturar
 
    >[!NOTE]
    >
-   >Puede actualizar el formulario seleccionado mediante el botón **[!UICONTROL Editar formulario]**. El formulario se abrirá en una nueva pestaña. Los pasos para editar el contenido del formulario se detallan en [esta sección](#create-form).
+   >Puede actualizar el formulario seleccionado mediante el botón **[!UICONTROL Editar formulario]**. El formulario se abrirá en una nueva pestaña. Los pasos para editar el contenido del formulario se detallan en [esta sección](#edit-form).
 
 1. En la sección **[!UICONTROL Tipo de seguimiento]**, configure lo que sucede cuando un usuario rellena el formulario:
 
@@ -282,8 +277,65 @@ Ahora puede incrustar este formulario en una página de aterrizaje para capturar
 
 1. Guarde y pruebe la página de aterrizaje. [Descubra cómo](create-lp.md#test-landing-page)
 
-Una vez que la página de aterrizaje es [publicada](create-lp.md#publish-landing-page) y se usa en un recorrido, cuando los usuarios rellenan el formulario, la información introducida se incorpora en el conjunto de datos seleccionado.
+Una vez que la página de aterrizaje es [publicada](create-lp.md#publish-landing-page) y se usa en un recorrido, cuando los usuarios rellenan el formulario, la información introducida se incorpora en el conjunto de datos seleccionado. Espere hasta 15 minutos para que los datos se procesen y estén disponibles para su uso.
 
 >[!NOTE]
 >
 >Si cancela la publicación de un formulario que se utiliza en una página de aterrizaje, edita este formulario y lo vuelve a publicar, la página de aterrizaje siempre utiliza la última versión publicada del formulario.
+
+## Preguntas frecuentes {#lp-forms-faq}
+
++++¿Qué tipo de página de aterrizaje necesito para utilizar un formulario?
+
+Al crear una página de aterrizaje, seleccione **[!UICONTROL Captura de datos]** como tipo de página de aterrizaje. Este es el único tipo de página de aterrizaje que admite la incrustación de un formulario para la recopilación de datos.
+
++++
+
++++¿Puedo utilizar cualquier conjunto de datos con un ajuste preestablecido de formulario?
+
+Solo los conjuntos de datos **habilitados para perfiles** y **no habilitados para perfiles** [!DNL Adobe Experience Platform] están disponibles para su selección. Los conjuntos de datos del sistema no se pueden utilizar para guardar datos de formulario y solo se puede seleccionar un conjunto de datos por ajuste preestablecido.
+
++++
+
++++¿Puedo reutilizar el mismo conjunto de datos o conexión de flujo continuo en varios ajustes preestablecidos de formulario?
+
+Sí. El mismo conjunto de datos o conexión de flujo continuo se puede reutilizar en varios ajustes preestablecidos. También puede configurar varios ajustes preestablecidos utilizando diferentes combinaciones de conjuntos de datos y conexiones de flujo continuo para admitir diferentes escenarios de captura de datos.
+
++++
+
++++¿Puedo utilizar un borrador de formulario en una página de aterrizaje?
+
+No. Solo se pueden seleccionar **publicar** formularios e incrustarlos en una página de aterrizaje.
+
++++
+
++++Si edito y vuelvo a publicar un formulario que ya está incrustado en una página de aterrizaje activa, ¿qué versión utiliza la página de aterrizaje?
+
+La página de aterrizaje siempre usa la **última versión publicada** del formulario. Los cambios de borrador no surtirán efecto hasta que se publique el formulario actualizado.
+
++++
+
++++¿Puedo redirigir a los usuarios a diferentes páginas en función de cómo hayan rellenado el formulario?
+
+Sí. Puede configurar una **[!UICONTROL redirección condicional]** en la página de agradecimiento y definir reglas para mostrar diferentes acciones de seguimiento basadas en las respuestas del formulario; por ejemplo, redirigir a los visitantes de un país a una página y a los visitantes de otro país a una página diferente, con una reserva predeterminada para todos los demás. [Más información](#thank-you-page)
+
++++
+
++++¿Pueden rellenarse previamente los campos de formulario con los datos de perfil existentes?
+
+Sí. Al configurar un campo, puede habilitar la opción **[!UICONTROL Rellenado previamente habilitado]** para que el campo se rellene automáticamente a partir de la información del perfil conocido cuando esté disponible.
+
++++
+
++++¿Puedo hacer que un campo sea obligatorio para que los usuarios no puedan omitirlo?
+
+Sí. En la sección **[!UICONTROL Comportamientos de campo]** de la configuración de un campo, seleccione **[!UICONTROL Requerido]**. Los usuarios no pueden enviar el formulario hasta que se hayan completado todos los campos obligatorios.
+
++++
+
++++¿Dónde van los datos de envío de formularios después de que un usuario envíe el formulario?
+
+Cuando se envía el formulario, los datos se envían a la **conexión de flujo continuo** definida en el ajuste preestablecido del formulario. A continuación, se inserta en el conjunto de datos **[!DNL Experience Platform]** vinculado a través de un flujo de origen generado automáticamente que administra la asignación, la transformación y la validación.
+
++++
+

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1613'
 ht-degree: 22%
 
 ---
@@ -53,7 +53,7 @@ Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido,
 
 1. Añada un título. Puede agregar una descripción si es necesario.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. Para asignar etiquetas de uso de datos principales o personalizadas a la página de aterrizaje, seleccione **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ Para crear una página de aterrizaje, debe seleccionar un ajuste preestablecido,
 
 1. Seleccione un ajuste preestablecido. Aprenda a crear ajustes preestablecidos de página de aterrizaje en [esta sección](../landing-pages/lp-presets.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
+1. Seleccione el tipo de página de aterrizaje que desea crear.
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL Suscripción/baja]**: use este tipo para crear una página de aterrizaje para los casos de uso de suscripción o baja. [Más información](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL Captura de datos]**: use este tipo para crear una página de aterrizaje para los casos de uso de captura de datos. [Más información](get-started-lp.md#data-capture-lp)
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -86,7 +91,7 @@ Una vez que hayas configurado y diseñado la [página principal](#configure-prim
 >title="Definir la configuración de la página principal"
 >abstract="La página principal se muestra inmediatamente a los usuarios después de hacer clic en el vínculo a la página de destino, por ejemplo, desde un correo electrónico o un sitio web."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=es" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"

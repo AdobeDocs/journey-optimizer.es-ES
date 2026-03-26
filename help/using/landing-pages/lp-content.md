@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1571'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 9%
 
 Para diseñar el contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico. [Más información](../email/content-components.md#add-content-components)
 
-Para diseñar contenido específico que permita a los usuarios seleccionar y enviar sus opciones, [use el componente de formulario](#use-form-component) y defina sus [estilos específicos de página de aterrizaje](#lp-form-styles).
+Para diseñar contenido específico que permita a los usuarios seleccionar y enviar sus opciones, use el **componente de formulario**:
+
+* En los casos de inclusión, exclusión y suscripción, use el [componente de formulario integrado](#use-form-component) y defina sus [estilos específicos de páginas de aterrizaje](#lp-form-styles).
+
+* Para permitir que los usuarios envíen datos a través de un formulario específico (por ejemplo, para enriquecer un conjunto de datos de [!DNL Experience Platform]), [incruste un formulario publicado](#embed-form) en una página de aterrizaje de **[!UICONTROL Captura de datos]**. [Más información sobre cómo crear formularios](lp-forms.md)
 
 >[!NOTE]
 >
@@ -36,7 +40,7 @@ Con el diseñador de contenido de página de aterrizaje, también puede aprovech
 
 >[!NOTE]
 >
->La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
+>La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer].
 
 ## Uso del componente del formulario {#use-form-component}
 
@@ -167,6 +171,40 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
 1. Expanda la sección **[!UICONTROL Error de formulario]** para ajustar la visualización del mensaje de error que se muestra en caso de que se produzca un problema. Marque la opción correspondiente para previsualizar el texto de error en el formulario.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Incrustar un formulario (captura de datos) {#embed-form}
+
+Para las páginas de aterrizaje creadas con el tipo [Captura de datos](get-started-lp.md#data-capture-lp), puede incrustar un [formulario publicado](lp-forms.md) que haya creado. Los envíos se envían a la conexión de flujo continuo y al conjunto de datos configurado en el ajuste preestablecido de formulario.
+
+En el diseñador de contenido de página de aterrizaje, siga los pasos a continuación.
+
+1. Arrastre y suelte un componente **[!UICONTROL Structure]** en el contenido y, a continuación, arrastre y suelte el componente **[!UICONTROL Form]** en esa estructura.
+
+   >[!NOTE]
+   >
+   >Solo se pueden seleccionar **formularios publicados** en la página de aterrizaje.
+
+1. En la sección **[!UICONTROL Incrustar formulario]**, seleccione el formulario que desea mostrar.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >Use **[!UICONTROL Editar formulario]** si necesita cambiar el contenido del formulario o el comportamiento de la página de agradecimiento; el formulario se abrirá en una nueva pestaña. [Más información sobre cómo editar formularios](lp-forms.md#edit-form)
+
+1. En la sección **[!UICONTROL Tipo de seguimiento]**, defina lo que sucede después del envío:
+
+   * **[!UICONTROL Formulario definido]** — Utilice la acción de la página de agradecimiento configurada en el formulario incrustado. [Más información](lp-forms.md#thank-you-page)
+   * **Página de aterrizaje publicada** — Redirigir a otra [página de aterrizaje publicada](create-lp.md).
+   * **Dirección URL externa** — Redirigir a una dirección URL completa.
+
+1. Guarde el contenido de la página de aterrizaje cuando haya terminado.
+
+Para ver el flujo de trabajo completo (creación de página de aterrizaje, pruebas y publicación), consulte [Aprovechar el formulario en una página de aterrizaje](lp-forms.md#leverage-form-in-lp).
+
+>[!NOTE]
+>
+>Esta experiencia de formulario incrustado se aplica solo a **[!UICONTROL Captura de datos]** páginas de aterrizaje.
 
 ## Usar contexto de página principal {#use-primary-page-context}
 

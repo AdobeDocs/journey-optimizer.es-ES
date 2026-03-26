@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing, landing page, diseño, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 18%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -33,6 +33,8 @@ A partir de ahí, puede realizar lo siguiente:
 * **Importe contenido de HTML existente** desde un archivo o una carpeta .zip. Obtenga información sobre cómo importar contenido [en esta sección](../email/existing-content.md).
 
 * **Use una plantilla de página de aterrizaje guardada** creada en [!DNL Journey Optimizer]. [Más información](lp-templates.md)
+
+Una vez en el diseñador de contenido de la página de aterrizaje, puede utilizar los mismos componentes que para un correo electrónico y definir contenido específico de la página de aterrizaje mediante el componente de formulario. [Descubra cómo](lp-content.md)
 
 >[!NOTE]
 >
