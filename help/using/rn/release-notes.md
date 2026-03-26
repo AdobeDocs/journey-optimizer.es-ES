@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
+source-git-commit: a4d1ef8820ef3cafc4dae5d897c850b106163868
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1535'
 ht-degree: 19%
 
 ---
@@ -34,7 +34,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -161,7 +161,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <tbody>
 <tr>
 <td>
-<p>Lleve las experiencias en tiempo real directamente a Lock Screens y Dynamic Island de sus clientes con la actividad en directo de iOS en Adobe Journey Optimizer. Proporcione actualizaciones en directo, desde el seguimiento de pedidos y el estado de los vuelos hasta la cuenta atrás de eventos, las puntuaciones en directo y el progreso de los envíos, sin que sea necesario que los usuarios abran la aplicación. Mantenga a su audiencia informada y comprometida exactamente en el momento adecuado, justo donde está.</p>
+<p>Lleve las experiencias en tiempo real directamente a Lock Screens y Dynamic Island de sus clientes con <strong>iOS Live Activity</strong> en Adobe Journey Optimizer. Proporcione actualizaciones en directo, desde el seguimiento de pedidos y el estado de los vuelos hasta la cuenta atrás de eventos, las puntuaciones en directo y el progreso de los envíos, sin que sea necesario que los usuarios abran la aplicación. Mantenga a su audiencia informada y comprometida exactamente en el momento adecuado, justo donde está.</p>
 <p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../mobile-live/get-started-mobile-live.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: miércoles, 03 de marzo de 2026</p>
@@ -181,7 +181,7 @@ Los recorridos existentes que utilicen actividades de canal heredadas seguirán 
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -272,23 +272,6 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <table>
 <thead>
 <tr>
-<th><strong>Déclencheur Orquestación de campañas mediante una señal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora, las campañas orquestadas se pueden activar mediante una <strong>señal API</strong>. Para configurarlo, configure la campaña de Target como <strong>Activada por una señal</strong>, publíquela y luego actívela mediante una llamada de API. Cualquier parámetro incluido en la llamada de API está disponible como variable dentro de la campaña en ejecución. Tenga en cuenta que las campañas orquestadas activadas por señales siguen siendo <strong>campañas por lotes</strong> y son distintas de las campañas activadas por API.</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>Fecha de disponibilidad: 1 de abril de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Conversión de imágenes en plantillas de contenido de correo electrónico</strong><br/></th>
 </tr>
 </thead>
@@ -298,6 +281,23 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <p>Ahora puede convertir imágenes en plantillas de contenido de correo electrónico directamente en Journey Optimizer. Utilice el análisis con tecnología de IA para generar automáticamente plantillas de HTML estructuradas a partir de referencias visuales, lo que reduce significativamente el tiempo de diseño del correo electrónico.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="../content-management/image-to-html.md">Más información</a></p>
 <p>Fecha de disponibilidad: viernes, 26 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Categoría transaccional en campañas organizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>En Campañas orquestadas, ahora puede establecer una actividad de canal en la categoría <strong>Transaccional</strong>. Esto aplica configuraciones de canal transaccional a esa actividad y resulta útil cuando no deben aplicarse reglas comerciales o cuando no se requiere la inclusión de los clientes.</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>Fecha de disponibilidad: 26 de marzo de 2026. Esta capacidad se implementará gradualmente en todas las regiones en los próximos días.</p>
 </td>
 </tr>
 </tbody>
@@ -327,23 +327,6 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <table>
 <thead>
 <tr>
-<th><strong>Categoría transaccional en campañas organizadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>En Campañas orquestadas, ahora puede establecer una actividad de canal en la categoría <strong>Transaccional</strong>. Esto aplica configuraciones de canal transaccional a esa actividad y resulta útil cuando no deben aplicarse reglas comerciales o cuando no se requiere la inclusión de los clientes.</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Fecha de disponibilidad: 26 de marzo de 2026. Esta capacidad se implementará gradualmente en todas las regiones en los próximos días.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Bandeja de entrada</strong><br/></th>
 </tr>
 </thead>
@@ -352,6 +335,23 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <td>
 <p><strong>Bandeja de entrada</strong> es una funcionalidad móvil disponible con tarjetas de contenido que permite a los clientes crear una ubicación centralizada dentro de su aplicación o sitio web para mostrar los mensajes enviados a sus usuarios. Esto amplía la duración de las comunicaciones de marketing y garantiza que los mensajes permanezcan accesibles incluso después de descartarlos.</p>
 <p>Fecha de disponibilidad: miércoles, 31 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Déclencheur Orquestación de campañas mediante una señal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora, las campañas orquestadas se pueden activar mediante una <strong>señal API</strong>. Para configurarlo, configure la campaña de Target como <strong>Activada por una señal</strong>, publíquela y luego actívela mediante una llamada de API. Cualquier parámetro incluido en la llamada de API está disponible como variable dentro de la campaña en ejecución. Tenga en cuenta que las campañas orquestadas activadas por señales siguen siendo <strong>campañas por lotes</strong> y son distintas de las campañas activadas por API.</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>Fecha de disponibilidad: jueves, 01 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
