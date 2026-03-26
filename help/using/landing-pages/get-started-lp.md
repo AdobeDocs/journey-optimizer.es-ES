@@ -113,4 +113,4 @@ La creación y la implementación de una página de aterrizaje siguen esta secue
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de aterrizaje para la inclusión o exclusión de un servicio, integrar la opción de inclusión/exclusión en un mensaje y configurar recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
