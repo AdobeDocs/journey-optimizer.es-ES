@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1931'
 ht-degree: 18%
 
 ---
@@ -39,6 +39,7 @@ Puede:
 
 * Delegar completamente un subdominio: [Más información](#set-up-subdomain)
 * Crear un subdominio con CNAME para que apunte a registros específicos de Adobe: [Más información](#set-up-subdomain)
+* Delegar un subdominio personalizado: [Más información](delegate-custom-subdomain.md)
 
 La **delegación de subdominios completa** es el método recomendado. Obtenga más información sobre las diferencias entre los distintos métodos de configuración de subdominios en [esta sección](about-subdomain-delegation.md#subdomain-delegation-methods).
 

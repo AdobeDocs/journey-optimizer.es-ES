@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación, web, tarjeta de contenido, experiencia basada en código
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 9%
+source-wordcount: '1514'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 9%
 >title="Actividad de acción"
 >abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
 
-La actividad **Action** es el único punto de entrada para todas las acciones de canal en el lienzo de recorrido. Sustituye a las actividades de canal integradas anteriores y consolida las actividades de correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido en un tipo de actividad unificado.
+La actividad **Action** es el único punto de entrada para todas las acciones de canal en el lienzo de recorrido.
+
+Sustituye a las actividades de canal integradas anteriores y consolida las actividades de correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido en un tipo de actividad unificado.
 
 Úselo para lo siguiente:
 
@@ -32,11 +34,21 @@ La actividad **Action** es el único punto de entrada para todas las acciones de
 * Crear grupos de acciones entrantes de varias acciones.
 * Aplique la optimización a cualquier acción del canal.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Las actividades heredadas de canales nativos (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026. Los recorridos existentes que utilizan estas actividades siguen funcionando sin ningún cambio; no se requiere ninguna migración.
+>También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
 
-También puede configurar acciones personalizadas para enviar los mensajes en [!DNL Journey Optimizer]. [Más información](#recommendation)
+## Acerca de las actividades de canal heredadas
+
+Las actividades heredadas de canales nativos (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) están **en desuso desde la versión de marzo de 2026**.
+
+Los recorridos existentes que utilizan estas actividades siguen funcionando sin ningún cambio; no se requiere ninguna migración.
+
+Las actividades de canal nativo heredadas también se conservan en estos casos:
+
+* **Duplicar un recorrido**: el recorrido duplicado sigue usando actividades heredadas. Puede editarlo y publicarlo tal cual; no se requiere ninguna migración.
+* **Crear una nueva versión de recorrido**: la nueva versión sigue usando actividades heredadas. Puede editarlo y publicarlo tal cual; no se requiere ninguna migración.
+* **Copiar y pegar actividades heredadas en un recorrido**: las actividades pegadas siguen siendo actividades heredadas. Puede editarlos y publicarlos tal cual; no se requiere ninguna migración.
 
 ## Añadir una acción de canal integrada a un recorrido  {#add-action}
 
