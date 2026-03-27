@@ -85,12 +85,12 @@ Los pasos principales para aprovechar las políticas de decisión en los mensaje
 
 Aprenda a utilizar Decisioning para personalizar correos electrónicos para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476167?captions=spa&quality=12)
 
 Aprenda a utilizar Decisioning para personalizar las notificaciones push para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479213?captions=spa&quality=12)
 
 Aprenda a utilizar Decisioning para personalizar los mensajes SMS para su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479532?captions=spa&quality=12)
