@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 41%
+source-wordcount: '1554'
+ht-degree: 40%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 >title="Actividad de correo directo"
 >abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
-[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas de marketing en todos los canales: correo electrónico, SMS, notificaciones push y correo directo. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
+[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas en varios canales (correo electrónico, SMS, notificaciones push y correo directo), tanto para los mensajes transaccionales como de marketing. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
 
 Por ejemplo:
 
@@ -83,6 +83,8 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 1. Añada una actividad de canal al lienzo. Las actividades de canal disponibles son **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** y **[!UICONTROL Correo directo]**.
 
    ![imagen que muestra el lienzo con las actividades disponibles](../assets/channel-add.png)
+
+1. En el carril derecho, use el campo **[!UICONTROL Categoría]** para elegir **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]** para este mensaje. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones en las que el tiempo es importante, como interrupciones, emergencias o cancelaciones.
 
 1. Seleccione la actividad y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** o **[!UICONTROL Editar correo postal]** según el canal elegido.
 

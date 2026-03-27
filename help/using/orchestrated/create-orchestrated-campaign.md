@@ -5,10 +5,10 @@ title: Creación y programación de campañas organizadas con Journey Optimizer
 description: Obtenga información sobre cómo crear y programar una campaña organizada con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 66%
+source-wordcount: '1140'
+ht-degree: 65%
 
 ---
 
@@ -28,7 +28,9 @@ Para crear una campaña orquestada, siga estos pasos:
 
 1. Vaya al menú **[!UICONTROL Campañas]** y seleccione la pestaña **[!UICONTROL Orquestación]**.
 
-1. Haga clic en el botón **[!UICONTROL Crear campaña]** y seleccione el tipo de campaña **[!UICONTROL Orquestación - Marketing]**.
+1. Haga clic en el botón **[!UICONTROL Crear campaña]** y seleccione el tipo de campaña **[!UICONTROL Orquestación - Marketing y transaccional]**.
+
+   Cuando agregue una [actividad de canal](../orchestrated/activities/channels.md), elegirá si cada mensaje es de marketing o transaccional.
 
    ![](assets/create-modal.png)
 
