@@ -5,10 +5,10 @@ title: Uso de la actividad Espera en campañas orquestadas
 description: Aprenda a utilizar la actividad Espera en campañas orquestadas
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 77%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -26,6 +26,10 @@ Por ejemplo, puede esperar unos días después de un envío de correo electróni
 
 ## Configuración{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>Los datos de las tablas temporales no se conservan después de **5 días**. Cuando use **[!UICONTROL Duración]** o **[!UICONTROL Tiempo fijo]** esperas, asegúrese de que el tiempo transcurrido hasta que la siguiente actividad se complete dentro de ese límite para que los datos intermedios permanezcan disponibles.
+
 Siga estos pasos para configurar la actividad **[!UICONTROL Esperar]**:
 
 1. Agregue una actividad **[!UICONTROL Wait]** a su campaña orquestada.
@@ -40,6 +44,6 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Esperar]**:
 
 ## Ejemplo{#wait-example}
 
-El siguiente ejemplo ilustra la actividad **[!UICONTROL Esperar]** en un caso de uso típico.  Se envía un correo electrónico con un código promocional a los perfiles que celebran su cumpleaños. Después de 29 días, se envía un SMS al mismo grupo como recordatorio de que el código de promoción de cumpleaños está a punto de caducar.
+El siguiente ejemplo ilustra la actividad **[!UICONTROL Esperar]** en un caso de uso típico.  Se envía un correo electrónico con un código promocional a los perfiles que celebran su cumpleaños. Después de 2 días, se envía un SMS al mismo grupo como recordatorio de que el código de promoción de cumpleaños está a punto de caducar.
 
 ![](../assets/wait-example.png)
