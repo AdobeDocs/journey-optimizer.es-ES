@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 96%
@@ -403,10 +403,10 @@ ht-degree: 96%
       + [Configuración del canal de LINE en Journey Optimizer](using/line/line-configuration.md)
       + [Creación de un mensaje de LINE](using/line/create-line.md)
       + [Comprobación y envío de los mensajes de LINE](using/line/send-line.md)
-   + Actividad en directo {#live-activity}
-      + [Introducción a la actividad en directo](using/mobile-live/get-started-mobile-live.md)
+   + Actividades activas {#live-activity}
+      + [Introducción a las actividades en directo](using/mobile-live/get-started-mobile-live.md)
       + [Crear una actividad en directo](using/mobile-live/create-mobile-live.md)
-      + [Resolución de problemas de actividad](using/mobile-live/troubleshoot-mobile-live.md)
+      + [Solucionar problemas de actividades activas](using/mobile-live/troubleshoot-mobile-live.md)
       + [Preguntas frecuentes](using/mobile-live/mobile-live-faq.md)
       + Configuración del canal de actividad en directo {#configure}
          + [Configuración de actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
@@ -861,7 +861,7 @@ ht-degree: 96%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
