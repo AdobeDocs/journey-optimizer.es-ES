@@ -161,4 +161,4 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 
 Descubre cómo configurar las actividades de iOS Live con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
