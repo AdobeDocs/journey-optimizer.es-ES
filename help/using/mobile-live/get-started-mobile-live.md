@@ -7,33 +7,52 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
+source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 55%
+source-wordcount: '388'
+ht-degree: 21%
 
 ---
 
 # Introducción a la actividad en directo {#get-started-mobile-live}
 
+
+Las actividades activas son elementos de interfaz de usuario persistentes y visibles que se muestran en la pantalla de bloqueo del dispositivo. Permiten que la aplicación presente información actualizada en tiempo real, lo que mantiene a los usuarios informados durante un evento en curso sin pedirles que abran la aplicación ni recibir notificaciones push repetidas.
+
 >[!AVAILABILITY]
 >
->La actividad en directo de Journey Optimizer solo es compatible con iOS.
+>La actividad en directo en Adobe Journey Optimizer solo es compatible con Apple iOS.
 
-La actividad en directo proporciona actualizaciones en tiempo real y experiencias interactivas dentro de las aplicaciones móviles, lo que permite a los usuarios mantenerse informados sobre eventos o tareas en curso directamente en la pantalla de su dispositivo.
+A diferencia de las notificaciones push tradicionales, las actividades activas representan **participación basada en el estado**: en lugar de enviar alertas únicas, mantienen una presencia contextual continua que se actualiza dinámicamente a medida que evolucionan los eventos.
 
-Esta función mejora la participación al ofrecer información en directo, como el seguimiento del progreso, las actualizaciones de eventos o el contenido interactivo, sin que sea necesario que los usuarios abran la aplicación.
+
+![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+
+Con Adobe Journey Optimizer, puede **iniciar**, **actualizar** y **finalizar** actividades en directo de forma remota mediante campañas activadas por API, lo que admite casos de uso individuales y basados en audiencias a escala.
 
 La actividad en vivo puede **solamente** iniciarse a través de **campañas activadas por API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
-Se debe seleccionar el tipo de campañas **activado por API** apropiadas en función del caso de uso previsto de la actividad en directo:
+El tipo de campaña **activado por API** apropiado debe estar seleccionado según el caso de uso de actividad en directo deseado:
 
-* Seleccione **Marketing activado por API** para las campañas basadas en públicos
+* Seleccione **Marketing activado por API** para casos de uso de difusión — actualizaciones basadas en audiencias enviadas a escala:
 
-  Diseñados para públicos o para la comunicación basada en segmentos en la que se envía la misma actualización a varios usuarios; por ejemplo: puntuaciones deportivas, actualizaciones de eventos o experiencias compartidas.
+   * Puntuaciones deportivas y cuenta atrás de eventos en directo
+   * Actualizaciones del estado del vuelo para todos los pasajeros de una ruta
+   * Experiencias compartidas en un segmento de usuario
 
-* Seleccione **Transaccional activado por API** para las campañas individuales
+* Seleccione **Transaccional activado por API** para casos de uso individuales — 1:1 actualizaciones en tiempo real por usuario:
 
-  Usuarios individuales previstos identificados por su perfil; por ejemplo: estado del pedido, seguimiento de envíos.
+   * Seguimiento de pedidos y progreso de entrega
+   * Actualizaciones del estado del servicio o del viaje
+   * Confirmaciones de reservas y citas en tiempo real
+
+## Ventajas principales
+
+Las actividades activas cambian la participación móvil de basada en notificaciones a basada en el estado, lo que permite a las marcas lo siguiente:
+
+* Mantener una **presencia continua** en la pantalla de bloqueo durante los eventos de alto valor
+* **Actualizar información dinámicamente** sin saturar a los usuarios con notificaciones repetidas
+* Entregue **momentos móviles más completos y contextuales** vinculados a eventos reales
+* **Aumentar la participación y la retención** durante transacciones activas o experiencias en directo
 
 ## Guía de inicio rápido
 
@@ -59,4 +78,4 @@ Complete los pasos siguientes para configurar e implementar la actividad Live en
 
 Descubre cómo configurar iOS Live Activities con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
