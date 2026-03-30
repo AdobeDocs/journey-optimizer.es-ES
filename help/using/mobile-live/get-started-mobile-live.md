@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 1a5a69b9c2907e18a4649543ac0ddf6fdd486491
+source-git-commit: c6b36f31af29d21053cc455fd5dbba68ed5af63b
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
@@ -31,24 +31,34 @@ A diferencia de las notificaciones push tradicionales, las actividades en direct
 <img alt="Actividades de iOS Live en Bloquear pantalla y Dynamic Island" src="assets/do-not-localize/live-activity.jpeg">
 </td>
 <td>
-<p>Con Adobe Journey Optimizer, puede <strong>iniciar</strong>, <strong>actualizar</strong> y <strong>finalizar</strong> actividades en directo de forma remota mediante campañas activadas por API, lo que admite casos de uso individuales y basados en audiencias a escala.</p>
-<p>Las actividades activas <strong>solo</strong> se pueden iniciar a través de <strong>campañas activadas por API</strong>, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil. El tipo de campaña adecuado debe seleccionarse en función del caso de uso de actividad en directo deseado:</p>
+<p><strong>Ventajas principales</strong></p>
+<p>Las actividades activas cambian la participación móvil de basada en notificaciones a basada en el estado, lo que permite a las marcas lo siguiente:</p>
 <ul>
-<li><strong>Marketing activado por API</strong>: Casos de uso de difusión, actualizaciones basadas en audiencias enviadas a escala: puntuaciones deportivas y cuentas atrás de eventos en directo, actualizaciones de estado de los vuelos, experiencias compartidas en un segmento de usuario.</li>
-<li><strong>Transaccional activado por API</strong>: casos de uso individuales, actualizaciones en tiempo real 1:1 por usuario: seguimiento de pedidos y progreso de entrega, actualizaciones de estado de servicio o de viaje, reservas en tiempo real y confirmaciones de citas.</li>
+<li>Mantener una <strong>presencia continua</strong> en la pantalla de bloqueo durante los eventos de alto valor</li>
+<li><strong>Actualizar información dinámicamente</strong> sin saturar a los usuarios con notificaciones repetidas</li>
+<li>Entregue <strong>momentos móviles más completos y contextuales</strong> vinculados a eventos reales</li>
+<li><strong>Aumentar la participación y la retención</strong> durante transacciones activas o experiencias en directo</li>
 </ul>
 </td>
 </tr>
 </table>
 
-## Ventajas principales
+Con Adobe Journey Optimizer, puede **iniciar**, **actualizar** y **finalizar** actividades en directo de forma remota mediante campañas activadas por API, lo que admite casos de uso individuales y basados en audiencias a escala.
 
-Las actividades activas cambian la participación móvil de basada en notificaciones a basada en el estado, lo que permite a las marcas lo siguiente:
+Las actividades activas **solo** se pueden iniciar a través de **campañas activadas por API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
+El tipo de campaña **activado por API** apropiado debe estar seleccionado según el caso de uso de actividad en directo deseado:
 
-* Mantener una **presencia continua** en la pantalla de bloqueo durante los eventos de alto valor
-* **Actualizar información dinámicamente** sin saturar a los usuarios con notificaciones repetidas
-* Entregue **momentos móviles más completos y contextuales** vinculados a eventos reales
-* **Aumentar la participación y la retención** durante transacciones activas o experiencias en directo
+* Seleccione **Marketing activado por API** para casos de uso de difusión — actualizaciones basadas en audiencias enviadas a escala:
+
+   * Puntuaciones deportivas y cuenta atrás de eventos en directo
+   * Actualizaciones del estado del vuelo para todos los pasajeros de una ruta
+   * Experiencias compartidas en un segmento de usuario
+
+* Seleccione **Transaccional activado por API** para casos de uso individuales — 1:1 actualizaciones en tiempo real por usuario:
+
+   * Seguimiento de pedidos y progreso de entrega
+   * Actualizaciones del estado del servicio o del viaje
+   * Confirmaciones de reservas y citas en tiempo real
 
 ## Guía de inicio rápido
 
@@ -74,4 +84,4 @@ Complete los pasos siguientes para configurar e implementar actividades en direc
 
 Descubre cómo configurar las actividades de iOS Live con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
