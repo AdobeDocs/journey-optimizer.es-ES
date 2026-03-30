@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 29%
+source-wordcount: '1172'
+ht-degree: 30%
 
 ---
 
@@ -31,11 +31,13 @@ Una vez creada la campaña orquestada y diseñadas las tareas que se realizan en
 >
 >Todas las actividades del lienzo se ejecutan excepto las actividades de **[!UICONTROL Guardar audiencia]** y las actividades del canal. No hay ningún impacto funcional en los datos o en el público.
 
-Para probar una campaña orquestada, abra la campaña y seleccione **[!UICONTROL Start]**.
+Para probar una campaña orquestada, abra la campaña y seleccione **[!UICONTROL Start]**. Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del lienzo.
 
 ![Botón Inicio en la barra de herramientas del lienzo de la campaña](assets/campaign-start.png){zoomable="yes"}
 
-Cada actividad de la campaña se ejecuta secuencialmente hasta que se llega al final del lienzo. Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
+Para **campañas orquestadas desencadenadas**, el sistema espera una llamada de API para iniciar la campaña. Debe enviar la señal para continuar con la prueba. [Aprenda a probar campañas activadas por señales](trigger-orchestrated-campaign.md#complete-and-test).
+
+Durante la prueba, puede controlar la ejecución de la campaña mediante la barra de acciones del lienzo. A partir de ahí, puede realizar lo siguiente:
 
 * **Detenga** la ejecución en cualquier momento.
 * **Inicie** la ejecución de nuevo.

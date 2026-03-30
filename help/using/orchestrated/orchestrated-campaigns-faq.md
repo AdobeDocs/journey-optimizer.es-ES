@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 14%
+source-wordcount: '1958'
+ht-degree: 13%
 
 ---
 
@@ -140,6 +140,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ ¿Cómo pruebo una campaña orquestada activada por señales antes de publicar?
+
+Mientras la campaña esté en **Borrador**, puede probarla definiendo **parámetros** en la programación y proporcionando **valores de prueba** para cada uno. Inicie el flujo de trabajo y, a continuación, llame a la API de déclencheur (utilizando la solicitud de ejemplo de la configuración de programación o su propia solicitud con el mismo punto de conexión) para ejecutar la campaña con esos valores de prueba. [Aprenda a completar y probar una campaña activada por señales](trigger-orchestrated-campaign.md#complete-and-test).
+
++++
 
 +++ ¿Puedo revertir una campaña orquestada en vivo a borrador?
 
