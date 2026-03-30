@@ -69,7 +69,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
    >[!NOTE]
    >
    >**[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponden a los estados de participación de audiencia **Realizado** y **Salido** de [!DNL Adobe Experience Platform].
-   >Consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
 
 1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado.
 
@@ -114,7 +114,7 @@ Cuando se utiliza la calificación de audiencia para audiencias transmitidas, ha
 
 Evite utilizar la apertura y el envío de eventos con la segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la frecuencia o la lógica de supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](../audience/about-audiences.md)
 
-Consulte la [[!DNL Adobe Experience Platform] documentación de segmentación de transmisión](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulte la [[!DNL Adobe Experience Platform] documentación de segmentación de transmisión](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Consulte la [[!DNL Adobe Experience Platform] documentación de segmentación de
 >
 >* **Nodo de calificación de audiencia + segmento de transmisión:** Cuando un perfil cumple los requisitos para un segmento de transmisión en Edge, esa pertenencia se proyecta de Edge a Hub antes de que el recorrido pueda actuar en consecuencia. Esta propagación de Edge a concentrador suele durar de **15 a 30 minutos** (según la SLT de UPS). El tiempo de procesamiento adicional del recorrido suele ser inferior a 5 minutos a menos que el sistema esté sometido a una carga pesada. Si los perfiles no entran en un recorrido de Calificación de audiencias como se espera, permita esta ventana de propagación antes de investigar más a fondo. Para casos de uso que requieran una entrada en tiempo real real real, considere un déclencheur de evento unitario en su lugar.
 >* **`inAudience()`en un nodo de condición — antes de una actividad de espera (o en un recorrido de audiencia de lectura):** Cuando la pertenencia a un segmento se evalúa en una expresión de condición en este contexto, AJO lee la proyección por lotes del perfil. La actualización de los datos en esta proyección conlleva una SLT de hasta **2 horas** después de la ingesta. Las audiencias que dependen de condiciones basadas en el día o en la hora pueden experimentar un retraso adicional. Agregue una breve [Actividad de espera](wait-activity.md) al principio de la recorrido o permita que el tiempo de búfer se asegure de que se refleje el último abono a segmento.
->* **`inAudience()`en un nodo de condición: después de una actividad de espera (o en un recorrido de evento unitario):** En este contexto, la pertenencia a un segmento se lee desde la proyección de flujo (unitario). Para la latencia esperada, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esta ruta suele ser más adaptable a los cambios de perfil recientes.
+>* **`inAudience()`en un nodo de condición: después de una actividad de espera (o en un recorrido de evento unitario):** En este contexto, la pertenencia a un segmento se lee desde la proyección de flujo (unitario). Para la latencia esperada, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esta ruta suele ser más adaptable a los cambios de perfil recientes.
 
 #### ¿Por qué no todos los perfiles cualificados pueden entrar en el recorrido? {#streaming-entry-caveats}
 
@@ -154,7 +154,7 @@ Estas son algunas prácticas recomendadas para evitar sobrecargar sistemas aprov
 
   ![Mensaje de error cuando no se encuentra la audiencia en [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, use una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+* Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=es){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, use una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
 * Antes de usar la audiencia en un recorrido de producción, evalúe el volumen de personas que cumplen los requisitos para esta audiencia diariamente. Para ello, compruebe el menú **[!UICONTROL Audiencia]**, abra la audiencia y observe el gráfico de **[!UICONTROL Perfiles a lo largo del tiempo]**.
 
