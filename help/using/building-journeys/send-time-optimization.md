@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, inteligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1567'
 ht-degree: 9%
 
 ---
@@ -47,26 +47,33 @@ La optimización del tiempo de envío solo está disponible para los tipos de ac
 
 ## Utilizar optimización del tiempo de envío{#use-send-time-optimization}
 
-Utilice la optimización del tiempo de envío en un correo electrónico o una acción push activando el conmutador Optimización del tiempo de envío desde los parámetros de acción.
+Para habilitar y configurar la optimización del tiempo de envío en un correo electrónico o una acción push, siga los pasos a continuación.
 
-![Opción de optimización del tiempo de envío en la configuración del canal de correo electrónico](assets/jo-message5.png)
+Antes de empezar, considere qué mensajes encajan bien antes de activarlos. La optimización del tiempo de envío no debe utilizarse para mensajes operativos urgentes y urgentes, como una confirmación de pedido, una notificación de restablecimiento de contraseña o una notificación de cambio de puerta de vuelo. Funciona mejor para comunicaciones de marketing menos urgentes, como un anuncio semanal, información promocional sobre un nuevo producto o información sobre una venta de un mes.
 
-La optimización del tiempo de envío no debe utilizarse para mensajes operativos urgentes y urgentes, como una confirmación de pedido, una notificación de restablecimiento de contraseña o una notificación de cambio de puerta de vuelo. La optimización del tiempo de envío se utiliza mejor en comunicaciones de marketing menos urgentes, por ejemplo, un anuncio semanal, información promocional de un nuevo producto o información sobre una venta de un mes.
+1. En el Recorrido, abre el menú **[!UICONTROL Configurar acción]**.
 
-Para los mensajes de correo electrónico, seleccione si desea optimizar las aperturas de correo electrónico o las pulsaciones de correo electrónico seleccionando el botón de opción adecuado. Los mensajes push siempre están optimizados para las aperturas.
+   ![Opción de optimización del tiempo de envío en la configuración del canal de correo electrónico](assets/sto-1.png)
 
->[!TIP]
->
->Para obtener los mejores resultados, la mayoría de los mensajes de correo electrónico deben optimizarse para los clics. Elija optimizar para Aperturas si el mensaje de correo electrónico es informativo y no pretende dirigir directamente una acción.
+1. Active el conmutador **[!UICONTROL Optimización del tiempo de envío]** en el menú Optimización del tiempo de envío.
 
-Para los mensajes push y de correo electrónico, elija el número máximo de horas que el sistema esperará antes de enviar el mensaje configurando un valor para la opción &quot;Enviar en el siguiente&quot;. Puede elegir un valor de 1 a 168 horas.
+   ![Opción de optimización del tiempo de envío en la configuración del canal de correo electrónico](assets/sto-2.png)
 
->[!TIP]
->
->Para obtener los mejores resultados, elija un tiempo de espera máximo entre 6 y 24 horas. Elegir un valor menor para el tiempo de espera máximo reduce el número de tiempos de envío disponibles y, por lo tanto, puede reducir el valor potencial de la optimización del tiempo de envío. Si se elige un valor más alto para el tiempo de espera máximo, el mensaje puede estar obsoleto o ser irrelevante en el momento en que se envía.
+1. En el caso de los mensajes de correo electrónico, seleccione la opción adecuada para optimizar las aperturas o las pulsaciones. Los mensajes push siempre están optimizados para las aperturas.
+
+   Para obtener los mejores resultados, optimice la mayoría de los correos electrónicos para **Clics**. Elija **Aperturas** cuando el mensaje sea informativo y no esté pensado para dirigir una acción específica.
+
+1. Para los mensajes de correo electrónico y push, establezca **[!UICONTROL Enviar en las próximas]** horas con el número máximo de horas (1-168) que el sistema esperará antes de enviar el mensaje.
+
+   Para obtener los mejores resultados, elija un valor entre 6 y 24 horas. Un valor menor reduce el número de tiempos de envío disponibles y puede limitar el beneficio de la optimización del tiempo de envío. Un valor mayor puede significar que el mensaje está obsoleto o es menos relevante en el momento en que se envía.
+
+   ![Opción de optimización del tiempo de envío en la configuración del canal de correo electrónico](assets/sto-3.png)
+
+1. En el caso de los mensajes de correo electrónico, elija cómo se configura el seguimiento de acciones. Puede rastrear las aperturas del correo electrónico y los clics en los vínculos y botones del correo electrónico.
 
 Cuando el recorrido se activa y un cliente llega a la acción Enviar por correo electrónico o Push en el recorrido, la optimización del tiempo de envío elegirá el tiempo de envío mejor predicho disponible para cada usuario dentro de los límites especificados.
 
+Para supervisar el rendimiento de su recorrido, consulte la [página de información general](../reports/channel-report-cja.md).
 
 ## Funcionamiento de la optimización del tiempo de envío {#how-send-time}
 

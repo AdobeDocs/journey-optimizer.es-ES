@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,9 @@ La página del informe se muestra con las siguientes pestañas:
 * [Campañas](#campaign)
 * [Canales](#channel)
 * [Conjuntos de reglas](#rule-sets)
+* [Modelos de optimización](#optimization-models)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 
@@ -58,7 +59,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-## Recorrido  {#journey}
+##  Recorrido  {#journey}
 
 ![](assets/cja-channel-journeys.png)
 
@@ -142,7 +143,7 @@ La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona informac
 
 La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
 
-* **&#x200B;**&#x200B;[!UICONTROL Sin conflicto]&#x200B;**&#x200B;**: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
 
 * **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
 
@@ -157,3 +158,25 @@ La columna **[!UICONTROL Exclusiones]** muestra el número de perfiles que se ex
 +++
 
 ➡️ [Más información acerca de la restricción y arbitraje de recorridos](../conflict-prioritization/journey-capping.md)
+
+## Modelos de optimización {#optimization-models}
+
+![](assets/sto-report.png)
+
+Las tablas de **[!UICONTROL optimización del tiempo de envío]** le proporcionan información sobre el rendimiento de los mensajes push o de correo electrónico optimizados y de control. Utilícela para comparar métricas clave, como envíos, aperturas, clics y devoluciones, de modo que pueda ver cómo funciona cada variante e informar sus decisiones de optimización.
+
+Tenga en cuenta que las métricas de este informe, entre ellas **[!UICONTROL Alza]** y **[!UICONTROL Confianza]**, se calculan a partir de los **60 días** de envíos y participación.
+
++++ Más información sobre las Métricas de optimización del tiempo de envío
+
+* **[!UICONTROL Envíos]**: Número total de veces que se envió cada variante de mensaje.
+
+* **[!UICONTROL Abrir]**: Número total de eventos abiertos registrados para el mensaje.
+
+* **[!UICONTROL Tasa de apertura]**: El porcentaje de mensajes enviados para los que el perfil abrió el mensaje al menos una vez.
+
+* **[!UICONTROL Alza]**: Porcentaje de mejora en la tasa de conversión para un tratamiento determinado en relación con la variante de línea de base. El alza cuantifica la magnitud de una diferencia; interpretarla junto con **[!UICONTROL Confianza]**.
+
+* **[!UICONTROL Confianza]**: seguridad estadística de la evidencia de que la tasa de apertura o de clics de la variante optimizada para el tiempo de envío difiere de la variante de control (tiempo de envío asignado al azar). Se calcula con una prueba Z de dos proporciones.
+
++++
