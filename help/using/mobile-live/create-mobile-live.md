@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -155,10 +155,10 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 
 >[!TIP]
 >
->Si tu actividad en directo no aparece o no se actualiza según lo esperado, consulta [Solucionar problemas de actividades en directo](troubleshoot-mobile-live.md) para obtener instrucciones de depuración paso a paso.
+>Si su actividad Live no aparece o no se actualiza según lo esperado, consulte [Solucionar problemas de actividades Live](troubleshoot-mobile-live.md) para obtener instrucciones de depuración paso a paso.
 
 ## Vídeo práctico
 
-Descubra cómo configurar la actividad de iOS Live con Adobe Journey Optimizer para que ofrezca actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
+Descubre cómo configurar las actividades de iOS Live con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

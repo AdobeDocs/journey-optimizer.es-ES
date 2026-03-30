@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuración, configurar, mensajes, canal, zona protegida, optimizador
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 29%
@@ -52,7 +52,7 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Tarjetas de contenido</strong></a></div></td>
     </tr></table>
 
-   Para ver canales adicionales, consulta: [Actividad de iOS Live](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) y [LINE](../line/line-configuration.md).
+   Para ver canales adicionales, consulta: [Actividades de iOS Live](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) y [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Para poder enviar mensajes, debe seguir los pasos de configuración que se enume
 * **[Calentamiento de IP](ip-warmup-gs.md)**: descubra las prácticas recomendadas para el Calentamiento de direcciones IP a fin de mejorar la capacidad de envío de correo electrónico y la reputación del remitente.
 * **[Administrar lista de supresión](manage-suppression-list.md)**: aprenda a administrar listas de supresión para gestionar devoluciones y mantener la higiene de las listas.
 * **[Configurar aplicaciones móviles](set-mobile-config.md)** - Configurar configuraciones de aplicaciones móviles para notificaciones push y mensajería en la aplicación.
-* **[Configuración de la actividad de iOS Live](../mobile-live/mobile-live-configuration.md)**: configura tu entorno para enviar actividades en directo a la pantalla de bloqueo de iPhone y a Dynamic Island.
+* **[Configurar actividades de iOS Live](../mobile-live/mobile-live-configuration.md)**: configura tu entorno para enviar actividades en directo a la pantalla de bloqueo de iPhone y a Dynamic Island.
 * **[Configuración de WhatsApp](../whatsapp/whatsapp-configuration.md)**: configura la mensajería de WhatsApp a través de la API de nube de Meta para campañas y recorridos.
 * **[Configuración de LINE](../line/line-configuration.md)**: configure la mensajería LINE para campañas y recorridos.
 * **[Tutoriales de configuración](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: explora tutoriales de vídeo paso a paso sobre la configuración del canal y las prácticas recomendadas.

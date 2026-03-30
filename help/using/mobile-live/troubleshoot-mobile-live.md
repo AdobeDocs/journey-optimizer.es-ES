@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Solucionar problemas de actividades activas
-description: Obtenga información sobre cómo solucionar problemas de actividades en directo en Journey Optimizer para casos de uso unitarios y de difusión, incluidos problemas de tokens de perfil, configuración de campañas y errores de entrega
+description: Obtenga información sobre cómo solucionar problemas de actividades en directo en Journey Optimizer para casos de uso unitarios y de difusión, incluidos problemas de token de perfil, configuración de campaña y errores de entrega
 role: User
 level: Intermediate
-source-git-commit: b71dbb0e4987cfc879a7b153d5c1453d6c220bf9
+exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '4503'
 ht-degree: 1%
 
 ---
-
 
 # Solucionar problemas de actividades activas {#troubleshoot-mobile-live}
 
@@ -22,13 +22,13 @@ Las actividades en directo en Adobe Journey Optimizer permiten actualizaciones d
 * **Unitario**: segmentado individualmente, transaccional (campañas transaccionales activadas por API)
 * **Difusión**: Entrega en masa dirigida a audiencias (campañas de marketing activadas por API)
 
-Un desafío frecuente con Live Activities es cuando la llamada de la API para almacenar en déclencheur o actualizar una actividad en directo devuelve una **respuesta correcta (200 OK)**, pero la actividad en directo no aparece ni se actualiza en el dispositivo del usuario. Esta desconexión entre la confirmación de la API y el comportamiento real del dispositivo se puede producir en varios puntos de la canalización de envíos. Esta guía proporciona un enfoque sistemático de solución de problemas para identificar dónde falla el envío, y examina cada fase desde la validación de la solicitud de API hasta el procesamiento del dispositivo.
+Un desafío frecuente con las actividades en directo es cuando la llamada de la API para almacenar en déclencheur o actualizar una actividad en directo devuelve una **respuesta correcta (200 OK)**, pero la actividad en directo no aparece ni se actualiza en el dispositivo del usuario. Esta desconexión entre la confirmación de la API y el comportamiento real del dispositivo se puede producir en varios puntos de la canalización de envíos. Esta guía proporciona un enfoque sistemático de solución de problemas para identificar dónde falla el envío, y examina cada fase desde la validación de la solicitud de API hasta el procesamiento del dispositivo.
 
 ## Requisitos previos
 
 Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
-* &#x200B;
+* 
   +++ Configuración de una sesión de Assurance
 
   Configure una **sesión de Assurance** para capturar eventos de SDK e inspeccionar la canalización de envíos. Assurance proporciona visibilidad sobre:
@@ -36,15 +36,15 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
    * Solicitudes y respuestas de Edge Network
    * Eventos de calificación de perfiles
    * Registro de token push
-   * Eventos del ciclo vital de Actividad activos
+   * Eventos de ciclo vital de actividad activos
 
-  Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+  Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
-  **Nota**: Para iOS Live Activity, asegúrate de que la aplicación se esté ejecutando en un dispositivo físico de iOS (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
+  **Nota**: Para la actividad de iOS Live, asegúrate de que la aplicación se esté ejecutando en un dispositivo iOS físico (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
 
   +++
 
-* &#x200B;
+* 
   +++ Recopilar detalles de la campaña activada por API
 
   Vaya a la API de la campaña activada en Journey Optimizer y recupere lo siguiente:
@@ -52,23 +52,23 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
    * Nombre de la campaña
    * ID de campaña encontrado en la URL o en las propiedades de la campaña
    * Versión de la campaña si corresponde
-   * Configuración de superficie, superficie de aplicación de iOS utilizada para Actividad en directo
+   * Configuración de superficie, superficie de la aplicación de iOS utilizada para la actividad en directo
 
   +++
 
-* &#x200B;
+* 
   +++ Recopilar información de solicitud de API
 
   Al realizar la llamada de API para almacenar en déclencheur la actividad en directo, guarde lo siguiente:
 
-   * Carga útil de solicitud de API, incluidos los identificadores de perfil y los datos de Actividad en directo
+   * Carga útil de solicitud de API, incluidos los identificadores de perfil y los datos de actividad en directo
    * Respuesta de API que incluye código de estado, ID de mensaje e ID de solicitud
    * Marca de tiempo del momento en el que se llamó a la API
    * Punto de conexión utilizado, p. ej. `/campaign/{CAMPAIGN_ID}/execute`
 
   +++
 
-* &#x200B;
+* 
   +++ Identificación del perfil de prueba
 
   En la solicitud de API, recupere:
@@ -80,7 +80,7 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
   +++
 
-* &#x200B;
+* 
   +++ Información del dispositivo y la aplicación
 
   Recopile lo siguiente del dispositivo de prueba:
@@ -99,13 +99,13 @@ Antes de efectuar la localización de averías, asegúrese de que dispone de:
 
 [!BADGE Se aplica a los casos de uso unitario y de difusión]{type=Positive}
 
-La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Causas frecuentes:
+La API devuelve el valor HTTP 200, pero la actividad Live no aparece. Causas frecuentes:
 
 * El perfil no existe en Adobe Experience Platform.
-* El token push de Actividad activa no se ha sincronizado con el perfil.
-* Los detalles de inserción de Actividad activa se sincronizan, pero contienen una configuración incorrecta, como `appId` o `attributeType` incorrectos.
+* El token push de la actividad activa no se ha sincronizado con el perfil.
+* Los detalles de inserción de la actividad activa se sincronizan, pero contienen una configuración incorrecta, como `appId` o `attributeType` incorrectos.
 
-**Nota para casos de uso de difusión**: Si a algunos perfiles de su audiencia les faltan tokens, solo esos perfiles no recibirán la Actividad en directo. Muestre varios perfiles de su audiencia para diagnosticar problemas de tokens. Esto solo se aplica a eventos de inicio remotos, no a eventos de actualización o finalización.
+**Nota para casos de uso de difusión**: Si a algunos perfiles de su audiencia les faltan tokens, solo esos perfiles no recibirán la actividad en directo. Muestre varios perfiles de su audiencia para diagnosticar problemas de tokens. Esto solo se aplica a eventos de inicio remotos, no a eventos de actualización o finalización.
 
 #### Comprobaciones previas
 
@@ -115,11 +115,11 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
    * `ActivityAttributes` se implementó correctamente.
 * Integración de SDK móvil:
    * Adobe Experience Platform Mobile SDK (mensajería SDK 5.11.0+)
-   * `Messaging.registerLiveActivities` implementado y llamado con el token push de Actividad en directo.
+   * `Messaging.registerLiveActivities` implementado y llamado con el token de inserción de actividad en vivo.
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Comprobar que el perfil existe en Adobe Experience Platform
 
    1. En Journey Optimizer, vaya a **Cliente** `>` **Perfiles**.
@@ -129,8 +129,8 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
 
       +++
 
-1. &#x200B;
-   +++ Comprobar si el token push de Actividad activa está sincronizado
+1. 
+   +++ Compruebe si el token push de la actividad en directo está sincronizado
 
    Puede utilizar Assurance para verificar el registro de tokens:
 
@@ -149,7 +149,7 @@ La API devuelve el valor HTTP 200, pero la actividad en directo no aparece. Caus
 
    +++
 
-1. &#x200B;
+1. 
    +++ Validar detalles de token en el perfil
 
    1. Desde tu **perfil**, accede a la pestaña **Atributos**.
@@ -202,12 +202,12 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
 #### Comprobaciones previas
 
-* La campaña es **Transaccional activada por API** (unitaria) o **Marketing activada por API** (difusión) y la opción **Alto rendimiento** debe estar **no** habilitada ya que es incompatible con Actividad en directo.
+* La campaña es **Transaccional activada por API** (unitaria) o **Marketing activada por API** (difusión) y la opción **Alto rendimiento** debe estar **no** habilitada ya que es incompatible con la actividad en directo.
 * Asegúrese de que el perfil existe y de que los tokens se sincronizan correctamente usando el [escenario anterior](#profile-issue).
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Verifique la configuración de campaña
 
    1. En Journey Optimizer, abra su **Campaña** y vaya al menú **Acciones**.
@@ -216,7 +216,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
       +++
 
-1. &#x200B;
+1. 
    +++Validar estructura de carga útil de API
 
    Al ejecutar la campaña a través de la API, asegúrese de que la carga útil sigue la estructura correcta.
@@ -274,13 +274,13 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
    * Campo opcional que contiene Unix epoch time (seconds).
    * **Solo es relevante cuando`event: "end"`**.
-   * Especifica cuándo se debe eliminar automáticamente la Actividad activa del dispositivo.
-   * Si no se proporciona en el evento Fin, la actividad en directo permanece visible hasta que el usuario la descarta.
+   * Especifica cuándo se debe eliminar automáticamente la actividad en directo del dispositivo.
+   * Si no se proporciona en el evento Fin, la actividad Live permanece visible hasta que el usuario la descarta.
    * Debe ser una marca de tiempo futura (posterior a `timestamp`).
 
      +++
 
-1. &#x200B;
+1. 
    +++ Alinear la carga útil con la implementación de iOS
 
    Asegúrese de que la carga útil de la API coincida con la implementación de la aplicación de iOS `ActivityAttributes`. El protocolo `LiveActivityAttributes` de Adobe SDK amplía iOS `ActivityAttributes` y requiere una propiedad `liveActivityData`.
@@ -342,8 +342,8 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
    | Problema | Impacto | Se ha corregido un problema que hacía que se mostrara |
    |-------|--------|-----|
-   | Faltan `liveActivityData` en los atributos | La actividad en directo no se iniciará | Incluir siempre el objeto `liveActivityData` en el evento de inicio |
-   | Falta un campo obligatorio en el evento de inicio | La actividad en directo no se iniciará | Añadir todos los campos de la estructura de iOS |
+   | Faltan `liveActivityData` en los atributos | La actividad en directo no se inicia | Incluir siempre el objeto `liveActivityData` en el evento de inicio |
+   | Falta un campo obligatorio en el evento de inicio | La actividad en directo no se inicia | Añadir todos los campos de la estructura de iOS |
    | Nombre de campo incorrecto (error tipográfico/caso) | Campo omitido o error de análisis | Igualar exactamente los nombres de los campos de iOS |
    | Tipo de datos incorrecto | Error de análisis | Hacer coincidir tipos de datos de iOS |
    | Falta un objeto anidado | Datos incompletos | Incluir todas las estructuras anidadas |
@@ -354,7 +354,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
    +++
 
-1. &#x200B;
+1. 
    +++ Prueba con Assurance
 
    Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
@@ -363,7 +363,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
    1. Ejecute la llamada de la API para almacenar en déclencheur la actividad en directo.
    1. En **Lista de eventos**, compruebe lo siguiente:
       * Eventos de ejecución de Campaign.
-      * Eventos de entrega de Actividad en directo.
+      * Eventos de entrega de actividad en directo.
       * Eventos de error de validación de carga útil.
    1. Revise las cargas útiles de evento para verificar:
       * La carga útil se ha procesado correctamente.
@@ -382,7 +382,7 @@ En este caso, todas las comprobaciones anteriores han pasado:
 * La campaña se ha [configurado correctamente con la carga útil adecuada](#payload-issues)
 * [Se sincronizan los tokens de actualización](#token-not-synced) (solo para eventos de actualización/finalización, caso de uso unitario)
 
-Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finalizar según lo esperado. El problema puede deberse al sistema de entrega de Adobe o al proveedor de servicios de notificaciones push (APN).
+Pero la actividad en directo sigue sin aparecer, actualizarse ni finalizar según lo esperado. El problema puede deberse al sistema de entrega de Adobe o al proveedor de servicios de notificaciones push (APN).
 
 **Nota para casos de uso de difusión**: los informes muestran métricas entre todos los miembros de la audiencia. Algunos perfiles pueden tener éxito mientras que otros fallan.
 
@@ -401,10 +401,10 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Comprobación de informes de campaña
 
-   1. Vaya a **Live Activity Campaign**.
+   1. Vaya a su **Actividad en directo en Campaign**.
    1. Haga clic en el botón **Informes**.
    1. Seleccione **Ver informe de todo el tiempo**.
    1. Revise las secciones siguientes:
@@ -433,14 +433,14 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
          | Exclusión común | Significado | Resolución |
          |-|-|-|
          | Perfil excluido | El usuario ha excluido las notificaciones | Comprobar estado de consentimiento del perfil |
-         | Incluir en la lista de bloqueados Token | Token marcado como no válido | Volver a registrar el token o comprobar el estado de la lista de bloqueados de la |
+         | Token | Token marcado como no válido | Volver a registrar el token o comprobar el estado de la lista de bloqueados de la |
          | Perfil no apto | El perfil no cumple los criterios de la campaña | Revisar reglas de audiencia de campaña |
 
    Obtenga más información en la [página de informe de campaña de actividades en vivo](../reports/campaign-global-report-cja-activity.md).
 
    +++
 
-1. &#x200B;
+1. 
    +++ Comprobación de eventos de comentarios de mensajes en el perfil
 
    1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
@@ -467,12 +467,12 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
       +++
 
-1. &#x200B;
-   +++ Verificación de la entrega de actividades activas a APNS en Assurance
+1. 
+   +++ Verificación de la entrega de actividades en directo a APNS en Assurance
 
    1. Abra la sesión de Assurance, debe estar activa durante la llamada de API.
    1. Ejecute la llamada de API (inicio, actualización o finalización).
-   1. En la **Lista de eventos**, busque eventos de entrega de Actividad en directo.
+   1. En **Lista de eventos**, busque Eventos de entrega de actividades en directo.
    1. Busque eventos relacionados con la entrega push de APNS.
    1. Compruebe la existencia de las luces testigo siguientes:
       * **Solicitud push a APNS**: Confirma que Adobe envió la notificación push a los servidores de Apple
@@ -485,12 +485,12 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
       | Certificado de APNS caducado | Error de autenticación | Renovar y cargar un nuevo certificado de APN |
       | Entorno incorrecto (dev vs prod) | Error de coincidencia de tokens | Asegúrese de que el certificado coincida con el tipo de creación de aplicación |
       | ID de paquete no coincidente | Identificador de paquete no válido | Verificar que el ID del paquete de certificados coincida con la aplicación |
-      | Token caducado | Error InvalidToken de APNS | Volver a registrar tokens de actividades activas |
+      | Token caducado | Error InvalidToken de APNS | Volver a registrar tokens de actividad activos |
       | Limitación de velocidad | Demasiadas solicitudes | Reducir frecuencia de llamada de API |
 
       +++
 
-1. &#x200B;
+1. 
    +++ Pasar a comprobaciones de diagnóstico adicionales
 
    1. Compruebe las métricas del ciclo vital de la actividad en directo en el informe de Campaign.
@@ -502,13 +502,13 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
       | Inicios remotos | Debe mostrar el recuento de inicios activados por API |
       | Actualizaciones | Debe mostrar el recuento de eventos de actualización |
       | Finaliza | Debe mostrar el recuento de eventos finales |
-      | Recuento de totales | Volumen general del evento de Actividad en directo |
+      | Recuento de totales | Volumen general del evento de actividad en directo |
 
       Si estas métricas son cero o no coinciden con sus llamadas de API, hay un problema de envío entre Adobe y APNS.
 
    1. Si Adobe muestra un envío correcto pero el dispositivo no muestra la actividad en directo:
 
-      * Compruebe los registros de dispositivos de iOS para ver si hay errores de Actividad activa.
+      * Compruebe si hay errores de actividad en directo en los registros de dispositivos iOS.
       * Verifique que la aplicación esté en primer o segundo plano (no finalizada).
       * Confirme que el dispositivo tiene conectividad de red.
       * Realice pruebas en varios dispositivos para descartar problemas específicos del dispositivo.
@@ -516,7 +516,7 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
       +++
 
-1. &#x200B;
+1. 
    +++ Escalación al Soporte de Adobe
 
    Si ha completado todos los pasos y el problema sigue sin resolverse, póngase en contacto con el Servicio de atención al cliente de Adobe con:
@@ -538,37 +538,37 @@ Sin embargo, la actividad en directo sigue sin aparecer, actualizarse ni finaliz
 
 ## Situaciones específicas unitarias
 
-### Token de actualización de Actividad activa no sincronizado{#token-not-synced}
+### Token de actualización de actividad activa no sincronizado{#token-not-synced}
 
-La actividad en directo se inicia correctamente en el dispositivo, pero las llamadas a la API `update` o `end` subsiguientes (que devuelven HTTP 200) no se pueden actualizar ni descartar la actividad en directo. Esto ocurre cuando el **token de actualización de Live Activity** no está sincronizado correctamente con el sistema de Adobe.
+La actividad Live se inicia correctamente en el dispositivo, pero las llamadas a la API `update` o `end` subsiguientes (que devuelven HTTP 200) no se pueden actualizar o descartar la actividad Live. Esto ocurre cuando el **token de actualización de la actividad en directo** no está sincronizado correctamente con el sistema de Adobe.
 
 **Explicación de los tokens de actualización**
 
-Cuando se inicia una Actividad activa en un dispositivo, iOS genera un token de actualización único para esa instancia de Actividad activa específica. Este token es necesario para lo siguiente:
+Cuando se inicia una actividad Live en un dispositivo, iOS genera un token de actualización único para esa instancia de actividad Live específica. Este token es necesario para lo siguiente:
 
 * Envío de actualizaciones a la actividad en directo
 * Finalización remota de la actividad Live
 
-Cada instancia de Actividad activa tiene su propio token de actualización único. Adobe necesita este token para entregar eventos de actualización y finalización.
+Cada instancia de actividad Live tiene su propio token de actualización único. Adobe necesita este token para entregar eventos de actualización y finalización.
 
 **Comportamiento esperado**
 
 Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
 1. La actividad en directo se inicia correctamente en el dispositivo.
-1. El dispositivo genera un token de actualización para esa instancia de Actividad activa.
+1. El dispositivo genera un token de actualización para esa instancia de actividad en directo.
 1. Mobile SDK captura y envía el token de actualización a Adobe.
 1. El token de actualización se sincroniza y almacena en el sistema de Adobe.
 1. Las llamadas de API posteriores para la actualización/finalización utilizan este token para la entrega.
 
 **Comprobaciones previas:**
 
-* **Permiso de usuario**: La primera vez que se inicia una actividad en directo en un dispositivo, iOS muestra un mensaje del sistema: &quot;¿Permitir que [Nombre de la aplicación] proporcione actualizaciones de la actividad en directo?&quot; El usuario **debe pulsar &quot;Permitir&quot;** para que se generen y sincronicen los tokens de actualización. Si el usuario pulsa &quot;No permitir&quot;, no se crea ningún token de actualización y las solicitudes de actualización/finalización fallarán. Se trata de un permiso único por aplicación.
+* **Permiso de usuario**: La primera vez que se inicia una actividad en directo en un dispositivo, iOS muestra un mensaje del sistema: &quot;¿Permitir que [Nombre de aplicación] proporcione actualizaciones de actividades en directo?&quot; El usuario **debe pulsar &quot;Permitir&quot;** para que se generen y sincronicen los tokens de actualización. Si el usuario pulsa &quot;No permitir&quot;, no se crea ningún token de actualización y las solicitudes de actualización/finalización fallarán. Se trata de un permiso único por aplicación.
 * **Validación de perfiles y campañas**: complete las comprobaciones de [Escenario 1](#profile-issue) y [Escenario 2](#payload-issues) para garantizar que la configuración del perfil, los tokens y la campaña sea correcta.
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Verificar la sincronización del token de actualización en Assurance
 
    1. Abra la sesión de Assurance.
@@ -577,21 +577,21 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
    1. Seleccione el evento e inspeccione la carga útil:
 
       * Compruebe que el campo `token` contenga una cadena de token de actualización válida.
-      * Compruebe que `liveActivityID` coincida con su instancia de Live Activity.
+      * Compruebe que `liveActivityID` coincida con su instancia de actividad en directo.
       * Confirme que `activityType` coincide con su `attributes-type`.
 
    1. Si no se encuentra el evento:
 
       * SDK no ha generado ni capturado el token de actualización.
-      * Compruebe si el usuario ha concedido permisos de Actividad en directo.
-      * Compruebe que la actividad en directo se haya iniciado correctamente en el dispositivo.
+      * Compruebe si el usuario ha concedido permisos de actividad en directo.
+      * Compruebe que la actividad Live se haya iniciado correctamente en el dispositivo.
       * Confirme que el SDK móvil está correctamente integrado para capturar los tokens de actualización.
 
    1. Si se encuentra el evento, continúe con el paso 2.
 
       +++
 
-2. &#x200B;
+2. 
    +++ Verificar el token de actualización en los eventos de perfil
 
    1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
@@ -600,7 +600,7 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
    1. Busque `liveActivity.updateToken` eventos.
    1. Compruebe los detalles del evento:
 
-      * Compruebe que la marca de tiempo sea reciente (coincide con el momento en que se inició la actividad en directo).
+      * Compruebe que la marca de tiempo sea reciente (coincide con el momento en el que se inició la actividad en directo).
       * Confirme que `token` y `liveActivityID` están presentes.
       * Asegúrese de que `activityType` sea correcto.
 
@@ -614,11 +614,11 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
       +++
 
-3. &#x200B;
-   +++ Compruebe los eventos de entrega de Actividad en directo en Assurance
+3. 
+   +++ Compruebe los eventos de entrega de actividades en directo en Assurance
 
    1. En la sesión de Assurance, ejecute una actualización o termine la llamada a la API.
-   1. En la **Lista de eventos**, busque eventos de entrega de actividades activas (eventos push de APN).
+   1. En la **Lista de eventos**, busque Eventos de entrega de actividades en directo (eventos push de APN).
    1. Compruebe si hay eventos que indiquen:
       * Notificación push enviada a APNS.
       * Respuesta de APNS (éxito o error).
@@ -633,16 +633,16 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
 ### Problemas de configuración de campañas de difusión y carga útil{#broadcast-config}
 
-Esta sección cubre la resolución de problemas específicos de las actividades en directo de difusión, que requieren diferentes enfoques de depuración que las campañas unitarias.
+Esta sección cubre la resolución de problemas específicos de las actividades de difusión en directo, que requieren diferentes enfoques de depuración que las campañas unitarias.
 
-Cuando los perfiles tienen tokens válidos pero la actividad en directo no aparece, actualiza o se comporta como se espera para los miembros de la audiencia, el problema suele deberse a uno de los siguientes motivos:
+Cuando los perfiles tienen tokens válidos pero la actividad en directo no aparece, actualiza ni se comporta como se espera para los miembros de la audiencia, el problema suele deberse a uno de los siguientes motivos:
 
 * La campaña no está configurada como marketing activado por API.
 * La carga útil de la API usa una estructura de difusión incorrecta (faltan `audience` o `input-push-channel`).
 * Los campos `content-state` y `attributes` no coinciden con la implementación de iOS `ActivityAttributes`.
 * `input-push-channel` no se creó correctamente en el portal para desarrolladores de Apple.
 
-Este escenario de solución de problemas se aplica a todos los eventos de Actividad en directo de las campañas de difusión: `start`, `update` y `end`.
+Este escenario de solución de problemas se aplica a todos los eventos de actividad en directo de las campañas de difusión: `start`, `update` y `end`.
 
 **Comprobaciones previas:**
 
@@ -653,7 +653,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Verificar configuración de audiencia de campaña
 
    1. Abra **Campaña de marketing activada por API** en Journey Optimizer.
@@ -668,7 +668,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
       +++
 
-1. &#x200B;
+1. 
    +++ Validar estructura de carga útil de API de difusión
 
    La estructura de carga útil de difusión difiere de las campañas unitarias. Compruebe que la carga útil sigue el formato de difusión correcto.
@@ -717,11 +717,11 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
       * Todos los perfiles de la audiencia reciben actividades en directo vinculadas a este canal.
       * Debe coincidir con `channelID` en `liveActivityData.channelID` (consulte el paso 3).
       * El cliente debe crear para `appID` en Apple Developer Portal.
-      * Solo se pueden usar los canales creados para `appID` en concreto para difundir Actividad en directo en esa aplicación.
+      * Solo se pueden usar los canales creados para `appID` en concreto para difundir una actividad en directo en esa aplicación.
 
    * **`audience.id`**
       * Debe hacer referencia a un segmento de audiencia válido creado en Adobe Experience Platform.
-      * Todos los perfiles de esta audiencia están destinados a la actividad en directo.
+      * Todos los perfiles de esta audiencia están segmentados para la actividad en directo.
       * La audiencia debe estar activada y contener perfiles con `liveActivityPushNotificationDetails` válidos.
 
    **Usar siempre la marca de tiempo más reciente:**
@@ -740,7 +740,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
    +++
 
-1. &#x200B;
+1. 
    +++ Alinee contenido-estado, atributos y entrada-canal-push con la implementación de iOS
 
    Asegúrese de que los campos de carga útil coincidan con la implementación `ActivityAttributes` de su aplicación iOS y de que `input-push-channel` coincida con `channelID` en `liveActivityData`.
@@ -795,7 +795,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
 
    * El valor `input-push-channel` en la raíz de `aps` debe coincidir exactamente con `channelID` en `liveActivityData`.
    * En el ejemplo anterior, ambos valores son `"FEt0NgvLEfEAAOqA6AXdIQ=="`.
-   * Esta coincidencia vincula la instancia de difusión con los datos de la Actividad en directo.
+   * Esta coincidencia vincula la instancia de difusión con los datos de la actividad en directo.
    * Un desajuste provoca errores de entrega.
 
    **Puntos de validación clave:**
@@ -812,16 +812,16 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
    | Problema | Impacto | Se ha corregido un problema que hacía que se mostrara |
    |-|-|-|
    | Falta `input-push-channel` | La difusión no funcionará | Agregar un ID de canal único para cada difusión |
-   | `input-push-channel` no coincide con `channelID` | La actividad en directo no se iniciará | Asegúrese de que ambos valores sean idénticos |
+   | `input-push-channel` no coincide con `channelID` | La actividad en directo no se inicia | Asegúrese de que ambos valores sean idénticos |
    | Diferente `input-push-channel` para actualizar/finalizar | La actualización o el final no llegarán a las actividades activas. | Usar el mismo ID de canal durante el ciclo vital |
    | Falta `liveActivityData.channelID` | La actividad en directo no se vinculará a la difusión | Incluir `channelID` en atributos para el evento de inicio |
-   | Falta un campo obligatorio en el evento de inicio | La actividad en directo no se iniciará | Añadir todos los campos de la estructura de iOS |
+   | Falta un campo obligatorio en el evento de inicio | La actividad en directo no se inicia | Añadir todos los campos de la estructura de iOS |
    | Nombre de campo incorrecto (error tipográfico/caso) | Campo omitido o error de análisis | Igualar exactamente los nombres de los campos de iOS |
    | Marca de tiempo antigua al actualizar/finalizar | Los dispositivos ignoran la actualización o el final | Generar siempre nueva marca de tiempo |
 
    +++
 
-1. &#x200B;
+1. 
    +++ Prueba con Assurance
 
    Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
@@ -830,7 +830,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de Activi
    1. Ejecute la llamada de API de difusión.
    1. En **Lista de eventos**, busque:
       * Eventos de ejecución de Campaign.
-      * Eventos de entrega de Actividad en directo.
+      * Eventos de entrega de actividad en directo.
       * Eventos de error que indican errores de validación de carga útil.
    1. Inspeccione las cargas útiles de eventos para confirmar:
       * La carga útil se ha procesado correctamente.
@@ -868,10 +868,10 @@ Adobe Experience Platform utiliza diferentes métodos de evaluación de audienci
 
 #### Pasos de depuración
 
-1. &#x200B;
+1. 
    +++ Verificar que el perfil esté en la audiencia
 
-   En primer lugar, confirme si el perfil que debe recibir la actividad en directo forma parte de la audiencia.
+   En primer lugar, confirme si el perfil que debe recibir la actividad en directo es realmente parte de la audiencia.
 
    1. Vaya a **Audiencias** en Adobe Experience Platform.
    1. Busque y abra la audiencia usando `audience.id` de su campaña.
@@ -886,7 +886,7 @@ Adobe Experience Platform utiliza diferentes métodos de evaluación de audienci
 
       +++
 
-2. &#x200B;
+2. 
    +++ Comprobar el tipo y la programación de evaluación de audiencia
 
    Identifique si la audiencia utiliza la evaluación por lotes o de flujo continuo, ya que esto determina la actualización de los datos.

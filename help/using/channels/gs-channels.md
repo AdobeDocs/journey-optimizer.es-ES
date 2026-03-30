@@ -6,7 +6,7 @@ description: 'Aprenda a trabajar con los canales de comunicación de  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 84%
@@ -27,7 +27,7 @@ Los canales de envío de los mensajes de salida implican enviar mensajes a los c
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de correo electrónico
 
@@ -37,7 +37,7 @@ Descubra cómo crear, configurar y optimizar campañas de correo electrónico, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificaciones push
 
@@ -47,17 +47,17 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-Actividad de iOS Live
+Actividades de iOS Live
 
-Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantalla de bloqueo de iPhone y en Dynamic Island. Potencie las actividades en directo desde campañas activadas por API para casos de uso individuales (seguimiento de pedidos, estado del paseo) o casos de uso de difusión (puntuaciones deportivas, estado de vuelo).
+Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantalla de bloqueo de iPhone y en Dynamic Island. Potencie las actividades en directo desde campañas activadas por API para casos de uso individuales (seguimiento de pedidos, estado de la conducción) o casos de uso de difusión (puntuaciones deportivas, estado de vuelo).
 
-[Más información sobre la Actividad en directo de iOS](../mobile-live/get-started-mobile-live.md)
+[Más información sobre las actividades de iOS Live](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensajería SMS/MMS/RCS
 
@@ -67,7 +67,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campañas de correo directo
 
@@ -77,7 +77,7 @@ Descubra cómo crear y administrar campañas de correo directo, incluida la expo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Mensajería de WhatsApp
 
@@ -87,7 +87,7 @@ Aprenda a integrar y utilizar la mensajería WhatsApp mediante la API en la nube
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Mensajería LINE
 
@@ -105,7 +105,7 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensajería en la aplicación
 
@@ -115,7 +115,7 @@ Explore cómo configurar, diseñar y personalizar notificaciones en la aplicaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +125,7 @@ Aprenda a crear, configurar y personalizar experiencias web e integrar canales w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiencia basada en código
 
@@ -135,7 +135,7 @@ Sumérjase en experiencias basadas en código para ofrecer contenido personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Tarjetas de contenido
 
@@ -162,7 +162,7 @@ En la siguiente tabla se muestra la disponibilidad de cada canal en diferentes r
 | Correo electrónico | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notificación push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Actividad de iOS Live | — | — | — | ✅ | — |
+| Actividades de iOS Live | — | — | — | ✅ | — |
 | in-app | ✅ | ✅ | — | — | — |
 | Correo directo | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

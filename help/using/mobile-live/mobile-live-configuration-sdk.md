@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración del canal de actividad en directo
+title: Configuración del canal de actividades en directo
 description: Obtenga información sobre cómo configurar la integración de Adobe Experience Platform Mobile SDK
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 # Integración de actividades en directo con Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con la actividad en directo de Apple. Esto permite que la aplicación muestre actualizaciones dinámicas en tiempo real directamente en la pantalla de bloqueo y en Dynamic Island sin necesidad de abrir la aplicación.
+Adobe Experience Platform Mobile SDK ofrece compatibilidad integrada con las actividades en directo de Apple. Esto permite que la aplicación muestre actualizaciones dinámicas en tiempo real directamente en la pantalla de bloqueo y en Dynamic Island sin necesidad de abrir la aplicación.
 
 1. [Importación de módulos necesarios](#import)
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## Paso 4: Crear widgets de actividad activos {#widgets}
 
-La actividad en directo se muestra a través de widgets, debe crear un paquete de widgets y una configuración:
+Se muestra una actividad en directo a través de widgets. Debe crear un paquete de widgets y una configuración:
 
 **Ejemplo de una actividad de entrega de alimentos en directo:**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Paso 5: Inicio de una actividad Live localmente (opcional) {#local}
 
-Aunque Journey Optimizer puede iniciar de forma remota una actividad en directo, también puede iniciarla localmente:
+Aunque Journey Optimizer puede iniciar actividades Live de forma remota, también puede iniciarlas localmente:
 
 **Ejemplo de una actividad de entrega de alimentos en directo:**
 
@@ -235,9 +235,9 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 Para obtener documentación completa de SDK y detalles de la implementación:
 
-* [Guía para desarrolladores de Live Activities](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [Guía para desarrolladores de actividades en directo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [Referencia de API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [Tutorial de actividades en directo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [Tutorial de actividades en vivo](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Clases públicas](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
