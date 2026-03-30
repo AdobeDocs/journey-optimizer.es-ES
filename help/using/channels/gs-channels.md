@@ -27,7 +27,7 @@ Los canales de envío de los mensajes de salida implican enviar mensajes a los c
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Canal de correo electrónico
 
@@ -37,7 +37,7 @@ Descubra cómo crear, configurar y optimizar campañas de correo electrónico, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
 
 Canal de notificaciones push
 
@@ -47,7 +47,7 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Actividad de iOS Live
 
@@ -57,7 +57,7 @@ Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantall
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
 
 Mensajería SMS/MMS/RCS
 
@@ -67,7 +67,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
 
 Campañas de correo directo
 
@@ -77,7 +77,7 @@ Descubra cómo crear y administrar campañas de correo directo, incluida la expo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
 
 Mensajería de WhatsApp
 
@@ -87,7 +87,7 @@ Aprenda a integrar y utilizar la mensajería WhatsApp mediante la API en la nube
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=es)
 
 Mensajería LINE
 
@@ -105,7 +105,7 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Mensajería en la aplicación
 
@@ -115,7 +115,7 @@ Explore cómo configurar, diseñar y personalizar notificaciones en la aplicaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
 
 Web
 
@@ -125,7 +125,7 @@ Aprenda a crear, configurar y personalizar experiencias web e integrar canales w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
 
 Experiencia basada en código
 
@@ -135,7 +135,7 @@ Sumérjase en experiencias basadas en código para ofrecer contenido personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=es)
 
 Tarjetas de contenido
 
