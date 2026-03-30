@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Las actividades activas son elementos de interfaz de usuario persistentes y visi
 A diferencia de las notificaciones push tradicionales, las actividades activas representan **participación basada en el estado**: en lugar de enviar alertas únicas, mantienen una presencia contextual continua que se actualiza dinámicamente a medida que evolucionan los eventos.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Con Adobe Journey Optimizer, puede **iniciar**, **actualizar** y **finalizar** actividades en directo de forma remota mediante campañas activadas por API, lo que admite casos de uso individuales y basados en audiencias a escala.
 
@@ -78,4 +78,4 @@ Complete los pasos siguientes para configurar e implementar la actividad Live en
 
 Descubre cómo configurar iOS Live Activities con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
