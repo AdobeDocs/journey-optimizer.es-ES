@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 7%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 7%
 >abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
 
 La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta función está disponible para todos los clientes como una versión de disponibilidad limitada.
 
 Ventajas principales:
 
@@ -61,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 
