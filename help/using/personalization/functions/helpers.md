@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '1011'
+ht-degree: 3%
 
 ---
 
@@ -283,7 +283,7 @@ En este ejemplo, suponiendo `profile.person.name.firstName` = &quot;Alex&quot;, 
 }
 ```
 
-## Cifrado de parámetro de URL {#url-parameter-encryption-helper}
+## Cifrar {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ En este ejemplo, suponiendo `profile.person.name.firstName` = &quot;Alex&quot;, 
 >
 >Actualmente, esta funcionalidad solo está disponible para el canal de correo electrónico.
 
-El asistente `EncryptParam` le permite cifrar cualquier valor de expresión en tiempo de procesamiento (normalmente un atributo de perfil, un token o incluso una estructura JSON estructurada que genere en la expresión) antes de escribirlo en un parámetro de consulta en vínculos de seguimiento o páginas de aterrizaje.
+La función `Encrypt` le permite cifrar cualquier valor de expresión en el momento del procesamiento (normalmente un atributo de perfil, un token o incluso una estructura JSON estructurada que genere en la expresión) antes de escribirlo en un parámetro de consulta en el seguimiento de vínculos o páginas de aterrizaje.
 
 Los valores que aparecerían como texto sin formato en la dirección URL (incluida la PII u otros datos confidenciales) no se pueden leer cuando se inspecciona o reenvía el vínculo. Solo se cifran los valores que ajuste con este asistente; el resto de la dirección URL no se modifica.
 
-Puede aplicar el asistente a un parámetro, a varios o a todos los parámetros de un vínculo, según el diseño de la URL y las restricciones de longitud.
+**Ejemplo de uso**
+
+Este asistente le permite proteger datos de perfil confidenciales (PII) antes de incluirlos en la salida procesada.
 
 **Requisitos previos**
 
-* El cifrado de parámetros de URL debe estar habilitado para su organización (disponibilidad limitada). Póngase en contacto con su representante de Adobe para obtener acceso.
-* Un administrador debe crear al menos una clave activa en el registro de claves a nivel de zona protegida. [Aprenda a crear y administrar claves](../url-parameter-encryption.md)
-
-**Funcionamiento**
-
-1. En la lista de ayuda, seleccione el asistente `EncryptParam`.
-
-1. Paso `data`: el valor o expresión que se va a cifrar (por ejemplo, `profile` campos, una variable o un token de cadena compuesto).
-
-1. Pasar `key`: un identificador de clave activa desde el registro de claves de la zona protegida.
+Un administrador debe crear al menos una clave activa en el registro de claves a nivel de zona protegida. [Aprenda a crear y administrar claves](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >El uso de una clave revocada o no activa debería provocar un error en la personalización en el momento del procesamiento, de modo que no se envíe un mensaje con una clave no válida.
 
-**Ejemplo**
-
-Supongamos que define o calcula un valor (por ejemplo, una variable `stringToken` que contiene una carga útil JSON o identificadores concatenados) que no debe aparecer como texto sin formato en el parámetro de consulta `token`. Una dirección URL final puede seguir este patrón: reemplace `stringToken` por su expresión y `encrypt-key` por un identificador de clave activa del registro de claves:
+**Sintaxis**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**Uso**
+
+Este asistente cifra los datos confidenciales y almacena el resultado en una variable de plantilla. <!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+Puede aplicar el asistente a un parámetro, a varios o a todos los parámetros de un vínculo, según el diseño de la URL y las restricciones de longitud.
+
+* **Entrada**: `dataPath` (referencia de datos que debe resolverse en una cadena), `keyName` (identificador de clave de cifrado), `version` (versión de clave opcional), `result` (nombre de variable para salida cifrada)
+* **Salida**: hace que el valor cifrado esté disponible en la variable `result` especificada.
+* **Formato de resultado**: La variable de resultado contiene una cadena separada por puntos: `keyName.version.nonce.authTag.cipherText` (todos los segmentos excepto `keyName` y `version` están codificados en Base64 sin relleno y seguros para URL).
+* **Requisitos de clave estática**: `keyName` y `version` deben ser literales de cadena estáticos (no se admiten referencias dinámicas).
+* **Versión predeterminada**: El parámetro `version` es opcional; si se omite, el servicio de clave de cifrado resuelve la versión predeterminada
+
+**Ejemplos**
+
+| Expresión de ejemplo | Resultado |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **Mecanismos de protección**
 
-El descifrado se administra fuera de [!DNL Journey Optimizer] en sus páginas de aterrizaje, aplicaciones o API. Planifique el ciclo vital de la clave y la rotación con su equipo de seguridad para que las cargas útiles históricas se puedan descifrar donde sea necesario.
+* El descifrado se administra fuera de [!DNL Journey Optimizer] en sus páginas de aterrizaje, aplicaciones o API. Planifique el ciclo vital de la clave y la rotación con su equipo de seguridad para que las cargas útiles históricas se puedan descifrar donde sea necesario.
 
-Las claves revocadas no deben utilizarse para el nuevo cifrado. Siga su política de seguridad para la rotación y el desmantelamiento.
-
+* Las claves revocadas no deben utilizarse para el nuevo cifrado. Siga su política de seguridad para la rotación y el desmantelamiento.
