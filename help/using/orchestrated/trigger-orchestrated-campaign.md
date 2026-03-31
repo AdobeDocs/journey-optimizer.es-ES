@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # Déclencheur Orquestación de campañas mediante una señal {#trigger-signal}
 
@@ -26,6 +26,10 @@ Proceso completo para almacenar en déclencheur una campaña orquestada con una 
 1. [Agregar parámetros para la carga útil de señal](#add-parameters-for-the-signal-payload-optional-parameters) (opcional)
 1. [Creación y prueba de la campaña](#build-and-test-the-campaign-build-and-test)
 1. [Publicación y déclencheur de la campaña](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>Para almacenar en déclencheur una campaña organizada mediante una señal, necesita el permiso **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Consulte [Permisos integrados](../administration/ootb-permissions.md).
 
 ## Programe la campaña para que se active por una señal {#configure-signal}
 
