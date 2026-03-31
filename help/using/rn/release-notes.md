@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b2b1c5f523e6c85cde58467aeab1b736e4fe2560
+source-git-commit: 1a23350852e46736b0a7842bde85c40e9419a506
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1803'
 ht-degree: 20%
 
 ---
@@ -34,9 +34,31 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
+
+<table>
+<thead>
+<tr>
+<th><strong>Cifrado de parámetro de URL</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los parámetros de URL en los vínculos de seguimiento y en las páginas de aterrizaje ahora se pueden cifrar, lo que proporciona una capa adicional de seguridad para los datos de parámetros confidenciales.</p>
+<ul>
+<li>Registre y administre claves de cifrado en un registro <strong>Administration</strong> dedicado.</li>
+<li>Utilice el nuevo asistente de cifrado en expresiones para cifrar datos confidenciales en vínculos de seguimiento y direcciones URL de páginas de aterrizaje para los parámetros de consulta que desea proteger en el momento del procesamiento.</li>
+</ul>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../personalization/url-parameter-encryption.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: miércoles, 31 de marzo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Nuevas funciones {#march-26-features}
 
@@ -181,7 +203,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -321,27 +343,6 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <p>Ahora puede convertir imágenes en plantillas de contenido de correo electrónico directamente en Journey Optimizer. Utilice el análisis con tecnología de IA para generar automáticamente plantillas de HTML estructuradas a partir de referencias visuales, lo que reduce significativamente el tiempo de diseño del correo electrónico.</p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="../content-management/image-to-html.md">Más información</a></p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>Fecha de disponibilidad: miércoles, 31 de marzo de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Cifrado de parámetro de URL</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Los parámetros de URL en los vínculos de seguimiento y en las páginas de aterrizaje ahora se pueden cifrar, lo que proporciona una capa adicional de seguridad para los datos de parámetros confidenciales.</p>
-<ul>
-<li>Registre y administre claves de cifrado en un registro <strong>Administration</strong> dedicado.</li>
-<li>Utilice el nuevo asistente de cifrado en expresiones para cifrar datos confidenciales en vínculos de seguimiento y direcciones URL de páginas de aterrizaje para los parámetros de consulta que desea proteger en el momento del procesamiento.</li>
-</ul>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Fecha de disponibilidad: miércoles, 31 de marzo de 2026</p>
 </td>
 </tr>
