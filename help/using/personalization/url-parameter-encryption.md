@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cifrado de parámetros de URL en el seguimiento
+title: Cifrar parámetros de URL
 description: Aprenda a cifrar parámetros de consulta de URL confidenciales para que PII no se exponga en texto sin formato en los vínculos de seguimiento y las páginas de aterrizaje de Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: cifrado, URL, seguimiento, página de aterrizaje, registro de claves, personalización, seguridad, privacidad, zona protegida
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# Cifrado de parámetros de URL en el seguimiento {#url-parameter-encryption}
+# Cifrar parámetros de URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ Solo se cifran los parámetros de consulta que se eligen mediante claves que los
 ### Funcionamiento {#how-it-works}
 
 * **Los administradores** utilizan el registro de claves para [crear claves](#create-keys) y [administrar claves](#manage-keys) de acuerdo con las políticas de seguridad de su organización.
-* **Los especialistas en marketing** insertan el asistente de cifrado en el editor de personalización y pasan el valor que se va a proteger más un identificador de clave activa del Registro. Para ver la sintaxis y las opciones, consulte [Cifrado del parámetro URL](functions/helpers.md#url-parameter-encryption-helper).
+* **Los especialistas en marketing** insertan el asistente `Encrypt` en el editor de personalización y pasan el valor que se va a proteger más un identificador de clave activa del Registro. Para ver la sintaxis y las opciones, vea [esta sección](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ Para administrar claves, siga los pasos a continuación.
    >[!NOTE]
    >
    >Solo se deben seleccionar claves activas para cifrar los nuevos valores en el editor de personalización. No utilice claves revocadas para el contenido nuevo.
-
-
-
