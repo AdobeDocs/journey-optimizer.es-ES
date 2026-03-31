@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, función, expresión, recorrido, audiencia, segmentación
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+source-git-commit: e71c4c20e8360006d99b12821fb9a588db5e0548
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Las audiencias pueden tener dos estados de participación:
 * **Realizado**: el individuo cumple los requisitos para la definición de audiencia y es un miembro activo
 * **Salido**: el usuario ha abandonado la audiencia y ya no cumple los requisitos
 
-Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxis
 
@@ -115,8 +115,8 @@ Cuando use la función `inAudience` en los recorridos, tenga en cuenta las sigui
 
 Cuando se usa `inAudience()` en un nodo de condición, el tiempo de evaluación de pertenencia a segmentos varía según la ubicación de la condición en el recorrido:
 
-* **Antes de una actividad de espera (o en un recorrido de lectura de audiencias):** AJO lee la proyección por lotes del perfil. La actualización de los datos en esta proyección conlleva una SLT de hasta **2 horas** después de la ingesta. Las audiencias que dependen de condiciones basadas en el día o en la hora pueden experimentar un retraso adicional. Agregue una breve [Actividad de espera](../wait-activity.md) al principio de la recorrido o permita que el tiempo de búfer se asegure de que se refleje el último abono a segmento.
-* **Después de una actividad de espera (o en un recorrido de evento unitario):** La pertenencia al segmento se lee de la proyección de flujo (unitario). Para la latencia esperada, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esta ruta suele ser más adaptable a los cambios de perfil recientes.
+* **Antes de una actividad de espera (o en un recorrido de lectura de audiencias):** Journey Optimizer lee la proyección por lotes del perfil. Los datos de esta proyección se actualizarán dentro de las **2 horas** posteriores a la ingesta. Las audiencias que dependen de condiciones basadas en el día o en la hora pueden experimentar un retraso adicional. Agregue una breve [Actividad de espera](../wait-activity.md) al principio de la recorrido o permita que el tiempo de búfer se asegure de que se refleje el último abono a segmento.
+* **Después de una actividad de espera (o en un recorrido de evento unitario):** La pertenencia al segmento se lee de la proyección de flujo (unitario). Para la latencia esperada, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Esta ruta suele ser más adaptable a los cambios de perfil recientes.
 
 ## Temas relacionados
 
