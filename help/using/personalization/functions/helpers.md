@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
@@ -282,4 +282,49 @@ En este ejemplo, suponiendo `profile.person.name.firstName` = &quot;Alex&quot;, 
   "value": "Alex"
 }
 ```
+
+## Cifrado de parámetro de URL {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>Esta función está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>
+>Actualmente, esta funcionalidad solo está disponible para el canal de correo electrónico.
+
+El asistente `EncryptParam` le permite cifrar cualquier valor de expresión en tiempo de procesamiento (normalmente un atributo de perfil, un token o incluso una estructura JSON estructurada que genere en la expresión) antes de escribirlo en un parámetro de consulta en vínculos de seguimiento o páginas de aterrizaje.
+
+Los valores que aparecerían como texto sin formato en la dirección URL (incluida la PII u otros datos confidenciales) no se pueden leer cuando se inspecciona o reenvía el vínculo. Solo se cifran los valores que ajuste con este asistente; el resto de la dirección URL no se modifica.
+
+Puede aplicar el asistente a un parámetro, a varios o a todos los parámetros de un vínculo, según el diseño de la URL y las restricciones de longitud.
+
+**Requisitos previos**
+
+* El cifrado de parámetros de URL debe estar habilitado para su organización (disponibilidad limitada). Póngase en contacto con su representante de Adobe para obtener acceso.
+* Un administrador debe crear al menos una clave activa en el registro de claves a nivel de zona protegida. [Aprenda a crear y administrar claves](../url-parameter-encryption.md)
+
+**Funcionamiento**
+
+1. En la lista de ayuda, seleccione el asistente `EncryptParam`.
+
+1. Paso `data`: el valor o expresión que se va a cifrar (por ejemplo, `profile` campos, una variable o un token de cadena compuesto).
+
+1. Pasar `key`: un identificador de clave activa desde el registro de claves de la zona protegida.
+
+>[!NOTE]
+>
+>El uso de una clave revocada o no activa debería provocar un error en la personalización en el momento del procesamiento, de modo que no se envíe un mensaje con una clave no válida.
+
+**Ejemplo**
+
+Supongamos que define o calcula un valor (por ejemplo, una variable `stringToken` que contiene una carga útil JSON o identificadores concatenados) que no debe aparecer como texto sin formato en el parámetro de consulta `token`. Una dirección URL final puede seguir este patrón: reemplace `stringToken` por su expresión y `encrypt-key` por un identificador de clave activa del registro de claves:
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**Mecanismos de protección**
+
+El descifrado se administra fuera de [!DNL Journey Optimizer] en sus páginas de aterrizaje, aplicaciones o API. Planifique el ciclo vital de la clave y la rotación con su equipo de seguridad para que las cargas útiles históricas se puedan descifrar donde sea necesario.
+
+Las claves revocadas no deben utilizarse para el nuevo cifrado. Siga su política de seguridad para la rotación y el desmantelamiento.
 
