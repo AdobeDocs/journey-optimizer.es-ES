@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,7 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#unless">Unless</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve false, se procesa el bloque</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">Cifrado de parámetro de URL</a></td><td>Cifra los valores de expresión de los parámetros de consulta de URL en el momento del procesamiento mediante una clave activa del registro de zona protegida </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">Cifrar</a></td><td>Cifra los valores de expresión de los parámetros de consulta de URL en el momento del procesamiento mediante una clave activa del registro de zona protegida </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Con</a></td><td>Esta función se utiliza para cambiar el token de evaluación de la plantilla-parte</td>
@@ -530,4 +530,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
