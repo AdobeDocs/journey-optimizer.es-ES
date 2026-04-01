@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 40%
+source-wordcount: '1682'
+ht-degree: 37%
 
 ---
 
@@ -167,11 +167,17 @@ Al acceder al editor de personalización desde una campaña orquestada, dos carp
 
 Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md).
 
-### Comprobación y prueba del contenido
+### Comprobación y prueba del contenido {#simulate-content-test-profiles}
 
 Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con los perfiles de prueba o los datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Más información](../../content-management/preview-test.md)
 
 ![imagen que muestra el botón Simular contenido](../assets/channel-simulate.png)
+
+Cuando simula contenido con **perfiles de prueba** en una campaña orquestada, se aplican dos restricciones importantes:
+
+* **La ejecución debe haber alcanzado la actividad de canal en la prueba**. Ejecute la campaña en la prueba con el botón **[!UICONTROL Iniciar]** para que el flujo de trabajo alcance la actividad de canal que desea simular. En el modo de prueba, el flujo de trabajo se pausa en la actividad del canal, por lo que nunca se llega a una actividad del canal que sigue a otra actividad del canal. No puede usar **[!UICONTROL Simular contenido]** para esas actividades del canal descendente. Consulte [Probar la campaña antes de publicar](../start-monitor-campaigns.md#test).
+
+* **El perfil de prueba debe coincidir con el destino de la actividad del canal**. Use un perfil de prueba que pertenezca a la audiencia a la que se dirige esa actividad del canal. Si el perfil no está en esa audiencia, al seleccionarlo no se obtiene una vista previa del contenido. Ver [Seleccionar perfiles de prueba](../../content-management/test-profiles.md).
 
 ## Confirmar envío de mensajes
 
