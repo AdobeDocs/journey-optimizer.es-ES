@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
+<p>Hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
 <p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta de complemento de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-high-throughput.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 22 de octubre de 2025</p>

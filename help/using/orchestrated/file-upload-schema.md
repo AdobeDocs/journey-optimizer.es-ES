@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
 
@@ -154,9 +154,9 @@ Puede especificar relaciones directamente dentro del archivo DDL al crear el esq
 
    * **Descargar**: Descargue el diagrama de ER como archivo .png.
 
-1. Haga clic en **Guardar** cuando haya terminado. Esta acción crea los esquemas y los conjuntos de datos asociados y habilita el conjunto de datos para su uso en campañas organizadas.
+1. Haga clic en **Guardar** cuando haya terminado. Esta acción crea los esquemas y los conjuntos de datos asociados y habilita el conjunto de datos para su uso en campañas orquestadas.
 
-1. Haga clic en **[!UICONTROL Abrir trabajos]** para supervisar el progreso del trabajo de creación. Este proceso puede tardar un par de minutos, según el número de tablas definidas en el archivo DDL.
+1. Haga clic en **[!UICONTROL Abrir trabajos]** para monitorizar el progreso del trabajo de creación. Este proceso puede tardar un par de minutos, según el número de tablas definidas en el archivo DDL.
 
    También puede acceder a sus trabajos de importación de DDL abriendo la ventana **[!UICONTROL Cargar archivo DDL]** y seleccionando **[!UICONTROL Ver todos los trabajos de importación de DDL]**.
 

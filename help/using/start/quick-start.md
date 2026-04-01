@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer permite a las marcas ofrecer experiencias conectadas, co
 Journey Optimizer ofrece dos métodos de orquestación para satisfacer diferentes necesidades de marketing:
 
 * **Recorridos**: la mejor opción para la interacción en tiempo real, de persona a persona, en la que cada cliente avanza a su propio ritmo, impulsada por comportamientos o sucesos
-* **Campañas orquestadas**: la mejor opción para campañas en lotes y de uno a varios en las que los públicos avanzan juntos a través de flujos de trabajo de varios pasos según una programación. Es ideal para promociones de temporada, lanzamientos de productos y comunicaciones basadas en cuentas
+* **Campañas orquestadas**: la mejor opción para campañas en lotes y de uno a varios en las que las audiencias progresan juntas a través de flujos de trabajo de varios pasos según una programación. Es ideal para promociones de temporada, lanzamientos de productos y comunicaciones basadas en cuentas
 
 Esta experiencia unificada permite implementar casos de uso completos en un solo lugar, desde la definición de públicos y el diseño de recorridos hasta la creación de contenido personalizado y el análisis de resultados. En esta documentación se explican las funciones clave en el uso eficaz de Journey Optimizer, sus responsabilidades y cómo empezar.
 
@@ -210,7 +210,7 @@ Los **expertos en marketing** diseñan experiencias para los clientes y proporci
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Recursos adicionales
 
@@ -234,7 +234,7 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 
 >[!TAB Comunidad y asistencia]
 
-* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: conéctese con otros usuarios y expertos
-* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
+* [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: conéctese con otros usuarios y expertos
+* [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: haga preguntas y comparta conocimientos
 
 >[!ENDTABS]

@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Describe lo siguiente:
 * Los atributos de esas entidades (por ejemplo, Nombre del cliente, Fecha de inicio de la campaña)
 * Las relaciones entre entidades (por ejemplo, Los clientes pertenecen a Segmentos, Campañas, Segmentos de destino)
 
-Un modelo de datos es lógico y conceptual, no está vinculado a una implementación física en Orchestrated Campaign
+Un modelo de datos es lógico y conceptual, no está vinculado a una implementación física en Orchestrated campaign
 
 En un **modelo de datos relacional**, los datos están organizados en tablas relacionadas con otras tablas.
 
@@ -52,7 +52,7 @@ Especifica lo siguiente:
 
 La organización de esquemas o tablas en un modelo de datos relacional consiste en estructurar los datos en varias tablas. Asegúrese de que cada tabla almacene un tipo de entidad/esquemas
 
-➡️ [Obtenga más información acerca de los esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Obtenga más información acerca de los esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Pasos de implementación {#implementation}
 
@@ -74,7 +74,7 @@ Para introducir datos y crear un esquema relacional, siga estos pasos:
 
 1. [Habilitar campañas organizadas](manual-schema.md#enable)
 
-   El conjunto de datos almacena los datos ingeridos y debe estar habilitado para las campañas orquestadas a fin de garantizar que sea accesible en Adobe Journey Optimizer.
+   El conjunto de datos almacena los datos ingeridos y debe estar habilitado para las campañas orquestadas para garantizar que sea accesible en Adobe Journey Optimizer.
 
 1. [Ingesta de datos](ingest-data.md)
 

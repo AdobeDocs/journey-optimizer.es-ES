@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -110,11 +110,11 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
 Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
-La creación de una relación entre dos esquemas permite mejorar las campañas organizadas con datos que van más allá del esquema de perfil principal.
+La creación de una relación entre dos esquemas permite mejorar las campañas orquestadas con datos que superan el esquema de perfil principal.
 
 1. En el esquema recién creado, seleccione el atributo que desee usar como vínculo y haga clic en **[!UICONTROL Agregar relación]**.
 
@@ -146,17 +146,17 @@ Después de definir el esquema, ahora puede crear un conjunto de datos basado en
 
 1. Escriba un **[!UICONTROL Nombre]** para su **[!UICONTROL Conjunto de datos]** y haga clic en **[!UICONTROL Finalizar]**.
 
-Ahora debe habilitar el conjunto de datos para campañas orquestadas.
+Ahora debe habilitar el conjunto de datos para campañas organizadas.
 
 ## Habilitar conjunto de datos para campañas orquestadas {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="Campañas orquestadas"
->abstract="Después de crear el conjunto de datos, debe habilitarlo explícitamente para Campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer."
+>abstract="Después de crear el conjunto de datos, debe habilitarlo explícitamente para campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer."
 
 
-Después de crear el conjunto de datos, debe habilitarlo explícitamente para Campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
+Después de crear el conjunto de datos, debe habilitarlo explícitamente para campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
 
 Consulte [Documentación de Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar o habilitar la extensión de Campaign orquestada en el conjunto de datos.
 

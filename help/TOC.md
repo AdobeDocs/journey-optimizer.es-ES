@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [Revisión y activación de una campaña de acción](using/campaigns/review-activate-campaign.md)
    + Campañas activadas por API {#api-triggered-campaigns}
       + [Campañas activadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [Trabajo con campañas activadas por API](using/campaigns/api-triggered-campaigns.md)
+      + [Uso de campañas activadas por API](using/campaigns/api-triggered-campaigns.md)
       + [Definir las propiedades de la campaña](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurar la acción de campaña](using/campaigns/api-triggered-campaign-action.md)
       + [Edición del contenido de la campaña](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [Programación de la campaña](using/campaigns/api-triggered-campaign-schedule.md)
       + [Revisión y activación de la campaña](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Activación de la ejecución de la campaña](using/campaigns/trigger-campaigns.md)
-      + [Activación del modo de alto rendimiento para campañas activadas por API](using/campaigns/api-triggered-high-throughput.md)
+      + [Activar el modo de alto rendimiento para campañas activadas por API](using/campaigns/api-triggered-high-throughput.md)
    + Campañas orquestadas {#orchestrated-campaigns}
       + [Campañas orquestadas](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introducción a las campañas orquestadas](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -863,7 +863,7 @@ ht-degree: 95%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

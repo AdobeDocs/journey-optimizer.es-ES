@@ -4,7 +4,8 @@ product: journey optimizer
 title: Configure su configuración de canal
 description: Obtenga información sobre cómo configurar el canal
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Para configurar la configuración de canal:
 
 1. Una vez configurada, haga clic en **[!UICONTROL Enviar]**.
 
-El canal está listo para usarse con **Campañas orquestadas**, y los mensajes se enviarán de acuerdo con la dimensión de destino seleccionada.
+El canal ya está listo para usarse con **campañas orquestadas**, y los mensajes se enviarán de acuerdo con la dimensión de destino seleccionada.
 
 ## Parámetros de seguimiento de URL {#url-tracking}
 

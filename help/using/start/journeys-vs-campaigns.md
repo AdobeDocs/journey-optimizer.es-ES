@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Recorridos frente a campañas: elija el enfoque adecuado'
-description: Compare Recorridos, Campañas de acción, Campañas activadas por API y Campañas orquestadas para elegir el enfoque adecuado para sus necesidades de marketing en Adobe Journey Optimizer.
+description: Compare Recorridos, campañas de acción, campañas activadas por API y campañas orquestadas para elegir el enfoque adecuado para sus necesidades de marketing en Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
 topic: Content Management
 role: User
@@ -11,10 +11,10 @@ keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, fluj
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Esta guía le ayuda a elegir según el estilo de ejecución, las necesidades de 
 
 >[!TIP]
 >
->**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **Campañas de acción**. ¿Se activa desde un sistema externo a través de una API? Usar **campañas activadas por API**. ¿Necesita datos de varias entidades, recuentos exactos o un lienzo por lotes? Usar **campañas orquestadas**.
+>**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **campañas de acción**. ¿Se activa desde un sistema externo a través de una API? Usar **campañas activadas por API**. ¿Necesita datos de varias entidades, recuentos exactos o un lienzo por lotes? Usar **campañas orquestadas**.
 
 ## Comparación detallada {#detailed-comparison}
 
@@ -191,7 +191,7 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 * **Alertas de cuenta**: activadas por el sistema de detección de fraude
 * **Restablecimiento de contraseña**: activado por la acción del usuario en la aplicación
 
-### Casos de uso de Campaign organizados
+### Casos de uso de campañas organizadas
 
 * **Promoción de temporada con integración de catálogo**: consulta el catálogo de productos, identifica a los clientes elegibles, segmenta por preferencias y envía recomendaciones personalizadas de productos
 * **Campañas específicas de tiendas**: Dirija a los clientes cerca de ubicaciones de tiendas específicas con datos de inventario de tiendas
@@ -240,7 +240,7 @@ Sí. Muchas organizaciones utilizan los cuatro enfoques para diferentes escenari
 * **Recorridos** para participación en tiempo real y de comportamiento
 * **Campañas de acción** para comunicaciones de difusión programadas
 * **Campañas activadas por API** para mensajes transaccionales
-* **Campañas organizadas** para campañas por lotes complejas que requieren gran cantidad de datos
+* **Campañas orquestadas** para campañas por lotes complejas que requieren mucha información
 
 Utilice la herramienta adecuada para cada caso de uso en lugar de forzar un enfoque para todo.
 
@@ -254,7 +254,7 @@ No, debe reconstruir la experiencia en el formato adecuado. Sin embargo, puede r
 
 +++ ¿Qué enfoque es más fácil de crear?
 
-Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a la audiencia), seguidas de campañas activadas por API, Recorridos (más complejas con la lógica de varios pasos) y campañas orquestadas (más complejas debido al flujo de trabajo del lienzo y a las capacidades de varias entidades).
+Las campañas de acción suelen ser las más sencillas (un solo mensaje para la audiencia), seguidas de campañas activadas por API, Recorridos (más complejas con la lógica de varios pasos) y campañas orquestadas (más complejas debido al flujo de trabajo del lienzo y a las capacidades de varias entidades).
 
 +++
 
@@ -262,7 +262,7 @@ Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a
 
 Los cuatro se pueden escalar bien; la elección correcta depende de su patrón:
 
-* **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lotes grandes (un mensaje o flujo a muchos perfiles a la vez).
+* **Leer Recorridos de audiencias** y **Campañas de acción** están optimizadas para audiencias de lote grande (un mensaje o flujo a muchos perfiles a la vez).
 * **Las campañas orquestadas** sobresalen en la segmentación compleja con conjuntos de datos grandes y datos de varias entidades.
 * **Recorridos unitarios (basados en eventos)** procesan los perfiles individualmente a medida que se producen eventos, por lo que la escala depende del volumen y el rendimiento del evento.
 
@@ -270,7 +270,7 @@ Los cuatro se pueden escalar bien; la elección correcta depende de su patrón:
 
 +++ ¿Puedo usar la misma audiencia en recorridos y campañas?
 
-Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar en Recorridos, campañas de acción y campañas orquestadas (donde la lógica de audiencia también se puede crear a petición en el lienzo). Las campañas activadas por API son impulsadas por carga útil y no utilizan audiencias creadas previamente del mismo modo.
+Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar en Recorridos, campañas de acción y campañas orquestadas (donde la lógica de audiencia también se puede crear a petición en el lienzo). Las campañas activadas por API son impulsadas por carga útil y no utilizan audiencias generadas previamente del mismo modo.
 
 +++
 
@@ -280,7 +280,7 @@ Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar e
 
 * **[Introducción a Recorrido](../building-journeys/journey.md)**: tipos de Recorrido, diseñador y flujo de trabajo
 * **[Introducción a campañas](../campaigns/get-started-with-campaigns.md)**: campañas activadas por acciones y API
-* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)** - Flujos de trabajo en lienzo por lotes
+* **[Introducción a campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: flujos de trabajo en lienzo por lotes
 
 >[!MORELIKETHIS]
 >
