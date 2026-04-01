@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -337,3 +337,5 @@ Puede aplicar el asistente a un parámetro, a varios o a todos los parámetros d
 * El descifrado se administra fuera de [!DNL Journey Optimizer] en sus páginas de aterrizaje, aplicaciones o API. Planifique el ciclo vital de la clave y la rotación con su equipo de seguridad para que las cargas útiles históricas se puedan descifrar donde sea necesario.
 
 * Las claves revocadas no deben utilizarse para el nuevo cifrado. Siga su política de seguridad para la rotación y el desmantelamiento.
+
+* El proceso de cifrado consume muchos recursos, por lo que el uso de la función `Encrypt` puede afectar al rendimiento en el momento del procesamiento.
