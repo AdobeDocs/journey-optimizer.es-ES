@@ -210,7 +210,7 @@ Los **expertos en marketing** diseñan experiencias para los clientes y proporci
 
 Para obtener más información acerca de las funcionalidades y personalidades clave de Journey Optimizer, vea el vídeo introductorio. El vídeo muestra la interfaz de usuario y resalta las funciones clave en función de los flujos de trabajo específicos de funciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
 
 ## Recursos adicionales
 
