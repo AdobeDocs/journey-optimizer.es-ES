@@ -5,9 +5,9 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1969'
 ht-degree: 13%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ ¿Cómo pruebo una campaña orquestada activada por señales antes de publicar?
 
-Mientras la campaña esté en **Borrador**, puede probarla definiendo **parámetros** en la programación y proporcionando **valores de prueba** para cada uno. Inicie el flujo de trabajo y, a continuación, llame a la API de déclencheur (utilizando la solicitud de ejemplo de la configuración de programación o su propia solicitud con el mismo punto de conexión) para ejecutar la campaña con esos valores de prueba. [Aprenda a completar y probar una campaña activada por señales](trigger-orchestrated-campaign.md#complete-and-test).
+Mientras la campaña esté en **Borrador**, puede probarla definiendo **parámetros** en la programación y proporcionando **valores de prueba** para cada uno. Inicie el flujo de trabajo y, a continuación, llame a la API de déclencheur (utilizando la solicitud de ejemplo de la configuración de programación o su propia solicitud con el mismo punto de conexión) para ejecutar la campaña con esos valores de prueba. [Aprenda a completar y probar una campaña activada por señales](trigger-orchestrated-campaign.md#build-and-test). Para obtener la referencia de la API de déclencheur, consulte [API de campañas de orquestación de Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
 +++
 

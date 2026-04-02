@@ -5,7 +5,7 @@ title: Creación y programación de campañas organizadas con Journey Optimizer
 description: Obtenga información sobre cómo crear y programar una campaña organizada con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 63%
@@ -70,13 +70,15 @@ Para crear una campaña orquestada, siga estos pasos:
 
 De forma predeterminada, las campañas orquestadas se inician cuando se activan manualmente y finalizan una vez ejecutadas sus actividades asociadas. Si prefiere retrasar la ejecución o ejecutar la campaña de forma recurrente, puede definir una programación para la campaña.
 
-También puede iniciar la campaña cuando reciba una señal de un sistema o aplicación externos en lugar de ejecutarse en una programación. [Aprenda a almacenar en déclencheur una campaña organizada mediante una señal](trigger-orchestrated-campaign.md).
-
 Tenga en cuenta las siguientes prácticas recomendadas al programar campañas orquestadas para garantizar un rendimiento óptimo y el comportamiento esperado:
 
 * No programe una campaña orquestada para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
 * Si desea enviar un mensaje de una sola vez en la campaña orquestada, puede configurarlo para que se ejecute **Una vez**.
 * Si desea enviar un mensaje recurrente en la campaña orquestada, debe utilizar una opción **Scheduling** y establecer la frecuencia de ejecución. La actividad de envío recurrente no le permite definir una programación.
+
+>[!NOTE]
+>
+>También puede iniciar la campaña cuando reciba una señal de un sistema o aplicación externos en lugar de ejecutarse en una programación. [Aprenda a almacenar en déclencheur una campaña organizada mediante una señal](trigger-orchestrated-campaign.md).
 
 Para configurar la programación de la campaña, siga estos pasos:
 

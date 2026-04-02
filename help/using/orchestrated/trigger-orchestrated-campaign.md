@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Déclencheur Orquestación de campañas mediante una señal {#trigger-signal}
 
 Puede almacenar en déclencheur una campaña orquestada enviándole una señal en lugar de ejecutarla en una programación. La señal se envía mediante una llamada de API desde un sistema o aplicación externos. Al utilizar una señal, puede pasar parámetros. A continuación, están disponibles en la campaña orquestada como variables de evento en el contexto de ejecución para su uso en objetivos, condiciones o expresiones.
+
+Para obtener la especificación REST completa del extremo de déclencheur (rutas, encabezados, cuerpo, respuestas y errores), consulte [API de campañas orquestadas con Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} en la documentación de la API de Adobe Journey Optimizer.
 
 Proceso completo para almacenar en déclencheur una campaña orquestada con una señal:
 
@@ -100,7 +102,7 @@ Cree la campaña en el lienzo y, opcionalmente, pruébela en borrador activando 
 
 1. Haga clic en **[!UICONTROL Iniciar]** para iniciar la campaña.
 
-1. Envíe la llamada de API de déclencheur mediante la solicitud de ejemplo que ha copiado del planificador. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. Envíe la llamada de API de déclencheur mediante la solicitud de ejemplo que ha copiado del planificador. Consulte [API de campañas orquestadas por Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} para obtener detalles de solicitud y respuesta.
 
 Cuando esté satisfecho con los resultados de la prueba, [publique la campaña](#publish).
 
@@ -116,7 +118,7 @@ Después de haber [creado y probado la campaña](#build-and-test), publique la c
 
    ![Copiar solicitud de API en la configuración de programación](assets/triggered-oc-copy.png)
 
-1. Llame a la API de déclencheur desde el sistema.
+1. Llame a la API de déclencheur desde el sistema. Consulte [API de campañas orquestadas por Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} para la especificación de extremo activo.
 
    >[!IMPORTANT]
    >
