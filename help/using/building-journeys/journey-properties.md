@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 13%
+source-wordcount: '3257'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Esta sección muestra las propiedades del recorrido. De forma predeterminada, los parámetros de solo lectura están ocultos. La configuración disponible depende del estado del recorrido, de los permisos y de la configuración del producto."
+>abstract="Configure las opciones globales de este recorrido, incluidos el nombre, las etiquetas, las reglas de entrada, el huso horario, las fechas, el tiempo de espera y la administración de conflictos. Los parámetros de solo lectura están ocultos de forma predeterminada. Las opciones disponibles varían en función del estado del recorrido, los permisos y la configuración del producto."
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -164,7 +164,7 @@ Este tiempo de espera global detiene el progreso de los individuos en el recorri
 
 Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la reentrada al recorrido, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 91 días. De hecho, al eliminar toda la información sobre las personas que ingresaron al recorrido 91 días después de su entrada, no podemos saber la persona ingresada anteriormente, hace más de 91 días.
 
-Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
+Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
 
 #### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
 
@@ -292,13 +292,18 @@ A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el t
   </tr>
 </table>
 
-## Combinar políticas {#merge-policies}
+## Política de combinación {#merge-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="Política de combinación"
+>abstract="La política de combinación se recupera automáticamente en función del evento o la audiencia seleccionados. Esta política de combinación se utiliza en en todo el recorrido."
 
 [!DNL Adobe Journey Optimizer] usa políticas de combinación al recuperar datos de perfil de [!DNL Adobe Experience Platform]. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
 
-* En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
-* En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
-* En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
+* En **[recorridos de lectura de audiencia](read-audience.md)** o **[calificación de audiencia](audience-qualification-events.md)**: se usa la política de combinación de la audiencia
+* En **[recorridos de evento unitario](../event/about-events.md)**: se usa la política de combinación predeterminada
+* En **[evento empresarial](../event/about-creating-business.md)** recorridos: se usa la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
 
 [!DNL Adobe Journey Optimizer] aplica la política de combinación utilizada en todo el recorrido. Por lo tanto, si se usan varias audiencias en un recorrido (por ejemplo, usando en [`inAudience` funciones](functions/functioninaudience.md)), se crean incoherencias con la política de combinación utilizada por el recorrido, se genera un error y se bloquea la publicación. Sin embargo, si se utiliza una audiencia incoherente en la personalización de mensajes, no se genera una alerta, a pesar de la incoherencia. Por este motivo, es muy recomendable comprobar la política de combinación asociada a su audiencia cuando esta audiencia se utiliza en la personalización de mensajes.
 
