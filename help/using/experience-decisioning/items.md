@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 14%
+source-wordcount: '2159'
+ht-degree: 15%
 
 ---
 
@@ -48,23 +48,11 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 1. El campo **Etiquetas** le permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 
-1. Utilice fragmentos para agregar varios contenidos al elemento de decisión; por ejemplo, si desea mostrar contenido diferente para varios modelos de dispositivos móviles. [Más información sobre fragmentos](../content-management/fragments.md)
+1. Use [fragmentos](../content-management/fragments.md) para agregar contenido múltiple al elemento de decisión; por ejemplo, si desea mostrar contenido diferente para varios modelos de dispositivos móviles. A continuación, puede aprovechar estos fragmentos en las políticas de decisión. [Descubra cómo](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >Actualmente, esta funcionalidad solo está disponible para el canal de experiencia basado en código.
-
-   En la sección **[!UICONTROL Fragmentos]**, seleccione los fragmentos publicados que desee usar y asígneles una clave de referencia. A continuación, puede aprovechar estos fragmentos en las políticas de decisión. [Descubra cómo](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   Solo puede seleccionar fragmentos publicados y agregar hasta seis fragmentos en un elemento de decisión.
-
-   >[!WARNING]
-   >
-   >Actualmente solo se admiten [fragmentos de expresión](../personalization/use-expression-fragments.md).
-   >
-   >No se pueden utilizar fragmentos anidados (fragmentos que hacen referencia a otros fragmentos). La [aprobación](#approve) del elemento de decisión fallará si agrega dicho fragmento.
+   >Esta característica está disponible con disponibilidad limitada para los canales de **experiencia basada en código** y **correo electrónico**. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
@@ -78,8 +66,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

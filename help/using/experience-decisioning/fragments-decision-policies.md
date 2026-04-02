@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Si la política de decisión contiene elementos de decisión, incluidos fragment
 
 >[!AVAILABILITY]
 >
->Actualmente, esta funcionalidad solo está disponible para el canal **Experiencia basada en código**.
+>Esta característica está disponible con disponibilidad limitada para los canales de **experiencia basada en código** y **correo electrónico**. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
