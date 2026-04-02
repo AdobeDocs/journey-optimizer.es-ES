@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
 
    >[!NOTE]
    >
-   >Si utiliza varias políticas de decisión en el mismo correo electrónico (por ejemplo, una para el encabezado y otra para el pie de página), la misma oferta se deduplica en todas las ubicaciones: cada área recibe una oferta diferente. Para mostrar la misma oferta en varias áreas, use **[!UICONTROL Volver a usar el resultado de la decisión]** al agregar una directiva de decisión. [Aprenda a crear directivas de decisión](create-decision-policy.md).
+   >Si utiliza varias políticas de decisión en el mismo correo electrónico (por ejemplo, una para el encabezado y otra para el pie de página), la misma oferta se deduplica en todas las ubicaciones: no se procesa dos veces. La segunda directiva de decisión no devolverá ningún contenido y mostrará un espacio en blanco, a menos que haya configurado una oferta de reserva, en cuyo caso se mostrará la reserva en su lugar.
 
 >[!TAB SMS]
 
