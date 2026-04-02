@@ -10,19 +10,15 @@ level: Intermediate
 keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 4%
+source-wordcount: '1706'
+ht-degree: 2%
 
 ---
 
 # Diseño de un recorrido {#design-your-journey}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_canvas"
->title="Diseño de un recorrido"
->abstract="La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para añadirla al lienzo en el siguiente paso disponible."
 
 [!DNL Adobe Journey Optimizer] incluye un lienzo de orquestación omnicanal que permite a los especialistas en marketing armonizar el alcance de marketing con la participación individual del cliente. La interfaz de usuario de le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo para crear su recorrido. Tenga en cuenta que también puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible.
 
