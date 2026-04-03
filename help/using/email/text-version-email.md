@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 8%
+source-wordcount: '1232'
+ht-degree: 7%
 
 ---
 
@@ -47,6 +47,18 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 > * Cuando la sincronización está deshabilitada, los cambios realizados en la vista **[!UICONTROL Texto sin formato]** no se reflejarán en la vista de HTML.
 >
 > * Si vuelve a habilitar la opción **[!UICONTROL Sincronizar con HTML]** después de actualizar el contenido de texto sin formato, los cambios se perderán y se reemplazarán con el contenido de texto generado a partir de la versión de HTML.
+
+## Optimizar la versión de texto para bandejas de entrada de IA {#optimize-plain-text-ai}
+
+Puede ayudar a las funciones de la bandeja de entrada con tecnología de IA (como los resúmenes de [!DNL Gmail], [!DNL Outlook] o [!DNL Apple Mail]) a mostrar sus ofertas y detalles clave mediante el botón **[!UICONTROL Optimizar para la bandeja de entrada de IA]**. Esa acción genera una versión de texto sin formato mejorada centrada en los asistentes de información que probablemente lean la parte de texto del mensaje.
+
+![Optimizar para el botón Bandeja de entrada de IA en la vista de versión de texto](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+
+>[!IMPORTANT]
+>
+>Al usar esta capacidad, la opción **[!UICONTROL Sincronizar con HTML]** se deshabilita automáticamente.
+
+Para ver un tutorial completo y los escenarios recomendados, consulte [Optimizar el texto del correo electrónico para las bandejas de entrada de IA](../content-management/llm-email-optimizer.md).
 
 ## Cuándo usar versiones de texto sin formato personalizadas {#when-to-use}
 
