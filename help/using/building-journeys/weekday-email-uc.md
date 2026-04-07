@@ -55,7 +55,7 @@ Siga estos pasos para crear el flujo de correo electrónico solo entre semana.
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Optimize ]**](optimize.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Optimize &#x200B;]**](optimize.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
