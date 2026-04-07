@@ -10,7 +10,7 @@ level: Intermediate
 keywords: zona horaria, propiedades, recorrido, condición, hora, fecha, personalizado
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%
@@ -31,8 +31,8 @@ Para acceder a las propiedades del recorrido, seleccione el icono de lápiz en l
 
 Esta zona horaria se utilizará para cada actividad del recorrido que contenga un elemento de hora como:
 
-* [Condición de tiempo](../building-journeys/condition-activity.md#time_condition)
-* [Condición de fecha](../building-journeys/condition-activity.md#date_condition)
+* [Condición de tiempo](../building-journeys/conditions.md#time_condition)
+* [Condición de fecha](../building-journeys/conditions.md#date_condition)
 * [Espera personalizada](../building-journeys/wait-activity.md#custom)
 
 <!--

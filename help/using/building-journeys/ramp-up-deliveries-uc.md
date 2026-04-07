@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: entrega, recorrido, caso de uso, correo electrónico, reputación
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ El propósito de este caso de uso es crear un recorrido para aumentar las entreg
 
 1. Cree un recorrido. [Más información](journey-gs.md).
 
-1. Agregue una actividad **[!UICONTROL Condition]** al recorrido. [Más información](condition-activity.md).
+1. Agregue una actividad **[!UICONTROL Optimizar]** al recorrido. [Más información](optimize.md).
 
 1. En la configuración de la actividad **[!UICONTROL Condición]**, establezca el número máximo de destinatarios para la entrega:
 
-   1. En la configuración de la actividad **[!UICONTROL Condición]**, establezca el campo **[!UICONTROL Tipo]** en **[!UICONTROL Límite de perfil]**. [Más información](condition-activity.md#profile_cap).
+   1. En la configuración de la actividad **[!UICONTROL Optimizar]**, seleccione el método **[!UICONTROL Condiciones]** y establezca el campo **[!UICONTROL Tipo]** en **[!UICONTROL Límite de perfil]**. [Más información](conditions.md#profile_cap).
 
    1. Establezca el campo **[!UICONTROL Limit]** en el número máximo de destinatarios para esta entrega.
 

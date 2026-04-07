@@ -6,9 +6,9 @@ description: Lista de páginas de documentación nuevas y actualizadas
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 0%
 - [Introducción a los perfiles en Journey Optimizer](help/using/audience/get-started-profiles.md) - 22 de octubre
 - [Introducción a las actividades de recorrido](help/using/building-journeys/about-journey-activities.md) - 27 de octubre
 - [Pasar colecciones a parámetros de acción personalizados](help/using/building-journeys/collections.md) - 13 de octubre
-- [Actividad de condición](help/using/building-journeys/condition-activity.md) - 24 de octubre
+- [Condiciones / Optimizar (método de condición)](help/using/building-journeys/conditions.md) - 24 de octubre
 - [Usar datos de Adobe Experience Platform en recorrido](help/using/building-journeys/dataset-lookup.md) - 28 de octubre
 - [Búsqueda de eventos de experiencia en recorrido](help/using/building-journeys/exp-event-lookup.md) - 28 de octubre
 - [Usar la actividad de recorrido de acción](help/using/building-journeys/journey-action.md) - 14 de octubre

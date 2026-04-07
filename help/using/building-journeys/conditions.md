@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Actividad de condición
-description: Descubra más información sobre la actividad de condición
+title: Condiciones
+description: Configuración de condiciones en la actividad de optimización para rutas de recorrido
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: actividad, condición, lienzo, recorrido
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condiciones"
->abstract="Las condiciones le permiten definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas."
+>abstract="Las condiciones le permiten definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas. Tenga en cuenta que las condiciones ahora se configuran en la actividad Optimizar, que reemplaza a la actividad Condición anterior."
 
 Con **condiciones** puede definir el progreso de los individuos en su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Estas condiciones están disponibles a través de la actividad **Optimizar**, a la cual se puede acceder bajo demanda en Disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>El nuevo vehículo para crear rutas condicionales en recorrido es la actividad [Optimizar](optimize.md). Reemplaza la actividad **Condition** anterior, que se ha eliminado de la interfaz de usuario. Toda la lógica condicional ahora se gestiona mediante las condiciones de la actividad Optimizar presentadas en esta página.
 >
->Si no tiene acceso a esta capacidad, puede seguir utilizando la [actividad de condición](condition-activity.md) heredada.
+>Si tiene recorridos existentes que usaron actividades **[!UICONTROL Condition]**, puede seguir usándolos como antes. Ahora aparecen con un nuevo icono como actividades **[!UICONTROL Optimize]** mediante el método **[!UICONTROL Condition]**, pero el comportamiento no ha cambiado. Se conservará cualquier etiqueta personalizada que haya establecido en el nodo.
 
 ## Añada una condición  {#add-condition-activity}
 
@@ -54,6 +52,10 @@ Para añadir una condición al recorrido, siga los pasos a continuación.
    * [Condición de fecha](#date_condition)
    * [Límite de perfil](#profile_cap)
    * También puede utilizar una audiencia en una condición de recorrido. [Más información](#using-a-segment)
+
+>[!NOTE]
+>
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Administrar rutas de condición {#condition_paths}
 
@@ -87,7 +89,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![Editor de expresiones simple con campos de arrastrar y soltar y operadores lógicos](assets/journey64.png){width=80%}
 
-Si está usando el [[!DNL Adobe Experience Platform] Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Uso de la audiencia en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+Si está usando el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"} para crear sus audiencias, puede aprovecharlas en sus condiciones de recorrido. Consulte [Usar audiencia en condiciones](#using-a-segment).
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ En el editor simple, también encontrará la categoría Propiedades del Recorrid
 Use una **[!UICONTROL condición de origen de datos]** para definir una condición basada en los campos de los orígenes de datos o en los eventos colocados previamente en el recorrido. Este tipo de condición se define con el editor de expresiones. [Aprenda a utilizar el editor de expresiones](expression/expressionadvanced.md)
 
 Por ejemplo, si va a segmentar una audiencia con atributos de enriquecimiento generados mediante un flujo de trabajo de composición o una carga personalizada (archivo CSV), puede aprovechar estos atributos de enriquecimiento para crear la condición.
+
+>[!IMPORTANT]
+>
+>**Administrar atributos que faltan o no se han ingerido**
+>
+>Si un campo de esquema está definido en el esquema de Perfil pero no se han introducido datos para ese campo, Journey Optimizer y el Perfil del cliente en tiempo real subyacente interpretan el campo como `null`. Como resultado, las condiciones que comprueban `isEmpty()`, `isNull()` o funciones similares se evaluarán como `true` aunque el atributo nunca se haya ingerido. Esto puede provocar un comportamiento de recorrido inesperado si no sabe que el campo no tiene datos.
+>
+>Para evitar confusiones, asegúrese de que los atributos que utiliza en expresiones de condición se hayan introducido con datos reales antes de que el perfil entre en el recorrido. Puede comprobar los valores de atributo en el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} para confirmar si existen datos para los campos utilizados en sus condiciones.
 
 Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas manipulando colecciones o utilizando fuentes de datos que requieran el paso de parámetros. [Más información](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

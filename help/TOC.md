@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -85,9 +85,11 @@ ht-degree: 94%
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Eventos de reacción](using/building-journeys/reaction-events.md)
       + [Calificación del público](using/building-journeys/audience-qualification-events.md)
-      + [Optimizar](using/building-journeys/optimize.md)
-      + [Condiciones](using/building-journeys/conditions.md)
-      + [Condición](using/building-journeys/condition-activity.md)
+      + Optimizar {#optimize-activity}
+         + [Introducción a la actividad de optimización](using/building-journeys/optimize.md)
+         + [Experimentación de rutas](using/building-journeys/path-experimentation.md)
+         + [Segmentación de ruta](using/building-journeys/path-targeting.md)
+         + [Condiciones](using/building-journeys/conditions.md)
       + [Leer público](using/building-journeys/read-audience.md)
       + [Esperar](using/building-journeys/wait-activity.md)
       + [Decisión de contenido](using/building-journeys/content-decision.md)
@@ -872,7 +874,7 @@ ht-degree: 94%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}

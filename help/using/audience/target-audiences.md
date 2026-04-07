@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ Puede aprovechar los públicos en **[!DNL Journey Optimizer]** de maneras difere
 
   Para los recorridos que utilizan audiencias de redacción de audiencias o carga personalizada, los atributos de perfil son tan nuevos como la última evaluación por lotes al introducir el recorrido. Sin embargo, después de una actividad de **Wait**, el recorrido actualiza los atributos de perfil del servicio Unified Profile Service (UPS), con lo que se obtienen los datos disponibles más recientes, lo que significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido. [Más información acerca de la actualización de perfiles después de una actividad de espera](../building-journeys/wait-activity.md#profile-refresh)
 
-* Utilice la actividad **Condición** en un recorrido para crear condiciones basadas en el abono del público. [Aprenda a utilizar los públicos en condiciones](../building-journeys/condition-activity.md#using-a-segment).
+* Use la actividad **Optimizar** en un recorrido para generar condiciones basadas en la pertenencia a audiencias. [Aprenda a utilizar los públicos en condiciones](../building-journeys/conditions.md#using-a-segment).
 
 * Utilice la actividad de evento **Calificación de audiencias** en un recorrido para hacer que los individuos entren o avancen en el recorrido según las entradas y salidas de audiencias de Adobe Experience Platform. Por ejemplo, puede hacer que todos los “clientes plata” nuevos entren en el recorrido para enviarles mensajes. [Aprenda a configurar una actividad de calificación de audiencia](../building-journeys/audience-qualification-events.md).
 

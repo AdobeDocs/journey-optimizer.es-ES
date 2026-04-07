@@ -5,10 +5,10 @@ title: Actividades
 description: Actividades
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 86%
+source-wordcount: '390'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ Las actividades de Adobe Journey Optimizer son los componentes básicos que hace
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las actividades de Journey
 
@@ -30,7 +30,7 @@ Obtenga información sobre las actividades de eventos, orquestación y acciones 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uso de eventos generales
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar eventos generales para activar recorridos y administrar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuración de los eventos de reacción
 
@@ -50,7 +50,7 @@ Explore cómo reaccionar ante los datos de seguimiento, como los clics o apertur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Eventos de calificación de público
 
@@ -60,17 +60,17 @@ Descubra cómo activar acciones y condiciones basadas en los estados de particip
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Uso de la actividad Condición
+Uso de la actividad Optimizar (condiciones)
 
 Defina varias rutas en un recorrido en función de criterios como el tiempo, la fuente de datos o las divisiones porcentuales.
 
-[Configurar las actividades de Condición](../using/building-journeys/condition-activity.md)
+[Configuración de Optimización y condiciones](../using/building-journeys/optimize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Configuración de la actividad Esperar
 

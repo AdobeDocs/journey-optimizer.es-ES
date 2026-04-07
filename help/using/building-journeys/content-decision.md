@@ -10,9 +10,9 @@ level: Intermediate
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Para aprovechar esta capacidad, cree un recorrido donde agregue una [actividad d
 
 A continuación, puede utilizar la salida de la actividad de decisión de contenido en:
 
-* una [actividad de condición](#add-condition-activity), para mover perfiles a rutas específicas en función de las ofertas recuperadas;
+* una actividad [Optimizar con una condición](#add-condition-activity) para mover perfiles a rutas específicas según las ofertas recuperadas;
 
 * una [acción personalizada](#add-custom-action), donde puede enviar esas ofertas a sistemas externos.
 
@@ -81,15 +81,15 @@ Ya está listo para aprovechar el resultado de esta actividad de decisión de co
 
 ## Usar la salida de la actividad de decisión de contenido {#use-content-decision-output}
 
-El resultado de una decisión de contenido se puede utilizar en varias actividades de recorrido. Por ejemplo, puede usar una [actividad de condición](#add-condition-activity) para mover perfiles a ramas específicas del recorrido, según el número de ofertas recuperadas para ellas.
+El resultado de una decisión de contenido se puede utilizar en varias actividades de recorrido. Por ejemplo, puede usar una actividad [Optimizar con una condición](#add-condition-activity) para mover perfiles a ramas específicas del recorrido, según el número de ofertas recuperadas para ellas.
 
 También puede agregar una [acción personalizada](#add-custom-action) al recorrido para compartir las ofertas de la actividad de decisión de contenido con un sistema externo.
 
-### En una actividad de condición {#add-condition-activity}
+### En una actividad de optimización (método de condición) {#add-condition-activity}
 
-Para aprovechar el resultado de una actividad de decisión de contenido, puede agregar una condición al recorrido, donde define expresiones para mover perfiles a rutas específicas, utilizando datos de esas ofertas. Siga los pasos a continuación.
+Para aprovechar el resultado de una actividad de decisión de contenido, agregue una actividad **[!UICONTROL Optimizar]**, elija el método **[!UICONTROL Condición]** y defina expresiones para mover perfiles a rutas específicas usando datos de esas ofertas. Siga los pasos a continuación. Para obtener más tipos y opciones de condición, consulte [Condiciones](conditions.md).
 
-1. Desde la categoría **[!UICONTROL Orchestration]**, suelte una actividad **[!UICONTROL Condition]** en el lienzo. [Más información](condition-activity.md#add-condition-activity)
+1. Desde la categoría **[!UICONTROL Orchestration]**, suelte una actividad **[!UICONTROL Optimize]** en el lienzo. [Más información](optimize.md)
 
 1. (opcional) Cambie el nombre de **[!UICONTROL Path1]**, que corresponde a la primera expresión que defina, por una etiqueta más relevante.
 

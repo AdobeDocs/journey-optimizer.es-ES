@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: esquemas, XDM, plataforma, flujo, ingesta, recorrido
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
@@ -123,7 +123,7 @@ Add a condition in a journey, edit the expression and unfold the event node in t
 
 ![](assets/schema12.png)
 
-To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
+To learn how to define journey conditions, refer to this [page](../building-journeys/conditions.md).
 
 ### Message personalization{#message_personalization}
 

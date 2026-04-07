@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -84,7 +84,7 @@ Cuando un recorrido está en pausa, la administración de perfiles y la ejecuci�
 | [Leer audiencia](read-audience.md) | Igual que en un recorrido en directo, con algunas características específicas: <ol> <li> Si se presionó <strong>Pausa</strong> después de que se iniciara la actividad de <strong>Leer audiencia</strong>, los perfiles que hayan entrado en el recorrido continuarán (hasta la siguiente actividad de <strong>Acción</strong>). A medida que el recorrido lee audiencias a una velocidad determinada, si la audiencia completa aún no ha entrado, los perfiles restantes en la cola se descartarán.</li><li> Para ejecuciones únicas: no se muestra ningún error en el momento de la reanudación si la fecha programada era anterior a la fecha de reanudación. Ese horario sería ignorado.</li><li>Para recorridos incrementales: <ul><li>Si la pausa se produce antes de la primera aparición, al reanudar la audiencia completa se reproduce. </li><li>Si se produce una pausa, por ejemplo, en el cuarto día de una periodicidad diaria y el recorrido permanece en pausa hasta el noveno día, se incluirán en la reanudación todos los perfiles que hayan entrado del cuarto al noveno  </li></ul></ol> |
 | [Reacción](reaction-events.md) | Igual que en un recorrido activo. Sin embargo, si se produce después de una actividad de <strong>Action</strong> y el usuario está en pausa durante esa acción, el evento de reacción se descarta. |
 | [Espera](wait-activity.md) | Mismo comportamiento que en un recorrido activo |
-| [Condición](condition-activity.md) | Mismo comportamiento que en un recorrido activo |
+| [Optimizar](optimize.md) | Mismo comportamiento que en un recorrido activo |
 | [Decisión de contenido](content-decision.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción de canal](journey-action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
 | [Acción personalizada](../action/action.md) | Los perfiles se aparcan o descartan en función de lo que el usuario haya elegido cuando el recorrido se ha pausado |
@@ -211,7 +211,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 

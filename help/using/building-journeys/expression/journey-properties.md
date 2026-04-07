@@ -9,7 +9,7 @@ level: Experienced
 keywords: recorrido, expresión, editor, propiedades
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # atributos de propiedades de recorrido {#journey-properties}
 
-En el [editor de expresiones simple](../condition-activity.md#about_condition) y en el [editor de expresiones avanzadas](../expression/expressionadvanced.md), debajo de las categorías **Evento** y **Fuente de datos**, puede tener acceso a la categoría **Propiedades del Recorrido**. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido, o los errores específicos encontrados.
+En el [editor de expresiones simple](../conditions.md#about_condition) y en el [editor de expresiones avanzadas](../expression/expressionadvanced.md), debajo de las categorías **Evento** y **Fuente de datos**, puede tener acceso a la categoría **Propiedades del Recorrido**. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido, o los errores específicos encontrados.
 
 ![](../assets/journey-properties.png)
 

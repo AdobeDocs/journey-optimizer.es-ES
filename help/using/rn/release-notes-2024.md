@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 **Fecha de lanzamiento**: 29-30 de octubre de 2024
 
-### Nuevas funciones {#24-10-features}
+### Nuevas funcionalidades {#24-10-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación:
 
@@ -89,7 +89,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación:
 <tbody>
 <tr>
 <td>
-<p>En Journey Optimizer, la administración del volumen y la sincronización de las campañas y los recorridos tiene vital importancia, ya que reducen las interacciones para los clientes. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. <p>Para obtener más información, consulte la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentación detallada</a>.</p></p><p><ul><li><b>Restricción de frecuencia de recorrido</b>: ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
+<p>En Journey Optimizer, administrar el volumen y la cronología de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Journey Optimizer ahora ofrece varias herramientas para la administración de conflictos y la priorización. <p>Para obtener más información, consulte la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentación detallada</a>.</p></p><p><ul><li><b>Restricción de frecuencia de recorrido</b>: ahora puede crear conjuntos de reglas para aplicarlos a sus recorridos, lo que le permite limitar el número de recorridos para un perfil por día, semana o mes, así como controlar el número de recorridos simultáneos que se ejecutan simultáneamente.</li>
 <li><b>Puntuación de prioridad</b>: ahora puede asignar una puntuación de prioridad a una campaña o a un recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. Cuando dos campañas o acciones de viaje utilicen la misma configuración de canal, Journey Optimizer seleccionará la que tenga la puntuación de prioridad más alta. Si las campañas tienen la misma puntuación, se elegirá la campaña que se haya modificado en fecha menos reciente.</li>
 <li><b>Ver conflictos potenciales</b>: el nuevo botón “Ver conflictos potenciales” en recorridos y campañas ahora permite identificar la superposición con otros recorridos o campañas, como la fecha de inicio, el público de destino o la configuración del canal seleccionado.</li>
 <li><b>Arbitraje de recorridos</b>: esta nueva funcionalidad le permite priorizar los recorridos más importantes para sus clientes. Puede crear una regla para suprimir la entrada en un recorrido de prioridad inferior cuando un cliente cumpla los requisitos para un próximo recorrido de prioridad superior.</li>
@@ -340,7 +340,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * Ya están disponibles las plantillas de contenido. Puede acelerar la creación de experiencias basadas en código a partir de una plantilla de contenido creada por los desarrolladores. El uso de una plantilla de contenido permitirá al experto en marketing modificar tan solo algunos valores o campos, en lugar de crear todo el HTML o la carga útil de contenido JSON. [Más información](../content-management/content-templates.md)
 
-**Decisioning**
+**Toma de decisiones**
 
 * Los usuarios de [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) ahora pueden elegir modelos personalizados para optimizarlos al configurar un modelo de IA en Decisioning (anteriormente conocido como Decisiones sobre experiencias). Esto le permite, por ejemplo, optimizar en una tabla de “compras” personalizada en lugar de restricciones definidas como la tasa de clics. [Más información](../experience-decisioning/ranking/ranking.md)
 
@@ -359,7 +359,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Fecha de la versión**: 24-26 de septiembre de 2024
 
-### Nuevas funciones {#24-9-features}
+### Nuevas funcionalidades {#24-9-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -515,7 +515,7 @@ Ahora puede exportar plantillas de contenido y fragmentos entre zonas protegidas
   >
   >Tenga en cuenta que, al utilizar la funcionalidad de API interactiva en las páginas de documentación, está realizando llamadas de API reales a los puntos finales. Tenga esto en cuenta al experimentar con zonas protegidas de producción.
 
-Configuración de ****
+**Configuración**
 
 * **Planes de calentamiento de IP**: esta capacidad ya está disponible para todos los clientes, incluidas las organizaciones que han adquirido las ofertas complementarias **Healthcare Shield** o **Privacy and Security Shield** de Adobe. [Más información](../configuration/ip-warmup-gs.md)
 
@@ -528,7 +528,7 @@ Configuración de ****
 
 **Fecha de lanzamiento**: 20-21 de agosto de 2024
 
-### Nuevas funciones {#8-features}
+### Nuevas funcionalidades {#8-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -630,7 +630,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL Condición de tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/condition-activity.md#time_condition)
+* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL Condición de tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/conditions.md#time_condition)
 * Al crear los recorridos, las alertas se muestran ahora en el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#activity-errors)
 * Se han mejorado las opciones de zoom en la barra de herramientas del recorrido. El porcentaje del zoom ahora es visible y se puede restablecer su valor más fácilmente.
 
@@ -656,7 +656,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Fecha de la versión**: 30-31 de julio de 2024
 
-### Nuevas funciones {#27-4-features}
+### Nuevas funcionalidades {#27-4-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -707,7 +707,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Fecha de lanzamiento**: 18 y 19 de junio de 2024
 
-### Nuevas funciones {#june-24-features}
+### Nuevas funcionalidades {#june-24-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -883,7 +883,7 @@ Obtenga más información en la documentación de [fragmento de contenido](../co
 
 **Fecha de la versión**: 21-22 de mayo de 2024
 
-### Nuevas funciones {#e-features}
+### Nuevas funcionalidades {#e-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -1032,7 +1032,7 @@ Como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario u
 
 **Fecha de la versión**: 2 de mayo de 2024
 
-### Nuevas funciones {#apr-features}
+### Nuevas funcionalidades {#apr-features}
 
 Esta versión incorpora las nuevas funciones que se indican a continuación.
 
@@ -1121,7 +1121,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-Configuración de ****
+**Configuración**
 
 * Ahora puede seleccionar una acción de marketing en el nivel de configuración de canal. Cuando se utilizan en una configuración, se aprovechan todas las políticas de consentimiento asociadas con esa acción de marketing para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 * El uso del Control de acceso a nivel de objeto ya está disponible en las configuraciones de canal. [Más información](../configuration/channel-surfaces.md#create-channel-surface)
@@ -1191,7 +1191,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 **Fecha de la versión**: 21-22 de febrero de 2024
 
-### Nuevas funciones{#feb-features}
+### Nuevas funcionalidades{#feb-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -1277,7 +1277,7 @@ Las siguientes mejoras, anteriormente disponibles como versión beta, ya están 
 
 **Fecha de la versión**: 30-31 de 2024
 
-### Nuevas funciones{#jan24-features}
+### Nuevas funcionalidades{#jan24-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 

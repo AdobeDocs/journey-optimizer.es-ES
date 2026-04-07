@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: recorrido, caso de uso
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ El propósito de este caso de uso es crear un recorrido para aumentar las entreg
 
 1. Cree un recorrido. [Más información](journey-gs.md).
 
-1. Agregue una actividad **[!UICONTROL Condition]** al recorrido. [Más información](condition-activity.md).
+1. Agregue una actividad **[!UICONTROL Optimizar]** al recorrido. [Más información](optimize.md).
 
 1. En la configuración de la actividad **[!UICONTROL Condición]**, establezca el número máximo de destinatarios para la entrega:
 
-   1. En la configuración de la actividad **[!UICONTROL Condición]**, establezca el campo **[!UICONTROL Tipo]** en **[!UICONTROL Límite de perfil]**. [Más información](condition-activity.md#profile_cap).
+   1. En la configuración de la actividad **[!UICONTROL Optimizar]**, seleccione el método **[!UICONTROL Condiciones]** y establezca el campo **[!UICONTROL Tipo]** en **[!UICONTROL Límite de perfil]**. [Más información](conditions.md#profile_cap).
 
    1. Establezca el campo **[!UICONTROL Limit]** en el número máximo de destinatarios para esta entrega.
 

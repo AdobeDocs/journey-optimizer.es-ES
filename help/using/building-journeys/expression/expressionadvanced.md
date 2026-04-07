@@ -9,7 +9,7 @@ level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ El editor de expresiones avanzadas oferta un conjunto de funciones y operadores 
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas &#x200B;](../condition-activity.md#about_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas ](../conditions.md#data_source_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
-Si es posible, puede cambiar entre los dos modos con el botón **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]**. El modo simple se describe [aquí](../condition-activity.md#about_condition).
+Si es posible, puede cambiar entre los dos modos con el botón **[!UICONTROL Modo avanzado]** / **[!UICONTROL Modo simple]**. El modo simple se describe [aquí](../conditions.md#about_condition).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ En la parte izquierda de la pantalla se muestran los campos y las funciones disp
   >
   >No se admite la creación de expresiones mediante eventos de experiencia. Se hace referencia a enfoques alternativos y prácticas recomendadas para crear expresiones/lógica con eventos de experiencia [aquí](../../building-journeys/exp-event-lookup.md)
 
-* **[!UICONTROL Audiencias]**: si ha eliminado un evento de **[!UICONTROL calificación de audiencias]**, elija la audiencia que desee utilizar en la expresión. [Más información](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiencias]**: si ha eliminado un evento de **[!UICONTROL calificación de audiencias]**, elija la audiencia que desee utilizar en la expresión. [Más información](../conditions.md#using-a-segment)
 * **[!UICONTROL Fuentes de datos]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../../datasource/about-data-sources.md)
 * **[!UICONTROL propiedades de Recorrido]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](journey-properties.md)
 * **[!UICONTROL Funciones]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](functions.md)

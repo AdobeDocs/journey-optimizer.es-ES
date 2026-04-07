@@ -10,9 +10,9 @@ level: Intermediate
 keywords: recorrido, caso de uso, días de la semana, condición, correo electrónico, programación
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ Este método es ideal para campañas de correo electrónico de empresa a empresa
 
 >[!NOTE]
 >
->Para implementar este caso de uso, necesita una instancia de [!DNL Adobe Journey Optimizer] activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](condition-activity.md) y [expresiones](expression/expressionadvanced.md).
-
+>Para implementar este caso de uso, necesita una instancia de Adobe Journey Optimizer activa con una [superficie de canal de correo electrónico](../configuration/channel-surfaces.md) configurada, una [audiencia](../audience/about-audiences.md) o [evento](../event/about-events.md) para almacenar en déclencheur el recorrido y una comprensión básica de [condiciones de recorrido](conditions.md) y [expresiones](expression/expressionadvanced.md).
 
 ## Pasos de implementación
 
@@ -56,7 +55,7 @@ Siga estos pasos para crear el flujo de correo electrónico solo entre semana.
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
-1. Arrastre y suelte una actividad [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) en el lienzo después del punto de entrada.
+1. Arrastre y suelte una actividad [**[!UICONTROL Optimize ]**](optimize.md) en el lienzo después del punto de entrada.
 
 1. Haga clic en la actividad **[!UICONTROL Condición]** para abrir su panel de configuración.
 
@@ -186,7 +185,7 @@ Una vez finalizada la prueba:
 
 ## Temas relacionados
 
-* [Actividades de condición](condition-activity.md): aprenda a crear diferentes rutas en su recorrido
+* [Optimizar actividades](optimize.md): aprenda a crear diferentes rutas en su recorrido
 * [Condiciones de uso en un recorrido](conditions.md): guía detallada sobre las condiciones de recorrido
 * [Actividad de espera](wait-activity.md) - Configurar duraciones y fórmulas de espera
 * [Funciones de fecha](functions/date-functions.md) - Referencia completa para funciones de fecha y hora

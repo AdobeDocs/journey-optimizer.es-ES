@@ -8,7 +8,7 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: recorrido, eventos de paso, análisis, creación de informes, monitorización, XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Los eventos de paso de recorrido se generan automáticamente para varias activid
 
 - **Eventos de entrada**: cuando un perfil [entra en un recorrido](../building-journeys/entry-management.md)
 - **Ejecución de acciones**: Cuando se envían [mensajes](../building-journeys/journey-action.md) o se realizan [acciones personalizadas](../building-journeys/using-custom-actions.md)
-- **Evaluación de condición**: Cuando los perfiles pasan por [condiciones](../building-journeys/condition-activity.md) y puntos de decisión
+- **Evaluación de condición**: Cuando los perfiles pasan por [condiciones](../building-journeys/conditions.md) y puntos de decisión
 - **Actividades de espera**: Cuando los perfiles entran y salen de [nodos de espera](../building-journeys/wait-activity.md)
 - **Eventos de salida**: cuando los perfiles se completen o [salga de un recorrido](../building-journeys/end-journey.md)
 - **Control de errores**: Cuando se producen errores durante la ejecución del recorrido

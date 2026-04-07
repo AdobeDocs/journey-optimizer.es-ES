@@ -9,7 +9,7 @@ level: Intermediate
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Esta guía proporciona orientación práctica, ejemplos reales y prácticas reco
 
 **Los criterios de entrada** determinan las condiciones bajo las cuales un [perfil de cliente](../audience/get-started-profiles.md) cumple los requisitos para ingresar un recorrido específico. Los perfiles pueden entrar en función de lo siguiente:
 
-* déclencheur **[Comportamiento del cliente](../event/about-events.md)**: acciones realizadas por los clientes que registran la entrada de recorridos en tiempo real, como realizar una compra, abandonar un carro de compras o abrir una aplicación móvil.
+* **[Comportamiento del cliente](../event/about-events.md)**: acciones realizadas por los clientes que registran la entrada de recorridos en tiempo real, como realizar una compra, abandonar un carro de compras o abrir una aplicación móvil.
 
 * **[Atributos de perfil](../audience/get-started-profiles.md)**: las características del cliente determinan la idoneidad en función de los datos almacenados en su perfil, como el nivel de lealtad, la ubicación, la edad o las preferencias de comunicación.
 
@@ -40,7 +40,7 @@ Esta guía proporciona orientación práctica, ejemplos reales y prácticas reco
 
 * **Logro de la métrica de éxito**: los perfiles se eliminan cuando completan el [objetivo de recorrido](success-metrics.md), como realizar una compra o descargar una aplicación, lo que elimina comunicaciones de seguimiento innecesarias.
 
-* **Basado en condiciones**: los perfiles se eliminan cuando se cumplen [condiciones específicas](condition-activity.md), como inactividad durante un período establecido o cambios en los atributos del perfil.
+* **Basado en condiciones**: los perfiles se eliminan cuando se cumplen [condiciones específicas](conditions.md), como inactividad durante un período establecido o cambios en los atributos del perfil.
 
 * **Basado en eventos**: los perfiles se cierran cuando ocurren [eventos específicos](../event/about-events.md), como la cancelación de la suscripción o la devolución del producto.
 
@@ -106,7 +106,7 @@ Recopile información sobre la satisfacción del cliente y el rendimiento del pr
 
 * **[Entrada de calificación de audiencia](audience-qualification-events.md)**: Déclencheur los recorridos cuando los perfiles cumplen los requisitos o salen de audiencias específicas en tiempo real. Defina [audiencias de transmisión por secuencias](../audience/about-audiences.md), agregue un evento de **[!UICONTROL Calificación de audiencias]** desde la paleta **[!UICONTROL Eventos]** y elija el tipo de déclencheur.
 
-* **[Filtros de atributos](condition-activity.md)**: perfeccione los criterios de entrada combinando eventos o audiencias con atributos de perfil y contexto mediante la lógica AND/OR. Use [condiciones](conditions.md) para hacer referencia a [atributos de perfil](../audience/get-started-profiles.md), eventos o [datos externos](../datasource/about-data-sources.md).
+* **[Filtros de atributos](conditions.md)**: perfeccione los criterios de entrada combinando eventos o audiencias con atributos de perfil y contexto mediante la lógica AND/OR. Use [condiciones](conditions.md) para hacer referencia a [atributos de perfil](../audience/get-started-profiles.md), eventos o [datos externos](../datasource/about-data-sources.md).
 
 * **[Ventanas de tiempo y programación](journey-properties.md#schedule)**: establezca restricciones temporales para mantener los recorridos oportunos y relevantes. Configure [programaciones en actividades de audiencia de lectura](read-audience.md), use [actividades de espera](wait-activity.md) y agregue [condiciones basadas en el tiempo](conditions.md) para controlar el tiempo.
 
@@ -122,7 +122,7 @@ Recopile información sobre la satisfacción del cliente y el rendimiento del pr
 
 * **[Logro de métrica de éxito](journey-properties.md#exit-criteria)**: defina métricas de éxito (como compras o suscripciones) y perfiles de salida al finalizar. Haga clic en **[!UICONTROL Mostrar criterios de salida]**, seleccione **[!UICONTROL Agregar criterios de salida]** y elija un [Evento](../event/about-events.md) o una [Audiencia](../audience/about-audiences.md) como déclencheur de salida.
 
-* **[Tiempos de espera de inactividad](wait-activity.md)**: perfiles de salida si no se produce ninguna participación dentro de un intervalo de tiempo establecido. Use [Criterios de salida](journey-properties.md#exit-criteria) con audiencias que comprueben la fecha de la última participación, establezcan [Actividades de espera](wait-activity.md) con duraciones definidas y usen [condiciones](condition-activity.md) para comprobar la actividad.
+* **[Tiempos de espera de inactividad](wait-activity.md)**: perfiles de salida si no se produce ninguna participación dentro de un intervalo de tiempo establecido. Use [Criterios de salida](journey-properties.md#exit-criteria) con audiencias que comprueben la fecha de la última participación, establezcan [Actividades de espera](wait-activity.md) con duraciones definidas y usen [condiciones](conditions.md) para comprobar la actividad.
 
 * **[Reglas de reentrada](entry-management.md)**: decida si los perfiles pueden volver a entrar en el recorrido varias veces o solo una vez, según la estrategia de campaña. Defina la configuración de **[!UICONTROL Reentrada]** en el recorrido **[!UICONTROL Propiedades]** para establecer períodos de espera, habilitar la reentrada forzada o usar [identificadores suplementarios](supplemental-identifier.md) para la reentrada específica del contexto.
 
@@ -204,12 +204,12 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Documentación técnica**
 
-[Administración de entrada de perfil](entry-management.md) | [propiedades de Recorrido y criterios de salida](journey-properties.md) | [Cómo terminan los recorridos](end-journey.md) | [Identificadores adicionales](supplemental-identifier.md) | [diseñador de Recorrido](using-the-journey-designer.md)
+[Administración de entrada de perfil](entry-management.md) | [Propiedades de Recorrido y criterios de salida](journey-properties.md) | [Cómo terminan los recorridos](end-journey.md) | [Identificadores suplementarios](supplemental-identifier.md) | [Diseñador de Recorridos](using-the-journey-designer.md)
 
 **Tutoriales y ejemplos**
 
-[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo de carro abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+[Casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo del carro de compras abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la comunidad: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 
-[Eventos de calificación de audiencia](audience-qualification-events.md) | [Métricas de éxito y objetivos](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Actividad de condición](condition-activity.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)
+[Eventos de calificación de audiencias](audience-qualification-events.md) | [Métricas y objetivos de éxito](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Optimizar actividad](optimize.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)

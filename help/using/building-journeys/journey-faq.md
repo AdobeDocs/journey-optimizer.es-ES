@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -219,7 +219,7 @@ Puede agregar condiciones utilizando la **actividad de condición** desde la pal
 * Divida el recorrido en varias rutas en función de atributos de perfil, pertenencia a audiencias, eventos o datos contextuales
 * Defina rutas de tiempo de espera para perfiles que no cumplan la condición en un tiempo especificado
 
-Más información sobre [condiciones](condition-activity.md).
+Más información sobre [condiciones](conditions.md).
 
 +++
 
@@ -317,7 +317,7 @@ Usar una **actividad de condición** con atributos de perfil o pertenencia a aud
    * **Ruta 3**: Clientes nuevos (compras totales &lt; 100 $)
 3. Añadir diferentes mensajes u ofertas para cada ruta
 
-Más información sobre las [condiciones](condition-activity.md) y la [calificación de audiencias](audience-qualification-events.md).
+Más información sobre las [condiciones](optimize.md#conditions) y la [calificación de audiencias](audience-qualification-events.md).
 
 +++
 
@@ -588,9 +588,9 @@ Más información sobre [personalización](../personalization/personalize.md).
 
 +++ ¿Puedo enviar diferentes mensajes según el canal preferido?
 
-Sí. Use una **[actividad de condición](condition-activity.md)** para enrutar perfiles según su canal preferido:
+Sí. Use una **[Optimizar actividad](conditions.md)** para enrutar perfiles según su canal preferido:
 
-1. Agregue una [actividad de condición](condition-activity.md) en su recorrido
+1. Agrega una [actividad de optimización](optimize.md) en tu recorrido
 2. Cree una ruta para cada canal comprobando el atributo de perfil de canal preferido (por ejemplo, `profile.preferredChannel`)
 3. Configure las rutas específicas del canal:
    * **Ruta de correo electrónico**: agrega una [acción de correo electrónico](../email/create-email.md) con contenido optimizado para correo electrónico
@@ -606,7 +606,7 @@ Sí. Use una **[actividad de condición](condition-activity.md)** para enrutar p
 * Usar [superficies de canal](../configuration/channel-surfaces.md) para administrar las configuraciones de canal
 * Pruebe todas las rutas para garantizar la entrega de mensajes adecuada
 
-Obtenga más información sobre [condiciones](condition-activity.md), [acciones de mensajes](journey-action.md) y [selección de canales](../channels/gs-channels.md).
+Obtenga más información sobre [condiciones](conditions.md), [acciones de mensajes](journeys-message.md) y [selección de canales](../channels/gs-channels.md).
 
 +++
 
@@ -622,7 +622,7 @@ Sí, hay varias formas de excluir a los clientes:
 
 **Dentro del recorrido**:
 
-* Agregue una [actividad de condición](condition-activity.md) al principio del recorrido para salir de perfiles no deseados
+* Agregue una [actividad de optimización](conditions.md) al principio del recorrido para salir de perfiles no deseados
 * Comprobar atributos de exclusión (por ejemplo, estado de VIP, cuentas de prueba)
 * Use [calificación de audiencia](audience-qualification-events.md) para identificar perfiles que excluir
 
@@ -838,7 +838,7 @@ Más información sobre [políticas de combinación](../audience/get-started-pro
 * Espere un momento y, a continuación, utilice una Condición para comprobar si se ha producido algo durante la espera
 * Ejemplo: Esperar 7 días y comprobar si el cliente realizó una compra
 
-Más información sobre [condiciones](condition-activity.md) y [actividades de espera](wait-activity.md).
+Más información sobre [condiciones](optimize.md#conditions) y [actividades de espera](wait-activity.md).
 
 +++
 
@@ -918,7 +918,7 @@ Más información sobre [diseño de recorrido](using-the-journey-designer.md) y 
 * Usar [entrada basada en audiencia](read-audience.md) para comunicaciones por lotes en lugar de eventos individuales
 * Implementar [tiempos de espera](wait-activity.md) adecuados para propagar el volumen de mensajes
 * Aproveche [las reglas de límite](../conflict-prioritization/journey-capping.md) para evitar la sobrecarga del sistema
-* Optimizar [lógica de condición](condition-activity.md) para reducir la complejidad del procesamiento
+* Optimizar [lógica de condición](conditions.md) para reducir la complejidad del procesamiento
 
 **Supervisión**:
 
