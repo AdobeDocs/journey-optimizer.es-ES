@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [Configuración de la compatibilidad con tarjetas de contenido en SDK web](using/content-card/content-card-configuration-sdk.md)
       + [Creación de tarjetas de contenido](using/content-card/create-content-card.md)
       + [Diseño de tarjetas de contenido](using/content-card/design-content-card.md)
+   + Bandeja de entrada {#inbox}
+      + [Introducción a la bandeja de entrada](using/inbox/inbox-gs.md)
+      + [Configuración del canal de bandeja de entrada en Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Crear su bandeja de entrada](using/inbox/inbox-create.md)
+      + [Diseño de la bandeja de entrada](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Empezar con los mensajes de WhatsApp](using/whatsapp/get-started-whatsapp.md)
@@ -867,7 +872,7 @@ ht-degree: 95%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
