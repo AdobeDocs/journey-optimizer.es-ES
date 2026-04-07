@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: df19494bfd40e76b88b088cc70c6d6587916a3b3
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 21%
@@ -106,7 +106,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -312,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -447,14 +447,13 @@ Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo
 <table>
 <thead>
 <tr>
-<th><strong>Optimización de la ruta del recorrido</strong><br/></th>
+<th><strong>Experimentación de ruta de recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Utilice el nuevo nodo Optimizar para dirigirse a audiencias específicas o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI centrados en el negocio.
-Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
+<p>Use el nuevo nodo <strong>Optimize</strong> para ejecutar pruebas A/B o experimentos de bandidos multibrazo a fin de determinar la mejor ruta para cumplir con los KPI centrados en la empresa. Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
 </p>
 <p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="../building-journeys/optimize.md">Más información</a></p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
