@@ -10,7 +10,7 @@ level: Intermediate
 keywords: actividad, condición, lienzo, recorrido, optimización
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -34,13 +34,13 @@ La actividad **Optimizar** le permite definir el progreso de las personas en su 
 
 ![Botón Optimizar en la paleta de actividades de recorrido](assets/journey-optimize.png)
 
-## ¿Qué es una ruta de recorrido?
+## ¿Qué es una ruta de recorrido? {#journey-path}
 
 Un recorrido **ruta** puede consistir en cualquiera de las siguientes opciones: secuenciación de las comunicaciones, tiempo entre ellas, número de comunicaciones o cualquier combinación de estas tres variables.
 
 Por ejemplo, una ruta puede contener un correo electrónico, otra puede contener dos mensajes SMS y una tercera puede contener un correo electrónico, un nodo de espera de dos horas y, a continuación, un mensaje SMS.
 
-## Tres formas de optimizar los recorridos
+## Tres formas de optimizar los recorridos {#optimization-methods}
 
 A través de la actividad **Optimizar**, puede realizar las siguientes acciones en sus rutas de recorrido:
 
@@ -54,11 +54,11 @@ A través de la actividad **Optimizar**, puede realizar las siguientes acciones 
 
 * [Aplicar condiciones](conditions.md): cree rutas condicionales basadas en criterios específicos, como fuentes de datos, hora, fecha, divisiones de porcentaje o límites de perfil. Es el equivalente de la actividad Condición anterior.
 
-## Funcionamiento
+## Funcionamiento {#how-it-works}
 
 Una vez que el recorrido está activo, los perfiles se evalúan según los criterios definidos y, en función de los criterios coincidentes, se envían por la ruta adecuada desde el recorrido.
 
-## Próximos pasos
+## Próximos pasos {#next-steps}
 
 Seleccione el método de optimización que mejor se adapte a su caso de uso:
 
