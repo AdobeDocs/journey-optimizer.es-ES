@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 6%
+source-wordcount: '2225'
+ht-degree: 5%
 
 ---
 
@@ -39,13 +39,11 @@ Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue u
 1. [Configurar una secuencia de estrategia](#strategy): seleccione los elementos que desea devolver con la directiva de decisión.
 1. [Seleccionar ofertas de reserva](#fallback) (opcional): seleccione los elementos que desea mostrar si no se cumplen los requisitos para los elementos o las estrategias de selección.
 1. [Revisar y guardar](#review) la estrategia de selección
-1. [Asignar una ubicación](#placement) (canal de correo electrónico)
+1. [Asignar una ubicación](#placement) (solo canal de correo electrónico)
 
 >[!AVAILABILITY]
 >
->Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y SMS.
->
->La toma de decisiones del canal de correo electrónico está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
+>Las directivas de decisión están disponibles para los canales **Experiencia basada en código**, **Notificación push**, **SMS** y **Correo electrónico**.
 
 ## Agregar una política de decisión {#add}
 
@@ -116,6 +114,16 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
    >La opción **[!UICONTROL Reutilizar resultado de decisión]** le permite reutilizar una directiva de decisión que ya se ha creado en este correo electrónico. Resulta especialmente útil cuando desea mostrar la misma oferta en varias ubicaciones (por ejemplo, en el encabezado y el pie de página).
    >
    >Cuando se puede seleccionar la misma oferta mediante más de una política de decisión en el cuerpo del correo electrónico, el motor anula la duplicación de ofertas: cada ubicación recibe una oferta diferente, por lo que la misma oferta no aparecerá en ambos lugares. Para mostrar la misma oferta en varias ubicaciones, use **[!UICONTROL Reutilizar salida de decisión]** para reutilizar la salida de una directiva de decisión existente en este correo electrónico.
+
+   +++
+
+También puede agregar directivas de decisión al usar el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. Para ello, vaya a **[!UICONTROL Directivas de decisión]** para insertar el código de la directiva de decisión. [Aprenda a codificar su propio contenido de correo electrónico](../email/code-content.md).
+
+![](assets/decision-policy-add-code-your-own.png)
+
+>[!NOTE]
+>
+>En el modo **[!UICONTROL Codifique su propio]**, solo puede devolver un elemento de decisión por directiva, ya que el componente **[!UICONTROL Cuadrícula de repetición]** no está disponible.
 
 >[!TAB SMS]
 

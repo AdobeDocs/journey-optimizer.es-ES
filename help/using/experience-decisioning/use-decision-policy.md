@@ -8,10 +8,10 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,7 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
 
 >[!CAUTION]
 >
->Las directivas de decisión están disponibles para todos los clientes de los canales **Experiencia basada en código**, **SMS** y **Notificación push**.
->
->La toma de decisiones para el canal **Correo electrónico** solo está disponible en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **SMS**, **Notificación push** y **Correo electrónico**.
 
 ## Inserción del código de la política de decisión {#insert}
 

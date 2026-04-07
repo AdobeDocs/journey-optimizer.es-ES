@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e58e9e93cc308c2e94ea94b5c6574dd8a2266bd6
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2000'
 ht-degree: 21%
 
 ---
@@ -50,6 +50,25 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con decisiones en el canal de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede usar <strong>Decisioning</strong> para personalizar y optimizar el contenido de sus mensajes de correo electrónico. Aproveche las puntuaciones de prioridad, las fórmulas o los modelos de IA para mostrar las ofertas y el contenido más relevantes a cada destinatario.</p>
+<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con esta versión de General Availability, ahora se admiten las páginas espejo.</p>
+<p><img src="assets/do-not-localize/exd-email.gif"></p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/create-decision-policy.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: martes, 06 de abril de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mejoras {#april-26-improv}
 
 #### Integraciones de Adobe Experience Manager
@@ -69,7 +88,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
 
@@ -257,7 +276,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>
@@ -385,7 +404,6 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Fecha de disponibilidad: martes, 02 de marzo de 2026
 
-
 ## Próximamente {#coming-soon}
 
 Las funciones y mejoras siguientes están previstas para su lanzamiento en marzo o principios de abril. Las fechas y el ámbito de la versión están **sujetos a cambios sin previo aviso**.
@@ -429,25 +447,7 @@ Esta herramienta le permite probar y variar, así como personalizar las comunica
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con decisiones en el canal de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede usar <strong>Decisioning</strong> para personalizar y optimizar el contenido de sus mensajes de correo electrónico. Aproveche las puntuaciones de prioridad, las fórmulas o los modelos de IA para mostrar las ofertas y el contenido más relevantes a cada destinatario.</p>
-<p>Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con esta versión de General Availability, ahora se admiten las páginas espejo.</p>
-<p><img src="assets/do-not-localize/exd-email.gif"></p>
-<!--<p>For more information, refer to the <a href="../experience-decisioning/create-decision-policy.md">detailed documentation</a>.</p>-->
-<p>Fecha de disponibilidad: sábado, 03 de abril de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
+<!--WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.-->
 <!--
 WAITING RELEASE DATE CONFIRMATION
 * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
