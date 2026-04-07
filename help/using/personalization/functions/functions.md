@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -446,6 +446,9 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#each">Cada</a></td><td>Esta función se utiliza para repetir una matriz</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#dataset-lookup">Búsqueda de conjuntos de datos</a></td><td>Este asistente recupera campos de conjuntos de datos de registros de Adobe Experience Platform en el momento del procesamiento mediante una clave de búsqueda</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#execution-metadata">Metadatos de ejecución</a></td><td>Este asistente captura metadatos de clave-valor personalizados durante el procesamiento del mensaje para que se puedan almacenar en el objeto de metadatos de ejecución en tiempo de ejecución</td>
     </tr>
     <tr>
@@ -530,4 +533,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
