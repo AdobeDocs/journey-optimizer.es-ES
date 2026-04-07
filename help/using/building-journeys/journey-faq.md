@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -606,7 +606,7 @@ Sí. Use una **[Optimizar actividad](conditions.md)** para enrutar perfiles seg�
 * Usar [superficies de canal](../configuration/channel-surfaces.md) para administrar las configuraciones de canal
 * Pruebe todas las rutas para garantizar la entrega de mensajes adecuada
 
-Obtenga más información sobre [condiciones](conditions.md), [acciones de mensajes](journeys-message.md) y [selección de canales](../channels/gs-channels.md).
+Obtenga más información sobre [condiciones](conditions.md), [acciones de mensajes](journey-action.md) y [selección de canales](../channels/gs-channels.md).
 
 +++
 
