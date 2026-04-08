@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ Siga estos pasos para configurar y utilizar la bandeja de entrada:
 
 ## Recursos adicionales
 
+* [IU de la bandeja de entrada (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/): Requisitos, superficie de API pública, configuración de la bandeja de entrada y vínculos a tutoriales para implementar la bandeja de entrada de Journey Optimizer en una aplicación de iOS con Adobe Experience Platform Mobile SDK (iOS 15 o posterior, Xcode 15 o posterior, Swift 5.1 o posterior).
+
 * [Recuperar y mostrar bandeja de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): cargue mensajes de la bandeja de entrada Journey Optimizer y procese la interfaz de usuario de la bandeja de entrada en Android (documentación de Adobe Developer).
+
 * [Personalización de la bandeja de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): ajuste el diseño, el estilo y el comportamiento de interacción de la bandeja de entrada para su aplicación de Android (documentación de Adobe Developer).
+
 * [Escucha de eventos en la bandeja de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): suscríbete a las devoluciones de llamadas de la bandeja de entrada para acciones de usuarios y actualizaciones del ciclo vital en Android (documentación de Adobe Developer).
