@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '4046'
-ht-degree: 93%
+source-wordcount: '4091'
+ht-degree: 92%
 
 ---
 
@@ -186,6 +186,7 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
 * Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
+* Para cada perfil y versión de recorrido, el tiempo de ejecución de recorrido mantiene una cola interna de hasta 10 eventos pendientes mientras se procesa uno. Si se alcanza este límite, los eventos adicionales se descartan con el motivo `maxInstanceStackEventsReached` hasta que se agote la pila. Ver [eventos descartados con maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
 

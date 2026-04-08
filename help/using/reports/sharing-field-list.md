@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -100,6 +100,12 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
   **Causas comunes**: Eventos duplicados, volumen de evento alto, restricciones de recursos del sistema.
 
   **Solución de problemas**: Implemente la anulación de duplicación, evite los picos de tráfico, optimice el diseño del recorrido y [póngase en contacto con el servicio de asistencia](../start/user-interface.md#support-ticket-guidelines) si es persistente.
+
+* **maxInstanceStackEventsReached**: El tiempo de ejecución de recorrido alcanzó el límite interno de 10 eventos de pila por perfil para una versión de recorrido determinada.
+
+  **Causas comunes**: La instancia de recorrido del perfil está bloqueada en un paso de larga ejecución (por ejemplo, esperas largas, enriquecimientos lentos o reintentos de acciones personalizadas) y eventos para el mismo perfil, que también se están utilizando en ese recorrido, se acumulan más allá del límite de 10 eventos.
+
+  **Solución de problemas**: reduzca los pasos de larga duración en las rutas que pueden volver a almacenar en déclencheur con frecuencia, devuelva o deduplique eventos ascendentes y divida los escenarios largos en varios recorridos. Se trata de una protección de seguridad y el límite no se puede configurar; los eventos adicionales se descartan hasta que la pila se drene. Para obtener más información, consulte [Eventos descartados con maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_RECORRIDO**: se recibió un evento, pero no se configuró ningún recorrido activo para responderlo
 
