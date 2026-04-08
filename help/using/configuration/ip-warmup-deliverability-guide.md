@@ -146,6 +146,6 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 * [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 * [Creación de configuraciones de canal](channel-surfaces.md)
-* [Delegación de subdominios ](delegate-subdomain.md)
+* [Delegación de subdominios &#x200B;](delegate-subdomain.md)
 * [Administrar lista de supresión](manage-suppression-list.md)
 * [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es)
