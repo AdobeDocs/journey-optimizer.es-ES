@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: segmentación, reglas, recorrido, ruta, optimización, personalización
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 7%
 
 ---
-
 
 # Aproveche la segmentación de rutas {#targeting}
 
@@ -140,4 +140,3 @@ Los clientes que hayan realizado compras recientemente pueden optar por una brev
 ![Segmentación del historial de compras con ruta de venta cruzada para compradores y ruta de crianza para no compradores](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-
