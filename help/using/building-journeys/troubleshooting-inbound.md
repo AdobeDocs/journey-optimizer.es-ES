@@ -10,7 +10,7 @@ level: Intermediate
 keywords: acciones entrantes, solución de problemas, recorrido, depurar, autoayuda, comprobar, errores
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -23,7 +23,8 @@ Las acciones entrantes, como las experiencias en la aplicación, web y basadas e
 
 Esta guía proporciona un proceso paso a paso para depurar los problemas relacionados con las acciones entrantes de un recorrido para ayudarle a identificarlos y resolverlos de forma independiente antes de ponerse en contacto con el servicio de asistencia.
 
-<!--This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
+<!--
+This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
 
 * A profile enters the inbound step, but the user does not receive the expected inbound content.
 * A user continues to receive inbound content even after the profile exits the journey.
@@ -33,7 +34,7 @@ Esta guía proporciona un proceso paso a paso para depurar los problemas relacio
 
 Antes de iniciar la localización de averías, asegúrese de lo siguiente:
 
-1. Configurar una sesión de **Assurance**. Obtenga más información en la [[!DNL Adobe Experience Platform] documentación de Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configurar una sesión de **Assurance**. Obtenga más información en la [[!DNL Adobe Experience Platform] documentación de Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Vaya al recorrido que contiene la acción entrante para recuperar el nombre del recorrido y el ID de versión.
 
@@ -47,7 +48,7 @@ Antes de iniciar la localización de averías, asegúrese de lo siguiente:
 
    ![ID de acción en la vista de código del panel de configuración de actividad](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Obtenga el área de nombres y el ID del perfil para identificar los problemas que encuentra el perfil. En función de su configuración, el área de nombres puede ser ECID, correo electrónico o ID de cliente, por ejemplo. Obtenga información sobre cómo buscar un perfil en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Obtenga el área de nombres y el ID del perfil para identificar los problemas que encuentra el perfil. En función de su configuración, el área de nombres puede ser ECID, correo electrónico o ID de cliente, por ejemplo. Obtenga información sobre cómo buscar un perfil en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Escenario 1: el usuario no ha recibido el contenido entrante {#scenario-1}
 
@@ -62,7 +63,7 @@ En esta situación, un perfil ha introducido la acción entrante en el recorrido
 
 2. Identidad **&#39;joai&#39; definida en identidades de plataforma**
 
-   La acción de entrada usa el espacio de nombres **joai** en el perfil `segmentMembership` para activar el perfil para el paso de entrada. Asegúrese de que se haya definido en Identidades de la plataforma para la zona protegida. Más información sobre [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home){target="_blank"}
+   La acción de entrada usa el espacio de nombres **joai** en el perfil `segmentMembership` para activar el perfil para el paso de entrada. Asegúrese de que se haya definido en Identidades de la plataforma para la zona protegida. Más información sobre [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### Pasos de depuración {#debugging-steps}
 
@@ -78,7 +79,7 @@ Comience por comprobar si el dispositivo o cliente obtiene el contenido esperado
 
 >[!TAB Canal en la aplicación]
 
-1. Vaya a la sesión [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} y seleccione la sección **[!UICONTROL Mensajería en la aplicación]** del panel izquierdo.
+1. Vaya a la sesión [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} y seleccione la sección **[!UICONTROL Mensajería en la aplicación]** del panel izquierdo.
 
 1. En la ficha **[!UICONTROL Mensajes del dispositivo]**, haga clic en la lista desplegable **[!UICONTROL Mensajes]**.
 
@@ -90,11 +91,11 @@ Comience por comprobar si el dispositivo o cliente obtiene el contenido esperado
 
 >[!TAB Canal web]
 
-Visite la página e inspeccione la pestaña de red o compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Visite la página e inspeccione la pestaña de red o compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!TAB Canal de experiencia basado en código]
 
-Realice una solicitud de flexión utilizando la API de [Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) y compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Realice una solicitud de flexión utilizando la API de [Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) y compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -128,7 +129,7 @@ Para depurar el comportamiento de Edge Network, siga los pasos a continuación.
 
    Puede comprobar si el segmento **joai** está presente en la vista del perfil del servidor de entrega de Edge Network abriendo el elemento **segmentsMap** de la sección Perfil y buscando la presencia del ID de segmento **joai**.
 
-1. Si el servidor de entrega de Edge Network no ve el perfil como si estuviera en el segmento **joai** relevante, vaya al paso siguiente.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Si el servidor de entrega de Edge Network no ve el perfil como si estuviera en el segmento **joai** relevante, vaya al paso siguiente.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Paso 3: Compruebe si la pertenencia a la audiencia &quot;joai&quot; se ha propagado a Edge Network {#step-3}
 
@@ -150,7 +151,7 @@ Para comprobar la presencia del segmento **joai** en el atributo `segmentMembers
 
    ![Vista de atributos de perfil en formato JSON que muestra el estado de pertenencia a audiencia](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. Vaya al atributo `segmentMembership` y compruebe si el ID de segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente en el área de nombres **joai** y si está en estado **[!UICONTROL realizado]** <!--or existing?-->.
+1. Vaya al atributo `segmentMembership` y compruebe si el ID del segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente en el área de nombres **joai** y si está en estado **[!UICONTROL realizado]** <!--or existing?-->.
 
    ![JSON de perfil que muestra pertenencia a audiencia realizada con marca de tiempo](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
@@ -213,11 +214,9 @@ Sin embargo, cuando un perfil sale de un recorrido, ya no debería cumplir los r
 Siga los mismos pasos de depuración que para [Scenario 1](#debugging-steps) para comprobar si el perfil Hub, el perfil Edge y el servidor de entrega Edge Network reflejan correctamente el estado de pertenencia al segmento del segmento **joai** relevante, y si el cliente ya no recibe el contenido entrante.
 
 <!--
-
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es)
-
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

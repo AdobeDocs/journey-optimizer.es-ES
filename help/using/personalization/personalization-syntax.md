@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%

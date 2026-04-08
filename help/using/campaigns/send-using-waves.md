@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: olas, lotes, programación, campaña, recorrido, capacidad de entrega
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 2%
@@ -23,7 +23,8 @@ Puede dividir el envío de mensajes de campaña salientes en varios lotes (olas)
 <!--
 >[!CAUTION]
 >
->Wave sending applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 Journey Optimizer permite definir el número de olas, su tamaño (como porcentaje de la audiencia o como números absolutos) y cuándo se ejecuta cada ola.
 

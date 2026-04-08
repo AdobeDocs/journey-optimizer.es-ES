@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 8%
@@ -22,16 +22,18 @@ ht-degree: 8%
 
 El control de acceso de [!DNL Journey Optimizer] se proporciona mediante **Permisos** en Adobe Experience Cloud. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
 
-Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
+Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
 
-<!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
+<!--
+ A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
 * After licensing [!DNL Journey Optimizer], an email is sent to the administrator specified during licensing.
 * The administrator logs in to Adobe Admin Console and selects [!DNL Journey Optimizer] from the list of products on the overview page.
 * To grant access to [!DNL Journey Optimizer], it is recommended that the administrator add users to the default product profile
 * In Experience Platform Permissions, the administrator can create new roles or edit the permissions and users for any existing roles.
 * When creating or editing a role, the administrator adds users to the role using the users tab, and grants permissions to these users (such as "Read Datasets" or "Manage Schemas") by editing the role's permissions. Similarly, the administrator can assign access to sandboxes using the same editing option.
-* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
+* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.
+-->
 
 
 La administración de usuarios en [!DNL Journey Optimizer] se basa en estos conceptos clave:
@@ -50,7 +52,7 @@ Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL role
 * **Control de acceso basado en atributos**: Autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos. El control de acceso basado en atributos permite a los administradores controlar el acceso a objetos específicos o funcionalidades basadas en atributos. Los atributos pueden ser metadatos añadidos a un objeto, como una etiqueta añadida a un campo o segmento de esquema. Un administrador define directivas de acceso que incluyen atributos para administrar permisos de acceso de usuarios. Más información sobre [Administración de acceso basada en atributos](attribute-based-access.md).
 
 
-## Vamos a profundizar
+## Profundicemos
 
 Ahora que comprende los conceptos de control de acceso en **[!DNL Journey Optimizer]**, es hora de profundizar en estas secciones de documentación para comenzar a configurar permisos.
 

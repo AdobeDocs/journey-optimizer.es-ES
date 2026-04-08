@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 48%
@@ -38,7 +38,7 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 **Web y móvil**
 
 | Tipo | URI | Descripción |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Representa un elemento individual dentro de una página específica de un dominio específico, donde un elemento puede ser una etiqueta como en los ejemplos siguientes: hero_banner, top_nav, menu, footer, etc. |
 | Aplicación iOS | `mobileapp://com.vendor.bundle/activity#element` | Representa un elemento específico dentro de una actividad, como un botón u otro elemento de vista. |
 | Aplicación de Android | `mobileapp://com.vendor.bundle/#element` | Representa un elemento específico dentro de una aplicación nativa. |
@@ -46,7 +46,7 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 **Otros tipos de dispositivos**
 
 | Tipo | URI | Descripción |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Escritorio | `desktop://com.vendor.bundle/#element` | Representa un elemento específico dentro de una aplicación, como un botón, un menú, un banner principal, etc. |
 | Aplicación de TV | `tvcd://com.vendor.bundle/#element` | Representa un elemento específico en una TV inteligente o TV conectado a una aplicación de dispositivo: ID de paquete. |
 | Servicio | `service://servicename/#element` | Representa un proceso del lado del servidor u otra entidad manual. |
@@ -56,7 +56,7 @@ En la tabla siguiente se muestran algunos ejemplos de definiciones de URI de sup
 **Superficies comodín**
 
 | Tipo | URI | Descripción |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web comodín | `wildcard:web://domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo un dominio específico. |
 | Web comodín | `wildcard:web://*domain.com/*#element` | Superficie comodín: representa un elemento individual en cada una de las páginas bajo todos los dominios que acaba con &quot;domain.com&quot;. |
 

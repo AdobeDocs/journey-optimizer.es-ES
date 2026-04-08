@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 7b6efb1997074723be25b0f99d47debb1f1188e0
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2742'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
 >title="Elija su tipo de webhook"
->abstract="Al configurar un webhook, elija **Entrante** para capturar las respuestas de consentimiento y las preferencias del usuario, o **[!UICONTROL Retroalimentación]** para rastrear los eventos de envío y participación para informes y análisis."
+>abstract="Al configurar un webhook, elige **Entrante** para capturar las respuestas de consentimiento y las preferencias del usuario, o **[!UICONTROL Comentarios]** para rastrear los eventos de envío y participación para informes y análisis."
 
 >[!BEGINSHADEBOX]
 
@@ -104,58 +104,53 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
-     +++ Inclusión
+   +++ Inclusión
 
-      * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
+   * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Opción de exclusión
+   +++ Opción de exclusión
 
-      * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
 
-      * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
+   * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Inclusión doble
+   +++ Inclusión doble
 
-      * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
+   * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Ayuda
+   +++ Ayuda
 
-      * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
+   * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizado
+   +++ Personalizado
 
-      * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
+   * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
-      * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
+   * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-     +++
+   +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -210,58 +205,53 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
-     +++ Inclusión
+   +++ Inclusión
 
-      * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
+   * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Opción de exclusión
+   +++ Opción de exclusión
 
-      * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
 
-      * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
+   * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Inclusión doble
+   +++ Inclusión doble
 
-      * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
+   * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Ayuda
+   +++ Ayuda
 
-      * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
+   * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizado
+   +++ Personalizado
 
-      * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
+   * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
-      * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
+   * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-     +++
+   +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -323,58 +313,53 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
 1. Seleccione una categoría de palabra clave de la lista desplegable **[!UICONTROL Categoría de palabra clave entrante]** para configurarla:
 
-   * &#x200B;
-     +++ Inclusión
+   +++ Inclusión
 
-      * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
+   * Habilite palabras clave que incluyan a los usuarios con su consentimiento. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se incluye para recibir mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Subscribe, Yes, Unstop, Continue, Resume y Begin. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Opción de exclusión
+   +++ Opción de exclusión
 
-      * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de exclusión.
 
-      * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
+   * Habilite **[!UICONTROL Lógica aproximada]** para detectar palabras clave similares a las palabras clave de exclusión configuradas. Si la respuesta de un usuario es cercana pero no exacta, se enviará el mensaje introducido en el campo **[!UICONTROL Respuesta automática difusa]**. Normalmente, este mensaje indica que no se produjo la exclusión y especifica la palabra clave exacta necesaria para cancelar la suscripción.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Inclusión doble
+   +++ Inclusión doble
 
-      * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
+   * Habilite palabras clave para el requisito de doble inclusión. Cuando el mensaje de un usuario coincide con una palabra clave configurada, no se incluye por completo en este momento. Este flujo de trabajo de consentimiento en dos pasos requiere que los usuarios confirmen su inclusión con una segunda palabra clave.
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando coincida una palabra clave de inclusión doble. Este mensaje indica al usuario que introduzca una palabra clave de inclusión para completar el proceso de inclusión.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Ayuda
+   +++ Ayuda
 
-      * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
+   * Habilite palabras clave que proporcionen una respuesta estándar cuando se solicite ayuda. Cuando el mensaje de un usuario coincide con una palabra clave configurada, recibe el mensaje de respuesta a la Ayuda.
 
-      * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * De forma predeterminada, están habilitadas las siguientes palabras clave: Ayuda, Información, Información. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
+   * Utilice el campo **[!UICONTROL Mensaje de respuesta]** para crear un mensaje que se enviará automáticamente cuando el mensaje entrante de un usuario coincida con una palabra clave de la Ayuda.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizado
+   +++ Personalizado
 
-      * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
+   * Configure una sola palabra clave personalizada. Cuando el mensaje de un usuario coincide con esta palabra clave, esta se escribe en el conjunto de datos **[!UICONTROL Seguimiento de comentarios de mensajes]** para la generación de informes y audiencias.
 
-      * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
+   * Cree una audiencia (de flujo continuo o por lotes) que haga referencia a esta palabra clave para usarla en sus recorridos y campañas.
 
-     +++
+   +++
 
 1. Escriba un **[!UICONTROL mensaje de respuesta predeterminado]**. Este mensaje se envía automáticamente cuando la respuesta de un usuario no coincide con ninguna palabra clave configurada.
 
@@ -393,7 +378,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,14 +417,14 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;estados&quot;: &lbrack;
-       &lbrace;
+       &quot;estados&quot;: [
+       {
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;estado&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
+       ]
        
        &quot;
    

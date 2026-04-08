@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -553,9 +553,11 @@ Solución: valide la calidad de datos del perfil
 * **Recorrido no publicado**: el recorrido sigue en modo de borrador
 Solución: publique el recorrido para activarlo
 
-<!-- 
+<!--
+ 
 * **Message not approved**: Message content requires approval before sending
-  Solution: Submit for approval or check approval status-->
+  Solution: Submit for approval or check approval status
+-->
 
 * **Problema de configuración del canal**: La configuración de correo electrónico/SMS es incorrecta
 Solución: compruebe las configuraciones de canal y la autenticación

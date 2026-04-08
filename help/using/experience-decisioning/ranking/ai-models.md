@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 18%
@@ -22,11 +22,13 @@ ht-degree: 18%
 
 Esta característica le permite crear diferentes **modelos de IA** basados en sus objetivos comerciales. Al usar estas diferentes estrategias basadas en objetivos en una decisión, el sistema de modelos entrenado le ayudará a comprender cómo los diferentes modelos de IA afectan sus objetivos.
 
-<!--For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given decision policy?, rather than taking into account the offers' priority scores or a [ranking formula](create-ranking-formulas.md).
+<!--
+For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given decision policy?, rather than taking into account the offers' priority scores or a [ranking formula](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
->For now, ranking models are not supported in Journey Optimizer authored channels.-->
+>For now, ranking models are not supported in Journey Optimizer authored channels.
+-->
 
 ## Tipos de modelos de IA {#ai-model-types}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 2%
@@ -41,8 +41,10 @@ Los principales beneficios son los siguientes:
 * **Reutilizables en todas las campañas**: guarde las plantillas en la biblioteca y utilícelas en cualquier recorrido o campaña.
 * **Se mantiene fiel al diseño**: la salida coincide con el diseño y el estilo, a la vez que es totalmente compatible con el Designer de correo electrónico.
 
-<!--* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
-* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients-->
+<!--
+* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
+* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients
+-->
 
 +++ Casos de uso comunes
 
@@ -101,7 +103,8 @@ Tenga en cuenta las siguientes limitaciones y recomendaciones al convertir imág
 <!--
 * **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
 
-**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.
+-->
 
 ## Conversión de una imagen en una plantilla de HTML {#convert-image}
 

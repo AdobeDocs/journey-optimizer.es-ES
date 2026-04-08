@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 1%
@@ -319,7 +319,8 @@ Los lectores de pantalla dicen:
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## Proporcionar compatibilidad de enfoque y navegación mediante el teclado {#keyboard}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 22%
+source-wordcount: '829'
+ht-degree: 21%
 
 ---
 
@@ -96,7 +96,7 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
    * Seleccione el botón **[!UICONTROL Copiar vínculo]** y comparta el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador móvil antes de que los cambios se activen.
 
-   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >
@@ -112,10 +112,12 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
 1. Se generan vínculos de vista previa para el perfil de prueba seleccionado y, si usa [Experimento de contenido](../content-management/content-experiment.md) en su recorrido o campaña, para el tratamiento seleccionado.
 
-   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+   <!--
+Si ha modificado el contenido o ha seleccionado un tratamiento o perfil de prueba diferente, desplácese hacia abajo hasta la parte inferior de la ventana emergente **[!UICONTROL Vista previa en el dispositivo]** y haga clic en **[!UICONTROL Actualizar vínculo de vista previa]** para reflejar el estado actual.
 
-   ![](assets/preview-on-device-refresh.png)-->
+![](assets/preview-on-device-refresh.png)
+—>
 
-   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Al actualizar el contenido o seleccionar un perfil de prueba o un tratamiento diferentes, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en diferentes pestañas del explorador y comparar las experiencias.
+    Al actualizar el contenido o seleccionar un perfil o tratamiento de prueba diferente, el vínculo de vista previa se actualiza automáticamente. Puede copiar el vínculo en distintas fichas del explorador y comparar las experiencias.

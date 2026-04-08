@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 11%
@@ -169,7 +169,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 
@@ -179,7 +179,6 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 * [Vínculo de no participación en el encabezado del correo electrónico](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,7 +190,6 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
 ## Aproveche el evento de envío de página de aterrizaje {#leverage-lp-event}
@@ -204,7 +202,8 @@ Para ello, debe crear un [evento unitario basado en reglas](../event/about-creat
 >
 >Cuando trabaje con eventos de envío de página de aterrizaje, tenga en cuenta que es posible que el campo del evento `interactionType` no siempre refleje con precisión la acción del usuario específica. Para determinar con precisión si un usuario ha optado por no participar, se ha suscrito o ha realizado otra acción, compruebe siempre los atributos de perfil reales (como las preferencias de consentimiento) o los valores de los campos de formulario en lugar de depender únicamente del evento `interactionType`.
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

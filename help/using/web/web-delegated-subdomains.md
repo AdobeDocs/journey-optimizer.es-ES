@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdominios, configuración
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -159,7 +159,8 @@ Si desea desdelegar un subdominio web, póngase en contacto con su representante
 
 1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
 
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
 
 Si el subdominio web era un [nuevo subdominio delegado](#web-configure-new-subdomain), puede eliminar el registro DNS CNAME que creó para el subdominio web de su solución de alojamiento (pero no elimine el subdominio de correo electrónico original, si lo hubiera).
 

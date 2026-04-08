@@ -1,25 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guía de entrega de calentamiento de IP
+title: Guía de entregabilidad de calentamiento de IP
 description: Conozca los aspectos básicos de la capacidad de entrega y las prácticas recomendadas para el calentamiento de IP
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, capacidad de envío, reputación, ISP, participación
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Guía de entrega de calentamiento de IP {#ip-warmup-deliverability-guide}
+# Guía de entregabilidad de calentamiento de IP {#ip-warmup-deliverability-guide}
 
 Al lanzar campañas de correo electrónico con nuevas direcciones IP o dominios en Adobe Journey Optimizer, comprender los aspectos básicos de la capacidad de entrega es crucial para crear una sólida reputación de remitente. Esta guía cubre los conceptos clave, los pasos de preparación y las prácticas recomendadas para ayudarle a pasar de una reputación cero a una ubicación correcta en la bandeja de entrada.
 
-➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es){target="_blank"}.
+➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -61,7 +62,7 @@ Este calendario de ejemplo proporciona una rampa de volumen progresiva basada en
 | 1-3 | 0,5 % | Sus destinatarios más comprometidos | Utilice un formato de texto sin formato corto con una call-to-action clara encima del pliegue. |
 | 4-7 | 1 % | Usuarios comprometidos más compradores recientes | Añada una imagen a pantalla completa ligera y limite los vínculos a 3 o menos. |
 | De 8 a 14 | 5 % | Lista de suscriptores activos más amplia | Introduzca su plantilla de correo electrónico estándar, pero evite contenido promocional pesado. |
-| 15-21 | 25 % | Suscriptores activos más ligeramente inactivos | Utilice contenido de marketing normal mientras supervisa de cerca las tasas de quejas. |
+| 15-21 | 25 % | Suscriptores activos más ligeramente inactivos | Utilice contenido de marketing normal mientras supervisa de cerca las tasas de quejas. |
 | 22-28 | 50-100 % | Lista completa (respetando listas de supresión) | Transición a su cadencia de envío en estado estacionario. |
 
 ## Uso de la función planes de calentamiento de IP {#ajo-warmup-feature}
@@ -122,7 +123,7 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 
 * **Mantener la autenticación actualizada**: compruebe periódicamente que los registros de SPF, DKIM y DMARC permanecen correctamente configurados.
 
-## Puntos clave {#key-takeaways}
+## Principales conclusiones {#key-takeaways}
 
 * El calentamiento de la **IP es esencial**: omitir el proceso de calentamiento cuesta más tiempo y reputación que el esfuerzo necesario para hacerlo correctamente.
 
@@ -135,7 +136,8 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## Temas relacionados {#related-topics}
 
@@ -144,7 +146,6 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 * [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 * [Creación de configuraciones de canal](channel-surfaces.md)
-* [Delegar subdominios](delegate-subdomain.md)
+* [Delegación de subdominios ](delegate-subdomain.md)
 * [Administrar lista de supresión](manage-suppression-list.md)
 * [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es)
-

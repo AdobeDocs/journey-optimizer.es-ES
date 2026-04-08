@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,7 +24,8 @@ Puede enviar mensajes salientes desde un recorrido en lotes (olas) a lo largo de
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 Puede configurarlo en el nivel de recorrido cuando define cómo entra la audiencia y cómo se programan las acciones. Se define el número de olas, su tamaño (como porcentaje de la audiencia o como números absolutos) y cuándo se ejecuta cada ola.
 

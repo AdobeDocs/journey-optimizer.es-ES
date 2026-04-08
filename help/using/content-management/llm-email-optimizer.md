@@ -5,7 +5,8 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -41,7 +42,8 @@ Para evitar estos problemas, [!DNL Journey Optimizer] reescribe el texto sin for
 ## Casos de uso recomendados {#use-cases}
 
 <!--
-* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.-->
+* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
+-->
 
 * **Texto denso o fragmentado generado automáticamente**: cuando el texto sin formato predeterminado es difícil de analizar, la optimización puede producir una narrativa lineal más clara con ofertas y vínculos explícitos.
 

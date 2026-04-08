@@ -3,7 +3,7 @@ title: Uso de identificadores suplementarios en recorridos
 description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -141,13 +141,15 @@ Para utilizar un identificador suplementario en un recorrido Leer audiencia, sig
 
       Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo grupo de campos para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **Agregar y configurar una actividad Leer audiencia en el recorrido**
 
@@ -248,4 +250,4 @@ Estos ejemplos muestran cómo los identificadores suplementarios admiten varios 
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

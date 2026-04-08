@@ -5,7 +5,7 @@ title: Uso de la actividad Cambiar dimensión
 description: Aprenda a utilizar la actividad Cambiar dimensión
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 74%
@@ -32,7 +32,8 @@ Para lograrlo, use la actividad **[!UICONTROL Cambiar dimensión]**. Permite aju
 <!--
 >[!IMPORTANT]
 >
->Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+-->
 
 ## Configuración de la actividad Cambiar dimensión {#configure}
 

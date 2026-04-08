@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ## Versión de octubre de 2023 {#oct-rn-2023}
 
-### Nuevas funciones{#oct-2023-features}
+### Nuevas funcionalidades{#oct-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -77,7 +77,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **Campañas**
 
@@ -95,7 +96,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
 **Gestión de decisiones**
 
@@ -105,7 +107,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 ## Versión de septiembre de 2023 {#sept-rn-2023}
 
-### Nuevas funciones{#sept-2023-features}
+### Nuevas funcionalidades{#sept-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -231,13 +233,15 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * Una nueva opción para los recursos le permite elegir el repositorio de estos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o de Assets as a Cloud Service, siempre que sea el propietario de esta solución. [Más información](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## Versión de agosto de 2023 {#aug-rn-2023}
 
-### Nuevas funciones{#aug-2023-features}
+### Nuevas funcionalidades{#aug-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -276,7 +280,8 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,7 +296,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
@@ -302,11 +307,14 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **Recorridos**
 
@@ -325,7 +333,7 @@ A new option is available in the email surface settings to include email address
 
 ## Versión de julio de 2023 {#july-rn-2023}
 
-### Nuevas funciones{#july-2023-features}
+### Nuevas funcionalidades{#july-2023-features}
 
 <table>
 <thead>
@@ -499,7 +507,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de mayo de 2023 {#may-rn-2023}
 
-### Nuevas funciones{#may-2023-features}
+### Nuevas funcionalidades{#may-2023-features}
 
 
 
@@ -652,11 +660,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de abril de 2023 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
-### Nuevas funciones{#apr-2023-features}
+### Nuevas funcionalidades{#apr-2023-features}
 
 <table>
 <thead>
@@ -733,7 +743,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de marzo de 2023 {#mar-2023}
 
-### Nuevas funciones{#mar-2023-features}
+### Nuevas funcionalidades{#mar-2023-features}
 
 <table>
 <thead>
@@ -796,7 +806,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -829,7 +840,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de febrero de 2023 {#feb-2023}
 
-### Nuevas funciones{#feb-2023-features}
+### Nuevas funcionalidades{#feb-2023-features}
 
 <table>
 <thead>
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,7 +926,6 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Mejoras {#feb-2023-improvements}
@@ -928,7 +937,6 @@ Note that each widget can be resized and deleted as needed.
 * Se han realizado mejoras para las **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, se añadirá ahora automáticamente en el momento de la publicación. Para los recorridos de **Leer público**, ahora puede añadir una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. [Más información](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -957,7 +965,7 @@ Note that each widget can be resized and deleted as needed.
 
 ## Versión de enero de 2023 {#jan-2023-release}
 
-### Nuevas funciones{#jan-2023-features}
+### Nuevas funcionalidades{#jan-2023-features}
 
 <table>
 <thead>
@@ -999,11 +1007,11 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* Al añadir **Calificación de público** o **Leer público** en un recorrido, el área de nombres ahora se rellena previamente con la última utilizada de forma predeterminada. Consulte las secciones [Calificación de público](../building-journeys/audience-qualification-events.md#about-segment-qualification) y [Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Al añadir **Calificación de público** o **Leer público** en un recorrido, el espacio de nombres ahora se rellena previamente con la última utilizada de forma predeterminada. Consulte las secciones [Calificación de público](../building-journeys/audience-qualification-events.md#about-segment-qualification) y [Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * En el lienzo del recorrido, hay un nuevo botón disponible en la barra de herramientas que le permite descargar una captura de pantalla del recorrido.
 
-**Diseñador de correos electrónicos**
+**Diseñador de correo electrónico**
 
 * Ahora puede exportar el contenido del correo electrónico desde el menú **Exportar HTML**. Los archivos exportados están disponibles en un archivo de compresión (.ZIP).
 

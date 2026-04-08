@@ -10,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1951'
 ht-degree: 1%
@@ -108,6 +108,8 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 **Tipo:** matriz
 **Requerido:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
++++
+
 * **_experience > toma de decisiones > content > components > Content Component Type**
 
   **Campo:** _tipo
@@ -186,7 +188,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
   **Campo:** linkURL
   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
   **Tipo:** cadena
-  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement
 

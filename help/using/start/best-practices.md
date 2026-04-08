@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 4%
@@ -50,9 +50,11 @@ Esta sección le guiará en la escala con las dos limitaciones siguientes:
 
 * A medida que publica recorridos, Journey Optimizer se adapta y ajusta automáticamente para garantizar el máximo rendimiento y estabilidad. A medida que se acerca al hito de 100 recorridos activos a la vez en una zona protegida, verá una superposición naranja y un signo de advertencia en la interfaz sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 
-<!--DOCAC-10977
+<!--
+DOCAC-10977
 
-* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.
+-->
 
 
 Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse dentro de las barreras y a utilizar el sistema de forma eficaz.

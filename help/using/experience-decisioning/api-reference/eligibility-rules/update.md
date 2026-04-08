@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 9%
@@ -25,7 +25,7 @@ Para obtener más información sobre JSON PUT, incluidas las operaciones disponi
 En la tabla siguiente se muestran los valores válidos que comprenden los campos Content-Type del encabezado de la solicitud:
 
 | Nombre del encabezado | Valor |
-| --------- | ----------- | 
+| --------- | ----------- |
 | Content-Type | `application/json` |
 
 **Formato de API**

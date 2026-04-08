@@ -10,7 +10,7 @@ level: Intermediate
 keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 12%
@@ -44,7 +44,7 @@ Utilice estas recomendaciones para mantener las esperas predecibles y seguras.
 
 Cuando use varias actividades **Wait** en un recorrido, tenga en cuenta que el tiempo de espera [global](journey-properties.md#global_timeout) para recorridos es de 91 días, lo que significa que los perfiles siempre abandonan el máximo de recorrido 91 días después de que ingresaron al mismo. Obtenga más información en [esta página](journey-properties.md#global_timeout).
 
-Un individuo puede ingresar a una actividad **Wait** solo si le queda tiempo suficiente en el recorrido recorrido para completar la espera antes del tiempo de espera de 91 días.
+Un individuo puede ingresar a una actividad **Wait** solo si le queda tiempo suficiente en el recorrido para completar la espera antes del tiempo de espera de 91 días.
 
 ### Espera y reentrada {#wait-reentrance}
 
@@ -74,7 +74,6 @@ Seleccione el tipo **Duration** para establecer la duración relativa de la espe
 Select the date for the execution of the next activity.
 
 ![Wait activity configuration panel with duration and fixed date options](assets/journey56.png)
-
 -->
 
 ### Espera personalizada {#custom}

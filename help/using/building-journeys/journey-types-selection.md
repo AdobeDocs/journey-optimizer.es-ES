@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%
@@ -64,7 +64,7 @@ Los **recorridos de eventos empresariales** se desencadenan por eventos de nivel
 
 **Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de venta flash, promociones basadas en el tiempo, notificaciones de caída de precios y alertas de productos que vuelven a estar en existencias.
 
-➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
+➡️ [Más información acerca de eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
 
 >[!ENDTABS]
 
@@ -130,34 +130,34 @@ No todas las funciones están disponibles para todos los tipos de recorrido. Uti
 
 | Funcionalidad/Funcionalidad | Unitario | Leer audiencia | Calificación de público | Evento empresarial |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **Mecanismos de entrada** |
+| **Mecanismos de entrada** | | | | |
 | Entrada activada por un evento | ✅ | ❌ | ❌ | ✅ |
 | Entrada programada | ❌ | ✅ | ❌ | ❌ |
 | Entrada basada en audiencias | ❌ | ✅ | ✅ | ❌ |
-| **Características de orquestación** |
+| **Características de orquestación** | | | | |
 | Actividades de espera | ✅ | ✅ | ✅ | ✅ |
 | Actividades de condición | ✅ | ✅ | ✅ | ✅ |
 | Acciones personalizadas | ✅ | ✅ | ✅ | ✅ |
 | Leer actividad de audiencia (dentro del recorrido) | ✅ | ✅ | ✅ | ✅ |
 | Actividad de calificación de audiencia | ✅ | ✅ | ✅ | ✅ |
 | Actividad de salto | ✅ | ✅ | ✅ | ✅ |
-| **Administración de perfiles** |
+| **Administración de perfiles** | | | | |
 | Reentrada de perfil | ✅ configurable | ❌ Una vez por ejecución | ✅ configurable | ✅ por evento |
 | Configuración del área de nombres | Se requiere ✅ | ✅ Opcional | Se requiere ✅ | Se requiere ✅ |
 | Límite de perfil | ✅ | ✅ | ✅ | ✅ |
-| **Pruebas y optimización** |
+| **Pruebas y optimización** | | | | |
 | Modo de prueba | ✅ | ✅ | ✅ | ✅ |
 | Ejecución en seco | ✅ | ✅ | ✅ | ✅ |
 | Experimentos de ruta (pruebas A/B) | ✅ | ✅ | ✅ | ❌ |
 | Optimización del tiempo de envío | ✅ | ✅ | ✅ | ✅ |
-| **Canales** |
+| **Canales** | | | | |
 | Correo electrónico | ✅ | ✅ | ✅ | ✅ |
 | Notificaciones push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Mensajes en la aplicación | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Tarjetas de contenido | ✅ | ✅ | ✅ | ✅ |
-| **Funciones avanzadas** |
+| **Funciones avanzadas** | | | | |
 | Lectura incremental | ❌ | ✅ | ❌ | ❌ |
 | Exportar audiencia | ✅ | ✅ | ✅ | ✅ |
 | Administración de husos horarios | ✅ | ✅ | ✅ | ✅ |

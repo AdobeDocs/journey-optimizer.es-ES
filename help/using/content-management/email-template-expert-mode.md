@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 145944952ad9aca752085588526f71e8034b8611
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 7%
@@ -84,7 +84,8 @@ Para abrir el editor de HTML avanzado y editar el origen de la plantilla, siga e
    >Las ediciones se conservan al cambiar de vista.
 
 <!--
-    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+-->
 
 ## Temas relacionados
 

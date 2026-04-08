@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: segmentación, reglas, recorrido, ruta, optimización, personalización
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 7%
@@ -31,13 +31,15 @@ Las reglas de segmentación le permiten determinar reglas o cualificaciones espe
 
 A diferencia de la experimentación, que es una asignación aleatoria de una ruta determinada, la segmentación es determinista en términos de garantizar que la audiencia o el perfil adecuados entren en la ruta especificada.
 
-<!--With targeting, specific rules can be defined based on:
+<!--
+With targeting, specific rules can be defined based on:
 
 * **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
 * **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.
+-->
 
 Para configurar la segmentación en un recorrido, siga los pasos a continuación.
 

@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -29,109 +29,100 @@ El Asesor de contenido de Adobe Experience Manager sustituye la detección deter
 
 El Asesor de contenido de Adobe Experience Manager proporciona las siguientes funciones de recursos:
 
-* &#x200B;
-  +++ Búsqueda semántica de IA
++++ Búsqueda semántica de IA
 
-  Busque recursos utilizando un lenguaje natural en lugar de palabras clave o nombres de archivo exactos. Describa lo que necesita en un lenguaje sencillo, por ejemplo, &quot;café en las montañas&quot;, y la IA encontrará recursos relevantes para el contexto en función del significado y el contenido, no solo coincidencias de texto.
+Busque recursos utilizando un lenguaje natural en lugar de palabras clave o nombres de archivo exactos. Describa lo que necesita en un lenguaje sencillo, por ejemplo, &quot;café en las montañas&quot;, y la IA encontrará recursos relevantes para el contexto en función del significado y el contenido, no solo coincidencias de texto.
 
-  ![](assets/content-advisor-2.png){zoomable="yes"}
+![](assets/content-advisor-2.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Historial de búsqueda reciente
++++ Historial de búsqueda reciente
 
-  Acceda a sus búsquedas recientes para reutilizar rápidamente palabras clave y contextos. Esto ahorra tiempo al trabajar en campañas similares o cuando necesita refinar las búsquedas anteriores.
+Acceda a sus búsquedas recientes para reutilizar rápidamente palabras clave y contextos. Esto ahorra tiempo al trabajar en campañas similares o cuando necesita refinar las búsquedas anteriores.
 
-  ![](assets/content-advisor-4.png){zoomable="yes"}
+![](assets/content-advisor-4.png){zoomable="yes"}
 
-  +++ 
++++ 
 
-* &#x200B;
-  +++ Cargar informe
++++ Cargar informe
 
-  Cargue un documento de información de marketing para que aparezcan automáticamente los recursos que se alinean con el contexto de la campaña. La API analiza el informe y sugiere activos relevantes en función del contenido y los requisitos descritos en el documento.
+Cargue un documento de información de marketing para que aparezcan automáticamente los recursos que se alinean con el contexto de la campaña. La API analiza el informe y sugiere activos relevantes en función del contenido y los requisitos descritos en el documento.
 
-  ![](assets/content-advisor-5.png){zoomable="yes"}
+![](assets/content-advisor-5.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Panel de información de recursos
++++ Panel de información de recursos
 
-  Vea metadatos y propiedades detallados de cualquier recurso que use el icono **Información**. Esto incluye dimensiones de recursos, tamaño de archivo, fecha de creación, etiquetas y otra información relevante para ayudarle a tomar decisiones informadas.
+Vea metadatos y propiedades detallados de cualquier recurso que use el icono **Información**. Esto incluye dimensiones de recursos, tamaño de archivo, fecha de creación, etiquetas y otra información relevante para ayudarle a tomar decisiones informadas.
 
-  ![](assets/content-advisor-6.png){zoomable="yes"}
+![](assets/content-advisor-6.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Panel de Dynamic Media
++++ Panel de Dynamic Media
 
-  Acceda a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha en función de la configuración del repositorio.
+Acceda a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha en función de la configuración del repositorio.
 
-  ![](assets/content-advisor-1.png){zoomable="yes"}
+![](assets/content-advisor-1.png){zoomable="yes"}
 
-  El panel Dynamic Media proporciona acceso a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha. Puede introducir modificadores directamente en el panel para crear representaciones personalizadas.
+El panel Dynamic Media proporciona acceso a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha. Puede introducir modificadores directamente en el panel para crear representaciones personalizadas.
 
-  **Disponibilidad**
+**Disponibilidad**
 
-  La disponibilidad de Dynamic Media depende de la configuración del repositorio:
+La disponibilidad de Dynamic Media depende de la configuración del repositorio:
 
-   * **Scene7**: disponible para los recursos publicados (excepto Vídeo y PDF). [Más información sobre los modificadores de Scene7 de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+* **Scene7**: disponible para los recursos publicados (excepto Vídeo y PDF). [Más información sobre los modificadores de Scene7 de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=es){target="_blank"}
+* **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
-   * **Tanto Scene7 como OpenAPI**: disponibles cuando existen ambas configuraciones y el recurso cumple los criterios.
+* **Tanto Scene7 como OpenAPI**: disponibles cuando existen ambas configuraciones y el recurso cumple los criterios.
 
-  **Selección de pila**
+**Selección de pila**
 
-  Los botones que vea dependen de la configuración del repositorio:
+Los botones que vea dependen de la configuración del repositorio:
 
-   * **Solo botón de Scene7**: El repositorio tiene la configuración de Scene7 y el recurso se ha publicado en Dynamic Media.
-   * **Solo botón OpenAPI**: El repositorio tiene la configuración OpenAPI y el recurso se ha aprobado.
-   * **Ambos botones**: El repositorio tiene ambas configuraciones y el recurso se ha publicado y aprobado.
-  +++
+* **Solo botón de Scene7**: El repositorio tiene la configuración de Scene7 y el recurso se ha publicado en Dynamic Media.
+* **Solo botón OpenAPI**: El repositorio tiene la configuración OpenAPI y el recurso se ha aprobado.
+* **Ambos botones**: El repositorio tiene ambas configuraciones y el recurso se ha publicado y aprobado.
++++
 
 ### Para fragmento de contenido {#content-fragment-features}
 
 El Asesor de contenido de Adobe Experience Manager proporciona las siguientes funciones de fragmento de contenido:
 
-* &#x200B;
-  +++ Listado de vista de plantilla 
++++ Listado de vista de plantilla 
 
-  Cambie entre las vistas de miniaturas y tablas para examinar los fragmentos de contenido en el formato que mejor se adapte a su flujo de trabajo. La vista de miniaturas proporciona un contexto visual, mientras que la vista de tabla muestra información detallada en un formato estructurado.
+Cambie entre las vistas de miniaturas y tablas para examinar los fragmentos de contenido en el formato que mejor se adapte a su flujo de trabajo. La vista de miniaturas proporciona un contexto visual, mientras que la vista de tabla muestra información detallada en un formato estructurado.
 
-  ![](assets/content-advisor-7.png){zoomable="yes"}
+![](assets/content-advisor-7.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Panel Información 
++++ Panel Información 
 
-  Haga clic en el icono **[!UICONTROL Información]** para abrir un panel derecho que muestre las variaciones de fragmentos, las propiedades y los detalles de **[!UICONTROL Referido por]**. La sección **[!UICONTROL Referido por]** muestra todas las entidades de Adobe Experience Manager donde se usa el fragmento, con vínculos para ver estas referencias directamente en Adobe Experience Manager.
+Haga clic en el icono **[!UICONTROL Información]** para abrir un panel derecho que muestre las variaciones de fragmentos, las propiedades y los detalles de **[!UICONTROL Referido por]**. La sección **[!UICONTROL Referido por]** muestra todas las entidades de Adobe Experience Manager donde se usa el fragmento, con vínculos para ver estas referencias directamente en Adobe Experience Manager.
 
-  ![](assets/content-advisor-8.png){zoomable="yes"}
+![](assets/content-advisor-8.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Abrir en Adobe Experience Manager
++++ Abrir en Adobe Experience Manager
 
-  Abra rápidamente cualquier fragmento de contenido directamente en Adobe Experience Manager para editarlo mediante el icono situado junto al título. Esta integración perfecta le permite cambiar entre Journey Optimizer y Adobe Experience Manager sin perder contexto.
+Abra rápidamente cualquier fragmento de contenido directamente en Adobe Experience Manager para editarlo mediante el icono situado junto al título. Esta integración perfecta le permite cambiar entre Journey Optimizer y Adobe Experience Manager sin perder contexto.
 
-  ![](assets/content-advisor-9.png){zoomable="yes"}
+![](assets/content-advisor-9.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Previsualización de JSON
++++ Previsualización de JSON
 
-  Previsualice la estructura JSON de los fragmentos de contenido en un formato de tabla limpio y organizado. Esto le ayuda a comprender la estructura de datos del fragmento y a verificar el contenido antes de utilizarlo en sus campañas.
+Previsualice la estructura JSON de los fragmentos de contenido en un formato de tabla limpio y organizado. Esto le ayuda a comprender la estructura de datos del fragmento y a verificar el contenido antes de utilizarlo en sus campañas.
 
-  ![](assets/content-advisor-10.png){zoomable="yes"}
+![](assets/content-advisor-10.png){zoomable="yes"}
 
-  +++
++++
 
 ## Acceso al Asesor de contenido de Adobe Experience Manager {#access}
 
