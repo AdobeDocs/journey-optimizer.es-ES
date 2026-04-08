@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 58%
+source-wordcount: '966'
+ht-degree: 51%
 
 ---
 
@@ -107,6 +107,20 @@ No. Una vez enviada para su aprobación, la campaña o el recorrido está en est
 +++No veo el permiso Aprobar y publicar en la lista desplegable. ¿Qué debo comprobar?
 
 Asegúrese de añadir primero el recurso correcto. El permiso **Aprobar y publicar campañas** requiere que se agregue el recurso **Campañas** al rol y **Aprobar y publicar Recorridos** requiere el recurso **Recorridos**. Ambos deben añadirse por separado. [Aprenda a asignar permisos relacionados con la aprobación](#prerequisites)
+
++++
+
++++¿Cómo determina [!DNL Journey Optimizer] qué directiva de aprobación se aplica si más de una directiva puede coincidir?
+
+Cuando se pueden aplicar varias directivas de aprobación activas al mismo recorrido o campaña, la directiva **activada más recientemente** tiene prioridad. Los grupos de usuarios de aprobadores definidos en esa directiva son los que reciben las notificaciones y los que rigen la solicitud.
+
+[Más información](approval-policies.md#multiple-policies)
+
++++
+
++++Si un solicitante pertenece a varios grupos de usuarios, ¿puede elegir a qué grupo se envía la solicitud de aprobación?
+
+No. Los solicitantes no pueden seleccionar manualmente qué grupo de usuarios recibe o enruta la solicitud de aprobación. Se notifica automáticamente a los grupos de usuarios especificados en la directiva de aprobación que se aplica (según la [prioridad de directiva](approval-policies.md#multiple-policies)).
 
 +++
 
