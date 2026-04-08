@@ -82,5 +82,5 @@ Este documento cubría los conocimientos previos necesarios para realizar llamad
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342828?captions=spa&quality=12)
 -->
