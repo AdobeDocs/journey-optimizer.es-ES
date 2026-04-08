@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ Para ver el procedimiento completo para crear una campaña en la bandeja de entr
 
    ![](assets/inbox-design-3.png)
 
+1. Haga clic en el ![icono de raíl](assets/do-not-localize/Smock_Rail_18_N.svg) para abrir el panel de vista previa y revisar cómo aparece la bandeja de entrada vacía.
+
+   ![](assets/inbox-design-3.png)
+
 1. En la sección **[!UICONTROL Datos]**, haga clic en **[!UICONTROL Agregar meta]** para agregar pares clave/valor personalizados a la carga.
 
 1. Haga clic en el icono ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) para abrir una vista previa en modo oscuro de la bandeja de entrada y confirmar los colores y las imágenes del tema oscuro.
 
    ![](assets/inbox-design-4.png)
+
+Cuando esté listo, revise la configuración y active la bandeja de entrada. Después de la activación, puede usarlo con [tarjetas de contenido](../content-card/create-content-card.md).
+

@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ La bandeja de entrada se basa en el canal de tarjetas de contenido y añade:
 * **Mensajería persistente**: El contenido permanece en la bandeja de entrada hasta que lo elimine o hasta que caduque, de modo que los usuarios puedan volver a ella después de cerrar una notificación o salir de la aplicación.
 * **Ubicación centralizada**: Un solo buzón en su aplicación o sitio para mensajes de marketing relevantes.
 * **Implementación flexible**: use el contenedor de bandeja de entrada listo para usar o adapte la experiencia en su propia interfaz de usuario.
-* **Sincronización entre dispositivos**: el estado de lectura y la participación permanecen alineados entre los dispositivos del usuario.
+* **Estado de lectura**: los mensajes se pueden marcar como leídos o no leídos en el dispositivo en el que están abiertos.
 
 ## Guía de inicio rápido
 
