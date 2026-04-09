@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
       + [Generación automática de variantes de contenido](using/test-approve/simulate-sample-input-generated.md)
       + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
-      + [Optimizador de correo electrónico LLM](using/content-management/llm-email-optimizer.md)
    + Aprobar recorridos y campañas {#approve}
       + [Aprobar recorridos y campañas](/help/rp_landing_pages/approve-landing-page.md)
       + [Introducción a las aprobaciones](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
             + [Administrar la versión de texto](using/email/text-version-email.md)
+            + [Optimizar el texto del correo electrónico para bandejas de entrada AI](using/email/llm-email-optimizer.md)
             + [Añadir metadatos](using/email/email-metadata.md)
          + Editar estilo {#edit-style}
             + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
@@ -873,7 +873,7 @@ ht-degree: 94%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
