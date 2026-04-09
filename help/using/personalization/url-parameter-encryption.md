@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 keywords: cifrado, URL, seguimiento, página de aterrizaje, registro de claves, personalización, seguridad, privacidad, zona protegida
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ Una dirección URL de página de aterrizaje puede utilizar un parámetro de cons
 ## Creación de claves {#create-keys}
 
 Antes de poder utilizar el asistente de cifrado de parámetros de URL, debe crear una clave. Para ello, siga los pasos que aparecen a continuación.
+
+>[!NOTE]
+>
+>Actualmente no hay permisos específicos para acceder y administrar claves. Las funciones que conceden acceso a la sección **[!UICONTROL Configuraciones]** en **[!UICONTROL Administración]** también conceden acceso al registro de claves. Sin embargo, se han planificado permisos específicos para una versión futura.
 
 <!--
 >[!IMPORTANT]
