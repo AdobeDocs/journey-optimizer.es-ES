@@ -6,9 +6,8 @@ description: Conversión
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
-hidefromtoc: true
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ La sección Conversión de Adobe Journey Optimizer le permite transformar datos 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toBool
 
@@ -32,7 +31,7 @@ Convierta varios tipos de datos en valores booleanos mediante la función toBool
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateOnly
 
@@ -42,7 +41,7 @@ Convierta representaciones de fecha en un tipo dateOnly con la función toDateOn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateTime
 
@@ -52,7 +51,7 @@ Convierta varias entradas en un valor de fecha y hora mediante la función toDat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDateTimeOnly
 
@@ -62,7 +61,7 @@ Convierta un valor en el formato de fecha y hora sin una zona horaria mediante l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDecimal
 
@@ -72,7 +71,7 @@ Convierta varios tipos de datos en valores decimales mediante la función toDeci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función toDuration
 

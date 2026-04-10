@@ -6,10 +6,9 @@ topic: Integrations
 role: User, Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -46,11 +45,11 @@ Los comentarios sobre las impresiones y los clics se capturan según el canal [!
 
 **Correos electrónicos** creados por [!DNL Journey Optimizer] **rastrean automáticamente** impresiones y clics.
 
-Sin embargo, **la mayoría de los canales** requieren que los datos de impresiones y clics se envíen a Adobe Experience Platform como un **evento de experiencia**. Esto incluye lo siguiente:
+Sin embargo, **la mayoría de los canales** requieren que los datos de impresiones y clics se envíen a Adobe Experience Platform como un **evento de experiencia**. Esto incluye:
 
 * Páginas web que usan [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} para procesar ofertas
 
-* Aplicaciones móviles que usan [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=es){target="_blank"} para procesar ofertas: [Más información](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Aplicaciones móviles que usan [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} para procesar ofertas: [Más información](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Quioscos
 * Mensajes enviados a través de aplicaciones de terceros
 

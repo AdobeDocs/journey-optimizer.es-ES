@@ -6,9 +6,8 @@ description: Obtenga información sobre cómo acceder al Asesor de contenido de 
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -75,7 +74,7 @@ La disponibilidad de Dynamic Media depende de la configuración del repositorio:
 
 * **Scene7**: disponible para los recursos publicados (excepto Vídeo y PDF). [Más información sobre los modificadores de Scene7 de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=es){target="_blank"}
+* **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Tanto Scene7 como OpenAPI**: disponibles cuando existen ambas configuraciones y el recurso cumple los criterios.
 

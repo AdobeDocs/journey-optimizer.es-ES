@@ -2,16 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Notas de la versión anterior (2021)
-description: Notas de la versión de Journey Optimizer de 2021
+description: Notas de la versión de Journey Optimizer 2021
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 # Notas de la versión 2021 {#release-notes-2021}
 
-Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzado en 2021.
+Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2021.
 
 ## Versión de noviembre de 2021 {#november-2021-release}
 
@@ -43,7 +42,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 
 ## Versión de octubre de 2021 {#oct-2021-release}
 
-### Nuevas funciones
+### Nuevas funcionalidades
 
 <table>
 <thead>
@@ -91,7 +90,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * **Colecciones**: ahora se admiten matrices de objetos que contienen subobjetos. [Más información](../building-journeys/collections.md)
 * **Listas**: se han mejorado las pantallas de listas para recorridos, eventos, acciones y fuentes de datos.
 
-**Informes**
+**Creación de informes**
 
 * **Formato de datos en la vista Global**: ahora puede alternar entre números y porcentajes en la **Vista global** de la pestaña **Ejecución.**
 
@@ -120,7 +119,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 ## Versión de septiembre de 2021 {#september-2021-release}
 
-### Nuevas funciones
+### Nuevas funcionalidades
 
 <table>
 <thead>
@@ -174,7 +173,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 ## Versión de agosto de 2021 {#august-2021-release}
 
-### Nuevas funciones
+### Nuevas funcionalidades
 
 <table>
 <thead>
@@ -253,7 +252,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 <tbody>
 <tr>
 <td>
-<p>La adición de direcciones de correo electrónico y dominios a la lista de supresión ya está disponible en la interfaz de usuario, ya sea una por una o en modo masivo a través de la carga de un archivo CSV.</p>
+<p>La adición de direcciones de correo electrónico y dominios a la lista de supresión ya está disponible en la interfaz de usuario, ya sea una por una, o en modo masivo a través de la carga de un archivo CSV.</p>
 <p>Para obtener más información, consulte la <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -288,7 +287,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 * **Lista de permitidos**: ahora, la lista de permitidos se puede habilitar y deshabilitar en una zona protegida que no sea de producción mediante una llamada de API. [Más información](../configuration/allow-list.md#enable-allow-list)
 * **Navegación**: la lista de supresión, a la que se podía acceder desde el menú **Administración > Canales > Configuración de correo electrónico > General**, se ha trasladado al nuevo submenú **Lista de supresión**, que recopila todas las funciones relacionadas para facilitar el acceso. [Más información](../configuration/manage-suppression-list.md#access-suppression-list)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Se ha actualizado la forma de añadir y configurar representaciones al crear una oferta para mejorar la experiencia del usuario. En concreto, la biblioteca de recursos ahora solo se muestra al definir el contenido de tipo imagen para una representación. [Más información](../offers/offer-library/creating-personalized-offers.md#representations)
 
@@ -303,7 +302,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 ## Versión de julio de 2021 {#july-2021-release}
 
-### Nuevas funciones
+### Nuevas funcionalidades
 
 <table>
 <thead>
@@ -351,7 +350,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Vista previa y prueba**
 
-* La identidad y el área de nombres ahora están visibles en la pantalla **[!UICONTROL Vista previa]**. [Más información](../content-management/preview-test.md#preview-test)
+* La identidad y el espacio de nombres ahora están visibles en la pantalla **[!UICONTROL Vista previa]**. [Más información](../content-management/preview-test.md#preview-test)
 * El número de correos electrónicos de prueba para pruebas ahora está restringido a 10.
 * Los caracteres permitidos para el **Prefijo de línea de asunto** en las pruebas ahora están limitados. [Más información](../content-management/preview-test.md#send-proofs)
 

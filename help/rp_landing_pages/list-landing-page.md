@@ -6,9 +6,8 @@ description: Lista
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-hidefromtoc: true
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Las funciones de “Lista” de Adobe Journey Optimizer le permiten manipular y 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función &#39;distinct&#39; en Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Aprenda a utilizar la función &#39;distinct&#39; para eliminar la duplicación 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función distinctWithNull: Adobe Journey Optimizer
 
@@ -42,7 +41,7 @@ Obtenga información sobre cómo utilizar &#39;distinctWithNull&#39; para recupe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función &#39;filter&#39; en Adobe Journey Optimizer
 
@@ -52,7 +51,7 @@ Descubra cómo aplicar filtros a listas de objetos basadas en valores clave espe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función getListItem en Adobe Journey Optimizer
 
@@ -62,7 +61,7 @@ Obtenga información sobre cómo recuperar un elemento de una lista en un índic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función &#39;in&#39; en Adobe Journey Optimizer
 
@@ -72,7 +71,7 @@ Descubra cómo comprobar si un valor existe en una lista mediante la función &#
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función intersect en Adobe Journey Optimizer 
 

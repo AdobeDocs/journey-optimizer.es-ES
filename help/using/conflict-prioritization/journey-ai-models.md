@@ -7,9 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 hide: true
-hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -58,7 +57,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. En la sección **[!UICONTROL Métrica de optimización]**, se muestran en la lista todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada. Seleccione la métrica en la que desea optimizar el modelo.
+1. En la sección **[!UICONTROL Métrica de optimización]**, se muestran en la lista todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada. Seleccione la métrica en la que desea optimizar el modelo.
 
    ![Menú desplegable de métricas de optimización que enumera las métricas de Customer Journey Analytics para el modelo de IA](assets/journey-model-metrics.png){width="70%"}
 
@@ -77,7 +76,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
    >
    >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Evento de experiencia - Interacciones de propuesta]**. Puede seleccionar hasta 5 conjuntos de datos.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
 
    >[!NOTE]
    >

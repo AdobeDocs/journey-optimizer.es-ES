@@ -9,9 +9,8 @@ level: Beginner
 keywords: tipos de recorrido, unitario, leer audiencia, calificación de audiencia, evento empresarial, comparación, guía de decisión, elegir, selección, tiempo real, programado, por lotes, activado por evento
 version: Journey Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%

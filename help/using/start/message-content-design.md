@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: contenido, diseño, correo electrónico, push, sms, personalización, plantillas
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -25,7 +25,7 @@ El diseño del contenido del mensaje en Adobe Journey Optimizer le permite crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Diseño del contenido del correo electrónico
 
@@ -35,7 +35,7 @@ Domine el diseño de correos electrónicos con el Designer de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Diseño de notificaciones push
 
@@ -45,7 +45,7 @@ Cree notificaciones push atractivas para iOS y Android, configure el título y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Diseño de mensajes SMS y MMS
 
@@ -55,7 +55,7 @@ Componga mensajes de texto personalizados con SMS, mejore las comunicaciones con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Diseño de mensajes en la aplicación
 
@@ -65,7 +65,7 @@ Cree experiencias atractivas en la aplicación con varias opciones de diseño, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalizar el contenido
 
@@ -75,7 +75,7 @@ Añada personalización a los mensajes mediante atributos de perfil, aproveche e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar plantillas y fragmentos
 
@@ -103,4 +103,3 @@ Cree contenido reutilizable con plantillas, guarde bloques de contenido como fra
 - **[Administración de recursos](../integrations/assets.md)**: aproveche Adobe Experience Manager Assets Essentials para enriquecer mensajes, administrar recursos de marca y mantener una biblioteca de contenido centralizada.
 - **[Integración de Adobe Stock](../integrations/stock.md)**: accede a millones de fotos, vídeos e ilustraciones libres de derechos directamente en Journey Optimizer para mejorar tu diseño de contenido.
 - **[Contenido multilingüe](../content-management/multilingual-gs.md)**: cree y administre campañas y recorridos multilingües para llegar a audiencias en varios idiomas con variaciones de contenido localizadas.
-
