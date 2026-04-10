@@ -18,7 +18,7 @@ Temas:
 * Mensajes
 * Segmentos
 * Recorridos
-* Informes
+* Creación de informes
 * Offer Decisioning/Gestión de decisiones
 * Directrices de configuración
 * Control de acceso
