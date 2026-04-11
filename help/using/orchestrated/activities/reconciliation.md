@@ -5,10 +5,10 @@ title: Uso de la actividad Reconciliación
 description: Aprenda a utilizar la actividad de reconciliación en una campaña organizada
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -99,6 +99,6 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Reconciliación]**:
 
 ## Ejemplo {#example-reconciliation}
 
-Este ejemplo utiliza la actividad **[!UICONTROL Reconciliación]** de Adobe Journey Optimizer para garantizar que los correos electrónicos se envíen únicamente a los clientes reconocidos. Los datos fluyen a través de la actividad **[!UICONTROL Leer público]** que se dirige a los usuarios con pedidos anteriores. A continuación, la actividad **[!UICONTROL Reconciliación]** hace coincidir estos datos entrantes con los perfiles existentes en la base de datos mediante el campo de correo electrónico.
+Este ejemplo utiliza la actividad **[!UICONTROL Reconciliación]** de Adobe Journey Optimizer para garantizar que los correos electrónicos se envíen únicamente a los clientes reconocidos. Los datos fluyen a través de una actividad **[!UICONTROL Generar audiencia]** que se dirige a usuarios con pedidos anteriores. A continuación, la actividad **[!UICONTROL Reconciliación]** hace coincidir estos datos entrantes con los perfiles existentes en la base de datos mediante el campo de correo electrónico.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
