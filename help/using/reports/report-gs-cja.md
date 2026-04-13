@@ -64,4 +64,4 @@ El acceso a estas funciones de creación de informes depende del contexto y las 
 
 El siguiente vídeo muestra cómo utilizar los informes mejorados de Journey Optimizer con Customer Journey Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443154?captions=spa)

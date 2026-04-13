@@ -90,4 +90,4 @@ En este vídeo se explica cómo:
 * Aplicar modificaciones del sitio web a varias vistas o a todas las vistas descubiertas
 * Realizar acciones masivas en las modificaciones
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446888/?captions=spa&quality=12&learn=on)

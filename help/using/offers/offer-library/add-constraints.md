@@ -83,7 +83,7 @@ Por ejemplo, si establece las restricciones siguientes:
 >title="Acerca de la idoneidad de la oferta"
 >abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios podrán recibir la oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/341365?captions=spa" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
