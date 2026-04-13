@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: f57b1f026543c5d360a0658f2028d1c543e71650
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 21%
+source-wordcount: '2305'
+ht-degree: 20%
 
 ---
 
@@ -108,6 +108,25 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Asistente de IA para expresiones Personalization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] ahora incluye un asistente de IA en el editor de Personalization. Describa lo que desea personalizar en lenguaje sencillo y el asistente producirá una expresión de personalización que puede utilizar tal cual o perfeccionar en una breve conversación de seguimiento.</p>
+<p>También puede seleccionar un código de personalización existente y pedir al asistente que lo explique, lo corrija o sugiera mejoras. Después de generar una expresión, <strong>Mostrar vistas previas de perfiles de muestra</strong> ejecuta una comprobación rápida en un conjunto limitado de perfiles de muestra sintéticos.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>Para obtener más información, consulte <a href="../content-management/generative-personalization-expressions.md">Asistente de IA para expresiones Personalization</a>.</p>
+<p>Fecha de disponibilidad: martes, 13 de abril de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mejoras {#april-26-improv}
 
 #### Optimización de ruta de recorrido
@@ -148,7 +167,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Fecha de lanzamiento**: 24-25 de marzo de 2026
@@ -338,7 +357,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnología de <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> está disponible en Journey Optimizer y le permite analizar recorridos a través de una interfaz de lenguaje natural. Ahora también puede generar y administrar contenido específico del canal directamente en Journey Agent, creando contenido para canales como correo electrónico y push, aplicando y previsualizando plantillas, refinando el tono y el estilo mediante mensajes y abriendo contenido en <strong>Content Designer</strong> para la edición en contexto.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=es" target="_blank">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: jueves, 04 de marzo de 2026</p>
 </td>
 </tr>

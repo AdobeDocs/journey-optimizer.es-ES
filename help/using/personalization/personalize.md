@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ Con el **editor de personalización**, puede seleccionar, organizar, personaliza
 
 Journey Optimizer emplea una sintaxis de personalización en línea basada en Handlebars, que le permite crear expresiones con contenido entre llaves dobles **`{{}}`**.
 
-Al procesar el mensaje, Journey Optimizer reemplaza la expresión por los datos contenidos en el conjunto de datos de Experience Platform. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
-
-Con esta sintaxis, puede personalizar los mensajes en varios campos, incluidas las líneas de asunto de los correos electrónicos, los cuerpos de los mensajes, las notificaciones push o las direcciones URL.
+Al procesar el mensaje, Journey Optimizer reemplaza la expresión por los datos contenidos en el conjunto de datos de Experience Platform. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`. Con esta sintaxis, puede personalizar los mensajes en varios campos, incluidas las líneas de asunto de los correos electrónicos, los cuerpos de los mensajes, las notificaciones push o las direcciones URL.
 
 ## Datos utilizados para la personalización
 
@@ -51,7 +49,15 @@ Este área de reproducción proporciona un entorno simulado para escribir y prob
 
 ![área de reproducción de personalización](assets/playground.png)
 
-➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Asistente de IA en el editor de Personalization {#ai-personalization-expressions}
+
+En el **[!UICONTROL Editor de Personalization]**, **[!UICONTROL Asistente de IA]** le ayuda a generar nuevas expresiones a partir del lenguaje natural, a explicar lo que hace el código existente, a corregir problemas en una selección y, a continuación, a aplicar el resultado cuando coincida con su intención.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Aprenda a trabajar con el Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
 
 ## Profundicemos
 
@@ -97,14 +103,14 @@ Ahora que comprende la personalización de **[!DNL Journey Optimizer]**, es hora
 
 Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448133?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416236?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Descubra más tutoriales en vídeo sobre funciones de personalización y prácticas recomendadas en [tutoriales de Personalization](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
