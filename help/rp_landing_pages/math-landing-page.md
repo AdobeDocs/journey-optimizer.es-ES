@@ -5,10 +5,9 @@ title: Matemáticas
 description: Matemáticas
 redpen-status: CREATED_||_2025-08-11_20-16-12
 hide: true
-hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

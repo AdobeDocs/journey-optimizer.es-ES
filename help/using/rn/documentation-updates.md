@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Abril de 2026 {#april-2026}
+
+* La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha movido de la sección Administración de contenido a la sección **Correo electrónico** de la documentación (en Diseño de correo electrónico) y se ha cambiado el nombre del archivo de página a **email-expert-mode.md**. La página ahora documenta que el editor de HTML avanzado está disponible en el Designer de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
+
+* La documentación de **Iniciar y supervisar campañas orquestadas** se ha actualizado con una nueva sección que detalla la secuencia de ejecución interna en el tiempo de publicación, junto con una tabla de estado del ciclo vital de la campaña, una lista de comprobación previa a la publicación y una advertencia de confirmación de envío para campañas no recurrentes. [Más información](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* La documentación de la actividad **Guardar audiencia** se ha actualizado con una nota que aclara que las actividades Guardar audiencia siempre se ejecutan antes que las actividades de mensajes en el momento de la publicación. [Más información](../orchestrated/activities/save-audience.md)
+
+* Se han agregado tres nuevas preguntas y respuestas a las **preguntas frecuentes sobre campañas orquestadas**: lo que sucede internamente en el momento de la publicación, una lista de comprobación de 7 puntos de motivos por los cuales los mensajes pueden no enviarse después de la publicación y la diferencia entre la búsqueda de instantáneas de perfil y la resolución de perfiles en tiempo real. [Más información](../orchestrated/orchestrated-campaigns-faq.md)
 
 * Se ha agregado una nueva sección **[Eventos descartados debido a una instancia de recorrido bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** a la documentación de solución de problemas del recorrido, en la que se explica el motivo de descarte `maxInstanceStackEventsReached`, cuándo se produce y cómo mitigarlo. Las páginas de lista de campos de protecciones y eventos de paso también se han actualizado en consecuencia.
 
@@ -59,7 +67,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Ahora hay disponible una nueva página **Supervisar sus modelos de IA** en la documentación de Decisioning. Explica cómo realizar un seguimiento del estado, el estado de formación y el rendimiento de los modelos de optimización personalizados directamente en [!DNL Journey Optimizer]. [Más información](../experience-decisioning/ranking/ai-model-observability.md)
 
-* El **editor avanzado de HTML** (modo experto) para plantillas de correo electrónico ya está disponible en disponibilidad limitada. La página de documentación ahora es de acceso público. Esta capacidad le permite ver y editar la fuente sin procesar de HTML de las plantillas de contenido de correo electrónico directamente desde el Designer de correo electrónico. [Más información](../content-management/email-template-expert-mode.md)
+* El **editor avanzado de HTML** (modo experto) para plantillas de correo electrónico ya está disponible en disponibilidad limitada. La página de documentación ahora es de acceso público. Esta capacidad le permite ver y editar la fuente sin procesar de HTML de las plantillas de contenido de correo electrónico directamente desde el Designer de correo electrónico. [Más información](../email/email-expert-mode.md)
 
 * La documentación de **seguimiento de URL** y **solución de problemas con el Recorrido** se ha actualizado para documentar el comportamiento de `context.system.source.actionId` en recorridos cerrados. Los recorridos cerrados o no republicados pueden producir marcadores de posición `{}` vacíos en las direcciones URL de seguimiento. Se ha añadido orientación sobre cómo resolver el problema volviendo a publicar el recorrido o eliminando el parámetro afectado. [Más información](../email/url-tracking.md)
 

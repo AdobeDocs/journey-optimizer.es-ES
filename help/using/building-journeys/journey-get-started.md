@@ -7,10 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: recorrido, orquestación, introducción, incorporación, funciones
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -184,7 +183,7 @@ Encuentre respuestas a las preguntas frecuentes acerca de la creación de recorr
 
 Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el seguimiento de recorridos de los clientes para crear campañas omnicanal personalizadas.
 
-[Explorar la creación de recorridos](../../rp_landing_pages/create-journey-landing-page.md) | [Aprender a administrar el recorrido](../../rp_landing_pages/manage-journey-landing-page.md) | [Pasos del flujo de trabajo de Recorrido](journey.md#workflow)
+[Explorar la creación del recorrido](../../rp_landing_pages/create-journey-landing-page.md) | [Aprender a administrar el recorrido](../../rp_landing_pages/manage-journey-landing-page.md) | [Pasos del flujo de trabajo del Recorrido](journey.md#workflow)
 :::
 
 :::

@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 13%
+source-wordcount: '2493'
+ht-degree: 12%
 
 ---
 
@@ -153,6 +153,66 @@ Mientras la campaña esté en **Borrador**, puede probarla definiendo **parámet
 Sí, en situaciones específicas. La opción **[!UICONTROL Volver al borrador]** está diseñada como un mecanismo de recuperación para cancelar la publicación y revertir una campaña al estado de borrador.
 
 Esta opción está disponible para campañas programadas en espera de ejecución o para campañas en directo con errores de ejecución. [Aprenda a revertir una campaña en vivo al borrador](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ ¿Qué sucede internamente cuando publico una campaña orquestada?
+
+Al hacer clic en **[!UICONTROL Publicar]**, se produce la siguiente secuencia:
+
+1. **Activación del programador**: si se configura una programación, el programador inicia y déclencheur la ejecución en el momento definido.
+1. **Guardar actividades de audiencia ejecutadas primero**: todas las actividades Guardar audiencia se ejecutan antes de las actividades de mensajes. El shell de audiencia se crea en Audience Portal y los perfiles cualificados comienzan a realizar la ingesta.
+1. **Comienza la ejecución del mensaje** — Las actividades de canal comienzan a procesarse para la primera actividad de mensaje del flujo de trabajo.
+1. **Búsqueda de instantáneas de perfil**: los datos de perfil se resuelven con una instantánea tomada en el momento de la publicación, no con el perfil en tiempo real, lo que garantiza la coherencia en toda la ejecución.
+1. **Evaluación del consentimiento**: el consentimiento se respeta directamente desde el registro de perfil y no se vuelve a evaluar en el momento del envío.
+1. **Reconciliación de perfiles**: los destinatarios se reconcilian con perfiles de Adobe Experience Platform en el momento de la entrega.
+1. **Creación del registro de envío**: los eventos de envío se registran en el conjunto de datos `ajo_message_feedback_event`.
+
+**Más información**
+
+* [Secuencia de ejecución de tiempo de publicación](start-monitor-campaigns.md#publication-sequence)
+* [Iniciar y monitorizar campañas orquestadas](start-monitor-campaigns.md)
+
++++
+
++++ ¿Por qué no se envían mis mensajes después de publicar la campaña?
+
+Varias situaciones pueden impedir que los mensajes se envíen después de la publicación. Compruebe lo siguiente en orden:
+
+1. **Confirmación de envío pendiente (más común)**: para las campañas no recurrentes, el envío de mensajes se detiene de forma predeterminada hasta que confirme explícitamente el envío desde el panel de propiedades de la actividad del canal. La campaña se muestra como **Activo**, pero no se emitirán mensajes hasta que se confirme. [Más información](start-monitor-campaigns.md#confirm-sending)
+
+1. **La campaña está programada para el futuro**: si se ha configurado una programación, la campaña estará Activa pero la ejecución aún no se ha iniciado. Compruebe la configuración de la programación y espere a que llegue la hora de inicio configurada. [Más información](create-orchestrated-campaign.md#schedule)
+
+1. **Guardar actividades de audiencia que aún se están ingiriendo** — Guardar actividades de audiencia ejecutadas antes de actividades de mensaje en el momento de la publicación. Si la ingesta de audiencia aún está en curso, la ejecución del mensaje aún no ha comenzado. Monitorice los indicadores de estado de actividad en el lienzo. [Más información](start-monitor-campaigns.md#activities)
+
+1. **La audiencia está vacía** — La consulta de direccionamiento devolvió cero perfiles. Revise las reglas de segmentación y valide el recuento de público antes de volver a publicar.
+
+1. **Todos los perfiles excluidos** — El consentimiento se evalúa en el momento del envío con cada perfil. Si todos los perfiles de destino se han excluido del canal correspondiente, no se envía ningún mensaje. [Más información](../action/consent.md)
+
+1. **Actividad de canal en estado de error**: un indicador de estado naranja o rojo en la actividad de canal indica un problema de bloqueo. Abra **[!UICONTROL Registros]** para obtener detalles sobre el error y cómo resolverlo. [Más información](start-monitor-campaigns.md#logs-tasks)
+
+1. **Entrega de limitación de control de tarifa**: si el control de tarifa está habilitado en la actividad del canal, la entrega puede ser más lenta de lo esperado. Compruebe la configuración del control de velocidad en el panel de propiedades de actividad del canal. [Más información](activities/channels.md#rate-control)
+
+**Más información**
+
+* [Iniciar y monitorizar campañas orquestadas](start-monitor-campaigns.md)
+* [Añadir una actividad de canal en una campaña organizada](activities/channels.md)
+
++++
+
++++ ¿La publicación utiliza un perfil en tiempo real o una instantánea?
+
+En el momento de la publicación, los datos del perfil se resuelven en función de una **instantánea tomada en el momento de la publicación**, no del perfil en tiempo real. Esto garantiza la coherencia en toda la ejecución de la campaña: todas las actividades procesan el mismo estado de perfil independientemente del tiempo que se ejecute la campaña.
+
+Sin embargo, el consentimiento siempre se respeta desde el registro de perfil actual y no se vuelve a evaluar en el momento del envío.
+
+Tenga en cuenta que la segmentación en campañas orquestadas se realiza en Destinatarios (almacén relacional), mientras que el envío de mensajes y las comprobaciones de consentimiento se resuelven en el Perfil de Adobe Experience Platform.
+
+**Más información**
+
+* [Secuencia de ejecución de tiempo de publicación](start-monitor-campaigns.md#publication-sequence)
+* [¿Cuál es la relación entre las entidades de destinatario y perfil?](#faq-oc)
+* [Trabajar con políticas de consentimiento](../action/consent.md)
 
 +++
 

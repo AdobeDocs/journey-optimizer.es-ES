@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Modo de ensayo"
->abstract="Este recorrido está en modo de ensayo. Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo."
+>abstract="Este recorrido está en modo de ensayo. El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo."
 
 
 >[!CONTEXTUALHELP]
@@ -29,7 +29,7 @@ ht-degree: 10%
 >title="Publicación de un recorrido en modo de ensayo"
 >abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
-Recorrido La ejecución en seco es un modo especial de publicación de recorrido en [!DNL Adobe Journey Optimizer] que permite a los profesionales del recorrido probar un recorrido utilizando datos de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
+El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
 ➡️ [Obtenga más información acerca de la ejecución sin recorrido en este vídeo](#dry-run-video)
 

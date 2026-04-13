@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,15 +377,16 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
    +++Ejemplo de carga útil
 
-       &quot;json
-       &lbrace;
-       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
-       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
-       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
-       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
-       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
-       
-       &quot;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. Cuando se cree el archivo JSON, haga clic en **[!UICONTROL Ver editor de carga útil]**, luego copie y pegue la carga útil JSON en el editor y guárdela.
@@ -416,18 +417,18 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
    +++Ejemplo de carga útil
 
-       &quot;json
-       &lbrace;
-       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;estados&quot;: &lbrack;
-       &lbrace;
-       &quot;código&quot;: &quot;{{failureCode}}&quot;,
-       &quot;estado&quot;: &quot;{{feedbackStatus}}&quot;
-       
-       &rbrack;
-       
-       &quot;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. Haga clic en **[!UICONTROL Ver editor de carga útil]**, luego copie y pegue su carga útil JSON en el editor y guárdela.

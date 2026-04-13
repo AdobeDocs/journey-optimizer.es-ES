@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -210,7 +209,7 @@ En la sección Edge Delivery del seguimiento de seguridad como parte de los deta
 
 A continuación, encontrará las preguntas más frecuentes sobre el asistente de búsqueda de datos externos.
 
-¿Necesita más detalles? Usa las opciones de comentarios de la parte inferior de esta página para plantear tu pregunta o conectar con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
+¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
 +++ ¿Cómo pasar un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?
 

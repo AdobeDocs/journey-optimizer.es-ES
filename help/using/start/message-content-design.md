@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: contenido, diseño, correo electrónico, push, sms, personalización, plantillas
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -103,4 +103,3 @@ Cree contenido reutilizable con plantillas, guarde bloques de contenido como fra
 - **[Administración de recursos](../integrations/assets.md)**: aproveche Adobe Experience Manager Assets Essentials para enriquecer mensajes, administrar recursos de marca y mantener una biblioteca de contenido centralizada.
 - **[Integración de Adobe Stock](../integrations/stock.md)**: accede a millones de fotos, vídeos e ilustraciones libres de derechos directamente en Journey Optimizer para mejorar tu diseño de contenido.
 - **[Contenido multilingüe](../content-management/multilingual-gs.md)**: cree y administre campañas y recorridos multilingües para llegar a audiencias en varios idiomas con variaciones de contenido localizadas.
-

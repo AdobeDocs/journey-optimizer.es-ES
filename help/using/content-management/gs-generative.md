@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '921'
+ht-degree: 91%
 
 ---
 
@@ -140,9 +140,16 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 * El uso que haga del asistente de IA está sujeto a las directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Como parte del compromiso de Adobe de fomentar la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplicará Content Credentials cuando se descargue o exporte contenido o un proyecto que incluya un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html)
 
+### Asistente de IA en el editor de Personalization {#ai-assistant-personalization-editor-guardrails}
+
+Las siguientes protecciones se aplican a [AI Assistant para expresiones de personalización](generative-personalization-expressions.md) en [!UICONTROL Personalization Editor].
+
+* **Offer and Experience Decisioning** — No compatible.
+* **Favoritos**: no compatible.
+* **Condiciones guardadas** — No admitidas.
+* **Fragmentos de contenido de Adobe Experience Manager**: no compatible.
 
 ## Capacidades de generación de contenido del Asistente de IA {#generative-features}
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

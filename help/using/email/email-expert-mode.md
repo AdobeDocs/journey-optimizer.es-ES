@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Edición de plantillas de correo electrónico con el editor avanzado de HTML
-description: Utilice el modo experto para ver y editar el origen de HTML del contenido del correo electrónico en el editor de WYSIWYG, con control de indicadores de funciones, protecciones y validación de guardado.
-feature: Templates
+title: Edición del contenido de correos electrónicos con el editor avanzado de HTML
+description: Utilice el modo experto para ver y editar el origen de HTML del contenido del correo electrónico en el Designer de correo electrónico, con control de indicadores de funciones, protecciones y validación de guardado.
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# Edición de plantillas de correo electrónico con el editor avanzado de HTML {#email-template-expert-mode}
+# Edición del contenido de correos electrónicos con el editor avanzado de HTML {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-El **editor de HTML avanzado** es un modo experto que te permite ver y editar el código fuente sin procesar de las plantillas de contenido de correo electrónico directamente desde la interfaz de Designer de correo electrónico de [!DNL Journey Optimizer].
+El **editor de HTML avanzado** es un modo experto que te permite ver y editar el origen sin procesar de **contenido de correo electrónico** de HTML directamente en el [!DNL Journey Optimizer] [Designer de correo electrónico](get-started-email-design.md), ya sea que estés [diseñando un correo electrónico](content-from-scratch.md) para un recorrido, una campaña o editando una [plantilla de contenido de correo electrónico](../content-management/create-content-templates.md).
 
 Esta capacidad permite insertar expresiones avanzadas, como condiciones, directamente en el origen. Cuando vuelva a la vista visual (Escritorio), el contenido se vuelve a procesar para que pueda comprobar su aspecto y seguir editando en cualquier vista.
-
->[!NOTE]
->
->Esta función solo está disponible en plantillas de contenido y para el canal de correo electrónico.
 
 ## Mecanismos de protección {#guardrails}
 
@@ -45,13 +41,13 @@ Al utilizar el editor avanzado de HTML, las siguientes protecciones protegen la 
 
 >[!WARNING]
 >
->El editor de HTML avanzado de la plantilla de contenido no es lo mismo que el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. En el modo [!UICONTROL Codifique su propio], no puede volver al editor visual; una vez que elija esa ruta, permanecerá en la edición de solo código. Por el contrario, el editor avanzado de HTML le permite alternar entre la vista de HTML y la vista de escritorio (visual) en cualquier momento. [Obtenga más información sobre el editor de código](../email/code-content.md)
+>El editor de HTML avanzado no es lo mismo que el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. En el modo [!UICONTROL Codifique su propio], no puede volver al editor visual; una vez que elija esa ruta, permanecerá en la edición de solo código. Por el contrario, el editor avanzado de HTML le permite alternar entre la vista de HTML y la vista de escritorio (visual) en cualquier momento. [Obtenga más información sobre el editor de código](code-content.md)
 
 ## Cambiar a la vista avanzada de HTML {#switch-to-html-view}
 
-Para abrir el editor de HTML avanzado y editar el origen de la plantilla, siga estos pasos.
+Para abrir el editor de HTML avanzado y editar el origen de HTML, siga estos pasos.
 
-1. Abra o cree una [plantilla de correo electrónico](../content-management/create-content-templates.md) y abra el [Designer de correo electrónico](../email/get-started-email-design.md) para editar el contenido.
+1. Abra el correo electrónico o la plantilla que desee editar en el Designer de correo electrónico; por ejemplo, [cree o edite un correo electrónico](create-email.md) de un recorrido o una campaña, o bien abra una [plantilla de contenido de correo electrónico](../content-management/create-content-templates.md) y edite su cuerpo en el [Designer de correo electrónico](get-started-email-design.md).
 
 1. Haga clic en el botón **[!UICONTROL HTML]** en la esquina superior derecha de la pantalla.
 
@@ -67,7 +63,7 @@ Para abrir el editor de HTML avanzado y editar el origen de la plantilla, siga e
 
 1. Se muestra el editor avanzado de HTML.
 
-   ![Interfaz de editor de HTML avanzada que muestra el código fuente de la plantilla de correo electrónico](assets/email-template-expert-mode.png)
+   ![Interfaz de editor de HTML avanzada que muestra el código fuente del correo electrónico](assets/email-template-expert-mode.png)
 
 1. Añada los cambios que desee al contenido del correo electrónico.
 
@@ -89,7 +85,6 @@ Para abrir el editor de HTML avanzado y editar el origen de la plantilla, siga e
 
 ## Temas relacionados
 
-* [Codifique su propio contenido de correo electrónico](../email/code-content.md)
-* [Creación de plantillas de contenido](create-content-templates.md)
-* [Introducción al Diseñador de correo electrónico](../email/get-started-email-design.md)
-
+* [Codifique su propio contenido de correo electrónico](code-content.md)
+* [Creación de plantillas de contenido](../content-management/create-content-templates.md)
+* [Introducción al Diseñador de correo electrónico](get-started-email-design.md)

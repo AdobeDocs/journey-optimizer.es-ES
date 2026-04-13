@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -35,7 +35,7 @@ Obtenga información sobre cómo acceder, organizar y administrar sus campañas 
 
 **Salta directamente a lo que necesitas:**
 
-* **Crear una nueva campaña** - [Elija el tipo de campaña](get-started-with-campaigns.md#campaign-types) | [Crear campaña de acción](create-campaign.md) | [Crear campaña desencadenada por API](api-triggered-campaigns.md) | [Crear campaña organizada](../orchestrated/gs-orchestrated-campaigns.md)
+* **Crear una nueva campaña** - [Elija el tipo de campaña](get-started-with-campaigns.md#campaign-types) | [Crear campaña de acción](create-campaign.md) | [Crear campaña activada por API](api-triggered-campaigns.md) | [Crear campaña orquestada](../orchestrated/gs-orchestrated-campaigns.md)
 * **Buscar campañas existentes** - [Buscar y filtrar](#access)
 * **Ver rendimiento de la campaña** - [Informes de campaña](../reports/campaign-global-report-cja.md)
 * **Programar campañas** - [Usar el calendario](#calendar)
@@ -263,7 +263,7 @@ La campaña se crea y se añade a la lista de campañas.
 
 * **Introducción** - [Introducción a las campañas](get-started-with-campaigns.md) | [Cree su primera campaña de acción](create-campaign.md) | [Guía de campañas activadas por API](api-triggered-campaigns.md) | [Guía de campañas organizadas](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configuración de campaña** - [Propiedades de la campaña](campaign-properties.md) | [Acciones y canales de campaña](campaign-action.md) | [Diseño de contenido de campaña](campaign-content.md) | [Selección de audiencia de campaña](campaign-audience.md) | [Programación de campañas](campaign-schedule.md)
+* **Configuración de campaña** - [Propiedades de la campaña](campaign-properties.md) | [Acciones de campaña y canales](campaign-action.md) | [Diseño de contenido de campaña](campaign-content.md) | [Selección de audiencia de campaña](campaign-audience.md) | [Programación de campaña](campaign-schedule.md)
 
 * **Funciones avanzadas** - [Flujos de trabajo de aprobación](../test-approve/gs-approval.md) | [Administración de conflictos y priorización](../conflict-prioritization/gs-conflict-prioritization.md) | [Límite de frecuencia por canal](../conflict-prioritization/channel-capping.md) | [Puntuaciones de prioridad](../conflict-prioritization/priority-scores.md) | [Exportar campañas a otras zonas protegidas](../configuration/copy-objects-to-sandbox.md)
 

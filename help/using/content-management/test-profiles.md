@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >title="Utilice perfiles de prueba para comprobar el contenido"
 >abstract="Utilice perfiles de prueba para previsualizar y probar el contenido. Si ha añadido campos personalizados, puede comprobar cómo se muestran utilizando los datos del perfil de prueba."
 
-Los perfiles de prueba son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md)
+Los perfiles de prueba son destinatarios adicionales que no coinciden con los criterios de objetivo definidos. [Más información sobre cómo crear perfiles de prueba](../audience/creating-test-profiles.md)
 
 Antes de usar perfiles de prueba para probar el contenido, primero debe seleccionarlos. Para ello, siga estos pasos:
 

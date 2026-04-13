@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: código, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 24%
+source-wordcount: '492'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ Debe tener habilidades con HTML y, una vez que elija este modo, permanecerá en 
 
 >[!NOTE]
 >
->**[!UICONTROL Codifique su propio código]** no es lo mismo que el editor de HTML avanzado en las plantillas de contenido. El editor avanzado de HTML permite alternar entre la vista de HTML y la vista visual (Escritorio) en cualquier momento, no el editor de código. [Más información sobre el editor de HTML avanzado](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL Codifique usted mismo]** no es lo mismo que el editor de HTML avanzado del Designer de correo electrónico. El editor avanzado de HTML permite alternar entre la vista de HTML y la vista visual (Escritorio) en cualquier momento, no el editor de código. [Más información sobre el editor de HTML avanzado](email-expert-mode.md).
 
 ## Utilizar el editor de código {#use-code-editor}
 
