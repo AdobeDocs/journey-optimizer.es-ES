@@ -94,7 +94,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
 
 >[!TIP]
 >
->Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuración de la actividad de salto {#jump-configure}
 

@@ -49,7 +49,7 @@ A continuación se detallan los pasos principales para agregar grupos de campos 
 
    >[!NOTE]
    >
-   >Solo se admiten esquemas basados en perfiles individuales de XDM en la configuración de Data Source [!DNL Journey Optimizer]. Para obtener más información, consulte [Clase de perfil individual de XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Solo se admiten esquemas basados en perfiles individuales de XDM en la configuración de Data Source [!DNL Journey Optimizer]. Para obtener más información, consulte [Clase de perfil individual de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Seleccione los campos que desea utilizar y guarde los cambios.
 
