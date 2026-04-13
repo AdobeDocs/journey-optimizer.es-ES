@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e452542d5520970e00bd619304b636e7833743a2
+source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 91%
       + [2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + {hide-from-toc}[Se mejoró el lienzo de recorrido](using/rn/new-canvas.md)
 + Introducción {#get-started}
@@ -279,6 +279,7 @@ ht-degree: 91%
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
             + [Codifique su propio contenido](using/email/code-content.md)
+            + [Edite con el editor avanzado de HTML](using/email/email-expert-mode.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
             + [Aprovechar los temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
@@ -473,7 +474,6 @@ ht-degree: 91%
       + [Creación de plantillas de contenido](using/content-management/create-content-templates.md)
       + [Convertir imágenes a plantillas de correo electrónico](using/content-management/image-to-html.md)
       + [Bloquear contenido en plantillas de correo electrónico](using/content-management/content-locking.md)
-      + [Editar plantillas de correo electrónico en modo experto](using/content-management/email-template-expert-mode.md)
       + [Plantillas de contenido de prueba](using/content-management/test-content-templates.md)
       + [Uso de plantillas de contenido](using/content-management/use-content-templates.md)
    + Fragmentos de contenido reutilizables {#fragments}
@@ -505,6 +505,7 @@ ht-degree: 91%
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Trabajar con integraciones](using/integrations/external-sources.md)
+      + {hide-from-toc}[Trabajar con asistentes de IA a través de MCP](using/integrations/ajo-mcp.md)
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
@@ -874,7 +875,7 @@ ht-degree: 91%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
