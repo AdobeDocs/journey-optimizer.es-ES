@@ -1,0 +1,194 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Preguntas frecuentes sobre las integraciones
+description: Preguntas frecuentes sobre las integraciones de Journey Optimizer para datos externos y contenido de mensajes.
+feature: Integrations
+topic: Content Management
+role: User
+level: Intermediate
+keywords: integración, preguntas frecuentes, datos externos, personalización
+hide: true
+source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 1%
+
+---
+
+# Preguntas frecuentes sobre las integraciones {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+Tabla de contenido:
+
+* [Trabajo con integraciones](external-sources.md)
+* [Introducción a la integración de proveedores](vendor-integration-gs.md)
+* [Proveedores disponibles](vendor-integration.md)
+* **[Preguntas más frecuentes](vendor-integration-faq.md)**
+
+>[!ENDSHADEBOX]
+
+A continuación se muestran las preguntas más frecuentes sobre **integraciones** en Adobe Journey Optimizer.
+
+## Introducción
+
++++ ¿Qué hacen las integraciones en Journey Optimizer?
+
+Conecta fuentes de datos externas a Journey Optimizer para que pueda extraer contenido y datos de sistemas de terceros para incluirlos en campañas y recorridos, y personalizar mensajes con esos datos.
+
+➡️ [Más información sobre la descripción general de las integraciones](external-sources.md)
+
++++
+
++++ ¿Quién configura las integraciones y quién las utiliza en el contenido?
+
+Los administradores crean y activan la configuración técnica (**[!UICONTROL Configuraciones]** > **[!UICONTROL Integraciones]** > **[!UICONTROL Administrar]** > **[!UICONTROL Crear integración]**). Los especialistas en marketing usan **[!UICONTROL Agregar personalización]** en los componentes Texto o HTML, abren **[!UICONTROL Integraciones]**, eligen una integración activa y asignan atributos.
+
+➡️ [Más información sobre los flujos de trabajo de administradores y especialistas en marketing](external-sources.md)
+
++++
+
++++ ¿Dónde se crean o administran integraciones en la interfaz de usuario como administrador?
+
+Vaya a la sección **[!UICONTROL Configuraciones]** en el menú de la izquierda, abra **[!UICONTROL Administrar]** desde la tarjeta **[!UICONTROL Integraciones]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
+
+➡️ [Más información sobre cómo crear una integración](external-sources.md#configure)
+
++++
+
++++ ¿Cuáles son los casos de uso más comunes de las integraciones?
+
+Algunos ejemplos son puntos de recompensa de sistemas de fidelidad, información sobre el precio de los productos, recomendaciones de motores de recomendación y actualizaciones logísticas como el estado de entrega.
+
+➡️ [Más información sobre datos de ejemplo de sistemas de terceros](external-sources.md)
+
+➡️ [Más información sobre ejemplos de integración de proveedores](vendor-integration.md)
+
++++
+
+## Configuración
+
++++ ¿Cómo configuro una integración de alto nivel como administrador?
+
+Proporcione un nombre y una descripción, una dirección URL de extremo de API (opcionalmente con variables de ruta de acceso), valores de plantilla de ruta de acceso, **[!UICONTROL GET]** o **[!UICONTROL POST]**, encabezados y parámetros de consulta opcionales, un método de autenticación, configuración de directiva (como tiempo de espera y caché opcional o reintento), una respuesta JSON de ejemplo a los campos de asignación y, a continuación, ejecute **[!UICONTROL Enviar conexión de prueba]** y **[!UICONTROL Activar]** cuando sea válida.
+
+➡️ [Más información sobre la configuración de la integración](external-sources.md#configure)
+
++++
+
++++ ¿Qué tipos de autenticación se admiten?
+
+Estos tipos de autenticación están disponibles: **[!UICONTROL Sin autenticación]**, **[!UICONTROL clave de API]**, **[!UICONTROL autenticación básica]** y **[!UICONTROL OAuth 2.0]** (con configuración de carga útil para OAuth cuando corresponda).
+
+➡️ [Más información sobre los tipos de autenticación](external-sources.md#configure)
+
++++
+
++++ ¿Para qué se utiliza el paso de carga útil de respuesta?
+
+Pegue una respuesta JSON de muestra para que el sistema pueda detectar tipos de datos y pueda elegir qué campos se exponen para su personalización en los mensajes. Puede limitar qué campos están disponibles para los especialistas en marketing durante la creación.
+
+➡️ [Más información sobre la asignación de carga útil de respuesta](external-sources.md#configure)
+
++++
+
++++ ¿Cómo añaden los especialistas en marketing una integración a un mensaje?
+
+En el contenido de la campaña o del recorrido, usa **[!UICONTROL Agregar personalización]** en un componente de texto o HTML, ve a **[!UICONTROL Integraciones]**, selecciona una integración y guarda. Con el modo Píldoras en el editor de personalización, puede asignar valores a variables de la configuración (como parámetros de encabezado o consulta o variables de ruta en la dirección URL).
+
+➡️ [Más información sobre personalización con integraciones](external-sources.md#personalization)
+
++++
+
+## Capacidades y casos de uso
+
++++ ¿Puedo usar Integraciones en recorridos y campañas?
+
+Sí. La característica está disponible tanto para recorridos como para campañas de **canales salientes** (por ejemplo, correo electrónico, SMS y push), dentro de los límites actuales del producto.
+
+➡️ [Más información sobre recorridos y campañas](external-sources.md#limitations)
+
++++
+
++++ ¿Puedo utilizar integraciones en fragmentos reutilizables?
+
+La característica de integraciones **no** es compatible con los fragmentos. Utilice integraciones en el contenido de campañas y mensajes recorrido donde el producto los admita.
+
+➡️ [Más información sobre los fragmentos y los límites de la versión beta](external-sources.md#limitations)
+
++++
+
+## Limitaciones
+
++++ ¿Qué canales admiten integraciones?
+
+Se admiten **canales salientes** (por ejemplo, correo electrónico, SMS y push).
+
+➡️ [Más información sobre los canales admitidos](external-sources.md#limitations)
+
++++
+
++++ ¿Qué formatos de respuesta de API son compatibles?
+
+Para las respuestas de llamadas de API, **JSON** es compatible con la asignación de campos. La salida de imagen binaria sin procesar y los formatos que no son JSON no están disponibles para este flujo de trabajo.
+
+➡️ [Más información sobre los formatos JSON y de respuesta](external-sources.md#limitations)
+
++++
+
++++ ¿A qué patrones de API puedo conectarme?
+
+Se admiten las API **Retrieval** destinadas a contenido específico. Las API **Listing** (lista amplia o patrones de paginación) no son compatibles con este modelo de integración.
+
+➡️ [Más información sobre la recuperación en comparación con las API de listado](external-sources.md#limitations)
+
++++
+
+## Permisos y funciones relacionadas
+
++++ ¿Qué permisos necesito para configurar las integraciones?
+
+La configuración es un flujo de trabajo de administrador en **[!UICONTROL Configuraciones]** > **[!UICONTROL Integraciones]**. Los nombres exactos de los permisos dependen de los perfiles de producto de Admin Console y Journey Optimizer de su organización. Confirme con su administrador o representante de Adobe.
+
+➡️ [Más información sobre dónde se configuran las integraciones](external-sources.md#configure)
+
++++
+
++++ ¿Las integraciones reemplazan los conectores de Adobe Journey Optimizer a las fuentes de Experience Platform?
+
+No. **Las integraciones** son para campos de personalización en el contenido de mensajes que conduces desde las API. **Sources** y otras capacidades de ingesta de datos tienen diferentes propósitos (por ejemplo, ingesta de datos por lotes y enriquecimiento de perfiles). Utilice cada capacidad para el ámbito deseado.
+
+➡️ [Más información sobre las integraciones para](external-sources.md)
+
+➡️ [Más información sobre orígenes de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}
+
++++
+
+## Solución de problemas
+
++++ ¿Por qué falla la conexión de prueba o permanece inválida?
+
+Compruebe la dirección URL del extremo, el método HTTP, las plantillas de ruta, los encabezados y los parámetros de consulta, la autenticación y el tiempo de espera de la directiva. Use **[!UICONTROL Enviar conexión de prueba]** después de los ajustes. Para problemas de carga útil, asegúrese de que el ejemplo refleje un JSON válido y de que los campos seleccionados coincidan con lo que devuelve la API.
+
+➡️ [Más información sobre la validación de la carga útil y la conexión de prueba](external-sources.md#configure)
+
++++
+
++++ ¿Por qué los especialistas en marketing no ven mi integración en el selector?
+
+Las integraciones deben **activarse** después de una prueba con éxito. Solo aparecen integraciones activas cuando los especialistas en marketing abren **[!UICONTROL Integraciones]**. Si la integración sigue siendo de borrador o está inactiva, complete primero la activación.
+
+➡️ [Más información sobre la activación y la conexión de prueba](external-sources.md#configure)
+
++++
+
+## Proveedores externos
+
++++ ¿Qué ejemplos de proveedores están disponibles y quién protege la API?
+
+Se puede integrar con cualquier plataforma de terceros que exponga un extremo de API compatible. Los patrones de proveedor **Illustrative** y los ejemplos de configuración pueden ayudarle a modelar API compatibles. La responsabilidad de garantizar los puntos finales recae en la plataforma de terceros y en su equipo.
+
+➡️ [Más información sobre los procedimientos de integración de proveedores](vendor-integration.md)
+
++++
