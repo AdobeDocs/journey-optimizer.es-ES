@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
+source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3213'
 ht-degree: 91%
 
 ---
@@ -279,7 +279,6 @@ ht-degree: 91%
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
             + [Codifique su propio contenido](using/email/code-content.md)
-            + [Edite con el editor avanzado de HTML](using/email/email-expert-mode.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
             + [Aprovechar los temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
@@ -292,6 +291,7 @@ ht-degree: 91%
             + [Administrar la versión de texto](using/email/text-version-email.md)
             + [Optimizar el texto del correo electrónico para bandejas de entrada AI](using/email/llm-email-optimizer.md)
             + [Añadir metadatos](using/email/email-metadata.md)
+            + [Edite con el editor avanzado de HTML](using/email/email-expert-mode.md)
          + Editar estilo {#edit-style}
             + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
@@ -505,6 +505,9 @@ ht-degree: 91%
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Trabajar con integraciones](using/integrations/external-sources.md)
+      + {hide-from-toc}[Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
+      + {hide-from-toc}[Proveedores disponibles](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[Preguntas más frecuentes](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Trabajar con asistentes de IA a través de MCP](using/integrations/ajo-mcp.md)
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
