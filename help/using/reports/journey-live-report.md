@@ -30,7 +30,7 @@ Acceda al informe de Recorrido en directo desde el menú [!UICONTROL Recorridos]
 
 La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 
-* [&#x200B; Recorrido &#x200B;](#journey-live)
+* [ Recorrido ](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)

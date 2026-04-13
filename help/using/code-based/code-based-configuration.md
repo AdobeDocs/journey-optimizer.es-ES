@@ -160,7 +160,7 @@ Para definir los ajustes de configuración de la experiencia basada en código p
 
    >[!NOTE]
    >
-   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Si encuentra problemas al obtener una vista previa de la experiencia, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Otras plataformas {#other}
 

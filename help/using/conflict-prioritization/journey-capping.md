@@ -115,8 +115,8 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay un ejemplo de consulta disponible en [esta sección](../reports/query-examples.md#common-queries).
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

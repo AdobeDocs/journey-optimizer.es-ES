@@ -10,7 +10,7 @@ level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -116,5 +116,5 @@ Se pueden crear envíos de correo electrónico de la siguiente manera:
 * **[Diseñe contenido de correo electrónico](get-started-email-design.md)**: descubra las diferentes formas de diseñar el contenido de su correo electrónico, desde cero o con plantillas.
 * **[Configuración de correo electrónico](get-started-email-config.md)**: aprenda a configurar opciones de correo electrónico, como superficies de correo electrónico, subdominios y grupos de IP.
 * **[Personalización y estilo de correo electrónico](get-started-email-style.md)**: técnicas de estilo maestro que incluyen CSS personalizado, alineación, relleno y compatibilidad con modo oscuro.
-* **[Seguimiento y monitorización de correos electrónicos](message-tracking.md)**: aprenda a rastrear aperturas de mensajes, clics y administrar el seguimiento de URL para el análisis de rendimiento.
+* **[Hacer un seguimiento y monitorizar correos electrónicos](message-tracking.md)**: aprenda a rastrear aperturas de mensajes, clics y administrar el seguimiento de URL para el análisis de rendimiento.
 * **[Tutoriales de canal de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones de correo electrónico y las prácticas recomendadas.

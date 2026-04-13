@@ -9,7 +9,7 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -106,7 +106,7 @@ Puede agregar código personalizado utilizando el tipo de modificación **[!UICO
 
 El elemento `<head>` es un contenedor de metadatos (datos sobre datos) y se coloca entre la etiqueta `<html>` y la etiqueta `<body>`. En este caso, el código no espera eventos body o page-load: se ejecuta al principio de la carga de la página.
 
-El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para las acciones visuales posteriores dependen de los elementos de HTML agregados en esta pestaña.
+El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para acciones visuales siguientes dependen de los elementos HTML agregados en esta pestaña.
 
 Para agregar una modificación de tipo **Página`<head>`**, siga los pasos a continuación.
 
@@ -142,7 +142,7 @@ Puede usar el tipo de modificación **[!UICONTROL Página`<head>`]** para:
 
 * Configure un estilo en línea o un vínculo a una hoja de estilos externa.
 
-  Por ejemplo, para definir una clase para un elemento de superposición:
+  Por ejemplo, para definir una clase para un elemento overlay:
 
   ```
   <style>
@@ -163,9 +163,9 @@ Por ejemplo:
 </script>
 ```
 
-En caso de que sea necesario realizar alguna modificación, realice cambios dentro de este contenedor.
+En caso de que se necesiten modificaciones, realice cambios dentro de este contenedor.
 
-Si ya no necesita el código personalizado, deje este contenedor vacío, pero no lo elimine. Esto garantiza que otras modificaciones de la experiencia no se vean afectadas.
+Si ya no necesita el código personalizado, simplemente deje vacío este contenedor, pero no lo quite. Esto garantiza que no se vean afectadas otras modificaciones de la experiencia.
 
 +++
 
@@ -175,14 +175,14 @@ Los scripts se ejecutan de forma asincrónica. Esto suele hacer que las acciones
 
 +++
 
-+++ **Si crea un elemento y lo modifica, no elimine el elemento original.**
++++ **Si crea un elemento y luego lo modifica, no elimine el elemento original.**
 
 Cada cambio crea un nuevo elemento en el panel **[!UICONTROL Modificaciones]**. Debido a que la segunda acción modifica al Elemento 1, si elimina el Elemento 1, esa acción ya no tiene nada para modificar, por lo que el cambio ya no funciona.
 
 +++
 
-+++ **Tenga cuidado al usar el tipo de modificación**&#x200B;[!UICONTROL &#x200B; Página `<head>`]&#x200B;**para dos campañas que afectan a la misma dirección URL.**
++++ **Tenga cuidado al usar el tipo de modificación**[!UICONTROL  Página `<head>`]**para dos campañas que afectan a la misma dirección URL.**
 
-Si usa el tipo de modificación **[!UICONTROL Página`<head>`]** para dos campañas que afectan a la misma dirección URL, JavaScript se inserta en la página desde ambas campañas. [!DNL Journey Optimizer] determina automáticamente el orden del contenido enviado. Asegúrese de que el código no dependa de la ubicación. Depende de usted asegurarse de que no haya conflictos en el código.
+Si usa el tipo de modificación **[!UICONTROL Página`<head>`]** para dos campañas que afectan a la misma dirección URL, JavaScript se inserta en la página desde ambas campañas. [!DNL Journey Optimizer] determina automáticamente el orden del contenido enviado. Asegúrese de que el código no dependa de la colocación. Depende de usted asegurarse de que no existan conflictos en el código.
 
 +++
