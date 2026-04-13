@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="Disponibilidad limitada" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
+source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -91,4 +91,3 @@ No. El servidor MCP está diseñado tanto para personalidades técnicas como de 
 
 Cuando envía una solicitud, el asistente de IA puede enviar el contexto relevante (incluidos los datos de [!DNL Adobe Journey Optimizer] devueltos por el servidor MCP) a su modelo para su procesamiento. Revise las políticas de privacidad y gestión de datos de su proveedor de asistente de IA antes de conectarse a los datos de producción.
 +++
-
