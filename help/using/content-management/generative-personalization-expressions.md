@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -66,13 +66,17 @@ Estos pasos cubren la generación de expresiones de personalización desde cero.
 
 1. Después de generar una expresión, haga clic en **[!UICONTROL Mostrar vistas previas de perfiles de muestra]** para ver cómo se evalúa la expresión con datos de muestra y para ver la carga útil asociada como JSON. Para esta comprobación, el asistente genera un conjunto limitado de perfiles de muestra sintéticos; no se guardan ni almacenan en su organización.
 
-   Si necesita más perfiles de muestra, escriba **Preview** en la conversación con el asistente para que pueda generar perfiles de vista previa adicionales.
+   Si necesita perfiles de muestra personalizados o adicionales, describa lo que necesita en la conversación con el asistente e incluya la palabra clave **preview** en la solicitud para que pueda generar los perfiles de vista previa adecuados para su comprobación.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++Previsualizar ejemplo
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >Se ofrecen previsualizaciones adicionales para la comprobación puntual. El asistente está configurado para generar aproximadamente uno o cinco perfiles. Si se solicita un número muy grande, la solicitud puede fallar.
 
    +++
 
