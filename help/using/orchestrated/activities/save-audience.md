@@ -5,10 +5,10 @@ title: Uso de la actividad Guardar público
 description: Aprenda a utilizar la actividad Guardar audiencia en una campaña organizada
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 20%
 
 ---
 
@@ -54,6 +54,10 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Guardar público]**:
 1. Finalice la configuración guardando y publicando la campaña orquestada. Así se generará y almacenará su público.
 
 1. Publique la campaña para la audiencia que se va a crear o reemplazar, ya que la actividad **[!UICONTROL Guardar audiencia]** no se ejecuta mientras la campaña esté en **[!UICONTROL modo borrador]**.
+
+>[!NOTE]
+>
+>En el momento de la publicación, las actividades **[!UICONTROL Guardar audiencia]** siempre se ejecutan antes que cualquier actividad de mensaje en el flujo de trabajo. Se crea el shell de audiencia y los perfiles comienzan a ingerirse en Audience Portal antes de que cualquier actividad de canal comience a procesarse. [Obtenga más información acerca de la secuencia de ejecución en tiempo de publicación](../start-monitor-campaigns.md#publication-sequence)
 
 El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el menú **[!UICONTROL Audiencias]**, o se puede seleccionar al segmentar una audiencia, por ejemplo, con una actividad **[!UICONTROL Leer audiencia]**.
 
