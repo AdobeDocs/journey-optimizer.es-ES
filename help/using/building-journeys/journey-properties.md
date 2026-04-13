@@ -10,14 +10,16 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
+source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3257'
-ht-degree: 12%
+source-wordcount: '3380'
+ht-degree: 10%
 
 ---
 
 # Establecimiento de las propiedades del recorrido {#jo-properties}
+
+Utilice las propiedades del recorrido para definir la configuración global del recorrido, incluido el nombre, las reglas de entrada, la zona horaria, las fechas de inicio y finalización, la duración del tiempo de espera, los criterios de salida y la administración de conflictos. Se puede acceder a las propiedades desde el carril derecho en cualquier fase de la creación del recorrido.
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
@@ -166,7 +168,7 @@ Debido al tiempo de espera de recorrido de 91 días, cuando no se permite la ree
 
 Una persona solo puede entrar en una actividad de espera si le queda tiempo suficiente en el recorrido para completar la duración de la espera antes del tiempo de espera de 91 días. Consulte [esta página](../building-journeys/wait-activity.md).
 
-#### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
+### Preguntas frecuentes sobre el tiempo de vida (TTL) y la retención de datos {#timeout-faq}
 
 A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el tiempo de espera global de recorrido ha pasado de 30 a 91 días. Los impactos se enumeran en las preguntas frecuentes a continuación:
 
@@ -263,7 +265,7 @@ A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el t
       <p>¿Qué sucede con un perfil en ejecución en una versión de recorrido anterior que se vuelve a publicar después del lanzamiento de la extensión TTL?</p>
     </td>
     <td>
-      <p>El perfil mantendrá un TTL de 30 días (7 días para HIPPA), alineado con el tiempo de publicación de la versión original del recorrido. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
+      <p>El perfil mantendrá un TTL de 30 días (7 días para HIPAA), alineado con el tiempo de publicación de la versión del recorrido original. Para los recorridos recurrentes con reentrada forzada, el TTL coincidirá con el período de periodicidad.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -297,7 +299,7 @@ A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Política de combinación"
->abstract="La política de combinación se recupera automáticamente en función del evento o la audiencia seleccionados. Esta política de combinación se utiliza en en todo el recorrido."
+>abstract="La política de combinación se recupera automáticamente en función del evento o la audiencia seleccionados. Esta política de combinación se utiliza en todo el recorrido."
 
 [!DNL Adobe Journey Optimizer] usa políticas de combinación al recuperar datos de perfil de [!DNL Adobe Experience Platform]. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
 
@@ -322,7 +324,7 @@ Para obtener más información sobre las políticas de combinación, consulte [[
 
 ### Recorrido Criterios de salida {#exit-criteria-desc}
 
-Al añadir criterios de salida, hace que los perfiles salgan del recorrido en cuanto se produce un evento (p. ej.: compra) o cumplen los requisitos para un público. Esto evitará que el usuario reciba más comunicaciones del recorrido.
+Al añadir criterios de salida, se hace que los perfiles salgan del recorrido en cuanto se produce un evento (por ejemplo, la compra) o que cumplan los requisitos para una audiencia. Esto evitará que el usuario reciba más comunicaciones del recorrido.
 
 Es posible que desee eliminar perfiles de un recorrido cuando ya no cumplan el propósito del recorrido. Esto se puede lograr mediante **criterios de salida globales**, que están estrechamente asociados con la administración de objetivos.
 
@@ -334,7 +336,7 @@ Es posible que desee eliminar perfiles de un recorrido cuando ya no cumplan el p
 
 Un experto en marketing tiene un recorrido promocional que tiene una serie de comunicaciones. Cada una de estas comunicaciones tiene como objetivo impulsar al cliente a realizar una compra. Tan pronto como se realice la compra, el cliente no debe recibir el resto de los mensajes de la serie. Al definir un criterio de salida, los perfiles que hayan realizado una compra se eliminan de la recorrido.
 
-#### Configuración y uso {#exit-criteria-config}
+### Configuración y uso {#exit-criteria-config}
 
 Los criterios de salida se establecen en el nivel de recorrido. Un recorrido puede tener varios criterios de salida. Si ha establecido varios criterios de salida, la evaluación se realizará de arriba abajo con una lógica de `OR`. Por lo tanto, si tiene los criterios de salida A y B, se evaluará como A **O** B. Los criterios se evalúan en cada paso del recorrido.
 
@@ -351,7 +353,7 @@ Para **crear** un criterio de salida, siga estos pasos:
    * Para los criterios de Salida basados en un evento, como descargar una aplicación o agregar un producto al carro de compras, elija solo evento unitario.
    * Para los criterios de Salida basados en una audiencia, como una audiencia que comprueba si un cliente ha realizado compras en las últimas 24 horas, seleccione una audiencia. Nota: Los criterios de salida que utilizan una audiencia pueden tardar hasta 10 minutos en ser efectivos.
 
-Puede agregar varios criterios de salida.
+Puede agregar varios criterios de salida. Los criterios de salida ahora están activos y se evaluarán en cada paso del recorrido.
 
 ![Panel de criterios de salida que muestra las condiciones de audiencia para la finalización del recorrido](assets/exitcriteria-sample.png){width="40%" align="left"}
 
@@ -413,6 +415,15 @@ La sección **[!UICONTROL Administración de conflictos]** de las propiedades de
 
 * Asigne una **puntuación de prioridad** al recorrido, de 0 a 100. Un número mayor indica una prioridad mayor. El valor de prioridad insertado aquí lo heredan las acciones entrantes (como in-app) contenidas en este recorrido. [aprenda a trabajar con puntuaciones de prioridad](../conflict-prioritization/priority-scores.md)
 
-  En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se ha modificado más recientemente.
+  En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente.
 
 * **Ver conflictos** con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. [Aprenda a identificar posibles conflictos en el recorrido](../conflict-prioritization/conflicts.md)
+
+## Temas relacionados {#related-topics}
+
+* [Administración de entrada de perfiles](entry-management.md): configure el modo en que los perfiles escriben y vuelven a introducir recorridos
+* [Guía de criterios de entrada y salida de Recorrido](entry-exit-criteria-guide.md): guía completa con ejemplos reales y prácticas recomendadas
+* [Cómo terminan los recorridos](end-journey.md): Comprender la finalización natural de recorridos y la salida de perfiles
+* [Pausar un recorrido](journey-pause.md): pausar y reanudar recorridos con criterios de salida de atributos de perfil
+* [Administración de zonas horarias](timezone-management.md): configure las zonas horarias de recorrido y perfil
+* [Administración y priorización de conflictos](../conflict-prioritization/conflicts.md): identifique y resuelva conflictos entre recorridos y campañas
