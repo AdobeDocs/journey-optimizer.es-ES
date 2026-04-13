@@ -378,7 +378,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       {
+       &lbrace;
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -417,14 +417,14 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
    +++Ejemplo de carga útil
 
        &quot;json
-       {
+       &lbrace;
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;estados&quot;: [
-       {
+       &quot;estados&quot;: &lbrack;
+       &lbrace;
        &quot;código&quot;: &quot;{{failureCode}}&quot;,
        &quot;estado&quot;: &quot;{{feedbackStatus}}&quot;
        
-       ]
+       &rbrack;
        
        &quot;
    
