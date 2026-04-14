@@ -5,12 +5,13 @@ title: Trabajar con asistentes de IA a través de MCP
 description: Aprenda a conectar Adobe Journey Optimizer a asistentes de IA mediante el servidor MCP
 feature: Integrations
 topic: Content Management, Artificial Intelligence
-badge: label="Disponibilidad limitada" type="Informative"
+badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+hide: true
+source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->El servidor MCP [!DNL Adobe Journey Optimizer] está disponible actualmente solo en **Claude Web** y **Claude Desktop**.
+>El servidor MCP [!DNL Adobe Journey Optimizer] está disponible actualmente solo en **Claude Web** y **Claude Desktop**. En futuras versiones se agregará compatibilidad con aplicaciones compatibles con MCP adicionales.
+
+La integración de MCP [!DNL Adobe Journey Optimizer] le permite consultar campañas, recorridos y ofertas utilizando peticiones de datos en lenguaje sencillo, sin necesidad de escribir llamadas a la API ni navegar por las pantallas de productos. Esta página explica cómo funciona la integración, qué puede hacer con ella y cómo empezar.
 
 ## ¿Qué es el protocolo de contexto del modelo? {#mcp-overview}
 
@@ -29,7 +32,7 @@ Los equipos de marketing y de experiencia del cliente dependen cada vez más de 
 
 ## Funcionalidades clave {#mcp-capabilities}
 
-El servidor MCP de [!DNL Adobe Journey Optimizer] le permite inspeccionar, resumir y solucionar problemas de [!DNL Adobe Journey Optimizer] recorridos, campañas y ofertas directamente desde su asistente de IA. Las API de recuperación de [!DNL Adobe Journey Optimizer] se convierten en respuestas en lenguaje sencillo para que pueda:
+El servidor MCP [!DNL Adobe Journey Optimizer] le permite inspeccionar, resumir y solucionar problemas de recorridos, campañas y ofertas directamente desde su asistente de IA. Todas las operaciones son **de solo lectura** — las superficies del servidor MCP recuperan las API como respuestas en lenguaje sencillo para que pueda:
 
 * **Comprender la lógica de recorrido**: obtenga un resumen legible en lenguaje natural de las ramas, condiciones y acciones de cualquier recorrido.
 * **Comprobar la preparación de la campaña**: identifique los bloqueadores que impiden la publicación de una campaña.
@@ -61,7 +64,13 @@ Antes de conectar el servidor MCP [!DNL Adobe Journey Optimizer] a su asistente 
 
 >[!NOTE]
 >
->Se añadirán pasos de configuración detallados una vez que la integración esté disponible de forma general. Póngase en contacto con su representante de Adobe para obtener acceso anticipado.
+>Esta integración se realiza en Beta. Los pasos de configuración detallados se publicarán cuando lleguen a la disponibilidad general. Póngase en contacto con su representante de Adobe para solicitar acceso anticipado y recibir instrucciones de configuración.
+
+Durante la fase de Beta, su representante de Adobe le proporcionará lo siguiente:
+
+* La dirección URL del extremo del servidor MCP específica de su organización.
+* Credenciales de autenticación para conectar su asistente de IA a [!DNL Adobe Journey Optimizer].
+* Directrices sobre la configuración del servidor MCP en Claude Desktop o Claude Web.
 
 <!--
 Step-by-step connection instructions to be added here, including:
@@ -90,4 +99,14 @@ No. El servidor MCP está diseñado tanto para personalidades técnicas como de 
 +++¿Se envían mis datos al proveedor del asistente de IA?
 
 Cuando envía una solicitud, el asistente de IA puede enviar el contexto relevante (incluidos los datos de [!DNL Adobe Journey Optimizer] devueltos por el servidor MCP) a su modelo para su procesamiento. Revise las políticas de privacidad y gestión de datos de su proveedor de asistente de IA antes de conectarse a los datos de producción.
++++
+
++++¿Qué permisos necesito en [!DNL Adobe Journey Optimizer]?
+
+Necesita al menos **permisos de vista** para los objetos que desea consultar: campañas, recorridos u ofertas. No se requieren permisos de escritura porque el servidor MCP solo realiza operaciones de lectura. Póngase en contacto con el administrador de [!DNL Adobe Journey Optimizer] si no está seguro del nivel de acceso actual.
++++
+
++++¿Puedo utilizar el servidor MCP en entornos de espacio aislado?
+
+Sí. El servidor MCP respeta la configuración de su zona protegida [!DNL Adobe Journey Optimizer]. Puede consultar datos específicos de la zona protegida especificando la zona protegida en la solicitud o conectándose con credenciales con ámbito de una zona protegida en particular.
 +++
