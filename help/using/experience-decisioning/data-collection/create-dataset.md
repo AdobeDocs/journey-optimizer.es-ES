@@ -9,7 +9,7 @@ level: Experienced
 hide: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -53,7 +53,7 @@ Comience creando el esquema que se utilizará en el conjunto de datos:
 
 >[!NOTE]
 >
->Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#understanding-schemas){target="_blank"}.
+>Obtenga más información acerca de la creación de esquemas en [Aspectos básicos de la composición de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Ya está listo para crear un conjunto de datos con este esquema. Para realizar esto, siga los pasos a continuación:
 
