@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 21%
@@ -129,8 +129,6 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 ### Mejoras {#april-26-improv}
 
-#### Optimización de ruta de recorrido
-
 #### Diseño de correo electrónico
 
 * **Editor de HTML avanzado para el contenido del correo electrónico**: el modo de HTML avanzado permite editar el origen de HTML del contenido en el Designer de correo electrónico, agregar expresiones avanzadas (como condiciones) en el origen y alternar entre la vista de HTML y la vista de escritorio sin perder los cambios.
@@ -138,6 +136,8 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
   Esta funcionalidad, que antes solo estaba disponible para plantillas de contenido de correo electrónico, ahora se implementa en el contenido de **correo electrónico** en el Designer de correo electrónico (por ejemplo, correos electrónicos creados en recorridos y campañas), además de en las plantillas de contenido de correo electrónico. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener acceso. [Más información](../email/email-expert-mode.md)
 
   Fecha de disponibilidad: viernes, 09 de abril de 2026
+
+#### Optimización de ruta de recorrido
 
 * **Tipo de experimento**: ahora puede elegir entre experimento A/B (división fija al principio) o bandido multibrazo (división automática con actualizaciones semanales del peso) al configurar un experimento de ruta. [Más información](../building-journeys/path-experimentation.md)
 
