@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: integración, proveedor, terceros
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -29,6 +29,7 @@ Tabla de contenido:
 * [Preguntas más frecuentes](vendor-integration-faq.md)
 
 >[!ENDSHADEBOX]
+
 
 Puede usar **Integraciones** en Adobe Journey Optimizer para llamar a **sistemas externos a través de HTTP** cuando cada sistema exponga un **extremo de API** que se adapte a su caso de uso y sea compatible con la forma en que las integraciones emiten solicitudes y consumen respuestas. Para ver el flujo de trabajo completo, consulte [Trabajar con integraciones](external-sources.md).
 
