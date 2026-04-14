@@ -21,7 +21,7 @@ Las notas de la versión de Adobe Journey Optimizer ofrecen un resumen mensual d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Notas de la versión de Adobe Journey Optimizer de 2025
 
@@ -31,7 +31,7 @@ Explore todas las funciones, actualizaciones y mejoras introducidas en 2025 para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Notas de la versión de Adobe Journey Optimizer de 2024
 
