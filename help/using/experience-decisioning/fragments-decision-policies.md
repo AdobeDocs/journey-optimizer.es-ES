@@ -7,22 +7,22 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
 
 # Aprovechamiento de fragmentos en políticas de decisión {#fragments}
 
-Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos en el código de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
+Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos al crear un mensaje, dentro de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
 >Esta característica está disponible con disponibilidad limitada para los canales de **experiencia basada en código** y **correo electrónico**. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
-Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Asegúrese de agregar los fragmentos correspondientes a esos dispositivos al elemento de decisión que está utilizando en la directiva de decisión. [Más información](items.md#attributes).
+Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Agregue los fragmentos especificados, cada uno perteneciente a un modelo de teléfono diferente, al elemento de decisión que esté utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
 ![Sección de fragmentos de un elemento de decisión que muestra referencias de fragmento y claves de ubicación.](assets/item-fragments.png){width=70%}
 
@@ -36,7 +36,7 @@ Simplemente copie y pegue el bloque de código siguiente en el código de la pol
 
 ```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
+{{fragment id = variable required=false}}
 ```
 
 >[!TAB Siga los pasos detallados]
@@ -63,19 +63,21 @@ El ID de fragmento y la clave de referencia se seleccionarán de la sección **[
 
 >[!WARNING]
 >
->Si la clave del fragmento es incorrecta o si el contenido del fragmento no es válido, el procesamiento fallará y provocará un error en la llamada de Edge.
+>Si la clave del fragmento es incorrecta o si el contenido del fragmento no es válido, el procesamiento puede fallar y provocar un error en la llamada de Edge.
+>
+>Para evitar errores cuando un fragmento no está disponible temporalmente, se utiliza el indicador `required=false` para que se omita el fragmento en su lugar. [Más información](#temporary-unavailable-fragments)
 
-## Protecciones al usar fragmentos {#fragments-guardrails}
+## Uso y protecciones {#fragments-guardrails}
 
-**Simular fragmentos de contenido y expresión en correos electrónicos**
+### Simulación de fragmentos de contenido y expresión en correos electrónicos {#simulate-content-expression-fragments}
 
 Para el canal **Email**, los fragmentos de expresión asociados con un elemento de decisión se muestran correctamente cuando **[!UICONTROL envía la prueba]** o cuando se activa la campaña. Sin embargo, **[!UICONTROL Simular contenido]** no muestra el fragmento de expresión del elemento de decisión.
 
-**Fragmentos visuales y elementos de decisión en correos electrónicos**
+### Fragmentos visuales y elementos de decisión en correos electrónicos {#visual-fragments-decision-items}
 
 No puede asignar un **[!UICONTROL fragmento visual]** a un elemento de decisión, solo se admiten **fragmentos de expresión** en este contexto.
 
-**Elemento de decisión y atributos de contexto**
+### Elemento de decisión y atributos de contexto {#decision-item-context-attributes}
 
 Los atributos de elemento de decisión y los atributos contextuales no son compatibles de forma predeterminada en [!DNL Journey Optimizer] fragmentos. Sin embargo, puede utilizar variables globales en su lugar, como se describe a continuación.
 
@@ -96,7 +98,7 @@ Supongamos que desea utilizar la variable *sport* en el fragmento.
    {{/each}}
    ```
 
-**Validación del contenido de fragmentos de elementos de decisión**
+### Validación de contenido de fragmento de elemento de decisión {#fragment-content-validation}
 
 * Debido a la naturaleza dinámica de estos fragmentos, cuando se utilizan en una campaña, la validación de mensajes durante la creación del contenido de la campaña se omite para los fragmentos a los que se hace referencia en los elementos de decisión.
 
@@ -105,3 +107,19 @@ Supongamos que desea utilizar la variable *sport* en el fragmento.
 * Para los fragmentos de expresiones de tipo JSON, el contenido se valida sintácticamente al guardar el fragmento. Los errores de validación se muestran como alertas.
 
 En tiempo de ejecución, se valida el contenido de la campaña (incluido el contenido de fragmento de los elementos de decisión). En caso de error de validación, la campaña no se procesará.
+
+### Se omiten los fragmentos temporalmente no disponibles {#temporary-unavailable-fragments}
+
+Cuando los recorridos o campañas hacen referencia a fragmentos adjuntos a elementos de decisión, puede haber breves retrasos de sincronización antes de que los fragmentos actualizados estén disponibles en Edge.
+
+Para evitar errores cuando un fragmento no está disponible temporalmente, los fragmentos ahora tienen el indicador `required` establecido en `false` de forma predeterminada para que se omitan en lugar de provocar el error del recorrido o la campaña.
+
+Esto significa que si el fragmento no está disponible temporalmente en Edge, simplemente se ignora. Si el fragmento está disponible, se procesa normalmente.
+
+**Ejemplo**
+
+Si la directiva de decisión cumple los requisitos para dos ofertas y cada una tiene un fragmento (por ejemplo, &quot;20 % de descuento&quot; y &quot;30 % de descuento&quot;) y el segundo fragmento no está disponible temporalmente, con `required=false` el sistema procesa la oferta disponible (20 % de descuento) y omite el otro fragmento (30 % de descuento) en lugar de realizar un error en el recorrido o la campaña. Esto mejora la fiabilidad cuando el contenido aún se está sincronizando.
+
+>[!NOTE]
+>
+>Puede seguir marcando un fragmento como obligatorio si establece el indicador `required` en `true`. Sin embargo, si un fragmento falta temporalmente, puede provocar un error en el procesamiento del recorrido o de la campaña.
