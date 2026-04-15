@@ -10,7 +10,7 @@ level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 3%
@@ -131,7 +131,7 @@ Cuando utilice la calificación de audiencia para una audiencia por lotes, tenga
 
 Además, si la audiencia por lotes se crea recientemente y se utiliza inmediatamente en un recorrido, el primer lote de cálculo puede generar muchas entradas. Planifique este pico.
 
-### Intervalos de las actualizaciones de miembros de segmentos {#timing-segment-membership}
+### Calendario de actualizaciones de miembros del segmento {#timing-segment-membership}
 
 Cuando se utilizan instantáneas por lotes en un recorrido, cualquier pertenencia a un segmento nuevo solo puede reflejarse en instantáneas posteriores. Si es esencial agregar segmentos inmediatamente o en el mismo día, considere la posibilidad de segmentar mediante streaming o verificar que la siguiente captura las actualizaciones de los segmentos.
 

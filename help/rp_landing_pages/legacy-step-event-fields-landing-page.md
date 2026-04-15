@@ -5,7 +5,7 @@ title: Campos de eventos de pasos heredados
 description: Campos de eventos de pasos heredados
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Los campos de eventos de pasos heredados en Adobe Journey Optimizer son esencial
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Información sobre los campos heredados
 
@@ -30,7 +30,7 @@ Obtenga información sobre los campos de eventos de pasos heredados en Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Información general sobre los campos de recorrido
 

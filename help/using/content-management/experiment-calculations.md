@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: contenido, experimento, estadística, cálculo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -50,7 +50,7 @@ La tabla anterior ilustra los diferentes tipos de errores:
 
 La mayoría de las técnicas de inferencia estadística requerirán que corrija el tamaño de la muestra con antelación, según el tamaño del efecto que desee determinar, así como su tolerancia a errores (`\alpha` y `\beta`) con antelación. Sin embargo, la metodología de Adobe Journey Optimizer está diseñada para permitirle observar continuamente sus resultados, para cualquier tamaño de muestra.
 
-## Metodología estadística de Adobe: Secuencias de confianza válidas en cualquier momento
+## Metodología estadística de Adobe: secuencias de confianza válidas en cualquier momento
 
 Una **secuencia de confianza** es un análogo secuencial de un **intervalo de confianza**, por ejemplo, si repite los experimentos cien veces y calcula una estimación de la métrica media y su secuencia de confianza del 95 % asociada para cada nuevo usuario que entra en el experimento. Una secuencia de confianza del 95 % incluirá el valor verdadero de la métrica en 95 de los 100 experimentos que ejecutó. Un intervalo de confianza del 95 % solo se podía calcular una vez por experimento para ofrecer la misma garantía de cobertura del 95 %; no con cada nuevo usuario. Por lo tanto, las secuencias de confianza le permiten monitorizar continuamente los experimentos, sin aumentar las tasas de error de los falsos positivos.
 
@@ -70,7 +70,7 @@ Los fundamentos teóricos de **Secuencias de Confianza** provienen del estudio d
 
 Es importante señalar que, dado que las secuencias de confianza son &quot;válidas en cualquier momento&quot;, serán más conservadoras que una metodología de horizonte fijo utilizada con el mismo tamaño de muestra. Los límites de la secuencia de confianza son generalmente más anchos que el cálculo del intervalo de confianza, mientras que la confianza válida en cualquier momento será menor que el cálculo de confianza del horizonte fijo. El beneficio de este conservadurismo es que puedes interpretar tus resultados de forma segura en todo momento.
 
-## Declarar un experimento como concluyente
+## Declaración de un experimento como concluyente
 
 ![](assets/experimentation_report_2.png)
 

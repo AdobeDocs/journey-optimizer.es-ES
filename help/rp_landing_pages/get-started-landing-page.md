@@ -5,10 +5,10 @@ title: Introducción
 description: Introducción a Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Descubra las funcionalidades principales, los casos de uso y cómo Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Cómo funciona
 
@@ -44,7 +44,7 @@ Descubra cómo Journey Optimizer se integra con Adobe Experience Platform y cóm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminología clave
 
@@ -55,13 +55,13 @@ Términos y conceptos esenciales para ayudarle a navegar por Journey Optimizer c
 
 ::::
 
-## Elija su ruta de aprendizaje {#by-role}
+## Elegir su ruta de aprendizaje {#by-role}
 
 Empiece a recibir orientación específica sobre funciones adaptada a sus responsabilidades y objetivos.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Para expertos en marketing
 
@@ -91,7 +91,7 @@ Configure entornos, administre permisos y configure canales para su organizació
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Para desarrolladores
 
@@ -110,7 +110,7 @@ Domine la interfaz y aproveche las funciones inteligentes para acelerar su traba
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Navegación por la interfaz
 
@@ -143,7 +143,7 @@ Descubra cómo la IA le ayuda a crear contenido, optimizar los tiempos de envío
 
 ## Recursos adicionales {#additional-resources}
 
-### Referencia y prácticas recomendadas
+### Referencias y prácticas recomendadas
 
 * **[Protecciones y limitaciones](../using/start/guardrails.md)**: comprenda las restricciones y las prácticas recomendadas para utilizar las funciones de Journey Optimizer de forma eficaz
 * **[Características de accesibilidad](../using/start/accessibility.md)**: obtenga información sobre las características de accesibilidad y el cumplimiento de WCAG para garantizar la inclusión de todos los usuarios
@@ -158,7 +158,7 @@ Descubra cómo la IA le ayuda a crear contenido, optimizar los tiempos de envío
 * **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}**: conéctese con otros usuarios, haga preguntas y comparta prácticas recomendadas
 * **[Actualizaciones de documentación](../using/rn/documentation-updates.md)**: manténgase informado sobre los cambios y adiciones recientes a la documentación
 
-## ¿Todo listo para empezar?
+## ¿Listo para empezar?
 
 Elija la ruta que sea adecuada para usted:
 

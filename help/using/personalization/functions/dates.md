@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 5%
@@ -656,7 +656,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## A Fecha Hora {#to-date-time}
+## Hasta la fecha y hora {#to-date-time}
 
 La función `ToDateTime` convierte la cadena en fecha. Devuelve la fecha epoch como salida para una entrada no válida.
 

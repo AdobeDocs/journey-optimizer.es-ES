@@ -6,8 +6,8 @@ description: Recopilación de datos de evento
 redpen-status: CREATED_||_2025-08-11_21-02-07
 badge: label="Heredado" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
 

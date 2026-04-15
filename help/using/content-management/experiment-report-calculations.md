@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Finalmente, la confianza válida en cualquier momento **anytime** es:
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
-## Declarar un experimento como concluyente
+## Declaración de un experimento como concluyente
 
 Para un experimento con dos ramas, el panel Experimentación con Journey Optimizer muestra un mensaje que indica que un experimento es **concluyente** cuando la confianza válida en cualquier momento supera el 95 % (es decir, el valor válido en cualquier momento `p` está por debajo del 5 %).
 

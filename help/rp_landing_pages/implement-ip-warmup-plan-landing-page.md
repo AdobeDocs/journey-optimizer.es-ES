@@ -5,8 +5,8 @@ title: Implementar un plan de calentamiento de IP
 description: Implementar un plan de calentamiento de IP
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La implementación de un plan de calentamiento de IP en Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Guía de entregabilidad de calentamiento de IP
 
@@ -30,7 +30,7 @@ Comprenda los aspectos básicos de la entregabilidad, la creación de reputació
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a los planes de calentamiento de IP
 

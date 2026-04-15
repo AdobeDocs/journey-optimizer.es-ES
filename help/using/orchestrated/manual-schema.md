@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 8%
@@ -148,7 +148,7 @@ Después de definir el esquema, ahora puede crear un conjunto de datos basado en
 
 Ahora debe habilitar el conjunto de datos para campañas organizadas.
 
-## Habilitar conjunto de datos para campañas orquestadas {#enable}
+## Habilitar el conjunto de datos para campañas orquestadas {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"

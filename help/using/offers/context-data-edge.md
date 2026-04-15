@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# Datos de contexto y solicitudes de Edge Decisioning {#edge}
+# Solicitudes de datos de contexto y decisiones de Edge {#edge}
 
 >[!TIP]
 >

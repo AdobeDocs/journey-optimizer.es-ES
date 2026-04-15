@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -165,7 +165,7 @@ Las métricas clave mostradas incluyen:
 >
 >Actualmente, el informe [Medición de alza](../experience-decisioning/ranking/auto-optimization-model.md#lift) solo está disponible para el modelo de IA de [Optimización personalizada](../experience-decisioning/ranking/personalized-optimization-model.md). Si necesita informes de medición de alza, utilice el modelo de optimización personalizada en su lugar.
 
-### Tasa de conversión para tráfico Holdout y conducido por modelo {#conversion-rate}
+### Tasa de conversión para tráfico controlado por modelo y exclusión {#conversion-rate}
 
 >[!NOTE]
 >

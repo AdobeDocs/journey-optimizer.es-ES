@@ -7,16 +7,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 8%
 
 ---
 
-# Trabajar con Dynamic Media {#aem-dynamic}
+# Trabajo con medios dinámicos {#aem-dynamic}
 
-## Introducción a Dynamic Media {#gs-aem-dynamic}
+## Introducción a los medios dinámicos {#gs-aem-dynamic}
 
 El selector de recursos ahora es compatible con Dynamic Media, lo que le permite seleccionar y utilizar sin problemas representaciones de Dynamic Media aprobadas dentro de Journey Optimizer. Los cambios realizados en los recursos en Adobe Experience Manager se reflejan instantáneamente en el contenido de Journey Optimizer, lo que garantiza que las versiones más actualizadas siempre estén en uso sin requerir actualizaciones manuales.
 
@@ -198,7 +198,7 @@ Puede insertar la plantilla dinámica directamente en el contenido mediante el c
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar el mensaje a la audiencia.
 
 <!--
-## Personalization with Text Overlay
+## Personalization with text overlay
 
 Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
 

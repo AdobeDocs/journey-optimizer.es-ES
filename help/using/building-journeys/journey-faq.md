@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
 
 ---
 
-# Journey Orchestration: Preguntas más frecuentes {#faq-journeys}
+# orquestación de recorrido: preguntas más frecuentes {#faq-journeys}
 
 Encuentre respuestas a preguntas comunes acerca de Journey Orchestration en [!DNL Adobe Journey Optimizer].
 

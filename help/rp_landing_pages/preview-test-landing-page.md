@@ -5,8 +5,8 @@ title: Vista previa y prueba del contenido
 description: Valide la precisión del mensaje antes del lanzamiento. Obtenga una vista previa del contenido personalizado con perfiles de prueba, envíe pruebas a las partes interesadas, compruebe el renderizado de los correos electrónicos entre los clientes, evalúe las puntuaciones de spam y pruebe varias variaciones de contenido de forma eficaz.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Enviar pruebas mediante datos de perfil de prueba
 

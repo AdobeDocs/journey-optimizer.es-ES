@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -81,7 +81,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 +++
 
-#### Recorrido Analizar aptitud {#journey-analyze-skill}
+#### aptitud para analizar recorridos {#journey-analyze-skill}
 
 [Agente de análisis de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
 
@@ -104,7 +104,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 +++
 
 
-#### Recorrido Crear aptitud {#journey-create-skill}
+#### Recorrido crear aptitud {#journey-create-skill}
 
 El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
@@ -241,7 +241,7 @@ Funcionalidades clave:
 
 [Más información sobre el Acelerador de experimentos](../content-management/experiment-accelerator-gs.md)
 
-## Manuales de tácticas de casos de uso {#playbooks}
+## Manuales de casos de uso {#playbooks}
 
 Los manuales de casos de uso son flujos de trabajo creados previamente que le ayudan a implementar situaciones de marketing comunes de forma rápida. Cada manual incluye recorridos, mensajes, esquemas y segmentos listos para usar.
 
@@ -282,7 +282,7 @@ Transforme diseños de imagen estáticos (JPEG, PNG) en plantillas de correo ele
 
 [Más información sobre la Imagen en HTML](../content-management/image-to-html.md)
 
-### GenStudio for Performance Marketing
+### GenStudio para marketing de rendimiento
 
 Integre con Adobe GenStudio for Performance Marketing para crear contenido de correo electrónico con tecnología de IA e importar plantillas en Journey Optimizer para su orquestación. Exporte plantillas de Journey Optimizer a GenStudio, genere variaciones con IA y devuélvalas para su implementación. (Disponibilidad limitada, solo canal de correo electrónico).
 

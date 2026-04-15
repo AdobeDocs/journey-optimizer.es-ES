@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Para ver la lista completa de campos y atributos para cada esquema, consulte el 
 Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos de Recorrido](../reports/query-examples.md).
 
 
-## Conjunto de datos de evento de experiencia de seguimiento de correo electrónico{#email-tracking-experience-event-dataset}
+## Seguimiento de correo electrónico Conjunto de datos de evento de experiencia{#email-tracking-experience-event-dataset}
 
 _Nombre en la interfaz: conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO_
 
@@ -201,7 +201,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## Evento de paso de recorrido{#journey-step-event}
+## evento de paso de recorrido{#journey-step-event}
 
 _Nombre interno: eventos de paso de Recorrido (conjunto de datos del sistema)_
 
@@ -274,7 +274,7 @@ Vea también [ejemplos usados con frecuencia para consultar los eventos de pasos
 
 Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_step_events](../reports/sharing-field-list.md#discarded-events).
 
-## Conjunto de datos de evento{#ode-decisionevents}
+## Conjunto de datos de evento de decisión{#ode-decisionevents}
 
 _Nombre en la interfaz: ODE DecisionEvents (conjunto de datos del sistema)_
 
@@ -305,7 +305,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 ```
 
 <!--
-## Consent Service Dataset{#consent-service-dataset}
+## Consent service dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
 

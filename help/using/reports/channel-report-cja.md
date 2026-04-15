@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -135,7 +135,7 @@ La tabla **[!UICONTROL Errores salientes]** le permite identificar los errores p
 
 La tabla **[!UICONTROL Exclusiones salientes]** presenta una vista completa de los diferentes factores que tuvieron como resultado la exclusión de perfiles de usuario de la audiencia de destino, lo que resultó en que el mensaje no se recibiera.
 
-## Límite de recorrido y conflictos {#rule-sets}
+## Límites de recorrido y conflictos {#rule-sets}
 
 La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona información sobre el rendimiento de los conjuntos de reglas de mediación de recorrido, mostrando las entradas y exclusiones de recorrido en función de las reglas de límite y las puntuaciones de prioridad aplicadas a los recorridos.
 

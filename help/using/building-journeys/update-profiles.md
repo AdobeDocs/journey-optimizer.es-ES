@@ -10,7 +10,7 @@ level: Intermediate
 keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%
@@ -36,7 +36,7 @@ La actividad **[!UICONTROL Actualizar perfil]** requiere un conjunto de datos de
 
 Además, la configuración de la actividad **[!UICONTROL Actualizar perfil]** no requiere un [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"}. De este modo, asegúrese de que el conjunto de datos seleccionado utilice el mismo **[!UICONTROL área de nombres de identidad]** que utilizó la acción que inició el recorrido, ya que es este área de nombres que utilizarán estas actualizaciones. El conjunto de datos seleccionado también puede utilizar el mapa de identidad. Si no se selecciona un conjunto de datos con el área de nombres de identidad correcta o uno que usa el mapa de identidad, la actividad **[!UICONTROL Actualizar perfil]** fallará.
 
-## Configure la actividad Actualizar perfil {#use-profile-update}
+## Configuración de la actividad de actualización de perfil {#use-profile-update}
 
 Siga los pasos a continuación para configurar la actividad **[!UICONTROL Actualizar perfil]** en su recorrido.
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, grupo, subdominios, capacidad de entrega
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -109,7 +109,7 @@ Para crear su plan de calentamiento de IP, rellene la primera pestaña con los d
 
 La idea es aumentar progresivamente el número de direcciones objetivo en cada ejecución, al mismo tiempo que se reduce el número de ejecuciones para cada fase.
 
-### Pestaña Grupo de dominios personalizado {#custom-domain-group-tab}
+### Pestaña de grupo de dominios personalizados {#custom-domain-group-tab}
 
 También puede agregar más columnas al plan incluyendo grupos de dominio personalizados.
 
@@ -125,7 +125,7 @@ Por ejemplo, si agrega el dominio personalizado Roadrunner, desea que se incluya
 
 Si no necesita dominios personalizados, deje vacía la ficha **[!UICONTROL Grupo de dominios personalizados]**.
 
-### Pestaña Grupos de dominio OOTB {#ootb-domain-groups-tab}
+### Pestaña Grupos de dominios OOTB {#ootb-domain-groups-tab}
 
 La ficha **Grupos de dominio OOTB** de la plantilla de plan de calentamiento de IP contiene todos los grupos de dominio principales listos para usar que puede agregar a su plan.
 

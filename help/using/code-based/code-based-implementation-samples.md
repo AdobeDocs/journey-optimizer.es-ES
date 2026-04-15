@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 3%
@@ -321,7 +321,7 @@ Si tiene una implementación híbrida, consulte los vínculos siguientes.
 * Blog técnico de Adobe: [Personalization híbrido en Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentación de SDK: [Personalización híbrida mediante Web SDK y la API de servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=es){target="_blank"}
 
-## Depuración de llamadas de API de red de Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+## Depurar llamadas a la API de red perimetral con garantía de Adobe Experience Platform {#debugging-edge-api-assurance}
 
 Cuando utiliza directamente la API de Edge Network para experiencias basadas en código (no utiliza Web SDK ni Mobile SDK), puede depurar las llamadas a la API con Adobe Experience Platform Assurance incluyendo el ID de sesión de Assurance como encabezado de token de validación.
 

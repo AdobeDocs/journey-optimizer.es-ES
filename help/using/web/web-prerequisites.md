@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 10%
@@ -64,7 +64,7 @@ Para poder abrir, crear y obtener una vista previa de las páginas web de forma 
 >
 >Google Chrome y Microsoft Edge son los únicos exploradores que admiten la creación de páginas web en [!DNL Journey Optimizer].
 
-### Instale la extensión Ayuda de edición visual {#install-visual-editing-helper}
+### Instalar la extensión del ayudante de edición visual {#install-visual-editing-helper}
 
 Para descargar e instalar la extensión del explorador Ayuda de edición visual, siga los pasos a continuación.
 

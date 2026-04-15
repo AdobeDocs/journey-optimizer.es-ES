@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Para personalizar ofertas, debe configurar por separado la personalización/perf
 
 Para configurar SDK para la administración de decisiones, siga uno de estos dos pasos:
 
-## Opción 1: Instalar la extensión de etiqueta y la implementación mediante Launch
+## Opción 1: instalar la extensión de etiqueta y la implementación mediante launch
 
 Esta opción es más fácil de usar para las personas que pueden tener menos experiencia en la codificación.
 

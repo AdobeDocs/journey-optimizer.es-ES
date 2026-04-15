@@ -10,7 +10,7 @@ level: Intermediate
 keywords: recorrido, caso de uso, días de la semana, condición, correo electrónico, programación
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Siga estos pasos para crear el flujo de correo electrónico solo entre semana.
    * **[Leer audiencia](read-audience.md)**: para campañas por lotes dirigidas a una audiencia específica
    * **[Evento](../event/about-events.md)**: para recorridos activados en tiempo real basados en el comportamiento del cliente
 
-### Paso 2: Añadir una actividad de Condición para comprobar el día de la semana
+### Paso 2: añadir una actividad de condición para comprobar el día de la semana
 
 Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Condición]** para comprobar si el día actual es sábado o domingo. Esto bifurcará el flujo de trabajo en consecuencia.
 
@@ -78,7 +78,7 @@ Justo después del inicio del recorrido, agrega una actividad **[!UICONTROL Cond
 >
 >La zona horaria utilizada para la evaluación del día de la semana se define en el nivel de recorrido en las propiedades del recorrido, no en el nivel de condición. La zona horaria [timezone](timezone-management.md) de recorrido que se usa es la del recorrido, no la del destinatario.
 
-### Paso 3: Configurar actividades de espera para entradas de fin de semana
+### Paso 3: configurar actividades de espera para entradas de fin de semana
 
 Para los perfiles que ingresan el sábado o el domingo, use las actividades **[!UICONTROL Wait]** con fórmulas personalizadas para retrasar el correo electrónico hasta el lunes a la hora deseada.
 

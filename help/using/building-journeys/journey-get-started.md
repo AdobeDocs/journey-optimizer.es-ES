@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 hide: true
 keywords: recorrido, orquestación, introducción, incorporación, funciones
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
-# Journey Orchestration: guía completa{#journey-orchestration-guide}
+# orquestación de recorrido: guía completa{#journey-orchestration-guide}
 
 Los recorridos de [!DNL Adobe Journey Optimizer] le permiten crear recorridos personalizados de clientes de varios pasos que se adaptan en tiempo real al comportamiento y las necesidades de su audiencia. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
 

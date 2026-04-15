@@ -7,14 +7,14 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Trabajar con el Asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
+# Trabajar con el asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
 
 >[!AVAILABILITY]
 >
@@ -123,7 +123,7 @@ Previsualice la estructura JSON de los fragmentos de contenido en un formato de 
 
 +++
 
-## Acceso al Asesor de contenido de Adobe Experience Manager {#access}
+## Acceso al asesor de contenido de Adobe Experience Manager {#access}
 
 Para acceder al Asesor de contenido de Adobe Experience Manager en Journey Optimizer, siga estos pasos:
 

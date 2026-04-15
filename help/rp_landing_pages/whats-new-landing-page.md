@@ -6,10 +6,10 @@ description: Novedades
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Al integrar Adobe Experience Manager as a Cloud Service con Adobe Journey Optimi
 
 >[!ENDTABS]
 
-## Notas de la versión y actualizaciones de la documentación
+## Notas de la versión y actualizaciones de documentación
 
 :::: landing-cards-container
 :::

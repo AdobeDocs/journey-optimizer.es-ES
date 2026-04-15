@@ -9,7 +9,7 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 15%
@@ -131,7 +131,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 * **Las acciones Jump** no están habilitadas en la ejecución en seco.
 Cuando un recorrido de origen déclencheur un evento **Jump** a uno de destino, ese evento de salto no sería aplicable a una versión de recorrido de ejecución en seco. Por ejemplo, si la última versión de un recorrido está en ejecución en seco y la anterior es **Live**, el evento de salto ignoraría la versión de ejecución en seco y solo sería aplicable a la versión **Live**.
 
-## Eventos de paso de recorrido y ejecución en seco {#journey-step-events}
+## Eventos de paso de recorrido y simulación {#journey-step-events}
 
 Recorrido La ejecución en seco genera **stepEvents**. Estos stepEvents tienen un indicador específico y un ID de ejecución en seco: `inDryRun` y `dryRunID`.
 

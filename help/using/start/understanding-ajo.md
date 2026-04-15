@@ -6,16 +6,17 @@ description: Descubra cómo funciona Adobe Journey Optimizer con Adobe Experienc
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Explicación de Journey Optimizer {#understanding-ajo}
 
-Adobe Journey Optimizer y Adobe Experience Platform trabajan juntos para permitir la personalización basada en datos a escala. Esta página explica cómo funcionan estos sistemas y cómo se combinan sus áreas funcionales clave para ofrecer experiencias de cliente excepcionales. [Más información acerca de las funcionalidades clave](get-started.md) | [Explorar la terminología clave](terminology.md)
+Adobe Journey Optimizer y Adobe Experience Platform trabajan juntos para permitir la personalización basada en datos a escala. Esta página explica cómo funcionan estos sistemas y cómo se combinan sus áreas funcionales clave para ofrecer experiencias de cliente excepcionales. [Más información acerca de las funciones clave](get-started.md) | [Explorar la terminología clave](terminology.md)
 
 ## Cómo funciona Journey Optimizer {#how-it-works}
 
@@ -32,13 +33,13 @@ Adobe Experience Platform sirve como columna vertebral, permitiendo a las marcas
 * **Perfil del cliente en tiempo real**: crea perfiles unificados combinando datos de varias fuentes (interacciones por correo electrónico, compras en la tienda, comportamiento en la web). [Más información sobre los perfiles](../audience/get-started-profiles.md)
 * **Nivel de control**: rige el acceso a los datos, el cumplimiento de la privacidad y la seguridad al tiempo que cumple las regulaciones. [Ver documentación de privacidad](../privacy/get-started-privacy.md)
 
-### Adobe Journey Optimizer: Motor de orquestación {#ajo-orchestration}
+### Adobe Journey Optimizer: el motor de orquestación {#ajo-orchestration}
 
 Adobe Journey Optimizer aplica los datos y las perspectivas de Adobe Experience Platform para ofrecer experiencias de cliente inteligentes y personalizadas:
 
 * **Comprensión del cliente**: los perfiles del cliente en tiempo real habilitan la segmentación en audiencias para la mensajería de destino. [Crear públicos](../audience/about-audiences.md)
 * **Contenido y ofertas**: herramientas para crear, administrar y personalizar contenido; lógica en tiempo real para seleccionar la mejor oferta para cada individuo. [Diseñar contenido](../../rp_landing_pages/content-management-landing-page.md) | [Administrar ofertas](../offers/get-started/starting-offer-decisioning.md)
-* **Administración de Recorridos y campañas**: automatiza secuencias de interacciones (recorridos) o programa mensajes de destino únicos (campañas). [recorridos de compilación](../building-journeys/journey-gs.md) | [Crear campañas](../campaigns/get-started-with-campaigns.md)
+* **Administración de Recorridos y campañas**: automatiza secuencias de interacciones (recorridos) o programa mensajes de destino únicos (campañas). [Generar recorridos](../building-journeys/journey-gs.md) | [Crear campañas](../campaigns/get-started-with-campaigns.md)
 * **Envío (conexiones)**: envía mensajes a través de canales como correo electrónico, SMS, notificaciones push y correo directo; exporta datos a sistemas externos. [Configuración de canales](../configuration/get-started-configuration.md)
 * **Medición y análisis**: Rastrea la participación de los clientes y el rendimiento de las campañas con informes para mejorar continuamente. [Ver informes](../reports/campaign-global-report-cja.md)
 

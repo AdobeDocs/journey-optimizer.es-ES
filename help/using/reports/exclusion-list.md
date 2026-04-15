@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Motivos de exclusión {#exclusion-list}
 
-## Cómo se cuentan las exclusiones en los informes de campaña
+## Cómo se cuentan las exclusiones en los informes de Campaign
 
 Cuando visualice informes de campaña, tenga en cuenta que la métrica *Exclusions* se calcula de la siguiente manera:
 

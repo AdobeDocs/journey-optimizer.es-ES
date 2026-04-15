@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -194,7 +194,7 @@ A continuación se enumeran todas las notificaciones de recorrido disponibles en
 >
 >Las alertas específicas de Adobe Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba.
 
-### Error al leer Déclencheur de audiencia {#alert-read-audiences}
+### Error al leer el déclencheur de audiencia {#alert-read-audiences}
 
 Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo).
 
@@ -206,7 +206,7 @@ El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer D�
 
 Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de público en la interfaz de Experience Platform.
 
-### Tasa de descartes de perfil superada {#alert-discard-rate}
+### Tasa de descarte de perfil excedida {#alert-discard-rate}
 
 Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
@@ -221,7 +221,7 @@ Existen varias razones por las que se puede descartar un perfil, lo que informar
 * Se ha superado la tasa de rendimiento de eventos. Para resolver esto, asegúrese de que los eventos que llegan al sistema no superan estos límites.
 
 
-### Tasa de errores de acción personalizada superada {#alert-custom-action-error-rate}
+### Tasa de error de acción personalizada excedida {#alert-custom-action-error-rate}
 
 Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 
@@ -240,7 +240,7 @@ Los errores de acciones personalizadas pueden ocurrir por varios motivos. Para s
 * Compruebe que el punto de conexión sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada.
 * Compruebe las credenciales de autenticación, la conectividad a Internet, etc.
 
-### Tasa de errores de perfil superada {#alert-profile-error-rate}
+### Tasa de error de perfil excedida {#alert-profile-error-rate}
 
 Esta alerta le advierte si la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
 

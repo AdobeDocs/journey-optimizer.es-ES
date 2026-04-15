@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%

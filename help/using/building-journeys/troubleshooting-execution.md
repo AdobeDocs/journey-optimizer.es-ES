@@ -10,7 +10,7 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 11%
@@ -141,7 +141,7 @@ En el caso de un mensaje enviado mediante una acción personalizada, lo único q
 
 Utilice esta sección para comprender por qué pueden aparecer filas duplicadas en los eventos de paso de Recorrido.
 
-### ¿Por qué veo varias entradas con la misma instancia de recorrido, perfil, nodo e ID de solicitud?
+### ¿Por qué veo varias entradas con la misma instancia de recorrido, perfil, nodo y ID de solicitud?
 
 Al consultar los datos de Eventos de paso de Recorrido, puede observar ocasionalmente lo que parecen ser entradas de registro duplicadas para la misma ejecución de recorrido. Estas entradas comparten valores idénticos para:
 

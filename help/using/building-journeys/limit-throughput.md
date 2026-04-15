@@ -9,14 +9,14 @@ level: Experienced
 keywords: recorrido, fuentes de datos, límite, rendimiento, personalizado, acciones
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
-# Caso de uso: Limitación del rendimiento con fuentes de datos externas y acciones personalizadas{#limit-throughput}
+# Caso de uso: limitar el rendimiento con fuentes de datos externas y acciones personalizadas{#limit-throughput}
 
 Utilice este caso de uso para acelerar el procesamiento del recorrido cuando los sistemas externos deban gestionar un número limitado de solicitudes por segundo.
 

@@ -5,7 +5,7 @@ title: Configuración del canal basado en código
 description: Configuración del canal basado en código
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 La sección Configuración de canal basado en código de Adobe Journey Optimizer le ayuda a descubrir potentes funciones de personalización, ya que permite ofrecer experiencias adaptadas basadas en código en plataformas web, móviles y de otro tipo. Aprenderá a configurar superficies y ubicaciones de aplicaciones específicas en las que se procesa contenido, y a explorar métodos como las implementaciones híbridas, del lado del cliente y del lado del servidor para adaptarlas a sus necesidades. Profundice en temas como la deduplicación para la lógica de toma de decisiones y las configuraciones específicas de la plataforma, y adquiera los conocimientos necesarios para crear interacciones flexibles basadas en datos que se adapten al comportamiento de los usuarios. Tanto si es un administrador como si es un desarrollador, esta guía le permite optimizar la participación con precisión y control.
 
-## Configurar el canal basado en código
+## Configuración del canal basado en código
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Requisitos previos de la experiencia basada en código
 
@@ -30,7 +30,7 @@ Obtenga información sobre los requisitos previos para utilizar experiencias bas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Superficies de la experiencia basada en código
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo configurar la deduplicación y administrar las 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Crear una configuración de experiencia basada en código
 

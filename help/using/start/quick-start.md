@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Esta experiencia unificada permite implementar casos de uso completos en un solo
 
 **Nota importante:** Adobe Journey Optimizer define funciones distintas con responsabilidades específicas. Un solo individuo puede desempeñar varias funciones o todas las funciones, según la estructura de su organización.
 
-## Guías de inicio rápido basadas en funciones
+## Guías de inicio rápido basadas en roles
 
 Para simplificar la implementación, Adobe Journey Optimizer organiza las tareas en funciones específicas en función de su experiencia. Cada función se centra en las tareas esenciales necesarias para ofrecer una experiencia de cliente optimizada.
 
@@ -46,7 +46,7 @@ Para simplificar la implementación, Adobe Journey Optimizer organiza las tareas
 
 Cada función aborda una fase específica de la implementación de Adobe Journey Optimizer y garantiza un proceso de implementación estructurado y eficaz.
 
-## Orden de implementación y dependencias de función
+## Orden de implementación y dependencias de funciones
 
 Una implementación correcta de Journey Optimizer suele seguir esta secuencia, que refleja las dependencias entre funciones:
 
@@ -86,7 +86,7 @@ Una implementación correcta de Journey Optimizer suele seguir esta secuencia, q
 
 **Nota:** Aunque esta secuencia es típica, algunas actividades pueden ocurrir en paralelo. Por ejemplo, los desarrolladores pueden trabajar en las integraciones de aplicaciones mientras los ingenieros de datos configuran los esquemas.
 
-## Introducción según función
+## Introducción por función
 
 Cada función comienza con tareas específicas adaptadas a su objetivo. Completar estos pasos iniciales garantiza una incorporación y alineación más fluidas con el proceso de implementación general:
 
