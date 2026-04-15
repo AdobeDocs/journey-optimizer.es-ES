@@ -41,7 +41,7 @@ Acceder y explorar los campos XDM de DecisioningEvents
 
 Acceda al esquema XDM de DecisioningEvents, explore sus campos y conozca sus propiedades para crear informes detallados.
 
-[Acceder a los campos XDM ](../using/offers/reports/xdm-fields.md)
+[Acceder a los campos XDM &#x200B;](../using/offers/reports/xdm-fields.md)
 :::
 
 ::::
