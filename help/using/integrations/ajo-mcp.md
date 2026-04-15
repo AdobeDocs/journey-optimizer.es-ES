@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 0cdc7c1ddefdfdf9fbf600171c46c0b68e12f102
+source-git-commit: 90904fa1fb27782ac1deafb09f56a9abf5ceeb6e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -110,4 +110,3 @@ Necesita al menos **permisos de vista** para los objetos que desea consultar: ca
 
 Sí. El servidor MCP respeta la configuración de su zona protegida [!DNL Adobe Journey Optimizer]. Puede consultar datos específicos de la zona protegida especificando la zona protegida en la solicitud o conectándose con credenciales con ámbito de una zona protegida en particular.
 +++
-
