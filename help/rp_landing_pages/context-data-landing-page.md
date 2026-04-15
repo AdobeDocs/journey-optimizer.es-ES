@@ -35,7 +35,7 @@ Aprenda a utilizar datos de contexto en el motor de decisión de Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Usar datos de contexto en solicitudes de tomas de decisiones en Edge
 

@@ -20,7 +20,7 @@ La entregabilidad del correo electrónico consiste en garantizar que los correos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la entregabilidad del correo electrónico
 

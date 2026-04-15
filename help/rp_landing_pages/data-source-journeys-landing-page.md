@@ -50,7 +50,7 @@ Obtenga información sobre cómo configurar la fuente de datos integrada de Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Configuración de las fuentes de datos externas
 

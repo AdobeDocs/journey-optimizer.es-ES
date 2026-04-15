@@ -20,7 +20,7 @@ El lanzamiento de su primera campaña orquestada en Adobe Journey Optimizer le p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía paso a paso para crear una campaña organizada
 
@@ -50,7 +50,7 @@ Domine el lienzo visual para diseñar y configurar actividades para sus campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Iniciar y monitorizar campañas
 

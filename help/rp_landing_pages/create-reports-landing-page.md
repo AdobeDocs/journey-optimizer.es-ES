@@ -25,7 +25,7 @@ Utilice los datos de evento de Administración de decisiones y el esquema XDM De
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Trabajar con eventos de gestión de decisiones
 

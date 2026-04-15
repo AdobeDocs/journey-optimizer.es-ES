@@ -31,7 +31,7 @@ Aprenda a utilizar herramientas como la detección de conflictos, las puntuacion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Identificar posibles conflictos
 

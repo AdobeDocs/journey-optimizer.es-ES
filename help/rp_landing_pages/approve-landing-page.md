@@ -30,7 +30,7 @@ Descubra cómo configurar y administrar el proceso de aprobación de recorridos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Cómo crear y administrar políticas de aprobación
 

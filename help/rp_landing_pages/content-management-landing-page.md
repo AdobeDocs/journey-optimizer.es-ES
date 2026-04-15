@@ -20,7 +20,7 @@ Las funciones de administración de contenido de Adobe Journey Optimizer le perm
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Adición de personalización
 
@@ -30,7 +30,7 @@ Aprenda a implementar y optimizar las funciones de personalización para crear e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Creación de páginas de aterrizaje
 
@@ -60,7 +60,7 @@ Aprenda a crear y administrar fragmentos de contenido reutilizables para persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Creación de contenido dinámico
 

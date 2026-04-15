@@ -20,7 +20,7 @@ La función de contenido multilingüe de Adobe Journey Optimizer permite ofrecer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción al contenido multilingüe
 
@@ -60,7 +60,7 @@ Aprenda a crear manualmente campañas y recorridos multilingües adaptados a con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Crear contenido multilingüe con traducción automática
 

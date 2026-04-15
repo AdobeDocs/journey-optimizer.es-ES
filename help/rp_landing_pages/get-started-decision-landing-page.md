@@ -25,7 +25,7 @@ La gestión de decisiones de Adobe Journey Optimizer permite a los expertos en m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la gestión de decisiones
 
@@ -35,7 +35,7 @@ Obtenga información sobre la gestión de decisiones en Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección y limitaciones de la gestión de decisiones
 
@@ -55,7 +55,7 @@ Explore la interfaz y las funcionalidades de la biblioteca de ofertas para crear
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Pasos clave para crear y administrar ofertas
 
@@ -65,7 +65,7 @@ Siga una guía paso a paso para crear, administrar y configurar ofertas y decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Uso de los públicos de carga personalizados para la toma de decisiones
 

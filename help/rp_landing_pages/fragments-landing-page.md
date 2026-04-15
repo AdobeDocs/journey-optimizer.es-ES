@@ -30,7 +30,7 @@ Aprenda los conceptos básicos sobre la creación, administración y reutilizaci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear fragmentos reutilizables
 

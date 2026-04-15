@@ -33,7 +33,7 @@ Configure e integre el canal de las tarjetas de contenido para plataformas web, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Creación y configuración de tarjetas de contenido
 

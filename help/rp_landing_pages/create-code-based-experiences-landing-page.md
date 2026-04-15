@@ -20,7 +20,7 @@ Las experiencias basadas en código de Adobe Journey Optimizer le permiten crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Crear y redactar experiencias basadas en código
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y configurar experiencias basadas en cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Uso de campos editables en experiencias basadas en código
 
@@ -40,7 +40,7 @@ Descubra cómo añadir campos editables a las plantillas, lo que permite a los e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Probar experiencias basadas en código
 

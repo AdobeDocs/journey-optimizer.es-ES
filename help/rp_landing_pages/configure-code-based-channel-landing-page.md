@@ -40,7 +40,7 @@ Conozca las superficies y sus identificadores, composición y uso en experiencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Muestras de métodos de implementación
 
@@ -50,7 +50,7 @@ Obtenga instrucciones paso a paso para implementar experiencias basadas en códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Toma de decisiones en las implementaciones de experiencias basadas en código
 

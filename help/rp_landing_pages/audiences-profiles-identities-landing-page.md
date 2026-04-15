@@ -20,7 +20,7 @@ Los públicos, los perfiles y las identidades de Adobe Journey Optimizer depende
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Gestión de público y personalización
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear, gestionar y activar públicos mediante l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=es)
 
 Perfiles: administrar y optimizar los datos del cliente
 

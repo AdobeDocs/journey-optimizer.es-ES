@@ -23,7 +23,7 @@ Para acceder a tus informes, selecciona **[!UICONTROL Informe]** en el menú ava
 
 ![](assets/cja-lp.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
 
 ## Tasa de conversión de página de aterrizaje {#lp-conversion}
 
