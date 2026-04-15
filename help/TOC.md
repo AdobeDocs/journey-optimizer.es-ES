@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+source-git-commit: 97b94cfb13a9a435df2accfce34c95856b67b11b
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3206'
 ht-degree: 91%
 
 ---
@@ -428,9 +428,8 @@ ht-degree: 91%
       + [Sintaxis de personalización](using/personalization/personalization-syntax.md)
       + [Iteración sobre datos contextuales](using/personalization/iterate-contextual-data.md)
       + [Reutilización de fragmentos de expresión](using/personalization/use-expression-fragments.md)
-      + Uso de datos de Adobe Experience Platform para la personalización {#aep-data-perso}
-         + [Uso de datos de Adobe Experience Platform para la personalización](using/personalization/aep-data-perso.md)
-         + [Cifrado de parámetros de URL en vínculos de seguimiento](using/personalization/url-parameter-encryption.md)
+      + [Uso de datos de Adobe Experience Platform para la personalización](using/personalization/aep-data-perso.md)
+      + [Cifrado de parámetros de URL en vínculos de seguimiento](using/personalization/url-parameter-encryption.md)
       + Lista de funciones del asistente {#functions}
          + [Lista de funciones del asistente](/help/rp_landing_pages/functions-landing-page.md)
          + [Introducción a las funciones de ayuda](using/personalization/functions/functions.md)
@@ -878,7 +877,7 @@ ht-degree: 91%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
