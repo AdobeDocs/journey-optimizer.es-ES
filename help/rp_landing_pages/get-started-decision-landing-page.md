@@ -6,10 +6,10 @@ description: Introducción a la gestión de decisiones
 redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="Heredado" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 La gestión de decisiones de Adobe Journey Optimizer permite a los expertos en marketing ofrecer las ofertas personalizadas adecuadas a los clientes en el momento perfecto, en varios canales. Al combinar una biblioteca de ofertas centralizada con un potente motor de decisión, puede adaptar los mensajes en función de perfiles únicos y reglas empresariales. Tanto si define criterios de idoneidad como si administra opciones de reserva o clasifica ofertas para ubicaciones prioritarias, el proceso es ágil e intuitivo. Esta sección presenta los componentes clave: desde la creación de ofertas y colecciones hasta la integración de decisiones en campañas, para que pueda crear experiencias significativas que conecten con su público y fomenten la participación.
 
-## Introducción a la gestión de decisiones
+## Introducción a la administración de decisiones
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a la gestión de decisiones
 
@@ -35,7 +35,7 @@ Obtenga información sobre la gestión de decisiones en Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección y limitaciones de la gestión de decisiones
 
@@ -45,7 +45,7 @@ Conozca las restricciones operativas y los umbrales de rendimiento de la gestió
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Guía de interfaz de usuario de la biblioteca de ofertas
 
@@ -55,7 +55,7 @@ Explore la interfaz y las funcionalidades de la biblioteca de ofertas para crear
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Pasos clave para crear y administrar ofertas
 
@@ -65,7 +65,7 @@ Siga una guía paso a paso para crear, administrar y configurar ofertas y decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Uso de los públicos de carga personalizados para la toma de decisiones
 
@@ -75,7 +75,7 @@ Descubra cómo perfeccionar los criterios de idoneidad y personalizar las oferta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Usar ofertas personalizadas en un correo electrónico
 

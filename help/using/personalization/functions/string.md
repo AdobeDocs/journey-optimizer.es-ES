@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 6%
@@ -232,7 +232,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Ignorar mayúsculas y minúsculas{#equalsIgnoreCase}
+## Igual a ignorar mayúsculas y minúsculas{#equalsIgnoreCase}
 
 La función `equalsIgnoreCase` se usa para determinar si una cadena es igual a la cadena especificada, sin distinción de mayúsculas y minúsculas.
 
@@ -386,7 +386,7 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Is Not Empty {#is-not-empty}
+## No está vacío {#is-not-empty}
 
 La función `isNotEmpty` se usa para determinar si una cadena no está vacía.
 
@@ -575,7 +575,7 @@ La siguiente consulta determina, con distinción entre mayúsculas y minúsculas
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## No Igual Con Ignorar Mayúsculas y Minúsculas {#not-equal-with-ignore-case}
+## No igual con ignorar mayúsculas y minúsculas {#not-equal-with-ignore-case}
 
 La función `notEqualWithIgnoreCase` se usa para comparar dos cadenas ignorando mayúsculas y minúsculas.
 
@@ -658,7 +658,7 @@ La función `replaceAll` se usa para reemplazar todas las subcadenas de un texto
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
 > Obtenga más información en [Documentación de Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
@@ -798,7 +798,7 @@ La función `toBool` se usa para convertir un valor de argumento en un valor boo
 {= toBool(string) %}: boolean
 ```
 
-## A Fecha Hora {#to-date-time}
+## Hasta la fecha y hora {#to-date-time}
 
 La función `toDateTime` se usa para convertir la cadena a fecha. Devuelve la fecha epoch como salida para una entrada no válida.
 
@@ -808,7 +808,7 @@ La función `toDateTime` se usa para convertir la cadena a fecha. Devuelve la fe
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## A Fecha Hora Solamente {#to-date-time-only}
+## A fecha hora solamente {#to-date-time-only}
 
 La función `toDateTimeOnly` se usa para convertir un valor de argumento en un valor de solo fecha y hora. Devuelve la fecha epoch como salida para una entrada no válida. Esta función acepta tipos de campo string, date, long e int.
 

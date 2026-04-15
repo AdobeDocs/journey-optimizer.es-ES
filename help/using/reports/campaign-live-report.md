@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 26%
@@ -470,7 +470,7 @@ El widget **[!UICONTROL Rendimiento de SMS por fecha]** ofrece una descripción 
 
 +++
 
-### SMS: motivos del error {#sms-error-reasons}
+### SMS: razones de error {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ El widget **[!UICONTROL Rendimiento de SMS por fecha]** ofrece una descripción 
 
 Los gráficos y la tabla de **[!UICONTROL Motivos de exclusión]** le permiten identificar los errores específicos que se produjeron durante el proceso de envío de sus mensajes SMS en las últimas 24 horas, lo que facilita un análisis exhaustivo de cualquier problema que se haya encontrado.
 
-### SMS: motivos de exclusión {#sms-excluded-reasons}
+### SMS: razones de exclusión {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ La tabla **[!UICONTROL Interacciones por elemento]** presenta información compl
 
 Desde tu **[!UICONTROL informe en vivo]** de Campaign, la pestaña **[!UICONTROL Correo directo]** detalla la información principal relativa a tu Correo directo.
 
-### Correo directo: estadísticas del envío {#direct-mail-sending}
+### Correo directo: estadísticas de envío {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ La tabla **[!UICONTROL Correo directo: estadísticas de envío]** proporciona un
 
 +++
 
-### Correo directo: motivos del error {#direct-mail-error-reasons}
+### Correo postal: razones de error {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ La tabla **[!UICONTROL Correo directo: estadísticas de envío]** proporciona un
 
 Los gráficos y la tabla de **[!UICONTROL Correo directo: razones de error]** proporcionan los medios para identificar errores específicos que se produjeron durante el proceso de envío de sus mensajes de correo postal, lo que permite un análisis detallado de cualquier problema que se haya encontrado en las últimas 24 horas.
 
-### Correo directo: motivos de la exclusión {#direct-mail-excluded-reasons}
+### Correo postal: razones de exclusión {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

@@ -5,7 +5,7 @@ title: Integración de los recorridos con sistemas externos
 description: Integración de los recorridos con sistemas externos
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
@@ -20,7 +20,7 @@ La integración de los recorridos con sistemas externos en Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Prácticas recomendadas para la integración con los sistemas externos
 
@@ -30,7 +30,7 @@ Conozca las prácticas recomendadas y las directrices técnicas para la integrac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información general sobre la API de límite y la guía de implementación
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo crear, configurar y administrar la configuraci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API de limitación: guía de configuración y administración
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: actividad, toma de decisiones, decisión de contenido, política de decisión, lienzo, recorrido
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 2%
@@ -85,7 +85,7 @@ El resultado de una decisión de contenido se puede utilizar en varias actividad
 
 También puede agregar una [acción personalizada](#add-custom-action) al recorrido para compartir las ofertas de la actividad de decisión de contenido con un sistema externo.
 
-### En una actividad de optimización (método de condición) {#add-condition-activity}
+### En una actividad optimizada (método de condición) {#add-condition-activity}
 
 Para aprovechar el resultado de una actividad de decisión de contenido, agregue una actividad **[!UICONTROL Optimizar]**, elija el método **[!UICONTROL Condición]** y defina expresiones para mover perfiles a rutas específicas usando datos de esas ofertas. Siga los pasos a continuación. Para obtener más tipos y opciones de condición, consulte [Condiciones](conditions.md).
 

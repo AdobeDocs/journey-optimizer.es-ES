@@ -10,14 +10,14 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 4%
 
 ---
 
-# Recorridos frente a campañas: elija el método adecuado {#journeys-vs-campaigns}
+# Recorridos frente a campañas: elija el enfoque adecuado {#journeys-vs-campaigns}
 
 [!DNL Adobe Journey Optimizer] ofrece dos maneras principales de llegar a sus clientes y motivarlos: **Recorridos** y **Campañas**. Los recorridos están diseñados para una orquestación en tiempo real de varios pasos dirigida por el comportamiento del cliente, mientras que las campañas son más adecuadas para difusiones únicas o programadas a una audiencia definida. Una vez que haya decidido una campaña, puede elegir el tipo de campaña que mejor se adapte a su caso de uso.
 

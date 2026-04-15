@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -49,7 +49,7 @@ Con una licencia Enterprise, los usuarios tienen acceso completo al editor web d
 
 ![](assets/express-licence.png)
 
-Para obtener más información sobre los casos de uso disponibles para los usuarios con una licencia Enterprise para Adobe Express, consulte [Documentación web de Adobe Express](https://helpx.adobe.com/es/express/web.html).
+Para obtener más información sobre los casos de uso disponibles para los usuarios con una licencia Enterprise para Adobe Express, consulte [Documentación web de Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Uso de Adobe Express sin una licencia empresarial  {#edit}
 
@@ -148,7 +148,7 @@ La imagen ya está lista para utilizarse en el contenido.
 
 Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer con las herramientas de Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455526/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

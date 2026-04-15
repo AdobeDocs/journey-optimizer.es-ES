@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: error, códigos, resolución de problemas, recorrido, campaña, mensajes
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Cuando se produzca un error, anote el código de error completo y cualquier ID d
 
 Utilice esta sección para buscar códigos de error agrupados por servicio.
 
-### CJMPTS: Errores de servicio push y de transporte {#cjmpts-errors}
+### CJMPTS: errores de servicio push y de transporte {#cjmpts-errors}
 
 Estos errores se producen durante la entrega de notificaciones push y las operaciones de transporte de mensajes.
 
@@ -76,7 +76,7 @@ Estos errores se producen durante la ejecución del recorrido, el procesamiento 
 | **CJMRT-080608-400** | Solicitud incorrecta en dominio/canal/delegación | Faltan registros DNS obligatorios o configuración de correo electrónico/SMS | &#x200B;1. Configuración DNS completa para los dominios de correo electrónico<br/>2. Verificar que la delegación de subdominios se haya completado<br/>3. Vuelva a ejecutar los asistentes de configuración<br/>4. Deje tiempo para la propagación de DNS (hasta 72 horas)<br/><br/>**Documentación relacionada**: [Superficies de canal](../configuration/channel-surfaces.md), [Delegación de subdominios](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Error interno en carga útil | Error de configuración/datos back-end o configuración no compatible | &#x200B;1. Vuelva a intentar la operación<br/>2. Simplifique la configuración si usa características avanzadas<br/>3. Comuníquese con la atención al cliente de Adobe con el ID de solicitud y la carga útil exacta<br/>4. Compruebe si hay problemas conocidos en las notas de la versión <br/><br/>**Documentación relacionada**: [Solución de problemas del Recorrido](troubleshooting.md) |
 
-### CJMMAS: Errores del servicio de creación de mensajes {#cjmmas-errors}
+### CJMMAS: errores del servicio de creación de mensajes {#cjmmas-errors}
 
 Estos errores se producen al crear, editar o publicar mensajes, ajustes preestablecidos y contenido.
 
@@ -101,7 +101,7 @@ Estos errores se producen durante la creación, configuración y activación de 
 | **CJMCMP-3001-400** | Simulación/previsualización &quot;filtro de tipo de superficie incorrecto&quot; | El nodo creado con la estructura heredada envía type=surfaceId, el back-end espera brandingPresetId | &#x200B;1. Elimine y vuelva a crear el nodo afectado<br/>2. Usar la nueva versión o plantilla de recorrido<br/>3. Use el modo de prueba para borrar la configuración<br/>4. Volver a crear nodos de forma masiva si el problema está generalizado <br/><br/>**Documentación relacionada**: [Superficies de canal](../configuration/channel-surfaces.md), [Simulación de mensaje](../content-management/preview.md) |
 | **CJMCMP-2050-400** | Solicitud incorrecta en la activación o aprobación de la campaña | Política o segmento de referencias de campaña no válidas o que faltan | &#x200B;1. Audite todas las configuraciones de nodo de campaña<br/>2. Verifique que los vínculos de directivas o segmentos sean actuales y válidos<br/>3. Actualice con la configuración correcta<br/>4. Volver a probar la campaña antes de la activación <br/><br/>**Documentación relacionada**: [Creación de la campaña](../campaigns/create-campaign.md), [Aprobación de la campaña](../test-approve/gs-approval.md) |
 
-### CJMTL: Errores de capa de transporte {#cjmtl-errors}
+### CJMTL: errores de capa de transporte {#cjmtl-errors}
 
 Estos errores se producen durante el transporte de mensajes y las operaciones de envío.
 
@@ -110,7 +110,7 @@ Estos errores se producen durante el transporte de mensajes y las operaciones de
 | **CJMTL-010018-422** | &quot;No se permite Personalization en el nombre de dominio&quot; al guardar o enviar contenido | La validación demasiado estricta interrumpió temporalmente la personalización del dominio href dinámico | &#x200B;1. Refactorice los vínculos si usa variables de dominio<br/>2. Compruebe que la última versión de AJO esté en uso<br/>3. Vuelva a intentar la operación<br/>4. Use dominios estáticos si el problema persiste <br/><br/>**Documentación relacionada**: [Sintaxis de Personalization](../personalization/personalization-syntax.md), [Diseño de correo electrónico](../email/content-from-scratch.md) |
 | **CJMTL-010011-422** | Entidad no procesable: el envío push/SMS/correo electrónico falla, dice &quot;campo no válido&quot; | Faltan datos de carga útil o de destinatario/contacto o no son válidos | &#x200B;1. Inspeccione los registros para detectar errores de campo específicos<br/>2. Se corrigió la información de perfil/contacto<br/>3. Validar con perfil de prueba<br/>4. Refactorice el formato de carga útil según sea necesario <br/><br/>**Documentación relacionada**: [Administración de perfiles](../audience/get-started-profiles.md), [Perfiles de prueba](../audience/creating-test-profiles.md) |
 
-### CJMRPS: Errores del servicio de creación de informes y aprovisionamiento {#cjmrps-errors}
+### CJMRPS: errores de servicio de creación de informes y aprovisionamiento {#cjmrps-errors}
 
 Estos errores se producen durante las operaciones de configuración de informes y aprovisionamiento de conjuntos de datos.
 
@@ -183,14 +183,14 @@ Si encuentra errores persistentes que no se pueden resolver con esta guía:
 1. **Recopilar información**: recopile el código de error, el identificador de solicitud, las marcas de tiempo y los pasos para reproducir
 2. **Comprobar el estado del sistema**: Visite [Adobe Status](https://status.adobe.com/es){target="_blank"} para ver problemas de servicio conocidos
 3. **Documentación de búsqueda**: revise [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es){target="_blank"} para obtener soluciones
-4. **Participación de la comunidad**: publique preguntas en la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+4. **Participación de la comunidad**: publique preguntas en la [[!DNL Adobe Journey Optimizer] comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Póngase en contacto con el Soporte técnico de Adobe**: [Envíe un ticket de asistencia](../start/user-interface.md#support-ticket-guidelines) con todos los detalles relevantes
 
 >[!NOTE]
 >
->Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [[!DNL Adobe Journey Optimizer] blogs de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=es){target="_blank"} con regularidad.
+>Esta referencia de código de error se actualiza continuamente a medida que se identifican y documentan nuevos códigos. Para obtener la información más actual, consulte los [[!DNL Adobe Journey Optimizer] blogs de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} con regularidad.
 
 **Temas relacionados**
 
-* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es){target="_blank"}
-* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=es){target="_blank"}
+* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Desmitificando [!DNL Adobe Journey Optimizer] Códigos de error: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

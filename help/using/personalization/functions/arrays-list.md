@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 5%
@@ -71,7 +71,7 @@ La siguiente operación especifica las personas que han realizado pedidos en má
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Recuento Distinto Con Nulo {#distinct-count-with-null}
+## Recuento distinto con nulo {#distinct-count-with-null}
 
 La función `distinctCountWithNull` se usa para contar el número de valores diferentes en una lista, incluidos los valores nulos.
 

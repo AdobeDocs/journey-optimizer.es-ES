@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: exportación, mensajes, HIPAA, correos electrónicos, SMS, configuración
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 11%
@@ -60,9 +60,9 @@ Para ver los pasos detallados, los destinos de nube admitidos, los permisos requ
 >
 >Esta configuración debe configurarse para cada zona protegida.
 
-1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Cree un flujo de exportación de conjunto de datos con los siguientes datos:
 

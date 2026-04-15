@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo iniciar y monitorizar campañas or
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 0%
@@ -26,7 +26,7 @@ La reorientación le permite hacer un seguimiento de los destinatarios según su
 ![](assets/do-not-localize/retarget-schema.png){zoomable="yes"}
 
 
-## Crear una regla de redireccionamiento basada en comentarios {#feedback-retarget}
+## Creación de una regla de retargeting basada en comentarios {#feedback-retarget}
 
 La regla de redireccionamiento basada en comentarios permite redireccionar los destinatarios según los eventos de envío de mensajes capturados en el esquema **[!UICONTROL Comentarios del mensaje]**. Estos eventos incluyen resultados como mensajes enviados, abiertos, rechazados o marcados como correo no deseado.
 
@@ -44,7 +44,7 @@ Con estos datos, se pueden definir reglas para identificar a los destinatarios q
 
    1. Seleccione la regla de filtro y elija el **[!UICONTROL Comportamiento]** al que desee dirigirse, como **[!UICONTROL Mensaje enviado]**.
 
-   1. Haga clic en ![icono de carpeta &#x200B;](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
 
       * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
 
@@ -135,7 +135,7 @@ Para redirigir a los destinatarios en función de las interacciones de mensajes 
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Haga clic en ![icono de carpeta &#x200B;](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
+   1. Haga clic en ![icono de carpeta ](assets/do-not-localize/folder-search.svg) para seleccionar la campaña específica que desea redireccionar. Tiene dos opciones:
 
       * **[!UICONTROL Seleccione una campaña específica]**: Elija una campaña en particular de su lista para redirigirse a los destinatarios que interactuaron con esa campaña.
 

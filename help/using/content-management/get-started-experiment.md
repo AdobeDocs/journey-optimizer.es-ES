@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -129,7 +129,7 @@ Al comparar el rendimiento de dos tratamientos, siempre debe comparar las métri
 
 Por ejemplo, si el objetivo del experimento está establecido en **[!UICONTROL Aperturas únicas]**, y se ha mostrado  un tratamiento determinado a 10 000 perfiles con 200 aperturas únicas registradas, esto representa una **[!UICONTROL Tasa de conversión]** del 2 %. Para las métricas no únicas, como la métrica Aperturas, la métrica normalizada se muestra como una **[!UICONTROL Recuento por perfil]**, mientras que para las métricas continuas como Precio total, la métrica normalizada se muestra como un **[!UICONTROL Total por perfil]**.
 
-### &#x200B;2. Centrarse en intervalos de confianza {#confidence-intervals}
+### &#x200B;2. centrarse en los intervalos de confianza {#confidence-intervals}
 
 Al ejecutar experimentos con muestras de perfiles, la tasa de conversión observada para un tratamiento determinado representa una estimación de la tasa de conversión subyacente real.
 
@@ -141,17 +141,17 @@ Si los intervalos de confianza para dos tratamientos apenas se superponen, signi
 
 Adobe utiliza un 95 % cada vez que se usan intervalos de confianza válidos o secuencias de confianza, lo que significa que los resultados se pueden ver de forma segura en cualquier momento durante el experimento.
 
-### &#x200B;3. Comprender el alza {#understand-lift}
+### &#x200B;3. entender el alza {#understand-lift}
 
 El resumen del informe de experimento muestra el **[!UICONTROL Alza sobre la línea de base]**, que es una medida de la mejora porcentual en la tasa de conversión de un tratamiento determinado respecto a la línea de base. Definida con precisión, es la diferencia de rendimiento entre un tratamiento determinado y la línea de base, dividida por el rendimiento de la línea de base, expresada como porcentaje.
 
-### &#x200B;3. Comprender la confianza {#understand-confidence}
+### &#x200B;3. comprender la confianza {#understand-confidence}
 
 Aunque debería centrarse principalmente en el **[!UICONTROL Intervalo de confianza]** del rendimiento de cada tratamiento, Adobe también muestra la confianza, que es una medida probabilística de la cantidad de evidencia que existe de que un tratamiento dado es el mismo que el tratamiento de la línea de base. Una mayor confianza indica menos evidencia para el supuesto de que los tratamientos de línea de base y de no línea de base tienen un rendimiento igual. Más concretamente, la confianza que se muestra es una probabilidad (expresada como porcentaje) de que habríamos observado una diferencia menor en las tasas de conversión entre un tratamiento determinado y la línea de base, si en realidad no hay diferencia en las tasas de conversión subyacentes reales. En términos de valores p, la confianza mostrada es 1 - valor p.
 
 Adobe utiliza la confianza &quot;válida en cualquier momento&quot; y los valores p &quot;válidos en cualquier momento&quot;, que concuerdan con las secuencias de confianza descritas anteriormente.
 
-### &#x200B;4. Relevancia estadística
+### &#x200B;4. relevancia estadística
 
 Cuando se ejecutan Experimentos, un resultado se considera estadísticamente significativo si era muy poco probable que se hubiera observado teniendo en cuenta una hipótesis nula de que un tratamiento dado y la línea base tienen tasas/rendimiento de conversión subyacentes verdaderas idénticas.
 

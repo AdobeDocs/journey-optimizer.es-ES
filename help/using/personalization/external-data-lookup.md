@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# Ayuda de búsqueda de datos externos
+# Asistente de búsqueda de datos externos
 
 El asistente de `externalDataLookup` en el editor de personalización de [!DNL Journey Optimizer] se puede usar para recuperar dinámicamente datos de un extremo externo para usarlos en la generación de contenido para canales entrantes como la experiencia basada en código y los canales de mensajes web y en la aplicación.
 

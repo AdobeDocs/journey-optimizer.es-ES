@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo introducir datos en Adobe Experience Platform desde fuentes compatibles como SFTP, almacenamiento en la nube o bases de datos.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -25,7 +25,7 @@ Adobe Experience Platform permite la ingesta de datos desde fuentes externas, al
 
 Un conjunto de datos es una construcción de almacenamiento y administración para una colección de datos, normalmente una tabla, que contiene un esquema (columnas) y campos (filas). Los datos que se incorporan correctamente a Experience Platform se almacenan dentro del lago de datos como conjuntos de datos.
 
-## Fuentes compatibles con campañas organizadas {#supported}
+## Fuentes compatibles con las campañas orquestadas {#supported}
 
 Los siguientes recursos son compatibles con las campañas orquestadas:
 
@@ -39,29 +39,29 @@ Los siguientes recursos son compatibles con las campañas orquestadas:
   <tbody>
     <tr>
       <td rowspan="3">Almacenamiento en la nube</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Almacenamiento en la nube de Google</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Almacenamiento en la nube de Google</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Almacenes de datos en la nube</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Zona de aterrizaje de datos<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Zona de aterrizaje de datos<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Cargas basadas en archivos</td>
-      <td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Carga de archivo local<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Carga de archivo local<a></td>
     </tr>
 
 </tbody>
@@ -85,7 +85,7 @@ Si el cliente desea eliminar registros solo de Adobe Experience Platform sin afe
 
   Si tiene licencia, **Data Distiller** se puede usar para admitir operaciones de eliminación directamente en Adobe Experience Platform, independientemente del sistema de origen.
 
-  [Más información sobre Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
+  [Más información sobre Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configuración de un flujo de datos
 

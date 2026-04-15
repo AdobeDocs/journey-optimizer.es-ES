@@ -6,7 +6,7 @@ description: Configuración de canales guiada
 hide: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 La configuración guiada de canales en Adobe Journey Optimizer simplifica el proceso de configuración de los canales de marketing móviles y web, lo que le ayuda a poner en marcha campañas de forma rápida y eficaz. Tanto si configura iOS, Android o plataformas web, esta herramienta crea automáticamente recursos clave como propiedades de etiquetas móviles y secuencias de datos para que pueda centrarse en ofrecer experiencias de cliente impactantes. Explorará los requisitos previos para asegurarse de que lo tiene todo preparado, conocerá los recursos que le han generado y verá cómo funciona cada configuración de canal. Al final, tendrá una hoja de ruta clara y procesable para conectar sus metas de marketing a los canales adecuados con confianza.
 
-## Configuración de canal guiada
+## Configuración de canales guiada
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar canales web y móviles
 
@@ -31,7 +31,7 @@ Obtenga información sobre cómo configurar rápidamente canales web y móviles 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y modificar configuraciones de canal
 

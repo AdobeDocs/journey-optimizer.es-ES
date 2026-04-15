@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 8%
@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -110,7 +110,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
 Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
@@ -148,7 +148,7 @@ Después de definir el esquema, ahora puede crear un conjunto de datos basado en
 
 Ahora debe habilitar el conjunto de datos para campañas organizadas.
 
-## Habilitar conjunto de datos para campañas orquestadas {#enable}
+## Habilitar el conjunto de datos para campañas orquestadas {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"

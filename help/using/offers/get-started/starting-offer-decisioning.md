@@ -10,14 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Introducción a la gestión de decisiones {#about-decision-management}
+# Introducción a la administración de decisiones {#about-decision-management}
 
 Utilice [!DNL Journey Optimizer] para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. Una vez diseñados, los públicos se segmentarán con ofertas personalizadas.
 
@@ -70,7 +70,7 @@ Las funciones y la integración de Gestión de decisiones con Adobe Experience P
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## Concesión de acceso a Gestión de decisiones {#granting-acess-to-decision-management}
+## Concesión de acceso a la gestión de decisiones {#granting-acess-to-decision-management}
 
 Los permisos para acceder y utilizar las funcionalidades de toma de decisiones solo se administran mediante [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html){target="_blank"}.
 
@@ -110,16 +110,16 @@ A continuación, se muestra la lista de los conceptos principales con los que tr
 
 ## Vídeotutoriales{#video}
 
-### ¿Qué es Gestión de decisiones? {#what-is-offer-decisioning}
+### ¿Qué es la administración de decisiones? {#what-is-offer-decisioning}
 
 El siguiente vídeo proporciona una introducción a las funciones clave, la arquitectura y los casos de uso de Gestión de decisiones:
 
->[!VIDEO](https://video.tv.adobe.com/v/340419?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definición y administración de ofertas {#use-offer-decisioning}
 
 El siguiente vídeo muestra cómo utilizar Gestión de decisiones para definir y administrar sus ofertas, así como para aprovechar los datos de clientes en tiempo real.
 
->[!VIDEO](https://video.tv.adobe.com/v/340359?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

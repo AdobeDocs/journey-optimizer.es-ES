@@ -7,7 +7,8 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: 9dd3970c-cf24-424c-b734-f30571374942
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 2%
@@ -211,4 +212,3 @@ Después de generar variaciones de texto para los mensajes móviles, puede ajust
 1. Inserte campos de personalización para personalizar el contenido en función de los datos de perfiles. A continuación, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la renderización y compruebe la configuración de personalización con perfiles de prueba. [Más información](../personalization/personalize.md)
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la campaña móvil. [Más información](../campaigns/review-activate-campaign.md)
-

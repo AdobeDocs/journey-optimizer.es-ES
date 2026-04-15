@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -25,8 +25,8 @@ Las solicitudes de privacidad se pueden crear y administrar desde el menú **[!U
 Para obtener más información sobre Privacy Service y cómo crear y administrar solicitudes de privacidad, consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target="_blank"}.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## Administración de las solicitudes de privacidad de datos individuales que puede enviar a Adobe Journey Optimizer {#data-privacy-requests}
@@ -60,7 +60,7 @@ Los tres servicios ascendentes son los siguientes:
 >
 >Para las solicitudes de eliminación y de acceso, debe llamar a estos sistemas individuales para asegurarse de que cada uno de ellos gestiona las solicitudes. Realizar una solicitud de privacidad a [!DNL Adobe Journey Optimizer] no quitará los datos de todos estos sistemas.
 
-## Creación de solicitudes de acceso y de eliminación
+## Creación de solicitudes de acceso y eliminación
 
 ### Requisitos previos
 

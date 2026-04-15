@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 2%
@@ -48,7 +48,7 @@ El paso 1 es opcional si ya se han configurado las credenciales de inserción, y
 
 1. Haga clic en **[!UICONTROL Enviar]** para crear la configuración de la aplicación.
 
-## Paso 2: Crear la configuración de Actividad activa {#config-live-activity}
+## Paso 2: crear la configuración de actividad activa {#config-live-activity}
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]**. Haga clic en el botón **[!UICONTROL Crear configuración de canal]**.
 

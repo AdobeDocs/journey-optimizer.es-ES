@@ -10,10 +10,10 @@ level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -123,14 +123,14 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## Complete los pasos del bucle de retroalimentación {#feedback-loop-steps}
+## Complete los pasos del bucle de comentarios {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
 >title="Complete los pasos del bucle de retroalimentación"
 >abstract="Vaya a Yahoo! Sender Hub y rellene el formulario para comprobar la propiedad del dominio. Introduzca la dirección de correo electrónico del sistema de informes de FBL que se indica a continuación y utilice la contraseña de un solo uso (OTP) que recibirá para verificar la propiedad en Yahoo! Sender Hub."
 
-1. Vaya a [Yahoo! Sitio web del concentrador de remitentes &#x200B;](https://senders.yahooinc.com/) y rellene el formulario necesario para comprobar la propiedad del dominio.
+1. Vaya a [Yahoo! Sitio web del concentrador de remitentes ](https://senders.yahooinc.com/) y rellene el formulario necesario para comprobar la propiedad del dominio.
 
 1. Para verificar la propiedad del dominio, Yahoo! Sender Hub necesitará que proporcione una dirección de correo electrónico. Escriba la dirección de correo electrónico de informe FBL en **[!UICONTROL Valor]**. Es una dirección de correo electrónico propiedad de Adobe.
 

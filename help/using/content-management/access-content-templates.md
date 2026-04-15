@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 3%
@@ -101,7 +101,7 @@ Para desplazarse fácilmente por las plantillas de contenido, utilice carpetas p
 >
 >Cuando se edita o elimina una plantilla, las campañas o los recorridos, incluido el contenido creado con esta plantilla, no se ven afectados.
 
-## [!BADGE Disponibilidad limitada]{type=Informative} Muestra las plantillas como miniaturas {#template-thumbnails}
+## [!BADGE disponibilidad limitada]{type=Informative} muestra las plantillas como miniaturas {#template-thumbnails}
 
 Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como una miniatura.
 
@@ -117,7 +117,7 @@ Seleccione el modo **[!UICONTROL Grid view]** para mostrar cada plantilla como u
 
 Cuando actualice el contenido, espere unos segundos a que los cambios se reflejen en la miniatura.
 
-## Solución de problemas {#troubleshooting}
+## Resolución de problemas {#troubleshooting}
 
 +++No puedo ver el menú Plantillas de contenido en el panel de navegación izquierdo
 

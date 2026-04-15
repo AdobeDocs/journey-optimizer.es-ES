@@ -5,10 +5,10 @@ title: Canal en la aplicación
 description: Canal en la aplicación
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 100%
 
 El canal en la aplicación de Adobe Journey Optimizer le permite conectar con los usuarios de la aplicación en tiempo real mediante notificaciones personalizadas que se muestran directamente en la aplicación móvil o web. Tanto si desea guiar a los usuarios durante la incorporación, como promocionar una nueva función o compartir ofertas exclusivas, los mensajes en la aplicación ofrecen una forma atractiva de suministrar contenido relevante exactamente cuando más importa. En esta sección se proporciona una hoja de ruta clara para que domine la mensajería en la aplicación. Desde la configuración de las configuraciones necesarias y el diseño de mensajes visualmente atractivos hasta la creación de campañas segmentadas y el análisis de su impacto. Cada tema se basa en el último, lo que le permite crear experiencias significativas y fáciles de usar con confianza.
 
-## Funciones de canal en la aplicación
+## Funciones del canal en la aplicación
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de canal en la aplicación
 
@@ -31,7 +31,7 @@ Guía paso a paso para configurar permisos, el envío y los requisitos previos p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear mensajes en la aplicación móvil
 
@@ -41,7 +41,7 @@ Obtenga información sobre cómo crear, configurar y publicar mensajes en la apl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Crear mensajes en la aplicación web
 
@@ -51,7 +51,7 @@ Configure y cree campañas de mensajería en la aplicación web con activadores,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 Diseñar y personalizar el contenido en la aplicación
 
@@ -61,7 +61,7 @@ Explore las opciones de diseño, personalice el contenido y utilice un formato a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Comprobar y enviar la notificación en la aplicación
 

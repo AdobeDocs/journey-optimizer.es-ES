@@ -5,7 +5,7 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Especifica lo siguiente:
 
 La organización de esquemas o tablas en un modelo de datos relacional consiste en estructurar los datos en varias tablas. Asegúrese de que cada tabla almacene un tipo de entidad/esquemas
 
-➡️ [Obtenga más información acerca de los esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Obtenga más información acerca de los esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Pasos de implementación {#implementation}
 
