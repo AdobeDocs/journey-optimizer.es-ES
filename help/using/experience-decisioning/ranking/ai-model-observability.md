@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -104,7 +104,7 @@ Para ver los detalles de error de un modelo de IA de optimización personalizado
 
 1. Puede comprobar qué conjunto de datos está seleccionado en las **[!UICONTROL propiedades]** del modelo. Haga clic en **[!UICONTROL Editar propiedades]** para seleccionar otro conjunto de datos. [Más información](create-ai-models.md)
 
-   ![](../assets/ai-model-properties-edit-dataset.png){align="left" width="45%"}
+   ![](../assets/ai-model-properties-edit-dataset.png){align="center" width="45%"}
 
 ## Preguntas frecuentes {#faq}
 
@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Aprenda a monitorizar los modelos de clasificación de IA e interpretar el estado y el rendimiento de la formación en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3479852?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## Documentación relacionada {#related}
 
