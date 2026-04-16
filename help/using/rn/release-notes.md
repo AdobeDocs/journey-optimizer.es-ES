@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2510'
 ht-degree: 21%
 
 ---
@@ -138,6 +138,10 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
   Fecha de disponibilidad: miércoles, 14 de abril de 2026
 
 #### Diseño de correo electrónico
+
+* **Asistente de IA para expresiones de personalización en el correo electrónico Designer**: el Asistente de IA para expresiones de personalización ahora también está disponible directamente desde la experiencia de edición en línea en el Designer de correo electrónico. Al editar un componente de texto, haga clic en **Usar IA para generar** en la ventana emergente de edición en línea para describir la personalización que necesita en un lenguaje sin formato, revise la expresión generada e insértela sin salir de Email Designer. [Más información](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Fecha de disponibilidad: jueves, 15 de abril de 2026
 
 * **Editor de HTML avanzado para el contenido del correo electrónico**: el modo de HTML avanzado permite editar el origen de HTML del contenido en el Designer de correo electrónico, agregar expresiones avanzadas (como condiciones) en el origen y alternar entre la vista de HTML y la vista de escritorio sin perder los cambios.
 
