@@ -5,9 +5,9 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
+source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '557'
 ht-degree: 92%
 
 ---
@@ -48,12 +48,6 @@ Aprenda a utilizar la sintaxis de iteración para mostrar listas dinámicas de d
 Journey Optimizer ahora incluye **Orquestación de campañas**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca. 
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
->[!TAB Horas de inactividad]
-
-Las horas de inactividad le permiten definir exclusiones basadas en el tiempo para los canales de correo electrónico, SMS, push y WhatsApp. 
-
-[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
