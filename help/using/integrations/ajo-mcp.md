@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Los equipos de marketing y de experiencia del cliente dependen cada vez más de 
 
 El servidor MCP [!DNL Adobe Journey Optimizer] le permite inspeccionar, resumir y solucionar problemas de recorridos, campañas y ofertas directamente desde su asistente de IA. Todas las operaciones son **de solo lectura** — las superficies del servidor MCP recuperan las API como respuestas en lenguaje sencillo para que pueda:
 
-* **Comprender la lógica de recorrido**: obtenga un resumen legible en lenguaje natural de las ramas, condiciones y acciones de cualquier recorrido.
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
 * **Comprobar la preparación de la campaña**: identifique los bloqueadores que impiden la publicación de una campaña.
 * **Espacios de cobertura puntual**: vea qué canales se cubren en sus recorridos y campañas en directo y dónde existen espacios.
 * **Auditar el portafolio de orquestación**: revise el estado completo de las campañas y recorridos sin analizar JSON ni saltar entre las pantallas de productos.
@@ -49,7 +49,7 @@ Los siguientes ejemplos muestran cómo interactuar con el servidor MCP [!DNL Ado
 | **Auditoría de inventario y estado** | &quot;¿Qué tenemos y en qué estado está? Mostrar los recuentos en directo frente a los recuentos en borrador frente a los recuentos completados/detenidos/archivados de las campañas.&quot; |
 | **Comprobar preparación de publicación** | &quot;¿Por qué la campaña cmp456 no está lista para publicar? Muéstrame los bloqueadores&quot;. |
 | **Comparar objetos** | &quot;Comparar las campañas abc123 y xyz789: ¿qué ha cambiado en estado y programación?&quot; |
-| **Auditar su portafolio** | &quot;En todos los recorridos y campañas en directo, ¿qué canales se cubren y dónde están los huecos?&quot; |
+| **Auditar su portafolio** | &quot;En todas las campañas en directo, ¿qué canales se cubren y dónde están los huecos?&quot; |
 | **Cobertura y mezcla de canales** | &quot;Muestra el impacto de canal en los recorridos, las campañas y las ubicaciones de ofertas: uso de solo correo electrónico frente a multicanal, push/SMS/en la aplicación y discrepancias entre los canales de recorrido&quot;. |
 
 ## Requisitos previos {#mcp-prerequisites}

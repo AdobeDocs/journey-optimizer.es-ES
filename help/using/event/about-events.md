@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 31%
+source-wordcount: '1951'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de recorrido"
->abstract="Un evento está vinculado a una persona. Está relacionado con el comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o a algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Journey Optimizer escucha eventos unitarios en recorrido para orquestar las mejores próximas acciones."
+>abstract="Journey Optimizer admite tres tipos de eventos en los recorridos: eventos unitarios, vinculados al comportamiento de una persona específica (como una compra o un hito de lealtad); eventos empresariales, desencadenados por una incidencia global (como una cancelación de vuelo o una actualización de existencias) y eventos de calificación de audiencia, activados cuando un perfil entra o sale de una audiencia. Utilice eventos para almacenar en déclencheur los recorridos y organizar las acciones adecuadas para sus perfiles."
 
 Utilice eventos para almacenar en déclencheur los recorridos individualmente y enviar mensajes en tiempo real a cada usuario cuando entre en el recorrido.
 
@@ -33,7 +33,7 @@ En la configuración de eventos, se configuran los eventos esperados en los reco
 
 La configuración del evento es **obligatoria** y la debe realizar un ingeniero de datos.
 
-Puede configurar dos tipos de eventos: **Eventos unitarios** y **Eventos empresariales**.
+Puede configurar tres tipos de eventos: **Eventos unitarios**, **Eventos empresariales** y **Eventos de calificación de audiencias**.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -47,6 +47,13 @@ Los recorridos unitarios (que se inician con un evento o una calificación de p�
 
 Los eventos de **Empresa** no están vinculados a un perfil específico. Por ejemplo, puede ser una alerta de noticias, una actualización deportiva, un cambio o cancelación de vuelo, una actualización de inventario, eventos meteorológicos, etc. Aunque estos eventos no son específicos de un perfil, pueden ser de interés para cualquier número de perfiles: personas suscritas a temas de noticias particulares, pasajeros en un vuelo, compradores interesados en un producto agotado, etc. Los eventos empresariales siempre están basados en reglas. Cuando suelta un evento empresarial en un recorrido, agrega automáticamente una actividad **Leer audiencia** justo después. Aprenda a crear un evento empresarial [en esta página](../event/about-creating-business.md).
 
+## Eventos de calificación de público {#audience-qualification-events}
+
+Se activa un evento **calificación de audiencia** cuando un perfil entra o sale de una audiencia. Por ejemplo, un cliente que cruza un umbral de gasto en fidelidad entra en la audiencia de nivel Gold; esa calificación déclencheur el recorrido de ese perfil en tiempo real (para audiencias de streaming) o en la siguiente evaluación por lotes. A diferencia de los eventos unitarios, la calificación de audiencia permite crear lógicas de activación complejas aprovechando toda la potencia de las definiciones de audiencia, sin requerir cambios de implementación para enviar un nuevo evento. Más información sobre [eventos de calificación de audiencia](../building-journeys/audience-qualification-events.md).
+
+>[!NOTE]
+>
+>Los eventos de cualificación de audiencia no se configuran en **Administración > Eventos**; se seleccionan directamente en el lienzo de recorrido como primer paso de un recorrido.
 
 ## Tipo de ID de evento {#event-id-type}
 
@@ -65,6 +72,20 @@ Para los eventos **unitarios**, existen dos tipos de ID de evento:
 >[!NOTE]
 >
 >Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos ingeridos por lotes, los eventos insertados mediante **Query Service** o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se pueden usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
+
+## Cómo elegir {#choose-event-type}
+
+Utilice los siguientes criterios para seleccionar el tipo de evento adecuado para el recorrido; la pregunta clave es: **¿está activando una acción para una persona específica o está difundiendo a muchos perfiles?** [Más información sobre los tipos de recorrido](../building-journeys/journey.md#journey-types).
+
+* **Elija un evento unitario** cuando el déclencheur esté vinculado a un individuo específico; por ejemplo, una compra, un envío de formulario o un hito de lealtad. Los eventos unitarios requieren una identidad principal basada en persona en el esquema e inician la recorrido inmediatamente para ese perfil. [Aprenda a configurar un evento unitario](../event/about-creating.md).
+
+* **Elige un evento empresarial** cuando el déclencheur sea global (por ejemplo, reabastecimiento de productos, caída de precios o cancelación de vuelos) y quieras retransmitir a un conjunto de perfiles relacionados con esa señal. Los eventos empresariales deben ser el primer paso en el recorrido y el destino automático de los perfiles mediante una actividad **Leer audiencia**. Requieren un esquema de serie temporal con una identidad principal que no sea personas y los campos `_id` y `timestamp`. Planifique un retraso de exportación de audiencia de 15 minutos a una hora como máximo. [Aprenda a configurar un evento empresarial](../event/about-creating-business.md).
+
+* **Elija un evento de calificación de audiencia** cuando el déclencheur sea un perfil que entra o sale de una audiencia y necesite una lógica de segmentación más compleja de la que puede proporcionar un solo evento; por ejemplo, volver a atraer a los clientes caducados que acaban de cumplir un umbral de gasto o activar un flujo de incorporación cuando un miembro de VIP abandona el nivel de lealtad. [Más información sobre los eventos de calificación de audiencia](../building-journeys/audience-qualification-events.md).
+
+>[!CAUTION]
+>
+>Los eventos empresariales no se pueden usar en el mismo recorrido que los eventos unitarios o las actividades de calificación de audiencia.
 
 ## Ciclo de datos {#data-cycle}
 
@@ -126,8 +147,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
