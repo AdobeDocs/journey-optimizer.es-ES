@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 47a36afb75002557e754bd72eeef0adb01d180e4
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 21%
@@ -49,6 +49,7 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
