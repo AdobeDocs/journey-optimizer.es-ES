@@ -9,9 +9,9 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 22%
 
 ---
@@ -49,11 +49,11 @@ Este área de reproducción proporciona un entorno simulado para escribir y prob
 
 ![área de reproducción de personalización](assets/playground.png)
 
-➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Asistente de IA en el editor de personalización {#ai-personalization-expressions}
+## Asistente de IA para expresiones de personalización {#ai-personalization-expressions}
 
-En el **[!UICONTROL Editor de Personalization]**, **[!UICONTROL Asistente de IA]** le ayuda a generar nuevas expresiones a partir del lenguaje natural, a explicar lo que hace el código existente, a corregir problemas en una selección y, a continuación, a aplicar el resultado cuando coincida con su intención.
+En **[!UICONTROL Personalization Editor]** o en la barra de herramientas de Email Designer (**[!UICONTROL Agregar expresión]**), **[!UICONTROL AI Assistant]** le ayuda a generar nuevas expresiones a partir del lenguaje natural, a explicar qué hace el código existente y a corregir problemas en una selección, y a aplicar la salida cuando coincida con su intención.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
@@ -103,14 +103,14 @@ Ahora que comprende la personalización de **[!DNL Journey Optimizer]**, es hora
 
 Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448133?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416236?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Descubra más tutoriales en vídeo sobre funciones de personalización y prácticas recomendadas en [tutoriales de Personalization](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

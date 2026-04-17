@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1785'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -175,7 +175,7 @@ Utilice IA generativa para crear y personalizar el contenido en varios canales, 
 * **Generación de texto**: crea una copia atractiva basada en la voz y los objetivos de tu marca. [Generar texto con IA](../content-management/generative-text.md)
 * **Generación de imágenes** - Generar imágenes personalizadas mediante Adobe Firefly. [Generar imágenes con IA](../content-management/generative-image.md)
 * **Variaciones de contenido**: produzca varias variaciones para las pruebas A/B. [Experimento de contenido con IA](../content-management/generative-experimentation.md)
-* **Personalization**: en el editor de Personalization, genere nuevas expresiones, explique el código existente o corrija problemas con el asistente de IA. [Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
+* **Personalization**: genera nuevas expresiones, explica el código existente o corrige problemas con el Asistente de IA desde el Editor de Personalization o desde la barra de herramientas de Designer de correo electrónico (**Agregar expresión**). [Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
 * **Alineación de marca**: asegúrese de que el contenido generado coincida con las directrices de marca. [Evaluar alineación de marca](../content-management/brands-score.md)
 * **Compatibilidad con plantillas** - Aproveche las plantillas de correo electrónico existentes. [Trabajo con plantillas de contenido](../content-management/content-templates.md)
 
@@ -272,7 +272,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
