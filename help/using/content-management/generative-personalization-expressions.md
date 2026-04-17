@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Asistente de IA para expresiones Personalization
-description: Aprenda a utilizar el asistente de IA en Journey Optimizer para generar expresiones de personalización a partir del lenguaje natural, desde el Editor de Personalization o en línea en el Designer de correo electrónico.
+description: Aprenda a utilizar el asistente de IA en Journey Optimizer para generar expresiones de personalización a partir del lenguaje natural, desde el Editor de Personalization o desde la barra de herramientas de Designer de correo electrónico.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '979'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 ## Información general {#where-available}
 
-[!UICONTROL Ayudante de IA] le ayuda a generar una nueva personalización a partir de un lenguaje sencillo, a explicar lo que hacen las expresiones existentes y a solucionar problemas en el código seleccionado, de modo que dedique menos tiempo a la sintaxis y a la detección manual de campos. También puede iterar en una selección o solicitar otros cambios en la conversación. Está disponible desde dos puntos de entrada:
+[!UICONTROL Ayudante de IA] le ayuda a generar una nueva personalización a partir de un lenguaje sencillo, a explicar lo que hacen las expresiones existentes y a solucionar problemas en el código seleccionado, de modo que dedique menos tiempo a la sintaxis y a la detección manual de campos. También puede iterar en una selección o solicitar otros cambios en la conversación. Está disponible de dos maneras:
 
 * **[!UICONTROL Editor de Personalization]**: siempre que el editor esté disponible (línea de asunto, cuerpo y otros campos que lo abran). Para saber dónde y cómo abrir el editor, consulte [Agregar personalización](../personalization/personalization-build-expressions.md#where).
-* **Editar texto en línea de Designer de correo electrónico**: directamente desde la ventana emergente de edición en línea al editar un componente de texto. Ver [Generar desde el Designer de correo electrónico](#generate-email-designer).
+* **Enviar correo electrónico a Designer**: cuando seleccione un componente, utilice **[!UICONTROL Agregar expresión]** en la barra de herramientas contextual para abrir el asistente en una caja de herramientas. Ver [Generar desde el Designer de correo electrónico](#generate-email-designer).
 
 Para obtener información sobre la configuración y los idiomas del Asistente de IA, consulte [Introducción al Asistente de IA](gs-generative.md). Para ver los conceptos de personalización, consulte [Introducción a la personalización](../personalization/personalize.md). Para obtener ideas rápidas, consulte [Prácticas recomendadas de mensajes de IA](ai-assistant-prompting-guide.md).
 
@@ -107,29 +107,27 @@ Puede seleccionar una expresión de personalización existente y utilizar el Asi
 
 1. Al igual que cuando genera una expresión personalizada, haga clic en **[!UICONTROL Aplicar]** para implementar el resultado del asistente. Reemplaza el código seleccionado en el editor de personalización. Por ejemplo, si solicita una explicación del código, al aplicar se agregan comentarios en la expresión que describen lo que hace.
 
-## Generar desde Designer de correo electrónico {#generate-email-designer}
+## Generar desde la barra de herramientas de Designer de correo electrónico {#generate-email-designer}
 
-[!UICONTROL El Asistente de IA para expresiones de personalización] también está disponible directamente desde la experiencia de edición en línea en el Designer de correo electrónico, sin abrir el [!UICONTROL Editor de Personalization] completo. La expresión generada se inserta en la posición del cursor en el componente de texto.
+En el Designer de correo electrónico, puede usar el [!UICONTROL Asistente de IA para expresiones de personalización] desde la barra de herramientas contextual sin abrir primero el [!UICONTROL Editor de Personalization] completo.
 
-1. En Email Designer, seleccione un componente de texto y empiece a editarlo en línea.
+1. En el Designer de correo electrónico, seleccione el componente que desea personalizar y haga clic en la ubicación en la que desea insertar la expresión.
 
-1. Abra la ventana emergente de personalización en línea de una de las dos maneras siguientes:
+1. En la barra de herramientas contextual, haga clic en **[!UICONTROL Agregar expresión]**.
 
-   * Escriba `{{` en la posición en la que desea insertar la expresión (la ventana emergente se abrirá automáticamente).
-   * Haga clic en **[!UICONTROL Usar IA para generar]** en la ventana emergente de edición en línea si ya está abierta.
+   ![](assets/ai-perso-add-expression.png)
 
-   ![](assets/ai-perso-email-entry.png)
+1. Se abrirá un cuadro de herramientas en el que puede solicitar al Ayudante de IA que lo personalice. Escriba lo que necesite en lenguaje sencillo, el asistente sugerirá campos de perfil y otros atributos que coincidan con el mensaje para que pueda crear la expresión más rápido.
 
-1. En el campo de texto, describa la expresión de personalización que desee en lenguaje sin formato y, a continuación, haga clic en **[!UICONTROL Generar]**.
+1. El asistente genera la expresión.
 
-1. Revise el resultado en la ficha **[!UICONTROL Expresión]** para ver la expresión generada.
+   ![](assets/ai-perso-add-expression-insert.png)
 
-   Cambie a la pestaña **[!UICONTROL Preview]** para ver cómo se evalúa la expresión mediante valores de perfil de muestra, de modo que pueda comprobar el resultado antes de insertarlo.
+   Puede hacer lo siguiente:
 
-   ![](assets/ai-perso-email-result.png)
+   * Valide el resultado de la expresión con valores de ejemplo; use la ficha **[!UICONTROL Vista previa]**.
+   * Generar otra sugerencia desde el mismo mensaje: use **[!UICONTROL Regenerar]**.
+   * Borrar la discusión y comenzar de nuevo: usa **[!UICONTROL Restablecer]**.
+   * Refine la expresión en el editor completo: haga clic en el icono ![Editar](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para abrir **[!UICONTROL Personalization Editor]**.
 
-1. Haga clic en **[!UICONTROL Insertar]** para aplicar la expresión en la posición del cursor en el componente de texto. Use **[!UICONTROL Regenerar]** para generar una nueva sugerencia o **[!UICONTROL Restablecer]** para empezar de nuevo.
-
->[!NOTE]
->
->La sesión [!UICONTROL AI Assistant for personalization expression] de la ventana emergente de Designer de correo electrónico en línea es independiente de las sesiones del [!UICONTROL Editor de Personalization]. Al cerrar la ventana emergente, se borra la conversación.
+1. Cuando esté satisfecho con el resultado, haga clic en **[!UICONTROL Insertar]** para agregar la expresión al contenido.

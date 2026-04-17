@@ -5,10 +5,10 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 92%
+source-wordcount: '565'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Descubra las últimas funciones y mejoras de Journey Optimizer en las Notas de l
 
 >[!TAB Asistente de IA para personalización]
 
-Use **Ayudante de IA** en el editor de Personalization para describir lo que quiere en lenguaje sencillo y obtener una expresión personalizada, o bien seleccione el código existente para explicarlo, corregir problemas o sugerir mejoras.
+Use **Ayudante de IA** en el editor de Personalization o en la barra de herramientas de Designer de correo electrónico (**Agregar expresión**) para describir lo que desea en lenguaje sencillo y obtener una expresión personalizada, o bien seleccione el código existente para explicarlo, corregir problemas o sugerir mejoras.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
