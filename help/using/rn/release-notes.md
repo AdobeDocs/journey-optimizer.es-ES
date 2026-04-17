@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2568'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,25 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 ## Actualizaciones de abril de 2026 {#april-26-rn}
 
 ### Nuevas funciones {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimización del correo electrónico para bandejas de entrada AI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ahora incluye una nueva funcionalidad que garantiza que los correos electrónicos estén estructurados de forma óptima para bandejas de entrada con tecnología de IA como Apple Intelligence y Google Gemini en Gmail.</p>
+<p>A medida que los asistentes de IA controlan cada vez más la forma en que los destinatarios leen y actúan en el correo electrónico, esta función le ayuda a crear contenido que se comporta bien en las tareas de IA descendentes, incluidas las de resumen, clasificación, priorización y extracción por intención.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Para obtener más información, consulte <a href="../email/llm-email-optimizer.md">Optimizar texto de correo electrónico para bandejas de entrada de IA</a>.</p>
+<p>Fecha de disponibilidad: sábado, 17 de abril de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
