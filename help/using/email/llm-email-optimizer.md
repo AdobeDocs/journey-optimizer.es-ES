@@ -1,20 +1,19 @@
 ---
 title: Optimizar el texto del correo electrónico para bandejas de entrada AI
-description: Refine la capa de texto sin formato del correo electrónico en Journey Optimizer para que los clientes de la bandeja de entrada asistida por IA puedan utilizar sus ofertas y CTA cuando resuman el correo electrónico o extraigan la intención, en el Designer de correo electrónico con Optimizar con IA.
+description: Genere y perfeccione una versión dedicada de sus mensajes para que los clientes de la bandeja de entrada asistida por IA puedan utilizar sus ofertas y CTA cuando resuman el correo electrónico o extraigan la intención, en el Designer de correo electrónico con Optimización con IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# Optimizar el texto del correo electrónico para bandejas de entrada AI {#email-text-optimizer}
+# Optimización del correo electrónico para bandejas de entrada AI {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] incorpora una función de canal de correo electrónico que le ayuda a estructurar una versión específica de sus mensajes para mejorar las experiencias de la bandeja de entrada con asistencia de IA, como [!DNL Apple Intelligence] y [!DNL Google Gemini] en [!DNL Gmail], de modo que puedan responder preguntas y resumir el correo electrónico en función de su contenido de forma más precisa, con mejores resultados.
 

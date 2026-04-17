@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b263b2ea1969fc2c5aa19a16639dce3dffd8d6f
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 91%
@@ -288,7 +288,7 @@ ht-degree: 91%
             + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
             + [Inserción de ofertas personalizadas](using/email/add-offers-email.md)
-            + {hide-from-toc}[Optimizar correo electrónico para bandejas de entrada de IA](using/email/llm-email-optimizer.md)
+            + [Optimización del correo electrónico para bandejas de entrada AI](using/email/llm-email-optimizer.md)
             + [Administrar la versión de texto](using/email/text-version-email.md)
             + [Añadir metadatos](using/email/email-metadata.md)
             + [Edite con el editor avanzado de HTML](using/email/email-expert-mode.md)
