@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 836d5c94c56bee5fcb269d6cceba84ca525f5968
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3207'
 ht-degree: 91%
 
 ---
@@ -78,6 +78,7 @@ ht-degree: 91%
       + [Termine el recorrido](using/building-journeys/end-journey.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
+      + {hide-from-toc}[Fragmentos de Recorrido](using/building-journeys/journey-fragments.md)
    + Actividades {#about-journey-building}
       + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
