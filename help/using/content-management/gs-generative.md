@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 92%
+source-wordcount: '925'
+ht-degree: 91%
 
 ---
 
@@ -142,7 +142,7 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 
 ### Asistente de IA para expresiones de personalización {#ai-assistant-personalization-editor-guardrails}
 
-Las siguientes protecciones se aplican a [AI Assistant para expresiones de personalización](generative-personalization-expressions.md) en [!UICONTROL Personalization Editor].
+Las siguientes protecciones se aplican a [AI Assistant para expresiones de personalización](generative-personalization-expressions.md) en el [!UICONTROL Editor de Personalization] y en el Designer de correo electrónico.
 
 * **Offer and Experience Decisioning** — No compatible.
 * **Favoritos**: no compatible.
