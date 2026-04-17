@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 836d5c94c56bee5fcb269d6cceba84ca525f5968
+source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
 workflow-type: tm+mt
 source-wordcount: '3207'
 ht-degree: 91%
@@ -878,7 +878,7 @@ ht-degree: 91%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
