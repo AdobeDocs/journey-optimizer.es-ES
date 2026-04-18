@@ -20,7 +20,7 @@ La administración de datos en Adobe Journey Optimizer le permite tomar el contr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la administración de datos
 
@@ -60,7 +60,7 @@ Habilite y utilice conjuntos de datos de Adobe Experience Platform en Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Introducción a las consultas en Journey Optimizer
 

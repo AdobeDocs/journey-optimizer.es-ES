@@ -45,7 +45,7 @@ Conozca las restricciones operativas y los umbrales de rendimiento de la gestió
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Guía de interfaz de usuario de la biblioteca de ofertas
 
@@ -75,7 +75,7 @@ Descubra cómo perfeccionar los criterios de idoneidad y personalizar las oferta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Usar ofertas personalizadas en un correo electrónico
 

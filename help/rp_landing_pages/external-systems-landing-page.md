@@ -20,7 +20,7 @@ La integración de los recorridos con sistemas externos en Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Prácticas recomendadas para la integración con los sistemas externos
 
@@ -30,7 +30,7 @@ Conozca las prácticas recomendadas y las directrices técnicas para la integrac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Información general sobre la API de límite y la guía de implementación
 
@@ -40,7 +40,7 @@ Obtenga información sobre cómo crear, configurar y administrar la configuraci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 API de limitación: guía de configuración y administración
 

@@ -35,7 +35,7 @@ Aprenda a aprovechar los conjuntos de datos de eventos de gestión de decisiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceder y explorar los campos XDM de DecisioningEvents
 

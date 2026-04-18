@@ -20,7 +20,7 @@ La sección “Configuración del canal de tarjetas de contenido” de Adobe Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Requisitos previos para la configuración del canal de tarjetas de contenido
 
@@ -30,7 +30,7 @@ Conozca las configuraciones y los ajustes necesarios para habilitar el canal de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Configuración del canal de tarjetas de contenido en Journey Optimizer
 

@@ -25,7 +25,7 @@ Los datos de contexto permiten a Adobe Journey Optimizer crear experiencias más
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los datos de contexto
 
@@ -45,7 +45,7 @@ Descubra cómo pasar datos de contexto en solicitudes de toma de decisiones en E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Usar datos de contexto en solicitudes de toma de decisiones y reglas de elegibilidad
 

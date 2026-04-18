@@ -40,7 +40,7 @@ Descubra cómo establecer colores e imágenes de fondo en diferentes niveles de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Ajustar alineación vertical y relleno
 

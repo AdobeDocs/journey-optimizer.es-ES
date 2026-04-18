@@ -60,7 +60,7 @@ Configure Adobe Journey Optimizer para que se integre con Adobe Campaign, Market
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de zonas protegidas en Adobe Journey Optimizer
 

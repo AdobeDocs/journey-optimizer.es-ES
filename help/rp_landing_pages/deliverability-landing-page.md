@@ -30,7 +30,7 @@ Conozca los conceptos, las prácticas recomendadas y las herramientas para optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Explicación de las listas de supresión
 
@@ -40,7 +40,7 @@ Descubra cómo las listas de supresión protegen la reputación del remitente y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Cumplimiento de los nuevos requisitos de DMARC
 

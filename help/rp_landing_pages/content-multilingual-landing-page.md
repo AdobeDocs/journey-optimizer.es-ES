@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar y utilizar la función de contenido 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo crear una configuración regional para contenido multilingüe
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear y administrar nuevas configuracion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Añadir y configurar proveedores de idioma
 
@@ -50,7 +50,7 @@ Configure proveedores de traducción de terceros para lograr una integración pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Crear contenido multilingüe con traducción manual
 

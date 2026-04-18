@@ -60,7 +60,7 @@ Obtenga información sobre cómo analizar, personalizar, exportar y programar in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Configurar fuentes de datos para la creación de informes
 
@@ -70,7 +70,7 @@ Configure fuentes de datos y conjuntos de datos para permitir la experimentació
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Motivos de exclusión
 
