@@ -20,7 +20,7 @@ Las funciones de ayuda de Adobe Journey Optimizer le permiten personalizar exper
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a las funciones de ayuda
 
@@ -60,7 +60,7 @@ Aprenda a manipular matrices y listas con funciones como contar, recuperar valor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
 
 Biblioteca de funciones de fecha y hora
 

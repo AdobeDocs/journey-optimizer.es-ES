@@ -52,7 +52,7 @@ Obtenga información sobre cómo crear y aplicar reglas de restricción de frecu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 Establecer horas tranquilas
 

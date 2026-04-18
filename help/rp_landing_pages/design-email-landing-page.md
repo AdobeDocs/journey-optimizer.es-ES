@@ -40,7 +40,7 @@ Explore métodos para diseñar contenido de correo electrónico, importar HTML, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Diseño del contenido en Adobe Journey Optimizer
 

@@ -40,7 +40,7 @@ Descubra herramientas y tutoriales para crear, administrar y optimizar páginas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Plantillas de contenido
 
@@ -50,7 +50,7 @@ Optimice la creación de contenido con plantillas reutilizables para una adminis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Fragmentos de contenido reutilizables
 
@@ -70,7 +70,7 @@ Utilice reglas condicionales para crear contenido dinámico y personalizado para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Casos de uso entre soluciones
 

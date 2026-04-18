@@ -50,7 +50,7 @@ Obtenga información sobre cómo configurar acciones, seleccionar canales de com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Editar y personalizar el contenido de campaña activado por API
 

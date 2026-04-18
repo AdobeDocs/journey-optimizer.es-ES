@@ -30,7 +30,7 @@ Aprenda a utilizar el editor de expresiones avanzadas para crear expresiones per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Sintaxis avanzada para expresiones
 
@@ -61,7 +61,7 @@ Acceda a ejemplos prácticos de consultas SQL para analizar y administrar datos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Ejemplos de consultas SQL para el análisis de datos
 

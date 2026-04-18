@@ -70,7 +70,7 @@ Obtenga información sobre los permisos de alto nivel y bajo nivel y cómo habil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Control de acceso basado en atributos
 

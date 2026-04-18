@@ -45,7 +45,7 @@ Explore cómo configurar métodos de clasificación de decisiones, entre ellos l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Simular decisiones de oferta
 

@@ -40,7 +40,7 @@ Obtenga información sobre cómo utilizar perfiles, atributos calculados y perfi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=es)
 
 Introducción a las identidades
 
@@ -50,7 +50,7 @@ Descubra cómo administrar las identidades de los clientes mediante el gráfico 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Panel de control de uso de licencias
 

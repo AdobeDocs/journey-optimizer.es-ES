@@ -20,7 +20,7 @@ La administración de elementos de decisión en Adobe Journey Optimizer consiste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar el catálogo de elementos
 
