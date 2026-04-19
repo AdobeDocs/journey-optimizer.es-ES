@@ -10,10 +10,10 @@ keywords: tipos de recorrido, unitario, leer audiencia, calificación de audienc
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 4%
+source-wordcount: '958'
+ht-degree: 5%
 
 ---
 
@@ -174,7 +174,3 @@ Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
 * **[Más información sobre el diseñador de recorridos](using-the-journey-designer.md)**: Diseña tu lienzo de recorrido
 * **[Explorar las funcionalidades del recorrido](journey.md#capabilities)**: descubra características avanzadas
 * **[Ver preguntas frecuentes sobre el recorrido](journey-faq.md)** - Preguntas frecuentes respondidas
-
-**¿Necesita comparar con campañas?**
-
-* [Guía de comparación de Recorridos vs. Campañas](../start/journeys-vs-campaigns.md): elija entre recorridos, campañas de acción/API y campañas organizadas

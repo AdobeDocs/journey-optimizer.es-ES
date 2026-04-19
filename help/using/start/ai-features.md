@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1845'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -272,7 +272,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -329,3 +329,11 @@ No. Revise siempre [el contenido generado por IA](#content-generation) para comp
 La mayoría de las funciones de IA se incluyen con Adobe Journey Optimizer. Algunas funcionalidades como [Optimización del tiempo de envío](#send-time-optimization) o [Agentes de IA](#ai-agents) pueden requerir la habilitación por parte de Adobe. Póngase en contacto con su representante de Adobe para obtener más información sobre su licencia específica y las funciones disponibles.
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [¿Qué es Journey Optimizer?](get-started.md): información general sobre las funciones clave, los casos de uso y la arquitectura.
+>* [Comprender cómo funciona](understanding-ajo.md) — Cómo Journey Optimizer y Experience Platform trabajan juntos.
+>* [Generación de contenido de IA](../content-management/gs-generative.md): genere correos electrónicos, mensajes push, SMS y contenido web con el Asistente de IA.
+>* [Optimización del tiempo de envío](../building-journeys/send-time-optimization.md): prediga y optimice el tiempo de envío de mensajes por individuo.
+>* [Modelos de IA para la toma de decisiones](../experience-decisioning/ranking/ai-models.md): Clasifique y personalice ofertas automáticamente con modelos de clasificación de IA.

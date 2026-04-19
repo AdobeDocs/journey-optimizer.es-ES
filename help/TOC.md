@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + Características esenciales {#essentials}
       + [¿Qué es Journey Optimizer?](using/start/get-started.md)
       + [Cómo funciona](using/start/understanding-ajo.md)
+      + [IA y funciones inteligentes](using/start/ai-features.md)
       + [Terminología clave](using/start/terminology.md)
       + [Protecciones y limitaciones](using/start/guardrails.md)
    + Cómo comenzar según función {#by-role}
-      + [Elegir su ruta de aprendizaje](using/start/quick-start.md)
-      + [Introducción como experto en marketing](using/start/path/marketer.md)
-      + [Cómo comenzar como ingeniero de datos](using/start/path/data-engineer.md)
+      + [Funciones y responsabilidades](using/start/quick-start.md)
       + [Introducción como administrador](using/start/path/administrator.md)
+      + [Cómo comenzar como ingeniero de datos](using/start/path/data-engineer.md)
       + [Introducción como desarrollador](using/start/path/developer.md)
+      + [Introducción como experto en marketing](using/start/path/marketer.md)
    + Trabajar de manera eficaz {#work-efficiently}
       + [Navegación por la interfaz](using/start/user-interface.md)
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
-      + [IA y funciones inteligentes](using/start/ai-features.md)
+      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accesibilidad](using/start/accessibility.md)
       + {hide-from-toc}[Recorridos vs. Campañas](using/start/journeys-vs-campaigns.md)
 + Recorridos {#orchestrate-journeys}
@@ -878,7 +879,7 @@ ht-degree: 91%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
