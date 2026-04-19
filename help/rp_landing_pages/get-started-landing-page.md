@@ -5,10 +5,10 @@ title: Introducción
 description: Introducción a Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -140,7 +140,7 @@ Utilice la búsqueda, los filtros y las etiquetas para administrar los recorrido
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
 Preguntas frecuentes sobre solución de problemas
 
@@ -165,7 +165,7 @@ Encuentre respuestas a las preguntas más frecuentes y soluciones a problemas co
 * **[Manuales de casos de uso](../using/start/ai-features.md#playbooks)**: flujos de trabajo creados previamente para escenarios comunes como recuperación del carro de compras abandonado y campañas de bienvenida
 * **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: herramientas para realizar un seguimiento del rendimiento, identificar incidencias y resolver problemas rápidamente
 * **[Novedades](../using/rn/release-notes.md)**: manténgase al día con las últimas funciones, mejoras y correcciones
-* **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}**: conéctese con otros usuarios, haga preguntas y comparta prácticas recomendadas
+* **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}**: conéctese con otros usuarios, haga preguntas y comparta prácticas recomendadas
 * **[Actualizaciones de documentación](../using/rn/documentation-updates.md)**: manténgase informado sobre los cambios y adiciones recientes a la documentación
 
 ## ¿Listo para empezar?
@@ -175,7 +175,7 @@ Elija la ruta que sea adecuada para usted:
 * **¿Es su primera vez en Journey Optimizer?** Comience con [¿Qué es Journey Optimizer?](../using/start/get-started.md) para comprender los conceptos básicos
 * **¿Conoce su función?** Vaya a la [guía específica de funciones](../using/start/quick-start.md) que coincida con sus responsabilidades
 * **¿Quiere explorar?** Examine las [funciones de IA](../using/start/ai-features.md) o pruebe [Manuales de casos de uso](../using/start/ai-features.md#playbooks)
-* **¿Necesita ayuda?** Consulte la [Guía de solución de problemas](../using/start/troubleshooting.md) o visite el [Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **¿Necesita ayuda?** Consulte la [Guía de solución de problemas](../using/start/troubleshooting.md) o visite el [Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
 
 ## Vínculos rápidos {#quick-links}
 
