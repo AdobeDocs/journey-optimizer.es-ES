@@ -10,9 +10,9 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 * Toma de decisiones en tiempo real basada en el comportamiento y los eventos
 * Las actividades de espera crean intervalos personalizados
 * La bifurcación condicional crea rutas únicas por perfil
+* Escucha activa integrada: la inacción durante un periodo definido también puede almacenar en déclencheur el siguiente paso, no solo los eventos explícitos. [Más información sobre las actividades de espera](../building-journeys/wait-activity.md)
+* Límite de frecuencia: controla la frecuencia con la que un cliente puede introducir o recibir mensajes de un recorrido. [Más información sobre el límite de recorrido](../conflict-prioritization/journey-capping.md)
+* Audiencia dividida por porcentaje: divida los perfiles en grupos aleatorios basados en porcentajes para ejecutar experimentos A/B en rutas de recorrido. [Más información sobre la división porcentual](../building-journeys/condition-activity.md)
+* Modo de prueba: valide la lógica del recorrido y la entrega de mensajes con perfiles de prueba antes de publicar en directo. [Más información sobre el modo de prueba](../building-journeys/testing-the-journey.md)
 
 **Flujo de ejemplo:**
 
@@ -212,6 +216,8 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 | Basado en código | ✅ | ✅ | ❌ | ❌ |
 | Tarjetas de contenido | ✅ | ✅ | ❌ | ❌ |
 | Correo directo | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Funciones avanzadas
 
@@ -226,7 +232,7 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 | Datos de varias entidades | ❌ | ❌ | ❌ | ✅ |
 | Recuentos exactos previos al envío | ❌ | ❌ | ❌ | ✅ |
 | Segmentación bajo demanda | ❌ | ❌ | ❌ | ✅ |
-| Optimización del tiempo de envío | ✅ | ✅ | ✅ | ✅ |
+| Optimización del tiempo de envío | ✅ | ❌ | ❌ | ❌ |
 | Prueba A/B | ✅ | ✅ | ❌ | ❌ |
 | Flujos de trabajo de aprobación | ✅ | ✅ | ✅ | ❌ |
 
