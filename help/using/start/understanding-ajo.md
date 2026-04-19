@@ -4,25 +4,31 @@ product: journey optimizer
 title: Explicación de Journey Optimizer
 description: Descubra cómo funciona Adobe Journey Optimizer con Adobe Experience Platform para ofrecer experiencias de cliente personalizadas
 feature: Get Started
+topic: Content Management
 role: Admin, Developer, User
 level: Beginner
+keywords: recorrido optimizer, funcionamiento, arquitectura, experience platform, áreas funcionales
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 4%
+source-wordcount: '925'
+ht-degree: 3%
 
 ---
 
 # Explicación de Journey Optimizer {#understanding-ajo}
 
+En esta página se explica cómo Adobe Experience Platform y Journey Optimizer trabajan juntos, abarcando el ciclo continuo de datos a experiencia, las áreas funcionales clave, los detalles de arquitectura y los puntos de integración.
+
 Adobe Journey Optimizer y Adobe Experience Platform trabajan juntos para permitir la personalización basada en datos a escala. Esta página explica cómo funcionan estos sistemas y cómo se combinan sus áreas funcionales clave para ofrecer experiencias de cliente excepcionales. [Más información acerca de las funciones clave](get-started.md) | [Explorar la terminología clave](terminology.md)
 
 ## Cómo funciona Journey Optimizer {#how-it-works}
 
+Sin una base de datos unificada, las marcas se ven obligadas a confiar en varias herramientas específicas del canal, lo que dificulta mantener una vista coherente de cada cliente o actuar en su comportamiento en tiempo real. Journey Optimizer resuelve esto basándose en Adobe Experience Platform para conectar los datos de los clientes, la creación de contenido y la orquestación de recorrido en un único sistema continuo. El resultado son experiencias de marca significativas que impulsan la lealtad del cliente y el valor de duración.
+
 Adobe Journey Optimizer funciona como un flujo continuo en el que los datos se recopilan, analizan y aplican para crear recorridos personalizados con los clientes.
 
-![](assets/ajo-aep-architecture-diagram.png)
+![Diagrama que muestra Adobe Experience Platform como la capa de datos fundamental, con Journey Optimizer integrado sobre Real-Time CDP, Customer Journey Analytics y Adobe Mix Modeler, todos compartiendo servicios principales como el perfil del cliente en tiempo real, el control de datos y la resolución de identidades.](assets/ajo-aep-architecture-diagram.png)
 
 ### Adobe Experience Platform: The Foundation {#aep-foundation}
 
@@ -38,7 +44,7 @@ Adobe Experience Platform sirve como columna vertebral, permitiendo a las marcas
 Adobe Journey Optimizer aplica los datos y las perspectivas de Adobe Experience Platform para ofrecer experiencias de cliente inteligentes y personalizadas:
 
 * **Comprensión del cliente**: los perfiles del cliente en tiempo real habilitan la segmentación en audiencias para la mensajería de destino. [Crear públicos](../audience/about-audiences.md)
-* **Contenido y ofertas**: herramientas para crear, administrar y personalizar contenido; lógica en tiempo real para seleccionar la mejor oferta para cada individuo. [Diseñar contenido](../../rp_landing_pages/content-management-landing-page.md) | [Administrar ofertas](../offers/get-started/starting-offer-decisioning.md)
+* **Contenido y ofertas**: un diseñador visual integrado, plantillas reutilizables y una biblioteca de recursos centralizada permiten que los equipos creen y personalicen mensajes para cualquier canal, sin salir de la plataforma. La personalización dinámica adapta el contenido en función de los atributos, el comportamiento y el contexto del cliente. A continuación, la lógica de toma de decisiones en tiempo real selecciona la mejor oferta para cada individuo. [Contenido de diseño](../../rp_landing_pages/content-management-landing-page.md) | [Administrar recursos](../integrations/assets.md) | [Administrar ofertas](../offers/get-started/starting-offer-decisioning.md)
 * **Administración de Recorridos y campañas**: automatiza secuencias de interacciones (recorridos) o programa mensajes de destino únicos (campañas). [Generar recorridos](../building-journeys/journey-gs.md) | [Crear campañas](../campaigns/get-started-with-campaigns.md)
 * **Envío (conexiones)**: envía mensajes a través de canales como correo electrónico, SMS, notificaciones push y correo directo; exporta datos a sistemas externos. [Configuración de canales](../configuration/get-started-configuration.md)
 * **Medición y análisis**: Rastrea la participación de los clientes y el rendimiento de las campañas con informes para mejorar continuamente. [Ver informes](../reports/campaign-global-report-cja.md)
@@ -47,7 +53,7 @@ Adobe Journey Optimizer aplica los datos y las perspectivas de Adobe Experience 
 
 Este ecosistema funciona como un ciclo de optimización continua. Los datos mejoran la comprensión del cliente, que informa el contenido personalizado y las decisiones. Se organizan en recorridos, se entregan en varios canales, se miden para obtener eficacia y se refinan con el tiempo.
 
-![](../assets/do-not-localize/get-started-flow.png)
+![Diagrama que ilustra el ciclo de optimización continua en Journey Optimizer: la ingesta de datos alimenta los perfiles de los clientes, que informan las decisiones de contenido y ofertas, organizados en recorridos, entregados en varios canales, medidos para el rendimiento y refinados a lo largo del tiempo.](../assets/do-not-localize/get-started-flow.png)
 
 ## Áreas funcionales clave {#functional-areas}
 
@@ -77,21 +83,9 @@ Estas áreas funcionales funcionan en un ciclo continuo:
 
 ## Detalles de arquitectura {#architecture-details}
 
-Para los equipos técnicos, este es el diagrama de arquitectura detallado que muestra cómo Journey Optimizer se integra con Adobe Experience Platform. [Navegue por la interfaz](user-interface.md) para explorar estos componentes en la práctica.
+Journey Optimizer es una de las cuatro aplicaciones creadas de forma nativa en Adobe Experience Platform, junto con Real-Time CDP, Customer Journey Analytics y Adobe Mix Modeler. Comparte los servicios principales de AEP (perfil del cliente en tiempo real, gráfico de identidad, control de datos y servicios de consulta) para acceder a una base de datos de cliente unificada sin requerir integraciones independientes. Journey Optimizer puede funcionar como una aplicación independiente o interoperar con otras aplicaciones nativas de AEP.
 
-![Arquitectura de Adobe Journey Optimizer](assets/ajo-architecture.png)
-
-Hay cuatro aplicaciones creadas de forma nativa en Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics y Adobe Mix Modeler. Journey Optimizer funciona a la perfección con estas aplicaciones, pero también de forma independiente. [Revise las limitaciones y protecciones](guardrails.md) por motivos de implementación.
-
-### Puntos de integración {#integration-points}
-
-Journey Optimizer se integra con Adobe Experience Platform en varios niveles:
-
-* **Capa de datos** - Comparte el mismo perfil de cliente en tiempo real, gráfico de identidad y conjuntos de datos
-* **Nivel de servicio**: aprovecha el control, la privacidad y los servicios de consultas de Adobe Experience Platform
-* **Nivel de aplicación**: proporciona orquestación de recorrido, administración de decisiones y administración de contenido además de Adobe Experience Platform
-
-Más información sobre [modelos de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Para profundizar en la arquitectura técnica, incluidos los patrones de integración, los requisitos previos y los flujos de datos del sistema, consulte los [modelos de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Para consideraciones de implementación, [revise protecciones y limitaciones](guardrails.md).
 
 ## Privacidad y seguridad {#privacy-security}
 
