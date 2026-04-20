@@ -6,9 +6,9 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1729'
 ht-degree: 21%
 
 ---
@@ -36,8 +36,8 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] ahora proporciona un servidor <strong>MCP (Model Context Protocol)</strong> que muestra las operaciones de campaña, recorrido, lealtad y zona protegida directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, diferentes personas pueden colaborar en torno a los mismos datos de orquestación. En lugar de escribir consultas contra la API de REST de AJO o navegar por varias pantallas de interfaz de usuario, puede describir su intención de forma conversacional y permitir que el LLM invoque las herramientas de MCP adecuadas. Actualmente, esta funcionalidad está disponible en Claude Web y Desktop.</p>
-<p>Esta capacidad se encuentra actualmente en Beta. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
+<p>[!DNL Adobe Journey Optimizer] ahora proporciona un servidor <strong>MCP (Model Context Protocol)</strong> que muestra las operaciones de campaña, lealtad y zona protegida directamente dentro de cualquier aplicación compatible con MCP. Con esta integración, diferentes personas pueden colaborar en torno a los mismos datos de orquestación. En lugar de escribir consultas contra la API de REST de AJO o navegar por varias pantallas de interfaz de usuario, puede describir su intención de forma conversacional y permitir que el LLM invoque las herramientas de MCP adecuadas. Actualmente, esta funcionalidad está disponible en Claude Web y Desktop.</p>
+<p>Esta capacidad está disponible para todos los clientes en Public Beta.</p>
 <p>Tarea JIRA de documentación: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
