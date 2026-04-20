@@ -5,10 +5,10 @@ title: Uso de la actividad Generar público
 description: Aprenda a utilizar la actividad Generar audiencia en una campaña organizada
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -54,3 +54,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Generar público des
 Este es un ejemplo de una campaña organizada con dos actividades **[!UICONTROL Generar audiencia]**. La primera se dirige a los perfiles que tienen artículos en el carro de compras, seguida de un envío de correo electrónico. La segunda se dirige a los perfiles con una lista de deseos, seguida de un envío por SMS.
 
 ![](../assets/build-audience-2.png)
+
+En el ejemplo siguiente, la actividad **[!UICONTROL Generar audiencia]** usa el generador de reglas para filtrar los perfiles según su plan de suscripción. Se ha establecido una condición en el atributo `plan` para incluir solo perfiles donde `plan = "basic"`, lo que reduce la audiencia a suscriptores de nivel básico antes de pasarlos a la siguiente actividad.
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

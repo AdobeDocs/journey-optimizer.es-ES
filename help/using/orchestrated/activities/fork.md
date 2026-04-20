@@ -5,10 +5,10 @@ title: Uso de la actividad Bifurcación
 description: Aprenda a utilizar la actividad Bifurcación en una campaña orquestada
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 47%
 
 ---
 
@@ -42,3 +42,16 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Bifurcación]**:
 1. Para quitar una transición, haga clic en el icono ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
 1. Si es necesario, haga clic en **[!UICONTROL Añadir transición]** para añadir una transición de salida adicional.
+
+## Ejemplos {#fork-examples}
+
+Este es un uso típico de la actividad **[!UICONTROL Fork]**: segmentar la misma audiencia con dos canales de correo electrónico diferentes (uno de marketing y otro transaccional) para comparar el comportamiento de entrega.
+
+Después de que una actividad de **[!UICONTROL Generar audiencia]** seleccione la población objetivo, una **[!UICONTROL bifurcación]** crea dos ramas paralelas:
+
+* **La rama 1** se conecta a una actividad de canal de correo electrónico de marketing. Los mensajes siguen reglas comerciales estándar y se envían únicamente a perfiles de inclusión.
+* **La rama 2** se conecta a una actividad de canal de correo electrónico transaccional. Los mensajes omiten las reglas comerciales y se envían a todos los perfiles independientemente del estado de inclusión.
+
+![](../assets/workflow-fork.png)
+
+Este patrón es útil para comprender cómo afectan los ajustes de categoría de canal al comportamiento de entrega y para enviar diferentes tipos de mensajes a la misma audiencia en una sola ejecución de campaña.

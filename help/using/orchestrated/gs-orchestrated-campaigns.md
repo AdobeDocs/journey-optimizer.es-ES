@@ -6,10 +6,10 @@ description: Obtenga información sobre cómo empezar con campañas orquestadas
 short-description: Descubra las características clave y los casos de uso de las campañas orquestadas
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ Cada campaña orquestada contiene:
 
 * **Tablas de trabajo**: estas contienen toda la información de la transición. Cada campaña orquestada utiliza varias tablas de trabajo. Los datos que contienen estas tablas se pueden utilizar a lo largo de todo el ciclo de vida de la campaña orquestada.
 
+Una campaña orquestada típica de nivel básico sigue este patrón: **Generar audiencia → Bifurcar → Canal A + Canal B**.
+
+Este método permite dirigirse a la misma audiencia con dos ramas paralelas en una sola ejecución de campaña; por ejemplo, una rama que utiliza un correo electrónico de marketing y otra que utiliza un correo electrónico transaccional. Cada rama es independiente y puede utilizar una configuración de canal, contenido de mensaje o categoría diferentes.
+
+➡️ [Aprenda a utilizar la actividad de bifurcación](activities/fork.md)
+
+➡️ [Comprender el marketing frente a los mensajes transaccionales](activities/channels.md#marketing-vs-transactional)
 
 ## Vídeo de introducción {#video-oc}
 

@@ -5,10 +5,10 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 37%
+source-wordcount: '1769'
+ht-degree: 36%
 
 ---
 
@@ -90,6 +90,22 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
    ![imagen que muestra el lienzo con una actividad de correo electrónico](../assets/channel-edit.png)
 
 1. En la pestaña **[!UICONTROL Propiedades]**, escriba una descripción y, a continuación, cambie a la pestaña **[!UICONTROL Acciones]** para configurar la actividad.
+
+## Marketing frente a mensajes transaccionales {#marketing-vs-transactional}
+
+La elección de la categoría adecuada determina cómo se envían los mensajes y qué reglas se aplican:
+
+| | Marketing | Transaccional |
+| --- | --- | --- |
+| **Se requiere la inclusión** | Sí | No |
+| **Reglas empresariales** | Aplicado (límite de frecuencia, reglas de fatiga) | Omitido |
+| **Tipo de configuración de canal** | Configuración del canal de marketing | Configuración del canal transaccional |
+| **Casos de uso habituales** | Promociones, boletines informativos, campañas de temporada | Confirmaciones de pedidos, restablecimientos de contraseñas, alertas de interrupción |
+| **Audiencia** | Solo suscriptores Opted-in | Cualquier perfil, independientemente del estado de inclusión |
+
+>[!NOTE]
+>
+>Utilice Transaccional solo para comunicaciones operativas o con distinción de tiempo. Clasificar incorrectamente un mensaje promocional como Transaccional omite el consentimiento y las reglas comerciales, lo que puede infringir los requisitos regulatorios.
 
 ## Establecer la configuración y los ajustes del canal {#configuration}
 
