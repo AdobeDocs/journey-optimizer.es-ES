@@ -6,10 +6,10 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
+source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 21%
+source-wordcount: '1743'
+ht-degree: 20%
 
 ---
 
@@ -103,7 +103,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 <tbody>
 <tr>
 <td>
-<p>Los especialistas en marketing ahora pueden automatizar de forma inteligente la selección de recorridos en función de restricciones específicas mediante fórmulas y modelos de IA. Los modelos de IA pueden optimizar la selección de recorridos en función de métricas de participación como la tasa de clics, las compras o cualquier otra métrica personalizada que el experto en marketing desee optimizar.</p>
+<p>Ahora puede utilizar modelos de IA en las fórmulas de clasificación para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de los atributos de perfil del cliente y los factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Tarea JIRA de documentación: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -369,7 +369,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Configuración
 
-* **Permisos específicos para el cifrado de parámetros de URL** - &lt;TBC>
+* **Permisos específicos para claves de cifrado de parámetros de URL**: para acceder y administrar claves para el cifrado de parámetros de URL, se han creado nuevos permisos. Ahora debe tener concedidos los permisos de **Ver registro de claves** y **Administrar registro de claves**.
 
   Tarea JIRA de documentación: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
