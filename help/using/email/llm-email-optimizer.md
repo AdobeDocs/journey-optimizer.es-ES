@@ -1,14 +1,14 @@
 ---
-title: Optimizar el texto del correo electrónico para bandejas de entrada AI
+title: Optimización del correo electrónico para bandejas de entrada AI
 description: Genere y perfeccione una versión dedicada de sus mensajes para que los clientes de la bandeja de entrada asistida por IA puedan utilizar sus ofertas y CTA cuando resuman el correo electrónico o extraigan la intención, en el Designer de correo electrónico con Optimización con IA.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Las preguntas típicas que los destinatarios pueden hacer en las experiencias de
 
 * Además, los asistentes pueden buscar de forma proactiva descuentos o cupones relacionados con la marca y doblarlos en la respuesta, de modo que el usuario ya no esté mirando únicamente lo que su mensaje realmente prometió. Este comportamiento es útil para los usuarios finales, pero diluye el control para los especialistas en marketing que necesitan respuestas para realizar un seguimiento de los términos reales del envío.
 
-Para evitar estos problemas, [!DNL Journey Optimizer] crea una versión de texto específica adicional de los mensajes para que los cupones, los intervalos de descuento, las llamadas a la acción y otras prioridades aparezcan de antemano en una copia lineal transparente. Esta versión es diferente de la [versión sin formato](text-version-email.md) predeterminada o personalizada de sus mensajes.
+Para evitar estos problemas, [!DNL Journey Optimizer] crea una versión específica adicional de los mensajes para que los cupones, los intervalos de descuento, las llamadas a la acción y otras prioridades aparezcan de antemano en una copia lineal transparente. <!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 El objetivo es que la IA de la bandeja de entrada base resúmenes y preguntas y respuestas en las ofertas y acciones definidas, en lugar de apoyarse en una parte de texto predeterminado delgada o en resultados web no relacionados.
 
@@ -41,7 +41,7 @@ El objetivo es que la IA de la bandeja de entrada base resúmenes y preguntas y 
 >
 >Los comportamientos exactos del asistente de IA dependen del proveedor de la bandeja de entrada y de la versión del modelo. Una vez enviado el correo electrónico, las respuestas y los resúmenes proporcionados por clientes de IA externos pueden ser incorrectos, incompletos o mezclados con los resultados de la web.
 >
->La funcionalidad Optimizar el texto del correo electrónico para las bandejas de entrada de IA solo genera una versión dedicada en Journey Optimizer; no garantiza cómo un asistente de terceros interpretará o mostrará el mensaje. Obtenga más información sobre las [limitaciones y riesgos de la IA de la bandeja de entrada de terceros](#inbox-ai-risks).
+>La función Optimizar correo electrónico para bandejas de entrada AI solo genera una versión dedicada en Journey Optimizer; no garantiza cómo un asistente de terceros interpretará o mostrará el mensaje. Obtenga más información sobre las [limitaciones y riesgos de la IA de la bandeja de entrada de terceros](#inbox-ai-risks).
 
 ## Casos de uso recomendados {#use-cases}
 
@@ -49,7 +49,7 @@ El objetivo es que la IA de la bandeja de entrada base resúmenes y preguntas y 
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **Texto denso o fragmentado**: cuando el contenido del correo electrónico es difícil de analizar, la optimización puede producir una narrativa lineal más clara con ofertas y vínculos explícitos.
+* **Contenido denso o fragmentado**: cuando el contenido del correo electrónico es difícil de analizar, la optimización puede producir una narrativa lineal más clara con ofertas y vínculos explícitos.
 
 * **Control de las preguntas y respuestas de la bandeja de entrada**: cuando espera que los destinatarios pregunten a los asistentes *de qué se trata el correo electrónico* o *cuáles son las ofertas*, una versión de IA optimizada para reducir los resúmenes parciales y evita la dependencia en las respuestas completadas por la web que no están vinculadas a la copia aprobada.
 
@@ -111,7 +111,7 @@ La función Optimizar correo electrónico para bandejas de entrada de IA le ayud
 
 * **Exposición legal o de marca**: los resúmenes de IA incorrectos o incompletos pueden crear confusión o disputas con los clientes acerca de promociones, términos o lenguaje de exclusión. [!DNL Journey Optimizer] no garantiza que el modelo de un tercero reproduzca fielmente la versión optimizada de su correo electrónico.
 
-* **[!UICONTROL Optimizar para la bandeja de entrada de IA]** en [!DNL Journey Optimizer]: el control de tiempo de creación de Designer de correo electrónico es independiente de los asistentes de la bandeja de entrada del usuario final. Revise siempre el texto sin formato generado antes de enviarlo.
+* **[!UICONTROL Optimizar para la bandeja de entrada de IA]** en [!DNL Journey Optimizer]: el control de tiempo de creación de Designer de correo electrónico es independiente de los asistentes de la bandeja de entrada del usuario final. Revise siempre el contenido generado antes de enviarlo.
 
 ## Temas relacionados {#related-topics}
 
