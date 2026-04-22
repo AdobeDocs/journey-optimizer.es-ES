@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,10 @@ Después de crear y personalizar los fragmentos de contenido de AEM, ahora puede
 
    <!--
     Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.
--->
+    
+    -->
 
-    ![](assets/aem_campaign_6.png)
+   ![](assets/aem_campaign_6.png)
 
 1. Para que aparezca una URL de imagen almacenada en un atributo de fragmento de contenido, por ejemplo, una ruta o un campo URL del modelo de fragmento, insértelo en la HTML con una etiqueta `<img>` y el atributo de fragmento como origen, por ejemplo:
 
