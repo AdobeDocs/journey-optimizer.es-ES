@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d5808f5485a524c08f8a16a442fce08d4baedb5
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2631'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,26 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 ## Actualizaciones de abril de 2026 {#april-26-rn}
 
 ### Nuevas funciones {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integración de Adobe Express</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La <b>integración de Adobe Express</b> en Adobe Journey Optimizer le permite utilizar las herramientas de edición de Adobe Express directamente durante la creación de contenido, lo que le permite cambiar el tamaño, eliminar fondos, recortar y convertir recursos a JPEG o PNG.
+</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/express_resize.gif"></p>
+<p>Para obtener más información, consulte la <a href="../integrations/express.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: viernes, 23 de abril de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

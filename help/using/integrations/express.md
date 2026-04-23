@@ -5,12 +5,11 @@ title: Edición de recursos con Adobe Express en Journey Optimizer
 description: Introducción a Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="Disponibilidad limitada" type="Informative"
 role: User
 level: Beginner
 keywords: recursos, integración
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -24,14 +23,13 @@ ht-degree: 18%
 >title="Integración de Adobe Express"
 >abstract="Comience a personalizar sus recursos con la integración de Adobe Express. Esta función le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG."
 
+>[!IMPORTANT]
+>
+>Al utilizar la integración de Adobe Express, los datos abandonarán Journey Optimizer. No utilice esta integración con PHI u otros datos de salud.
+
 La integración de Adobe Express en Adobe Journey Optimizer le permite acceder fácilmente a las potentes herramientas de edición de Adobe Express a la hora de crear contenido. Esta integración le permite cambiar el tamaño de las imágenes, quitar fondos, recortar elementos visuales y convertir recursos a JPEG o PNG sin necesidad de cambiar entre soluciones.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->La integración de Adobe Express en Adobe Journey Optimizer no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
 
 Para obtener más información sobre Adobe Express, consulte [esta documentación](https://helpx.adobe.com/es/express/user-guide.html).
 
