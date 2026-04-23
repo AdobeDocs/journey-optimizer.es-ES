@@ -11,9 +11,9 @@ hide: true
 keywords: CC, copia de carbón, correo electrónico, configuración de canal, encabezados de correo electrónico, CCO
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '919'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ El campo **[!UICONTROL CC email]** acepta tres tipos de valores:
 
 * Un **atributo de perfil**, como la dirección de correo electrónico del administrador de relaciones disponible en el perfil.
 
-* Un **atributo contextual** - este valor **solo se puede usar en campañas activadas por API**. Se recupera de la carga útil de API que debe incluir la variable de contexto `context.channel.email.ccvalues` con el valor de dirección CC.
+* Un **atributo contextual** - este valor **solo se puede usar en campañas activadas por API**. Se recupera de la carga útil de API que debe incluir la variable de contexto `context.channel.email.ccvalues` con el valor de dirección CC pasado como cadena.
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ Si [edita una configuración de correo electrónico](channel-surfaces.md#edit-ch
 
 * **Momento de entrega:** Los mensajes se pueden enviar a la dirección de correo electrónico de CC antes que los destinatarios objetivo. Los mensajes CC también se pueden enviar aunque los mensajes originales hayan [rebotado](../reports/suppression-list.md#delivery-failures).
 
-* **Informes:** Las aperturas, los clics y otras participaciones de los destinatarios de CC se incluyen en las métricas de informes de correo electrónico. Por lo tanto, cualquier apertura o clic de los destinatarios de CC provocará errores de cálculo en [informes](../reports/report-gs-cja.md).
+* **Consentimiento y supresión:** La dirección de correo electrónico de CC no está protegida contra el consentimiento o la supresión.
+
+* **Informes:** Las aperturas, los clics y otras participaciones de los destinatarios de CC se incluyen en las métricas de informes de correo electrónico. No abra ni haga clic en los correos electrónicos enviados a la dirección de CC, ya que se tienen en cuenta en el total de aperturas y clics del análisis de envío, lo que podría provocar errores de cálculo en [informes](../reports/report-gs-cja.md).
 
 * **Correo no deseado:** No marque los mensajes como correo no deseado en la bandeja de entrada CC, ya que afectará a todos los demás correos electrónicos enviados a esta dirección.
 
