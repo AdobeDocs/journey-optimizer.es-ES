@@ -6,10 +6,10 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
+source-git-commit: b12904ef889530ebe7fc1962148e06b810908d18
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 16%
+source-wordcount: '2084'
+ht-degree: 15%
 
 ---
 
@@ -305,6 +305,32 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Fecha de disponibilidad: viernes, 09 de abril de 2026
 
+#### SMS
+
+* **Recuento de caracteres**: en Adobe Journey Optimizer, ahora puede usar el Recuento de caracteres para monitorizar la longitud de sus mensajes SMS en tiempo real. Le ayuda a ver cuándo se dividirá un mensaje en varios segmentos para administrar mejor el formato y evitar aumentos inesperados en los costes de envío. [Más información](../sms/create-sms.md)
+
+  Tarea JIRA de documentación: [DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+
+* **Exclusión y consentimiento en el número de teléfono y remitente**: para SMS, Journey Optimizer ahora registra el consentimiento de marketing y la exclusión en el nivel tanto del número de teléfono como del código corto del perfil. Si cambia el número de teléfono de un perfil, el consentimiento vinculado al número anterior no se transfiere al nuevo. El destinatario debe volver a incluirse, lo que garantiza que todos los mensajes permanezcan alineados con el consentimiento en el nivel de número y remitente específico.
+
+  Actualmente, esta capacidad solo está disponible para configuraciones de SMS de Sinch. [Más información](../sms/sms-configuration-sinch.md)
+
+  Tarea JIRA de documentación: [DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+
+* **Admitir selección de conjuntos de datos personalizados**: los eventos SMS entrantes se pueden escribir en un **conjunto de datos personalizado** que elija, de modo que las audiencias y los recorridos puedan usar esos datos antes de esperar a la ruta de comentarios de mensajes predeterminada y a la actualización de la audiencia de flujo continuo, lo que resulta útil para **SMS bidireccional**. [Más información](../sms/sms-webhook.md)
+
+  Tarea JIRA de documentación: [DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+
+* **Mejora de la interfaz de webhook**: al configurar los webhooks de SMS, la interfaz de usuario ahora incluye una guía de configuración integrada con ejemplos prácticos, lo que facilita la alineación de las cargas del proveedor y la resolución de problemas sin abandonar el flujo de configuración. [Más información](../sms/sms-webhook.md)
+
+  Tarea JIRA de documentación: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+
+#### WhatsApp
+
+* **Seguimiento y botones interactivos de WhatsApp**: WhatsApp en Journey Optimizer ahora admite los botones interactivos requeridos por sus plantillas y casos de uso, junto con el seguimiento de interacción integrado para que pueda medir la participación y analizar el rendimiento junto con los demás informes de canal.
+
+  Tarea JIRA de documentación: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+
 #### Optimización de ruta de recorrido
 
 * **Tipo de experimento**: ahora puede elegir entre experimento A/B (división fija al principio) o bandido multibrazo (división automática con actualizaciones semanales del peso) al configurar un experimento de ruta. [Más información](../building-journeys/path-experimentation.md)
@@ -321,7 +347,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Integraciones de Adobe Experience Manager
 
-* **Selector de asesor de contenido**: los AEM Assets y los selectores de fragmento de contenido ahora se reemplazan con el **selector de asesor de contenido**, un modal unificado que le permite examinar, buscar, filtrar y acceder a todos los AEM Assets y fragmentos de contenido de AEM. También se incluye la compatibilidad con la representación de Dynamic Media, lo que le permite agregar representaciones de imágenes desde la interfaz de usuario cuando se seleccionan los recursos de Dynamic Media. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
+* **Selector de asesor de contenido**: los selectores de Adobe Experience Manager Assets y de fragmento de contenido ahora se reemplazan con el **selector de asesor de contenido**, un modal unificado que le permite examinar, buscar, filtrar y acceder a todos los AEM Assets y fragmentos de contenido de AEM. También se incluye la compatibilidad con la representación de Dynamic Media, lo que le permite agregar representaciones de imágenes desde la interfaz de usuario cuando se seleccionan los recursos de Dynamic Media. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
 
   Tarea JIRA de documentación: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
@@ -337,11 +363,13 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
   Fecha de disponibilidad: jueves, 01 de abril de 2026
 
+<!--
 #### WhatsApp
 
-* **Canal de WhatsApp: registro incrustado**: Adobe Journey Optimizer ahora admite el flujo de <strong>registro incrustado</strong> de Meta para la configuración del canal de WhatsApp. Esta experiencia de incorporación optimizada le permite conectar su cuenta de <strong>WhatsApp Business Account</strong> y números de teléfono directamente en la interfaz de AJO, sin tener que navegar a <strong>Meta Business Manager</strong>, lo que reduce considerablemente el tiempo de configuración. También sirve como herramienta de migración para transferir los números de teléfono y las <strong>cuentas de WhatsApp Business (WABA)</strong> a Adobe.
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
-  Tarea JIRA de documentación: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+  Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+-->
 
 #### Configuración
 
@@ -351,7 +379,9 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 #### Campañas orquestadas
 
-<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
+* **Mejoras de Data Modeler**: para esquemas relacionales organizados, Data Modeler ahora admite la creación de claves compuestas mediante varios campos. Las relaciones compuestas entre tablas se crean al cargar un esquema desde un archivo DDL o de Excel. En la vista de relación de entidades, después de cargar un archivo, los vínculos compuestos muestran el conjunto completo de emparejamientos de campos entre tablas.
+
+  Tarea JIRA de documentación: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
 * **Variables globales en campañas orquestadas**: las campañas orquestadas ahora admiten variables globales que se pueden definir una vez y reutilizar en todas las actividades dentro de un flujo de trabajo, lo que simplifica la configuración y garantiza la coherencia en los valores dinámicos, las expresiones y la personalización de contenido.
 
