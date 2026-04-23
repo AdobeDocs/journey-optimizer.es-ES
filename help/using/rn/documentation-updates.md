@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Abril de 2026 {#april-2026}
+
+* Se han mejorado las protecciones de la documentación **Agregar un campo CC a los correos electrónicos**. Ahora especifican que la dirección CC no se comprueba con el consentimiento o la supresión, y que las aperturas y los clics de correos electrónicos enviados a la dirección CC se tienen en cuenta en el total de aperturas y clics del análisis de envío. [Más información](../configuration/cc-email-field.md)
 
 * La documentación de **Actividades de canal** se ha actualizado con una nueva sección de **Mensajes de marketing vs. transaccionales** que explica las diferencias de comportamiento entre las dos categorías de canales: requisitos de inclusión, aplicación de reglas de negocio, tipo de configuración de canal y casos de uso recomendados. [Más información](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
