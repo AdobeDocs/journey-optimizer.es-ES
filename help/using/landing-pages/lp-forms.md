@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 7%
@@ -33,6 +33,12 @@ Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Op
 >title="Selección de un conjunto de datos"
 >abstract="Defina un conjunto de datos en el que se almacenarán y reflejarán las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista."
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 Antes de poder crear un formulario, debe crear un ajuste preestablecido dedicado en el que seleccione el punto final de conexión al que se envían los datos de envío del formulario y el conjunto de datos al que se almacenarán los datos capturados mediante el formulario.
 
 Una vez que los datos llegan al extremo de flujo continuo, se vinculan con la información del conjunto de datos. Mediante las conexiones de origen/destino generadas y el flujo de origen, los datos se insertan en el conjunto de datos.
@@ -45,12 +51,6 @@ Al crear un ajuste preestablecido:
    * **Conexión de Source** - donde se originan los datos.
    * **Conexión de destino** - donde se almacenan o consumen los datos.
    * **Flujo de Source**: la canalización que mueve datos de la conexión de origen a [!DNL Experience Platform], y administra la asignación, la transformación y la validación.
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 Para crear un ajuste preestablecido de formulario, siga los pasos a continuación.
 
@@ -73,7 +73,7 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
    >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
    >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
    >
-   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -84,6 +84,12 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
 1. Haga clic en **[!UICONTROL Publicar]**. El ajuste preestablecido ya está listo para utilizarse en un formulario.
 
 ## Acceso y administración de formularios {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 Para acceder a la lista del formulario, seleccione **[!UICONTROL Administración de contenido]** > **[!UICONTROL Forms]** en el menú de la izquierda.
 
