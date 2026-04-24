@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Abril de 2026 {#april-2026}
 
+* La documentación de la actividad **Change dimension** se ha actualizado para aclarar que mientras la actividad utiliza una unión externa y mantiene todos los registros en el paso de cambio de dimensión, los registros sin un perfil coincidente en la nueva dimensión de segmentación se excluyen silenciosamente en el momento de la entrega del mensaje. [Más información](../orchestrated/activities/change-dimension.md)
+
 * Se han mejorado las protecciones de la documentación **Agregar un campo CC a los correos electrónicos**. Ahora especifican que la dirección CC no se comprueba con el consentimiento o la supresión, y que las aperturas y los clics de correos electrónicos enviados a la dirección CC se tienen en cuenta en el total de aperturas y clics del análisis de envío. [Más información](../configuration/cc-email-field.md)
 
 * La documentación de **Actividades de canal** se ha actualizado con una nueva sección de **Mensajes de marketing vs. transaccionales** que explica las diferencias de comportamiento entre las dos categorías de canales: requisitos de inclusión, aplicación de reglas de negocio, tipo de configuración de canal y casos de uso recomendados. [Más información](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación de **Generar actividad de audiencia** se ha enriquecido con un nuevo ejemplo que muestra cómo filtrar perfiles por un atributo de plan de suscripción usando el generador de reglas. [Más información](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* La página **Introducción a campañas orquestadas** documenta el patrón de nivel de entrada **Generar audiencia → Bifurcar → Canal A + Canal B** en **¿Qué hay dentro de una campaña orquestada?**, con referencias cruzadas a las páginas de Actividad de bifurcación y Mensajes de marketing vs. Mensajes transaccionales. [Más información](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* La página **Introducción a campañas orquestadas** documenta el patrón de nivel de entrada **Generar audiencia → Bifurcar → Canal A + Canal B** en **¿Qué hay dentro de una campaña orquestada?**, con referencias cruzadas a las páginas de actividad de bifurcación y de mensajes de marketing vs. transaccionales. [Más información](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha movido de la sección Administración de contenido a la sección **Correo electrónico** de la documentación (en Diseño de correo electrónico) y se ha cambiado el nombre del archivo de página a **email-expert-mode.md**. La página ahora documenta que el editor de HTML avanzado está disponible en el Designer de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
 
 * La documentación de **Iniciar y supervisar campañas orquestadas** se ha actualizado con una nueva sección que detalla la secuencia de ejecución interna en el tiempo de publicación, junto con una tabla de estado del ciclo vital de la campaña, una lista de comprobación previa a la publicación y una advertencia de confirmación de envío para campañas no recurrentes. [Más información](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -339,7 +341,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
    * Los identificadores adicionales no se validan con las políticas de etiquetado y aplicación del uso de datos (Data Usage Labeling &amp; Enforcement, DULE) y no se tienen en cuenta durante las comprobaciones de gobernanza de datos en recorridos.
 
-[Más información](../building-journeys/supplemental-identifier.md)
+     [Más información](../building-journeys/supplemental-identifier.md)
 
 * La página Optimización en campañas se ha actualizado para reflejar el hecho de que la optimización ahora también está disponible en recorridos. [Más información](../content-management/gs-message-optimization.md)
 
