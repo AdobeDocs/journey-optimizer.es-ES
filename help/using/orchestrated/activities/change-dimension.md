@@ -5,10 +5,10 @@ title: Uso de la actividad Cambiar dimensión
 description: Aprenda a utilizar la actividad Cambiar dimensión
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,11 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Cambiar dimensión]*
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Defina la **[!UICONTROL Nueva dimensión de público destinatario]**. Se guardan todos los registros durante el cambio de dimensión.
+1. Defina la **[!UICONTROL Nueva dimensión de público destinatario]**. El paso Cambiar dimensión utiliza una unión externa: pasan todos los registros de la población de entrada, incluidos los que no tienen ninguna entrada coincidente en la nueva dimensión.
+
+   >[!IMPORTANT]
+   >
+   >Los registros que no tienen un perfil coincidente en la nueva dimensión de segmentación se **excluyen silenciosamente a la hora de envío del mensaje**. Esta exclusión no se refleja actualmente en los registros de exclusión. Para identificar registros no coincidentes de forma temprana, use la opción **Previsualizar resultados** en la transición después del paso Cambiar dimensión y compruebe que los recuentos de registros se alinean con las expectativas antes de continuar.
 
 
 ## Ejemplo {#example}
@@ -52,6 +56,6 @@ Este caso de uso se centra en enviar un SMS a los perfiles que hayan creado una 
 
 Comience con la actividad **[!UICONTROL Generarr público]**, usando la dimensión de segmentación **[!UICONTROL Lista de deseos]** para identificar todas las listas de deseos relevantes.
 
-A continuación, añada la actividad **[!UICONTROL Cambiar dimensión]** para cambiar la dimensión de segmentación de **[!UICONTROL Lista de deseos]** a **[!UICONTROL Destinatarios].** Este paso garantiza que los objetivos de la campaña orquestada sean los perfiles correctos vinculados a esas listas de deseos, lo que permite enviar el SMS a los perfiles deseados.
+A continuación, agregue una actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación de **[!UICONTROL Wishlist]** a **[!UICONTROL Destinatario].** Este paso garantiza que la campaña orquestada se dirija a los perfiles correctos vinculados a esas listas de deseos, lo que permite enviar el SMS a los perfiles deseados.
 
 ![](../assets/orchestrated-change-dimension-example.png)
