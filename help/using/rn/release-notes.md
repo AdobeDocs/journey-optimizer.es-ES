@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
+source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
 workflow-type: tm+mt
-source-wordcount: '3902'
+source-wordcount: '3944'
 ht-degree: 16%
 
 ---
@@ -98,6 +98,22 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 <tr>
 <td>
 <p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico a través de una opción específica en la Designer de correo electrónico. Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Carpetas para recorridos y campañas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede organizar sus recorridos y campañas en <strong>folders</strong> para mejorar la navegación y la administración en la interfaz.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -332,57 +348,57 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 
   Actualmente, esta capacidad solo está disponible para configuraciones de SMS de Sinch. [Más información](../sms/sms-configuration-sinch.md)
 
-* **SMS inbounds to a custom dataset** - In **SMS API credentials**, route **inbound SMS** to a **custom, profile-enabled Experience Event dataset** you select instead of only the default tracking dataset. [Más información](../sms/sms-webhook.md)
+* **Enlaces SMS a un conjunto de datos personalizado**: en **credenciales de la API de SMS**, enrute **SMS entrantes** a un **conjunto de datos de evento de experiencia personalizado con perfil habilitado** que seleccione en lugar de solo el conjunto de datos de seguimiento predeterminado. [Más información](../sms/sms-webhook.md)
 
-* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [Más información](../sms/sms-webhook.md)
+* **Mejora de la interfaz de webhook**: al configurar los webhooks de SMS, la interfaz de usuario ahora incluye una guía de configuración integrada con ejemplos prácticos, lo que facilita la alineación de las cargas del proveedor y la resolución de problemas sin abandonar el flujo de configuración. [Más información](../sms/sms-webhook.md)
 
 #### WhatsApp
 
-* **WhatsApp interactive buttons and tracking** - WhatsApp in Journey Optimizer now supports interactive buttons required by your templates and use cases, along with built-in interaction tracking so you can measure engagement and analyze performance alongside your other channel reporting.
+* **Seguimiento y botones interactivos de WhatsApp**: WhatsApp en Journey Optimizer ahora admite los botones interactivos requeridos por sus plantillas y casos de uso, junto con el seguimiento de interacción integrado para que pueda medir la participación y analizar el rendimiento junto con los demás informes de canal.
 
-#### Adobe Experience Manager Integrations
+#### Integraciones de Adobe Experience Manager
 
-* **Adobe Experience Manager Content fragment Varition Support** - You can select **Content Fragment variations** (for example language or channel variants) when inserting Adobe Experience Manager Content Fragments, with improved handling for locale and multilingual scenarios. [Más información](../integrations/aem-fragments.md#aem-variations)
-
-  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
-  Availability date: April 3, 2026
-
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Más información](../integrations/aem-fragments.md)
+* **Compatibilidad con la variación del fragmento de contenido de Adobe Experience Manager**: puede seleccionar **variaciones del fragmento de contenido** (por ejemplo, variantes de idioma o canal) al insertar fragmentos de contenido de Adobe Experience Manager, con una administración mejorada para escenarios locales y multilingües. [Más información](../integrations/aem-fragments.md#aem-variations)
 
   Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
-  Availability date: April 1, 2026
+  Fecha de disponibilidad: 3 de abril de 2026
+
+* **Contexto del fragmento de contenido de Adobe Experience Manager durante la creación**: la selección del fragmento de contenido permanece activa a medida que se desplaza entre campos de texto y bloques de contenido, por lo que puede agregar más campos de fragmento sin volver a abrir **Abrir el asesor de contenido de AEM** cada vez. [Más información](../integrations/aem-fragments.md)
+
+  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+  Fecha de disponibilidad: 1 de abril de 2026
 
 #### Configuración
 
-* **Specific permissions for URL parameter encryption keys** - To access and manage keys for URL parameter encryption, new permissions have been created. You must now have the **View Key Registry** and **Manage Key Registry** permissions granted.
+* **Permisos específicos para claves de cifrado de parámetros de URL**: para acceder y administrar claves para el cifrado de parámetros de URL, se han creado nuevos permisos. Ahora debe tener concedidos los permisos de **Ver registro de claves** y **Administrar registro de claves**.
 
 #### Campañas orquestadas
 
-* **Data Modeler enhancements** - Orchestrated relational schemas now support composite keys spanning multiple fields. Loading a schema from a DDL file also brings in enumerations, and loading from either a DDL or Excel file automatically creates composite relationships between tables. In the entity relationship view, composite links now display the full set of field pairings between tables after a file is uploaded.
+* **Mejoras de Data Modeler**: los esquemas relacionales organizados ahora admiten claves compuestas que abarcan varios campos. Al cargar un esquema desde un archivo DDL, también se generan enumeraciones, y al cargar desde un archivo DDL o de Excel se crean automáticamente relaciones compuestas entre las tablas. En la vista de relación de entidades, los vínculos compuestos ahora muestran el conjunto completo de emparejamientos de campos entre tablas después de cargar un archivo.
 
-* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
+* **Variables globales en campañas orquestadas**: las campañas orquestadas ahora admiten variables globales que se pueden definir una vez y reutilizar en todas las actividades dentro de un flujo de trabajo, lo que simplifica la configuración y garantiza la coherencia en los valores dinámicos, las expresiones y la personalización de contenido.
 
-#### Email design
+#### Diseño de correo electrónico
 
-* **Advanced HTML editor for email content** - Advanced HTML mode lets you edit the HTML source of your content in the Email Designer, add advanced expressions (such as conditions) in the source, and toggle between HTML view and Desktop view without losing your changes.
+* **Editor de HTML avanzado para el contenido del correo electrónico**: el modo de HTML avanzado permite editar el origen de HTML del contenido en el Designer de correo electrónico, agregar expresiones avanzadas (como condiciones) en el origen y alternar entre la vista de HTML y la vista de escritorio sin perder los cambios.
 
-  Previously available for email content templates only, this capability is now deployed to **email** content in the Email Designer (for example, emails authored in journeys and campaigns), in addition to email content templates. It is currently in Limited Availability — contact your Adobe representative to gain access. [Más información](../email/email-expert-mode.md)
+  Esta funcionalidad, que antes solo estaba disponible para plantillas de contenido de correo electrónico, ahora se implementa en el contenido de **correo electrónico** en el Designer de correo electrónico (por ejemplo, correos electrónicos creados en recorridos y campañas), además de en las plantillas de contenido de correo electrónico. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener acceso. [Más información](../email/email-expert-mode.md)
 
-  Availability date: April 9, 2026
+  Fecha de disponibilidad: 9 de abril de 2026
 
-* **AI Assistant for personalization expressions in the Email Designer** - In the Email Designer, select a component and use **Add expression** in the contextual toolbar to describe the personalization you need in plain language, review the generated expression, and insert it without leaving the designer. [Más información](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **Asistente de IA para expresiones de personalización en el correo electrónico Designer**: en el correo electrónico Designer, seleccione un componente y utilice **Agregar expresión** en la barra de herramientas contextual para describir la personalización que necesita en lenguaje sencillo, revise la expresión generada e insértela sin salir del diseñador. [Más información](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
-  Availability date: April 15, 2026
+  Fecha de disponibilidad: 15 de abril de 2026
 
-#### Journey Path Optimization
+#### Optimización de ruta de recorrido
 
-* **Experiment type** - You can now choose between A/B experiment (fixed split at the start) or Multi-armed bandit (automatic split with weekly weight updates) when configuring a path experiment. [Más información](../building-journeys/path-experimentation.md)
+* **Tipo de experimento**: ahora puede elegir entre experimento A/B (división fija al principio) o bandido multibrazo (división automática con actualizaciones semanales del peso) al configurar un experimento de ruta. [Más información](../building-journeys/path-experimentation.md)
 
-  Availability date: April 7, 2026
+  Fecha de disponibilidad: 7 de abril de 2026
 
-* **Path experimentation: Scale the Winner** - You can now automatically or manually roll out the winning path of an experiment to your full audience. Una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorear constantemente el experimento. [Más información](../building-journeys/path-experimentation.md#scale-winner)
+* **Experimentación de rutas: escalar el ganador**: ahora puede desplegar automática o manualmente la ruta ganadora de un experimento en toda la audiencia. Una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorear constantemente el experimento. [Más información](../building-journeys/path-experimentation.md#scale-winner)
 
   Esta funcionalidad solo está disponible en recorridos unitarios (cualificaciones de audiencia y activadas por eventos). No está disponible para recorridos de audiencia de lectura.
 
