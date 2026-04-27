@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + Trabajar de manera eficaz {#work-efficiently}
       + [Navegación por la interfaz](using/start/user-interface.md)
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
-      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accesibilidad](using/start/accessibility.md)
       + {hide-from-toc}[Recorridos vs. Campañas](using/start/journeys-vs-campaigns.md)
 + Recorridos {#orchestrate-journeys}
@@ -136,7 +136,7 @@ ht-degree: 91%
       + {hide-from-toc}[Aumento de envíos](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
       + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Retos de fidelización {#loyalty-challenges}
++ Desafíos de lealtad {#loyalty-challenges}
    + {hide-from-toc}[Introducción a los retos de fidelización](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[Acceder y administrar desafíos y tareas](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Crear desafíos](using/loyalty-challenges/create-challenges.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[Insertar temporizador de cuenta atrás](using/integrations/countdown.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Trabajar con integraciones](using/integrations/external-sources.md)
+      + {hide-from-toc}[Trabajar con integraciones](using/integrations/integrations.md)
       + {hide-from-toc}[Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Proveedores disponibles](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Preguntas más frecuentes](using/integrations/vendor-integration-faq.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [Protecciones de tiempo de vida (TTL) de conjuntos de datos](using/data/datasets-ttl.md)
       + [Exportación de conjuntos de datos de Journey Optimizer](using/data/export-datasets.md)
       + [Ejemplos de consultas](using/data/datasets-query-examples.md)
-      + [Esquemas integrados > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+      + [Esquemas integrados >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
    + [Uso de datos de Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Consultas](using/data/get-started-queries.md)
 + Configuración de canal {#configuration}
