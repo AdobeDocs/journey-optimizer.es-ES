@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 
 * **Puntuación de alineación de marca en el panel de campañas**: ahora puede evaluar la puntuación de alineación de marca directamente en el panel de campañas para asegurarse de que el contenido no modifique la marca. Esto le permite comprobar las directrices de un vistazo sin tener que abrir el diseñador de contenido.
 
-* **Mejora del Asistente de mensajes**: cuando un mensaje es vago, incompleto o combina varios objetivos, **El Asistente de mensajes** ahora puede hacer preguntas aclaratorias centradas o sugerir una reescritura más clara de la solicitud antes de la generación, lo que le ayuda a fijar lo que necesita antes de que el asistente responda, lo que mejora la coherencia y reduce los reintentos. [Más información](../content-management/ai-assistant-prompting-guide.md)
+* **Mejora del Asistente de mensajes**: El Asistente de mensajes mejora la generación de contenido de IA al analizar los mensajes del usuario en tiempo real e identificar lagunas en la claridad, la integridad y el contexto. Sugiere reescrituras mejoradas y proporciona una guía procesable para enriquecer las indicaciones con detalles clave como audiencia, tono e intención. La función también hace preguntas de aclaración específicas para ayudar a los usuarios a refinar sus entradas antes de la generación. Esto da como resultado resultados más precisos y de alta calidad con menos iteraciones. [Más información](../content-management/ai-assistant-prompting-guide.md)
 
 #### Toma de decisiones
 
