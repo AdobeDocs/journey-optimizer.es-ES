@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
+source-git-commit: a5e4bc0d71ccecf9e694fe6621a9987e11178b94
 workflow-type: tm+mt
-source-wordcount: '4017'
+source-wordcount: '4016'
 ht-degree: 16%
 
 ---
@@ -65,7 +65,7 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 <tr>
 <td>
 <p>Ahora puede establecer su recorrido en <strong>Simulación</strong>. Este modo le permite validar su lógica usando <strong>usuarios simulados</strong>. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform.</p>
-<p>Esta integración no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.</p>
+<p>Esta capacidad está disponible para todos los clientes como disponibilidad limitada con funciones esenciales.</p>
 </td>
 </tr>
 </tbody>
