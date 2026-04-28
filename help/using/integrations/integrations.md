@@ -10,10 +10,10 @@ level: Beginner
 keywords: integración
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ Cuando el reintento está habilitado, se producen otros errores después de **tr
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >La configuración **[!UICONTROL Carga de respuesta]** define la respuesta esperada para la creación, incluido cualquier esquema aplicado en ese paso. Los especialistas en marketing solo pueden hacer referencia a campos expuestos, los tokens de otras rutas no superan la validación en el editor.
+
 1. Use **[!UICONTROL Enviar conexión de prueba]** para validar la integración.
 
    Una vez validado, haga clic en **[!UICONTROL Activar]**.
@@ -146,7 +150,14 @@ Las llamadas respetan la tasa de regulación **throttling** que configuró: las 
 
 Cada mensaje en cola también lleva un período de validez (TTL). Si el procesamiento se retrasa y un mensaje pasa por esa ventana, el sistema **lo descarta** y emite un evento **`MessageValidityExclusion`**, de modo que el trabajo obsoleto se borra de la cola y los recursos permanecen disponibles.
 
+
 ## Uso de integraciones externas para la personalización {#personalization}
+
+Antes de utilizar integraciones externas para la personalización, tenga en cuenta que la programación y el aislamiento de las llamadas de integración dependen del contexto de ejecución:
+
+* **Ejecución por lotes** (campañas por lotes, campañas orquestadas y campañas de marketing activadas por API): cada ejecución por lotes funciona en un entorno dedicado y aislado. Por lo tanto, las ejecuciones por lotes simultáneas que llaman a sistemas externos no compiten ni se obstruyen entre sí.
+
+* **Ejecución unitaria** (recorridos unitarios, recorridos por lotes y campañas transaccionales activadas por API): el tráfico de integración está aislado por zona protegida de marca, por lo que una API externa lenta para una marca no retrasa a otra. Dentro de la zona protegida, las integraciones simultáneas pueden retrasar brevemente otros mensajes respaldados por integraciones; cada mensaje se intenta durante un máximo de 12 horas antes de la caducidad.
 
 Como experto en marketing, puede utilizar integraciones configuradas para personalizar el contenido. Siga estos pasos:
 
@@ -186,6 +197,10 @@ Como experto en marketing, puede utilizar integraciones configuradas para person
 1. Una vez definidos los atributos de integración, ahora puede usar los campos de integración en el contenido para mensajes personalizados haciendo clic en el icono ![agregar](assets/do-not-localize/Smock_Add_18_N.svg).
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >Los tokens de la plantilla solo deben utilizar campos que el administrador exponga en la configuración de la integración. Por ejemplo, `{{weatherResponse.temperature}}` es válido cuando se expone `temperature`; `{{weatherResponse.humidity}}` se rechaza en el editor si `humidity` no se expuso.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
