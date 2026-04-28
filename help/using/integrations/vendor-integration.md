@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: integración, proveedor, terceros
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# Proveedores disponibles
+# Configuraciones de proveedor de ejemplo {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ Tabla de contenido:
 
 * [Trabajo con integraciones](integrations.md)
 * [Introducción a la integración de proveedores](vendor-integration-gs.md)
-* **[Proveedores disponibles](vendor-integration.md)**
+* **[Configuraciones de proveedor de ejemplo](vendor-integration.md)**
 * [Preguntas más frecuentes](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Los clientes y proveedores externos son responsables de proteger los puntos finales de API según sea necesario según sus requisitos de seguridad y cumplimiento.
 
 >[!ENDSHADEBOX]
 
@@ -1159,7 +1165,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
+1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1212,7 +1218,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Autenticación**
 
-Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
+Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
 
 **Solicitar carga**
 
