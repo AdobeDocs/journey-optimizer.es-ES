@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: integración, proveedor, terceros
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# Proveedores disponibles
+# Configuraciones de proveedor de ejemplo {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ Tabla de contenido:
 
 * [Trabajo con integraciones](integrations.md)
 * [Introducción a la integración de proveedores](vendor-integration-gs.md)
-* **[Proveedores disponibles](vendor-integration.md)**
+* **[Configuraciones de proveedor de ejemplo](vendor-integration.md)**
 * [Preguntas más frecuentes](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Los clientes y proveedores externos son responsables de proteger los puntos finales de API según sea necesario según sus requisitos de seguridad y cumplimiento.
 
 >[!ENDSHADEBOX]
 
