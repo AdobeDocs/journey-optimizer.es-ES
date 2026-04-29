@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, subdominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 5%
 
 ---
@@ -92,14 +92,14 @@ También puede utilizar la personalización para todos los parámetros de encabe
 
 >[!NOTE]
 >
->* Todos los campos **[!UICONTROL parámetros de encabezado]** se pueden personalizar, excepto el campo **[!UICONTROL Prefijo de correo electrónico con error]**.
+>* Todos los **[!UICONTROL parámetros de encabezado]** y los **[!UICONTROL encabezados de remitente]** opcionales se pueden personalizar, excepto el campo **[!UICONTROL Prefijo de correo electrónico de error]**.
 >* Al [editar una configuración de correo electrónico](../configuration/channel-surfaces.md#edit-channel-surface), no puede agregar nuevos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) a los parámetros de encabezado; en su lugar, debe crear una nueva configuración de canal.
 
 Por ejemplo, si tiene varias marcas, puede crear una sola configuración y utilizar valores personalizados para los encabezados de correo electrónico. Esto le permite asegurarse de que todos los correos electrónicos enviados desde sus diferentes marcas se dirijan a cada uno de sus clientes con los nombres y correos electrónicos correctos de **From**. Del mismo modo, cuando los destinatarios presionen el botón **Responder** en el software de cliente de correo electrónico, querrá que los nombres y correos electrónicos de **Responder a** correspondan a la marca correcta para el usuario correcto.
 
 Para utilizar variables personalizadas para los parámetros de encabezado de la configuración, siga los pasos a continuación.
 
-1. Defina los parámetros de encabezado como lo haría normalmente. [Descubra cómo](email-settings.md#email-header)
+1. Defina los parámetros de encabezado como lo haría normalmente. [Descubra cómo](header-parameters.md)
 
 1. Para cada campo, seleccione el icono Editar.
 
@@ -125,7 +125,7 @@ Los ejemplos siguientes utilizan parámetros de evento que actualmente no están
 
 >[!NOTE]
 >
->Si agregó uno o más subdominios dinámicos a la configuración, los sufijos **De correo electrónico** y **Error de correo electrónico** se rellenarán en función del [subdominio dinámico](#dynamic-subdomains) resuelto.
+>Si agregó uno o más subdominios dinámicos a la configuración, los sufijos **De correo electrónico** y **Error de correo electrónico** se rellenarán en función del [subdominio dinámico](#dynamic-subdomains) resuelto. **[!UICONTROL Correo electrónico del remitente]**, cuando está establecido, es una dirección completa y no se genera a partir de ese sufijo de subdominio.
 
 ## Usar seguimiento de URL personalizado {#personalize-url-tracking}
 

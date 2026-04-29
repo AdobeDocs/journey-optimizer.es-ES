@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Empezar a configurar el correo electrónico
+title: Empezar con la configuración de correo electrónico
 description: Obtenga más información sobre la configuración de correo electrónico en [!DNL Journey Optimizer]
 role: Admin
 level: Experienced
@@ -9,14 +9,14 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: correo electrónico, configuración, superficie, subdominios
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
-# Empezar a configurar el correo electrónico {#get-starte-email-config}
+# Empezar con la configuración de correo electrónico {#get-starte-email-config}
 
 Para poder enviar correos electrónicos a través de recorridos y campañas en [!DNL Journey Optimizer], debe seguir varios pasos de configuración.
 
@@ -39,7 +39,7 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Las direcciones **[!UICONTROL Correo electrónico del remitente]** y **[!UICONTROL Correo electrónico de error]** deben utilizar el subdominio delegado seleccionado actualmente. [Más información](email-settings.md#email-header)
+   * El **[!UICONTROL prefijo del correo electrónico de origen]** y el **[!UICONTROL prefijo del correo electrónico de error]** utilizan el [subdominio delegado seleccionado](../configuration/about-subdomain-delegation.md). Opcionalmente, **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]** pueden identificar a una parte transmisora diferente (dirección completa de **Remitente**, no vinculada a ese sufijo de subdominio). [Más información](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 

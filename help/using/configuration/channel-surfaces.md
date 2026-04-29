@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1898'
 ht-degree: 12%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 12%
 >title="Acción de marketing"
 >abstract="Elija las acciones de marketing para vincular las políticas de consentimiento a los mensajes con esta configuración. Todas las políticas de consentimiento conectadas a la acción de marketing se utilizan para satisfacer las preferencias de los clientes."
 
-Con [!DNL Journey Optimizer], puede establecer configuraciones de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para sus mensajes: tipo de correo electrónico, nombre y correo electrónico del remitente, aplicaciones móviles, configuración de SMS, etc.
+Con [!DNL Journey Optimizer], puede establecer configuraciones de canal (es decir, ajustes preestablecidos de mensaje) que definan todos los parámetros técnicos necesarios para sus mensajes: tipo de correo electrónico, nombre y correo electrónico del remitente, enrutamiento de respuesta y error, aplicaciones móviles, configuración de SMS, etc.
 
 >[!CAUTION]
 >
