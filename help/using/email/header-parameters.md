@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: ajustes, correo electrónico, configuración
+keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 81%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,13 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >Al [editar una configuración de correo electrónico](../configuration/channel-surfaces.md#edit-channel-surface), no puede agregar nuevos [atributos de perfil](../personalization/personalization-build-expressions.md#sources) a los parámetros de encabezado. Debe crear una nueva configuración de canal.
 
 * **[!UICONTROL Nombre del remitente]**: el nombre del remitente, como por ejemplo, el nombre de su marca.
+
 * **[!UICONTROL Prefijo del correo electrónico del remitente]**: la dirección de correo electrónico que desea usar para sus comunicaciones.
+
 * **[!UICONTROL Responder a (nombre)]**: el nombre que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico.
+
 * **[!UICONTROL Responder a (correo electrónico)]**: la dirección de correo electrónico que se usará cuando el destinatario haga clic en el botón **Responder** en el software de cliente de correo electrónico. [Más información](#reply-to-email)
+
 * **[!UICONTROL Prefijo del correo electrónico de error]**: todos los errores generados por los ISP varios días después de que se haya entregado el correo (rechazos asíncronos) se reciben en esta dirección. Las notificaciones de fuera de la oficina y los retos-respuestas también se reciben en esta dirección.
 
   Si desea recibir notificaciones de fuera de la oficina y retos-respuestas en una dirección de correo electrónico específica que no se ha delegado a Adobe, debe configurar un [proceso de reenvío](#forward-email). En ese caso, asegúrese de que dispone de una solución manual o automatizada para procesar los correos electrónicos que llegan a esta bandeja de entrada.
@@ -45,7 +49,42 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 
 >[!NOTE]
 >
->Las direcciones deben comenzar por una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guion `-`.
+>Para **[!UICONTROL From email prefix]** y **[!UICONTROL Error email prefix]**, los valores deben comenzar con una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guión `-`.
+
+## Encabezados de remitente {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="Encabezados de remitente"
+>abstract="Utilice estos campos opcionales cuando la entidad emisora (Remitente) difiera de la entidad emisora (De), por ejemplo, un padre corporativo que envía mensajes para una marca secundaria o una agencia que envía para varios clientes. Los clientes de correo electrónico que admiten esto generalmente lo representan como &quot;Remitente en nombre de Desde&quot; o muestran un indicador &quot;a través de&quot;."
+
+Algunos casos de uso requieren que el buzón que transmite el mensaje sea diferente del autor de **From**; por ejemplo, una organización principal que envía en nombre de una subsidiaria, un equipo de marketing compartido para varias marcas o una agencia que envía para varios clientes.
+
+En otras palabras, **De** es el autor del mensaje (de quién es el correo electrónico) y **Remitente** es el agente responsable de transmitir el mensaje (que realmente lo envió). El campo **Remitente** está diseñado para utilizarse cuando la entidad de transmisión es diferente de la del autor.
+
+En este caso, puede establecer un nombre de **Remitente** y una dirección de correo electrónico diferentes para agregarlos al encabezado del correo electrónico mediante los campos siguientes en la sección **Encabezados de remitente**:
+
+* **[!UICONTROL Nombre del remitente]**: El nombre de la parte responsable de transmitir el mensaje cuando difiere del autor de **From**.
+
+* **[!UICONTROL Correo electrónico del remitente]**: La dirección de correo electrónico de la parte transmisora.
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>Estos campos son opcionales. Puede [personalizarlos](surface-personalization.md#personalize-header) como otros campos de encabezado.
+
+Cuando se establecen **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]**, [!DNL Journey Optimizer] agrega un encabezado SMTP del **remitente** al correo electrónico<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Los clientes de correo electrónico que admitan esto pueden mostrar frases como **Remitente a nombre de Desde** o un indicador de **a través de**.
+
+>[!NOTE]
+>
+>Si deja vacíos **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]**, o si el **Remitente** resuelto es idéntico a **De**, no se agregará ningún encabezado de **Remitente**.
+
+Notas:
+
+* La dirección **Remitente** no se usa para la alineación de SPF, DKIM o DMARC; solo se realiza la validación de **formato**. SPF, DKIM y DMARC siguen dependiendo de los campos **De**. El [subdominio delegado](../configuration/about-subdomain-delegation.md) seleccionado para la configuración sigue siendo el dominio de envío utilizado para esas comprobaciones.
+
+* Si **Remitente** está configurado y la personalización no se resuelve en un valor para un destinatario, el mensaje no se envía a ese destinatario.
 
 ## Responder a (correo electrónico) {#reply-to-email}
 

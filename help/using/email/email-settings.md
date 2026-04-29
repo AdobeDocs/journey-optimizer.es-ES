@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,11 @@ Permite incluir una URL de cancelación de suscripción de un solo clic en el en
 
 ## Parámetros de encabezado {#email-header}
 
-En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de los remitentes y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
+En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los valores de **De**, **Responder a** y **Error** para el tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
+
+
+De forma opcional, cuando la parte transmisora deba diferir del autor de **From**, establezca un nombre de **Remitente** y un correo electrónico diferentes para agregarlos al encabezado del correo electrónico. [Más información](header-parameters.md#sender-header)
+
 
 ## Correo electrónico CCO {#bcc-email}
 
