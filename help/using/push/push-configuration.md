@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 6%
+source-wordcount: '2189'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente Mobile SDK para que empiece a recopilar y validar datos de eventos móviles y para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de la recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
+>El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente Mobile SDK para que empiece a recopilar y validar datos de eventos móviles y para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
 >
 
 ## Antes de empezar {#start-push}
@@ -129,9 +129,9 @@ Siga los pasos de implementación detallados en los vínculos siguientes:
 
 ### Integración de la aplicación móvil con Adobe Experience Platform SDK {#integrate-mobile-app}
 
-El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. Siga la [documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} para configurar los SDK de Adobe Experience Platform Mobile en su aplicación.
+El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. Siga la [documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"} para configurar los SDK de Adobe Experience Platform Mobile en su aplicación.
 
-Al final de esto, también debería haber creado y configurado una propiedad móvil en [!DNL Adobe Experience Platform Data Collection]. Normalmente, creará una propiedad móvil para cada aplicación móvil que desee administrar. Aprenda a crear y configurar una propiedad móvil en [Documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Al final de esto, también debería haber creado y configurado una propiedad móvil en [!DNL Adobe Experience Platform Data Collection]. Normalmente, creará una propiedad móvil para cada aplicación móvil que desee administrar. Aprenda a crear y configurar una propiedad móvil en [Documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property){target="_blank"}.
 
 <!--
 To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
@@ -238,17 +238,34 @@ Una vez creadas las credenciales de inserción, debe crear una configuración pa
 
 1. Elija su **[!UICONTROL plataforma]**: Android o iOS <!--and/or Web-->.
 
-1. Seleccione el mismo **[!UICONTROL ID de aplicación]** que para la [credencial push](#push-credentials-launch) configurada anteriormente.
+1. Para **[!UICONTROL ID de aplicación]**, seleccione el valor que coincida con su [credencial push](#push-credentials-launch). De forma opcional, puede utilizar la personalización para dirigir muchas aplicaciones desde un recorrido o una campaña. [Más información](#app-id-personalization)
 
-1. Guarde los cambios.
+1. **Guarde** sus cambios.
 
 Ahora puede seleccionar la configuración al crear las notificaciones push.
+
+### Personalizar el ID de la aplicación (opcional) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="Personalizar ID de aplicación"
+>abstract="Cuando administre varias aplicaciones móviles, almacene cada ID de aplicación en el perfil y utilice una sola configuración de canal push. Abra el editor de personalización junto al campo App id para seleccionar un atributo de perfil; la expresión se evalúa en el momento de la entrega para cada destinatario. Asegúrese de que existan credenciales push para cada ID de aplicación que pueda devolver su expresión."
+
+Cuando tenga muchas marcas o inquilinos con aplicaciones separadas, puede almacenar cada **[!UICONTROL ID de aplicación]** en el perfil y usar una sola configuración de canal para enviar notificaciones push a la aplicación correcta para cada destinatario.
+
+Para ello, haga clic en el icono de Personalization junto al campo **[!UICONTROL ID de aplicación]**, seleccione un atributo de perfil asignado al ID de aplicación y guarde los cambios. El campo usa la [expresión Handlebars](../personalization/personalization-syntax.md) correspondiente evaluada para cada destinatario en el momento del envío.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] no comprueba que existen [credenciales push](#push-credentials-launch) para cada valor que la expresión pueda devolver. Asegúrese de tener credenciales push para cada ID de aplicación posible y pruébelo con perfiles representativos. Si el ID de aplicación resuelto de un destinatario no tiene credenciales push coincidentes, no se entregarán según lo esperado.
 
 ## Paso 3: Configuración de la extensión de Adobe Journey Optimizer en la propiedad móvil {#configure-journey-optimizer-extension}
 
 La **extensión de Adobe Journey Optimizer** para los SDK de Adobe Experience Platform Mobile envía notificaciones push a sus aplicaciones móviles, le ayuda a recopilar tokens push de usuario y administra la medición de interacciones con los servicios de Adobe Experience Platform.
 
-Obtenga información sobre cómo configurar la extensión de Journey Optimizer en [Documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Obtenga información sobre cómo configurar la extensión de Journey Optimizer en [Documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer){target="_blank"}.
 
 
 <!--
