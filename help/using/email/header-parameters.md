@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 53%
@@ -131,3 +131,4 @@ Es necesario que facilite:
 La dirección de correo electrónico de reenvío la configura Adobe. Este proceso puede tardar entre 3 y 4 días.
 
 Una vez finalizado, todos los mensajes recibidos en las direcciones **[!UICONTROL Responder a (correo electrónico)]** y **Correo electrónico de error**, así como todos los correos electrónicos enviados a la dirección **Correo electrónico del remitente**, se reenviarán a la dirección de correo electrónico específica que haya facilitado.
+

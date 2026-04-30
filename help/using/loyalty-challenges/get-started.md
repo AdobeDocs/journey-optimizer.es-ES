@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * [Crear desafíos](create-challenges.md)
 * [Creación de tareas](create-tasks.md)
-* [Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
->title="Retos de fidelización"
+>title="Desafíos de lealtad"
 >abstract="Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos."
 
 Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos.
@@ -165,4 +165,4 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
 
 ## Referencia de la API {#api-reference}
 
-Para administrar los desafíos de fidelidad mediante programación, usa la [API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. La API permite crear, actualizar y administrar desafíos y tareas a través de puntos de conexión REST.
+Para administrar los desafíos de fidelidad mediante programación, usa la [API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. La API permite crear, actualizar y administrar desafíos y tareas a través de puntos de conexión REST.
