@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 7%
@@ -21,7 +21,6 @@ ht-degree: 7%
 >[!AVAILABILITY]
 >
 >El nuevo **flujo de trabajo de inicio rápido de la incorporación móvil** ya está disponible. Utilice esta nueva función de producto para configurar rápidamente Mobile SDK para que empiece a recopilar y validar datos de eventos móviles y para enviar notificaciones push móviles. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública. [Más información](mobile-onboarding-wf.md)
->
 
 ## Antes de empezar {#start-push}
 
@@ -428,4 +427,3 @@ El evento se habrá creado y podrá utilizarlo en un recorrido.
 1. Haga clic en **[!UICONTROL Enviar]**.
 
 Se activará el evento y recibirá una notificación push a su aplicación móvil.
-
