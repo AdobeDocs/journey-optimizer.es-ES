@@ -5,14 +5,16 @@ git-repo: https://github.com/AdobeDocs/journey-optimizer.es-ES
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature-set: Journey Optimizer
 landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
-source-git-commit: 211ebdaaf1e9b046d4528f28b0ce0db406f2d7f3
+source-git-commit: e254eeaa6299ee42b419eeaba30ce304cbd14ae0
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 96%
 
 ---
 
