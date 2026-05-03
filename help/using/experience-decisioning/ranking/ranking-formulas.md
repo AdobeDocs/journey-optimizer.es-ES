@@ -9,8 +9,8 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 5%
+source-wordcount: '1474'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Una vez creada una fórmula de clasificación, puede asignarla a una [estrategia
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Crear fórmulas de clasificación"
->abstract="Las fórmulas le permiten definir reglas que determinarán qué elemento decisión se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creada una fórmula de clasificación, puede asignarla a una estrategia de selección."
+>abstract="Las fórmulas le permiten definir reglas que determinarán qué elemento de decisión se debe presentar primero, en lugar de tener en cuenta las puntuaciones de prioridad del elemento. Una vez creada una fórmula de clasificación, puede asignarla a una estrategia de selección."
 
 Para crear una fórmula de clasificación, siga los pasos a continuación.
 
