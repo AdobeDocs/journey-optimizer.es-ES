@@ -12,8 +12,8 @@ keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 98%
+source-wordcount: '1613'
+ht-degree: 90%
 
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): son ideales para comunicaciones por lotes simples y puntuales que se pueden programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
+>abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para ejecutarse a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada a la API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campañas"
->abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificaciones push, correo directo."
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificaciones push, correo postal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -77,12 +77,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Campañas"
->abstract="Ofrezca comunicaciones de marketing personalizadas a los públicos segmentados. Canales compatibles: correo electrónico, SMS, notificaciones push."
+>abstract="Envíe comunicaciones de marketing personalizadas a públicos de destino. Canales admitidos: correo electrónico, SMS, notificaciones push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Campañas"
->abstract="Envíe comunicaciones transaccionales a perfiles individuales o conjuntos de perfiles. Canales compatibles: correo electrónico, SMS, notificaciones push."
+>abstract="Envíe comunicaciones transaccionales a perfiles individuales o conjuntos de perfiles. Canales admitidos: correo electrónico, SMS, notificaciones push."
 
 Adobe Journey Optimizer le permite ofrecer contenidos segmentados y puntuales a públicos específicos a través de múltiples canales. Con las campañas, puede ejecutar acciones de marketing coordinadas simultáneamente, llegando a su público con el mensaje correcto y en el momento adecuado.
 
@@ -101,7 +101,7 @@ Utilice campañas de [!DNL Journey Optimizer] para:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **¿Todo listo para comenzar a crear?** [Cree su primera campaña](create-campaign.md) en minutos.
+➡️ **¿Listo para empezar a crear?** [Cree su primera campaña](create-campaign.md) en minutos.
 
 ## Elija el tipo de campaña {#campaign-types}
 
@@ -144,7 +144,7 @@ Las **campañas de acción** (también conocidas como Campañas programadas) son
 
 **Dos categorías:**
 
-* **Marketing**: envío de comunicaciones de marketing personalizadas a públicos de destino. 
+* **Marketing**: envío de comunicaciones de marketing personalizadas a públicos de destino.
 * **Transaccional**: mensajes después de acciones individuales (restablecimientos de contraseña, compras en el carro de compras, etc.)
 
 **Perfecto para:** confirmaciones de restablecimiento de contraseña, recuperación de abandono del carro de compras, confirmaciones de pedidos y actualizaciones de envío, notificaciones de actividad de la cuenta y recomendaciones personalizadas en tiempo real.
@@ -199,14 +199,14 @@ La creación de campañas exitosas sigue un proceso claro y repetible. Este es s
 Antes de empezar, tenga claros sus objetivos:
 
 * **¿Cuál es el objetivo?** (por ejemplo, impulsar conversiones, aumentar la participación, notificar a los clientes)
-* **¿Quién es el público?** (por ejemplo, crear o seleccionar de Adobe Experience Platform)
-* **¿Qué tipo de campaña encaja?** (ver [tipos de campaña](#campaign-types) más arriba)
+* **¿Quién es la audiencia?** (por ejemplo, crear o seleccionar desde Adobe Experience Platform)
+* **¿Qué tipo de campaña encaja?** (Ver [tipos de campaña](#campaign-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
 * **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
 
 +++
 
-+++&#x200B;2. Configurar las propiedades de la campaña
++++&#x200B;2. Configuración de propiedades de campaña
 
 Configure las bases de la campaña:
 
@@ -248,7 +248,7 @@ Revise siempre la campaña antes de la activación:
 
 +++
 
-+++&#x200B;5. Active la campaña
++++&#x200B;5. Activación de la campaña
 
 Una vez completada la revisión, active la campaña:
 

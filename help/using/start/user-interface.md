@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -247,7 +247,7 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="IU guiada para crear y enviar una campaña"
->abstract="Defina una o varias acciones con un canal, elija una audiencia, defina el contenido, defina una programación y estará listo para enviar"
+>abstract="Defina una o varias acciones con un canal, elija un público, defina un contenido y una programación, y todo estará listo para realizar el envío"
 
 
 >[!CONTEXTUALHELP]
@@ -338,28 +338,3 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parámetros de encabezado"
 >abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="Consulta incremental"
->abstract="La consulta incremental es una actividad de segmentación que ejecuta una consulta de base de datos cada vez que se ejecuta la campaña orquestada. Solo devuelve registros nuevos y excluye a cualquier persona que ya se haya incluido en una ejecución anterior, por lo que evita volver a dirigirse a las mismas personas o volver a exportar las mismas filas."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="Datos procesados"
->abstract="En Datos procesados, elija cómo excluir registros de ejecuciones anteriores. Con Exclude results of previous execution, la actividad mantiene una lista de registros devueltos en ejecuciones anteriores; cada ejecución excluye esos registros y devuelve solo los nuevos. Con la opción Use a date field, la actividad utiliza un campo de fecha seleccionado en lugar de rastrear ID individuales, y cada ejecución devuelve solo filas cuya fecha es posterior a la última ejecución."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="Historial en días"
->abstract="Esta opción controla cuánto tiempo se retiene esa lista. Un valor de 0 significa retención indefinida; no se eliminan registros."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Ubicación en la página"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="ID de la aplicación"
->abstract="."

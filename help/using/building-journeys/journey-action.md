@@ -12,8 +12,8 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1569'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Actividad de acción"
->abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de agregar optimización a cualquier acción de canal integrada."
+>abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de añadir la optimización a cualquier acción de canal integrada."
 
 La actividad **Action** es el único punto de entrada para todas las acciones de canal en el lienzo de recorrido.
 
@@ -97,7 +97,7 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
       <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
+      <a href="../push/create-push.md"><strong>Crear notificaciones push<strong></a>
       </div>
       <p>
       </td>
@@ -169,7 +169,7 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
 
    Estas diferentes opciones y los pasos a seguir se detallan en [esta sección](../content-management/gs-message-optimization.md).
 
-1. Utilice la sección **[!UICONTROL Idiomas]** para crear contenido en varios idiomas dentro de la acción de recorrido. Para ello, haga clic en el botón **[!UICONTROL Agregar idiomas]** y seleccione la **[!UICONTROL configuración de idioma]** que desee.
+1. Utilice la sección **[!UICONTROL Idiomas]** para crear contenido en varios idiomas dentro de la acción de recorrido. Para ello, haga clic en el botón **[!UICONTROL Añadir idiomas]** y seleccione la **[!UICONTROL Configuración de idioma]** que desee.
 
    Encontrará información detallada sobre cómo configurar y utilizar las capacidades multilingües en [esta sección](../content-management/multilingual-gs.md).
 
@@ -187,7 +187,7 @@ El uso de conjuntos de reglas de canal le permite establecer límites de frecuen
 
 +++**Rastrear participación** (correo electrónico, SMS).
 
-Utilice la sección **[!UICONTROL Seguimiento de acciones]** para rastrear cómo reaccionan sus destinatarios a sus envíos de correo electrónico o SMS.
+Utilice la sección **[!UICONTROL Seguimiento de la acción]** para rastrear cómo reaccionan sus destinatarios a sus envíos de correo electrónico o SMS.
 
 Se puede acceder a los resultados de seguimiento desde el informe de recorrido una vez que se ha ejecutado el recorrido.
 
@@ -197,9 +197,9 @@ Se puede acceder a los resultados de seguimiento desde el informe de recorrido u
 
 +++**Habilitar modo de envío rápido** (push).
 
-El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío muy rápido de mensajes push en grandes volúmenes a través de campañas.
+El modo de envío rápido es un complemento de [!DNL Journey Optimizer] que permite el envío rápido de mensajes push en grandes volúmenes a través de campañas.
 
-La entrega rápida se utiliza cuando el retraso en la entrega de mensajes es crítico para la empresa, cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias.
+El envío rápido se utiliza cuando el retraso en el envío de mensajes es crítico para la empresa y cuando desea enviar una alerta push urgente en teléfonos móviles, por ejemplo, una noticia de última hora a los usuarios que han instalado su aplicación de canal de noticias.
 
 Aprenda a habilitar el modo de envío rápido para las notificaciones push [en esta página](../push/create-push.md#rapid-delivery).
 

@@ -13,12 +13,12 @@ badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '925'
 ht-degree: 6%
 
 ---
 
-# Añadir un campo CC a los correos electrónicos {#cc-email-field}
+# Adición de un campo CC a los correos electrónicos {#cc-email-field}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"

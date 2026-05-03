@@ -12,8 +12,8 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 9%
+source-wordcount: '3538'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Utilice la actividad Leer audiencia para iniciar recorridos con audiencias defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
->abstract="Agregar todos los perfiles calificados de una audiencia [!DNL Adobe Experience Platform] seleccionada a este recorrido. Ejecutar una vez o según una programación."
+>abstract="Añadir todos los perfiles cualificados de un público de [!DNL Adobe Experience Platform] seleccionado a este recorrido. Ejecutar una vez o según una programación."
 
 La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido que agrega todos los perfiles de una audiencia [!DNL Adobe Experience Platform] seleccionada a un recorrido. Puede ejecutar la entrada una vez o en una programación recurrente. En las API y referencias técnicas, esta actividad también se denomina entrada de recorrido basada en segmentos o déclencheur de audiencias.
 
@@ -44,7 +44,7 @@ La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido
 
 Por ejemplo, la audiencia `Luma app opening and checkout` creada en el caso de uso [Generar audiencias](../audience/about-audiences.md) se puede usar como punto de entrada. Todos los perfiles cualificados entran en el recorrido y progresan a través de rutas individualizadas mediante condiciones, temporizadores, eventos y acciones.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 
 >[!CAUTION]
@@ -55,7 +55,7 @@ Por ejemplo, la audiencia `Luma app opening and checkout` creada en el caso de u
 
 Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio), **Velocidad de lectura** (obligatoria, predeterminada 5.000/s) y **Programación** (cuando se ejecute el recorrido). Opcionalmente, agregue **Label** y **Supplemental identifier**. Los pasos a continuación le guían por cada configuración.
 
-### Añadir actividad y seleccionar audiencia {#add-activity-and-select-audience}
+### Añadir actividad y seleccionar público {#add-activity-and-select-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
@@ -65,11 +65,11 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público"
->abstract="Seleccione la audiencia [!DNL Adobe Experience Platform] cuyos perfiles ingresarán a este recorrido."
+>abstract="Seleccione el público de [!DNL Adobe Experience Platform] cuyos perfiles ingresarán a este recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Espacio de nombres"
+>title="Área de nombres"
 >abstract="Elija qué identidad (por ejemplo, correo electrónico, ECID) se utiliza para identificar a las personas que entran en el recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado."
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
@@ -163,22 +163,22 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="Lectura incremental"
->abstract="Después de la primera ejecución, solo los perfiles nuevos añadidos a la audiencia entran en el recorrido."
+>abstract="Después de la primera ejecución, solo los perfiles nuevos añadidos al público entran en el recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forzar reentrada"
->abstract="Borre todos los participantes de la recorrido antes de que se lea cada audiencia nueva."
+>abstract="Borre todos los participantes del recorrido antes de que se lea cada público nuevo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Activar tras la evaluación del público por lotes"
->abstract="Ejecute el recorrido solo después de que la audiencia por lotes se haya evaluado recientemente."
+>abstract="Ejecute el recorrido solo después de que el público por lotes se haya evaluado recientemente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tiempo de espera para una nueva evaluación del público"
->abstract="Cuánto tiempo espera la recorrido a que se recopilen datos de audiencia nuevos (de 1 a 6 horas, en minutos u horas)."
+>abstract="Cuánto tiempo espera el recorrido a que se recopilen datos de público nuevos (de 1 a 6 horas, en minutos u horas)."
 
 De forma predeterminada, los recorridos están configurados para ejecutarse una vez. Para definir una fecha/hora y una frecuencia específicas en las que debe ejecutarse el recorrido, siga los pasos a continuación.
 
