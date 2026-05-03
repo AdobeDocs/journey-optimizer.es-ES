@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
+
+## Mayo de 2026 {#may-2026}
+
+* Se ha agregado una nueva sección **Consultas de reglas de negocios** a la página de ejemplos de consultas, que proporciona una consulta de lago de datos para comprobar todos los descartes de perfiles debido a exclusiones de límite de frecuencia de recorrido en un recorrido específico después de una fecha específica. La consulta incluye el campo `eventCodeReason` para identificar si los perfiles se excluyeron porque se alcanzó un límite (`CAP_REACHED`) o debido a una prioridad inferior (`LOWER_PRIORITY`). [Más información](../reports/query-examples.md#business-rules-queries)
 
 ## Abril de 2026 {#april-2026}
 

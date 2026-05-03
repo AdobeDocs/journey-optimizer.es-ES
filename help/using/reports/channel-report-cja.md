@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-## Recorrido  {#journey}
+## Recorrido {#journey}
 
 ![](assets/cja-channel-journeys.png)
 
@@ -156,6 +156,8 @@ La columna **[!UICONTROL Exclusiones]** muestra el número de perfiles que se ex
 * **Prioridad más baja**: no se ha alcanzado el límite, pero otros recorridos de prioridad más alta cumplen las restricciones. El perfil se ha excluido de este recorrido y, en su lugar, ha introducido un recorrido de prioridad más alto.
 
 +++
+
+Para investigar estas exclusiones en el nivel de lago de datos usando Adobe Experience Platform Query Service, consulte [Consultas sobre reglas de negocio](query-examples.md#business-rules-queries).
 
 ➡️ [Más información acerca de la restricción y arbitraje de recorridos](../conflict-prioritization/journey-capping.md)
 
