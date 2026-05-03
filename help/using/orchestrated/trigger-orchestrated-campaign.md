@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Déclencheur de una campaña orquestada mediante una señal
-description: Aprenda a almacenar en déclencheur una campaña orquestada mediante una señal en  [!DNL Adobe Journey Optimizer].
+description: Obtenga información sobre cómo almacenar en déclencheur una campaña orquestada mediante una señal y pasar parámetros que están disponibles como en la campaña.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # Déclencheur Orquestación de campañas mediante una señal {#trigger-signal}
 
-Puede almacenar en déclencheur una campaña orquestada enviándole una señal en lugar de ejecutarla en una programación. La señal se envía mediante una llamada de API desde un sistema o aplicación externos. Al utilizar una señal, puede pasar parámetros. A continuación, están disponibles en la campaña orquestada como variables de evento en el contexto de ejecución para su uso en objetivos, condiciones o expresiones.
+Puede almacenar en déclencheur una campaña orquestada enviándole una señal en lugar de ejecutarla en una programación. La señal se envía mediante una llamada de API desde un sistema o aplicación externos. Al utilizar una señal, puede pasar parámetros que están disponibles como variables en la campaña para usarlos en objetivos, condiciones o expresiones.
+
+En esta página se explica cómo configurar y almacenar en déclencheur una señal. Una vez que las variables estén disponibles, para obtener detalles sobre cómo usarlas en reglas y condiciones de **[!UICONTROL Test]**, consulte [Usar variables en campañas orquestadas](variables-orchestrated-campaigns.md).
 
 Para obtener la especificación REST completa del extremo de déclencheur (rutas, encabezados, cuerpo, respuestas y errores), consulte [API de campañas orquestadas con Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} en la documentación de la API de Adobe Journey Optimizer.
 
 Proceso completo para almacenar en déclencheur una campaña orquestada con una señal:
 
-1. [Programe la campaña para que se active por una señal](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [Agregar parámetros para la carga útil de señal](#add-parameters-for-the-signal-payload-optional-parameters) (opcional)
-1. [Creación y prueba de la campaña](#build-and-test-the-campaign-build-and-test)
-1. [Publicación y déclencheur de la campaña](#publish-and-trigger-the-campaign-publish)
+1. [Programe la campaña para que se active por una señal](#configure-signal)
+1. [Agregar parámetros para la carga útil de señal](#parameters) (opcional)
+1. [Creación y prueba de la campaña](#build-and-test)
+1. [Publicación y déclencheur de la campaña](#publish)
 
 >[!NOTE]
 >

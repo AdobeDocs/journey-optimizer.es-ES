@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3289'
 ht-degree: 90%
 
 ---
@@ -206,6 +206,7 @@ ht-degree: 90%
          + [Deduplicación](using/orchestrated/activities/deduplication.md)
          + [Enriquecimiento](using/orchestrated/activities/enrichment.md)
          + [Bifurcación](using/orchestrated/activities/fork.md)
+         + [Consulta incremental](using/orchestrated/activities/incremental-query.md)
          + [Leer público](using/orchestrated/activities/read-audience.md)
          + [Reconciliación](using/orchestrated/activities/reconciliation.md)
          + [Guardar público](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 90%
          + [Captar clientes mediante la actividad de navegación](using/orchestrated/engage-customers-uc.md)
          + [Notificar a los usuarios sobre la disponibilidad del producto](using/orchestrated/product-availability-uc.md)
       + Operaciones avanzadas {#orchestrated-advanced}
+         + [Uso de variables en campañas organizadas](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [Definir variables globales en campañas organizadas](using/orchestrated/global-variables.md)
          + [Déclencheur Orquestación de campañas mediante una señal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflicto y priorización {#conflict-prioritization}
    + [Administración de conflictos y priorización](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -230,7 +233,7 @@ ht-degree: 90%
       + [Establecimiento de horas tranquilas](using/conflict-prioritization/quiet-hours.md)
    + arbitraje de recorrido {#journey-arbitration}
       + [Utilizar fórmulas para clasificar recorridos](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[Usar modelos de IA para clasificar recorridos](using/conflict-prioritization/journey-ai-models.md)
+      + [Uso de modelos de IA para clasificar recorridos](using/conflict-prioritization/journey-ai-models.md)
 + Prueba y aprobación {#test}
    + [Prueba, validación y aprobación](/help/rp_landing_pages/test-landing-page.md)
    + Vista previa y prueba del contenido {#preview-test}
@@ -509,7 +512,7 @@ ht-degree: 90%
       + {hide-from-toc}[Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Configuraciones de proveedor de ejemplo](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Preguntas más frecuentes](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Trabajar con herramientas de IA mediante MCP](/help/using/integrations/ajo-mcp.md)
+      + [Trabajo con herramientas de IA a través de MCP](/help/using/integrations/ajo-mcp.md)
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
@@ -915,7 +918,7 @@ ht-degree: 90%
       + [Lista de permitidos](using/configuration/allow-list.md)
    + [Uso de listas semilla](using/configuration/seed-lists.md)
    + [Compatibilidad con el archivado de correo electrónico](using/configuration/archiving-support.md)
-   + {hide-from-toc}[Agregar un campo CC a los correos electrónicos](using/configuration/cc-email-field.md)
+   + [Añadir un campo CC a los correos electrónicos](using/configuration/cc-email-field.md)
    + [Administrar campos de ejecución](using/configuration/primary-email-addresses.md)
    + [Creación de webhooks de comentarios](using/configuration/feedback-webhooks.md)
 + Configuración de recorrido {#configure-journeys}
