@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Editar expresiones
+title: Edición de expresiones
 description: Obtenga información sobre cómo editar expresiones.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >
 >En la siguiente sección se proporciona información sobre cómo trabajar con el editor de expresiones para crear reglas. Tenga en cuenta que la sintaxis que se utiliza para crear reglas es diferente de la que se utiliza para añadir personalización.
 
-## Trabajo con el editor de expresiones  {#edit}
+## Trabajo con el editor de expresiones {#edit}
 
 Editar una expresión implica introducir manualmente las condiciones para formar una regla. Este modo permite utilizar funciones avanzadas, que permiten manipular los valores que se utilizan para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos y ordenación.
 
@@ -33,9 +33,11 @@ El editor de expresiones proporciona lo siguiente:
 
 * Un **campo de entrada (1)** en el que se define la expresión.
 * Una lista de **campos (2)** disponibles que se pueden usar en la expresión y que corresponden a la dimensión de segmentación de la consulta.
-* **Funciones de ayuda (3)**, ordenadas por categoría.
+* Lista de **variables (3)** disponibles que se pueden usar en la expresión. Este menú está disponible para el campo **Valor**. [Aprenda a utilizar variables en campañas organizadas](variables-orchestrated-campaigns.md)
 
-Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo o una función de ayuda, coloque el cursor en la expresión donde desee añadirlo y haga clic en el botón +.
+* **Funciones de ayuda (4)**, ordenadas por categoría.
+
+Edite la expresión introduciendo una expresión directamente en el campo de entrada. Para añadir un campo, una variable o una función de ayuda, coloque el cursor en la expresión donde desee añadirla y haga clic en el botón +.
 
 ![Interfaz del editor de expresiones](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -375,7 +377,7 @@ Las funciones de geomarketing se utilizan para manipular los valores geográfico
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
@@ -394,7 +396,7 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -409,7 +411,7 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Devuelve el mayor entero que sea mayor o igual que un número<br /> </td> 
-   <td> Floor(&lt;número&gt;)<br /> </td>  
+   <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
@@ -424,7 +426,7 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Devuelve el resto de la división del entero “n1” entre “n2”<br /> </td> 
-   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -432,14 +434,14 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
    <td> Percent(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>Random</strong><br /> </td> 
+   <td> <strong>Aleatorio</strong><br /> </td> 
    <td> Devuelve un valor aleatorio<br /> </td> 
-   <td> Random()<br /> </td> 
+   <td> Aleatorio()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
    <td> Redondea un número a “n” decimales<br /> </td> 
-   <td> Round(&lt;número&gt;, &lt;número de decimales&gt;)<br /> </td>  
+   <td> Redondeo(&lt;número&gt;, &lt;número de decimales&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
@@ -478,7 +480,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
@@ -488,7 +490,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Devuelve el valor 1 si la condición es verdadera. Si no es así, devuelve el valor 2.<br /> </td> 
-   <td> Case(When(&lt;condición&gt;, &lt;valor 1&gt;), Else(&lt;valor 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -503,13 +505,13 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Devuelve el valor 3 si el valor 1 = valor 2. Si no devuelve el valor 4.<br /> </td> 
-   <td> Decode(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;, &lt;valor 4&gt;)<br /> </td>  
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr>
 
 <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Devuelve el valor 1 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
-   <td> Else(&lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
+   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -524,7 +526,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Devuelve el valor 1 si la expresión es verdadera. Si no es así, devuelve el valor 2<br /> </td> 
-   <td> Iif(&lt;condición&gt;, &lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
@@ -534,7 +536,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> Devuelve el valor 2 si la cadena 1 está vacía; en caso contrario, devuelve el valor 3<br /> </td> 
-   <td> IsEmptyString(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;)<br /> </td>  
+   <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
@@ -578,32 +580,32 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull2(&lt;cadena&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull3(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ascii</strong><br /> </td> 
    <td> Devuelve el valor ASCII del primer carácter de la cadena.<br /> </td> 
-   <td> Ascii(&lt;cadena&gt;)<br /></td> 
+   <td> Ascii(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Devuelve el carácter correspondiente al código ASCII “n”.<br /> </td> 
-   <td> Char(&lt;número&gt;)<br /></td>  
+   <td> Char(&lt;number&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Devuelve la posición de la cadena 2 en la cadena 1.<br /> </td> 
-   <td> Charindex(&lt;cadena&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
@@ -613,12 +615,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Muestra la línea nth (de 1 a n) de la cadena.<br /> </td> 
-   <td> GetLine(&lt;cadena&gt;)<br /></td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
    <td> Devuelve el tercer parámetro si los dos primeros parámetros son iguales. Si no es así, devuelve el último parámetro<br /> </td> 
-   <td> IfEquals(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
@@ -628,22 +630,22 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
    <td> Concatena las cadenas transferidas como parámetros. Añade espacios entre las cadenas si es necesario.<br /> </td> 
-   <td> JuxtWords(&lt;cadena&gt;, &lt;cadena&gt;)<br /></td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Concatena las cadenas transferidas como parámetros. Añade espacios entre las cadenas si es necesario<br /> </td> 
-   <td> JuxtWords3(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
-   <td> Left(&lt;cadena&gt;, &lt;número&gt;)<br /></td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
    <td> Devuelve la longitud de la cadena<br /> </td> 
-   <td> Length(&lt;cadena&gt;)<br /></td> 
+   <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Line</strong><br /> </td> 
@@ -653,7 +655,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Devuelve la cadena en minúscula<br /> </td> 
-   <td> Lower(&lt;cadena&gt;)<br /></td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -663,12 +665,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Elimina los espacios a la izquierda de la cadena<br /> </td> 
-   <td> Ltrim(&lt;cadena&gt;)<br /></td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
-   <td> Md5Digest(&lt;cadena&gt;)<br /></td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
@@ -693,12 +695,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la derecha<br /> </td> 
-   <td> RPad(&lt;cadena&gt;, &lt;número&gt;, &lt;carácter&gt;)<br /></td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Elimina los espacios a la derecha de la cadena<br /> </td> 
-   <td> Rtrim(&lt;cadena&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
@@ -718,12 +720,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
    <td> Extrae la subcadena que comienza en el carácter “n1” de la cadena y de longitud “n2”<br /> </td> 
-   <td> Substring(&lt;cadena&gt;, &lt;desajuste&gt;, &lt;longitud&gt;)<br /> </td>  
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Convierte el número en una cadena<br /> </td> 
-   <td> ToString(&lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -738,7 +740,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Devuelve la clave externa (texto) de un enlace transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLinkStr(&lt;cadena&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td>  
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -750,7 +752,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
