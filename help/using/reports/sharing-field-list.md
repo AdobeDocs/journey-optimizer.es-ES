@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 8%
 
 ---
@@ -124,5 +124,6 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
 
 * [Ejemplos de consultas de conjuntos de datos: evento de paso de Recorrido](../data/datasets-query-examples.md#journey-step-event).
 * [Ejemplos de consultas: consultas basadas en eventos](query-examples.md#event-based-queries).
+* [Ejemplos de consultas: consultas de reglas de negocio](query-examples.md#business-rules-queries).
 * [Diccionario de esquemas integrado](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
 

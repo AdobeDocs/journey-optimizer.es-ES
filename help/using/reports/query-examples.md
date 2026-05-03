@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Antes de ejecutar cualquier consulta en esta página, asegúrese de lo siguiente
 
 >[!TIP]
 >
->**¿Es nuevo en el servicio de consultas?** Abra [Adobe Experience Platform](https://experience.adobe.com/), vaya a **Servicio de consultas > Consultas**, pegue cualquier ejemplo a continuación, reemplace los valores de marcador de posición (por ejemplo, `<journeyVersionID>`, `<last x hours>`) y seleccione **Ejecutar**.
+>**Nuevo en el servicio de consultas?** Abra [Adobe Experience Platform](https://experience.adobe.com/), vaya a **Servicio de consultas > Consultas**, pegue cualquier ejemplo a continuación, reemplace los valores de marcador de posición (por ejemplo `<journeyVersionID>`, `<last x hours>`) y seleccione **Ejecutar**.
 
 ## Encuentre la consulta correcta {#find-query}
 
@@ -41,6 +41,7 @@ Antes de ejecutar cualquier consulta en esta página, asegúrese de lo siguiente
 | Investigue la ejecución o los errores de lectura de audiencias | [Leer consultas de audiencia](#read-segment-queries) |
 | Solucionar errores de mensajes o acciones | [Errores de mensajes y acciones](#message-action-errors) |
 | Analizar descartes de calificación de audiencias | [Consultas de calificación de audiencia](#segment-qualification-queries) |
+| Investigar descartes de reglas empresariales | [Consultas de reglas de negocio](#business-rules-queries) |
 | Depuración de eventos externos o empresariales | [Consultas basadas en eventos](#event-based-queries) |
 | Supervisar rendimiento de extremo de acción personalizada | [Consultas de acción personalizada](#query-custom-action) |
 | Seguimiento del uso de licencias y perfiles atractivos | [Consultas de perfiles atractivas](#engageable-profiles-queries) |
@@ -558,11 +559,11 @@ _Salida de ejemplo_
 
 | ENTRY_DATE | PROFILES_COUNT |
 |---|---|
-| 25-11-2024 | 1.245 |
-| 24-11-2024 | 1.189 |
-| 23-11-2024 | 15.340 |
-| 22-11-2024 | 1.205 |
-| 21-11-2024 | 1.167 |
+| 2024-11-25 | 1.245 |
+| 2024-11-24 | 1.189 |
+| 2024-11-23 | 15.340 |
+| 2024-11-22 | 1.205 |
+| 2024-11-21 | 1.167 |
 
 La consulta devuelve, para el periodo definido, el número de perfiles que ingresaron al recorrido cada día. Si un perfil se introduce mediante varias identidades, se cuenta dos veces. Si la reentrada está activada, el recuento de perfiles puede duplicarse en días diferentes si se vuelve a introducir en el recorrido en un día diferente.
 
@@ -965,6 +966,60 @@ Esta consulta devuelve todos los eventos (eventos externos / eventos de califica
 
 +++
 
+## Consultas relacionadas con reglas de negocio {#business-rules-queries}
+
++++Compruebe todos los descartes debido a exclusiones de límite de frecuencia de recorrido en un recorrido específico después de una fecha específica
+
+Esta consulta devuelve el conjunto de reglas y los detalles de regla rechazados para todos los perfiles descartados debido a las reglas de límite de frecuencia en un recorrido específico, a partir de una fecha determinada.
+
+_Consulta de lago de datos_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_Ejemplo_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+Esta consulta devuelve todos los descartes donde coincidió un conjunto de reglas (no nulo `rejectedRuleset.ID`). El campo `eventCodeReason` proporciona el submotivo para el descarte: `LOWER_PRIORITY` (perfil descartado debido a la mediación de recorrido) o `CAP_REACHED` (perfil descartado porque se alcanzó el límite de frecuencia). Los resultados muestran qué conjuntos de reglas y reglas de límite de frecuencia específicos hicieron que los perfiles se excluyeran del recorrido después de la fecha especificada.
+
++++
+
 ## Consultas basadas en eventos {#event-based-queries}
 
 +++Comprobar si se recibió un evento empresarial para un recorrido
@@ -1053,13 +1108,12 @@ Aprenda a [solucionar problemas de tipos de eventos descartados en recorrido_ste
 
 Estas consultas le ayudan a monitorizar y analizar su recuento de Perfiles atractivos. Un perfil atractivo es un perfil único que se ha utilizado a través de recorridos o campañas en los últimos 12 meses. Más información sobre [Perfiles atractivos y uso de licencias](../audience/license-usage.md#what-is-engageable-profile).
 
->[!IMPORTANT]
->
->**Prácticas recomendadas para consultar perfiles atractivos:**
->* Asegúrese de que cada campo no agregado esté incluido en la cláusula `GROUP BY`
->* Evite hacer referencia a conjuntos de datos que no existen en su zona protegida: confirme los nombres de los conjuntos de datos en la IU de Platform
->* Utilice `distinct` al contar los perfiles únicos para evitar duplicados en las áreas de nombres de identidad
->* Al utilizar `LIMIT`, colóquelo al final de la consulta después de `ORDER BY` cláusulas
+**Prácticas recomendadas para consultar perfiles atractivos:**
+
+* Asegúrese de que cada campo no agregado esté incluido en la cláusula `GROUP BY`
+* Evite hacer referencia a conjuntos de datos que no existen en su zona protegida: confirme los nombres de los conjuntos de datos en la IU de Platform
+* Utilice `distinct` al contar los perfiles únicos para evitar duplicados en las áreas de nombres de identidad
+* Al utilizar `LIMIT`, colóquelo al final de la consulta después de `ORDER BY` cláusulas
 
 +++Contar perfiles únicos comprometidos por un recorrido específico
 
@@ -1127,11 +1181,11 @@ _Salida de ejemplo_
 
 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|
-| 25-11-2024 | 8.450 |
-| 24-11-2024 | 7.820 |
-| 23-11-2024 | 125.340 |
-| 22-11-2024 | 9.230 |
-| 21-11-2024 | 8.670 |
+| 2024-11-25 | 8.450 |
+| 2024-11-24 | 7.820 |
+| 2024-11-23 | 125.340 |
+| 2024-11-22 | 9.230 |
+| 2024-11-21 | 8.670 |
 
 Este resultado le ayuda a monitorizar las tendencias diarias e identificar cuándo se involucra una gran cantidad de perfiles. En este ejemplo, el 23 de noviembre muestra un pico significativo (125.340 perfiles) en comparación con la participación diaria típica (aproximadamente 8.000 perfiles), lo que justificaría una investigación para comprender qué recorrido o campaña provocó el aumento en su recuento de [Perfiles atractivos](../audience/license-usage.md).
 
@@ -1162,9 +1216,9 @@ _Salida de ejemplo_
 
 | RECORRIDO_VERSION_ID | NOMBRE_recorrido | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campaña Black Friday | 23-11-2024 | 125.340 |
-| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Recorrido de lanzamiento del producto | 22-11-2024 | 45.230 |
-| f9e8d7c6-b5a4-3210-9876-543210fedcba | Boletín de vacaciones | 21-11-2024 | 32.150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campaña Black Friday | 2024-11-23 | 125.340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Recorrido de lanzamiento del producto | 2024-11-22 | 45.230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Boletín de vacaciones | 2024-11-21 | 32.150 |
 
 Esta consulta filtra los recorridos que han participado en más de 1000 perfiles al día en los últimos 7 días. El resultado muestra qué recorridos y fechas específicos son responsables de las participaciones de perfil grandes. Ajuste el umbral de la cláusula `HAVING` en función de sus necesidades (por ejemplo, cambie `> 1000` a `> 10000` para umbrales más grandes).
 
@@ -1213,11 +1267,11 @@ _Salida de ejemplo_
 
 | ACTIVITY_DATE | ACTIVE_RECORRIDO |
 |---|---|
-| 25-11-2024 | 12 |
-| 24-11-2024 | 15 |
-| 23-11-2024 | 14 |
-| 22-11-2024 | 11 |
-| 21-11-2024 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 La consulta devuelve, para el periodo definido, el recuento de recorridos únicos que se activaron cada día. Un solo recorrido que se active en varios días se contará una vez al día.
 

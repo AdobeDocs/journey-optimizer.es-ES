@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -186,7 +186,7 @@ Para asignar el conjunto de reglas a un recorrido, siga los pasos a continuació
 
 Todos los recorridos que utilicen este conjunto de reglas se clasificarán con la fórmula seleccionada cuando se aplique el límite.
 
-Para supervisar el rendimiento de los conjuntos de reglas y las fórmulas de clasificación, consulte la sección [Límite de Recorridos y conflictos](../reports/channel-report-cja.md#rule-sets) en el informe Información general.
+Para supervisar el rendimiento de los conjuntos de reglas y las fórmulas de clasificación, consulte la sección [Límite de Recorridos y conflictos](../reports/channel-report-cja.md#rule-sets) en el informe Información general. Para investigar los descartes en el nivel del lago de datos e identificar si se excluyó un perfil debido a que se alcanzó un límite (`CAP_REACHED`) o a que se tuvo una prioridad inferior (`LOWER_PRIORITY`), use las consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

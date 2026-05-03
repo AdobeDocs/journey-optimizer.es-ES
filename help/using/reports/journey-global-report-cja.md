@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Se puede acceder directamente al **informe de Recorrido** desde su recorrido con
 
 ![](assets/gs-cja-report-3.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Información general del recorrido {#journey-global}
 
@@ -73,7 +73,7 @@ La tabla **[!UICONTROL Estadísticas de Recorrido]** ofrece un resumen detallado
 
 ## exclusión de recorrido {#journey-exclusion}
 
-La tabla **[!UICONTROL exclusión de Recorrido]** presenta una vista completa de los diferentes factores que resultaron en la exclusión de perfiles de usuario.
+La tabla **[!UICONTROL exclusión de Recorrido]** presenta una vista completa de los diferentes factores que resultaron en la exclusión de perfiles de usuario. Para investigar las exclusiones relacionadas con reglas de negocio en el nivel de lago de datos e identificar si los perfiles se excluyeron debido a que se alcanzó un límite o a que su prioridad era menor, use las consultas disponibles en [esta sección](query-examples.md#business-rules-queries).
 
 ## Error de acción {#action-error}
 
@@ -81,11 +81,11 @@ La tabla **[!UICONTROL exclusión de Recorrido]** presenta una vista completa de
 
 El widget **[!UICONTROL Errores de acción]** detalla los diferentes errores que se produjeron para las acciones de su recorrido.
 
-## Lienzo del recorrido  {#journey-canvas}
+## Lienzo del recorrido {#journey-canvas}
 
 ![](assets/cja-journey-canvas.png)
 
-El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+El widget **[!UICONTROL Lienzo de Recorrido]** le permite rastrear visualmente la trayectoria de sus perfiles de destino a medida que navegan por su recorrido. [Obtenga más información en la documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Mejore la personalización del lienzo con las siguientes opciones:
 

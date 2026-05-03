@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ La página del informe se muestra con las siguientes pestañas:
 * [Conjuntos de reglas](#rule-sets)
 * [Modelos de optimización](#optimization-models)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 
@@ -59,7 +59,7 @@ Los KPI **[!UICONTROL Características destacadas]** sirven como un tablero comp
 
 +++
 
-## Recorrido  {#journey}
+## Recorrido {#journey}
 
 ![](assets/cja-channel-journeys.png)
 
@@ -143,7 +143,7 @@ La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona informac
 
 La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
 
-* **&#x200B;**&#x200B;[!UICONTROL Sin conflicto]&#x200B;**&#x200B;**: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
 
 * **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
 
@@ -156,6 +156,8 @@ La columna **[!UICONTROL Exclusiones]** muestra el número de perfiles que se ex
 * **Prioridad más baja**: no se ha alcanzado el límite, pero otros recorridos de prioridad más alta cumplen las restricciones. El perfil se ha excluido de este recorrido y, en su lugar, ha introducido un recorrido de prioridad más alto.
 
 +++
+
+Para investigar estas exclusiones en el nivel de lago de datos usando Adobe Experience Platform Query Service, consulte [Consultas sobre reglas de negocio](query-examples.md#business-rules-queries).
 
 ➡️ [Más información acerca de la restricción y arbitraje de recorridos](../conflict-prioritization/journey-capping.md)
 
