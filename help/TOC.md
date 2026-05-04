@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Trabajar de manera eficaz {#work-efficiently}
       + [Navegación por la interfaz](using/start/user-interface.md)
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
-      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accesibilidad](using/start/accessibility.md)
       + {hide-from-toc}[Recorridos vs. Campañas](using/start/journeys-vs-campaigns.md)
 + Recorridos {#orchestrate-journeys}
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Insertar temporizador de cuenta atrás](using/integrations/countdown.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Trabajar con integraciones](using/integrations/integrations.md)
-      + {hide-from-toc}[Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Configuraciones de proveedor de ejemplo](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[Preguntas más frecuentes](using/integrations/vendor-integration-faq.md)
+      + Integraciones {#integrations}
+         + [Trabajo con integraciones](using/integrations/integrations.md)
+         + [Uso de integraciones externas para la personalización](using/integrations/integrations-personalization.md)
+         + [Preguntas frecuentes](using/integrations/vendor-integration-faq.md)
+         + Proveedores de muestra {#vendors}
+            + [Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
+            + [Configuraciones de proveedor de ejemplo](using/integrations/vendor-integration.md)
       + [Trabajo con herramientas de IA a través de MCP](/help/using/integrations/ajo-mcp.md)
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
