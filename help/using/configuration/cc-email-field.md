@@ -7,14 +7,12 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, copia de carbón, correo electrónico, configuración de canal, encabezados de correo electrónico, CCO
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +22,6 @@ ht-degree: 6%
 >id="ajo_admin_config_cc"
 >title="Definir una dirección de correo electrónico CC"
 >abstract="Puede añadir un campo CC (copia de carbón) visible a los correos electrónicos enviados con esta configuración de canal. Introduzca una dirección de correo electrónico fija o utilice la personalización (atributo de perfil o variable de contexto). Tenga en cuenta que el uso de CC se cuenta para el volumen de mensajes autorizado."
-
->[!AVAILABILITY]
->
->Esta función está disponible para todos los clientes con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 Puede agregar un campo CC (copia de carbón) visible a los correos electrónicos enviados por [!DNL Journey Optimizer] a través de sus recorridos y campañas. Esta característica opcional se configura en el nivel de [configuración de canal](channel-surfaces.md), junto con los parámetros de encabezado de correo electrónico y la opción de correo electrónico CCO.
 
