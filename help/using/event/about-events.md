@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
+source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 22%
+source-wordcount: '2152'
+ht-degree: 23%
 
 ---
 
@@ -39,7 +39,7 @@ Puede configurar tres tipos de eventos: **Eventos unitarios**, **Eventos empresa
 
 ## Eventos unitarios {#unitary-events}
 
-**Los eventos unitarios** están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que sucede vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que [!DNL Journey Optimizer] escuchará en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden basarse en reglas o generarse por el sistema. Para aprender a crear un evento unitario, consulte esta [página](../event/about-creating.md).
+**Los eventos unitarios** están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden basarse en reglas o generarse por el sistema. Para aprender a crear un evento unitario, consulte esta [página](../event/about-creating.md).
 
 Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 
@@ -54,6 +54,21 @@ Se activa un evento **calificación de audiencia** cuando un perfil entra o sale
 >[!NOTE]
 >
 >Los eventos de cualificación de audiencia no se configuran en **Administración > Eventos**; se seleccionan directamente en el lienzo de recorrido como primer paso de un recorrido.
+
+## Eventos unitarios o empresariales de un vistazo {#event-comparison}
+
+| | Evento unitario | Evento empresarial |
+|---|---|---|
+| **Vinculado a un perfil?** | Sí, se activa por la acción de un individuo específico. | No: se activa por una incidencia externa no vinculada a una persona. |
+| **Comportamiento de entrada** | Un perfil entra en el recorrido en tiempo real. | Varios perfiles introducen mediante un paso automático de Lectura de Audiencia. |
+| **Casos de uso habituales** | Confirmación de compra, envío de formulario, inicio de sesión en la aplicación, hito de lealtad. | Cancelación de vuelo, alerta de reposición de stock, noticias de última hora, evento meteorológico. |
+| **Cómo inicia el recorrido** | Entrada basada en eventos: no se necesita audiencia. | Evento empresarial + audiencia de lectura automática (añadida por Journey Optimizer). |
+| **Múltiple por recorrido?** | Sí, se pueden escuchar varios eventos unitarios a través de pasos de recorrido. | No: sólo un evento empresarial por recorrido, realizado al principio. |
+| **Tipo de ID de evento** | Basado en reglas o generado por el sistema. | Siempre basado en reglas. |
+
+>[!NOTE]
+>
+>Un recorrido solo puede contener **un** evento empresarial, que debe ser la primera actividad. Journey Optimizer agrega automáticamente una actividad **Leer audiencia** después de ella para definir qué perfiles reciben el recorrido activado por ese evento.
 
 ## Tipo de ID de evento {#event-id-type}
 
@@ -71,11 +86,11 @@ Para los eventos **unitarios**, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos ingeridos por lotes, los eventos insertados mediante **Query Service** o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se pueden usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
+>Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos ingeridos por lotes, eventos insertados a través de **Query Service** o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se puede usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
 
 ## Cómo elegir {#choose-event-type}
 
-Utilice los siguientes criterios para seleccionar el tipo de evento adecuado para el recorrido; la pregunta clave es: **¿está activando una acción para una persona específica o está difundiendo a muchos perfiles?** [Más información sobre los tipos de recorrido](../building-journeys/journey.md#journey-types).
+Use los siguientes criterios para seleccionar el tipo de evento adecuado para el recorrido; la pregunta clave es: **¿está activando una acción para una persona específica o está difundiendo a muchos perfiles?** [Más información sobre los tipos de recorrido](../building-journeys/journey.md#journey-types).
 
 * **Elija un evento unitario** cuando el déclencheur esté vinculado a un individuo específico; por ejemplo, una compra, un envío de formulario o un hito de lealtad. Los eventos unitarios requieren una identidad principal basada en persona en el esquema e inician la recorrido inmediatamente para ese perfil. [Aprenda a configurar un evento unitario](../event/about-creating.md).
 
@@ -147,8 +162,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 7%
+source-wordcount: '1418'
+ht-degree: 6%
 
 ---
 
@@ -53,6 +53,20 @@ En el recorrido B, el primer evento se activa internamente a través de la activ
 >[!NOTE]
 >
 >El recorrido B también se puede activar mediante un evento externo.
+
+### Comportamiento del perfil durante un salto {#jump-profile-behavior}
+
+Cuando un perfil alcanza el paso **[!UICONTROL Jump]**, continúa progresando en el recorrido de origen (Recorrido A) mientras introduce simultáneamente el recorrido de destino (Recorrido B). Por lo tanto, el perfil está activo en ambos recorridos al mismo tiempo.
+
+Esto significa que:
+
+* El perfil completa los pasos restantes del Recorrido A después de la actividad de salto (por ejemplo, una acción de espera o cierre de seguimiento).
+* El perfil también empieza a pasar por el Recorrido B desde su primer evento, independientemente del Recorrido A.
+* Si el perfil **ya está activo** en el Recorrido B cuando se ejecute el salto, **no** volverá a entrar en el Recorrido B. El recorrido A continúa con normalidad; no se informa de ningún error.
+
+>[!NOTE]
+>
+>El caso anterior (perfil que ya está activo en el Recorrido B) genera **omisión silenciosa**: no se genera ningún error y el Recorrido A continúa de forma normal. En otras situaciones, el salto puede **fail** y el Recorrido A aplica su tratamiento estándar de acción-error. Consulte [Errores en tiempo de ejecución](#jump-troubleshoot) para obtener una lista completa de los casos.
 
 ## Prácticas recomendadas y limitaciones {#jump-limitations}
 
@@ -94,7 +108,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
 
 >[!TIP]
 >
->Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configuración de la actividad de salto {#jump-configure}
 
@@ -138,10 +152,20 @@ Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agre
 
 ## Resolución de problemas {#jump-troubleshoot}
 
-Se producen errores si:
+### Errores de configuración
 
-* El recorrido de destino ya no existe
-* El recorrido de destino es borrador, está cerrado o detenido
-* El primer evento del recorrido de destino cambia y la asignación se interrumpe
+Los siguientes problemas impiden que el salto funcione correctamente y aparecen como errores en el lienzo del recorrido:
+
+* El recorrido de destino ya no existe.
+* El recorrido de destino es borrador, está cerrado o detenido.
+* El primer evento del recorrido de destino ha cambiado y la asignación está dañada.
 
 ![análisis de Recorrido que muestra métricas de ejecución de actividad de salto](assets/jump6.png)
+
+### Errores de tiempo de ejecución
+
+En los casos siguientes, el paso de salto se trata como una **acción fallida** en el Recorrido A. El Recorrido A aplica la administración estándar de acción-error y continúa:
+
+* La instancia de recorrido de destino existente se ha terminado y el recorrido de destino no es de reentrada.
+* Se configura un período de reentrada en el recorrido de destino. Incluso cuando, en principio, se permite la reentrada, el perfil no puede volver a entrar hasta que transcurra el periodo (el salto falla con el estado &quot;no reentrante para el periodo&quot;).
+* La versión del recorrido de destino no se puede encontrar, se ha eliminado, está en estado terminado o se ha detenido.
