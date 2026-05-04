@@ -7,11 +7,10 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: integración, proveedor, terceros
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '9348'
+source-wordcount: '10154'
 ht-degree: 5%
 
 ---
@@ -20,24 +19,27 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-Tabla de contenido:
-
-* [Trabajo con integraciones](integrations.md)
-* [Introducción a la integración de proveedores](vendor-integration-gs.md)
-* **[Configuraciones de proveedor de ejemplo](vendor-integration.md)**
-* [Preguntas más frecuentes](vendor-integration-faq.md)
+Los clientes son responsables de garantizar que su uso de la función Integraciones de AJO y de cualquier proveedor de terceros o integración asociado cumpla con todas las leyes y regulaciones aplicables, como HIPAA.
 
 >[!ENDSHADEBOX]
 
->[!BEGINSHADEBOX]
+## Navegación rápida {#quick-navigation}
 
-Los clientes y proveedores externos son responsables de proteger los puntos finales de API según sea necesario según sus requisitos de seguridad y cumplimiento.
+Utilice estos vínculos agrupados para ir rápidamente al patrón de proveedor relevante:
 
->[!ENDSHADEBOX]
+* **Sistema de administración de contenido:** [Contenido](#contentful), [Área de sitio](#sitecore), [Salsify](#salsify), [Contentstack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
+* **Fidelidad y recompensas:** [Voucherify](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Fidelidad Salesforce](#salesforce-loyalty), [Capillary](#capillary)
+* **Plantillas, personalización y recomendaciones:** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
+* **Datos, tiempo y operaciones:** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
+* **Comentarios, consentimiento y asistencia social:** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)
 
 ## Contenido y CMS {#content-and-cms}
 
 ### Contentful {#contentful}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido por o formalmente apoyado por Contentful. Confirme los detalles actuales de la API con la documentación pertinente.
 
 >[!BEGINSHADEBOX]
 
@@ -53,7 +55,6 @@ Se aplican los siguientes requisitos previos:
 
 * Espacio de contenido con acceso a la API de envío y una clave de API de lectura.
 * Borre los tipos de contenido y los ID de campo; acceso de administrador en Journey Optimizer para crear integraciones.
-
 
 Se aplican las siguientes limitaciones y exclusiones:
 
@@ -122,6 +123,10 @@ Campos de integración de muestra (alinearse con la [API de entrega de contenido
 +++
 
 ### Sitecore {#sitecore}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Sitecore no la mantiene ni la respalda formalmente. Confirme los detalles actuales de la API con la documentación de Sitecore.
 
 >[!BEGINSHADEBOX]
 
@@ -208,6 +213,10 @@ Utilice los campos siguientes cuando configure esta llamada de ejemplo en Journe
 
 ### Salsify {#salsify}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Salsify no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Salsify.
+
 >[!BEGINSHADEBOX]
 
 Salsify es un PIM con API para productos, canales y recursos digitales.
@@ -293,6 +302,10 @@ Algunas referencias antiguas reutilizaron una ruta de estilo de orden de descarg
 +++
 
 ### Contentstack {#contentstack}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Contentstack no la mantiene ni la admite formalmente. Confirme los detalles actuales de la API con la documentación de Contentstack.
 
 >[!BEGINSHADEBOX]
 
@@ -381,6 +394,10 @@ Contentstack espera **ambas** claves como encabezados para las solicitudes de en
 +++
 
 ### Akeneo {#akeneo}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Akeneo no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Akeneo.
 
 >[!BEGINSHADEBOX]
 
@@ -474,6 +491,10 @@ Patrón de ejemplo: `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` con `A
 
 ### Magnolia {#magnolia}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Magnolia no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Magnolia.
+
 >[!BEGINSHADEBOX]
 
 Magnolia ofrece puntos finales de entrega REST y sin encabezado según la implementación.
@@ -555,6 +576,10 @@ Nota: La API de envío es para utilizar la función rest-anonymous para contenid
 ## Lealtad y recompensas {#loyalty-and-rewards}
 
 ### Cucherificar {#voucherify}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Voucherify no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Voucherify.
 
 >[!BEGINSHADEBOX]
 
@@ -655,6 +680,10 @@ Campos de integración de muestra. Referencia completa: [Voucherify API](https:/
 
 ### Talon.One {#talon-one}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido por o formalmente apoyado por Talon.One. Confirme los detalles actuales de la API con la documentación de Talon.One.
+
 >[!BEGINSHADEBOX]
 
 Talon.One es un motor de reglas de promoción y lealtad con API de REST para sesiones, efectos y perfiles.
@@ -746,6 +775,10 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 ### Antavo {#antavo}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido por o formalmente apoyado por Antavo. Confirme los detalles actuales de la API con la documentación de Antavo.
+
 >[!BEGINSHADEBOX]
 
 Antavo es una plataforma de fidelidad empresarial con API de REST para miembros, recompensas y eventos.
@@ -827,6 +860,10 @@ Los campos de integración de muestra utilizan el host **staging**; la producci�
 +++
 
 ### Lealtad de Salesforce {#salesforce-loyalty}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Salesforce no la mantiene ni la admite formalmente. Confirme los detalles actuales de la API con la documentación de Salesforce.
 
 >[!BEGINSHADEBOX]
 
@@ -923,6 +960,10 @@ Utilice la operación GET de administración de fidelidad **perfil de miembro** 
 
 ### Capilar {#capillary}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido ni apoyado formalmente por Capillary. Confirme los detalles actuales de la API con la documentación de Capillary.
+
 >[!BEGINSHADEBOX]
 
 Capillary proporciona API de lealtad y participación comunes en las pilas de minoristas.
@@ -1008,6 +1049,10 @@ Ejemplo: `https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` (el
 
 ### Stensul {#stensul}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Stensul no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Stensul.
+
 >[!BEGINSHADEBOX]
 
 Stensul es una plataforma de creación de correo electrónico para plantillas aprobadas; Journey Optimizer puede consumir metadatos de plantilla y regiones estructuradas a través de su API.
@@ -1051,6 +1096,10 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 1. Compruebe la conexión y actívela.
 
 ### Caléndula {#marigold}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido por ni apoyado formalmente por Marigold. Confirme los detalles actuales de la API con la documentación de Marigold.
 
 >[!BEGINSHADEBOX]
 
@@ -1141,6 +1190,10 @@ El host base depende de la región (por ejemplo, `https://{{customername}}.modul
 
 ### Adobe Target Recommendations {#adobe-target-recommendations}
 
+>[!IMPORTANT]
+>
+>Esta configuración es un patrón ilustrativo probado por el equipo de Adobe Journey Optimizer. Adobe Target Recommendations es un producto de Adobe independiente con su propio ciclo de lanzamiento y versiones de API. Confirme siempre los detalles actuales de la API con la [documentación para desarrolladores de Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) antes de implementarla en la producción.
+
 >[!BEGINSHADEBOX]
 
 Adobe Target incluye Recommendations y API de entrega para experiencias del lado del servidor o integradas, sujetas a derechos.
@@ -1165,7 +1218,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
+1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1218,7 +1271,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Autenticación**
 
-Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
+Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
 
 **Solicitar carga**
 
@@ -1280,6 +1333,10 @@ Consulte [Configuración de autenticación de destino](https://experienceleague.
 ## Datos, tiempo y operaciones {#data-weather-and-operations}
 
 ### AccuWeather {#accuweather}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. No es mantenido por o formalmente apoyado por AccuWeather. Confirme los detalles actuales de la API con la documentación de AccuWeather.
 
 >[!BEGINSHADEBOX]
 
@@ -1375,6 +1432,10 @@ Campos de integración de muestra. Los detalles y niveles se describen en [API d
 
 ### EstaciónBuque {#shipstation}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. ShipStation no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de ShipStation.
+
 >[!BEGINSHADEBOX]
 
 ShipStation ofrece API de envío y pedido para operadores, etiquetas y seguimiento.
@@ -1465,6 +1526,10 @@ El siguiente ejemplo de **Obtener temporizador** ilustra una llamada de temporiz
 +++
 
 ### RevenueCat {#revenuecat}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. RevenueCat no la mantiene ni la respalda formalmente. Confirme los detalles actuales de la API con la documentación de RevenueCat.
 
 >[!BEGINSHADEBOX]
 
@@ -1558,6 +1623,10 @@ Patrón de ejemplo: usa **Obtener un producto** de RevenueCat (o un GET de produ
 
 ### Databricks {#databricks}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Databricks no la mantiene ni la respalda formalmente. Confirme los detalles actuales de la API con la documentación de Databricks.
+
 >[!BEGINSHADEBOX]
 
 Databricks proporciona API de SQL y REST sobre datos de lakehouse; los borradores anteriores combinaban la guía de ejecución de instrucciones con una muestra de **job/get**.
@@ -1632,6 +1701,10 @@ El ejemplo del trabajo **GET** que se muestra a continuación es ilustrativo; pa
 ## Revisiones, consentimiento y asistencia social {#reviews-consent-and-social}
 
 ### Bynder {#bynder}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Bynder no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Bynder.
 
 >[!BEGINSHADEBOX]
 
@@ -1784,6 +1857,10 @@ Campos de integración de muestra. Consulte [Documentación de la API de Bynder]
 
 ### Trustpilot {#trustpilot}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Trustpilot no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Trustpilot.
+
 >[!BEGINSHADEBOX]
 
 Trustpilot proporciona API para el negocio y revisa los datos de resumen donde su caso de uso y contrato lo permiten.
@@ -1869,6 +1946,10 @@ Use la operación de listado de categorías de [desarrolladores de Trustpilot](h
 
 ### Bazaarvoice {#bazaarvoice}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Bazaarvoice no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Bazaarvoice.
+
 >[!BEGINSHADEBOX]
 
 Bazaarvoice ofrece valoraciones, reseñas y API de UGC.
@@ -1953,6 +2034,10 @@ Ejemplo de punto de entrada: `https://api.bazaarvoice.com/data/products.json` co
 +++
 
 ### OneTrust {#onetrust}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. OneTrust no la mantiene ni la respalda formalmente. Confirme los detalles actuales de la API con la documentación de OneTrust.
 
 >[!BEGINSHADEBOX]
 
@@ -2040,6 +2125,10 @@ Patrón de ejemplo (fragmento): `https://{tenant}.my.onetrust.com/api/consentman
 
 ### Meta {#meta}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Meta no la mantiene ni la admite formalmente. Confirme los detalles actuales de la API con la documentación de Meta.
+
 >[!BEGINSHADEBOX]
 
 Las API de gráficos y marketing de Meta exponen objetos de catálogo y campaña para integraciones comerciales autorizadas.
@@ -2126,6 +2215,10 @@ Campos de integración de muestra. Consulte [API de gráficos](https://developer
 
 ### Aprimo {#aprimo}
 
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Aprimo no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Aprimo.
+
 >[!BEGINSHADEBOX]
 
 Aprimo combina operaciones de marketing y API de DAM para registros, activos y metadatos.
@@ -2209,6 +2302,10 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 +++
 
 ### Épsilon (Epsilon3) {#epsilon}
+
+>[!IMPORTANT]
+>
+>Adobe probó de forma independiente este ejemplo de configuración como patrón de ejemplo. Epsilon no la mantiene ni la apoya formalmente. Confirme los detalles actuales de la API con la documentación de Epsilon.
 
 >[!BEGINSHADEBOX]
 
