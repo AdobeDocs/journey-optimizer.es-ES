@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -79,3 +79,4 @@ El siguiente ejemplo envía un correo electrónico de bienvenida a los perfiles 
 * **[!UICONTROL Envío de correo electrónico]**: envía el correo electrónico de bienvenida a los perfiles generados por la consulta.
 
 ![Configuración de actividad de consulta incremental en el lienzo de campaña orquestado](../assets/incremental-query-example.png)
+
