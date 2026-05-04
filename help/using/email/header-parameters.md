@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 54%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -57,10 +57,6 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >id="ajo_admin_preset_sender_header"
 >title="Encabezados de remitente"
 >abstract="Utilice estos campos opcionales cuando la entidad emisora (Remitente) difiera de la entidad emisora (De), por ejemplo, un padre corporativo que envía mensajes para una marca secundaria o una agencia que envía para varios clientes. Los clientes de correo electrónico que admiten esto generalmente lo representan como &quot;Remitente en nombre de Desde&quot; o muestran un indicador &quot;a través de&quot;."
-
->[!AVAILABILITY]
->
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Algunos casos de uso requieren que el buzón que transmite el mensaje sea diferente del autor de **From**; por ejemplo, una organización principal que envía en nombre de una subsidiaria, un equipo de marketing compartido para varias marcas o una agencia que envía para varios clientes.
 

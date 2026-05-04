@@ -10,10 +10,10 @@ level: Intermediate
 keywords: actividad, recorrido, lectura de audiencia, audiencia, segmento, lote, punto de entrada, déclencheur, programación, calificación de audiencia
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '3538'
-ht-degree: 10%
+source-wordcount: '3612'
+ht-degree: 9%
 
 ---
 
@@ -37,6 +37,13 @@ La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido
 | Desea ejecutar un recorrido una vez o según una programación (lote). | Necesita perfiles para entrar en el recorrido en tiempo real según califiquen. |
 | La audiencia se evalúa por lotes (por ejemplo, instantánea diaria). | La audiencia se transmite por streaming o se basa en eventos. |
 | Se considera aceptable un retraso entre la evaluación de audiencia y la entrada de recorrido. | Necesita una entrada inmediata cuando un perfil reúne los requisitos. |
+
+>[!TIP]
+>
+>**Ejemplos reales**
+>* **Newsletter semanal** → audiencia de lectura. Su audiencia es una instantánea por lotes diaria. Programas el recorrido todos los lunes a las 9 AM. Todos los perfiles cualificados entran juntos.
+>* **Actualización del nivel de fidelización** → la calificación de audiencia. Tan pronto como un perfil alcanza el estado Oro en una audiencia de streaming, entra en el recorrido inmediatamente para recibir un correo electrónico de felicitación.
+>* **Serie de renovación de participación** → Leer audiencia. Ejecuta un recorrido recurrente cada 30 días, segmentando perfiles inactivos durante más de 90 días.
 
 **Límites clave:** Una audiencia de lectura por recorrido (debe ser la primera actividad); una audiencia por actividad; hasta cinco ejecuciones simultáneas de Audiencia de lectura por organización; 20 000 perfiles por segundo por zona protegida; tiempo de espera de trabajo de 12 horas. Detalles completos en [Protecciones y limitaciones](../start/guardrails.md#read-segment-g).
 

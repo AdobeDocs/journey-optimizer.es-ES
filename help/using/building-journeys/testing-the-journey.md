@@ -10,10 +10,10 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 7%
+source-wordcount: '2222'
+ht-degree: 8%
 
 ---
 
@@ -56,7 +56,7 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 ### Ejecución
 
 * **Comportamiento de división**: cuando el recorrido alcanza una división, siempre se selecciona la rama superior. Reordene las ramas si desea probar una ruta diferente.
-* **Tiempo de espera del evento**: si el recorrido incluye*varios eventos, almacene en déclencheur cada evento en secuencias. Si se envía un evento demasiado pronto (antes de que finalice el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
+* **Programación de eventos**: si el recorrido incluye*varios eventos, almacene en déclencheur cada evento en secuencias.Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
 * **Ventana de fecha activa**. Asegúrese de que la ventana del recorrido que ha configurado para elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reacción**: para los eventos de reacción con tiempo de espera, el tiempo de espera mínimo y predeterminado es de 40 segundos.
 * **Conjuntos de datos de prueba**: los eventos activados en el modo de prueba se almacenan en conjuntos de datos dedicados etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
@@ -96,6 +96,29 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Una vez realizadas las pruebas, puede publicar el recorrido. Consulte [esta página](../building-journeys/publish-journey.md).
 
+## Ejemplo trabajado: validar un recorrido simple {#test-walkthrough}
+
+El siguiente ejemplo muestra cómo probar un recorrido que comienza con un evento unitario, envía un correo electrónico, espera 10 minutos y, a continuación, envía una notificación push.
+
+Para validar el recorrido de extremo a extremo:
+
+1. Active el modo de prueba haciendo clic en **[!UICONTROL Modo de prueba]** en la esquina superior derecha. El lienzo cambia al modo de prueba y aparece un botón **[!UICONTROL Déclencheur y evento]**.
+1. Establezca **[!UICONTROL Tiempo de espera]** en **10 segundos** para que el nodo de espera se complete rápidamente durante la prueba.
+1. Haga clic en **[!UICONTROL Déclencheur un evento]**, seleccione el evento e introduzca un identificador de perfil de prueba (por ejemplo, la dirección de correo electrónico de un perfil marcado como perfil de prueba en Adobe Experience Platform).
+1. Haga clic en **[!UICONTROL Enviar]**. El flujo visual aparece en el lienzo y se vuelve verde a medida que el perfil progresa en cada paso.
+1. Haga clic en **[!UICONTROL Mostrar registro]** y confirme lo siguiente en la salida JSON:
+   * `currentstep` coincide con la actividad en la que espera que esté el perfil.
+   * `phase` muestra `running` mientras el perfil se encuentra en un nodo de espera y `finished` cuando llega al final.
+   * No hay `actionExecutionErrors` entradas presentes.
+1. Después de 10 segundos, actualice el registro. El perfil debería haber avanzado más allá del nodo de espera y haber activado la acción push.
+1. Cuando todos los pasos muestren `finished` y no se registren errores, desactive el modo de prueba y publique el recorrido.
+
+>[!TIP]
+>
+>Si el perfil no aparece en el registro, compruebe lo siguiente:
+>* El identificador de perfil que especificó está marcado como perfil de prueba en [!DNL Adobe Experience Platform].
+>* Las fechas de inicio y finalización configuradas del recorrido incluyen la hora actual. Los eventos activados fuera de esta ventana se descartan de forma silenciosa. [Más información](troubleshooting-execution.md#troubleshooting-test-transitions).
+
 ## Activación de eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -125,7 +148,7 @@ El área de nombres de identidad se utiliza para identificar los perfiles de pru
 
 ### Configuración de evento {#trigger-events-configuration}
 
-Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
+Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/journeytest4.png)
 

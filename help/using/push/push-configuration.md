@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 8%
+source-wordcount: '2189'
+ht-degree: 7%
 
 ---
 
@@ -249,10 +249,6 @@ Ahora puede seleccionar la configuración al crear las notificaciones push.
 >id="ajo_surface_dynamic_app_id"
 >title="Personalizar ID de aplicación"
 >abstract="Cuando administre varias aplicaciones móviles, almacene cada ID de aplicación en el perfil y utilice una sola configuración de canal push. Abra el editor de personalización junto al campo App id para seleccionar un atributo de perfil; la expresión se evalúa en el momento de la entrega para cada destinatario. Asegúrese de que existan credenciales push para cada ID de aplicación que pueda devolver su expresión."
-
->[!AVAILABILITY]
->
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 Cuando tenga muchas marcas o inquilinos con aplicaciones separadas, puede almacenar cada **[!UICONTROL ID de aplicación]** en el perfil y usar una sola configuración de canal para enviar notificaciones push a la aplicación correcta para cada destinatario.
 

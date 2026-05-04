@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 20%
 
 ---
@@ -44,6 +44,24 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 <table>
 <thead>
 <tr>
+<th><strong>Integraciones</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La característica <b>Integraciones</b> le permite conectar fuentes de datos de terceros directamente a Adobe Journey Optimizer. Al simplificar la forma de extraer datos externos y <b>contenido maquetable</b>, esta característica facilita la entrega de mensajes dinámicos y personalizados en todos los canales.</p>
+<p>Esta capacidad, que se lanzó anteriormente en beta, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../integrations/integrations.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 4 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Actividad de consulta incremental en campañas organizadas</strong><br/></th>
 </tr>
 </thead>
@@ -53,7 +71,7 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 <p><strong>Las campañas orquestadas</strong> ahora admiten una actividad de <strong>Consulta incremental</strong> que se dirige únicamente a perfiles o eventos que son recién elegibles desde la última ejecución.
 
 Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (nuevos registros, miembros de fidelidad recién calificados y segmentos similares), al tiempo que reduce las cargas de trabajo de consultas y evita envíos redundantes a lo largo del tiempo.</p>
-<p>Para obtener más información, consulte la <a href="../orchestrated/activities/incremental-query.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 <tr>
 <td>
 <p>Con Journey Optimizer, ahora puede enviar correos electrónicos donde la entidad transmisora (Remitente) difiera de la entidad creadora (De). Los clientes de correo electrónico que admitan esta función generalmente la representan como "Remitente en nombre de Desde" o muestran un indicador "a través de". Rellene los campos <strong>Encabezados de remitente</strong> opcionales en la configuración del canal de correo electrónico para configurar esta capacidad.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>Para obtener más información, consulte la <a href="../email/header-parameters.md#sender-header">documentación detallada</a>.</p>
 </td>
@@ -278,8 +295,6 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 
 * **Personalizar el ID de la aplicación en la configuración del canal**: en la configuración del canal push, ahora puede personalizar el campo **ID de la aplicación** para que cada destinatario pueda recibir una notificación push de la marca adecuada en función de su información de perfil. [Más información](../push/push-configuration.md#app-id-personalization)
 
-  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
 #### Toma de decisiones
 
 * **Adjuntar fragmentos a elementos de decisión**: Journey Optimizer ahora proporciona la capacidad de adjuntar fragmentos a elementos de decisión que se pueden aprovechar en campañas de correo electrónico y experiencia basadas en código mediante directivas de decisión. [Más información](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 <table>
 <thead>
 <tr>
-<th><strong>Integraciones</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La característica <b>Integraciones</b> le permite conectar fuentes de datos de terceros directamente a Adobe Journey Optimizer. Al simplificar la forma de extraer datos externos y <b>contenido maquetable</b>, esta característica facilita la entrega de mensajes dinámicos y personalizados en todos los canales.</p>
-<p>Esta funcionalidad, que se publicó anteriormente en la versión beta, ya está disponible en todos los entornos (disponibilidad general).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>simulación de recorrido</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 <p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico a través de una opción específica en la Designer de correo electrónico.</p><p>Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Para obtener más información, consulte la <a href="../email/message-tracking.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 7 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Mejoras {#comming-soon-improv}
-
-#### Configuración
-
-* **Permisos específicos para claves de cifrado de parámetros de URL**: para acceder y administrar claves para el cifrado de parámetros de URL, se han creado nuevos permisos. Ahora debe tener concedidos los permisos de **Ver registro de claves** y **Administrar registro de claves**. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->

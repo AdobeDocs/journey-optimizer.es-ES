@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 10%
+source-wordcount: '1451'
+ht-degree: 13%
 
 ---
 
@@ -59,6 +59,15 @@ Lo que debe configurar antes de crear depende de cómo se active el recorrido. L
 * **Entrada basada en audiencias**: el recorrido se ejecuta para un conjunto definido de perfiles a una hora programada. [Cree una audiencia](../audience/about-audiences.md) en Adobe Experience Platform antes de generar su recorrido. Este es el punto de partida recomendado si es su primera vez en Journey Optimizer.
 
 * **Entrada basada en eventos**: el recorrido se activa en tiempo real cuando un individuo realiza una acción, como una compra o un registro. [Configura un evento](../event/about-events.md) para definir el déclencheur y los datos que lleva.
+
+**¿No está seguro de qué punto de entrada usar?** La siguiente tabla asigna los casos de uso más comunes a la actividad de inicio correcta.
+
+| Punto de entrada | Usar cuando... | Introducir perfiles |
+|---|---|---|
+| **[Leer audiencia](read-audience.md)** | Desea enviar un mensaje programado o recurrente a un conjunto definido de perfiles (boletines informativos, promociones, series de incorporación). | Todos los perfiles de una audiencia por lotes, a la vez o según una programación. |
+| **[Calificación de audiencias](audience-qualification-events.md)** | Debe reaccionar en tiempo real cuando un perfil entra o sale de una audiencia (actualización del nivel de fidelidad, indicador de riesgo de pérdida). | Un perfil a la vez, en cuanto se clasifique en una audiencia de streaming. |
+| **Evento unitario** | Una acción de perfil genera un déclencheur de respuesta inmediata (confirmación de compra, envío de formulario, inicio de sesión en la aplicación). | Perfil a perfil, en tiempo real. |
+| **[Evento empresarial](../event/about-creating-business.md)** | Un evento que no es de perfil afecta a varias personas a la vez (cancelación de vuelos, reabastecimiento de existencias, alerta de noticias de última hora). | Todos los perfiles asociados con el evento, a través de un paso automático Leer audiencia. |
 
 Los siguientes elementos son opcionales, pero pueden ser necesarios según el caso de uso:
 
@@ -114,7 +123,7 @@ Siga estos pasos para diseñar el recorrido:
 
 Una vez creado el recorrido, pruébelo antes de publicarlo. Journey Optimizer ofrece **Modo de prueba** como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas garantiza que los recorridos funcionen correctamente para que pueda publicarlos con confianza. Aprenda a probar su recorrido [en esta sección](testing-the-journey.md)
 
-También puede ejecutar su recorrido en **Ejecución en seco**. El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales del recorrido a confiar en el diseño del recorrido y la segmentación de audiencia antes de publicarla en directo. Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco [en esta sección](journey-dry-run.md).
+También puede ejecutar su recorrido en **Ejecución en seco**. El ensayo del recorrido es un modo especial de publicación de recorrido de Adobe Journey Optimizer que permite a los profesionales de recorridos probar un recorrido utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil. Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo. Obtenga información sobre cómo publicar un recorrido en el modo de ejecución en seco [en esta sección](journey-dry-run.md).
 
 ## Publicación del recorrido {#jo-pub}
 
