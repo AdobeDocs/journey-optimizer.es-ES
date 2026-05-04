@@ -11,9 +11,9 @@ hide: true
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 badge: label="Disponibilidad limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: 869c1e32911d873a4a565cd0f81a8ff6b92ff96b
+source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1482'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido qu
 Una vez creados, los fragmentos se almacenan en un **[!UICONTROL inventario de fragmentos]** específico y se pueden insertar en cualquier recorrido mediante la actividad **[!UICONTROL fragmentos de Recorrido]**.
 
 >[!NOTE]
->En esta primera versión, los fragmentos de recorrido usan un **comportamiento de copia**: al insertar un fragmento en un recorrido, se crea una copia estática de los nodos originales. Las actualizaciones realizadas en el fragmento original no se reflejan automáticamente en los recorridos que ya lo han utilizado.
+>los fragmentos de recorrido usan un **comportamiento de copia**: al insertar un fragmento en un recorrido, se crea una copia estática de los nodos originales. Las actualizaciones realizadas en el fragmento original no se reflejan en los recorridos que ya lo han utilizado.
 
 ## Permisos {#journey-fragments-permissions}
 
@@ -71,7 +71,7 @@ Para guardar nodos de recorrido como un fragmento directamente desde el lienzo d
 1. Haga clic en **[!UICONTROL Guardar]**. El fragmento se guardará como borrador.
 
 >[!TIP]
->Si crea un fragmento a partir de un recorrido, [pruebe el recorrido](testing-the-journey.md) **antes** de guardar el fragmento para asegurarse de que los nodos seleccionados se comportan según lo esperado.
+>Si crea un fragmento a partir de un recorrido, [pruebe o simule su recorrido](testing-the-journey.md) **antes** de guardar el fragmento para asegurarse de que los nodos seleccionados se comportan según lo esperado.
 
 >[!TAB Del inventario de fragmentos]
 
@@ -83,7 +83,7 @@ Para crear un fragmento directamente desde el inventario:
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]** para guardar el fragmento como borrador.
 
 >[!CAUTION]
->El modo de prueba no está disponible en el editor de fragmentos. Esto significa que no puede validar el comportamiento de las actividades configuradas antes de activar el fragmento e insertarlo en un recorrido. En el caso de los fragmentos en los que la precisión lógica es crítica, considere primero [crear y probar los nodos en un recorrido completo](testing-the-journey.md) y, a continuación, guárdelos como un fragmento desde la pestaña de lienzo anterior.
+>El modo de prueba y la simulación no están disponibles en el editor de fragmentos. Esto significa que no puede validar el comportamiento de las actividades configuradas antes de activar el fragmento e insertarlo en un recorrido. En el caso de los fragmentos en los que la precisión lógica es crítica, considere primero [crear y probar o simular los nodos en un recorrido completo](testing-the-journey.md) y, a continuación, guárdelos como un fragmento desde la pestaña de lienzo de arriba.
 
 >[!ENDTABS]
 
@@ -103,7 +103,7 @@ Para editar un fragmento, ábralo desde el **[!UICONTROL Inventario de fragmento
 >
 >* Solo se pueden editar fragmentos de **[!UICONTROL Borrador]**. Para modificar un fragmento **[!UICONTROL Activo]**, desactívelo primero.
 >
->* El modo de prueba no está disponible en el editor de fragmentos. Pruebe cualquier lógica de nivel de recorrido en el recorrido completo antes de guardar nodos como un fragmento.
+>* El modo de prueba y la simulación no están disponibles en el editor de fragmentos. Pruebe o simule cualquier lógica de nivel de recorrido en el recorrido completo antes de guardar nodos como un fragmento.
 >
 >* No se permiten actividades [Jump](jump.md) dentro de un fragmento.
 
@@ -111,40 +111,53 @@ Para editar un fragmento, ábralo desde el **[!UICONTROL Inventario de fragmento
 
 ### Estados de fragmento {#fragment-statuses}
 
-Los fragmentos de recorrido siguen un ciclo vital de dos estados:
+Los fragmentos de recorrido siguen un ciclo vital con los siguientes estados:
 
 | Estado | Descripción |
 |---|---|
 | **[!UICONTROL Borrador]** | El fragmento se está creando y aún no está disponible para su uso en recorridos. |
 | **[!UICONTROL Activo]** | El fragmento está listo para utilizarse en recorridos. |
+| **[!UICONTROL Archivado]** | El fragmento se ha archivado y ya no está disponible para su uso en recorridos. |
 
-Para activar un fragmento de **[!UICONTROL borrador]**, ábralo y use el icono **[!UICONTROL Activar]**. Para desactivar un fragmento **[!UICONTROL Activo]**, ábralo y use el icono **[!UICONTROL Desactivar]**.
+Las siguientes reglas se aplican a las transiciones de estado de fragmento:
+
+* Solo se pueden activar los fragmentos **[!UICONTROL Borrador]**. Abra un fragmento de borrador y use el icono **[!UICONTROL Activar]**.
+* Solo se pueden desactivar o archivar **[!UICONTROL fragmentos activos]**.
+* Solo se pueden desarchivar **[!UICONTROL fragmentos archivados]**. Al desarchivar un fragmento, se devuelve al estado **[!UICONTROL Borrador]**.
+* Solo se pueden eliminar **[!UICONTROL Borradores]** fragmentos.
+
+>[!NOTE]
+>Al activar un fragmento, se aplican la mayoría de las mismas comprobaciones de validación que se ejecutan durante la publicación del recorrido. Sin embargo, **los atributos contextuales no se validan** y las **directivas de gobernanza no se aplican** en el momento de la activación; ambas se evalúan cuando el fragmento se inserta y se utiliza en un recorrido.
 
 ### Acciones de fragmento {#fragment-actions}
 
 Desde el inventario de fragmentos, puede realizar las siguientes acciones en un fragmento:
 
 * **[!UICONTROL Abrir]**: edite el fragmento haciendo clic en su nombre.
-* **[!UICONTROL Duplicado]**: cree una copia del fragmento a partir del icono **[!UICONTROL Más acciones]** (...).
-* **[!UICONTROL Eliminar]**: elimine un fragmento del inventario activo, del icono **[!UICONTROL Más acciones]** (...).
-* **[!UICONTROL Editar etiquetas]**: agregue o elimine etiquetas de un fragmento desde el icono **[!UICONTROL Más acciones]** (...).
+* **[!UICONTROL Duplicado]**: cree una copia del fragmento a partir de **[!UICONTROL Más acciones]** (...) icono.
+* **[!UICONTROL Archivar]**: archivar un fragmento (disponible solo para **[!UICONTROL fragmentos activos]**), de **[!UICONTROL Más acciones]** (...) icono. Los fragmentos archivados ya no están disponibles en el selector de fragmentos.
+* **[!UICONTROL Desarchivar]**: restaure un fragmento archivado (disponible solo para **[!UICONTROL Fragmentos archivados]**), a partir de **[!UICONTROL Más acciones]** (...) icono. El fragmento vuelve al estado **[!UICONTROL Borrador]**.
+* **[!UICONTROL Eliminar]**: elimine permanentemente un fragmento (disponible solo para **[!UICONTROL Borrador]** fragmentos), de **[!UICONTROL Más acciones]** (...) icono.
+* **[!UICONTROL Editar etiquetas]**: agregue o quite etiquetas de un fragmento, de las **[!UICONTROL acciones más]** (...) icono.
 
 ## Uso de un fragmento en un recorrido {#use-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Añadir un fragmento de recorrido"
->abstract="Solo los **[!UICONTROL fragmentos activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos; las actualizaciones posteriores del fragmento original no se reflejarán en el recorrido."
+>abstract="Solo los **[!UICONTROL fragmentos activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos — las actualizaciones del fragmento original no se reflejan en el recorrido."
 
 Para insertar un fragmento en un recorrido:
 
 1. Abra el recorrido y arrastre la actividad **[!UICONTROL fragmentos de Recorrido]** desde el carril izquierdo.
-1. Colóquelo en una rama existente. Aparecerá un selector de fragmentos.
+1. Colóquelo en una rama existente o en un lienzo vacío. Aparecerá un selector de fragmentos.
 1. Busque el fragmento que desee utilizar o haga una búsqueda. Puede obtener una vista previa de un fragmento o abrirlo en otra pestaña antes de insertarlo.
 1. Seleccione el fragmento. Sus nodos se copian en el lienzo en el punto de colocación.
 
 >[!NOTE]
 >Solo los **[!UICONTROL fragmentos activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos; las actualizaciones posteriores del fragmento original no se reflejarán en el recorrido.
+>
+>Al soltar un fragmento en un lienzo vacío, el fragmento debe comenzar con un nodo **[!UICONTROL Leer audiencia]**, **[!UICONTROL Calificación de audiencias]** o **[!UICONTROL Evento]** (la misma regla que al iniciar cualquier recorrido).
 
 ## Mecanismos de protección y limitaciones {#guardrails}
 
@@ -163,7 +176,7 @@ Las siguientes protecciones se aplican a los fragmentos de recorrido:
 
 * Solo se pueden insertar **[!UICONTROL fragmentos activos]** en un recorrido.
 * Al insertar un fragmento, se crea una **copia estática** de sus nodos. Las actualizaciones del fragmento original no se propagan a los recorridos en los que se ha utilizado.
-* Se debe insertar un fragmento en una **rama existente** en el lienzo.
+* Un fragmento se puede soltar en una rama existente o en un lienzo vacío. Cuando se coloca en un lienzo vacío, el fragmento debe comenzar con un nodo **[!UICONTROL Leer audiencia]**, **[!UICONTROL Calificación de audiencias]** o **[!UICONTROL Evento]**.
 
 **General**
 
@@ -178,13 +191,13 @@ Los siguientes ejemplos ilustran patrones de recorrido comunes que se pueden gua
 
 **Comprobaciones de idoneidad**
 
-Un patrón de entrada estándar (como un nodo [Leer audiencia](read-audience.md) seguido de filtros de elegibilidad) se puede encapsular en un fragmento. Esto permite a los equipos mantener la coherencia en la forma en que los perfiles introducen recorridos, a la vez que reducen el tiempo de configuración. El fragmento solo puede ser [Condición](condition-activity.md), o la Audiencia de lectura y la Condición juntas.
+Un patrón de entrada estándar (como un nodo [Leer audiencia](read-audience.md) seguido de filtros de elegibilidad) se puede encapsular en un fragmento. Esto permite a los equipos mantener la coherencia en la forma en que los perfiles introducen recorridos, a la vez que reducen el tiempo de configuración. El fragmento puede ser solo la actividad [Optimize](optimize.md) o la actividad Read Audience and Optimize juntas.
 
 ![Ejemplo de fragmento de comprobación de idoneidad](assets/journey-fragments-uc-eligibility-check.png)
 
 **Canal preferido**
 
-Un fragmento puede evaluar el canal de comunicación preferido de un perfil (correo electrónico, push o SMS) y enrutar el perfil en consecuencia. Esta lógica se puede reutilizar en cualquier recorrido que implique mensajes salientes, lo que garantiza una administración coherente de las preferencias de canal. El fragmento puede incluir [Condition](condition-activity.md) y las tres ramas de canal.
+Un fragmento puede evaluar el canal de comunicación preferido de un perfil (correo electrónico, push o SMS) y enrutar el perfil en consecuencia. Esta lógica se puede reutilizar en cualquier recorrido que implique mensajes salientes, lo que garantiza una administración coherente de las preferencias de canal. El fragmento puede incluir la actividad [Optimizar](optimize.md) y las tres ramas de canal.
 
 ![Ejemplo de fragmento de canal preferido](assets/journey-fragments-uc-preferred-channel.png)
 
