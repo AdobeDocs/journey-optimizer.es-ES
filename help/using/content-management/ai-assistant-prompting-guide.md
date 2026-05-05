@@ -152,19 +152,19 @@ Estas solicitudes no son compatibles y deben gestionarse mediante otras herramie
 
 Antes de generar contenido, asegúrese de lo siguiente:
 
-&amp;comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
+&comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
 
-&amp;check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
+&check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
 
-&amp;check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
+&check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
 
-&amp;check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
+&check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
 
-&amp;comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
+&comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
 
-&amp;comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
+&comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
 
-&amp;check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
+&check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
 
 ## Escribir objetivos de marketing efectivos {#marketing-objectives}
 
@@ -174,11 +174,11 @@ Al diseñar los objetivos de marketing, asegúrese de que sean claros, procesabl
 
 **Ejemplos de buenos objetivos:**
 
-&amp;check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
+&check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
 
-&amp;check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
+&check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
 
-&amp;check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
+&check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
 
 **Ejemplos que se deben evitar:**
 
@@ -195,11 +195,11 @@ Use esta fórmula para escribir objetivos efectivos: **Acción + Producto/Servic
 
 **Ejemplos de buenos objetivos:**
 
-&amp;check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
+&check; &quot;Fomente las descargas de nuestra nueva aplicación móvil que ayude a los usuarios a seguir hábitos de vida sostenibles con recomendaciones personalizadas y respetuosas con el medio ambiente&quot;
 
-&amp;check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
+&check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
 
-&amp;check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
+&check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
 
 **Ejemplos que se deben evitar:**
 
