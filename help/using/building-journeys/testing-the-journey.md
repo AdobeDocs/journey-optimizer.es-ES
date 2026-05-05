@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 60c2e2c1aa1beb11aeb67bbc9e30e946a9d7fdb8
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2307'
 ht-degree: 8%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 8%
 >abstract="Utilice perfiles de prueba para probar el recorrido antes de publicarlo. Esto permite analizar el flujo de los particulares en el recorrido y solucionar los problemas antes de la publicación."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Ensayo del recorrido"
 
-
-Una vez creado el recorrido, puede probarlo antes de publicarlo. Journey Optimizer ofrece el &quot;Modo de prueba&quot; como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas le permite comprobar que los recorridos funcionan correctamente para que pueda publicarlos con confianza.
+Una vez creado el recorrido, puede probarlo antes de publicarlo. [!DNL Adobe Journey Optimizer] ofrece el &quot;Modo de prueba&quot; como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas le permite comprobar que los recorridos funcionan correctamente para que pueda publicarlos con confianza.
 
 Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir los perfiles existentes en perfiles de prueba. Obtenga más información acerca de los perfiles de prueba en [esta sección](../audience/creating-test-profiles.md).
+
+Adobe Recorrido Optimizer ofrece dos formas de probar y validar el recorrido:
+
+* **[Simulation](simulate-journey.md#test-users)**: establezca el recorrido en **[!UICONTROL Simulation]** y utilice usuarios simulados (perfiles temporales que cree o genere sobre la marcha sin perfiles creados previamente en Adobe Experience Platform).
+
+* **[Modo de prueba](#test-profiles)**: los perfiles persistentes se han marcado explícitamente como perfiles de prueba en Adobe Experience Platform. Se pueden reutilizar en varias sesiones de prueba. Se recomienda este método para realizar pruebas con datos de perfil coherentes y predefinidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,8 +61,8 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 ### Ejecución
 
 * **Comportamiento de división**: cuando el recorrido alcanza una división, siempre se selecciona la rama superior. Reordene las ramas si desea probar una ruta diferente.
-* **Programación de eventos**: si el recorrido incluye*varios eventos, almacene en déclencheur cada evento en secuencias.Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento y se enviará el perfil a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida
-* **Ventana de fecha activa**. Asegúrese de que la ventana del recorrido que ha configurado para elegir [fechas/hora de inicio y finalización](journey-properties.md#dates) incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Programación de eventos**: si el recorrido incluye varios eventos, almacene en déclencheur cada evento en secuencia. Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento. A continuación, el perfil se envía a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida.
+* **Ventana de fecha activa**. Asegúrese de que la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) configurada en el recorrido incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reacción**: para los eventos de reacción con tiempo de espera, el tiempo de espera mínimo y predeterminado es de 40 segundos.
 * **Conjuntos de datos de prueba**: los eventos activados en el modo de prueba se almacenan en conjuntos de datos dedicados etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
 * **Infraestructura compartida**: el modo de prueba se ejecuta en la misma infraestructura que la producción. Durante los períodos de alto tráfico, es posible que observe retrasos en los envíos de correo electrónico o en el procesamiento de eventos. En este caso, compruebe los paneles de tráfico de la plataforma o vuelva a intentar las pruebas durante las horas de menor actividad.
@@ -68,9 +73,9 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 
 ## Activar el modo de prueba
 
-Para utilizar el modo de prueba, siga estos pasos:
+Utilice el método **[!UICONTROL Modo de prueba]** cuando quiera probar su recorrido con perfiles de prueba preexistentes que ya ha creado en Adobe Experience Platform.
 
-1. Para activar el modo de prueba, haga clic en el botón **[!UICONTROL Modo de prueba]** ubicado en la esquina superior derecha.
+1. Para activar el modo de prueba, haga clic en el botón **[!UICONTROL Simular]** y seleccione **[!UICONTROL Modo de prueba]**.
 
    ![Botón de modo de prueba en la interfaz de recorrido](assets/journeytest1.png)
 
@@ -141,14 +146,14 @@ El área de nombres de identidad se utiliza para identificar los perfiles de pru
 
 >[!NOTE]
 >
->* Cuando se almacena en déclencheur un evento en modo de prueba, se genera un evento real, lo que significa que también se producirá un recorrido que escuche este evento.
+>* Cuando se almacena en déclencheur un evento en modo de prueba, se genera un evento real, lo que significa que también se producirá en otros recorridos que escuchen este evento.
 >
 >* Asegúrese de que cada evento en el modo de prueba se active en el orden correcto y dentro de la ventana de espera configurada. Por ejemplo, si hay una espera de 60 segundos, el segundo evento debe activarse solo después de que haya transcurrido esa espera de 60 segundos y antes de que caduque el límite de tiempo de espera.
 >
 
 ### Configuración de evento {#trigger-events-configuration}
 
-Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
+Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y garantiza que el tipo de información sea correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/journeytest4.png)
 
@@ -196,7 +201,7 @@ El botón **[!UICONTROL Mostrar registro]** le permite ver los resultados de la 
 >
 >En los registros de prueba, en caso de error al llamar a un sistema de terceros (fuente de datos o acción), se muestran el código de error y la respuesta de error.
 
-Se muestra el número de individuos (técnicamente, se denominan instancias) que están actualmente dentro del recorrido. Esta es una información útil que se muestra para cada individuo:
+Se muestra el número de individuos (técnicamente denominados instancias) que están actualmente dentro del recorrido. Se muestra la siguiente información para cada individuo:
 
 * _Id_: el ID interno del individuo en la recorrido. Se puede utilizar con fines de depuración.
 * _currentstep_: el paso en el que se encuentra el individuo en el recorrido. Recomendamos añadir etiquetas a las actividades para identificarlas más fácilmente.

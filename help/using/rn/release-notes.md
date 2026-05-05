@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,25 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 <table>
 <thead>
 <tr>
+<th><strong>simulación de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede establecer su recorrido en <strong>Simulación</strong>. Este modo le permite validar su lógica usando <strong>usuarios simulados</strong>. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform.</p>
+<p>Esta capacidad está disponible para todos los clientes como disponibilidad limitada con funciones esenciales.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/simulate-journey.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 5 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Optimización de IA de fórmula de decisiones y reglas de clasificación</strong><br/></th>
 </tr>
 </thead>
@@ -45,20 +64,6 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tr>
 </tbody>
 </table>
-
-## Notas de la versión de abril de 2026 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con su fecha de disponibilidad.
-
-**Fecha de publicación**: 28 y 29 de abril de 2026
-
-### Nuevas funciones {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 </tbody>
 </table>
 
+## Notas de la versión de abril de 2026 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con su fecha de disponibilidad.
+
+**Fecha de publicación**: 28 y 29 de abril de 2026
+
+### Nuevas funciones {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con 
 
 Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (nuevos registros, miembros de fidelidad recién calificados y segmentos similares), al tiempo que reduce las cargas de trabajo de consultas y evita envíos redundantes a lo largo del tiempo.</p>
 <p>Para obtener más información, consulte la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 30 de abril de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 Las siguientes funciones y mejoras están programadas para su lanzamiento en los próximos días. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
 ### Nuevas funciones {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>simulación de recorrido</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede establecer su recorrido en <strong>Simulación</strong>. Este modo le permite validar su lógica usando <strong>usuarios simulados</strong>. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform.</p>
-<p>Esta capacidad está disponible para todos los clientes como disponibilidad limitada con funciones esenciales.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
