@@ -5,10 +5,10 @@ title: Pasos de configuración
 description: Obtenga información sobre cómo crear un esquema relacional en Adobe Experience Platform cargando un DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -29,7 +29,7 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
 
@@ -40,8 +40,9 @@ Se admiten las cargas de archivos de esquema basados en Excel. Descargue la [pla
 +++Se admiten las siguientes funciones al crear esquemas relacionales en Adobe Experience Platform
 
 * **ENUM**\
-  Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL, lo que permite definir atributos con un conjunto fijo de valores permitidos.
-Vea el siguiente ejemplo:
+  Los campos ENUM son compatibles con la creación de esquemas manual y basada en DDL. Al cargar un esquema desde un archivo DDL, las enumeraciones definidas en el archivo se importan automáticamente, lo que permite definir atributos con un conjunto fijo de valores permitidos.
+
+  Vea el siguiente ejemplo:
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ Vea el siguiente ejemplo:
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **Clave compuesta** y **Relaciones compuestas**
+
+  Las claves principales compuestas que abarcan varios campos son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
+
+  Al cargar un esquema desde un archivo DDL o Excel, las relaciones compuestas entre tablas se crean automáticamente. En la vista de relación de entidades, cada vínculo compuesto muestra el conjunto completo de emparejamientos de campos entre las tablas vinculadas.
 
 * **Etiqueta de esquema para el control de datos**\
   El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
@@ -114,7 +121,7 @@ Puede especificar relaciones directamente dentro del archivo DDL al crear el esq
 
    >[!NOTE]
    >
-   >Las claves compuestas son compatibles si se definen en el archivo DDL.
+   >Las claves compuestas que abarcan varios campos son compatibles cuando se definen en el archivo DDL. Al cargar desde un archivo DDL o Excel, las relaciones compuestas entre tablas se crean automáticamente. En la vista de relación de entidades, los vínculos compuestos muestran el conjunto completo de emparejamientos de campos entre las tablas vinculadas.
 
    ![](assets/admin_schema_5.png)
 

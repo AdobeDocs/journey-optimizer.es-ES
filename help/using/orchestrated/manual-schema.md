@@ -5,9 +5,9 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '932'
 ht-degree: 8%
 
 ---
@@ -28,7 +28,7 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 
 1. [Introducir datos](ingest-data.md) en su conjunto de datos desde fuentes compatibles.
 
-➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
 
@@ -69,7 +69,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
   El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
 * **Clave compuesta**\
-  Las claves principales compuestas son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
+  Las claves principales compuestas que abarcan varios campos son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
 
 +++
 
@@ -110,7 +110,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
 
 Después de crear y guardar atributos, puede vincular el esquema con otros esquemas relacionales definiendo relaciones.
 
-➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Vincular esquemas {#link-schema}
 
