@@ -5,10 +5,10 @@ title: Preguntas más frecuentes sobre campañas organizadas
 description: Preguntas frecuentes sobre las campañas orquestadas de Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 12%
+source-wordcount: '2699'
+ht-degree: 11%
 
 ---
 
@@ -347,16 +347,17 @@ No, las campañas orquestadas no admiten capacidades de toma de decisiones. Para
 
 +++ ¿Cómo funciona la implementación en todos los entornos?
 
-Los objetos creados en campañas orquestadas (por ejemplo, audiencias o flujos de trabajo) están vinculados a la zona protegida en la que se crean. Los flujos de trabajo de empaquetado e implementación estándar en entornos (desarrollo, fase, producción) no están disponibles actualmente para campañas organizadas.
+Los objetos creados en campañas orquestadas (por ejemplo, audiencias y flujos de trabajo) pertenecen a la zona protegida en la que se crearon. Para reutilizar una campaña orquestada en otra zona protegida (por ejemplo, desarrollo, fase o producción), cópiela con **Herramientas para zonas protegidas**: agregue la campaña a un paquete, publique el paquete e impórtelo a la zona protegida de destino. La copia importada se crea en **borrador** y **al volver a importar el mismo paquete, se crea una nueva campaña** en lugar de actualizar una existente. Un movimiento completo suele llevar **más de un paso**: es posible que necesite alinear **configuraciones de canal** (nombres coincidentes en el destino), **esquemas** y **conjuntos de datos** a través del mismo paquete o importaciones de paquete adicionales; las configuraciones de canal no se copian con la campaña. No hay ninguna lista de comprobación previa a la exportación completa en la interfaz de usuario; use el flujo de asignación de importación y **alertas posteriores a la importación** para finalizar la configuración. Para obtener detalles y limitaciones, consulte [Copiar objetos de Journey Optimizer entre zonas protegidas](../configuration/copy-objects-to-sandbox.md).
 
 **Prácticas recomendadas**
 
 * Mantenga **zonas protegidas independientes** para la experimentación, el control de calidad y la producción.
-* Documente las configuraciones exhaustivamente para permitir la replicación manual si es necesario.
-* Alinee con los equipos de gobernanza para reducir la desviación de la configuración entre entornos.
+* Después de cada importación, valide la campaña de principio a fin en la zona protegida de destino antes de publicar.
+* Documente las configuraciones y alinéelas con los equipos de gobernanza para reducir la deriva de configuración entre entornos.
 
 **Más información**
 
+* [Copiar objetos de Journey Optimizer entre zonas protegidas](../configuration/copy-objects-to-sandbox.md)
 * [Introducción a las campañas orquestadas](gs-orchestrated-campaigns.md)
 * [Mecanismos de protección y limitaciones](guardrails.md)
 
@@ -450,4 +451,4 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Limitaciones y protecciones de campañas organizadas](guardrails.md)
 * [Introducción a esquemas y conjuntos de datos en campañas organizadas](gs-schemas.md)
 * [Cree su primera campaña orquestada](gs-campaign-creation.md)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
