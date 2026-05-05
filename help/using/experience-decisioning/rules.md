@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creación de reglas"
->abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué público, o **reglas de segmentación** para determinar segmentos de público específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar búsqueda de conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes. "
+>abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué audiencia o **reglas de segmentación** para determinar segmentos de audiencia específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes."
 
 ## Acerca de las reglas {#about}
 
@@ -129,8 +129,30 @@ Para crear una regla, siga estos pasos:
 >
 >[Más información sobre las limitaciones y protecciones de las reglas de elegibilidad](decisioning-guardrails.md#eligibility-rules)
 
+## Optimización de reglas con tecnología de IA {#optimize}
+
+[!DNL Journey Optimizer] puede analizar automáticamente las reglas y sugerir simplificaciones que preserven la lógica original. Solo se admiten las reglas cuya expresión PQL sea mayor que **2 KB** (con codificación UTF-8), no se analizarán las expresiones más pequeñas. Cuando se encuentra una simplificación, aparece un indicador rojo **[!UICONTROL Optimizar]** junto a la regla en el inventario.
+
+>[!NOTE]
+>
+>La optimización de reglas con tecnología de IA se basa en las mismas capacidades de IA generativa que **AI Assistant** y usa los mismos controles de acceso. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. Para obtener más información, consulte [Acceder al asistente de IA](../content-management/gs-generative.md#generative-access).
+
+![](assets/decision-rules-ai.png)
+
+Para optimizar una regla:
+
+1. En el inventario de reglas, haga clic en el icono de indicador rojo junto al nombre de la regla.
+
+1. Se abre la ventana **[!UICONTROL Optimize]**, que muestra la expresión PQL original junto con la versión sugerida por IA.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. Para comprobar que ambas expresiones se comportan de forma idéntica, haga clic en **[!UICONTROL Análisis de optimización de descarga (TSV)]** para descargar un archivo que muestre cómo se evalúan los perfiles simulados en relación con cada versión.
+
+1. Una vez que esté satisfecho, haga clic en **[!UICONTROL Aplicar]** para reemplazar la expresión original por la optimizada.
+
 ## Vídeo práctico {#video}
 
 Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476130/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

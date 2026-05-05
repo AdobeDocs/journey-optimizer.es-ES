@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 3%
+source-wordcount: '2177'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Haga clic en el icono Ayudante de IA en la barra superior para abrir el panel de
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[Más información sobre el Asistente de IA en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}
+[Obtenga más información sobre el asistente de IA en Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Agentes de IA avanzados para la optimización del Recorrido {#ai-agents}
 
@@ -106,7 +106,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -228,6 +228,26 @@ Cree modelos de clasificación inteligentes que optimicen automáticamente qué 
 
 [Más información sobre los modelos de IA para la toma de decisiones](../experience-decisioning/ranking/ai-models.md) | [Crear modelos de clasificación de IA](../experience-decisioning/ranking/create-ai-models.md)
 
+## Optimización de reglas y fórmulas con tecnología de IA {#decisioning-optimization}
+
+Adobe Journey Optimizer puede analizar automáticamente [reglas de decisión](../experience-decisioning/rules.md) y [fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md) expresadas en la sintaxis de PQL, y sugerir simplificaciones que preserven la lógica original. Cuando se encuentra una simplificación, aparece un indicador rojo **[!UICONTROL Optimize]** junto a la regla o fórmula, que abre una comparación en paralelo de las expresiones originales y sugeridas por IA, con un análisis descargable para validar que ambas se comportan de manera idéntica.
+
+### Funcionalidades clave
+
+* **Simplificaciones que preservan la lógica**: la IA sugiere una expresión más corta que devuelve el mismo resultado en perfiles simulados.
+* **Informe de validación**: descargue un análisis (TSV) que muestre cómo se evalúa cada perfil simulado frente a ambas versiones antes de aplicar el cambio.
+* **Aplicación con un solo clic**: reemplaza el PQL original por la versión optimizada directamente desde la ventana **[!UICONTROL Optimizar]**.
+
+### Idoneidad
+
+Solo las reglas y fórmulas de clasificación cuya expresión PQL sea mayor que **2 KB** (con codificación UTF-8) están destinadas al análisis; no se analizan las expresiones más pequeñas.
+
+### Permisos
+
+Esta capacidad usa los mismos controles de acceso de IA generativos que **Asistente de IA**. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. [Más información sobre el acceso al Asistente de IA](../content-management/gs-generative.md#generative-access)
+
+[Optimizar reglas de decisiones](../experience-decisioning/rules.md#optimize) | [Optimizar fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md#optimize)
+
 ## Experimento de contenido con IA {#experimentation}
 
 **Acelerador de experimentos** te ayuda a ejecutar experimentos más rápido con perspectivas y recomendaciones impulsadas por IA, identificando las variaciones de contenido ganadoras más rápidamente.
@@ -272,7 +292,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
@@ -332,7 +352,7 @@ La mayoría de las funciones de IA se incluyen con Adobe Journey Optimizer. Algu
 
 >[!MORELIKETHIS]
 >
->* [¿Qué es Journey Optimizer?](get-started.md): información general sobre las funciones clave, los casos de uso y la arquitectura.
+>* [¿Qué es Journey Optimizer?](get-started.md) — Información general sobre las funciones clave, los casos de uso y la arquitectura.
 >* [Comprender cómo funciona](understanding-ajo.md) — Cómo Journey Optimizer y Experience Platform trabajan juntos.
 >* [Generación de contenido de IA](../content-management/gs-generative.md): genere correos electrónicos, mensajes push, SMS y contenido web con el Asistente de IA.
 >* [Optimización del tiempo de envío](../building-journeys/send-time-optimization.md): prediga y optimice el tiempo de envío de mensajes por individuo.
