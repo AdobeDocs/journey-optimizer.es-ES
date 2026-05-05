@@ -5,9 +5,9 @@ title: Pasos de configuración
 description: Aprenda a crear esquemas relacionales directamente a través de la interfaz de usuario.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '932'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ Cualquier esquema utilizado para la segmentación debe incluir al menos un campo
   El etiquetado es compatible a nivel de campo de esquema para aplicar políticas de gobernanza de datos como el control de acceso y las restricciones de uso. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).
 
 * **Clave compuesta**\
-  Las claves principales compuestas son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
+  Las claves principales compuestas que abarcan varios campos son compatibles con las definiciones de esquema relacional, lo que permite el uso de varios campos juntos para identificar registros de forma exclusiva.
 
 +++
 

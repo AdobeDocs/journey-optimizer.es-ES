@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Copiar objetos de Journey Optimizer entre zonas protegidas
-description: Aprenda a copiar recorridos, plantillas de contenido y fragmentos entre entornos limitados.
+description: Obtenga información sobre cómo copiar recorridos, campañas, plantillas de contenido y fragmentos entre entornos limitados.
 feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer
 level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 3%
+source-wordcount: '2371'
+ht-degree: 2%
 
 ---
 
 # Exportación de objetos a otra zona protegida {#copy-to-sandbox}
 
-Puede copiar objetos, como recorridos, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
+Puede copiar objetos, como recorridos, campañas, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
 En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
 
@@ -38,7 +38,7 @@ El proceso de copia se lleva a cabo mediante una exportación de paquetes y una 
 
 ## Objetos exportados y prácticas recomendadas {#objects}
 
-Journey Optimizer permite exportar recorridos, acciones personalizadas, plantillas de contenido, fragmentos y otros objetos a otra zona protegida. Las secciones siguientes proporcionan información y prácticas recomendadas para cada tipo de objeto.
+Journey Optimizer permite exportar recorridos, campañas (de acción, activadas por API y orquestadas), acciones personalizadas, plantillas de contenido, fragmentos y otros objetos a otro entorno limitado. Las secciones siguientes proporcionan información y prácticas recomendadas para cada tipo de objeto.
 
 ### Prácticas recomendadas generales {#global}
 
@@ -70,24 +70,60 @@ Journey Optimizer permite exportar recorridos, acciones personalizadas, plantill
 
 +++
 
-+++ Campañas
++++ Campañas activadas por acción y API
 
->[!NOTE]
->
->La información de la copia de la zona protegida de la campaña de esta subsección se aplica a las campañas **Action** y **API-trigger**. No se admiten **campañas orquestadas** para la copia entre zonas protegidas.
+Puede copiar campañas **Action**, **activadas por API** entre zonas protegidas mediante la exportación e importación de paquetes.
 
-Para las campañas **Acción** y **Activadas por API**, las campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes. Sin embargo, los siguientes elementos se **no** copiaron:
+Estos tipos de campañas se copian junto con todos los elementos relacionados con el perfil, la audiencia, el esquema, los mensajes en línea y los objetos dependientes.
+
+Sin embargo, no se copian los siguientes elementos:
 
 * Variantes multilingües y configuración de idioma,
 * Reglas empresariales,
 * Etiquetas,
 * Etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE).
 
-Al copiar campañas, asegúrese de que los objetos enumerados a continuación se validan en la zona protegida de destino para evitar configuraciones incorrectas:
+Al copiar **Campañas de acción** o **activadas por API**, asegúrese de que los objetos enumerados a continuación estén validados en la zona protegida de destino para evitar configuraciones incorrectas:
 
 * **Configuraciones de canal**: las configuraciones de canal se copian junto con las campañas. Una vez copiadas las campañas, las configuraciones de canal deben seleccionarse manualmente en la zona protegida de Target.
 * **Variantes y configuración de experimento**: las variantes y la configuración de experimento se incluyen en el proceso de copia de campaña. Valide esta configuración en la zona protegida de destino después de la importación.
 * **Toma de decisiones unificada**: se admiten directivas de decisión y elementos de decisión para la exportación e importación. Asegúrese de que las dependencias relacionadas con la toma de decisiones se asignan correctamente en la zona protegida de destino.
+
++++
+
++++Campañas orquestadas
+
+Puede copiar campañas orquestadas entre entornos limitados mediante la exportación e importación de paquetes. Las campañas organizadas siguen el mismo patrón general que otros objetos, pero lo que se incluye en el paquete y lo que debe preparar en la zona protegida de destinatario difiere de las campañas activadas por la acción o la API.
+
+Para exportar una campaña orquestada, [agréguela a un paquete de zona protegida](#add-objects-as-a-package-export) en la zona protegida de origen (independientemente de su estado), [publique el paquete](#publish) e [importe el paquete](#import) en la zona protegida de destino.
+
+Antes de importar en producción, tenga en cuenta los siguientes comportamientos y limitaciones:
+
+* **Copia de borrador**: la campaña orquestada importada siempre se crea en borrador en la zona protegida de destino, independientemente del estado de la campaña orquestada de origen.
+
+* **Nuevo objeto en cada importación**: al importar un paquete de nuevo, se crea una nueva campaña organizada. No sobrescribe ni actualiza una campaña que haya importado anteriormente.
+
+* **No se admite la reexportación del mismo paquete**. La publicación del mismo paquete una segunda vez después de exportarlo provoca que las actividades dentro de la campaña importada entren en un estado de error. Si esto sucede, debe eliminar las actividades afectadas y volver a crearlas manualmente. Esta limitación se solucionará en una versión futura.
+
+* **No todas las dependencias se copian automáticamente**. Al agregar solo la campaña orquestada a un paquete, no se incluye una cadena de dependencias completa por sí sola. Las configuraciones de canal, los esquemas de tiendas relacionales, los conjuntos de datos y las reglas empresariales no se incluyen a menos que las aborde explícitamente (consulte la siguiente viñeta para obtener más detalles).
+
+  Durante la [importación de paquetes](#import), Journey Optimizer enumera los objetos que se deben resolver en la zona protegida de destino. Las siguientes reglas se aplican a los objetos más comunes:
+
+   * **Campaign** — Seleccione siempre **Crear nuevo**.
+   * **Audiencias**: para las audiencias de Adobe Experience Platform, puede seleccionar **Crear nuevo** o **Usar existente**. Para las audiencias de campaña orquestadas, debe seleccionar **Usar existentes** y asignarlo a la audiencia correspondiente en la zona protegida de destino.
+   * **Políticas de combinación** — Seleccione **Usar las políticas existentes** y asígnelas a la política de combinación adecuada, o use la predeterminada en la zona protegida de destino.
+
+  Después de la importación, utilice alertas en la campaña orquestada para encontrar los huecos restantes (por ejemplo, un perfil o recurso de segmentación que aún no existe en la zona protegida de destinatario puede dejar una actividad con un destinatario vacío hasta que lo corrija).
+
+* **Lo que debe agregar o alinear por separado**: lo siguiente no se incluye en la exportación de la campaña orquestada:
+
+   * **Configuraciones de canal**: no se exportan ni importan con el paquete. Para que el correo electrónico y otras actividades de canal funcionen sin correcciones manuales, la zona protegida de destino ya debe tener una configuración de canal cuyo nombre coincida exactamente con el origen (con distinción de mayúsculas y minúsculas) y que utilice el mismo canal. De lo contrario, verá alertas en las actividades después de la importación. Abra cada actividad afectada y seleccione o cree la configuración de canal correcta.
+
+   * **Esquemas y conjuntos de datos de almacén relacional**: si su campaña depende de un modelo de datos determinado, planifique el esquema y el orden de exportación/importación del conjunto de datos para que existan dependencias cuando las necesite (la exportación de un conjunto de datos generalmente extrae las necesidades de esquema relacionadas, la exportación de un esquema por sí solo no incluye su conjunto de datos). Tenga en cuenta que los conjuntos de datos importados no se activan automáticamente para las campañas orquestadas; debe activarlos manualmente en la zona protegida de destino después de la importación.
+
+   * **Reglas de negocio y objetos de directiva similares**: no se incluyen dentro de la exportación de campaña orquestada. Si la campaña depende de ellos, confirme que existen en la zona protegida de Target o vuelva a crearlos allí.
+
+   * **Dimensión de destino del perfil**: La dimensión de destino del perfil no se incluye en la exportación. Si no existe en la zona protegida de Target, las actividades correspondientes de la campaña orquestada importada estarán vacías hasta que la configure manualmente.
 
 +++
 
