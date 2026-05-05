@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 458b4ff29023e56e68655bcb7bdf3e647c8e8168
+source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
 workflow-type: tm+mt
 source-wordcount: '3300'
 ht-degree: 90%
