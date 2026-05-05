@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 5%
+source-wordcount: '2261'
+ht-degree: 6%
 
 ---
 
@@ -51,13 +51,11 @@ Abra un recorrido o una campaña, seleccione una [acción de canal](../building-
 
 Edite el contenido del mensaje y examine las pestañas siguientes para obtener más información sobre cómo añadir la política de decisión en función del canal seleccionado.
 
->[!BEGINTABS]
-
->[!TAB Experiencia basada en código]
+### Para una experiencia basada en código
 
 Para las experiencias basadas en código, puede agregar una nueva directiva de decisión mediante el **editor de código** o el menú **Toma de decisiones** disponible en el panel de propiedades.
 
-+++Añadir una política de decisión desde el editor de código
++++ Añadir una política de decisión desde el editor de código
 
 1. Abra el editor de código con el botón **[!UICONTROL Editar código]**.
 
@@ -67,7 +65,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
 +++
 
-+++Agregar una directiva de decisión desde el menú Decisiones
++++ Agregar una directiva de decisión desde el menú Decisiones
 
 1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
@@ -77,7 +75,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
 +++
 
->[!TAB Correo electrónico]
+### Para correo electrónico
 
 1. Alterne la opción **[!UICONTROL Enable Decisioning]**.
 
@@ -89,7 +87,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
 1. Agregue una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el Diseñador de correo electrónico.
 
-   +++Añadir una política de decisión desde el editor de Personalization
+   +++ Añadir una política de decisión desde el editor de Personalization
 
    1. Abra el editor de personalización mediante el icono ![](assets/do-no-localize/editor-icon.svg) disponible en el campo de la línea de asunto o en cualquier campo del cuerpo del correo electrónico donde pueda agregar personalización.
 
@@ -99,7 +97,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
    +++
 
-   +++Agregar una directiva de decisión desde el menú Decisiones
+   +++ Agregar una directiva de decisión desde el menú Decisiones
 
    1. Abra la Designer de correo electrónico y seleccione cualquier componente de la estructura de correo electrónico.
 
@@ -125,11 +123,11 @@ También puede agregar directivas de decisión al usar el modo **[!UICONTROL Cod
 >
 >En el modo **[!UICONTROL Codifique su propio]**, solo puede devolver un elemento de decisión por directiva, ya que el componente **[!UICONTROL Cuadrícula de repetición]** no está disponible.
 
->[!TAB SMS]
+### Para SMS
 
 Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el panel de propiedades.
 
-+++Añadir una política de decisión desde el editor de personalización
++++ Añadir una política de decisión desde el editor de personalización
 
 1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
 1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
@@ -138,7 +136,7 @@ Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de
 
 +++
 
-+++Agregar una directiva de decisión desde el menú Decisiones
++++ Agregar una directiva de decisión desde el menú Decisiones
 
 1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
@@ -148,11 +146,11 @@ Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de
 
 +++
 
->[!TAB Notificación push]
+### Para notificaciones push
 
 Para las notificaciones push, puede agregar una nueva directiva de decisión mediante el **editor de personalización** o el menú **Toma de decisiones** disponible en el panel de propiedades.
 
-+++Añadir una política de decisión desde el editor de personalización
++++ Añadir una política de decisión desde el editor de personalización
 
 1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
 1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
@@ -161,7 +159,7 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 +++
 
-+++Agregar una directiva de decisión desde el menú Decisiones
++++ Agregar una directiva de decisión desde el menú Decisiones
 
 1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
@@ -171,11 +169,9 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 >[!IMPORTANT]
 >
->Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+>Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
-
->[!ENDTABS]
 
 ## Configurar la directiva de decisión {#configure}
 
@@ -193,7 +189,7 @@ Después de agregar una nueva política de decisión al contenido, se abre la pa
 
    Para devolver varios elementos para el canal de correo electrónico, debe agregar la directiva de decisión dentro de un componente **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
 
-   +++Devolver varios elementos de decisión en correos electrónicos
+   +++ Devolver varios elementos de decisión en correos electrónicos
 
    1. Arrastre un componente **[!UICONTROL Repetir cuadrícula]** en el correo electrónico y configúrelo como desee mediante el panel **[!UICONTROL Configuración]**.
 

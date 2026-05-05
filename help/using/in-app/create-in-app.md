@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
-# Creación de un mensaje en la aplicación  {#create-in-app}
+# Creación de un mensaje en la aplicación {#create-in-app}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
@@ -59,7 +59,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
    1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
 
-      +++Consulte los Déclencheur disponibles.
+      Déclencheur disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -75,8 +75,6 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
-      +++
-
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
@@ -85,11 +83,11 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      +++Consulte Características disponibles.
+      Características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -106,8 +104,6 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Punto de interés actual | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -165,7 +161,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
 
-      +++Consulte los Déclencheur disponibles.
+      Déclencheur disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -181,8 +177,6 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
-      +++
-
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
@@ -191,11 +185,11 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      +++Consulte Características disponibles.
+      Características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -212,8 +206,6 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Punto de interés actual | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -246,7 +238,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +246,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -262,7 +254,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 
