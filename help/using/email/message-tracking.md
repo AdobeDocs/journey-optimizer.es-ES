@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 22%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ Un identificador de seguimiento único (urlID) solo se genera cuando **URL** y *
 Para rastrear la misma dirección URL en varios correos electrónicos (o varias veces en un correo electrónico), usa una etiqueta única para cada dirección URL similar; de lo contrario, [!DNL Journey Optimizer] no podrá rastrear en qué vínculo se hizo clic. Puede establecer distintas etiquetas en el Designer de correo electrónico o, para HTML, a través del atributo `data-label`.
 
 | URL | Etiqueta | Etiqueta | comportamiento de urlID |
-|-----|-----|-------|----------------|
-| www.example.com | Primero | (En blanco) | Obtiene un urlID (por ejemplo, A) |
-| www.example.com | Second | (En blanco) | Reutiliza urlID A: no se puede saber en qué vínculo se hizo clic |
-| www.example.com | Tercero | Primera etiqueta | Obtiene un urlID (por ejemplo, B) |
-| www.example.com | Cuarto | Segunda etiqueta | Obtiene un urlID (por ejemplo, C) |
+| --- | --- | --- | --- |
+| `https://www.example.com` | Primero | (En blanco) | Obtiene un urlID (por ejemplo, A) |
+| `https://www.example.com` | Second | (En blanco) | Reutiliza urlID A: no se puede saber en qué vínculo se hizo clic |
+| `https://www.example.com` | Tercero | Primera etiqueta | Obtiene un urlID (por ejemplo, B) |
+| `https://www.example.com` | Cuarto | Segunda etiqueta | Obtiene un urlID (por ejemplo, C) |
 
 ## Inserción de vínculos {#insert-links}
 
@@ -96,7 +96,7 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
    >
    >Para interpretar direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL añadida al contenido, puede codificar la cadena como una solución alternativa.
 
-1. Puede personalizar los vínculos. [Más información](../personalization/personalization-build-expressions.md)
+1. Puede personalizar los vínculos. [Más información](url-personalization.md)
 
 1. Guarde los cambios.
 
@@ -116,7 +116,7 @@ Una vez enviado el mensaje, el período de retención de un vínculo es de **25 
 
 ## Vínculo a una página espejo {#mirror-page}
 
-La página espejo es una versión en línea del correo electrónico. Añadir un vínculo a la página espejo es una práctica recomendada de marketing por correo electrónico. Los usuarios pueden navegar a la página espejo de un correo electrónico, por ejemplo, si están experimentando problemas de renderización o imágenes rotas al intentar verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en redes sociales.
+La página espejo es una versión en línea de su correo electrónico. Añadir un vínculo a la página espejo es una práctica recomendada de marketing por correo electrónico. Los usuarios pueden navegar a la página espejo de un correo electrónico, por ejemplo, si están experimentando problemas de renderización o imágenes rotas al intentar verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en redes sociales.
 
 La página espejo generada por Adobe Journey Optimizer contiene todos los datos de personalización.
 
@@ -199,26 +199,4 @@ Los informes sobre aperturas y clics están disponibles en [Live Report](../repo
 
 ## Personalizar seguimiento de URL {#url-tracking}
 
-[El seguimiento de URL](email-settings.md#url-tracking) se administra en el nivel de configuración y se aplica a todas las URL incluidas en el contenido del mensaje.
-
-También puede personalizar direcciones URL individuales en el Designer de correo electrónico. Para añadir parámetros de seguimiento de URL personalizados a un solo vínculo del contenido, siga los pasos a continuación.
-
-1. Seleccione un vínculo y haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual.
-
-1. Seleccione el icono de personalización. Solo está disponible para estos tipos de vínculos: **vínculo externo**, **vínculo de baja** y **exclusión**.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. Añada el parámetro de seguimiento de URL y seleccione el atributo de perfil que desee en [editor de personalización](../personalization/personalization-build-expressions.md).
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. Guarde los cambios.
-
-1. Repita los pasos anteriores para cada vínculo al que desee agregar este parámetro de seguimiento.
-
-Ahora, cuando se envía el correo electrónico, este parámetro se anexa automáticamente al final de la dirección URL. A continuación, puede capturar este parámetro en las herramientas de análisis web o en los informes de rendimiento.
-
->[!NOTE]
->
->Para comprobar la dirección URL final, puede [enviar una prueba](../content-management/proofs.md) y hacer clic en el vínculo del contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. En el ejemplo anterior, la dirección URL final será: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+Para obtener instrucciones detalladas sobre la personalización de URL (incluyendo cómo personalizar los parámetros de seguimiento de URL y cómo personalizar una URL completa/base), consulte [Personalización de URL](url-personalization.md).
