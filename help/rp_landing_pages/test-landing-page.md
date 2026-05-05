@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 89%
 
 ---
 
@@ -58,7 +58,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
-Ensayo del recorrido 
+Ensayo del recorrido
 
 Realice un ensayo para simular y validar la ruta de ejecución del recorrido e identificar posibles problemas antes de publicarlo.
 
@@ -232,7 +232,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 **Para campañas activadas por API:**
 
-* Usar la [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} para activar los trabajos de revisión mediante programación
+* Usar la [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para activar los trabajos de revisión mediante programación
 
 >[!TAB Prueba de recorridos]
 
@@ -398,7 +398,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de trabajo de Journey Optimizer en general. Esta sección asigna requisitos previos, dependencias de subida/bajada y combinaciones de capacidades comunes.
 
-+++**Requisitos previos (necesarios antes de realizar la prueba)**
+### Requisitos previos (necesarios antes de la prueba)
 
 * Los perfiles de prueba deben crearse antes de utilizar el modo de prueba o la previsualización de contenido
 * Las directivas de aprobación deben configurarse antes de enviarlas para su aprobación
@@ -407,27 +407,21 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * El recorrido debe estar en estado de borrador para utilizar el modo de prueba
 * El recorrido debe tener un espacio de nombres configurada para utilizar el modo de prueba
 
-+++
-
-+++**De qué depende la prueba (flujo ascendente)**
+### De qué dependen las pruebas (flujo ascendente)
 
 * Creación de contenido: necesita campañas o recorridos para realizar pruebas
 * Perfiles de prueba: obligatorio para el modo de prueba y la previsualización de contenido
 * Políticas de aprobación: obligatorias para flujos de trabajo de aprobación
 * Configuración: configuraciones de canal, autenticación de correo electrónico, configuración de dominio
 
-+++
-
-+++**Lo que depende de las pruebas (flujo descendente)**
+### Qué depende de las pruebas (flujo descendente)
 
 * Activación de campaña/recorrido: no se puede activar sin resolver errores
 * Publicación: es posible que se requiera la aprobación antes de publicar
 * Supervisión en directo: supervisión e informes posteriores al lanzamiento
 * Optimización: utilice los resultados de las pruebas para refinar las campañas futuras
 
-+++
-
-+++**Funciones relacionadas**
+### Funciones relacionadas
 
 * Flujos de trabajo de Prueba + Aprobación: proceso de garantía de calidad
 * Pruebas + Detección de conflictos: prevención del exceso de mensajes de los clientes
@@ -436,67 +430,51 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * Perfiles de prueba + Personalization: validación de contenido
 * Ensayo + Modo de prueba: validación completa del recorrido
 
-+++
-
-+++**Combinaciones de capacidades comunes**
+### Combinaciones de capacidades comunes
 
 * Prueba de contenido: Perfiles de prueba + Datos de entrada de muestra + Zona de juegos de personalización
 * Validación de correo electrónico: pruebas de renderizado + Puntuaciones de correo no deseado + Perfiles de prueba + Pruebas
 * Validación de recorrido: Modo de prueba + Ensayo + Perfiles de prueba
 * Lista de comprobación previa al lanzamiento: todas las pruebas técnicas + detección de conflictos + flujos de trabajo de aprobación
 
-+++
-
 >[!TAB Preguntas frecuentes]
 
-+++**P: ¿Qué pruebas se requieren antes de iniciar una campaña?**
+### P: ¿Qué pruebas se requieren antes de iniciar una campaña?
 
-**Mínimo:** Vista previa del contenido con perfiles de prueba + comprobación de puntuación de correo no deseado (correo electrónico)
-**Recomendado:** + Renderizado de correo electrónico + Detección de conflictos + Flujo de trabajo de aprobación
+**Mínimo:** Vista previa del contenido con perfiles de prueba + comprobación de puntuación de spam (correo electrónico)
+**Recomendado:** + Procesamiento de correo electrónico + Detección de conflictos + Flujo de trabajo de aprobación
 **Práctica recomendada:** + Prueba de datos de entrada de muestra + Listas semilla + Experimento A/B (si se optimiza)
 
-+++
+### P: ¿Cómo puedo probar la personalización sin crear muchos perfiles de prueba?
 
-+++**P: ¿Cómo puedo probar la personalización sin crear muchos perfiles de prueba?**
+**Solución principal:** Use [datos de entrada de ejemplo](../using/test-approve/simulate-sample-input.md) con archivos CSV/JSON (admite hasta 30 variantes)
+**Alternativa:** Cree de 3 a 5 [perfiles de prueba](../using/audience/creating-test-profiles.md) representativos que cubran segmentos clave
+**Herramienta de aprendizaje:** Experimente primero en [área de reproducción de personalización](../using/personalization/personalize.md#playground)
 
-**Solución principal:** Use [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) con archivos CSV/JSON (admite hasta 30 variantes)
-**Alternativa:** Cree de 3 a 5 [perfiles de prueba](../using/audience/creating-test-profiles.md) representativos que abarquen segmentos clave
-**Herramienta de aprendizaje:** Experimente primero en [zona de juegos de personalización](../using/personalization/personalize.md#playground)
-
-+++
-
-+++**Q: ¿Cuál es la diferencia entre el modo de prueba y el ensayo para recorridos?**
+### P: ¿Cuál es la diferencia entre el modo de prueba y la prueba en seco para recorridos?
 
 **Modo de prueba:** Envía perfiles de prueba a través del recorrido, activa acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
 **Ensayo:** rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
 **Usar juntos:** Modo de prueba para la prueba de mensajes + Ensayo para la validación lógica: cobertura completa.
 
-+++
+### P: ¿Puedo probar los recorridos en el estado de producción/activo?
 
-+++**P: ¿Puedo probar recorridos en estado de producción/activo?**
-
-**Modo de prueba:** No, solo recorridos de borrador
-**Ensayo:** Sí, funciona en cualquier estado de recorrido
+**Modo de prueba:** No - sólo recorridos de borrador
+**Ejecución en seco:** Sí, funciona en cualquier estado de recorrido
 **Vista previa del contenido:** Sí, vista previa de mensajes individuales en cualquier momento
 **Solución alternativa:** recorrido activo duplicado en borrador para validación completa del modo de prueba
 
-+++
+### P: ¿Qué capacidades de prueba requieren integraciones externas?
 
-+++**P: ¿Qué capacidades de prueba requieren las integraciones externas?**
-
-**Renderizado de correo electrónico:** requiere integración con Litmus (licencia independiente)
-**Todas las demás:** integradas en Journey Optimizer, no se requieren integraciones adicionales
+**Procesamiento de correo electrónico:** Requiere integración con Litmus (licencia independiente)
+**Todas las demás:** Integrado en Journey Optimizer, no se requieren integraciones adicionales
 **Nota:** Los perfiles de prueba requieren el servicio Perfil del cliente en tiempo real (incluido)
 
-+++
+### P: ¿Cómo pruebo las campañas activadas por API?
 
-+++**P: ¿Cómo pruebo las campañas activadas por API?**
-
-**Opción 1:** use [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} para pruebas programáticas
-**Opción 2:** vista previa del contenido con perfiles de prueba en la interfaz de usuario
-**Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
-**Práctica recomendada:** combine los tres para obtener una validación completa
-
-+++
+**Opción 1:** Use [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 2:** Vista previa del contenido con perfiles de prueba en la interfaz de usuario
+**Opción 3:** Enviar pruebas para probar las direcciones de correo electrónico
+**Práctica recomendada:** Combine los tres para obtener una validación completa
 
 >[!ENDTABS]

@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1558'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
 
    1. Haga clic en **[!UICONTROL Agregar condición]** para seleccionar el evento.
 
-      +++Consulte Evento disponible.
+      Evento disponible
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -69,17 +69,15 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
-      +++
-
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      +++Consulte Características disponibles.
+      Características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -93,8 +91,6 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
-
-      +++
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
@@ -142,7 +138,7 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
 
    1. Haga clic en **[!UICONTROL Agregar condición]** para seleccionar el evento.
 
-      +++Consulte Evento disponible.
+      Evento disponible
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -156,17 +152,15 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
-      +++
-
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      +++Consulte Características disponibles.
+      Características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre de operador  | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
@@ -180,8 +174,6 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
-
-      +++
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 

@@ -7,9 +7,9 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2352'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,36 @@ ht-degree: 2%
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de la campaña.
 Aprenda a escribir indicadores eficaces que permitan al asistente de IA generar contenido de marketing de alta calidad y de marca adaptado a sus objetivos.
+
+## Uso del asistente Preguntar {#prompt-assistant}
+
+El asistente le ayuda a reforzar el símbolo del sistema de apertura para que la generación de contenido necesite menos idas y vueltas. Desde esa primera entrada, puede obtener sugerencias, una reescritura sugerida, mejoras opcionales y preguntas aclaratorias. Las respuestas refinan el indicador que se utiliza para generar el contenido.
+
+1. En el menú **[!UICONTROL Ayudante de IA]**, abra **[!UICONTROL Asistente de preguntas]** para acotar la solicitud antes de generar contenido.
+
+   ![](assets/prompt-assistant-1.png)
+
+1. Introduzca el mensaje. Las sugerencias pueden mostrarse en línea después del texto y en una lista a continuación. Haz clic en **[!UICONTROL Probar esto]** en una sugerencia para reemplazar la solicitud actual por esa versión.
+
+   ![](assets/prompt-assistant-2.png)
+
+1. Haga clic en **[!UICONTROL Analizar mensaje]** cuando desee que el asistente de mensajes revise el texto.
+
+1. El área de mensajes resume los problemas o lagunas que el asistente encontró en el mensaje. Si aparece una reescritura sugerida, revísela y aplíquela cuando desee esa redacción.
+
+   ![](assets/prompt-assistant-3.png)
+
+1. Responda preguntas aclaratorias para dar al asistente el contexto que necesita. Sus respuestas se incorporan al prompt refinado utilizado para la generación.
+
+   Haga clic en **[!UICONTROL Actualizar contexto]** y, a continuación, haga clic en **[!UICONTROL Analizar mensaje]** de nuevo si desea otro pase.
+
+   ![](assets/prompt-assistant-4.png)
+
+1. Después de revisar los comentarios del asistente y de estar satisfecho con el mensaje, haga clic en **[!UICONTROL Usar este mensaje]** para aplicarlo y continuar con la generación de contenido.
+
+   ![](assets/prompt-assistant-5.png)
+
+Al seguir este flujo de trabajo se establecen los objetivos y el detalle requerido en el mensaje previo a la generación, lo que tiende a mejorar la relevancia y reducir las revisiones posteriores.
 
 ## Uso del marco CO-STAR {#costar-framework}
 
@@ -122,17 +152,17 @@ Estas solicitudes no son compatibles y deben gestionarse mediante otras herramie
 
 Antes de generar contenido, asegúrese de lo siguiente:
 
-&check; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
+&comprobar; **Borrar objetivo**: Indica claramente la acción, el producto/servicio, el valor y el contexto.
 
-&check; **Audiencia objetivo definida**: Especifica el segmento, la función o el segmento.
+&check; **Audiencia objetivo definida**: Especifica el segmento, rol o segmento.
 
 &check; **Alineación de tipo de contenido**: El objetivo coincide con el canal o formato seleccionado.
 
 &check; **Selecciones desplegables configuradas**: se elige el tono, la estrategia y la configuración regional, no los incluya en el mensaje.
 
-&check; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
+&comprobar; **Enfoque del documento especificado**: resalta a qué contenido o secciones hacer referencia.
 
-&check; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
+&comprobar; **Marca aplicada**: se han seleccionado las directrices de marca adecuadas.
 
 &check; **Ámbito realista**: evite solicitudes de cambios de diseño, estilo o ediciones estructurales.
 
@@ -144,9 +174,9 @@ Al diseñar los objetivos de marketing, asegúrese de que sean claros, procesabl
 
 **Ejemplos de buenos objetivos:**
 
-&check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo panel de análisis con tecnología de IA&quot;
+&check; &quot;Regístrese para disfrutar de la versión de prueba gratuita de 30 días del nuevo tablero de análisis con tecnología de IA&quot;
 
-&check; &quot;Generación de posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot;, que se celebrará el 15 de marzo&quot;
+&check; &quot;Genere posibles clientes para nuestro seminario web B2B sobre &quot;Reducción de los costes de nube en un 40 %&quot; que se celebrará el 15 de marzo&quot;
 
 &check; &quot;Promocione nuestro descuento de vacaciones del 25% por tiempo limitado en suscripciones premium hasta el 25 de diciembre&quot;
 
@@ -169,7 +199,7 @@ Use esta fórmula para escribir objetivos efectivos: **Acción + Producto/Servic
 
 &check; &quot;Promocione el registro para nuestro taller exclusivo sobre técnicas avanzadas de visualización de datos para profesionales de marketing&quot;
 
-&check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto mostrando el revolucionario asistente de escritura de IA que ahorra más de 5 horas a la semana&quot;
+&check; &quot;Impulse la asistencia a nuestro evento de lanzamiento del producto que muestra el revolucionario asistente de escritura de IA que ahorra más de 5 horas por semana&quot;
 
 **Ejemplos que se deben evitar:**
 
