@@ -10,14 +10,14 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
+source-git-commit: 458b4ff29023e56e68655bcb7bdf3e647c8e8168
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 
 ---
 
-# Simulación del recorrido{#testing_the_journey}
+# Simulación del recorrido{#simulate-journey}
 
 >[!IMPORTANT]
 >
