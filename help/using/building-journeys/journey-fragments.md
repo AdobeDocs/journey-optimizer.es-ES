@@ -11,7 +11,7 @@ hide: true
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 badge: label="Disponibilidad limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -71,6 +71,7 @@ Para guardar nodos de recorrido como un fragmento directamente desde el lienzo d
 1. Haga clic en **[!UICONTROL Guardar]**. El fragmento se guardará como borrador.
 
 >[!TIP]
+>
 >Si crea un fragmento a partir de un recorrido, [pruebe o simule su recorrido](testing-the-journey.md) **antes** de guardar el fragmento para asegurarse de que los nodos seleccionados se comportan según lo esperado.
 
 >[!TAB Del inventario de fragmentos]
@@ -83,6 +84,7 @@ Para crear un fragmento directamente desde el inventario:
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]** para guardar el fragmento como borrador.
 
 >[!CAUTION]
+>
 >El modo de prueba y la simulación no están disponibles en el editor de fragmentos. Esto significa que no puede validar el comportamiento de las actividades configuradas antes de activar el fragmento e insertarlo en un recorrido. En el caso de los fragmentos en los que la precisión lógica es crítica, considere primero [crear y probar o simular los nodos en un recorrido completo](testing-the-journey.md) y, a continuación, guárdelos como un fragmento desde la pestaña de lienzo de arriba.
 
 >[!ENDTABS]
