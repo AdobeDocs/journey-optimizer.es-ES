@@ -247,7 +247,7 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="IU guiada para crear y enviar una campaña"
->abstract="Defina una o varias acciones con un canal, elija un público, defina un contenido y una programación, y todo estará listo para realizar el envío"
+>abstract="Defina una o varias acciones con un canal, elija una audiencia, defina el contenido, defina una programación y estará listo para enviar"
 
 
 >[!CONTEXTUALHELP]
