@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 19%
 
 ---
@@ -83,12 +83,60 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table>
 
+
+
+## Próximamente {#coming-soon}
+
+Las siguientes funciones y mejoras están programadas para su lanzamiento en los próximos días. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
+
+### Nuevas funciones {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Vínculos profundos en el Designer de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico a través de una opción específica en la Designer de correo electrónico.</p><p>Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>Para obtener más información, consulte la <a href="../email/message-tracking.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 7 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Fragmentos de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede crear <strong>fragmentos de Recorrido</strong> en Adobe Journey Optimizer. Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido que puede generar una vez y soltarlos en cualquier recorrido de la zona protegida. Tanto si se trata de una comprobación de elegibilidad, una lógica de enrutamiento de canal preferida o una secuencia de bienvenida, los fragmentos ayudan a los equipos a moverse más rápido y a mantener la coherencia, sin volver a crear la misma lógica desde cero cada vez.</p>
+<p>Una vez creados, los fragmentos se almacenan en un <strong>inventario de fragmentos</strong> específico y se pueden insertar en cualquier recorrido mediante la actividad <strong>fragmentos de Recorrido</strong>.</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>Fecha de disponibilidad: 12 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## Notas de la versión de abril de 2026 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con su fecha de disponibilidad.
@@ -404,28 +452,3 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
 
 * **Variables globales en campañas orquestadas**: las campañas orquestadas ahora admiten variables globales que se pueden definir una vez y reutilizar en todas las actividades dentro de un flujo de trabajo, lo que simplifica la configuración y garantiza la coherencia en los valores dinámicos, las expresiones y la personalización de contenido. [Más información](../orchestrated/global-variables.md)
 * **Mejoras de Data Modeler**: los esquemas relacionales organizados ahora admiten claves compuestas que abarcan varios campos. Al cargar un esquema desde un archivo DDL, también se generan enumeraciones, y al cargar desde un archivo DDL o de Excel se crean automáticamente relaciones compuestas entre las tablas. En la vista de relación de entidades, los vínculos compuestos ahora muestran el conjunto completo de emparejamientos de campos entre tablas después de cargar un archivo. [Más información](../orchestrated/gs-schemas.md)
-
-## Próximamente {#coming-soon}
-
-Las siguientes funciones y mejoras están programadas para su lanzamiento en los próximos días. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
-
-### Nuevas funciones {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Vínculos profundos en el Designer de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico a través de una opción específica en la Designer de correo electrónico.</p><p>Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Para obtener más información, consulte la <a href="../email/message-tracking.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 7 de mayo de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
