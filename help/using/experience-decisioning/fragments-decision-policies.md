@@ -6,11 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ Si la política de decisión contiene elementos de decisión, incluidos fragment
 
 >[!AVAILABILITY]
 >
->Esta característica está disponible con disponibilidad limitada para los canales de **experiencia basada en código** y **correo electrónico**. Para solicitar acceso, póngase en contacto con su representante de Adobe.
+>Esta característica está disponible para los canales de **experiencia basada en código** y **correo electrónico**.
 
 Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Agregue los fragmentos especificados, cada uno perteneciente a un modelo de teléfono diferente, al elemento de decisión que esté utilizando en la directiva de decisión. [Más información](items.md#attributes).
 
