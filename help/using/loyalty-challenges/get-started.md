@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Con Desafíos de fidelización, puede hacer lo siguiente:
 
 ![](assets/challenges-gs.png)
 
-Puede crear tres tipos de experiencias de desafío:
+Puede crear estos tipos de experiencias de desafío:
 
 * **Desafíos estándar**: Los clientes completan cualquier número especificado de tareas en cualquier orden. Utilice este tipo cuando desee flexibilidad y varias rutas hasta la finalización.\
   *Ejemplo: &quot;Summer Wellness Challenge&quot; (Desafío de bienestar de verano): completar 3 de 5 tareas: comprar productos de salud, compartir en medios sociales, recomendar a un amigo, escribir una opinión o asistir a un evento virtual*
@@ -67,6 +67,8 @@ Puede crear tres tipos de experiencias de desafío:
 
 * **Desafíos secuenciales**: Los clientes completan las tareas en un orden definido. Utilice este tipo para guiar a los clientes a través de un recorrido específico o proceso de incorporación.\
   *Ejemplo: &quot;Nuevo Recorrido para miembros&quot; - Regístrese para recibir correos electrónicos → Realice su primera compra → Escriba una opinión sobre el producto → Consulte a un amigo (complete este pedido exacto)*
+
+* **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. Puede configurar Contenido, Mensajería y Audiencia como lo haría para cualquier otro tipo de desafío.
 
 ## Funcionamiento {#how-it-works}
 
