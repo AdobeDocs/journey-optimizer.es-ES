@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,6 @@ Para configurar su proveedor de Sinch, siga los pasos a continuación:
 
 ## Configuración de credenciales de API para SMS{#create-api}
 
->[!BEGINSHADEBOX]
-
-Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan mensajes de consentimiento estándar para respetar la privacidad del usuario. Añadir palabras clave personalizadas anula automáticamente los valores predeterminados.
-
-**Palabras clave predeterminadas:**
-
-* **Inclusión**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR
-* **Exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO
-* **Ayuda**: AYUDA
-
->[!ENDSHADEBOX]
-
 Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Journey Optimizer, siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** `>` **[!UICONTROL Configuración de SMS]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
@@ -58,24 +46,30 @@ Para configurar su proveedor de Sinch para que envíe mensajes SMS y MMS con Jou
    | Proveedor de SMS | Sinch |
    | Nombre | Elija un nombre para su credencial de API. |
    | ID de servicio y token de API | Acceda a la página de API y encontrará sus credenciales en la pestaña SMS. Obtenga más información en [Documentación de Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Palabras clave de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión. |
-   | Palabras clave de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
-   | Palabras clave de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on). |
-   | Mensaje de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente en respuesta a la confirmación de inclusión doble. |
    | Número entrante | Añada su número de entrada único o código corto. Esto le permite utilizar las mismas credenciales de API en diferentes entornos limitados, cada uno con su propio número de entrada o código corto. |
-   | Palabras clave de entrada personalizadas | Defina palabras clave únicas no relacionadas con el consentimiento para las acciones basadas en lotes, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmentos por lotes dentro del recorrido y enviar una respuesta o acción personalizada. |
-   | Mensaje de respuesta entrante predeterminado | Introduzca la respuesta predeterminada que se envía cuando un usuario final envía un SMS entrante que no coincide con ninguna de las palabras clave definidas. |
    | Anular URL | Introduzca la URL personalizada para reemplazar los puntos finales predeterminados para los informes de entrega de SMS, los datos de comentarios, los mensajes entrantes o las notificaciones de eventos. Sinch enviará todas las actualizaciones relevantes a esta URL en lugar de a las predefinidas. |
 
    +++
 
-1. Habilite la opción **[!UICONTROL exclusión aproximada]** para detectar mensajes que se parezcan a palabras clave de exclusión (por ejemplo, &quot;CANCIL&quot;) y personalizar la respuesta de confirmación en el campo **[!UICONTROL Respuesta automática aproximada]**.
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL Exclusión parcial]** identifica los mensajes SMS que indican que un usuario desea cancelar la suscripción, aunque el mensaje no coincida exactamente con una palabra clave de exclusión definida. Puede detectar frases de exclusión comunes y ciertos términos ofensivos, lo que ayuda a garantizar que las campañas respeten las preferencias del usuario y sigan cumpliendo las normas.
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. Seleccione **[!UICONTROL Usar conjunto de datos personalizado para entrante]** para enrutar el SMS entrante de esta credencial a un conjunto de datos creado previamente que elija en el menú desplegable. [Más información sobre cómo crear conjuntos de datos](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >El esquema del conjunto de datos debe ser **[!UICONTROL XDM ExperienceEvent]** e incluir al menos estos grupos de campos:
+   >* Adobe CJM ExperienceEvent: Detalles de interacción del mensaje
+   >* Adobe CJM ExperienceEvent: Detalles de ejecución de mensajes
+   >* Adobe CJM ExperienceEvent: Detalles del perfil de mensaje
+   >
+   >El esquema y el conjunto de datos deben estar habilitados para el perfil.
+
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 

@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 2%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
 # Configuración del proveedor de Infobip {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-Si no se proporcionan las palabras clave de inclusión u exclusión, se utilizan mensajes de consentimiento estándar para respetar la privacidad del usuario. Añadir palabras clave personalizadas anula automáticamente los valores predeterminados.
-
-**Palabras clave predeterminadas:**
-
-* **Inclusión**: SUSCRIBIRSE, SÍ, NO DETENER, INICIAR, CONTINUAR, REANUDAR, INICIAR
-* **Exclusión**: DETENER, SALIR, CANCELAR, FINALIZAR, CANCELAR SUSCRIPCIÓN, NO
-* **Ayuda**: AYUDA
-
->[!ENDSHADEBOX]
 
 Al integrar Infobip con Adobe Journey Optimizer, puede enviar mensajes de texto a sus perfiles como parte de sus recorridos y campañas.
 
@@ -52,27 +40,28 @@ Para configurar Infobip con Journey Optimizer, siga estos pasos:
    | Proveedor de SMS | Infobip |
    | Nombre | Elija un nombre para su credencial de API. |
    | URL base de API y clave de API | Acceda a la página de inicio de la interfaz web o a la página de administración de claves de API para encontrar sus credenciales. Para extremos de dominio regionales o alternativos, como `api-ny2.infobip.com`, especifique la dirección URL base completa y compruebe el token de autorización con la compatibilidad con Infobip. </br>Obtenga más información en [Documentación de Infobip](https://www.infobip.com/docs/api){target="_blank"} |
-   | Palabras clave de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave predeterminadas o personalizadas que almacenarán en déclencheur automáticamente su mensaje de inclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de inclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba la respuesta personalizada que se enviará automáticamente como mensaje de inclusión. |
-   | Palabras clave de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br> Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur el mensaje de exclusión. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de exclusión | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como mensaje de exclusión. |
-   | Palabras clave de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba las palabras clave predeterminadas o personalizadas que almacenarán automáticamente en déclencheur su **mensaje de ayuda**. Para varias palabras clave, utilice valores separados por comas. |
-   | Mensaje de ayuda | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente como **mensaje de ayuda**. |
-   | Palabras clave de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Introduzca las palabras clave que almacenan en déclencheur el proceso de inclusión doble. Si no existe ningún perfil de usuario, se crea tras una confirmación correcta. Para varias palabras clave, utilice valores separados por comas. [Más información sobre la inclusión doble de SMS](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on). |
-   | Mensaje de inclusión doble | **Para nuevas configuraciones de SMS, usa el [menú Webhooks](sms-webhook.md) para configurar las palabras clave de consentimiento. Las configuraciones existentes pueden seguir utilizando palabras clave de consentimiento en esta sección.** </br>Escriba la respuesta personalizada que se enviará automáticamente en respuesta a la confirmación de inclusión doble. |
    | ID de entidad principal | Introduzca el ID de entidad principal de DLT asignado. |
    | ID de plantilla de contenido | Introduzca su ID de plantilla de contenido DLT registrado. |
    | Período de validez | Introduzca el periodo de validez del mensaje en horas. En caso de que los mensajes no se puedan enviar dentro de este periodo de tiempo, el sistema intentará reenviarlos de nuevo. El periodo de validez predeterminado es de 48 horas. |
    | Datos de llamada de retorno | Introduzca los datos de cliente adicionales que se enviarán en la dirección URL de notificación. |
    | Número entrante | Añada su número de entrada único. Esto le permite utilizar las mismas credenciales de API en diferentes zonas protegidas, cada una con su propio número de entrada. |
-   | Palabras clave de entrada personalizadas | Defina palabras clave únicas no relacionadas con el consentimiento para las acciones basadas en lotes, por ejemplo, DESCUENTO, OFERTAS, INSCRIBIRSE. Estas palabras clave se capturan y almacenan como atributos en el perfil, lo que le permite almacenar en déclencheur una calificación de segmentos por lotes dentro del recorrido y enviar una respuesta o acción personalizada. |
-   | Mensaje de respuesta entrante predeterminado | Introduzca la respuesta predeterminada que se envía cuando un usuario final envía un SMS entrante que no coincide con ninguna de las palabras clave definidas. |
 
    +++
 
 1. Habilite la opción **[!UICONTROL exclusión aproximada]** para detectar mensajes que se parezcan a palabras clave de exclusión (por ejemplo, &quot;CANCIL&quot;) y personalizar la respuesta de confirmación en el campo **[!UICONTROL Respuesta automática aproximada]**.
 
    **[!UICONTROL Exclusión parcial]** identifica los mensajes SMS que indican que un usuario desea cancelar la suscripción, aunque el mensaje no coincida exactamente con una palabra clave de exclusión definida. Puede detectar frases de exclusión comunes y ciertos términos ofensivos, lo que ayuda a garantizar que las campañas respeten las preferencias del usuario y sigan cumpliendo las normas.
+
+1. Seleccione **[!UICONTROL Usar conjunto de datos personalizado para entrante]** para enrutar el SMS entrante de esta credencial a un conjunto de datos creado previamente que elija en el menú desplegable. [Más información sobre cómo crear conjuntos de datos](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >El esquema del conjunto de datos debe ser **[!UICONTROL XDM ExperienceEvent]** e incluir al menos estos grupos de campos:
+   >* Adobe CJM ExperienceEvent: Detalles de interacción del mensaje
+   >* Adobe CJM ExperienceEvent: Detalles de ejecución de mensajes
+   >* Adobe CJM ExperienceEvent: Detalles del perfil de mensaje
+   >
+   >El esquema y el conjunto de datos deben estar habilitados para el perfil.
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
