@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 18%
@@ -83,7 +83,13 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tbody>
 </table>
 
+### Mejoras {#may-26-improv}
 
+#### Toma de decisiones
+
+* **API de flujo de trabajo de migración de decisiones**: se ha actualizado el contrato de API para crear análisis de dependencia y flujos de trabajo de migración: pase **`request-level`** como **parámetro de consulta** en la dirección URL de solicitud (`sandbox`, `offer` o `decision`). El nivel de solicitud ya no debe enviarse en el cuerpo de JSON. [Más información](../experience-decisioning/decisioning-migration-api.md)
+
+  Fecha de disponibilidad: 6 de mayo de 2026
 
 ## Próximamente {#coming-soon}
 
@@ -129,13 +135,7 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 </tbody>
 </table>
 
-### Mejoras {#may-26-improv}
 
-#### Toma de decisiones
-
-* **API de flujo de trabajo de migración de decisiones**: se ha actualizado el contrato de API para crear análisis de dependencia y flujos de trabajo de migración: pase **`request-level`** como **parámetro de consulta** en la dirección URL de solicitud (`sandbox`, `offer` o `decision`). El nivel de solicitud ya no debe enviarse en el cuerpo de JSON. [Más información](../experience-decisioning/decisioning-migration-api.md)
-
-  Fecha de disponibilidad: 6 de mayo de 2026
 
 ## Notas de la versión de abril de 2026 {#april-26-rn}
 
