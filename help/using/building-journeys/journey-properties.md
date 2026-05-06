@@ -10,10 +10,10 @@ level: Intermediate
 keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3633'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,7 @@ Puede hacer lo siguiente:
 * Seleccione el recorrido y el perfil [husos horarios](#timezone)
 * Elija [fechas de inicio y finalización](#dates) personalizadas
 * Defina un tiempo de espera de [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores)
+* Supervise el [tamaño actual de carga útil de recorrido](#journey-payload-size) para evitar errores de publicación
 * Supervise los conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict)
 
 ![panel de configuración de propiedades de Recorrido con configuración general y opciones avanzadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ Puede limitar el acceso a un recorrido en función de las etiquetas de acceso.
 Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en el icono **[!UICONTROL Administrar etiquetas de acceso]** y seleccione una o varias etiquetas.
 
 [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
+
+## tamaño de carga útil de recorrido {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="Tamaño de carga útil de recorrido actual"
+>abstract="Muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado. Utilice este indicador para monitorizar la complejidad del recorrido antes de publicar y evitar errores causados por el límite de tamaño de carga útil excedido."
+
+El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel de propiedades del recorrido muestra el tamaño actual de la carga útil del recorrido en relación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura es visible en cualquier fase de la creación del recorrido.
+
+![Indicador de tamaño de carga útil de recorrido actual en el panel de propiedades de recorrido](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+Utilice esta información para monitorizar la complejidad del recorrido antes de publicarlo. Si el tamaño de la carga útil se aproxima o supera el límite, se produce un error en la publicación del recorrido. Para reducir el tamaño, considere la posibilidad de simplificar la lógica de recorrido o reducir el número de actividades.
+
+El límite predeterminado es de 2 MB. Póngase en contacto con el Servicio de atención al cliente de Adobe si necesita solicitar un límite más alto para su organización.
+
+Para obtener información detallada sobre los umbrales, los mensajes de advertencia y error y los pasos para la solución de problemas, consulte [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Zonas horarias de recorrido y perfil {#timezone}
 

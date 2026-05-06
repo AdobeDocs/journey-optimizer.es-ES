@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2609'
 ht-degree: 17%
 
 ---
@@ -437,6 +437,12 @@ Esto mantiene las campañas recurrentes centradas en nuevas audiencias de red (n
   Esta funcionalidad, que antes solo estaba disponible para plantillas de contenido de correo electrónico, ahora se implementa en el contenido de **correo electrónico** en el Designer de correo electrónico (por ejemplo, correos electrónicos creados en recorridos y campañas), además de en las plantillas de contenido de correo electrónico. Actualmente está en disponibilidad limitada: póngase en contacto con su representante de Adobe para obtener acceso. [Más información](../email/email-expert-mode.md)
 
   Fecha de disponibilidad: 9 de abril de 2026
+
+#### Recorridos
+
+* **Tamaño de carga útil de recorrido actual visible en las propiedades de recorrido**. El panel de propiedades de recorrido ahora muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura le ayuda a monitorizar la complejidad del recorrido antes de publicar y evitar errores causados por el límite de tamaño de carga útil excedido. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
+
+  Fecha de disponibilidad: 30 de abril de 2026
 
 #### Optimización de ruta de recorrido
 

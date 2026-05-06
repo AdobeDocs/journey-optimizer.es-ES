@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 92%
+source-wordcount: '4226'
+ht-degree: 91%
 
 ---
 
@@ -185,7 +185,7 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 * De forma predeterminada, el número de recorridos de ejecución activos/en pausa/de ensayo simultáneos está limitado a 100.  El número actual de recorridos se muestra encima del lienzo del recorrido.
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
-* Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
+* Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc., se almacenan en esa instancia de recorrido y afectan al tamaño de la recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
 * Para cada perfil y versión de recorrido, el tiempo de ejecución de recorrido mantiene una cola interna de hasta 10 eventos pendientes mientras se procesa uno. Si se alcanza este límite, los eventos adicionales se descartan con el motivo `maxInstanceStackEventsReached` hasta que se agote la pila. Ver [Eventos descartados debido a una instancia de recorrido bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
 
@@ -216,6 +216,8 @@ Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Enti
 * Simplifique las condiciones, reduzca las asignaciones de datos y elimine pasos o parámetros innecesarios.
 * Considere la posibilidad de dividir el recorrido en recorridos más pequeños si es necesario.
 * Si cree que su organización necesita un límite más alto, póngase en contacto con su representante de Adobe.
+
+Para monitorizar el tamaño de carga útil actual del recorrido antes de publicarlo, use el indicador **[!UICONTROL Tamaño de carga útil de recorrido actual]** en el panel de propiedades del recorrido. [Aprenda a comprobar el tamaño de su carga útil de recorrido](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Seleccione limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
 
@@ -280,7 +282,7 @@ Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md)
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
 * Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
-* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos ingeridos por lotes, los eventos insertados mediante **Query Service** o los eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se pueden usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación de audiencia puede utilizarse, pero no se recomienda, ya que puede provocar desafíos descendentes en función de las acciones utilizadas.
+* Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Eventos ingeridos por lotes, eventos insertados a través de **Query Service** o eventos de conjuntos de datos internos de Journey Optimizer (comentarios de mensajes, seguimiento de correo electrónico, etc.) no se puede usar para almacenar en déclencheur un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación de audiencia puede utilizarse, pero no se recomienda, ya que puede provocar desafíos descendentes en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
 
@@ -382,7 +384,7 @@ Consulte también [recomendaciones y configuración](../building-journeys/read-a
 
 Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
 
-## Orquestación de campañas  {#campaign-orchestration}
+## Orquestación de campañas {#campaign-orchestration}
 
 ### Mecanismos de protección en orquestación de campañas {#orchestration-guardrails}
 

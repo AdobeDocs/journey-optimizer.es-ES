@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Se ha agregado una nueva página **Personalizar direcciones URL en correos electrónicos** que consolida las directrices sobre personalización dinámica de direcciones URL, personalización completa/base de direcciones URL, personalización de parámetros de seguimiento de URL y protecciones clave. [Más información](../email/url-personalization.md)
 
 * Se ha agregado una nueva sección **Consultas de reglas de negocios** a la página de ejemplos de consultas, que proporciona una consulta de lago de datos para comprobar todos los descartes de perfiles debido a exclusiones de límite de frecuencia de recorrido en un recorrido específico después de una fecha específica. La consulta incluye el campo `eventCodeReason` para identificar si los perfiles se excluyeron porque se alcanzó un límite (`CAP_REACHED`) o debido a una prioridad inferior (`LOWER_PRIORITY`). [Más información](../reports/query-examples.md#business-rules-queries)
+
+* La documentación de **propiedades de Recorrido** se ha actualizado para documentar el nuevo indicador **Tamaño actual de carga útil de recorrido** en el panel de propiedades de recorrido. Este campo de solo lectura muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado (por ejemplo, 1,5 MB de 2 MB), lo que le ayuda a monitorizar la complejidad del recorrido antes de publicarlo y evitar errores de publicación relacionados con el tamaño. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Abril de 2026 {#april-2026}
 
