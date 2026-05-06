@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
@@ -131,17 +131,17 @@ Si el recorrido incluye uno o más eventos, puede almacenarlos en déclencheur m
 
    ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-10.png)
 
-1. Haga clic en ![Editar evento](assets/do-not-localize/Smock_Edit_18_N.svg) para ajustar el evento de este usuario simulado.
+1. Haga clic en **[!UICONTROL Configurar eventos]** para abrir el editor y ajustar el evento según sea necesario. Para cambiar la carga útil solo para un usuario simulado específico, haga clic en ![Editar evento](assets/do-not-localize/Smock_Edit_18_N.svg) junto a ese usuario.
 
    ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-9.png)
 
-1. En la lista desplegable de usuarios simulados, seleccione el usuario simulado y termine de configurar el evento y cómo se genera.
+1. En la vista **[!UICONTROL evento de Déclencheur]**, especifique qué usuarios simulados se incluirán en la ejecución. La configuración de eventos se aplica a un solo evento a la vez. Modificar el evento seleccionado o el conjunto de usuarios incluidos restablece los valores de campo introducidos anteriormente. Complete la configuración actual antes de cambiar cualquier selección.
 
-   ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-8.png)
+   ![Configuración de eventos con lista de usuarios de pruebas y campos de eventos](assets/simulate-8.png)
 
-1. Haga clic en **[!UICONTROL Déclencheur los eventos seleccionados]**.
+1. Haga clic en **[!UICONTROL Finalizado]**.
 
-   Aparece un mensaje de confirmación `Events triggered successfully` cuando los usuarios simulados entran correctamente en el recorrido.
+1. A continuación, en **[!UICONTROL Eventos de prueba]**, seleccione **[!UICONTROL Enviar todo]** para enviar a todos los usuarios simulados enumerados en **[!UICONTROL Usuarios de prueba]** al recorrido, o seleccione ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) para que un solo usuario ejecute la simulación solo para ese usuario.
 
 1. Acceda a la ficha **[!UICONTROL Resultados]** para abrir el registro de ejecución y revisar cómo se ejecutó cada paso. Para obtener más información, vea [Ver resultados](#viewing-results).
 
@@ -224,6 +224,6 @@ Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas nu
 | Número máximo de usuarios únicos simulados probados en una sola ejecución de simulación | 100 | Se está llegando a **100** usuarios únicos en un solo bloque de ejecución **[!UICONTROL Seleccione usuarios simulados]** para nuevos usuarios simulados. Si estás en **90**, puedes agregar **10** más antes del mismo bloque. |
 | Máximo de recorridos que se pueden ejecutar en **[!UICONTROL Simulation]** al mismo tiempo en una zona protegida | 20 | El límite lo comparten todos los recorridos de **[!UICONTROL Simulación]** en esa zona protegida a la vez. |
 | Máximo de usuarios simulados activos en una zona protegida | 2,000 | Máximo de usuarios simulados que pueden existir en la zona protegida al mismo tiempo. Adobe puede ajustar este límite en función de los comentarios de los clientes. |
-| Relleno previo de eventos (solo en el navegador) | — | El rellenado previo de eventos solo se admite en el explorador. Los datos de evento precargados son específicos del explorador. |
+| Relleno previo de eventos (solo en el navegador) | — | Solo puede rellenar previamente los campos de carga útil de evento en la IU de simulación basada en el explorador. Los valores rellenados previamente permanecen en ese explorador y no se sincronizan con otros exploradores, dispositivos o sesiones, por lo que puede ver diferentes datos de rellenado previo en cada lugar que pruebe. |
 
 +++
