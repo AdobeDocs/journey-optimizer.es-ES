@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 17%
@@ -158,7 +158,7 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Las nuevas funciones y mejoras publicadas a principios de abril se anuncian con su fecha de disponibilidad.
