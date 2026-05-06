@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 12%
+source-wordcount: '881'
+ht-degree: 11%
 
 ---
 
@@ -84,6 +84,16 @@ Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor person
    >
    >Al configurar un proveedor de SMS personalizado con autenticación básica o al portador, debe incluir el parámetro `authOption` en la carga útil JSON. Además, **Provider Payload** debe hacer referencia a las variables de plantilla `{{fromNumber}}`, `{{toNumber}}` y `{{message}}`.
 
+1. Seleccione **[!UICONTROL Usar conjunto de datos personalizado para entrante]** para enrutar el SMS entrante de esta credencial a un conjunto de datos creado previamente que elija en el menú desplegable. [Más información sobre cómo crear conjuntos de datos](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >El esquema del conjunto de datos debe ser **[!UICONTROL XDM ExperienceEvent]** e incluir al menos estos grupos de campos:
+   >* Adobe CJM ExperienceEvent: Detalles de interacción del mensaje
+   >* Adobe CJM ExperienceEvent: Detalles de ejecución de mensajes
+   >* Adobe CJM ExperienceEvent: Detalles del perfil de mensaje
+   >
+   >El esquema y el conjunto de datos deben estar habilitados para el perfil.
 
 1. Haga clic en **[!UICONTROL Enviar]** cuando termine de configurar las credenciales de la API.
 
