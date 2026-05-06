@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 5%
+source-wordcount: '1175'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ Para obtener más información sobre la administración de zonas protegidas, con
 
 ## Conceptos básicos de la API {#api-basics}
 
-### Dirección URL base {#base-url}
+### URL básica {#base-url}
 
 Utilice la siguiente URL base:
 
@@ -81,7 +81,7 @@ Todas las solicitudes de API requieren los siguientes encabezados:
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Para obtener instrucciones detalladas sobre cómo configurar la autenticación, consulte la [guía de autenticación de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Para obtener instrucciones detalladas sobre cómo configurar la autenticación, consulte la [guía de autenticación de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modelo de flujo de trabajo {#workflow-model}
 
@@ -120,25 +120,24 @@ Comience con un análisis a nivel de zona protegida para obtener una vista compl
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **Dependencia de nivel de oferta**
 
-Para analizar solamente las dependencias de ofertas específicas, establezca `requestLevel: "offer"` y proporcione una matriz `offersList` con los identificadores de oferta que desee analizar.
+Para analizar dependencias solo para ofertas específicas, llame al mismo extremo con `request-level=offer` en la cadena de consulta y proporcione una matriz `offersList` en el cuerpo con los ID de oferta que desee analizar.
 
 **Dependencia de nivel de decisión**
 
-Para analizar solamente las dependencias para decisiones específicas, establezca `requestLevel: "decision"` y proporcione una matriz `decisionsList` con los identificadores de decisión que desee analizar.
+Para analizar dependencias únicamente para decisiones específicas, use `request-level=decision` en la cadena de consulta y proporcione una matriz `decisionsList` en el cuerpo con los identificadores de decisión que desee analizar.
 
 #### Comprobar estado de flujo de trabajo de dependencia {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ Para migrar todos los objetos de toma de decisiones de una zona protegida a otra
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **Migración de nivel de oferta**
 
-Para migrar solo ofertas específicas, use `requestLevel: "offer"` y agregue una matriz `offersList`:
+Para migrar solamente ofertas específicas, use `request-level=offer` en la cadena de consulta y agregue una matriz `offersList` al cuerpo:
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ Para migrar solo ofertas específicas, use `requestLevel: "offer"` y agregue una
 
 **Migración de nivel de decisión**
 
-Para migrar únicamente decisiones específicas, use `requestLevel: "decision"` y agregue una matriz `decisionsList`:
+Para migrar únicamente decisiones específicas, use `request-level=decision` en la cadena de consulta y agregue una matriz `decisionsList` al cuerpo:
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]

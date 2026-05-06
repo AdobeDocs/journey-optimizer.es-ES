@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
    1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
 
-      Déclencheur disponibles
+      +++ Ver Déclencheur disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -75,6 +75,8 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
+      +++
+
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
@@ -83,7 +85,7 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      Características disponibles
+      +++ Ver características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
@@ -104,6 +106,8 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
       | Places | Punto de interés actual | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    1. Haga clic en el menú desplegable de evento para cambiar el Déclencheur si es necesario.
 
-      Déclencheur disponibles
+      +++ Ver Déclencheur disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -177,6 +181,8 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Introducir POI | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) que ha configurado. |
       | Places | POI de salida | Se activa mediante la SDK de Places cuando el cliente sale del punto de interés (PDI) que ha configurado. |
 
+      +++
+
    1. Haga clic en **[!UICONTROL Agregar condición]** si desea que el déclencheur tenga en cuenta varios eventos o criterios.
 
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
@@ -185,7 +191,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      Características disponibles
+      +++ Ver características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
@@ -206,6 +212,8 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
       | Places | Punto de interés actual | Se activa mediante la SDK de Places cuando el cliente introduce el punto de interés (PDI) especificado. |
       | Places | Último punto de interés | Activado por el SDK de Places en función del último punto de interés (PDI) introducido por el cliente. |
       | Places | Último PDI de salida | Se activa mediante la SDK de Places en función del último punto de interés (PDI) de salida del cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 

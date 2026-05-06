@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1562'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
 
    1. Haga clic en **[!UICONTROL Agregar condición]** para seleccionar el evento.
 
-      Evento disponible
+      +++ Ver eventos disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -69,11 +69,13 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
+      +++ 
+
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      Características disponibles
+      +++ Ver características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
@@ -91,6 +93,8 @@ Para añadir una tarjeta de contenido a un recorrido, siga estos pasos:
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
+
+      +++ 
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
@@ -138,7 +142,7 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
 
    1. Haga clic en **[!UICONTROL Agregar condición]** para seleccionar el evento.
 
-      Evento disponible
+      +++ Ver eventos disponibles
 
       | Paquete | Déclencheur | Definición |
       |---|---|---|
@@ -152,11 +156,13 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Cierre de aplicación | Se activa cuando se cierra la aplicación. |
       | Ciclo de aplicación | Bloqueo de aplicación | Se activa cuando la aplicación no se envía al segundo plano antes de cerrarse. El evento se envía cuando la aplicación se inicia después del bloqueo. Los informes de bloqueo de Adobe Mobile no implementan un controlador global de excepciones no detectadas. |
 
+      +++ 
+
    1. Elija la condición **[!UICONTROL Or]** si desea agregar más **[!UICONTROL Déclencheur]** para expandir aún más la regla.
 
    1. Elija la condición **[!UICONTROL And]** si desea agregar **[!UICONTROL características]** y ajustar mejor la regla.
 
-      Características disponibles
+      +++ Ver características disponibles
 
       | Paquete | Rasgos | Definición |
       |---|---|---|
@@ -174,6 +180,8 @@ Para empezar a crear sus tarjetas de contenido a través de una campaña, siga l
       | Ciclo de aplicación | Fecha de instalación | Se activa cuando se cumple la fecha de instalación especificada. |
       | Ciclo de aplicación | Lanzamientos | Se activa cuando se alcanza el número especificado de inicios. |
       | Ciclo de aplicación | Hora del día | Se activa cuando se cumple la hora del día especificada. |
+
+      +++ 
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
