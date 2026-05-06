@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 1%
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * **Crear desafíos** ◀︎ **Usted está aquí**
 * [Creación de tareas](create-tasks.md)
+* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ Para iniciar un desafío se requieren **tres pasos**: (1) publicar el desafío, 
 
 1. Abra el recorrido y publíquelo. El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
 
-1. Una vez que el desafío esté activo, supervise el rendimiento y la entrega de mensajes en el [informe de recorrido](../reports/journey-global-report-cja.md).
+1. Una vez que el desafío esté activo, monitorice los KPI del programa, los resultados del desafío y las métricas de nivel de tarea en los [informes de desafío de lealtad](loyalty-reporting.md). También puede supervisar el envío de mensajes en el [informe de recorrido](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
