@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * **Crear desafíos** ◀︎ **Usted está aquí**
 * [Creación de tareas](create-tasks.md)
-* [Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,13 @@ Esta página cubre el proceso completo de creación de un desafío de fidelidad,
    * **[!UICONTROL Secuencial]**: Los clientes completan tareas en un orden definido\
      *Ejemplo: compra → revisión → uso compartido (debe completarse en esta secuencia)*
 
-   Después de seleccionar un tipo de desafío, la interfaz de creación de desafíos se abre con varias pestañas de configuración. Comience por configurar la estructura de desafíos.
+   * **[!UICONTROL Trae tus propios datos]**: selecciona **[!UICONTROL Trae tus propios datos]** cuando quieras que el marco del desafío, como las tareas y las recompensas, se combine a partir de tu integración de datos de Desafíos de fidelidad. Cuando se selecciona este tipo, no es necesario configurar la estructura de desafío, solo se configura **[!UICONTROL Contenido]**, **[!UICONTROL Mensajería]** y **[!UICONTROL Audiencia]** de la misma manera que otros desafíos.
+
+     >[!AVAILABILITY]
+     >
+     >El tipo de desafío **[!UICONTROL Traer tus propios datos]** está disponible actualmente para un conjunto restringido de organizaciones y estará disponible de forma más amplia en una versión futura.
+
+   Después de seleccionar un tipo de desafío, la interfaz de creación de desafíos se abre con varias pestañas de configuración. Para todos los tipos excepto **[!UICONTROL Traer sus propios datos]**, comience por configurar la estructura de desafío.
 
 ## Configuración de la estructura de desafíos {#structure}
 
@@ -233,7 +239,7 @@ Después de configurar la tarjeta de contenido, configure la mensajería para at
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
->title="Mensajería"
+>title="Mensajes"
 >abstract="La mensajería ayuda a la participación en todo el ciclo de vida del desafío. En la pestaña Mensajería, añada mensajes para cada fase: Inicio (cuando comience el desafío), En curso (recordatorios y actualizaciones de progreso) y Finalización (celebrar el éxito y confirmar las recompensas). Para cada fase, añada un mensaje, elija el canal, seleccione una configuración de canal y, a continuación, seleccione Editar para diseñar el contenido del mensaje."
 
 Configure mensajes multicanal para atraer a los clientes en etapas clave del ciclo de vida del desafío. La mensajería es opcional, pero se recomienda para maximizar la participación del cliente.

@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * [Crear desafíos](create-challenges.md)
 * **Crear tareas** ◀︎ **Usted está aquí**
-* [Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Configure los atributos de la tarea en función del tipo de actividad selecciona
 Atributos disponibles para actividades **Purchase**:
 
 * **[!UICONTROL Cantidad]**: escriba el número de artículos que deben comprarse para completar esta tarea.
-* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. [Más información sobre artículos aptos y exclusiones](#eligible-items-exclusions)
+* **[!UICONTROL Elementos y exclusiones elegibles]**: define elementos o grupos de elementos que se cuentan para la finalización de la tarea y aquellos que no se cuentan, o elige **[!UICONTROL Traer tus propios datos]** para determinar la elegibilidad a partir de tus datos externos. [Más información](#eligible-items-exclusions)
 * **[!UICONTROL Importe mínimo del valor de gasto]**: establezca un requisito de importe mínimo de compra.
 * **[!UICONTROL Número máximo de transacciones]**: Limite cuántas transacciones se pueden usar para completar la tarea.
 
@@ -97,7 +97,7 @@ Atributos disponibles para actividades **Purchase**:
 Atributos disponibles para actividades **Spend**:
 
 * **[!UICONTROL Importe]**: escriba el importe total de gasto necesario para completar la tarea.
-* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. [Más información sobre artículos aptos y exclusiones](#eligible-items-exclusions)
+* **[!UICONTROL Elementos y exclusiones aptos]**: defina los elementos o grupos de elementos que se contarán en la finalización de la tarea y los que no se contabilicen. [Más información sobre artículos y exclusiones elegibles](#eligible-items-exclusions)
 * **[!UICONTROL Número máximo de transacciones]**: especifique cuántas transacciones pueden cumplir los requisitos de gasto. Puede activar este atributo desde el icono de parámetros.
 
 ![](assets/task-create-spend.png)
@@ -115,17 +115,39 @@ Atributos disponibles para actividades **Spend**:
 
 Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
 
-Por ejemplo, puede limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea.
+Por ejemplo, puede limitar una tarea a categorías de productos específicas o excluir del recuento las tarjetas regalo o los elementos promocionales para la finalización de la tarea.
 
 ![](assets/tasks-create-eligible.png)
 
-* Para definir artículos elegibles, escribe ID de artículo, categorías o ID de destino específicos, separados por comas en **[!UICONTROL Las compras de tareas elegibles están limitadas al siguiente campo]**. Si deja este campo vacío, todas las compras son elegibles de forma predeterminada. También puede ingresar `*` para que todas las compras sean elegibles de manera explícita.
+### Definir artículos aptos para la tarea
 
-  Ejemplo: `SKU001, SKU002, CategoryA`
+Para definir artículos elegibles, escribe ID de artículo, categorías o ID de destino específicos, separados por comas en **[!UICONTROL Las compras de tareas elegibles están limitadas al siguiente campo]**. Si deja este campo vacío, todas las compras son elegibles de forma predeterminada. También puede ingresar `*` para que todas las compras sean elegibles de manera explícita.
 
-* Para excluir elementos de la tarea, escriba id. de elemento, categorías o id. de destino específicos en el campo **[!UICONTROL Se excluyen los siguientes elementos de esta tarea]**.
+Ejemplo: `SKU001, SKU002, CategoryA`
 
-  Ejemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### Excluir elementos de la tarea
+
+Para excluir elementos de la tarea, escriba id. de elemento, categorías o id. de destino específicos en el campo **[!UICONTROL Se excluyen los siguientes elementos de esta tarea]**.
+
+Ejemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+
+### Incluya sus propios datos sobre elegibilidad y exclusiones {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>La opción **[!UICONTROL Traer tus propios datos]** está disponible actualmente para un conjunto restringido de organizaciones y estará disponible de forma más amplia en una versión futura.
+
+Además de especificar los ID de artículo para que cumplan los requisitos o se excluyan, también puedes obtener la idoneidad de los datos externos de Retos de fidelidad durante la ejecución mediante la opción **[!UICONTROL Traer tus propios datos]**.
+
+Cuando se selecciona **[!UICONTROL Traer tus propios datos]**, la elegibilidad por participante se resuelve en tiempo de ejecución a partir de los datos sincronizados con tu entorno de retos de fidelidad en lugar de una lista de ID de artículos.
+
+Para usar esta opción, selecciona el icono de personalización en **[!UICONTROL Elementos y exclusiones elegibles]**, y luego elige **[!UICONTROL Traer tus propios datos]**.
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>Al asignar esta tarea a un desafío, seleccione **[!UICONTROL Estándar]** como tipo de desafío. No seleccione **[!UICONTROL Traer sus propios datos]** al nivel de desafío, ya que esa opción está reservada para desafíos totalmente impulsados por datos donde toda la estructura, incluidas las tareas y las recompensas, se proporciona externamente.
 
 ## Definir propiedades de tarea {#define-task-properties}
 

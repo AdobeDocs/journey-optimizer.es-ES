@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Puede crear tres tipos de experiencias de desafío:
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Secuencial o Streak) e intervalo de fechas.
+1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Streak, Secuencial o Traer sus propios datos cuando estén disponibles) e intervalo de fechas. [Aprenda a elegir un tipo de desafío](create-challenges.md#create-the-challenge).
 
 1. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos), cantidades, filtros de productos y recompensas.
 
