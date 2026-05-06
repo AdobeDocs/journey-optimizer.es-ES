@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * [Crear desafíos](create-challenges.md)
 * [Creación de tareas](create-tasks.md)
+* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,6 +53,7 @@ Con Desafíos de fidelización, puede hacer lo siguiente:
 * **Personalice la experiencia**: use tarjetas de contenido y mensajes multicanal para crear experiencias de marca envolventes
 * **Integre sin problemas**: Conéctese con sus proveedores de fidelidad existentes y aproveche los datos de Experience Platform
 * **Rastrear automáticamente**: Supervisar el progreso del cliente mediante recorridos autogenerados sin desarrollo personalizado
+* **Medir el rendimiento**: Use paneles de informes integrados para hacer un seguimiento de KPI de programa, resultados de desafío y métricas de nivel de tarea
 
 ![](assets/challenges-gs.png)
 
@@ -158,6 +160,17 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     </div>
     <p>
     <em>Aprenda a definir las tareas que completan los clientes para los desafíos</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="Informes" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>Monitorización del rendimiento</strong></a>
+    </div>
+    <p>
+    <em>Rastree KPI de programas, resultados de desafíos y métricas de tareas con paneles integrados</em>
     </p>
   </td>
 </tr>
