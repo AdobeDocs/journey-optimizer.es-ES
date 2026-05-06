@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Mayo de 2026 {#may-2026}
+
+* Se ha agregado una nueva página **Personalizar direcciones URL en correos electrónicos** que consolida las directrices sobre personalización dinámica de direcciones URL, personalización completa/base de direcciones URL, personalización de parámetros de seguimiento de URL y protecciones clave. [Más información](../email/url-personalization.md)
 
 * Se ha agregado una nueva sección **Consultas de reglas de negocios** a la página de ejemplos de consultas, que proporciona una consulta de lago de datos para comprobar todos los descartes de perfiles debido a exclusiones de límite de frecuencia de recorrido en un recorrido específico después de una fecha específica. La consulta incluye el campo `eventCodeReason` para identificar si los perfiles se excluyeron porque se alcanzó un límite (`CAP_REACHED`) o debido a una prioridad inferior (`LOWER_PRIORITY`). [Más información](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La documentación de **Generar actividad de audiencia** se ha enriquecido con un nuevo ejemplo que muestra cómo filtrar perfiles por un atributo de plan de suscripción usando el generador de reglas. [Más información](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * La página **Introducción a campañas orquestadas** documenta el patrón de nivel de entrada **Generar audiencia → Bifurcar → Canal A + Canal B** en **¿Qué hay dentro de una campaña orquestada?**, con referencias cruzadas a las páginas de actividad de bifurcación y de mensajes de marketing vs. transaccionales. [Más información](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha movido de la sección Administración de contenido a la sección **Correo electrónico** de la documentación (en Diseño de correo electrónico) y se ha cambiado el nombre del archivo de página a **email-expert-mode.md**. La página ahora documenta que el editor de HTML avanzado está disponible en el Designer de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
+
+* La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha movido de la sección Administración de contenido a la sección **Correo electrónico** de la documentación. La página ahora documenta que el editor de HTML avanzado está disponible en el Designer de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
 
 * La documentación de **Iniciar y supervisar campañas orquestadas** se ha actualizado con una nueva sección que detalla la secuencia de ejecución interna en el tiempo de publicación, junto con una tabla de estado del ciclo vital de la campaña, una lista de comprobación previa a la publicación y una advertencia de confirmación de envío para campañas no recurrentes. [Más información](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
