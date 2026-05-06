@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Con Adobe Journey Optimizer, puedes diseñar y enviar mensajes atractivos en Wha
 
 Tenga en cuenta que solo se admiten los elementos de mensajes salientes en Journey Optimizer.
 
-+++ Obtenga más información sobre los elementos de mensaje admitidos y las llamadas a la acción
++++ Obtenga más información sobre los elementos de mensaje compatibles y los botones interactivos
 
 WhatsApp admite los siguientes tipos de mensajes:
 
@@ -37,13 +37,18 @@ WhatsApp admite los siguientes tipos de mensajes:
 | Texto independiente | Admite contenido dinámico mediante parámetros. |
 | Texto del pie | Admite contenido dinámico mediante parámetros. |
 
-La siguiente opción de call-to-action está disponible para tus mensajes de WhatsApp:
+Las siguientes opciones de call-to-action están disponibles para tus mensajes de WhatsApp:
 
 | Llamadas a la acción | Descripción |
 |-|-|
+| Respuesta rápida | Breves respuestas preestablecidas que el usuario puede pulsar para responder al mensaje. |
 | Visitar sitio web | Solo se permite un botón, con parámetros de variable incluidos. |
 | Llamar en WhatsApp | Proporciona un botón que abre un chat de WhatsApp con el número de teléfono especificado directamente desde el mensaje. |
 | Número de teléfono de llamada | Proporciona un botón que inicia una llamada telefónica al número especificado cuando el usuario lo pulsa. |
+| Call to action: URL | Abre una dirección URL (**Visite el sitio web**). Solo se permite un botón de URL, con parámetros de variable incluidos. |
+| Call to action - teléfono | Usa el número de teléfono de la plantilla, por ejemplo **Número de teléfono de llamada** (realiza una llamada) o **Llamar en WhatsApp** (abre un chat con ese número en WhatsApp). |
+
+Tenga en cuenta que no se admiten los botones interactivos **Copiar código**.
 
 +++
 
@@ -124,7 +129,7 @@ Tenga en cuenta que la plantilla de WhatsApp primero debe ser aprobada por Meta 
    * Utilidad
    * Autenticación
 
-   [Más información sobre las categorías de plantillas](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
+   [Más información sobre las Categorías de plantilla](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
    ![](assets/whatsapp-design-1.png)
 
