@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
+source-git-commit: c05665beac8e479bcae124b70318bcc48ebf548b
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 8%
@@ -84,7 +84,7 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
 1. Seleccione los canales que quiera usar para esta regla: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push]**, **[!UICONTROL Correo postal]** o **[!UICONTROL WhatsApp]**.
 
-   ![](assets/rule-set-channels.png)
+   ![](assets/rule-sets-channels.png)
 
    Seleccione varios canales si desea aplicar un límite a todos los canales seleccionados como recuento total.
 
@@ -168,4 +168,4 @@ In this scenario, an individual profile:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
