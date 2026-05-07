@@ -10,9 +10,9 @@ level: Intermediate
 keywords: acciones entrantes, solución de problemas, recorrido, depurar, autoayuda, comprobar, errores
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Visite la página e inspeccione la pestaña de red o compruebe la carga de respu
 
 >[!TAB Canal de experiencia basado en código]
 
-Realice una solicitud de flexión utilizando la API de [Adobe](https://developer.adobe.com/data-collection-apis/docs/api/) y compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+Realice una solicitud de flexión utilizando la API de [Adobe](https://developer.adobe.com/data-collection-apis/docs/api) y compruebe la carga de respuesta de Edge en la sección **[!UICONTROL Edge Delivery]** de la sesión [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -151,7 +151,7 @@ Para comprobar la presencia del segmento **joai** en el atributo `segmentMembers
 
    ![Vista de atributos de perfil en formato JSON que muestra el estado de pertenencia a audiencia](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. Vaya al atributo `segmentMembership` y compruebe si el ID del segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente en el área de nombres **joai** y si está en estado **[!UICONTROL realizado]** <!--or existing?-->.
+1. Vaya al atributo `segmentMembership` y compruebe si el ID de segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> está presente en el área de nombres **joai** y si está en estado **[!UICONTROL realizado]** <!--or existing?-->.
 
    ![JSON de perfil que muestra pertenencia a audiencia realizada con marca de tiempo](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 

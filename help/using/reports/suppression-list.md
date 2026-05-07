@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '845'
 ht-degree: 11%
 
 ---
@@ -27,13 +27,13 @@ Recopila direcciones de correo electrónico y dominios que se suprimen en todos 
 >
 >Adobe mantiene una lista actualizada de direcciones incorrectas conocidas que han demostrado ser perjudiciales para la participación y la reputación de correo electrónico, y garantiza que no se les envíen correos electrónicos. Esta lista se administra en una lista de supresión global que es común para todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
 
-Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## ¿Por qué una lista de supresión? {#why-suppression-list}
 
 Para controlar los mensajes de correo electrónico que reciben los propietarios de la bandeja de entrada y asegurarse de que solo reciben los que desean, los proveedores de servicios de Internet (ISP) y los filtros comerciales de correo no deseado tienen sus algoritmos propietarios para rastrear la reputación general de los remitentes de correo electrónico en función de las direcciones IP y los dominios de envío que utilizan.
 
-Si no tiene en cuenta sus comentarios (como quejas por correo no deseado, rechazos, etc.), valorarán su reputación de forma negativa. La lista de supresión le ayuda a cumplir los comentarios de los ISP.
+Si no toma sus comentarios (como quejas por correo no deseado, rechazos, etc.) en cuenta, valorarán su reputación de forma negativa. La lista de supresión le ayuda a cumplir los comentarios de los ISP.
 
 Los destinatarios cuyas direcciones de correo electrónico están suprimidas se excluyen automáticamente de la entrega de mensajes. Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
 
@@ -53,7 +53,7 @@ Obtenga más información sobre devoluciones graves y leves en [esta sección](#
 >
 >Las direcciones de los usuarios que cancelaron su suscripción no se pueden enviar a la lista de supresión porque no reciben correos electrónicos de [!DNL Journey Optimizer]. Su elección se gestiona en el nivel de Experience Platform. Más información sobre la [exclusión](../privacy/opt-out.md).
 
-Para cada dirección, el motivo básico de la supresión y la categoría de supresión (leve, grave, etc.) se muestran en la lista de supresión. Obtenga más información acerca de cómo obtener acceso y administrar la lista de supresión en [esta sección](../configuration/manage-suppression-list.md).
+Para cada dirección, el motivo básico de la supresión y la categoría de supresión (suave, grave, etc.) se muestran en la lista de supresión. Obtenga más información acerca de cómo obtener acceso y administrar la lista de supresión en [esta sección](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >

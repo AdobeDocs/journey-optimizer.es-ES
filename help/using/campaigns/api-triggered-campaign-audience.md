@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Utilice la ficha **[!UICONTROL Audiencia]** para definir la audiencia de la camp
 >
 >El uso de audiencias y atributos de [composición de audiencias](../audience/get-started-audience-orchestration.md) no está disponible actualmente para su uso con Healthcare Shield o Privacy and Security Shield.
 
-**Para las campañas transaccionales activadas por API**, los perfiles de destino deben definirse en la llamada de API. Una sola llamada de API admite hasta 20 destinatarios únicos. Cada destinatario debe tener un ID de usuario único, no se permiten ID de usuario duplicados. Obtenga más información en la [documentación interactiva de la API de ejecución de mensajes](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+**Para las campañas transaccionales activadas por API**, los perfiles de destino deben definirse en la llamada de API. Una sola llamada de API admite hasta 20 destinatarios únicos. Cada destinatario debe tener un ID de usuario único, no se permiten ID de usuario duplicados. Obtenga más información en la [documentación interactiva de la API de ejecución de mensajes](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}
 
 ## Selección del tipo de identidad
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 4%
 
 ---
 
@@ -56,7 +56,7 @@ Después de configurar la configuración móvil e implementar el SDK móvil de A
 
    Asegúrese de copiar también los identificadores de **[!UICONTROL ID de campaña]** para incluirlos en su carga útil.
 
-   ➡️ Consulte la [Documentación de campañas activadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) para conocer los requisitos de autenticación, incluidos tokens de OAuth y claves de API.
+   ➡️ Consulte la [Documentación de campañas activadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para conocer los requisitos de autenticación, incluidos tokens de OAuth y claves de API.
 
    ![](assets/create-live-3.png)
 
