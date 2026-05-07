@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 <p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico a través de una opción específica en la Designer de correo electrónico.</p><p>Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Para obtener más información, consulte la <a href="../email/message-tracking.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 7 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 11 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
