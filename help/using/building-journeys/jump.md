@@ -10,9 +10,9 @@ level: Intermediate
 keywords: salto, actividad, recorrido, división, división
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -108,7 +108,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
 
 >[!TIP]
 >
->Para ver una descripción detallada de este enfoque, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para ver un ejemplo trabajado con un programa de fidelización multifase, consulte [recorrido de fidelidad multifase](journeys-uc.md#multi-phase-loyalty).
 
 ## Configuración de la actividad de salto {#jump-configure}
 

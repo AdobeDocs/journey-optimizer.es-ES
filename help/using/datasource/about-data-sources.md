@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 35%
+source-wordcount: '917'
+ht-degree: 29%
 
 ---
 
@@ -26,8 +26,7 @@ ht-degree: 35%
 >[!TIP]
 >¿Es nuevo en la administración de datos en Journey Optimizer? Comience con la información general de [Introducción a la administración de datos](../data/gs-data.md) para comprender los esquemas, conjuntos de datos, identidades y cómo fluyen los datos antes de configurar las fuentes de datos.
 
-La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, para: 
-
+La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, para:
 
 * [definición de condición](../building-journeys/conditions.md)
 * datos de parámetros y personalización en [acciones](../action/action.md)
@@ -66,6 +65,12 @@ Conéctese directamente a una API externa durante el tiempo de ejecución del re
 
 Más información acerca de [acciones personalizadas](../action/action.md) y [respuestas de acciones personalizadas](../action/action-response.md).
 
+>[!TIP]
+>
+>Esta opción encaja bien si responde **sí** a ambas preguntas:
+>* ¿Los datos solo son útiles dentro del contexto de recorrido y no se necesitan en ninguna otra parte? Si los datos también son necesarios para audiencias u otros canales, considere las Opciones 2 o 3.
+>* ¿Se puede acceder al sistema externo a través de un extremo de API que devuelve los atributos necesarios? Si no es así, primero deberá ingerir los datos en el lago de datos.
+
 **Opción 2: conjunto de datos en el lago de datos, no habilitado para el perfil**
 
 Ingeste datos en un conjunto de datos para almacenar en déclencheur y personalizar recorridos basados en datos de evento contextuales, sin contribuir al Perfil del cliente en tiempo real. El más adecuado cuando:
@@ -73,12 +78,26 @@ Ingeste datos en un conjunto de datos para almacenar en déclencheur y personali
 * Los registros contienen un campo de identidad que puede utilizarse para acceder a los perfiles ya almacenados en Experience Platform.
 * Los datos no son necesarios para la creación de audiencias o la vinculación de identidad fuera de Journey Optimizer.
 
+>[!TIP]
+>
+>Esta opción encaja bien si responde **sí** a ambas preguntas:
+>* ¿Los registros contienen un campo de identidad que se puede utilizar para acceder a los perfiles ya almacenados en Experience Platform? Si no es así, los recorridos no podrán acceder a los perfiles ni enviarlos.
+>* ¿NO se necesitan los datos para la creación de [audiencia](../audience/about-audiences.md) o la vinculación de identidad fuera de Journey Optimizer? Si es así, utilice la opción 3 en su lugar.
+
 **Opción 3 — Conjunto de datos habilitado para el perfil en el lago de datos**
 
 Ingresa datos en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para crear audiencias, enriquecer gráficos de identidad y aprovechar datos en varios recorridos y destinos de RT-CDP. El más adecuado cuando:
 
 * Los datos son útiles para las definiciones de audiencia utilizadas en canales distintos de Journey Optimizer.
 * Los datos contienen varias identidades que contribuyen a fragmentos de perfil más completos y vinculados.
+
+>[!CAUTION]
+>
+>**Antes de habilitar un conjunto de datos para el perfil**, evalúe las áreas siguientes:
+>* **Sincronización de datos**: las bases de datos externas deben sincronizarse, con alertas para identificar errores de ingesta.
+>* **[Protecciones de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"}**: se aplican protecciones específicas de perfil además de las [protecciones generales de ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails){target="_blank"} para Experience Platform.
+>* **Integridad de identidad**: los datos de identidad de sus sistemas de origen deben planificarse cuidadosamente para mantener gráficos de identidad correctos.
+>* **Utilización del lago de datos**: el consumo de almacenamiento general, las relaciones de tabla y los perfiles direccionables deben evaluarse antes de la ingesta.
 
 | | Datos almacenados en Data Lake | Conjunto de datos habilitado para el perfil |
 | --- | --- | --- |
