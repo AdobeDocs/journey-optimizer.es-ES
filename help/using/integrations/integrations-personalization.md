@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Habilitar integraciones externas
+title: Uso de integraciones externas
 description: Integre integraciones externas en el proceso de creación de canales para enriquecer el contenido con información personalizada y dinámica
 feature: Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: integración
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -73,46 +73,62 @@ La personalización de la integración ahora se aplica correctamente al contenid
 
 ![](assets/external-integration-content-7.png)
 
-<!--
+## Asignación de una llamada de API a otra {#map-integration-chain}
 
-## Map one API call to another {#map-integration-chain}
+Puede encadenar integraciones para que los resultados de una llamada alimenten los siguientes, por ejemplo, segmentos de ruta, encabezados o parámetros de consulta. Las llamadas se ejecutan en orden en el mismo mensaje, lo que admite una personalización más completa sin código personalizado.
 
-You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.
+Antes de empezar, asegúrese de que:
 
-Before you start, make sure that:
+* Un administrador ha configurado y activado todas las integraciones que necesita. Consulte [Configurar su integración](integrations.md).
+* Los marcadores de posición de rutas de variables, los encabezados y los parámetros de consulta se configuran en la configuración de integración con etiquetas de orientación para expertos en marketing.
+* El administrador expuso los campos de respuesta que necesita en la **[!UICONTROL carga de respuesta]** de cada integración para que aparezcan durante la creación.
 
-* An administrator has configured and activated every integration you need. See [Configure your Integration](integrations.md).
-* Variable path placeholders, headers, and query parameters are set up in the integration configuration with marketer-facing labels.
-* The administrator exposed the response fields you need in each integration's **[!UICONTROL Response payload]** so they appear when authoring.
+El ejemplo siguiente utiliza una integración de reserva que devuelve un número de vuelo de la reserva del perfil y, a continuación, una integración de información de vuelo que utiliza ese número para el estado activo (retrasos, destino). Las entradas de la segunda integración se asignan a la respuesta de la primera llamada.
 
-In the below example, a reservation system integration returns a flight booking reference from the profile context. A separate flight-information integration expects that reference as a **path variable**. In the personalization editor, you map the second integration's variable to a field from the first integration's response, instead of a static value or profile attribute alone.
+1. Abra el mensaje o el fragmento y abra el editor de personalización.
 
-1. Open your message or fragment and place the cursor where you want personalized content (for example, a **[!UICONTROL Text]** field).
+   ![](assets/uc-integrations-1.png)
 
-1. Open the personalization editor and go to **[!UICONTROL Integrations]** → **[!UICONTROL Open integrations]**.
+1. En **[!UICONTROL Integraciones]**, haga clic en **[!UICONTROL Abrir integraciones]**.
 
-1. Select the integration whose output will supply the downstream input (in the example, the reservation or profile API that returns the flight identifier).
+   ![](assets/uc-integrations-2.png)
 
-1. Define that integration's inputs as usual—static values, profile attributes, or other allowed mappings—then save so its response is available for chaining.
+1. Añada la integración cuya respuesta alimente la siguiente llamada, por ejemplo, datos de reserva o reserva que incluyan el identificador de vuelo.
 
-    >[!NOTE]
-    >
-    > Fields must appear in the administrator-defined response payload for each integration. You cannot reference response properties that were not exposed in configuration.
+   ![](assets/uc-integrations-3.png)
 
-1. Select the **second** integration (for example, the API that needs the flight number or booking reference on the URL path).
+1. (Opcional) Abra el menú **[!UICONTROL Función de ayuda]** y agregue un asistente, por ejemplo, la función `Let`, si desea enlazar una variable con nombre a la respuesta de reserva.
 
-1. For each input that must come from the first call—often a **path variable** or **variable** header/query parameter—choose the mapping source that references the **first integration's response** (for example, the flight booking reference field from the reservation payload). Do not use a static test value if you need live, profile-specific data.
+   >[!NOTE]
+   >
+   > Solo están disponibles los campos expuestos en la **[!UICONTROL carga de respuesta]** definida por el administrador. No puede hacer referencia a propiedades que no se expusieron en la configuración.
 
-1. Insert the response tokens you need in the content (for example, destination name from the flight API, loyalty balance from a loyalty integration) using the ![add](assets/do-not-localize/Smock_Add_18_N.svg) control.
+1. Si utiliza una variable de ayuda, asigne esa variable al campo que devuelve la integración de reservas para su uso descendente, por ejemplo, el número de vuelo en la carga útil de reserva o pasajero.
 
-1. Save the personalization.
+   ![](assets/uc-integrations-4.png)
 
-When you **simulate** or send, Journey Optimizer resolves integrations in order: the first call runs with the profile context you configured; its output is used to build the second request. Different integrations may run at simulation time and at send time according to your setup and channel behavior.
+1. En el menú **[!UICONTROL Abrir integraciones]**, agregue la segunda integración, por ejemplo, el estado de vuelo.
 
--->
+   ![](assets/uc-integrations-5.png)
+
+1. En la segunda integración, abra **[!UICONTROL Atributos de integración]**. Para cada entrada que debe reutilizar datos de la primera llamada, como una variable de ruta, un encabezado o un parámetro de consulta, seleccione un origen de asignación en la primera respuesta de integración.
+
+   En la experiencia **[!UICONTROL Pills]**, puede asignar el resultado de la primera llamada directamente a la entrada de la segunda llamada sin una instrucción `Let`. Si utilizó `Let`, puede asignar a través de esa variable en su lugar.
+
+   ![](assets/uc-integrations-6.png)
+
+1. Inserte tokens de la segunda integración en el contenido con el control ![add](assets/do-not-localize/Smock_Add_18_N.svg), por ejemplo, el destino de la respuesta de información de vuelo.
+
+   ![](assets/uc-integrations-8.png)
+
+1. Guarde el contenido.
+
+En **[!UICONTROL Simulation]** o envío, Journey Optimizer ejecuta las integraciones en orden: la primera llamada utiliza el contexto de perfil configurado y el resultado genera la segunda solicitud. La ejecución de una integración determinada en el momento de la simulación o del envío depende de la configuración y del canal.
+
+![](assets/uc-integrations-7.png)
 
 ## Vídeo práctico {#video}
 
 Este vídeo muestra cómo **Integraciones** conectan Adobe Journey Optimizer a API externas para que pueda extraer datos y contenido en directo en **canales salientes**, correo electrónico, SMS y push para una personalización más relevante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484121/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
