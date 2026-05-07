@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url, vínculo, personalización, seguimiento, codificación, llaves
-source-git-commit: 36fad8d6c200118210794249fa12263ae70e5422
+source-git-commit: 91b9ce5398bd62ff1969374be6e5c9f720fb4e31
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -84,15 +84,16 @@ Ahora, cuando se envía el correo electrónico, este parámetro se anexa automá
 >
 >Para comprobar la dirección URL final, puede [enviar una prueba](../content-management/proofs.md) y hacer clic en el vínculo del contenido del correo electrónico una vez que reciba la prueba. La dirección URL debe mostrar el parámetro de seguimiento. Por ejemplo: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
 
-## Prácticas recomendadas y protecciones {#best-practices}
+<!--
+## Best practices and guardrails {#best-practices}
 
-Para mantener los vínculos válidos, en los que se puede hacer clic y rastreables, siga las prácticas recomendadas y las protecciones a continuación.
+To keep links valid, clickable, and trackable, follow the best practices and guardrails below.
 
-### Llaves para URL dinámicas {#use-braces}
+### Braces for dynamic URLs {#use-braces}
 
-Al insertar una dirección URL que contenga personalización, utilice tres llaves (`{{{ ... }}}`) para la parte dinámica de la dirección URL. Esto evita que el escape modifique los caracteres especiales (por ejemplo, `/` y `+`) y ayuda a evitar direcciones URL rotas, redirecciones incorrectas o problemas de seguimiento.
+When inserting a URL that contains personalization, use three curly braces (`{{{ ... }}}`) for the dynamic portion of the URL. This prevents escaping from altering special characters (for example `/` and `+`) and helps avoid broken URLs, incorrect redirects, or tracking issues.
 
-Vea el siguiente ejemplo:
+Here is an example:
 
 ```html
 <a href="https://example.com/path/{{{profile.person.customSlug}}}?ref={{{context.system.source.id}}}">View details</a>
@@ -100,28 +101,28 @@ Vea el siguiente ejemplo:
 
 >[!IMPORTANT]
 >
->El uso de la salida sin procesar (`{{{ ... }}}`) significa que el valor se inserta tal cual. Utilícelo únicamente con valores en los que confíe y que estén pensados para ser seguros para URL (por ejemplo, valores que genere o valide en sentido ascendente).
+>Using raw output (`{{{ ... }}}`) means the value is inserted as-is. Only use it with values you trust and that are intended to be URL-safe (for example, values you generate or validate upstream).
 
-### Seguimiento de URL correcto {#enable-url-tracking}
+### Correct URL tracking {#enable-url-tracking}
 
-* Cuando utilice la personalización para generar la dirección URL, asegúrese de que el valor resuelto comience por `http`/`https` para cada destinatario. De lo contrario, es posible que no se aplique el seguimiento y que el vínculo no se comporte como se espera.
+* When using personalization to generate the URL, ensure the resolved value starts with `http`/`https` for every recipient. Otherwise, tracking may not be applied and the link may not behave as expected.
 
-* No utilice lógica dinámica como instrucciones `let`, `each` o `if` directamente en el campo URL del editor de personalización. Están desactivados por motivos de seguridad.
+* Do not use dynamic logic such as `let`, `each`, or `if` statements directly in the personalization editor's URL field. These are disabled for security reasons.
 
-* Si su escenario implica una lógica compleja para generar direcciones URL personalizadas, evite colocar esa lógica directamente en el campo URL del editor de personalización. En su lugar:
-   * Añada la lógica y las instrucciones necesarias en el contenido de HTML encima o cerca del campo URL.
-   * Genere y almacene atributos personalizados por separado y, a continuación, haga referencia a ellos en el contenido del correo electrónico.
+* If your scenario involves complex logic to generate personalized URLs, avoid placing that logic directly in the personalization editor's URL field. Instead:
+    * Add the necessary logic and statements in the HTML content above or near the URL field.
+    * Generate and store personalized attributes separately, then reference them in your email content.
 
-### Codificación y longitud de URL {#encoding}
+### URL encoding and length {#encoding}
 
-* Las reglas de sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) se aplican a todas las direcciones URL del contenido del correo electrónico. Sin embargo, es más probable que las direcciones URL personalizadas aparezcan problemas de codificación, ya que los valores específicos del destinatario pueden introducir caracteres reservados (por ejemplo, en parámetros de consulta). Por lo tanto, asegúrese de que los valores dinámicos tengan codificación de dirección URL (especialmente espacios, `&`, `#`, `%` y `+`) y evite usar `+` para los valores de consulta.
+* URI syntax rules ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) apply to all URLs in your email content. However, personalized URLs are more likely to surface encoding issues because recipient-specific values can introduce reserved characters (for example in query parameters). Therefore, ensure your dynamic values are URL-encoded (especially spaces, `&`, `#`, `%`, and `+`) and avoid using `+` for query values.
 
-* Los exploradores, los clientes de correo o los sistemas descendentes pueden truncar o rechazar las direcciones URL muy largas. Por ejemplo, las direcciones URL de páginas espejo pueden crecer significativamente cuando la personalización en tiempo de ejecución es intensiva. Mantenga las cargas personalizadas pequeñas y evite incrustar objetos grandes en las direcciones URL.
+* Very long URLs can be truncated or rejected by browsers, mail clients, or downstream systems. For example, mirror page URLs can grow significantly when runtime personalization is heavy. Keep personalized payloads small and avoid embedding large objects into URLs.
 
-### Pasos de validación recomendados {#validation}
+### Recommended validation steps {#validation}
 
-Antes de activar un recorrido o una campaña, siga las recomendaciones siguientes:
+Before activating a journey or campaign, follow the recommendations below:
 
-* Envíe una [revisión](../content-management/proofs.md) y haga clic en los vínculos para confirmar que la dirección URL resuelta comienza por `http`/`https` y mantiene la estructura esperada.
-* Si se adjuntan parámetros de seguimiento, confirme que la dirección URL final los incluye (ya sea mediante el seguimiento de URL en el nivel de configuración o mediante parámetros de seguimiento por vínculo).
-
+* Send a [proof](../content-management/proofs.md) and click links to confirm the resolved URL starts with `http`/`https` and keeps the expected structure.
+* If tracking parameters are appended, confirm the final URL includes them (either via configuration-level URL tracking or per-link tracking parameters).
+-->
