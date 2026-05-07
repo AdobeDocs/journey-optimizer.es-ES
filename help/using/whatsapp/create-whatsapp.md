@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -69,6 +69,10 @@ Examine las pestañas a continuación para aprender a añadir un mensaje de What
    Para obtener más información sobre cómo configurar un recorrido, consulte [esta página](../building-journeys/journey-gs.md)
 
    El campo **[!UICONTROL configuration]** está rellenado previamente de forma predeterminada con la última configuración que el usuario usó para ese canal.
+
+1. En la sección **[!UICONTROL Reglas de negocios]**, puede aplicar un conjunto de reglas para controlar la presión de comunicación en los mensajes de WhatsApp.
+
+   Obtenga más información sobre [conjuntos de reglas](../conflict-prioritization/rule-sets.md), [límite de frecuencia de canal](../conflict-prioritization/channel-capping.md) y [horas de inactividad](../conflict-prioritization/quiet-hours.md).
 
 Ahora puedes empezar a diseñar el contenido de tu mensaje de WhatsApp desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
 
@@ -200,6 +204,6 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470285/?captions=spa&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
