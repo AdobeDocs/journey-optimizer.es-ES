@@ -19,12 +19,12 @@ For Adobe Journey Optimizer to correctly display content cards, you must configu
 
 * **Adobe Experience Platform Data Collection**
 
-  [Create a datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} and [add the Experience Platform service](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Enable the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options. This ensures that Journey Optimizer events are handled by the Adobe Experience Platform Edge Network.
-Add the **Experience Event – Proposition Interaction** field group to your dataset to include this data in your reports. [Learn more about datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
+  [Create a datastream](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} and [add the Experience Platform service](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Enable the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options. This ensures that Journey Optimizer events are handled by the Adobe Experience Platform Edge Network.
+Add the **Experience Event – Proposition Interaction** field group to your dataset to include this data in your reports. [Learn more about datastreams](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  Ensure the default merge policy has **Active-On-Edge Merge Policy** enabled under **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+  Ensure the default merge policy has **Active-On-Edge Merge Policy** enabled under **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,7 +44,7 @@ Add the **Experience Event – Proposition Interaction** field group to your dat
 
 * **Content Experiments**
 
-  Ensure the dataset used in your app&#39;s [datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"} is also included in your content experiment reporting configuration. Los datos de la aplicación no se mostrarán en los informes si los conjuntos de datos no coinciden.
+  Ensure the dataset used in your app&#39;s [datastream](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview#_blank){target="_blank"} is also included in your content experiment reporting configuration. Los datos de la aplicación no se mostrarán en los informes si los conjuntos de datos no coinciden.
 
   Aprenda a agregar conjuntos de datos para los informes de experimentos de contenido en [esta sección](../reports/reporting-configuration.md).
 
