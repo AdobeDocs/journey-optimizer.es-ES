@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
+source-git-commit: 1054bbf73dc7e37efb07cc1336c11107da27345f
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1524'
 ht-degree: 75%
 
 ---
@@ -364,3 +364,10 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_admin_aem_custom_domain"
 >title="Dominio personalizado"
 >abstract="Opcional. Proporcione un dominio personalizado si publish-p16552-e147195.adobeaemcloud.com no puede recuperar contenido para su organización"
+
+<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+
+>[!CONTEXTUALHELP]
+>id="journeyExpAI"
+>title="Ayudante de expresiones"
+>abstract="Utilice el Ayudante de expresiones para generar y refinar expresiones en Journey Optimizer."
