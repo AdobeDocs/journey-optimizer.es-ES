@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -147,11 +147,11 @@ Si el recorrido incluye uno o más eventos, puede almacenarlos en déclencheur m
 
 ## Visualización de resultados {#viewing-results}
 
-La pestaña **[!UICONTROL Results]** le permite ver los resultados de la prueba. Utilice el selector de vista para elegir cómo examinar el registro:
+La pestaña **[!UICONTROL Results]** le permite ver los resultados de la prueba. En el menú desplegable **[!UICONTROL Usuario de prueba]**, seleccione el usuario simulado cuya ejecución desee inspeccionar.
 
-* **Todos los usuarios simulados**: seleccione **[!UICONTROL Todos]** para ver los resultados agregados en todos los usuarios simulados de la ejecución. Esta vista le ayuda a analizar la simulación completa de un vistazo, la actividad, los resultados y los errores, sin necesidad de seleccionar primero un solo usuario simulado.
-
-* **Un usuario simulado**: En la lista desplegable **[!UICONTROL Usuario de prueba]**, seleccione el usuario simulado cuya ejecución desee inspeccionar.
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 Para cada actividad, el &quot;log&quot; puede mostrar si el usuario que ha realizado la simulación ha entrado o salido del paso, así como los errores que se han producido durante la simulación.
 
