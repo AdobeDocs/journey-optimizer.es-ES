@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: caso de uso, multicanal, mensajes, recorrido, canal, eventos, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -107,3 +107,38 @@ El evento está ahora configurado y listo para utilizarse en el recorrido. Con l
 1. Utilice la opción **Test**, que se encuentra en la esquina superior derecha, para activar el modo de prueba. Consulte esta [sección](testing-the-journey.md) para aprender a utilizar el modo de prueba.
 
 1. Cuando el recorrido esté listo, publíquelo con el botón **Publicar**, ubicado en la esquina superior derecha.
+
+## Recorrido de fidelización multifase {#multi-phase-loyalty}
+
+Este ejemplo ilustra un patrón de arquitectura de recorrido clave: la descomposición de un recorrido complejo de varias fases en recorridos secundarios más pequeños y centrados conectados con la actividad [**[!UICONTROL Jump]**](jump.md). Un programa de fidelización sirve como escenario, pero este patrón se aplica a cualquier recorrido que abarque varios hitos o fases comerciales.
+
+Los recorridos complejos multifásicos generan rápidamente un gran número de rutas de cliente únicas. Descomponerlos en un subrecorrido por fase mantiene cada recorrido manejable, comprobable y mantenible de forma independiente.
+
+### Situación
+
+Considere un programa de fidelidad que guíe a los clientes a través de tres hitos mediante dos canales de marketing ([correo electrónico](../email/create-email.md) y [push](../push/create-push.md)):
+
+1. **Fase 1 — Descargue la aplicación móvil:** Las comunicaciones iniciales animan a los nuevos miembros fieles a descargar la aplicación. Se envía un recordatorio de seguimiento si el cliente no ha actuado en un plazo determinado.
+1. **Fase 2: realice una primera transacción:** Una vez descargada la aplicación, los mensajes dirigidos guiarán a los clientes hacia la finalización de su primera transacción de fidelidad.
+1. **Fase 3 — Realice una segunda transacción:** Después de la primera transacción, un conjunto final de comunicaciones genera una segunda transacción para profundizar la participación de lealtad.
+
+Incluso con esta estrategia directa, este recorrido expone más de 20 rutas únicas que un cliente puede seguir. La complejidad crece exponencialmente con cada punto de contacto o canal adicional.
+
+### Descomposición del subrecorrido
+
+Divida el recorrido de extremo a extremo en tres recorridos secundarios conectados más pequeños:
+
+| Recorrido Secundario | Condición de entrada | Objetivo de negocio |
+|---|---|---|
+| Fase 1: Descarga de la aplicación | El cliente se une al programa de fidelidad | Descarga de aplicación móvil de Drive |
+| Fase 2 - Primera transacción | El cliente descarga la aplicación | Impulsar la primera transacción de fidelización |
+| Fase 3 — Segunda transacción | El cliente completa la primera transacción | Impulsar la segunda transacción de fidelización |
+
+Conecte los subrecorridos mediante la actividad [**[!UICONTROL Jump]**](jump.md) para que los perfiles pasen sin problemas de una fase a otra. Cada recorrido secundario es sencillo, legible y se puede mantener de forma independiente.
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
