@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 9%
+source-wordcount: '369'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Para acceder al nuevo flujo de trabajo de inicio rápido de la incorporación a 
 A continuación se muestran algunas funciones adicionales:
 
 * Flujo de trabajo de cuatro pasos e interfaz de usuario sencillos.
-* Proporciona una configuración básica para empezar a recopilar datos de eventos móviles mediante [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} en minutos.
+* Proporciona una configuración básica para empezar a recopilar datos de eventos móviles mediante [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} en minutos.
 * Capacidad para probar y validar un evento push móvil básico con [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=es){target="_blank"}.
 * Crea y configura automáticamente todos los recursos de recopilación de datos y Journey Optimizer necesarios.
 * En la guía del producto y la información sobre herramientas.
@@ -76,4 +76,4 @@ La configuración automatizada ha finalizado. Ahora puede visitar la propiedad m
 * [Flujo y componentes de datos de notificaciones push](push-gs.md)
 * [Configuración del canal push](push-configuration.md)
 * [Informe de notificaciones push](../reports/journey-global-report-cja-push.md#track-link-url-push)
-* [Creación de una notificación push](create-push.md)
+* [Crear una notificación push](create-push.md)

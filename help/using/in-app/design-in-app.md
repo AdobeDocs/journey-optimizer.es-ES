@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, diseño, formato
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -244,7 +244,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 
 Desde la ficha **Datos**, puede definir una **[!UICONTROL Clave]**&#x200B; y un **[!UICONTROL Valor]** para incluir variables personalizadas en la carga. Estos pares clave/valor le permiten pasar datos adicionales, según la configuración específica.
 
-Para obtener más información, consulte [Documentación para desarrolladores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Para obtener más información, consulte [Documentación para desarrolladores](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata).
 
 1. En la ficha **[!UICONTROL Datos]**, seleccione **[!UICONTROL Agregar par clave/valor]**.
 
@@ -266,4 +266,4 @@ Para obtener más información, consulte [Documentación para desarrolladores](h
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422076?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

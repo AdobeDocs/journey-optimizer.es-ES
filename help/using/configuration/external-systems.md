@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 20%
+source-wordcount: '1834'
+ht-degree: 23%
 
 ---
 
@@ -33,7 +33,7 @@ Cuando Journey Optimizer ejecuta una llamada a una API externa, las protecciones
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](../datasource/external-data-sources.md#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## API de límite y restricción {#capping}
 
@@ -49,9 +49,9 @@ Por ejemplo, supongamos que ha definido una regla de límite o restricción de 2
 
 >[!IMPORTANT]
 >
->**Las reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL llamada) pero global para todos los recorridos de dicha zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
+>Las **Reglas de límite** se configuran en el nivel de zona protegida, para un extremo específico (la dirección URL denominada), pero de forma global para todos los recorridos de esa zona protegida. El límite está disponible tanto en fuentes de datos como en acciones personalizadas.
 >
->Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de restricción por organización. La restricción solo está disponible en acciones personalizadas.
+>Las **Reglas de limitación** solo están configuradas en zonas protegidas de producción, para un extremo específico, pero de forma global para todos los recorridos de todas las zonas protegidas. Solo puede tener una configuración de limitación por organización. La restricción solo está disponible en acciones personalizadas.
 >
 >El valor **maxCallsCount** debe ser mayor que 1.
 
@@ -60,7 +60,7 @@ Para obtener más información sobre cómo trabajar con las API, consulte estas 
 * [API de límite](capping.md)
 * [API de limitación](throttling.md)
 
-Hay disponible una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
+Hay disponible una descripción detallada de las API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)
 
 ### Capacidad de fuentes de datos y acciones personalizadas {#capacity}
 

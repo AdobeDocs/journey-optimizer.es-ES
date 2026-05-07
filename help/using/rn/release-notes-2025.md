@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -52,7 +52,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tr>
 <td>
 <p>Esta capacidad proporciona una mejor visibilidad del estado y el rendimiento de los puntos finales de acciones personalizadas. Un nuevo panel de monitorización de acciones personalizadas y los campos correspondientes en el conjunto de datos de eventos de pasos de recorrido le ayudarán a monitorizar las llamadas, los errores, el rendimiento, el tiempo de respuesta y el tiempo de espera de cola correctos para los puntos finales de acciones personalizadas. Ahora puede comprender rápidamente cuándo, dónde y por qué se produce una situación anómala en una acción personalizada.</p>
-<p>Actualmente, esta función está disponible de forma limitada para los clientes. </p>
+<p>Actualmente, esta función está disponible de forma limitada para los clientes.</p>
 <p>Para obtener más información, consulte la <a href="../action/reporting.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 28 de octubre de 2025</p>
 </td>
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>Ahora hay disponible una nueva API de Journey Optimizer para recuperar recorridos y sus objetos asociados, como campañas y superficies.</p>
-<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 25 de septiembre de 2025</p>
 </td>
 </tr>
@@ -586,7 +586,7 @@ You can now use AI models to optimize the best content in your email through the
 
   Fecha de disponibilidad: 29 de septiembre de 2025
 
-* **Compatibilidad con mTLS para el canal SMS**
+* Compatibilidad con **mTLS para el canal SMS**
 Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
 
 * **Esquemas relacionales**\
@@ -890,7 +890,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Varias acciones entrantes en recorridos**: para simplificar la orquestación de recorrido, ahora puede definir varias acciones entrantes en un solo recorrido. Esta capacidad, disponible previamente en campañas, le permite enviar varias experiencias basadas en código, mensajes in-app, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico. [Más información](../building-journeys/journey-action.md#multi-action)
 
-## Orquestación de campañas 
+## Orquestación de campañas
 
 **Fecha de disponibilidad**: 4 de agosto de 2025
 
@@ -1017,7 +1017,7 @@ Para obtener más información, consulte la <a href="../experience-decisioning/c
 <table>
 <thead>
 <tr>
-<th><strong>Ensayo del recorrido </strong><br/></th>
+<th><strong>Ensayo del recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1083,12 +1083,12 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
    * **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
 
-[Más información](../campaigns/manage-campaigns.md)
+  [Más información](../campaigns/manage-campaigns.md)
 
 * **Administración de datos**
    * **Actualización del conjuntos de datos del sistema de Gestión de decisiones**: las ofertas personalizadas y de reserva eliminadas ahora se marcan como archivadas en los conjuntos de datos «decision_object_repository_personalized_offers» y «decision_object_repository_fallback_offers». Los registros existentes en el conjunto de datos no cambian.
 
-[Más información](../offers/export-catalog/access-dataset.md)
+  [Más información](../offers/export-catalog/access-dataset.md)
 
 * **Recorridos**
    * **Mejoras en la herramienta de zona protegida para recorridos**: al copiar recorridos en varias zonas protegidas mediante las funciones de exportación e importación de paquetes, ahora también están disponibles las siguientes funciones:
@@ -1096,7 +1096,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
       * Copia de un evento independientemente de un recorrido
       * Detectar relaciones entre grupos de campos y fuentes de datos, vincularlas en el destino si existen y crearlas en caso contrario.
 
-[Más información](../configuration/copy-objects-to-sandbox.md)
+  [Más información](../configuration/copy-objects-to-sandbox.md)
 
 * **Canal: in-app**
    * **Pares de clave/valor in-app**: con los mensajes in-app, puede definir pares de clave y valor para incluir variables personalizadas en la carga útil del mensaje. Estos pares clave-valor le permiten pasar datos adicionales según su configuración específica y el caso de uso. [Más información](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
       * Descartar mensaje si: Condiciones que ocultan temporalmente la tarjeta de contenido. Puede volver a aparecer si se vuelven a cumplir las condiciones de visualización.
       * Descalificar mensaje si: Condiciones que impiden permanentemente que se vuelva a mostrar la tarjeta de contenido.
 
-[Más información](../content-card/design-content-card.md)
+     [Más información](../content-card/design-content-card.md)
 
 * **Toma de decisiones**
    * **API de herramientas de migración**: el equipo de Journey Optimizer está trabajando en las API de herramientas de migración para migrar entidades de gestión de decisiones a Decisioning. Esta herramienta permite una migración perfecta entre zonas protegidas con resolución de dependencia y funciones de reversión. Si está interesado, póngase en contacto con su representante de Adobe.
@@ -1116,7 +1116,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 * **Personalización**
    * Se ha añadido una nueva función auxiliar, «SHA256», al editor de personalización. Esta función se utiliza para calcular y devolver el hash sha256 de una cadena.
 
-[Más información](../personalization/functions/string.md#sha256)
+  [Más información](../personalization/functions/string.md#sha256)
 
 
 ## Notas de la versión de junio de 2025 {#25-6-rn}
@@ -1327,7 +1327,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Actualización de la API de ejecución de mensajes interactivos** - Fecha de disponibilidad: 6 de junio de 2025
 
-  La API de ejecución de mensajes interactivos ahora le permite eliminar la programación de la próxima ejecución de campañas. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  La API de ejecución de mensajes interactivos ahora le permite eliminar la programación de la próxima ejecución de campañas. [Más información](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## Notas de la versión de mayo de 2025 {#25-5-rn}
@@ -1454,7 +1454,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede activar ejecuciones de recorrido diarias tras la finalización de la segmentación por lotes. Esta opción ahora está disponible en los recorridos programados diariamente para todos los clientes. Le permite definir un período de tiempo de hasta 6 horas de espera de los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos. </p>
+<p>Ahora puede activar ejecuciones de recorrido diarias tras la finalización de la segmentación por lotes. Esta opción ahora está disponible en los recorridos programados diariamente para todos los clientes. Le permite definir un período de tiempo de hasta 6 horas de espera de los datos del público procedentes de los trabajos de segmentación por lotes, lo que garantiza que los recorridos se ejecuten con los datos más actualizados o se omitan si no están listos.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Para obtener más información, consulte la <a href="../building-journeys/read-audience.md#schedule">documentación detallada</a>.</p>
@@ -1774,7 +1774,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Puntuación de alineación con la marca (beta)</strong><br/></th>
+<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2148,7 +2148,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede validar una configuración de acción personalizada realizando llamadas de API reales directamente desde Adobe Journey Optimizer. Esta nueva funcionalidad le ayuda a solucionar los problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.  </p>
+<p>Ahora puede validar una configuración de acción personalizada realizando llamadas de API reales directamente desde Adobe Journey Optimizer. Esta nueva funcionalidad le ayuda a solucionar los problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido. </p>
 <p>Para obtener más información, consulte la <a href="../action/troubleshoot-custom-action.md">documentación detallada</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -2185,7 +2185,7 @@ Las mejoras que se muestran a continuación están incluidas en la actualizació
    * 90 días para los datos en el almacén de perfiles
    * 13 meses para los datos en el lago de datos
 
-  Este cambio se implementará en las zonas protegidas de clientes existentes en una fase posterior. 
+  Este cambio se implementará en las zonas protegidas de clientes existentes en una fase posterior.
 
   Obtenga más información sobre esta actualización en [las preguntas más frecuentes](../data/datasets-ttl.md#frequently-asked-questions).
 
@@ -2203,7 +2203,7 @@ Las mejoras que se muestran a continuación están incluidas en la actualizació
 -->
 
 
-* **Configuración de correo electrónico**: si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico de cancelación de suscripción personalizada y una URL de cancelación de suscripción de un solo clic personalizada como parte de los ajustes de la configuración de canal de correo electrónico.[Más información](../email/list-unsubscribe.md#custom-managed)
+* **Configuración de correo electrónico**: si administra el consentimiento fuera de Adobe, ahora puede establecer una dirección de correo electrónico de cancelación de suscripción personalizada y una URL de cancelación de suscripción de un solo clic personalizada como parte de los ajustes de la configuración de canal de correo electrónico. [Más información](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

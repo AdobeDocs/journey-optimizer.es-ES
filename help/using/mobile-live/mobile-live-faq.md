@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ No. Cada solicitud de API debe tener un(a) `requestId` único(a) para garantizar
 
 +++¿Qué autenticación se requiere para la API sin encabezado?
 
-Consulte la [Documentación de campañas activadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) para conocer los requisitos de autenticación, incluidos tokens de OAuth y claves de API.
+Consulte la [Documentación de campañas activadas por API](https://developer.adobe.com/journey-optimizer-apis/references/messaging) para conocer los requisitos de autenticación, incluidos tokens de OAuth y claves de API.
 
 +++
 

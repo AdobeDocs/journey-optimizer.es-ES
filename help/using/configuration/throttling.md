@@ -8,9 +8,9 @@ role: Developer
 level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 48%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 48%
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 
-Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Esta sección proporciona información global sobre cómo trabajar con la API. Hay disponible una descripción detallada de la API en [Documentación de las API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Lectura obligatoria
 
@@ -32,7 +32,7 @@ Esta sección proporciona información global sobre cómo trabajar con la API. H
 
 ## Descripción de la API de restricción y colección de Postman {#description}
 
-En la tabla siguiente se enumeran los comandos disponibles para la API de regulación. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
+En la tabla siguiente se enumeran los comandos disponibles para la API de regulación. Encontrará información detallada, incluidos ejemplos de solicitudes, parámetros y formatos de respuesta, en la [documentación de API de Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -52,7 +52,7 @@ Esta colección se ha configurado para compartir la colección Variable de Postm
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
 
 * `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
-* `{BASE_PATH}` : punto de entrada para la API.
+* `{BASE_PATH}`: punto de entrada para la API.
 * `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"} para obtener más detalles.
 
 ## Configuración de limitación {#configuration}

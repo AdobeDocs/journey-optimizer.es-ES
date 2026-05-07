@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -222,7 +222,7 @@ table>
 
 **Controles de auditoría**
 
-* Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades como campañas, recorridos, mensajes, páginas de destino, etc. Los recursos de registros de auditoría ahora incluyen cambios en otras múltiples acciones y se registran automáticamente cuando se produce la actividad. Obtenga más información [en esta página](../privacy/audit-logs.md).
+* Con Journey Optimizer, puede identificar las acciones realizadas por los usuarios en el sistema en distintos servicios y funcionalidades como campañas, recorridos, mensajes, páginas de aterrizaje, etc. Los recursos de registros de auditoría ahora incluyen cambios en otras diversas acciones y se registran automáticamente cuando se produce la actividad. Obtenga más información [en esta página](../privacy/audit-logs.md).
 
 **Soporte de archivado**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>El complemento de integración del Diseñador de correo electrónico de Adobe Journey Optimizer y Adobe Stock proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> La nueva opción <b>Buscar fotografías similares de Stock</b> también le permite localizar fotos de Stock que coincidan con el contenido, el color y la composición de sus imágenes. </p>
+<p>El complemento de integración de Designer de correo electrónico de Adobe Stock y Adobe Journey Optimizer ofrece a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes. </br> La nueva opción <b>Buscar fotografías similares de Stock</b> también te permite localizar fotos de Stock que coincidan con el contenido, el color y la composición de tus imágenes. </p>
 <p>Para obtener más información, consulte la <a href="../integrations/stock.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>

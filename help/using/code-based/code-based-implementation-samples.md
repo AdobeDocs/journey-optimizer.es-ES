@@ -1,49 +1,49 @@
 ---
 title: Ejemplos de implementación basada en código
-description: Esta página muestra ejemplos del método de implementación para la función basada en código de Journey Optimizer
+description: This page shows samples of the implementation methode for Journey Optimizer code-based feature
 feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 3%
+source-wordcount: '1114'
+ht-degree: 7%
 
 ---
 
-# Ejemplos de métodos de implementación basados en código {#implementation-samples}
+# Code-based implementation methods samples {#implementation-samples}
 
-La experiencia basada en código admite cualquier tipo de implementación del cliente. En esta página puede encontrar ejemplos para cada método de implementación:
+Code-based experience supports any type of customer implementation. On this page you can find samples for each implementation method:
 
 * [Lado del cliente](#client-side-implementation)
 * [Lado del servidor](#server-side-implementation)
-* [Híbrido](#hybrid-implementation)
+* [Hybrid](#hybrid-implementation)
 
 >[!IMPORTANT]
 >
->Siga [este enlace](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} para encontrar implementaciones de muestra para diferentes casos de uso de personalización y experimentación. Compruébelos y ejecútelos para comprender mejor cuáles son los pasos de implementación necesarios y cómo funciona el flujo de personalización de principio a fin.
+>Follow [this link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} to find sample implementations for different personalization and experimentation use cases. Check them out and run them in order to better understand what are the implementation steps needed and how the end-to-end personalization flow works.
 
-➡️ Obtenga más información acerca de cómo configurar Web SDK para experiencias basadas en código y toma de decisiones en [estos tutoriales](code-based-decisioning-implementations.md#tutorials)
+➡️ Learn more about configuring the Web SDK for code-based experiences and decisioning in [these tutorials](code-based-decisioning-implementations.md#tutorials)
 
-## Implementación del lado del cliente {#client-side-implementation}
+## Client-side implementation {#client-side-implementation}
 
-Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK de cliente de AEP: AEP Web SDK o AEP Mobile SDK.
+If you have a client-side implementation, you can use one of the AEP client SDKs: AEP Web SDK or AEP Mobile SDK.
 
-* Los pasos [debajo de](#client-side-how) describen el proceso de recuperar el contenido publicado en el perímetro por los recorridos de experiencia basados en código y las campañas en una implementación de muestra de **Web SDK** y de mostrar el contenido personalizado.
+* The steps [below](#client-side-how) describe the process of fetching the content published on the edge by the code-based experience journeys and campaigns in a sample **Web SDK** implementation and displaying the personalized content.
 
-* Los pasos para implementar un canal basado en código mediante **Mobile SDK** se describen en [este tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* The steps to implement code-based channel using **Mobile SDK** are described in [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
 
   >[!NOTE]
   >
-  >Hay implementaciones de muestra disponibles para casos de uso móvil para [aplicación iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} y [aplicación Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Sample implementations for mobile use cases are available for [iOS app](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
-### Cómo funciona - Web SDK {#client-side-how}
+### How it works - Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} está incluido en la página.
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"} is included on the page.
 
-1. Debe usar el comando `sendEvent` y especificar el [URI de superficie](code-based-surface.md)<!--( or location/path)--> para recuperar contenido de personalización.
+1. You need to use the `sendEvent` command and specify the [surface URI](code-based-surface.md)<!--( or location/path)--> to fetch personalization content.
 
    ```javascript
    alloy("sendEvent", {
@@ -54,9 +54,9 @@ Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. El código de implementación debe aplicar manualmente los elementos de experiencia basados en código (mediante el método [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) para actualizar el DOM según la decisión.
+1. Code-based experience items should be manually applied by the implementation code (using the [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} method) to update the DOM based on the decision.
 
-1. Para las campañas y los recorridos de experiencias basados en código, los eventos de visualización deben enviarse manualmente para indicar cuándo se ha mostrado el contenido. Esto se realiza mediante el comando `sendEvent`.
+1. For code-based experience journeys and campaigns, display events must manually be sent to indicate when the content has been displayed. This is done via the `sendEvent` command.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -82,7 +82,7 @@ Si tiene una implementación del lado del cliente, puede utilizar uno de los SDK
    }
    ```
 
-1. En el caso de las campañas y los recorridos de experiencias basados en código, los eventos de interacción deben enviarse manualmente para indicar cuándo un usuario ha interactuado con el contenido. Esto se realiza mediante el comando `sendEvent`.
+1. For code-based experience journeys and campaigns, interaction events must manually be sent to indicate when a user has interacted with the content. Esto se realiza mediante el comando `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -319,7 +319,7 @@ Las solicitudes a la API de Adobe Experience Platform son necesarias para obtene
 Si tiene una implementación híbrida, consulte los vínculos siguientes.
 
 * Blog técnico de Adobe: [Personalization híbrido en Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentación de SDK: [Personalización híbrida mediante Web SDK y la API de servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=es){target="_blank"}
+* Documentación de SDK: [Personalización híbrida mediante Web SDK y la API de servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Depurar llamadas a la API de red perimetral con garantía de Adobe Experience Platform {#debugging-edge-api-assurance}
 
@@ -364,9 +364,9 @@ Cuando utiliza directamente la API de Edge Network para experiencias basadas en 
 
 To help you get started with implementing code-based experiences, refer to the comprehensive step-by-step tutorials below:
 
-* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
+* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
 -->
