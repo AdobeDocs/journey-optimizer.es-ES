@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 5%
+source-wordcount: '1280'
+ht-degree: 8%
 
 ---
 
@@ -82,11 +82,13 @@ Para crear un conjunto de reglas de canal, siga estos pasos:
 
    El contador se restablece automáticamente a 0 cuando comienza una nueva ventana de tiempo. Para un límite de frecuencia de 2 días, este restablecimiento se produce cada dos días a medianoche UTC.
 
-1. Seleccione el canal que desee usar para esta regla: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push]** o **[!UICONTROL Correo directo]**.
+1. Seleccione los canales que quiera usar para esta regla: **[!UICONTROL Correo electrónico]**, **[!UICONTROL SMS]**, **[!UICONTROL Notificación push]**, **[!UICONTROL Correo postal]** o **[!UICONTROL WhatsApp]**.
 
-1. Seleccione varios canales si desea aplicar un límite a todos los canales seleccionados como recuento total.
+   ![](assets/rule-set-channels.png)
 
-   Por ejemplo, establezca el límite en 5 y seleccione los canales de correo electrónico y SMS. Si un perfil ya ha recibido 3 correos electrónicos de marketing y 2 SMS de marketing para el periodo seleccionado, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico o SMS de marketing.
+   Seleccione varios canales si desea aplicar un límite a todos los canales seleccionados como recuento total.
+
+   Por ejemplo, establezca el límite en 5 y seleccione los canales Correo electrónico y SMS. Si un perfil ya ha recibido 3 correos electrónicos de marketing y 2 mensajes SMS de marketing para el periodo seleccionado, este perfil se excluirá de la siguiente entrega de cualquier correo electrónico o mensaje SMS de marketing.
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar la creación de la regla. Su mensaje se agrega al conjunto de reglas, con el estado **[!UICONTROL Borrador]**.
 

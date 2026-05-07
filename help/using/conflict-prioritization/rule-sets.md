@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1067'
 ht-degree: 33%
 
 ---
@@ -33,8 +33,8 @@ Puede crear dos tipos de conjuntos de reglas:
 
 * Los conjuntos de reglas del **canal** aplican reglas a los canales de comunicación. Permiten establecer lo siguiente:
 
-   * **Reglas de límite de frecuencia** - *No envíe más de 1 comunicación por correo electrónico o SMS al día.*
-   * **Reglas de horas tranquilas** - *No envíe mensajes de correo electrónico fuera de la franja horaria de 8 a. m. a 9 p. m.*.
+   * **Reglas de límite de frecuencia** - *No envíe más de 1 comunicación por correo electrónico, SMS, push, correo directo o WhatsApp al día.*
+   * **Reglas de horas tranquilas** - *No envíe mensajes de correo electrónico fuera del horario de 8 a. m. a 9 p. m.*
 
 * Los conjuntos de reglas **Recorrido** aplican reglas de límite de entrada y concurrencia a un recorrido. Por ejemplo, no introduzca perfiles en más de un recorrido simultáneamente.
 
