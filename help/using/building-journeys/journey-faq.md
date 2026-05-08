@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 0%
+source-wordcount: '5290'
+ht-degree: 1%
 
 ---
 
@@ -553,11 +553,11 @@ Solución: valide la calidad de datos del perfil
 * **Recorrido no publicado**: el recorrido sigue en modo de borrador
 Solución: publique el recorrido para activarlo
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
 * **Problema de configuración del canal**: La configuración de correo electrónico/SMS es incorrecta
 Solución: compruebe las configuraciones de canal y la autenticación
@@ -948,4 +948,4 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Creación de su primer recorrido](journey-gs.md)
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
