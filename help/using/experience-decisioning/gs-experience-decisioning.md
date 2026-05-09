@@ -105,4 +105,4 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
