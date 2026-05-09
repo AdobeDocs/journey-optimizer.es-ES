@@ -66,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido &#x200B;](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 

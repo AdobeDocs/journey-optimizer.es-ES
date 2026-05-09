@@ -79,7 +79,7 @@ Para crear una ubicación, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si está trabajando con la [API de Edge Decisioning](¿https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
+   >Si está trabajando con la [API de Edge Decisioning] (¿https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
    >
    >Si está trabajando con la [API de decisiones por lotes](../api-reference/offer-delivery-api/batch-decisioning-api.md), puede establecer estos parámetros en esta pantalla o en su solicitud de API. Si hay una discrepancia en los valores de parámetros entre la pantalla y la solicitud de API, se utilizan los valores de solicitud.
 

@@ -35,7 +35,7 @@ Antes de crear fórmulas de clasificación, tenga en cuenta las siguientes restr
 * La profundidad de anidación en una fórmula de clasificación está limitada a 30 niveles, medidos por el recuento de `)` en la cadena de PQL.
 * Una cadena de fórmula de clasificación puede tener hasta 8 KB para caracteres codificados con UTF-8 (8000 caracteres ASCII o 2000-4000 caracteres no ASCII).
 * Los periodos retrospectivos no se admiten en fórmulas de clasificación (por ejemplo, eventos de experiencia del último mes). Los intentos de guardar estas fórmulas déclencheur un error.
-* La optimización de fórmulas con tecnología de IA [1} se aplica solamente a las fórmulas de clasificación cuya expresión PQL basada en código es mayor que **2 KB** en tamaño codificado UTF-8; no se analizan las fórmulas más pequeñas.](#optimize)
+* La optimización de fórmulas con tecnología de IA [1&rbrace; se aplica solamente a las fórmulas de clasificación cuya expresión PQL basada en código es mayor que **2 KB** en tamaño codificado UTF-8; no se analizan las fórmulas más pequeñas.](#optimize)
 
 ## Cree la fórmula de clasificación y establezca las propiedades {#create-ranking-formula}
 

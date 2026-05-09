@@ -145,7 +145,7 @@ Por ejemplo, una retailer puede querer limitar una oferta en función del invent
 
 >[!NOTE]
 >
->Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite**[!UICONTROL  En total ]**.**
+>Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite**&#x200B;[!UICONTROL &#x200B; En total &#x200B;]&#x200B;**.**
 
 Para utilizar datos de Adobe Experience Platform en expresiones de reglas de límite, siga estos pasos:
 
