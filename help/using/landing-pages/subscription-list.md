@@ -40,7 +40,7 @@ Los perfiles se pueden agregar a una lista de suscripción mediante una [página
 
 >[!NOTE]
 >
->Al crear una lista de suscripción, se genera automáticamente un segmento de flujo continuo asociado en Adobe Experience Platform. Para que el segmento de flujo continuo se cree correctamente, la política de combinación debe tener habilitada la opción **Active-On-Edge**. Obtenga más información acerca de los criterios de elegibilidad para segmentos de streaming en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Al crear una lista de suscripción, se genera automáticamente un segmento de flujo continuo asociado en Adobe Experience Platform. Para que el segmento de flujo continuo se cree correctamente, la política de combinación debe tener habilitada la opción **Active-On-Edge**. Obtenga más información acerca de los criterios de elegibilidad para segmentos de streaming en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para crear una lista de suscripción, siga los pasos a continuación.
 
