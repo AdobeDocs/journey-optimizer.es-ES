@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: exportación, mensajes, HIPAA, correos electrónicos, SMS, configuración
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 11%
+source-wordcount: '737'
+ht-degree: 12%
 
 ---
 

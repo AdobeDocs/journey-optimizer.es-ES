@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '3543'
+source-wordcount: '3575'
 ht-degree: 26%
 
 ---
@@ -37,7 +37,7 @@ La página de la campaña **[!UICONTROL Informe en vivo]** se mostrará con las 
 * [Correo directo](#direct-mail-tab)
 
 >[!AVAILABILITY]
->Las campañas organizadas solo admiten los canales SMS, de correo electrónico y push. Otros canales (aplicación, web, correo directo, etc.) no están disponibles en las campañas orquestadas y no aparecen en los informes.
+>Las campañas organizadas solo admiten los canales SMS, de correo electrónico y push. Otros canales (aplicación, web, correo directo, etc.) no están disponibles en campañas orquestadas y no aparecen en sistema de informes.
 
 El **[!UICONTROL informe en vivo]** de la campaña está dividido en diferentes widgets que detallan el éxito y los errores de la campaña. Se puede cambiar el tamaño de cada widget y eliminarlo si es necesario. Para obtener más información, consulte esta [sección](../reports/live-report.md#modify-dashboard).
 

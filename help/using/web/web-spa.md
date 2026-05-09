@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 16%
+source-wordcount: '500'
+ht-degree: 27%
 
 ---
 
@@ -27,7 +27,7 @@ Ahora se pueden crear **aplicaciones de una sola página** (SPA) en el editor vi
 
 [Aprenda a crear aplicaciones de una sola página en este vídeo](#video)
 
-Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra.
+Una vista puede definirse como un sitio completo o un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad de productos del sitio o el marco de preferencias de envío en todas las páginas de cierre de compra.
 
 Se necesita una configuración de desarrollador única para definir las vistas en la implementación de Adobe Experience Platform Web SDK. Esto le permite crear y ejecutar campañas web de Adobe Journey Optimizer en SPA.
 

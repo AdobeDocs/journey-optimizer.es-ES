@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 40%
+source-wordcount: '293'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +30,7 @@ Las campañas activadas por API permiten que las comunicaciones de marketing lle
 
 Para ello, primero debe crear una campaña activada por API en Journey Optimizer y luego iniciar su ejecución a través de una llamada API usando la [API de REST de ejecución de mensaje interactiva](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 >[!NOTE]
 >

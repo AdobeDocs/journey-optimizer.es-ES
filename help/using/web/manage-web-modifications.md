@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 21%
+source-wordcount: '973'
+ht-degree: 24%
 
 ---
 
@@ -177,7 +177,7 @@ Los scripts se ejecutan de forma asincrónica. Esto suele hacer que las acciones
 
 +++ **Si crea un elemento y luego lo modifica, no elimine el elemento original.**
 
-Cada cambio crea un nuevo elemento en el panel **[!UICONTROL Modificaciones]**. Debido a que la segunda acción modifica al Elemento 1, si elimina el Elemento 1, esa acción ya no tiene nada para modificar, por lo que el cambio ya no funciona.
+Cada cambio crea un nuevo elemento en el panel **[!UICONTROL Modificaciones]**. Como la segunda acción modifica al Elemento 1, si elimina el Elemento 1, esa acción ya no tiene nada para modificar. Por lo tanto, el cambio ya no funciona.
 
 +++
 

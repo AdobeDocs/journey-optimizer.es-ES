@@ -1,49 +1,49 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Set up an allowed list
-description: Learn how to set up and manage an allowed list in Journey Optimizer to restrict email sending to trusted addresses and domains at the sandbox level.
+title: Configuración de una lista de permitidos
+description: Obtenga información sobre cómo configurar y administrar una lista de permitidos en Journey Optimizer para restringir el envío de correo electrónico a direcciones y dominios de confianza en el nivel de zona protegida.
 feature: Deliverability
 role: Admin
 level: Intermediate
-keywords: allowed list, safe list, email, deliverability, sandbox, domains, suppression, configuration
+keywords: lista de permitidos, lista segura, correo electrónico, entrega, zona protegida, dominios, supresión, configuración
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 12%
 
 ---
 
-# Set up an allowed list {#allow-list}
+# Configuración de una lista de permitidos {#allow-list}
 
-The allowed list is a sending-safe list you can define at the [sandbox](../administration/sandboxes.md) level. It restricts email sending to specific addresses or domains, ensuring that only explicitly listed recipients can receive messages from a given sandbox.
-
->[!CAUTION]
->
->This feature only applies to the email channel. It is available on production and non-production sandboxes.
-
-On non-production sandboxes, where accidental sends can occur, the allowed list prevents unwanted messages from reaching real customer addresses, providing a secure environment for testing purposes.
-
-When the allowed list is active but empty, no emails are sent. This makes it a useful emergency brake: if a critical issue arises, you can activate an empty allowed list to halt all outgoing communications from [!DNL Journey Optimizer] until the problem is resolved. Learn more about the [allowed list logic](#logic).
-
-You can also use the Journey Optimizer **Suppression REST API** to manage outgoing messages programmatically through suppression and allow lists. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
-
-## Access the allowed list {#access-allowed-list}
-
-To access the detailed list of allowed email addresses and domains, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]**, and select **[!UICONTROL Allowed list]**.
-
-![Allowed list page showing the list of allowed email addresses and domains](assets/allow-list-access.png)
+La lista de permitidos es una lista de envío seguro que puede definir en el nivel de [zona protegida](../administration/sandboxes.md). Restringe el envío de correos electrónicos a direcciones o dominios específicos, lo que garantiza que solo los destinatarios enumerados explícitamente puedan recibir mensajes desde una zona protegida determinada.
 
 >[!CAUTION]
 >
->Permissions to view, export and manage the allowed list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users&#39; access rights in [this section](../administration/permissions-overview.md).
+>Esta función solo se aplica al canal de correo electrónico. Está disponible en entornos limitados de producción y sin producción.
 
-To export the allowed list as a CSV file, select the **[!UICONTROL Download CSV]** button.
+En zonas protegidas que no sean de producción, donde pueden producirse envíos accidentales, la lista de permitidos evita que los mensajes no deseados lleguen a las direcciones de los clientes reales, lo que proporciona un entorno seguro para realizar pruebas.
 
-Use the **[!UICONTROL Delete]** button to permanently remove an entry.
+Cuando la lista de permitidos está activa pero vacía, no se envía ningún correo electrónico. Esto lo convierte en un freno de emergencia útil: si surge un problema crítico, puede activar una lista de permitidos vacía para detener todas las comunicaciones salientes desde [!DNL Journey Optimizer] hasta que se resuelva el problema. Más información sobre la [lógica de lista de permitidos](#logic).
 
-You can search on the email addresses or domains, and filter on the **[!UICONTROL Address type]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
+También puede usar la API de REST de supresión **Journey Optimizer** para administrar los mensajes salientes mediante programación a través de listas de permitidos y supresión. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
+
+## Acceso a la lista de permitidos {#access-allowed-list}
+
+Para acceder a la lista detallada de dominios y direcciones de correo electrónico permitidos, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo electrónico]** y selecciona **[!UICONTROL Lista de permitidos]**.
+
+![Página de Lista de permitidos que muestra la lista de dominios y direcciones de correo electrónico permitidos](assets/allow-list-access.png)
+
+>[!CAUTION]
+>
+>Los permisos para ver, exportar y administrar la lista de permitidos están restringidos a [Administradores de Recorrido](../administration/ootb-product-profiles.md#journey-administrator). Obtenga más información acerca de la administración de los derechos de acceso de los usuarios de [!DNL Journey Optimizer] en [esta sección](../administration/permissions-overview.md).
+
+Para exportar la lista de permitidos como archivo CSV, seleccione el botón **[!UICONTROL Descargar CSV]**.
+
+Use el botón **[!UICONTROL Eliminar]** para quitar una entrada de forma permanente.
+
+Puede buscar las direcciones de correo electrónico o los dominios y filtrar por el **[!UICONTROL tipo de dirección]**. Una vez seleccionado, puede borrar el filtro mostrado en la parte superior de la lista.
 
 ![Lista de permitidos filtrada por tipo de dirección](assets/allowed-list-filtering-example.png)
 

@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdominios, configuración
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 18%
+source-wordcount: '1039'
+ht-degree: 20%
 
 ---
 
@@ -129,7 +129,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
 1. Una vez enviada la delegación del subdominio, este se muestra en la lista con el estado **[!UICONTROL Procesando]**. Para obtener más información sobre los estados de los subdominios, consulte [esta sección](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->
 
-Antes de usar un subdominio para enviar mensajes SMS, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.<!--Learn more in [this section](#subdomain-validation).--> Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Correcto]**. Está listo para utilizarse para crear configuraciones de canal SMS.
+Antes de usar un subdominio para enviar mensajes SMS, debe esperar hasta que Adobe realice las comprobaciones necesarias, que pueden tardar hasta cuatro horas.<!--Learn more in [this section](#subdomain-validation).--> Una vez que las comprobaciones son correctas, el subdominio obtiene el estado **[!UICONTROL Success]**. Está listo para utilizarse para crear configuraciones de canal SMS.
 
 Tenga en cuenta que el subdominio se marcará como **[!UICONTROL Error]** si no crea el registro de validación en la solución de alojamiento.
 

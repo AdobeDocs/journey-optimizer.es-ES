@@ -5,10 +5,10 @@ title: Uso de la actividad Espera en campañas orquestadas
 description: Aprenda a utilizar la actividad Espera en campañas orquestadas
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 65%
+source-wordcount: '233'
+ht-degree: 55%
 
 ---
 
@@ -44,6 +44,6 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Esperar]**:
 
 ## Ejemplo{#wait-example}
 
-El siguiente ejemplo ilustra la actividad **[!UICONTROL Esperar]** en un caso de uso típico.  Se envía un correo electrónico con un código promocional a los perfiles que celebran su cumpleaños. Después de 2 días, se envía un SMS al mismo grupo como recordatorio de que el código de promoción de cumpleaños está a punto de caducar.
+El siguiente ejemplo ilustra la actividad **[!UICONTROL Esperar]** en un caso de uso típico.  Se envía un correo electrónico con un código promocional a los perfiles que celebran su cumpleaños. Después de 2 días, se envía un SMS al mismo grupo como recordatorio de que su código de promoción de cumpleaños está a punto de caducar.
 
 ![](../assets/wait-example.png)

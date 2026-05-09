@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '908'
 ht-degree: 7%
 
 ---

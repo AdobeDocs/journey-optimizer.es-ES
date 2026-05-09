@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 9%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 >title="Representaciones"
 >abstract="Añada representaciones para definir dónde se mostrará la oferta en el mensaje. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación."
 
-Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque de HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizar la oferta en diferentes contextos de ubicación.
+Una oferta se puede mostrar en diferentes lugares de un mensaje: en un banner superior con una imagen, como texto en un párrafo, como un bloque de HTML, etc. Cuantas más representaciones tenga una oferta, más oportunidades habrá de utilizarla en diferentes contextos de colocación.
 
 ## Configuración de las representaciones de la oferta {#representations}
 

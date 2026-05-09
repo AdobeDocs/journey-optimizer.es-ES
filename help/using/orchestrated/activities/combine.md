@@ -5,7 +5,7 @@ title: Uso de la actividad Combinar
 description: Aprenda a utilizar la actividad Combinar
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 100%

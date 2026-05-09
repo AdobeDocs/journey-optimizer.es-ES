@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: '2080'
+ht-degree: 8%
 
 ---
 
@@ -199,7 +199,7 @@ Una vez seleccionado un atributo de campo o agregado un campo personalizado, pue
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Página de agradecimiento "
+>title="Página de agradecimiento"
 >abstract="Configure lo que sucede cuando alguien rellena o reenvía el formulario."
 
 En los detalles del formulario, en la sección **[!UICONTROL Página de agradecimiento]**, configure lo que sucede cuando un usuario rellena el formulario.

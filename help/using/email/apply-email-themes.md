@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1748'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Asigne un nombre a la temática.
 
-1. Realice sus propios ajustes según sea necesario, tal como lo hace al crear una temática desde cero, como añadir una variante de color, editar fuentes, etc. [Descubra cómo](#create-and-edit-themes)
+1. Realice sus propios ajustes según sea necesario, tal como lo hace al crear un tema desde cero, como agregar una variante de color, editar fuentes, etc. [Obtenga información](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

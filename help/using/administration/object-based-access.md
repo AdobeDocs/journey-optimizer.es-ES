@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 17%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 17%
 >title="Etiquetas de administración de acceso"
 >abstract="Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Este enfoque protege los recursos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales. **Asegúrese de seleccionar solo las etiquetas para las que tenga permiso.**"
 
-Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Este enfoque protege los activos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales.
+Puede limitar el acceso a un objeto en función de las etiquetas de acceso. Este enfoque protege los recursos digitales confidenciales de los usuarios no autorizados y garantiza una mayor protección de los datos personales.
 
 La capacidad Control de acceso a nivel de objeto (OLAC) permite definir autorizaciones para administrar el acceso a datos para una selección de objetos:
 
-* Recorrido 
+* Recorrido
 * Campaign
 * Plantilla
 * Fragmento

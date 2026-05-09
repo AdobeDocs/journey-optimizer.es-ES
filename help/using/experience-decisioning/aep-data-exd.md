@@ -11,10 +11,10 @@ level: Intermediate
 keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 24%
+source-wordcount: '1218'
+ht-degree: 27%
 
 ---
 
@@ -145,7 +145,7 @@ Por ejemplo, una retailer puede querer limitar una oferta en función del invent
 
 >[!NOTE]
 >
->Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite** En total **[!UICONTROL .]**
+>Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite**&#x200B;[!UICONTROL &#x200B; En total &#x200B;]&#x200B;**.**
 
 Para utilizar datos de Adobe Experience Platform en expresiones de reglas de límite, siga estos pasos:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '3731'
+source-wordcount: '3768'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ Acceda al informe de Recorrido en directo desde el menú [!UICONTROL Recorridos]
 
 La página del recorrido **[!UICONTROL Informe en vivo]** se mostrará con las siguientes pestañas:
 
-* [&#x200B; Recorrido &#x200B;](#journey-live)
+* [Recorrido](#journey-live)
 * [Correo electrónico](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)

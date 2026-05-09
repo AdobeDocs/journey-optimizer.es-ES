@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 34%
+source-wordcount: '856'
+ht-degree: 33%
 
 ---
 

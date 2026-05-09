@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: recorrido, detección, inicio, unitario, leer público, calificación de público, evento empresarial, tiempo real, programado, por lotes, activado por evento, flujo de trabajo, orquestación, personalización, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Use [!DNL Journey Optimizer] para:
 
 ![Interfaz del diseñador de recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
 
-➡️ **¿Todo listo para comenzar a crear?** [Cree su primer recorrido](journey-gs.md) en 5 minutos.
+➡️ **¿Listo para empezar a crear?** [Crea tu primer recorrido](journey-gs.md) en 5 minutos.
 
 ### Recorridos frente a campañas: cuándo usar cada uno {#journeys-vs-campaigns-intro}
 
@@ -158,11 +158,11 @@ La creación de recorridos exitosos sigue un proceso claro y repetible. Este es 
 Antes de abrir el diseñador, tenga claros sus objetivos:
 
 * **¿Cuál es el objetivo?** (por ejemplo, incorporar nuevos clientes, volver a atraer usuarios inactivos)
-* **¿Quién es el público?** (segmento específico, individuos impulsados por evento)
+* **¿Quién es la audiencia?** (segmento específico, personas impulsadas por eventos)
 * **¿Qué tipo de recorrido encaja?** (Ver [tipos de recorrido](#journey-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, etc.)
 
-### &#x200B;2. Diseñe en el lienzo {#design}
+### &#x200B;2. Diseño en el lienzo {#design}
 
 Utilice el diseñador de recorridos para crear el flujo:
 
@@ -174,7 +174,7 @@ Utilice el diseñador de recorridos para crear el flujo:
 
 [Aprenda a utilizar el diseñador de recorrido →](using-the-journey-designer.md)
 
-### &#x200B;3. Pruebe antes de activarlos {#test}
+### &#x200B;3. Prueba antes de empezar {#test}
 
 Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo experimenten:
 
@@ -185,7 +185,7 @@ Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo
 
 [Pruebe su recorrido →](testing-the-journey.md) | [Más información sobre el ensayo de recorrido →](journey-dry-run.md)
 
-### &#x200B;4. Publique su recorrido {#publish}
+### &#x200B;4. Publicación del recorrido {#publish}
 
 Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
@@ -195,7 +195,7 @@ Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
 [Publique su recorrido →](publish-journey.md)
 
-### &#x200B;5. Supervise el rendimiento {#monitor}
+### &#x200B;5. Monitorización del rendimiento {#monitor}
 
 Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
@@ -205,7 +205,7 @@ Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
 [Supervise e informe →](report-journey.md) | [Configure alertas →](../reports/alerts.md)
 
-### &#x200B;9. Optimice e itere {#optimize}
+### &#x200B;6. Optimizar e iterar {#optimize}
 
 Use perspectivas para mejorar:
 
@@ -216,7 +216,7 @@ Use perspectivas para mejorar:
 
 [Optimice los recorridos →](optimize.md) | [→ Optimización del tiempo de envío](send-time-optimization.md)
 
-➡️ **¿Todo listo para comenzar?** [Cree su primer recorrido ahora →](journey-gs.md)
+➡️ **¿Listo para comenzar?** [Cree su primer recorrido ahora →](journey-gs.md)
 
 ## Casos de uso reales {#use-cases}
 
@@ -362,7 +362,7 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
 
-➡️ **¿Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Quieres más videos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Preguntas frecuentes {#common-questions}
 
@@ -398,7 +398,7 @@ Puede editar elementos limitados (nombre, contenido del mensaje), pero los cambi
 
 +++
 
-➡️ **¿Más preguntas?** [Vea la lista completa de preguntas frecuentes sobre el recorrido](journey-faq.md) con más de 40 respuestas detalladas
+➡️ **Más preguntas?** [Ver las preguntas frecuentes sobre el Recorrido completo](journey-faq.md) con más de 40 respuestas detalladas
 
 ## ¿Necesita ayuda? {#help}
 
@@ -423,4 +423,4 @@ Configure **[alertas de recorridos](../reports/alerts.md)** para recibir notific
 * **[Solucionar problemas de ejecución](troubleshooting-execution.md)**: problemas de ejecución del recorrido de depuración
 * **[Solución de problemas de actividades entrantes](troubleshooting-inbound.md)**: corrija problemas de entrada y calificación
 
-**¿Todo listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)
+**¿Listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)

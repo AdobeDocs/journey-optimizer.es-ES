@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1597'
 ht-degree: 9%
 
 ---
@@ -62,7 +62,7 @@ Si un correo electrónico falla en la autenticación de DMARC, puede decidir qu�
 
 ## Actualización de requisitos de DMARC {#dmarc-update}
 
-Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! ambos requieren que tenga un **registro de DMARC** para cualquier dominio que use para enviarles correo electrónico. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. 
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! ambos requieren que tenga un **registro de DMARC** para cualquier dominio que use para enviarles correo electrónico. Este nuevo requisito se aplica desde el **1 de febrero de 2024**.
 
 >[!CAUTION]
 >

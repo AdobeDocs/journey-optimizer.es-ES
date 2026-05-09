@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2117'
 ht-degree: 92%
 
 ---
@@ -129,7 +129,7 @@ Al comparar el rendimiento de dos tratamientos, siempre debe comparar las métri
 
 Por ejemplo, si el objetivo del experimento está establecido en **[!UICONTROL Aperturas únicas]**, y se ha mostrado  un tratamiento determinado a 10 000 perfiles con 200 aperturas únicas registradas, esto representa una **[!UICONTROL Tasa de conversión]** del 2 %. Para las métricas no únicas, como la métrica Aperturas, la métrica normalizada se muestra como una **[!UICONTROL Recuento por perfil]**, mientras que para las métricas continuas como Precio total, la métrica normalizada se muestra como un **[!UICONTROL Total por perfil]**.
 
-### &#x200B;2. centrarse en los intervalos de confianza {#confidence-intervals}
+### &#x200B;2. enfoque en los intervalos de confianza {#confidence-intervals}
 
 Al ejecutar experimentos con muestras de perfiles, la tasa de conversión observada para un tratamiento determinado representa una estimación de la tasa de conversión subyacente real.
 

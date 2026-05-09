@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 32%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 

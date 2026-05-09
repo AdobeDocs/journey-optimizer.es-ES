@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas A/B, multi-armed bandit, escalar el ganador
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 4%
+source-wordcount: '1147'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
 >title="Métrica de éxito"
->abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento. "
+>abstract="La métrica de éxito se utiliza para rastrear y evaluar el tratamiento con mejor rendimiento de un experimento."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Configuración y seguimiento de la métrica de recorrido"
 
 La experimentación le permite probar diferentes rutas en función de una división aleatoria para determinar cuál tiene el mejor rendimiento según las métricas de éxito predefinidas.

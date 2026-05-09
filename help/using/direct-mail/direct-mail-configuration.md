@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1820'
 ht-degree: 21%
 
 ---
@@ -177,7 +177,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 1. En PuTTYgen, genere su par de claves. Se recomienda RSA con 2048 bits o superior.
 1. Seleccione **Conversiones** > **Exportar clave OpenSSH** en el menú.
 1. Cuando se le solicite, elija guardar la clave privada **sin protección de frase de contraseña**.
-1. En el cuadro de diálogo de guardado, seleccione **Todos los archivos (*).*)** como tipo de archivo para garantizar que la clave se guarde como texto sin formato y no como archivo .ppk.
+1. En el cuadro de diálogo de guardado, seleccione **Todos los archivos (*.*)** como el tipo de archivo para asegurarse de que la clave se guarda como texto sin formato y no como archivo .ppk.
 1. Abra el archivo guardado con un editor de texto y compruebe su formato:
    * El archivo debe comenzar con `-----BEGIN RSA PRIVATE KEY-----` (cinco guiones antes y después).
    * No debe haber palabras que indiquen cifrado.

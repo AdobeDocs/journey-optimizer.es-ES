@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuración, recorrido, tablero, fuentes de datos, eventos, acciones
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 59%
+source-wordcount: '539'
+ht-degree: 64%
 
 ---
 
@@ -36,7 +36,7 @@ La configuración de Data Source le permite definir una conexión con un sistema
 
 ## Eventos {#events}
 
-Los eventos le permiten almacenar en déclencheur sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
+Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, al particular que entra en el recorrido.
 
 En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de streaming para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). [Más información](../../using/event/about-events.md)
 

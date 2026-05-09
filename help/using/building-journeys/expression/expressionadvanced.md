@@ -9,9 +9,9 @@ level: Experienced
 keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '716'
 ht-degree: 55%
 
 ---

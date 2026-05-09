@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 18%
+source-wordcount: '842'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,7 @@ Se puede acceder a la lista de ofertas personalizadas en el menú **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="Detalles de oferta"
->abstract="Rellene el nombre de la oferta y sus fechas de inicio y finalización. Fuera de estas fechas, el motor de decisión no selecciona la oferta. "
+>abstract="Rellene el nombre de la oferta y sus fechas de inicio y finalización. Fuera de estas fechas, el motor de decisión no selecciona la oferta."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -63,7 +63,7 @@ Para crear una **oferta**, siga estos pasos:
 
    ![](../assets/create_offer.png)
 
-1. Especifique el nombre de la oferta, así como su fecha y hora de inicio y finalización. Fuera de estas fechas, el motor de decisión no selecciona la oferta. 
+1. Especifique el nombre de la oferta, así como su fecha y hora de inicio y finalización. Fuera de estas fechas, el motor de decisión no selecciona la oferta.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Para crear una **oferta**, siga estos pasos:
 
    >[!NOTE]
    >
-   >Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+   >Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
    >
    >Tenga en cuenta que las estimaciones de perfil no están disponibles cuando los parámetros de regla incluyen datos que no están en el perfil, como datos de contexto. Por ejemplo, una regla de idoneidad que requiere que el clima actual sea de ≥80 grados.
 

@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, condicional, reglas
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ Los pasos para crear una regla condicional son los siguientes:
    Los atributos se organizan en tres pestañas:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (es decir, estado, versión, etc.) para [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
+      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (por ejemplo: estado, versión, etc.) para [servicio de segmentación Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
       * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} definido en Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.

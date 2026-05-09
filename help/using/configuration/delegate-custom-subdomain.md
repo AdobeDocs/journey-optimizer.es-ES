@@ -10,10 +10,10 @@ level: Experienced
 keywords: subdominio, delegación, dominio, DNS
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 21%
+source-wordcount: '960'
+ht-degree: 22%
 
 ---
 

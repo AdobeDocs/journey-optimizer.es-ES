@@ -10,9 +10,9 @@ level: Intermediate
 keywords: calificación, eventos, audiencia, recorrido, plataforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1767'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Supongamos que tiene un público de “clientes plata”. Con esta actividad, pu
 
 Este tipo de evento se puede colocar como primer paso o más tarde en el recorrido.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 
 >[!CAUTION]

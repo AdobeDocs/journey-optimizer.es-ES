@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdominio, dominio, correo, dmarc, registro
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Más información sobre la actualización obligatoria de DMARC"
->abstract="Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo requerirán que se tenga un **registro DMARC** para cualquier dominio que se utilice para enviarles un correo electrónico, a partir del **1 de febrero de 2024**.<br>Por lo tanto, asegúrese de tener configurado el registro DMARC para todos los subdominios que ha delegado en Adobe en Journey Optimizer."
+>abstract="Como parte de su cumplimiento de las mejores prácticas del sector, tanto Google como Yahoo están exigiendo que se disponga de un registro **DMARC** para cualquier dominio que se utilice para enviarles un correo electrónico, a partir del **1 de febrero de 2024**.<br>En consecuencia, debe asegurarse de que dispone de un registro DMARC configurado para todos los subdominios que haya delegado en Adobe en Journey Optimizer."
 
 La autenticación de mensajes basada en dominios, sistemas de informes y conformidad (DMARC) es un método de autenticación por correo electrónico que permite a los propietarios de dominios proteger su dominio contra el uso no autorizado. Al ofrecer una política clara a los proveedores de correo electrónico/ISP, ayuda a evitar que actores maliciosos envíen correos electrónicos que afirman ser de su dominio. La implementación de DMARC reduce el riesgo de que los correos electrónicos legítimos se marquen como correo no deseado o se rechacen y mejora su entregabilidad
 
-Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! exigen el **registro DMARC** para cualquier dominio que se utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**. 
+Como parte del cumplimiento de las prácticas recomendadas del sector, Google y Yahoo! exigen el **registro DMARC** para cualquier dominio que se utilice para enviarles correos electrónicos. Este nuevo requisito se aplica desde el **1 de febrero de 2024**.
 
 >[!CAUTION]
 >
 >Se espera que el incumplimiento de este nuevo requisito de Gmail y Yahoo! provoque que los correos electrónicos acaben en la carpeta de spam o sean bloqueados.
 
-Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener configurado el registro DMARC para todos los subdominios que haya delegado a Adobe en [!DNL Journey Optimizer].  Siga estos pasos que se aplican a su caso:
+Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener configurado el registro DMARC para todos los subdominios que haya delegado a Adobe en [!DNL Journey Optimizer]. Siga estos pasos que se aplican a su caso:
 
 * Si ha [delegado completamente](delegate-subdomain.md#set-up-subdomain) sus subdominios a Adobe, elija una de las siguientes opciones:
 

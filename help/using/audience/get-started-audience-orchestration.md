@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1066'
 ht-degree: 50%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Crear una composición"
->abstract="Cree un flujo de trabajo de composición para combinar los públicos de Adobe Experience Platform existentes en un lienzo visual y aproveche varias actividades (división, exclusión…) para crear nuevos públicos."
+>abstract="Cree un flujo de trabajo de composición para combinar los públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, exclusión…) para crear nuevos públicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
@@ -105,7 +105,7 @@ Esta documentación proporciona información detallada sobre cómo trabajar con 
 
 >[!ENDSHADEBOX]
 
-La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevas audiencias.
+La composición de audiencias le permite crear **flujos de trabajo de composición**, donde puede combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar diversas actividades (dividir, excluir...) para crear nuevos públicos.
 
 Una vez finalizado, las **audiencias resultantes** se vuelven a guardar en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas y recorridos de Journey Optimizer para segmentar clientes. Obtenga información sobre cómo segmentar audiencias en Journey Optimizer
 ![](assets/audiences-process.png)

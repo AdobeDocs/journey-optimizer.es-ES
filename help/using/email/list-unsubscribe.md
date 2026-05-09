@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 97%
+source-wordcount: '1884'
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ La función **[!UICONTROL Mailto (cancelar la suscripción)]** y la de **[!UICON
 
 * Si ha activado la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]** en la [configuración de correo electrónico](email-settings.md), le recomendamos que habilite ambos métodos: **Mailto (cancelar la suscripción)** y **URL para cancelar la suscripción con un solo clic**. No todos los clientes de correo electrónico admiten el método HTTP. Con la función de cancelación de suscripción a una lista Mailto que se proporciona para que seleccione una alternativa, su reputación de remitente puede estar mejor protegida y todos sus destinatarios pueden tener acceso para usar la funcionalidad de cancelación de suscripción.
 
-* Si no desea utilizar la URL de cancelación de suscripción de un solo clic generada por defecto, puede desactivar la función. 
+* Si no desea utilizar la URL de cancelación de suscripción de un solo clic generada por defecto, puede desactivar la función.
 
    * En el escenario donde la opción **[!UICONTROL Habilitar cancelación de suscripción a lista]** está activada y la función **[!UICONTROL URL de cancelación de suscripción de un solo clic]** está desactivada, si añade un [vínculo de no participación de un solo clic](../email/email-opt-out.md#one-click-opt-out) a un mensaje creado con esta configuración, el encabezado Cancelación de suscripción a lista recupera el vínculo de no participación de un solo clic que ha insertado en el cuerpo del correo electrónico y lo utiliza como valor de URL de cancelación de suscripción de un solo clic.
 

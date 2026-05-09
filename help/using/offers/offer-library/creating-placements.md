@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 33%
+source-wordcount: '678'
+ht-degree: 31%
 
 ---
 
@@ -79,7 +79,7 @@ Para crear una ubicación, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si está trabajando con la [API de Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=es&), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
+   >Si está trabajando con la [API de Edge Decisioning] (¿https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=es&), no puede establecer estos parámetros en su solicitud. Debe definirlos en esta pantalla.
    >
    >Si está trabajando con la [API de decisiones por lotes](../api-reference/offer-delivery-api/batch-decisioning-api.md), puede establecer estos parámetros en esta pantalla o en su solicitud de API. Si hay una discrepancia en los valores de parámetros entre la pantalla y la solicitud de API, se utilizan los valores de solicitud.
 

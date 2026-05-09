@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: correo electrónico, plantillas, diseño
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 20%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 

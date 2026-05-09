@@ -5,9 +5,9 @@ title: Uso de la actividad Reconciliación
 description: Aprenda a utilizar la actividad de reconciliación en una campaña organizada
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 84%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="Actividad de reconciliación"
->abstract="La actividad **Reconciliación** es una actividad de **Segmentación** que le permite definir el vínculo entre Adobe Journey Optimizer y los datos de una tabla de trabajo. "
+>abstract="La actividad **Reconciliación** es una actividad de **Segmentación** que le permite definir el vínculo entre Adobe Journey Optimizer y los datos de una tabla de trabajo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -46,7 +46,7 @@ La actividad **[!UICONTROL Enrichment]** le permite agregar datos adicionales a 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
 >title="Dimensión de segmentación"
->abstract="Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, está seleccionada la dimensión de segmentación actual."
+>abstract="Seleccionar la nueva dimensión de segmentación. Una dimensión permite definir la población objetivo: destinatarios, suscriptores de la aplicación, operadores, suscriptores, etc. De forma predeterminada, se selecciona la dimensión de segmentación actual."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"

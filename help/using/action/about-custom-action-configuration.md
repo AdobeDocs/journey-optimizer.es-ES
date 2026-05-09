@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: acción, terceros, personalizado, recorrido, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2057'
 ht-degree: 14%
 
 ---
@@ -171,7 +171,7 @@ Puede definir el parámetro de carga útil como se detalla a continuación:
 
 1. En la sección **[!UICONTROL Solicitud]**, pegue un ejemplo de la carga útil JSON para enviar al servicio externo. Este campo es opcional y solo está disponible para los métodos de llamada POST y PUT.
 
-   Habilite la opción **[!UICONTROL Permitir valores NULL]** para mantener los valores Null en la llamada externa. Tenga en cuenta que al enviar matrices de int, string, etc. con valores Null en no es totalmente compatible. Por ejemplo, la siguiente matriz de enteros `[1, null, 2, 3]` se envía como `[1, 2, 3]` aunque se marque esta opción. Además, si dicha matriz es nula, se envía como una matriz vacía.
+   Habilite la opción **[!UICONTROL Permitir valores NULL]** para mantener los valores Null en la llamada externa. Tenga en cuenta que no se admite el envío de matrices de int, string, etc. con valores Null dentro de. Por ejemplo, la siguiente matriz de enteros `[1, null, 2, 3]` se envía como `[1, 2, 3]` aunque se marque esta opción. Además, si dicha matriz es nula, se envía como una matriz vacía.
 
    ![](assets/null-values.png){width="70%" align="left"}
 

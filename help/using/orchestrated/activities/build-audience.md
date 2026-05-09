@@ -5,10 +5,10 @@ title: Uso de la actividad Generar público
 description: Aprenda a utilizar la actividad Generar audiencia en una campaña organizada
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 64%
+source-wordcount: '338'
+ht-degree: 56%
 
 ---
 
@@ -41,7 +41,7 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Generar público des
 
 1. Configure su público siguiendo los pasos que se detallan en las pestañas a continuación.
 
-1. Elija la **[!UICONTROL Dimensión de segmentación]**. La dimensión de segmentación permite definir la población a la que se dirige la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el público destinatario se selecciona entre los destinatarios.
+1. Elija la **[!UICONTROL Dimensión de segmentación]**. La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. De forma predeterminada, el objetivo se selecciona en los destinatarios.
 
 1. Haga clic en **[!UICONTROL Continuar]**.
 

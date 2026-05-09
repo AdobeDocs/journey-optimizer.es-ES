@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Código JavaScript "
+>title="Código JavaScript"
 >abstract="La etiqueta del encabezado contiene metadatos y recursos esenciales que se cargan antes del contenido principal de la página web. Colocar el código en esta sección garantiza que se inicialice y ejecute correctamente antes de tiempo, lo que permite que la página web se cargue y funcione de forma eficaz. Al agregar código a la sección del encabezado, ayuda a mejorar la estructura, el rendimiento y la experiencia general del usuario en el sitio."
 
 >[!CONTEXTUALHELP]
@@ -74,7 +74,7 @@ Esta configuración simplifica la configuración rápida de los canales de marke
 
 1. Para optimizar el proceso de configuración, se crean de forma automática los recursos necesarios para ayudarle a empezar. Esto incluye la creación de una nueva **[!UICONTROL propiedad de etiquetas móviles]** y la instalación de extensiones.
 
-[Más información sobre los recursos generados automáticamente](set-mobile-config.md#auto-create-resources)
+   [Más información sobre los recursos generados automáticamente](set-mobile-config.md#auto-create-resources)
 
 1. Una vez completada la generación de recursos, siga las instrucciones de la interfaz de usuario para configurar y validar los SDK y los canales.
 

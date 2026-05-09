@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 18%
+source-wordcount: '1096'
+ht-degree: 20%
 
 ---
 
@@ -121,7 +121,7 @@ Para empezar a crear la experiencia web, siga los pasos a continuación.
 
    ![](assets/web-designer-edit-header.png)
 
-1. Ajuste los estilos que se muestran en el panel contextual de la derecha, como fondo, color del texto, borde, tamaño, posición, etc. - según el componente seleccionado.
+1. Ajuste los estilos que se muestran desde el panel contextual de la derecha, como fondo, color del texto, borde, tamaño, posición, etc., según el componente seleccionado.
 
    ![](assets/web-designer-header-style.png)
 

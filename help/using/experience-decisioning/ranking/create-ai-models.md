@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 14%
+source-wordcount: '771'
+ht-degree: 16%
 
 ---
 
@@ -62,7 +62,7 @@ Para crear un modelo de IA, siga los pasos a continuación:
    * **Eventos de impresión** (ofertas que se muestran)
    * **Eventos de conversión** (ofertas que generan clics por correo electrónico o web).
 
-   Estos eventos se capturan automáticamente mediante el Web SDK o el Mobile SDK que se ha proporcionado. Obtenga más información en la descripción general de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
+   Estos eventos se capturan automáticamente mediante el SDK web o el SDK móvil proporcionado. Obtenga más información en la descripción general de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
    +++ Optimizando modelos en métricas [!DNL Customer Journey Analytics] personalizadas
 

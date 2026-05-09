@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2746'
-ht-degree: 16%
+source-wordcount: '2787'
+ht-degree: 17%
 
 ---
 
@@ -114,7 +114,7 @@ La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la ofe
   >
   >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
-Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

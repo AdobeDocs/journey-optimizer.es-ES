@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '748'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 >abstract="Cree una lista de suscripción para recopilar perfiles que hayan optado por recibir comunicaciones sobre un asunto o evento específico. "
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/subscription-list#define-subscription-list" text="Creación de una lista de suscripción"
 
-Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un tema/evento/interés/etc específico. de forma continua. En [!DNL Journey Optimizer], estos clientes aceptados se recopilan en una lista de suscripción.
+Un servicio de suscripción se refiere a los bienes y servicios de marketing proporcionados a los clientes que han elegido recibir comunicaciones sobre un tema/evento/interés/etc. específico de forma continua. En [!DNL Journey Optimizer], estos clientes aceptados se recopilan en una lista de suscripción.
 
 Se puede utilizar un servicio de suscripción para:
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 11%
+source-wordcount: '943'
+ht-degree: 12%
 
 ---
 
@@ -99,10 +99,10 @@ Al crear una regla [que coincida con varias páginas](#web-page-matching-rule), 
 
   | Operador  | Descripción  | Ejemplos  |
   |---|---|---|
-  | Igual a  | Coincidencia exacta del dominio.  | |
+  | Es igual a  | Coincidencia exacta del dominio.  | |
   | Comienza por  | Coincide con todos los dominios (incluidos los subdominios) que comienzan con la cadena introducida.  | Ejemplo: &quot;Comienza con: dev&quot; -> coincide con todos los dominios y subdominios que comienzan con &quot;dev&quot;, como: dev.example.com, dev.products.example.com, developer.example.com  |
-  | Finaliza con  | Coincide con todos los dominios (incluidos los subdominios) que terminan con la cadena introducida.  | Ejemplo: &quot;Termina con: example.com&quot; -> coincide con todos los dominios y subdominios que terminan con &quot;example.com&quot;, como: stage.example.com, prod.example.com, myexample.com  |
-  | Coincidencia de comodines  | El operador &quot;Coincidencia de comodines&quot; permite al usuario definir una coincidencia de comodín en medio de la cadena, como &quot;dev&quot;.*.example.com&quot;. Las reglas de validación establecen que el valor debe contener un único comodín (asterisco) cuando el operador es &quot;comodín coincidente&quot;.  | Ejemplo: &quot;Coincidencia de comodines: dev.*.example.com&quot; -> coincide con dominios como: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
+  | Termina por  | Coincide con todos los dominios (incluidos los subdominios) que terminan con la cadena introducida.  | Ejemplo: &quot;Termina con: example.com&quot; -> coincide con todos los dominios y subdominios que terminan con &quot;example.com&quot;, como: stage.example.com, prod.example.com, myexample.com  |
+  | Coincidencia de comodines  | El operador &quot;Coincidencia de comodines&quot; permite al usuario definir una coincidencia de comodín en medio de la cadena, como &quot;dev.*.example.com&quot;. Las reglas de validación establecen que el valor debe contener un único comodín (asterisco) cuando el operador es &quot;comodín coincidente&quot;.  | Ejemplo: &quot;Coincidencia de comodines: dev.*.example.com&quot; -> coincide con dominios como: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
   | Cualquiera  | Coincide con todos los dominios, lo que resulta útil al probar una ruta concreta entre dominios  |  |
 
 

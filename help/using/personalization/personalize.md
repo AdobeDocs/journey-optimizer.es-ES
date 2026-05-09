@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '605'
+ht-degree: 24%
 
 ---
 

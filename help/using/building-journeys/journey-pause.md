@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2649'
 ht-degree: 5%
 
 ---

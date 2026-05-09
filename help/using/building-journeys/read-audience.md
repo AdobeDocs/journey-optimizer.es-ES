@@ -10,7 +10,7 @@ level: Intermediate
 keywords: actividad, recorrido, lectura de audiencia, audiencia, segmento, lote, punto de entrada, déclencheur, programación, calificación de audiencia
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '3612'
 ht-degree: 9%

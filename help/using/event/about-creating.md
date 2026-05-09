@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, crear, recorrido
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 13%
+source-wordcount: '1729'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 13%
 >title="Parámetros"
 >abstract="Defina los parámetros del evento, como los campos de esquema y carga útil. Para los eventos basados en reglas, use el campo **[!UICONTROL condición de ID de evento]** para definir la condición que el sistema usará para identificar los eventos que activarán su recorrido. Añada un tipo de identidad y un identificador de perfil para usar en el evento."
 
-Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o en sistemas generados.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
+Los eventos unitarios están vinculados a un perfil específico. Pueden basarse en reglas o generarse en el sistema.  Más información sobre el evento unitario [esta sección](../event/about-events.md).
 
 A continuación se muestran los primeros pasos para configurar un nuevo evento:
 
@@ -155,7 +155,7 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
 1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
-Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un [tipo de identidad](../event/about-creating.md#select-the-namespace), la clave se puede usar para realizar consultas en Adobe Experience Platform. Ver [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un [tipo de identidad](../event/about-creating.md#select-the-namespace), la clave se puede usar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Editor de expresiones avanzadas {#adv-exp-editor}

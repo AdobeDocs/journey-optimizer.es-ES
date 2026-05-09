@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ Para empezar a crear la experiencia web con el diseñador web visual, siga los p
    >
    >También puede editar el contenido web sin cargar el editor visual. Para ello, anule la selección de la opción **[!UICONTROL Editor visual]** para usar el modo de edición no visual en su lugar. [Más información](web-non-visual-editor.md)
 
-1. Una vez en el diseñador web, seleccione cualquier elemento del lienzo, como imagen, botón, párrafo, texto, contenedor, encabezado, vínculo, etc. [Más información](#content-components)
+1. En el diseñador web, seleccione cualquier elemento del lienzo, como imagen, botón, párrafo, texto, contenedor, encabezado, vínculo, etc. [Más información](#content-components)
 
 1. Para editar un elemento, puede utilizar:
 
@@ -107,7 +107,7 @@ Una vez editado el contenido web, puede administrar las modificaciones. [Más in
 
    ![](assets/web-designer-edit-header.png)
 
-1. Ajuste los estilos que se muestran en el panel contextual de la derecha, como fondo, color del texto, borde, tamaño, posición, etc. - según el componente seleccionado.
+1. Ajuste los estilos que se muestran desde el panel contextual de la derecha, como fondo, color del texto, borde, tamaño, posición, etc., según el componente seleccionado.
 
    ![](assets/web-designer-header-style.png)
 
