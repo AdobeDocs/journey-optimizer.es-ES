@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componentes, Email Designer, editor, correo electrónico
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 49%
+source-wordcount: '1468'
+ht-degree: 47%
 
 ---
 
@@ -106,7 +106,7 @@ Utilice el componente **[!UICONTROL Botón]** para insertar uno o varios botones
 
 ## Texto {#text}
 
-Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) con la ficha **[!UICONTROL Estilos]**.
+Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electrónico y ajustar el estilo (borde, tamaño, relleno, etc.) usando la ficha **[!UICONTROL Estilos]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -125,15 +125,15 @@ Use el componente **[!UICONTROL Texto]** para insertar texto en el correo electr
    * **Tamaño de fuente**: seleccionar el tamaño de fuente del texto en píxeles.
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
    * **[!UICONTROL Insertar vínculo]**: agregue cualquier tipo de vínculo al contenido.
-   * **[!UICONTROL Editar imagen]**: agregue una imagen o un recurso al componente de texto. [Más información acerca de la administración de recursos](../integrations/assets.md)
+   * **[!UICONTROL Editar imagen]**: añadir una imagen o un recurso al componente de texto. [Más información acerca de la administración de recursos](../integrations/assets.md)
    * **[!UICONTROL Cambiar color de fuente]**: elija el color de la fuente.
-   * **[!UICONTROL Agregar personalización]**: agregue campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
+   * **[!UICONTROL Añadir personalización]**: añadir campos de personalización para personalizar el contenido de los datos de perfiles. [Más información sobre la personalización de contenido](../personalization/personalize.md)
    * **[!UICONTROL Mostrar el código fuente]**: mostrar el código fuente del texto. No se puede modificar.
    * **[!UICONTROL Habilitar contenido condicional]**: agregue contenido condicional para adaptar el contenido del componente a los perfiles de destino. [Más información sobre el contenido dinámico](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplicar]**: añadir una copia del componente de texto.
    * **[!UICONTROL Eliminar]**: eliminar el componente de texto seleccionado del correo electrónico.
 
-1. Ajuste los demás atributos de estilo, como el color del texto, la familia de fuentes, el borde, el relleno, el margen, etc. de la ficha **[!UICONTROL Estilos]**.
+1. Ajuste otros atributos de estilo, como el color del texto, la familia de fuentes, el borde, el relleno, el margen, etc., en la ficha **[!UICONTROL Estilos]**.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -173,7 +173,7 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 
 1. En la pestaña **[!UICONTROL Configuración]**, haga clic en **[!UICONTROL Examinar]** para elegir un archivo de imagen de sus recursos o en **[!UICONTROL Importar medios]** para cargar un recurso en Adobe Experience Manager Assets.
 
-   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+   Para obtener más información sobre [!DNL Adobe Experience Manager Assets], consulte [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -184,13 +184,13 @@ Utilice el componente **[!UICONTROL Image]** para insertar un archivo de imagen 
 1. Haga clic en el componente recién agregado y configure las propiedades de la imagen:
 
    * **[!UICONTROL Título de la imagen]** permite definir un título para la imagen.
-   * **[!UICONTROL Texto alternativo]** permite definir el pie de ilustración vinculado a la imagen. Esto corresponde al atributo alternativo de HTML. [Más información](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL Texto alternativo]** permite definir el pie de ilustración vinculado a la imagen. Esto corresponde al atributo HTML alt. [Más información](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
 1. También puedes elegir **[!UICONTROL Buscar fotos similares de Stock]**. [Más información](../integrations/stock.md)
 
-1. En la ficha **[!UICONTROL Estilos]**, ajuste los demás atributos de estilo como margen, borde, etc. o añada un enlace para redirigir a su público a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
+1. En la ficha **[!UICONTROL Estilos]**, ajuste los demás atributos de estilo, como margen, borde, etc., o agregue un vínculo para redirigir la audiencia a otro contenido desde el panel **[!UICONTROL Configuración de componentes]**.
 
 ## Social {#social}
 
@@ -212,7 +212,7 @@ Utilice el componente **[!UICONTROL Social]** para insertar vínculos a páginas
 
 1. También puede cambiar los iconos de cada uno de sus medios sociales si es necesario desde su Assets.
 
-1. Ajuste los demás atributos de estilo como estilo, margen, borde, etc. de la ficha **[!UICONTROL Estilos]**.
+1. Ajuste los demás atributos de estilo, como estilo, margen, borde, etc., en la ficha **[!UICONTROL Estilos]**.
 
 ## Decisión de oferta {#offer-decision}
 

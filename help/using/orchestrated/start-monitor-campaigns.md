@@ -7,9 +7,9 @@ mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1604'
 ht-degree: 22%
 
 ---

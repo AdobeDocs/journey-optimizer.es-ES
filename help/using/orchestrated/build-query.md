@@ -5,10 +5,10 @@ title: Cree su primera regla
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 89%
+source-wordcount: '1912'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Los pasos principales para crear reglas para las campañas orquestadas son los s
 1. **Combinar condiciones**: organice las condiciones en el lienzo mediante grupos y operadores lógicos.
 1. **Comprobar y validar la regla**: compruebe los datos resultantes de la regla antes de guardarla.
 
-## Añada una condición  {#conditions}
+## Añada una condición {#conditions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_querymodeler_customcondition"
@@ -219,7 +219,7 @@ Una vez que haya creado la consulta en el lienzo, puede comprobarla con el panel
 * **Ver resultados:** muestra los datos resultantes de la consulta.
 * **Vista de código**: muestra una versión basada en código de la consulta en SQL.
 * **Calcular**: actualiza y muestra el número de registros a los que se destina la regla.
-* **Seleccione o guarde el filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para reutilizarlo en el futuro. Si el filtro incluye parámetros, proporcione valores antes de aplicarlo. Para obtener más información, vea [Trabajar con filtros predefinidos](predefined-filters.md).
+* **Seleccionar o guardar filtro**: elija un filtro predefinido existente para utilizarlo en el lienzo o guarde la consulta como un filtro predefinido para reutilizarlo en el futuro. Si el filtro incluye parámetros, proporcione valores antes de aplicarlo. Para obtener más información, vea [Trabajar con filtros predefinidos](predefined-filters.md).
 
 <br/>
 

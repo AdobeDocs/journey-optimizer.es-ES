@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1820'
 ht-degree: 21%
 
 ---
@@ -154,7 +154,7 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -177,7 +177,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 1. En PuTTYgen, genere su par de claves. Se recomienda RSA con 2048 bits o superior.
 1. Seleccione **Conversiones** > **Exportar clave OpenSSH** en el menú.
 1. Cuando se le solicite, elija guardar la clave privada **sin protección de frase de contraseña**.
-1. En el cuadro de diálogo de guardado, seleccione **Todos los archivos (*).*)** como tipo de archivo para garantizar que la clave se guarde como texto sin formato y no como archivo .ppk.
+1. En el cuadro de diálogo de guardado, seleccione **Todos los archivos (*.*)** como el tipo de archivo para asegurarse de que la clave se guarda como texto sin formato y no como archivo .ppk.
 1. Abra el archivo guardado con un editor de texto y compruebe su formato:
    * El archivo debe comenzar con `-----BEGIN RSA PRIVATE KEY-----` (cinco guiones antes y después).
    * No debe haber palabras que indiquen cifrado.
@@ -194,7 +194,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 >
 >Después de la codificación Base64, la clave ya no contendrá los marcadores `-----BEGIN/END RSA PRIVATE KEY-----` y no debe incluir saltos de línea. La clave pública correspondiente debe añadirse al archivo de claves autorizadas del servidor SFTP.
 
-Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

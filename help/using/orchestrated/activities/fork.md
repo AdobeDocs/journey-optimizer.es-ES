@@ -5,9 +5,9 @@ title: Uso de la actividad Bifurcación
 description: Aprenda a utilizar la actividad Bifurcación en una campaña orquestada
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '256'
 ht-degree: 47%
 
 ---

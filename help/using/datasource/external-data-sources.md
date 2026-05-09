@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 33%
+source-wordcount: '1803'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 
@@ -163,7 +163,7 @@ Con este modo de autenticación, la ejecución de la acción es un proceso de do
 
 * **tokenInResponse**: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
    * `response`: indica que la respuesta HTTP es el token de acceso
-   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será: _json: //access_token_
+   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será:_ json: //access_token_
 
 El formato de esta autenticación es:
 
@@ -272,4 +272,4 @@ A continuación, se muestra un ejemplo de la respuesta de la llamada de API de i
 
 >[!CAUTION]
 >
->Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que se admiten `bodyParams`objetos JSON anidados (por ejemplo, subobjetos dentro de **)**.
+>Al configurar la autenticación personalizada para una acción personalizada, tenga en cuenta que se admiten **objetos JSON anidados (por ejemplo, subobjetos dentro de `bodyParams`)**.

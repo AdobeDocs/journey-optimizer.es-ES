@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: administrar campañas, estado, programación, acceso, optimizador
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 9%
+source-wordcount: '1692'
+ht-degree: 10%
 
 ---
 
@@ -261,9 +261,9 @@ La campaña se crea y se añade a la lista de campañas.
 
 ## Recursos adicionales
 
-* **Introducción** - [Introducción a las campañas](get-started-with-campaigns.md) | [Cree su primera campaña de acción](create-campaign.md) | [Guía de campañas activadas por API](api-triggered-campaigns.md) | [Guía de campañas organizadas](../orchestrated/gs-orchestrated-campaigns.md)
+* **Introducción** - [Introducción a las campañas](get-started-with-campaigns.md) | [Cree su primera campaña de acción](create-campaign.md) | [Guía de campañas activadas por API](api-triggered-campaigns.md) | [Guía de campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configuración de campaña** - [Propiedades de la campaña](campaign-properties.md) | [Acciones de campaña y canales](campaign-action.md) | [Diseño de contenido de campaña](campaign-content.md) | [Selección de audiencia de campaña](campaign-audience.md) | [Programación de campaña](campaign-schedule.md)
+* **Configuración de campaña** - [Propiedades de la campaña](campaign-properties.md) | [Acciones y canales de campaña](campaign-action.md) | [Diseño de contenido de campaña](campaign-content.md) | [Selección de audiencia de campaña](campaign-audience.md) | [Programación de campañas](campaign-schedule.md)
 
 * **Funciones avanzadas** - [Flujos de trabajo de aprobación](../test-approve/gs-approval.md) | [Administración de conflictos y priorización](../conflict-prioritization/gs-conflict-prioritization.md) | [Límite de frecuencia por canal](../conflict-prioritization/channel-capping.md) | [Puntuaciones de prioridad](../conflict-prioritization/priority-scores.md) | [Exportar campañas a otras zonas protegidas](../configuration/copy-objects-to-sandbox.md)
 

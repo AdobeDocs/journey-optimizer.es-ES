@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 21%
@@ -60,8 +60,8 @@ Se puede acceder a todos los fragmentos creados desde el menú de la izquierda *
 
 Aprenda a administrar, crear y usar **fragmentos visuales** en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3451185/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 Obtenga información sobre cómo administrar, crear y usar **fragmentos de expresiones** en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3438920/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

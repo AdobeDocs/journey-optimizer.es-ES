@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear reglas de límite para los r
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 18%
@@ -115,8 +115,8 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

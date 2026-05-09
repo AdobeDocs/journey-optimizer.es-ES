@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '999'
+ht-degree: 92%
 
 ---
 
@@ -128,7 +128,7 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 ### Recursos de marca
 
 * Cargue el recurso de marca para disponer de contenido preciso y acorde con el contenido de la marca. Si no, el contenido se basa en información pública. El contenido cargado puede estar en los siguientes formatos: archivos PDF, JPEG, PNG o ZIP (con formatos de archivo compatibles).
-* El tamaño máximo del recurso de marca cargado es de 50 MB.Los archivos más grandes o muchas imágenes pueden funcionar, pero aumenta el tiempo de procesamiento.
+* El tamaño máximo del recurso de marca cargado es de 50 MB. Los archivos más grandes o muchas imágenes pueden funcionar, pero aumenta el tiempo de procesamiento.
 * Puede cargar varios recursos de marca, pero solo puede utilizar uno para una generación específica.
 
 ### Plantillas de correo electrónico e imágenes

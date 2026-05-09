@@ -10,9 +10,9 @@ level: Intermediate
 keywords: segmentación, reglas, recorrido, ruta, optimización, personalización
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '812'
 ht-degree: 7%
 
 ---
