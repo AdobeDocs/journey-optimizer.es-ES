@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: exportación, mensajes, conjunto de datos, esquema, correos electrónicos, SMS
-source-git-commit: 15e9700f5c226418ae13ed4991d58c603611136d
+source-git-commit: 9c3baf2558f81eb105c5bfbd98be6ede4ba49c65
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 3%
@@ -454,5 +454,3 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
 **Tipo:** dateTime
 
 +++
-
-
