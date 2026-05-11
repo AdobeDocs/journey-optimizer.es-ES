@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
       + Fragmentos de contenido de Experience Manager {#aem}
          + [Introducción a los fragmentos de contenido de Experience Manager](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[Configurar el repositorio para los fragmentos de contenido](using/integrations/aem-admin-settings.md)
          + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
          + [Consideraciones y solución de problemas](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Trabajar con el Asesor de contenido de Experience Manager](using/content-management/aem-content-advisor.md)
