@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
+source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3311'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Trabajar de manera eficaz {#work-efficiently}
       + [Navegación por la interfaz](using/start/user-interface.md)
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
-      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accesibilidad](using/start/accessibility.md)
       + {hide-from-toc}[Recorridos vs. Campañas](using/start/journeys-vs-campaigns.md)
 + Recorridos {#orchestrate-journeys}
@@ -896,6 +896,7 @@ ht-degree: 90%
    + [Introducción a la configuración de canales](using/configuration/get-started-configuration.md)
    + [Creación de configuraciones de canal](using/configuration/channel-surfaces.md)
    + [Exportar contenido del mensaje](using/configuration/message-export.md)
+   + {hide-from-toc}[Esquema de exportación de mensajes AJO](using/configuration/message-export-schema.md)
    + Configuración de canales guiada {#guided-setup}
       + [Introducción a la configuración de canales guiada](using/configuration/set-mobile-config.md)
       + [Creación de una configuración de canal](using/configuration/create-channel-set-up.md)
