@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2248fe8ed733afa359477cc3f4d80a3cf7732800
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 26%
+source-wordcount: 1461
+ht-degree: 24%
 
 ---
 
@@ -89,6 +96,14 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
    * Seleccione **[!UICONTROL Exclusión/baja externa]** para insertar un vínculo para cancelar la suscripción y evitar recibir comunicaciones de su marca. Obtenga más información acerca de la administración de la exclusión en [esta sección](email-opt-out.md#email-opt-out).
 
    * Seleccione **[!UICONTROL Página espejo]** para agregar un vínculo a la página espejo de correo electrónico. [Más información](#mirror-page)
+
+   * Seleccione **[!UICONTROL Vínculo profundo]** para insertar un vínculo a una aplicación móvil. Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación. [Más información](deeplinks.md)
+
+     >[!IMPORTANT]
+     >
+     >Antes de usar la vinculación profunda, asegúrese de completar los [pasos de configuración](deeplinks.md#configuration) correspondientes en Journey Optimizer e implementar la [administración de vínculos profundos](deeplinks.md#mobile-implementation) en su aplicación móvil. Si no lo ha hecho, el vínculo profundo no dirigirá a los usuarios al contenido incluido en la aplicación.
+     >
+     >Además, asegúrate de que el seguimiento de vínculos [está habilitado](#enable-tracking) para tu mensaje, de modo que la URL se reescriba a través de los sistemas Adobe.
 
 1. Introduzca la dirección URL deseada en el campo correspondiente o seleccione una página de aterrizaje y defina la configuración y los estilos del vínculo. [Más información](#adjust-links)
 
