@@ -8,10 +8,31 @@ role: Developer, Admin
 level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: 1032
+ht-degree: 90%
 
 ---
 
@@ -71,6 +92,13 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
   _Puntuaciones de optimización del tiempo de envío/Puntuaciones de participación_: resultados de inteligencia artificial aplicada a la trayectoria.
 
+* Entrante
+
+  _Conjunto de datos de evento de actividad entrante de AJO_: Almacena eventos de actividad entrantes para mensajes entrantes recibidos en [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos.
 
 ## Crear conjuntos de datos{#create-datasets}
 
@@ -97,7 +125,7 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 
 ## Ejemplos y casos de uso {#samples}
 
-* [Tutorial: Ingestar datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
+* [Tutorial: Ingesta de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=es){target="_blank"}
 * [Caso de uso de extremo a extremo](../audience/creating-test-profiles.md): crear un esquema, un conjunto de datos e ingerir datos para añadir perfiles de prueba en [!DNL Adobe Journey Optimizer]
 * [Ejemplos de consultas](../data/datasets-query-examples.md): conjuntos de datos de [!DNL Adobe Journey Optimizer] y casos de uso relacionados.
 
