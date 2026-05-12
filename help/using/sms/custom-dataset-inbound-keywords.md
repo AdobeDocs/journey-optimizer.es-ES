@@ -33,7 +33,7 @@ Para utilizar un conjunto de datos personalizado para la palabra clave entrante,
 
 Un esquema define la estructura y las reglas de validación que se aplican a los datos introducidos. Componga un esquema de Evento de experiencia para la colección de palabras clave de entrada agregando los grupos de campos existentes que se enumeran a continuación.
 
-➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
 
 1. En Adobe Experience Platform, desde **[!UICONTROL Administración de datos]**, acceda a **[!UICONTROL Esquemas]** y seleccione **[!UICONTROL Crear esquema]**.
 
