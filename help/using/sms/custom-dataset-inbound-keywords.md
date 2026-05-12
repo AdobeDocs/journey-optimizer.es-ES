@@ -6,16 +6,20 @@ description: Obtenga información sobre cómo almacenar palabras clave de SMS en
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '518'
+ht-degree: 8%
 
 ---
 
 # Usar un conjunto de datos personalizado para palabras clave entrantes {#custom-dataset-inbound-keywords}
 
 Las palabras clave de SMS entrantes se pueden almacenar en un conjunto de datos personalizado habilitado para perfiles. La configuración consiste en un esquema de Adobe Experience Platform, un conjunto de datos creado a partir de ese esquema y credenciales de la API de SMS de Journey Optimizer que hacen referencia al conjunto de datos para los mensajes entrantes.
+
+>[!NOTE]
+>
+>Si no se ha configurado ningún conjunto de datos personalizado, las palabras clave entrantes se almacenan en el sistema _AJO Inbound Activity Event Dataset_ de forma predeterminada. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets)
 
 Para obtener información general sobre esquemas, grupos de campos y conjuntos de datos, consulte la siguiente documentación de Adobe Experience Platform:
 
@@ -33,7 +37,7 @@ Para utilizar un conjunto de datos personalizado para la palabra clave entrante,
 
 Un esquema define la estructura y las reglas de validación que se aplican a los datos introducidos. Componga un esquema de Evento de experiencia para la colección de palabras clave de entrada agregando los grupos de campos existentes que se enumeran a continuación.
 
-➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
+➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. En Adobe Experience Platform, desde **[!UICONTROL Administración de datos]**, acceda a **[!UICONTROL Esquemas]** y seleccione **[!UICONTROL Crear esquema]**.
 

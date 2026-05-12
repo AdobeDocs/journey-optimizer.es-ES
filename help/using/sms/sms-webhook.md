@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,10 @@ Al configurar un gancho web, puede definir su propósito según el tipo de datos
 * **Entrante**: utilice esta opción si desea capturar las respuestas de consentimiento, como las inclusiones o las exclusiones, y recopilar las preferencias de usuario.
 
 * **Comentarios**: elija esta opción para realizar un seguimiento de los eventos de entrega y participación, incluidos los envíos, los errores salientes y las confirmaciones de lectura (si corresponde) para admitir la creación de informes y el análisis.
+
+>[!NOTE]
+>
+>Los datos de palabras clave entrantes se almacenan en el conjunto de datos del sistema _AJO Inbound Activity Event Dataset_, a menos que se configure un conjunto de datos personalizado. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que se puedan capturar los mensajes entrantes. [Más información](../data/get-started-datasets.md#system-datasets)
 
 Según el proveedor, habrá diferentes expectativas sobre lo que se debe configurar para tener una implementación correcta de SMS:
 
