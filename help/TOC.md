@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
+         + [Configuración de vínculos profundos en correos electrónicos](using/email/deeplinks.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introducción a in-app](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [Configuración de un proveedor personalizado](using/sms/sms-configuration-custom.md)
          + [Crear webhook](using/sms/sms-webhook.md)
          + [Creación de una configuración de SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
+         + [Usar un conjunto de datos personalizado para palabras clave entrantes](using/sms/custom-dataset-inbound-keywords.md)
    + Correo directo {#direct-mail}
       + [Correo directo](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
