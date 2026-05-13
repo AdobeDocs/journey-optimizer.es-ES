@@ -10,9 +10,16 @@ level: Beginner, Intermediate
 keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía, orquestación
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: 5499
 ht-degree: 1%
 
 ---
@@ -65,7 +72,7 @@ Los **[Recorridos](journey.md)** son orquestaciones de varios pasos que reaccion
 Un recorrido consta de:
 
 * **Eventos**: puntos de entrada que almacenan en déclencheur el recorrido (por ejemplo, calificación de perfiles, eventos empresariales)
-* **Actividades de orquestación**: componentes lógicos como condiciones, esperar, leer audiencia y finalizar
+* **Actividades de orquestación**: componentes lógicos como condiciones, esperar, leer audiencia, fragmentos de recorrido y finalizar
 * **Acciones**: actividades que realizan tareas, como enviar mensajes, actualizar perfiles o llamar a API externas
 * **Acciones de canal integradas**: Funciones de mensajería nativas para correo electrónico, SMS, push y otros canales
 * **Acciones personalizadas**: integración con sistemas de terceros
@@ -352,6 +359,29 @@ Más información sobre [administración de huso horario](timezone-management.md
 **Sugerencia**: Use reglas de límite de recorrido para limitar el número total de mensajes que un cliente recibe en todos los recorridos.
 
 Más información sobre [actividades de espera](wait-activity.md) y [límite de recorrido](../conflict-prioritization/journey-capping.md).
+
++++
+
++++ ¿Qué son los fragmentos de Recorrido y cuándo debo utilizarlos?
+
+**Los fragmentos de Recorrido** son conjuntos reutilizables de nodos de recorrido que se generan una vez y se insertan en cualquier recorrido de la zona protegida. Están disponibles como una actividad de orquestación en el lienzo de recorrido.
+
+**Cuándo usar fragmentos de Recorrido**:
+
+* Tiene una lógica que se repite en varios recorridos (por ejemplo, comprobaciones de elegibilidad, enrutamiento de canal preferido, secuencias de bienvenida)
+* Desea aplicar coherencia en todos los equipos: defina el patrón una vez y reutilícelo en todas partes
+* Desea acelerar la creación de recorridos evitando la reconstrucción de secuencias de nodos comunes desde cero
+
+**Comportamientos clave que hay que tener en cuenta**:
+
+* Al insertar un fragmento, se crea una **copia estática** de sus nodos — las actualizaciones del fragmento original son **no** propagadas a los recorridos que ya lo utilizan
+* Solo se pueden insertar **fragmentos activos** en un recorrido
+* Los fragmentos tienen ámbitos de zona protegida y admiten un máximo de 20 nodos y 200 fragmentos activos por zona protegida
+* No se permiten actividades [Jump](jump.md) dentro de un fragmento
+
+**Diferencia con la actividad de salto**: la [actividad de salto](jump.md) redirige los perfiles a otro recorrido activo durante la ejecución. Los fragmentos de recorrido copian nodos en el recorrido actual en tiempo de diseño: son un mecanismo de reutilización en tiempo de compilación, no de enrutamiento en tiempo de ejecución.
+
+Más información sobre [Fragmentos de Recorrido](journey-fragments.md).
 
 +++
 
@@ -904,8 +934,8 @@ A medida que los recorridos se acercan a 50 actividades, pueden llegar a ser muy
 
 **Práctica recomendada**: Mantenga sus recorridos centrados y manejables. Si su recorrido se está volviendo complejo, considere lo siguiente:
 
-* Desglose en varios recorridos con la actividad Jump
-* Creación de patrones reutilizables en recorridos más simples
+* Dividiéndolo en varios recorridos con la [actividad Jump](jump.md)
+* Extracción de lógica repetida en [fragmentos de Recorrido](journey-fragments.md) para reutilizarlos en varios recorridos sin volver a compilarlos desde cero
 * Simplificación de la lógica con condiciones más eficientes
 * Revisión de si todas las actividades son necesarias
 
