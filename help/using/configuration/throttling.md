@@ -70,7 +70,7 @@ Una vez descargado y cargado en Postman, debe agregar tres variables: `{JO_HOST}
 
 * `{JO_HOST}` : URL de puerta de enlace [!DNL Journey Optimizer].
 * `{BASE_PATH}` : punto de entrada para la API.
-* `{SANDBOX_NAME}` : el encabezado **x-sandbox-name** (por ejemplo, &quot;prod&quot;) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de la API. Consulte la [descripción general de las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"} para obtener más información.
+* `{SANDBOX_NAME}` : el encabezado **x-sandbox-name** (por ejemplo, &quot;prod&quot;) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de la API. Consulte la [descripción general de las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es){target="_blank"} para obtener más información.
 
 ## Configuración de limitación {#configuration}
 

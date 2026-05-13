@@ -53,11 +53,11 @@ ht-degree: 0%
 
 ### Configuración de permisos {#setup-permissions}
 
-Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
 
 >[!CAUTION]
 >
->La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas involucradas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información acerca de los permisos de **Etiquetas** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas involucradas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información acerca de los permisos de **Etiquetas** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -75,7 +75,7 @@ Para asignar los derechos de **Property** y **Company**, siga los pasos a contin
 
    ![](assets/push_product_1.png)
 
-1. Seleccione un **[!UICONTROL perfil de producto]** existente o cree uno nuevo con el botón **[!UICONTROL Nuevo perfil]**. Aprenda a crear un nuevo **[!UICONTROL nuevo perfil]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. Seleccione un **[!UICONTROL perfil de producto]** existente o cree uno nuevo con el botón **[!UICONTROL Nuevo perfil]**. Aprenda a crear un nuevo **[!UICONTROL nuevo perfil]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=es#ui){target="_blank"}.
 
 1. En la ficha **[!UICONTROL Permisos]**, seleccione **[!UICONTROL Derechos de propiedad]**.
 
@@ -121,7 +121,7 @@ Para asignar este **[!UICONTROL perfil de producto]** a los usuarios, siga los p
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -140,7 +140,7 @@ Los siguientes esquemas y conjuntos de datos están disponibles con el canal de 
 >
 >Cuando se incorporan eventos de seguimiento push en el conjunto de datos de evento de experiencia de seguimiento push de CJM, pueden producirse algunos errores, aunque los datos se incorporen parcialmente correctamente. Esto puede ocurrir si algunos campos de la asignación no existen en eventos entrantes: el sistema registra advertencias, pero no impide la ingesta de partes válidas de los datos. Estas advertencias aparecen en el estado del lote como &quot;fallido&quot;, pero reflejan el éxito de la ingesta parcial.
 >
->Para ver la lista completa de campos y atributos de cada esquema, consulte el [diccionario de esquemas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+>Para ver la lista completa de campos y atributos de cada esquema, consulte el [diccionario de esquemas de Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}.
 
 
 
@@ -236,7 +236,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=es).
 -->
 
 ## Paso 2: Crear una configuración de canal para push{#message-preset}
@@ -367,7 +367,7 @@ Después de configurar la aplicación móvil en Adobe Experience Platform y en [
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
+Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más información, consulte [Documentación de XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es#schemas-and-data-ingestion){target="_blank"}.
 
 1. En la sección de menú ADMINISTRACIÓN DE DATOS, haga clic en **[!UICONTROL Esquemas]**.
    ![](assets/test_push_1.png)
@@ -377,7 +377,7 @@ Para que este recorrido funcione, debe crear un esquema XDM. Para obtener más i
    ![](assets/test_push_3.png)
 1. En la sección **Grupos de campos**, a la izquierda, haga clic en **Agregar** y seleccione **[!UICONTROL Crear un nuevo grupo de campos]**.
 
-1. Escriba **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]**. Haga clic en **[!UICONTROL Agregar grupos de campos]** cuando haya terminado. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
+1. Escriba **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]**. Haga clic en **[!UICONTROL Agregar grupos de campos]** cuando haya terminado. Para obtener más información sobre cómo crear grupos de campos, consulte [Documentación del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=es){target="_blank"}.
 
 
    ![](assets/test_push_4.png)

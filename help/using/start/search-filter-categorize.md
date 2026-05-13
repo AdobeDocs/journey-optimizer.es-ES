@@ -74,7 +74,7 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 >title="Etiquetas"
 >abstract="Este campo le permite asignar etiquetas unificadas de Adobe Experience Platform a la campaña. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas."
 
-Con las [etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html) de Adobe Experience Platform, puede clasificar fácilmente los objetos de Journey Optimizer para mejorar la búsqueda desde las listas.
+Con las [etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=es) de Adobe Experience Platform, puede clasificar fácilmente los objetos de Journey Optimizer para mejorar la búsqueda desde las listas.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
@@ -127,7 +127,7 @@ Puede añadir o eliminar recorridos de cualquier tipo de campaña o campaña (en
 
 ### Administración de etiquetas {#manage-tags}
 
-Los administradores pueden eliminar etiquetas y organizarlas por categorías mediante el menú **[!UICONTROL Etiquetas]**, en **[!UICONTROL ADMINISTRACIÓN]**. Obtenga más información acerca de la administración de etiquetas en la [documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Los administradores pueden eliminar etiquetas y organizarlas por categorías mediante el menú **[!UICONTROL Etiquetas]**, en **[!UICONTROL ADMINISTRACIÓN]**. Obtenga más información acerca de la administración de etiquetas en la [documentación de etiquetas unificadas](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=es).
 
 >[!NOTE]
 >

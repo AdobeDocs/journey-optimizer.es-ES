@@ -125,7 +125,7 @@ La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la ofe
 
   >[!CAUTION]
   >
-  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
+  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
 Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
@@ -164,7 +164,7 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 >id="ajo_decisioning_capping"
 >title="Usar límite"
 >abstract="Para evitar solicitar en exceso a sus clientes, utilice la restricción para definir el número máximo de veces que se puede presentar una oferta. Se pueden crear hasta 10 reglas de límite para una oferta determinada."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="Cambiar fechas puede afectar al límite"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="Cambiar fechas puede afectar al límite"
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar solicitar en exceso a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
 
@@ -209,7 +209,7 @@ El campo **[!UICONTROL Elegir evento de límite]** le permite definir qué event
   >
   >El uso de impresiones como eventos de límite solo está disponible para **canales entrantes**.
 
-* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
+* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 

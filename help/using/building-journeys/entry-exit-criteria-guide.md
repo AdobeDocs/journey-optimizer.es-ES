@@ -157,11 +157,11 @@ Recopile información sobre la satisfacción del cliente y el rendimiento del pr
 
 Para obtener instrucciones de implementación paso a paso con detalles técnicos completos, explore estos casos de uso documentados:
 
-* **[recorrido de incorporación del cliente](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)**: cree experiencias de bienvenida personalizadas con calificación de audiencia, tiempo de espera de evento y salidas basadas en objetivos
+* **[recorrido de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)**: cree experiencias de bienvenida personalizadas con calificación de audiencia, tiempo de espera de evento y salidas basadas en objetivos
 
-* **[Recuperación del carro de compras abandonado](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)**: recupere las ventas perdidas con recorridos activados por eventos, libros de reproducción y enrutamiento de canales
+* **[Recuperación del carro de compras abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)**: recupere las ventas perdidas con recorridos activados por eventos, libros de reproducción y enrutamiento de canales
 
-* **[Campañas de renovación de participación](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)**: recupera clientes inactivos con direccionamiento según el comportamiento y activación de medios de pago
+* **[Campañas de renovación de participación](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)**: recupera clientes inactivos con direccionamiento según el comportamiento y activación de medios de pago
 
 * **[Enviar mensajes a los suscriptores](message-to-subscribers-uc.md)** - Listas de suscripción de Target con Audiencia de lectura y contenido personalizado
 
@@ -233,7 +233,7 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Tutoriales y ejemplos**
 
-[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo del carro de compras abandonado](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo del carro de compras abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
 
 **Funciones relacionadas**
 

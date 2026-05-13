@@ -50,7 +50,7 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 
 >[!NOTE]
 >
->También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
+>También puede ver el caso de uso de evento empresarial [tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Tenga en cuenta que no es necesario habilitar el esquema para el perfil.
 
 ## Notas importantes {#important-notes}
 
@@ -75,7 +75,7 @@ Los eventos empresariales siguen las reglas de reentrada del mismo modo que para
 
 **¿Cuáles son las protecciones para evitar la sobrecarga de audiencias materializadas?**
 
-En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información acerca de las audiencias en la [documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+En el caso de eventos empresariales puntuales, para un recorrido determinado, los datos insertados por el primer trabajo de evento se reutilizan durante un periodo de tiempo de 1 hora. Para los recorridos programados, no hay ninguna protección. Obtenga más información acerca de las audiencias en la [documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
 ## Introducción a los eventos empresariales {#gs-business-events}
 
@@ -127,7 +127,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
-La definición de carga útil permite elegir la información que el sistema espera recibir del evento en su recorrido y la clave para identificar a qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+La definición de carga útil permite elegir la información que el sistema espera recibir del evento en su recorrido y la clave para identificar a qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. Para obtener más información sobre XDM, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
 
 1. Seleccione un esquema XDM de la lista y haga clic en el campo **[!UICONTROL Campos]** o en el icono **[!UICONTROL Editar]**.
 
