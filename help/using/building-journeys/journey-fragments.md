@@ -10,9 +10,9 @@ level: Intermediate
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 badge: label="Disponibilidad limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Para guardar nodos de recorrido como un fragmento directamente desde el lienzo d
 
 Para crear un fragmento directamente desde el inventario:
 
-1. Vaya a **[!UICONTROL Recorridos]** > **[!UICONTROL Fragmentos]**.
-1. Haga clic en **[!UICONTROL Crear fragmento]**.
+1. Vaya a **[!UICONTROL Recorridos]** > **[!UICONTROL Fragmentos de Recorrido]** en la pestaña.
+1. Haga clic en **[!UICONTROL Crear fragmento de recorrido]**.
 1. En el lienzo de creación de fragmentos, añada y configure actividades de recorrido.
 1. Cuando termine, haga clic en **[!UICONTROL Guardar]** para guardar el fragmento como borrador.
 
