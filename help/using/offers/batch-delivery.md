@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
+TQID: https://experienceleague.adobe.com/N679HgdAi1Y-T2B7EYQtZoutJ-UeigNFza9fycFKCdA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b784da9a-7978-4766-bf1f-5ab2b23d894a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 5%
+source-wordcount: 884
+ht-degree: 6%
 
 ---
 
@@ -36,7 +42,7 @@ Antes de configurar una solicitud de trabajo, asegúrese de haber creado:
 
 * **Un conjunto de datos** en Adobe Experience Platform. Este conjunto de datos se utilizará para almacenar el resultado de la decisión mediante el esquema &quot;ODE DecisionEvents&quot;. Obtenga más información en la [documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es).
 
-* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en_es)
+* **Una audiencia** en Adobe Experience Platform. La audiencia debe evaluarse y luego actualizarse. Aprenda a actualizar la evaluación de pertenencia a audiencias en la [documentación del servicio de segmentación](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >

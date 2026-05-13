@@ -10,10 +10,15 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrwifXQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2787'
-ht-degree: 17%
+source-wordcount: 2787
+ht-degree: 0%
 
 ---
 
@@ -21,27 +26,27 @@ ht-degree: 17%
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="Acerca de las restricciones de oferta"
->abstract="Con las restricciones, se puede especificar cómo se prioriza la oferta y cómo se presenta al usuario en comparación con otras ofertas."
+>abstract="Con las restricciones, se puede especificar cómo se prioriza y presenta la oferta al usuario en comparación con otras ofertas."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="Acerca de la prioridad de las ofertas"
->abstract="En este campo, se puede especificar la configuración de prioridad de la oferta. La prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como idoneidad, fechas y límite."
+>title="Acerca de la prioridad de oferta"
+>abstract="En este campo, se puede especificar la configuración de prioridad para la oferta. Prioridad es un número que se utiliza para clasificar ofertas que cumplen todas las restricciones, como elegibilidad, fechas y límite."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Establecer prioridad"
->abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas."
+>abstract="La prioridad ayuda a definir la prioridad de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto más alta sea la prioridad de una oferta, más alta será su prioridad en comparación con otras ofertas."
 
 Las restricciones permiten definir las condiciones en las que se mostrará una oferta.
 
@@ -49,7 +54,7 @@ Las restricciones permiten definir las condiciones en las que se mostrará una o
 
    ![](../assets/offer-eligibility.png)
 
-1. Defina la **[!UICONTROL Prioridad]** de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto mayor sea la prioridad de una oferta, mayor será su prioridad en comparación con otras ofertas.
+1. Defina la **[!UICONTROL Prioridad]** de la oferta en comparación con otras si el usuario cumple los requisitos para más de una oferta. Cuanto más alta sea la prioridad de una oferta, más alta será su prioridad en comparación con otras ofertas.
 
    ![](../assets/offer-priority.png)
 
@@ -76,19 +81,19 @@ Por ejemplo, si establece las restricciones siguientes:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definir idoneidad"
->abstract="Por defecto, cualquier perfil podrá recibir la oferta, pero puede utilizar públicos o reglas de decisión para reservarla a perfiles específicos."
+>abstract="De forma predeterminada, cualquier perfil puede optar a la presentación de la oferta, pero se pueden utilizar audiencias o reglas de decisión para restringir la oferta a perfiles específicos."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="Acerca de la idoneidad de la oferta"
->abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios podrán recibir la oferta."
+>title="Acerca de los requisitos de oferta"
+>abstract="En esta sección, puede utilizar reglas de decisión para determinar qué usuarios cumplen los requisitos para la oferta."
 
-<!--additional-url="https://video.tv.adobe.com/v/341365?captions=spa" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Estimación de perfiles totales"
->abstract="Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados."
+>title="Estimación total del perfil"
+>abstract="Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados."
 
 La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la oferta a perfiles específicos que defina mediante audiencias o reglas de decisión.
 
@@ -112,9 +117,9 @@ La sección **[!UICONTROL idoneidad de la oferta]** le permite restringir la ofe
 
   >[!CAUTION]
   >
-  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#events){target="_blank"}, no podrá aprovecharla en una oferta.
+  >Actualmente no se admiten ofertas basadas en eventos en [!DNL Journey Optimizer]. Si crea una regla de decisión basada en un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, no podrá aprovecharla en una oferta.
 
-Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -128,11 +133,11 @@ Para aplicar una restricción, puede restringir la selección de ofertas a los m
 
 Básicamente, el resultado de una audiencia es una lista de perfiles, mientras que una regla de decisión es una función ejecutada a petición en un único perfil durante el proceso de toma de decisiones. A continuación se detalla la diferencia entre estos dos usos.
 
-* **Públicos**
+* **Audiencias**
 
   Por un lado, las audiencias son un grupo de perfiles de Adobe Experience Platform que coinciden con una lógica determinada en función de atributos de perfil y eventos de experiencia. Sin embargo, Administración de ofertas no vuelve a calcular la audiencia, que puede no estar actualizada al presentar la oferta.
 
-  Puede obtener más información sobre los públicos en [esta sección](../../audience/about-audiences.md).
+  Obtenga más información sobre las audiencias en [esta sección](../../audience/about-audiences.md).
 
 * **Reglas de decisión**
 
@@ -150,8 +155,8 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Usar límite"
->abstract="Para evitar molestar en exceso a sus clientes, utilice la restricción para definir el número máximo de veces que se puede presentar una oferta. Se pueden crear hasta 10 reglas de límite para una oferta determinada."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="Cambiar las fechas puede afectar al límite"
+>abstract="Para evitar solicitar en exceso a sus clientes, utilice la restricción para definir el número máximo de veces que se puede presentar una oferta. Se pueden crear hasta 10 reglas de límite para una oferta determinada."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="Cambiar fechas puede afectar al límite"
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar una oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar solicitar en exceso a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta.
 
@@ -196,7 +201,7 @@ El campo **[!UICONTROL Elegir evento de límite]** le permite definir qué event
   >
   >El uso de impresiones como eventos de límite solo está disponible para **canales entrantes**.
 
-* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
+* **[!UICONTROL Evento personalizado]**: puede definir un evento personalizado que se utilizará para limitar el número de ofertas enviadas. Por ejemplo, puede limitar el número de canjes hasta que sean iguales a 10 000 o hasta que un perfil determinado se haya canjeado 1 vez. Para ello, use [esquemas XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} de Adobe Experience Platform para generar una regla de evento personalizada.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
@@ -234,7 +239,7 @@ Puede especificar si desea que el límite se aplique a todos los usuarios o a un
 
   Por ejemplo, si es un banco con una oferta de &quot;tarjeta de crédito Platinum&quot;, no desea que esta oferta se muestre más de 5 veces por perfil. De hecho, cree que si el usuario ha visto la oferta 5 veces y no ha actuado en consecuencia, tiene una mayor oportunidad de actuar en la siguiente mejor oferta.
 
-### Recuento límite {#capping-count}
+### Recuento de límite {#capping-count}
 
 El campo **[!UICONTROL Límite de recuento de límite]** le permite especificar la cantidad de veces que se puede presentar la oferta.
 
@@ -246,12 +251,12 @@ El campo **[!UICONTROL Límite de recuento de límite]** le permite especificar 
 
 Por ejemplo, ha definido un evento de límite personalizado como, por ejemplo, el número de cierres de compra que se tiene en cuenta. Si introduce 10 en el campo **[!UICONTROL Límite de recuento de límite]**, no se enviarán más ofertas después de 10 cierres de compra.
 
-### Restricción de frecuencia {#frequency-capping}
+### Límite de frecuencia {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Definir la frecuencia de límite"
->abstract="Puede elegir restablecer el contador de límite de ofertas de forma diaria, semanal o mensual. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia que ha sido definida."
+>title="Definición de la frecuencia de límite"
+>abstract="Puede elegir restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. Tenga en cuenta que después de publicar la oferta con la restricción de frecuencia habilitada, no podrá cambiar la frecuencia definida."
 
 El campo **[!UICONTROL Restablecer frecuencia límite]** le permite definir la frecuencia con la que se restablece el recuento límite. Para ello, defina el periodo de tiempo para el recuento (diario, semanal o mensual) e introduzca el número de días/semanas/meses de su elección. Por ejemplo, si desea que el recuento límite se restablezca cada 2 semanas, seleccione **[!UICONTROL Semanalmente]** en la lista desplegable correspondiente y escriba **2** en el otro campo.
 
@@ -306,8 +311,8 @@ Si ha definido varias [representaciones](add-representations.md) para la oferta,
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Cambiar las fechas puede afectar al límite"
->abstract="Si se aplica un límite a esta oferta, este se puede ver afectado al cambiar la fecha de inicio o de finalización."
+>title="Cambiar fechas puede afectar al límite"
+>abstract="Si se aplica un límite a esta oferta, este puede verse afectado al cambiar la fecha de inicio o finalización."
 
 Debe proceder con cuidado al cambiar la fecha de una oferta, ya que esto puede tener un impacto en el límite si se cumplen las siguientes condiciones:
 

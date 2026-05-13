@@ -6,9 +6,15 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/7obMSbnxBNQoGUsf-g-v1dDipisLUw0ulGpx5UiUHxw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 522
 ht-degree: 1%
 
 ---
@@ -69,13 +75,13 @@ El recorrido basado en código toma el estado **[!UICONTROL Activo]** y ahora es
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-Tu campaña basada en código tiene el **[!UICONTROL estado]** [activo](../campaigns/manage-campaigns.md#statuses) y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
+Tu campaña basada en código tiene el **[!UICONTROL estado](../campaigns/manage-campaigns.md#statuses) [activo]** y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al contenido.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios pueden tardar hasta 15 minutos en estar disponibles.
 >
->Si ha definido una programación para su campaña basada en código, tiene el **[!UICONTROL estado]** [&#x200B; programado](../campaigns/manage-campaigns.md#statuses)hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña basada en código, tiene el **[!UICONTROL estado](../campaigns/manage-campaigns.md#statuses)]** programado[hasta que se alcance la fecha y la hora de inicio.
 
 ## Detener un recorrido o una campaña basados en código {#stop-code-based-experience}
 

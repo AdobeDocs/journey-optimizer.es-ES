@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Crear decisiones
-description: Más información sobre cómo crear decisiones
+title: Creación de decisiones
+description: Aprenda a crear decisiones
 badge: label="Heredado" type="Informative"
 feature: Decision Management
 topic: Integrations
@@ -10,18 +10,23 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 10%
+source-wordcount: 2569
+ht-degree: 0%
 
 ---
 
-# Crear decisiones {#create-offer-activities}
+# Creación de decisiones {#create-offer-activities}
 
 >[!TIP]
 >
->Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Las decisiones son contenedores para sus ofertas que aprovecharán el motor de decisión de ofertas para elegir la mejor y ofrecerla, según el objetivo de la entrega.
 
@@ -38,12 +43,12 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 * [Ofertas personalizadas](../offer-library/creating-personalized-offers.md)
 * [Ofertas de reserva](../offer-library/creating-fallback-offers.md)
 
-## Crear la decisión {#create-activity}
+## Creación de la decisión {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="Detalles de la decisión de oferta"
->abstract="Especifique el nombre de la decisión y defina una fecha y hora de inicio y finalización si es necesario. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, seleccione **[!UICONTROL Administrar acceso]**."
+>title="Detalles de decisión de oferta"
+>abstract="Especifique el nombre de la decisión y defina una fecha y hora de inicio y finalización si es necesario. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**."
 
 1. Acceda a la lista de decisiones y haga clic en **[!UICONTROL Crear decisión]**.
 
@@ -53,7 +58,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
    ![](../assets/activities-name.png)
 
-1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, seleccione **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
+1. Para asignar etiquetas de uso de datos principales o personalizadas a la decisión, selecciona **[!UICONTROL Administrar acceso]**. [Más información acerca del Control de acceso de nivel de objeto (OLAC)](../../administration/object-based-access.md)
 
 ## Definir ámbitos de decisión {#add-decision-scopes}
 
@@ -65,12 +70,12 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="Ubicación"
->abstract="Seleccione una ubicación a la que se enviarán las ofertas."
+>abstract="Seleccione una ubicación a la que se enviarían las ofertas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Criterios de evaluación"
->abstract="Los criterios de evaluación consisten en una colección de ofertas asociada con una restricción de idoneidad y un método de clasificación para determinar las ofertas que se mostrarán en la ubicación. La secuencia de los criterios de evaluación determina qué colección se evaluará primero. Se requiere al menos un criterio de evaluación."
+>abstract="Los criterios de evaluación consisten en una colección de ofertas asociada con una restricción de elegibilidad y un método de clasificación para determinar las ofertas que se mostrarán en la ubicación. La secuencia de criterios de evaluación determina qué colección se evaluará primero. Se requiere al menos un criterio de evaluación."
 
 1. Seleccione una ubicación en la lista desplegable. Se añadirá al primer ámbito de decisión de la decisión.
 
@@ -118,7 +123,7 @@ Antes de crear una decisión, asegúrese de que los componentes siguientes se ha
 
      Aprenda a crear una regla de decisión en [esta sección](../offer-library/creating-decision-rules.md).
 
-1. Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
+1. Al seleccionar audiencias o reglas de decisión, puede ver información sobre los perfiles cualificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
    >[!NOTE]
    >
@@ -317,7 +322,7 @@ La selección es la siguiente:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
 >title="Añadir una oferta de reserva"
->abstract="Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de elegibilidad de las ofertas."
+>abstract="Una vez definidos los ámbitos de decisión, defina la oferta de reserva que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de idoneidad de las ofertas."
 
 Después de definir los ámbitos de decisión, defina la [oferta de reserva](../offer-library/creating-fallback-offers.md) que se presentará como último recurso a los clientes que no coincidan con las restricciones y reglas de idoneidad de las ofertas.
 
@@ -408,10 +413,10 @@ Esto le permite acceder a información detallada para esa decisión. Seleccione 
 
 ![](../assets/decision_information.png)
 
-## Vídeo práctico{#video}
+## Vídeo explicativo{#video}
 
 Obtenga información sobre cómo crear actividades de oferta en administración de decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/346692?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

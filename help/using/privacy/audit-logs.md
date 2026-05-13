@@ -7,9 +7,16 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+TQID: https://experienceleague.adobe.com/Usk3qin9P4IZlKw-gEI4zaKO-aRtaKq9-0GMVlOecjA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 342
 ht-degree: 100%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Para ver y exportar el registro de la auditoría, debe tener **[!DNL View User Activity Log]** permiso para hacerlo. [Más información](../administration/ootb-product-profiles.md)
+>Para ver y exportar el registro de auditoría, debe tener **[!DNL View User Activity Log]** permiso para hacerlo. [Más información](../administration/ootb-product-profiles.md)
 
 Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuarios en el sistema en distintos servicios y funcionalidades, como recorridos, mensajes, páginas de destino, etc.
 
@@ -54,7 +61,7 @@ La siguiente tabla indica qué acciones y sobre qué recursos de Journey Optimiz
 | Subdominio de AJO | Creación/eliminación/actualización |
 | Lista de supresión de AJO | Creación/eliminación/descarga de CSV |
 | Grupo de campos | Creación/eliminación/actualización |
-|  Recorrido  | Creación/eliminación/actualización/detención/publicación |
+| Recorrido | Creación/eliminación/actualización/detención/publicación |
 | Acción personalizada de recorrido | Creación/eliminación/actualización |
 | Fuente de datos de recorrido | Creación/eliminación/actualización |
 | Evento de recorrido | Creación/eliminación/actualización |

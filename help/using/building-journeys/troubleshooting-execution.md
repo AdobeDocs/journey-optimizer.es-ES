@@ -10,9 +10,16 @@ level: Intermediate
 keywords: solución de problemas, solución de problemas, recorrido, comprobación, errores
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: 2232
 ht-degree: 11%
 
 ---
@@ -31,7 +38,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -61,7 +68,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * **Evento descartado - no se cumple la condición de calificación** - Para los eventos basados en reglas, si la **condición de calificación** no se cumple con la carga útil del evento (por ejemplo, falta un campo obligatorio o está vacío, o falla una condición como `isNotEmpty` en un campo), el evento se **recibe pero se descarta** y el recorrido no se activa. Los registros y los seguimientos de Splunk pueden mostrar que el evento se recibió pero se descartó porque no cumplía la condición de calificación, con códigos de descarte como `notSuitableInitialEvent`. Este es el comportamiento esperado: si no se cumple la condición de calificación, el evento se descarta y el recorrido no se activa para ese perfil. Compruebe que la carga útil de evento contiene los campos y valores esperados y que la regla de la configuración de evento coincide con los datos que envía. Si el evento se activa mediante una **acción personalizada** desde otro recorrido, consulte [Gestión de eventos de descarte y tiempos de espera inactivos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) en la solución de problemas de acciones personalizadas.
 
-&#x200B;>>
+>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidad del evento {#verify-event-identity-and-rule-data-types}
@@ -164,9 +171,9 @@ Se trata de un comportamiento esperado del sistema y **funciona según lo diseñ
 
 ### ¿Afecta a la ejecución del recorrido o a la entrega de mensajes?
 
-**No.**: el impacto se limita solamente al registro. [!DNL Adobe Journey Optimizer] tiene mecanismos de deduplicación integrados en la capa de ejecución de mensajes que garantizan:
+**Nº** El impacto se limita únicamente al registro. [!DNL Adobe Journey Optimizer] tiene mecanismos de deduplicación integrados en la capa de ejecución de mensajes que garantizan:
 
-* Solo se envía un mensaje (correo electrónico, SMS, notificación push, etc.) a cada perfil
+* Solo un mensaje (correo electrónico, SMS, notificación push, etc.) se envía a cada perfil
 * Las acciones se ejecutan solo una vez
 * La ejecución del recorrido se realiza correctamente
 

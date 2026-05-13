@@ -9,10 +9,15 @@ level: Experienced
 keywords: recorrido, campo, expresión, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 2%
+source-wordcount: 557
+ht-degree: 3%
 
 ---
 
@@ -24,9 +29,9 @@ Si utiliza caracteres especiales en un campo, debe utilizar comillas dobles o si
 
 * el campo comienza con caracteres numéricos
 * el campo comienza con el carácter &quot;-&quot;
-* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
+* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_
 
-Por ejemplo, si su campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Por ejemplo, si el campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field

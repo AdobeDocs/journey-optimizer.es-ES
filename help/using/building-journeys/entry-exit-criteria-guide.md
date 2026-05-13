@@ -9,9 +9,16 @@ level: Intermediate
 keywords: entrada, salida, criterios, recorrido, perfil, reentrada, prácticas recomendadas
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: 1670
 ht-degree: 0%
 
 ---
@@ -132,11 +139,11 @@ Recopile información sobre la satisfacción del cliente y el rendimiento del pr
 
 Para obtener instrucciones de implementación paso a paso con detalles técnicos completos, explore estos casos de uso documentados:
 
-* **[recorrido de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)**: cree experiencias de bienvenida personalizadas con calificación de audiencia, tiempo de espera de evento y salidas basadas en objetivos
+* **[recorrido de incorporación del cliente](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)**: cree experiencias de bienvenida personalizadas con calificación de audiencia, tiempo de espera de evento y salidas basadas en objetivos
 
-* **[Recuperación del carro de compras abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)**: recupere las ventas perdidas con recorridos activados por eventos, libros de reproducción y enrutamiento de canales
+* **[Recuperación del carro de compras abandonado](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)**: recupere las ventas perdidas con recorridos activados por eventos, libros de reproducción y enrutamiento de canales
 
-* **[Campañas de renovación de participación](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)**: recupera clientes inactivos con direccionamiento según el comportamiento y activación de medios de pago
+* **[Campañas de renovación de participación](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)**: recupera clientes inactivos con direccionamiento según el comportamiento y activación de medios de pago
 
 * **[Enviar mensajes a los suscriptores](message-to-subscribers-uc.md)** - Listas de suscripción de Target con Audiencia de lectura y contenido personalizado
 
@@ -204,12 +211,12 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 
 **Documentación técnica**
 
-[Administración de entrada de perfil](entry-management.md) | [Propiedades de Recorrido y criterios de salida](journey-properties.md) | [Cómo terminan los recorridos](end-journey.md) | [Identificadores suplementarios](supplemental-identifier.md) | [Diseñador de Recorridos](using-the-journey-designer.md)
+[Administración de entrada de perfil](entry-management.md) | [propiedades de Recorrido y criterios de salida](journey-properties.md) | [Cómo terminan los recorridos](end-journey.md) | [Identificadores adicionales](supplemental-identifier.md) | [Diseñador de Recorridos](using-the-journey-designer.md)
 
 **Tutoriales y ejemplos**
 
-[Casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo del carro de compras abandonado](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la comunidad: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=es)
+[casos de uso de Recorrido](jo-use-cases.md) | [Vídeo de incorporación del cliente](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vídeo del carro de compras abandonado](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog comunitario: Criterios de entrada y salida](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funciones relacionadas**
 
-[Eventos de calificación de audiencias](audience-qualification-events.md) | [Métricas y objetivos de éxito](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Optimizar actividad](optimize.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)
+[Eventos de calificación de audiencia](audience-qualification-events.md) | [Métricas de éxito y objetivos](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Optimizar actividad](optimize.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)

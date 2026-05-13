@@ -4,13 +4,15 @@ product: journey optimizer
 title: Trabajo con filtros predefinidos
 description: Obtenga información sobre cómo guardar, aplicar y administrar filtros predefinidos en campañas organizadas
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # Trabajo con filtros predefinidos {#predefined-filters}
 
@@ -39,7 +41,7 @@ Guarde un filtro personalizado del generador de reglas para que esté disponible
 
    ![](assets/predefined-filter-save-name.png)
 
-El filtro personalizado está ahora disponible en la lista **Filtros predefinidos**.
+El filtro personalizado ahora está disponible en la lista **Filtros predefinidos**.
 
 ## Uso de un filtro predefinido en una regla {#apply}
 
@@ -75,9 +77,9 @@ Cuando un filtro se guarda como favorito, aparece en la sección **[!UICONTROL F
 
 ![Sección de filtros favoritos](assets/predefined-filter-favorites.png)
 
-## Uso compartido de un filtro predefinido {#share-filter}
+## Compartir un filtro predefinido {#share-filter}
 
-De forma predeterminada, los filtros predefinidos que cree serán privados y solo podrán verlos los suyos. Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
+De forma predeterminada, los filtros predefinidos que cree serán privados y visibles solo para usted. Para que otros operadores de su organización puedan acceder a un filtro, habilite la opción **[!UICONTROL Filtro compartido]**.
 
 ![Opción de filtro compartido](assets/predefined-filter-shared.png)
 

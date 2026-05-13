@@ -8,9 +8,17 @@ topic: Administration
 role: User
 level: Beginner
 keywords: seguimiento, monitorización, análisis, sistema de informes, capacidad de entrega
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
+TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: 1962
 ht-degree: 3%
 
 ---
@@ -224,7 +232,7 @@ Las páginas de aterrizaje incluyen un seguimiento integrado que no requiere nin
 
 Más allá del seguimiento a nivel de canal, configure el seguimiento para medir el rendimiento general y comprender el comportamiento de los clientes en sus iniciativas de marketing.
 
-* **Definir métricas de éxito personalizadas**: configure KPI específicos alineados con los objetivos de su empresa (compras, suscripciones, renovaciones, etc.) más allá de las métricas de participación estándar. [Más información](../building-journeys/success-metrics.md)
+* **Definir métricas de éxito personalizadas**: configure KPI específicos alineados con sus objetivos empresariales (compras, suscripciones, renovaciones, etc.) más allá de las métricas de participación estándar. [Más información](../building-journeys/success-metrics.md)
 
 * **Habilitar eventos de paso de recorrido**: active el seguimiento detallado de cada acción que realizan los clientes a medida que pasan por los recorridos. Esto proporciona visibilidad granular de los puntos de entrada y salida, la selección de rutas y las ubicaciones de entrega. [Más información](../reports/journey-step-events-overview.md)
 
@@ -250,7 +258,7 @@ Journey Optimizer realiza automáticamente un seguimiento de los experimentos de
 
 * **Optimización de ruta de Recorrido**: Agregue una actividad **Optimizar** a su recorrido y configure varias rutas. Journey Optimizer realiza automáticamente un seguimiento de las rutas que toman los perfiles y mide el rendimiento. [Más información](../building-journeys/optimize.md)
 
-Para analizar los resultados: vea las tasas de conversión, la relevancia estadística y el alza entre tratamientos en los informes de experimentación, o compare las métricas de participación entre segmentos segmentados. [Informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) | [Informe de recorrido de experimentación](../reports/journey-global-report-cja-experimentation.md) | [informe de segmentación de Recorridos](../reports/journey-global-report-cja.md#targeting)
+Para analizar los resultados: vea las tasas de conversión, la relevancia estadística y el alza entre tratamientos en los informes de experimentación, o compare las métricas de participación entre segmentos segmentados. [Informe de campaña de experimentación](../reports/campaign-global-report-cja-experimentation.md) | [Informe de recorrido de experimentación](../reports/journey-global-report-cja-experimentation.md) | [Informe de segmentación de Recorridos](../reports/journey-global-report-cja.md#targeting)
 
 ### Seguimiento del rendimiento de decisiones {#decisioning-tracking}
 
@@ -297,4 +305,3 @@ Configure la monitorización proactiva para recibir notificaciones en tiempo rea
 * **Habilitar registros de auditoría** - Activar registros de auditoría para rastrear todas las acciones en los recursos para el cumplimiento y la solución de problemas. [Más información](../privacy/audit-logs.md)
 
 * **Supervisar integraciones**: realice un seguimiento del rendimiento de las acciones personalizadas y de la conectividad externa del sistema para identificar los problemas de integración de forma temprana. [Más información](../action/reporting.md)
-

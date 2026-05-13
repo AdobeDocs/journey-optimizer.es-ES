@@ -10,10 +10,17 @@ level: Beginner
 keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 4%
+source-wordcount: 1816
+ht-degree: 0%
 
 ---
 
@@ -25,12 +32,12 @@ Esta guía le ayuda a elegir según el estilo de ejecución, las necesidades de 
 
 ## Resumen de comparación rápida {#quick-overview}
 
-| Enfoque | Mejor para | Estilo de ejecución |
+| Aproximación | Mejor para | Estilo de ejecución |
 |----------|----------|-----------------|
 | **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | 1:1 orquestación: cada perfil a su propio ritmo |
 | **Campañas de acción** | Difusiones programadas o recurrentes a audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
 | **Campañas activadas por API** | Mensajes transaccionales o impulsados por eventos de sistemas externos | Ejecución bajo demanda: activada por una llamada de API con carga útil |
-| **Campañas orquestadas** | Flujos de trabajo por lotes complejos con segmentación de varias entidades | Lienzo por lotes: todos los perfiles procesados juntos |
+| **Campañas organizadas** | Flujos de trabajo por lotes complejos con segmentación de varias entidades | Lienzo por lotes: todos los perfiles procesados juntos |
 
 >[!TIP]
 >
@@ -40,7 +47,7 @@ Esta guía le ayuda a elegir según el estilo de ejecución, las necesidades de 
 
 Utilice esta tabla completa para comprender las diferencias clave:
 
-| Función | Recorridos | Campañas de acción | Campañas activadas por API | Campañas orquestadas |
+| Función | Recorridos | Campañas de acción | Campañas activadas por API | Campañas organizadas |
 |---------|----------|------------------|------------------------|----------------------|
 | **Propósito principal** | Organización de varios pasos 1:1 con contexto de cliente en tiempo real | Envío de mensajes único o recurrente a las audiencias | Mensajes transaccionales o impulsados por eventos iniciados por sistemas externos | Campañas por lotes de varios pasos con flujos de trabajo de segmentación complejos |
 | **Tipo de lienzo** | Lienzo 1:1: cada perfil viaja a su propio ritmo | Sin lienzo: ejecución de una sola acción | Sin lienzo: ejecución de una sola acción | Lienzo por lotes: todos los perfiles procesados juntos |
@@ -49,7 +56,7 @@ Utilice esta tabla completa para comprender las diferencias clave:
 | **Modelo de datos** | Perfil en tiempo real + datos de evento | Datos de perfil de audiencias de Experience Platform | Datos de carga útil de API con búsqueda de perfil opcional | Datos relacionales de varias entidades (perfiles, productos, tiendas, reservas) |
 | **Segmentación** | Audiencias creadas previamente + condiciones en tiempo real | Audiencias creadas previamente desde Experience Platform | Segmentación impulsada por carga útil (sin audiencia programada) | Audiencias a petición creadas dentro del lienzo con recuentos exactos |
 | **Procesamiento de perfil** | Individual, en tiempo real (a medida que ocurren los eventos) | Lote, todo a la vez | Por llamada de API, impulsada por carga útil | Lote, todo junto con compatibilidad con varias entidades |
-| **Personalización** | Datos contextuales en tiempo real + atributos de perfil | Atributos de perfil | Datos de carga útil + atributos de perfil opcionales | Datos de varias entidades para una segmentación de precisión |
+| **Personalization** | Datos contextuales en tiempo real + atributos de perfil | Atributos de perfil | Datos de carga útil + atributos de perfil opcionales | Datos de varias entidades para una segmentación de precisión |
 | **Complejidad** | Varios pasos con ramificación, tiempos de espera y condiciones | Una sola acción o flujo de trabajo simple | Acción única con asignación de carga útil | Flujos de trabajo por lotes de varios pasos con segmentación, enriquecimiento y divisiones |
 | **Mejor para** | Recorridos del ciclo vital del cliente, incorporación, abandono del carro | Campañas promocionales, boletines informativos y anuncios | Confirmaciones de pedidos, alertas de envío y restablecimientos de contraseña | Campañas estacionales complejas, promociones de varios pasos y lanzamientos de productos |
 | **Tiempo** | Continuo, siempre activo una vez publicado | Fechas de inicio y finalización programadas | Bajo demanda, impulsado por evento mediante API | Ejecución por lotes según lo programado |
@@ -97,9 +104,9 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 | Anuncio promocional para todos los clientes | Campañas de acción | Mensaje único, envío inmediato |
 | Volver a atraer a usuarios inactivos según su comportamiento | Recorridos | Activado por calificación de audiencia, ruta personalizada |
 | Venta Flash activada por evento empresarial | Recorridos (evento empresarial) | Déclencheur en tiempo real que afectan a varios clientes |
-| Promoción de temporada con integración del catálogo de productos | Campañas orquestadas | Datos de varias entidades, segmentación compleja, recuento exacto |
+| Promoción de temporada con integración del catálogo de productos | Campañas organizadas | Datos de varias entidades, segmentación compleja, recuento exacto |
 | Mensaje transaccional activado por API | Campañas activadas por API | Déclencheur del sistema externo, envío inmediato |
-| Envío de varios niveles por reserva | Campañas orquestadas | Relaciones entre varias entidades, un mensaje por reserva |
+| Envío de varios niveles por reserva | Campañas organizadas | Relaciones entre varias entidades, un mensaje por reserva |
 
 ## Distinciones clave explicadas {#key-distinctions}
 
@@ -206,22 +213,22 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 
 ### Canales
 
-| Canal | Recorridos | Campañas de acción | Campañas activadas por API | Campañas orquestadas |
+| Canal | Recorridos | Campañas de acción | Campañas activadas por API | Campañas organizadas |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Correo electrónico | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ |
-| in-app | ✅ | ✅ | ✅ | ❌ |
+| En la aplicación | ✅ | ✅ | ✅ | ❌ |
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Basado en código | ✅ | ✅ | ❌ | ❌ |
 | Tarjetas de contenido | ✅ | ✅ | ❌ | ❌ |
 | Correo directo | ✅ | ✅ | ❌ | ✅ |
-| LINE | ✅ | ✅ | ✅ | ✅ |
+| LÍNEA | ✅ | ✅ | ✅ | ✅ |
 | WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Funciones avanzadas
 
-| Capacidad | Recorridos | Campañas de acción | Campañas activadas por API | Campañas orquestadas |
+| Capacidad | Recorridos | Campañas de acción | Campañas activadas por API | Campañas organizadas |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Flujos de trabajo de varios pasos | ✅ | ❌ | ❌ | ✅ |
 | Déclencheur en tiempo real | ✅ | ❌ | ✅ | ❌ |
@@ -233,7 +240,7 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 | Recuentos exactos previos al envío | ❌ | ❌ | ❌ | ✅ |
 | Segmentación bajo demanda | ❌ | ❌ | ❌ | ✅ |
 | Optimización del tiempo de envío | ✅ | ❌ | ❌ | ❌ |
-| Prueba A/B | ✅ | ✅ | ❌ | ❌ |
+| Pruebas A/B | ✅ | ✅ | ❌ | ❌ |
 | Flujos de trabajo de aprobación | ✅ | ✅ | ✅ | ❌ |
 
 ## Preguntas frecuentes {#common-questions}
@@ -279,9 +286,9 @@ Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar e
 
 +++
 
-## Próximos pasos {#next-steps}
+## Pasos siguientes {#next-steps}
 
-¿Listo para comenzar a crear? Explore la documentación detallada del enfoque elegido:
+¿Listo para empezar a construir? Explore la documentación detallada del enfoque elegido:
 
 * **[Introducción a Recorrido](../building-journeys/journey.md)**: tipos de Recorrido, diseñador y flujo de trabajo
 * **[Introducción a campañas](../campaigns/get-started-with-campaigns.md)**: campañas activadas por acciones y API

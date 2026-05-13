@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -29,7 +36,7 @@ La página del informe se muestra con las siguientes pestañas:
 * [Conjuntos de reglas](#rule-sets)
 * [Modelos de optimización](#optimization-models)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Características destacadas {#highlights}
 
@@ -143,7 +150,7 @@ La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona informac
 
 La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
 
-* **&#x200B;**&#x200B;[!UICONTROL Sin conflicto]&#x200B;**&#x200B;**: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
 
 * **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
 
