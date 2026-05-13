@@ -8,10 +8,53 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90c
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 75%
+source-wordcount: 1524
+ht-degree: 90%
 
 ---
 
@@ -28,20 +71,20 @@ Para acceder a Adobe Journey Optimizer, inicie sesión en [Adobe Experience Clou
 
 La interfaz de Journey Optimizer consta de cuatro áreas principales:
 
-![Página de inicio de Journey Optimizer que muestra las áreas de navegación izquierda, barra superior, área de trabajo principal y página principal](assets/ajo-home.png)
+![Página de inicio de Journey Optimizer que muestra las áreas de navegación izquierda, barra superior, espacio de trabajo principal y página principal](assets/ajo-home.png)
 
 1. **Navegación izquierda**: acceda a todas las funciones y características organizadas por función
 2. **Barra superior**: búsqueda universal, ayuda, notificaciones y configuración
 3. **Página de inicio**: acceso rápido a elementos recientes y recursos útiles
 4. **Espacio de trabajo principal**: donde crea y administra su contenido
 
-**Sugerencia:** Los nuevos usuarios pueden empezar desde la página **Inicio** para acceder a los elementos y casos de uso recientes, o usar el icono **Ayuda** de la barra superior para obtener orientación contextual.
+**Sugerencia:** los nuevos usuarios pueden empezar desde la página **Inicio** para acceder a los elementos y casos de uso recientes, o usar el icono **Ayuda** de la barra superior para obtener orientación contextual.
 
 ## Características de la barra superior {#top-bar}
 
 ### Búsqueda universal {#universal-search}
 
-Utilice el icono de búsqueda para encontrar rápidamente recorridos, campañas, recursos y otros objetos en Journey Optimizer. Escriba palabras clave para ver los resultados relevantes de todas las áreas de la plataforma. [Más información acerca de la búsqueda universal](search-filter-categorize.md#unified-search).
+Utilice el icono de búsqueda para encontrar rápidamente recorridos, campañas, recursos y otros objetos en Journey Optimizer. Escriba palabras clave para ver los resultados relevantes de todas las áreas de la plataforma. [Más información sobre la búsqueda universal](search-filter-categorize.md#unified-search).
 
 ### Ayuda y asistencia {#help}
 
@@ -56,15 +99,15 @@ La ayuda contextual muestra directrices relevantes para la pantalla que está vi
 
 ![Ejemplo de ayuda contextual](assets/do-not-localize/Context-help.gif)
 
-#### Directrices de tickets de asistencia {#support-ticket-guidelines}
+#### Pautas para los tickets de asistencia {#support-ticket-guidelines}
 
-Al ponerse en contacto con el soporte de Adobe, incluya lo siguiente para acelerar el análisis y la resolución de las causas principales:
+Al ponerse en contacto con la Asistencia de Adobe, incluya lo siguiente para acelerar el análisis y la resolución de las causas principales:
 
-* **Detalles del entorno**: nombre de la zona protegida, ID de organización y área de producto (por ejemplo, Recorridos, campañas, toma de decisiones)
-* **Nivel de impacto**: gravedad del problema (por ejemplo, producción bloqueada, funcionalidad limitada, cosmético)
+* **Detalles del entorno**: nombre de la zona protegida, ID de organización y área de producto (por ejemplo, Recorridos, Campañas, Toma de decisiones)
+* **Nivel de impacto**: gravedad del problema (por ejemplo, producción bloqueada, funcionalidad limitada, problema estético)
 * **Pasos de replicación**: instrucciones paso a paso y claras para reproducir el problema
 * **Registros o capturas de pantalla**: mensajes de error relevantes, ID de solicitud o capturas de pantalla que ilustran el problema
-* **ID relevantes**: ID de Recorrido, ID de campaña, ID de audiencia u otros identificadores de objeto relacionados con el problema
+* **ID relevantes**: ID de Recorrido, ID de campaña, ID de público u otros identificadores de objeto relacionados con el problema
 
 ### Notificaciones {#in-product-uc}
 
@@ -120,14 +163,14 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 
 | Sección | Objetivo |
 |---------|---------|
-| Administración de recorridos | Campañas, recorridos, informes |
+| Administración de recorrido | Campañas, recorridos, informes |
 | Gestión de decisiones | Ofertas y personalización |
-| Administración de contenido | Assets, plantillas, fragmentos, páginas de aterrizaje |
-| Administración de datos | Esquemas, conjuntos de datos y consultas |
+| Administración de contenido | Recursos, plantillas, fragmentos, páginas de destino |
+| Administración de datos | Esquemas, conjuntos de datos, consultas |
 | Conexiones | Fuentes y destinos |
-| Cliente | Audiencias, perfiles e identidades |
+| Cliente | Públicos, perfiles, identidades |
 | Privacidad | Políticas, solicitudes, auditoría |
-| Administración | Configuraciones, canales y zonas protegidas |
+| Administración | Configuraciones, canales, zonas protegidas |
 
 ### Secciones principales {#main-sections}
 

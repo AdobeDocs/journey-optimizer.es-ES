@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -131,7 +131,7 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 
 >[!MORELIKETHIS]
 >
->* [Introducción a la administración de datos en Journey Optimizer](gs-data.md)
+>* [Introducción a la gestión de datos en Journey Optimizer](gs-data.md)
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 >* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

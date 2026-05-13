@@ -2,31 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los recorridos
-description: 'Introducción a los recorridos: obtenga información acerca de los tipos de recorridos, el flujo de trabajo, las capacidades y las prácticas recomendadas para crear experiencias personalizadas para los clientes en  [!DNL Adobe Journey Optimizer]'
+description: 'Introducción a los recorridos: obtenga información acerca de los tipos de recorrido, el flujo de trabajo, las funcionalidades y las prácticas recomendadas para crear experiencias personalizadas con los clientes en  [!DNL Adobe Journey Optimizer]'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: recorrido, detección, inicio, unitario, leer público, calificación de público, evento empresarial, tiempo real, programado, por lotes, activado por evento, flujo de trabajo, orquestación, personalización, multicanal
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 80%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # Introducción a los recorridos {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Crear un recorrido"
->abstract="Utilice el lienzo de arrastrar y soltar para orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación de audiencia para lograr el máximo impacto."
+>abstract="Con un lienzo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creación de su primer recorrido"
 
 
-[!DNL Adobe Journey Optimizer] le permite crear recorridos de cliente personalizados y de varios pasos que se adaptan en tiempo real al comportamiento y las necesidades de su audiencia. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
+[!DNL Adobe Journey Optimizer] le permite crear recorridos para el cliente personalizados que constan de varios pasos y que se adaptan en tiempo real al comportamiento y las necesidades de su público. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
 
 Esta guía proporciona una hoja de ruta clara para ayudarle a comprender los aspectos básicos del recorrido, elegir el tipo de recorrido adecuado para su caso de uso y diseñar recorridos con confianza que proporcionen experiencias del cliente significativas y oportunas.
 
@@ -42,17 +75,17 @@ Use [!DNL Journey Optimizer] para:
 
 ![Interfaz del diseñador de recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
 
-➡️ **¿Listo para empezar a crear?** [Crea tu primer recorrido](journey-gs.md) en 5 minutos.
+➡️ **¿Todo listo para comenzar a crear?** [Cree su primer recorrido](journey-gs.md) en 5 minutos.
 
-### Recorridos frente a campañas: cuándo usar cada uno {#journeys-vs-campaigns-intro}
+### Recorridos vs. Campañas: cuándo usar cada uno {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] ofrece tres métodos para llegar a los clientes: **Recorridos** (1:1 orquestación en tiempo real), **Campañas** (entrega simple desencadenada por lotes o API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
+[!DNL Adobe Journey Optimizer] ofrece tres métodos para llegar a los clientes: **Recorridos** (1:1 orquestación en tiempo real), **Campañas** (envío simple por lotes o desencadenado por API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
 
 **Decisión rápida:**
 
 * Use **Recorridos** para experiencias de varios pasos impulsadas por el comportamiento en las que cada cliente progresa a su propio ritmo
-* Use **campañas activadas por acciones y API** para enviar mensajes simples, programados o activados a las audiencias
-* Utilice **campañas orquestadas** para flujos de trabajo por lotes complejos que requieren segmentación de varias entidades y recuentos exactos de preenvío
+* Use **Campañas de acción/desencadenado por API** para enviar mensajes simples, programados o desencadenados a los públicos
+* Use **Campañas orquestadas** para flujos de trabajo por lotes complejos que requieren segmentación de varias entidades y recuentos exactos previos al envío
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ Use [!DNL Journey Optimizer] para:
 
 ## Elija su tipo de recorrido {#journey-types}
 
-[!DNL Adobe Journey Optimizer] admite cuatro tipos de recorrido, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales:
+[!DNL Adobe Journey Optimizer] admite cuatro tipos de recorridos, cada uno diseñado para diferentes mecanismos de entrada y casos empresariales:
 
 * **Recorridos unitarios**: experiencias activadas por eventos en tiempo real (confirmaciones de pedidos, correos electrónicos de bienvenida)
 * **Leer recorridos de públicos**: Comunicaciones por lotes programadas para segmentos de público (boletines informativos, campañas promocionales)
@@ -157,12 +190,12 @@ La creación de recorridos exitosos sigue un proceso claro y repetible. Este es 
 
 Antes de abrir el diseñador, tenga claros sus objetivos:
 
-* **¿Cuál es el objetivo?** (por ejemplo, incorporar nuevos clientes, volver a atraer usuarios inactivos)
-* **¿Quién es la audiencia?** (segmento específico, personas impulsadas por eventos)
+* **¿Cuál es el objetivo** (por ejemplo, incorporar nuevos clientes, volver a atraer usuarios inactivos)
+* **¿Quién es el público?** (segmento específico, individuos impulsados por evento)
 * **¿Qué tipo de recorrido encaja?** (Ver [tipos de recorrido](#journey-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, etc.)
 
-### &#x200B;2. Diseño en el lienzo {#design}
+### &#x200B;2. Diseñe en el lienzo {#design}
 
 Utilice el diseñador de recorridos para crear el flujo:
 
@@ -174,7 +207,7 @@ Utilice el diseñador de recorridos para crear el flujo:
 
 [Aprenda a utilizar el diseñador de recorrido →](using-the-journey-designer.md)
 
-### &#x200B;3. Prueba antes de empezar {#test}
+### &#x200B;3. Pruebe antes de activarlos {#test}
 
 Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo experimenten:
 
@@ -185,7 +218,7 @@ Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo
 
 [Pruebe su recorrido →](testing-the-journey.md) | [Más información sobre el ensayo de recorrido →](journey-dry-run.md)
 
-### &#x200B;4. Publicación del recorrido {#publish}
+### &#x200B;4. Publique el recorrido {#publish}
 
 Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
@@ -195,7 +228,7 @@ Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
 [Publique su recorrido →](publish-journey.md)
 
-### &#x200B;5. Monitorización del rendimiento {#monitor}
+### &#x200B;5. Supervise el rendimiento {#monitor}
 
 Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
@@ -205,7 +238,7 @@ Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
 [Supervise e informe →](report-journey.md) | [Configure alertas →](../reports/alerts.md)
 
-### &#x200B;6. Optimizar e iterar {#optimize}
+### &#x200B;6. Optimice e itere {#optimize}
 
 Use perspectivas para mejorar:
 
@@ -216,7 +249,7 @@ Use perspectivas para mejorar:
 
 [Optimice los recorridos →](optimize.md) | [→ Optimización del tiempo de envío](send-time-optimization.md)
 
-➡️ **¿Listo para comenzar?** [Cree su primer recorrido ahora →](journey-gs.md)
+➡️ **¿Todo listo para comenzar?** [Cree su primer recorrido ahora →](journey-gs.md)
 
 ## Casos de uso reales {#use-cases}
 
@@ -362,7 +395,7 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
 
-➡️ **Quieres más videos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **¿Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Preguntas frecuentes {#common-questions}
 
@@ -376,7 +409,7 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 * **Campañas orquestadas**: flujos de trabajo por lotes de varios pasos con segmentación compleja que utiliza datos relacionales (perfiles + productos/tiendas/reservas). Todos los perfiles procesados junto con los recuentos exactos de preenvío. Ideal para promociones de temporada, lanzamientos de productos y campañas que requieren datos de varias entidades.
 
-**Diferencia clave**: los Recorridos mantienen el estado de cliente individual para acciones en tiempo real; las campañas activadas por acciones y API entregan mensajes simples en lote; las campañas orquestadas proporcionan lienzo de flujo de trabajo en lote con capacidades de segmentación de varias entidades.
+**Diferencia clave**: los recorridos mantienen el estado de cliente individual para acciones en tiempo real; las campañas de acción/desencadenadas por API entregan mensajes simples en lote; las campañas orquestadas proporcionan lienzo de flujo de trabajo en lote con capacidades de segmentación de varias entidades.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Más información sobre las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,7 +431,7 @@ Puede editar elementos limitados (nombre, contenido del mensaje), pero los cambi
 
 +++
 
-➡️ **Más preguntas?** [Ver las preguntas frecuentes sobre el Recorrido completo](journey-faq.md) con más de 40 respuestas detalladas
+➡️ **¿Más preguntas?** [Vea la lista completa de preguntas frecuentes sobre el recorrido](journey-faq.md) con más de 40 respuestas detalladas
 
 ## ¿Necesita ayuda? {#help}
 
@@ -423,4 +456,4 @@ Configure **[alertas de recorridos](../reports/alerts.md)** para recibir notific
 * **[Solucionar problemas de ejecución](troubleshooting-execution.md)**: problemas de ejecución del recorrido de depuración
 * **[Solución de problemas de actividades entrantes](troubleshooting-inbound.md)**: corrija problemas de entrada y calificación
 
-**¿Listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)
+**¿Todo listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)

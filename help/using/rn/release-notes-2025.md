@@ -69,7 +69,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de aterrizaje.</p>
+<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de destino.</p>
 <p>Cree, diseñe y administre formularios personalizados adaptados a sus necesidades en función de un conjunto de datos específico. A continuación, puede utilizar estos formularios en páginas de aterrizaje para añadir los atributos de perfil que elija al conjunto de datos definido para cada formulario.</p>
 <p>Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
@@ -215,7 +215,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
+<p>Ahora hay disponible un nuevo modo de mensajería transaccional de alto rendimiento en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Este modo también admite mensajes transaccionales sin hacer referencia ni crear perfiles de clientes, como compras sin registro, confirmación de pedidos, restablecimientos de contraseña, notificaciones de seguridad y otras notificaciones de servicio/operativas.</p>
 <p>Esta funcionalidad solo está disponible para el canal de correo electrónico, para organizaciones que han adquirido la oferta de complemento de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información.</p>
 <p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-high-throughput.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 22 de octubre de 2025</p>
@@ -586,7 +586,7 @@ You can now use AI models to optimize the best content in your email through the
 
   Fecha de disponibilidad: 29 de septiembre de 2025
 
-* Compatibilidad con **mTLS para el canal SMS**
+* **Compatibilidad con mTLS para el canal SMS**
 Al configurar un proveedor de SMS personalizado, ahora tiene la opción de habilitar la autenticación TLS mutua (mTLS), lo que requiere que tanto el cliente como el servidor confirmen mutuamente sus identidades antes de establecer una conexión segura. [Más información](../sms/sms-configuration-custom.md) - Fecha de disponibilidad: 23 de septiembre de 2025
 
 * **Esquemas relacionales**\
@@ -1204,7 +1204,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
+<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo del recorrido y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una futura versión.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
@@ -2113,7 +2113,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
+<p>Ahora puede crear contenido atractivo para sus páginas de destino, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información, consulte la <a href="../content-management/generative-full-content.md">documentación detallada</a>.</p>
 </td>

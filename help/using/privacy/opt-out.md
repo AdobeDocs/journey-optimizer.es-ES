@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -31,7 +51,7 @@ Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclu
 >
 >Además, puede aprovechar la **API de REST de supresión** de Journey Optimizer para controlar los mensajes salientes mediante supresión y listas de permitidos. [Obtenga información sobre cómo trabajar con la API de REST de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-### Comprobar estado de exclusión push {#push-opt-out-status}
+### Comprobación del estado de exclusión push {#push-opt-out-status}
 
 La exclusión push para aplicaciones móviles se gestiona en el nivel de dispositivo: cuando un usuario desactiva las notificaciones en su dispositivo, el token push se elimina de su perfil. La **presencia de un token push** en un perfil es, por lo tanto, el indicador de consentimiento push implícito.
 
@@ -43,7 +63,7 @@ Para verificar el estado de consentimiento push de un perfil en Adobe Experience
 
 >[!NOTE]
 >
->Para casos de uso de conformidad que requieran un seguimiento explícito del consentimiento push, use el atributo **`consents.marketing.push.val`** del grupo de campos [Consentimientos y preferencias](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. Un valor de `y` indica la inclusión explícita; `n` indica la exclusión explícita.
+>Para casos de uso de conformidad que requieran un seguimiento explícito del consentimiento push, use el atributo **`consents.marketing.push.val`** del [grupo de campos Consentimientos y preferencias](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"}. Un valor de `y` indica la inclusión explícita; `n` indica la exclusión explícita.
 
 Aprenda a administrar la exclusión en los mensajes de correo electrónico y SMS de Journey Optimizer en estas secciones:
 
@@ -82,7 +102,7 @@ Al aprovechar las ofertas, las preferencias de personalización no se implementa
 >
 >Los ámbitos de decisión utilizados en los canales creados de [!DNL Journey Optimizer] cumplen este requisito desde el recorrido o la campaña a los que pertenecen.
 
-1. Cree una [audiencia de Adobe Experience Platform](../audience/about-audiences.md) mediante el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y use un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (opción de inclusión)]** para segmentar usuarios que hayan aceptado la personalización.
+1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) mediante el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"} y use un atributo de perfil como **[!UICONTROL Personalizar contenido = Sí (inclusión)]** para segmentar usuarios que hayan aceptado la personalización.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ Para aplicar manualmente el consentimiento de personalización en las campañas,
 
 Puede usar el generador de reglas de segmentos para crear un público que contenga perfiles de exclusión.
 
-1. Crear una [audiencia de Adobe Experience Platform](../audience/about-audiences.md) mediante el [servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
+1. Cree un [público de Adobe Experience Platform](../audience/about-audiences.md) mediante el [Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -172,7 +192,7 @@ También puede añadir una comprobación de consentimiento de personalización a
 
 1. **[!UICONTROL Ruta 1]** será el público no personalizado. Elija una etiqueta relevante.
 
-1. Elija el valor apropiado de esta [lista](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}.
+1. Elija el valor apropiado en esta [lista](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=es#choice-values){target="_blank"}.
 
    En este caso utilizaremos `n` para indicar que los usuarios no consienten el uso de sus datos para la personalización.
 

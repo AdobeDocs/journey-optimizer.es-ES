@@ -9,10 +9,27 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -78,7 +95,7 @@ Ahora puede utilizar el Asistente de IA en Adobe Journey Optimizer para optimiza
 
 >[!IMPORTANT]
 >
->* Antes de empezar a usar esta capacidad, lea las [limitaciones y protecciones](#generative-guardrails) relacionadas.
+>* Antes de empezar a usar esta capacidad, lea los [Mecanismos de seguridad y limitaciones](#generative-guardrails) relacionados.
 >
 >
 >* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder utilizar el Asistente de IA de Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
@@ -119,7 +136,7 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 
 * Solo está disponible para los canales de correo electrónico, push, web y SMS.
 
-### Calidad del contenido, mensajes y comentarios
+### Calidad del contenido, indicaciones y comentarios
 
 * La calidad del contenido generado depende en gran medida del objetivo de marketing o indicación que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete con precisión. 
 * El contenido de GenAI podría no ser siempre preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
@@ -140,14 +157,14 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 * El uso que haga del asistente de IA está sujeto a las directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Como parte del compromiso de Adobe de fomentar la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplicará Content Credentials cuando se descargue o exporte contenido o un proyecto que incluya un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html)
 
-### Asistente de IA para expresiones de personalización {#ai-assistant-personalization-editor-guardrails}
+### El Asistente de IA para expresiones de personalización {#ai-assistant-personalization-editor-guardrails}
 
-Las siguientes protecciones se aplican a [AI Assistant para expresiones de personalización](generative-personalization-expressions.md) en el [!UICONTROL Editor de Personalization] y en el Designer de correo electrónico.
+Las siguientes protecciones se aplican a [Asistente de IA para expresiones de personalización](generative-personalization-expressions.md) en el [!UICONTROL Editor de Personalization] y en el Diseñador de correo electrónico.
 
-* **Offer and Experience Decisioning** — No compatible.
-* **Favoritos**: no compatible.
-* **Condiciones guardadas** — No admitidas.
-* **Fragmentos de contenido de Adobe Experience Manager**: no compatible.
+* **Oferta y Decisiones sobre experiencias**: no admitidos.
+* **Favoritos**: no admitido.
+* **Condiciones guardadas**: no admitido.
+* **Fragmentos de contenido de Adobe Experience Manager**: no admitido.
 
 ## Capacidades de generación de contenido del Asistente de IA {#generative-features}
 

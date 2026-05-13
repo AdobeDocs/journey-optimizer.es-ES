@@ -5,10 +5,20 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
+TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 51%
+source-wordcount: 984
+ht-degree: 100%
 
 ---
 
@@ -16,7 +26,7 @@ ht-degree: 51%
 
 ## Introducción a las políticas de aprobación {#gs}
 
-[!DNL Journey Optimizer] le permite configurar un proceso de aprobación que permite a los equipos de marketing asegurarse de que las campañas y los recorridos sean revisados y firmados por las partes interesadas correspondientes antes de su lanzamiento.
+[!DNL Journey Optimizer] posibilita configurar un proceso de aprobación que permita a los equipos de marketing asegurarse de que las partes interesadas revisan y aprueban las campañas y los recorridos antes de que se pongan en marcha.
 
 Las políticas de aprobación introducen un flujo de trabajo estructurado directamente en la interfaz de usuario, lo que elimina la necesidad de medios externos, como herramientas de administración de tareas o correo electrónico, y garantiza que todas las aprobaciones se administren y rastreen de forma centralizada.
 
@@ -26,9 +36,9 @@ Además, esta función proporciona un control mejorado sobre la publicación de 
 
 Antes de empezar, asegúrese de que se han configurado los permisos siguientes.
 
-Para aprobar y publicar recorridos y campañas, los usuarios necesitan los permisos **Aprobar y publicar campañas** y **Aprobar y publicar Recorridos**. [Más información](../administration/permissions.md)
+Para aprobar y publicar recorridos y campañas, los usuarios deben tener los permisos **Aprobar y publicar campañas** y **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
 
-+++  Obtenga información sobre cómo asignar permisos relacionados con la aprobación
++++  Aprenda a asignar permisos relacionados con la aprobación
 
 1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
@@ -60,15 +70,15 @@ El usuario recibirá un correo electrónico con instrucciones para acceder a su 
 
 El proceso de aprobación global es el siguiente:
 
-![Flujo del proceso de aprobación](assets/approval-process.png){zoomable="yes"}
+![Flujo de proceso de aprobación](assets/approval-process.png){zoomable="yes"}
 
 1. **Configuración de políticas de aprobación**
 
-   Un usuario administrador crea una política de aprobación y define las condiciones en las que la política debe aplicarse a recorridos o campañas. Por ejemplo, puede crear una directiva de aprobación que requiera que todas las campañas programadas creadas por un usuario determinado se aprueben antes de la activación. [Aprenda a crear políticas de aprobación](approval-policies.md)
+   Un administrador crea una política de aprobación y define las condiciones en las que debe aplicarse a recorridos o campañas. Por ejemplo, puede crear una política de aprobación que requiera que todas las campañas programadas creadas por un usuario determinado se aprueben antes de activarse. [Aprenda a crear políticas de aprobación](approval-policies.md)
 
 1. **Envío de campañas/recorridos para su aprobación**
 
-   Los creadores de campañas/recorridos crean un recorrido o campaña y la envían para su aprobación. La campaña o el recorrido entran en el estado “En revisión”, durante el cual no se pueden realizar ediciones a menos que se cancele la solicitud. [Aprenda a solicitar la aprobación](request-approval.md)
+   Los creadores de campañas/recorridos crean un recorrido o una campaña y la envían para su aprobación. La campaña o el recorrido entran en el estado “En revisión”, durante el cual no se pueden realizar ediciones a menos que se cancele la solicitud. [Aprenda a solicitar la aprobación](request-approval.md)
 
    >[!NOTE]
    >
@@ -88,39 +98,39 @@ Puede monitorizar todas las solicitudes de aprobación y cambio que se han envia
 
 +++¿Debo crear una política de aprobación para cada campaña o recorrido?
 
-No. Las políticas de aprobación son condicionales. Solo es necesario crear una directiva si desea aplicar la revisión a un conjunto específico de campañas o recorridos (por ejemplo, todas las campañas programadas creadas por un equipo específico). Si no se aplica ninguna directiva a una campaña o recorrido, el creador puede publicar directamente sin solicitar la aprobación.
+No. Las políticas de aprobación son condicionales. Solo es necesario crear una política si desea aplicar la revisión a un conjunto específico de campañas o recorridos (por ejemplo, todas las campañas programadas creadas por un equipo específico). Si no se aplica ninguna política a una campaña o recorrido, el creador puede publicar directamente sin solicitar la aprobación.
 
 +++
 
 +++¿Qué sucede si el aprobador no está disponible?
 
-La solicitud permanece &quot;en revisión&quot; hasta que un aprobador actúe en consecuencia. Puede cancelar la solicitud (devolviendo el elemento a &quot;Borrador&quot;) y volver a enviarla cuando el aprobador adecuado esté disponible. Los administradores también pueden actualizar la directiva de aprobación para agregar aprobadores adicionales.
+La solicitud permanece “en revisión” hasta que un aprobador actúe en ella. Usted puede cancelar la solicitud (devolviendo el elemento a “Borrador”) y volver a enviarla cuando el aprobador adecuado esté disponible. Los administradores también pueden actualizar la política de aprobación para añadir aprobadores adicionales.
 
 +++
 
 +++¿Puedo editar una campaña o un recorrido mientras está pendiente de aprobación?
 
-No. Una vez enviada para su aprobación, la campaña o el recorrido está en estado bloqueado &quot;En revisión&quot;. Para realizar cambios, el creador o un aprobador deben cancelar primero la solicitud. El elemento vuelve a &quot;Borrador&quot; y se puede editar antes de volver a enviarlo.
+No. Una vez enviada para su aprobación, la campaña o el recorrido está en estado bloqueado “En revisión”. Para realizar cambios, el creador o un aprobador deben cancelar primero la solicitud. El elemento vuelve a “Borrador” y se puede editar antes de volver a enviarlo.
 
 +++
 
-+++No veo el permiso Aprobar y publicar en la lista desplegable. ¿Qué debo comprobar?
++++No veo el permiso Aprobar y publicar en la lista desplegable, ¿qué debo comprobar?
 
-Asegúrese de añadir primero el recurso correcto. El permiso **Aprobar y publicar campañas** requiere que se agregue el recurso **Campañas** al rol y **Aprobar y publicar Recorridos** requiere el recurso **Recorridos**. Ambos deben añadirse por separado. [Aprenda a asignar permisos relacionados con la aprobación](#prerequisites)
+Asegúrese de añadir primero el recurso correcto. El permiso **Aprobar y publicar campañas** requiere que se añada el recurso **Campañas** a la función y **Aprobar y publicar Recorridos** requiere el recurso **Recorridos**. Ambos deben añadirse por separado. [Aprenda a asignar permisos relacionados con la aprobación](#prerequisites)
 
 +++
 
-+++¿Cómo determina [!DNL Journey Optimizer] qué directiva de aprobación se aplica si más de una directiva puede coincidir?
++++¿Cómo determina [!DNL Journey Optimizer] qué política de aprobación se aplica si más de una política puede coincidir?
 
-Cuando se pueden aplicar varias directivas de aprobación activas al mismo recorrido o campaña, la directiva **activada más recientemente** tiene prioridad. Los grupos de usuarios de aprobadores definidos en esa directiva son los que reciben las notificaciones y los que rigen la solicitud.
+Cuando se pueden aplicar varias políticas de aprobación activas al mismo recorrido o campaña, la política **activada más recientemente** tiene prioridad. Los grupos de usuarios de aprobadores definidos en esa política son los que reciben las notificaciones y los que rigen la solicitud.
 
 [Más información](approval-policies.md#multiple-policies)
 
 +++
 
-+++Si un solicitante pertenece a varios grupos de usuarios, ¿puede elegir a qué grupo se envía la solicitud de aprobación?
++++Si un solicitante pertenece a varios grupos de usuarios, ¿puede este solicitante elegir a qué grupo se envía la solicitud de aprobación?
 
-No. Los solicitantes no pueden seleccionar manualmente qué grupo de usuarios recibe o enruta la solicitud de aprobación. Se notifica automáticamente a los grupos de usuarios especificados en la directiva de aprobación que se aplica (según la [prioridad de directiva](approval-policies.md#multiple-policies)).
+No. Los solicitantes no pueden seleccionar manualmente qué grupo de usuarios recibe o enruta la solicitud de aprobación. Se notifica automáticamente a los grupos de usuarios especificados en la política de aprobación que se aplica (según la [prioridad de política](approval-policies.md#multiple-policies)).
 
 +++
 

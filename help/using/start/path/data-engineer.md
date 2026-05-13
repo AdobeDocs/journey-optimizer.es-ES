@@ -7,10 +7,35 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
@@ -24,7 +49,7 @@ Como **arquitecto de datos** o **ingeniero de datos**, usted configura y mantien
 
 >[!TIP]
 >
->¿Es nuevo en el uso de datos en Journey Optimizer? Comience con la información general de [Introducción a la administración de datos](../../data/gs-data.md) para comprender los esquemas, conjuntos de datos, identidades, el modelo de fragmentos de perfil y la lista de comprobación de preparación de datos completa antes de sumergirse en la configuración.
+>¿Es su primera vez en Journey Optimizer? Comience con la información general de [Introducción a la administración de datos](../../data/gs-data.md) para comprender los esquemas, conjuntos de datos, identidades, el modelo de fragmentos de perfil y la lista de comprobación de preparación de datos completa antes de adentrarse en la configuración.
 
 ## Pasos esenciales de configuración de datos
 
@@ -49,7 +74,7 @@ Siga estos pasos para configurar la base de datos para Journey Optimizer:
 
 1. **Configurar atributos calculados** (opcional). Cree atributos derivados a partir de datos de perfil para simplificar la segmentación y la personalización. Los atributos calculados calculan automáticamente métricas complejas como &quot;compras totales en los últimos 90 días&quot; o &quot;valor de pedido promedio&quot;. Conozca los [atributos computados](../../audience/computed-attributes.md).
 
-1. **Conjuntos de datos de exportación de mensajes** (opcional). Cuando la exportación de mensajes está habilitada en el nivel de configuración de canal, el contenido de los mensajes de correo electrónico y SMS enviados se exporta automáticamente a un conjunto de datos de Experience Platform dedicado para la conformidad, el archivado o el análisis descendente. Más información sobre [exportación de mensajes](../../configuration/message-export.md).
+1. **Conjuntos de datos de exportación de mensajes** (opcional). Cuando la exportación de mensajes está habilitada en el nivel de configuración de canal, el contenido de los mensajes de correo electrónico y SMS enviados se exporta automáticamente a un conjunto de datos de Experience Platform específico para la conformidad, el archivado o el análisis descendente. Más información sobre [exportación de mensajes](../../configuration/message-export.md).
 
 Además, para poder enviar mensajes en recorridos, debe configurar **[!UICONTROL Fuentes de datos]**, **[!UICONTROL Eventos]** y **[!UICONTROL Acciones]**. Obtenga más información [en esta sección](../../configuration/about-data-sources-events-actions.md).
 

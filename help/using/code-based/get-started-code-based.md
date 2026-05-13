@@ -6,9 +6,28 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '855'
+TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 954
 ht-degree: 100%
 
 ---
@@ -64,11 +83,11 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 * Edite el contenido utilizando el [editor de personalización](create-code-based.md#edit-code).
 * Necesita el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es){target="_blank"}, una implementación del lado del cliente, o la [API del servidor Edge Network de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es){target="_blank"}, una implementación del lado del servidor.
 * La experiencia basada en código requiere un trabajo de desarrollo previo en la implementación para garantizar que las aplicaciones puedan interpretar y entregar el contenido publicado en el perímetro por [!DNL Journey Optimizer] para estas ubicaciones. [Más información](code-based-surface.md)
-* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (banner principal, imagen principal, barra de menús, etc.) en las aplicaciones que deben modificarse para la personalización o para pruebas, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
+* Requiere más planificación y solo puede cambiar las cosas que especifican los desarrolladores. Por lo tanto, es esencial identificar los componentes (titular de inicio, imagen principal, barra de menú, etc.) en las aplicaciones que deben modificarse para la personalización o para pruebas, y trabajar con el equipo de desarrollo para crear la implementación necesaria para gestionar estos cambios.
 * Le permite utilizar contenido con código JSON.
 * Se centra en el desarrollador.
 
-## Funcionamiento {#how-it-works}
+## Cómo funciona {#how-it-works}
 
 >[!CAUTION]
 >
@@ -90,13 +109,13 @@ Los pasos clave para crear y ofrecer una experiencia basada en código se indica
 
 1. Crea un recorrido o campaña en [!DNL Journey Optimizer] utilizando esta configuración. [Descubra cómo](create-code-based.md#create-code-based-experience)
 
-1. Componga una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
+1. Redacte una experiencia especificando contenido para la configuración seleccionada mediante el editor de personalización de [!DNL Journey Optimizer]. [Descubra cómo](create-code-based.md#edit-code)
 
 1. Pruebe la experiencia basada en código. [Descubra cómo](test-code-based.md)
 
 1. Publíquela. [Descubra cómo](publish-code-based.md)
 
-1. Cuando su campaña o el recorrido de experiencias basadas en código estén activos, la implementación de la aplicación o página que solicita contenido para la superficie tiene que estar lista para poder recuperar y mostrar el contenido. 
+1. Cuando su campaña o el recorrido de experiencias basadas en código estén activos, la implementación de la aplicación o página que solicita contenido para la superficie tiene que estar lista para poder recuperar y mostrar el contenido.
 
    >[!INFO]
    >

@@ -7,10 +7,37 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d712382d-29ef-487a-93a7-cbebdd2ef24a
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
@@ -46,15 +73,15 @@ Al acceder a [!DNL Journey Optimizer] por primera vez, se le aprovisiona una zon
 Para permitir que los [Expertos en marketing](marketer.md) creen y envíen mensajes, acceda al menú **ADMINISTRACIÓN**. Examine el menú **[!UICONTROL Canales]** para establecer la configuración de canal.
 
 >[!NOTE]
->Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el producto [Permisos](../../administration/permissions.md){target="_blank"}. 
+>Como **Administrador del sistema**, si no puede ver el menú **[!UICONTROL Canales]** en [!DNL Journey Optimizer], actualice sus permisos en el producto [Permisos](../../administration/permissions.md){target="_blank"}.
 
 Siga estos pasos:
 
-1. **Establezca las configuraciones de canal**. Defina todos los parámetros técnicos necesarios para correo electrónico, SMS, notificaciones push, push web, correo directo y otros canales:
+1. **Establezca las configuraciones de canal**. Defina todos los parámetros técnicos necesarios para el correo electrónico, los SMS, las notificaciones push, push web, el correo postal y otros canales:
 
    * Defina la **configuración de notificaciones push** tanto en [!DNL Adobe Experience Platform] como en la recopilación de datos de Adobe Experience Platform. [Más información](../../push/push-gs.md)
 
-   * Configure **notificaciones push web** para enviar notificaciones a navegadores móviles y de escritorio. [Más información](../../push/push-configuration-web.md)
+   * Configure las **notificaciones push web** para enviar notificaciones a navegadores móviles y de escritorio. [Más información](../../push/push-configuration-web.md)
 
    * Cree **configuraciones de canal** para configurar todos los parámetros técnicos necesarios para el correo electrónico, SMS, push, en la aplicación, web y otros canales. [Más información](../../configuration/channel-surfaces.md)
 
@@ -62,7 +89,7 @@ Siga estos pasos:
 
    * Administre el número de días durante los cuales se realizan **reintentos** antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../../configuration/manage-suppression-list.md)
 
-   * Habilite la exportación de **mensajes** en el nivel de configuración de canal para archivar el contenido de mensajes de correo electrónico y SMS enviados cuando sea necesario (oferta de complementos). [Más información](../../configuration/message-export.md)
+   * Habilite la **exportación de mensajes** en el nivel de configuración de canal para archivar el contenido de mensajes de correo electrónico y SMS enviados cuando sea necesario (oferta de complementos). [Más información](../../configuration/message-export.md)
 
 1. **Delegue subdominios**: para cualquier nuevo subdominio que se vaya a utilizar en Journey Optimizer, el primer paso será delegarlo. [Más información](../../configuration/about-subdomain-delegation.md). Puede migrar subdominios desde CNAME a la delegación personalizada cuando sea necesario. [Más información](../../configuration/custom-subdomain-migration.md)
 
@@ -102,7 +129,7 @@ Su trabajo administrativo permite que todos los equipos tengan éxito:
 
 >[!TAB Apoye a los ingenieros de datos]
 
-Colaborar con [ingenieros de datos](data-engineer.md) en la administración de datos y el acceso a ellos. Revise la descripción general de [Introducción a la administración de datos](../../data/gs-data.md) para comprender los esquemas, conjuntos de datos y fuentes de datos que los ingenieros de datos necesitan configurar.
+Colabore con los [ingenieros de datos](data-engineer.md) en la administración de datos y el acceso. Revise la descripción general de la [Introducción a la administración de datos](../../data/gs-data.md) para comprender los esquemas, conjuntos de datos y fuentes de datos que los ingenieros de datos necesitan configurar.
 
 * Conceda permisos para la administración de datos y la creación de esquemas
 * Apruebe el acceso a la zona protegida para desarrollo y pruebas

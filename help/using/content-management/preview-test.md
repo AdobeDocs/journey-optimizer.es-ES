@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular cont
 
 >[!IMPORTANT]
 >
->Si usas **[!UICONTROL Simular contenido]** de una actividad de canal de **campaña orquestada**, consulta [Comprobar y probar tu contenido](../orchestrated/activities/channels.md#simulate-content-test-profiles) para obtener más información y notas importantes.
+>Si usa **[!UICONTROL Simular contenido]** de una actividad de canal de **campaña orquestada**, consulte [Comprobar y probar el contenido](../orchestrated/activities/channels.md#simulate-content-test-profiles) para obtener más información y notas importantes.
 
 ## Pruebas usando datos de perfiles de prueba o datos de entrada de muestra {#methods}
 
@@ -44,11 +44,11 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
   Puede utilizar perfiles de prueba para previsualizar el contenido, enviar pruebas de correo electrónico y comprobar la representación de correo electrónico. Si ha añadido campos personalizados, puede comprobar ahora cómo se muestran utilizando datos de perfil de prueba. Para obtener más información, consulte estas secciones:
 
-  ➡️ [Seleccionar perfiles de prueba](test-profiles.md)
-➡️ [Vista previa con perfiles de prueba](preview.md)
-➡️ [Enviar pruebas de correo electrónico](proofs.md)
-➡️ [Comprobar procesamiento de correo electrónico](rendering.md)
-➡️ [Previsualice y revise su correo electrónico (vídeo)](#video-preview)
+  ➡️ [Seleccionar perfiles de prueba](test-profiles.md)
+➡️ [Vista previa usando perfiles de prueba](preview.md)
+➡️ [Enviar pruebas de correo electrónico](proofs.md)
+➡️ [Comprobar representación de correo electrónico](rendering.md)
+➡️ [Vista previa y prueba del correo electrónico (vídeo)](#video-preview)
 
 * **Prueba de variaciones de contenido mediante datos de entrada de muestra**
 
@@ -68,7 +68,7 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 * **Previsualización del contenido con varias variantes condicionales**: al simular o procesar pruebas de correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede precisar de más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información sobre el contenido condicional en [esta página](../personalization/dynamic-content.md).
 
-## Vídeo práctico {#video-preview}
+## Vídeo tutorial {#video-preview}
 
 Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
