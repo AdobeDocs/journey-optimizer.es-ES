@@ -181,7 +181,7 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Las nuevas funciones y mejoras publicadas a principios de abril se anuncian junto con su fecha de disponibilidad.

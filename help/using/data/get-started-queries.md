@@ -35,9 +35,9 @@ El Editor de consultas admite el desarrollo de consultas para análisis y explor
 
 ![](assets/queries-home.png)
 
-Aprenda a utilizar el Editor de consultas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
+Aprenda a utilizar el Editor de consultas en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=es){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
->* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target="_blank"}
->* [Vídeo de información general sobre el servicio de consultas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}
+>* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
+>* [Vídeo de información general sobre el servicio de consultas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target="_blank"}

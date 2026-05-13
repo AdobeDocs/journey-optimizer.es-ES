@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Introducción a las políticas de gobernanza de datos {#gs}
 
-Con su [marco de trabajo de gobernanza de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de gobernanza de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
+Con su [marco de trabajo de gobernanza de etiquetado y aplicación del uso de datos (Data Usage Labeling and Enforcement, DULE)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=es){target="_blank"}, Adobe Experience Platform le permite administrar y aplicar directivas de gobernanza de datos en todos sus canales. Para ello, **etiqueta sus campos** y crea **acciones de marketing** para cada canal.
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de control de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta &quot;ePHI&quot; con una acción de marketing de &quot;direccionamiento de correo electrónico&quot;, asegurándose de que los campos etiquetados como &quot;ePHI&quot; no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear directivas de gobernanza de datos](#policy)
 
@@ -134,4 +134,4 @@ Los errores son visibles desde el botón **[!UICONTROL Alertas]**. Seleccione el
 
 Este cuadro de diálogo indica que la configuración actual de recorrido/campaña infringe una directiva de gobernanza de datos existente. Utilice el diagrama de linaje de datos para comprender qué otros cambios de configuración se deben realizar antes de activar el recorrido o la campaña.
 
-Encontrará información detallada en la [documentación de infracción de directiva de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+Encontrará información detallada en la [documentación de infracción de directiva de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.

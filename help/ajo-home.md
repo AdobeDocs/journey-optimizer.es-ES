@@ -57,7 +57,7 @@ Journey Optimizer ahora incluye **Campaign Orchestration**, una nueva funcionali
 
 ::::landing-cards-container
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Últimas notas de la versión
 
@@ -67,7 +67,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Primeros pasos
 
@@ -77,7 +77,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Guía completa de los Recorridos
 
@@ -87,7 +87,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
 
 Explicación y administración de campañas
 
@@ -97,7 +97,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Canales de comunicación
 
@@ -107,7 +107,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
 
 Administración de conflictos y priorización
 
@@ -136,11 +136,11 @@ Aprenda a priorizar y administrar los conflictos de comunicación entre campaña
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Información general de seguridad (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referencia de API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Diccionario de esquemas de Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descripción del producto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Información general de seguridad (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Referencia de API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Diccionario de esquemas de Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentación</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td>
 </tr></table>
 

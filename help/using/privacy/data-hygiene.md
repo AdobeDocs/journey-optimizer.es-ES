@@ -53,5 +53,5 @@ Antes de ejecutar eliminaciones a gran escala, valide y exporte los datos de env
 
 Para obtener más información sobre Privacy Service y cómo realizar operaciones del ciclo vital de datos, consulte la documentación de Adobe Experience Platform:
 
-* [Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Ciclo de vida de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)
+* [Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
+* [Ciclo de vida de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=es)
