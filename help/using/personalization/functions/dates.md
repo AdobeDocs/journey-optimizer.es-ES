@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: 1762
 ht-degree: 5%
 
 ---
@@ -245,15 +250,32 @@ La función `dateDiff` se usa para recuperar la diferencia entre dos fechas en n
 {%= dateDiff(datetime,datetime) %}
 ```
 
-<!--
-**Example**
++++Ejemplo: Días restantes hasta un evento
 
-The following operation gets all the values for the map `identityMap`.
+La siguiente operación devuelve el número de días entre hoy y una fecha futura almacenada en el perfil (por ejemplo, una fecha de finalización de suscripción o una fecha de evento):
 
 ```sql
-{%= values(identityMap) %}
+{%= dateDiff(getCurrentZonedDateTime(), stringToDate(profile.events.subscriptionEndDate)) %}
 ```
--->
+
++++
+
++++Ejemplo real: Cuenta atrás en la línea de asunto
+
+Use `dateDiff` para generar una cuenta atrás dinámica para las líneas de asunto o el contenido de correo electrónico:
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+{%#if daysLeft > 0%}
+Your points expire in {{daysLeft}} day{%#if daysLeft > 1%}s{%/if%} — use them before they're gone!
+{%else%}
+Your points have expired.
+{%/if%}
+```
+
+Salida (ejemplo): `Your points expire in 7 days — use them before they're gone!`
+
++++
 
 ## Día del mes {#day-month}
 
@@ -275,7 +297,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Día de la semana {#day-week}
 
-La función `dayOfWeek` se usa para recuperar el día de la semana.
+La función `dayOfWeek` se usa para recuperar el día de la semana. Devuelve un entero entre 1 (lunes) y 7 (domingo) según la norma ISO-8601.
 
 **Sintaxis**
 
@@ -283,15 +305,33 @@ La función `dayOfWeek` se usa para recuperar el día de la semana.
 {%= dayOfWeek(datetime) %}
 ```
 
-<!--
-**Example**
++++Ejemplo — Detectar fines de semana en contenido personalizado
 
-The following operation gets all the values for the map `identityMap`.
+Utilice esta función dentro del correo electrónico o el contenido para adaptar la mensajería en función del día. El operador de comparación en PQL es `=` (solo es igual a, no `==`):
 
-```sql
-{%= values(identityMap) %}
+```handlebars
+{%#if dayOfWeek(getCurrentZonedDateTime()) = 6 or dayOfWeek(getCurrentZonedDateTime()) = 7%}
+We're closed on weekends — your request will be processed on the next business day.
+{%else%}
+Our team will get back to you within 24 hours.
+{%/if%}
 ```
--->
+
+| Day | Valor devuelto |
+|-----|----------------|
+| Lunes | 1 |
+| Martes | 2 |
+| Miércoles | 3 |
+| Jueves | 4 |
+| Viernes | 5 |
+| Sábado | 6 |
+| Domingo | 7 |
+
++++
+
+>[!NOTE]
+>
+>`dayOfWeek()` está diseñado para **personalizar el contenido** (por ejemplo, adaptar el texto del cuerpo del correo electrónico en función del día). Si necesita **enrutar perfiles de forma diferente en un recorrido** según el día de la semana (por ejemplo, omitir fines de semana para una actividad de espera), use la opción integrada **Condición de tiempo → día de la semana** disponible directamente en la actividad Condición de recorrido. [Más información](../../building-journeys/condition-activity.md#date_condition)
 
 ## Día del año{#day-year}
 
@@ -303,15 +343,12 @@ La función `dayOfYear` se usa para recuperar el día del año.
 {%= dayOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++Ejemplo
 
-The following operation gets all the values for the map `identityMap`.
+* Entrada: `{%= dayOfYear(stringToDate("2024-03-15T00:00:00Z")) %}`
+* Salida: `75`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## Diferencia en segundos {#diff-seconds}
 
@@ -361,6 +398,22 @@ La función `extractMinutes` extrae el componente de minuto de una marca de tiem
 
 * Entrada: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * Salida: `19`
+
++++
+
++++Ejemplo real: mostrar el tiempo actual solo como HH:MM
+
+Combine `extractHours` y `extractMinutes` para representar solamente la parte de tiempo sin ninguna fecha, día o año:
+
+```handlebars
+{% let h = extractHours(getCurrentZonedDateTime()) %}
+{% let m = extractMinutes(getCurrentZonedDateTime()) %}
+Your appointment is confirmed for {{h}}:{%#if m < 10%}0{%/if%}{{m}}.
+```
+
+Salida (ejemplo): `Your appointment is confirmed for 14:05.`
+
+El protector de cero a la izquierda (`{%#if m < 10%}0{%/if%}`) garantiza que los minutos por debajo de 10 se muestren como dos dígitos (p. ej. `09` en lugar de `9`).
 
 +++
 
@@ -490,7 +543,7 @@ Al utilizar una marca de tiempo de un atributo de contexto de evento de recorrid
 
 * **Agrupe la marca de tiempo con`toDateTime()`**: `formatDate()` no reconoce automáticamente las marcas de tiempo de evento de contexto como valores de fecha y hora.
 * **Agrupar identificadores de evento numéricos en comillas invertidas**: si el identificador de evento es un número (por ejemplo, `1697323153`), debe especificarse con comillas invertidas en la ruta de acceso de la expresión; de lo contrario, el editor genera un error de sintaxis de PQL.
-* **Usar sintaxis de asignación `{% let %}`** — la sintaxis `{%= %}` en línea no admite este patrón. Asigne primero el resultado a una variable y después renderícelo con `{{varName}}`.
+* **Use la sintaxis `{% let %}` o `{%= %}`**: puede asignar el resultado a una variable con `{% let %}` y procesarla con `{{varName}}`, o usar directamente la sintaxis `{%= %}` en línea.
 
 ```handlebars
 {% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
@@ -626,15 +679,14 @@ La función `setDays` se usa para establecer el día del mes para la fecha y hor
 {%= setDays(datetime, day) %}
 ```
 
-<!--
-**Example**
++++Ejemplo
 
-The following operation gets all the values for the map `identityMap`.
+Establezca el día del mes en el primero:
 
-```sql
-{%= values(identityMap) %}
-```
--->
+* Entrada: `{%= setDays(stringToDate("2024-11-15T17:19:51Z"), 1) %}`
+* Salida: `2024-11-01T17:19:51Z`
+
++++
 
 ## Establecer horas{#set-hours}
 
@@ -646,15 +698,28 @@ La función `setHours` se usa para establecer la hora de la fecha y hora.
 {%= setHours(datetime, hour) %}
 ```
 
-<!--
-**Example**
++++Ejemplo: Definir una fecha y hora en una hora específica
 
-The following operation gets all the values for the map `identityMap`.
+* Entrada: `{%= setHours(stringToDate("2024-11-01T17:19:51Z"), 0) %}`
+* Salida: `2024-11-01T00:19:51Z`
+
++++
+
++++Ejemplo real: X días antes de una fecha de finalización dinámica
+
+Para dirigirse a un perfil X días antes de una fecha almacenada en su perfil (por ejemplo, caducidad de suscripción), utilice `addDays` con un valor negativo:
 
 ```sql
-{%= values(identityMap) %}
+{%= addDays(stringToDate(profile.subscription.endDate), -7) %}
 ```
--->
+
+Para normalizar también la hora a una hora fija (p. ej. 9 a. m.), combine con `setHours`:
+
+```sql
+{%= setHours(addDays(stringToDate(profile.subscription.endDate), -7), 9) %}
+```
+
++++
 
 ## Hasta la fecha y hora {#to-date-time}
 
@@ -771,15 +836,12 @@ La función `weekOfYear` se usa para recuperar la semana del año.
 {%= weekOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++Ejemplo
 
-The following operation gets all the values for the map `identityMap`.
+* Entrada: `{%= weekOfYear(stringToDate("2024-11-01T17:19:51Z")) %}`
+* Salida: `44`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## Diferencia de años {#diff-years}
 

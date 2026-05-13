@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: 1955
 ht-degree: 6%
 
 ---
@@ -658,10 +663,34 @@ La función `replaceAll` se usa para reemplazar todas las subcadenas de un texto
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Obtenga más información en [Documentación de Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
+
++++Ejemplo: reemplazo básico
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+Devuelve `Hello AJO`.
+
++++
+
++++Ejemplo real: reasignación de variables después de replaceAll
+
+`replaceAll` devuelve una nueva cadena pero no modifica el valor original. Para reutilizar la cadena limpiada varias veces, asigne el resultado a una variable mediante `{% let %}`:
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+La asignación `{% let %}` almacena el resultado de `replaceAll`, por lo que se puede hacer referencia a él como `{{cleanName}}` sin volver a llamar a la función. Este es el patrón correcto: no se admite encadenar `replaceAll` dentro de sí mismo o intentar reasignar a la misma variable de perfil.
+
++++
 
 ## Guarnecido derecho {#rightTrim}
 
