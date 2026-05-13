@@ -1,26 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de vínculos profundos en mensajes de correo electrónico
-description: Obtenga información sobre cómo añadir vínculos profundos al contenido del correo electrónico y cómo implementar la gestión de vínculos profundos en aplicaciones de iOS y Android.
-feature: Email
+title: Uso y configuración de vínculos profundos en mensajes de correo electrónico y SMS
+description: Obtenga información sobre cómo añadir vínculos profundos al contenido de correo electrónico y SMS y cómo implementar la gestión de vínculos profundos en aplicaciones de iOS y Android.
+feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de la aplicación, correo electrónico
-source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
+keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
 
 
-# Configuración de vínculos profundos en correos electrónicos {#email-deeplinks}
+# Uso y configuración de vínculos profundos en correos electrónicos y SMS {#deeplinks}
 
-Los enlaces profundos en correos electrónicos le ayudan a llevar los destinatarios de un correo electrónico a una pantalla o fragmento de contenido específico en su aplicación móvil. Ayuda a llevar a las personas directamente a la experiencia en la aplicación deseada, sin enrutarlas a través de un explorador web o una tienda de aplicaciones, de modo que el recorrido sigue siendo relevante y se adapta a la marca.
-
-Para agregar un vínculo profundo a un correo electrónico, asegúrese de que el seguimiento de vínculos [esté habilitado](message-tracking.md#enable-tracking). Seleccione el elemento que desea vincular (texto, botón o imagen) en el Designer de correo electrónico, haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual y elija **[!UICONTROL Vínculo profundo]** para introducir su URL de vínculo profundo. [Más información sobre cómo insertar vínculos](message-tracking.md#insert-links)
+Los vínculos profundos le ayudan a llevar los destinatarios de un mensaje de correo electrónico o SMS a una pantalla o fragmento de contenido específico en su aplicación móvil. Ayuda a llevar a las personas directamente a la experiencia en la aplicación deseada, sin enrutarlas a través de un explorador web o una tienda de aplicaciones, de modo que el recorrido sigue siendo relevante y se adapta a la marca.
 
 Cuando los destinatarios hacen clic en el vínculo profundo, se les redirige directamente al contenido previsto en la aplicación: **siempre que haya completado los pasos de configuración** detallados en esta página, que abarcan:
 
@@ -31,9 +29,37 @@ Cuando los destinatarios hacen clic en el vínculo profundo, se les redirige dir
 >
 >[!DNL Adobe Journey Optimizer] admite la vinculación profunda tanto para iOS como para Android mediante direcciones URL rastreadas (`/ee/v1/mclick/*`) para garantizar la compatibilidad y el rastreo de clics.
 
+## Creación de vínculos profundos {#authoring}
+
+### Correo electrónico {#authoring-email}
+
+Para los mensajes de correo electrónico, tiene dos opciones para insertar un vínculo profundo:
+
+* **Enviar correo electrónico a Designer**: Asegúrate de que el seguimiento de [vínculos está habilitado](message-tracking.md#enable-tracking). Seleccione el elemento que desea vincular (texto, botón o imagen), haga clic en **[!UICONTROL Insertar vínculo]** en la barra de herramientas contextual y elija **[!UICONTROL Vínculo profundo]** para introducir su URL de vínculo profundo. [Más información sobre cómo insertar vínculos](message-tracking.md#insert-links)
+
+* **Editor de Personalization (código)**: inserte el vínculo profundo directamente en HTML utilizando el siguiente fragmento de código:
+
+  ```html
+  <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
+  ```
+
+  Reemplace `<<deeplink_url>>` por su dirección URL de vinculación profunda real y utilice un `id` único para cada bloque a fin de evitar conflictos.
+
+### SMS {#authoring-sms}
+
+Para los SMS, los vínculos profundos se crean mediante la función de ayuda **Url** en el editor de personalización. Más información sobre cómo agregar vínculos al contenido de SMS en [esta sección](../sms/create-sms.md#sms-content).
+
+Para insertar vínculos profundos en contenido SMS, utilice la siguiente sintaxis:
+
+```
+{{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
+```
+
+Reemplace `<<url>>` por su dirección URL de vinculación profunda real.
+
 ## Configuración en Journey Optimizer {#configuration}
 
-Para poder utilizar vínculos profundos en correos electrónicos para sus aplicaciones móviles, complete los pasos de configuración a continuación.
+Para poder utilizar vínculos profundos en correos electrónicos y SMS para sus aplicaciones móviles, complete los pasos de configuración a continuación.
 
 >[!NOTE]
 >
@@ -53,7 +79,7 @@ Para poder utilizar vínculos profundos en correos electrónicos para sus aplica
 
 >[!IMPORTANT]
 >
->La vinculación profunda a través de la infraestructura de correo electrónico de Adobe se aplica cuando el seguimiento de vínculos [está habilitado](message-tracking.md#enable-tracking). El rastreo de clics en vínculos profundos utiliza direcciones URL en `/ee/v1/mclick/*`, que Adobe aloja y resuelve.
+>La vinculación profunda a través de la infraestructura de Adobe se aplica cuando el seguimiento de vínculos está habilitado para su mensaje: en la [configuración de seguimiento de correo electrónico](message-tracking.md#enable-tracking) o en la sección **[!UICONTROL Seguimiento de acciones]** para campañas de SMS. El rastreo de clics en vínculos profundos utiliza direcciones URL en `/ee/v1/mclick/*`, que Adobe aloja y resuelve.
 >
 >Para **vínculos sin seguimiento**, la dirección URL no se reescribe a través de los sistemas de Adobe. Debe configurar los vínculos universales y los de la aplicación en sus propios dominios y alojamiento para que se abran correctamente en la aplicación.
 
@@ -64,7 +90,7 @@ En esta sección se explica cómo implementar vínculos profundos móviles con [
 * Abra una pantalla específica dentro de la aplicación móvil cuando esta esté instalada, o
 * Abra el sitio web como alternativa cuando la aplicación no esté instalada.
 
-Cuando el seguimiento de vínculos [está habilitado](message-tracking.md#enable-tracking) para el mensaje, [!DNL Journey Optimizer] continúa con el seguimiento de estos clics, los incluye en los informes y puede usarlos en [experimentos de contenido](../content-management/content-experiment.md) si los ejecuta en el mensaje.
+Cuando el seguimiento de vínculos está habilitado para el mensaje, [!DNL Journey Optimizer] continúa realizando el seguimiento de estos clics, los incluye en los informes y puede usarlos en [experimentos de contenido](../content-management/content-experiment.md) si los ejecuta en el mensaje.
 
 Esta sección proporciona patrones de implementación comunes para los vínculos profundos. La configuración exacta depende de la arquitectura de la aplicación y del marco de enrutamiento.
 
@@ -278,7 +304,7 @@ Valores de parámetro de consulta de codificación de URL. Esto reduce los probl
 
 * Cree una prueba con un vínculo profundo y haga clic en ella en dispositivos iOS y Android (escenarios instalados y no instalados).
 * Validar:
-   * El valor final del vínculo de correo electrónico (host/ruta/consulta)
+   * El valor final del vínculo de correo electrónico o SMS (host/ruta/consulta)
    * La asociación a nivel del sistema operativo (si se utilizan vínculos universales o de aplicación)
    * El resultado del enrutamiento en la aplicación
 

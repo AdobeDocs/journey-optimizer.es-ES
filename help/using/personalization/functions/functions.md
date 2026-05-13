@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2536'
 ht-degree: 2%
 
 ---
@@ -240,7 +240,7 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluta  </a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
+        <td><a href="math.md#absolute">Absoluta</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">Número de formato</a></td><td>Esta función da formato a cualquier número en su representación sensible al idioma.</td>
@@ -464,6 +464,9 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#url-parameter-encryption-helper">Cifrar</a></td><td>Cifra los valores de expresión de los parámetros de consulta de URL en el momento del procesamiento mediante una clave activa del registro de zona protegida </td>
     </tr>
     <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>Esta función administra las direcciones URL en el contenido del mensaje SMS; utilícela con <code>originalUrl</code> para acortar la dirección URL y <code>type='DEEPLINK'</code> para insertar vínculos profundos</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#with">Con</a></td><td>Esta función se utiliza para cambiar el token de evaluación de la plantilla-parte</td>
     </tr>
 </table>
@@ -533,4 +536,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
