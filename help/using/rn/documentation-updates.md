@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 96%
+source-wordcount: '7709'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 96%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Mayo de 2026 {#may-2026}
+
+* Se ha agregado una nueva página **Fórmulas de Personalization** que proporciona patrones de personalización listos para usar para los casos de uso más comunes en Journey Optimizer. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (usar `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (retrospectivas de campo vacío usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
+
+* La **sintaxis de Personalization** se ha actualizado con una introducción ampliada que aclara la diferencia entre las sintaxis de Handlebars (`{{...}}`) y PQL (`{%= ... %}`), que incluye una tabla de uso, instrucciones sobre cómo escapar comillas dobles literales y una nueva sección de **reglas de sintaxis de PQL para claves de atributos especiales** que abarca palabras clave reservadas, claves de atributos con guiones e ID de eventos numéricos. También se ha corregido la nota sobre el escape de acento grave: se puede hacer referencia a los nombres de campo con guiones en bloques de `{{...}}` directamente; solo la sintaxis de acento grave falla en ellos. [Más información](../personalization/personalization-syntax.md)
+
+* La documentación de **Funciones de fecha y hora** se ha enriquecido con nuevos ejemplos reales: un patrón de cuenta atrás para `dateDiff`, un condicional de fin de semana vs. día de la semana para `dayOfWeek` (con una nota sobre el uso de la actividad de condición de recorrido para casos de uso de enrutamiento) y un patrón de visualización de solo tiempo que combina `extractHours` y `extractMinutes` con un protector de cero a la izquierda. [Más información](../personalization/functions/dates.md)
+
+* La documentación de **Funciones de cadena** se ha actualizado con un nuevo ejemplo para `replaceAll` que muestra cómo asignar el resultado a una variable `{% let %}` para su reutilización en varias expresiones en la misma plantilla. [Más información](../personalization/functions/string.md#replace-all)
+
+* La documentación de **Funciones de matriz** se ha actualizado con una nueva sección de **Iterar sobre una matriz** que documenta el asistente de bloque de Handlebars `{{#each}}`, incluida una nota que aclara que `{{#each}}` solo es compatible con el editor de personalización y no se puede usar dentro de las actividades de condición de recorrido. [Más información](../personalization/functions/arrays-list.md#each-loop)
 
 * La página **Introducción a los conjuntos de datos** se ha actualizado con una nueva entrada **Entrante** en la sección de conjuntos de datos del sistema, que documenta el _Conjunto de datos de evento de actividad entrante de AJO_. Se ha agregado una nota para aclarar que un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] antes de que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
 

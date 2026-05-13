@@ -6,10 +6,17 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -237,7 +244,7 @@ La función `notIn` se usa para determinar si un elemento no es miembro de una m
 
 >[!NOTE]
 >
->La función `notIn`also *de* garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
+>La función *also* de `notIn` garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
 
 **Sintaxis**
 
@@ -289,3 +296,77 @@ La siguiente operación define a las personas que han comido sushi y pizza al me
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## Iteración en una matriz {#each-loop}
+
+Use el asistente del bloque Handlebars `{{#each}}` para recorrer una matriz y procesar el contenido de cada elemento en **contenido personalizado** (correo electrónico, SMS, push).
+
+>[!NOTE]
+>
+>`{{#each}}` solo está disponible en el **editor de personalización** (cuerpo del correo electrónico, SMS, contenido push). Se admite **no** en la actividad de condición de recorrido. Para filtrar o hacer coincidir elementos de una matriz dentro de una condición de recorrido, use [funciones de administración de colecciones](../../building-journeys/expression/collection-management-functions.md) en su lugar.
+
+**Sintaxis**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++Ejemplo: enumerar todos los elementos de una matriz
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+Salida (ejemplo):
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++Ejemplo: Acceso al índice de bucle
+
+Use `@index` para acceder a la posición de bucle actual (basada en 0):
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+Salida (ejemplo):
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++Ejemplo — Renderización condicional dentro de un bucle
+
+Utilice el bloque `{%#if%}` dentro de `{{#each}}` para procesar contenido solamente cuando se cumpla una condición:
+
+>[!NOTE]
+>
+>`{% if %}` / `{% endif %}` no son compatibles. En su lugar, use `{%#if%}` / `{%/if%}`. Además, `this.<field>` no funciona dentro de las expresiones de condición PQL; haga referencia al campo directamente usando el nombre del atributo (por ejemplo: `order.status`).
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+Este es el patrón recomendado para simular una &quot;interrupción en condición&quot;: solo los elementos que coinciden con la condición generan salida.
+
++++

@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 98%
+source-wordcount: '3324'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [Termine el recorrido](using/building-journeys/end-journey.md)
       + [Copia de un recorrido en otra zona protegida](using/building-journeys/copy-to-sandbox.md)
       + [Integración con servicios inteligentes](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Objeto de recorrido](using/building-journeys/journey-fragments.md)
    + Actividades {#about-journey-building}
       + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [Condiciones](using/building-journeys/conditions.md)
       + [Leer público](using/building-journeys/read-audience.md)
       + [Esperar](using/building-journeys/wait-activity.md)
+      + [Fragmentos de recorrido](using/building-journeys/journey-fragments.md)
       + [Decisión de contenido](using/building-journeys/content-decision.md)
       + [Búsqueda de conjuntos de datos](using/building-journeys/dataset-lookup.md)
       + [Acción](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 98%
          + [Funciones de cadena](using/personalization/functions/string.md)
       + Casos de uso de personalización {#personalization-use-cases}
          + [Casos de uso de personalización](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Fórmulas de Personalization](using/personalization/personalization-recipes.md)
          + [Notificación del estado del pedido](using/personalization/personalization-use-case.md)
          + [Correo electrónico de abandono del carro de compras](using/personalization/personalization-use-case-helper-functions.md)
          + [Correo electrónico de prescripciones del plan de salud](using/personalization/perso-uc-plan-prescriptions.md)
