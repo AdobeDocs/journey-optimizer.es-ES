@@ -129,4 +129,4 @@ La creación y la implementación de una página de destino siguen esta secuenci
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de destino para ofrecer suscripciones a un servicio o cancelaciones del mismo, integrar la opción de suscripción/cancelación de suscripción en un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
