@@ -10,10 +10,17 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f7479fa1-474b-479d-8c98-f6cee5865a38id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 90%
+source-wordcount: 1613
+ht-degree: 100%
 
 ---
 
@@ -57,12 +64,12 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo de campaña"
->abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): ideal para comunicaciones por lotes simples y puntuales que se pueden programar para ejecutarse a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada a la API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
+>abstract="Seleccione el tipo de campaña. Los canales disponibles varían según el tipo seleccionado. <br>**Campañas programadas** (campañas de acción): idóneo para comunicaciones por lotes sencillas y únicas que puede programar para que se ejecuten a una hora específica.<br>**Campañas activadas por API**: se activan mediante una llamada de API, lo que permite la mensajería automatizada basada en eventos directamente desde sistemas externos.<br>**Campañas orquestadas**: proporcionan un lienzo visual de arrastrar y soltar para diseñar y automatizar flujos de trabajo de marketing complejos y de varios pasos, desde la segmentación de públicos hasta el envío personalizado de mensajes en todos los canales."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campañas"
->abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificaciones push, correo postal."
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificaciones push, correo directo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -101,7 +108,7 @@ Utilice campañas de [!DNL Journey Optimizer] para:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **¿Listo para empezar a crear?** [Cree su primera campaña](create-campaign.md) en minutos.
+➡️ **¿Todo listo para comenzar a crear?** [Cree su primera campaña](create-campaign.md) en minutos.
 
 ## Elija el tipo de campaña {#campaign-types}
 
@@ -199,14 +206,14 @@ La creación de campañas exitosas sigue un proceso claro y repetible. Este es s
 Antes de empezar, tenga claros sus objetivos:
 
 * **¿Cuál es el objetivo?** (por ejemplo, impulsar conversiones, aumentar la participación, notificar a los clientes)
-* **¿Quién es la audiencia?** (por ejemplo, crear o seleccionar desde Adobe Experience Platform)
+* **¿Quién es el público?** (por ejemplo, crear o seleccionar de Adobe Experience Platform)
 * **¿Qué tipo de campaña encaja?** (Ver [tipos de campaña](#campaign-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, en la aplicación, web, etc.) → [Ver canales admitidos por tipo de campaña](../channels/gs-channels.md#channels)
 * **¿Cuándo se debe ejecutar?** (inmediato, programado o activado por API)
 
 +++
 
-+++&#x200B;2. Configuración de propiedades de campaña
++++&#x200B;2. Configurar las propiedades de la campaña
 
 Configure las bases de la campaña:
 
@@ -214,7 +221,7 @@ Configure las bases de la campaña:
 2. **Seleccione el tipo de campaña** (activada por acción, activada por API u orquestada)
 3. **Elija su público**
 4. **Establezca la prioridad** si se usa la administración de conflictos
-5. **Configurar programación** (para campañas de acción) o detalles de API (para activadas por API). Para las campañas de acción, también puede [enviar mediante olas](send-using-waves.md) para enviar el mensaje en lotes a lo largo del tiempo.
+5. **Configure la programación** (para campañas de acción) o detalles de API (para activadas por API) Para las campañas de acción, también puede [enviar mediante olas](send-using-waves.md) para enviar el mensaje en lotes a lo largo del tiempo.
 
 **Guías específicas del tipo:** [Propiedades de campaña de acción](campaign-properties.md) | [Propiedades de campaña activada por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 
@@ -248,7 +255,7 @@ Revise siempre la campaña antes de la activación:
 
 +++
 
-+++&#x200B;5. Activación de la campaña
++++&#x200B;5. Active la campaña
 
 Una vez completada la revisión, active la campaña:
 
@@ -291,7 +298,7 @@ A medida que se familiarice con las campañas, explore estas potentes funcionali
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -301,7 +308,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de velocidad**
 
@@ -311,7 +318,7 @@ Limite el rendimiento de mensajes para evitar sobrecargas en sistemas descendent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de público**
 
@@ -321,7 +328,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -331,7 +338,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horario silencioso**
 
@@ -341,7 +348,7 @@ Respete las preferencias del cliente evitando el envío de mensajes durante los 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 

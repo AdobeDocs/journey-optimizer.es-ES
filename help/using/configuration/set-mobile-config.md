@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: canal, superficie, técnico, parámetros, optimizador
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,9 +35,9 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance está integrado en este flujo de trabajo para ayudarle a inspeccionar la implementación del SDK, así como para simular y validar eventos de aplicación."
 >additional-url="https://experienceleague.adobe.com/es/docs/experience-platform/assurance/home" text="Información general sobre Adobe Experience Platform Assurance"
 
-**Configuración guiada de canal** es un flujo de trabajo optimizado en Adobe Journey Optimizer que le ayuda a configurar rápidamente canales de marketing web y móviles. Se encuentra bajo **Administración** > **Canales** > **Configuración del canal** y automatiza la creación de recursos esenciales (como propiedades de etiquetas, flujos de datos y configuraciones de canal) en Adobe Experience Platform, Journey Optimizer y Recopilación de datos. En lugar de configurar manualmente cada componente, sigue un flujo guiado que lo configura todo por usted, de modo que su equipo de marketing pueda empezar a crear mensajes en la aplicación, notificaciones push y experiencias web sin demora.
+**Configuración guiada del canal** es un flujo de trabajo optimizado en Adobe Journey Optimizer que le ayuda a configurar rápidamente canales de marketing web y móviles. Se encuentra bajo **Administración** > **Canales** > **Configuración de canal** y automatiza la creación de recursos esenciales (como propiedades de etiquetas, secuencias de datos y configuraciones de canal) en Adobe Experience Platform, Journey Optimizer y Recopilación de datos. En lugar de configurar manualmente cada componente, sigue un flujo guiado que lo configura todo por usted, de modo que su equipo de marketing pueda empezar a crear mensajes en la aplicación, notificaciones push y experiencias web sin demora.
 
-La configuración del canal guiado es compatible con las siguientes plataformas y canales.
+La configuración guiada del canal es compatible con las siguientes plataformas y canales.
 
 >[!BEGINTABS]
 
@@ -39,19 +45,19 @@ La configuración del canal guiado es compatible con las siguientes plataformas 
 
 **SDK:** Swift de Apple
 
-**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
+**Canales:** dentro de la aplicación móvil, mensaje push de móvil
 
 >[!TAB Android]
 
 **SDK:** Kotlin
 
-**Canales:** Móvil En La Aplicación, Mensaje Push Móvil
+**Canales:** dentro de la aplicación móvil, mensaje push de móvil
 
 >[!TAB Web]
 
 **SDK:** Javascript
 
-**Canales:** Web Basic
+**Canales:** Web básica
 
 >[!ENDTABS]
 
@@ -137,7 +143,7 @@ Tenga en cuenta que, para cada plataforma que desee configurar, es necesario cre
 
 La configuración de canales guiada simplifica la configuración rápida de los canales de marketing, lo que facilita la disponibilidad de todos los recursos esenciales en las aplicaciones de Experience Platform, Journey Optimizer y recopilación de datos. Esto permite a su equipo de marketing empezar a crear campañas y recorridos con rapidez. A continuación se muestra una lista de los recursos que se generan y configuran automáticamente como parte de la configuración guiada de canales.
 
-Examine las pestañas siguientes para acceder a las listas completas de todos los recursos que se generan automáticamente:
+Examine las pestañas siguientes para acceder a las listas completas de todos los recursos que se generan de forma automática:
 
 >[!BEGINTABS]
 
@@ -192,7 +198,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Corrientes de datos</p>
+  <p>Secuencias de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>
@@ -287,7 +293,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Corrientes de datos</p>
+  <p>Secuencias de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>
@@ -382,7 +388,7 @@ Para la **configuración inicial**, a continuación se muestra una lista complet
   </tr>
   <tr>
   <td>
-  <p>Corrientes de datos</p>
+  <p>Secuencias de datos</p>
   </td>
   <td>
   <p>Secuencia de datos con servicios</p>

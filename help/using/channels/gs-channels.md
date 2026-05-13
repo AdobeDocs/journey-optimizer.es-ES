@@ -6,13 +6,19 @@ description: 'Aprenda a trabajar con los canales de comunicación de  [!DNL Adob
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 84%
+source-wordcount: 676
+ht-degree: 100%
 
 ---
-
 
 # Introducción a los canales de [!DNL Adobe Journey Optimizer] {#get-started-email}
 
@@ -27,7 +33,7 @@ Los canales de envío de los mensajes de salida implican enviar mensajes a los c
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal de correo electrónico
 
@@ -37,7 +43,7 @@ Descubra cómo crear, configurar y optimizar campañas de correo electrónico, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal de notificaciones push
 
@@ -47,7 +53,7 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Actividades de iOS Live
 
@@ -57,7 +63,7 @@ Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantall
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Mensajería SMS/MMS/RCS
 
@@ -67,7 +73,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campañas de correo directo
 
@@ -77,23 +83,23 @@ Descubra cómo crear y administrar campañas de correo directo, incluida la expo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Mensajería de WhatsApp
 
-Aprenda a integrar y utilizar la mensajería WhatsApp mediante la API en la nube de Meta para campañas y recorridos de comunicación personalizados y compatibles.
+Aprenda a integrar y utilizar la mensajería de WhatsApp a través de la API en la nube de Meta para ofrecer campañas y recorridos de comunicación personalizados y compatibles.
 
 [Más información sobre la mensajería de WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
-Mensajería LINE
+Mensajería de LINE
 
-Descubra cómo configurar, crear y personalizar mensajes de LINE para una comunicación eficaz en campañas y recorridos.
+Descubra cómo configurar, crear y personalizar mensajes de LINE para una comunicación efectiva en campañas y recorridos.
 
-[Más información sobre la mensajería LINE](../../rp_landing_pages/line-landing-page.md)
+[Más información sobre la mensajería de LINE](../../rp_landing_pages/line-landing-page.md)
 :::
 
 ::::
@@ -105,7 +111,7 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Mensajería en la aplicación
 
@@ -115,7 +121,7 @@ Explore cómo configurar, diseñar y personalizar notificaciones en la aplicaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +131,7 @@ Aprenda a crear, configurar y personalizar experiencias web e integrar canales w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Experiencia basada en código
 
@@ -135,7 +141,7 @@ Sumérjase en experiencias basadas en código para ofrecer contenido personaliza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Tarjetas de contenido
 

@@ -8,10 +8,16 @@ role: Developer, Admin
 level: Experienced
 keywords: esquemas, plataforma, datos, estructura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 440
+ht-degree: 100%
 
 ---
 
@@ -49,18 +55,18 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
    1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
    1. **Introducir datos** en su conjunto de datos desde fuentes compatibles.
 
-  ➡️ [Aprenda a administrar conjuntos de datos y esquemas relacionales](../orchestrated/gs-schemas.md)
-➡️ [Introducción a campañas orquestadas](../orchestrated/gs-schemas.md)
+  ➡️ [Aprenda a administrar los esquemas y conjuntos de datos relacionales](../orchestrated/gs-schemas.md)
+➡️ [Introducción a las campañas orquestadas](../orchestrated/gs-schemas.md)
 
-## Vídeo práctico{#video-schema}
+## Vídeo tutorial{#video-schema}
 
 Obtenga información sobre cómo crear un esquema estándar, añadir grupos de campos, crear y configurar grupos de campos personalizados.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416869?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
->* [Introducción a la administración de datos en Journey Optimizer](gs-data.md)
+>* [Introducción a la gestión de datos en Journey Optimizer](gs-data.md)
 >* [Creación de un esquema y un conjunto de datos, e introducción de datos para añadir perfiles de prueba en Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Información general sobre el sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}
 >* [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=es){target="_blank"}

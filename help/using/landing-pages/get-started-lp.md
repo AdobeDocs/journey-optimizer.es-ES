@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: destino, página de destino, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 14%
+source-wordcount: 712
+ht-degree: 100%
 
 ---
 
@@ -20,39 +27,39 @@ ht-degree: 14%
 
 Una página de destino es una página web independiente a la que se dirige a un usuario después de hacer clic desde un correo electrónico, un sitio web, un anuncio o cualquier otra ubicación digital.
 
-[!DNL Journey Optimizer] le permite crear y diseñar páginas de aterrizaje para dirigir a los usuarios a formularios en línea en los que pueden optar por recibir sus comunicaciones o un servicio específico, como una newsletter, o excluirse de ellos.
+[!DNL Journey Optimizer] le permite crear y diseñar páginas de destino para dirigir a los usuarios a formularios en línea, donde pueden optar por recibir o rechazar la recepción de comunicaciones, o suscribirse a un servicio específico, como un newsletter.
 
-➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de aterrizaje en este vídeo](#video)
+➡️ [Obtenga más información sobre la configuración de suscripciones y la creación de páginas de destino en este vídeo](#video)
 
-## Cuándo usar páginas de aterrizaje {#when-to-use}
+## Cuándo usar páginas de destino {#when-to-use}
 
-Utilice páginas de aterrizaje cuando desee:
+Utilice páginas de destino cuando desee:
 
-* Permite que los clientes **acepten o excluyan** comunicaciones de marketing o un servicio o boletín específico a partir de un vínculo de un correo electrónico o una campaña, incluidas las listas de suscripción para servicios de destino. [Más información](lp-use-cases.md#subscription-to-a-service)
-* **Recopile el consentimiento** antes de enviar comunicaciones y envíe un **correo electrónico de confirmación** tras la inclusión o la exclusión. [Más información](lp-use-cases.md#send-confirmation-email)
-* **Captura o actualiza datos de perfil** usando formularios en **[!UICONTROL páginas de aterrizaje de captura de datos]** para generar perfiles progresivos, preferencias, registros y escenarios similares. [Más información](#data-capture-lp)
-* Redirigir a los usuarios a un **formulario web dedicado** sin crear una página externa fuera de [!DNL Journey Optimizer]
-* Crear **páginas de aterrizaje adaptables** con las capacidades de diseño de contenido de [!DNL Journey Optimizer]
+* Permitir que los clientes **acepten o rechacen** comunicaciones de marketing o un servicio o newsletter específico a partir de un vínculo de un correo electrónico o una campaña, incluidas las listas de suscripción para servicios específicos. [Más información](lp-use-cases.md#subscription-to-a-service)
+* **Obtener el consentimiento** antes de enviar comunicaciones y enviar un **correo electrónico de confirmación** al darse de alta o darse de baja. [Más información](lp-use-cases.md#send-confirmation-email)
+* **Capturar o actualizar los datos de perfil** usando formularios en páginas de destino de **[!UICONTROL captura de datos]** para generar perfiles progresivos, preferencias, registros y escenarios similares. [Más información](#data-capture-lp)
+* Redirigir a los usuarios a un **formulario web específico** sin crear una página externa fuera de [!DNL Journey Optimizer]
+* Crear **páginas de destino adaptables** con las capacidades de diseño de contenido de [!DNL Journey Optimizer]
 
-### Captura de datos con páginas de aterrizaje {#data-capture-lp}
+### Captura de datos con páginas de destino {#data-capture-lp}
 
-Las páginas de aterrizaje de **[!UICONTROL Captura de datos]** le permiten incrustar formularios publicados para que los visitantes puedan enviar atributos escritos en el conjunto de datos de [!DNL Adobe Experience Platform] a través de la conexión de flujo continuo configurada en el ajuste preestablecido de formulario. [Aprenda a crear e incrustar formularios en una página de aterrizaje](lp-forms.md)
+Las páginas de destino de **[!UICONTROL Captura de datos]** le permiten incrustar formularios publicados para que los visitantes puedan enviar atributos escritos en el conjunto de datos de [!DNL Adobe Experience Platform] a través de la conexión de flujo continuo configurada en el ajuste preestablecido de formulario. [Aprenda a crear e incrustar formularios en una página de destino](lp-forms.md)
 
 >[!NOTE]
 >
->Se admite la captura de datos mediante formularios de página de aterrizaje para **perfiles conocidos** (perfiles existentes identificados en [!DNL Adobe Experience Platform]). La página de aterrizaje debe abrirse desde un **vínculo personalizado** (por ejemplo, desde una campaña de correo electrónico) para que la identidad del perfil pueda resolverse cuando se cargue la página.
+>Se admite la captura de datos mediante formularios de página de destino para **perfiles conocidos** (perfiles existentes identificados en [!DNL Adobe Experience Platform]). La página de destino debe abrirse desde un **vínculo personalizado** (por ejemplo, desde una campaña de correo electrónico) para que la identidad del perfil pueda resolverse cuando se cargue la página.
 
 Los siguientes son ejemplos de uso:
 
-1. **Enriquecimiento progresivo del perfil**: recopile atributos adicionales de clientes conocidos, como número de teléfono, fecha de nacimiento o ubicación, a través de una página de aterrizaje personalizada para enriquecer su perfil de [!DNL Experience Platform] existente para la segmentación y personalización.
+1. **Enriquecimiento progresivo del perfil**: recopile atributos adicionales de clientes conocidos, como número de teléfono, fecha de nacimiento o ubicación, a través de una página de destino personalizada para enriquecer su perfil de [!DNL Experience Platform] existente para la segmentación y personalización.
 
-2. **Actualización del centro de preferencias**: permite que los suscriptores conocidos administren sus preferencias de comunicación (intereses de canal y tema) a través de una página de aterrizaje, con cambios que normalmente se reflejan en su perfil [!DNL Experience Platform] en un plazo aproximado de 15 minutos.
+2. **Actualización del centro de preferencias**: permite que los suscriptores conocidos administren sus preferencias de comunicación (intereses de canal y tema) a través de una página de destino, con cambios que normalmente se reflejan en su perfil [!DNL Experience Platform] en un plazo aproximado de 15 minutos.
 
-3. **Registro de evento o seminario web**: capture datos específicos de evento de perfiles conocidos en una página de registro, actualice el perfil con atributos de registro y almacene en déclencheur un recorrido de confirmación.
+3. **Registro de evento o seminario web**: capture datos específicos de evento de perfiles conocidos en una página de registro, actualice el perfil con atributos de registro y active un recorrido de confirmación.
 
-4. **Inscripción de fidelidad o programa**: permita que los clientes existentes se inscriban en programas de fidelidad o niveles de pertenencia enviando detalles adicionales a través de una página de aterrizaje, enriqueciendo el perfil para la segmentación descendente.
+4. **Inscripción de fidelidad o programa**: permita que los clientes existentes se inscriban en programas de fidelidad o niveles de pertenencia enviando detalles adicionales a través de una página de destino, enriqueciendo el perfil para la segmentación descendente.
 
-5. **Participantes en concursos o concursos**: permita que los clientes conocidos participen en concursos o sorteos a través de un formulario de página de aterrizaje; capture detalles específicos de la entrada (respuestas, preferencias o declaraciones) y escríbalos en el perfil para apoyar la elegibilidad, la selección de ganadores y los recorridos de seguimiento.
+5. **Participación en concursos**: permita que los clientes conocidos participen en concursos o sorteos a través de un formulario de página de destino; capture detalles específicos de la entrada (respuestas, preferencias o declaraciones) y escríbalos en el perfil para apoyar la elegibilidad, la selección de ganadores y los recorridos de seguimiento.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -73,10 +80,10 @@ Los siguientes son ejemplos de uso:
 <p></td>
 <td>
 <a href="lp-forms.md">
-<img alt="Lista de Forms para páginas de aterrizaje en Journey Optimizer" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Lista de formularios para páginas de destino en Journey Optimizer" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-forms.md"><strong>Use formularios en sus páginas de aterrizaje</strong></a>
+<a href="lp-forms.md"><strong>Uso de los formularios en las páginas de destino</strong></a>
 </div>
 <p>
 </td>
@@ -93,24 +100,24 @@ Los siguientes son ejemplos de uso:
 
 ## Antes de comenzar {#prerequisites}
 
-Antes de crear una página de aterrizaje, complete estos pasos de configuración:
+Antes de crear una página de destino, complete estos pasos de configuración:
 
-1. **Configurar un subdominio**: configure un subdominio dedicado a alojar sus páginas de aterrizaje. [Más información](lp-subdomains.md)
-1. **Crear un ajuste preestablecido de página de aterrizaje**: un ajuste preestablecido define el subdominio y otras opciones de configuración aplicadas a las páginas de aterrizaje. [Más información](lp-presets.md#lp-create-preset)
+1. **Configurar un subdominio**: configure un subdominio específico para alojar sus páginas de destino. [Más información](lp-subdomains.md)
+1. **Crear un ajuste preestablecido de página de destino**: un ajuste preestablecido define el subdominio y otras opciones de configuración aplicadas a las páginas de aterrizaje. [Más información](lp-presets.md#lp-create-preset)
 1. **Crear una lista de suscripción** (para casos de uso de suscripción): obligatorio si desea que los clientes se suscriban o cancelen su suscripción a un servicio específico. [Más información](subscription-list.md)
-1. **Crear un formulario** (para casos de uso de captura de datos): requerido cuando desee incrustar un formulario en una página de aterrizaje de **[!UICONTROL Captura de datos]** y enviar envíos a [!DNL Experience Platform]. [Más información](lp-forms.md)
+1. **Crear un formulario** (para casos de uso de captura de datos): requerido cuando desee incrustar un formulario en una página de destino de **[!UICONTROL Captura de datos]** y enviar los datos a [!DNL Experience Platform]. [Más información](lp-forms.md)
 
-## Funcionamiento {#how-it-works}
+## Cómo funciona {#how-it-works}
 
-La creación y la implementación de una página de aterrizaje siguen esta secuencia:
+La creación y la implementación de una página de destino siguen esta secuencia:
 
-1. **Crear y configurar la página de aterrizaje**: seleccione un ajuste preestablecido, configure la página principal y agregue las subpáginas necesarias. [Más información](create-lp.md#create-landing-page)
+1. **Crear y configurar la página de destino**: seleccione un ajuste preestablecido, configure la página principal y añada las subpáginas necesarias. [Más información](create-lp.md#create-landing-page)
 1. **Diseñar la página**: cree el contenido de la página y el formulario con el editor de arrastrar y soltar de [!DNL Journey Optimizer]. [Más información](design-lp.md)
-1. **Pruebe y publique su página de aterrizaje**: Previsualice la página, pruebe el comportamiento del formulario y, a continuación, publique para activarla. [Más información](create-lp.md#test-landing-page)
-1. **Vínculo en un mensaje o recorrido**: agregue la dirección URL de la página de aterrizaje a un correo electrónico, una campaña o una acción de recorrido para que los clientes puedan llegar a ella. [Más información](../email/message-tracking.md#insert-links)
+1. **Pruebe y publique su página de destino**: previsualice la página, pruebe el comportamiento del formulario y, a continuación, publique para activarla. [Más información](create-lp.md#test-landing-page)
+1. **Vínculo en un mensaje o recorrido**: añada la dirección URL de la página de destino a un correo electrónico, una campaña o una acción de recorrido para que los clientes puedan llegar a ella. [Más información](../email/message-tracking.md#insert-links)
 
-## Vídeo práctico{#video}
+## Vídeo tutorial{#video}
 
-El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de aterrizaje para la inclusión o exclusión de un servicio, integrar la opción de inclusión/exclusión en un mensaje y configurar recorridos relevantes.
+El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de destino para ofrecer suscripciones a un servicio o cancelaciones del mismo, integrar la opción de suscripción/cancelación de suscripción en un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
