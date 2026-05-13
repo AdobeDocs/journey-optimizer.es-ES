@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 badge: label="Disponibilidad limitada" type="Informative"
 version: Journey Orchestration
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
