@@ -59,4 +59,4 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
 Aprenda cómo aprovechar el canal de correo directo en Adobe Journey Optimizer para automatizar y programar envíos de correo directo en sus recorridos.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479165?captions=spa&quality=12)

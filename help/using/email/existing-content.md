@@ -73,4 +73,4 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación:
 
 Obtenga información sobre cómo importar contenido existente de HTML, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
 
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421909?captions=spa&quality=12)
