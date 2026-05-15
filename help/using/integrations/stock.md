@@ -36,7 +36,7 @@ ht-degree: 0%
 
 El complemento de integración de Designer de correo electrónico [!DNL Adobe Stock] y [!DNL Adobe Journey Optimizer] proporciona a los clientes una forma sencilla de navegar, obtener licencias y guardar imágenes para utilizarlas en la creación de mensajes.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, seleccionados y libres de derechos de autor. Puede optar por adquirir un paquete de crédito para obtener la licencia de los recursos o adquirir solo una licencia estándar o ampliada para el recurso necesario. Adobe Stock también proporciona una colección gratuita de recursos.
+[Adobe Stock](https://helpx.adobe.com/es/stock/get-started.html){target="_blank"} proporciona acceso a millones de fotos, vídeos, ilustraciones y gráficos vectoriales de alta calidad, seleccionados y libres de derechos de autor. Puede optar por adquirir un paquete de crédito para obtener la licencia de los recursos o adquirir solo una licencia estándar o ampliada para el recurso necesario. Adobe Stock también proporciona una colección gratuita de recursos.
 
 Con [!DNL Adobe Journey Optimizer], puedes cargar imágenes en tus correos electrónicos directamente desde [!DNL Adobe Stock] y agregarlas a tu carpeta de **[!UICONTROL Assets]** mediante la opción **[!UICONTROL Buscar fotos de Adobe Stock]**. Además, la opción **[!UICONTROL Buscar fotografías similares de Stock]** le ayuda a encontrar imágenes que coinciden con el contenido, el color y la composición del recurso que utilizó en su envío.
 
@@ -44,7 +44,7 @@ Con [!DNL Adobe Journey Optimizer], puedes cargar imágenes en tus correos elect
 
 Las opciones **[!UICONTROL Buscar fotos de Adobe Stock]** y **[!UICONTROL Buscar imagen similar]** están disponibles para los usuarios con acceso a un perfil de producto de AEM Assets Essentials.
 
-Para obtener más información, consulte [Documentación de Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Para obtener más información, consulte [Documentación de Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es#add-users-to-essentials){target="_blank"}.
 
 ## Insertar una imagen de [!DNL Adobe Stock] {#add-stock-image}
 
@@ -116,5 +116,5 @@ Para obtener una licencia y descargar la imagen, siga los pasos a continuación:
 
 * [Diseño de correo electrónico en Journey Optimizer](../email/get-started-email-design.md)
 * [Configuración de componentes para el diseño de correo electrónico](../email/content-components.md)
-* [Introducción a Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
+* [Introducción a Adobe Stock](https://helpx.adobe.com/es/stock/get-started.html){target="_blank"}.
 
