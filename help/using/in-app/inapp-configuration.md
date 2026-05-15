@@ -6,10 +6,36 @@ feature: In App
 level: Intermediate
 keywords: en la aplicación, mensaje, configuración, plataforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+TQID: https://experienceleague.adobe.com/GWlxb1IJ5oZue5m0s4nN7iOa1S-IfHEFNuU7Lcj0H2s
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 8%
+source-wordcount: 1113
+ht-degree: 11%
 
 ---
 
@@ -36,7 +62,7 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
 
 * En la [recopilación de datos de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}, asegúrese de que tiene un conjunto de datos definido como en el servicio **[!UICONTROL Adobe Experience Platform]**, y que tiene habilitadas las opciones Adobe Experience Platform Edge y **[!UICONTROL Adobe Journey Optimizer]**.
 
-  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es){target="_blank"}
+  Esto garantiza que Adobe Experience Platform Edge gestione correctamente los eventos entrantes de Journey Optimizer. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -58,7 +84,7 @@ Para que los mensajes en la aplicación se entreguen correctamente, se debe defi
 
   El uso del complemento **Edge Delivery** le ayuda a obtener la información necesaria para comprender y solucionar problemas de las implementaciones entrantes de forma eficaz.
 
-  [Más información sobre la vista Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
+  [Más información sobre la Vista de Edge Delivery](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 ## Creación de una configuración en la aplicación {#channel-prerequisites}
 
@@ -139,7 +165,7 @@ Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.c
 
 **Temas relacionados:**
 
-* [Creación de un mensaje en la aplicación &#x200B;](create-in-app.md)
+* [Creación de un mensaje en la aplicación](create-in-app.md)
 * [Creación de una campaña](../campaigns/create-campaign.md)
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)

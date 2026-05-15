@@ -10,13 +10,22 @@ role: Developer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/y9aw8mixba3Vc2CW-3WYrDvkB3TrX8ynmbVDBjGlzEI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 14%
+source-wordcount: 220
+ht-degree: 15%
 
 ---
-
 
 # Enumerar colecciones {#list-collections}
 

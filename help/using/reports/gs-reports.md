@@ -6,9 +6,22 @@ description: Obtenga información sobre cómo acceder a  [!DNL Adobe Journey Opt
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 489
 ht-degree: 23%
 
 ---
@@ -34,7 +47,7 @@ Además, para optimizar la entrega de sus experiencias de [!DNL Journey Optimize
   Si tiene una licencia de Adobe Customer Journey Analytics, puede analizar los informes de Journey Optimizer en Customer Journey Analytics. Esta potente opción le redirige sin problemas a su entorno de Customer Journey Analytics, lo que le permite personalizar sus informes exhaustivamente. Puede enriquecer sus widgets con métricas de Customer Journey Analytics especializadas, llevando sus perspectivas a un nivel completamente nuevo. [Más información](report-cja-manage.md)
 
 
-## Vamos a profundizar
+## Profundicemos
 
 Ahora que comprende los tipos de informes de **[!DNL Journey Optimizer]**, es hora de profundizar en estas secciones de documentación para aprender a acceder y comprender las capacidades de creación de informes.
 
@@ -109,7 +122,7 @@ Todos los informes globales de tiempo están disponibles para todos sus canales.
 Seleccione un canal saliente para descubrir **informes globales permanentes** asociados.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="correo electrónico" src="../channels/assets/do-not-localize/email.png">
+<td><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><strong>Canal de correo electrónico</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Informe de recorrido</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>Canal de SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Informe de recorrido</strong></a></p></div></td>

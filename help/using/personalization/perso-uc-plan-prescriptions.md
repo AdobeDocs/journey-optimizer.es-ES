@@ -6,9 +6,18 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+TQID: https://experienceleague.adobe.com/fZtkkz9pvdZ3G7ojmHlNhasxawVbXmBHX-uznq6hseY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: 131
 ht-degree: 3%
 
 ---
@@ -39,7 +48,7 @@ En este caso de uso, queremos enviar un solo correo electrónico a cada perfil, 
 <li>
       <strong>Id. de prescripción:</strong> pres2<br>
       <strong>Nombre:</strong> Medicamento B<br>
-      Recuperación de <strong>estado: </strong>
+      Recuperación de <strong>estado:</strong>
    </li>
 
 </ul>
@@ -50,7 +59,7 @@ En este caso de uso, queremos enviar un solo correo electrónico a cada perfil, 
 
 <li>
       <strong>Id. de prescripción:</strong> pres4<br>
-      <strong>Nombre:</strong> Medicamento D<br>
+      <strong>Nombre:</strong> ID de medicamento<br>
       <strong>Estado:</strong> listo
    </li>
 

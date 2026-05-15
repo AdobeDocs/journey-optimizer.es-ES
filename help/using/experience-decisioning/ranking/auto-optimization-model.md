@@ -8,9 +8,18 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
-source-git-commit: ca31e819b0d120f54adfe2035ecacb21ac4f1f15
+TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: 1763
 ht-degree: 0%
 
 ---
@@ -92,7 +101,7 @@ Finalmente, si una oferta (por ejemplo, la oferta 1) es un claro ganador, su dis
 
 +++ Detalles del cálculo
 
-Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(𝛍i | datos)***, es decir, para cada oferta ***i***, la probabilidad de que exista un valor de recompensa **𝛍i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
+Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(𝛍i | data)*** es decir, para cada oferta ***i***, la probabilidad de que haya un valor de recompensa&#x200B;**𝛍 i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
 
 Del Teorema De Bayes:
 
@@ -123,4 +132,4 @@ En un enfoque de muestreo Thompson general, la parte posterior se calcula simple
 Para profundizar en el muestreo de bandidos Thompson, consulte los siguientes artículos de investigación:
 
 * [Evaluación empírica del muestreo Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Análisis del muestreo Thompson para el problema Multi-armed Bandit](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Análisis del muestreo Thompson para el problema de bandidos multiarmados](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}

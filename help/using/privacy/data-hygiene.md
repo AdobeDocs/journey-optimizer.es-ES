@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Realizar operaciones del ciclo vital de datos
-description: Obtenga información sobre cómo realizar operaciones del ciclo vital de datos
+title: Realizar operaciones de ciclo de vida de datos
+description: Aprenda a realizar operaciones de ciclo de vida de datos
 feature: Privacy, Monitoring
 role: User
 level: Intermediate
@@ -26,32 +26,32 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 235
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Realizar operaciones del ciclo vital de datos {#data-hygiene}
+# Realizar operaciones de ciclo de vida de datos {#data-hygiene}
 
 >[!AVAILABILITY]
 >
->Actualmente, las funciones del ciclo vital de datos solo están disponibles para las organizaciones que han adquirido las ofertas adicionales de **Healthcare Shield** y **Privacy and Security Shield**.
+>Las funcionalidades de ciclo de vida de los datos solo están disponibles para las organizaciones que han adquirido las ofertas sobre el **programa de protección sanitaria** y el **programa de protección de la seguridad y la privacidad**.
 
-A medida que los datos se incorporan continuamente en Adobe Experience Platform, es crucial asegurarse de que los datos se utilizan según lo previsto, se actualizan cuando es necesario y se eliminan por directivas de la organización.
+A medida que los datos se incorporan continuamente en Adobe Experience Platform, resulta crucial garantizar que los datos se utilicen según lo previsto, que se actualicen cuando sea necesario y que se eliminen según las políticas organizativas.
 
-Estas tareas se pueden realizar utilizando el menú **[!UICONTROL Ciclo de vida de los datos]**, que le permite configurar y programar operaciones del ciclo de vida de los datos, asegurándose de que los registros se mantengan correctamente.
+Estas tareas se pueden realizar utilizando el menú **[!UICONTROL Ciclo de vida de los datos]**, que le permite configurar y programar operaciones de ciclo de vida de datos, asegurándose de que los registros se mantengan correctamente.
 
 ![](assets/data-hygiene.png)
 
 
-## Recommendations {#data-hygiene-recommendations}
+## Recomendaciones {#data-hygiene-recommendations}
 
-Al realizar operaciones de higiene de los datos (como eliminar identidades o conjuntos de datos), tenga en cuenta que los eventos de envío históricos asociados con identidades eliminadas ya no aparecerán en los informes estándar ni en las consultas de lago de datos. Esto puede generar discrepancias entre el número de correos electrónicos reportados como **Entregados** y el número de correos electrónicos **Recibidos** en las bandejas de entrada de los destinatarios, especialmente para los recorridos más antiguos.
+Al realizar operaciones de higiene de los datos (como eliminar identidades o conjuntos de datos), tenga en cuenta que los eventos de envío históricos asociados a identidades eliminadas ya no aparecen en los informes estándar ni en las consultas de lago de datos. Esto puede generar discrepancias entre el número de correos electrónicos notificados como **Entregados** y el número de correos electrónicos **Recibidos** en las bandejas de entrada de los destinatarios, especialmente para los recorridos más antiguos.
 
-Antes de ejecutar eliminaciones a gran escala, valide y exporte los datos de envío o de creación de informes necesarios. Si se necesita reconciliación después de la higiene de los datos, debe coordinarse con el soporte de Adobe para acceder a los registros archivados o utilizar las consultas del conjunto de datos de evento de comentarios de mensajes para los datos recientes.
+Antes de ejecutar eliminaciones a gran escala, valide y exporte los datos de envío o de creación de informes necesarios. Si es necesario realizar una reconciliación después de la higiene de los datos, coordínese con el servicio de asistencia de Adobe para acceder a los registros archivados o utilizar consultas del conjunto de datos de evento de comentarios sobre mensajes para los datos recientes.
 
 ## Más información {#data-hygiene-learn-more}
 
-Para obtener más información sobre Privacy Service y cómo realizar operaciones del ciclo vital de datos, consulte la documentación de Adobe Experience Platform:
+Para obtener más información sobre Privacy Service y cómo crear y administrar solicitudes de ciclo de vida de datos, consulte la siguiente documentación de Adobe Experience Platform:
 
 * [Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)
 * [Ciclo de vida de datos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=es)

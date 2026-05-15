@@ -8,10 +8,23 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 409
+ht-degree: 94%
 
 ---
 
@@ -25,20 +38,20 @@ Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimi
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## Requisitos previos  {#prereq}
+## Requisitos previos {#prereq}
 
 La integración de WhatsApp con Journey Optimizer requiere lo siguiente:
 
 * Una cuenta de Meta Business Manager
-* [Cuenta de empresa de WhatsApp con nombre de remitente y número de teléfono verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Cuenta comercial de WhatsApp con nombre de remitente y número de teléfono verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Token de autorización de usuario con los permisos apropiados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 También debe tener en cuenta lo siguiente antes de continuar con la integración:
 
-* [Las reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
-* [El cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
-* [Los límites para las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
+* [Cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
+* [Límites de conversación de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## Limitaciones {#limitations}
 

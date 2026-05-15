@@ -6,9 +6,25 @@ description: Aprenda a utilizar experimentos de contenido para probar varias ver
 role: User
 level: Intermediate
 keywords: experimentación, optimización, pruebas A/B, experimento de contenido, tratamientos
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+exl-id: 4e8537c4-944f-4a39-be2b-af8ebfb6e099
+TQID: https://experienceleague.adobe.com/2ponHAr61o0hTMYuG5l9mQuh79-WeQz9eRuCF7dZjdA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: 294
 ht-degree: 2%
 
 ---
@@ -58,4 +74,3 @@ Para configurar la experimentación y determinar qué mensaje genera la mayor ca
 Una vez que el recorrido/campaña está activo, los usuarios tienen asignadas aleatoriamente las diferentes variaciones de contenido. [!DNL Journey Optimizer] hace un seguimiento de qué variación genera más compras y proporciona perspectivas procesables.
 
 Sigue el éxito de tu campaña con los informes [recorrido](../reports/journey-global-report-cja.md) y [campaña](../reports/campaign-global-report-cja-experimentation.md). <!--Link to Experimentation journey reportis missing-->
-

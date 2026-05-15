@@ -7,10 +7,26 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 29%
+source-wordcount: 537
+ht-degree: 35%
 
 ---
 
@@ -22,7 +38,7 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-**Perfil del cliente en tiempo real&#x200B;**: integre atributos y eventos del cliente desde fuentes en línea, sin conexión y seudónimas en un único perfil unificado.Utilice el perfil para atraer clientes con experiencias personalizadas en tiempo real en varios puntos de contacto.
+**Perfil del cliente en tiempo real&#x200B;**: integre atributos y eventos del cliente desde fuentes en línea, sin conexión y con seudónimo en un único perfil unificado. &#x200B;Utilice el perfil para atraer clientes con experiencias personalizadas en tiempo real en varios puntos de contacto. &#x200B;
 
 **Ingesta de datos**: conéctese a varias fuentes de datos para ingerir datos de comportamiento, transaccionales, financieros y operativos. Introduzca datos en tiempo real o mediante cargas por lotes para mantener los perfiles actualizados constantemente. Los perfiles no se crean directamente en la interfaz de [!DNL Journey Optimizer], sino que se crean o actualizan automáticamente en Adobe Experience Platform cuando se incorporan los datos.
 
@@ -30,15 +46,15 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 >
 >Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para Juan.Greene@luma.com y otro perfil para juan.greene@luma.com) y utilizarse al segmentar el destinatario correspondiente en sus recorridos y campañas de [!DNL Journey Optimizer].
 
-**Gráfico de identidad**: combine datos de diferentes fuentes usando identidades de clientes, como ID de fidelidad o ID de sistema CRM.Cree una vista completa del cliente asignando relaciones entre diferentes identidades dentro de los conjuntos de datos de una marca.
+**Gráfico de identidad**: Combine datos de diferentes fuentes usando identidades de clientes, como ID de fidelidad o ID del sistema CRM. &#x200B;Cree una vista completa del cliente asignando relaciones entre distintas identidades dentro de los conjuntos de datos de una marca. &#x200B;
 
-**Participación del cliente**: utilice el perfil del cliente en tiempo real para ofrecer experiencias contextuales y personalizadas, como ofertas y mensajes dirigidos.Capte a los clientes en varios canales, incluidas las campañas de marketing, la asistencia al cliente y las actualizaciones transaccionales.
+**Participación del cliente**: utilice el perfil del cliente en tiempo real para ofrecer experiencias contextuales y personalizadas, como ofertas y mensajes segmentados. &#x200B;Capte a los clientes en varios canales, incluidas las campañas de marketing, la asistencia al cliente y las actualizaciones transaccionales. &#x200B;
 
 **Uso compartido de datos**: comparte perfiles de clientes con los principales proveedores de almacenamiento en la nube, como Amazon Web Service, Microsoft Azure y Google Cloud. Utilice perfiles compartidos para la creación de informes, el archivado de datos o un análisis más profundo con herramientas de inteligencia empresarial.
 
 >[!MORELIKETHIS]
 >
->* [Introducción a la administración de datos en Journey Optimizer](../data/gs-data.md)
+>* [Introducción a la gestión de datos en Journey Optimizer](../data/gs-data.md)
 >* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
 >* [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home){target="_blank"}

@@ -7,14 +7,30 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
+exl-id: c8c156da-8482-4932-9c15-45ab83c173e7
+TQID: https://experienceleague.adobe.com/ccUbyMiVNBULBlaYAb-z6-WFGcWURtmelyKUy7v2g2o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 0%
+source-wordcount: 544
+ht-degree: 1%
 
 ---
 
-# Prácticas recomendadas para la optimización de costes de SMS {#sms-cost-optimization}
+# Prácticas recomendadas para la optimización del coste de SMS {#sms-cost-optimization}
 
 Los mensajes SMS suelen facturar los proveedores en función de un límite de 160 caracteres por mensaje. El envío de mensajes SMS puede conllevar costes adicionales si los mensajes se dividen en varias partes.
 
@@ -77,4 +93,3 @@ La personalización dinámica puede aumentar la longitud de un mensaje. Por ejem
 ## Recursos adicionales {#additional-resources}
 
 Revise los caracteres admitidos y las reglas de codificación en [Sinch Character Support Guide](https://developers.sinch.com/docs/sms/resources/message-info/character-support/)
-

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7709'
-ht-degree: 93%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 93%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Mayo de 2026 {#may-2026}
+
+* La documentación de **Deeplinks** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código de Personalization Editor) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
+
+* La referencia del asistente **Url** se ha actualizado con una sección específica en la documentación de Personalization. [Más información](../personalization/functions/helpers.md#url)
 
 * Se ha agregado una nueva página **Fórmulas de Personalization** que proporciona patrones de personalización listos para usar para los casos de uso más comunes en Journey Optimizer. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (usar `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (retrospectivas de campo vacío usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
 

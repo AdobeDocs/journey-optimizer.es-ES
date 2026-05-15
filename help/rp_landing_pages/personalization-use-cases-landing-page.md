@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Casos de uso de personalización
-description: Casos de uso de personalización
+description: Casos de uso paso a paso para la creación de mensajes personalizados en Adobe Journey Optimizer, que abarcan notificaciones del estado de los pedidos, correos electrónicos sobre abandono del carro de compras y alertas de prescripciones de planes de mantenimiento.
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
 # Casos de uso de personalización{#section-overview}
 
-Imagínese crear comunicaciones tan adaptadas a su público que parezcan hechas a medida todo el tiempo. Los casos de uso de personalización de Adobe Journey Optimizer le permiten hacer precisamente eso, combinar perfiles de clientes, contexto en tiempo real y ofertas basadas en decisiones para crear mensajes que realmente tengan una repercusión. Tanto si envía una actualización del estado del pedido, como si vuelve a atraer compradores con correos electrónicos de abandono del carro de compras o si personaliza las notificaciones relacionadas con el estado, esta sección le guía paso a paso. Cada caso de uso muestra cómo combinar datos y herramientas, como las funciones de ayuda o plantillas dinámicas, para enviar mensajes que el público encuentre relevantes y atractivos. Descubra cómo estas técnicas pueden transformar sus campañas.
+Esta sección proporciona casos de uso paso a paso para la creación de mensajes personalizados en Adobe Journey Optimizer. Cada ejemplo se basa en un escenario real y muestra cómo combinar atributos de perfil, datos contextuales, funciones de ayuda y decisiones de oferta para ofrecer contenido relevante y dirigido a su audiencia.
 
 ## Casos de uso de personalización
 
@@ -22,31 +22,41 @@ Imagínese crear comunicaciones tan adaptadas a su público que parezcan hechas 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
-Tutorial de personalización sobre la notificación del estado de los pedidos
+Notificación del estado del pedido
 
-Obtenga información sobre cómo crear notificaciones push personalizadas para conocer las actualizaciones sobre el estado de los pedidos mediante datos de perfil, contextuales y de toma de decisiones sobre ofertas.
+Consulte un escenario completo que combina atributos de perfil, datos contextuales en tiempo real y Offer Decisioning para enviar a los clientes una notificación push personalizada que confirme o actualice su estado de pedido.
 
-[Iniciar el tutorial](../using/personalization/personalization-use-case.md)
+[Leer el tutorial](../using/personalization/personalization-use-case.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
-Guía de personalización del correo electrónico de abandono del carro de compras
+Correo electrónico de abandono del carro de compras
 
-Descubra cómo personalizar los correos electrónicos de abandono del carro de compras mediante funciones de ayuda para añadir detalles específicos de cada cliente y cada producto.
+Aprenda a utilizar las funciones de ayuda para rellenar dinámicamente un correo electrónico de abandono del carro de compras con detalles específicos del cliente e información del producto, lo que le ayudará a recuperar las ventas perdidas con mensajes relevantes y oportunos.
 
-[Explorar la guía](../using/personalization/personalization-use-case-helper-functions.md)
+[Leer la guía](../using/personalization/personalization-use-case-helper-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
-Ejemplo de personalización del correo electrónico para recetas del plan de salud
+Alerta de prescripción de plan de salud
 
-Cree correos electrónicos personalizados para los suscriptores de planes de salud con el fin de destacar los estados de las recetas, si están listas para recogerse o se han retirado.
+Cree un único correo electrónico personalizado que enumere todas las recetas de un suscriptor que se encuentre actualmente en estado &quot;listo para su recogida&quot; o &quot;retirado&quot;, empleando lógica condicional y expresiones de plantilla.
 
-[Ver el ejemplo](../using/personalization/perso-uc-plan-prescriptions.md)
+[Lea el ejemplo](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+
+Fórmulas de Personalization
+
+Explore una biblioteca de patrones de personalización listos para usar que abarcan fechas, atributos de perfil, lógica condicional y mucho más. Cada fórmula incluye un fragmento de sintaxis de trabajo que puede copiar directamente en el contenido de correo electrónico, SMS o push.
+
+[Examine las recetas](../using/personalization/personalization-recipes.md)
 :::
 
 ::::

@@ -7,9 +7,19 @@ role: Developer
 level: Experienced
 keywords: lista, funciones, expresión, recorrido, matriz, colección
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
+TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: 1158
 ht-degree: 9%
 
 ---
@@ -341,7 +351,7 @@ El tipo de `<expression>` debe coincidir con los elementos de la lista. Los tipo
 |-----------|------------------|
 | Cadena | Cadena |
 | Booleano | Booleano |
-| Entero | Entero |
+| Número entero | Número entero |
 | Decimal | Decimal |
 | Duración | Duración |
 | Fecha/Hora | Fecha/Hora |
@@ -734,4 +744,3 @@ Devuelve `[3, 2, 1]`.
 Devuelve el listObject ordenado por atributo SKU (orden ascendente)
 
 +++
-

@@ -349,7 +349,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 

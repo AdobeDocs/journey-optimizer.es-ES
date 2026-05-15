@@ -9,10 +9,29 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, recorrido, empresa, configuración
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 14%
+source-wordcount: 1160
+ht-degree: 0%
 
 ---
 
@@ -42,9 +61,9 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 * Solo se puede eliminar una actividad de audiencia de lectura después de un evento empresarial. Se añade automáticamente como el siguiente paso.
 * Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la sección **[!UICONTROL Execution]** de las propiedades del recorrido.
 * Después de activarse un evento empresarial, se producirá un retraso para exportar la audiencia de 15 minutos a hasta una hora.
-* Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
+* Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Ver [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
 * ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento empresarial? Se comporta de la misma manera que cuando los individuos siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar crear recorridos demasiado largos si esperan eventos comerciales frecuentes.
-* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
+* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de audiencia.
 
 ## Varios eventos empresariales {#multiple-business-events}
 
@@ -84,7 +103,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
 1. El número de recorridos que usa este evento se muestra en el campo **[!UICONTROL Utilizado en]**. Puede hacer clic en el icono **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con este evento.
 
-1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (o carga útil) que recorrido espera recibir. Esta información se utilizará más adelante en el recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (o carga útil) que recorrido espera recibir. Esta información se utilizará más adelante en el recorrido. Ver [esta sección](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
@@ -104,7 +123,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/journey7-business.png)
 
-   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
+   El evento está ahora configurado y listo para colocarse en un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Más información sobre [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
@@ -144,4 +163,4 @@ Utilice la previsualización de carga útil para validar la definición de carga
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
+1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Ver [esta página](../event/additional-steps-to-send-events-to-journey.md).

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1184'
 ht-degree: 4%
 
 ---
@@ -216,6 +216,30 @@ El siguiente ejemplo permite calcular la suma total de los precios de los produc
 {{sum}}
 ```
 
+## Url {#url}
+
+El asistente de `url` se usa para rastrear vínculos, acortar direcciones URL e insertar [vínculos profundos](../../email/deeplinks.md) en el contenido del mensaje SMS.
+
+**Sintaxis**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**Parámetros**
+
+| Parámetro | Descripción |
+|---|---|
+| `originalUrl` | Dirección URL que se va a acortar. |
+| `type` | El tipo de vínculo. Use `DEEPLINK` para abrir una pantalla específica en una aplicación móvil. |
+| `action` | La acción de seguimiento. Use `CLICK` para rastrear clics en el vínculo. |
+
+**Ejemplo**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
+```
+
 ## Búsqueda de conjuntos de datos {#dataset-lookup}
 
 >[!AVAILABILITY]
@@ -319,7 +343,7 @@ Los valores que aparecerían como texto sin formato en la dirección URL (inclui
 
 Este asistente le permite proteger datos de perfil confidenciales (PII) antes de incluirlos en la salida procesada.
 
-**Requisitos previos**
+**Requisito previo**
 
 Un administrador debe crear al menos una clave activa en el registro de claves a nivel de zona protegida. [Aprenda a crear y administrar claves](../url-parameter-encryption.md#create-keys)
 

@@ -9,10 +9,31 @@ role: Admin
 level: Experienced
 keywords: IP, capacidad de envío, reputación, ISP, participación
 exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/NbOj5vAefLYsLD268hmcilqpbsyE1nxje86nTy1Jbco
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 7%
+source-wordcount: 1112
+ht-degree: 8%
 
 ---
 
@@ -59,9 +80,9 @@ Este calendario de ejemplo proporciona una rampa de volumen progresiva basada en
 
 | Days | % de UDV | Público destinatario | Recomendaciones de contenido |
 |------|----------|-----------------|------------------------|
-| 1-3 | 0,5 % | Sus destinatarios más comprometidos | Utilice un formato de texto sin formato corto con una call-to-action clara encima del pliegue. |
-| 4-7 | 1 % | Usuarios comprometidos más compradores recientes | Añada una imagen a pantalla completa ligera y limite los vínculos a 3 o menos. |
-| De 8 a 14 | 5 % | Lista de suscriptores activos más amplia | Introduzca su plantilla de correo electrónico estándar, pero evite contenido promocional pesado. |
+| 1-3 | 0.5% | Sus destinatarios más comprometidos | Utilice un formato de texto sin formato corto con una call-to-action clara encima del pliegue. |
+| 4-7 | 1% | Usuarios comprometidos más compradores recientes | Añada una imagen a pantalla completa ligera y limite los vínculos a 3 o menos. |
+| De 8 a 14 | 5% | Lista de suscriptores activos más amplia | Introduzca su plantilla de correo electrónico estándar, pero evite contenido promocional pesado. |
 | 15-21 | 25 % | Suscriptores activos más ligeramente inactivos | Utilice contenido de marketing normal mientras supervisa de cerca las tasas de quejas. |
 | 22-28 | 50-100 % | Lista completa (respetando listas de supresión) | Transición a su cadencia de envío en estado estacionario. |
 
@@ -146,6 +167,6 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 * [Creación de un plan de calentamiento de IP](ip-warmup-plan.md)
 * [Ejecución del plan de calentamiento de IP](ip-warmup-execution.md)
 * [Creación de configuraciones de canal](channel-surfaces.md)
-* [Delegación de subdominios &#x200B;](delegate-subdomain.md)
+* [Delegación de subdominios](delegate-subdomain.md)
 * [Administrar lista de supresión](manage-suppression-list.md)
 * [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es)

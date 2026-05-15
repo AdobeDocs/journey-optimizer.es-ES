@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
+source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2625
+ht-degree: 80%
 
 ---
 
@@ -50,8 +50,13 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 [!DNL Adobe Journey Optimizer] está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es){target="_blank"}.
 
+>[!NOTE]
+>
+>¿Quieres echar un vistazo a lo que viene? Consulte las [notas previas al lanzamiento](e-release-notes.md) para ver las próximas funciones antes de que se publiquen de forma oficial.
+
 ## Actualizaciones de mayo de 2026 {#may-26-rn}
 
+En mayo de 2026 se lanzaron las siguientes funciones y mejoras.
 
 <table>
 <thead>
@@ -72,7 +77,6 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ Debido a este modelo, las notas de la versión se actualizan entre versiones men
 
 ### Mejoras {#may-26-improv}
 
+En mayo de 2026 también se publicaron las siguientes mejoras.
+
 #### Toma de decisiones
 
 * **API de flujo de trabajo de migración de decisiones**: se ha actualizado el contrato de API para crear análisis de dependencia y flujos de trabajo de migración: pase **`request-level`** como **parámetro de consulta** en la dirección URL de solicitud (`sandbox`, `offer` o `decision`). El nivel de solicitud ya no debe enviarse en el cuerpo de JSON. [Más información](../experience-decisioning/decisioning-migration-api.md)
@@ -182,17 +188,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## Notas de la versión de abril de 2026 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Las nuevas funciones y mejoras publicadas a principios de abril se anuncian junto con su fecha de disponibilidad.
 
 **Fecha de publicación**: 28-29 de abril de 2026
 
 ### Nuevas funciones {#april-26-features}
+
+Las siguientes funciones se lanzaron en abril de 2026.
 
 <table>
 <thead>
@@ -419,6 +420,8 @@ Esto permite que las campañas recurrentes se centren en públicos totalmente nu
 
 ### Mejoras {#april-26-improv}
 
+En abril de 2026 también se publicaron las siguientes mejoras.
+
 #### IA
 
 <!--
@@ -467,7 +470,7 @@ Esto permite que las campañas recurrentes se centren en públicos totalmente nu
 
 #### Recorridos
 
-* **Tamaño de carga útil de recorrido actual visible en las propiedades de recorrido**. El panel de propiedades de recorrido ahora muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura le ayuda a monitorizar la complejidad del recorrido antes de publicar y evitar errores causados por el límite de tamaño de carga útil excedido. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
+* **Tamaño de carga útil de recorrido actual visible en las propiedades de recorrido**. El panel de propiedades de recorrido ahora muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado; por ejemplo, *1,5 MB (de 4 MB)*. Este indicador de solo lectura le ayuda a monitorizar la complejidad del recorrido antes de publicar y evitar errores causados por el límite de tamaño de carga útil excedido. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
 
   Fecha de disponibilidad: 30 de abril de 2026
 

@@ -39,7 +39,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edc6e8ac53eac365a86ac97e6ce7f3d37754e33
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 11%
@@ -156,7 +156,7 @@ El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel 
 
 Utilice esta información para monitorizar la complejidad del recorrido antes de publicarlo. Si el tamaño de la carga útil se aproxima o supera el límite, se produce un error en la publicación del recorrido. Para reducir el tamaño, considere la posibilidad de simplificar la lógica de recorrido o reducir el número de actividades.
 
-El límite predeterminado es de 2 MB. Póngase en contacto con el Servicio de atención al cliente de Adobe si necesita solicitar un límite más alto para su organización.
+El límite predeterminado es de 4 MB. Póngase en contacto con el Servicio de atención al cliente de Adobe si necesita solicitar un límite más alto para su organización.
 
 Para obtener información detallada sobre los umbrales, los mensajes de advertencia y error y los pasos para la solución de problemas, consulte [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
 

@@ -8,10 +8,30 @@ role: User
 level: Beginner
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: 1113
+ht-degree: 5%
 
 ---
 
@@ -30,7 +50,7 @@ Puede exportar conjuntos de datos a 6 destinos de almacenamiento en la nube a lo
 Encontrará información detallada sobre cada destino en la documentación de Adobe Experience Platform:
 
 * [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=es){target="_blank"}
-* [Blob de Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=es){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=es){target="_blank"}
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=es){target="_blank"}
 * [Zona de aterrizaje de datos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=es){target="_blank"}
 * [Almacenamiento en la nube de Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=es){target="_blank"}
@@ -93,7 +113,7 @@ Comprenda, a partir de la tabla siguiente, qué conjuntos de datos de Journey Op
 | Conjunto de datos de entidad AJO | Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al usuario final.  |
 | Conjunto de datos de evento de actividad entrante de AJO | Conjunto de datos para canales web e inApp de Journey Optimizer para eventos de envío e interacción. |
 | Conjunto de datos del perfil de mensajería interactiva de AJO | Almacena perfiles creados para admitir campañas activadas por API |
-| Conjunto de datos de evento de comentarios de mensajes AJO | Registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre las devoluciones también se registran en este conjunto de datos. Este conjunto de datos incluye eventos para todos los canales: correo electrónico, SMS/MMS, correo directo, etc. |
+| Conjunto de datos de evento de comentarios de mensajes AJO | Registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. Este conjunto de datos incluye eventos para todos los canales: correo electrónico, SMS/MMS, correo directo, etc. |
 | Conjunto de datos de exportación de mensajes AJO | Almacena el contenido de mensajes SMS y de correo electrónico enviados que se ha marcado para la exportación. Los datos se conservan durante siete días naturales a partir de la ingesta. |
 | Extensión de contadores de perfil de AJO | Contiene un mapa de objetos que contienen counter_value y expiryDate, escrito por counter_id |
 | Conjunto de datos del perfil push de AJO | Almacena tokens push de un perfil. |

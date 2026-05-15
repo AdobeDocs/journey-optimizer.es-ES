@@ -5,13 +5,26 @@ title: Añadir una actividad de canal en una campaña de varios pasos
 description: Obtenga información sobre cómo añadir una actividad de canal en una campaña de varios pasos
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 36%
+source-wordcount: 1803
+ht-degree: 37%
 
 ---
-
 
 # Actividades del canal {#channel}
 
@@ -83,7 +96,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
    ![imagen que muestra el lienzo con las actividades disponibles](../assets/channel-add.png)
 
-1. En el carril derecho, use el campo **[!UICONTROL Categoría]** para elegir **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]** para este mensaje. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones en las que el tiempo es importante, como interrupciones, emergencias o cancelaciones.
+1. En el carril derecho, use el campo **[!UICONTROL Categoría]** para elegir **[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]** para este mensaje. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones urgentes, como interrupciones, emergencias o cancelaciones.
 
 1. Seleccione la actividad y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** o **[!UICONTROL Editar correo postal]** según el canal elegido.
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción al diseño de correo electrónico
-description: Descubra las distintas formas de ajustar el estilo del contenido del correo electrónico
+title: Introducción al estilo de correo electrónico
+description: Descubra las diferentes formas de ajustar el estilo del contenido del correo electrónico
 feature: Email Design
 topic: Content Management
 role: User
@@ -28,13 +28,13 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 306
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Introducción al diseño de correo electrónico {#get-started-email-style}
+# Introducción al estilo de correo electrónico {#get-started-email-style}
 
-Una vez que haya empezado a crear el contenido de su correo electrónico en [!DNL Journey Optimizer], puede ajustar una serie de parámetros y atributos de estilo desde el panel de **[!UICONTROL Estilos]** del Diseñador de correo electrónico.
+Una vez que haya empezado a crear el contenido del correo electrónico en [!DNL Journey Optimizer], puede ajustar una serie de parámetros y atributos de estilo desde el panel Designer de correo electrónico **[!UICONTROL Estilos]**.
 
 Puede aplicar los cambios al cuerpo del correo electrónico, a un componente de estructura o a un componente de contenido.
 
@@ -52,14 +52,14 @@ Si usa una [plantilla de contenido](use-email-templates.md) predeterminada o si 
 
 ![](assets/email_designer_styles_theme.png)
 
-Siga los vínculos siguientes para descubrir cómo ajustar algunos de los ajustes de estilo específicos de su correo electrónico.
+Siga los vínculos a continuación para descubrir cómo ajustar algunas de las configuraciones de estilo específicas en el correo electrónico.
 
-* Obtenga información sobre cómo [personalizar el fondo del correo electrónico](backgrounds.md)
-* Obtenga información sobre cómo [administrar alineación vertical y relleno](alignment-and-padding.md)
-* Obtenga información sobre cómo [personalizar atributos de estilo en línea](inline-styling.md)
-* Aprenda a [añadir CSS personalizado al contenido del correo electrónico](custom-css.md)
+* Aprenda a [personalizar el fondo de su correo electrónico](backgrounds.md)
+* Aprenda a [administrar alineación vertical y relleno](alignment-and-padding.md)
+* Aprenda a [personalizar atributos de estilo en línea](inline-styling.md)
+* Aprenda a [agregar CSS personalizado al contenido del correo electrónico](custom-css.md)
 * Aprenda a [administrar contenido en modo oscuro](dark-mode.md)
 
 >[!NOTE]
 >
->La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices de estilo específicas que se indican en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer], como ajustar colores, etiquetas e iconos para garantizar la claridad y optimizar el diseño para diseños móviles y adaptables.
+>La [ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Asegúrese de seguir las directrices de estilo específicas que se enumeran en [esta página](../email/accessible-content.md) al diseñar contenido en [!DNL Journey Optimizer], como ajustar colores, etiquetas e iconos para garantizar la claridad y optimizar el diseño para diseños móviles y adaptables.
