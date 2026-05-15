@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Creación de una oferta personalizada
+title: Crear una oferta personalizada
 description: Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.
 feature: Decision Management, API
 badge: label="Heredado" type="Informative"
@@ -11,30 +11,22 @@ level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/t21EEquJRIgwQQ-YzlcnqDeQMGvYvEjReAFX3YlLuaY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 180
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
-# Creación de una oferta personalizada {#create-personalized-offer}
+# Crear una oferta personalizada {#create-personalized-offer}
 
 >[!TIP]
 >
->La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Una oferta personalizada es un mensaje de marketing personalizable basado en reglas de elegibilidad y restricciones.

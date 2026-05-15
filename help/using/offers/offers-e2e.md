@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Uso de ofertas personalizadas en un correo electrónico
-description: Descubra un ejemplo completo que muestra todos los pasos necesarios para configurar ofertas y utilizarlas en un mensaje de correo electrónico.
+description: Descubra un ejemplo completo que muestra todos los pasos necesarios para configurar ofertas y utilizarlas en un correo electrónico.
 badge: label="Heredado" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
@@ -11,23 +11,14 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1128
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -35,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md)
 
 Esta sección presenta un ejemplo completo para mostrar cómo configurar ofertas y utilizarlas en un mensaje de correo electrónico, en función de una decisión que haya creado anteriormente.
 
@@ -45,21 +36,21 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
 
 1. Antes de crear ofertas, [defina los componentes](#define-components)
 
-   * Crear ubicaciones
-   * Creación de reglas de decisión
+   * Creación de ubicaciones
+   * Crear reglas de decisión
    * Crear calificadores de colección (anteriormente conocidos como &quot;etiquetas&quot;)
    * Crear clasificaciones (opcional)
 
 1. [Configuración de las ofertas](#configure-offers)
 
-   * Creación de ofertas
+   * Crear ofertas
    * Para cada oferta:
 
       * Cree representaciones y seleccione una colocación y un recurso para cada representación
       * Añadir una regla para cada oferta
       * Definir una prioridad para cada oferta
 
-1. [Creación de una oferta de reserva](#create-fallback)
+1. [Crear una oferta de reserva](#create-fallback)
 
 1. [Crear una colección](#create-collection) para incluir las ofertas personalizadas que creó
 
@@ -175,7 +166,7 @@ Ahora puede crear y configurar sus ofertas. En este ejemplo, creará cuatro ofer
 
 Los pasos detallados para crear y configurar ofertas se describen en [esta sección](../../using/offers/offer-library/creating-personalized-offers.md).
 
-## Creación de una oferta de reserva {#create-fallback}
+## Crear una oferta de reserva {#create-fallback}
 
 1. Crear una oferta de reserva.
 

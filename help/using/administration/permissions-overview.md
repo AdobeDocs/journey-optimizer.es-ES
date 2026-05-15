@@ -10,21 +10,12 @@ level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 453
@@ -38,7 +29,7 @@ ht-degree: 9%
 
 El control de acceso de [!DNL Journey Optimizer] se proporciona mediante **Permisos** en Adobe Experience Cloud. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
 
-Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
+Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
 
 <!--
  A high-level workflow for gaining and assigning access permissions can be summarized as follows:

@@ -9,18 +9,14 @@ keywords: lista, funciones, expresión, recorrido, matriz, colección
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -189,7 +185,7 @@ Devuelve un listObject con objetos cuyo atributo key coincide con uno de los val
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos que se van a filtrar. Debe ser una referencia de campo. |
 | keyAttributeName | cadena | nombre del atributo en los objetos de la lista dada, utilizado como clave para el filtrado |
-| keyValueList | lista | matriz de valores clave para el filtrado |
+| keyValueList | list | matriz de valores clave para el filtrado |
 
 +++
 
@@ -263,14 +259,14 @@ Devuelve el elemento de la lista en el índice dado.
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| lista | listString |
-| lista | listBoolean |
-| lista | listInteger |
-| lista | listDecimal |
-| lista | listDuration |
-| lista | listDateTime |
-| lista | listDateTimeOnly |
-| lista | listDateOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | índice | entero |
 
 +++
@@ -333,7 +329,7 @@ Devuelve &quot;20&quot;
 
 +++
 
-## in {#in}
+## en {#in}
 
 Comprueba si el primer valor del argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada argumento value. Devuelve true si se encuentra el valor del argumento; en caso contrario, devuelve false.
 
@@ -351,10 +347,10 @@ El tipo de `<expression>` debe coincidir con los elementos de la lista. Los tipo
 |-----------|------------------|
 | Cadena | Cadena |
 | Booleano | Booleano |
-| Entero | Entero |
+| Número entero | Número entero |
 | Decimal | Decimal |
 | Duración | Duración |
-| DateTime | DateTime |
+| Fecha/Hora | Fecha/Hora |
 | DateTimeOnly | DateTimeOnly |
 | Lista | listString |
 | Lista | listBoolean |
@@ -417,8 +413,8 @@ Devuelve los valores comunes de las dos listas de entrada. Si una de las dos lis
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| lista 1 | lista |
-| lista 2 | lista |
+| lista 1 | list |
+| lista 2 | list |
 
 +++
 
@@ -491,7 +487,7 @@ Devuelve los primeros o últimos elementos N de una lista.
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista a considerar. Para listObject, debe ser una referencia de campo. |
 | numberOfItems | entero | Número de elementos que se van a devolver de la lista determinada. |
-| firstOrLastItems | booleano | Este parámetro es opcional (true de forma predeterminada). true devuelve los primeros elementos. false devuelve los últimos elementos. |
+| firstOrLastItems | Booleano | Este parámetro es opcional (true de forma predeterminada). true devuelve los primeros elementos. false devuelve los últimos elementos. |
 
 +++
 
@@ -635,7 +631,7 @@ Convierte una lista determinada (cualquier tipo excepto listObject) en una caden
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lista para convertir en cadena. |
 | separador | cadena | Separador entre cada elemento de lista en la cadena de salida. |
-| addQuotes | booleano | Este parámetro indica si cada elemento de la cadena de salida debe incluir comillas (true) o no (false). |
+| addQuotes | Booleano | Este parámetro indica si cada elemento de la cadena de salida debe incluir comillas (true) o no (false). |
 
 +++
 
@@ -673,7 +669,7 @@ Devuelve &quot;Hello&quot;,&quot;World&quot;.
 
 +++
 
-## sort {#sort}
+## ordenar {#sort}
 
 Ordena una lista de valores u objetos en orden natural.
 
@@ -689,7 +685,7 @@ Ordena una lista de valores u objetos en orden natural.
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para ordenar. Para listObject, debe ser una referencia de campo. |
 | keyAttributeName | cadena | Este parámetro solo es para listObject. El nombre del atributo en los objetos de la lista dada se utiliza como clave para ordenar. |
-| sortingOrder | booleano | Ascendente (true) o descendente (false) |
+| sortingOrder | Booleano | Ascendente (true) o descendente (false) |
 
 +++
 

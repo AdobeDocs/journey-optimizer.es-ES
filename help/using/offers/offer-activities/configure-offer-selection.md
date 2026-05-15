@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Configuración de la selección de ofertas en decisiones
+title: Configurar selección de ofertas en decisiones
 description: Obtenga información sobre cómo administrar la selección de ofertas en decisiones
 badge: label="Heredado" type="Informative"
 feature: Decision Management
@@ -11,31 +11,22 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/cuderynmp3lamdVZiG5A5Lo9ZSBym46mw0hhiVp88uU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 467
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Configuración de la selección de ofertas en decisiones {#offers-selection-in-decisions}
+# Configurar selección de ofertas en decisiones {#offers-selection-in-decisions}
 
 >[!TIP]
 >
->La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../experience-decisioning/gs-experience-decisioning.md)
 
 Si se pueden seleccionar varias ofertas para una ubicación determinada, puede elegir el método que seleccione la mejor oferta para cada perfil al configurar una decisión. Puede clasificar ofertas por:
 
@@ -61,9 +52,9 @@ Por ejemplo, puede aumentar la prioridad de todas las ofertas en las que la fech
 
 Aprenda a crear una fórmula de clasificación en [esta sección](../ranking/create-ranking-formulas.md).
 
-Una vez creada una fórmula, puede asignarla a una ubicación de una decisión. Para ello, siga los pasos a continuación:
+Una vez creada una fórmula, puede asignarla a una ubicación de una decisión. Para realizar esto, siga los pasos a continuación:
 
-1. Cree una decisión o edite una existente. Consulte [Crear decisiones](../offer-activities/create-offer-activities.md).
+1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
 1. Añada las ubicaciones que contendrán sus ofertas. Consulte [Crear ubicaciones](../offer-library/creating-placements.md).
 
@@ -83,13 +74,13 @@ Si se pueden presentar varias ofertas en esta ubicación, la decisión utilizar�
 
 ## Clasificación de IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 También puede utilizar un sistema de modelos entrenado que clasifique automáticamente las ofertas para un perfil determinado seleccionando un modelo de IA. Aprenda a crear un modelo de IA en [esta sección](../ranking/create-ranking-strategies.md).
 
 Una vez creado un modelo de IA, puede asignarlo a una ubicación en una decisión. Para ello, siga los pasos a continuación:
 
-1. Cree una decisión o edite una existente. Consulte [Crear decisiones](../offer-activities/create-offer-activities.md).
+1. Cree una decisión o edite una existente. Consulte [Creación de decisiones](../offer-activities/create-offer-activities.md).
 
 1. Añada las ubicaciones que contendrán sus ofertas. Consulte [Crear ubicaciones](../offer-library/creating-placements.md).
 

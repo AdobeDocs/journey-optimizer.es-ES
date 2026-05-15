@@ -11,7 +11,7 @@ keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos
 source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
 source-wordcount: '1289'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Para poder utilizar vínculos profundos en correos electrónicos y SMS para sus 
 
 1. En Journey Optimizer, delegue el subdominio donde la vinculación profunda esté habilitada. [Más información](../configuration/delegate-subdomain.md)
 
-1. Aloje el archivo AASA para iOS y el archivo assetLinks.json para Android en su subdominio. Póngase en contacto con el servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} o con su representante de Adobe y proporcione los siguientes detalles:
+1. Aloje el archivo AASA para iOS y el archivo assetLinks.json para Android en su subdominio. Póngase en contacto con el servicio de atención al cliente de [Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} o con su representante de Adobe y proporcione los siguientes detalles:
 
    * **Para iOS (AASA)**:
       * Subdominio delegado

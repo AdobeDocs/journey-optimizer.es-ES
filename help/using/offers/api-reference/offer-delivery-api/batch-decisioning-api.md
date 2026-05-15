@@ -11,22 +11,14 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->La nueva capacidad de toma de decisiones de [!DNL Adobe Journey Optimizer] ya está disponible a través de la experiencia basada en código y los canales de correo electrónico. [Más información](../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nueva funcionalidad de toma de decisiones de [!DNL Adobe Journey Optimizer], ya está disponible a través de los canales de experiencia basada en código y de correo electrónico. [Más información](../../../experience-decisioning/gs-experience-decisioning.md)
 
 La API [!DNL Batch Decisioning] permite a las organizaciones utilizar la funcionalidad de toma de decisiones para todos los perfiles de una audiencia determinada en una llamada. El contenido de la oferta para cada perfil de la audiencia se coloca en un conjunto de datos de Adobe Experience Platform, donde está disponible para flujos de trabajo por lotes personalizados.
 
@@ -50,7 +42,7 @@ Para ello, la organización debería:
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=es) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -59,7 +51,7 @@ Para ello, la organización debería:
 * **Número de trabajos por lotes en ejecución por conjunto de datos**: Se pueden ejecutar hasta cinco trabajos por lotes a la vez, por conjunto de datos. Cualquier otra solicitud por lotes con el mismo conjunto de datos de salida se agrega a la cola. Se selecciona un trabajo en cola para procesarlo una vez que el trabajo anterior ha terminado de ejecutarse.
 * **Límite de frecuencia**: Un lote se ejecuta fuera de la instantánea de perfil que se produce una vez al día. La API [!DNL Batch Decisioning] limita la frecuencia y siempre carga perfiles de la instantánea más reciente.
 
-## Primeros pasos {#getting-started}
+## Introducción {#getting-started}
 
 Antes de utilizar esta API, asegúrese de completar los siguientes pasos previos.
 
@@ -197,6 +189,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | `ode:status` | El estado de la carga de trabajo comienza con &quot;EN COLA&quot; y cambia a &quot;PROCESANDO&quot;, &quot;INGIRIENDO&quot;, &quot;COMPLETADO&quot; o &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Esto muestra más detalles, como sparkJobId y batchID si el estado es &quot;PROCESANDO&quot; o &quot;INGIRIENDO&quot;. Muestra los detalles del error si el estado es &quot;ERROR&quot;. |  |
 
-## Pasos siguientes {#next-steps}
+## Próximos pasos {#next-steps}
 
 Siguiendo esta guía de API, ha comprobado el estado de la carga de trabajo y ha enviado ofertas utilizando la API de [!DNL [!DNL Batch Decisioning]]. Para obtener más información, consulte la [descripción general de Administración de decisiones](../../get-started/starting-offer-decisioning.md).

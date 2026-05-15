@@ -10,23 +10,12 @@ level: Intermediate
 keywords: expresión, editor, ayudantes, caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1263
@@ -70,7 +59,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
@@ -123,7 +112,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![Editor de expresiones que muestra upperCase con token de nombre de perfil](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
@@ -364,4 +353,4 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

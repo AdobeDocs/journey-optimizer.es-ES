@@ -7,31 +7,11 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1296
@@ -53,7 +33,7 @@ La toma de decisiones ofrece funcionalidades y beneficios significativos con res
 
 ### Capacidades de IA y aprendizaje automático
 
-* **Métricas personalizadas**: capacidad de usar métricas de optimización personalizadas para modelos de IA. Esto proporciona interoperabilidad para la generación de informes con [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, estandariza la generación de informes en ambas plataformas y mejora la consistencia y confiabilidad de los datos. La integración optimizada proporciona una vista más clara de las métricas de rendimiento y agrega nuevas funciones, como la creación de métricas sencillas, la publicación de audiencias, la realización de preguntas específicas mediante Insight Builder y la programación de informes.
+* **Métricas personalizadas**: capacidad de usar métricas de optimización personalizadas para modelos de IA. Esto proporciona interoperabilidad para la generación de informes con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, estandariza la generación de informes en ambas plataformas y mejora la consistencia y confiabilidad de los datos. La integración optimizada proporciona una vista más clara de las métricas de rendimiento y agrega nuevas funciones, como la creación de métricas sencillas, la publicación de audiencias, la realización de preguntas específicas mediante Insight Builder y la programación de informes.
 
 * **Medición de alza**: Capacidad para visualizar, explorar y explotar el tráfico en modelos de IA. Esto permite a los especialistas en marketing y a los científicos de datos cuantificar cómo la exploración de IA mejora el rendimiento del modelo a largo plazo y la capacidad de detección de nuevas ofertas ganadoras. La transparencia en la asignación del tráfico genera confianza en las decisiones de IA y permite a los equipos optimizar tanto el aprendizaje como el rendimiento a lo largo del tiempo. [Más información](ranking/auto-optimization-model.md#lift)
 
@@ -93,7 +73,7 @@ Tablero que documenta el rendimiento de los elementos de decisión y las estrate
 
 * **Compatibilidad con canales de mensajería nativos**: mensajería y toma de decisiones integradas en un solo marco de trabajo en varios canales: [experiencia basada en código](../code-based/get-started-code-based.md), [correo electrónico](../email/get-started-email.md) (disponibilidad limitada), [SMS](../sms/get-started-sms.md) y [notificaciones push](../push/get-started-push.md). La compatibilidad intuitiva con la IU permite a los usuarios insertar componentes de toma de decisiones directamente en los flujos de trabajo de creación de mensajes.
 
-* **Búsqueda de conjuntos de datos de Experience Platform**: capacidad para cargar y hacer referencia a [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"} directamente en las reglas de selección de ofertas, clasificación y contenido de ofertas personalizado. Esto aumenta la flexibilidad de personalización y segmentación al permitir que la lógica de decisión utilice fuentes de datos externas dinámicas. [Más información](../data/lookup-aep-data.md)
+* **Búsqueda de conjuntos de datos de Experience Platform**: capacidad para cargar y hacer referencia a [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} directamente en las reglas de selección de ofertas, clasificación y contenido de ofertas personalizado. Esto aumenta la flexibilidad de personalización y segmentación al permitir que la lógica de decisión utilice fuentes de datos externas dinámicas. [Más información](../data/lookup-aep-data.md)
 
 * **Escalabilidad y rendimiento**: mejora arquitectónica que mueve el cálculo de decisiones del concentrador al perímetro, lo que reduce significativamente la latencia y mejora el rendimiento en los casos de uso de alto tráfico.
 

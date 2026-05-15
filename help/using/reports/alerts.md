@@ -9,36 +9,16 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2971
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -67,7 +47,7 @@ Las alertas del sistema están disponibles en el menú **[!UICONTROL Alertas]** 
 
 Antes de trabajar con alertas:
 
-* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es#permissions){target="_blank"}.
+* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconocimiento de zona protegida**: Las suscripciones de alerta son específicas de la zona protegida. Al suscribirse a las alertas, solo se aplican a la zona protegida actual. Cuando se restablece una zona protegida, también se restablecen todas las suscripciones de alerta.
 
@@ -117,7 +97,7 @@ Detectar problemas con la configuración de envío de correo electrónico:
 
 >[!NOTE]
 >
->Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}.
+>Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Suscribirse a alertas {#subscribe-alerts}
 
@@ -149,7 +129,7 @@ Puede suscribirse a las alertas de dos formas:
 
 **Método de suscripción alternativo:**
 
-Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}.
+Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Suscripción global {#global-subscription}
@@ -176,7 +156,7 @@ Haga clic en **[!UICONTROL Cancelar la suscripción]** junto a la alerta.
 
 **Método de suscripción alternativo:**
 
-También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de suscripción de eventos para las alertas de Journey Optimizer se enumeran en cada [descripción de alerta a continuación](#journey-alerts).
+También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de suscripción de eventos para las alertas de Journey Optimizer se enumeran en cada [descripción de alerta a continuación](#journey-alerts).
 
 ### suscripción específica de recorrido {#unitary-subscription}
 
@@ -193,9 +173,9 @@ Las suscripciones específicas a recorridos le permiten supervisar recorridos in
    ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=75%}
 
 1. Seleccione las alertas que desee activar entre las opciones disponibles:
-   * [Tasa de descarte de perfil superada](#alert-discard-rate)
-   * [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate)
-   * [Tasa de error de perfil superada](#alert-profile-error-rate)
+   * [Tasa de descartes de perfil superada](#alert-discard-rate)
+   * [Tasa de errores de acción personalizada superada](#alert-custom-action-error-rate)
+   * [Tasa de errores de perfil superada](#alert-profile-error-rate)
    * [Recorrido publicado](#alert-journey-published)
    * [Recorrido finalizado](#alert-journey-finished)
    * [Límite de acción personalizado activado](#alert-custom-action-capping)
@@ -210,7 +190,7 @@ Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UI
 >
 >La alerta [Leer Déclencheur de audiencias no se ha realizado correctamente](#alert-read-audiences) solo está disponible a través de una suscripción global, no de una suscripción por recorrido.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## alertas de recorrido {#journey-alerts}
 
@@ -463,6 +443,6 @@ Para quitar suscriptores, elimina su dirección de correo electrónico de los su
 **Marco de alertas:**
 
 * [Información general sobre alertas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}: Descripción del marco de alertas
-* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es){target="_blank"}: ver, suscribirse y administrar alertas
-* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"} - Opciones de integración avanzadas
-* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}: lista completa de alertas de plataforma disponibles
+* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"}: ver, suscribirse y administrar alertas
+* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opciones de integración avanzadas
+* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}: lista completa de alertas de plataforma disponibles

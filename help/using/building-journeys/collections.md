@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Paso de colecciones a parámetros de acción personalizados
+title: Pasar colecciones a parámetros de acción personalizados
 description: Aprenda a pasar colecciones de forma dinámica en Journey Optimizer mediante acciones personalizadas
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -10,31 +10,19 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 794
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Paso de colecciones a parámetros de acción personalizados {#passing-collection}
+# Pasar colecciones a parámetros de acción personalizados {#passing-collection}
 
 Puede pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución.
 
@@ -117,7 +105,7 @@ En esta sección, utilizamos el siguiente ejemplo de carga útil JSON. Es una ma
 
 Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un objeto.
 
-1. Cree su acción personalizada. Más información sobre [esta página](../action/about-custom-action-configuration.md).
+1. Cree su acción personalizada. Obtenga más información en [esta página](../action/about-custom-action-configuration.md).
 
 1. En la sección **[!UICONTROL Parámetros de acción]**, pegue el ejemplo JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
@@ -139,7 +127,7 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
    ![Función de colección de filtros con interfaz de generador de condiciones](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. Cree el recorrido y añada la acción personalizada que ha creado. Más información sobre [esta página](../building-journeys/using-custom-actions.md).
+1. Cree el recorrido y añada la acción personalizada que ha creado. Obtenga más información en [esta página](../building-journeys/using-custom-actions.md).
 
 1. En la sección **[!UICONTROL Parámetros de acción]**, defina el parámetro de matriz (`products` en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
@@ -163,7 +151,7 @@ Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para
 
   En las cargas útiles de solicitud, las matrices anidadas solo se admiten cuando contienen un número fijo de elementos, como se define en la configuración de acción personalizada. Por ejemplo, si una matriz anidada siempre incluye exactamente tres elementos, se puede configurar como una constante. Cuando el número de elementos debe ser dinámico, solo las matrices no anidadas (matrices en el nivel inferior) pueden definirse como variables.
 
-  Ejemplo:
+  Por ejemplo:
 
    1. El siguiente ejemplo ilustra un **caso de uso no admitido**.
 

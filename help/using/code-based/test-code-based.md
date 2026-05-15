@@ -7,17 +7,11 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 TQID: https://experienceleague.adobe.com/UnVcc0yZOYfzUlY6HB54YTb-CcCQ4GbGtBXGueCnjZ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 833
@@ -108,7 +102,7 @@ Al crear experiencias basadas en código para páginas web o aplicaciones móvil
 
    * Seleccione el botón **[!UICONTROL Copiar vínculo]** y comparta el vínculo con su equipo y las partes interesadas, que pueden obtener una vista previa de la nueva experiencia en cualquier explorador móvil antes de que los cambios se activen.
 
-   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
+   * Escanee el código QR con su dispositivo móvil para abrir el vínculo de vista previa directamente en la aplicación móvil. Debes introducir el PIN en tu dispositivo para establecer la sesión de [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}.
 
      >[!NOTE]
      >

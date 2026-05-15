@@ -8,28 +8,16 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2305
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -37,8 +25,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
->title="Administración de Déclencheur en la aplicación"
->abstract="Controle de forma eficaz sus Déclencheur seleccionando los eventos y criterios específicos que activarán sus mensajes. Con el Generador de reglas, los usuarios pueden definir condiciones y valores precisos. Cuando se cumplen estas condiciones, inician una serie de acciones, incluida la entrega de mensajes en la aplicación."
+>title="Activadores de administración en la aplicación"
+>abstract="Controle de forma eficaz sus Activadores seleccionando los eventos y criterios específicos que activarán sus mensajes. Con el Generador de reglas, los usuarios pueden definir condiciones y valores precisos. Cuando se cumplen estas condiciones, inician una serie de acciones, incluido el envío de mensajes en la aplicación."
 
 Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
 
@@ -106,15 +94,15 @@ Para añadir un mensaje en la aplicación en un recorrido, siga estos pasos:
 
       +++ Ver características disponibles
 
-      | Paquete | Características | Definición |
+      | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
@@ -212,15 +200,15 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
       +++ Ver características disponibles
 
-      | Paquete | Características | Definición |
+      | Paquete | Rasgos | Definición |
       |---|---|---|
-      | Información del dispositivo | Nombre del operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
+      | Información del dispositivo | Nombre de operador | Se activa cuando se cumple uno de los nombres de operador de la lista. |
       | Información del dispositivo | Nombre del dispositivo | Se activa cuando se cumple uno de los nombres de dispositivo. |
       | Información del dispositivo | Configuración regional | Se activa cuando se cumple uno de los idiomas de la lista. |
       | Información del dispositivo | Versión del SO | Se activa cuando se cumple una de las versiones del sistema operativo especificadas. |
       | Información del dispositivo | Versión anterior del sistema operativo | Se activa cuando se cumple una de las versiones anteriores del sistema operativo especificadas. |
       | Información del dispositivo | Modo de ejecución | Se activa si el modo de ejecución es aplicación o extensión. |
-      | Ciclo de aplicación | ID de aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
+      | Ciclo de aplicación | ID de la aplicación | Se activa cuando se cumple el ID de aplicación especificado. |
       | Ciclo de aplicación | Día de la semana | Se activa cuando se cumple el día de la semana especificado. |
       | Ciclo de aplicación | Día desde el primer uso | Se activa cuando se alcanza el número de días especificado desde que se usó por primera vez. |
       | Ciclo de aplicación | Día desde el último uso | Se activa cuando se cumple el número de días especificado desde el último uso. |
@@ -238,7 +226,7 @@ Para añadir un mensaje en la aplicación en una campaña, siga estos pasos:
 
    1. Haga clic en **[!UICONTROL Crear grupo]** para agrupar los déclencheur.
 
-1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo. Estas son las opciones disponibles:
+1. Elija la frecuencia del déclencheur cuando su mensaje en la aplicación esté activo. Las opciones disponibles son las siguientes:
 
    * **[!UICONTROL Siempre]**: mostrar siempre el mensaje cuando se produzcan los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de la aplicación móvil]**.
    * **[!UICONTROL Una vez]**: mostrar este mensaje solo la primera vez que se produzcan los eventos seleccionados en la lista desplegable **[!UICONTROL déclencheur de aplicaciones móviles]**.
@@ -259,29 +247,29 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
 >[!ENDTABS]
 
-## Vídeos de presentación{#video}
+## Vídeotutoriales{#video}
 
 * El siguiente vídeo muestra cómo crear, configurar y publicar mensajes en la aplicación en sus campañas.
 
-  +++Ver vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
 * El siguiente vídeo muestra cómo configurar y analizar experimentos de contenido para probar mensajes en la aplicación A/B.
 
-  +++Ver vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
 * El siguiente vídeo muestra cómo crear un mensaje en la aplicación en un recorrido y cómo probar y publicar el recorrido.
 
-  +++Ver vídeo
+  +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

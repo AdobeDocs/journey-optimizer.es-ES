@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notas de la versión 2023
+title: Notas de la versión de 2023
 description: Notas de la versión de Journey Optimizer 2023
 feature: Release Notes
 topic: Content Management
@@ -12,31 +12,31 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# Notas de la versión 2023 {#release-notes-2023}
+# Notas de la versión de 2023 {#release-notes-2023}
 
-Esta página enumera todas las características y mejoras de [!DNL Journey Optimizer] publicadas en 2023.
+Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2023.
 
 
 ## Versión de octubre de 2023 {#oct-rn-2023}
 
-### Nuevas funciones{#oct-2023-features}
+### Nuevas funcionalidades{#oct-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 <table>
 <thead>
 <tr>
-<th><strong>Herramientas de espacio aislado</strong><br/></th>
+<th><strong>Herramientas de zona protegida</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La herramienta de zona protegida permite copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
+<p>Las herramientas de zona protegida permiten copiar objetos en varias zonas protegidas aprovechando la exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>Para obtener más información, consulte la <a href="../building-journeys/copy-to-sandbox.md">documentación detallada</a>.</p>
 </td>
@@ -53,7 +53,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta función solo está disponible actualmente con Sinch.</p>
+<p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>Para obtener más información, consulte la <a href="../sms/create-sms.md#mms-content">documentación detallada</a>.</p>
 </tr>
@@ -64,14 +64,14 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Audiencias**
+**Públicos**
 
-* Ahora puede segmentar audiencias cargadas desde un archivo CSV a recorridos y campañas. [Más información](../audience/about-audiences.md#about-segments)
-* Ahora puede segmentar audiencias creadas mediante la composición de audiencias y aprovechar los atributos de enriquecimiento en los Recorridos. [Más información](../building-journeys/read-audience.md)
+* Ahora puede dirigirse a públicos destinatarios cargados desde un archivo CSV en recorridos y campañas. [Más información](../audience/about-audiences.md#about-segments)
+* Ahora puede dirigirse a públicos destinatarios creados mediante la composición de públicos y aprovechar los atributos de enriquecimiento de los recorridos. [Más información](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
->Estas funcionalidades están disponibles actualmente como una versión beta.
+>Estas funcionalidades están disponibles actualmente como versión Beta.
 
 <!--
 **Spam scoring for emails**
@@ -89,8 +89,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esta mejora se ha introducido para evitar que la duración de la espera supere los 30 días de vida útil del recorrido. Esto se aplica a:
 
    * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
-   * el **período de espera de reentrada** en [propiedades de recorrido](../building-journeys/journey-properties.md#entrance)
-   * el campo **Esperar** en la definición de tiempo de espera de [actividades de evento](../building-journeys/general-events.md#events-specific-time).
+   * el **Período de espera de reentrada** en [Propiedades del recorrido](../building-journeys/journey-properties.md#entrance)
+   * el campo **Esperar a** en la definición de tiempo de espera de las [actividades de eventos](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -98,15 +98,15 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 * You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
 -->
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* Se han actualizado varias etiquetas relacionadas con la restricción de ofertas en la interfaz de administración de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
+* Se han actualizado varias etiquetas relacionadas con el límite de ofertas en la interfaz de gestión de decisiones. [Más información](../offers/offer-library/add-constraints.md#capping)
 
 
 
 ## Versión de septiembre de 2023 {#sept-rn-2023}
 
-### Nuevas funciones{#sept-2023-features}
+### Nuevas funcionalidades{#sept-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -119,8 +119,8 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Los atributos calculados permiten resumir fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta función, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en segmentación, destinos de perfil del cliente en tiempo real o Journey Optimizer.<br/><br/>
-Además, los atributos calculados simplifican la segmentación y los flujos de trabajo de recorrido para ayudarle a ofrecer sin problemas experiencias relevantes. Obtenga más información en la <a href="../audience/computed-attributes.md">documentación detallada</a>.</p>
+<p>Los atributos calculados permiten que la funcionalidad resuma fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta funcionalidad, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en segmentación, destinos de perfil del cliente en tiempo real o Journey Optimizer.<br/><br/>
+Además, los atributos calculados simplifican la segmentación y los flujos de trabajo del recorrido para ofrecer experiencias relevantes. Obtenga más información en la <a href="../audience/computed-attributes.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -130,13 +130,13 @@ Además, los atributos calculados simplifican la segmentación y los flujos de t
 <table>
 <thead>
 <tr>
-<th><strong>Informes de canales consolidados</strong><br/></th>
+<th><strong>Informes de los canales consolidados</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La función Informe de canal ofrece a analistas y expertos en marketing una descripción general completa de las métricas de tráfico y participación a nivel de canal.</p>
+<p>La funcionalidad Informe de canal ofrece a los analistas y expertos en marketing información general completa de las métricas de tráfico y de participación a nivel de canal.</p>
 <p>Para acceder al menú <b>Informe</b>, debe tener el permiso <b>Ver informes de canal</b>.</p>
 <img src="assets/channel-reports.png"/>
 <p>Para obtener más información, consulte la <a href="../reports/channel-report-cja.md">documentación detallada</a>.</p>
@@ -148,13 +148,13 @@ Además, los atributos calculados simplifican la segmentación y los flujos de t
 <table>
 <thead>
 <tr>
-<th><strong>Destinos de exportación de conjuntos de datos (GA)</strong><br/></th>
+<th><strong>Destinos de exportación del conjunto de datos (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible de forma general. Esta función le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos.</p>
+<p>La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible de forma general. Esta funcionalidad le permite establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>Para obtener más información, consulte la <a href="../data/export-datasets.md">documentación detallada</a>.</p>
 </td>
@@ -165,13 +165,13 @@ Además, los atributos calculados simplifican la segmentación y los flujos de t
 <table>
 <thead>
 <tr>
-<th><strong>Almacenamiento de credenciales de aplicación móvil por zona protegida</strong><br/></th>
+<th><strong>Almacenamiento de las credenciales de aplicación móvil por zona protegida</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Esta nueva función le permite administrar y asociar fácilmente credenciales push con una zona protegida dedicada en las superficies de la aplicación.</p>
+<p>Esta nueva funcionalidad le permite administrar y asociar fácilmente las credenciales push con una zona protegida en las superficies de la aplicación.</p>
 <p>Para obtener más información, consulte la <a href="../in-app/inapp-configuration.md#channel-prerequisites">documentación detallada</a>.</p>
 </tr>
 </tbody>
@@ -181,56 +181,56 @@ Además, los atributos calculados simplifican la segmentación y los flujos de t
 
 Esta versión incorpora las mejoras que se enumeran a continuación.
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* Ya están disponibles nuevas API para la creación y administración de objetos de administración de decisiones. Estas API ofrecen un rendimiento mejorado y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27 de marzo de 2024. [Más información](../offers/api-reference/getting-started.md)
+* Ya están disponibles las nuevas API para la creación y administración de objetos de gestión de decisiones. Estas API ofrecen un rendimiento y una experiencia de usuario mejorada. Las API heredadas serán compatibles hasta el 27/03/2024. [Más información](../offers/api-reference/getting-started.md)
 
-**Personalization**
+**Personalización**
 
-* Además de los fragmentos visuales, ahora es posible crear, guardar y reutilizar fragmentos de expresiones desde la interfaz de Journey Optimizer a través del Editor de expresiones. Los fragmentos de expresión reemplazan a las expresiones guardadas anteriormente. [Más información](../personalization/use-expression-fragments.md)
+* Además de los fragmentos visuales, ahora es posible crear, guardar y reutilizar fragmentos de expresiones desde la interfaz de Journey Optimizer a través del editor de expresiones. Los fragmentos de expresión reemplazan a las expresiones guardadas anteriormente. [Más información](../personalization/use-expression-fragments.md)
 
 **Alerta**
 
-* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir una notificación cuando falle una actividad **Leer audiencia**. [Más información](../reports/alerts.md).
+* Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una actividad de **Público de lectura**. [Más información](../reports/alerts.md).
 
 **Canal web**
 
-* Ahora, las aplicaciones de una sola página (SPA) se pueden crear en el editor visual web, que le permite seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web. Una vista puede definirse como un sitio completo o como un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad del sitio de productos o el marco de preferencias de envío en todas las páginas de cierre de compra. Se necesita una configuración de desarrollador única para definir las vistas en la implementación de Adobe Experience Platform Web SDK; esto permite a los especialistas en marketing crear y ejecutar campañas web de Adobe Journey Optimizer en SPA. [Más información](../web/web-spa.md)
+* Las aplicaciones de una sola página (SPA) se pueden crear en el editor visual web, lo que le permite seleccionar a qué vistas específicas desea aplicar las modificaciones de la página web. Una vista puede definirse como un sitio completo o un grupo de elementos visuales en un sitio, como la página de inicio, la totalidad de productos del sitio o el marco de preferencias de envío en todas las páginas de cierre de compra. Se necesita una configuración de desarrollador única para definir las vistas en la implementación del SDK web de Adobe Experience Platform; esto permite a los expertos en marketing crear y ejecutar campañas web de Adobe Journey Optimizer en las SPA. [Más información](../web/web-spa.md)
 
-* Al editar una página con el diseñador web, ahora puede agregar nuevos cambios al contenido directamente desde el panel Modificaciones, sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador. [Más información](../web/manage-web-modifications.md#add-modifications)
+* Al editar una página con el diseñador web, ahora puede añadir nuevos cambios al contenido directamente desde el panel Modificaciones, sin necesidad de seleccionar un componente y editarlo desde la interfaz del diseñador. [Más información](../web/manage-web-modifications.md#add-modifications)
 
-* Al configurar subdominios web, ahora tiene la opción de agregar su propio subdominio, además de utilizar un subdominio ya delegado a Adobe. [Más información](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* A la hora de configurar los subdominios web, tiene la opción de añadir su propio subdominio, además de utilizar uno ya delegado a Adobe. [Más información](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Recorridos**
 
-* Al duplicar un recorrido, ahora puede definir el nombre de la copia de recorrido. [Más información](../building-journeys/journey-gs.md#duplicate-a-journey)
+* Al duplicar un recorrido, puede definir el nombre de la copia. [Más información](../building-journeys/journey-gs.md#duplicate-a-journey)
 
-* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esta capacidad le permite aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha agregado una [nueva protección de límite](../start/guardrails.md#custom-actions-g) para limitar automáticamente las llamadas de acción personalizadas. [Más información](../action/action-response.md)
+* La compatibilidad con las respuestas de acciones personalizadas ahora es GA. Esto permite aprovechar las respuestas de las llamadas de la API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Además, se ha añadido un [nuevo mecanismo de protección de límite](../start/guardrails.md#custom-actions-g) para limitar automáticamente las llamadas de acción personalizadas. [Más información](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **Canal de correo electrónico**
 
-* Una nueva opción de la configuración de superficie de correo electrónico permite enviar mensajes transaccionales a perfiles aunque sus direcciones de correo electrónico estén en la lista de supresión de Adobe [!DNL Journey Optimizer]. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Una nueva opción en la configuración de la superficie del correo electrónico permite elegir el envío de los mensajes transaccionales a perfiles, incluso si sus direcciones de correo electrónico están en la lista de supresión de Adobe [!DNL Journey Optimizer]. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canal de SMS**
 
-* Se han agregado dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, a la pantalla de configuración de la API, lo que permite a los usuarios personalizar las respuestas para las palabras clave entrantes. Tenga en cuenta que esto solo está disponible para el proveedor de SMS de Sinch. [Más información](../sms/sms-configuration.md)
+* Dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, se han añadido a la pantalla de configuración de la API, lo que permite a los usuarios personalizar las respuestas para las palabras clave entrantes. Tenga en cuenta que esto solo está disponible para el proveedor de SMS de Sinch. [Más información](../sms/sms-configuration.md)
 
-* La exclusión de SMS ya no se administra en el nivel de canal. Ahora es específico para un número, lo que significa que si algunos perfiles se excluyen de un número determinado o código corto, aún puede enviarles mensajes de otros números que pueda utilizar para enviar mensajes SMS. Una nueva opción le permite seleccionar el **número de exclusión** que desea utilizar para una superficie determinada. [Más información](../sms/sms-configuration.md)
+* La exclusión de SMS ya no se administra al nivel del canal. Ahora es específico para cada número, lo que significa que si algunos perfiles se excluyen de un número o código corto determinado, podrá seguir enviándoles mensajes SMS desde otros números. Una nueva opción permite seleccionar el **número de exclusiones** que desee utilizar para una superficie determinada. [Más información](../sms/sms-configuration.md)
 
-**Canal de correo postal**
+**Canal de correo directo**
 
-* Ahora puede cifrar archivos destinados a sus proveedores de correo postal cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
+* Ahora puede cifrar archivos destinados a sus proveedores de correo directo cuando se transfieren a un servidor. Para ello, hay un nuevo campo disponible en la pantalla de configuración de enrutamiento de archivos, que le permite copiar y pegar la clave de cifrado. [Más información](../direct-mail/direct-mail-configuration.md)
 
-**Informes**
+**Creación de informes**
 
-* Ahora puede exportar informes de Journey Optimizer como archivo CSV. Obtenga más información en la [documentación detallada](../reports/report-gs-cja.md).
+* Ahora puede exportar informes de Journey Optimizer como un archivo CSV. Obtenga más información en la [documentación detallada](../reports/report-gs-cja.md).
 
-**Assets**
+**Recursos**
 
-* Una nueva opción para Assets le permite elegir el repositorio para su Assets en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o por un repositorio de Assets as a Cloud Service, siempre que sea el propietario de esta solución. [Más información](../integrations/assets.md)
+* Una nueva opción para los recursos le permite elegir el repositorio de estos en Journey Optimizer. Puede optar por un repositorio de Assets Essentials o de Assets as a Cloud Service, siempre que sea el propietario de esta solución. [Más información](../integrations/assets.md)
 
 <!--
 **Decision management**
@@ -240,7 +240,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de agosto de 2023 {#aug-rn-2023}
 
-### Nuevas funciones{#aug-2023-features}
+### Nuevas funcionalidades{#aug-2023-features}
 
 Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 
@@ -253,7 +253,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de un recorrido. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño del mensaje, la visualización, el texto y los botones para crear una experiencia perfecta.</p>
+<p>Ahora, puede enviar mensajes personalizados en la aplicación a la gente que use la aplicación y esté en un recorrido. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>Para obtener más información, consulte la <a href="../in-app/create-in-app.md">documentación detallada</a>.</p>
 </tr>
@@ -270,7 +270,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear y administrar listas semilla en Journey Optimizer. Una lista semilla consiste en direcciones internas que se pueden añadir a la audiencia real y recibir el mismo mensaje que los perfiles objetivo en el momento de la ejecución de la entrega. Utilice esta capacidad para monitorizar las comunicaciones enviadas y asegurarse de que todos los formatos de visualización, URL, imágenes y vínculos son correctos.</p>
+<p>Ahora puede crear y administrar listas semilla en Journey Optimizer. Una lista semilla consiste en direcciones internas que se pueden añadir al público real y recibir el mismo mensaje que los perfiles objetivo en el momento de la ejecución del envío. Utilice esta capacidad para monitorizar las comunicaciones enviadas y asegurarse de que todos los formatos de visualización, direcciones URL, imágenes y vínculos son correctos.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Para obtener más información, consulte la <a href="../configuration/seed-lists.md">documentación detallada</a>.</p>
 </td>
@@ -317,36 +317,36 @@ A new option is available in the email surface settings to include email address
 
 **Recorridos**
 
-* Ahora puede aprovechar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta. [Más información](../action/action-response.md).
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como versión Beta. [Más información](../action/action-response.md).
 * Se ha introducido un nuevo tipo de alerta del sistema. Ahora puede recibir notificaciones cuando falle una acción personalizada. [Más información](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
-**Correo postal**
+**Correo directo**
 
-* Ahora se puede seleccionar Azure como tipo de servidor en la configuración de enrutamiento de archivos. [Más información](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* Ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo postal. [Más información](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* Azure ahora se puede seleccionar como tipo de servidor en la configuración de enrutamiento de archivos. [Más información](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* El ampersand está ahora disponible como campo separador de columnas en la configuración de superficie de correo directo. [Más información](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
 
 ## Versión de julio de 2023 {#july-rn-2023}
 
-### Nuevas funciones{#july-2023-features}
+### Nuevas funcionalidades{#july-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Composición de audiencia</strong><br/></th>
+<th><strong>Composición de público</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear flujos de trabajo de composición para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (dividir, enriquecer...) para crear nuevas audiencias. Las audiencias recién creadas se vuelven a guardar en Adobe Experience Platform junto con las audiencias existentes y se pueden aprovechar en campañas de Journey Optimizer para clientes de destino.</p>
+<p>Ahora puede crear flujos de trabajo de composición para combinar públicos de Adobe Experience Platform existentes en un lienzo visual y aprovechar varias actividades (división, enriquecer) para crear nuevos públicos. Los públicos recién creados se vuelven a guardar en Adobe Experience Platform junto con los públicos existentes y se pueden aprovechar en las campañas de Journey Optimizer para dirigirse a los clientes.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Para obtener más información, consulte la <a href="../audience/get-started-audience-orchestration.md">documentación detallada</a>.</p>
-<p>La composición de audiencias viene totalmente integrada con el nuevo menú "Audiencias" de Adobe Experience Platform, que sirve como portal centralizado para las audiencias. Ahora puede utilizar una página de exploración que incluya un nuevo panel con tendencias de segmentos y superposiciones para encontrar nuevas perspectivas y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de audiencias estandarizado, así como funciones de administración del ciclo vital de las audiencias para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar audiencias de forma fácil y segura desde un solo lugar. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
+<p>La composición de público viene totalmente integrada con el nuevo menú "Audiences" de Adobe Experience Platform, que sirve como portal centralizado para los públicos. Ahora puede utilizar una página de exploración que incluya un nuevo panel de control con tendencias de segmentos y superposiciones para encontrar nuevos insights y explorar las herramientas organizativas para la carpeta y el etiquetado. Esta experiencia incluye controles de gobernanza para el etiquetado de público estandarizado, así como funciones de administración del ciclo vital de los públicos para administrar los flujos de trabajo de activación. Con esta nueva experiencia de administración, ahora puede administrar públicos de forma fácil y segura desde un solo lugar. Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es" target="_blank">Documentación de Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -361,9 +361,9 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Ahora puede agregar mensajes de correo postal en sus campañas. El correo postal es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.</p>
-<p>Al preparar una entrega de correo postal, Journey Optimizer genera un archivo que incluye todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). A continuación, podrá enviar este archivo a su proveedor de correo postal, que se encargará del envío real.</p>
-<p>Por ahora, el canal de correo postal no está disponible para las organizaciones que hayan adquirido la oferta complementaria Adobe Healthcare Shield.</p>
+<p>Ahora puede añadir mensajes de correo directo en sus campañas. El correo directo es un canal sin conexión que le permite personalizar y generar los archivos necesarios para que los proveedores de correo directo envíen correo a sus clientes.</p>
+<p>Al preparar un envío de correo directo, Journey Optimizer genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección directo). Después, puede enviar este archivo al proveedor de correo directo que se encarga de la entrega real.</p>
+<p>Por ahora, el canal de correo directo no está disponible para las organizaciones que han adquirido la oferta complementaria Adobe Healthcare Shield</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Para obtener más información, consulte la <a href="../direct-mail/get-started-direct-mail.md">documentación detallada</a>.</p>
 </tr>
@@ -373,13 +373,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Conversión del contenido de HTML para el Designer de correo electrónico</strong><br/></th>
+<th><strong>Conversión del contenido del HTML para el Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el Designer de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
+<p>Ahora puede importar y convertir cualquier contenido de HTML en el editor de correo electrónico de Journey Optimizer. Los bloques de contenido se identifican automáticamente y están disponibles en el Diseñador de correo electrónico: utilice sus potentes funciones de diseño para actualizarlos y personalizarlos.</p>
 <img src="assets/html-convert.png">
 <p>Para obtener más información, consulte la <a href="../email/existing-content.md">documentación detallada</a>.</p>
 </td>
@@ -397,7 +397,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Además de las campañas y los recorridos, ahora puede asignar Adobe Experience Platform Unified Tags a sus páginas de aterrizaje, plantillas de contenido, fragmentos y listas de suscripción. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. </p>
+<p>Además de las campañas y los recorridos, ahora puede asignar etiquetas unificadas de Adobe Experience Platform a sus páginas de destino, plantillas de contenido, fragmentos y listas de suscripción. Esto le permite clasificarlas fácilmente y mejorar la búsqueda y la navegación en todas las listas. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
@@ -432,14 +432,14 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 Los eventos contextuales relacionados con campañas ya están disponibles para su uso en el menú &quot;Atributos contextuales&quot; del editor de personalización.
 
 
-**Audiencias**
+**Públicos**
 
-Se han realizado mejoras en el selector de audiencias en recorridos o campañas, con la adición de nuevas columnas que muestran el origen y la frecuencia de actualización de las audiencias. Con la publicación del portal de composición de audiencias, Adobe Experience Platform y Adobe Journey Optimizer han actualizado el uso de &quot;audiencias&quot; y &quot;segmentos&quot; en el sistema y en la documentación.
+Se han realizado mejoras en el selector de públicos en recorridos o campañas, añadiendo nuevas columnas que muestran el origen y la frecuencia de actualización de los públicos. Con el lanzamiento del portal de composición de público, Adobe Experience Platform y Adobe Journey Optimizer han actualizado el uso de “públicos” y “segmento” dentro del sistema y la documentación.
 
-* Audiencia: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
-* Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de una audiencia objetivo. Este término se conocía anteriormente como &quot;segmento&quot;.
+* Público: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
+* Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
-Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, los &quot;segmentos&quot; se sustituyen por &quot;audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, los &quot;Segmentos&quot; se sustituyen por &quot;Públicos&quot; para reflejar esta nueva ruta de creación y administración de públicos.
 
 **API**
 
@@ -448,7 +448,7 @@ El método JWT para generar tokens de acceso para la autenticación de API de Ad
 
 **Otros cambios**
 
-La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes como una versión beta pública. Esta función le permite establecer una conexión activa con ubicaciones de almacenamiento en la nube para exportar el contenido de sus conjuntos de datos. [Más información](../data/export-datasets.md)
+La exportación de conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube ya está disponible para todos los clientes como beta pública. Esta funcionalidad le permite establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. [Más información](../data/export-datasets.md)
 
 
 
@@ -465,7 +465,7 @@ La exportación de conjuntos de datos de Journey Optimizer a destinos de almacen
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar las API para almacenar en déclencheur las campañas de marketing en Adobe Journey Optimizer desde un sistema externo.</p>
+<p>Ahora puede utilizar las API para activar las campañas de marketing en Adobe Journey Optimizer desde un sistema externo.</p>
 <p>Hasta esta versión, la capacidad de campañas activadas por API cubría varias necesidades operativas y de mensajería transaccional, como los restablecimientos de contraseña o el token OTP, pero no se podía utilizar para crear campañas de marketing. Los canales disponibles para las campañas activadas por API son: correo electrónico, SMS y mensajes push.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>Para obtener más información, consulte la <a href="../campaigns/api-triggered-campaigns.md">documentación detallada</a>.
@@ -506,7 +506,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versión de mayo de 2023 {#may-rn-2023}
 
-### Nuevas funciones{#may-2023-features}
+### Nuevas funcionalidades{#may-2023-features}
 
 
 
@@ -574,7 +574,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Ahora puede asignar etiquetas unificadas de Adobe Experience Platform a sus campañas. Esto le permite clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. Tenga en cuenta que la función de etiquetas unificadas se encuentra actualmente en versión beta.</p>
+<p>Ahora puede asignar Etiquetas unificadas de Adobe Experience Platform a sus campañas. Esto le permite clasificarlos fácilmente y mejorar la búsqueda desde la lista de campañas. Tenga en cuenta que la función de etiquetas unificadas está actualmente en versión beta.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
@@ -587,13 +587,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <table>
 <thead>
 <tr>
-<th><strong>Modelo de clasificación de AI de optimización personalizada (disponibilidad general)</strong><br/></th>
+<th><strong>Modelo de clasificación de IA de optimización personalizada (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Administración de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas basadas en audiencias y ofrecer rendimiento.</p>
+<p>Los modelos de clasificación de IA de optimización personalizada ahora están disponibles de forma general en Gestión de decisiones. Este nuevo tipo de modelo le permite optimizar y personalizar ofertas en función de los públicos y ofrecer rendimiento.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Para obtener más información, consulte la <a href="../offers/ranking/personalized-optimization-model.md">documentación detallada</a>.</p>
 </td>
@@ -605,16 +605,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### Mejoras {#may-2023-improvements}
 
-**Audiencias**
+**Públicos**
 
-* Como preparación para la disponibilidad general de la función de Audience Portal, Adobe Experience Platform está actualizando el uso de &quot;audiencias&quot; y &quot;segmentos&quot; en el sistema y la documentación.
+* Como preparación para la disponibilidad general de la función de Audience Portal, Adobe Experience Platform está actualizando el uso de &quot;públicos&quot; y &quot;segmentos&quot; en el sistema y la documentación.
 
-   * Audiencia: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
-   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de una audiencia objetivo. Este término se conocía anteriormente como &quot;segmento&quot;.
+   * Público: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
+   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
-  Como resultado, dentro de Adobe Journey Optimizer y de la interfaz de usuario de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Audiencias&quot; para reflejar esta nueva ruta de creación y administración de audiencias.
+  Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Públicos&quot; para reflejar esta nueva ruta de creación y administración de públicos.
 
-  Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para algunos idiomas:
+  Las traducciones del término &quot;público&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para algunos idiomas:
 
    * Alemán: Zielgruppe
    * Portugués brasileño: público-alvo
@@ -624,13 +624,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal de SMS**
 
-* Infobip se ha agregado como proveedor al configurar las configuraciones de canal de SMS. [Más información](../sms/sms-configuration.md)
-* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twilio. [Más información](../sms/sms-configuration.md)
+* Infobip se ha añadido como proveedor al configurar las configuraciones de canal de SMS. [Más información](../sms/sms-configuration.md)
+* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twillio. [Más información](../sms/sms-configuration.md)
 
 **Canal en la aplicación**
 
-* Se han añadido nuevas reglas de déclencheur de mensajes para el servicio Adobe Places. [Más información](../in-app/inapp-configuration.md)
-* Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivos y añadirlos como reglas de déclencheur.
+* Se han añadido nuevas reglas de activación de mensajes para el servicio Places de Adobe. [Más información](../in-app/inapp-configuration.md)
+* Se han añadido nuevas funciones de Adobe Experience Platform Assurance para capturar eventos de dispositivo para añadirlos como reglas de activación.
 
 <!--
 **Journeys**
@@ -644,13 +644,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Ahora puede eliminar borradores de modificaciones en una campaña en directo.
 * Los pasos para activar una campaña se han simplificado. [Más información](../campaigns/manage-campaigns.md)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
 * Ahora puede editar la restricción de frecuencia si la oferta tiene el estado **[!UICONTROL Borrador]** y nunca antes se había publicado con la restricción de frecuencia habilitada. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
 
-**Personalization**
+**Personalización**
 
-* Ahora puede seleccionar e insertar referencias de recursos directamente desde el Editor de Personalization cuando trabaja en contenido de HTML.
+* Ahora puede seleccionar e insertar referencias de recursos directamente desde el Editor de personalización cuando trabaja en contenido de HTML.
 
 ### Correcciones{#may-2023-fixes}
 
@@ -665,7 +665,7 @@ Information below is subject to change without prior notice until the release av
 **Release date**: April 27, 2023
 -->
 
-### Nuevas funciones{#apr-2023-features}
+### Nuevas funcionalidades{#apr-2023-features}
 
 <table>
 <thead>
@@ -676,7 +676,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer está ampliando sus funciones en canales múltiples al añadir compatibilidad con el canal web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal, a través de una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas de.</p>
+<p>Adobe Journey Optimizer está ampliando sus funciones en todos los canales añadiendo compatibilidad con canales web. Ahora puede crear, cambiar y previsualizar experiencias web como cualquier otro canal mediante una interfaz visual inteligente e intuitiva para personalizar la experiencia de los usuarios finales. Tenga en cuenta que actualmente en Journey Optimizer solo puede crear experiencias web en campañas.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>Para obtener más información, consulte la <a href="../web/get-started-web.md">documentación detallada</a>.</p>
 </tr>
@@ -686,13 +686,13 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Flujo de trabajo de inicio rápido de la incorporación móvil (Beta)</strong><br/></th>
+<th><strong>Flujo de trabajo de inicio rápido de incorporación al dispositivo móvil (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ya está disponible el nuevo flujo de trabajo de inicio rápido de la incorporación móvil. Utilice esta nueva función de producto para configurar rápidamente Mobile SDK para que empiece a recopilar y validar datos de eventos móviles y enviar notificaciones push móviles con Adobe Journey Optimizer. Se puede acceder a esta funcionalidad a través de la página de inicio de la recopilación de datos como una versión beta pública.</p>
+<p>Ya está disponible el nuevo flujo de trabajo de inicio rápido de incorporación al dispositivo móvil. Utilice esta nueva función de producto para configurar rápidamente el SDK móvil y empezar a recopilar y validar datos de eventos móviles, así como enviar notificaciones push móviles con Adobe Journey Optimizer. Se puede acceder a esta funcionalidad a través de la página de inicio de recopilación de datos como una versión beta pública.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>Para obtener más información, consulte la <a href="../push/mobile-onboarding-wf.md">documentación detallada</a>.</p>
 </td>
@@ -703,15 +703,15 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo tablero de Recorrido (Beta)</strong><br/></th>
+<th><strong>Nuevo panel de control de recorrido (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> El panel de Recorrido ahora se divide en dos pestañas:</p>
-<ul><li>Use la ficha <strong>Información general</strong> para acceder a un nuevo tablero que muestra métricas clave relacionadas con sus recorridos.</li>
-<li>Use la ficha <strong>Examinar</strong> para obtener acceso a la lista de todos los recorridos.</li></ul>
+<p> El panel de control de recorrido ahora se divide en dos pestañas:</p>
+<ul><li>Utilice la pestaña <strong>Información general</strong> para acceder a un nuevo panel de control que muestra métricas clave relacionadas con sus recorridos.</li>
+<li>Utilice la pestaña <strong>Examinar</strong> para acceder a la lista de todos los recorridos.</li></ul>
 <p>Se puede acceder a esta funcionalidad en todos los recorridos como una versión beta pública.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-gs.md#journey-access">documentación detallada</a>.</p>
@@ -724,25 +724,25 @@ Information below is subject to change without prior notice until the release av
 
 **Recorridos**
 
-* El lienzo de recorrido ahora muestra el ID de actividad en las actividades de mensajes y las etiquetas de finalización. Esto mejora la creación de informes y el retargeting.
-* Se ha mejorado la presentación del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
-* Nuevo insight en número de nodos en lienzo con garantías para ayudar a crecer: mantenga los recorridos fáciles de leer, realice controles de calidad y solucione problemas con un número máximo de nodos por recorrido a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
-* Al agregar una acción [Email](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie ahora se rellena previamente, de forma predeterminada, con la última superficie utilizada para ese canal, en el recorrido actual.
+* El lienzo del recorrido muestra ahora el ID de actividad en las actividades de mensajes y las etiquetas finales. Esto mejora la creación de informes y la segmentación
+* Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
+* Nuevo conocimiento del número de nodos en lienzo con garantías para ayudar a crecer: mantenga los recorridos fáciles de leer, realice controles de calidad y solucione problemas con un número máximo de nodos por recorrido a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
+* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie se rellena ahora previamente, de forma predeterminada, con la última superficie utilizada para dicho canal, en el recorrido actual.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
-**Informes**
+**Creación de informes**
 
 * Ahora puede exportar informes de Journey Optimizer como PDF. [Más información](../reports/report-gs-cja.md)
 
-**Designer de contenido**
+**Diseñador de contenido**
 
-* Se ha actualizado Adobe Journey Optimizer Content Designer y el acceso a los estilos y componentes de diseño es ahora más sencillo. Esta nueva versión ofrece una experiencia de usuario mejorada e incluye un mayor rendimiento, compatibilidad parcial con el modo oscuro y compatibilidad con nuevos estándares de accesibilidad.
+* Se ha actualizado el Diseñador de contenido de Adobe Journey Optimizer y ahora es más fácil acceder a los estilos y componentes de diseño. Esta nueva versión ofrece una experiencia de usuario mejorada e incluye un mayor rendimiento, compatibilidad parcial en modo oscuro y compatibilidad con nuevos estándares de accesibilidad.
 
 
 
 ## Versión de marzo de 2023 {#mar-2023}
 
-### Nuevas funciones{#mar-2023-features}
+### Nuevas funcionalidades{#mar-2023-features}
 
 <table>
 <thead>
@@ -753,7 +753,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño del mensaje, la visualización, el texto y los botones para crear una experiencia perfecta.</p>
+<p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obtener más información, consulte la <a href="../../rp_landing_pages/in-app-landing-page.md">documentación detallada</a>.</p>
 </tr>
@@ -763,13 +763,13 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Seguimiento de clics de SMS</strong><br/></th>
+<th><strong>Rastreo de clics de SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con el rastreo de clics de SMS, puede monitorizar el rendimiento de sus URL abreviadas, identificar quién hizo clic en ellas y utilizar estos datos para redireccionar a esos clientes con campañas posteriores.</p>
+<p>Con el rastreo de clics de SMS, puede monitorizar el rendimiento de las URL acortadas, identificar quién hizo clic en ellas y utilizar estos datos para redirigirse a esos clientes con campañas posteriores.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Para obtener más información, consulte la <a href="../sms/create-sms.md#sms-content">documentación detallada</a>.</p>
 </td>
@@ -780,13 +780,13 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Uso de etiquetas en los Recorridos (Beta)</strong><br/></th>
+<th><strong>Uso de etiquetas en los recorridos (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Como profesional de Journey Optimizer, ahora puede organizar los objetos empresariales mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta función está en versión beta y solo está disponible para Recorridos.</p>
+<p>Como profesional de Journey Optimizer, ahora puede organizar los objetos de negocio mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda. Actualmente, esta funcionalidad está en versión beta y solo está disponible para recorridos.</p>
 <p>Para obtener más información, consulte la <a href="../start/search-filter-categorize.md#tags">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -797,12 +797,12 @@ Information below is subject to change without prior notice until the release av
 
 **Recorridos**
 
-* La nueva **API de restricción** le permite establecer un límite en el número de eventos enviados por segundo, lo que evita picos de tráfico abrumadores en sus sistemas externos o API. Cuando se alcanza el límite establecido, todas las llamadas de API subsiguientes se ponen en cola y se procesan lo antes posible, en el orden en que se recibieron. Tenga en cuenta que esta función solo admite una configuración de regulación en todas las zonas protegidas. [Más información](../configuration/external-systems.md)
-* El lienzo de Recorrido se ha mejorado para una experiencia de usuario más sencilla y mejorada. Al final de cada trazado en el lienzo, se han eliminado los marcadores de posición vacíos. Ahora puede añadir las actividades arrastrándolas al final de una ruta.
-* En el lienzo de recorrido, la etiqueta **End** ya no se establece automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
-* El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido se han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
-* La tasa de regulación predeterminada en las actividades de audiencia de lectura se ha cambiado de 20 000 a 5 000 mensajes por segundo. [Más información](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* Se ha añadido una protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. No se tienen en cuenta los eventos enviados a través de una herramienta externa. [Más información](../building-journeys/testing-the-journey.md)
+* La nueva **API de limitación** le permite establecer un límite en la cantidad de eventos enviados por segundo, lo que evita picos de tráfico abrumadores en sus sistemas externos o API. Cuando se alcanza el límite establecido, todas las llamadas a la API subsiguientes se ponen en cola y se procesan lo antes posible en el orden en que se recibieron. Tenga en cuenta que esta función solo admite una configuración de limitación en todas las zonas protegidas. [Más información](../configuration/external-systems.md)
+* El lienzo de recorrido se ha mejorado para que la experiencia del usuario sea más sencilla y mejorada. Al final de cada ruta en el lienzo, se han eliminado los marcadores vacíos. Ahora puede simplemente agregar sus actividades arrastrándolas al final de una ruta.
+* En el lienzo del recorrido, la etiqueta de **Fin** ya no se configura automáticamente con el nombre de la actividad anterior. Los usuarios pueden agregar manualmente una etiqueta personalizada si es necesario.
+* El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. [Más información](../configuration/external-systems.md#timeout)
+* La tasa de limitación predeterminada en las actividades de lectura de público ha cambiado de 20 000 a 5000 mensajes por segundo. [Más información](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. [Más información](../building-journeys/testing-the-journey.md)
 
 
 <!--
@@ -815,31 +815,31 @@ Information below is subject to change without prior notice until the release av
     * Use the **Browse** tab to access list of all journeys.
 -->
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* Para evitar cualquier posible confusión con la reciente versión de la función de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
+* Para evitar cualquier posible confusión con la reciente versión de la funcionalidad de etiquetas en Adobe Experience Platform, se ha cambiado el nombre de las etiquetas de Gestión de decisiones a &quot;Calificadores de colección&quot;.
 
-  Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Administración de decisiones, se sigue utilizando en servicios back-end como API y conjuntos de datos.
+  Tenga en cuenta que, aunque el término &quot;etiqueta&quot; ya no se utiliza en la interfaz de usuario de Gestión de decisiones, se sigue utilizando en servicios backend como API y conjuntos de datos.
 
 * Ahora puede restablecer el contador de límite de oferta diariamente, semanalmente o mensualmente. [Más información](../offers/offer-library/add-constraints.md#capping)
 
-* También puede elegir qué evento de Adobe Experience Platform debe buscarse para la restricción de Offer Decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
+* También puede elegir qué evento de Adobe Experience Platform se debe tener en cuenta para el límite de Offer Decisioning. [Más información](../offers/offer-library/add-constraints.md#capping)
 
-* Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta deben incluirse en la respuesta de la API. [Más información](../offers/offer-library/creating-placements.md)
+* Se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API. [Más información](../offers/offer-library/creating-placements.md)
 
-**Personalization**
+**Personalización**
 
-* Ahora puede incluir texto de reserva predeterminado para atributos de perfil basados en cadenas en el Editor de expresiones. Estos valores se muestran si los atributos seleccionados no devuelven ningún resultado. [Más información](../personalization/personalization-build-expressions.md#add)
+* Ahora puede incluir texto alternativo predeterminado para atributos de perfil basados en cadenas en el Editor de expresiones. Estos valores se mostrarán si los atributos seleccionados no devuelven ningún resultado. [Más información](../personalization/personalization-build-expressions.md#add)
 
-**Informes**
+**Creación de informes**
 
-* La funcionalidad del widget para creación de informes se ha mejorado con la capacidad de personalizar la forma en que los usuarios ven sus datos. Con esta mejora, los usuarios ahora pueden elegir entre varias opciones de visualización, incluidos gráficos, tablas y gráficos circulares.
+* La funcionalidad del widget de creación de informes se ha mejorado con la capacidad de personalizar la forma en que los usuarios ven sus datos. Con esta mejora, los usuarios ahora pueden elegir entre varias opciones de visualización, incluidos gráficos, tablas y gráficos circulares.
 
-  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los diferentes paneles de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
+  Para tener acceso a las últimas utilidades, tenga en cuenta que tendrá que restablecer los distintos paneles de control de creación de informes. Para obtener más información sobre la personalización de tableros, consulte la [documentación detallada](../reports/report-gs-cja.md).
 
 ## Versión de febrero de 2023 {#feb-2023}
 
-### Nuevas funciones{#feb-2023-features}
+### Nuevas funcionalidades{#feb-2023-features}
 
 <table>
 <thead>
@@ -850,8 +850,8 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Ahora puede enviar mensajes personalizados en la aplicación a los usuarios de la misma dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño del mensaje, la visualización, el texto y los botones para crear una experiencia perfecta.</p>
-<p><strong>Precaución</strong>: esta característica se encuentra actualmente en la versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
+<p>Ahora, puede enviar mensajes personalizados en la aplicación a los usuarios de la aplicación dentro de una campaña. Utilice Journey Optimizer para diseñar notificaciones y personalizar el diseño, la visualización, el texto y los botones del mensaje para crear una experiencia perfecta.</p>
+<p><strong>Precaución</strong>: Actualmente, esta funcionalidad está en versión beta y solo está disponible para los clientes de la versión beta. Para unirse al programa beta, póngase en contacto con el Servicio de atención al cliente de Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Para obtener más información, consulte la <a href="../../rp_landing_pages/in-app-landing-page.md">documentación detallada</a>.</p>
 </td>
@@ -862,14 +862,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>Exportar conjuntos de datos de Journey Optimizer a destinos de almacenamiento en la nube (Beta)</strong><br/></th>
+<th><strong>Exportación de los conjuntos de datos de Journey Optimizer a los destinos de almacenamiento en la nube (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. Los destinos disponibles son: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
-<p><strong>Precaución</strong>: esta característica se encuentra actualmente en versión beta y está disponible para todos los usuarios de Adobe Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener acceso a Destinos si todavía no tiene acceso.</p>
+<p>Ahora, puede establecer una conexión activa con las ubicaciones de almacenamiento en la nube para exportar el contenido de los conjuntos de datos. Los destinos disponibles son: almacenamiento en la nube Amazon S3, Azure Blob, Azure Data Lake Gen 2, zona de aterrizaje de datos, almacenamiento en la nube de Google, SFTP.</p>
+<p><strong>Precaución</strong>: Esta funcionalidad está actualmente en versión beta y está disponible para todos los usuarios de Adobe Journey Optimizer. Póngase en contacto con su representante de Adobe para obtener acceso a los destinos si todavía no tiene acceso.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Para obtener más información, consulte la <a href="../data/export-datasets.md">documentación detallada</a>.</p>
 </td>
@@ -931,9 +931,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* El campo **Período de espera de reentrada** se ha agregado a las propiedades del recorrido. Este campo le permite definir el tiempo de espera antes de permitir que un perfil vuelva a introducir el recorrido en recorridos unitarios (empezando por un evento o una calificación de audiencia). Esto evita que los recorridos se activen varias veces de forma errónea para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-properties.md#entrance)
+* El campo **Período de espera de reentrada** se ha añadido a las propiedades del recorrido. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. [Más información](../building-journeys/journey-properties.md#entrance)
 
-* Se han hecho mejoras para **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, esta se añade automáticamente en el momento de la publicación. Para los recorridos de **Leer audiencia**, ahora puede agregar una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando llega la fecha. [Más información](../building-journeys/journey-gs.md#dates)
+* Se han realizado mejoras para las **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, se añadirá ahora automáticamente en el momento de la publicación. Para los recorridos de **Leer público**, ahora puede añadir una fecha de finalización. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. [Más información](../building-journeys/journey-gs.md#dates)
 
 <!--
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
@@ -950,34 +950,34 @@ Note that each widget can be resized and deleted as needed.
 
 **Administración**
 
-* **Lista de permitidos**: ahora puede descargar la lista de permitidos como archivo .csv. [Más información](../configuration/allow-list.md#download-allowed-list)
+* **Lista de permitidos**: ahora, puede descargar la lista de permitidos como un archivo .csv. [Más información](../configuration/allow-list.md#download-allowed-list)
 
-* **Superficie de correo electrónico**: se ha agregado una comprobación adicional a la configuración de la superficie de correo electrónico: si el registro MX del subdominio utilizado en la dirección **Responder a (correo electrónico)** o en la dirección de correo electrónico **CCO** no está configurado correctamente, la superficie de correo electrónico ya no se puede crear. Debe tenerlo configurado o usar otro. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
+* **Superficie de correo electrónico**: se ha añadido una comprobación adicional a la configuración de la superficie del correo electrónico: si el registro MX del subdominio utilizado en el campo **Responder a la dirección (correo electrónico)** o **Dirección de correo electrónico en CCO** no está configurado correctamente, la superficie del correo electrónico ya no se podrá crear más. Debe tenerlo configurado o utilizar otro. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **Superficie de correo electrónico** - En la sección **Parámetros de seguimiento de URL** de la configuración de la superficie de correo electrónico, el límite de cada campo **Valor** se ha actualizado de 255 caracteres a 5 KB para la compatibilidad con el seguimiento de Adobe Analytics. [Más información](../email/email-settings.md#url-tracking)
+* **Superficie de correo electrónico**: en la sección **Parámetros de seguimiento de URL** de la configuración de la superficie del correo electrónico, el límite de cada campo **Valor** se ha actualizado de 255 caracteres a 5 KB para la compatibilidad con el seguimiento de Adobe Analytics. [Más información](../email/email-settings.md#url-tracking)
 
-**Administración de decisiones**
+**Gestión de decisiones**
 
-* **Ubicaciones**: se han agregado parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta deben incluirse en la respuesta de la API. [Más información](../offers/offer-library/creating-placements.md)
+* **Ubicaciones**: se han añadido parámetros adicionales en la pantalla de creación de ubicaciones. Permiten controlar si una oferta se puede duplicar en varias ubicaciones y especificar si el contenido y los metadatos de la oferta se deben incluir en la respuesta de API. [Más información](../offers/offer-library/creating-placements.md)
 
-* **Personalización de URL**: al agregar direcciones URL como contenido a las representaciones de sus ofertas, ahora puede personalizar estas direcciones URL mediante el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
+* **Personalización de URL**: al añadir direcciones URL como contenido a las representaciones de las ofertas, ahora puede personalizar estas direcciones URL con el Editor de expresiones. [Más información](../offers/offer-library/add-representations.md)
 
 ## Versión de enero de 2023 {#jan-2023-release}
 
-### Nuevas funciones{#jan-2023-features}
+### Nuevas funcionalidades{#jan-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Higiene de datos</strong><br/></th>
+<th><strong>Higiene de los datos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform proporciona un conjunto de funciones de higiene de los datos que le permiten administrar los datos almacenados mediante la eliminación mediante programación de registros de consumidores y conjuntos de datos. Esta funcionalidad ya está disponible para Adobe Journey Optimizer. </p>
-<p>Puede administrar los almacenes de datos para asegurarse de que la información se utiliza según lo esperado, se actualiza cuando es necesario corregir datos incorrectos y se elimina cuando las directivas de la organización lo consideran necesario.</p>
-<p><strong>Precaución</strong>: actualmente, las funciones de higiene de los datos solo están disponibles para las organizaciones que han adquirido las ofertas de complementos de <strong>Healthcare Shield</strong> y <strong>Privacy and Security Shield</strong>.</p><p>Para obtener más información, consulte la <a href="../privacy/data-hygiene.md">documentación detallada</a>.
+<p>Adobe Experience Platform proporciona un conjunto de funcionalidades de higiene de los datos que le permiten administrar los datos almacenados mediante eliminaciones programáticas de registros de consumidores y conjuntos de datos. Esta funcionalidad ya está disponible para Adobe Journey Optimizer. </p>
+<p>Puede administrar los almacenes de datos para asegurarse de que la información se utiliza según lo esperado, se actualiza cuando es necesario corregir datos incorrectos y se elimina cuando las políticas organizativas lo consideran necesario.</p>
+<p><strong>Precaución</strong>: Actualmente, las funcionalidades de higiene de los datos solo están disponibles para las organizaciones que han adquirido las ofertas de complementos <strong>Escudo de atención sanitaria</strong> y <strong>Escudo de seguridad y privacidad</strong>.</p><p>Para obtener más información, consulte la <a href="../privacy/data-hygiene.md">documentación detallada</a>.
 </td>
 </tr>
 </tbody>
@@ -992,10 +992,10 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear plantillas de contenido independientes que se pueden aprovechar en varios recorridos y campañas para reutilizarlas rápidamente.</p> 
+<p>Ahora puede crear plantillas de contenido independientes que se pueden aprovechar en distintos recorridos y campañas para que las pueda reutilizar rápidamente.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Aprenda a crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=es">este vídeo</a>. Para obtener más información, consulte la <a href="../content-management/content-templates.md">documentación detallada</a>.
+<p>Obtenga información sobre cómo crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=es">este vídeo</a>. Para obtener más información, consulte la <a href="../content-management/content-templates.md">documentación detallada</a>.
 </p>
 </td>
 </tr>
@@ -1006,33 +1006,33 @@ Note that each widget can be resized and deleted as needed.
 
 **Recorridos**
 
-* Al agregar una **calificación de audiencia** o **Leer audiencia** en un recorrido, el área de nombres ahora está rellenada previamente, de forma predeterminada, con el área de nombres que se utilizó por última vez. Consulte las secciones [Calificación de audiencias](../building-journeys/audience-qualification-events.md#about-segment-qualification) y [Leer audiencia](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Al añadir **Calificación de público** o **Leer público** en un recorrido, el espacio de nombres ahora se rellena previamente con la última utilizada de forma predeterminada. Consulte las secciones [Calificación de público](../building-journeys/audience-qualification-events.md#about-segment-qualification) y [Leer público](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * En el lienzo del recorrido, hay un nuevo botón disponible en la barra de herramientas que le permite descargar una captura de pantalla del recorrido.
 
-**Correo electrónico Designer**
+**Diseñador de correo electrónico**
 
-* Ahora puede exportar el contenido del correo electrónico desde el menú **Exportar HTML**. Los archivos exportados están disponibles en un archivo (.ZIP).
+* Ahora puede exportar el contenido del correo electrónico desde el menú **Exportar HTML**. Los archivos exportados están disponibles en un archivo de compresión (.ZIP).
 
 **Administración**
 
-* Una nueva subsección proporciona recomendaciones sobre cómo generar la dirección **Responder a (correo electrónico)** y asegurar la administración de respuestas adecuada. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Una nueva subsección ofrece recomendaciones sobre la creación de la dirección **Responder a (correo electrónico)** y la gestión adecuada de las respuestas. [Más información](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* Al crear o editar **grupos de IP**, los registros PTR asociados ahora se muestran en la lista de IP y al pasar el ratón por encima de las direcciones IP seleccionadas. [Más información](../configuration/ip-pools.md#create-ip-pool)
+* Al crear o editar **Grupos de IP**, los registros PTR asociados ahora se muestran en la lista de IP y al pasar el puntero por encima de las direcciones IP seleccionadas. [Más información](../configuration/ip-pools.md#create-ip-pool)
 
-* Después de seleccionar un grupo de IP en una configuración de canal, la información de registro PTR ahora está visible al pasar el ratón por encima de las direcciones IP. [Más información](../email/email-settings.md#ip-pools)
+* Después de seleccionar un grupo de IP en una configuración de canal, la información de registro PTR ahora es visible al pasar el puntero por encima de las direcciones IP. [Más información](../email/email-settings.md#ip-pools)
 
-* Se ha actualizado la interfaz de usuario para editar [registros PTR](../configuration/ptr-records.md#edit-ptr-record) y [campos de ejecución](../configuration/primary-email-addresses.md).
+* La interfaz de usuario para editar [Registros PTR](../configuration/ptr-records.md#edit-ptr-record) y [campos de ejecución](../configuration/primary-email-addresses.md) se ha actualizado.
 
 * Se ha mejorado la interfaz de usuario para crear y editar subdominios. [Más información](../configuration/delegate-subdomain.md)
 
-* Se ha actualizado la pantalla de la lista de supresión **cargas recientes**. [Más información](../configuration/manage-suppression-list.md#recent-uploads)
+* La lista de supresión **Cargas recientes** se ha actualizado. [Más información](../configuration/manage-suppression-list.md#recent-uploads)
 
 **Campañas**
 
-* Ahora, una solicitud cURL de ejemplo que permite la ejecución de campañas activadas por API se genera automáticamente y está disponible en la pantalla de la campaña. [Más información](../campaigns/api-triggered-campaigns.md)
+* Ahora se genera automáticamente una solicitud cURL de ejemplo que permite la ejecución de campañas activadas por API y está disponible en la pantalla de la campaña. [Más información](../campaigns/api-triggered-campaigns.md)
 
 
-**Personalization**
+**Personalización**
 
-* Hay nuevas funciones de ayuda disponibles: formatCurrency, charCodeAt, stringToDate, toString, formatNumber y toHexString. Además, la función toDateTimeOnly ahora acepta tipos de campo de cadena, fecha, largo e int. [Más información](../personalization/functions/functions.md)
+* Hay disponibles nuevas funciones de ayuda: formatCurrency, charCodeAt, stringToDate, toString, formatNumber y toHexString. Además, la función toDateTimeOnly ahora acepta tipos de campo de cadena, fecha, larga e int. [Más información](../personalization/functions/functions.md)

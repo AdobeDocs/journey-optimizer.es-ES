@@ -11,21 +11,11 @@ keywords: perfil, actualizar, recorrido, actividad
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 909
@@ -44,7 +34,7 @@ Utilice la actividad de acción **[!UICONTROL Actualizar perfil]** para enriquec
 
 ## Selección de conjuntos de datos {#dataset-selection}
 
-La actividad **[!UICONTROL Actualizar perfil]** requiere un conjunto de datos dedicado para almacenar actualizaciones. Dado que esta actividad solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"} (no el lago de datos), todas las actualizaciones deben guardarse en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} designado específicamente para **[!UICONTROL Actualizar perfil]** acciones.
+La actividad **[!UICONTROL Actualizar perfil]** requiere un conjunto de datos dedicado para almacenar actualizaciones. Dado que esta actividad solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (no el lago de datos), todas las actualizaciones deben guardarse en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} designado específicamente para **[!UICONTROL Actualizar perfil]** acciones.
 
 >[!CAUTION]
 >
@@ -111,6 +101,6 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 * No puede usar la acción **[!UICONTROL Actualizar perfil]** para generar [eventos de experiencia](../event/about-events.md), como una compra.
 * Como cualquier otra acción, puede definir una ruta [alternativa en caso de error o tiempo de espera](using-the-journey-designer.md#paths). Dos acciones no se pueden colocar en paralelo.
 * No se garantiza que las actualizaciones de perfil estén disponibles inmediatamente después en el mismo recorrido. Evite colocar una acción que lea un campo directamente después de la acción **[!UICONTROL Actualizar perfil]** que lo escribe, ya que es posible que el valor actualizado aún no se refleje.
-* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}, no el lago de datos.
+* La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, no el lago de datos.
 * Se pueden actualizar hasta cinco pares de campo/valor en una sola acción **[!UICONTROL Actualizar perfil]**. Use el botón **[!UICONTROL Actualizar otro campo]** para agregar más pares.
 * Para obtener un mejor rendimiento, agrupe varias actualizaciones de atributos en una sola acción **[!UICONTROL Actualizar perfil]** en lugar de usar una acción por atributo.
