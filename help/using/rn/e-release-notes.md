@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: cc87e73fe1746e88a5baeefc0090c88ee9425389
+source-git-commit: 7eb22e0b12c01be0478ed15fa63a9818dc960626
 workflow-type: tm+mt
 source-wordcount: 1633
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -210,7 +210,7 @@ Las siguientes funcionalidades están segmentadas para esta versión.
 <tr>
 <td>
 <p>Ahora puede establecer su recorrido en <strong>Simulación</strong>. Este modo le permite validar su lógica usando <strong>usuarios simulados</strong>. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform.</p>
-<p>Esta capacidad, lanzada anteriormente en disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con la versión de disponibilidad general, ahora puede utilizar Journey Agent para generar usuarios y eventos simulados directamente en el menú de simulación.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con la versión General Availability, ahora puede utilizar Journey Agent para generar usuarios y eventos simulados directamente en el menú Simulation.</p>
 <p>Fecha de disponibilidad: 28 de mayo de 2026</p>
 </td>
 </tr>
@@ -297,7 +297,7 @@ Las siguientes mejoras están pensadas para esta versión.
 
 #### Diseñador de correo electrónico
 
-* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido de los correos electrónicos. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
+* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
 
 
   Fecha de disponibilidad: 19 de mayo de 2026

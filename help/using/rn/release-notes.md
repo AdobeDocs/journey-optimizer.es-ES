@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
 workflow-type: tm+mt
-source-wordcount: 2625
-ht-degree: 80%
+source-wordcount: 2624
+ht-degree: 78%
 
 ---
 
@@ -369,7 +369,7 @@ Esto permite que las campañas recurrentes se centren en públicos totalmente nu
 <tbody>
 <tr>
 <td>
-<p>Utilice el nuevo nodo <strong>Optimizar</strong> para dirigirse a públicos específicos o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI empresariales. Esta herramienta le permite probar y variar, así como personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
+<p>Utilice el nuevo nodo <strong>Optimizar</strong> para dirigirse a públicos específicos o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI empresariales. Esta herramienta le permite probar, variar y personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
 </p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Como parte de la Disponibilidad general, esta versión incluye la selección de <strong>tipo de experimento</strong> (bandido A/B o multibrazo) y <strong>Escalar el ganador</strong> para recorridos unitarios.</p>
@@ -452,7 +452,7 @@ En abril de 2026 también se publicaron las siguientes mejoras.
 
 #### Integraciones de Adobe Experience Manager
 
-* **Compatibilidad con la variación del fragmento de contenido de Adobe Experience Manager**: puede seleccionar **variaciones del fragmento de contenido** (por ejemplo, variantes de idioma o canal) al insertar fragmentos de contenido de Adobe Experience Manager, con una administración mejorada para escenarios locales y multilingües. [Más información](../integrations/aem-fragments.md#aem-variations)
+* **Compatibilidad con la variación de fragmentos de contenido de Adobe Experience Manager**: puede seleccionar **variaciones de fragmentos de contenido** (por ejemplo, variantes de idioma o canal) al insertar fragmentos de contenido de Adobe Experience Manager, con una administración mejorada para escenarios locales y multilingües. [Más información](../integrations/aem-fragments.md#aem-variations)
 
   Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).
 
