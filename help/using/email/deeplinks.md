@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -334,4 +334,3 @@ Sí. Los parámetros de UTM que configuró en [!DNL Journey Optimizer] se incluy
 El vínculo se abre en el explorador web predeterminado del dispositivo (comportamiento estándar de rastreo de clics), en lugar de tratarse como un vínculo profundo de la aplicación a través del flujo `mclick` descrito en esta página.
 
 +++
-
