@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
 source-wordcount: '3324'
 ht-degree: 97%
@@ -277,19 +277,19 @@ ht-degree: 97%
       + [Empezar con correos electrónicos](using/email/get-started-email.md)
       + [Creación de un correo electrónico](using/email/create-email.md)
       + Diseño del contenido del correo electrónico {#design-email}
-         + [Diseño del contenido del correo electrónico](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Diseñar el contenido de su correo electrónico](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Diseño del contenido del mensaje](using/start/message-content-design.md)
          + [Introducción al diseño de correo electrónico](using/email/get-started-email-design.md)
          + Empezar a crear contenido {#start-creating-content}
-            + [Empezar a crear contenido](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[Empiece a crear contenido](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
             + [Codifique su propio contenido](using/email/code-content.md)
             + [Uso de plantillas de correo electrónico](using/email/use-email-templates.md)
             + [Aprovechar los temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
-         + Diseño del contenido {#add-content}
-            + [Diseño del contenido](/help/rp_landing_pages/add-content-landing-page.md)
+         + Creación del contenido {#add-content}
+            + {hide-from-toc}[Diseña tu contenido](/help/rp_landing_pages/add-content-landing-page.md)
             + [Uso de componentes del contenido](using/email/content-components.md)
             + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
@@ -300,7 +300,7 @@ ht-degree: 97%
             + [Añadir metadatos](using/email/email-metadata.md)
             + [Editar con el editor avanzado de HTML](using/email/email-expert-mode.md)
          + Editar estilo {#edit-style}
-            + [Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Editar estilo](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Introducción al diseño de correo electrónico](using/email/get-started-email-style.md)
             + [Editar configuración de fondo](using/email/backgrounds.md)
             + [Ajustar alineación vertical y relleno](using/email/alignment-and-padding.md)
@@ -308,16 +308,16 @@ ht-degree: 97%
             + [Añadir CSS personalizado](using/email/custom-css.md)
             + [Administrar contenido en modo oscuro](using/email/dark-mode.md)
          + [Creación de contenido accesible](using/email/accessible-content.md)
-      + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
       + Configuración de canal de correo electrónico {#configure-email}
-         + [Configuración de canal de correo electrónico](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[Configurar canal de correo electrónico](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Empezar con la configuración de correo electrónico](using/email/get-started-email-config.md)
          + [Definir la configuración de correo electrónico](using/email/email-settings.md)
          + [Habilitar la cancelación de suscripción a la lista](using/email/list-unsubscribe.md)
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-         + [Configuración de vínculos profundos en correos electrónicos](using/email/deeplinks.md)
+      + [Uso y configuración de vínculos profundos](using/email/deeplinks.md)
+      + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introducción a in-app](using/in-app/get-started-in-app.md)

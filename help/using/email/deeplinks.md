@@ -8,10 +8,10 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 0%
+source-wordcount: '1277'
+ht-degree: 1%
 
 ---
 
@@ -20,10 +20,11 @@ ht-degree: 0%
 
 Los vínculos profundos le ayudan a llevar los destinatarios de un mensaje de correo electrónico o SMS a una pantalla o fragmento de contenido específico en su aplicación móvil. Ayuda a llevar a las personas directamente a la experiencia en la aplicación deseada, sin enrutarlas a través de un explorador web o una tienda de aplicaciones, de modo que el recorrido sigue siendo relevante y se adapta a la marca.
 
-Cuando los destinatarios hacen clic en el vínculo profundo, se les redirige directamente al contenido previsto en la aplicación: **siempre que haya completado los pasos de configuración** detallados en esta página, que abarcan:
+Cuando los destinatarios hacen clic en el vínculo profundo, se les redirige directamente al contenido previsto en la aplicación: **siempre que haya completado**:
 
-* Configuración de vínculos profundos para correos electrónicos en Journey Optimizer
-* Implementación de la administración de vínculos profundos para iOS y Android en una aplicación móvil
+* los [pasos de configuración](#configuration) en Journey Optimizer;
+
+* los pasos de la [implementación de la aplicación móvil](#mobile-implementation) para iOS y Android en su aplicación móvil.
 
 >[!NOTE]
 >
