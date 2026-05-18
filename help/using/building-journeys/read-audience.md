@@ -39,7 +39,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3612
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -84,7 +84,7 @@ Por ejemplo, la audiencia `Luma app opening and checkout` creada en el caso de u
 >
 >* Antes de usar la actividad Leer audiencia, [lea las protecciones y limitaciones](#must-read).
 
-## Configuración de la actividad {#configuring-segment-trigger-activity}
+## Configurar la actividad {#configuring-segment-trigger-activity}
 
 Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio), **Velocidad de lectura** (obligatoria, predeterminada 5.000/s) y **Programación** (cuando se ejecute el recorrido). Opcionalmente, agregue **Label** y **Supplemental identifier**. Los pasos a continuación le guían por cada configuración.
 
@@ -103,7 +103,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Área de nombres"
->abstract="Elija qué identidad (por ejemplo, correo electrónico, ECID) se utiliza para identificar a las personas que entran en el recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado."
+>abstract="Elija qué identidad (por ejemplo, correo electrónico, ECID) se utiliza para identificar a las personas que entran en el recorrido. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
 
@@ -133,7 +133,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
    >
    >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
 
-1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
+1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

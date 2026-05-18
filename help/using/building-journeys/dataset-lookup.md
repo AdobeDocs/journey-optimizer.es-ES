@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 908
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Actividad de búsqueda de conjuntos de datos"
->abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
+>abstract="La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** permite recuperar datos de conjuntos de datos de registros de forma dinámica de [!DNL Adobe Experience Platform] durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas."
 
-La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** le permite recuperar dinámicamente datos de [!DNL Adobe Experience Platform] conjuntos de datos de registros durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
+La actividad **[!UICONTROL Búsqueda de conjuntos de datos]** permite recuperar datos de conjuntos de datos de registros de forma dinámica de [!DNL Adobe Experience Platform] durante el tiempo de ejecución. Al aprovechar esta capacidad, puede acceder a datos que pueden no residir en el perfil o en la carga útil del evento, lo que garantiza que las interacciones de los clientes sean relevantes y oportunas.
 
 >[!AVAILABILITY]
 >

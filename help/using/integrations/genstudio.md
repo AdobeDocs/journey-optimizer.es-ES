@@ -41,7 +41,7 @@ ht-degree: 9%
 
 ---
 
-# Uso de GenStudio para el marketing de rendimiento {#ajo-genstudio}
+# Trabajar con GenStudio para marketing de rendimiento {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -76,7 +76,7 @@ Para usar la integración de [!DNL GenStudio for Performance Marketing] con [!DN
 
 * Tanto [!DNL GenStudio for Performance Marketing] como [!DNL Adobe Journey Optimizer] deben pertenecer a la misma organización de IMS.
 
-* Los usuarios deben tener al menos el rol de **Colaborador** o superior en [!DNL GenStudio for Performance Marketing] para utilizar las características de integración. [Obtenga más información acerca de los roles de usuario en GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Los usuarios deben tener al menos el rol de **Colaborador** o superior en [!DNL GenStudio for Performance Marketing] para utilizar las características de integración. [Obtenga más información acerca de los roles de usuario en GenStudio](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--
 To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)

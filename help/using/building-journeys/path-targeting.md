@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Segmentación de ruta
+title: Segmentación de rutas
 description: Aprenda a utilizar la segmentación de rutas en recorrido
 feature: Journeys, Activities
 topic: Content Management
@@ -13,11 +13,11 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Aproveche la segmentación de rutas {#targeting}
+# Aprovechamiento de la segmentación de ruta {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

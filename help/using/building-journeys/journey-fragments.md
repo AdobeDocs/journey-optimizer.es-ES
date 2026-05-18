@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -43,7 +43,7 @@ Se puede acceder a los fragmentos de recorrido desde la sección **[!UICONTROL R
 
 Puede filtrar la lista por nombre de fragmento, estado, fecha de creación, creador, fecha de última modificación o etiqueta.
 
-## Creación de un fragmento de recorrido {#create-journey-fragment}
+## Crear un fragmento de recorrido {#create-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
@@ -146,7 +146,7 @@ Desde el inventario de fragmentos, puede realizar las siguientes acciones en un 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Añadir un fragmento de recorrido"
->abstract="Solo los **[!UICONTROL fragmentos activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos — las actualizaciones del fragmento original no se reflejan en el recorrido."
+>abstract="Solo los fragmentos **[!UICONTROL activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos — las actualizaciones del fragmento original no se reflejan en el recorrido."
 
 Para insertar un fragmento en un recorrido:
 
@@ -156,7 +156,7 @@ Para insertar un fragmento en un recorrido:
 1. Seleccione el fragmento. Sus nodos se copian en el lienzo en el punto de colocación.
 
 >[!NOTE]
->Solo los **[!UICONTROL fragmentos activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos; las actualizaciones posteriores del fragmento original no se reflejarán en el recorrido.
+>Solo los fragmentos **[!UICONTROL activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos; las actualizaciones posteriores del fragmento original no se reflejarán en el recorrido.
 >
 >Al soltar un fragmento en un lienzo vacío, el fragmento debe comenzar con un nodo **[!UICONTROL Leer audiencia]**, **[!UICONTROL Calificación de audiencias]** o **[!UICONTROL Evento]** (la misma regla que al iniciar cualquier recorrido).
 

@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 932
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -162,10 +162,10 @@ Ahora debe habilitar el conjunto de datos para campañas organizadas.
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="Campañas orquestadas"
->abstract="Después de crear el conjunto de datos, debe habilitarlo explícitamente para campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer."
+>abstract="Después de crear el conjunto de datos, debe habilitarlo explícitamente para las campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer."
 
 
-Después de crear el conjunto de datos, debe habilitarlo explícitamente para campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
+Después de crear el conjunto de datos, debe habilitarlo explícitamente para las campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
 
 Consulte [Documentación de Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar o habilitar la extensión de Campaign orquestada en el conjunto de datos.
 

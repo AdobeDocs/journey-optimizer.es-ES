@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 629
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Tipo de experimento"
->abstract="El tipo de experimento determina cómo se asigna el tráfico entre los tratamientos durante la prueba. Elija el método que mejor se ajuste a sus objetivos:</br><b>Experimento A/B</b>: divide el tráfico a medida que usted define entre tratamientos y mide el rendimiento hasta que los resultados son estadísticamente significativos. Lo mejor para saber qué tratamiento funciona mejor en una comparación controlada.</br><b>Multi-armed Bandit</b>: desplaza el tráfico hacia tratamientos de mayor rendimiento a medida que se recopilan los datos, equilibrando la velocidad y la optimización. Resulta útil cuando desea maximizar las conversiones durante el experimento.</br><b>Trae tu propio Multi-armed Bandit</b>: usa tu propio algoritmo para decidir la asignación del tráfico, lo que te da flexibilidad si tienes un modelo o una estrategia personalizados."
+>abstract="El tipo de experimento determina cómo se asigna el tráfico entre los tratamientos durante la prueba. Elija el método que mejor se ajuste a sus objetivos:</br><b>Experimento A/B</b>: divide el tráfico a medida que usted define entre tratamientos y mide el rendimiento hasta que los resultados son estadísticamente significativos. Lo mejor para saber qué tratamiento funciona mejor en una comparación controlada.</br><b>Multi-armed Bandit</b>: desplaza el tráfico hacia tratamientos de mayor rendimiento a medida que se recopilan los datos, equilibrando la velocidad y la optimización. Es útil cuando desea maximizar las conversiones durante el experimento.</br><b>Traiga su propio bandido multibrazo</b>: use su propio algoritmo para decidir la asignación del tráfico, lo que le proporciona flexibilidad si tiene un modelo o una estrategia personalizados."
 
 Esta página proporciona una comparación detallada de los experimentos de **A/B** y **Multi-armed bandit**, explicando sus respectivas fortalezas, limitaciones y los escenarios en los que cada enfoque es más eficaz.
 

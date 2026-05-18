@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2189
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -274,8 +274,8 @@ Ahora puede seleccionar la configuración al crear las notificaciones push.
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="Personalizar ID de aplicación"
->abstract="Cuando administre varias aplicaciones móviles, almacene cada ID de aplicación en el perfil y utilice una sola configuración de canal push. Abra el editor de personalización junto al campo App id para seleccionar un atributo de perfil; la expresión se evalúa en el momento de la entrega para cada destinatario. Asegúrese de que existan credenciales push para cada ID de aplicación que pueda devolver su expresión."
+>title="Personalizar el ID de la aplicación"
+>abstract="Cuando administre varias aplicaciones móviles, almacene cada ID de aplicación en el perfil y utilice una sola configuración de canal push. Abra el editor de personalización junto al campo ID de la aplicación para seleccionar un atributo de perfil; la expresión se evalúa en el momento de la entrega para cada destinatario. Asegúrese de que existan credenciales push para cada ID de aplicación que pueda devolver su expresión."
 
 Cuando tenga muchas marcas o inquilinos con aplicaciones separadas, puede almacenar cada **[!UICONTROL ID de aplicación]** en el perfil y usar una sola configuración de canal para enviar notificaciones push a la aplicación correcta para cada destinatario.
 

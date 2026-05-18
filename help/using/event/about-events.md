@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventos de recorrido"
->abstract="Journey Optimizer admite tres tipos de eventos en los recorridos: eventos unitarios, vinculados al comportamiento de una persona específica (como una compra o un hito de lealtad); eventos empresariales, desencadenados por una incidencia global (como una cancelación de vuelo o una actualización de existencias) y eventos de calificación de audiencia, activados cuando un perfil entra o sale de una audiencia. Utilice eventos para almacenar en déclencheur los recorridos y organizar las acciones adecuadas para sus perfiles."
+>abstract="Journey Optimizer admite tres tipos de eventos en los recorridos: eventos unitarios, vinculados al comportamiento de una persona específica (como una compra o un hito de lealtad); eventos empresariales, activados por una ocurrencia global (como una cancelación de un vuelo o una actualización de stock) y eventos de calificación de público, activados cuando un perfil entra o sale de un público. Utilice eventos para activar recorridos y orquestar las acciones adecuadas para sus perfiles."
 
 Utilice eventos para almacenar en déclencheur los recorridos individualmente y enviar mensajes en tiempo real a cada usuario cuando entre en el recorrido.
 

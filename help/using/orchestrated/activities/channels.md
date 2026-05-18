@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 37%
+ht-degree: 41%
 
 ---
 
@@ -86,7 +86,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Categoría"
->abstract="Elija Marketing o Transaccional para esta actividad de canal. Los mensajes de marketing utilizan configuraciones de canal de marketing y siguen las reglas comerciales estándar. Los mensajes transaccionales se utilizan para comunicaciones operativas, a menudo activadas por la acción de una persona (por ejemplo, un restablecimiento de contraseña o una confirmación de compra) o para avisos en los que el tiempo es un factor importante, como interrupciones o cancelaciones. Utilizan configuraciones de canal transaccional, se omiten las reglas empresariales y no se requiere la inclusión."
+>abstract="Elija Marketing o Transaccional para esta actividad de canal. Los mensajes de marketing utilizan configuraciones de canal de marketing y siguen las reglas comerciales estándar. Los mensajes transaccionales se utilizan para comunicaciones operativas, se activan a menudo debido a la acción de una persona (por ejemplo, un restablecimiento de contraseña o una confirmación de compra) o para avisos sensibles al tiempo, como interrupciones o cancelaciones. Utilizan configuraciones de canal transaccional, se omiten las reglas empresariales y no se requiere la inclusión."
 
 >[!PREREQUISITES]
 >

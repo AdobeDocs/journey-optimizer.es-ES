@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -346,7 +346,7 @@ A partir de la versión de [!DNL Adobe Journey Optimizer] de junio de 2024, el t
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Política de combinación"
->abstract="La política de combinación se recupera automáticamente en función del evento o la audiencia seleccionados. Esta política de combinación se utiliza en todo el recorrido."
+>abstract="La directiva de combinación se recupera automáticamente en función del evento o el público seleccionados. Esta directiva de combinación se utiliza en todo el recorrido."
 
 [!DNL Adobe Journey Optimizer] usa políticas de combinación al recuperar datos de perfil de [!DNL Adobe Experience Platform]. Según el tipo de recorrido, se utilizan distintas políticas de combinación:
 

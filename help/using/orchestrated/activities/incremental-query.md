@@ -11,7 +11,7 @@ version: Campaign Orchestration
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="Historial en días"
->abstract="Esta opción controla cuánto tiempo se retiene esa lista. Un valor de 0 significa retención indefinida, no se eliminan registros."
+>abstract="Esta opción controla cuánto tiempo se retiene esa lista. Un valor de 0 significa retención indefinida; no se elimina ningún registro."
 
 La actividad **[!UICONTROL Incremental query]** es una actividad **[!UICONTROL de segmentación]** que ejecuta una consulta de base de datos cada vez que se ejecuta la campaña orquestada. Lo importante es que solo genera **nuevos** registros. Se excluye a cualquier usuario que ya haya sido seleccionado en una ejecución anterior, por lo que no debe volver a dirigirse a las mismas personas ni volver a exportar las mismas filas.
 

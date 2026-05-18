@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Calificación del público"
->abstract="Déclencheur la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de una audiencia [!DNL Adobe Experience Platform]. Recomendado para audiencias de streaming; utilice una actividad Leer audiencia para escenarios por lotes."
+>abstract="Active la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de un público [!DNL Adobe Experience Platform]. Recomendado para públicos de streaming; utilice una actividad Leer público para escenarios por lotes."
 
 ## Acerca de los eventos de calificación de público{#about-segment-qualification}
 
@@ -67,35 +67,35 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 >Antes de comenzar a configurar una calificación de audiencia, [lea las protecciones y limitaciones](#audience-qualification-guardrails).
 
 
-## Configuración de la actividad {#configure-segment-qualification}
+## Configurar la actividad {#configure-segment-qualification}
 
 Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga estos pasos:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etiqueta"
->abstract="Añada una etiqueta opcional para identificar esta actividad en los registros del modo de prueba y creación de informes."
+>abstract="Añada una etiqueta opcional para identificar esta actividad en los registros de los modos de prueba y creación de informes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público"
->abstract="Seleccione la audiencia [!DNL Adobe Experience Platform] que desee aprovechar. El recorrido escucha las entradas y salidas de perfil de esta audiencia."
+>abstract="Seleccione el público [!DNL Adobe Experience Platform] que desee aprovechar. El recorrido escucha las entradas y salidas de perfil de este público."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamiento"
->abstract="Elija si desea escuchar las entradas de audiencia, las salidas o ambas cosas."
+>abstract="Elija si desea escuchar las entradas de público, las salidas o ambos."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo de identidad"
->abstract="Seleccione el tipo de identidad utilizado para identificar a las personas. Solo están disponibles las áreas de nombres de identidad basadas en personas."
+>abstract="Seleccione el tipo de identidad utilizado para identificar a las personas. Solo están disponibles los espacios de nombres de identidad basadas en personas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Política de combinación"
->abstract="La política de combinación se recupera automáticamente de la audiencia seleccionada y se aplica a todo el recorrido."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Más información sobre las políticas de combinación"
+>abstract="La directiva de combinación se recupera automáticamente del público seleccionado y se aplica a todo el recorrido."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Más información sobre las directivas de combinación"
 
 
 1. Despliegue la categoría **[!UICONTROL Events]** y suelte una actividad **[!UICONTROL Audience Qualification]** en el lienzo.
@@ -125,7 +125,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
    >**[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponden a los estados de participación de audiencia **Realizado** y **Salido** de [!DNL Adobe Experience Platform].
    >Consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
 
-1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último área de nombres utilizado.
+1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado.
 
    >[!NOTE]
    >

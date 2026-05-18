@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1937'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
@@ -70,12 +70,12 @@ Esta página cubre el proceso completo de creación de un desafío de fidelidad,
 
 En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: las propiedades, la programación, las tareas por completar y las recompensas por entregar.
 
-### Defina las propiedades del desafío y utilice metadatos personalizados {#properties}
+### Definir las propiedades del desafío y utilizar metadatos personalizados {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Propiedades del desafío"
->abstract="En el panel de propiedades del desafío, establezca el nombre y la descripción del desafío y agregue metadatos de clave/valor personalizados para el seguimiento o las integraciones externas."
+>abstract="En el panel de propiedades del desafío, establezca el nombre y la descripción del desafío, y añada metadatos de clave/valor personalizados para el seguimiento o las integraciones externas."
 
 1. En el panel **[!UICONTROL Propiedades del desafío]**, defina la configuración global del desafío:
 
@@ -91,7 +91,7 @@ En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: l
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programación del desafío"
->abstract="Utilice la programación para definir cuándo está activo el desafío: defina la fecha y hora de inicio cuando esté disponible para los clientes y la fecha y hora de finalización cuando deje de aceptar finalizaciones. Elija una zona horaria y elija cuándo pueden los clientes completar las tareas en la **[!UICONTROL sección de la ventana de finalización de tareas]**."
+>abstract="Utilice la programación para definir cuándo está activo el desafío: defina la fecha y hora de inicio cuando esté disponible para los clientes y la fecha y hora de finalización cuando deje de aceptar finalizaciones. Elija una zona horaria y decida cuándo pueden los clientes completar las tareas en la **[!UICONTROL sección de la ventana de finalización de tareas]**."
 
 Configure cuándo se ejecuta el desafío:
 
@@ -116,7 +116,7 @@ La programación de desafíos ya está configurada. A continuación, añada las 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="Tareas"
->abstract="Seleccione las tareas que desea realizar para completar el desafío. A continuación, configure cómo se completa el desafío: las opciones disponibles dependen del tipo de desafío (Estándar, Streak o Secuencial)."
+>abstract="Seleccione las tareas que desea realizar para completar el desafío. A continuación, configure cómo se completa el desafío: las opciones disponibles dependen del tipo de desafío (estándar, racha o secuencial)."
 
 Las tareas definen las acciones específicas que los clientes deben completar para obtener recompensas. Puede configurar tipos de tareas (compras, gastos), cantidades, filtros de productos y otros atributos.
 
@@ -171,7 +171,7 @@ Después de agregar tareas al desafío, configure las recompensas que los client
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="Recompensas"
->abstract="Elija cuándo ganan puntos los clientes: cuando completan todo el desafío o en los hitos de la tarea a medida que progresan. Seleccione su proveedor de recompensas (su solución de fidelidad que administra puntos y recompensas) y luego establezca cantidades: un solo total para la finalización completa o valores por tarea para los hitos, activando las recompensas solo para las tareas que desee pagar."
+>abstract="Elija cuándo ganan puntos los clientes: cuando completan todo el desafío o en los hitos de la tarea a medida que progresan. Seleccione su proveedor de recompensas (su solución de lealtad que administra puntos y recompensas) y luego establezca las cantidades: un solo total para la finalización completa o valores por tarea para los hitos, activando las recompensas solo para las tareas que desee pagar."
 
 Las recompensas son los puntos de lealtad o los beneficios que los clientes reciben por completar los desafíos.
 
@@ -215,7 +215,7 @@ Para configurar cuándo y cómo se entregan las recompensas:
 
 Después de configurar la estructura de desafíos con tareas y recompensas, diseñe las tarjetas de contenido para mostrar el desafío a los clientes.
 
-## Configuración de tarjetas de contenido {#configure-content-cards}
+## Configurar las tarjetas de contenido {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
@@ -236,12 +236,12 @@ Para configurar las tarjetas de contenido para el desafío:
 
 Después de configurar la tarjeta de contenido, configure la mensajería para atraer a los clientes a lo largo del ciclo de vida del desafío.
 
-### Configuración de mensajería {#configure-messaging}
+### Configurar la mensajería {#configure-messaging}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Mensajes"
->abstract="La mensajería ayuda a la participación en todo el ciclo de vida del desafío. En la pestaña Mensajería, añada mensajes para cada fase: Inicio (cuando comience el desafío), En curso (recordatorios y actualizaciones de progreso) y Finalización (celebrar el éxito y confirmar las recompensas). Para cada fase, añada un mensaje, elija el canal, seleccione una configuración de canal y, a continuación, seleccione Editar para diseñar el contenido del mensaje."
+>abstract="La mensajería ayuda a la participación en todo el ciclo de vida del desafío. En la pestaña Mensajería, añada mensajes para cada fase: Inicio (cuándo comienza el desafío), En curso (recordatorios y actualizaciones de progreso) y Finalización (celebrar el éxito y confirmar las recompensas). Para cada fase, añada un mensaje, elija el canal, seleccione una configuración de canal y, a continuación, seleccione Editar para diseñar el contenido del mensaje."
 
 Configure mensajes multicanal para atraer a los clientes en etapas clave del ciclo de vida del desafío. La mensajería es opcional, pero se recomienda para maximizar la participación del cliente.
 
@@ -263,12 +263,12 @@ Aprenda a crear mensajes para canales específicos en estas secciones: [Mensajes
 
 Una vez completada la configuración de mensajería, defina qué clientes pueden participar en el desafío.
 
-## Selección de la audiencia del desafío {#audience}
+## Seleccionar el público del desafío {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Público"
->abstract="En la pestaña Audiencia, elija quién puede participar en el desafío entre las audiencias de Adobe Experience Platform disponibles."
+>abstract="En la pestaña Público, elija quién puede participar en el desafío entre los públicos de Adobe Experience Platform disponibles."
 
 Defina qué clientes pueden participar en su desafío de fidelidad.
 

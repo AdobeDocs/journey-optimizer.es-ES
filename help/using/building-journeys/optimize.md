@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Actividad Optimizar"
->abstract="La actividad **Optimizar** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos, incluida la experimentación, la segmentación y condiciones específicas. Tenga en cuenta que la actividad **Optimize** es el nuevo vehículo para crear rutas condicionales en recorridos. Reemplaza la actividad **Condition** anterior."
+>abstract="La actividad **Optimizar** le permite definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos, incluida la experimentación, la segmentación y condiciones específicas. Tenga en cuenta que la actividad **Optimizar** es el nuevo vehículo para crear rutas condicionales en recorridos. Reemplaza la actividad **Condición** anterior."
 
 >[!IMPORTANT]
 >
