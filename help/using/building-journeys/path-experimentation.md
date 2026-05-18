@@ -12,11 +12,11 @@ exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Usar experimentación de rutas {#experimentation}
+# Uso de la experimentación de ruta {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -153,7 +153,7 @@ Compare una espera de 24 horas con una espera de 72 horas antes de un seguimient
 >
 >Para los experimentos de rutas, la función Escalar el ganador solo está disponible en recorridos unitarios (activados por eventos y cualificaciones de audiencia).
 >
->No está disponible para recorridos de audiencia de lectura.
+>No está disponible para recorridos de lectura de público.
 
 Escalar el ganador permite desplegar automática o manualmente la variación ganadora de un experimento para todo el público. Esta función garantiza que, una vez que se determina un ganador, puede amplificar su alcance y efectividad sin monitorizar constantemente el experimento.
 

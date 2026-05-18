@@ -14,7 +14,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ Cada tarea representa una acción mensurable que contribuye a la finalización d
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Crear una tarea"
->abstract="Seleccione una actividad de cliente (Compra o Gasto) y, a continuación, configure los atributos específicos de la actividad: cantidades o importes, artículos aptos y exclusiones y límites opcionales como gasto mínimo o transacciones máximas. En el panel Propiedades, establezca el nombre y la descripción de la tarea."
+>abstract="Seleccione una actividad de cliente (compra o gasto) y, a continuación, configure los atributos específicos de la actividad: cantidades o importes, artículos aptos y exclusiones y límites opcionales como gasto mínimo o transacciones máximas. En el panel Propiedades, establezca el nombre y la descripción de la tarea."
 
 Puede crear tareas a partir de dos puntos de entrada. El proceso de configuración es el mismo independientemente de dónde comience.
 
@@ -105,16 +105,16 @@ Atributos disponibles para actividades **Spend**:
 
 >[!ENDTABS]
 
-## Definición de artículos y exclusiones aptos {#eligible-items-exclusions}
+## Definir los elementos aptos y las exclusiones {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="Artículos y exclusiones aptos"
->abstract="Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío. Por ejemplo, puede limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea."
+>title="Elementos aptos y exclusiones"
+>abstract="Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos aptos y exclusiones]** para definir qué elementos y grupos son aptos y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío. Por ejemplo, puede limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
+Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos aptos y exclusiones]** para definir qué elementos y grupos son aptos y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
 
 Por ejemplo, puede limitar una tarea a categorías de productos específicas o excluir del recuento las tarjetas regalo o los elementos promocionales para la finalización de la tarea.
 

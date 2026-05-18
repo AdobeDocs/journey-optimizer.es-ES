@@ -8,26 +8,16 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1106
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +26,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creación de reglas"
->abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué audiencia o **reglas de segmentación** para determinar segmentos de audiencia específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes."
+>abstract="Puede crear dos tipos de reglas: **reglas de decisión** que se pueden usar en elementos de decisión o estrategias de selección, para controlar qué elementos se deben presentar a qué público, o **reglas de segmentación** para determinar segmentos de público específicos aptos para recibir contenido personalizado o para especificar una ruta de recorrido específica.<br/><br/>Al crear una regla de decisión, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform. Esto le permite definir criterios de idoneidad basados en atributos dinámicos y externos, lo que garantiza que los elementos de decisión solo se muestren cuando sean relevantes."
 
 ## Acerca de las reglas {#about}
 
@@ -172,4 +162,4 @@ Para optimizar una regla:
 
 Aprenda a crear, duplicar y aplicar **reglas de segmentación** reutilizables en Adobe Journey Optimizer para personalizar de forma eficaz las campañas basadas en atributos del cliente como la región, el idioma y el comportamiento, ahorrando tiempo y mejorando la precisión de la audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476130/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

@@ -10,30 +10,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 TQID: https://experienceleague.adobe.com/yMcftppDHaPWoP51PuYrV9OrzZxyrUcRwgoOvnlcbho
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1334
@@ -41,7 +23,7 @@ ht-degree: 9%
 
 ---
 
-# Uso de GenStudio para el marketing de rendimiento {#ajo-genstudio}
+# Trabajar con GenStudio para marketing de rendimiento {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -64,7 +46,7 @@ Para mejorar la eficacia del marketing y mantener la coherencia de la marca, pue
 
 >[!INFO]
 >
->Para ir más lejos, mira esta [descripción general](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
+>Para ir más lejos, mira esta [descripción general](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} y una [demostración](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} de [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
@@ -148,13 +130,13 @@ Comience exportando una plantilla de HTML [!DNL Journey Optimizer] que incluya l
 
    >[!NOTE]
    >
-   >Aprenda a cargar una plantilla de HTML en [!DNL GenStudio] en la sección [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} dedicada.
+   >Aprenda a cargar una plantilla de HTML en [!DNL GenStudio] en la sección [Guía del usuario de Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} dedicada.
 
 1. En GenStudio, utilice esta plantilla para crear varias variaciones de correo electrónico con peticiones de datos de IA y guardarlas.
 
    >[!NOTE]
    >
-   >Aprenda a crear experiencias de correo electrónico en la [sección](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} de GenStudio.
+   >Aprenda a crear experiencias de correo electrónico en la [sección](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} de GenStudio.
 
 ### Aprovechamiento de las experiencias de GenStudio en Journey Optimizer {#leverage-genstudio-experiences}
 
@@ -245,4 +227,4 @@ Sí, GenStudio está diseñado para la colaboración. Varios integrantes del equ
 
 Descubra el proceso de exportar una plantilla de correo electrónico de Journey Optimizer a GenStudio for Performance Marketing, crear correos electrónicos compatibles con la marca mediante la plantilla en GenStudio y volver a importarlos sin problemas en Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456052/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

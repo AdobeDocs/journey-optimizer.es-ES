@@ -10,25 +10,15 @@ level: Experienced
 keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -67,12 +57,12 @@ Al configurar una nueva [configuración del canal de correo electrónico](email-
 >
 >Para **[!UICONTROL From email prefix]** y **[!UICONTROL Error email prefix]**, los valores deben comenzar con una letra (A-Z) y solo pueden contener caracteres alfanuméricos. También puede utilizar caracteres de guion bajo `_`, punto `.` y guión `-`.
 
-## Encabezados de remitente {#sender-header}
+## Encabezados del remitente {#sender-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
->title="Encabezados de remitente"
->abstract="Utilice estos campos opcionales cuando la entidad emisora (Remitente) difiera de la entidad emisora (De), por ejemplo, un padre corporativo que envía mensajes para una marca secundaria o una agencia que envía para varios clientes. Los clientes de correo electrónico que admiten esto generalmente lo representan como &quot;Remitente en nombre de Desde&quot; o muestran un indicador &quot;a través de&quot;."
+>title="Encabezados del remitente"
+>abstract="Utilice estos campos opcionales cuando la entidad transmisora (Remitente) sea distinta de la entidad autora (De); por ejemplo, cuando una empresa matriz envía mensajes para una marca filial o una agencia los envía para varios clientes. Los clientes de correo electrónico que admiten esto generalmente lo representan como “Remitente en nombre de Desde” o muestran un indicador “a través de”."
 
 Algunos casos de uso requieren que el buzón que transmite el mensaje sea diferente del autor de **From**; por ejemplo, una organización principal que envía en nombre de una subsidiaria, un equipo de marketing compartido para varias marcas o una agencia que envía para varios clientes.
 

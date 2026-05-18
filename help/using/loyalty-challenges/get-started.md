@@ -14,7 +14,7 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Desafíos de lealtad"
->abstract="Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos."
+>abstract="Los desafíos de lealtad le permiten crear programas de lealtad atractivos e interactivos que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta participar en redes sociales y recomendar a amigos."
 
-Los retos de fidelidad le permiten crear programas de fidelidad atractivos y con interacción que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta interactuar en medios sociales y hacer referencia a amigos.
+Los desafíos de lealtad le permiten crear programas de lealtad atractivos e interactivos que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta participar en redes sociales y recomendar a amigos.
 
 Con Desafíos de fidelización, puede hacer lo siguiente:
 
@@ -136,7 +136,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
       <img alt="Acceso" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Acceder y administrar desafíos y tareas</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Acceder y administrar retos y tareas</strong></a>
     </div>
     <p>
     <em>Aprenda a acceder al inventario y a administrar desafíos y tareas</em>
@@ -147,7 +147,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
       <img alt="Crear" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
-    <a href="create-challenges.md"><strong>Crear desafíos</strong></a>
+    <a href="create-challenges.md"><strong>Crear retos</strong></a>
     </div>
     <p>
     <em>Aprenda a crear y configurar su primer desafío de fidelidad</em>
