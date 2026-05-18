@@ -6,12 +6,11 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: cc87e73fe1746e88a5baeefc0090c88ee9425389
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 11%
+source-wordcount: 1633
+ht-degree: 9%
 
 ---
 
@@ -107,7 +106,7 @@ Las siguientes funcionalidades están segmentadas para esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede agregar <strong>directivas de decisión</strong> a campañas y recorridos de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de tomas de decisiones para devolver de forma dinámica el mejor contenido para entregar a cada miembro del público.</p>
+<p>Ahora puede agregar directivas de decisión a recorridos y campañas de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para cada miembro de la audiencia. La toma de decisiones por correo postal también admite casos de uso de toma de decisiones por lotes, lo que permite exportar los elementos de oferta correspondientes para cada perfil en una audiencia de Adobe Experience Platform determinada.</p>
 <p>Fecha de disponibilidad: 19 de mayo de 2026</p>
 </td>
 </tr>
@@ -280,6 +279,12 @@ Las siguientes mejoras están pensadas para esta versión.
   Availability date: May 19, 2026
 -->
 
+#### Configuración
+
+* **El conjunto de datos de evento de comentarios de mensajes que se mueve a la ingesta por lotes** - `AJO Message Feedback Event Dataset` está realizando una transición del flujo al modo de ingesta por lotes. Este cambio garantiza que la ingesta de datos no supere los límites de ingesta de transmisión. Si utiliza este conjunto de datos en informes de Customer Journey Analytics o ejecuta consultas en él, espere un aumento de la latencia de datos de hasta dos horas en adelante.
+
+  Fecha de disponibilidad: 19 de mayo de 2026
+
 #### Toma de decisiones
 
 * **Fragmentos de contenido de Adobe Experience Manager en Decisioning**: ahora puede asignar fragmentos de contenido de Adobe Experience Manager a elementos de decisión en Decisioning y aprovecharlos dentro de las directivas de decisión para entregar el fragmento adecuado al cliente correcto en el momento adecuado.
@@ -336,13 +341,14 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
   Fecha de disponibilidad: 19 de mayo de 2026
 
-#### Integraciones
+<!--
+#### Integrations
 
-* **Personalización de tiempo abierto con temporizador de cuenta atrás mediante Dynamic Media**: la integración de Dynamic Media de Journey Optimizer y Adobe Experience Manager permite la personalización de tiempo abierto para plantillas de Dynamic Media, lo que desbloquea casos de uso hiperpersonalizados. Los clientes pueden crear y publicar plantillas personalizadas en Adobe Experience Manager y utilizarlas en Journey Optimizer, con datos procesados en el momento de la apertura.
+* **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
-  Fecha de disponibilidad: 19 de mayo de 2026
-
+  Availability date: May 19, 2026
+-->
 
 #### Campañas orquestadas
 
@@ -377,7 +383,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -744,7 +750,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1010,7 +1016,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1263,7 +1269,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1440,7 +1446,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
