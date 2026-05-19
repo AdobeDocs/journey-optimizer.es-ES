@@ -8,14 +8,10 @@ level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/tL3mwS9sDtSkSVljry1EeqPnYn4U34TvXCg5jX2ej3M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 316
@@ -39,7 +35,7 @@ Para utilizar datos de contexto, primero debe definir los datos que desea que es
 
 Los pasos para alimentar Decisioning con datos de Adobe Experience Platform son los siguientes:
 
-1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crear un **esquema de evento de experiencia** en Adobe Experience Platform y su **conjunto de datos** asociado. [Aprenda a crear esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Cree una nueva secuencia de datos de Adobe Experience Platform:
 
@@ -57,6 +53,6 @@ Una vez guardado el conjunto de datos, la información del conjunto de datos sel
 
 Para obtener más información sobre cómo trabajar con Adobe Experience Platform, explore los siguientes recursos:
 
-* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Secuencias de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Esquemas del modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Secuencias de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
