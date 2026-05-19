@@ -111,7 +111,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 
 >[!NOTE]
 >
->Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>Para obtener un glosario completo de términos de Adobe Experience Platform, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es){target="_blank"}.
 
 ## Cuando los términos tienen un aspecto similar: guía de desambiguación {#disambiguation}
 
