@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Crear un mensaje de correo directo
 description: Obtenga información sobre cómo crear y enviar un mensaje de correo directo en Journey Optimizer
 feature: Direct Mail
@@ -24,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 18%
+source-wordcount: 1069
+ht-degree: 17%
 
 ---
 
@@ -66,17 +68,17 @@ Examine las pestañas siguientes para aprender a añadir un mensaje de correo po
 
 1. Configure el archivo de extracción para enviarlo a su proveedor de correo postal. Para ello, haga clic en el botón **[!UICONTROL Editar contenido]**.
 
-   ![](assets/direct-mail-add-journey.png)
+   ![Actividad de correo directo agregada a un recorrido desde la paleta Acciones](assets/direct-mail-add-journey.png)
 
 1. Ajuste las propiedades del archivo de extracción, como el nombre del archivo o las columnas que desea mostrar. Para obtener más información sobre cómo configurar las propiedades del archivo de extracción, consulte esta sección: [Crear un mensaje de correo postal](../direct-mail/create-direct-mail.md#extraction-file).
 
-   ![](assets/direct-mail-journey-content.png)
+   ![Editor de contenido de archivo de extracción para una actividad de recorrido de correo postal](assets/direct-mail-journey-content.png)
 
 1. Una vez definido el contenido del archivo de extracción, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
 
    Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar cómo se representa el archivo de extracción con los datos del perfil de prueba. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![Simular vista previa de contenido para un archivo de extracción de correo postal](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Cuando el archivo de extracción esté listo, complete la configuración de su [recorrido](../building-journeys/journey-gs.md) para enviarlo.
 
@@ -100,7 +102,7 @@ Cuando el archivo de extracción esté listo, complete la configuración de su [
 
 1. Seleccione o cree una **[!UICONTROL configuración de correo directo]** para usar. [Aprenda a crear una configuración de correo postal](direct-mail-configuration.md#direct-mail-surface).
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![Acción de correo directo configurada en una campaña de marketing programada](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +142,7 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
 
    1. A veces quizá deba añadir información al principio o al final del archivo de extracción. Para ello, use el campo **[!UICONTROL Notas]** y después especifique si desea incluir la nota como encabezado o pie de página.
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![Propiedades del archivo de extracción, incluidas las notas de nombre de archivo, marca de tiempo y encabezado o pie de página](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. Configure las columnas y la información que desea mostrar en el archivo de extracción:
 
@@ -152,10 +154,19 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
 
    1. Para ordenar el archivo de extracción mediante una columna, seleccione la columna y active la opción **[!UICONTROL Ordenar por]**. El icono **[!UICONTROL Ordenar por]** aparece junto a la etiqueta de la columna en la sección **[!UICONTROL Campos de datos]**.
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![Campos de datos y formato de columna en el editor de archivos de extracción de correo postal](assets/direct-mail-content.png){width="800" align="center"}
 
    1. Repita estos pasos para agregar tantas columnas como sea necesario para el archivo de extracción. Tenga en cuenta que puede añadir hasta 50 columnas.
 
       Para cambiar la posición de una columna, arrástrela y suéltela en la ubicación deseada en la sección **[!UICONTROL Campo de datos]**. Para eliminar una columna, selecciónela y haga clic en el botón **[!UICONTROL Quitar]** en el panel **[!UICONTROL Formato]**.
 
 Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Aprenda a probar y enviar mensajes de correo postal](test-send-direct-mail.md)
+
+## Temas relacionados {#related-topics}
+
+* [Introducción al correo directo](get-started-direct-mail.md)
+* [Configuración del canal de correo directo](direct-mail-configuration.md)
+* [Prueba y envío de correo postal](test-send-direct-mail.md)
+* [Previsualización y prueba de contenido](../content-management/preview-test.md)
+
+Si tiene preguntas comunes acerca del correo postal, consulte [Introducción al correo postal](get-started-direct-mail.md).
