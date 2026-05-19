@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2624
-ht-degree: 78%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -177,6 +177,27 @@ En mayo de 2026 también se publicaron las siguientes mejoras.
 #### WhatsApp
 
 * **Compatibilidad y seguimiento con botones WhatsApp**: Las plantillas de WhatsApp ahora admiten **respuesta rápida**, **Call to action - URL** y **Call to action - teléfono**, **No se admite copiar el código**. Journey Optimizer envía los botones admitidos y rastrea las interacciones junto con los demás informes de canal.
+
+* **Datos de contexto del canal WhatsApp**: Journey Optimizer ahora captura datos de interacción adicionales devueltos por el canal WhatsApp y los almacena en el **conjunto de datos AJO EmailTrackingExperienceEvent** en el grupo de campos `whatsAppChannelContext`.
+
+  +++ Los siguientes campos se capturan y se pueden usar para crear audiencias y analizar la participación de WhatsApp
+
+   * **`messageType`** - tipo de mensaje de WhatsApp (por ejemplo: `templateBased`, `response`)
+   * **`inboundMessage`** - Contenido de respuesta entrante (por ejemplo: `stop`, `start`, `subscribe`)
+   * **`inboundNumber`** - Identificador de remitente donde se recibió el mensaje entrante
+   * **`channelType`** - Categoría de canal (`Utility`, `Marketing` o `Promotional`)
+   * **`profileNumber`** - Número de teléfono desde el cual se recibió el mensaje entrante
+   * **`origTimestamp`**: marca de tiempo original de Meta/WhatsApp
+   * **`status`** - Estado del envío que incluye comentarios estandarizados del proveedor (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` o `unknown`) y el mensaje de estado del proveedor sin procesar
+   * **`reactionEvent`** - Contenido de la respuesta del usuario: emoji para reacciones o texto del mensaje para respuestas a un mensaje específico
+   * **`reactionMessageID`**: ID del mensaje original al que se está respondiendo
+   * **`reactionActionName`** - Tipo de acción de respuesta (`react`, `unreact` o `reply`)
+   * **`interactiveSelectedTitle`** - Título seleccionado por el usuario de un mensaje interactivo de WhatsApp
+   * **`interactiveType`** - Tipo de mensaje interactivo (`list reply`, `button reply` o `button`)
+   * **`interactiveSelectedDescription`** - Descripción de la opción interactiva de WhatsApp seleccionada
+   * **`interactiveSelectedID`**: ID de la opción seleccionada de WhatsApp
+
+  +++
 
 <!-- 
 ## Coming soon {#coming-soon}
@@ -496,4 +517,3 @@ En abril de 2026 también se publicaron las siguientes mejoras.
 
 * **Variables globales en campañas orquestadas**: las campañas orquestadas ahora admiten variables globales que se pueden definir una vez y reutilizar en todas las actividades dentro de un flujo de trabajo, lo que simplifica la configuración y garantiza la coherencia en los valores dinámicos, las expresiones y la personalización de contenido. [Más información](../orchestrated/global-variables.md)
 * **Mejoras de Data Modeler**: los esquemas relacionales organizados ahora admiten claves compuestas que abarcan varios campos. Al cargar un esquema desde un archivo DDL, también se generan enumeraciones, y al cargar desde un archivo DDL o de Excel se crean automáticamente relaciones compuestas entre las tablas. En la vista de relación de entidades, los vínculos compuestos ahora muestran el conjunto completo de emparejamientos de campos entre tablas después de cargar un archivo. [Más información](../orchestrated/gs-schemas.md)
-

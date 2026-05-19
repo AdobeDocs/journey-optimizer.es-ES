@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3326'
 ht-degree: 97%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 97%
    + Expresiones de compilación {#building-advanced-conditions-journeys}
       + [Expresiones de compilación](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Trabajo con el editor de expresiones avanzado](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[Asistente de expresiones](using/building-journeys/expression/expression-agent.md)
       + Sintaxis {#syntax}
          + [Sintaxis](/help/rp_landing_pages/syntax-landing-page.md)
          + [Sintaxis avanzada del editor de expresiones](using/building-journeys/expression/generalities.md)
@@ -316,7 +317,7 @@ ht-degree: 97%
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-      + [Uso y configuración de vínculos profundos](using/email/deeplinks.md)
+      + [Usar y configurar vínculos profundos](using/email/deeplinks.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
