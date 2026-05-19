@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 16%
+source-wordcount: '2247'
+ht-degree: 15%
 
 ---
 
@@ -33,6 +33,16 @@ Para crear un elemento de decisión, vaya a **[!UICONTROL Decisioning]** > **[!U
 >id="ajo_exd_item_priority"
 >title="Definición de la prioridad del elemento de decisión"
 >abstract="Si un perfil cumple los requisitos para varios elementos, la prioridad permite comparar este elemento de decisión con otros. Una prioridad mayor otorga al elemento prioridad sobre otros."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_ajo_fragment"
+>title="Asignar un fragmento de contenido de Journey Optimizer a este elemento de decisión"
+>abstract="Adjunte un fragmento de contenido de la biblioteca de fragmentos de Journey Optimizer."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_aem_fragment"
+>title="Asignar un fragmento de contenido de AEM a este elemento de decisión"
+>abstract="Al adjuntar un fragmento de contenido a este elemento de decisión, puede aprovechar el contenido directamente desde Adobe Experience Manager."
 
 Comience por definir los atributos estándar y personalizados del elemento de decisión:
 
