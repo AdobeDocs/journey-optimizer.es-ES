@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 9%
+source-wordcount: 1252
+ht-degree: 8%
 
 ---
 
 # Crear y administrar recursos con [!DNL Experience Manager Assets]{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Las experiencias existentes de **Selector de recursos** y **Selector de fragmentos de contenido** en los flujos de trabajo de Adobe Journey Optimizer se están reemplazando con **Asesor de contenido**. El Asesor de contenido proporciona una interfaz unificada con tecnología de IA para detectar y seleccionar Assets, fragmentos de contenido y Dynamic Media directamente en los flujos de trabajo de creación de AJO. Las integraciones existentes seguirán funcionando durante el período de transición.
+
+>[!ENDSHADEBOX]
 
 ## Introducción a [!DNL Experience Manager Assets] {#get-started-assets}
 
@@ -47,7 +53,7 @@ Una los flujos de trabajo creativos y de marketing usando **[!DNL Adobe Experien
 
 * **[!DNL Assets as a Cloud Service]**: Adobe Experience Manager Assets as a Cloud Service ofrece una solución de nube fácil de usar para una administración eficiente de activos digitales y operaciones de Dynamic Media. Incorpora sin problemas funciones avanzadas, como inteligencia artificial y aprendizaje automático.
 
-  Obtenga más información en [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}.
+  Obtenga más información en [Documentación de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=es){target="_blank"}.
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials es la solución ligera de Assets as a Cloud Service para la colaboración y administración de recursos unificadas. Con una interfaz moderna y simplificada, permite a los equipos creativos y de marketing almacenar, descubrir y distribuir recursos digitales sin esfuerzo.
 
