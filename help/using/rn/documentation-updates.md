@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Mayo de 2026 {#may-2026}
+
+* La página **Terminología clave** se ha enriquecido con una nueva guía de desambiguación de **Cuando los términos tienen un aspecto similar** que cubre cuatro pares de términos que se confunden con frecuencia: Toma de decisiones frente a Administración de decisiones (incluido el estado heredado de Administración de decisiones), los tres tipos de campaña (Acción, activada por API y Orquestada), restricción de frecuencia frente a arbitraje de recorrido y Tarjetas de contenido frente a mensajes en la aplicación. La definición de **Campaign** y la tabla **Decisión y términos de oferta** también se han actualizado. Decisioning ahora aparece junto con Administración de decisiones, que se marca explícitamente como heredada. [Más información](../start/terminology.md#disambiguation)
 
 * La documentación de **Deeplinks** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código de Personalization Editor) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
 

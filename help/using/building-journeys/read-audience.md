@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ Para obtener la lista completa de protecciones de audiencia de lectura (incluido
 
 ## Temas relacionados
 
-* [Generar públicos](../audience/about-audiences.md)
-* [Actividad de calificación de público](audience-qualification-events.md)
-* [Uso de identificadores suplementarios en recorridos](supplemental-identifier.md)
-* [Mecanismos de protección y limitaciones](../start/guardrails.md#read-segment-g)
-* [Recorrido de tasas de procesamiento y administración de entradas](entry-management.md)
-* [Prueba de un recorrido](testing-the-journey.md)
-* [Publicación de un recorrido](../building-journeys/publish-journey.md)
+* [Crear audiencias](../audience/about-audiences.md): cree y administre los segmentos de audiencia a los que quiera dirigirse en sus recorridos de lectura de audiencias.
+* [Actividad de calificación de audiencias](audience-qualification-events.md): el Déclencheur de recorridos en tiempo real a medida que los perfiles entran o salen de una audiencia, en lugar de procesarlos por lotes.
+* [Use identificadores suplementarios en recorrido](supplemental-identifier.md): amplíe Leer recorridos de audiencia para segmentar entidades secundarias como reservas, contratos o suscripciones vinculados a un perfil.
+* [Protecciones y limitaciones](../start/guardrails.md#read-segment-g): revise los límites de rendimiento, el comportamiento de reintentos y los umbrales de tamaño de audiencia antes de iniciarse a escala.
+* [Tasas de procesamiento de Recorridos y administración de entradas](entry-management.md): comprenda cómo se insertan los perfiles en el recorrido y qué controla la entrada y la reentrada.
+* [Probar un recorrido](testing-the-journey.md): valide su lógica de recorrido con perfiles de prueba antes de lanzarse.
+* [Publicar un recorrido](../building-journeys/publish-journey.md) - Activar el recorrido y supervisar su ejecución inicial.
+* [Enviar un mensaje a los suscriptores](message-to-subscribers-uc.md) - Caso de uso de extremo a extremo: dirige una lista de suscripción con un recorrido de audiencia de lectura, desde la configuración hasta la entrega.
+* [Prácticas recomendadas para leer recorridos de audiencia](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=es){target="_blank"}: blog de la comunidad que cubre dificultades comunes, discrepancias de recuento y prácticas recomendadas comprobadas.
 
 ## Vídeo práctico {#video}
 
