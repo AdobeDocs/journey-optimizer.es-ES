@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
 workflow-type: tm+mt
-source-wordcount: 1505
-ht-degree: 39%
+source-wordcount: 1566
+ht-degree: 38%
 
 ---
 
@@ -222,7 +222,7 @@ En mayo de 2026 también se publicaron las siguientes mejoras.
 
 ## Próximamente {#coming-soon}
 
-Las siguientes funciones y mejoras están programadas para su lanzamiento en los próximos días. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
+Las siguientes funcionalidades y mejoras están programadas para su lanzamiento para mayo. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
 ### Nuevas funcionalidades {#coming-soon-features}
 
@@ -287,5 +287,11 @@ Las siguientes funciones y mejoras están programadas para su lanzamiento en los
 
   Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
+
+  Fecha de disponibilidad: 29 de mayo de 2026
+
+  &#x200B;#### Configuración
+
+* **El conjunto de datos de evento de comentarios de mensajes que se mueve a la ingesta por lotes** - `AJO Message Feedback Event Dataset` está realizando una transición del flujo al modo de ingesta por lotes. Este cambio garantiza que la ingesta de datos no supere los límites de ingesta de transmisión. Si utiliza este conjunto de datos en informes de Customer Journey Analytics o ejecuta consultas en él, espere un aumento de la latencia de datos de hasta dos horas en adelante.
 
   Fecha de disponibilidad: 29 de mayo de 2026
