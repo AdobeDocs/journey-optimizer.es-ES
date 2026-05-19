@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
+source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7833'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Mayo de 2026 {#may-2026}
 
-* La página **Terminología clave** se ha enriquecido con una nueva guía de desambiguación de **Cuando los términos tienen un aspecto similar** que cubre cuatro pares de términos que se confunden con frecuencia: Toma de decisiones frente a Administración de decisiones (incluido el estado heredado de Administración de decisiones), los tres tipos de campaña (Acción, activada por API y Orquestada), restricción de frecuencia frente a arbitraje de recorrido y Tarjetas de contenido frente a mensajes en la aplicación. La definición de **Campaign** y la tabla **Decisión y términos de oferta** también se han actualizado. Decisioning ahora aparece junto con Administración de decisiones, que se marca explícitamente como heredada. [Más información](../start/terminology.md#disambiguation)
+* Se ha revisado la página **Terminología clave**: se han agregado seis términos nuevos, se ha introducido una nueva sección **Términos de conflicto y priorización** y se ha agregado una nueva guía de desambiguación **Cuando los términos parecen similares** para cuatro pares de términos que se confunden con frecuencia. Los términos específicos de Adobe Experience Platform se han eliminado y reemplazado por una nota que vincula al glosario de Adobe Experience Platform. [Más información](../start/terminology.md)
 
 * La documentación de **Deeplinks** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código de Personalization Editor) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
 
