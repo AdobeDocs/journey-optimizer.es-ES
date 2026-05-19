@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Prueba y envío de un mensaje de correo directo
 description: Obtenga información sobre cómo comprobar y enviar un mensaje de correo postal en Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
@@ -8,31 +10,26 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 16%
+source-wordcount: 582
+ht-degree: 15%
 
 ---
 
 # Prueba y envío de un mensaje de correo directo {#direct-mail-test-send}
+
+Obtenga información sobre cómo obtener una vista previa del archivo de extracción, validar y activar la campaña de correo postal o el recorrido, y administrar el consentimiento de correo postal en Journey Optimizer.
+
+## Antes de comenzar {#before-you-start}
+
+Antes de probar y enviar un mensaje de correo postal, [cree el mensaje y configure el archivo de extracción](create-direct-mail.md). Asegúrese de haber completado también la [configuración del canal de correo postal](direct-mail-configuration.md).
 
 ## Previsualización del archivo de extracción {#preview-dm}
 
@@ -40,7 +37,7 @@ Una vez definido el contenido del archivo de extracción, puede utilizar perfile
 
 Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar cómo se representa el archivo de extracción con los datos del perfil de prueba.
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![Simular vista previa de contenido para un archivo de extracción de correo postal](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
 
@@ -58,7 +55,7 @@ Antes de activar la campaña de correo postal, asegúrese de que la campaña o e
 
 * **Los errores** le impiden publicar la campaña, siempre y cuando no se resuelvan. Por ejemplo, un mensaje de error le advierte cuando falta la línea de asunto.
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![Revisar y activar la pantalla que muestra las alertas de validación de campañas de correo directo](assets/direct-mail-review.png){width="800" align="center"}
 
 Cuando tu campaña de correo postal esté lista, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarla.
 
@@ -81,3 +78,12 @@ Para volverlo a habilitar, el atributo de perfil debe cambiarse a `consents.mark
 Para administrar los atributos de un perfil, vaya a Experience Platform y acceda al perfil seleccionando un área de nombres de identidad y un valor de identidad correspondiente. Obtenga más información en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=es#getting-started){target="_blank"}.
 
 Obtenga más información acerca de la administración de la exclusión en Journey Optimizer en [esta sección](../privacy/opt-out.md).
+
+## Temas relacionados {#related-topics}
+
+* [Introducción al correo directo](get-started-direct-mail.md)
+* [Crear un mensaje de correo directo](create-direct-mail.md)
+* [Configuración del canal de correo directo](direct-mail-configuration.md)
+* [Previsualización y prueba de contenido](../content-management/preview-test.md)
+
+Si tiene preguntas comunes acerca del correo postal, consulte [Introducción al correo postal](get-started-direct-mail.md).

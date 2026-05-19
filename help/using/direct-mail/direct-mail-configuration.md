@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configuración de correo directo
 description: Obtenga información sobre cómo configurar el canal de correo postal en Journey Optimizer
 feature: Direct Mail, Surface
@@ -8,26 +10,14 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: 1964
 ht-degree: 21%
 
 ---
@@ -96,15 +86,17 @@ Para configurar el enrutamiento de archivos, siga los pasos a continuación.
 
 1. Acceda al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración de correo directo]** > **[!UICONTROL Enrutamiento de archivos]** y, a continuación, haga clic en **[!UICONTROL Crear configuración de enrutamiento de archivos]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![Botón Crear configuración de enrutamiento de archivos en Configuración de correo directo](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Establezca un nombre para la configuración.
 
 1. Seleccione el tipo de servidor que desea utilizar para exportar los archivos de correo postal: Amazon S3, SFTP, Azure o Data Landing Zone.
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![Selección del tipo de servidor para una configuración de enrutamiento de archivos de correo postal](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Rellene los campos específicos de cada tipo de servidor como se detalla en las pestañas siguientes.
+
+### Elija el tipo de servidor {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +112,7 @@ Si seleccionó **[!UICONTROL Amazon S3]** como **[!UICONTROL tipo de servidor]**
 
 * **Región de AWS**: elija la **[!UICONTROL Región de AWS]** donde se ubicará la infraestructura del servidor. Las regiones de AWS son áreas geográficas que AWS utiliza para alojar su infraestructura en la nube. Como práctica general, se prefiere elegir la región más cercana a la ubicación de su proveedor de correo postal.
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Selección de región de AWS para una configuración de enrutamiento de archivos Amazon S3](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +128,7 @@ Si seleccionó **[!UICONTROL SFTP]** como **[!UICONTROL tipo de servidor]**, ind
 
 * **[!UICONTROL Contraseña]** / **[!UICONTROL Clave SSH]**:&#x200B; Contraseña o clave SSH utilizada para conectarse al servidor SFTP.
 
-![](assets/file-routing-config-sftp-detail.png)
+![Detalles de conexión del servidor SFTP para la configuración de enrutamiento de archivos](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,15 +156,15 @@ Si seleccionó **[!UICONTROL Azure]** como **[!UICONTROL tipo de servidor]**, re
   >
   >Para especificar una ruta de acceso dentro del contenedor para guardar el archivo, actualice el campo **[!UICONTROL Nombre de archivo]** de la campaña de correo postal para incluir la ruta de acceso deseada. [Más información](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![Detalles de conexión de almacenamiento de Azure para la configuración de enrutamiento de archivos](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Zona de aterrizaje de datos]
 
 Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL tipo de servidor]**, no se requieren detalles específicos.
 
-![](assets/file-routing-config-dlz-detail.png)
+![Configuración de enrutamiento de archivos de la zona de aterrizaje de datos sin campos de servidor adicionales](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -180,7 +172,7 @@ Para cifrar el archivo, copie y pegue la clave de cifrado en el campo **[!UICONT
 
 Si la configuración de enrutamiento de su archivo se va a enviar mediante recorridos, puede especificar la frecuencia con la que se enviará el archivo al servidor.
 
-![](assets/file-routing-journey.png)
+![Configuración de frecuencia de exportación de Recorrido para una configuración de enrutamiento de archivos](assets/file-routing-journey.png)
 
 Una vez que hayas completado los detalles del tipo de servidor, selecciona **[!UICONTROL Enviar]**. La configuración de enrutamiento de archivos se creó con el estado **[!UICONTROL Activo]**. Ahora está listo para usarse en una [configuración de correo directo](#direct-mail-surface).
 
@@ -212,7 +204,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 >
 >Después de la codificación Base64, la clave ya no contendrá los marcadores `-----BEGIN/END RSA PRIVATE KEY-----` y no debe incluir saltos de línea. La clave pública correspondiente debe añadirse al archivo de claves autorizadas del servidor SFTP.
 
-Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
@@ -242,7 +234,7 @@ Una configuración de correo postal también debe incluir la configuración de e
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Configuración general]** > **[!UICONTROL Configuraciones de canal]**. Haga clic en el botón **[!UICONTROL Crear configuración de canal]**. [Más información](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![Crear pantalla de configuración de canal en Administración](assets/direct-mail-config-1.png)
 
 1. Introduzca un nombre y una descripción (opcional) para la configuración y, a continuación, seleccione el canal que desea configurar.
 
@@ -254,13 +246,13 @@ Una configuración de correo postal también debe incluir la configuración de e
 
 1. Seleccione el canal **[!UICONTROL Correo directo]**.
 
-   ![](assets/direct-mail-config-2.png)
+   ![Canal de correo directo seleccionado al crear una configuración de canal](assets/direct-mail-config-2.png)
 
 1. Seleccione **[!UICONTROL Acciones de marketing]** para asociar directivas de consentimiento a los mensajes que usan esta configuración. Todas las políticas de consentimiento asociadas con la acción de marketing se aprovechan para respetar las preferencias de los clientes. [Más información](../action/consent.md#surface-marketing-actions)
 
 1. Defina la configuración de correo postal en la sección dedicada de la configuración de canal.
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![Configuración de la superficie de correo directo, incluidos el formato de archivo y el enrutamiento](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +260,7 @@ Una configuración de correo postal también debe incluir la configuración de e
 
 1. Si selecciona **[!UICONTROL Delimitado por texto]**, defina el separador de columnas que desee: tabulación, punto y coma, barra vertical o signo ampersand.
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![Opciones de separador de columnas delimitado por texto para archivos de exportación de correo postal](assets/surface-direct-mail-column-separator.png)
 
 1. Seleccione la **[!UICONTROL configuración de enrutamiento de archivos]** entre las que creó. Define dónde se exportará el archivo para que lo utilice su proveedor de correo postal.
 
@@ -276,7 +268,7 @@ Una configuración de correo postal también debe incluir la configuración de e
    >
    >Si no ha configurado ninguna opción de enrutamiento de archivos, no podrá crear una configuración de correo postal. [Más información](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![Configuración de enrutamiento de archivos seleccionada en una configuración de canal de correo postal](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +293,12 @@ Ahora puede [crear un mensaje de correo postal](../direct-mail/create-direct-mai
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## Temas relacionados {#related-topics}
+
+* [Introducción al correo directo](get-started-direct-mail.md)
+* [Crear un mensaje de correo directo](create-direct-mail.md)
+* [Prueba y envío de correo postal](test-send-direct-mail.md)
+* [Configuraciones de canal](../configuration/channel-surfaces.md)
+
+Si tiene preguntas comunes acerca del correo postal, consulte [Introducción al correo postal](get-started-direct-mail.md).
