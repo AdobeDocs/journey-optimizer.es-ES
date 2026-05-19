@@ -12,21 +12,15 @@ keywords: expresión, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAmgqg8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 27%
+source-wordcount: 1215
+ht-degree: 26%
 
 ---
 
@@ -55,7 +49,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="Agregar conjunto de datos"
->abstract="Use los atributos de conjuntos de datos de [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos de Adobe Experience Platform con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
+>abstract="Use los atributos de conjuntos de datos de [!DNL Adobe Experience Platform] para definir criterios de límite basados en atributos externos dinámicos. Haga clic en **[!UICONTROL Agregar conjunto de datos]** para seleccionar el conjunto de datos con los atributos que necesita. Si el conjunto de datos no se muestra en la lista, asegúrese de que lo ha habilitado para la búsqueda y de que ha creado una asignación de búsqueda de conjunto de datos."
 
 [!DNL Journey Optimizer] le permite aprovechar los datos de [!DNL Adobe Experience Platform] para la toma de decisiones. Esto le permite ampliar la definición de los atributos de decisión a datos adicionales en conjuntos de datos para actualizaciones masivas que cambian periódicamente sin tener que actualizar manualmente los atributos de uno en uno. Por ejemplo, disponibilidad, tiempos de espera, etc.
 
@@ -157,7 +151,7 @@ Por ejemplo, una retailer puede querer limitar una oferta en función del invent
 
 >[!NOTE]
 >
->Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite**&#x200B;[!UICONTROL &#x200B; En total &#x200B;]&#x200B;**.**
+>Actualmente, las expresiones de regla de límite **están disponibles como capacidad de disponibilidad limitada para todos los usuarios y solo son compatibles con el tipo de límite**[!UICONTROL  En total ]**.**
 
 Para utilizar datos de Adobe Experience Platform en expresiones de reglas de límite, siga estos pasos:
 
