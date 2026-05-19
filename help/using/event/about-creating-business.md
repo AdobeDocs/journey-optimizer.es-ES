@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1160
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -61,9 +61,9 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 * Solo se puede eliminar una actividad de audiencia de lectura después de un evento empresarial. Se añade automáticamente como el siguiente paso.
 * Para permitir varias ejecuciones de eventos empresariales, active la opción correspondiente en la sección **[!UICONTROL Execution]** de las propiedades del recorrido.
 * Después de activarse un evento empresarial, se producirá un retraso para exportar la audiencia de 15 minutos a hasta una hora.
-* Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Ver [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
+* Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
 * ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento empresarial? Se comporta de la misma manera que cuando los individuos siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar crear recorridos demasiado largos si esperan eventos comerciales frecuentes.
-* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de audiencia.
+* Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
 
 ## Varios eventos empresariales {#multiple-business-events}
 
@@ -103,7 +103,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
 1. El número de recorridos que usa este evento se muestra en el campo **[!UICONTROL Utilizado en]**. Puede hacer clic en el icono **[!UICONTROL Ver recorridos]** para mostrar la lista de recorridos con este evento.
 
-1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (o carga útil) que recorrido espera recibir. Esta información se utilizará más adelante en el recorrido. Ver [esta sección](../event/about-creating-business.md#define-the-payload-fields).
+1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (o carga útil) que recorrido espera recibir. Esta información se utilizará más adelante en el recorrido. Consulte [esta sección](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
@@ -123,7 +123,7 @@ Estos son los primeros pasos para configurar un evento empresarial:
 
    ![](assets/journey7-business.png)
 
-   El evento está ahora configurado y listo para colocarse en un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Más información sobre [esta página](../event/additional-steps-to-send-events-to-journey.md).
+   El evento está ahora configurado y listo para añadirse a un recorrido. Se requieren pasos de configuración adicionales para recibir eventos. Obtenga más información en [esta página](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definición de los campos de carga útil {#define-the-payload-fields}
 
@@ -163,4 +163,4 @@ Utilice la previsualización de carga útil para validar la definición de carga
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Ver [esta página](../event/additional-steps-to-send-events-to-journey.md).
+1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).

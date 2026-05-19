@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 367
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -36,23 +36,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Si es la primera vez que crea una notificación push, asegúrese de que se ha configurado el canal push. [Más información](push-gs.md).
+>Si es la primera vez que crea una notificación push, asegúrese de que el canal push esté configurado. [Más información](push-gs.md).
 
-Las notificaciones push le ayudan a llegar a los usuarios de su aplicación móvil y a los visitantes web en cualquier momento, especialmente cuando no utilizan activamente su aplicación ni exploran el sitio web. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre su servicio, pedir a un usuario que realice una acción, alertar al usuario sobre una nueva oferta, etc. Las plataformas de dispositivos requieren la inclusión antes de que los usuarios finales puedan recibir o ver sus notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicie la aplicación por primera vez después de la instalación o en una sesión o flujo de trabajo posterior, según corresponda.
+Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación ni exploran su sitio web. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que realice una acción, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivos exigen que los usuarios den su inclusión antes de que puedan recibir o ver las notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicie la aplicación por primera vez después de la instalación, o en una sesión o flujo de trabajo posterior, según corresponda.
 
-[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en la industria. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
+[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorridos para aprovechar la información de datos que su marca tiene con Adobe Experience Cloud.
 
 Se pueden crear notificaciones push:
 
-* En un **Recorrido**: Una vez que hayas agregado una actividad push al recorrido y hayas definido la configuración básica, usa el panel derecho **[!UICONTROL Acciones: push]** para crear el contenido de las notificaciones push. [Aprenda a crear un recorrido](../building-journeys/journey-gs.md)
+* En un **Recorrido**: una vez que haya añadido una actividad Push en el recorrido y haya definido la configuración básica, utilice el panel derecho **[!UICONTROL Acciones: Push]** para crear el contenido de las notificaciones push. [Obtenga información sobre cómo crear un recorrido](../building-journeys/journey-gs.md)
 
-* En una **campaña**: Una vez que hayas creado una campaña, selecciona Notificación push como acción y define la configuración básica. Aprenda a crear [una campaña de acción](../campaigns/campaign-action.md#action-campaign-action) | [una campaña activada por API](../campaigns/api-triggered-campaigns.md) | [una campaña orquestada](../orchestrated/create-orchestrated-campaign.md#create)
+* En una **Campaña**: una vez creada una campaña, seleccione Notificaciones push como acción y defina la configuración básica. Aprenda a crear [una campaña de acción](../campaigns/campaign-action.md#action-campaign-action) | [una campaña desencadenada por API](../campaigns/api-triggered-campaigns.md) | [una campaña orquestada](../orchestrated/create-orchestrated-campaign.md#create)
 
-Use las fichas específicas para definir la configuración de notificaciones push para las plataformas **iOS**, **Android** y **Web**.
+Utilice las pestañas dedicadas para definir la configuración de las notificaciones push para plataformas **iOS**, **Android** y **Web**.
 
 >[!NOTE]
 >
->Aunque **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de las notificaciones a través del sistema operativo móvil o de la configuración del explorador web. Para comprobar el estado de consentimiento push de un perfil en el visor de perfiles de AEP, consulte [Comprobar el estado de exclusión push](../privacy/opt-out.md#push-opt-out-status).
+>Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de notificación a través del sistema operativo móvil o de los ajustes del navegador web. Para comprobar el estado de consentimiento push de un perfil en el visor de perfiles de AEP, consulte [Comprobar el estado de exclusión push](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -65,10 +65,10 @@ Use las fichas específicas para definir la configuración de notificaciones pus
 </td>
 <td>
 <a href="design-push.md">
-<img alt="Poco Frecuente" src="../assets/do-not-localize/push-design.jpg">
+<img alt="Poco frecuente" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
-<a href="design-push.md"><strong>Diseñe su notificación push</strong></a>
+<a href="design-push.md"><strong>Diseño de la notificación push</strong></a>
 </div>
 <p></td>
 <td>
@@ -76,7 +76,7 @@ Use las fichas específicas para definir la configuración de notificaciones pus
 <img alt="Validación" src="../assets/do-not-localize/push-sending.jpg">
 </a>
 <div>
-<a href="send-push.md"><strong>Envíe su notificación push</strong></a>
+<a href="send-push.md"><strong>Enviar la notificación push</strong></a>
 </div>
 <p>
 </td>
@@ -85,7 +85,7 @@ Use las fichas específicas para definir la configuración de notificaciones pus
 <img alt="Validación" src="../assets/do-not-localize/push-config.jpg">
 </a>
 <div>
-<a href="push-gs.md"><strong>Configurar notificaciones push</strong></a>
+<a href="push-gs.md"><strong>Configuración de notificaciones push</strong></a>
 </div>
 <p>
 </td>
