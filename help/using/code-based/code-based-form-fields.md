@@ -261,4 +261,4 @@ Podrá editar fácilmente los campos de formulario desde un recorrido de experie
 
 Aprenda a añadir campos editables a plantillas de contenido de canal de experiencia basadas en código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463994/?captions=spa&learn=on&#x26;enablevpops)
