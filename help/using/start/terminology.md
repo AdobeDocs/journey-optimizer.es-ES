@@ -29,9 +29,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 7%
 
 ---
@@ -109,7 +109,6 @@ Ambas funciones seleccionan y entregan ofertas, pero sirven para diferentes etap
 | | Toma de decisiones | Gestión de decisiones |
 |---|---|---|
 | **Estado** | Actual: recomendado para todas las implementaciones nuevas | **Heredado**: aún se admite, pero ya no se recomienda para nuevas implementaciones |
-| **Presentado** | 2024 | 2021 |
 | **Catálogo de artículos** | Metadatos flexibles y basados en esquemas | Biblioteca de ofertas centralizada |
 | **Canales compatibles** | Experiencia basada en código, push, SMS, correo electrónico (disponibilidad limitada) | Correo electrónico, aplicación, push, SMS, correo directo |
 | **Diferenciador de clave** | Componentes de decisión reutilizables, experimentación, hoja de ruta de canal más amplia | Motor de restricciones probado; migrar a Decisioning para nuevos proyectos |
