@@ -6,14 +6,15 @@ description: Consideraciones y problemas comunes para los fragmentos de contenid
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
-# Consideraciones y solución de problemas {#aem-fragments-limitations}
+# Consideraciones y resolución de problemas {#aem-fragments-limitations}
 
 ## Consideraciones clave {#considerations}
 
@@ -45,7 +46,7 @@ Tenga en cuenta lo siguiente al utilizar fragmentos de contenido de [!DNL Adobe 
    * Después de una actualización correcta, los cambios suelen estar disponibles en unos **5 minutos** para los recorridos unitarios y en el **siguiente lote** para los casos de uso por lotes.
 
 * **Almacenamiento en caché y revisión**
-   * Cuando se agrega un fragmento por primera vez a una campaña o recorrido, [!DNL Journey Optimizer] lo almacena en caché. Si selecciona un fragmento que ya se usó en otra parte mediante **[!UICONTROL Abrir el selector de AEM CF]**, se cargará desde la caché de [!DNL Journey Optimizer].
+   * Cuando se agrega un fragmento por primera vez a una campaña o recorrido, [!DNL Journey Optimizer] lo almacena en caché. Si selecciona un fragmento que ya se utilizó en otra parte mediante **[!UICONTROL Abrir el Asesor de contenido de AEM]**, se cargará desde la caché de [!DNL Journey Optimizer].
    * Después de volver a publicar un fragmento modificado en [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] escucha el evento y actualiza la caché.
    * Las revisiones siempre reflejan la **última versión publicada**; no puede bloquear versiones históricas para revisiones.
 

@@ -5,22 +5,19 @@ title: Acceso al Asesor de contenido de Adobe Experience Manager
 description: Obtenga información sobre cómo acceder al Asesor de contenido de Adobe Experience Manager y utilizarlo para descubrir recursos y fragmentos de contenido mediante la búsqueda semántica basada en IA en Adobe Journey Optimizer.
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# Trabajar con el asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
+# Trabajar con el Asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->El Asesor de contenido de Adobe Experience Manager solo está disponible en los flujos de trabajo de creación de canales.
+El Asesor de contenido de Adobe Experience Manager sustituye la detección determinista por la detección estandarizada por intención desde una superficie unificada. Permite el descubrimiento unificado y con tecnología de IA de Assets, Dynamic Media y fragmentos de contenido directamente dentro de los flujos de trabajo de creación de Journey Optimizer, lo que mejora la productividad de los expertos en marketing y la eficacia de las campañas.
 
-El Asesor de contenido de Adobe Experience Manager sustituye la detección determinista por la detección estandarizada por intención desde una superficie unificada. Permite descubrir de forma unificada y con tecnología de IA fragmentos de contenido y Assets directamente en los flujos de trabajo de creación de Journey Optimizer, lo que mejora la productividad de los expertos en marketing y la eficacia de las campañas.
+➡️ [Obtenga más información acerca del Asesor de contenido de Adobe Experience Manager en la documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
 ## Funciones disponibles
 
@@ -30,7 +27,7 @@ El Asesor de contenido de Adobe Experience Manager proporciona las siguientes fu
 
 +++ Búsqueda semántica de IA
 
-Busque recursos utilizando un lenguaje natural en lugar de palabras clave o nombres de archivo exactos. Describa lo que necesita en un lenguaje sencillo, por ejemplo, &quot;café en las montañas&quot;, y la IA encontrará recursos relevantes para el contexto en función del significado y el contenido, no solo coincidencias de texto.
+Busque recursos utilizando un lenguaje natural en lugar de palabras clave o nombres de archivo exactos. Describa lo que necesita en lenguaje sencillo, por ejemplo, &quot;café en las montañas&quot;, y la IA muestra recursos relevantes contextualmente basados en el significado y el contenido, no solo coincidencias de texto. También se admite la búsqueda multilingüe, por lo que puede realizar consultas en su idioma preferido y seguir encontrando los recursos adecuados independientemente del idioma en el que se etiquetaron o nombraron.
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 

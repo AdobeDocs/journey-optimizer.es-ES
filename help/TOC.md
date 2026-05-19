@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -511,9 +511,9 @@ ht-degree: 97%
          + {hide-from-toc}[Configurar el repositorio para los fragmentos de contenido](using/integrations/aem-admin-settings.md)
          + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
          + [Consideraciones y resolución de problemas](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[Trabajar con el asesor de contenido de Experience Manager](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[Insertar temporizador de cuenta atrás](using/integrations/countdown.md)
+      + [Trabajar con el Asesor de contenido de Experience Manager](using/content-management/aem-content-advisor.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
+      + {hide-from-toc}[Insertar temporizador de cuenta atrás](using/integrations/countdown.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + Integraciones {#integrations}
          + [Trabajo con integraciones](using/integrations/integrations.md)

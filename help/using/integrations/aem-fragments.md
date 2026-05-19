@@ -26,14 +26,24 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1534
 ht-degree: 0%
 
 ---
 
-# Trabajar con fragmentos de contenido de Adobe Experience Manager {#aem-fragments}
+# Trabajo con fragmentos de contenido de Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+Las experiencias existentes de **Selector de recursos** y **Selector de fragmentos de contenido** en los flujos de trabajo de Adobe Journey Optimizer se están reemplazando con **Asesor de contenido**. El Asesor de contenido proporciona una interfaz unificada con tecnología de IA para detectar y seleccionar Assets, fragmentos de contenido y Dynamic Media directamente en los flujos de trabajo de creación de AJO. Las integraciones existentes seguirán funcionando durante el período de transición.
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Esta integración se aplica a **Adobe Experience Manager as a Cloud Service Sites**, solo para **fragmentos de contenido**. Journey Optimizer lee fragmentos del nivel **Publish** (no del autor).
 
 La integración entre Adobe Experience Manager y Journey Optimizer sigue este flujo de datos:
 
@@ -91,9 +101,9 @@ Después de crear y personalizar los fragmentos de contenido de AEM, ahora puede
 
    ![](assets/aem_campaign_2.png)
 
-1. En el menú **[!UICONTROL Fragmento de contenido de AEM]** del panel izquierdo, haga clic en **[!UICONTROL Abrir el selector de AEM CF]**.
+1. En el menú **[!UICONTROL Fragmento de contenido AEM]** del panel izquierdo, haga clic en **[!UICONTROL Abrir el Asesor de contenido AEM]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Examine la lista y seleccione un **[!UICONTROL Fragmento de contenido]** para importarlo en el contenido de Journey Optimizer.
 
@@ -171,7 +181,7 @@ En este caso, asegúrese de que se ha declarado **_variableName_** antes de agre
 
 1. Haga clic en **[!UICONTROL Guardar]**. Ahora puede probar y comprobar el contenido del mensaje como se detalla en [esta sección](../content-management/preview.md).
 
-   Tenga en cuenta que el fragmento de contenido seleccionado permanece activo para este mensaje. Cuando abra el editor de Personalization en otro campo o bloque de contenido, podrá seguir trabajando con el mismo fragmento desde la sección **[!UICONTROL Fragmento de contenido de AEM]** y agregar más campos sin volver a abrir **[!UICONTROL Abrir el selector de AEM CF]**.
+   Tenga en cuenta que el fragmento de contenido seleccionado permanece activo para este mensaje. Cuando abra el Editor Personalization en otro campo o bloque de contenido, podrá seguir trabajando con el mismo fragmento desde la sección **[!UICONTROL Fragmento de contenido de AEM]** y agregar más campos sin volver a abrir **[!UICONTROL Abrir el Asesor de contenido de AEM]**.
 
 Una vez que hayas realizado las pruebas y validado el contenido, puedes [enviar tu campaña](../campaigns/review-activate-campaign.md) o [publicar tu recorrido](../building-journeys/publish-journey.md) a tu audiencia.
 
@@ -200,9 +210,9 @@ Para seleccionar una variación:
 
 1. Haga clic en ![icono de Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) en cualquier campo de texto o abra el origen de HTML desde un componente de contenido de HTML.
 
-1. En **[!UICONTROL Fragmento de contenido AEM]**, haga clic en **[!UICONTROL Abrir selector CF]**.
+1. En **[!UICONTROL Fragmento de contenido de AEM]**, haga clic en **[!UICONTROL Abrir el Asesor de contenido de AEM]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Para seleccionar un fragmento de contenido de Adobe Experience Manager específico de la configuración regional en la vista de tabla, use **[!UICONTROL Personalizar tabla]** para agregar la columna **[!UICONTROL Idioma]**. Los valores de configuración regional se muestran en la tabla, lo que permite identificar y seleccionar el fragmento adecuado.
 
