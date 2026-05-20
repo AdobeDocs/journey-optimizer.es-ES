@@ -6,16 +6,13 @@ description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 63%
+source-wordcount: 471
+ht-degree: 49%
 
 ---
 
@@ -66,12 +63,12 @@ Aprenda a [crear una acción de canal en una campaña organizada](channels.md).
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Actividad Finalizar"
->abstract="La actividad **Finalizar** le permite marcar de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional."
+>abstract="La actividad **End** marca el final de una rama en el lienzo. Opcionalmente, use **Señal externa** para iniciar una campaña orquestada descendente y pasar parámetros cuando finalice la rama. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Señal externa"
->abstract="señal externa"
+>abstract="Seleccione la campaña orquestada descendente para que se inicie cuando termine esta rama y asigne los nombres y valores de los parámetros que se enviarán en la señal. La campaña descendente debe establecerse en **Activada mediante una señal** y publicarse antes de que esta campaña alcance la actividad final. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las demás actividades.
 
@@ -84,5 +81,4 @@ Las actividades de control de flujo disponibles son:
 * [Espera](wait.md): Pone en pausa momentáneamente la ejecución de una parte de una campaña orquestada.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->La actividad **End** marca de forma gráfica el final de una campaña orquestada. Esta actividad no tiene impacto funcional y, por lo tanto, es opcional.
+* **[!UICONTROL Fin]**: marca el final de una rama en el lienzo. Si lo desea, puede utilizarlo para enviar una señal a otra campaña orquestada que comience con una señal. [Más información](../trigger-orchestrated-campaign.md#signal-end)
