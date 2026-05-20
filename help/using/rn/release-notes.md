@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
+source-git-commit: 8098b219288d19fd3ed1c0350af34366c4efdeb2
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: 2112
 ht-degree: 30%
 
 ---
@@ -232,6 +232,10 @@ En mayo de 2026 también se publicaron las siguientes mejoras.
   Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
   Fecha de disponibilidad: 20 de mayo de 2026
+
+#### Integraciones
+
+* **Acceso a repositorios entre organizaciones en el Selector de recursos de Assets**: ahora puede seleccionar recursos sin problemas entre repositorios de varias organizaciones directamente desde el Selector de recursos de Adobe Experience Manager.
 
 #### SMS
 

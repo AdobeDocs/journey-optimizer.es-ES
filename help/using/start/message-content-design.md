@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 8%
@@ -72,7 +72,7 @@ Cree notificaciones push atractivas para iOS y Android, configure el título y e
 
 Diseño de mensajes SMS y MMS
 
-Componga mensajes de texto personalizados con SMS, mejore las comunicaciones con contenido multimedia mediante MMS y aproveche el contenido dinámico para la mensajería de destino.
+Componga mensajes móviles personalizados con SMS, mejore las comunicaciones con contenido multimedia mediante MMS y aproveche el contenido dinámico para la mensajería de destino.
 
 [Crear mensajes de texto](../mobile/create-mobile-message.md)
 :::

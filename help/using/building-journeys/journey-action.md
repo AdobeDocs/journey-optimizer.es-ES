@@ -36,9 +36,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1570
 ht-degree: 14%
 
 ---
@@ -132,7 +132,7 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
       <img alt="Validación" src="../assets/do-not-localize/sms.jpg">
       </a>
       <div>
-      <a href="../mobile/create-mobile-message.md"><strong>Crear mensajes de texto (SMS/MMS)</strong></a>
+      <a href="../mobile/create-mobile-message.md"><strong>Crear mensajes móviles (SMS/RCS/MMS)</strong></a>
       </div>
       <p>
       </td>

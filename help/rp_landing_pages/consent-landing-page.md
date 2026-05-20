@@ -5,7 +5,7 @@ title: Administrar el consentimiento
 description: Administrar el consentimiento
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -58,4 +58,4 @@ Obtenga información sobre cómo administrar los temas de suscripción y las pre
 - **[Introducción a la privacidad](../using/privacy/get-started-privacy.md)**: Información general sobre la administración de la privacidad en Journey Optimizer, incluidas las solicitudes de datos y los registros de auditoría.
 - **[Control de datos](../using/action/action-privacy.md)**: proteja los campos confidenciales de la exportación a sistemas de terceros mediante acciones personalizadas.
 - **[Administrar la exclusión de correo electrónico](../using/email/email-opt-out.md)**: configure la exclusión y la administración de la cancelación de suscripción específicas del correo electrónico.
-- **[Administrar la exclusión de mensajes de texto](../using/mobile/mobile-opt-out.md)** - Configurar la exclusión de SMS/MMS/RCS y la administración de la cancelación de la suscripción.
+- **[Administrar la exclusión de mensajes de dispositivos móviles](../using/mobile/mobile-opt-out.md)**: configure la exclusión de SMS/MMS/RCS y la administración de la cancelación de la suscripción.

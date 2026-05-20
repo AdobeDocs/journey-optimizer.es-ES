@@ -38,10 +38,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1613
-ht-degree: 100%
+source-wordcount: 1614
+ht-degree: 99%
 
 ---
 
@@ -254,7 +254,7 @@ Cree mensajes atractivos para su público:
 
 * Use el **Diseñador de correo electrónico** para experiencias de correo electrónico enriquecidas
 * Configure las **notificaciones push** con imágenes y vínculos profundos
-* Diseñe **mensajes SMS/MMS** con personalización
+* Diseñar **mensajes SMS/RCS/MMS** con personalización
 * Cree experiencias **en la aplicación** y **web**
 * Añada **personalización** mediante atributos de perfil y datos contextuales
 

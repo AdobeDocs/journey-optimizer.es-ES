@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 53%
+source-wordcount: 943
+ht-degree: 49%
 
 ---
 
@@ -94,7 +94,7 @@ Aprovechar **datos contextuales** de eventos, información de [!DNL Adobe Experi
 
 **Acciones integradas**
 
-Use **acciones de canal integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] por correo electrónico, push, SMS/MMS y más.
+Use **acciones de canal integradas** para enviar mensajes diseñados en [!DNL Journey Optimizer] por correo electrónico, push, SMS/RCS/MMS y más.
 
 [Envío de mensajes en recorridos](journey-action.md)
 :::
@@ -135,7 +135,7 @@ Pruebe los recorridos antes de publicar, supervise su rendimiento y optimice la 
 
 Desde el diseñador de recorrido, los especialistas en marketing pueden enviar mensajes 1:1 activados en tiempo real a través de cualquier canal cuando se produce un evento. Por ejemplo, cuando un cliente se suscribe a un servicio, puede [enviar un correo electrónico de bienvenida](message-to-subscribers-uc.md), alentándolo a iniciar sesión en la aplicación por primera vez y establecer sus preferencias. Acciones como completar la compra, abrir el correo electrónico e iniciar sesión en la aplicación se pueden utilizar para hacer avanzar nuevos clientes a través de sus recorridos.
 
-El [diseñador de recorridos](using-the-journey-designer.md) proporciona [acciones de canal integradas](journey-action.md) que admiten mensajes salientes, como correos electrónicos, notificaciones push y SMS/MMS, así como canales entrantes, incluidas aplicaciones móviles, sitios web y experiencias basadas en código creadas directamente en Journey Optimizer. También puede utilizar sistemas de terceros para enviar mensajes: Journey Optimizer incluye [acciones personalizadas](using-custom-actions.md) para permitir que estos sistemas se integren en recorridos directamente desde el diseñador de recorrido.
+El [diseñador de recorridos](using-the-journey-designer.md) proporciona [acciones de canal integradas](journey-action.md) que admiten mensajes salientes, como correos electrónicos, notificaciones push y SMS/RCS/MMS, así como canales entrantes, incluidas aplicaciones móviles, sitios web y experiencias basadas en código creadas directamente en Journey Optimizer. También puede utilizar sistemas de terceros para enviar mensajes: Journey Optimizer incluye [acciones personalizadas](using-custom-actions.md) para permitir que estos sistemas se integren en recorridos directamente desde el diseñador de recorrido.
 
 
 :::: landing-cards-container

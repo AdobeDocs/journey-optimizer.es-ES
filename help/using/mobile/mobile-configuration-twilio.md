@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuración del proveedor de Twilio
-description: Aprenda a configurar su entorno para enviar mensajes de texto con Journey Optimizer con Twilio
+description: Aprenda a configurar su entorno para enviar mensajes móviles con Journey Optimizer con Twilio
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: 607
 ht-degree: 1%
 
 ---
 
 # Configuración del proveedor de Twilio {#sms-configuration-twilio}
 
-Al integrar Twilio con Adobe Journey Optimizer, puede enviar mensajes de texto a sus perfiles como parte de sus recorridos y campañas.
+Al integrar Twilio con Adobe Journey Optimizer, puede enviar mensajes móviles a sus perfiles como parte de sus recorridos y campañas.
 
 Para configurar Twilio como su proveedor de SMS, siga los pasos a continuación:
 
@@ -39,7 +39,7 @@ Para configurar Twilio como su proveedor de SMS, siga los pasos a continuación:
 1. [Crear configuración de canal](mobile-configuration-surface.md)
 1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-mobile-message.md)
 
-## Configuración de las credenciales de API para SMS/MMS {#api-credential}
+## Configuración de las credenciales de la API para SMS/RCS/MMS {#api-credential}
 
 Para configurar Twilio con Journey Optimizer, debe crear nuevas credenciales de API para Twilio:
 
