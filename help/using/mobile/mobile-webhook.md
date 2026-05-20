@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Para Sinch y Sinch Conversational, cree un único webhook que administre eventos
 
    +++ Opción de exclusión
 
-   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave que excluyan a los usuarios y eliminen el consentimiento para enviar mensajes móviles. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
    * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -221,7 +221,7 @@ Para Infobip, cree dos webhooks independientes: uno para los eventos de comentar
 
    +++ Opción de exclusión
 
-   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave que excluyan a los usuarios y eliminen el consentimiento para enviar mensajes móviles. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
    * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -329,7 +329,7 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
    +++ Opción de exclusión
 
-   * Habilite palabras clave para excluir usuarios y eliminar el consentimiento para enviar mensajes de texto. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
+   * Habilite palabras clave que excluyan a los usuarios y eliminen el consentimiento para enviar mensajes móviles. Cuando el mensaje de un usuario coincide con una palabra clave configurada, su número de teléfono se excluye de la recepción de mensajes SMS.
 
    * De forma predeterminada, están habilitadas las siguientes palabras clave: Stop, Quit, Cancel, End, Unsubscribe, No. Elimine cualquier palabra clave predeterminada haciendo clic en ![](assets/do-not-localize/Smock_Close_18_N.svg).
 

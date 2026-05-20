@@ -2,38 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introducción a los mensajes móviles
-description: Obtenga información sobre cómo crear y enviar mensajes de texto en Journey Optimizer
+description: Obtenga información sobre cómo crear y enviar mensajes móviles en Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +54,7 @@ Los mensajes móviles se pueden crear y enviar en un recorrido o en una campaña
 
 ## Requisitos para la configuración {#configuration-requirements}
 
-Antes de enviar mensajes de texto, debe:
+Antes de enviar mensajes de Mobile, debe:
 
 1. **Elige un proveedor de SMS**: selecciona entre Sinch, Twilio, Infobip o configura un proveedor personalizado
 2. **Configurar credenciales de API**: integre los tokens de API y los identificadores de servicio de su proveedor con Journey Optimizer
@@ -90,7 +75,7 @@ Se requieren los siguientes requisitos previos para utilizar RCS en Journey Opti
 
 ## Recursos adicionales {#additional-resources}
 
-Examine los temas siguientes para obtener más información sobre la mensajería de texto en Journey Optimizer.
+Examine los temas siguientes para obtener más información sobre la mensajería móvil en Journey Optimizer.
 
 +++Guías de configuración
 
@@ -115,11 +100,11 @@ Configuración paso a paso para cada proveedor de servicios SMS:
 
 +++Creación y administración de contenido
 
-Cree, personalice y administre su contenido de mensaje de texto:
+Cree, personalice y administre su contenido de mensajes de Mobile:
 
-* [Creación de mensajes SMS/MMS](create-mobile-message.md)
+* [Creación de mensajes SMS/RCS/MMS](create-mobile-message.md)
 * [Vista previa, prueba y envío de mensajes](send-mobile-message.md)
-* [Personalización en los mensajes de texto](../personalization/personalize.md)
+* [Personalization en mensajes móviles](../personalization/personalize.md)
 * [Contenido dinámico](../personalization/get-started-dynamic-content.md)
 * [Generación de contenido de SMS con el Asistente de IA](../content-management/generative-text.md)
 
@@ -127,7 +112,7 @@ Cree, personalice y administre su contenido de mensaje de texto:
 
 +++Cumplimiento y privacidad
 
-Asegúrese de que la mensajería de texto cumpla con las regulaciones y las normas de privacidad:
+Asegúrese de que la mensajería móvil cumpla con las regulaciones y los estándares de privacidad:
 
 * [Administración de exclusiones](mobile-opt-out.md)
 * [Privacidad y consentimiento](../privacy/opt-out.md#opt-out-decision-management)
@@ -188,7 +173,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -198,7 +183,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -208,6 +193,6 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

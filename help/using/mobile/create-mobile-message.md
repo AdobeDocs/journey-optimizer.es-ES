@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 3%
+source-wordcount: 748
+ht-degree: 2%
 
 ---
 
@@ -38,24 +26,24 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Creación de un mensaje de texto"
+>title="Creación de un mensaje móvil"
 >abstract="Para crear un mensaje móvil, añada una acción SMS en un recorrido o una campaña y comience a personalizarlo con el editor de personalización."
 
 >[!AVAILABILITY]
 >
 >RCS no es un servicio compatible con HIPAA y no debe utilizarse para recopilar, almacenar ni procesar datos personales confidenciales, incluidos datos de salud permitidos, como información de salud personal, que de lo contrario su organización podría procesar en Journey Optimizer.
 
-Puede diseñar y enviar mensajes de texto (SMS), de comunicación enriquecida (RCS) y multimedia (MMS) con Adobe Journey Optimizer. Primero debe agregar una acción de mensaje móvil en un recorrido o una campaña y luego definir el contenido del mensaje de texto, como se detalla a continuación. Adobe Journey Optimizer también ofrece funciones para probar los mensajes de texto antes de enviarlos, de modo que pueda comprobar el procesamiento, los atributos de personalización y todos los demás ajustes.
+Puede diseñar y enviar mensajes de texto (SMS), de comunicación enriquecida (RCS) y multimedia (MMS) con Adobe Journey Optimizer. Primero debe agregar una acción de mensaje móvil en un recorrido o una campaña y luego definir el contenido del mensaje móvil, como se detalla a continuación. Adobe Journey Optimizer también ofrece funciones para probar los mensajes de Mobile antes de enviarlos, de modo que pueda comprobar el procesamiento, los atributos de personalización y cualquier otra configuración.
 
-De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS/MMS deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Aprenda a administrar la exclusión](../privacy/opt-out.md#opt-out-decision-management)
+De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS/RCS/MMS deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Aprenda a administrar la exclusión](../privacy/opt-out.md#opt-out-decision-management)
 
-## Añadir un mensaje de texto {#create-sms-journey-campaign}
+## Añadir un mensaje de Mobile {#create-sms-journey-campaign}
 
 Examine las pestañas siguientes para aprender a añadir un mensaje móvil en una campaña o un recorrido.
 
 >[!BEGINTABS]
 
->[!TAB Agregar un mensaje de texto a un Recorrido]
+>[!TAB Agregar un mensaje móvil a un Recorrido]
 
 1. Abra el recorrido y arrastre y suelte una actividad **[!UICONTROL Action]** desde la sección **[!UICONTROL Actions]** de la paleta. Más información sobre la [actividad de acción](../building-journeys/journey-action.md).
 
@@ -83,7 +71,7 @@ Examine las pestañas siguientes para aprender a añadir un mensaje móvil en un
 
 Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte [esta página](../building-journeys/journey-gs.md).
 
->[!TAB Agregar un mensaje de texto a una campaña]
+>[!TAB Agregar un mensaje móvil a una campaña]
 
 1. Acceda al menú **[!UICONTROL Campañas]** y haga clic en **[!UICONTROL Crear campaña]**.
 
@@ -118,7 +106,7 @@ Para obtener más información sobre cómo crear, configurar y publicar un recor
    * Semanal
    * Month
 
-Ahora puede empezar a diseñar el contenido de su mensaje de texto desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación. [Más información](design-mobile.md)
+Ahora puede empezar a diseñar el contenido de su mensaje móvil desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación. [Más información](design-mobile.md)
 
 Para obtener más información sobre cómo crear, configurar y activar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
@@ -128,7 +116,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
 * [Diseño de un mensaje móvil](design-mobile.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
-* [Previsualización, prueba y envío del mensaje de texto](send-mobile-message.md)
+* [Previsualización, prueba y envío de un mensaje móvil](send-mobile-message.md)
 * [Configuración del canal de mensajes móviles](mobile-configuration.md)
 * [Informes de mensajes móviles](../reports/journey-global-report-cja-sms.md)
 
