@@ -274,7 +274,7 @@ Pruebe exhaustivamente los recorridos antes de publicarlos para asegurarse de qu
 
 Descubra los componentes de un recorrido y comprenda los conceptos básicos para construir un recorrido en el lienzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
 
 ### Recursos adicionales
 
