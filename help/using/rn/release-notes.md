@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
 workflow-type: tm+mt
-source-wordcount: 2076
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -57,6 +57,23 @@ ht-degree: 30%
 ### Nuevas funciones {#may-26-features}
 
 Las siguientes funciones se lanzaron en mayo de 2026.
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo canal de mensajes móviles y mensajería RCS mejorada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los SMS, MMS y RCS ahora están unificados en una sola acción de <strong>Mensaje móvil</strong> en Adobe Journey Optimizer, lo que facilita la administración de todos los tipos de mensajes móviles desde un solo lugar. Como parte de esta actualización, ahora puede crear mensajes RCS de medios enriquecidos, incluidas imágenes, carruseles y acciones sugeridas, directamente en Journey Optimizer a través de una nueva experiencia de creación nativa.</p>
+<p>Para obtener más información, consulte la <a href="../mobile/get-started-mobile.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 20 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -261,22 +278,6 @@ En mayo de 2026 también se publicaron las siguientes mejoras.
 Las siguientes funcionalidades y mejoras están programadas para su lanzamiento para mayo. **La información está sujeta a cambios**. Los vínculos, las pantallas y la documentación actualizados se compartirán una vez que estas actualizaciones estén activas en la producción.
 
 ### Nuevas funcionalidades {#coming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuevo canal de mensajes móviles y mensajería RCS mejorada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Los SMS, MMS y RCS ahora están unificados en una sola acción de <strong>Mensaje móvil</strong> en Adobe Journey Optimizer, lo que facilita la administración de todos los tipos de mensajes móviles desde un solo lugar. Como parte de esta actualización, ahora puede crear mensajes RCS de medios enriquecidos, incluidas imágenes, carruseles y acciones sugeridas, directamente en Journey Optimizer a través de una nueva experiencia de creación nativa.</p>
-<p>Fecha de disponibilidad: 20 de mayo de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
