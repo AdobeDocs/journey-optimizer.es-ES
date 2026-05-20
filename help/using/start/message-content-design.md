@@ -48,7 +48,7 @@ El diseño del contenido del mensaje en Adobe Journey Optimizer le permite crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Diseño del contenido del correo electrónico
 
@@ -58,7 +58,7 @@ Domine el diseño de correos electrónicos con el Designer de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
 
 Diseño de notificaciones push
 
@@ -68,7 +68,7 @@ Cree notificaciones push atractivas para iOS y Android, configure el título y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
 
 Diseño de mensajes SMS y MMS
 
@@ -78,7 +78,7 @@ Componga mensajes de texto personalizados con SMS, mejore las comunicaciones con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Diseño de mensajes en la aplicación
 
@@ -88,7 +88,7 @@ Cree experiencias atractivas en la aplicación con varias opciones de diseño, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Personalizar el contenido
 
@@ -98,7 +98,7 @@ Añada personalización a los mensajes mediante atributos de perfil, aproveche e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Usar plantillas y fragmentos
 
