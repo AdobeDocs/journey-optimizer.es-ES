@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Para los mensajes de correo electrónico, tiene dos opciones para insertar un v�
 
 ### SMS {#authoring-sms}
 
-Para los SMS, los vínculos profundos se crean mediante la función de ayuda **Url** en el editor de personalización. Más información sobre cómo agregar vínculos al contenido de SMS en [esta sección](../sms/create-sms.md#sms-content).
+Para los SMS, los vínculos profundos se crean mediante la función de ayuda **Url** en el editor de personalización. Más información sobre cómo agregar vínculos al contenido de SMS en [esta sección](../mobile/create-mobile-message.md#sms-content).
 
 Para insertar vínculos profundos en contenido SMS, utilice la siguiente sintaxis:
 
@@ -163,7 +163,7 @@ Esta sección proporciona patrones de implementación comunes para los vínculos
 
 >[!IMPORTANT]
 >
->La aplicación debe realizar un **GET** en la dirección URL `mclick`, leer el encabezado **`Location`** y luego enrutar en función de la dirección URL **final**.
+>La aplicación debe realizar un **GET** en la dirección URL `mclick`, leer el encabezado **`Location`** y luego enrutar según la dirección URL **final**.
 >
 >No abra simplemente la dirección URL `mclick` en Safari, ya que esto no cumple el propósito de la vinculación profunda.
 

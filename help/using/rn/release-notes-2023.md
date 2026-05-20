@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <td>
 <p>Con el canal SMS, ahora puede mejorar su comunicación enviando mensajes del servicio de mensajes multimedia (MMS), lo que le permite compartir imágenes, GIF o vídeos con sus clientes. Tenga en cuenta que esta funcionalidad solo está disponible actualmente con Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Para obtener más información, consulte la <a href="../sms/create-sms.md#mms-content">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../mobile/create-mobile-message.md#mms-content">documentación detallada</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Canal de SMS**
 
-* Dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, se han añadido a la pantalla de configuración de la API, lo que permite a los usuarios personalizar las respuestas para las palabras clave entrantes. Tenga en cuenta que esto solo está disponible para el proveedor de SMS de Sinch. [Más información](../sms/sms-configuration.md)
+* Dos campos nuevos, **Mensaje de inclusión** y **Mensaje de ayuda**, se han añadido a la pantalla de configuración de la API, lo que permite a los usuarios personalizar las respuestas para las palabras clave entrantes. Tenga en cuenta que esto solo está disponible para el proveedor de SMS de Sinch. [Más información](../mobile/mobile-configuration.md)
 
-* La exclusión de SMS ya no se administra al nivel del canal. Ahora es específico para cada número, lo que significa que si algunos perfiles se excluyen de un número o código corto determinado, podrá seguir enviándoles mensajes SMS desde otros números. Una nueva opción permite seleccionar el **número de exclusiones** que desee utilizar para una superficie determinada. [Más información](../sms/sms-configuration.md)
+* La exclusión de SMS ya no se administra al nivel del canal. Ahora es específico para cada número, lo que significa que si algunos perfiles se excluyen de un número o código corto determinado, podrá seguir enviándoles mensajes SMS desde otros números. Una nueva opción permite seleccionar el **número de exclusiones** que desee utilizar para una superficie determinada. [Más información](../mobile/mobile-configuration.md)
 
 **Canal de correo directo**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canal de SMS**
 
-* Infobip se ha añadido como proveedor al configurar las configuraciones de canal de SMS. [Más información](../sms/sms-configuration.md)
-* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twillio. [Más información](../sms/sms-configuration.md)
+* Infobip se ha añadido como proveedor al configurar las configuraciones de canal de SMS. [Más información](../mobile/mobile-configuration.md)
+* Twillio: La configuración de credenciales de API ahora incluye la capacidad de agregar el SID del servicio de mensajería para una integración perfecta con su cuenta de Twillio. [Más información](../mobile/mobile-configuration.md)
 
 **Canal en la aplicación**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * El lienzo del recorrido muestra ahora el ID de actividad en las actividades de mensajes y las etiquetas finales. Esto mejora la creación de informes y la segmentación
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
 * Nuevo conocimiento del número de nodos en lienzo con garantías para ayudar a crecer: mantenga los recorridos fáciles de leer, realice controles de calidad y solucione problemas con un número máximo de nodos por recorrido a 50. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
-* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) en un recorrido, la superficie se rellena ahora previamente, de forma predeterminada, con la última superficie utilizada para dicho canal, en el recorrido actual.
+* Al añadir un [Correo electrónico](../email/create-email.md), [SMS](../mobile/create-mobile-message.md) o [Push](../push/create-push.md) en un recorrido, la superficie se rellena ahora previamente, de forma predeterminada, con la última superficie utilizada para dicho canal, en el recorrido actual.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. [Más información](../action/about-custom-action-configuration.md#url-configuration)
 
 **Creación de informes**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Con el rastreo de clics de SMS, puede monitorizar el rendimiento de las URL acortadas, identificar quién hizo clic en ellas y utilizar estos datos para redirigirse a esos clientes con campañas posteriores.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Para obtener más información, consulte la <a href="../sms/create-sms.md#sms-content">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../mobile/create-mobile-message.md#sms-content">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

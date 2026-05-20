@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas A/B, multi-armed bandit, escalar el ganador
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 6%
@@ -83,7 +83,7 @@ Supongamos que desea comparar tres rutas:
 
    * Arrastre y suelte una actividad [Wait](wait-activity.md) de dos días en la primera rama, seguida de una actividad [Email](../email/create-email.md) (**Tratamiento B**).
 
-   * Arrastre y suelte una actividad [Email](../email/create-email.md) en la tercera rama, seguida de una actividad [SMS](../sms/create-sms.md) (**Tratamiento C**).
+   * Arrastre y suelte una actividad [Email](../email/create-email.md) en la tercera rama, seguida de una actividad [SMS](../mobile/create-mobile-message.md) (**Tratamiento C**).
 
    ![Ejemplo de experimento de ruta con tres rutas de tratamiento](assets/journey-optimize-experiment-ex.png){width=100%}
 

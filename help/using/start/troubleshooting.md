@@ -8,34 +8,13 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 TQID: https://experienceleague.adobe.com/-E1vLZQv8dDZqejyh944at7jHheePuzXybU4lCyMris
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 0%
@@ -154,7 +133,7 @@ Consulte también la [documentación de configuración del canal push](../push/p
 
 Si un destinatario responde **STOP** a un SMS, todos los mensajes futuros de ese número corto se bloquearán, incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, configúrelos y envíelos a través de un **número corto independiente** del que los destinatarios no se hayan excluido anteriormente.
 
-Obtenga más información acerca de la configuración de exclusión de SMS [en esta página](../sms/sms-opt-out.md).
+Obtenga más información acerca de la configuración de exclusión de SMS [en esta página](../mobile/mobile-opt-out.md).
 
 +++
 
@@ -162,7 +141,7 @@ Obtenga más información acerca de la configuración de exclusión de SMS [en e
 
 Los errores de entrega de SMS después de la configuración del canal suelen deberse a credenciales de API de proveedor incorrectas, una discrepancia entre el ID del remitente y lo que el proveedor ha registrado o restricciones de enrutamiento a nivel de proveedor. Compruebe que la clave de API, la contraseña y los detalles del remitente introducidos en Journey Optimizer coinciden exactamente con lo que ha proporcionado su proveedor de SMS. A continuación, envíe un mensaje de prueba para confirmar la conectividad antes de iniciar una campaña.
 
-Aprenda a configurar su proveedor de SMS [en esta página](../sms/sms-configuration.md).
+Aprenda a configurar su proveedor de SMS [en esta página](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +149,7 @@ Aprenda a configurar su proveedor de SMS [en esta página](../sms/sms-configurat
 
 Cuando un perfil envía SMS a STOP, Journey Optimizer actualiza el atributo de consentimiento de SMS del perfil. Para comprobar el estado de exclusión actual, abra el perfil en la interfaz de usuario de Experience Platform e inspeccione los campos de consentimiento en **Privacidad** > **Consentimientos**. Para solucionar problemas de la campaña, compruebe también los motivos de exclusión en el informe de campaña: los perfiles excluidos aparecen en el recuento **Excluido** con el motivo &quot;Excluido&quot;.
 
-Obtenga más información acerca de la exclusión de SMS [en esta página](../sms/sms-opt-out.md).
+Obtenga más información acerca de la exclusión de SMS [en esta página](../mobile/mobile-opt-out.md).
 
 +++
 
