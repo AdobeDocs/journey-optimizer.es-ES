@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -198,6 +198,5 @@ Las siguientes protecciones se aplican a [Asistente de IA para expresiones de pe
 
 ## Recursos adicionales
 
-* **[Experimentación generativa](generative-experimentation.md)**: aprenda a combinar contenido generado por IA con experimentación.
 * **[Casos de uso del Asistente de IA](generative-uc.md)**: aprenda, a través de casos de uso, cómo utilizar el Asistente de IA
 * **[Tutoriales del Asistente de IA](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones y prácticas recomendadas del Asistente de IA.

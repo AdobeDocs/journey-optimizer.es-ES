@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 2%
+source-wordcount: '1511'
+ht-degree: 3%
 
 ---
 
@@ -96,15 +96,13 @@ Después de generar variaciones de imagen, puede revisar los resultados, comprob
    * **[!UICONTROL Generar]** similares para ver las imágenes relacionadas con esta variante.
    * **[!UICONTROL Edite en Adobe Express]** para personalizar aún más su recurso.
 
-[Obtenga más información sobre la integración de Adobe Express](../integrations/express.md)
+     [Obtenga más información sobre la integración de Adobe Express](../integrations/express.md)
 
    * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
      ![Refinar opciones que muestran las acciones disponibles](assets/image-genai-5.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
-
-   También puede habilitar el experimento para el contenido. [Más información](generative-experimentation.md)
 
 1. Después de definir el contenido del mensaje, haga clic en el botón **[!UICONTROL Simular contenido]** para controlar la representación y compruebe la configuración de personalización con perfiles de prueba. [Más información](../personalization/personalize.md)
 
@@ -181,7 +179,5 @@ Después de generar variaciones de imagen para las notificaciones push, puede aj
 1. Abra la pestaña **[!UICONTROL Alineación de marca]** para ver cómo se ajusta su contenido a las [directrices de marca](brands.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
-
-   También puede habilitar el experimento para el contenido. [Más información](generative-experimentation.md)
 
 Una vez definido el contenido, la audiencia y la programación, estará listo para preparar la campaña push. [Más información](../campaigns/review-activate-campaign.md)
