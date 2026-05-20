@@ -22,7 +22,7 @@ Puede gestionar el consentimiento de tres formas: **preferencias de exclusión**
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Administrar la exclusión y el consentimiento de la personalización
 
@@ -32,7 +32,7 @@ Obtenga información sobre cómo administrar las preferencias de exclusión y ap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Trabajar con políticas de consentimiento
 
@@ -42,7 +42,7 @@ Obtenga información sobre cómo crear y aplicar políticas de consentimiento pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Administrar las preferencias de los clientes
 
