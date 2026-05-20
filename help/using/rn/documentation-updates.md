@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha actualizado la documentación sobre el uso de fragmentos en Decisioning: se han añadido notas en las secciones Fragmentos y Decisioning, y se ha actualizado la página Fragmentos en políticas de decisión. [Más información](../experience-decisioning/fragments-decision-policies.md)
 
-* Se ha actualizado la documentación del gancho web SMS: se ha eliminado el contenido del gancho web Twilio. [Más información](../sms/sms-webhook.md)
+* Se ha actualizado la documentación del gancho web SMS: se ha eliminado el contenido del gancho web Twilio. [Más información](../mobile/mobile-webhook.md)
 
 * La documentación de **Convertir imágenes en plantillas de contenido** se ha mejorado con mecanismos de protección y recomendaciones ampliadas, casos de uso comunes y directrices más claras para convertir diseños de imagen en plantillas de contenido editables de HTML. También se menciona el hecho de que ahora puede utilizar una temática como entrada para la conversión. [Más información](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Se ha añadido una nota en la página de configuración del correo directo sobre el almacenamiento temporal del archivo de salida. [Más información](../direct-mail/direct-mail-configuration.md)
 * Se ha añadido una sugerencia en la sección del editor de expresiones avanzadas de recorrido sobre las directrices del formato de condición. [Más información](../building-journeys/expression/expressionadvanced.md)
 * Se ha añadido una nota de precaución en la sección de funciones `inAudience` sobre los impactos y las prácticas recomendadas al cambiar el nombre de un público. [Más información](../building-journeys/functions/functioninaudience.md)
-* Se ha añadido una recomendación sobre el uso de palabras claves nativas al usar SMS bidireccionales. [Más información](../sms/sms-opt-out.md)
+* Se ha añadido una recomendación sobre el uso de palabras claves nativas al usar SMS bidireccionales. [Más información](../mobile/mobile-opt-out.md)
 * Se ha actualizado la página de prueba de recorrido con una nota sobre la necesidad de incluir un espacio de nombres de identidad en el evento utilizado. [Más información](../building-journeys/testing-the-journey.md)
-* Actualmente, no puede anular la delegación de subdominios a través de la interfaz de usuario de [!UICONTROL Journey Optimizer]; debe ponerse en contacto con su representante de Adobe. Los pasos para anular la delegación de un subdominio ahora están detallados para [Correos electrónicos](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [Experiencias web](../web/web-delegated-subdomains.md#undelegate-subdomain) y [Páginas de aterrizaje](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* Actualmente, no puede anular la delegación de subdominios a través de la interfaz de usuario de [!UICONTROL Journey Optimizer]; debe ponerse en contacto con su representante de Adobe. Los pasos para anular la delegación de un subdominio ahora están detallados para [Correos electrónicos](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain), [Experiencias web](../web/web-delegated-subdomains.md#undelegate-subdomain) y [Páginas de aterrizaje](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Se ha añadido una aclaración sobre el parámetro opcional `maxHttpConnections` en la API de límite de recorridos, incluyendo instrucciones sobre cómo utilizarlo junto con las configuraciones de restricción para el mismo punto final. [Más información](../configuration/throttling.md)
 * En la sección de Toma de decisiones, se han añadido directrices que explican que los elementos de oferta aprobados no se pueden eliminar si se utilizan en una colección o una decisión. Se han incluido pasos para cambiar su estado a “Borrador” usando la opción **[!UICONTROL Deshacer aprobación]**. [Más información](../experience-decisioning/items.md#manage)
 * La información sobre las zonas protegidas se han agrupado en la nueva sección “Administración de zonas protegidas”. Esta nueva sección proporciona información sobre cómo utilizar y asignar zonas protegidas y cómo utilizar las posibilidades de exportación e importación de paquetes para copiar objetos como recorridos, plantillas de contenido o fragmentos en varias zonas protegidas. [Más información](../administration/sandboxes.md)
@@ -764,7 +764,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 

@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dd4fdba7b7490c6813c24402e914207032891d41
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 100%
+source-wordcount: 844
+ht-degree: 64%
 
 ---
 
@@ -53,6 +53,45 @@ Siga estos pasos para configurar la actividad **Enriquecimiento**:
    * [Vínculo de colección](#collection-link)
 
    ![](../assets/enrichment-1.png)
+
+1. Haga clic en **[!UICONTROL Agregar vínculo]** para crear un vínculo entre los datos de la tabla de trabajo y Adobe Journey Optimizer. [Más información](#create-links)
+
+   Por ejemplo, si se cargan datos de un archivo que contiene el nivel de lealtad del cliente y la fecha de la última compra, se debe crear un vínculo a la tabla de perfiles para enriquecer los registros de destinatario con estos atributos y utilizarlos para la personalización o el direccionamiento.
+
+   ![](../assets/enrichment-1.png)
+
+## Creación de vínculos entre tablas {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_enrichment_simplejoin"
+>title="Definición de vínculo"
+>abstract="Cree un vínculo entre los datos de la tabla de trabajo y la base de datos de Adobe Journey Optimizer. Por ejemplo, si carga datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, debe crear un vínculo con la tabla del país para poder actualizar esta información en sus perfiles."
+
+Utilice la sección **[!UICONTROL Link definition]** para definir una relación entre la tabla de trabajo y otro origen de datos. Por ejemplo, si importa un archivo que contiene el nivel de lealtad del cliente y la fecha de la última compra, puede crear un vínculo a la tabla de perfiles para que esos atributos estén disponibles para la personalización y el direccionamiento.
+
+Para crear un vínculo:
+
+1. En la sección **[!UICONTROL Definición de vínculo]**, haga clic en **[!UICONTROL Agregar vínculo]**.
+
+   ![](../assets/enrichment-1.png)
+
+1. En el menú desplegable **[!UICONTROL Tipo de relación]**, seleccione el tipo de relación entre el conjunto principal y los datos vinculados:
+
+   * **[!UICONTROL 1 vínculo simple de cardinalidad]**: Cada registro del conjunto principal se asigna exactamente a un registro de los datos vinculados.
+   * **[!UICONTROL 0 o 1 vínculo simple de cardinalidad]**: Cada registro del conjunto principal se asigna a cero o a un registro de los datos vinculados.
+   * **[!UICONTROL Vínculo de recopilación de cardinalidad N]**: Cada registro del conjunto principal puede asignarse a varios registros de los datos vinculados.
+
+   ![](../assets/enrichment-8.png)
+
+1. Seleccione el objetivo al que desea vincular el conjunto principal:
+
+   * **[!UICONTROL Esquema de base de datos]**: vincule a una tabla existente en la base de datos. Seleccione la tabla del campo **[!UICONTROL Esquema de destino]**.
+   * **[!UICONTROL Esquema temporal]**: vínculo a los datos que llegan desde una transición de entrada. Seleccione la transición correspondiente en la lista.
+
+1. Defina las condiciones de unión utilizadas para hacer coincidir registros entre el conjunto principal y el esquema vinculado:
+
+   * **[!UICONTROL Unión simple]**: Haga coincidir registros en un par de atributos específico. Haga clic en **[!UICONTROL Agregar unión]** y, a continuación, seleccione los atributos **[!UICONTROL Source]** y **[!UICONTROL Destination]** que se usarán como criterios coincidentes.
+   * **[!UICONTROL Unión avanzada]**: cree una lógica de coincidencia personalizada con el generador de reglas. Haga clic en **[!UICONTROL Crear condición]** para comenzar.
 
 ## Ejemplos {#example}
 
@@ -187,42 +226,6 @@ The example below shows an Orchestrated campaign configured to create a link bet
 * A second **Enrichment** activity is added in order to enrich data from the Orchestrated campaign table with the purchase data coming from the **Load file** activity. This allows us to use those data in further activities, for example, to personalize messages sent to the customers with information on their purchase.
 
     ![](../assets/enrichment-uc-link-data.png)
-
-
-## Create links between tables {#create-links}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_enrichment_simplejoin"
->title="Link definition"
->abstract="Create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles."
-
-The **[!UICONTROL Link definition]** section allows you to create a link between the working table data and Adobe Journey Optimizer. For example, if you load data from a file which contains the account number, country and email of recipients, you have to create a link towards the country table in order to update this information in their profiles.
-
-There are several types of links available:
-
-* **[!UICONTROL 1 cardinality simple link]**: Each record from the primary set can be associated with one and only one record from the linked data.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Each record from the primary set can be associated with 0 or 1 record from the linked data, but not more than one.
-* **[!UICONTROL N cardinality collection link]**: Each record from the primary set can be associated with 0, 1 or more (N) records from the linked data.
-
-To create a link, follow these steps:
-
-1. In the **[!UICONTROL Link definition]** section, click the **[!UICONTROL Add link]** button.
-
-    ![](../assets/workflow-enrichment-link.png)
-
-1. In the **Relation type** drop-down list, choose the type of link you want to create.
-
-1. Identify the target you want to link the primary set to:
-
-    * To link an existing table in the database, choose **[!UICONTROL Database schema]** and select the desired table from the **[!UICONTROL Target schema]** field.
-    * To link with data from the input transition, choose **Temporary schema** and select the transition whose data you want to use.
-
-1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
-
-    * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
-    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the rule builder.
-
-A workflow example using links is available in the [Examples](#link-example) section.
 
 ## Add offers {#add-offers}
 

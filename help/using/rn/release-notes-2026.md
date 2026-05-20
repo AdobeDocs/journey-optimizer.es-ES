@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: 8bfc5386378ee87faa197a8cfa21247fa6025f94
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6076'
 ht-degree: 79%
@@ -921,7 +921,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### SMS
 
-* **Webhooks de SMS**: ahora se admiten los webhooks en todos los proveedores de SMS. Puede configurar cada webhook en función de su objetivo: Los webhooks entrantes capturan los mensajes entrantes y los webhooks de comentarios para recibir las confirmaciones de entrega, las actualizaciones de estado y otros eventos relacionados con los mensajes. [Más información](../sms/sms-webhook.md)
+* **Webhooks de SMS**: ahora se admiten los webhooks en todos los proveedores de SMS. Puede configurar cada webhook en función de su objetivo: Los webhooks entrantes capturan los mensajes entrantes y los webhooks de comentarios para recibir las confirmaciones de entrega, las actualizaciones de estado y otros eventos relacionados con los mensajes. [Más información](../mobile/mobile-webhook.md)
 
   Fecha de disponibilidad: 2 de febrero de 2026.
 

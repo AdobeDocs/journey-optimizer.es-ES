@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 12%
@@ -55,7 +55,7 @@ Con [!DNL Journey Optimizer], puede establecer configuraciones de canal (es deci
 >
 > * Para crear, editar y eliminar configuraciones de canal, debes tener el permiso [Administrar mensajes preestablecidos](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Debe realizar los pasos de [Configuración de correo electrónico](../email/get-started-email-config.md), [Configuración push](../push/push-configuration.md), [Configuración de SMS](../sms/sms-configuration.md), [Configuración en la aplicación](../in-app/inapp-configuration.md), [Configuración basada en código](../code-based/code-based-configuration.md), [Configuración web](../web/web-configuration.md) y [Configuración de correo directo](../direct-mail/direct-mail-configuration.md) antes de crear las configuraciones de canal.
+> * Debe realizar los pasos de [Configuración de correo electrónico](../email/get-started-email-config.md), [Configuración push](../push/push-configuration.md), [Configuración de SMS](../mobile/mobile-configuration.md), [Configuración en la aplicación](../in-app/inapp-configuration.md), [Configuración basada en código](../code-based/code-based-configuration.md), [Configuración web](../web/web-configuration.md) y [Configuración de correo directo](../direct-mail/direct-mail-configuration.md) antes de crear las configuraciones de canal.
 
 Una vez configuradas las configuraciones de canal, podrá seleccionarlas al crear mensajes desde un recorrido o una campaña.
 

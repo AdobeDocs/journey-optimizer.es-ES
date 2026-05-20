@@ -25,7 +25,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 0%
@@ -89,7 +89,7 @@ Se ordenan por fecha de creación: los fragmentos de expresión añadidos recien
 
 >[!NOTE]
 >
->Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en el contenido [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md), se conservarán los saltos de línea. Por lo tanto, asegúrese de probar su mensaje [SMS](../sms/send-sms.md) o [push](../push/send-push.md) antes de enviarlo.
+>Si crea un fragmento de expresión que contiene varios saltos de línea y lo utiliza en el contenido [SMS](../mobile/create-mobile-message.md#sms-content) o [push](../push/design-push.md), se conservarán los saltos de línea. Por lo tanto, asegúrese de probar su mensaje [SMS](../mobile/send-mobile-message.md) o [push](../push/send-push.md) antes de enviarlo.
 
 ## Uso de variables implícitas {#implicit-variables}
 

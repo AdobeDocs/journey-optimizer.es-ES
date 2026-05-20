@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +131,13 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
    +++
 
-También puede agregar directivas de decisión al usar el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. Para ello, vaya a **[!UICONTROL Directivas de decisión]** para insertar el código de la directiva de decisión. [Aprenda a codificar su propio contenido de correo electrónico](../email/code-content.md).
+También puede agregar directivas de decisión al usar el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. Para ello, vaya a **[!UICONTROL Políticas de decisión]** para insertar el código de la política de decisión; aparecerá la interfaz de usuario de selección de ubicación, que le permitirá elegir una ubicación para la política de decisión. [Aprenda a codificar su propio contenido de correo electrónico](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>La inserción de directivas de decisión en el modo **[!UICONTROL Code your own]** está en disponibilidad limitada.
 
 >[!NOTE]
 >

@@ -41,7 +41,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 6%
@@ -200,7 +200,7 @@ El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs
 
 ## Generación de contenido con tecnología de IA {#content-generation}
 
-Utilice IA generativa para crear y personalizar el contenido en varios canales, lo que acelera el proceso de creación de contenido y mantiene la coherencia de la marca. El asistente de IA para la generación de contenido está disponible para las experiencias [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) y [web](../web/get-started-web.md), lo que le ayuda a generar líneas de asunto, texto independiente, imágenes y variaciones completas de mensajes.
+Utilice IA generativa para crear y personalizar el contenido en varios canales, lo que acelera el proceso de creación de contenido y mantiene la coherencia de la marca. El asistente de IA para la generación de contenido está disponible para las experiencias [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) y [web](../web/get-started-web.md), lo que le ayuda a generar líneas de asunto, texto independiente, imágenes y variaciones completas de mensajes.
 
 ### Características principales
 

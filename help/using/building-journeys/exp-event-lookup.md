@@ -21,7 +21,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1095
 ht-degree: 6%
@@ -52,7 +52,7 @@ Más información:
 
 * [Administrar el consentimiento](../privacy/opt-out.md)
 * [Administración de exclusión de correo electrónico](../email/email-opt-out.md)
-* [Administración de la exclusión para mensajes de texto](../sms/sms-opt-out.md)
+* [Administración de la exclusión para mensajes de texto](../mobile/mobile-opt-out.md)
 
 
 ## Supresión basada en devoluciones

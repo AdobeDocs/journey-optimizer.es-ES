@@ -39,7 +39,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4262
 ht-degree: 98%
@@ -111,7 +111,7 @@ Si la publicación del recorrido falla debido al tamaño del contenido, reduzca 
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
-Las siguientes limitaciones se aplican a la actividad [canal de SMS](../sms/get-started-sms.md):
+Las siguientes limitaciones se aplican a la actividad [canal de SMS](../mobile/get-started-mobile.md):
 
 * Los archivos multimedia para MMS se pueden incluir a través de una dirección URL compatible. Asegúrese de que el archivo multimedia se cargue por separado.
 * Actualmente, la sincronización de comentarios de mensajes no está disponible para MMS.

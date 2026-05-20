@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Sí. Use una **[Optimizar actividad](conditions.md)** para enrutar perfiles seg�
 2. Cree una ruta para cada canal comprobando el atributo de perfil de canal preferido (por ejemplo, `profile.preferredChannel`)
 3. Configure las rutas específicas del canal:
    * **Ruta de correo electrónico**: agrega una [acción de correo electrónico](../email/create-email.md) con contenido optimizado para correo electrónico
-   * **Ruta de SMS**: agrega una [acción de SMS](../sms/create-sms.md) con mensajes concisos
+   * **Ruta de SMS**: agrega una [acción de SMS](../mobile/create-mobile-message.md) con mensajes concisos
    * **Ruta de acceso push**: Agregue una [acción de notificación push](../push/create-push.md) con contenido corto y procesable
    * **Ruta en la aplicación**: Agregue una [acción de mensaje en la aplicación](../in-app/create-in-app.md) para usuarios comprometidos de la aplicación
 4. Añada una ruta predeterminada para los perfiles sin preferencias y enrutélos al canal principal

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Administración de la exclusión para mensajes de texto
+title: Administración de la exclusión para mensajes de dispositivos móviles
 description: Descubra cómo administrar la exclusión con mensajes SMS/MMS
 feature: SMS
 topic: Content Management
@@ -24,20 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: 673
 ht-degree: 14%
 
 ---
 
-# Administración de la exclusión para mensajes de texto {#sms-opt-out}
+# Administración de la exclusión para mensajes de dispositivos móviles {#sms-opt-out}
 
 De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->Las comunicaciones por mensajes de texto pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes de texto y la ubicación de los destinatarios. Mientras Adobe Journey Optimizer gestiona los mensajes con códigos cortos, códigos largos y números gratuitos, como se detalla a continuación, consulte a su asesor legal para asegurarse de que sus comunicaciones de mensajería de texto cumplan todos los requisitos legales aplicables.
+>Las comunicaciones por mensajes móviles pueden estar sujetas a diversos requisitos legales de cumplimiento según su naturaleza, la ubicación desde la que se envían los mensajes móviles y la ubicación de los destinatarios. Mientras Adobe Journey Optimizer gestiona los mensajes con códigos cortos, códigos largos y números gratuitos, como se detalla a continuación, consulte a su asesor legal para asegurarse de que sus comunicaciones de mensajería móvil cumplan todos los requisitos legales aplicables.
 >
 
 ## Palabras clave de entrada nativas {#sms-native-keywords}
@@ -60,7 +60,7 @@ No se requiere ningún paso para garantizar que las funcionalidades de exclusió
 
 Si define palabras clave de exclusión personalizadas en sus credenciales de API de SMS, anulan las palabras clave de entrada predeterminadas que se enumeran anteriormente. Para mantener funcionales las palabras clave predeterminadas, como STOP, QUIT, CANCEL, END y UNSUBSCRIBE, inclúyalas explícitamente junto con las palabras clave personalizadas en el campo Palabras clave de exclusión de la configuración de SMS. De lo contrario, solo se reconocerán las palabras clave personalizadas y las palabras clave predeterminadas dejarán de estar en déclencheur con las acciones de exclusión.
 
-Tenga en cuenta que si un cliente responde STOP a un mensaje de texto, el proveedor bloquea todos los SMS posteriores a partir de ese ID de remitente específico (código corto o número largo), incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, utilice un ID de remitente independiente que no se haya excluido anteriormente.
+Tenga en cuenta que si un cliente responde STOP a un mensaje de Mobile, el proveedor bloquea todos los SMS posteriores a partir de ese ID de remitente específico (código corto o número largo), incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, utilice un ID de remitente independiente que no se haya excluido anteriormente.
 
 
 >[!NOTE]

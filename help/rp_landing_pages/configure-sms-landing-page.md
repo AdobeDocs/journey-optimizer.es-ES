@@ -5,9 +5,9 @@ title: Configuración de canales de SMS/MMS/RCS
 description: Configuración de canales de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Introducción a la configuración de canales de SMS/MMS/RCS
 
 Obtenga información sobre cómo configurar canales de SMS, MMS y RCS en Adobe Journey Optimizer, incluida la configuración y los permisos del proveedor.
 
-[Leer el tutorial](../using/sms/sms-configuration.md)
+[Leer el tutorial](../using/mobile/mobile-configuration.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ Configuración del proveedor Sinch para la mensajería SMS/MMS/RCS
 
 Instrucciones paso a paso para configurar las credenciales de la API de Sinch para habilitar la mensajería SMS, MMS y RCS.
 
-[Más información sobre cómo configurar Sinch](../using/sms/sms-configuration-sinch.md)
+[Más información sobre cómo configurar Sinch](../using/mobile/mobile-configuration-sinch.md)
 :::
 
 :::
@@ -46,7 +46,7 @@ Configurar el proveedor de SMS, MMS y RCS de Infobip
 
 Directrices detalladas sobre la integración de Infobip como proveedor para la mensajería SMS, MMS y RCS en Adobe Journey Optimizer.
 
-[Más información sobre cómo configurar Infobip](../using/sms/sms-configuration-infobip.md)
+[Más información sobre cómo configurar Infobip](../using/mobile/mobile-configuration-infobip.md)
 :::
 
 :::
@@ -56,7 +56,7 @@ Configurar el proveedor Twilio para la mensajería SMS/MMS/RCS
 
 Instrucciones para configurar las credenciales de la API de Twilio y habilitar la mensajería SMS, MMS y RCS en Adobe Journey Optimizer.
 
-[Más información sobre cómo configurar Twilio](../using/sms/sms-configuration-twilio.md)
+[Más información sobre cómo configurar Twilio](../using/mobile/mobile-configuration-twilio.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ Configurar un proveedor de SMS personalizado
 
 Configure proveedores de SMS personalizados creando credenciales de API, administrando webhooks y configurando canales de comunicación seguros.
 
-[Más información sobre cómo configurar un proveedor personalizado](../using/sms/sms-configuration-custom.md)
+[Más información sobre cómo configurar un proveedor personalizado](../using/mobile/mobile-configuration-custom.md)
 :::
 
 :::
@@ -76,7 +76,7 @@ Crear una configuración de canales de SMS/MMS/RCS
 
 Aprenda a crear configuraciones de canal para mensajes de SMS, MMS y RCS transaccionales y de marketing.
 
-[Más información sobre cómo crear una configuración](../using/sms/sms-configuration-surface.md)
+[Más información sobre cómo crear una configuración](../using/mobile/mobile-configuration-surface.md)
 :::
 
 ::::

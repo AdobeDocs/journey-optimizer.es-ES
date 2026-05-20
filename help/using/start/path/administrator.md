@@ -34,7 +34,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
@@ -85,7 +85,7 @@ Siga estos pasos:
 
    * Cree **configuraciones de canal** para configurar todos los parámetros técnicos necesarios para el correo electrónico, SMS, push, en la aplicación, web y otros canales. [Más información](../../configuration/channel-surfaces.md)
 
-   * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../sms/sms-configuration.md)
+   * Configure el **Canal de SMS** para configurar todos los parámetros técnicos necesarios para SMS. [Más información](../../mobile/mobile-configuration.md)
 
    * Administre el número de días durante los cuales se realizan **reintentos** antes de enviar direcciones de correo electrónico a la lista de supresión. [Más información](../../configuration/manage-suppression-list.md)
 

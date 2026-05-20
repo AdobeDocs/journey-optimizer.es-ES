@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 4%
@@ -91,7 +91,7 @@ Tablero que documenta el rendimiento de los elementos de decisión y las estrate
 
 * **Aplicación de políticas**: Empoderamiento de usuarios empresariales para utilizar funciones como [Etiquetado y aplicación del uso de datos (DULE)](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview){target="_blank"} y [Consentimiento](../action/consent.md) en Decisioning, lo que permite la protección de escudo de privacidad en todo el flujo de trabajo de decisioning. Esto garantiza que las decisiones respeten automáticamente las políticas de uso de datos y las preferencias de consentimiento del cliente.
 
-* **Compatibilidad con canales de mensajería nativos**: mensajería y toma de decisiones integradas en un solo marco de trabajo en varios canales: [experiencia basada en código](../code-based/get-started-code-based.md), [correo electrónico](../email/get-started-email.md) (disponibilidad limitada), [SMS](../sms/get-started-sms.md) y [notificaciones push](../push/get-started-push.md). La compatibilidad intuitiva con la IU permite a los usuarios insertar componentes de toma de decisiones directamente en los flujos de trabajo de creación de mensajes.
+* **Compatibilidad con canales de mensajería nativos**: mensajería y toma de decisiones integradas en un solo marco de trabajo en varios canales: [experiencia basada en código](../code-based/get-started-code-based.md), [correo electrónico](../email/get-started-email.md) (disponibilidad limitada), [SMS](../mobile/get-started-mobile.md) y [notificaciones push](../push/get-started-push.md). La compatibilidad intuitiva con la IU permite a los usuarios insertar componentes de toma de decisiones directamente en los flujos de trabajo de creación de mensajes.
 
 * **Búsqueda de conjuntos de datos de Experience Platform**: capacidad para cargar y hacer referencia a [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview){target="_blank"} directamente en las reglas de selección de ofertas, clasificación y contenido de ofertas personalizado. Esto aumenta la flexibilidad de personalización y segmentación al permitir que la lógica de decisión utilice fuentes de datos externas dinámicas. [Más información](../data/lookup-aep-data.md)
 

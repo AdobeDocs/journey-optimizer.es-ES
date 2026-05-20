@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Comprobación y prueba de los mensajes de texto
-description: Obtenga información sobre cómo comprobar y enviar mensajes de texto en Journey Optimizer
+title: Compruebe y pruebe sus mensajes móviles
+description: Obtenga información sobre cómo comprobar y enviar mensajes móviles en Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
@@ -28,16 +28,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 2%
+source-wordcount: 536
+ht-degree: 1%
 
 ---
 
-# Compruebe y envíe su mensaje de texto (SMS/MMS){#send-sms}
+# Compruebe y envíe su mensaje móvil {#send-sms}
 
-## Previsualización del mensaje de texto {#preview-sms}
+## Previsualización del mensaje móvil {#preview-sms}
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba o datos de entrada de muestra (cargados desde un archivo CSV/JSON o añadidos manualmente) para previsualizar su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje.
 
@@ -49,7 +49,7 @@ Encontrará información detallada sobre cómo obtener una vista previa y probar
 
 ### Codificación de caracteres y límites {#sms-character-limits}
 
-Se muestra un recuento de caracteres al acceder al menú **[!UICONTROL Simular contenido]** para ayudar a planificar y administrar sus mensajes SMS.
+Se muestra un recuento de caracteres al acceder al menú **[!UICONTROL Simular contenido]** para ayudar a planificar y administrar los mensajes de Mobile.
 
 ![](assets/sms_preview_3.png)
 
@@ -61,7 +61,7 @@ Tenga en cuenta que el recuento de caracteres no refleja las variaciones introdu
 >
 >Los informes de envío de SMS de Journey Optimizer no tienen en cuenta los mensajes concatenados y la personalización dinámica, por lo que es posible que no reflejen el número real de mensajes enviados desde el proveedor. Para obtener información detallada sobre el uso y la facturación, póngase en contacto con su representante de Adobe.
 >
->Para conocer las prácticas recomendadas para minimizar los cargos adicionales por facturación SMS, consulte [Prácticas recomendadas por SMS para la optimización de caracteres](sms-cost-optimization.md).
+>Para conocer las prácticas recomendadas para minimizar los cargos adicionales por facturación SMS, consulte [Prácticas recomendadas por SMS para la optimización de caracteres](mobile-cost-optimization.md).
 
 ## Validación del contenido {#sms-validate}
 
@@ -73,7 +73,7 @@ Debe comprobar las alertas en la sección superior del editor. Algunas son simpl
 
 ![](assets/sms-alert-button.png)
 
-* **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de texto está vacío o si se pueden superar los límites de caracteres con contenido dinámico.
+* **Advertencias** se refieren a recomendaciones y prácticas recomendadas. Por ejemplo, se muestra un mensaje de advertencia si el mensaje de Mobile está vacío o si se pueden superar los límites de caracteres con contenido dinámico.
 
   **Límites de caracteres:** 160 caracteres por segmento (GSM de 7 bits), 70 para Unicode/emojis, hasta un total de 1500 caracteres.
 
@@ -83,17 +83,17 @@ La alerta **&quot;Se ha superado el límite de caracteres de texto SMS&quot;** p
 
 La validación calcula la longitud máxima de todos los datos de perfil posibles, mientras que la simulación muestra la salida real de un perfil de prueba.
 
-## Envíe sus mensajes de texto {#sms-send}
+## Envío de mensajes móviles {#sms-send}
 
 >[!IMPORTANT]
 >
-> Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar los mensajes de texto. [Más información](../test-approve/gs-approval.md)
+> Si la campaña está sujeta a una directiva de aprobación, deberá solicitar la aprobación para poder enviar los mensajes de Mobile. [Más información](../test-approve/gs-approval.md)
 
-Cuando el mensaje de texto esté listo, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarlo.
+Cuando el mensaje de Mobile esté listo, completa la configuración de tu [recorrido](../building-journeys/journey-gs.md) o [campaña](../campaigns/create-campaign.md) para enviarlo.
 
 **Temas relacionados**
 
-* [Configuración del canal de SMS](sms-configuration.md)
+* [Configuración del canal de SMS](mobile-configuration.md)
 * [Informes de SMS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Creación de un mensaje de texto](create-sms.md)
+* [Creación de un mensaje móvil](create-mobile-message.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journey-action.md)

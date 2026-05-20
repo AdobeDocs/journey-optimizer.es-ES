@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 20faceb1de8523426b288864d400f023c7dfdc6d
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 18%
 
 ---
 
@@ -30,8 +30,8 @@ El proceso de creación de contenido depende del canal seleccionado. Conozca los
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>Correo electrónico</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/create-sms.md"><strong>SMS</strong></a></div></td>
+<td><a href="../mobile/create-mobile-message.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../mobile/create-mobile-message.md"><strong>SMS</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Notificación push</strong></a></div></td>
 <td><a href="../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>

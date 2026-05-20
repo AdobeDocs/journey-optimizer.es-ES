@@ -5,10 +5,10 @@ title: Canal de SMS/MMS/RCS
 description: Canal de SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '282'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ Introducción a la mensajería de texto
 
 Obtenga información sobre cómo configurar, crear y administrar mensajes por SMS, MMS y RCS en Adobe Journey Optimizer.
 
-[Empezar](../using/sms/get-started-sms.md)
+[Empezar](../using/mobile/get-started-mobile.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ Cómo crear mensajes de SMS, MMS y RCS
 
 Guía paso a paso para diseñar, configurar y enviar mensajes de texto personalizados como parte de los recorridos o las campañas.
 
-[Más información](../using/sms/create-sms.md)
+[Más información](../using/mobile/create-mobile-message.md)
 :::
 
 :::
@@ -46,7 +46,7 @@ Comprobar y enviar los mensajes de texto
 
 Previsualizar, validar y enviar mensajes, garantizando un envío correcto y el cumplimiento de las prácticas recomendadas.
 
-[Obtener información detallada](../using/sms/send-sms.md)
+[Obtener información detallada](../using/mobile/send-mobile-message.md)
 :::
 
 :::
@@ -56,7 +56,7 @@ Administrar la exclusión de mensajes de texto
 
 Garantice el cumplimiento de los estándares del sector administrando los procesos de exclusión para las comunicaciones de SMS, MMS y RCS.
 
-[Leer la guía](../using/sms/sms-opt-out.md)
+[Leer la guía](../using/mobile/mobile-opt-out.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ Configurar subdominios SMS
 
 Configure subdominios de SMS para el envío de mensajes, como la configuración, delegación y administración.
 
-[Configurar ahora](../using/sms/sms-subdomains.md)
+[Configurar ahora](../using/mobile/mobile-subdomains.md)
 :::
 
 :::
@@ -76,7 +76,7 @@ Configurar canal de SMS/MMS/RCS
 
 Directrices completas para configurar canales de mensajería con proveedores admitidos, configuraciones personalizadas y opciones adaptadas.
 
-[Explorar configuraciones](../using/sms/sms-configuration.md)
+[Explorar configuraciones](../using/mobile/mobile-configuration.md)
 :::
 
 ::::

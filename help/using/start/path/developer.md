@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2079
 ht-degree: 97%
@@ -217,7 +217,7 @@ Journey Optimizer proporciona API de REST completas para el acceso mediante prog
 
 1. **API de migración de decisiones**: migre mediante programación las entidades de Gestión de decisiones a Toma de decisiones con ámbitos flexibles, validación automatizada y compatibilidad con reversiones. Obtenga más información en la [Guía de API de migración de toma de decisiones](../../experience-decisioning/decisioning-migration-api.md).
 
-1. **Webhooks de SMS**: configure los webhooks entrantes para capturar los mensajes entrantes y los webhooks de comentarios para recibir confirmaciones de envío y actualizaciones de estado. [Más información](../../sms/sms-webhook.md).
+1. **Webhooks de SMS**: configure los webhooks entrantes para capturar los mensajes entrantes y los webhooks de comentarios para recibir confirmaciones de envío y actualizaciones de estado. [Más información](../../mobile/mobile-webhook.md).
 
 ## Pruebas y depuración {#testing}
 

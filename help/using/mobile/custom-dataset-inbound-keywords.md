@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo almacenar palabras clave de SMS en
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -91,7 +91,7 @@ Un conjunto de datos es el contenedor de almacenamiento para los datos ingeridos
 
 ## Configurar credenciales de API {#configure-api-credentials}
 
-Configure las credenciales según su proveedor de SMS con [Introducción a la configuración de SMS / MMS / RCS](sms-configuration.md). A continuación, complete los pasos a continuación para seleccionar el conjunto de datos de entrada personalizado.
+Configure las credenciales según su proveedor de SMS con [Introducción a la configuración de SMS / MMS / RCS](mobile-configuration.md). A continuación, complete los pasos a continuación para seleccionar el conjunto de datos de entrada personalizado.
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** `>` **[!UICONTROL Configuración de SMS]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 

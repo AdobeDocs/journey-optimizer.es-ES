@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ Para ello, se han añadido las actividades siguientes:
 * La actividad **[!UICONTROL Combinar]** agrupa a los clientes con un correo electrónico y a aquellos que han realizado una compra de al menos 100 USD,
 * Una actividad **[!UICONTROL Combinar]** excluye clientes con menos de 50 puntos de lealtad,
 * La actividad **[!UICONTROL Envío de correo electrónico]** envía un mensaje de correo electrónico a los clientes resultantes.
+
+Cuando llegue al final de una rama, puede agregar una actividad **[!UICONTROL End]** para marcar la finalización en el lienzo. También puede configurar esa actividad **[!UICONTROL End]** para enviar una señal a otra campaña orquestada que esté configurada como **[!UICONTROL Activada por una señal]** y pasar parámetros en la carga. [Más información](trigger-orchestrated-campaign.md#signal-end).
 
 ## Próximos pasos {#next}
 

@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +46,7 @@ Aprenda a utilizar la sintaxis de la iteración Handlebars para mostrar listas d
 
 ## Información general {#overview}
 
-Journey Optimizer proporciona acceso a datos contextuales de varios orígenes durante la [personalización de mensajes](personalize.md). Puede iterar matrices de estos orígenes utilizando la sintaxis Handlebars en canales nativos ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../sms/create-sms.md)) para mostrar contenido dinámico como listas de productos, recomendaciones u otros elementos repetitivos.
+Journey Optimizer proporciona acceso a datos contextuales de varios orígenes durante la [personalización de mensajes](personalize.md). Puede iterar matrices de estos orígenes utilizando la sintaxis Handlebars en canales nativos ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) para mostrar contenido dinámico como listas de productos, recomendaciones u otros elementos repetitivos.
 
 **Orígenes de contexto disponibles:**
 
@@ -553,7 +553,7 @@ Obtenga más información sobre cómo pasar colecciones en [Pasar colecciones a 
 
 #### Extraer un solo valor de una matriz
 
-**Caso de uso**: obtenga un campo específico de una matriz de eventos para pasarlo como parámetro de consulta en una solicitud GET.
+**Caso de uso**: obtenga un campo específico de una matriz de eventos para pasarlo como parámetro de consulta en una petición GET.
 
 +++ Ver código de ejemplo
 
@@ -1072,4 +1072,4 @@ Use [modo de prueba de recorrido](../building-journeys/testing-the-journey.md) p
 
 **Casos de uso de Personalization:** [Correo electrónico de abandono del carro de compras](personalization-use-case-helper-functions.md) | [Notificación de estado del pedido](personalization-use-case.md)
 
-**Diseño de mensaje:** [Introducción al diseño de correo electrónico](../email/get-started-email-design.md) | [Crear notificaciones push](../push/create-push.md) | [Crear mensajes SMS](../sms/create-sms.md) | [Previsualizar y probar el contenido](../content-management/preview-test.md)
+**Diseño de mensaje:** [Introducción al diseño de correo electrónico](../email/get-started-email-design.md) | [Crear notificaciones push](../push/create-push.md) | [Crear mensajes SMS](../mobile/create-mobile-message.md) | [Previsualizar y probar el contenido](../content-management/preview-test.md)

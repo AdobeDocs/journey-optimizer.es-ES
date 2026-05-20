@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configuración del proveedor personalizado
-description: Aprenda a configurar su entorno para enviar mensajes de texto con Journey Optimizer con un proveedor personalizado
+description: Aprenda a configurar su entorno para enviar mensajes móviles con Journey Optimizer con un proveedor personalizado
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 881
 ht-degree: 11%
 
 ---
@@ -46,20 +46,20 @@ ht-degree: 11%
 >title="Carga útil del proveedor"
 >abstract="Proporcione la carga útil de la solicitud para garantizar que se envían los datos correctos para el procesamiento y la generación de respuestas."
 
-Esta función le permite integrar y configurar sus propios proveedores de mensajería, ofreciendo flexibilidad más allá de las opciones predeterminadas (Sinch, Twilio e Infobip). Esto permite una creación, un envío, una creación de informes y una administración de consentimiento sin problemas tanto para mensajes SMS como RCS.
+Esta función le permite integrar y configurar sus propios proveedores de mensajería, ofreciendo flexibilidad más allá de las opciones predeterminadas (Sinch, Twilio e Infobip). Esto permite una creación, entrega, creación de informes y administración de consentimientos fluidos para los mensajes de Mobile.
 
 Con la configuración personalizada del proveedor, puede conectar servicios de mensajería de terceros directamente en Journey Optimizer, personalizar las cargas de mensajes para el contenido dinámico y administrar las preferencias de inclusión/exclusión para garantizar la conformidad en los canales SMS y RCS.
 
 Para configurar el proveedor personalizado, siga los pasos a continuación:
 
 1. [Crear credencial de API](#api-credential)
-1. [Crear webhook](sms-webhook.md)
-1. [Crear configuración de canal](sms-configuration-surface.md)
-1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-sms.md)
+1. [Crear webhook](mobile-webhook.md)
+1. [Crear configuración de canal](mobile-configuration-surface.md)
+1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-mobile-message.md)
 
 ## Cree sus credenciales de API {#api-credential}
 
-Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor personalizado no disponible de forma predeterminada por Adobe (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
+Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor personalizado que Adobe no tiene disponible de forma predeterminada (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Credenciales de API]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 
@@ -83,7 +83,7 @@ Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor person
 
 1. Habilite la opción **[!UICONTROL compatibilidad con mTLS]**, que garantiza que tanto el cliente como el servidor se autenticarán mutuamente antes de establecer una conexión segura.
 
-   Para usar solo mTLS, seleccione **[!UICONTROL Sin autenticación]** en la lista desplegable **[!UICONTROL Tipo de autenticación]** y luego habilite **&#x200B; [!UICONTROL compatibilidad con mTLS]**.
+   Para usar solo mTLS, selecciona **[!UICONTROL Sin autenticación]** en la lista desplegable **[!UICONTROL Tipo de autenticación]** y luego habilita la compatibilidad con **[!UICONTROL mTLS]**.
 
 1. En la sección **[!UICONTROL Encabezados]**, haga clic en **[!UICONTROL Agregar nuevo parámetro]** para especificar los encabezados HTTP para el mensaje de solicitud que se enviará al servicio externo.
 
@@ -93,7 +93,7 @@ Para enviar mensajes SMS y RCS en Journey Optimizer mediante un proveedor person
 
 1. Agregue su **[!UICONTROL carga útil del proveedor]** para validar y personalizar las cargas útiles de solicitud.
 
-   Para los mensajes RCS, esta carga útil se usa más adelante durante [diseño de contenido](create-sms.md#sms-content).
+   Para los mensajes RCS, esta carga útil se usa más adelante durante [diseño de contenido](create-mobile-message.md#sms-content).
 
    >[!NOTE]
    >

@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: 606
 ht-degree: 1%
@@ -35,9 +35,9 @@ Al integrar Twilio con Adobe Journey Optimizer, puede enviar mensajes de texto a
 Para configurar Twilio como su proveedor de SMS, siga los pasos a continuación:
 
 1. [Crear credencial de API](#api-credential)
-1. [Crear webhook](sms-webhook.md)
-1. [Crear configuración de canal](sms-configuration-surface.md)
-1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-sms.md)
+1. [Crear webhook](mobile-webhook.md)
+1. [Crear configuración de canal](mobile-configuration-surface.md)
+1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-mobile-message.md)
 
 ## Configuración de las credenciales de API para SMS/MMS {#api-credential}
 
@@ -84,11 +84,11 @@ Para configurar Twilio con Journey Optimizer, debe crear nuevas credenciales de 
 
    ![](assets/verify-connection.png)
 
-Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS y MMS. [Más información](sms-configuration-surface.md)
+Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes SMS y MMS. [Más información](mobile-configuration-surface.md)
 
 ## Configurar las credenciales de API para RCS
 
-La mensajería RCS se admite en Adobe Journey Optimizer a través de Twilio con la función [Proveedor de SMS personalizado](sms-configuration-custom.md). Esto permite enviar mensajes interactivos enriquecidos a través de perfiles comerciales verificados, incorporando elementos como carruseles, botones y contenido multimedia.
+La mensajería RCS se admite en Adobe Journey Optimizer a través de Twilio con la función [Proveedor de SMS personalizado](mobile-configuration-custom.md). Esto permite enviar mensajes interactivos enriquecidos a través de perfiles comerciales verificados, incorporando elementos como carruseles, botones y contenido multimedia.
 
 ➡️ [Explore cómo Twilio admite RCS en la documentación de Twilio](https://www.twilio.com/docs/rcs)
 
@@ -102,13 +102,13 @@ Para configurar RCS con Twilio:
 
 1. **Crear un webhook de SMS**
 
-   [Configurar un webhook de SMS](sms-configuration-custom.md#webhook) que pueda recibir respuestas de mensajes RCS entrantes o actualizaciones de entrega. Este webhook debe estar correctamente vinculado a tu configuración de Twilio para la comunicación bidireccional.
+   [Configurar un webhook de SMS](mobile-configuration-custom.md#webhook) que pueda recibir respuestas de mensajes RCS entrantes o actualizaciones de entrega. Este webhook debe estar correctamente vinculado a tu configuración de Twilio para la comunicación bidireccional.
 
 1. **Crear credencial de API usando Personalizado como proveedor de SMS**
 
-   En Journey Optimizer, [defina nuevas credenciales de API](sms-configuration-custom.md#api-credential) específicamente para RCS usando &quot;Personalizado&quot; como proveedor de SMS. Utilice el método de autenticación de extremo RCS adecuado, la dirección URL base y los encabezados.
+   En Journey Optimizer, [defina nuevas credenciales de API](mobile-configuration-custom.md#api-credential) específicamente para RCS usando &quot;Personalizado&quot; como proveedor de SMS. Utilice el método de autenticación de extremo RCS adecuado, la dirección URL base y los encabezados.
 
-Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes RCS. [Más información](sms-configuration-surface.md)
+Después de crear y configurar las credenciales de la API, debe crear una configuración de canal para los mensajes RCS. [Más información](mobile-configuration-surface.md)
 
 
 

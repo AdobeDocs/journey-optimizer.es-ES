@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 3%
@@ -193,9 +193,9 @@ El seguimiento de SMS requiere una configuración mínima: Journey Optimizer aco
 
 **Cómo funciona:**
 
-* **Seguimiento automático de vínculos** - Agregue cualquier dirección URL al contenido del SMS mediante la función de ayuda de URL. Journey Optimizer acorta automáticamente el vínculo y rastrea los clics sin necesidad de configuración adicional. Para utilizar el acortamiento de URL, primero debe configurar un subdominio SMS. [Más información](../sms/sms-subdomains.md)
+* **Seguimiento automático de vínculos** - Agregue cualquier dirección URL al contenido del SMS mediante la función de ayuda de URL. Journey Optimizer acorta automáticamente el vínculo y rastrea los clics sin necesidad de configuración adicional. Para utilizar el acortamiento de URL, primero debe configurar un subdominio SMS. [Más información](../mobile/mobile-subdomains.md)
 
-* **Seguimiento de mensajes entrantes**: las respuestas de los destinatarios se capturan automáticamente, lo que le permite supervisar las conversaciones bidireccionales y los patrones de respuesta. [Más información](../sms/sms-opt-out.md#sms-native-keywords)
+* **Seguimiento de mensajes entrantes**: las respuestas de los destinatarios se capturan automáticamente, lo que le permite supervisar las conversaciones bidireccionales y los patrones de respuesta. [Más información](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **Ver métricas:** Acceder a datos de clics en vínculos, volúmenes de mensajes entrantes y rendimiento de tipos de mensajes en los informes. [Informes de campaña](../reports/campaign-global-report-cja-sms.md) | [Informes de Recorrido](../reports/journey-global-report-cja-sms.md)
 

@@ -35,7 +35,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 0%
@@ -154,7 +154,7 @@ Consulte también la [documentación de configuración del canal push](../push/p
 
 Si un destinatario responde **STOP** a un SMS, todos los mensajes futuros de ese número corto se bloquearán, incluidos los mensajes transaccionales. Para garantizar el envío ininterrumpido de SMS transaccionales, configúrelos y envíelos a través de un **número corto independiente** del que los destinatarios no se hayan excluido anteriormente.
 
-Obtenga más información acerca de la configuración de exclusión de SMS [en esta página](../sms/sms-opt-out.md).
+Obtenga más información acerca de la configuración de exclusión de SMS [en esta página](../mobile/mobile-opt-out.md).
 
 +++
 
@@ -162,7 +162,7 @@ Obtenga más información acerca de la configuración de exclusión de SMS [en e
 
 Los errores de entrega de SMS después de la configuración del canal suelen deberse a credenciales de API de proveedor incorrectas, una discrepancia entre el ID del remitente y lo que el proveedor ha registrado o restricciones de enrutamiento a nivel de proveedor. Compruebe que la clave de API, la contraseña y los detalles del remitente introducidos en Journey Optimizer coinciden exactamente con lo que ha proporcionado su proveedor de SMS. A continuación, envíe un mensaje de prueba para confirmar la conectividad antes de iniciar una campaña.
 
-Aprenda a configurar su proveedor de SMS [en esta página](../sms/sms-configuration.md).
+Aprenda a configurar su proveedor de SMS [en esta página](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +170,7 @@ Aprenda a configurar su proveedor de SMS [en esta página](../sms/sms-configurat
 
 Cuando un perfil envía SMS a STOP, Journey Optimizer actualiza el atributo de consentimiento de SMS del perfil. Para comprobar el estado de exclusión actual, abra el perfil en la interfaz de usuario de Experience Platform e inspeccione los campos de consentimiento en **Privacidad** > **Consentimientos**. Para solucionar problemas de la campaña, compruebe también los motivos de exclusión en el informe de campaña: los perfiles excluidos aparecen en el recuento **Excluido** con el motivo &quot;Excluido&quot;.
 
-Obtenga más información acerca de la exclusión de SMS [en esta página](../sms/sms-opt-out.md).
+Obtenga más información acerca de la exclusión de SMS [en esta página](../mobile/mobile-opt-out.md).
 
 +++
 

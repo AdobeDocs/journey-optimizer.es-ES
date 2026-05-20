@@ -46,7 +46,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3645
 ht-degree: 100%
@@ -314,7 +314,7 @@ table>
 <td>
 <p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Aprenda a crear y enviar un SMS con esta <a href="../sms/create-sms.md">documentación detallada</a>.</p>
+<p>Aprenda a crear y enviar un SMS con esta <a href="../mobile/create-mobile-message.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -469,7 +469,7 @@ table>
 <p>Ahora puede crear, personalizar y enviar SMS en Journey Optimizer mediante una integración con <b>Sinch</b> o <b>Twilio</b>.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>Ahora mismo, el canal SMS solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, contacte con su representante de Adobe.</p>
-<p>Aprenda a crear y enviar un SMS en esta <a href="../sms/create-sms.md">documentación detallada</a>.</p>
+<p>Aprenda a crear y enviar un SMS en esta <a href="../mobile/create-mobile-message.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>

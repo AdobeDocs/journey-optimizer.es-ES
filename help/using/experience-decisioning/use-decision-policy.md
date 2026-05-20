@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +73,16 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
    >[!NOTE]
    >
    >Si utiliza varias políticas de decisión en el mismo correo electrónico (por ejemplo, una para el encabezado y otra para el pie de página), la misma oferta se deduplica en todas las ubicaciones: no se procesa dos veces. La segunda directiva de decisión no devolverá ningún contenido y mostrará un espacio en blanco, a menos que haya configurado una oferta de reserva, en cuyo caso se mostrará la reserva en su lugar.
+
+También puede insertar el código de directiva de decisión al usar el modo **[!UICONTROL Codifique su propio]** en el Designer de correo electrónico. Vaya a **[!UICONTROL Directivas de decisión]** y seleccione **[!UICONTROL Insertar sintaxis]**; aparecerá la interfaz de usuario de selección de ubicación para que pueda asignar una ubicación directamente. [Aprenda a codificar su propio contenido de correo electrónico](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>La inserción de directivas de decisión en el modo **[!UICONTROL Code your own]** está en disponibilidad limitada.
+
+>[!NOTE]
+>
+>En el modo **[!UICONTROL Codifique su propio]**, solo se puede devolver un elemento de decisión por directiva, ya que el componente **[!UICONTROL Cuadrícula de repetición]** no está disponible.
 
 >[!TAB SMS]
 
