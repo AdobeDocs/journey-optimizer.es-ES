@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo acceder al Asesor de contenido de 
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Cargue un documento de información de marketing para que aparezcan automáticam
 Vea metadatos y propiedades detallados de cualquier recurso que use el icono **Información**. Esto incluye dimensiones de recursos, tamaño de archivo, fecha de creación, etiquetas y otra información relevante para ayudarle a tomar decisiones informadas.
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ Acceso al repositorio entre organizaciones
+
+Descubra y seleccione recursos de repositorios entre organizaciones a las que tiene acceso. Esta capacidad le permite examinar y utilizar recursos almacenados en repositorios que pertenecen a diferentes organizaciones, lo que proporciona un acceso más amplio a la biblioteca de recursos disponible sin abandonar el flujo de trabajo de creación de Journey Optimizer.
 
 +++
 
