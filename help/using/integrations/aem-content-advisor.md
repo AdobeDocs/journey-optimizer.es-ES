@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo acceder al Asesor de contenido de 
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Vea metadatos y propiedades detallados de cualquier recurso que use el icono **I
 
 +++
 
++++ Acceso al repositorio entre organizaciones
+
+Descubra y seleccione recursos de repositorios entre organizaciones a las que tiene acceso. Esta capacidad le permite examinar y utilizar recursos almacenados en repositorios que pertenecen a diferentes organizaciones, lo que proporciona un acceso más amplio a la biblioteca de recursos disponible sin abandonar el flujo de trabajo de creación de Journey Optimizer.
+
++++
+
 +++ Panel de Dynamic Media
 
 Acceda a representaciones dinámicas, recortes inteligentes y modificaciones sobre la marcha en función de la configuración del repositorio.
@@ -71,7 +77,7 @@ La disponibilidad de Dynamic Media depende de la configuración del repositorio:
 
 * **Scene7**: disponible para los recursos publicados (excepto Vídeo y PDF). [Más información sobre los modificadores de Scene7 de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=es){target="_blank"}
+* **OpenAPI**: disponible para recursos aprobados (excepto vídeo). [Más información sobre Dynamic Media con modificadores OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Tanto Scene7 como OpenAPI**: disponibles cuando existen ambas configuraciones y el recurso cumple los criterios.
 
