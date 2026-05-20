@@ -39,10 +39,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,10 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
-* El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Esto ayudará en la legibilidad, el control de calidad y la resolución de problemas.
+* El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
+
+  A medida que los recorridos se acercan a este límite, el rendimiento de edición y publicación puede degradarse y pueden producirse errores de guardado o validación. Si esto sucede, divida el recorrido en recorridos secundarios más pequeños mediante [actividades de salto](../building-journeys/jump.md) o vuelva a crearlo en una nueva versión. El límite de actividad no se puede aumentar.
+
 * De forma predeterminada, el número de recorridos de ejecución activos/en pausa/de ensayo simultáneos está limitado a 100.  El número actual de recorridos se muestra encima del lienzo del recorrido.
 * A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
