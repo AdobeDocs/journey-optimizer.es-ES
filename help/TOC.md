@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 96%
@@ -345,7 +345,7 @@ ht-degree: 96%
       + [Diseño de un mensaje móvil](using/mobile/design-mobile.md)
       + [Compruebe y envíe sus mensajes móviles](using/mobile/send-mobile-message.md)
       + [Administración de la exclusión de mensajes móviles](using/mobile/mobile-opt-out.md)
-      + [Configuración de subdominios de SMS](using/mobile/mobile-subdomains.md)
+      + [Configurar subdominios de SMS](using/mobile/mobile-subdomains.md)
       + [Prácticas recomendadas para la optimización del coste de SMS](using/mobile/mobile-cost-optimization.md)
       + Configurar el canal móvil {#configure-mobile}
          + [Introducción a la configuración de Mobile](using/mobile/mobile-configuration.md)

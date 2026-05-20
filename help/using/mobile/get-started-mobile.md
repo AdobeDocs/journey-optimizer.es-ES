@@ -9,28 +9,13 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: 1005
 ht-degree: 30%
@@ -188,7 +173,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -198,7 +183,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -208,6 +193,6 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

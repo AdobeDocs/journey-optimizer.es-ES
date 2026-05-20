@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo almacenar palabras clave de SMS en
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -37,7 +37,7 @@ Para utilizar un conjunto de datos personalizado para la palabra clave entrante,
 
 Un esquema define la estructura y las reglas de validación que se aplican a los datos introducidos. Componga un esquema de Evento de experiencia para la colección de palabras clave de entrada agregando los grupos de campos existentes que se enumeran a continuación.
 
-➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
+➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. En Adobe Experience Platform, desde **[!UICONTROL Administración de datos]**, acceda a **[!UICONTROL Esquemas]** y seleccione **[!UICONTROL Crear esquema]**.
 
