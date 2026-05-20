@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2347'
 ht-degree: 15%
 
 ---
@@ -58,13 +58,19 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 1. El campo **Etiquetas** le permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 
-1. Use [fragmentos](../content-management/fragments.md) para agregar contenido múltiple al elemento de decisión; por ejemplo, si desea mostrar contenido diferente para varios modelos de dispositivos móviles. A continuación, puede aprovechar estos fragmentos en las políticas de decisión. [Descubra cómo](fragments-decision-policies.md)
+1. Añada fragmentos al elemento de decisión para enriquecer su contenido. Se admiten dos tipos de fragmentos:
 
-   >[!AVAILABILITY]
-   >
-   >Esta característica está disponible con disponibilidad limitada para los canales de **experiencia basada en código** y **correo electrónico**. Para solicitar acceso, póngase en contacto con su representante de Adobe.
+   * **Fragmentos de contenido de Journey Optimizer**: utilice fragmentos de expresiones reutilizables creados en Journey Optimizer para mostrar contenido diferente en función del contexto, por ejemplo, en varios modelos de dispositivos móviles. Puede aprovechar estos fragmentos en las políticas de decisión en todos los canales donde Decisioning está disponible (experiencia basada en código, correo electrónico, push, SMS y recorridos). [Descubra cómo](fragments-decision-policies.md#ajo-fragments)
 
-   Al utilizar estos fragmentos en las directivas de decisión, puede hacer que un fragmento sea opcional para que se omita si no está disponible temporalmente en Edge. [Descubra cómo](fragments-decision-policies.md#optional-fragments)
+     Al utilizar estos fragmentos en las directivas de decisión, puede hacer que un fragmento sea opcional para que se omita si no está disponible temporalmente en Edge. [Descubra cómo](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **Fragmentos de contenido de AEM**: asigne fragmentos de contenido de Adobe Experience Manager directamente a los atributos del elemento de decisión. Rellene el campo **Clave de referencia de fragmento** y seleccione el fragmento en el campo **Valor**. Una vez asignados, los campos de fragmento de contenido se pueden seleccionar en la directiva de decisión y Journey Optimizer puede optimizar qué fragmento se sirve a cada perfil. [Descubra cómo](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >Esta función está disponible en disponibilidad limitada para canales salientes con compatibilidad con Decisioning. Para solicitar acceso, póngase en contacto con su representante de Adobe.
+
+     Para conocer los requisitos previos y las protecciones, consulte [Usar fragmentos de contenido de AEM con Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
 1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
@@ -78,8 +84,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
