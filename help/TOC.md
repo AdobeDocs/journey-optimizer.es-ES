@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '3318'
-ht-degree: 96%
+source-wordcount: '3330'
+ht-degree: 95%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 96%
    + {hide-from-toc}[Crear retos](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Crear tareas](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[Supervisar el rendimiento del desafío de fidelidad](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[Configurar el programa de fidelización](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campañas {#campaigns}
    + {hide-from-toc}[Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
@@ -530,7 +532,6 @@ ht-degree: 96%
       + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
       + [Generación de texto con IA](using/content-management/generative-text.md)
       + [Generación de imágenes con IA](using/content-management/generative-image.md)
-      + [Experimento de contenido con IA](using/content-management/generative-experimentation.md)
       + [El Asistente de IA para expresiones de personalización](using/content-management/generative-personalization-expressions.md)
       + [Casos de uso del Asistente de IA](using/content-management/generative-uc.md)
       + Marcas {#brands}
