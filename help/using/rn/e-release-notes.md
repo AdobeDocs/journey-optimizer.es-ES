@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: d680f881dcc9290a01efd0803db36fadc3307d2f
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 9%
+source-wordcount: 738
+ht-degree: 7%
 
 ---
 
@@ -177,15 +177,6 @@ Las siguientes mejoras están pensadas para esta versión.
 -->
 
 
-
-#### Toma de decisiones
-
-* **Fragmentos de contenido de Adobe Experience Manager en Decisioning**: ahora puede asignar fragmentos de contenido de Adobe Experience Manager a elementos de decisión en Decisioning y aprovecharlos dentro de las directivas de decisión para entregar el fragmento adecuado al cliente correcto en el momento adecuado.
-
-  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
-
-
-  Fecha de disponibilidad: 19 de mayo de 2026
 
 #### Diseñador de correo electrónico
 

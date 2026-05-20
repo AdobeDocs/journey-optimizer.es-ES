@@ -15,22 +15,25 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: 1114
 ht-degree: 1%
 
 ---
 
 # Aprovechamiento de fragmentos en políticas de decisión {#fragments}
 
-Si la política de decisión contiene elementos de decisión, incluidos fragmentos, puede aprovechar estos fragmentos al crear un mensaje, dentro de la política de decisión. [Más información sobre fragmentos](../content-management/fragments.md)
+Los elementos de decisión admiten dos tipos de contenido de fragmento que se pueden aprovechar al crear mensajes dentro de una política de decisión:
 
->[!AVAILABILITY]
->
->Esta característica está disponible para los canales de **experiencia basada en código** y **correo electrónico**.
+* **Fragmentos de contenido de Journey Optimizer**: fragmentos de expresiones reutilizables creados en Journey Optimizer y agregados a la sección **[!UICONTROL Fragmentos]** del elemento de decisión. [Más información sobre los fragmentos de contenido de AJO](../content-management/fragments.md)
+* **Fragmentos de contenido de AEM**: contenido creado en Adobe Experience Manager, asignado a los atributos del elemento de decisión y seleccionado en el editor de personalización por nombre de clave. [Aprenda a vincular un fragmento de contenido de AEM a un elemento de decisión](items.md#aem-fragments)
 
-Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Agregue los fragmentos especificados, cada uno perteneciente a un modelo de teléfono diferente, al elemento de decisión que esté utilizando en la directiva de decisión. [Más información](items.md#attributes).
+## Fragmentos de contenido de Journey Optimizer {#ajo-fragments}
+
+Si la política de decisión contiene elementos de decisión, incluidos fragmentos de contenido de AJO, puede aprovechar estos fragmentos al crear un mensaje dentro de la política de decisión en todos los canales donde Decisioning está disponible (experiencia basada en código, correo electrónico, push, SMS y recorridos).
+
+Por ejemplo, supongamos que desea mostrar contenido diferente para varios modelos de dispositivos móviles. Agregue los fragmentos especificados, cada uno perteneciente a un modelo de teléfono diferente, al elemento de decisión que esté utilizando en la directiva de decisión. [Aprenda a agregar fragmentos a un elemento de decisión](items.md#attributes).
 
 ![Sección de fragmentos de un elemento de decisión que muestra referencias de fragmento y claves de ubicación.](assets/item-fragments.png){width=70%}
 
@@ -73,19 +76,25 @@ El ID de fragmento y la clave de referencia se seleccionarán de la sección **[
 >
 >Si la clave del fragmento es incorrecta o si el contenido del fragmento no es válido, el procesamiento puede fallar y provocar un error en la llamada de Edge.
 >
->Para evitar errores cuando un fragmento no está disponible temporalmente, se utiliza el indicador `required=false` para que se omita el fragmento en su lugar. [Más información](#temporary-unavailable-fragments)
+>Para evitar errores cuando un fragmento no está disponible temporalmente, se utiliza el indicador `required=false` para que se omita el fragmento en su lugar. [Más información sobre fragmentos que no están disponibles temporalmente](#temporary-unavailable-fragments)
 
-## Uso y protecciones {#fragments-guardrails}
+### Uso y protecciones {#fragments-guardrails}
 
-### Simulación de fragmentos de contenido y expresión en correos electrónicos {#simulate-content-expression-fragments}
+Las siguientes protecciones se aplican específicamente a **fragmentos de contenido de AJO** utilizados en elementos de decisión.
+
++++Simulación de fragmentos de contenido y expresión en correos electrónicos
 
 Para el canal **Email**, los fragmentos de expresión asociados con un elemento de decisión se muestran correctamente cuando **[!UICONTROL envía la prueba]** o cuando se activa la campaña. Sin embargo, **[!UICONTROL Simular contenido]** no muestra el fragmento de expresión del elemento de decisión.
 
-### Fragmentos visuales y elementos de decisión en correos electrónicos {#visual-fragments-decision-items}
++++
+
++++Fragmentos visuales y elementos de decisión en correos electrónicos
 
 No puede asignar un **[!UICONTROL fragmento visual]** a un elemento de decisión, solo se admiten **fragmentos de expresión** en este contexto.
 
-### Elemento de decisión y atributos de contexto {#decision-item-context-attributes}
++++
+
++++Elemento de decisión y atributos de contexto
 
 Los atributos de elemento de decisión y los atributos contextuales no son compatibles de forma predeterminada en [!DNL Journey Optimizer] fragmentos. Sin embargo, puede utilizar variables globales en su lugar, como se describe a continuación.
 
@@ -106,7 +115,9 @@ Supongamos que desea utilizar la variable *sport* en el fragmento.
    {{/each}}
    ```
 
-### Validación de contenido de fragmento de elemento de decisión {#fragment-content-validation}
++++
+
++++Validación de contenido de fragmento de elemento de decisión
 
 * Debido a la naturaleza dinámica de estos fragmentos, cuando se utilizan en una campaña, la validación de mensajes durante la creación del contenido de la campaña se omite para los fragmentos a los que se hace referencia en los elementos de decisión.
 
@@ -116,7 +127,9 @@ Supongamos que desea utilizar la variable *sport* en el fragmento.
 
 En tiempo de ejecución, se valida el contenido de la campaña (incluido el contenido de fragmento de los elementos de decisión). En caso de error de validación, la campaña no se procesará.
 
-### Se omiten los fragmentos temporalmente no disponibles {#temporary-unavailable-fragments}
++++
+
++++Los fragmentos temporalmente no disponibles se omiten {#temporary-unavailable-fragments}
 
 Cuando los recorridos o campañas hacen referencia a fragmentos adjuntos a elementos de decisión, puede haber breves retrasos de sincronización antes de que los fragmentos actualizados estén disponibles en Edge.
 
@@ -128,6 +141,35 @@ Esto significa que si el fragmento no está disponible temporalmente en Edge, si
 
 Si la directiva de decisión cumple los requisitos para dos ofertas y cada una tiene un fragmento (por ejemplo, &quot;20 % de descuento&quot; y &quot;30 % de descuento&quot;) y el segundo fragmento no está disponible temporalmente, con `required=false` el sistema procesa la oferta disponible (20 % de descuento) y omite el otro fragmento (30 % de descuento) en lugar de realizar un error en el recorrido o la campaña. Esto mejora la fiabilidad cuando el contenido aún se está sincronizando.
 
++++
+
 >[!NOTE]
 >
 >Puede seguir marcando un fragmento como obligatorio si establece el indicador `required` en `true`. Sin embargo, si un fragmento falta temporalmente, puede provocar un error en el procesamiento del recorrido o de la campaña.
+
+## Fragmentos de contenido de AEM {#aem-fragments-decisioning}
+
+>[!AVAILABILITY]
+>
+>Esta función está disponible en disponibilidad limitada para canales salientes con compatibilidad con Decisioning. Para solicitar acceso, póngase en contacto con su representante de Adobe.
+
+Antes de aprovechar los fragmentos de contenido de AEM en una política de decisión, asegúrese de lo siguiente:
+
+* Se creó el fragmento de contenido en Adobe Experience Manager y se etiquetó con `ajo-enabled:{OrgId}/{SandboxName}` para que Journey Optimizer pueda detectarlo. [Aprenda a crear y asignar una etiqueta](../integrations/aem-fragments.md#create-tag)
+* Asocie el fragmento a la sección **[!UICONTROL Fragmentos de AEM]** del elemento de oferta asignándole un nombre de referencia único. [Aprenda a vincular un fragmento de contenido de AEM a un elemento de decisión](items.md#attributes)
+
+En el editor de personalización, están disponibles todos los fragmentos de contenido de AEM asociados con los elementos de decisión seleccionados por la directiva. Aparece una carpeta por nombre de clave de fragmento.
+
+En este ejemplo, la política de decisión incluye dos elementos de decisión que tienen fragmentos de AEM vinculados a ellos a través de su nombre de referencia.
+
+![](assets/aem-fragment-select.png)
+
+1. Haga clic en el botón + para añadir el fragmento deseado a la expresión.
+
+   Dado que un solo nombre de referencia puede tener varios fragmentos vinculados a él en diferentes elementos de oferta, Decisioning determina el mejor para entregar a cada cliente en función de los criterios de clasificación de la política de decisión.
+
+1. Una vez seleccionado el fragmento, puede aprovechar sus atributos, como direcciones URL de imagen, campos de texto u otro contenido, y utilizar Decisioning para mostrar el contenido correcto al cliente correcto en el momento adecuado.
+
+   ![](assets/aem-fragment-attribute.png)
+
+1. Antes de activar la campaña o el recorrido, puede usar **[!UICONTROL Simular contenido]** para obtener una vista previa de cómo se representarán los valores de los campos Fragmento de contenido de AEM para un perfil de prueba específico. [Más información sobre la simulación de contenido](../content-management/preview-test.md)

@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 275
 ht-degree: 16%
 
 ---
@@ -44,6 +44,7 @@ La lista completa de [!DNL Journey Optimizer] protecciones y limitaciones está 
 | Elementos de decisión totales | 10K |
 | Tamaño máximo de elementos incluidos atributos (1 KB), máximo de 30 atributos | 1KB |
 | Reglas de frecuencia: número máximo de reglas de límite por elemento de decisión | 10 |
+| Número máximo de fragmentos de contenido de AEM por elemento de decisión | 5 |
 
 ## Colecciones de elementos {#item-collections}
 
