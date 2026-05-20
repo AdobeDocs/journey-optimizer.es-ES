@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
-En la sección **[!UICONTROL Administrador de fidelidad]**, los administradores configuran cómo se conecta Journey Optimizer al servidor del programa de fidelidad. Los especialistas en marketing utilizan **[!UICONTROL Desafíos de fidelidad (Beta)]** para diseñar desafíos, tareas, contenido y mensajería. El administrador de fidelidad es una configuración única e independiente para el cumplimiento de recompensas y la asignación de eventos.
+En la sección **[!UICONTROL Administrador de fidelidad]** se configura la conexión de Journey Optimizer con el servidor del programa de fidelidad. Los especialistas en marketing utilizan **[!UICONTROL Desafíos de fidelidad (Beta)]** para diseñar desafíos, tareas, contenido y mensajería. El administrador de fidelidad es una configuración única e independiente para el cumplimiento de recompensas y la asignación de eventos.
 
 Cuando un cliente completa un desafío (o alcanza un hito de recompensa), Journey Optimizer llama al proveedor de recompensas que configuró aquí para entregar puntos u otras recompensas. La configuración del desafío **[!UICONTROL Contenido]**, **[!UICONTROL Mensajería]** y **[!UICONTROL Audiencia]** no se ve afectada por la configuración de la administración de fidelización.
 
