@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 hide: true
-source-git-commit: 44d4da2b621b108fa5828e70a77568ae59662d0e
+source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 20%
+source-wordcount: '2397'
+ht-degree: 21%
 
 ---
 
@@ -291,9 +291,9 @@ ht-degree: 20%
 
 **Próximamente**
 
-* **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de los campos de encabezado de correo electrónico, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa. Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales.
+Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
-  Fecha de disponibilidad: 1 de junio de 2026
+Fecha de disponibilidad: 1 de junio de 2026
 
 * **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
 
