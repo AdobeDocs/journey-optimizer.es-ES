@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
+source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
 workflow-type: tm+mt
 source-wordcount: 2765
 ht-degree: 23%
@@ -381,7 +381,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <td>
 <p>Ahora puede establecer su recorrido en <strong>Simulación</strong>. Este modo le permite validar su lógica usando <strong>usuarios simulados</strong>. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). Con la versión General Availability, ahora puede utilizar Journey Agent para generar usuarios y eventos simulados directamente en el menú Simulation.</p>
-<p>Fecha de disponibilidad: 1 de junio de 2026</p>
+<p>Fecha de disponibilidad: principios de junio de 2026</p>
 </td>
 </tr>
 </tbody>
