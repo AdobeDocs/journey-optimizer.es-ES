@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 hide: true
-source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
+source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2853'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 <table>
 <thead>
 <tr>
-<th><strong>Fragmentos de recorrido</strong><br/></th>
+<th><strong>Fragmentos de recorrido (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 <table>
 <thead>
 <tr>
-<th><strong>Simulación de recorrido</strong><br/></th>
+<th><strong>Simulación de recorrido (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
 #### Próximamente {#may-26-journeys-coming-soon}
 
-Se esperan las siguientes capacidades de recorrido en los próximos días o semanas. La información está sujeta a cambios.
+Se esperan las siguientes capacidades de recorrido en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Asistente de IA para expresiones de Recorrido</strong><br/></th>
+<th><strong>Asistente de IA para expresiones de Recorrido (Beta público)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -197,12 +197,12 @@ En esta versión se han agregado las siguientes funcionalidades y mejoras a las 
 
 #### Próximamente {#may-26-oc-coming-soon}
 
-Se espera la siguiente capacidad de campaña orquestada en los próximos días o semanas. La información está sujeta a cambios.
+Se espera la siguiente capacidad de campaña orquestada en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Direccionamiento basado en archivos para campañas orquestadas</strong><br/></th>
+<th><strong>Direccionamiento basado en archivos para campañas orquestadas (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ Se esperan las siguientes mejoras de la campaña en los próximos días o semana
 
 #### Próximamente {#may-26-campaigns-coming-soon}
 
-Se esperan las siguientes mejoras de la campaña en los próximos días o semanas. La información está sujeta a cambios.
+Se esperan las siguientes mejoras de la campaña en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 * **Alertas de cliente para eventos de ciclo vital de campañas**: las nuevas alertas del sistema ahora le notifican de eventos de ciclo vital clave para campañas activadas por acciones y API. Suscribirse en el nivel de zona protegida.
 
@@ -266,7 +266,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a Deci
 
 #### Próximamente {#may-26-decisioning-coming-soon}
 
-Se espera la siguiente capacidad de toma de decisiones en los próximos días o semanas. La información está sujeta a cambios.
+Se espera la siguiente capacidad de toma de decisiones en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras al can
 
 #### Próximamente {#may-26-email-coming-soon}
 
-Se esperan las siguientes mejoras en el canal de correo electrónico en los próximos días o semanas. La información está sujeta a cambios.
+Se esperan las siguientes mejoras en el canal de correo electrónico en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 * **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de los campos de encabezado de correo electrónico, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.
 
@@ -428,11 +428,9 @@ En esta versión se han añadido las siguientes funciones y mejoras a la adminis
 
 ### Administración {#may-26-admin}
 
-Se esperan las siguientes mejoras de administración en los próximos días o semanas. Consulte la sección [Próximamente](#may-26-admin-coming-soon) más abajo.
-
 #### Próximamente {#may-26-admin-coming-soon}
 
-Se esperan las siguientes mejoras en la administración en los próximos días o semanas. La información está sujeta a cambios.
+Se esperan las siguientes mejoras en la administración en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas para mejorar la navegación y la administración en la interfaz.
 
@@ -444,11 +442,9 @@ Se esperan las siguientes mejoras en la administración en los próximos días o
 
 ### Creación de informes {#may-26-reporting}
 
-Se espera la siguiente mejora de los informes en los próximos días o semanas. Consulte la sección [Próximamente](#may-26-reporting-coming-soon) más abajo.
-
 #### Próximamente {#may-26-reporting-coming-soon}
 
-Se espera la siguiente mejora de la creación de informes en los próximos días o semanas. La información está sujeta a cambios.
+Se espera la siguiente mejora de la creación de informes en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 * **Excluir clics de bots para informes de correo electrónico y SMS**: ahora hay disponibles nuevas métricas estimadas para filtrar las interacciones no humanas (bots) de los informes de correo electrónico y SMS. Estas incluyen las tasas de clics estimadas, las tasas de clics (CTR) y las tasas de clics hasta la apertura (CTOR), lo que proporciona una vista más precisa de la participación real del cliente. Las métricas existentes se mantienen sin cambios y estas nuevas métricas pueden utilizarse junto con los informes actuales para mejorar el análisis.
 
