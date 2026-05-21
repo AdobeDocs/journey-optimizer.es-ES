@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
+source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2771
 ht-degree: 23%
 
 ---
@@ -213,6 +213,12 @@ Las siguientes funciones se lanzaron en mayo de 2026.
 ### Mejoras {#may-26-improv}
 
 En mayo de 2026 también se publicaron las siguientes mejoras.
+
+#### Diseñador de correo electrónico
+
+* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros. [Más información](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Fecha de disponibilidad: 21 de mayo de 2026
 
 #### Campañas orquestadas
 
@@ -425,7 +431,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <table>
 <thead>
 <tr>
-<th><strong>Recorrido Arbitration - fórmulas de clasificación</strong><br/></th>
+<th><strong>Recorrido Arbitration - Clasificar fórmulas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +452,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas para mejorar la navegación y la administración en la interfaz.
 
-  Fecha de disponibilidad: 21 de mayo de 2026
+  Fecha de disponibilidad: 2 de junio de 2026
 
 #### Recorridos
 
@@ -454,19 +460,17 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
   Fecha de disponibilidad: 21 de mayo de 2026
 
-* **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
 * **Compatibilidad con identificadores adicionales para audiencias externas**. Ahora se admiten identificadores adicionales en recorridos para audiencias externas, incluidas audiencias importadas de un archivo CSV y audiencias creadas con Federated Audience Composition. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario; no se requiere un etiquetado de esquema.
 
   Fecha de disponibilidad: 1 de junio de 2026
 
+#### Campañas orquestadas
+
+* **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
+
+  Fecha de disponibilidad: 1 de junio de 2026
+
 #### Diseñador de correo electrónico
-
-* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros.
-
-  Fecha de disponibilidad: 21 de mayo de 2026
 
 * **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
 
