@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ Responder &quot;Sí&quot; sugiere el mejor almacén de datos, pero confirme siem
 
 +++ ¿Cuál es el número máximo de actividades por campaña orquestada?
 
-El número de actividades en una campaña orquestada está limitado a 500.
+Se aplican dos límites diferentes:
+
+* **Actividades de canal**: un máximo de 10 actividades de canal por campaña orquestada (correo electrónico, SMS, push o correo directo). Las actividades de segmentación y control de flujo no cuentan. Si se supera este límite al guardar o publicar, la operación fallará.
+
+* **Tamaño de lienzo**: hasta **500 actividades** en el lienzo. Para mantener la capacidad de mantenimiento, mantenga los flujos de trabajo en **100 actividades** en la práctica.
 
 **Más información**
 

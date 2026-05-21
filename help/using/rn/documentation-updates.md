@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: '7833'
+source-wordcount: '7851'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 91%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Mayo de 2026 {#may-2026}
+
+* La página **Limitaciones y protecciones de campañas orquestadas** ahora documenta el límite de **actividades de canal** por campaña orquestada. [Más información](../orchestrated/guardrails.md#activities-limitations)
 
 * Se ha revisado la página **Terminología clave**: se han agregado seis términos nuevos, se ha introducido una nueva sección **Términos de conflicto y priorización** y se ha agregado una nueva guía de desambiguación **Cuando los términos parecen similares** para cuatro pares de términos que se confunden con frecuencia. Los términos específicos de Adobe Experience Platform se han eliminado y reemplazado por una nota que vincula al glosario de Adobe Experience Platform. [Más información](../start/terminology.md)
 
