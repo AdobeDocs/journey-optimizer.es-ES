@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
+source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -318,7 +318,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <td>
 <p>Los recorridos no recurrentes de <strong>Leer audiencia</strong> ahora pasan automáticamente al estado <strong>Detenido</strong> una vez que se cierra el último perfil activo. Anteriormente, estas recorridos permanecían <strong>Activas</strong> hasta que expiró el tiempo de espera global de 91 días, incluso cuando ya no circulaba ningún perfil por ellas. Con esta mejora, el estado de recorrido refleja el estado de ejecución real en cuanto se completa, lo que mantiene el inventario de recorrido preciso sin intervención manual.</p>
 <p>Tenga en cuenta que este comportamiento no se aplica a los recorridos que incluyen nodos que causan períodos de espera, como nodos de espera, nodos de reacción o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días.</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
 </tr>
 </tbody>
 </table>
@@ -353,7 +353,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <p>Use el nuevo nodo <strong>Optimizar</strong> para segmentar audiencias específicas y determinar la mejor ruta para cumplir con los KPI centrados en la empresa.</p>
 <p>Esta herramienta le permite desarrollar campañas de marketing más efectivas que tengan más probabilidades de interesar en el nivel 1:1, mejorar los esfuerzos de personalización de marketing para los clientes y mejorar los KPI de participación del cliente esencial, como las conversiones y los ingresos.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <td>
 <p>Ahora puede utilizar fórmulas para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de atributos de perfil del cliente y factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -422,7 +422,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <p>Use el nuevo nodo <strong>Optimizar</strong> para segmentar audiencias específicas y determinar la mejor ruta para cumplir con los KPI centrados en la empresa.</p>
 <p>Esta herramienta le permite desarrollar campañas de marketing más efectivas que tengan más probabilidades de interesar en el nivel 1:1, mejorar los esfuerzos de personalización de marketing para los clientes y mejorar los KPI de participación del cliente esencial, como las conversiones y los ingresos.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 <td>
 <p>Ahora puede utilizar fórmulas para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de atributos de perfil del cliente y factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -458,7 +458,7 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
 * **Autenticación personalizada basada en certificados en acciones personalizadas**: las acciones personalizadas ahora admiten la autenticación personalizada basada en certificados. Al agregar subType: &quot;certificateCredential&quot; a una configuración de autorización personalizada, Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso (no se requiere secreto de cliente). Diseñado para API empresariales que aplican la verificación de identidad basada en certificados, como Azure Entra ID.
 
-  Fecha de disponibilidad: 21 de mayo de 2026
+  Fecha de disponibilidad: 22 de mayo de 2026
 
 * **Compatibilidad con identificadores adicionales para audiencias externas**. Ahora se admiten identificadores adicionales en recorridos para audiencias externas, incluidas audiencias importadas de un archivo CSV y audiencias creadas con Federated Audience Composition. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario; no se requiere un etiquetado de esquema.
 
