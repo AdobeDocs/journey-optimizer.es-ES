@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
 workflow-type: tm+mt
-source-wordcount: 2883
-ht-degree: 22%
+source-wordcount: 2765
+ht-degree: 23%
 
 ---
 
@@ -462,6 +462,16 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
   Fecha de disponibilidad: 1 de junio de 2026
 
+#### Diseñador de correo electrónico
+
+* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros.
+
+  Fecha de disponibilidad: 21 de mayo de 2026
+
+* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
+
+  Fecha de disponibilidad: 1 de junio de 2026
+
 #### Campañas
 
 * **Alertas de cliente para eventos de ciclo vital de campañas**: las nuevas alertas del sistema ahora le notifican de eventos de ciclo vital clave para campañas activadas por acciones y API. Suscribirse en el nivel de zona protegida.
@@ -478,19 +488,6 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
   Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-#### Diseñador de correo electrónico
-
-* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros.
-
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
-
-
   Fecha de disponibilidad: 1 de junio de 2026
 
 #### Configuración
@@ -499,21 +496,8 @@ Las siguientes funcionalidades y mejoras están programadas para su lanzamiento 
 
   Fecha de disponibilidad: 1 de junio de 2026
 
-#### Diseñador de correo electrónico
-
-* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
-
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros.
-
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
 #### Creación de informes
 
 * **Excluir clics de bots para informes de correo electrónico y SMS**: ahora hay disponibles nuevas métricas estimadas para filtrar las interacciones no humanas (bots) de los informes de correo electrónico y SMS. Estas incluyen las tasas de clics estimadas, las tasas de clics (CTR) y las tasas de clics hasta la apertura (CTOR), lo que proporciona una vista más precisa de la participación real del cliente. Las métricas existentes se mantienen sin cambios y estas nuevas métricas pueden utilizarse junto con los informes actuales para mejorar el análisis.
-
 
   Fecha de disponibilidad: 1 de junio de 2026
