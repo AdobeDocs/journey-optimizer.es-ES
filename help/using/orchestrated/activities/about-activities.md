@@ -6,16 +6,13 @@ description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 49%
+source-wordcount: 530
+ht-degree: 44%
 
 ---
 
@@ -31,13 +28,17 @@ Todas las actividades se detallan en las secciones siguientes:
 
 ![Lista de actividades disponibles en el lienzo](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* Según el modelo de licencia, los permisos y la implementación, las actividades disponibles pueden diferir.
->
->* El número de actividades en una campaña orquestada está limitado a 500.
+>Según el modelo de licencia, los permisos y la implementación, las actividades disponibles pueden diferir.
 
+## Mecanismos de protección y limitaciones {#activity-guardrails}
+
+* **Límite de actividades de canal**: una campaña orquestada admite un máximo de 10 actividades de canal en la publicación (correo electrónico, SMS, push o correo directo). Las actividades de segmentación y control de flujo no se contabilizan en este límite.
+
+* **Límite de actividades de lienzo**: el número de actividades en el lienzo está limitado a 500. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
+
+Vea [Protecciones y limitaciones](../guardrails.md) para todas las limitaciones y protecciones de campañas orquestadas.
 
 ## Actividades de segmentación {#targeting}
 
