@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 23%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -116,6 +116,30 @@ Cuando el contenido esté listo, haz clic en el botón **[!UICONTROL Guardar]**.
 >Los fragmentos visuales no pueden superar los 100 KB. Los fragmentos de expresión no pueden superar los 200 KB.
 
 El fragmento se creará y se agregará a la lista de fragmentos con el estado **[!UICONTROL Borrador]**. Puede previsualizarlo y publicarlo para que esté disponible en recorridos y campañas.
+
+### Bloquear un fragmento visual {#lock-visual-fragment}
+
+Si está creando o editando un fragmento visual, puede bloquearlo para evitar que los editores lo modifiquen o desasocien cuando se utilice en correos electrónicos.
+
+Al seleccionar esta opción, se garantiza que el fragmento permanezca sincronizado dondequiera que se utilice, lo que ayuda a aplicar la marca, mantener la coherencia y cumplir con los requisitos legales.
+
+Para bloquear un fragmento visual, siga los pasos a continuación.
+
+1. En la pantalla de edición de contenido del fragmento, vaya a la pestaña **[!UICONTROL Configuración]**.
+
+1. De forma predeterminada, el fragmento está desbloqueado. Seleccione **[!UICONTROL Impedir que se rompa la herencia]** para bloquear el fragmento.
+
+1. Haga clic en **[!UICONTROL Confirmar]**.
+
+   >[!NOTE]
+   >
+   >Esta configuración se puede actualizar en cualquier momento. Sin embargo, los cambios solo se aplican a usos futuros. Los correos electrónicos existentes que utilizan este fragmento no se modifican.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Ahora, al utilizar este fragmento en un correo electrónico, está bloqueado y no se puede separar del fragmento original. [Más información](../email/use-visual-fragments.md#locked-fragments)
+
+Las nuevas actualizaciones del fragmento bloqueado original se propagan automáticamente a todos los correos electrónicos que lo utilicen.
 
 ## Previsualización y publicación del fragmento {#publish}
 

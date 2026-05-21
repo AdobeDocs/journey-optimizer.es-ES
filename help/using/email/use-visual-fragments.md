@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 0%
+source-wordcount: 1104
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
 
    ![](assets/fragments-in-designer.png)
 
-1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Se ordenan por fecha de creación: los fragmentos visuales añadidos recientemente se muestran primero en la lista. Puede:
+1. Se muestra la lista de todos los fragmentos visuales creados en la zona protegida actual. Se ordenan por fecha de creación: los fragmentos visuales añadidos recientemente se muestran primero en la lista. Puede hacer lo siguiente:
 
    * Busque un fragmento específico escribiendo su etiqueta.
    * Ordene los fragmentos en orden ascendente o descendente.
@@ -169,3 +169,17 @@ Para interrumpir la herencia, siga los pasos a continuación:
    ![](assets/fragment-break-inheritance.png)
 
 1. Ese fragmento se convierte en un elemento independiente que ya no está vinculado al fragmento original. Edítela como cualquier otro componente de contenido en el contenido. [Más información](content-components.md)
+
+### Fragmentos bloqueados {#locked-fragments}
+
+Si el fragmento estaba bloqueado por su autor, el icono de desbloqueo aparece atenuado y no se puede utilizar para interrumpir la herencia.
+
+![](assets/fragment-locked.png)
+
+Los fragmentos bloqueados permanecen sincronizados dondequiera que aparezcan, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento.
+
+Aprenda a bloquear un fragmento en [esta sección](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>El autor del fragmento puede cambiar la configuración más adelante para usos futuros restableciendo su comportamiento en **[!UICONTROL Permitir que se rompa la herencia]** en la configuración del fragmento.
