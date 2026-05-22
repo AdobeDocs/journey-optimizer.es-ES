@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e4ee70a9c918bffb372ab7cee567ae7422c3720c
+source-git-commit: 3d894653dd2ac1ddd10a8772da8d5cee21af9bca
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,15 @@ ht-degree: 0%
 >
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad en [!DNL Journey Optimizer], consulte [ciclo de lanzamiento](../rn/releases.md).
 
+## Información general {#access-loyalty-admin}
+
 Use la configuración del programa de fidelización en [!DNL Journey Optimizer] para conectarse a los sistemas de fidelización externos. Los especialistas en marketing utilizan **[!UICONTROL Desafíos de fidelidad (Beta)]** para diseñar desafíos, tareas, contenido y mensajería. La configuración del programa de fidelización es un área independiente y solo de administrador para el cumplimiento de recompensas, la asignación de eventos, el inventario de productos y las exclusiones.
 
-## Requisitos previos {#prerequisites}
+>[!NOTE]
+>
+>La configuración del programa de fidelización está destinada a administradores. Además de los permisos necesarios para los retos de fidelidad, necesita acceso de administrador a su instancia de [!DNL Journey Optimizer]. Póngase en contacto con el administrador de Adobe para solicitar acceso.
 
-La configuración del programa de fidelización está destinada a administradores. Además de los permisos necesarios para los retos de fidelidad, necesita acceso de administrador a su instancia de [!DNL Journey Optimizer]. Póngase en contacto con el administrador de Adobe para solicitar acceso.
-
-## Acceder a configuración de programa de fidelización {#access-loyalty-admin}
-
-Vaya a **[!UICONTROL Fidelidad]** y seleccione **[!UICONTROL Administrador fiel]** para acceder a la interfaz de configuración del programa de fidelización.
-
-La interfaz está organizada en pestañas:
+Para abrir la interfaz de configuración, vaya a **[!UICONTROL Fidelidad]** y seleccione **[!UICONTROL Administrador fiel]**. La interfaz está organizada en pestañas:
 
 * **Configuración global**: establezca el área de nombres de identidad de Experience Platform. [Aprenda a configurar las opciones globales](#global-settings)
 * **Proveedores de recompensas**: Conecte las API externas que cumplan las recompensas, incluidos los tipos de recompensas, los proxies y la autenticación. [Aprenda a configurar proveedores de recompensas](#reward-providers)
@@ -72,12 +70,6 @@ Abra la ficha **[!UICONTROL Configuración global]**. Por ahora, la configuraci�
 ## Proveedores de recompensa {#reward-providers}
 
 Un **proveedor de recompensas** indica a [!DNL Journey Optimizer] a dónde enviar las llamadas de cumplimiento cuando se registra el progreso del desafío o se completa un desafío; por ejemplo, una API que acredita puntos de lealtad o estrellas a una cuenta de miembro.
-
-Una configuración de proveedor de recompensas incluye:
-
-![](assets/admin-reward.png)
-
-* Detalles básicos de conexión (nombre, descripción, dirección URL, encabezados).
 * **[!UICONTROL Definiciones de recompensa]**: los tipos de recompensa que este proveedor puede emitir (por ejemplo, estrellas o millas).
 * **[!UICONTROL Proxies de recompensa]**: un proxy intermedio por el que se enrutan las llamadas en lugar del extremo directamente.
 * **[!UICONTROL Generadores de tokens de autenticación]**: el mecanismo que usa [!DNL Journey Optimizer] para obtener tokens de acceso antes de llamar a su API.
@@ -85,6 +77,8 @@ Una configuración de proveedor de recompensas incluye:
 Para crear un proveedor de recompensas, siga estos pasos:
 
 1. Abra la pestaña **[!UICONTROL Proveedores de recompensas]** y seleccione **[!UICONTROL Crear proveedor de recompensas]**.
+
+   ![](assets/admin-reward.png)
 
 1. Escriba **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
 
@@ -94,9 +88,9 @@ Para crear un proveedor de recompensas, siga estos pasos:
 
 1. Configure los siguientes recursos asociados a su proveedor de premios. Expanda cada sección para obtener más información:
 
-   +++Definiciones de recompensa: una entrada por recompensa que sea compatible con su proveedor (por ejemplo, puntos o estrellas del programa, crédito monetario)
+   +++Definiciones de recompensa
 
-   Para cada definición:
+   Una entrada por premio que es compatible con su proveedor (por ejemplo, puntos o estrellas del programa, crédito monetario). Para cada definición:
 
    * Proporcione un nombre y una descripción.
    * Especifique si la definición es **[!UICONTROL Habilitado]**.
@@ -107,7 +101,9 @@ Para crear un proveedor de recompensas, siga estos pasos:
 
    +++
 
-   +++Recompensar proxy: enruta las llamadas de cumplimiento a través de un servidor intermedio en lugar de directamente al extremo
+   +++Recompensar proxy
+
+   Enruta las llamadas de cumplimiento a través de un servidor intermedio en lugar de directamente al extremo.
 
    * Proporcione un nombre y una descripción.
    * Escriba la información de **[!UICONTROL Host]**, **[!UICONTROL Puerto]**.
@@ -118,7 +114,9 @@ Para crear un proveedor de recompensas, siga estos pasos:
 
    +++
 
-   +++Generador de tokens de autenticación: si la API requiere un token de portador para la autenticación
+   +++Auth token generator
+
+   Si la API requiere un token de portador para la autenticación.
 
    * Introduzca un nombre y una descripción.
    * En el campo Auth type, introduzca el tipo de autenticación (por ejemplo, Bearer).
@@ -143,11 +141,11 @@ Para editar un proveedor de recompensas existente, abre la pestaña **[!UICONTRO
 >
 >**[!UICONTROL Trae tus propios datos]** desafíos para lograr recompensas a través de tu propia integración de datos. Los proveedores de recompensas configurados aquí no se aplican a esos desafíos. [Aprenda a crear sus propios desafíos de datos](create-challenges.md#create-the-challenge)
 
-## Definiciones de eventos (opcional) {#event-definitions}
+## Definiciones de eventos {#event-definitions}
 
 **[!UICONTROL Definiciones de eventos]** asignan eventos de experiencia de sus sistemas (por ejemplo, compras, registro de llegada en el hotel) a actividades en las que los Desafíos de fidelidad pueden actuar, especialmente **[!UICONTROL eventos personalizados]** tareas. Cuando llegan los eventos, [!DNL Journey Optimizer] utiliza estas definiciones para decidir si se deben procesar o no. Los eventos que no coinciden con ninguna definición se omiten.
 
-### Creación de una definición de evento {#create-event-definition}
+Para crear una definición de evento, siga estos pasos:
 
 1. Abra la ficha **[!UICONTROL Definiciones de eventos]** y cree una nueva definición.
 
@@ -171,6 +169,8 @@ Para editar un proveedor de recompensas existente, abre la pestaña **[!UICONTRO
 ## Inventario de productos {#product-inventory}
 
 La pestaña **[!UICONTROL Inventario de productos]** le permite agrupar elementos de catálogo para que pueda segmentarlos en tareas sin enumerar todos los ID de artículo. Sube un **archivo CSV** que asigna cada identificador de elemento a uno o más **grupos de productos** (el mismo elemento puede aparecer en varios grupos). Después de la importación, estos grupos están disponibles cuando se configura la idoneidad de la tarea. [Aprenda a crear tareas](create-tasks.md)
+
+Para cargar un archivo de inventario de productos, siga estos pasos:
 
 1. Prepare un archivo CSV que asigne cada identificador de elemento a uno o varios grupos de productos. Expanda la sección siguiente para ver un ejemplo.
 
@@ -199,6 +199,8 @@ La pestaña **[!UICONTROL Inventario de productos]** le permite agrupar elemento
 ## Exclusiones {#exclusions}
 
 La pestaña **[!UICONTROL Exclusiones]** le permite definir elementos de catálogo y grupos que se excluyen en el programa de fidelidad sin enumerar todos los ID de elemento en cada tarea. Sube un **archivo CSV** que asigna cada identificador de elemento a uno o más **grupos de exclusión** (el mismo elemento puede aparecer en varios grupos). Después de la importación, esos elementos y grupos están disponibles en el generador de tareas: los elementos excluidos se marcan automáticamente y no se pueden incluir en una tarea; los grupos de exclusión solo se pueden agregar a la lista de exclusión de la tarea, no a la lista de inclusión. [Aprenda a definir elementos aptos y exclusiones en las tareas](create-tasks.md#eligible-items-exclusions)
+
+Para cargar un archivo de exclusiones de productos, siga estos pasos:
 
 1. Prepare un archivo CSV que asigne cada identificador de elemento a uno o varios grupos de exclusión. Expanda la sección siguiente para ver un ejemplo.
 
