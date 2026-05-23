@@ -101,7 +101,7 @@ Para configurar SDK para la administración de decisiones, siga uno de estos dos
 
 Esta opción es más fácil de usar para las personas que pueden tener menos experiencia en la codificación.
 
-1. [Creación de una propiedad de etiqueta](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
+1. [Creación de una propiedad de etiqueta](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=es)
 
 1. [Añadir el código de incrustación](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=es)
 
