@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 hide: true
-source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
-source-wordcount: '2835'
-ht-degree: 18%
+source-wordcount: '2786'
+ht-degree: 19%
 
 ---
 
@@ -77,6 +77,10 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 </tbody>
 </table>
 
+#### Próximamente {#may-26-journeys-coming-soon}
+
+Se esperan las siguientes capacidades de recorrido en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
+
 <table>
 <thead>
 <tr>
@@ -89,7 +93,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 <p>Use el nuevo nodo <strong>Optimizar</strong> para segmentar audiencias específicas y determinar la mejor ruta para cumplir con los KPI centrados en la empresa.</p>
 <p>Esta herramienta le permite desarrollar campañas de marketing más efectivas que tengan más probabilidades de interesar en el nivel 1:1, mejorar los esfuerzos de personalización de marketing para los clientes y mejorar los KPI de participación del cliente esencial, como las conversiones y los ingresos.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos.</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 1 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -106,15 +110,11 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 <td>
 <p>Ahora puede utilizar fórmulas para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de atributos de perfil del cliente y factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos.</p>
-<p>Fecha de disponibilidad: 21 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 1 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-#### Próximamente {#may-26-journeys-coming-soon}
-
-Se esperan las siguientes capacidades de recorrido en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
 
 <table>
 <thead>
@@ -128,7 +128,7 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 <p>El asistente de IA ahora funciona en el editor de expresiones avanzadas de recorrido para convertir las peticiones de datos en lenguaje natural en expresiones válidas y lógica condicional. Describa la expresión que desea crear y el Asistente para IA genera un código listo para usar que puede aplicar inmediatamente o perfeccionar mediante mensajes de seguimiento.</p>
 <p>Esta capacidad está disponible para todos los clientes como un Beta público.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Fecha de disponibilidad: 22 de mayo de 2026</p>
+<p>Fecha de disponibilidad: 2 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 <tr>
 <td>
 <p>Lanzada anteriormente en disponibilidad limitada, la simulación de Recorrido ya está disponible para todos los entornos. Con esta versión de General Availability, ahora puede utilizar Journey Agent para generar usuarios y eventos simulados directamente en el menú Simulation.</p>
-<p>Fecha de disponibilidad: 1 de junio de 2026</p>
+<p>Fecha de disponibilidad: principios de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -154,17 +154,13 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 
   Tenga en cuenta que este comportamiento no se aplica a los recorridos que incluyen nodos que causan períodos de espera, como nodos de espera, nodos de reacción o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días.
 
-  Fecha de disponibilidad: 21 de mayo de 2026
+  Fecha de disponibilidad: 2 de junio de 2026
 
 * **Autenticación personalizada basada en certificados en acciones personalizadas**: las acciones personalizadas ahora admiten la autenticación personalizada basada en certificados. Al agregar `subType: "certificateCredential"` a una configuración de autorización personalizada, Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso (no se requiere secreto de cliente). Diseñado para API empresariales que aplican la verificación de identidad basada en certificados, como Azure Entra ID.
 
-  Fecha de disponibilidad: 21 de mayo de 2026
+  Fecha de disponibilidad: 2 de junio de 2026
 
-* **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-* **Compatibilidad con identificadores adicionales para audiencias externas**. Ahora se admiten identificadores adicionales en recorridos para audiencias externas, incluidas audiencias importadas de un archivo CSV y audiencias creadas con Federated Audience Composition. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario, no se requiere etiquetado de esquema.
+* **Compatibilidad con identificadores adicionales para audiencias externas**. Ahora se admiten identificadores adicionales en recorridos para audiencias externas, incluidas audiencias importadas de un archivo CSV y audiencias creadas con Federated Audience Composition. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario; no se requiere un etiquetado de esquema.
 
   Fecha de disponibilidad: 1 de junio de 2026
 
@@ -215,6 +211,10 @@ Se espera la siguiente capacidad de campaña orquestada en los próximos días o
 </tr>
 </tbody>
 </table>
+
+* **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
+
+  Fecha de disponibilidad: 1 de junio de 2026
 
 ### Campañas {#may-26-campaigns}
 
@@ -305,6 +305,10 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras al can
 </tbody>
 </table>
 
+* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros. [Más información](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Fecha de disponibilidad: 21 de mayo de 2026
+
 #### Próximamente {#may-26-email-coming-soon}
 
 Se esperan las siguientes mejoras en el canal de correo electrónico en los próximos días o semanas. **La información que se muestra a continuación está sujeta a cambios.**
@@ -314,14 +318,6 @@ Se esperan las siguientes mejoras en el canal de correo electrónico en los pró
   Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
   Fecha de disponibilidad: 1 de junio de 2026
-
-* **Texto enriquecido en campos de fragmento editables**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido del correo electrónico. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-* **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros.
-
-  Fecha de disponibilidad: 21 de mayo de 2026
 
 ### Mensajería móvil (SMS, MMS y RCS) {#may-26-mobile}
 
@@ -344,7 +340,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a la mensaje
 </tbody>
 </table>
 
-* **Recuento de caracteres**: ahora puede usar el Recuento de caracteres para monitorizar la longitud de sus mensajes SMS en tiempo real. Le ayuda a ver cuándo se dividirá un mensaje en varios segmentos para administrar mejor el formato y evitar aumentos inesperados en los costes de envío. [Más información](../mobile/create-mobile-message.md)
+* **Recuento de caracteres**: en Adobe Journey Optimizer, ahora puede usar el Recuento de caracteres para monitorizar la longitud de sus mensajes SMS en tiempo real. Le ayuda a ver cuándo se dividirá un mensaje en varios segmentos para administrar mejor el formato y evitar aumentos inesperados en los costes de envío. [Más información](../mobile/create-mobile-message.md)
 
 * **Enlaces SMS a un conjunto de datos personalizado**: en **credenciales de la API de SMS**, enrute **SMS entrantes** a un **conjunto de datos de evento de experiencia personalizado con perfil habilitado** que seleccione en lugar de solo el conjunto de datos de seguimiento predeterminado. [Más información](../mobile/mobile-webhook.md)
 
@@ -432,7 +428,7 @@ Se esperan las siguientes mejoras en la administración en los próximos días o
 
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas para mejorar la navegación y la administración en la interfaz.
 
-  Fecha de disponibilidad: 21 de mayo de 2026
+  Fecha de disponibilidad: 2 de junio de 2026
 
 * **El conjunto de datos de evento de comentarios de mensajes que se mueve a la ingesta por lotes** - `AJO Message Feedback Event Dataset` está realizando una transición del flujo al modo de ingesta por lotes. Este cambio garantiza que la ingesta de datos no supere los límites de ingesta de transmisión. Si utiliza este conjunto de datos en informes de Customer Journey Analytics o ejecuta consultas en él, espere un aumento de la latencia de datos de hasta dos horas en adelante.
 
