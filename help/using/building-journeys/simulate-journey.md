@@ -10,10 +10,10 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Tenga en cuenta que la simulación de Recorrido está en **disponibilidad limita
 
 >[!IMPORTANT]
 >
->Necesita el permiso **Simular recorridos** para acceder a la función **[!UICONTROL Simulación]**. [Más información](../administration/permissions.md)
+>Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
 
 Los usuarios simulados son entidades temporales similares a un perfil que usted define en **[!UICONTROL Configuración de simulación]**. En esta sección se explica cómo crearlos, desde la interfaz de usuario de o un archivo JSON, guardarlos para reutilizarlos, ajustarlos o eliminarlos de la lista y enviarlos al recorrido.
 
