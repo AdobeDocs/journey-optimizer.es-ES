@@ -9,25 +9,16 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
-ht-degree: 14%
+source-wordcount: 2197
+ht-degree: 13%
 
 ---
 
@@ -45,6 +36,8 @@ Una vez creada una notificación push, puede diseñar su contenido para platafor
 ![](assets/title-body.png)
 
 Para redactar el mensaje, haga clic en los campos **[!UICONTROL Título]** y **[!UICONTROL Cuerpo]**. Utilice el editor de personalización para definir contenido, personalizar datos y añadir contenido dinámico. Obtenga más información acerca de la [personalización](../personalization/personalize.md) y el [contenido dinámico](../personalization/get-started-dynamic-content.md) en el editor de personalización.
+
+También puede insertar atributos de perfil en línea directamente en los campos **[!UICONTROL Title]** y **[!UICONTROL Body]** escribiendo `{{`. Se abre un menú desplegable de autocompletar en el cursor: seleccione cualquier atributo para insertarlo como un token de personalización sin abrir el editor completo. [Más información sobre la edición en línea →](../personalization/personalize.md#inline-personalization)
 
 Utilice la sección de vista previa del dispositivo para visualizar cómo se muestra la notificación push en iOS, Android y Web.
 
@@ -65,10 +58,14 @@ Configure la acción que se produce cuando los destinatarios tocan el cuerpo de 
 * **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL de vinculación profunda en el campo proporcionado.
 * **[!UICONTROL URL web]**: Dirige a los usuarios a una página web externa. Introduzca la dirección URL de destino en el campo proporcionado.
 
-  >[!NOTE]
-  >
-  >Si la notificación push contiene una dirección URL configurada como vínculo universal en iOS, la notificación push abrirá la aplicación asociada si está instalada, independientemente de la acción **[!UICONTROL URL web]** que haya elegido. Para forzar la apertura de un explorador, utilice un dominio no configurado para los vínculos universales o quite el registro de vínculos universales para el dominio.
-  >Para obtener más información sobre cómo administra Adobe SDK los vínculos profundos y universales, consulte la [documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+Cuando una dirección URL de un vínculo o campo de medios es demasiado larga para mostrarla, siempre aparece un icono de información del objeto junto al campo (pase el ratón sobre él para ver la dirección URL completa).
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>Si la notificación push contiene una dirección URL configurada como vínculo universal en iOS, la notificación push abrirá la aplicación asociada si está instalada, independientemente de la acción **[!UICONTROL URL web]** que haya elegido. Para forzar la apertura de un explorador, utilice un dominio no configurado para los vínculos universales o quite el registro de vínculos universales para el dominio.
+>Para obtener más información sobre cómo administra Adobe SDK los vínculos profundos y universales, consulte la [documentación de Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Añadir medios {#add-media-push}
 
