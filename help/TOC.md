@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: 57dd0b345a5191a3fcace1a0df7fb0963f32b9b7
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3333'
 ht-degree: 95%
 
 ---
@@ -144,7 +144,8 @@ ht-degree: 95%
    + {hide-from-toc}[Crear retos](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Crear tareas](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[Supervisar el rendimiento del desafío de fidelidad](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[Configurar el programa de fidelización](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[Configurar desafíos de lealtad](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[Conjuntos de datos y datos de fidelización](using/loyalty-challenges/loyalty-data-and-datasets.md)
    + {hide-from-toc}[Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campañas {#campaigns}
    + {hide-from-toc}[Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
