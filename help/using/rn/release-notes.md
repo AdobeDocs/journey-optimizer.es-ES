@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ En mayo de 2026 también se publicaron las siguientes mejoras de uso.
 
 #### Creación de contenido
 
-* **Edición de atributos de perfil en línea**: ahora puede insertar expresiones de atributos de perfil directamente en el Designer de correo electrónico sin abrir el editor de personalización completo. Escriba `{{` en cualquier campo de texto para abrir un menú desplegable de autocompletar en línea y, a continuación, busque y seleccione el atributo que necesita (se inserta en la posición del cursor al instante). Esta capacidad también está disponible en el editor de canales push. [Más información](../personalization/personalize.md#inline-personalization)
+* **Edición de atributos de perfil en línea**: la edición de atributos de perfil en línea en el Designer de correo electrónico se publicó inicialmente en abril. Como parte de la versión de mayo, esta capacidad se ha desunido del asistente de IA y se ha ampliado al editor de canales push. [Más información](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
