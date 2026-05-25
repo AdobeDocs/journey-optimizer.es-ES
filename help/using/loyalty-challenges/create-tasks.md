@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 17%
@@ -22,18 +22,16 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**Documentación de retos de fidelización**
+**Tabla de contenido**
 
 [Introducción a los retos de fidelización](get-started.md)
 
-+++Crear y administrar desafíos
+**Crear y administrar desafíos**
 
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * [Crear desafíos](create-challenges.md)
 * **Crear tareas** ◀︎ **Usted está aquí**
 * [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-+++
 
 +++Configuración e integración
 
