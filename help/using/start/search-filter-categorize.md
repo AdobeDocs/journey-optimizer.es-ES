@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 82%
 
 ---
 
@@ -53,7 +53,7 @@ Pulse **Entrar** para acceder a todos los resultados y filtrar por objeto empres
 
 ## Filtrar listas {#filter-lists}
 
-En la mayoría de las listas, utilice la barra de búsqueda para buscar elementos específicos y defina los criterios de filtrado.
+En la mayoría de las listas, utilice la barra de búsqueda para buscar elementos específicos y defina los criterios de filtrado. También puede ordenar cualquier lista haciendo clic en un encabezado de columna. En la vista de carpetas de Campañas, también se admite la ordenación por **[!UICONTROL Prioridad]** y **[!UICONTROL Configuración del canal]**.
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtro le permite filtrar los elementos mostrados según diferentes criterios: puede elegir mostrar solo los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
@@ -66,6 +66,21 @@ Además, puede utilizar etiquetas unificadas para filtrar una lista en función 
 En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
 ![](assets/journey4.png)
+
+## Acciones masivas {#bulk-actions}
+
+En las listas **Campañas**, **Fragmentos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones en masa que aparece en la parte inferior de la pantalla.
+
+Estas son las operaciones disponibles:
+
+* **[!UICONTROL Agregar al paquete]**: exporte los elementos seleccionados a otra zona protegida. [Obtenga información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover a carpeta]** - Mover los elementos seleccionados a una carpeta.
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los elementos seleccionados. [Aprenda a utilizar etiquetas →](#add-tags)
+* **[!UICONTROL Administrar acceso]** - Aplicar etiquetas de acceso a los elementos seleccionados. [Más información acerca del control de acceso de nivel de objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Archivar]** - Archivar elementos seleccionados. Disponible para fragmentos y plantillas.
+* **[!UICONTROL Eliminar]** - Eliminar permanentemente los elementos seleccionados. Disponible solo para campañas.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Trabajar con etiquetas unificadas {#tags}
 

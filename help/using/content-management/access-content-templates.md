@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: 900
 ht-degree: 3%
 
 ---
@@ -114,6 +114,12 @@ Para desplazarse fácilmente por las plantillas de contenido, utilice carpetas p
 >[!NOTE]
 >
 >Cuando se edita o elimina una plantilla, las campañas o los recorridos, incluido el contenido creado con esta plantilla, no se ven afectados.
+
+## Acciones masivas {#bulk-actions-templates}
+
+Puede seleccionar varias plantillas a la vez y aplicar operaciones por lotes a todas ellas. Las operaciones disponibles incluyen añadir elementos a un paquete, moverlos a una carpeta, editar etiquetas, gestionar el acceso y archivar. [Más información sobre las acciones masivas →](../start/search-filter-categorize.md#bulk-actions)
+
+También puede ordenar la lista de plantillas haciendo clic en la mayoría de los encabezados de columna y cambiando el tamaño de las columnas arrastrando el borde de la columna para que se ajuste a los datos que necesite.
 
 ## [!BADGE disponibilidad limitada]{type=Informative} muestra las plantillas como miniaturas {#template-thumbnails}
 

@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a5b3c77265409031736232f33e0c750403a04bb5
 workflow-type: tm+mt
 source-wordcount: 992
 ht-degree: 4%
@@ -136,6 +136,14 @@ También puede cargar un archivo con variantes y valores predefinidos para acele
 Una vez añadidas las variantes, puede utilizarlas para obtener una vista previa del contenido en el panel derecho y enviar pruebas por correo electrónico.
 
 ### Previsualizar variaciones de contenido {#preview}
+
+<!--
+The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
+
+![](assets/simulation-preview-redesign.png)
+
+To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
+-->
 
 Para obtener una vista previa del contenido mediante una variante, seleccione la variante correspondiente de la lista para actualizar el contenido en el panel de vista previa con la información introducida para esta variante.
 

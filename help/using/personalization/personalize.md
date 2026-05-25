@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '681'
+ht-degree: 23%
 
 ---
 
@@ -58,6 +58,18 @@ En **[!UICONTROL Personalization Editor]** o en la barra de herramientas de Emai
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Aprenda a trabajar con el Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
+
+## Edición en línea de atributos de perfil {#inline-personalization}
+
+Puede insertar expresiones de atributos de perfil directamente al editar contenido en el editor de **correo electrónico de Designer** o **canal push**, sin abrir el editor de personalización completo.
+
+Para ello, siga estos pasos:
+
+1. Escriba `{{` en cualquier campo de texto. Se abrirá un menú desplegable de autocompletar en línea en la posición del cursor.
+1. Empiece a escribir para filtrar los atributos de perfil disponibles.
+1. Seleccione el atributo que necesite: se inserta como un token de personalización en la posición del cursor.
+
+![](assets/inline-profile-attributes.png)
 
 ## Profundicemos
 

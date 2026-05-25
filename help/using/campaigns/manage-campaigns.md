@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: 1760
 ht-degree: 10%
 
 ---
@@ -96,6 +96,8 @@ Cada campaña orquestada de la lista muestra información como el [estado](#stat
 
 Además, hay una barra de búsqueda y filtros disponibles para facilitar la búsqueda dentro de la lista. Por ejemplo, puede filtrar las campañas para mostrar solo las asociadas a un canal o etiqueta determinados, o las creadas durante un intervalo de fechas específico.
 
+También puede ordenar la lista haciendo clic en la mayoría de los encabezados de columna. En la vista de carpetas, también se admite la ordenación y el filtrado por las columnas **[!UICONTROL Priority]** y **[!UICONTROL Channel configuration]**.
+
 ## Operaciones de campaña {#operations}
 
 La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-builder-icon-more.svg) en el inventario de campañas le permite realizar varias operaciones.
@@ -120,6 +122,10 @@ La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-bui
 **Solo para campañas orquestadas:**
 
 * **[!UICONTROL Volver al borrador]** - Cancelar la publicación y revertir una campaña al estado de borrador para la recuperación de errores. Esta acción está disponible cuando una campaña programada aún no se ha iniciado o cuando una campaña en directo encuentra un error antes de que se complete cualquier ejecución. [Más información sobre cómo revertir campañas →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### Acciones masivas {#bulk-actions-campaigns}
+
+Puede seleccionar varias campañas a la vez y aplicar operaciones masivas a todas ellas. Las operaciones disponibles incluyen agregar elementos a un paquete, moverlos a una carpeta, editar etiquetas, administrar el acceso y eliminar. [Más información sobre las acciones masivas →](../start/search-filter-categorize.md#bulk-actions)
 
 ## Explicación del estado de campaña {#statuses}
 

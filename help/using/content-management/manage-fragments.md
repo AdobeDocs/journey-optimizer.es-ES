@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 19%
+source-wordcount: 1523
+ht-degree: 18%
 
 ---
 
@@ -72,6 +72,12 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 * Mueva el fragmento a una carpeta. [Más información](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Acciones masivas {#bulk-actions-fragments}
+
+Puede seleccionar varios fragmentos a la vez y aplicar operaciones masivas a todos ellos. Las operaciones disponibles incluyen añadir elementos a un paquete, moverlos a una carpeta, editar etiquetas, gestionar el acceso y archivar. [Más información sobre las acciones masivas →](../start/search-filter-categorize.md#bulk-actions)
+
+También puede ordenar la lista de fragmentos haciendo clic en el encabezado de cualquier columna y cambiando el tamaño de las columnas arrastrando el borde de la columna para que se ajuste a los datos que necesite.
 
 ## Uso de carpetas para administrar fragmentos {#folders}
 

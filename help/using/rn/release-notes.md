@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ En mayo de 2026 también se publicaron las siguientes mejoras.
 
   +++
 
+### Mejoras de uso {#may-26-usability}
+
+En mayo de 2026 también se publicaron las siguientes mejoras de uso.
+
+#### Listas
+
+* **Acciones en lotes**: ahora puede seleccionar varios elementos a la vez en las listas **Campañas**, **Fragmentos** y **Plantillas** y realizar operaciones en lotes desde una sola barra de acciones, lo que incluye agregar elementos a un paquete, moverlos a una carpeta, editar etiquetas, administrar el acceso y archivarlos o eliminarlos. [Más información](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* Ahora, las listas **Ordenar y cambiar el tamaño de las columnas** - **Campañas**, **Fragmentos** y **Plantillas** admiten la ordenación al hacer clic en cualquier encabezado de columna. En la vista de carpetas de Campañas, también está disponible la ordenación y el filtrado por **[!UICONTROL Prioridad]** y **[!UICONTROL Configuración del canal]**. También se puede cambiar el tamaño de los anchos de columna en las listas **Fragmentos** y **Plantillas**; arrastre el borde de la columna para que se ajuste a los datos que más le interesan. [Más información](../start/search-filter-categorize.md#filter-lists)
+
+#### Creación de contenido
+
+* **Edición de atributos de perfil en línea**: ahora puede insertar expresiones de atributos de perfil directamente en el Designer de correo electrónico sin abrir el editor de personalización completo. Escriba `{{` en cualquier campo de texto para abrir un menú desplegable de autocompletar en línea y, a continuación, busque y seleccione el atributo que necesita (se inserta en la posición del cursor al instante). Esta capacidad también está disponible en el editor de canales push. [Más información](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Información sobre la URL del vínculo en el editor de canales push**: cuando una URL de un vínculo o campo multimedia es demasiado larga para mostrarla, siempre aparece un icono de información sobre herramientas junto al campo; pase el ratón sobre él para ver la URL completa. [Más información](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Próximamente {#coming-soon}
 
