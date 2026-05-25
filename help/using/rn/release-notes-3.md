@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ Se espera la siguiente capacidad de campaña orquestada en los próximos días o
 
 ### Campañas {#may-26-campaigns}
 
-Se esperan las siguientes mejoras de la campaña en los próximos días o semanas.
-
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 * **Alertas de cliente para eventos de ciclo vital de campañas**: las nuevas alertas del sistema ahora le notifican de eventos de ciclo vital clave para campañas activadas por acciones y API. Suscribirse en el nivel de zona protegida.
@@ -432,8 +430,6 @@ En esta versión se han añadido las siguientes funciones y mejoras a la adminis
 
 ### Administración {#may-26-admin}
 
-Se esperan las siguientes mejoras en la administración en los próximos días o semanas.
-
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas para mejorar la navegación y la administración en la interfaz.
@@ -447,8 +443,6 @@ Se esperan las siguientes mejoras en la administración en los próximos días o
 +++
 
 ### Creación de informes {#may-26-reporting}
-
-Se espera la siguiente mejora de la creación de informes en los próximos días o semanas.
 
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
