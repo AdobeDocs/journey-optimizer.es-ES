@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configuración del programa de fidelización
-description: Aprenda a configurar proveedores de recompensas, definiciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para su programa de fidelidad en Adobe [!DNL Journey Optimizer].
+title: Configuración de desafíos de lealtad
+description: Aprenda a configurar proveedores de recompensas, definiciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para los desafíos de fidelidad en Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# Configuración del programa de fidelización {#loyalty-admin}
+# Configuración de desafíos de lealtad {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**Documentación de retos de fidelización:**
+**Documentación de retos de fidelización**
 
-* [Introducción a los retos de fidelización](get-started.md)
+[Introducción a los retos de fidelización](get-started.md)
+
++++Crear y administrar desafíos
+
 * [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
 * [Crear desafíos](create-challenges.md)
 * [Creación de tareas](create-tasks.md)
 * [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-* **Configurar el programa de fidelización** ◀︎ **Usted está aquí**
+
++++
+
++++Configuración e integración
+
+* **Configurar desafíos de lealtad** ◀︎ **Usted está aquí**
+* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## Información general {#access-loyalty-admin}
 
-La configuración del programa de fidelización conecta a [!DNL Journey Optimizer] con sus sistemas de fidelidad externos mediante la configuración del cumplimiento de recompensas, la asignación de eventos, el inventario de productos y las exclusiones antes de que los especialistas en marketing creen desafíos.
+La configuración de Retos de fidelidad conecta a [!DNL Journey Optimizer] con sus sistemas de fidelidad externos al configurar el cumplimiento de recompensas, la asignación de eventos, el inventario de productos y las exclusiones antes de que los especialistas en marketing creen desafíos.
 
 >[!NOTE]
 >
->La configuración del programa de fidelización requiere acceso de administrador a su instancia de [!DNL Journey Optimizer], además de los permisos necesarios para los Desafíos de fidelización. Póngase en contacto con el administrador de Adobe para obtener acceso.
+>La configuración de Desafíos de fidelización requiere acceso de administrador a su instancia de [!DNL Journey Optimizer], además de los permisos necesarios para Desafíos de fidelización. Póngase en contacto con el administrador de Adobe para obtener acceso.
 
 Para abrir la interfaz de configuración, vaya a **[!UICONTROL Fidelidad]** y seleccione **[!UICONTROL Administrador fiel]**. La interfaz está organizada en pestañas:
 
@@ -59,9 +72,9 @@ Para abrir la interfaz de configuración, vaya a **[!UICONTROL Fidelidad]** y se
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Configuración global"
->abstract="La configuración global define la configuración de nivel de organización para su programa de fidelidad, incluido el área de nombres de identidad utilizado para identificar a los miembros en distintos eventos y desafíos."
+>abstract="La configuración global define la configuración en el nivel de organización de los Retos de fidelidad, incluido el área de nombres de identidad que se utiliza para identificar a los miembros en distintos eventos y desafíos."
 
-Abra la pestaña **[!UICONTROL Configuración global]** y seleccione el [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de Adobe Experience Platform para su programa de fidelidad en la lista desplegable **[!UICONTROL Área de nombres]**. Este área de nombres debe coincidir con la forma en que se identifican los perfiles de miembro en los datos.
+Abra la pestaña **[!UICONTROL Configuración global]** y seleccione el [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de Adobe Experience Platform para desafíos de fidelidad en la lista desplegable **[!UICONTROL Área de nombres]**. Este área de nombres debe coincidir con la forma en que se identifican los perfiles de miembro en los datos.
 
 ![](assets/admin-global-settings.png)
 
