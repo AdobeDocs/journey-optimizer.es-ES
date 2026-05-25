@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**Documentación de retos de fidelización**
+**Tabla de contenido**
 
 [Introducción a los retos de fidelización](get-started.md)
 
@@ -35,13 +35,11 @@ ht-degree: 5%
 
 +++
 
-+++Configuración e integración
+**Configurar e integrar**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * **Conjuntos de datos y datos de fidelización** ◀︎ **Usted está aquí**
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-+++
 
 >[!ENDSHADEBOX]
 
@@ -61,9 +59,9 @@ Póngase en contacto con su administrador de Adobe para configurar el programa d
 
 Las audiencias de desafío, la personalización y los perfiles de uso de informes se encuentran en la clase **[!DNL XDM Individual Profile]**. Alinee la identidad [área de nombres](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"} que usa para los retos de fidelidad con la forma en que se identifican los miembros en los datos de perfil.
 
-Para los atributos de fidelidad estándar del perfil (puntos, nivel, programa, estado y campos relacionados), utilice el grupo de campos de esquema **[Detalles de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** de Experience Platform. Ese grupo de campos define el objeto `loyalty` y sus propiedades (por ejemplo, `points`, `tier`, `program` y `status`).
+Para los atributos de fidelidad estándar del perfil (puntos, nivel, programa, estado y campos relacionados), utilice el grupo de campos de esquema **[Detalles de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** de Experience Platform. Ese grupo de campos define el objeto `loyalty` y sus propiedades (por ejemplo, `points`, `tier`, `program` y `status`).
 
-➡️ [grupo de campos de esquema de detalles de fidelización](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [grupo de campos de esquema de detalles de fidelización](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Eventos de experiencia {#experience-events}
 
