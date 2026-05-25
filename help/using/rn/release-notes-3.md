@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ En esta versión se han añadido las siguientes funciones y mejoras a la adminis
 </table>
 
 * **Acceso a repositorios entre organizaciones en el Selector de recursos de Assets**: ahora puede seleccionar recursos sin problemas entre repositorios de varias organizaciones directamente desde el Selector de recursos de Adobe Experience Manager.
+
+### Facilidad de uso {#may-26-usability}
+
+En esta versión se han añadido las siguientes mejoras de uso.
+
+#### Listas
+
+* **Acciones en lotes**: ahora puede seleccionar varios elementos a la vez en las listas **Campañas**, **Fragmentos** y **Plantillas** y realizar operaciones en lotes desde una sola barra de acciones, lo que incluye agregar elementos a un paquete, moverlos a una carpeta, editar etiquetas, administrar el acceso y archivarlos o eliminarlos. [Más información](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* Ahora, las listas **Ordenar y cambiar el tamaño de las columnas** - **Campañas**, **Fragmentos** y **Plantillas** admiten la ordenación al hacer clic en cualquier encabezado de columna. En la vista de carpetas de Campañas, también está disponible la ordenación y el filtrado por **[!UICONTROL Prioridad]** y **[!UICONTROL Configuración del canal]**. También se puede cambiar el tamaño de los anchos de columna en las listas **Fragmentos** y **Plantillas**; arrastre el borde de la columna para que se ajuste a los datos que más le interesan. [Más información](../start/search-filter-categorize.md#filter-lists)
+
+#### Creación de contenido
+
+* **Edición de atributos de perfil en línea**: ahora puede insertar expresiones de atributos de perfil directamente en el Designer de correo electrónico sin abrir el editor de personalización completo. Escriba `{{` en cualquier campo de texto para abrir un menú desplegable de autocompletar en línea y, a continuación, busque y seleccione el atributo que necesita (se inserta en la posición del cursor al instante). Esta capacidad también está disponible en el editor de canales push. [Más información](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Información sobre la URL del vínculo en el editor de canales push**: cuando una URL de un vínculo o campo multimedia es demasiado larga para mostrarla, siempre aparece un icono de información sobre herramientas junto al campo; pase el ratón sobre él para ver la URL completa. [Más información](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### Administración {#may-26-admin}
 
