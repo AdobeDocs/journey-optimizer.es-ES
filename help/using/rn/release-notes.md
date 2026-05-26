@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -367,6 +367,8 @@ En esta versión se han añadido las siguientes funciones y mejoras a la mensaje
 * **Enlaces SMS a un conjunto de datos personalizado**: en **credenciales de la API de SMS**, enrute **SMS entrantes** a un **conjunto de datos de evento de experiencia personalizado con perfil habilitado** que seleccione en lugar de solo el conjunto de datos de seguimiento predeterminado. [Más información](../mobile/mobile-webhook.md)
 
 * **Mejora de la interfaz de webhook**: al configurar los webhooks de SMS, la interfaz de usuario ahora incluye una guía de configuración integrada con ejemplos prácticos, lo que facilita la alineación de las cargas del proveedor y la resolución de problemas sin abandonar el flujo de configuración. [Más información](../mobile/mobile-webhook.md)
+
+* **Vínculos profundos en el contenido de SMS**: Ahora es posible agregar vínculos profundos al contenido de SMS mediante la función de ayuda de URL. Esto garantiza que los destinatarios se dirijan directamente al contenido en la aplicación deseado, sin enrutarlos a través de un explorador web o una tienda de aplicaciones. [Más información](../email/deeplinks.md)
 
 ### Canal de WhatsApp {#may-26-whatsapp}
 

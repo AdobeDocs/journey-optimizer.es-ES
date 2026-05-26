@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 13%
 
 ---
@@ -64,7 +64,7 @@ Configure la acción que se produce cuando los destinatarios tocan el cuerpo de 
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Abrir aplicación]**: inicia la aplicación asociada con la notificación. La aplicación está especificada en su [configuración de canal](../configuration/channel-surfaces.md) (es decir, ajuste preestablecido de mensaje).
-* **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL de vinculación profunda en el campo proporcionado.
+* **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL del vínculo profundo en el campo proporcionado.
 * **[!UICONTROL URL web]**: Dirige a los usuarios a una página web externa. Introduzca la dirección URL de destino en el campo proporcionado.
 
 Cuando una dirección URL de un vínculo o campo de medios es demasiado larga para mostrarla, siempre aparece un icono de información del objeto junto al campo (pase el ratón sobre él para ver la dirección URL completa).
@@ -168,7 +168,7 @@ Para iOS, se especifica un identificador de categoría de notificación. Las cat
 
 Utilice la opción **[!UICONTROL Agregar botón]** para definir la etiqueta de cada botón y la acción asociada, como se detalla a continuación:
 
-* **[!UICONTROL Vínculo profundo]**: Redirija a los usuarios a una vista, sección o ficha específica dentro de la aplicación. Introduzca la URL de vinculación profunda en el campo asociado.
+* **[!UICONTROL Vínculo profundo]**: Redirija a los usuarios a una vista, sección o ficha específica dentro de la aplicación. Introduzca la URL del vínculo profundo en el campo asociado.
 
 * **[!UICONTROL URL web]**: redirige a los usuarios a una página web externa. Introduzca la dirección URL en el campo asociado.
 

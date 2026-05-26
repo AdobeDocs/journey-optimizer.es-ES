@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 4%
 
 ---
@@ -220,7 +220,7 @@ El siguiente ejemplo permite calcular la suma total de los precios de los produc
 
 El asistente de `url` se usa para rastrear vínculos, acortar direcciones URL e insertar [vínculos profundos](../../email/deeplinks.md) en el contenido del mensaje SMS.
 
-**Sintaxis**
+**Syntax**
 
 ```sql
 {{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}

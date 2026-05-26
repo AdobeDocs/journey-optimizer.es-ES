@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha revisado la página **Terminología clave**: se han agregado seis términos nuevos, se ha introducido una nueva sección **Términos de conflicto y priorización** y se ha agregado una nueva guía de desambiguación **Cuando los términos parecen similares** para cuatro pares de términos que se confunden con frecuencia. Los términos específicos de Adobe Experience Platform se han eliminado y reemplazado por una nota que vincula al glosario de Adobe Experience Platform. [Más información](../start/terminology.md)
 
-* La documentación de **Deeplinks** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código de Personalization Editor) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
+* La documentación de **vínculos profundos** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código del editor de Personalization) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
 
 * La referencia del asistente **Url** se ha actualizado con una sección específica en la documentación de Personalization. [Más información](../personalization/functions/helpers.md#url)
 
