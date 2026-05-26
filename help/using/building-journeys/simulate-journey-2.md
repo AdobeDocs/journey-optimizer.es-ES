@@ -10,9 +10,9 @@ level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Continúe con [Crear y administrar usuarios simulados](#test-users), [almacenar 
 
 >[!IMPORTANT]
 >
->Necesita el permiso **Simular recorridos** para acceder a la función **[!UICONTROL Simulación]**. [Más información](../administration/permissions.md)
+>Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
 
 Los usuarios simulados son entidades temporales similares a un perfil que usted define en **[!UICONTROL Configuración de simulación]**. En esta sección se explica cómo crearlos, guardarlos para reutilizarlos, ajustarlos o eliminarlos de la lista y enviarlos al recorrido.
 
@@ -115,7 +115,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    +++
 
-1. Los usuarios simulados que creó aparecen en la lista **[!UICONTROL Usuarios de prueba]**. Para cada entrada, abra el menú de opciones y seleccione una de las siguientes opciones:
+1. Los usuarios simulados que creó aparecen en la lista **[!UICONTROL Usuarios de prueba]**. Para cada entrada, seleccione una de las siguientes opciones:
 
    * ![Icono Editar](assets/do-not-localize/Smock_Edit_18_N.svg): Actualice los detalles del usuario simulado.
    * ![Icono de envío](assets/do-not-localize/Smock_Send_18_N.svg): ejecute la simulación solo para este usuario simulado.
@@ -129,7 +129,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
 1. Si el recorrido incluye una actividad **[!UICONTROL Wait]**, abra la pestaña **[!UICONTROL Test settings]** para ajustar el tiempo de espera durante la simulación. Por ejemplo, si la actividad **[!UICONTROL Wait]** activa está configurada durante varios días, puede anularla a 10 segundos, de modo que el usuario simulado solo pase ese tiempo en el nodo antes de pasar a la siguiente actividad.
 
-1. Haga clic en **[!UICONTROL Enviar todo]** para enviar a todos los usuarios simulados de la lista al recorrido, o haga clic en ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) en una fila para enviar solamente a ese usuario. Aparece un mensaje de confirmación `Simulated users have been sent successfully.` cuando los usuarios simulados entran correctamente en el recorrido.
+1. Haga clic en **[!UICONTROL Enviar todo]** para enviar a todos los usuarios simulados de la lista al recorrido, o haga clic en ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) en una fila para enviar solamente a ese usuario. Aparece un mensaje de confirmación `Simulated users have entered the journey successfully.` cuando los usuarios simulados entran correctamente en el recorrido.
 
    ![Panel de selección de usuarios simulados](assets/simulate-5-2.png)
 
