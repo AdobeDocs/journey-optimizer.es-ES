@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 90%
+source-wordcount: 1587
+ht-degree: 87%
 
 ---
 
@@ -414,3 +414,11 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="journeyExpAI"
 >title="Ayudante de expresiones"
 >abstract="Utilice el Ayudante de expresiones para generar y refinar expresiones en Journey Optimizer."
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="Actividad Cargar archivo"
+>abstract="La actividad **Cargar archivo** es una actividad **Segmentación**. Utilícelo para cargar un archivo CSV o TXT en el lienzo de campaña orquestada y utilícelo como audiencia de campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
