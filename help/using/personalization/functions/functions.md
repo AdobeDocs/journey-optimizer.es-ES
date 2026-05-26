@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2537'
 ht-degree: 2%
 
 ---
@@ -464,7 +464,7 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#url-parameter-encryption-helper">Cifrar</a></td><td>Cifra los valores de expresión de los parámetros de consulta de URL en el momento del procesamiento mediante una clave activa del registro de zona protegida </td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-function">Url</a></td><td>Esta función administra las direcciones URL en el contenido del mensaje SMS; utilícela con <code>originalUrl</code> para acortar la dirección URL y <code>type='DEEPLINK'</code> para insertar vínculos profundos</td>
+        <td><a href="helpers.md#url-function">Url</a></td><td>Esta función administra las direcciones URL en el contenido del mensaje SMS; utilícelo con <code>originalUrl</code> para acortar la dirección URL y <code>type='DEEPLINK'</code> para insertar vínculos profundos</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Con</a></td><td>Esta función se utiliza para cambiar el token de evaluación de la plantilla-parte</td>
@@ -536,4 +536,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

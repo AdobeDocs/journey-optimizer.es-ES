@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---

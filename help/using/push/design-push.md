@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 13%
 
 ---
@@ -64,7 +55,7 @@ Configure la acción que se produce cuando los destinatarios tocan el cuerpo de 
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Abrir aplicación]**: inicia la aplicación asociada con la notificación. La aplicación está especificada en su [configuración de canal](../configuration/channel-surfaces.md) (es decir, ajuste preestablecido de mensaje).
-* **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL de vinculación profunda en el campo proporcionado.
+* **[!UICONTROL Vínculo profundo]**: Dirige a los usuarios a contenido específico dentro de la aplicación, como una vista, una sección de página o una pestaña en particular. Introduzca la URL del vínculo profundo en el campo proporcionado.
 * **[!UICONTROL URL web]**: Dirige a los usuarios a una página web externa. Introduzca la dirección URL de destino en el campo proporcionado.
 
 Cuando una dirección URL de un vínculo o campo de medios es demasiado larga para mostrarla, siempre aparece un icono de información del objeto junto al campo (pase el ratón sobre él para ver la dirección URL completa).
@@ -168,7 +159,7 @@ Para iOS, se especifica un identificador de categoría de notificación. Las cat
 
 Utilice la opción **[!UICONTROL Agregar botón]** para definir la etiqueta de cada botón y la acción asociada, como se detalla a continuación:
 
-* **[!UICONTROL Vínculo profundo]**: Redirija a los usuarios a una vista, sección o ficha específica dentro de la aplicación. Introduzca la URL de vinculación profunda en el campo asociado.
+* **[!UICONTROL Vínculo profundo]**: Redirija a los usuarios a una vista, sección o ficha específica dentro de la aplicación. Introduzca la URL del vínculo profundo en el campo asociado.
 
 * **[!UICONTROL URL web]**: redirige a los usuarios a una página web externa. Introduzca la dirección URL en el campo asociado.
 
