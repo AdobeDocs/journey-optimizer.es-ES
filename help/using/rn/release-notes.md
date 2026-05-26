@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fdd4853a97a3a794323ac460ea85966248dbd2bd
+source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
 workflow-type: tm+mt
-source-wordcount: 2945
+source-wordcount: 2924
 ht-degree: 18%
 
 ---
@@ -235,7 +235,13 @@ Se espera la siguiente capacidad de campaña orquestada en los próximos días o
 
 * **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
 
-  Fecha de disponibilidad: 1 de junio de 2026
+  Fecha de disponibilidad: principios de junio de 2026
+
+* **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de los campos de encabezado de correo electrónico, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.
+
+  Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
+
+  Fecha de disponibilidad: principios de junio de 2026
 
 +++
 
@@ -334,18 +340,6 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras al can
 * **Restringir el salto de herencia en fragmentos**: al crear o editar un fragmento, ahora puede elegir si se puede modificar cuando se utiliza en correos electrónicos. Bloquear un fragmento garantiza que permanezca sincronizado en cualquier lugar donde aparezca, lo que evita ediciones locales que podrían romper los estándares de marca o los requisitos de cumplimiento. Esta configuración se puede actualizar más adelante y se aplicará a usos futuros. [Más información](../content-management/create-fragments.md#lock-visual-fragment)
 
   Fecha de disponibilidad: 21 de mayo de 2026
-
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
-
-Se esperan las siguientes mejoras en el canal de correo electrónico en los próximos días o semanas.
-
-* **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de los campos de encabezado de correo electrónico, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.
-
-  Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-+++
 
 ### Mensajería móvil (SMS, MMS y RCS) {#may-26-mobile}
 
