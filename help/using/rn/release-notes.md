@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: 2973
-ht-degree: 18%
+source-wordcount: 3012
+ht-degree: 17%
 
 ---
 
@@ -327,8 +327,8 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras al can
 <tbody>
 <tr>
 <td>
-<p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico mediante una opción específica en el Designer de correo electrónico.</p>
-<p>Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
+<p>Ahora es posible añadir vínculos profundos al contenido del correo electrónico mediante una opción específica en el Designer de correo electrónico. Esto garantiza que los usuarios sean llevados directamente al contenido correcto en la aplicación, en lugar de ser redirigidos a navegadores o tiendas de aplicaciones, preservando el contexto y la participación.</p>
+<p>Tenga en cuenta que, aunque la opción Vínculo profundo está disponible para todos los clientes, los vínculos profundos solo funcionan si ha completado los pasos de configuración necesarios y de implementación de la aplicación móvil.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Para obtener más información, consulte la <a href="../email/deeplinks.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 12 de mayo de 2026</p>
@@ -368,7 +368,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a la mensaje
 
 * **Mejora de la interfaz de webhook**: al configurar los webhooks de SMS, la interfaz de usuario ahora incluye una guía de configuración integrada con ejemplos prácticos, lo que facilita la alineación de las cargas del proveedor y la resolución de problemas sin abandonar el flujo de configuración. [Más información](../mobile/mobile-webhook.md)
 
-* **Vínculos profundos en el contenido de SMS**: Ahora es posible agregar vínculos profundos al contenido de SMS mediante la función de ayuda de URL. Esto garantiza que los destinatarios se dirijan directamente al contenido en la aplicación deseado, sin enrutarlos a través de un explorador web o una tienda de aplicaciones. [Más información](../email/deeplinks.md)
+* **Vínculos profundos en el contenido de SMS**: Ahora es posible agregar vínculos profundos al contenido de SMS mediante la función de ayuda de URL. Esto garantiza que los destinatarios se dirijan directamente al contenido en la aplicación deseado, sin enrutarlos a través de un explorador web o una tienda de aplicaciones, siempre y cuando haya completado los pasos de configuración necesarios y la implementación de la aplicación móvil. [Más información](../email/deeplinks.md)
 
 ### Canal de WhatsApp {#may-26-whatsapp}
 

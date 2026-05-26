@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ Cuando los destinatarios hacen clic en el vínculo profundo, se les redirige dir
 >[!DNL Adobe Journey Optimizer] admite la vinculación profunda tanto para iOS como para Android mediante el uso de direcciones URL rastreadas (`/ee/v1/mclick/*`) para garantizar la compatibilidad y el rastreo de clics.
 
 ## Creación de vínculos profundos {#authoring}
+
+>[!CAUTION]
+>
+>Los vínculos profundos no funcionarán a menos que haya completado los pasos de [configuración](#configuration) e [implementación de la aplicación móvil](#mobile-implementation) en esta página.
 
 ### Correo electrónico {#authoring-email}
 
