@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -143,12 +143,12 @@ Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en
 
 [Más información sobre el Control de acceso de nivel de objeto (OLAC)](../administration/object-based-access.md)
 
-## tamaño de carga útil de recorrido {#journey-payload-size}
+## Tamaño de la carga útil del recorrido {#journey-payload-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
->title="Tamaño de carga útil de recorrido actual"
->abstract="Muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado. Utilice este indicador para monitorizar la complejidad del recorrido antes de publicar y evitar errores causados por el límite de tamaño de carga útil excedido."
+>title="Tamaño actual de la carga útil del recorrido"
+>abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Utilice este indicador para monitorizar la complejidad del recorrido antes de la publicación y evitar errores producidos por un exceso del límite de tamaño de la carga útil."
 
 El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel de propiedades del recorrido muestra el tamaño actual de la carga útil del recorrido en relación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura es visible en cualquier fase de la creación del recorrido.
 

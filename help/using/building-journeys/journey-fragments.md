@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Desde el inventario de fragmentos, puede realizar las siguientes acciones en un 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Añadir un fragmento de recorrido"
->abstract="Solo los fragmentos **[!UICONTROL activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos — las actualizaciones del fragmento original no se reflejan en el recorrido."
+>abstract="Solo los fragmentos **[!UICONTROL activos]** están disponibles en el selector. Al insertar un fragmento, se crea una **copia estática** de sus nodos; las actualizaciones del fragmento original no se reflejarán en el recorrido."
 
 Para insertar un fragmento en un recorrido:
 

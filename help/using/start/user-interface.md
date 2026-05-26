@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -384,36 +384,36 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Ayuda de configuración de AEM"
+>title="Ayuda para la configuración de AEM"
 >abstract="Más información sobre la creación y administración de una configuración"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
->title="Configuración de instancia"
->abstract="Seleccione el tipo de configuración de instancia adecuado para la instalación. </br>Configuración de solo autor: utilice fragmentos de contenido de la instancia de autor de AEM. No se admiten la configuración de instancias de publicación ni las actualizaciones en directo.</br>Configuración de instancia de publicación: configure la instancia de publicación. Si lo desea, habilite &quot;Enviar token a la instancia de publicación&quot; para proporcionar las credenciales de servicio para la autenticación."
+>title="Configuración de la instancia"
+>abstract="Seleccione el tipo de configuración de la instancia adecuado para la instalación. </br>Configuración solo de autor: utilice fragmentos de contenido de la instancia de autor de AEM. No se admiten la configuración de instancias de publicación ni las actualizaciones en directo.</br>Configuración de la instancia de publicación: configuración de los ajustes de la instancia. Si lo desea, active “Enviar token a la instancia de publicación” para suministrar las credenciales de servicio para la autenticación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Enviar token a la instancia de publicación"
->abstract="Cuando está habilitada, las credenciales del servicio se envían para autenticar las solicitudes en la instancia de publicación. Proporcione a continuación un JSON de credencial de servicio válido."
+>abstract="Cuando están habilitadas, las credenciales del servicio se envían para autenticar las solicitudes en la instancia de publicación. Proporcione a continuación un JSON de credencial de servicio válido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="Pegar JSON de credencial de servicio"
->abstract="Pegue el JSON de la credencial de servicio de AEM después de crearlos. Para ello, consulte la documentación de la cuenta técnica pública. Se le aplica formato y se valida automáticamente."
+>title="Pegar JSON de la credencial de servicio"
+>abstract="Pegue el JSON de la credencial de servicio de AEM después de crearlos. Para ello, consulte la documentación de la cuenta técnica pública. Se formateará y se validará automáticamente."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Dominio personalizado"
->abstract="Opcional. Proporcione un dominio personalizado si publish-p16552-e147195.adobeaemcloud.com no puede recuperar contenido para su organización"
+>abstract="Opcional. Proporcione un dominio personalizado si se impide que publish-p16552-e147195.adobeaemcloud.comis recupere contenido para su organización"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Ayudante de expresiones"
->abstract="Utilice el Ayudante de expresiones para generar y refinar expresiones en Journey Optimizer."
+>title="Asistente de expresiones"
+>abstract="Utilice el asistente de expresiones para generar y perfeccionar expresiones en Journey Optimizer."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->
