@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1627
 ht-degree: 1%
 
 ---
@@ -163,6 +163,17 @@ Para ello:
    ![](assets/fragment-expression-use.png)
 
 ## Añadir texto enriquecido a un fragmento personalizable {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Fragmento heredado"
+>abstract="Los campos editables de este fragmento están en modo de solo texto. Hasta que los convierta, los usuarios solo pueden introducir texto sin formato al editar este fragmento en correos electrónicos; no se admite el texto enriquecido como negrita, cursiva, hipervínculos y saltos de línea. Haga clic en <b>Convertir</b> en el componente para actualizarlo al modo compatible con HTML."
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Fragmento heredado"
+>abstract="Los campos editables de este fragmento personalizable son de solo texto. Formato de texto enriquecido (negrita, cursiva, hipervínculos, saltos de línea, etc.) no está disponible en el Designer de correo electrónico hasta que el autor del fragmento actualiza el fragmento al modo compatible con HTML mediante el botón <b>Convertir</b> en el editor de fragmentos."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalización de campos editables en un fragmento"
 
 El texto enriquecido, como saltos de línea, negrita, cursiva, etc., se puede agregar a un fragmento personalizable mediante componentes de HTML. Para ello, siga los pasos que aparecen a continuación.
 <!--

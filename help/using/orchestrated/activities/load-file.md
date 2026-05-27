@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uso de la actividad Cargar archivo
 description: Aprenda a utilizar la actividad Cargar archivo para dirigirse a una audiencia de campaña organizada desde un archivo CSV o TXT sin ingerir el archivo en Adobe Experience Platform
-hide: true
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
 product_v2:
@@ -13,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
+source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
 workflow-type: tm+mt
-source-wordcount: 1511
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Actividad Cargar archivo"
->abstract="La actividad **Cargar archivo** es una actividad **Administración de datos**. Utilícelo para trabajar con perfiles y datos almacenados en un archivo externo en el lienzo de Campaign Orchestrated y definir la audiencia de Campaign. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación. Póngase en contacto con su representante de Adobe para solicitar acceso."
+>abstract="La actividad **Cargar archivo** es una actividad **Administración de datos**. Utilícelo para trabajar con perfiles y datos almacenados en un archivo externo en el lienzo de Campaign Orchestrated y definir la audiencia de Campaign. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform."
 
 La actividad **[!UICONTROL Cargar archivo]** es una actividad **[!UICONTROL Administración de datos]**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo. Admite **segmentación basada en archivos** en campañas orquestadas cuando la lista de destinatarios proviene de un sistema externo (por ejemplo, una exportación de CRM o un archivo de socio) y desea ejecutar una campaña sin crear primero una canalización de ingesta de Adobe Experience Platform completa.
 
@@ -33,7 +32,7 @@ La actividad **[!UICONTROL Cargar archivo]** es una actividad **[!UICONTROL Admi
 >
 >La actividad **Cargar archivo** está disponible en **Disponibilidad limitada** para un conjunto de organizaciones. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para ver las fases de disponibilidad, consulte [Ciclo de la versión de Journey Optimizer](../../rn/releases.md).
 >
->Actualmente, la actividad no está disponible para usarla con **Healthcare Shield** o **Privacy and Security Shield**.
+>Actualmente, la actividad no está disponible para usarla con **Healthcare Shield**.
 
 ## Mecanismos de protección y limitaciones {#limitations}
 
@@ -46,25 +45,19 @@ Las siguientes limitaciones se aplican a la actividad Cargar archivo:
 
 Para ver los límites en las actividades de canal y lienzo, consulte [Protecciones y limitaciones](../guardrails.md#activities-limitations).
 
-## Requisitos previos {#prerequisites}
-
-Antes de configurar una actividad de **[!UICONTROL Cargar archivo]**:
-
-1. Cree la **[!UICONTROL dimensión de segmentación]** que necesita para la reconciliación (por ejemplo, Destinatarios). [Aprenda a crear una dimensión de segmentación](../target-dimension.md)
-
-1. Asegúrese de que los valores de identidad del archivo coincidan con los registros existentes para esa dimensión. Las filas del archivo cargado se reconcilian con destinatarios existentes, la actividad no crea perfiles nuevos a partir del archivo.
-
 ## Configuración de la actividad Cargar archivo {#load-file-configuration}
 
-Configure la actividad en dos partes: defina la estructura de archivos esperada con un archivo de muestra y, a continuación, especifique el archivo que se cargará cuando se ejecute la campaña y cómo se reconciliarán las filas con la dimensión de segmentación.
-
-Siga estos pasos para configurar la actividad **[!UICONTROL Cargar archivo]**:
+Configure la actividad en dos partes: defina la estructura de archivos esperada con un archivo de muestra y, a continuación, especifique el archivo que se cargará cuando se ejecute la campaña.
 
 1. Agregue una actividad **[!UICONTROL Cargar archivo]** al lienzo de la campaña orquestada.
 
    ![](../assets/load-file.png)
 
 1. Escriba una **[!UICONTROL etiqueta]** para la actividad.
+
+### Definición del archivo de muestra {#sample-file}
+
+Use un archivo de muestra para configurar **[!UICONTROL Columnas]** y **[!UICONTROL Formato]**. Los datos de ejemplo no se importan como audiencia de la campaña.
 
 1. En la sección **[!UICONTROL Archivo de muestra]**, seleccione el archivo local que define la estructura esperada.
 
@@ -80,7 +73,9 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Cargar archivo]**:
 
    ![](../assets/load-file-sample-columns.png)
 
-   Las siguientes propiedades están disponibles para cada columna. Después de seleccionar un **[!UICONTROL tipo de datos]**, aparecerán opciones adicionales para ese tipo. Expanda las secciones siguientes para ver la lista completa por tipo de datos.
+   Después de seleccionar un **[!UICONTROL tipo de datos]**, aparecerán opciones adicionales para ese tipo. Expanda las secciones siguientes para ver los parámetros comunes a todas las columnas y las opciones específicas del tipo.
+
+   +++Parámetros de columna comunes
 
    * **[!UICONTROL Ignorar columna]** — Excluye la columna de la importación cuando está seleccionada.
    * **[!UICONTROL Etiqueta]** — Nombre para mostrar de la columna (por ejemplo, `email`).
@@ -102,6 +97,8 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Cargar archivo]**:
 
    * **[!UICONTROL Valor predeterminado]**: valor predeterminado que se usará cuando **[!UICONTROL Error al procesar]** se establezca para usar un valor predeterminado.
    * **[!UICONTROL Reasignación de valores]**: asigne valores específicos a valores nuevos. Haga clic en **[!UICONTROL Agregar asignación]** para definir cada asignación (por ejemplo, reemplazar `True`/`False` por `1`/`0`).
+
+   +++
 
    +++Parámetros de columnas de cadena
 
@@ -126,29 +123,29 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Cargar archivo]**:
 
    +++
 
-   +++Parámetros de columnas de fecha
+   +++Parámetros de las columnas de fecha y hora
+
+   Las opciones dependen de si **[!UICONTROL Tipo de datos]** es **Fecha**, **Hora** o **Fecha y hora**.
+
+   **Fecha**
 
    * **[!UICONTROL Formato de fecha]** — Patrón que coincide con la forma en que aparecen las fechas en el archivo (por ejemplo, `yyyy/mm/dd`).
    * **[!UICONTROL Separadores]**:
 
       * **[!UICONTROL Año, mes, día]**: carácter entre los componentes año, mes y día (por ejemplo, `/`).
 
-   +++
-
-   +++Parámetros de columnas de tiempo
+   **Hora**
 
    * **[!UICONTROL Formato de hora]**: Patrón que coincide con la forma en que aparecen las horas en el archivo (por ejemplo, `13:30` para las horas y los minutos de 24 horas).
    * **[!UICONTROL Separadores]**:
 
       * **[!UICONTROL Hora, minuto, segundo]**: carácter entre los componentes de hora, minuto y segundo (por ejemplo, `:`).
 
-   +++
-
-   +++Parámetros de las columnas de fecha y hora
+   **Fecha y hora**
 
    * **[!UICONTROL Formato de fecha]** — Patrón que coincide con la forma en que aparece la parte de fecha en el archivo.
    * **[!UICONTROL Formato de hora]** — Patrón que coincide con la forma en que aparece la parte de hora en el archivo.
-   * **[!UICONTROL Separadores]**: caracteres entre componentes de fecha y hora, como se muestra en la interfaz de usuario de la columna.
+   * **[!UICONTROL Separadores]**: caracteres entre componentes de fecha y hora.
 
    +++
 
@@ -165,55 +162,25 @@ Siga estos pasos para configurar la actividad **[!UICONTROL Cargar archivo]**:
    * **[!UICONTROL Delimitador de cadena]**: carácter utilizado para incluir valores de cadena en el archivo.
    * **[!UICONTROL Separador de columnas]**: carácter que separa las columnas de un archivo delimitado.
 
-1. En la sección **[!UICONTROL Archivo de destino]**, elija cómo se proporciona el archivo; por ejemplo, **[!UICONTROL Cargar archivo del equipo local]** para la carga manual en esta versión.
+1. Haga clic en **[!UICONTROL Confirmar]** para validar la configuración del archivo de muestra.
 
-1. Seleccione el archivo CSV o TXT que desea cargar.
+### Definición del archivo de destino {#target-file}
+
+Especifique el archivo que se cargará durante la ejecución de la campaña y cómo se relaciona cada fila con los destinatarios existentes.
+
+1. En la sección **[!UICONTROL Archivo de destino]**, seleccione el archivo CSV o TXT que contiene el destino.
+
+   ![](../assets/load-file-target.png)
 
    >[!CAUTION]
    >
-   > Asegúrese de que el archivo de destino sigue el mismo formato, estructura de columnas y número de columnas que el archivo de muestra. Las discrepancias pueden provocar errores durante la ejecución.
-
-1. Seleccione la columna de identidad en el archivo: el campo utilizado para hacer coincidir cada fila con un destinatario existente (por ejemplo, la dirección de correo electrónico o el ID de cliente).
-
-1. Seleccione la **[!UICONTROL dimensión de segmentación]** con la que se reconciliará.
-
-1. Cuando se complete la configuración, obtenga una vista previa de una muestra de filas asignadas si la interfaz de usuario la ofrece y, a continuación, confirme la acción.
+   > Asegúrese de que el archivo de destino sigue el mismo formato, estructura de columnas y número de columnas que el archivo de muestra.
 
 1. En la sección **[!UICONTROL Reject management]**, defina cómo se comporta la actividad cuando se producen errores durante el procesamiento del archivo:
 
    * **[!UICONTROL Número de errores permitidos]** — Número máximo de errores permitidos antes de que falle la actividad.
    * **[!UICONTROL Mantener rechazos en un archivo]**: cuando está habilitada, las filas que no se pudieron cargar se escriben en un archivo de rechazo del servidor para su revisión después de la ejecución.
 
-1. Conecte la transición saliente a las actividades descendentes.
+1. De manera opcional, habilite **[!UICONTROL Eliminar archivo después de la importación]** para quitar el archivo cargado del servidor una vez que se ejecute la campaña.
 
-Las filas que no se puedan reconciliar con un destinatario existente se excluyen de la audiencia. Las filas excluidas se registran en el registro de ejecución de la campaña; la campaña no falla únicamente porque algunas filas no coinciden.
-
-## Uso de la audiencia de archivo en las entregas {#downstream}
-
-Una vez que **[!UICONTROL Cargar archivo]** resuelva la audiencia, podrá usar actividades de campaña orquestadas estándar:
-
-* **[Actividades de canal](channels.md)**: correo electrónico, SMS, notificación push o correo directo.
-
-* **[Enriquecimiento](enrichment.md)** o **[Reconciliación](reconciliation.md)**: perfeccione o vincule aún más los datos de la tabla de trabajo cuando sea necesario.
-
-[Obtenga información sobre cómo organizar actividades de campaña](../orchestrate-activities.md)
-
-## Ejecución e informes {#execution}
-
-Cuando se ejecute la campaña:
-
-* El archivo se procesará a las **horas de ejecución**.
-
-* Las filas aceptadas forman la audiencia que se pasa a las actividades descendentes.
-
-* Se excluyen las filas rechazadas o no reconciliadas; los recuentos y motivos aparecen en **registro de ejecución** (por ejemplo, filas totales cargadas, filas aceptadas, filas rechazadas).
-
-La resolución de audiencia se ha diseñado para completarse en unos **60 segundos** para un CSV de **100.000 filas** en una infraestructura de campaña orquestada estándar.
-
-## Contenido relacionado {#related}
-
-* [Creación de una dimensión de segmentación](../target-dimension.md)
-* [Actividad Crear público](build-audience.md)
-* [Actividad Leer público](read-audience.md)
-* [Actividad de reconciliación](reconciliation.md)
-* [Mecanismos de protección y limitaciones](../guardrails.md)
+Una vez que **[!UICONTROL Cargar archivo]** resuelva la audiencia, conecte la transición saliente a las actividades de flujo descendente. [Obtenga información sobre cómo organizar actividades de campaña](../orchestrate-activities.md)
