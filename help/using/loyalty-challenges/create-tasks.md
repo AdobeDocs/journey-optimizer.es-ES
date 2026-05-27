@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 17%
+source-wordcount: '1145'
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuración de desafíos de lealtad](loyalty-admin.md)
 * [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +56,7 @@ ht-degree: 17%
 >
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
-Las tareas definen las acciones o los hitos específicos que los clientes deben completar para obtener recompensas en un desafío de lealtad. Puede configurar tipos de tareas, cantidades y requisitos de productos para crear experiencias de lealtad atractivas y personalizadas.
+Las tareas definen las acciones o los hitos específicos que los clientes deben completar para obtener recompensas en un desafío de lealtad. Puede configurar tareas de compra y gasto o **[!UICONTROL eventos personalizados]** tareas que hagan un seguimiento de los eventos de experiencia de Adobe Experience Platform que su organización ya capture.
 
 Cada tarea representa una acción mensurable que contribuye a la finalización del desafío. Las tareas son componentes reutilizables que se pueden crear de forma independiente y, a continuación, añadir a uno o más desafíos, o crear directamente dentro de un desafío.
 
@@ -65,7 +65,7 @@ Cada tarea representa una acción mensurable que contribuye a la finalización d
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Crear una tarea"
->abstract="Seleccione una actividad de cliente (compra o gasto) y, a continuación, configure los atributos específicos de la actividad: cantidades o importes, artículos aptos y exclusiones y límites opcionales como gasto mínimo o transacciones máximas. En el panel Propiedades, establezca el nombre y la descripción de la tarea."
+>abstract="Seleccione una actividad de cliente (compra, gasto o evento personalizado) y, a continuación, configure los atributos específicos de la actividad. En el panel Propiedades, establezca el nombre y la descripción de la tarea."
 
 Puede crear tareas a partir de dos puntos de entrada. El proceso de configuración es el mismo independientemente de dónde comience.
 
@@ -91,7 +91,7 @@ Seleccione el tipo de actividad que deben realizar los clientes para completar e
 
 * **[!UICONTROL Comprar]**: los clientes deben comprar uno o más elementos para completar esta tarea
 * **[!UICONTROL Gasto]**: los clientes deben gastar una cantidad especificada para completar esta tarea
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL Evento personalizado]**: los clientes deben realizar una actividad representada por un evento de experiencia de Adobe Experience Platform. Por ejemplo, un registro de llegada de hotel, una acción de aplicación móvil o un envío de revisión. El evento subyacente ya debe capturarse en Experience Platform y asignarse mediante una definición de evento en el menú **[!UICONTROL Administrador de fidelidad]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
 
 Para seleccionar una actividad, haga clic en el icono **+** y seleccione la actividad del cliente que mejor se ajuste a los objetivos del resultado. Cada tipo de actividad tiene atributos configurables específicos para definir y dar forma aún más a los requisitos de las tareas.
 ![](assets/task-create-activity.png)
@@ -123,6 +123,14 @@ Atributos disponibles para actividades **Spend**:
 
 ![](assets/task-create-spend.png)
 
+>[!TAB Actividad de evento personalizado]
+
+Atributos disponibles para **[!UICONTROL actividades de evento personalizado]**:
+
+* **[!UICONTROL Valores de evento personalizados]**: escriba los valores para el evento personalizado que deben completar los clientes. Utilice una coma para separar cada valor. Estos valores deben coincidir con las definiciones de eventos configuradas en el menú **[!UICONTROL Administrador de fidelización]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## Definir los elementos aptos y las exclusiones {#eligible-items-exclusions}
@@ -134,7 +142,9 @@ Atributos disponibles para actividades **Spend**:
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos aptos y exclusiones]** para definir qué elementos y grupos son aptos y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
+Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío. Los grupos de productos y los grupos de exclusión cargados en el menú **[!UICONTROL Administrador de fidelidad]** están disponibles cuando configura este atributo. [Aprenda a configurar el inventario y las exclusiones de productos](loyalty-admin.md#product-inventory)
+
+Las tareas de **[!UICONTROL Custom Event]** no utilizan elementos y exclusiones que cumplan los requisitos; la finalización depende de los **[!UICONTROL valores de Custom Event]** que configure.
 
 Por ejemplo, puede limitar una tarea a categorías de productos específicas o excluir del recuento las tarjetas regalo o los elementos promocionales para la finalización de la tarea.
 

@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1973'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuración de desafíos de lealtad](loyalty-admin.md)
 * [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +137,7 @@ La programación de desafíos ya está configurada. A continuación, añada las 
 >title="Tareas"
 >abstract="Seleccione las tareas que desea realizar para completar el desafío. A continuación, configure cómo se completa el desafío: las opciones disponibles dependen del tipo de desafío (estándar, racha o secuencial)."
 
-Las tareas definen las acciones específicas que los clientes deben completar para obtener recompensas. Puede configurar tipos de tareas (compras, gastos), cantidades, filtros de productos y otros atributos.
+Las tareas definen las acciones específicas que los clientes deben completar para obtener recompensas. Puede configurar tipos de tareas (compras, gastos o eventos personalizados), cantidades, filtros de productos y otros atributos.
 
 Para añadir tareas al desafío, siga estos pasos:
 
@@ -204,9 +204,7 @@ Para configurar cuándo y cómo se entregan las recompensas:
    * **[!UICONTROL Entregar recompensas en hitos de finalización de tareas a medida que se avanza el desafío]**: Las recompensas se incrementan a medida que los clientes completan tareas individuales (solo están disponibles para desafíos que requieren más de una tarea)\
      *Ejemplo: otorga 10 puntos después de la tarea 1, 20 puntos después de la tarea 2 y 50 puntos después de la tarea 3*
 
-1. Seleccione a su proveedor de recompensas. Esta es su solución de fidelidad que administra los puntos y recompensas del cliente.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. Seleccione a su proveedor de recompensas. Esta es su solución de fidelidad que administra los puntos y recompensas del cliente. Los proveedores de recompensas se crean en el menú **[!UICONTROL Administrador de fidelidad]** antes de que usted cree desafíos. [Aprenda a configurar proveedores de recompensas](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
