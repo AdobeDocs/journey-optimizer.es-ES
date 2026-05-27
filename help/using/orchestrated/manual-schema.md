@@ -14,7 +14,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 11%
@@ -167,7 +167,7 @@ Ahora debe habilitar el conjunto de datos para campañas organizadas.
 
 Después de crear el conjunto de datos, debe habilitarlo explícitamente para las campañas orquestadas. Este paso garantiza que el conjunto de datos esté disponible para la orquestación y personalización en tiempo real dentro de Adobe Journey Optimizer.
 
-Consulte [Documentación de Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement) para validar o habilitar la extensión de Campaign orquestada en el conjunto de datos.
+Consulte [Documentación de Adobe Developer](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset#tag/DatasetEnablement) para validar o habilitar la extensión de Campaign orquestada en el conjunto de datos.
 
 1. Busque su conjunto de datos en la lista **[!UICONTROL Conjuntos de datos]**.
 
