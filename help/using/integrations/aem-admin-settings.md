@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Para configurar el repositorio:
 1. Haga clic en **[!UICONTROL Crear integración]**.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. Si usa **[!DNL Adobe Experience Manager Managed Services]**, escriba un nombre de host del repositorio que termine con `adobecqms.net` en el campo **[!UICONTROL Identificador de repositorio de AMS personalizado]**.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. Elija qué repositorio configurar y haga clic en **[!UICONTROL Siguiente]**.
 
@@ -76,9 +80,19 @@ Para configurar el repositorio:
 
    +++
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Después de finalizar la configuración de la instancia, elija un fragmento de contenido para confirmar que la integración funciona.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. En la ventana **Asesor de contenido**, seleccione el fragmento que desee probar y, a continuación, haga clic en **[!UICONTROL Seleccionar]**.
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+1. Al guardar con un fragmento de contenido de prueba seleccionado, la validación se ejecuta automáticamente. Si la validación falla, se muestra una lista de errores para que pueda corregir la configuración.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. Para editar o deshabilitar esta integración del repositorio, acceda a la configuración creada anteriormente desde el menú **[!UICONTROL Integración con AEM]**.
 
-Al guardar, esa zona protegida utiliza el repositorio para el selector de fragmentos de contenido y **Asesor de contenido de Adobe Experience Manager**.
+Al guardar esta configuración, Journey Optimizer la almacena para ese repositorio en la zona protegida actual. A continuación, puede usar ese repositorio y su configuración al examinar y seleccionar contenido en el selector **Asesor de contenido**.
 

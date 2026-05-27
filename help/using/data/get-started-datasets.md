@@ -29,10 +29,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 96%
+source-wordcount: 1041
+ht-degree: 92%
 
 ---
 
@@ -74,7 +74,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 * Creación de informes
 
    * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos.
-   * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento del correo electrónico_: registros de interacción para el canal de correo electrónico que se utiliza para la creación de informes y públicos. La información almacenada se refiere a las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.).
+   * _Informes - Conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: Registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y audiencias. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones de WhatsApp.
    * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
    * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
    * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.

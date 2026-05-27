@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 0%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 0%
 Las experiencias existentes de **Selector de recursos** y **Selector de fragmentos de contenido** en los flujos de trabajo de Adobe Journey Optimizer se están reemplazando con **Asesor de contenido**. El Asesor de contenido proporciona una interfaz unificada con tecnología de IA para detectar y seleccionar Assets, fragmentos de contenido y Dynamic Media directamente en los flujos de trabajo de creación de AJO. Las integraciones existentes seguirán funcionando durante el período de transición.
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta integración se aplica a **Adobe Experience Manager as a Cloud Service Sites**, solo para **fragmentos de contenido**. Journey Optimizer lee fragmentos del nivel **Publish** (no del autor).
 
 La integración entre Adobe Experience Manager y Journey Optimizer sigue este flujo de datos:
 
