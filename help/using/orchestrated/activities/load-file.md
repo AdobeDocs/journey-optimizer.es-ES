@@ -5,16 +5,12 @@ title: Uso de la actividad Cargar archivo
 description: Aprenda a utilizar la actividad Cargar archivo para dirigirse a una audiencia de campaña organizada desde un archivo CSV o TXT sin ingerir el archivo en Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +37,6 @@ Las siguientes limitaciones se aplican a la actividad Cargar archivo:
 * Puede cargar hasta 50 MB por archivo.
 * Solo se admiten archivos CSV y TXT de estructura plana.
 * Los datos cargados se utilizan cuando se ejecuta la campaña y no se almacenan como un conjunto de datos de Adobe Experience Platform.
-* Cada fila debe coincidir con un destinatario existente para la dimensión de segmentación seleccionada. La actividad Cargar archivo no crea nuevos perfiles a partir del archivo.
 
 Para ver los límites en las actividades de canal y lienzo, consulte [Protecciones y limitaciones](../guardrails.md#activities-limitations).
 
