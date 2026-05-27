@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
+source-git-commit: 0abb8b2a9265155c27986c0a542ef5575c58343f
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3337'
 ht-degree: 95%
 
 ---
@@ -63,8 +63,6 @@ ht-degree: 95%
       + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Introducción a la simulación de Recorrido](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simular tu recorrido](using/building-journeys/simulate-journey-2.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
       + [Publicación del recorrido](using/building-journeys/publish-journey.md)
@@ -220,6 +218,7 @@ ht-degree: 95%
          + [Reconciliación](using/orchestrated/activities/reconciliation.md)
          + [Guardar público](using/orchestrated/activities/save-audience.md)
          + [División](using/orchestrated/activities/split.md)
+         + [Carga de archivo](using/orchestrated/activities/load-file.md)
          + [Prueba](using/orchestrated/activities/test.md)
          + [Esperar](using/orchestrated/activities/wait.md)
       + Descubra los casos de uso {#use-cases}
