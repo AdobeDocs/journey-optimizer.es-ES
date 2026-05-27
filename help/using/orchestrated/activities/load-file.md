@@ -12,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ Las siguientes limitaciones se aplican a la actividad Cargar archivo:
 * Puede cargar hasta 50 MB por archivo.
 * Solo se admiten archivos CSV y TXT de estructura plana.
 * Los datos cargados se utilizan cuando se ejecuta la campaña y no se almacenan como un conjunto de datos de Adobe Experience Platform.
-* Cada fila debe coincidir con un destinatario existente para la dimensión de segmentación seleccionada. La actividad Cargar archivo no crea nuevos perfiles a partir del archivo.
 
 Para ver los límites en las actividades de canal y lienzo, consulte [Protecciones y limitaciones](../guardrails.md#activities-limitations).
 
