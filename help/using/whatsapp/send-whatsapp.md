@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 TQID: https://experienceleague.adobe.com/u2OevVu38fPdytpuTmHeSdEx3Wvpih7ifk-j88rhDFI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 3%
+source-wordcount: 420
+ht-degree: 2%
 
 ---
 
@@ -55,3 +46,28 @@ Debe comprobar las alertas en la sección superior del editor. Algunas son simpl
 > Si la campaña está sujeta a una directiva de aprobación, debe solicitar la aprobación para poder enviar los mensajes de texto. [Más información](../test-approve/gs-approval.md)
 
 Cuando el mensaje de WhatsApp esté listo, completa la configuración de tu [recorrido](../building-journeys/publish-journey.md) o [campaña](../campaigns/review-activate-campaign.md) para enviarlo.
+
+## Analizar interacciones de WhatsApp {#whatsapp-channel-context}
+
+Journey Optimizer captura datos de interacción adicionales devueltos por el canal WhatsApp y los almacena en el **Conjunto de datos de eventos de experiencia de seguimiento de correo electrónico - Informes** en el grupo de campos `whatsAppChannelContext`. Utilice estos campos para generar [audiencias](../audience/about-audiences.md), ejecutar [consultas](../data/get-started-queries.md) y analizar la participación de WhatsApp. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets).
+
+Se capturan los campos siguientes:
+
+| Campo | Descripción |
+|-|-|
+| `messageType` | Tipo de mensaje de WhatsApp (por ejemplo, `templateBased`, `response`). |
+| `inboundMessage` | Contenido de respuesta entrante (por ejemplo, `stop`, `start`, `subscribe`). |
+| `inboundNumber` | ID del remitente donde se recibió el mensaje entrante. |
+| `channelType` | Categoría de canal (`Utility`, `Marketing` o `Promotional`). |
+| `profileNumber` | Número de teléfono desde el que se recibió el mensaje entrante. |
+| `origTimestamp` | Marca de tiempo original de Meta/WhatsApp. |
+| `status` | Estado de envío, incluidos los comentarios estandarizados del proveedor (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` o `unknown`) y el mensaje de estado del proveedor sin procesar. |
+| `reactionEvent` | Contenido de la respuesta del usuario: emoji para reacciones o texto del mensaje para respuestas a un mensaje específico. |
+| `reactionMessageID` | ID del mensaje original al que se responde. |
+| `reactionActionName` | Tipo de acción de respuesta (`react`, `unreact` o `reply`). |
+| `interactiveSelectedTitle` | Título seleccionado por el usuario de un mensaje interactivo de WhatsApp. |
+| `interactiveType` | Tipo de mensaje interactivo (`list reply`, `button reply` o `button`). |
+| `interactiveSelectedDescription` | Descripción de la opción interactiva de WhatsApp seleccionada. |
+| `interactiveSelectedID` | ID de la opción seleccionada de WhatsApp. |
+
+Para consultar este conjunto de datos, utilice la tabla `ajo_email_tracking_experience_event_dataset` en el servicio de consultas. Para ver patrones de consulta y casos de uso relacionados, vea [Ejemplos de consultas de conjuntos de datos](../data/datasets-query-examples.md).
