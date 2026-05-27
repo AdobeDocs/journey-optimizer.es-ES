@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '538'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 **Configurar e integrar**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configuración de desafíos de lealtad](loyalty-admin.md)
 * **Conjuntos de datos y datos de fidelización** ◀︎ **Usted está aquí**
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -60,21 +60,21 @@ ht-degree: 5%
 
 Los desafíos de fidelidad dependen de Adobe Experience Platform para la identidad, los atributos de perfil, los eventos de experiencia y las audiencias. Utilice esta página para conocer qué datos preparar, qué conjuntos de datos están involucrados y cómo **tiempo de vida (TTL)** afecta la retención antes de crear desafíos o usar las API de desafíos de fidelidad.
 
-Póngase en contacto con su administrador de Adobe para configurar el programa de Journey Optimizer (satisfacción de recompensas y asignación de eventos). Para obtener los extremos REST y la autenticación, consulte la [Referencia de la API de retos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Póngase en contacto con su administrador de Adobe para configurar el programa de Journey Optimizer o configure el cumplimiento de recompensas y la asignación de eventos en el menú **[!UICONTROL Administrador de fidelidad]**. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md). Para obtener los extremos REST y la autenticación, consulte la [Referencia de la API de retos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
 ## Datos de Adobe Experience Platform {#aep-data}
 
 ### Atributos de perfil {#profile-attributes}
 
-Las audiencias de desafío, la personalización y los perfiles de uso de informes se encuentran en la clase **[!DNL XDM Individual Profile]**. Alinee la identidad [área de nombres](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"} que usa para los retos de fidelidad con la forma en que se identifican los miembros en los datos de perfil.
+Las audiencias de desafío, la personalización y los perfiles de uso de informes se encuentran en la clase **[!DNL XDM Individual Profile]**. Alinee la identidad [área de nombres](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"} que usa para los retos de fidelidad con la forma en que se identifican los miembros en los datos de perfil y con el área de nombres seleccionada en **[!UICONTROL Configuración global]** en el menú **[!UICONTROL Administrador de fidelidad]**.
 
-Para los atributos de fidelidad estándar del perfil (puntos, nivel, programa, estado y campos relacionados), utilice el grupo de campos de esquema **[Detalles de fidelidad](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** de Experience Platform. Ese grupo de campos define el objeto `loyalty` y sus propiedades (por ejemplo, `points`, `tier`, `program` y `status`).
+Para los atributos de fidelidad estándar del perfil (puntos, nivel, programa, estado y campos relacionados), utilice el grupo de campos de esquema **[Detalles de fidelidad](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** de Experience Platform. Ese grupo de campos define el objeto `loyalty` y sus propiedades (por ejemplo, `points`, `tier`, `program` y `status`).
 
-➡️ [grupo de campos de esquema de detalles de fidelización](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [grupo de campos de esquema de detalles de fidelización](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Eventos de experiencia {#experience-events}
 
-Las tareas **[!UICONTROL Compra]**, **[!UICONTROL Gasto]** y **[!UICONTROL Evento personalizado]** dependen de los eventos de experiencia ingeridos en Adobe Experience Platform. Para las tareas **[!UICONTROL Custom Event]**, el administrador debe configurar las definiciones de evento coincidentes (ruta de identificador, ID de esquema XDM opcional, esquema y transformador) para que pueda seleccionarlas en el generador de tareas.
+Las tareas **[!UICONTROL Compra]**, **[!UICONTROL Gasto]** y **[!UICONTROL Evento personalizado]** dependen de los eventos de experiencia ingeridos en Adobe Experience Platform. Para las tareas **[!UICONTROL Custom Event]**, las definiciones de evento coincidentes (ruta de identificador, ID de esquema XDM opcional, esquema y transformador) deben configurarse en el menú **[!UICONTROL Administrador de fidelidad]** antes de que los especialistas en marketing puedan introducir valores de evento personalizados en el generador de tareas. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
 
 Asegúrese de que las cargas útiles de evento utilicen el mismo área de nombres de identidad que la configuración de Retos de fidelidad para que el progreso se pueda atribuir al perfil correcto.
 
@@ -93,5 +93,3 @@ Journey Optimizer aplica protecciones TTL a muchos conjuntos de datos generados 
 >[!NOTE]
 >
 >La configuración de lealtad en el nivel de organización puede incluir la configuración de archivo y retención (por ejemplo, la duración del archivo) administrada mediante el servicio de metadatos de lealtad. Póngase en contacto con el administrador de Adobe si necesita ajustar la retención de su entorno beta privado.
-
-<!-- For UI-based setup (reward providers, event definitions, product inventory, and exclusions), see [Configure loyalty challenges](loyalty-admin.md). -->
