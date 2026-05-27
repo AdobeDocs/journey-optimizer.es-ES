@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ Para los mensajes de correo electrónico, tiene dos opciones para insertar un v�
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Reemplace `<<deeplink_url>>` por su URL de vínculo profundo real y use un `id` único para cada bloque a fin de evitar conflictos.
+  >[!TIP]
+  >
+  >Reemplace `<<deeplink_url>>` por su URL de vínculo profundo real y use un `id` único para cada bloque a fin de evitar conflictos.
+
 
 ### SMS {#authoring-sms}
 
-Para los SMS, los vínculos profundos se crean mediante la función de ayuda **Url** en el editor de personalización. Más información sobre cómo agregar vínculos al contenido de SMS en [esta sección](../mobile/design-mobile.md#sms-content).
+Para los SMS, los vínculos profundos se crean mediante la función de ayuda [Url](../personalization/functions/helpers.md#url) en el editor de personalización. Aprenda a agregar vínculos al contenido de SMS en [esta sección](../mobile/design-mobile.md#sms-content).
 
 Para insertar vínculos profundos en contenido SMS, utilice la siguiente sintaxis:
 
@@ -60,7 +63,9 @@ Para insertar vínculos profundos en contenido SMS, utilice la siguiente sintaxi
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Reemplace `<<url>>` por su URL de vínculo profundo real.
+>[!TIP]
+>
+>Reemplace `<<url>>` por su URL de vínculo profundo real.
 
 ## Configuración en Journey Optimizer {#configuration}
 
@@ -338,3 +343,4 @@ Sí. Los parámetros de UTM que configuró en [!DNL Journey Optimizer] se incluy
 El vínculo se abre en el explorador web predeterminado del dispositivo (comportamiento estándar de rastreo de clics), en lugar de tratarse como un vínculo profundo de la aplicación a través del flujo `mclick` descrito en esta página.
 
 +++
+
