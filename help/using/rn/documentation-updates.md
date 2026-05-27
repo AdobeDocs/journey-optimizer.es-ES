@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La documentación de **vínculos profundos** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código del editor de Personalization) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
 
 * La referencia del asistente **Url** se ha actualizado con una sección específica en la documentación de Personalization. [Más información](../personalization/functions/helpers.md#url)
+
+* Se ha agregado una limitación a la documentación de ayuda de **Metadatos de ejecución**: la función no se admite en canales entrantes (web, experiencia basada en código, mensaje en la aplicación, tarjetas de contenido). [Más información](../personalization/functions/helpers.md#execution-metadata)
 
 * Se ha agregado una nueva página **Fórmulas de Personalization** que proporciona patrones de personalización listos para usar para los casos de uso más comunes en Journey Optimizer. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (usar `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (retrospectivas de campo vacío usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
 
