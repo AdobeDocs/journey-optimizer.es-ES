@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 2%
@@ -166,7 +166,7 @@ Cuando una acción o una [campaña](../campaigns/get-started-with-campaigns.md) 
 
 También puede acceder a los detalles técnicos de cada directiva de decisión y copiarlos en el portapapeles, lo que puede resultar útil para solucionar problemas con el Soporte de Adobe o su equipo de ingeniería.
 
-Para acceder a los detalles de la política de decisión y a la información técnica, siga los pasos a continuación.
++++ Para acceder a los detalles de la política de decisión y a la información técnica, siga los pasos a continuación.
 
 1. Abra el resumen de la campaña haciendo clic en **[!UICONTROL Revisar para activar]** durante la [configuración](../campaigns/review-activate-campaign.md#action-campaign-review) o abriendo una campaña desde la lista **[!UICONTROL Campañas]**.
 
@@ -200,6 +200,8 @@ Para acceder a los detalles de la política de decisión y a la información té
 1. Haga clic en el icono **Copiar al portapapeles** para copiar una representación JSON de la directiva de decisión en el portapapeles.
 
    El JSON copiado incluye el nombre y el ID de su organización, el nombre de la zona protegida, el ID de la política de decisión y la estructura completa de la política de decisión. Puede compartir esta información con el Soporte de Adobe o con su equipo de ingeniería para solucionar problemas de las políticas de decisión más rápido.
+
++++
 
 ## Uso de paneles de informes
 
