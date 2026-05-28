@@ -45,7 +45,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Atributos por esquema**: el número promedio de atributos por esquema no debe exceder las 50 columnas para mantener la capacidad de administración y el rendimiento.
 
-* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingesta de datos {#data-ingestion}
 
