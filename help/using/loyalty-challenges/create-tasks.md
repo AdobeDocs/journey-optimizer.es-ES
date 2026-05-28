@@ -11,9 +11,11 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 7d107482d9041a115b7526a937cbb6f48793bffc
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: 1145
 ht-degree: 10%
 
 ---
