@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 
 | Término | Definición |
 |------|------------|
-| **Toma de decisiones** | El marco de decisión de generación actual en Journey Optimizer, recomendado para nuevas implementaciones. Ofrece administración de catálogos de artículos basada en esquemas, reglas de recopilación flexibles, componentes de decisión reutilizables y capacidades de experimentación. Disponible para experiencia basada en código, push, SMS y correo electrónico (disponibilidad limitada). [Más información](../experience-decisioning/gs-experience-decisioning.md) |
+| **Toma de decisiones** | El marco de decisión de generación actual en Journey Optimizer, recomendado para nuevas implementaciones. Ofrece administración de catálogos de artículos basada en esquemas, reglas de recopilación flexibles, componentes de decisión reutilizables y capacidades de experimentación. Disponible para experiencia basada en código, push, SMS y correo electrónico. [Más información](../experience-decisioning/gs-experience-decisioning.md) |
 | **Administración de decisiones** | Función heredada de Offer Decisioning en Journey Optimizer. Utiliza una biblioteca central de ofertas de marketing y un motor de decisión basado en reglas que aplica restricciones a perfiles de clientes en tiempo real. Sigue siendo compatible con las implementaciones existentes, pero las nuevas implementaciones deben utilizar Decisioning en su lugar. Admite correo electrónico, aplicación, push, SMS y correo directo. [Más información](../offers/get-started/starting-offer-decisioning.md) |
 | **Oferta** | Un mensaje de marketing, un descuento o una promoción que se pueden presentar a los clientes. Las ofertas incluyen reglas de idoneidad que determinan qué clientes pueden recibirlas. [Más información](../offers/offer-library/creating-personalized-offers.md) |
 | **Directiva de decisión** | Un conjunto de reglas y estrategias que determinan qué oferta mostrar a qué cliente en qué momento, en función de restricciones como elegibilidad, prioridad y reglas de límite. [Más información](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Ambas funciones seleccionan y entregan ofertas, pero sirven para diferentes etap
 |---|---|---|
 | **Estado** | Actual: recomendado para todas las implementaciones nuevas | **Heredado**: aún se admite, pero ya no se recomienda para nuevas implementaciones |
 | **Catálogo de artículos** | Metadatos flexibles y basados en esquemas | Biblioteca de ofertas centralizada |
-| **Canales compatibles** | Experiencia basada en código, push, SMS, correo electrónico (disponibilidad limitada) | Correo electrónico, aplicación, push, SMS, correo directo |
+| **Canales compatibles** | Experiencia basada en código, push, SMS, correo electrónico | Correo electrónico, aplicación, push, SMS, correo directo |
 | **Diferenciador de clave** | Componentes de decisión reutilizables, experimentación, hoja de ruta de canal más amplia | Motor de restricciones probado; migrar a Decisioning para nuevos proyectos |
 | **Introducción** | [Toma de decisiones](../experience-decisioning/gs-experience-decisioning.md) | [Administración de decisiones](../offers/get-started/starting-offer-decisioning.md) |
 
