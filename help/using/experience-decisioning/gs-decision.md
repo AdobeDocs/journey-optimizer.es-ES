@@ -8,25 +8,15 @@ level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/y5aC7N-3FKFf9RQLHV40YtOR4EwHi3EWil-QFVL2tEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 29%
+source-wordcount: 328
+ht-degree: 31%
 
 ---
 
@@ -53,7 +43,7 @@ Nuestro marco de decisión de próxima generación, diseñado para unificar los 
 * Configuración actualizada de la política de decisión y la estrategia de selección: Permitir la reutilización de componentes de decisión
 * Funcionalidades de experimentación: pruebe la lógica de decisión con otros componentes de contenido para medir el rendimiento
 
-La toma de decisiones está disponible para todos los clientes para los canales **Experiencia basada en código**, **Notificación push** y **SMS**. La decisión sobre el canal **Correo electrónico** está disponible con disponibilidad limitada. Para solicitar acceso a Email Decisioning, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
+La toma de decisiones está disponible para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push** y **SMS**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ➡️ [Introducción a la toma de decisiones](../experience-decisioning/gs-experience-decisioning.md)
 
