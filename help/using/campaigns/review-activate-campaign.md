@@ -24,16 +24,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 4%
 
 ---
 
 # Revisión y activación de la campaña de acción {#action-campaign-review}
 
-Una vez configurada la campaña de acción, debe revisar su parámetro y contenido antes de activarla. Para ello, siga estos pasos:
+Una vez configurada la campaña de acción, debe revisar su parámetro y contenido antes de activarla. Para realizar esto, siga los pasos a continuación.
 
 >[!IMPORTANT]
 >
@@ -48,6 +48,8 @@ Una vez configurada la campaña de acción, debe revisar su parámetro y conteni
    En caso de errores, no puede activar la campaña. Resuelva los errores antes de continuar.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Cuando una campaña usa [políticas de decisión](../experience-decisioning/create-decision.md) en su contenido, puede revisar la estructura de cada política y copiar los detalles técnicos directamente desde el resumen de la campaña. [Descubra cómo](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Compruebe que la campaña esté configurada correctamente y luego haga clic en **[!UICONTROL Activar]**.
 

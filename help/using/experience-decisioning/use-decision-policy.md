@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 3%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -159,6 +159,47 @@ Una vez que el contenido esté listo, revise y publique la campaña o el recorri
 * [Revisión y activación de una campaña](../campaigns/review-activate-campaign.md)
 
 En el caso de las experiencias basadas en código, tan pronto como el desarrollador realice una llamada de API o SDK para recuperar contenido para la superficie definida en la configuración de canal, los cambios se aplicarán a su página web o aplicación.
+
+## Ver detalles de la política de decisión en el resumen de campaña {#decision-policy-summary}
+
+Cuando una acción o una [campaña](../campaigns/get-started-with-campaigns.md) desencadenada por API usa directivas de decisión en su contenido, la página de resumen de la campaña muestra una sección de **[!UICONTROL directivas de decisión]** que enumera todas las directivas utilizadas en la campaña.
+
+También puede acceder a los detalles técnicos de cada directiva de decisión y copiarlos en el portapapeles, lo que puede resultar útil para solucionar problemas con el Soporte de Adobe o su equipo de ingeniería.
+
+Para acceder a los detalles de la política de decisión y a la información técnica, siga los pasos a continuación.
+
+1. Abra el resumen de la campaña haciendo clic en **[!UICONTROL Revisar para activar]** durante la [configuración](../campaigns/review-activate-campaign.md#action-campaign-review) o abriendo una campaña desde la lista **[!UICONTROL Campañas]**.
+
+1. En la sección **[!UICONTROL Directivas de decisión]**, se enumeran todas las directivas utilizadas en la campaña.
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. Seleccione una directiva de decisión o haga clic en **[!UICONTROL Ver todo]**. Puede revisar los detalles de cada directiva, incluidos los siguientes:
+
+   * Las estrategias utilizadas en la política de decisión
+   * El número de elementos que se van a devolver
+   * La recopilación, el método de clasificación y las reglas de idoneidad utilizadas para cada estrategia de selección
+   * La oferta de reserva utilizada si ningún elemento de decisión es elegible
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. Haga clic en una colección para mostrar todos los elementos de decisión que contiene.
+
+1. Haga clic en un elemento de decisión para acceder a sus detalles y editarlo si es necesario; se abre en una nueva pestaña del explorador. También puede hacer clic en **[!UICONTROL Ver elemento]** para mostrar los elementos de decisión que no están en una colección.
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. También puede ver información sobre los métodos de clasificación y las reglas de idoneidad utilizadas para cada estrategia de selección.
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. En el resumen de la campaña, también puede seleccionar una directiva de decisión en la sección **[!UICONTROL Acciones]** y hacer clic en el icono **Información** para acceder a los detalles técnicos de la directiva de decisión.
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. Haga clic en el icono **Copiar al portapapeles** para copiar una representación JSON de la directiva de decisión en el portapapeles.
+
+   El JSON copiado incluye el nombre y el ID de su organización, el nombre de la zona protegida, el ID de la política de decisión y la estructura completa de la política de decisión. Puede compartir esta información con el Soporte de Adobe o con su equipo de ingeniería para solucionar problemas de las políticas de decisión más rápido.
 
 ## Uso de paneles de informes
 
