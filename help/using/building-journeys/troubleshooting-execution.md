@@ -11,12 +11,21 @@ keywords: solución de problemas, solución de problemas, recorrido, comprobaci�
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2232
@@ -68,7 +77,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * **Evento descartado - no se cumple la condición de calificación** - Para los eventos basados en reglas, si la **condición de calificación** no se cumple con la carga útil del evento (por ejemplo, falta un campo obligatorio o está vacío, o falla una condición como `isNotEmpty` en un campo), el evento se **recibe pero se descarta** y el recorrido no se activa. Los registros y los seguimientos de Splunk pueden mostrar que el evento se recibió pero se descartó porque no cumplía la condición de calificación, con códigos de descarte como `notSuitableInitialEvent`. Este es el comportamiento esperado: si no se cumple la condición de calificación, el evento se descarta y el recorrido no se activa para ese perfil. Compruebe que la carga útil de evento contiene los campos y valores esperados y que la regla de la configuración de evento coincide con los datos que envía. Si el evento se activa mediante una **acción personalizada** desde otro recorrido, consulte [Gestión de eventos de descarte y tiempos de espera inactivos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) en la solución de problemas de acciones personalizadas.
 
->>
+&#x200B;>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidad del evento {#verify-event-identity-and-rule-data-types}
