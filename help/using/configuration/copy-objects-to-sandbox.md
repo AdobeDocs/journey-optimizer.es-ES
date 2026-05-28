@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ Al copiar **Campañas de acción** o **activadas por API**, asegúrese de que lo
 Puede copiar campañas orquestadas entre entornos limitados mediante la exportación e importación de paquetes. Las campañas organizadas siguen el mismo patrón general que otros objetos, pero lo que se incluye en el paquete y lo que debe preparar en la zona protegida de destinatario difiere de las campañas activadas por la acción o la API.
 
 Para exportar una campaña orquestada, [agréguela a un paquete de zona protegida](#add-objects-as-a-package-export) en la zona protegida de origen (independientemente de su estado), [publique el paquete](#publish) e [importe el paquete](#import) en la zona protegida de destino.
+
+>[!IMPORTANT]
+>
+>Justo después de la importación, [duplique la campaña orquestada](../campaigns/manage-campaigns.md#duplicate-a-campaign) en la zona protegida de destino y use ese duplicado para la configuración, las pruebas y la ejecución. Si ejecuta o publica la copia importada en su lugar, es posible que los informes de campaña no muestren comentarios ni datos de seguimiento. Esta limitación se eliminará en una versión futura.
 
 Antes de importar en producción, tenga en cuenta los siguientes comportamientos y limitaciones:
 

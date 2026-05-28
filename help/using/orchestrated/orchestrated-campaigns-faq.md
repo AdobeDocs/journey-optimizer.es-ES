@@ -23,9 +23,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2746
+source-wordcount: 2765
 ht-degree: 11%
 
 ---
@@ -370,6 +370,7 @@ Los objetos creados en campañas orquestadas (por ejemplo, audiencias y flujos d
 **Prácticas recomendadas**
 
 * Mantenga **zonas protegidas independientes** para la experimentación, el control de calidad y la producción.
+* Justo después de la importación, [duplique la campaña](../campaigns/manage-campaigns.md#duplicate-a-campaign) y trabaje desde el duplicado para que el sistema de informes muestre correctamente los comentarios y los datos de seguimiento.
 * Después de cada importación, valide la campaña de principio a fin en la zona protegida de destino antes de publicar.
 * Documente las configuraciones y alinéelas con los equipos de gobernanza para reducir la deriva de configuración entre entornos.
 
