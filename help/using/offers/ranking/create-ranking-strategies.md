@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 523
 ht-degree: 29%
@@ -91,7 +91,7 @@ Para crear un modelo de IA, siga los pasos a continuación:
 
 1. Si está creando un modelo de IA de **[!UICONTROL optimización personalizada]**, seleccione los segmentos que se usarán para entrenar el modelo de IA.
 
-   ➡️ [Descubra esta función en vídeo](#video)
+   ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

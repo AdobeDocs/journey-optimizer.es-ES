@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 6%
+source-wordcount: 179
+ht-degree: 13%
 
 ---
 
@@ -89,7 +89,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
 
 **Campo:** componentType
 **Título:** Tipo de componente de contenido
-**Descripción:** Un conjunto enumerado de URI donde cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
+**Descripción:** conjunto enumerado de URI en el que cada valor se asigna a un tipo dado al componente de contenido. Algunos consumidores de las representaciones de contenido esperan que el valor @type sea una referencia al esquema que describe propiedades adicionales del componente de contenido.
 **Tipo:** cadena
 
 +++

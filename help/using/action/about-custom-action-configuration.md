@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 14%
+source-wordcount: 2200
+ht-degree: 13%
 
 ---
 
@@ -185,6 +185,15 @@ Adobe Journey Optimizer es compatible con TLS 1.3 de forma predeterminada para a
 Puede utilizar Mutual Transport Layer Security (mTLS) para garantizar una seguridad mejorada en las conexiones salientes a acciones personalizadas de Adobe Journey Optimizer. mTLS es un método de seguridad de extremo a extremo para la autenticación mutua que garantiza que ambas partes que comparten información son quienes dicen ser antes de que se compartan los datos. mTLS incluye un paso adicional en comparación con TLS, en el que el servidor también solicita el certificado del cliente y lo verifica al final.
 
 La autenticación TLS mutua (mTLS) se admite en acciones personalizadas. No se requiere ninguna configuración adicional en la acción personalizada ni en el recorrido para activar mTLS; se produce automáticamente cuando se detecta un extremo habilitado para mTLS. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+
+>[!IMPORTANT]
+>
+>Adobe gira periódicamente el certificado de cliente mTLS utilizado para las conexiones de acción personalizada. Cuando se emite un nuevo certificado, el almacén de confianza del extremo debe actualizarse para aceptarlo; de lo contrario, las conexiones salientes de Journey Optimizer al servicio producirán un error de no coincidencia de certificados. Para evitar interrupciones:
+>
+>* Compruebe con regularidad la [API de certificados públicos de Adobe](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) para ver si hay certificados actualizados asociados con sus servicios.
+>* Configure el extremo para que acepte **certificados superpuestos** (tanto el certificado antiguo como el nuevo simultáneamente), de modo que no haya ningún intervalo de conectividad durante la rotación.
+>* Actualmente, Adobe no envía notificaciones dinámicas cuando se gira un certificado. Es su responsabilidad supervisar las actualizaciones de certificados y mantener actualizado el almacén de confianza.
+>* La validación de confianza debe basarse en la cadena de certificados hasta la CA raíz (DigiCert) en lugar de anclar a una huella de certificado de hoja específica.
 
 ## Definición de los parámetros de carga útil {#define-the-message-parameters}
 

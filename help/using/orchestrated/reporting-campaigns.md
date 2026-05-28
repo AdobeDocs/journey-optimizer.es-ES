@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 63%
+source-wordcount: 151
+ht-degree: 54%
 
 ---
 
@@ -35,14 +35,14 @@ La campaña organizada le ofrece información práctica a través de sus sólida
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Informe activo" src="assets/last-24hours.png"></a></td>
       <td>
-        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información sobre los informes activos <a href="../reports/live-report.md">en esta sección</a>.
+        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información acerca de los informes en vivo <a href="../reports/live-report.md">en esta sección</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Informe de todo el tiempo" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>Informe todo el tiempo</b> está totalmente integrado con las funcionalidades de Customer Journey Analytics, lo que estandariza la creación de informes en ambas plataformas y mejora la coherencia y fiabilidad de los datos. Obtenga más información sobre los informes todo el tiempo <a href="../reports/report-gs-cja.md">en esta sección</a>.
+        <b>Informe de todos los tiempos</b> está totalmente integrado con las capacidades de Customer Journey Analytics, estandarizando la generación de informes en ambas plataformas y mejorando la consistencia y confiabilidad de los datos. Obtenga más información acerca de todos los informes de tiempo <a href="../reports/report-gs-cja.md">en esta sección</a>.
       </td>
     </tr>
   </tbody>

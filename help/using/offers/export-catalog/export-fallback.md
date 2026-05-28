@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 1%
+source-wordcount: 458
+ht-degree: 4%
 
 ---
 
@@ -138,7 +138,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
    * **id**
 
      **Campo:** id.
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
@@ -151,7 +151,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
    * **ID de repositorio**
 
      **Campo:** repositoryID
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

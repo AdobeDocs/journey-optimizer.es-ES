@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 6916
 ht-degree: 99%
@@ -517,7 +517,7 @@ Ahora puede exportar plantillas de contenido y fragmentos entre zonas protegidas
 
   Todas las páginas de referencia de la API ahora tienen una funcionalidad **Probar** que puede usar para probar las llamadas de la API directamente en la página del sitio web de documentación. [Obtenga las credenciales de autenticación requeridas](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"} y empiece a usar la funcionalidad para explorar los puntos finales de API.
 
-  Utilice esta nueva funcionalidad para explorar las solicitudes y las respuestas de los puntos finales de la API, obtener comentarios inmediatos y acelerar la implementación técnica.
+  Utilice esta nueva funcionalidad para explorar las solicitudes y las respuestas de los extremos de la API, obtener comentarios inmediatos y acelerar la implementación técnica.
 
   >[!CAUTION]
   >

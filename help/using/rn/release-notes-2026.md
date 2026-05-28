@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 6076
+source-wordcount: 6058
 ht-degree: 79%
 
 ---
@@ -208,7 +208,7 @@ Esto permite que las campañas recurrentes se centren en públicos totalmente nu
 <tbody>
 <tr>
 <td>
-<p>Utilice el nuevo nodo <strong>Optimizar</strong> para dirigirse a públicos específicos o ejecutar pruebas A/B para determinar la mejor ruta para satisfacer los KPI empresariales. Esta herramienta le permite probar, variar y personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
+<p>Use el nuevo nodo <strong>Optimize</strong> para ejecutar pruebas A/B o experimentos de bandidos multibrazo a fin de determinar la mejor ruta para cumplir con los KPI centrados en la empresa. Esta herramienta le permite probar, variar y personalizar las comunicaciones, la secuencia y el tiempo para llegar mejor a sus clientes.
 </p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Como parte de la Disponibilidad general, esta versión incluye la selección de <strong>tipo de experimento</strong> (bandido A/B o multibrazo) y <strong>Escalar el ganador</strong> para recorridos unitarios.</p>

@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 94%
 
 ---
 
@@ -62,8 +62,8 @@ A diferencia de las notificaciones push tradicionales, las actividades en direct
 
 Con Adobe Journey Optimizer, puede **iniciar**, **actualizar** y **finalizar** actividades en directo de forma remota y mediante programación a través de campañas activadas por API, lo que admite casos de uso individuales y basados en públicos a escala.
 
-Las actividades en directo **solo** se inician a través de campañas **activadas por la API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
-Se debe seleccionar el tipo de campañas **activado por API** apropiado en función del caso de uso previsto de la actividad en directo:
+Las actividades activas **solo** se pueden iniciar a través de **campañas activadas por API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
+El tipo de campaña **activado por API** adecuado debe estar seleccionado según el caso de uso de actividad en directo deseado:
 
 * Seleccione **Marketing activado por API** para casos de uso de difusión, es decir, actualizaciones basadas en públicos enviadas a escala:
 

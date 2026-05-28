@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 94%
+source-wordcount: 910
+ht-degree: 91%
 
 ---
 
@@ -55,7 +55,7 @@ La orquestación de campañas se basa en cuatro pilares clave:
 <td><img alt="Públicos bajo demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Los públicos bajo demanda</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.<br/><br/>
-Admite el envío de varios niveles, en el que se envía un mensaje por cada perfil y por cada entidad secundaria asociada. Estas entidades secundarias pueden incluir direcciones de contacto, reservas, suscripciones, contratos u otros datos vinculados. Por ejemplo, esto permite enviar campañas a todas las direcciones conocidas de un perfil o a todas las reservas asociadas con ese perfil.</td></tr>
+Admitir el envío de varios niveles, donde se envía un mensaje por perfil y por entidad secundaria asociada. Estas entidades secundarias pueden incluir direcciones de contacto, reservas, suscripciones, contratos u otros datos vinculados. Por ejemplo, esto permite enviar campañas a todas las direcciones conocidas de un perfil o a todas las reservas asociadas con ese perfil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
 <tr style="border: 0;">
@@ -128,7 +128,7 @@ Ahora que ya sabe qué son las campañas orquestadas, es el momento de profundiz
 <a href="create-orchestrated-campaign.md">
 <img alt="Posible cliente" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-orchestrated-campaign.md"><strong>Creación de una campaña orquestada</strong>
+<div><a href="create-orchestrated-campaign.md"><strong>Creación de una campaña organizada</strong>
 </div>
 <p>
 </td>
