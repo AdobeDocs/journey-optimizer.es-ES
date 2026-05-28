@@ -236,7 +236,7 @@ Este flujo ilustra cómo los esquemas, conjuntos de datos, fuentes, fuentes de d
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 **Introducción a los esquemas**
 
@@ -246,7 +246,7 @@ Aprenda a crear esquemas XDM en Adobe Experience Platform, elegir la clase y los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 **Trabajar con conjuntos de datos**
 
@@ -256,7 +256,7 @@ Obtenga información sobre cómo crear conjuntos de datos de evento y habilitado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 **Configuración de fuentes de datos**
 
@@ -266,7 +266,7 @@ Instrucciones paso a paso sobre la configuración de la fuente de datos integrad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **Uso de datos de Adobe Experience Platform**
 
@@ -276,7 +276,7 @@ Descubra cómo enriquecer mensajes en tiempo de ejecución con datos de referenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Introducción a las consultas**
 
@@ -286,7 +286,7 @@ Utilice el servicio de consultas para analizar conjuntos de datos de Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 **Introducción a los perfiles**
 
@@ -296,7 +296,7 @@ Explore cómo funciona el perfil del cliente en tiempo real en Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Configuración de datos: información general**
 
@@ -306,7 +306,7 @@ Un tutorial en vídeo para principiantes de la configuración de datos en Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Creación de conjuntos e ingesta de datos**
 

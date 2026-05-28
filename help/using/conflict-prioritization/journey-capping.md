@@ -130,7 +130,7 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
 
 ## Vídeo práctico {#video}
 
