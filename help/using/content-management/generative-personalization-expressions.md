@@ -1,21 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Asistente de IA para expresiones Personalization
+title: El Asistente de IA para expresiones de personalización
 description: Aprenda a utilizar el Asistente de IA en Journey Optimizer para generar expresiones de personalización a partir del lenguaje natural en el Editor de Personalization y cómo funciona el control Añadir expresión en el Designer de correo electrónico.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
+feature_v2: []
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 2%
+source-wordcount: 1082
+ht-degree: 3%
 
 ---
 
-# Asistente de IA para expresiones de personalización{#generative-personalization-expressions}
+# El Asistente de IA para expresiones de personalización{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >
@@ -127,7 +131,7 @@ En el Designer de correo electrónico, puede usar el [!UICONTROL Asistente de IA
 
    ![](assets/ai-perso-add-expression-insert.png)
 
-   Puede hacer lo siguiente:
+   Se puede:
 
    * Valide el resultado de la expresión con un valor de muestra; use la ficha **[!UICONTROL Vista previa]**.
    * Generar otra sugerencia desde el mismo mensaje: use **[!UICONTROL Regenerar]**.

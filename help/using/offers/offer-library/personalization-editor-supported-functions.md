@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Funciones compatibles con el editor de personalización
+title: Funciones admitidas en el editor de personalización
 description: Descubra qué funciones del editor de personalización se admiten al personalizar el contenido de la oferta en Gestión de decisiones (Offer Decisioning).
 badge: label="Heredado" type="Informative"
 feature: Decision Management
@@ -10,14 +10,21 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: 635
+ht-degree: 17%
 
 ---
 
-# Funciones compatibles con el editor de personalización {#personalization-editor-supported-functions}
+# Funciones admitidas en el editor de personalización {#personalization-editor-supported-functions}
 
 En Administración de decisiones, usas el **editor de personalización** al [agregar representaciones](add-representations.md) y personalizar **contenido de ofertas** (imágenes, texto, vínculos en tus ofertas).
 
@@ -77,7 +84,7 @@ El servidor de Offer Decisioning solo admite un **subconjunto** de las funciones
 | Longitud | length |
 | MD5 | md5 |
 | SHA256 | sha256 |
-| Como | like |
+| Como | gustar |
 | Comienza por | startsWith |
 | No empieza por | doesNotStartWith |
 | Termina por | endsWith |
@@ -156,7 +163,7 @@ El servidor de Offer Decisioning solo admite un **subconjunto** de las funciones
 | Redondear al alza | roundUp |
 | Redondear hacia abajo | roundDown |
 | A Precisión | toPrecision |
-| Absoluta   | absoluto |
+| Absoluta | absoluto |
 | Aleatorio | random |
 | A Hexadecimal | toHexString |
 | Obtener número a configuración regional | formatNumber |

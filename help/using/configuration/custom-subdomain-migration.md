@@ -10,9 +10,12 @@ level: Intermediate
 keywords: subdominio, delegación, migración, CNAME, delegación personalizada
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -195,8 +198,8 @@ Una vez que el subdominio vuelva a estar activo, no es necesario realizar cambio
 
 Si se producen errores al intentar enviar el subdominio personalizado, realice las acciones de solución de problemas que se enumeran a continuación.
 
-* _No se pudo validar el recurso. El DNS aún existe y debe eliminarse._: asegúrese de eliminar todos los registros de su solución de alojamiento. [Descubra cómo](#delete-dns)
-* _No se pudo validar el recurso. Cargue el certificado SSL e inténtelo de nuevo._: no se cargó el certificado SSL. Asegúrese de cargarlo. [Descubra cómo](#upload-ssl-certificate)
+* _No se pudo validar el recurso. El DNS aún existe y debe eliminarse._ — Asegúrese de eliminar todos los registros de la solución de alojamiento. [Descubra cómo](#delete-dns)
+* _No se pudo validar el recurso. Cargue el certificado SSL e inténtelo de nuevo._ — El certificado SSL no se ha cargado. Asegúrese de cargarlo. [Descubra cómo](#upload-ssl-certificate)
 * _El certificado contiene dominios inesperados en sus nombres alternativos del sujeto (SAN)._ — Asegúrese de cargar el certificado SSL correcto. [Descubra cómo](#upload-ssl-certificate)
 * _Al certificado le faltan los siguientes dominios requeridos en sus nombres alternativos de sujeto (SAN)._ — Asegúrese de cargar el certificado SSL correcto. [Descubra cómo](#upload-ssl-certificate)
 

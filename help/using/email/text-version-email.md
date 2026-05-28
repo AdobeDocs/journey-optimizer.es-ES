@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1171
 ht-degree: 8%
 
 ---
@@ -36,7 +38,7 @@ Si prefiere usar un contenido diferente para la versión de texto sin formato, s
 
 1. En el correo electrónico, seleccione el icono **[!UICONTROL Texto sin formato]**.
 
-1. Use la opción **[!UICONTROL Sincronizar con HTML]** para deshabilitar la sincronización. Haga clic en la marca de verificación para confirmar su elección.
+1. Utilice la opción **[!UICONTROL Sincronizar con HTML]** para deshabilitar la sincronización. Haga clic en la marca de verificación para confirmar su elección.
 
    ![](assets/text_version_2.png)
 
@@ -222,7 +224,8 @@ FEATURED PRODUCTS
 
 ```
 We'd love your feedback!
-------------------------
+---------------------
+---
 
 Please take 2 minutes to complete our survey:
 https://example.com/survey/customer-feedback

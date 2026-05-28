@@ -13,17 +13,19 @@ TQID: https://experienceleague.adobe.com/NBJkyh9TCAPxD0u3EpwaZth7-ePjEWdg2roQ7J2
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 1%
@@ -106,7 +108,7 @@ Para la actividad de iOS Live en campañas de marketing, el informe muestra solo
 
 Como alternativa al uso de la consola de notificaciones push de Apple, las actualizaciones y los recuentos finales se pueden obtener a través de llamadas de API sin encabezado.
 
-Al ejecutar las llamadas de actualización o finalización de API para casos de uso de difusión, la respuesta incluye una sección `controlBreakdown` que proporciona contadores que indican cuántas llamadas de actualización y finalización se ejecutaron para la ejecución de la actividad en directo. Este bloque está ausente para ejecuciones heredadas sin datos del ciclo vital. El estado de ejecución también se puede recuperar explícitamente mediante el punto de conexión de GET cuando sea necesario.
+Al ejecutar las llamadas de actualización o finalización de API para casos de uso de difusión, la respuesta incluye una sección `controlBreakdown` que proporciona contadores que indican cuántas llamadas de actualización y finalización se ejecutaron para la ejecución de la actividad en directo. Este bloque está ausente para ejecuciones heredadas sin datos del ciclo vital. El estado de ejecución también se puede recuperar explícitamente utilizando el punto de conexión GET cuando sea necesario.
 
 **ACTUALIZACIÓN/RESPUESTA FINAL (200 OK)**
 

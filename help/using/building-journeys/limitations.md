@@ -10,10 +10,12 @@ level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 39%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -43,11 +45,11 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 * Solo se admiten los métodos de llamada de POST y PUT. 
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
-* No se permiten las direcciones de Adobe internas (.adobe.).
+* Las direcciones internas de Adobe (.adobe.) no están permitidas.
 
 ## Limitaciones de eventos {#events-limitations}
 
-* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de streaming que entra en [!DNL Adobe Experience Platform]. Esta limitación no se aplica a los eventos basados en reglas.
+* En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de streaming que entra en [!DNL Adobe Experience Platform]. Esta limitación no se aplica a los eventos basados en reglas.
 
 ## Limitaciones de eventos de reacción {#reaction-limitations}
 

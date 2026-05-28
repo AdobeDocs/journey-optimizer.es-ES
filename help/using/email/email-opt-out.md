@@ -14,14 +14,13 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -32,16 +31,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1220
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
 # Administración de exclusión de correo electrónico {#email-opt-out}
 
-Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.  [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
+Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente del público de futuros mensajes de marketing.  [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -57,7 +56,7 @@ Para insertar un vínculo de baja en el contenido del correo electrónico, puede
 
 Cuando un destinatario hace clic en el vínculo de no participación, su solicitud de cancelación de suscripción se procesa en consecuencia.
 
-Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. En la ficha [Atributos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información acerca del procesamiento de consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=es){target="_blank"}.
+Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya a Experience Platform y [busque ese perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. En la ficha [Atributos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}, puede ver que el valor de **[!UICONTROL choice]** ha cambiado a **[!UICONTROL no]**. Obtenga más información sobre el procesamiento del consentimiento en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=es){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -69,11 +68,11 @@ Para comprobar que se ha actualizado la opción del perfil correspondiente, vaya
 
 Con [!DNL Adobe Journey Optimizer], puede configurar sus [opciones de configuración del correo electrónico](email-settings.md#list-unsubscribe) con una dirección de correo electrónico de cancelación de suscripción y cancelación de suscripción generada automáticamente con un solo clic en el encabezado del correo electrónico, o incluir una dirección URL de exclusión con un solo clic en el cuerpo del correo electrónico.
 
-### URL de cancelación de suscripción de un clic en el encabezado del correo electrónico {#unsubscribe-header}
+### URL de cancelación de suscripción de un solo clic en el encabezado del correo electrónico {#unsubscribe-header}
 
 La URL &quot;Cancelar la suscripción&quot; de una lista con un solo clic es un vínculo o botón &quot;Cancelar la suscripción&quot; que se muestra junto a la información del remitente del correo electrónico y permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. Aprenda a administrar la opción **[!UICONTROL Cancelar la suscripción a la lista]** en [esta sección](list-unsubscribe.md).
 
-### Exclusión en un clic del contenido del correo electrónico {#one-click-opt-out}
+### Exclusión con un clic del contenido del correo electrónico {#one-click-opt-out}
 
 Para establecer una URL de cancelación de suscripción personalizada, inserte un vínculo de no participación de un solo clic en el contenido del mensaje de correo electrónico e introduzca la URL que elija, como se describe a continuación:
 
@@ -129,7 +128,7 @@ Punto final: https://platform.adobe.io/journey/imp/consent/preferences
 Parámetros de consulta:
 
 * **params**: contiene la carga útil cifrada
-* **pid**: id. de perfil cifrado
+* **pid**: ID de perfil cifrado
 
 Estos dos parámetros se incluyen en la dirección URL de la página de aterrizaje de terceros que se envía al destinatario:
 
@@ -162,9 +161,9 @@ Cuerpo de la solicitud:
 +++
 
 
-### Añadir un vínculo para cancelar la suscripción {#add-unsubscribe-link}
+### Agregar el vínculo &quot;Cancelar la suscripción&quot; {#add-unsubscribe-link}
 
-Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensaje. Para ello, siga los pasos a continuación:
+Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensaje. Para realizar esto, siga los pasos a continuación:
 
 1. Cree un mensaje e [inserte un vínculo](../email/message-tracking.md#insert-links) utilizando la barra de herramientas contextual.
 
@@ -176,7 +175,7 @@ Primero debe agregar el vínculo &quot;Cancelar la suscripción&quot; a un mensa
 
    ![](assets/opt-out-link-type.png)
 
-   En el campo **[!UICONTROL Vínculo]**, pegue el vínculo a la página de aterrizaje de terceros.
+   En el campo de **[!UICONTROL Vínculo]**, pegue el vínculo a la página de destino de terceros.
 
    ![](assets/opt-out-link-url.png)
 

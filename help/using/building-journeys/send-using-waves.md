@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Envío mediante olas en recorridos
+title: Envío mediante olas en los recorridos
 description: Programar mensajes de recorrido salientes para que se entreguen en lotes controlados (olas) a lo largo del tiempo. El envío de ondas en recorridos de lectura-audiencia ayuda a equilibrar la carga y la capacidad de envío.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -10,14 +10,16 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 2%
 
 ---
 
-# Envío mediante olas en recorridos {#send-using-waves-journeys}
+# Envío mediante olas en los recorridos {#send-using-waves-journeys}
 
 Puede enviar mensajes salientes desde un recorrido en lotes (olas) a lo largo del tiempo en lugar de todos a la vez. El envío de ondas ayuda a equilibrar la carga, evitar sistemas descendentes abrumadores (como centros de llamadas o páginas de aterrizaje) y admite la capacidad de envío y la reputación del remitente, especialmente para recorridos de audiencia de lectura de gran volumen.
 
