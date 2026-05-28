@@ -11,21 +11,13 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/lu90DQdZQ6ECl4WCWqJ8aIbVmR63xScb3K0dLNh-hNc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 900
 ht-degree: 6%
@@ -97,7 +89,7 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 >[!NOTE]
 >
-> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=es){target="_blank"}.
+> Para trabajar con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, debes implementar [!DNL Assets Essentials] para tu organización y asegurarte de que los usuarios formen parte de los perfiles de producto de **Usuarios consumidores de Assets Essentials** o **Usuarios de Assets Essentials**. Más información sobre [esta página](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Elija la opción **[!UICONTROL Biblioteca de recursos]**.
 
@@ -113,9 +105,9 @@ Si la ubicación seleccionada es de tipo imagen, puede agregar contenido procede
 
 ### Añadir archivos HTML o JSON {#html-json}
 
-Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}).
+Si la ubicación seleccionada es de tipo HTML, también puede agregar contenido HTML o JSON proveniente de la [biblioteca de recursos de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=es){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
+Por ejemplo, creó una plantilla de correo electrónico de HTML en [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} y quiere usar ese archivo para el contenido de su oferta. En lugar de crear un nuevo archivo, simplemente puede cargar la plantilla en la **Biblioteca de recursos** para poder reutilizarla en las representaciones de la oferta.
 
 Para reutilizar el contenido en una representación, examine la **Biblioteca de recursos** tal como se describe en [esta sección](#images) y seleccione el archivo HTML o JSON que elija.
 
@@ -131,7 +123,7 @@ Puede personalizar las direcciones URL mediante el editor de personalización. M
 
 Por ejemplo, se desea personalizar la imagen que se muestra como oferta. Desea que los usuarios que favorecen las vacaciones en la ciudad vean el horizonte de Nueva York y los usuarios que favorecen las vacaciones en la playa vean la costa norte de Hawai.
 
-Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=es){target="_blank"} Para obtener funciones compatibles con la administración de decisiones, consulte [Funciones compatibles en el editor de personalización](personalization-editor-supported-functions.md).
+Utilice el editor de personalización para recuperar los atributos de perfil almacenados en Adobe Experience Platform mediante esquemas de unión. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} Para obtener funciones compatibles con la administración de decisiones, consulte [Funciones compatibles en el editor de personalización](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 

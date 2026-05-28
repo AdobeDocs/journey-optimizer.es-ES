@@ -7,10 +7,12 @@ role: User
 level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: 302
+ht-degree: 12%
 
 ---
 
@@ -18,7 +20,7 @@ ht-degree: 6%
 
 ## Acerca de las ubicaciones {#about}
 
-Una ubicación es un contenedor que se utiliza para mostrar elementos de decisión. Ayuda a garantizar que el contenido de oferta correcto se muestre en la ubicación correcta dentro del mensaje.
+Una ubicación es un contenedor que se utiliza para mostrar elementos de decisión. Ayuda a garantizar que se muestra el contenido de oferta correcto en la ubicación correcta dentro del mensaje.
 
 Al agregar una política de decisión a un correo electrónico, debe asociar una ubicación al componente que muestre los elementos de decisión devueltos. Esto le permite, por ejemplo, rastrear el rendimiento de los elementos de decisión en diferentes ubicaciones en la creación de informes.
 

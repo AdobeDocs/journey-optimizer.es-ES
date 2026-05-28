@@ -9,25 +9,13 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 TQID: https://experienceleague.adobe.com/yKwBevAZeHTG1n5NXcO-okHQW-pYL1McS8HT-0Tgv6E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 11%
@@ -51,7 +39,7 @@ En este ejemplo, se crea una audiencia para dirigirse a todos los clientes que v
 
    ![](assets/create-segment.png)
 
-   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Aprenda a configurar audiencias en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
+   La pantalla de definición del segmento le permite configurar todos los campos obligatorios para definir la audiencia. Aprenda a configurar audiencias en la [documentación del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -61,7 +49,7 @@ En este ejemplo, se crea una audiencia para dirigirse a todos los clientes que v
 
 1. Arrastre y suelte los campos deseados del panel izquierdo al espacio de trabajo central y, a continuación, configúrelos según sus necesidades.
 
-   Los componentes básicos de las definiciones de segmentos son **atributos** y **eventos**. Además, los atributos y eventos contenidos en las audiencias existentes pueden utilizarse como componentes para nuevas definiciones. [Obtenga más información en la documentación del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   Los componentes básicos de las definiciones de segmentos son **atributos** y **eventos**. Además, los atributos y eventos contenidos en las audiencias existentes pueden utilizarse como componentes para nuevas definiciones. [Obtenga más información en la documentación del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -99,7 +87,7 @@ En Adobe Journey Optimizer, las audiencias se generan a partir de las definicion
 
 La lista de perfiles de la audiencia se mantiene actualizada en tiempo real a medida que ingresan nuevos datos al sistema.
 
-La segmentación de streaming es un proceso continuo de selección de datos que actualiza los públicos en respuesta a la actividad de los usuarios. Una vez que se ha creado una definición de segmento y se ha guardado el público resultante, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que las personas se añaden o eliminan de la audiencia a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante. [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=es){target="_blank"}.
+La segmentación de streaming es un proceso continuo de selección de datos que actualiza los públicos en respuesta a la actividad de los usuarios. Una vez que se ha creado una definición de segmento y se ha guardado el público resultante, la definición del segmento se aplica a los datos entrantes en Journey Optimizer. Esto significa que las personas se añaden o eliminan de la audiencia a medida que cambian los datos de perfil, lo que garantiza que la audiencia de destino siempre sea relevante. [Obtenga más información en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -119,17 +107,17 @@ La lista de perfiles de la audiencia se evalúa cada 24 horas.
 
 La segmentación por lotes procesa todos los datos de perfil a la vez mediante definiciones de segmentos, lo que crea una instantánea de la audiencia que se puede guardar y exportar para su uso. A diferencia de la segmentación por secuencias, la segmentación por lotes no actualiza continuamente la lista de audiencias en tiempo real. Los nuevos datos que se incluyen después del proceso por lotes no se reflejan en la audiencia hasta el siguiente proceso por lotes. Los intentos de forzar una actualización inmediata no anulan el ciclo diario. Para obtener actualizaciones incrementales inmediatas, considere la posibilidad de utilizar opciones de segmentación por transmisión o bajo demanda.
 
-Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#batch){target="_blank"}
+Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ Segmentación de Edge
 
-La segmentación de Edge es la capacidad para evaluar segmentos en Adobe Experience Platform de forma instantánea [en el perímetro](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"}, lo que permite casos de uso de personalización de la misma página y de la siguiente. Actualmente, solo los tipos de consulta seleccionados se pueden evaluar con la segmentación de Edge. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=es#query-types){target="_blank"}
+La segmentación de Edge es la capacidad para evaluar segmentos en Adobe Experience Platform de forma instantánea [en el perímetro](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es){target="_blank"}, lo que permite casos de uso de personalización de la misma página y de la siguiente. Actualmente, solo los tipos de consulta seleccionados se pueden evaluar con la segmentación de Edge. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-Si conoce el método de evaluación que desea utilizar, selecciónelo en la lista desplegable. También puede hacer clic en el icono de examinar icono de la carpeta con una lupa para ver una lista de los métodos de evaluación de definición de segmentos disponibles. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es#segment-properties){target="_blank"}.
+Si conoce el método de evaluación que desea utilizar, selecciónelo en la lista desplegable. También puede hacer clic en el icono de examinar icono de la carpeta con una lupa para ver una lista de los métodos de evaluación de definición de segmentos disponibles. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}.
 
 ![](assets/evaluation-methods.png)
 
@@ -155,10 +143,10 @@ Con la evaluación flexible de audiencias, puede:
 1. Evalúe la audiencia en tiempo real para garantizar su precisión. Para ello, elija las audiencias que desea evaluar y seleccione &quot;Evaluar audiencias&quot;, siempre que cumplan criterios específicos (por ejemplo, basados en personas, origen del servicio de segmentación).
 1. Utilice la audiencia evaluada en campañas o recorridos de Adobe Journey Optimizer para un direccionamiento preciso.
 
-Puede evaluar hasta 20 audiencias a la vez y las audiencias que no cumplan los requisitos se excluirán automáticamente. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
+Puede evaluar hasta 20 audiencias a la vez y las audiencias que no cumplan los requisitos se excluirán automáticamente. Para obtener más información, consulte la [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation).
 
 ## Vídeo práctico{#video-segment}
 
 Descubra cómo Journey Optimizer utiliza reglas para generar audiencias y aprenda a utilizar atributos, eventos y audiencias existentes para crear una audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430332?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

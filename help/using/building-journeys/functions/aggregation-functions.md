@@ -7,9 +7,12 @@ role: Developer
 level: Experienced
 keywords: agregación, funciones, expresión, recorrido, promedio, recuento, máximo, mínimo, suma
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 719
 ht-degree: 7%
 
 ---
@@ -238,7 +241,7 @@ Devuelve el número de objetos estrictamente distintos en la matriz de objetos d
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-Devuelve el número de objetos que tienen un valor de atributo SKU distinto {}.
+Devuelve el número de objetos que tienen un valor de atributo &quot;SKU&quot; distinto {}.
 
 +++
 

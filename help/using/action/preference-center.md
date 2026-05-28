@@ -10,27 +10,12 @@ level: Experienced
 keywords: políticas, gobernanza, plataforma, consentimiento, escudo sanitario
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 941
 ht-degree: 10%
@@ -81,13 +66,13 @@ Supongamos que desea dirigirse a sus clientes mediante recorridos y campañas en
    >
    >El consentimiento del cliente y las preferencias de contacto son temas complejos. Para conocer cómo se pueden recopilar, procesar y filtrar las preferencias de consentimiento y contexto en [!DNL Experience Platform], se recomienda leer los siguientes documentos:
    >
-   >* Para obtener más información sobre los grupos de campos de esquema necesarios para recopilar datos de consentimiento, consulte [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Detalla cómo procesar los datos de consentimiento que ha recopilado de sus clientes e integrarlos en sus perfiles de cliente almacenados.
-   >* Para obtener más información sobre el grupo de campos Consentimiento y preferencia, consulte [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Para agregar campos de preferencias personalizadas al esquema, siga los pasos de [esta sección](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Para obtener más información sobre los grupos de campos de esquema necesarios para recopilar datos de consentimiento, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Detalla cómo procesar los datos de consentimiento que ha recopilado de sus clientes e integrarlos en sus perfiles de cliente almacenados.
+   >* Para obtener más información sobre el grupo de campos Consentimiento y preferencia, consulte [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Para agregar campos de preferencias personalizadas al esquema, siga los pasos de [esta sección](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Cree una página para capturar las preferencias de los clientes. Utilice uno de los siguientes métodos:
 
-   * Cree una página web para registrar las preferencias de sus clientes con [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Cree una página web para registrar las preferencias de sus clientes con [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Use una [!DNL Journey Optimizer] [página de aterrizaje](../landing-pages/create-lp.md) que incluya formularios para capturar las preferencias de sus clientes mediante datos de perfil.  [Más información en formularios](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 

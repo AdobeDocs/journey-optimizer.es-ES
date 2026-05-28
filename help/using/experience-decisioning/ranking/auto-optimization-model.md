@@ -9,15 +9,12 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 0%
@@ -101,7 +98,7 @@ Finalmente, si una oferta (por ejemplo, la oferta 1) es un claro ganador, su dis
 
 +++ Detalles del cálculo
 
-Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(𝛍i | data)*** es decir, para cada oferta ***i***, la probabilidad de que haya un valor de recompensa&#x200B;**𝛍 i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
+Para calcular/actualizar distribuciones, usamos el **Teorema de Bayes**. Para cada oferta ***i***, queremos calcular su ***P(𝛍i | data)*** es decir, para cada oferta ***i***, la probabilidad de que haya un valor de recompensa**𝛍 i**, dados los datos que hemos recopilado hasta ahora para esa oferta.
 
 Del Teorema De Bayes:
 
@@ -109,7 +106,7 @@ Del Teorema De Bayes:
 
 La **probabilidad anterior** es la suposición inicial acerca de la probabilidad de producir un resultado. La probabilidad, después de que se hayan recopilado algunas pruebas, se conoce como la **probabilidad posterior**.
 
-La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de los ensayos N y se modela mediante una distribución binomial. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La [distribución Beta](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"} es un conjugado anterior a la probabilidad binomial (recompensas binarias), y por lo tanto es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución de Beta toma dos parámetros, **&#x200B;**&#x200B;**&#x200B; y &#x200B;**&#x200B;**&#x200B;**. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
+La optimización automática está diseñada para tener en cuenta las recompensas binarias (clic/sin clic). En este caso, la probabilidad representa el número de éxitos de los ensayos N y se modela mediante una distribución binomial. Para algunas funciones de probabilidad, si se elige una determinada anterior, la posterior termina estando en la misma distribución que la anterior. A este tipo de prior se le denomina **conjugado prior**. Este tipo de antecedente hace que el cálculo de la distribución posterior sea muy sencillo. La [distribución Beta](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"} es un conjugado anterior a la probabilidad binomial (recompensas binarias), y por lo tanto es una opción conveniente y sensata para las distribuciones de probabilidad anterior y posterior. La distribución de Beta toma dos parámetros, ****** y ******. Estos parámetros pueden considerarse como el recuento de éxitos y errores y el valor medio dado por:
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
@@ -123,9 +120,9 @@ La distribución anterior se modela mediante Beta y la posterior toma la siguien
 
 ### Prejuicio de exploración y prejuicio de explotación {#exploration-exploitation-bias}
 
-Se debe elegir un valor inicial para los parámetros **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;**. La optimización automática incluye un método de muestreo Thompson sesgado por la exploración y un método de muestreo Thompson sesgado por la explotación que utilizan diferentes niveles iniciales de **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;** en sus distribuciones beta.
+Se debe elegir un valor inicial para los parámetros ******, ******. La optimización automática incluye un método de muestreo Thompson sesgado por la exploración y un método de muestreo Thompson sesgado por la explotación que utilizan diferentes niveles iniciales de ******, ****** en sus distribuciones beta.
 
-En un enfoque de muestreo Thompson general, la parte posterior se calcula simplemente añadiendo el número de éxitos y errores a los parámetros existentes **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;**. La optimización automática utiliza diferentes factores de ponderación para nuevos éxitos y errores a la hora de modificar el impacto de los nuevos datos frente a los datos anteriores, tanto en los bandidos basados en la exploración como en los basados en la explotación.
+En un enfoque de muestreo Thompson general, la parte posterior se calcula simplemente añadiendo el número de éxitos y errores a los parámetros existentes ******, ******. La optimización automática utiliza diferentes factores de ponderación para nuevos éxitos y errores a la hora de modificar el impacto de los nuevos datos frente a los datos anteriores, tanto en los bandidos basados en la exploración como en los basados en la explotación.
 
 ## Referencias {#references}
 

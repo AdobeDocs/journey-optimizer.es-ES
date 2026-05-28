@@ -11,16 +11,11 @@ level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/q2fFLSdcuNPwgSB--vYHbpS5xAYcoL-v6pAbQhtl69U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 137
 ht-degree: 21%
@@ -62,4 +57,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 Una respuesta correcta devuelve el estado HTTP 200 y un cuerpo en blanco.
 
-Puede confirmar la eliminación intentando una solicitud de consulta (GET) a la oferta personalizada y debe recibir el estado HTTP 404 (no encontrado) porque la oferta personalizada se ha eliminado.
+Puede confirmar la eliminación intentando una solicitud de búsqueda (GET) a la oferta personalizada y debe recibir el estado HTTP 404 (no encontrado) porque se ha eliminado la oferta personalizada.

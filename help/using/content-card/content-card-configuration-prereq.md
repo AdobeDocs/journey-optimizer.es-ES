@@ -1,50 +1,52 @@
 ---
-title: Content cards configuration
-description: Content cards channel prerequisites
+title: Configuración de tarjetas de contenido
+description: Requisitos previos del canal de tarjetas de contenido
 feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 9%
 
 ---
 
 # Requisitos previos de tarjetas de contenido {#content-card-configuration-prereq}
 
-For Adobe Journey Optimizer to correctly display content cards, you must configure the following Adobe Experience Platform settings:
+Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe configurar las siguientes opciones de Adobe Experience Platform:
 
-* **Adobe Experience Platform Data Collection**
+* **Recopilación de datos de Adobe Experience Platform**
 
-  [Create a datastream](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} and [add the Experience Platform service](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Enable the **[!UICONTROL Edge Segmentation]** and **[!UICONTROL Adobe Journey Optimizer]** options. This ensures that Journey Optimizer events are handled by the Adobe Experience Platform Edge Network.
-Add the **Experience Event – Proposition Interaction** field group to your dataset to include this data in your reports. [Learn more about datastreams](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"}
+  [Cree una secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} y [agregue el servicio Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Habilite las opciones **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]**. Esto garantiza que Adobe Experience Platform Edge Network gestione los eventos de Journey Optimizer.
+Agregue el grupo de campos **Evento de experiencia - Interacción de propuesta** al conjunto de datos para incluir estos datos en los informes. [Más información sobre las secuencias de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  Ensure the default merge policy has **Active-On-Edge Merge Policy** enabled under **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#configure){target="_blank"}
+  Asegúrese de que la política de combinación predeterminada tenga habilitada la **Política de combinación activa en Edge** en **[!UICONTROL Cliente]** > **[!UICONTROL Perfiles]** > **[!UICONTROL Políticas de combinación]** en el menú de Experience Platform. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
-  >When using a custom **[!UICONTROL Dataset preference]** merge policy, make sure to add the **[!UICONTROL Journey Inbound]** dataset within the specified merge policy.
+  >Cuando use una directiva de combinación personalizada de **[!UICONTROL preferencias del conjunto de datos]**, asegúrese de agregar el conjunto de datos **[!UICONTROL Recorrido entrante]** dentro de la directiva de combinación especificada.
 
-* **Adobe Experience Platform Mobile or Platform Web SDK**
+* **Adobe Experience Platform Mobile o Platform Web SDK**
 
-  For mobile and web applications, to add modifications to your web pages or mobile apps, you need to implement either the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/overview){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"} on your mobile apps.
+  Para aplicaciones móviles y web, para agregar modificaciones a tus páginas web o aplicaciones móviles, debes implementar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/overview){target="_blank"} en tu sitio web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"} en tus aplicaciones móviles.
 
 * **Journey Optimizer**
 
-  Create a [Content card configuration](#content-card-configuration).
+  Crear una [configuración de tarjeta de contenido](#content-card-configuration).
 
 * **Resolución de problemas**
 
-  Use the **Edge Delivery** view within **Adobe Experience Platform Assurance** to troubleshoot mobile experiences. It can inspect requests, verify edge calls, and examine profile data. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
+  Use la vista de **Edge Delivery** en **Adobe Experience Platform Assurance** para solucionar problemas de experiencias móviles. Puede inspeccionar solicitudes, comprobar llamadas perimetrales y examinar datos de perfil. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
-* **Content Experiments**
+* **Experimentos de contenido**
 
-  Ensure the dataset used in your app&#39;s [datastream](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview#_blank){target="_blank"} is also included in your content experiment reporting configuration. Los datos de la aplicación no se mostrarán en los informes si los conjuntos de datos no coinciden.
+  Asegúrese de que el conjunto de datos utilizado en la [secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"} de la aplicación también esté incluido en la configuración de informes del experimento de contenido. Los datos de la aplicación no se mostrarán en los informes si los conjuntos de datos no coinciden.
 
   Aprenda a agregar conjuntos de datos para los informes de experimentos de contenido en [esta sección](../reports/reporting-configuration.md).
 

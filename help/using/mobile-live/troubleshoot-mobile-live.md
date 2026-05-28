@@ -1,19 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Solucionar problemas de actividades activas
+title: Resolución de problemas de actividades en directo
 description: Obtenga información sobre cómo solucionar problemas de actividades en directo en Journey Optimizer para casos de uso unitarios y de difusión, incluidos problemas de token de perfil, configuración de campaña y errores de entrega
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: 4607
 ht-degree: 1%
 
 ---
 
-# Solucionar problemas de actividades activas {#troubleshoot-mobile-live}
+# Resolución de problemas de actividades en directo {#troubleshoot-mobile-live}
 
 Las actividades en directo en Adobe Journey Optimizer permiten actualizaciones dinámicas en tiempo real en las pantallas de bloqueo de iOS y en las islas dinámicas. Solo se pueden activar y administrar mediante campañas activadas por API.
 
@@ -37,7 +39,7 @@ Configure una **sesión de Assurance** para capturar eventos de SDK e inspeccion
 * Registro de token push
 * Eventos de ciclo vital de actividad activos
 
-Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: Para la actividad de iOS Live, asegúrate de que la aplicación se esté ejecutando en un dispositivo iOS físico (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
 
@@ -114,7 +116,7 @@ La API devuelve el valor HTTP 200, pero la actividad Live no aparece. Causas fre
 
 #### Pasos de depuración
 
-+++ &#x200B;1. Compruebe que el perfil existe en Adobe Experience Platform
++++ &#x200B;1. Comprobar que el perfil existe en Adobe Experience Platform
 
 1. En Journey Optimizer, vaya a **Cliente** `>` **Perfiles**.
 1. Busque utilizando el área de nombres y el valor de identidad de la solicitud de API.
@@ -142,7 +144,7 @@ Si no se encuentran eventos, la aplicación móvil no está llamando a `Messagin
 
 +++
 
-+++ &#x200B;3. Validar los detalles del token en el perfil
++++ &#x200B;3. Validar detalles de token en el perfil
 
 1. Desde tu **perfil**, accede a la pestaña **Atributos**.
 1. Busque `liveActivityPushNotificationDetails`.
@@ -199,7 +201,7 @@ El perfil existe con tokens válidos, pero la actividad en directo no aparece. E
 
 #### Pasos de depuración
 
-+++ &#x200B;1. Compruebe la configuración de la superficie de campaña
++++ &#x200B;1. Verifique la configuración de campaña
 
 1. En Journey Optimizer, abra su **Campaña** y vaya al menú **Acciones**.
 1. Comprueba tu **configuración de actividad en vivo**. La superficie debe configurarse para la aplicación de iOS con un identificador de paquete que coincida con el `appId` en `liveActivityPushNotificationDetails` de su perfil. Por ejemplo, si su perfil tiene `"appId": "com.example.myapp"`, la superficie debe segmentar esa misma aplicación.
@@ -276,7 +278,7 @@ Asegúrese de que la carga útil de la API coincida con la implementación de la
 
 **Validar la asignación:**
 
-1. Su `ActivityAttributes` debe implementar el protocolo `LiveActivityAttributes` de Adobe. Por ejemplo:
+1. Su `ActivityAttributes` debe implementar el protocolo `LiveActivityAttributes` de Adobe. Ejemplo:
 
    ```swift
    struct FoodDeliveryLiveActivityAttributes: LiveActivityAttributes {
@@ -329,7 +331,7 @@ Asegúrese de que la carga útil de la API coincida con la implementación de la
 
 **Errores comunes:**
 
-| Problema | Impacto | Se ha corregido un problema que hacía que se mostrara |
+| Problema | Impacto | Corregir |
 |-------|--------|-----|
 | Faltan `liveActivityData` en los atributos | La actividad en directo no se inicia | Incluir siempre el objeto `liveActivityData` en el evento de inicio |
 | Falta un campo obligatorio en el evento de inicio | La actividad en directo no se inicia | Añadir todos los campos de la estructura de iOS |
@@ -343,7 +345,7 @@ Para obtener más ejemplos, consulte [Crear página de actividad en vivo](create
 
 +++
 
-+++ &#x200B;4. Realizar pruebas con Assurance
++++ &#x200B;4. Prueba con Assurance
 
 Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
 
@@ -389,7 +391,7 @@ Pero la actividad en directo sigue sin aparecer, actualizarse ni finalizar segú
 
 #### Pasos de depuración
 
-+++ &#x200B;1. Compruebe los informes de campaña
++++ &#x200B;1. Comprobación de informes de campaña
 
 1. Vaya a su **Actividad en directo en Campaign**.
 1. Haga clic en el botón **Informes**.
@@ -400,7 +402,7 @@ Pero la actividad en directo sigue sin aparecer, actualizarse ni finalizar segú
 
       | Métrica | Lo que significa | Qué se debe buscar |
       |-|-|-|
-      | Segmentado | Número de perfiles cualificados para la audiencia | Debe incluir el perfil de prueba |
+      | Objetivos | Número de perfiles cualificados para la audiencia | Debe incluir el perfil de prueba |
       | Envíos | Total de notificaciones push intentadas | Debe coincidir con sus llamadas a la API |
       | Entregados | Entregado correctamente a los dispositivos | Comparar con Envíos para ver la tasa de éxito |
       | Enviar errores | Notificaciones push que no se han enviado | Números altos |
@@ -427,7 +429,7 @@ Obtenga más información en la [página de informe de campaña de actividades e
 
 +++
 
-+++ &#x200B;2. Compruebe los eventos de comentarios de los mensajes en el perfil
++++ &#x200B;2. Comprobación de eventos de comentarios de mensajes en el perfil
 
 1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
 1. Busque y abra el perfil.
@@ -453,7 +455,7 @@ Obtenga más información en la [página de informe de campaña de actividades e
 
 +++
 
-+++ &#x200B;3. Compruebe la entrega de actividades en directo a APNS en Assurance
++++ &#x200B;3. Verificación de la entrega de actividades en directo a APNS en Assurance
 
 1. Abra la sesión de Assurance, debe estar activa durante la llamada de API.
 1. Ejecute la llamada de API (inicio, actualización o finalización).
@@ -475,7 +477,7 @@ Obtenga más información en la [página de informe de campaña de actividades e
 
 +++
 
-+++ &#x200B;4. Realice comprobaciones de diagnóstico adicionales
++++ &#x200B;4. Pasar a comprobaciones de diagnóstico adicionales
 
 1. Compruebe las métricas del ciclo vital de la actividad en directo en el informe de Campaign.
 
@@ -573,7 +575,7 @@ Para que funcionen los eventos update y end, debe ocurrir lo siguiente:
 
 +++
 
-+++ &#x200B;2. Compruebe el token de actualización en los eventos de perfil
++++ &#x200B;2. Verificar el token de actualización en los eventos de perfil
 
 1. Vaya a **Cliente** > **Perfiles** en Journey Optimizer.
 1. Busque y abra el perfil.
@@ -633,7 +635,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de activi
 
 #### Pasos de depuración
 
-+++ &#x200B;1. Compruebe la configuración de audiencia de campaña
++++ &#x200B;1. Verificar configuración de audiencia de campaña
 
 1. Abra **Campaña de marketing activada por API** en Journey Optimizer.
 1. Vaya a la sección **Audiencia** y verifique:
@@ -647,7 +649,7 @@ Este escenario de solución de problemas se aplica a todos los eventos de activi
 
 +++
 
-+++ &#x200B;2. Validar la estructura de carga útil de API de difusión
++++ &#x200B;2. Validar estructura de carga útil de API de difusión
 
 La estructura de carga útil de difusión difiere de las campañas unitarias. Compruebe que la carga útil sigue el formato de difusión correcto.
 
@@ -689,7 +691,7 @@ La estructura de carga útil de difusión difiere de las campañas unitarias. Co
 
 **Campos críticos específicos de difusión:**
 
-* **`input-push-channel`**
+* **`input-push-channel`**:
    * Necesario para todas las actividades de difusión en directo.
    * Sirve como identificador único para esta instancia de difusión específica.
    * Todos los perfiles de la audiencia reciben actividades en directo vinculadas a este canal.
@@ -697,7 +699,7 @@ La estructura de carga útil de difusión difiere de las campañas unitarias. Co
    * El cliente debe crear para `appID` en Apple Developer Portal.
    * Solo se pueden usar los canales creados para `appID` en concreto para difundir una actividad en directo en esa aplicación.
 
-* **`audience.id`**
+* **`audience.id`**:
    * Debe hacer referencia a un segmento de audiencia válido creado en Adobe Experience Platform.
    * Todos los perfiles de esta audiencia están segmentados para la actividad en directo.
    * La audiencia debe estar activada y contener perfiles con `liveActivityPushNotificationDetails` válidos.
@@ -786,7 +788,7 @@ Para todos los eventos, incluya `attributes` y `content-state`:
 
 **Errores comunes:**
 
-| Problema | Impacto | Se ha corregido un problema que hacía que se mostrara |
+| Problema | Impacto | Corregir |
 |-|-|-|
 | Falta `input-push-channel` | La difusión no funcionará | Agregar un ID de canal único para cada difusión |
 | `input-push-channel` no coincide con `channelID` | La actividad en directo no se inicia | Asegúrese de que ambos valores sean idénticos |
@@ -798,7 +800,7 @@ Para todos los eventos, incluya `attributes` y `content-state`:
 
 +++
 
-+++ &#x200B;4. Realizar pruebas con Assurance
++++ &#x200B;4. Prueba con Assurance
 
 Compruebe la ejecución de la API y la entrega de carga útil mediante Assurance:
 
@@ -861,7 +863,7 @@ En primer lugar, confirme si el perfil que debe recibir la actividad en directo 
 
 +++
 
-+++ &#x200B;2. Compruebe el tipo y la programación de evaluación de audiencia
++++ &#x200B;2. Comprobar el tipo y la programación de evaluación de audiencia
 
 Identifique si la audiencia utiliza la evaluación por lotes o de flujo continuo, ya que esto determina la actualización de los datos.
 

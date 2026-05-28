@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integración, proveedor, terceros
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 5%
 
 ---
@@ -110,7 +112,7 @@ Campos de integración de muestra (alinearse con la [API de entrega de contenido
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
@@ -162,7 +164,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -197,7 +199,7 @@ Utilice los campos siguientes cuando configure esta llamada de ejemplo en Journe
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | Autorización | Autorización | Constante | Portador `<token>` | Sí (activado) |
@@ -251,7 +253,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://api.salsify.com/v1/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -287,7 +289,7 @@ Algunas referencias antiguas reutilizaron una ruta de estilo de orden de descarg
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Content-Type (parámetro predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | Autorización | Autorización | Constante | `Bearer <YOUR_TOKEN_HERE>` | Sí (activado) |
@@ -341,7 +343,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -387,7 +389,7 @@ Contentstack espera **ambas** claves como encabezados para las solicitudes de en
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `environment` | Nombre del entorno | Variable | `<your_environment_name>` | Sí (activado) |
 
@@ -433,7 +435,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{pim-host}/api/rest/v1/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -468,14 +470,14 @@ Patrón de ejemplo: `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` con `A
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Autorización | Autorización | Constante | `Bearer <YOUR_TOKEN>` | Sí (activado) |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `with_attribute_options` | Incluir opciones de atributo | Variable | falso | No (desactivado) |
 | `with_quality_scores` | Incluir puntuaciones de calidad | Variable | falso | No (desactivado) |
@@ -528,7 +530,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{author-or-public}/.rest/delivery/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -557,7 +559,7 @@ Patrón de ejemplo: `https://{domain}/magnoliaAuthor/.rest/delivery/...` o direc
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Content-Type | Content-Type | Constante | application/json | Sí (activado) |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
@@ -615,7 +617,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{cluster}.voucherify.io/`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -651,7 +653,7 @@ Campos de integración de muestra. Referencia completa: [Voucherify API](https:/
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | X-APP-ID | X-APP-ID | Constante | `<YOUR-APP-ID>` | Sí (activado) |
@@ -659,7 +661,7 @@ Campos de integración de muestra. Referencia completa: [Voucherify API](https:/
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `limit` | `limit` | Variable | 10 | No (desactivado) |
 | `page` | `page` | Variable | 1 | No (desactivado) |
@@ -718,7 +720,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{your-domain}.talon.one/v1/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -751,13 +753,13 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `progressStatus` | `progressStatus` | Variable | en curso/completado/caducado | No (desactivado) |
 | `startDate` | `startDate` | Variable | 29/05/2024 T15:04:05+07:00 | No (desactivado) |
@@ -811,7 +813,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
 1. Configure el extremo mediante la API de Antavo Enterprise.
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -846,7 +848,7 @@ Los campos de integración de muestra utilizan el host **staging**; la producci�
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | Aceptar | Aceptar | Constante | application/json | No (desactivado) |
@@ -899,7 +901,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{instance}.salesforce.com/services/data/vXX.X/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -917,7 +919,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 +++ Campos de integración de muestra
 
-Utilice la operación GET de administración de fidelidad **perfil de miembro** documentada para la versión de API de su organización; las rutas incluyen identificadores de programa y de miembro. Consulte [desarrolladores de Salesforce](https://developer.salesforce.com/){target="_blank"}.
+Utilice la operación GET de administración de fidelidad **perfil de miembro** documentada para la versión de API de su organización; las rutas incluyen identificadores de programa y miembro. Consulte [desarrolladores de Salesforce](https://developer.salesforce.com/){target="_blank"}.
 
 | Campo | Valor |
 | --- | --- |
@@ -935,14 +937,14 @@ Utilice la operación GET de administración de fidelidad **perfil de miembro** 
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | Aceptar | Aceptar | Constante | application/json | No (desactivado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `membershipNumber` | `membershipNumber` | Variable | `<membership_number>` | No (desactivado) * |
 | `membershipId` | `membershipId` | Variable | `<membership_id>` | No (desactivado) * |
@@ -995,7 +997,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
 1. Configure el extremo mediante las API capilares.
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1031,7 +1033,7 @@ Ejemplo: `https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` (el
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Content-Type | Content-Type | Constante | application/json | Sí (activado) |
 | CAP-API-ACCESS-TOKEN | Token de acceso | Constante | `<YOUR_ACCESS_TOKEN>` | Sí (activado) |
@@ -1133,7 +1135,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
 1. Configure el extremo mediante la API de REST de Marigold.
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1176,7 +1178,7 @@ El host base depende de la región (por ejemplo, `https://{{customername}}.modul
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
@@ -1192,7 +1194,7 @@ El host base depende de la región (por ejemplo, `https://{{customername}}.modul
 
 >[!IMPORTANT]
 >
->Esta configuración es un patrón ilustrativo probado por el equipo de Adobe Journey Optimizer. Adobe Target Recommendations es un producto de Adobe independiente con su propio ciclo de lanzamiento y versiones de API. Confirme siempre los detalles actuales de la API con la [documentación para desarrolladores de Adobe Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview) antes de implementarla en la producción.
+>Esta configuración es un patrón ilustrativo probado por el equipo de Adobe Journey Optimizer. Adobe Target Recommendations es un producto de Adobe independiente con su propio ciclo de lanzamiento y versiones de API. Confirme siempre los detalles actuales de la API con la [documentación para desarrolladores de Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) antes de implementarla en la producción.
 
 >[!BEGINSHADEBOX]
 
@@ -1218,7 +1220,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
+1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1226,7 +1228,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
 1. Configure el extremo mediante las API de envío/Recommendations de Target.
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1258,20 +1260,20 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | cliente | cliente | Variable | `<customer_client_code>` | Sí (activado) |
 | sessionId | sessionId | Variable | ` <session_identifier>` | Sí (activado) |
 
 **Autenticación**
 
-Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
+Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
 
 **Solicitar carga**
 
@@ -1373,7 +1375,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1409,13 +1411,13 @@ Campos de integración de muestra. Los detalles y niveles se describen en [API d
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `format` | `format` | Variable | json | No (desactivado) |
 | `language` | `language` | Variable | en-US | No (desactivado) |
@@ -1470,7 +1472,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://ssapi.shipstation.com/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1498,7 +1500,7 @@ El siguiente ejemplo de **Obtener temporizador** ilustra una llamada de temporiz
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
@@ -1565,7 +1567,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://api.revenuecat.com/v1/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1583,7 +1585,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 +++ Campos de integración de muestra
 
-Patrón de ejemplo: usa **Obtener un producto** de RevenueCat (o un GET de producto/derecho equivalente) de [documentos de RevenueCat](https://docs.revenuecat.com/){target="_blank"} con la URL y la versión base del proyecto.
+Patrón de ejemplo: use **Obtener un producto** de RevenueCat (o un producto/derecho equivalente GET) de [documentos de RevenueCat](https://docs.revenuecat.com/){target="_blank"} con la URL y la versión base del proyecto.
 
 | Campo | Valor |
 | --- | --- |
@@ -1601,13 +1603,13 @@ Patrón de ejemplo: usa **Obtener un producto** de RevenueCat (o un GET de produ
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `country` | `country` | Variable | `<iso_country_code>` | No (desactivado) |
 | `locale` | `locale` | Variable | `<locale_code>` | No (desactivado) |
@@ -1656,7 +1658,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{workspace-host}/api/2.0/sql/statements/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1686,13 +1688,13 @@ El ejemplo del trabajo **GET** que se muestra a continuación es ilustrativo; pa
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `job_id` | `job_id` | Variable | `12` | Sí |
 
@@ -1730,7 +1732,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Configure **GET** en el extremo elegido (un patrón común es una lista de usuarios), complete OAuth por [Bynder](https://developer.bynder.com/){target="_blank"}, evite extraer páginas de datos innecesarias, asigne campos, realice pruebas y active.
+1. Seguir [Trabajar con integraciones](integrations.md). Configure **GET** en el punto de conexión elegido (un patrón común es una lista de usuarios), complete OAuth por [Bynder](https://developer.bynder.com/){target="_blank"}, evite extraer páginas de datos innecesarias, asigne campos, realice pruebas y active.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1740,7 +1742,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{your-bynder-domain}/api/v4/users/`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1775,14 +1777,14 @@ Campos de integración de muestra. Consulte [Documentación de la API de Bynder]
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | Autorización | Autorización | Constante | Portador `<token>` | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `includeInActive` | `includeInActive` | Variable | False | No (desactivado) |
 | `limit` | `limit` | Variable | 100 | No (desactivado) |
@@ -1895,7 +1897,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://api.trustpilot.com/v1/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -1924,13 +1926,13 @@ Use la operación de listado de categorías de [desarrolladores de Trustpilot](h
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `country` | `country` | Variable | `<iso_country_code>` | No (desactivado) |
 | `locale` | `locale` | Variable | `<locale_code>` | No (desactivado) |
@@ -1984,7 +1986,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://api.bazaarvoice.com/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -2013,7 +2015,7 @@ Ejemplo de punto de entrada: `https://api.bazaarvoice.com/data/products.json` co
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
 
@@ -2025,7 +2027,7 @@ Ejemplo de punto de entrada: `https://api.bazaarvoice.com/data/products.json` co
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | Constante | 5.4 | Sí (activado) |
 | `filter` | `filter` | Variable | Id.:47950830 | No (desactivado) |
@@ -2073,7 +2075,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{tenant}.my.onetrust.com/api/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -2107,13 +2109,13 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `state` | `state` | constante | PUBLICADO | Sí |
 
@@ -2163,7 +2165,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://graph.facebook.com/vXX.X/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -2200,13 +2202,13 @@ Campos de integración de muestra. Consulte [API de gráficos](https://developer
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Aceptar | Aceptar | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `fields` | `fields` | Variable | id | No |
 | `filter` | `filter` | Variable | — | No |
@@ -2243,7 +2245,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Use **GET** en la ruta de registro que necesite, envíe los encabezados necesarios, como `API-VERSION`, pegue el archivo JSON de muestra (HAL o JSON como devuelto), asigne un conjunto de campos mínimo, realice pruebas y active.
+1. Seguir [Trabajar con integraciones](integrations.md). Use **GET** en la ruta de registro que necesite, envíe los encabezados requeridos como `API-VERSION`, pegue el archivo JSON de muestra (HAL o JSON como devuelto), asigne un conjunto de campos mínimo, realice pruebas y active.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -2253,7 +2255,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{tenant}.dam.aprimo.com/`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -2284,7 +2286,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 | API-VERSION | API-VERSION | Constante | 1 | Sí (activado) |
@@ -2339,7 +2341,7 @@ Utilice el siguiente procedimiento para configurar esta integración en Journey 
 
    `https://{your-instance}.epsilon3.io/api/...`
 
-1. Seleccione el método HTTP que se muestra en la tabla de configuración, normalmente GET, a menos que se indique lo contrario.
+1. Seleccione el método HTTP mostrado en la tabla de configuración, normalmente GET a menos que se indique lo contrario.
 
 1. Configure la autenticación (encabezados, parámetros de consulta u OAuth) exactamente como se especifica en la tabla y en la documentación del proveedor.
 
@@ -2374,13 +2376,13 @@ Patrón de ejemplo: `https://{your-instance}.epsilon3.io/api/v1/planning/events`
 
 **Encabezados**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | Tipo de contenido (predeterminado) | Content-Type | Constante | application/json | Sí (activado) |
 
 **Parámetros de consulta**
 
-| Parámetro | Name | Tipo | Valor | Obligatorio |
+| Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `start` | `start` | Variable | 24T14:15:22Z, 08-2019 | Sí (activado) * |
 | `end` | `end` | Variable | 24T14:15:22Z, 08-2019 | Sí (activado) * |
