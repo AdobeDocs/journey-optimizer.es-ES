@@ -10,32 +10,14 @@ level: Experienced
 keywords: zona protegida, recorrido, copiar, entorno
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -44,7 +26,7 @@ ht-degree: 2%
 
 Puede copiar objetos, como recorridos, campañas, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
-En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
+En esta página se describe el caso de uso de las herramientas de entorno limitado en el contexto de Journey Optimizer. Para obtener más información sobre la característica en sí, consulte la [Guía de herramientas de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} de Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -74,7 +56,7 @@ Journey Optimizer permite exportar recorridos, campañas (de acción, activadas 
 
 +++ Recorridos
 
-* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=es#abobe-journey-optimizer-objects){target="_blank"}.
+* **Dependencias copiadas**: al exportar un recorrido, además del propio recorrido, Journey Optimizer también copia la mayoría de los objetos de los que depende el recorrido: audiencias, acciones personalizadas, esquemas, eventos y acciones. Para obtener más información sobre los objetos copiados, consulte la [Guía de herramientas de espacio aislado de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}.
 
 * **Validación manual recomendada**: no garantizamos que todos los elementos vinculados se copien en la zona protegida de destino. Le recomendamos encarecidamente que realice una comprobación exhaustiva, por ejemplo, antes de publicar un recorrido. Esto le permite identificar cualquier posible objeto que falte.
 
@@ -120,6 +102,10 @@ Al copiar **Campañas de acción** o **activadas por API**, asegúrese de que lo
 Puede copiar campañas orquestadas entre entornos limitados mediante la exportación e importación de paquetes. Las campañas organizadas siguen el mismo patrón general que otros objetos, pero lo que se incluye en el paquete y lo que debe preparar en la zona protegida de destinatario difiere de las campañas activadas por la acción o la API.
 
 Para exportar una campaña orquestada, [agréguela a un paquete de zona protegida](#add-objects-as-a-package-export) en la zona protegida de origen (independientemente de su estado), [publique el paquete](#publish) e [importe el paquete](#import) en la zona protegida de destino.
+
+>[!IMPORTANT]
+>
+>Justo después de la importación, [duplique la campaña orquestada](../campaigns/manage-campaigns.md#duplicate-a-campaign) en la zona protegida de destino y use ese duplicado para la configuración, las pruebas y la ejecución. Si ejecuta o publica la copia importada en su lugar, es posible que los informes de campaña no muestren comentarios ni datos de seguimiento. Esta limitación se eliminará en una versión futura.
 
 Antes de importar en producción, tenga en cuenta los siguientes comportamientos y limitaciones:
 
