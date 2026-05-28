@@ -6,13 +6,9 @@ description: Obtenga información sobre cómo solucionar problemas de actividade
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 4607
 ht-degree: 1%
@@ -43,7 +39,7 @@ Configure una **sesión de Assurance** para capturar eventos de SDK e inspeccion
 * Registro de token push
 * Eventos de ciclo vital de actividad activos
 
-Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: Para la actividad de iOS Live, asegúrate de que la aplicación se esté ejecutando en un dispositivo iOS físico (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
 

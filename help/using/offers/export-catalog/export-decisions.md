@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1574
-ht-degree: 1%
+source-wordcount: 668
+ht-degree: 4%
 
 ---
 
@@ -138,7 +129,7 @@ Esta es la lista de todos los campos que se pueden usar en el conjunto de datos 
 
 **Campo:** ubicaciones
 **Título:** Restricciones de ubicación
-**Descripción:** La restricción de ubicación indica que este criterio solo es aplicable a las ubicaciones enumeradas. La selección de opciones solo se tiene en cuenta cuando la ubicación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &#39;xdm:placements&#39; se omite o está vacía, el criterio se tiene en cuenta para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción que se vaya a considerar debe tener una representación para la ubicación de destino.
+**Descripción:** La restricción de ubicación indica que este criterio solo es aplicable a las ubicaciones enumeradas. Solo se tiene en cuenta la selección de opciones cuando la ubicación de destino está en la lista `xdm:placements`. De lo contrario, se omiten todos los criterios de decisión. Cuando la lista &quot;xdm:placements&quot; se omite o está vacía, el criterio se tiene en cuenta para cualquier ubicación de destino. Las ubicaciones enumeradas aquí imponen criterios implícitos para la selección de opciones. Una opción que se vaya a considerar debe tener una representación para la ubicación de destino.
 **Tipo:** matriz
 
 * Identificador de ubicación
@@ -162,7 +153,7 @@ Esta es la lista de todos los campos que se pueden usar en el conjunto de datos 
 
 **Campo:** descripción
 **Título:** Descripción
-**Descripción:** Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles por el ser humano sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción se incluirá o excluirá en ella.
+**Descripción:** descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles por el ser humano sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción se incluirá o excluirá en ella.
 **Tipo:** cadena
 
 +++
@@ -234,7 +225,7 @@ Esta es la lista de todos los campos que se pueden usar en el conjunto de datos 
 
 Clasificación **Campo:**
 **Título:** Detalles de clasificación
-**Descripción:** Rango (prioridad). Define cómo se determina la \&quot;mejor opción\&quot; según el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen con las restricciones de perfil, la clasificación decidirá las opciones principales (o N principales) que se propondrán.
+**Descripción:** Clasificación (prioridad). Define cómo se determina la \&quot;mejor opción\&quot; según el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen con las restricciones de perfil, la clasificación decidirá las opciones principales (o N principales) que se propondrán.
 **Tipo:** objeto
 
 +++ 
@@ -285,7 +276,7 @@ Clasificación **Campo:**
 
 **Campo:** endTime
 **Título:** Fecha y hora de finalización de la actividad
-**Descripción:** Fecha de finalización y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en https://schema.org/Action.
+**Descripción:** fecha de finalización y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;endTime&#39; de schema.org definida en https://schema.org/Action.
 **Tipo:** cadena
 
 +++
@@ -293,7 +284,7 @@ Clasificación **Campo:**
 +++ _experience > decisioning > Opción de reserva
 
 **Campo:** reserva
-**Título:** Opción de reserva
+**Título:** Opción De Reserva
 **Descripción:** La referencia a una opción de reserva que se usa al tomar decisiones en el contexto de esta decisión no califica ninguna de las opciones normales (esto suele ocurrir cuando se aplican restricciones graves). El valor es el URI (@id) de la opción de reserva a la que se hace referencia.
 **Tipo:** cadena
 
@@ -312,7 +303,7 @@ Clasificación **Campo:**
 
 **Campo:** startTime
 **Título:** Fecha y hora de inicio de la actividad
-**Descripción:** Fecha de inicio y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en https://schema.org/Action.
+**Descripción:** fecha de inicio y hora de finalización de la decisión (anteriormente conocida como actividad). La propiedad tiene la semántica de la propiedad &#39;startTime&#39; de schema.org definida en https://schema.org/Action.
 **Tipo:** cadena
 
 +++

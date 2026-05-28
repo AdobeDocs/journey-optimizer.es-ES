@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2006
-ht-degree: 1%
+source-wordcount: 873
+ht-degree: 3%
 
 ---
 
@@ -103,7 +94,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 **Campo:** características
 **Título:** Características de la opción de decisión
-**Descripción:** Las características son atributos o propiedades adicionales de las ofertas que pertenecen a una opción de decisión determinada. Estos atributos son pares de valor clave, lo que significa que incluyen un nombre de atributo (a veces denominado &quot;clave&quot;) que tiene un valor asociado y se utilizan para distinguir una opción de decisión de las otras ofertas. Por ejemplo, para un nombre de atributo &quot;color&quot;, el valor puede ser &quot;verde&quot; para una oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Descripción:** Las características son atributos o propiedades adicionales de las ofertas que pertenecen a una opción de decisión determinada. Estos atributos son pares de valor clave, lo que significa que incluyen un nombre de atributo (a veces denominado &quot;clave&quot;) que tiene un valor asociado y se utilizan para distinguir una opción de decisión de las otras ofertas. Por ejemplo, para el nombre de atributo &quot;color&quot;, el valor podría ser &quot;verde&quot; para una oferta específica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** objeto
 
 +++
@@ -143,7 +134,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
      Formato **Campo:**
      Formato **Título:**
-     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet](https://www.iana.org/assignments/media-types/) que definen formatos de medios de equipos).
+     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet](https://www.iana.org/assignments/media-types/) que definen formatos de medios informáticos).
      **Tipo:** cadena
      **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
@@ -162,7 +153,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
    * **id**
 
      **Campo:** id.
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
@@ -175,7 +166,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
    * **ID de repositorio**
 
      **Campo:** repositoryID
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
      **Tipo:** cadena
      **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
@@ -204,7 +195,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
   **Campo:** linkURL
   **Descripción:** Un localizador de recursos único opcional para las interacciones del usuario. Esta URL se utiliza para remitir al usuario final a en un agente de usuario y se puede rastrear.
   **Tipo:** cadena
-  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Ejemplo:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement
 
@@ -247,7 +238,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 **Campo:** descripción
 **Título:** Descripción
-**Descripción:** Descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles por el ser humano sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción se incluirá o excluirá en ella.
+**Descripción:** descripción de restricción de perfil. Se utiliza para transmitir intenciones legibles por el ser humano sobre cómo o por qué se construyó esta restricción de perfil y/o qué opción se incluirá o excluirá en ella.
 **Tipo:** cadena
 
 +++
@@ -319,7 +310,7 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL repo
 
 Clasificación **Campo:**
 **Título:** Detalles de clasificación
-**Descripción:** Rango (prioridad). Define lo que se considera la \&quot;mejor acción\&quot; dado el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen con las restricciones de elegibilidad, el orden de clasificación decidirá las opciones principales (o N principales) que se propondrán.
+**Descripción:** Clasificación (prioridad). Define lo que se considera la \&quot;mejor acción\&quot; dado el contexto del criterio de decisión. Entre todas las opciones seleccionadas que cumplen con las restricciones de elegibilidad, el orden de clasificación decidirá las opciones principales (o N principales) que se propondrán.
 **Tipo:** objeto
 
 +++

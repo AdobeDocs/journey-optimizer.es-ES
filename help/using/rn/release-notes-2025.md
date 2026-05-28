@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -75,7 +71,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de destino.</p>
+<p>Con [!DNL Journey Optimizer], ahora puede capturar atributos de perfil a través de sus páginas de aterrizaje.</p>
 <p>Cree, diseñe y administre formularios personalizados adaptados a sus necesidades en función de un conjunto de datos específico. A continuación, puede utilizar estos formularios en páginas de aterrizaje para añadir los atributos de perfil que elija al conjunto de datos definido para cada formulario.</p>
 <p>Actualmente, esta capacidad está disponible de forma limitada para clientes de Estados Unidos y Australia. Póngase en contacto con su representante de Adobe para obtener acceso.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
@@ -1084,7 +1080,7 @@ A continuación, se describen las mejoras incluidas en esta versión.
 
 * **Campañas**
 
-   * **Varias acciones entrantes en las campañas**: para simplificar la orquestación de la campaña, ahora puede definir varias acciones entrantes en una sola campaña. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes in-app, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico.
+   * **Varias acciones entrantes en las campañas**: para simplificar la orquestación de la campaña, ahora puede definir varias acciones entrantes en una sola campaña. Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, cada acción con un contenido específico.
      [Más información](../campaigns/campaign-action.md#multi-action)
 
    * **Reorganización del inventario de campañas**: las campañas programadas y activadas por API ahora se dividen en pestañas independientes en el inventario de campañas para facilitar la navegación y la administración.
@@ -1210,7 +1206,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo del recorrido y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
+<p>Ahora puede incluir ofertas personalizadas en los recorridos mediante una actividad de decisión de contenido específica en el lienzo y utilizarlas en actividades de recorrido, incluidas las condiciones y las acciones personalizadas.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada) y se implementará globalmente en una futura versión.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/content-decision.md">documentación detallada</a>.</p>
@@ -1780,7 +1776,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Puntuación de alineación con la marca (Beta)</strong><br/></th>
+<th><strong>Puntuación de alineación con la marca (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Los recursos de Dynamic Media ahora están disponibles y son accesibles directamente en Journey Optimizer. Esta actividad le permite lo siguiente:
+<p>Los recursos de Dynamic Media ahora están disponibles y accesibles directamente en Journey Optimizer. Esta integración le permite:
 <ul>
 <li>Administrar centralmente los recursos con actualizaciones en tiempo real</li>
 <li>Modificar la configuración de los recursos, como la anchura y la altura, al instante</li>
@@ -2119,7 +2115,7 @@ A continuación, se describen las nuevas funciones incluidas en esta versión.
 <tbody>
 <tr>
 <td>
-<p>Ahora puede crear contenido atractivo para sus páginas de destino, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
+<p>Ahora puede crear contenido atractivo para sus páginas de aterrizaje, incluidos diseños de página completa, texto personalizado e imágenes personalizadas, con la ayuda del Asistente de IA.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Para obtener más información, consulte la <a href="../content-management/generative-full-content.md">documentación detallada</a>.</p>
 </td>
