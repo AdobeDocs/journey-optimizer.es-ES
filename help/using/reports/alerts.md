@@ -9,12 +9,24 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 3128
@@ -251,7 +263,7 @@ Le notifica cuando una operación **stop** **falla**. Investigue el estado de la
 
 +++ Envío de campaña iniciado
 
-Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3} (la ejecución ha pasado a la fase de entrega).**
+Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3&rbrace; (la ejecución ha pasado a la fase de entrega).**
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -271,7 +283,7 @@ Le notifica cuando **la entrega de mensajes** para una campaña se ha **completa
 
 +++ Error de envío de campaña
 
-Le notifica cuando **falla la entrega de mensajes** para una campaña **3}.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
+Le notifica cuando **falla la entrega de mensajes** para una campaña **3&rbrace;.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
