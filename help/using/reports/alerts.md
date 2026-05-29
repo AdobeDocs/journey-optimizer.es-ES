@@ -2,34 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Acceso y suscripción a alertas del sistema
-description: Obtenga información sobre cómo acceder, suscribirse y administrar alertas del sistema en Adobe Journey Optimizer. Monitorice el rendimiento de la recorrido, los errores de acciones personalizadas, los problemas de perfil y la capacidad de envío de correo electrónico con notificaciones de alertas proactivas.
-feature: Journeys, Alerts, Monitoring
+description: Obtenga información sobre cómo acceder, suscribirse y administrar alertas del sistema en Adobe Journey Optimizer. Monitorice el recorrido y el ciclo vital de la campaña, los errores de acciones personalizadas, los problemas de perfil y la capacidad de envío de correo electrónico con notificaciones de alertas proactivas.
+feature: Journeys, Campaigns, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
-source-wordcount: 2971
+source-wordcount: 3128
 ht-degree: 1%
 
 ---
@@ -44,7 +32,7 @@ Adobe Journey Optimizer proporciona dos tipos de alertas:
 
 * **Alertas de validación en lienzo**: al crear recorridos y campañas, use el botón **Alertas** del lienzo para identificar y resolver los errores de configuración antes de publicar. Aprenda a [solucionar problemas de sus recorridos](../building-journeys/troubleshooting.md) y a revisar sus campañas: [Campañas de acción](../campaigns/review-activate-campaign.md) | [Campañas activadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campañas organizadas](../orchestrated/start-monitor-campaigns.md).
 
-* **Alertas de monitorización del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se excedan los umbrales operativos o se detecten problemas en las configuraciones de canal y recorridos activos. Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil y problemas de envío de correo electrónico.
+* **Alertas de supervisión del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se superen los umbrales operativos o se detecten problemas en las configuraciones de canales y recorridos activos, y cuando se produzcan eventos importantes del ciclo vital de la campaña (activación, entrega, detención y errores relacionados). Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil y problemas de envío de correo electrónico, además de esos eventos de campaña.
 
 **Ventajas principales de las alertas del sistema:**
 
@@ -59,19 +47,16 @@ Las alertas del sistema están disponibles en el menú **[!UICONTROL Alertas]** 
 
 Antes de trabajar con alertas:
 
-* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es#permissions){target="_blank"}.
+* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconocimiento de zona protegida**: Las suscripciones de alerta son específicas de la zona protegida. Al suscribirse a las alertas, solo se aplican a la zona protegida actual. Cuando se restablece una zona protegida, también se restablecen todas las suscripciones de alerta.
 
 * **Preferencias de notificación**: configure la forma en que recibe las alertas (correo electrónico o en la aplicación) en sus [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
->[!NOTE]
->
->Las alertas específicas de Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba. Para obtener más información acerca del marco de alertas, consulte la [documentación de alertas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}.
 
-## Alertas disponibles en Journey Optimizer {#available-alerts}
+## Alertas disponibles {#available-alerts}
 
-Journey Optimizer proporciona reglas de alerta preconfiguradas que supervisan aspectos específicos de los recorridos y las configuraciones de canal. No es necesario que cree estas alertas: están disponibles de forma predeterminada y se pueden activar mediante suscripción.
+Journey Optimizer proporciona reglas de alerta preconfiguradas que supervisan aspectos específicos de sus recorridos, campañas y configuraciones de canal. No es necesario que cree estas alertas: están disponibles de forma predeterminada y se pueden activar mediante suscripción.
 
 **Para tener acceso a la lista de alertas:**
 
@@ -79,141 +64,19 @@ Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Alertas]** en el menú d
 
 ![](assets/updated-alerts-list.png){width=60%}
 
-### Categorías de alerta
-
-Journey Optimizer proporciona dos categorías de alertas del sistema:
+Examine las pestañas siguientes para revisar las alertas de configuración de recorridos, campañas y canales. Seleccione un nombre de alerta en una ficha para expandir su descripción completa.
 
 >[!BEGINTABS]
 
 >[!TAB alertas de Recorrido]
 
-Monitorice la ejecución y el rendimiento del recorrido:
-
-* [Déclencheur de lectura de audiencia incorrecto](#alert-read-audiences): advierte cuando una actividad de lectura de audiencia no procesa los perfiles
-* [Tasa de error de acción personalizada superada](#alert-custom-action-error-rate) - Detecta tasas de error altas en las llamadas a la API de acción personalizada (reemplaza la alerta de error de acción personalizada de Recorrido anterior)
-* [Tasa de descarte de perfil superada](#alert-discard-rate): identifica cuándo se descartan los perfiles a una tasa anormal
-* [Tasa de error de perfil superada](#alert-profile-error-rate) - Indica cuándo los perfiles encuentran errores durante la ejecución del recorrido
-* [Recorrido publicado](#alert-journey-published): notificación informativa cuando se publica un recorrido
-* [Recorrido finalizado](#alert-journey-finished) - Notificación informativa cuando finaliza un recorrido
-* [Límite de acción personalizada activado](#alert-custom-action-capping): notifica cuando se alcanzan los límites de llamadas de API
-
->[!TAB Alertas de configuración de canal]
-
-Detectar problemas con la configuración de envío de correo electrónico:
-
-* [Falta el registro DNS del dominio de AJO](#alert-dns-record-missing) - Identifica registros DNS que faltan o que no están configurados
-* [Error de configuración de canal de AJO](#alert-channel-config-failure): detecta problemas de configuración de correo electrónico (registros SPF, DKIM, MX)
-* [Renovación incorrecta de certificados de dominio de AJO](#alert-certificates-renewal-unsuccessful): advierte cuando los certificados de recurso o de seguimiento de un subdominio de delegación personalizado caducan pronto o han caducado
-
->[!ENDTABS]
-
->[!NOTE]
->
->Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}.
-
-## Suscribirse a alertas {#subscribe-alerts}
-
-Las suscripciones de alerta determinan qué usuarios reciben notificaciones cuando se cumplen condiciones específicas (como umbrales de tasa de error que se superan o problemas de configuración detectados). Solo los usuarios suscritos reciben notificaciones de alerta para las alertas seleccionadas.
-
-### Métodos de suscripción
-
-Puede suscribirse a las alertas de dos formas:
-
-* **[Suscripción global](#global-subscription)**: se aplica a todos los recorridos y campañas de la zona protegida actual. Utilice este método cuando desee monitorizar toda la actividad del recorrido en su organización.
-* **[suscripción específica del Recorrido](#unitary-subscription)**: se aplica solo a recorridos individuales. Utilice este método cuando desee supervisar recorridos de prioridad alta específicos sin recibir alertas para todos los recorridos.
-
-### Funcionamiento de las notificaciones de alerta
-
-**Ciclo de vida de la alerta:**
-
-1. **Activación**: La alerta déclencheur cuando se cumple su condición específica (por ejemplo, la tasa de error supera el 20%)
-2. **Notificación**: todos los usuarios suscritos reciben notificaciones a través de los canales configurados
-3. **Supervisión**: la alerta continúa supervisando la condición a intervalos regulares
-4. **Resolución**: cuando se resuelve la condición, los suscriptores reciben una notificación &quot;Resuelta&quot;
-
-**Envío de notificación:**
-
-* **Canales de envío**: las alertas se envían por correo electrónico o a través de notificaciones desde la aplicación en el centro de notificaciones de Journey Optimizer (icono de campana en la esquina superior derecha). Configure sus canales de envío preferidos en [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
-
-* **Tipos de alerta**: Journey Optimizer proporciona alertas únicas (eventos informativos como &quot;recorrido publicado&quot;) y repetidas (umbrales de supervisión). Las alertas repetidas siguen evaluando y notificando hasta que se resuelva la condición.
-
-* **Resolución automática**: Para evitar que la fatiga de notificaciones fluctúe en los valores, las alertas se resuelven automáticamente después de 1 hora, incluso si la condición persiste. Esto evita notificaciones continuas cuando las métricas giran alrededor de los valores de umbral.
-
-**Método de suscripción alternativo:**
-
-Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}.
-
-
-### Suscripción global {#global-subscription}
-
-Las suscripciones globales le permiten recibir alertas de todos los recorridos y campañas de la zona protegida actual.
-
-**Para suscribirse a una alerta:**
-
-1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Alertas]** en el menú de la izquierda.
-
-1. En la ficha **[!UICONTROL Examinar]**, busque la alerta que desee supervisar.
-
-1. Haga clic en **[!UICONTROL Suscribirse]** para obtener la alerta deseada.
-
-   ![Suscribiéndose a una alerta](assets/alert-subscribe.png){width=80%}
-
-**Para cancelar la suscripción:**
-
-Haga clic en **[!UICONTROL Cancelar la suscripción]** junto a la alerta.
-
->[!IMPORTANT]
->
->Las suscripciones de alerta son específicas de la zona protegida. Debe suscribirse a las alertas por separado en cada zona protegida en la que desee recibir notificaciones.
-
-**Método de suscripción alternativo:**
-
-También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de suscripción de eventos para las alertas de Journey Optimizer se enumeran en cada [descripción de alerta a continuación](#journey-alerts).
-
-### suscripción específica de recorrido {#unitary-subscription}
-
-Las suscripciones específicas a recorridos le permiten supervisar recorridos individuales de alta prioridad sin recibir alertas de todos los recorridos de su organización.
-
-**Para suscribirse a las alertas de un recorrido específico:**
-
-1. Vaya al inventario de recorrido.
-
-1. Haga clic en el menú **⋯** (más acciones) del recorrido que desee supervisar.
-
-1. Seleccione **[!UICONTROL Suscribirse a alertas]**.
-
-   ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=75%}
-
-1. Seleccione las alertas que desee activar entre las opciones disponibles:
-   * [Tasa de descartes de perfil superada](#alert-discard-rate)
-   * [Tasa de errores de acción personalizada superada](#alert-custom-action-error-rate)
-   * [Tasa de errores de perfil superada](#alert-profile-error-rate)
-   * [Recorrido publicado](#alert-journey-published)
-   * [Recorrido finalizado](#alert-journey-finished)
-   * [Límite de acción personalizado activado](#alert-custom-action-capping)
-
-1. Haz clic en **[!UICONTROL Guardar]** para confirmar tus suscripciones.
-
-**Para cancelar la suscripción:**
-
-Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UICONTROL Guardar]**.
-
->[!NOTE]
->
->La alerta [Leer Déclencheur de audiencias no se ha realizado correctamente](#alert-read-audiences) solo está disponible a través de una suscripción global, no de una suscripción por recorrido.
-
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
-
-## alertas de recorrido {#journey-alerts}
-
-
-A continuación se enumeran todas las notificaciones de recorrido disponibles en la interfaz de usuario de.
+En esta pestaña se muestran todas las notificaciones de recorrido disponibles en la interfaz de usuario. Seleccione un nombre de alerta para ampliar su descripción y guía completas.
 
 >[!CAUTION]
 >
 >Las alertas específicas de Adobe Journey Optimizer solo se aplican a **recorridos activos**. Las alertas no se activan para los recorridos en el modo de prueba.
 
-### Error al leer el déclencheur de audiencia {#alert-read-audiences}
++++ Error al leer el déclencheur de audiencia
 
 Esta alerta le advierte si una actividad **Leer audiencia** no ha procesado ningún perfil 10 minutos después de la hora programada de ejecución. Este error puede deberse a problemas técnicos o a que la audiencia está vacía. Si este error se debe a problemas técnicos, tenga en cuenta que aún pueden producirse reintentos, según el tipo de problema (p. ej.: si la creación del trabajo de exportación ha fallado, lo volveremos a intentar cada 10 minutos durante 1 h como máximo).
 
@@ -225,9 +88,15 @@ El nombre de suscripción de evento de E/S correspondiente a la alerta **Leer D�
 
 Para solucionar problemas de las alertas de **Leer audiencia**, compruebe su recuento de público en la interfaz de Experience Platform.
 
-### Tasa de descarte de perfil excedida {#alert-discard-rate}
+➡️ [Configurar audiencia de lectura](../building-journeys/read-audience.md)
 
-Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+➡️ [Definir y usar audiencias](../audience/about-audiences.md)
+
++++
+
++++ Tasa de descarte de perfil excedida
+
+Esta alerta le advierte si la proporción de descartes de perfiles respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20 %, pero puede definir uno personalizado.
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
@@ -239,10 +108,15 @@ Existen varias razones por las que se puede descartar un perfil, lo que informar
 * La identidad no se define para el perfil o el área de nombres que utiliza el recorrido de audiencia de lectura no se utiliza en ese perfil. Para resolver esto, asegúrese de que el área de nombres de la recorrido coincida con el área de nombres de identidad utilizado por los perfiles.
 * Se ha superado la tasa de rendimiento de eventos. Para resolver esto, asegúrese de que los eventos que llegan al sistema no superan estos límites.
 
+➡️ [Solucionar problemas de recorrido](../building-journeys/troubleshooting.md)
 
-### Tasa de error de acción personalizada excedida {#alert-custom-action-error-rate}
+➡️ [Definir un umbral de alerta personalizado](#custom-threshold)
 
-Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
++++
+
++++ Tasa de error de acción personalizada excedida
+
+Esta alerta le advierte si la proporción de errores de acción personalizada respecto a llamadas HTTP correctas durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20 %, pero puede definir uno personalizado.
 
 >[!NOTE]
 >
@@ -252,40 +126,68 @@ Haga clic en el nombre de la alerta para comprobar sus detalles y configuración
 
 Los errores de acciones personalizadas pueden ocurrir por varios motivos. Para solucionar estos errores, puede:
 
-* Comprueba tu acción personalizada usando [modo de prueba](../building-journeys/testing-the-journey.md) en otro recorrido.
-* Consulte su [informe de recorridos](../reports/journey-live-report.md) para ver los motivos de error al realizar la acción.
+* Compruebe la acción personalizada mediante el modo de prueba en otro recorrido.
+* Consulte el informe de recorridos para ver los motivos de error al realizar la acción.
 * Compruebe los stepEvents de recorrido para buscar más información sobre &quot;failureReason&quot;.
 * Compruebe que la acción personalizada esté configurada correctamente y valide que la autenticación sigue siendo válida. Realice una comprobación manual con Postman, por ejemplo.
 * Compruebe que el punto de conexión sea accesible y que la acción personalizada pueda llegar a él a través del comprobador de conectividad de acción personalizada.
 * Compruebe las credenciales de autenticación, la conectividad a Internet, etc.
 
-### Tasa de error de perfil excedida {#alert-profile-error-rate}
+➡️ [Validar en modo de prueba](../building-journeys/testing-the-journey.md)
 
-Esta alerta le advierte si la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20%, pero puede [definir un umbral personalizado](#custom-threshold).
+➡️ [Inspeccionar el informe en vivo de recorrido](../reports/journey-live-report.md)
+
+➡️ [Configurar acciones personalizadas](../action/about-custom-action-configuration.md)
+
+➡️ [Definir un umbral de alerta personalizado](#custom-threshold)
+
++++
+
++++ Tasa de error de perfil excedida
+
+Esta alerta le advierte si la proporción de perfiles en error respecto a los perfiles introducidos durante los últimos 5 minutos ha superado el umbral. El umbral predeterminado está establecido en 20 %, pero puede definir uno personalizado.
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
 Para solucionar errores de perfil, puede consultar los datos en eventos de paso para comprender dónde y por qué falló el perfil en la recorrido.
 
-### Recorrido publicado {#alert-journey-published}
+➡️ [Trabajar con eventos de paso de recorrido](../reports/journey-step-events-overview.md)
+
+➡️ [Inspeccionar el informe en vivo de recorrido](../reports/journey-live-report.md)
+
+➡️ [Definir un umbral de alerta personalizado](#custom-threshold)
+
++++
+
++++ Recorrido publicado
 
 Esta alerta le avisa cuando un profesional ha publicado un recorrido en el lienzo del recorrido.
 
 Se trata de una alerta informativa que le ayuda a realizar un seguimiento de los eventos del ciclo vital de recorrido en su organización. No hay criterios de resolución, ya que se trata de una notificación única.
 
-### Recorrido finalizado {#alert-journey-finished}
+➡️ [Publicar un recorrido](../building-journeys/publish-journey.md)
 
-Esta alerta le avisa cuando ha finalizado un recorrido. La definición de &quot;terminado&quot; varía según el tipo de recorrido. [Obtenga más información sobre cuándo se considera que han finalizado los recorridos](../building-journeys/end-journey.md#journey-finished-definition).
+➡️ [Validar en modo de prueba](../building-journeys/testing-the-journey.md)
+
++++
+
++++ Recorrido finalizado
+
+Esta alerta le avisa cuando ha finalizado un recorrido. La definición de &quot;terminado&quot; varía según el tipo de recorrido.
 
 Esta es una alerta informativa que le ayuda a realizar un seguimiento de la finalización del recorrido. No hay criterios de resolución, ya que se trata de una notificación única.
 
-### Límite de acción personalizado activado {#alert-custom-action-capping}
+➡️ [Comprenda cuándo ha finalizado un recorrido](../building-journeys/end-journey.md#journey-finished-definition)
+
++++
+
++++ Límite de acción personalizado activado
 
 Esta alerta le avisa cuando se ha activado el límite de una acción personalizada. El límite se utiliza para limitar el número de llamadas enviadas a un extremo externo para evitar saturar el extremo.
 
 Haga clic en el nombre de la alerta para comprobar sus detalles y configuración.
 
-Cuando se activa el límite, significa que se ha alcanzado el número máximo de llamadas de API en el período de tiempo definido y que se están restringiendo o poniendo en cola más llamadas. Obtenga más información sobre cómo limitar las acciones personalizadas en [esta página](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices).
+Cuando se activa el límite, significa que se ha alcanzado el número máximo de llamadas de API en el período de tiempo definido y que se están restringiendo o poniendo en cola más llamadas.
 
 Esta alerta se resuelve cuando el límite ya no está activo o cuando ningún perfil alcanza la acción personalizada durante el período de evaluación.
 
@@ -295,11 +197,95 @@ Para solucionar problemas de límite:
 * Compruebe si el volumen de llamadas de API es mayor de lo esperado y considere la posibilidad de ajustar el diseño del recorrido o la configuración del límite.
 * Supervise el extremo externo para asegurarse de que puede gestionar la carga esperada.
 
-## Alertas de configuración {#configuration-alerts}
+➡️ [Configurar límite de acción personalizado](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
 
-A continuación, se enumeran las alertas de monitorización de configuración de canal disponibles en la interfaz de usuario.
++++
 
-### Falta el registro DNS del dominio de AJO {#alert-dns-record-missing}
+>[!TAB Alertas de campaña]
+
+Las alertas del sistema le avisan cuando se producen eventos importantes de ciclo vital o de envío en las campañas **Acción** y **Activadas por API**. Seleccione un nombre de alerta a continuación para expandir su descripción.
+
++++ Campaña activada
+
+Le notifica cuando una campaña se ha **activado** correctamente (publicación/activación completada).
+
+➡️ [Revisar y activar una campaña de acción](../campaigns/review-activate-campaign.md)
+
+➡️ [Revisar y activar una campaña activada por API](../campaigns/review-activate-api-triggered-campaign.md)
+
++++
+
++++ Error de activación de campaña
+
+Le notifica cuando **activación** de una campaña **falla**. Utilice esta alerta para detectar problemas técnicos o de configuración de forma temprana y reintente o corrija la campaña antes de que los clientes se vean afectados.
+
+➡️ [Revisar y activar una campaña de acción](../campaigns/review-activate-campaign.md)
+
+➡️ [Revisar y activar una campaña activada por API](../campaigns/review-activate-api-triggered-campaign.md)
+
+➡️ [Revisar los requisitos previos y la configuración de la campaña](../campaigns/get-started-with-campaigns.md)
+
++++
+
++++ Campaña detenida
+
+Le avisa cuando una campaña se ha **detenido** correctamente (por ejemplo, después de una detención manual o cuando la ejecución se completa según el flujo de trabajo).
+
+➡️ [Comprenda el estado de la campaña](../campaigns/manage-campaigns.md#statuses)
+
+➡️ [Detener una campaña de acción](../campaigns/manage-campaigns.md#stop)
+
++++
+
++++ Error al detener la campaña
+
+Le notifica cuando una operación **stop** **falla**. Investigue el estado de la campaña y los errores que se muestren en la interfaz de usuario antes de volver a intentarlo.
+
+➡️ [Comprenda el estado de la campaña](../campaigns/manage-campaigns.md#statuses)
+
+➡️ [Interpretar indicadores de error](../campaigns/manage-campaigns.md#error-indicators)
+
+➡️ [Detener una campaña de acción](../campaigns/manage-campaigns.md#stop)
+
++++
+
++++ Envío de campaña iniciado
+
+Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3} (la ejecución ha pasado a la fase de entrega).**
+
+➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [Administrar campañas](../campaigns/manage-campaigns.md)
+
++++
+
++++ Envío de campaña completado
+
+Le notifica cuando **la entrega de mensajes** para una campaña se ha **completado** correctamente.
+
+➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [Administrar campañas](../campaigns/manage-campaigns.md)
+
++++
+
++++ Error de envío de campaña
+
+Le notifica cuando **falla la entrega de mensajes** para una campaña **3}.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
+
+➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
+
+➡️ [Interpretar indicadores de error](../campaigns/manage-campaigns.md#error-indicators)
+
+➡️ [Configurar envío de canal](../configuration/channel-surfaces.md)
+
++++
+
+>[!TAB Alertas de configuración de canal]
+
+En esta pestaña se muestran las alertas de monitorización de configuración de canal disponibles en la interfaz de usuario. Seleccione un nombre de alerta para ampliar los pasos y notas de corrección.
+
++++ Falta el registro DNS del dominio de AJO
 
 Esta alerta le notifica cuando faltan o no se han configurado correctamente los registros DNS críticos (NS o CNAME) necesarios para la correcta configuración de la entrega. Sin estos registros, la capacidad de envío del correo electrónico puede verse comprometida.
 
@@ -327,7 +313,9 @@ Si los cambios no resuelven el problema, la misma alerta se activará de nuevo a
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### Error de configuración de canal de AJO {#alert-channel-config-failure}
++++
+
++++ Error de configuración de canal de AJO
 
 >[!IMPORTANT]
 >
@@ -368,7 +356,9 @@ Cuando resuelva problemas de configuración de correo electrónico, tenga en cue
 * Actuar con rapidez: solucione los errores de configuración en cuanto se detecten para evitar interrupciones en la entrega de correos electrónicos.
 * Comprobar todas las configuraciones: si la alerta indica varias configuraciones de correo electrónico afectadas, revise y corrija cada una de ellas.
 
-### renovación incorrecta de certificados de dominio de AJO {#alert-certificates-renewal-unsuccessful}
++++
+
++++ renovación incorrecta de certificados de dominio de AJO
 
 >[!IMPORTANT]
 >
@@ -392,6 +382,133 @@ Si se activa esta alerta, siga los pasos a continuación para investigar y resol
 
 1. En su solución de alojamiento DNS, compruebe que todos los registros necesarios para la delegación de subdominios siguen coincidiendo con los valores mostrados en [!DNL Journey Optimizer], incluidos los registros utilizados para la validación SSL.
 
++++
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+
+## Suscribirse a alertas {#subscribe-alerts}
+
+Las suscripciones de alerta determinan qué usuarios reciben notificaciones cuando se cumplen condiciones específicas (como umbrales de tasa de error que se superan o problemas de configuración detectados). Solo los usuarios suscritos reciben notificaciones de alerta para las alertas seleccionadas.
+
+### Funcionamiento de las notificaciones de alerta
+
+**Ciclo de vida de la alerta:**
+
+1. **Activación**: La alerta déclencheur cuando se cumple su condición específica (por ejemplo, la tasa de error supera el 20%)
+2. **Notificación**: todos los usuarios suscritos reciben notificaciones a través de los canales configurados
+3. **Supervisión**: la alerta continúa supervisando la condición a intervalos regulares
+4. **Resolución**: cuando se resuelve la condición, los suscriptores reciben una notificación &quot;Resuelta&quot;
+
+**Envío de notificación:**
+
+* **Canales de envío**: las alertas se envían por correo electrónico o a través de notificaciones desde la aplicación en el centro de notificaciones de Journey Optimizer (icono de campana en la esquina superior derecha). Configure sus canales de envío preferidos en [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+
+* **Tipos de alerta**: Journey Optimizer proporciona alertas únicas (eventos informativos como &quot;recorrido publicado&quot;) y repetidas (umbrales de supervisión). Las alertas repetidas siguen evaluando y notificando hasta que se resuelva la condición.
+
+* **Resolución automática**: Para evitar que la fatiga de notificaciones fluctúe en los valores, las alertas se resuelven automáticamente después de 1 hora, incluso si la condición persiste. Esto evita notificaciones continuas cuando las métricas giran alrededor de los valores de umbral.
+
+**Método de suscripción alternativo:**
+
+Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
+
+### Métodos de suscripción
+
+Puede suscribirse a las alertas de varias formas:
+
+* **[Suscripción global (zona protegida)](#subscribe-alerts)**: Reciba notificaciones de todos los recorridos o campañas que coincidan en la **zona protegida actual**. Utilice esta opción cuando desee una cobertura amplia.
+* **[Suscripción específica de Recorrido](#subscribe-alerts)**: Para las alertas de recorrido admitidas, limite las notificaciones a **un recorrido** a la vez desde el inventario de recorrido.
+* **Suscripción específica de la campaña**: Actualmente, las alertas del ciclo vital de la campaña solo se pueden suscribir en el nivel de espacio aislado.
+
+>[!BEGINTABS]
+
+>[!TAB suscripción global]
+
+Las suscripciones globales le permiten recibir alertas de todos los recorridos y campañas de la zona protegida actual.
+
+**Para suscribirse a una alerta:**
+
+1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Alertas]** en el menú de la izquierda.
+
+1. En la ficha **[!UICONTROL Examinar]**, busque la alerta que desee supervisar.
+
+1. Haga clic en **[!UICONTROL Suscribirse]** para obtener la alerta deseada.
+
+   ![Suscribiéndose a una alerta](assets/alert-subscribe.png){width=80%}
+
+**Para cancelar la suscripción:**
+
+Haga clic en **[!UICONTROL Cancelar la suscripción]** junto a la alerta.
+
+>[!IMPORTANT]
+>
+>Las suscripciones de alerta son específicas de la zona protegida. Debe suscribirse a las alertas por separado en cada zona protegida en la que desee recibir notificaciones.
+
+**Método de suscripción alternativo:**
+
+También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de las suscripciones de E/S de alertas de recorrido se indican en la [ficha Alertas de Recorrido](#available-alerts) en **Alertas disponibles**, según corresponda. Las alertas del ciclo vital de Campaign siguen el mismo modelo de suscripción de Platform; consulte esa documentación para la integración programática.
+
+>[!TAB suscripción específica del Recorrido]
+
+Las suscripciones específicas a recorridos le permiten supervisar recorridos individuales de alta prioridad sin recibir alertas de todos los recorridos de su organización.
+
+**Para suscribirse a las alertas de un recorrido específico:**
+
+1. Vaya al inventario de recorrido.
+
+1. Haga clic en el menú **⋯** (más acciones) del recorrido que desee supervisar.
+
+1. Seleccione **[!UICONTROL Suscribirse a alertas]**.
+
+   ![Suscripción a una alerta para un recorrido específico](assets/subscribe-journey-alert.png){width=75%}
+
+1. Seleccione las alertas que desee activar entre las opciones disponibles:
+   * [Tasa de descartes de perfil superada](#available-alerts)
+   * [Tasa de errores de acción personalizada superada](#available-alerts)
+   * [Tasa de errores de perfil superada](#available-alerts)
+   * [Recorrido publicado](#available-alerts)
+   * [Recorrido finalizado](#available-alerts)
+   * [Límite de acción personalizado activado](#available-alerts)
+
+1. Haz clic en **[!UICONTROL Guardar]** para confirmar tus suscripciones.
+
+**Para cancelar la suscripción:**
+
+Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UICONTROL Guardar]**.
+
+>[!NOTE]
+>
+>La alerta [Leer Déclencheur de audiencias no se ha realizado correctamente](#available-alerts) solo está disponible a través de una suscripción global, no de una suscripción por recorrido.
+
+>[!ENDTABS]
+
+<!--
+Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
+
+**To subscribe to campaign lifecycle alerts for a specific campaign:**
+
+1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
+
+1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
+
+1. Select **[!UICONTROL Subscribe to alerts]**.
+
+1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
+
+1. Click **[!UICONTROL Save]** to confirm your subscriptions.
+
+**To unsubscribe:**
+
+Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
+
+You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
+-->
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+
 ## Administración de alertas {#manage-alerts}
 
 ### Editar una alerta
@@ -403,14 +520,13 @@ Para las alertas de Recorrido, usa el botón **[!UICONTROL Más acciones]** para
 
 ### Definición de un umbral personalizado {#custom-threshold}
 
-Puede establecer umbrales para [Recorrido alerts](#journey-alerts). El umbral de alertas por encima del valor predeterminado es del 20 %.
+Puede establecer umbrales para [Recorrido alerts](#available-alerts). El umbral de alertas por encima del valor predeterminado es del 20 %.
 
 Para cambiar el umbral:
 
 1. Vaya a la pantalla **Alertas**
 1. Haga clic en el botón **[!UICONTROL Más acciones]** de la alerta para actualizar
 1. Introduzca el nuevo umbral y confirme. El nuevo umbral se aplica a **todos** los recorridos
-
 
 ![](assets/alert-threshold.png){width=60%}
 
@@ -422,7 +538,6 @@ Para cambiar el umbral:
 
 De forma predeterminada, todas las alertas están habilitadas. Para deshabilitar una alerta, seleccione la opción **[!UICONTROL Deshabilitar alerta]**: todos los suscriptores de esta alerta dejarán de recibir las notificaciones relacionadas.
 
-
 ### Estados de alerta
 
 Los posibles estados de alerta se enumeran a continuación:
@@ -430,7 +545,6 @@ Los posibles estados de alerta se enumeran a continuación:
 * **[!UICONTROL Habilitada]**: la alerta está habilitada y actualmente supervisa la condición de déclencheur.
 * **[!UICONTROL Deshabilitada]**: la alerta está deshabilitada y actualmente no supervisa la condición de déclencheur. No recibirá notificaciones para esta alerta.
 * **[!UICONTROL Activada]**: actualmente se cumple la condición de déclencheur de la alerta.
-
 
 ### Ver y actualizar suscriptores {#manage-subscribers}
 
@@ -455,6 +569,6 @@ Para quitar suscriptores, elimina su dirección de correo electrónico de los su
 **Marco de alertas:**
 
 * [Información general sobre alertas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}: Descripción del marco de alertas
-* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es){target="_blank"}: ver, suscribirse y administrar alertas
-* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"} - Opciones de integración avanzadas
-* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}: lista completa de alertas de plataforma disponibles
+* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"}: ver, suscribirse y administrar alertas
+* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opciones de integración avanzadas
+* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}: lista completa de alertas de plataforma disponibles
