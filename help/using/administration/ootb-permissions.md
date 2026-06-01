@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 2%
@@ -73,4 +73,3 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Servicio de traducción | **[!DNL Manage translation in house]**: leer, crear, editar y eliminar la traducción interna.</br>**[!DNL Manage translation projects]**: leer, crear, editar y eliminar proyectos de traducción.</br> **[!DNL Manage translation reviews]**: leer, crear, editar y eliminar revisiones de traducción.</br>**[!DNL Manage translation settings]**: leer, crear, editar y eliminar la configuración de traducción.</br>**[!DNL Manage translation tasks]**: leer, crear, editar y eliminar tareas de traducción.</br>**[!DNL View translation in house]**: acceso de solo lectura para la traducción interna.</br>**[!DNL View translation projects]**: acceso de solo lectura para proyectos de traducción.</br>**[!DNL View translation reviews]**: acceso de solo lectura para revisiones de traducción.</br>**[!DNL View translation tasks]**: acceso de solo lectura para tareas de traducción. |
 
 {style="table-layout:fixed"}
-
