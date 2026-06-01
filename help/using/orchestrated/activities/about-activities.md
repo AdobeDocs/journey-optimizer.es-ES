@@ -6,19 +6,14 @@ description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 44%
+ht-degree: 58%
 
 ---
 
@@ -73,12 +68,12 @@ Aprenda a [crear una acción de canal en una campaña organizada](channels.md).
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Actividad Finalizar"
->abstract="La actividad **End** marca el final de una rama en el lienzo. Opcionalmente, use **Señal externa** para iniciar una campaña orquestada descendente y pasar parámetros cuando finalice la rama. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="La actividad **Finalizar** marca el final de una rama en el lienzo. Opcionalmente, use **Señal externa** para iniciar una campaña orquestada descendente y pasar parámetros cuando finalice la rama. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Señal externa"
->abstract="Seleccione la campaña orquestada descendente para que se inicie cuando termine esta rama y asigne los nombres y valores de los parámetros que se enviarán en la señal. La campaña descendente debe establecerse en **Activada mediante una señal** y publicarse antes de que esta campaña alcance la actividad final. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Seleccione la campaña orquestada descendente para que se inicie cuando termine esta rama y asigne los nombres y valores de los parámetros que se enviarán en la señal. La campaña descendente debe establecerse como **Activada por una señal** y publicarse antes de que esta campaña alcance la actividad de finalización. [Más información](../trigger-orchestrated-campaign.md#signal-end)"
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las demás actividades.
 
