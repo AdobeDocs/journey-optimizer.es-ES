@@ -6,10 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1121
 ht-degree: 4%
@@ -384,3 +383,4 @@ Puede aplicar el asistente a un parámetro, a varios o a todos los parámetros d
 * Las claves revocadas no deben utilizarse para el nuevo cifrado. Siga su política de seguridad para la rotación y el desmantelamiento.
 
 * El proceso de cifrado consume muchos recursos, por lo que el uso de la función `Encrypt` puede afectar al rendimiento en el momento del procesamiento.
+
