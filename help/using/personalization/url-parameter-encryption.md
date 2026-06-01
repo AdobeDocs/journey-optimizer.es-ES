@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 keywords: cifrado, URL, seguimiento, página de aterrizaje, registro de claves, personalización, seguridad, privacidad, zona protegida
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # Cifrar parámetros de URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->Esta función está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 >
 >Actualmente, esta funcionalidad solo está disponible para el canal de correo electrónico.
 
@@ -54,15 +51,9 @@ Una dirección URL de página de aterrizaje puede utilizar un parámetro de cons
 
 Antes de poder utilizar el asistente de cifrado de parámetros de URL, debe crear una clave. Para ello, siga los pasos que aparecen a continuación.
 
->[!NOTE]
->
->Actualmente no hay permisos específicos para acceder y administrar claves. Las funciones que conceden acceso a la sección **[!UICONTROL Configuraciones]** en **[!UICONTROL Administración]** también conceden acceso al registro de claves. Sin embargo, se han planificado permisos específicos para una versión futura.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>Para acceder y administrar claves, debe tener concedidos los permisos **Ver registro de claves** y **Administrar registro de claves**. [Más información](../administration/high-low-permissions.md#administration-permissions)
 
 1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 

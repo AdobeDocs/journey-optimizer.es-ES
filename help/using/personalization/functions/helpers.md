@@ -9,9 +9,9 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
+source-wordcount: 1121
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ En este ejemplo, el valor `there` se muestra si el atributo `firstName` de este 
 El asistente `if` se usa para definir un bloque condicional.
 Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
 
-**Sintaxis**
+**Syntax**
 
 ```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -43,7 +43,7 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 ```
 
 Después del asistente `if`, puede escribir una instrucción `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-La instrucción `elseif` especificará una nueva condición para comprobar si la primera instrucción devuelve el valor &quot;False&quot;.
+La instrucción `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -333,8 +333,6 @@ En este ejemplo, suponiendo `profile.person.name.firstName` = &quot;Alex&quot;, 
 ## Cifrar {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->Esta función está disponible con disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 >
 >Actualmente, esta funcionalidad solo está disponible para el canal de correo electrónico.
 

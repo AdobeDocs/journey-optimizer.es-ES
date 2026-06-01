@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -207,10 +207,10 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
-     -->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * El permiso de alto nivel **[!DNL View campaigns report]** permite a los usuarios leer y editar el informe de campañas.
 
@@ -222,9 +222,9 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
      <!--
       * experiments.read
       * experiments_report.read
-     -->
+      -->
 
-+++
+  +++
 
 ## Recurso de gestión de decisiones {#decisions-permissions}
 
@@ -352,6 +352,16 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
   +++
 
+* El permiso de alto nivel **[!DNL Manage key registry]** permite a los usuarios ver, crear, girar y revocar claves en el registro de claves.
+
+  +++ Este permiso incluye los siguientes permisos de bajo nivel:  
+
+   * Específico de Journey Optimizer:
+      * key-register.read
+      * key-register.write
+
+  +++
+
 * El permiso de alto nivel **[!DNL Manage landing page settings]** permite a los usuarios leer, crear y editar subdominios de páginas de aterrizaje y ajustes preestablecidos.
 
   +++ Este permiso incluye los siguientes permisos de bajo nivel: 
@@ -408,7 +418,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
 
   +++
 
-* El permiso de alto nivel **[!DNL Manage Seedlist]** permite a los usuarios leer, crear, editar y eliminar Seedlist.
+* El permiso de alto nivel **[!DNL Manage seed lists]** permite a los usuarios leer, crear, editar y eliminar listas semilla.
 
   +++ Este permiso incluye los siguientes permisos de bajo nivel: 
 
@@ -459,6 +469,15 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
    * Específico de Journey Optimizer:
 
       * file_routing.read
+
+  +++
+
+* El permiso de alto nivel **[!DNL View key registry]** permite a los usuarios ver la lista del Registro de claves y los detalles de las claves.
+
+  +++ Este permiso incluye los siguientes permisos de bajo nivel:  
+
+   * Específico de Journey Optimizer:
+      * key-register.read
 
   +++
 
