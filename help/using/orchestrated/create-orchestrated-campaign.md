@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 55%
+ht-degree: 64%
 
 ---
 
@@ -63,17 +63,17 @@ Para crear una campaña orquestada, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planificador"
->abstract="Como administrador de campañas, puede programar campañas para que se inicien automáticamente a horas específicas o establecerlas en **Activadas por una señal** para que se inicien cuando se llamen desde la API de REST o desde la actividad **End** de otra campaña orquestada. [Más información](trigger-orchestrated-campaign.md)"
+>abstract="Como administrador de campañas, puede programar campañas para que se inicien automáticamente a horas específicas o establecerlas como **Activadas por una señal** para que se inicien cuando las llamen desde la API de REST o desde la actividad **Finalizar** de otra campaña orquestada. [Más información](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="Validez del planificador"
->abstract="Para las campañas programadas, defina un periodo de validez del planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
+>abstract="En las campañas programadas, puede definir un periodo de validez para el planificador. Puede ser permanente (predeterminado) o válido hasta una fecha específica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opciones del planificador"
->abstract="Elija cómo comienza la campaña: en una programación única o recurrente (una vez, diaria, semanal, mensual, etc.), o **Activada mediante una señal** para que espere una llamada de API o la actividad **End** de una campaña ascendente. Para campañas activadas por señales, puede definir parámetros para pasar en la carga útil. [Más información](trigger-orchestrated-campaign.md)"
+>abstract="Elija cómo se inicia la campaña: en una programación única o recurrente (una vez, diaria, semanal, mensual, etc.), o **Activada por una señal** para que espere una llamada de API o la actividad **Finalizar** de una campaña ascendente. En las campañas activadas por señales, puede definir los parámetros que se van a transferir en la carga útil. [Más información](trigger-orchestrated-campaign.md)"
 
 De forma predeterminada, las campañas orquestadas se inician cuando se activan manualmente y finalizan una vez ejecutadas sus actividades asociadas. Si prefiere retrasar la ejecución o ejecutar la campaña de forma recurrente, puede definir una programación para la campaña.
 

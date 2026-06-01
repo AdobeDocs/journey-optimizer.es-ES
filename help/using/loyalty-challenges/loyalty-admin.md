@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -81,7 +81,7 @@ Para abrir la interfaz de configuración, seleccione el menú **[!UICONTROL Admi
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Configuración global"
->abstract="La configuración global define la configuración en el nivel de organización de los Retos de fidelidad, incluido el área de nombres de identidad que se utiliza para identificar a los miembros en distintos eventos y desafíos."
+>abstract="La configuración global define la configuración en el nivel de organización para los Retos de lealtad, incluido el espacio de nombres de identidad utilizado para identificar a los miembros en distintos eventos y retos."
 
 Abra la pestaña **[!UICONTROL Configuración global]** y seleccione el [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de Adobe Experience Platform para desafíos de fidelidad en la lista desplegable **[!UICONTROL Área de nombres]**. Este área de nombres debe coincidir con la forma en que se identifican los perfiles de miembro en los datos.
 
@@ -89,27 +89,27 @@ Abra la pestaña **[!UICONTROL Configuración global]** y seleccione el [área d
 
 ➡️ [Aprenda a trabajar con áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
-## Proveedores de recompensa {#reward-providers}
+## Proveedores de recompensas {#reward-providers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
->title="Proveedores de recompensa"
->abstract="Un proveedor de recompensas define el sistema externo que [!DNL Journey Optimizer] llama para entregar las recompensas cuando los clientes completan los desafíos. Configure el extremo del proveedor, las definiciones de recompensa, la configuración de proxy y la autenticación para cada integración."
+>title="Proveedores de recompensas"
+>abstract="Un proveedor de recompensas define el sistema externo al que [!DNL Journey Optimizer] llama para entregar las recompensas cuando los clientes completan los retos. Configure el punto final del proveedor, las definiciones de recompensa, la configuración de proxy y la autenticación para cada integración."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
 >title="Conexión del proveedor de recompensas"
->abstract="Configure cómo se conecta [!DNL Journey Optimizer] a su API de recompensas: nombre del proveedor, descripción, dirección URL del extremo y encabezados HTTP necesarios para las llamadas de cumplimiento."
+>abstract="Configure cómo se conecta [!DNL Journey Optimizer] a su API de recompensas: nombre del proveedor, descripción, URL del punto final y encabezados HTTP necesarios para las llamadas de cumplimiento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
 >title="Definiciones de recompensa"
->abstract="Las definiciones de recompensa especifican cada tipo de recompensa que este proveedor puede emitir (por ejemplo, puntos o estrellas) y la carga útil [!DNL Journey Optimizer] envía cuando se cumplen las recompensas."
+>abstract="Las definiciones de recompensa especifican cada tipo de recompensa que este proveedor puede emitir (por ejemplo, puntos o estrellas) y la carga útil que [!DNL Journey Optimizer] envía cuando se cumplen las recompensas."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
->title="Recompensar proxy"
->abstract="Opcionalmente, puede enrutar las llamadas de cumplimiento a través de un servidor proxy en lugar de enviarlas directamente a su punto final de API de recompensa. Configure el host, el puerto, las credenciales y si el proxy está activado. El valor de las credenciales suele ser: `{ "userName": "test", "password": "xxxx" }`"
+>title="Proxy de recompensa"
+>abstract="Opcionalmente, puede dirigir las llamadas de cumplimiento a través de un servidor proxy en lugar de enviarlas directamente a su punto final de API de recompensa. Configure el host, el puerto, las credenciales y si el proxy está habilitado. El valor de las credenciales suele ser: `{ "userName": "test", "password": "xxxx" }`"
 
 Un **proveedor de recompensas** le dice a [!DNL Journey Optimizer] a dónde enviar las llamadas de cumplimiento cuando se registra el progreso del desafío o se completa un desafío. Por ejemplo, una API que acredita puntos de lealtad o estrellas a una cuenta de miembro.
 
@@ -140,7 +140,7 @@ Para crear un proveedor de recompensas, siga estos pasos:
 
    +++
 
-   +++Recompensar proxy
+   +++Proxy de recompensa
 
    Enrute las llamadas de cumplimiento a través de un servidor intermedio en lugar de enviarlas directamente al extremo. En las pantallas del proveedor de recompensas y **[!UICONTROL Crear proxy]**, use el campo **[!UICONTROL Credenciales]** para la autenticación de proxy.
 
@@ -189,17 +189,17 @@ Para editar un proveedor de recompensas, abra la pestaña **[!UICONTROL Proveedo
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="Definiciones de eventos"
->abstract="Las definiciones de eventos indican a [!DNL Journey Optimizer] cómo identificar e interpretar los datos de eventos entrantes a partir de los orígenes externos. Cada definición asigna un tipo de evento específico, como una compra o un registro, para que el sistema pueda rastrear el progreso del cliente hacia las tareas de desafío."
+>abstract="Las definiciones de eventos indican a [!DNL Journey Optimizer] cómo identificar e interpretar los datos de eventos entrantes a partir de las fuentes externas. Cada definición asigna un tipo de evento específico, como una compra o un registro, para que el sistema pueda llevar un seguimiento del progreso del cliente hacia las tareas de reto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Esquema de evento y transformador"
->abstract="Cuando su organización envíe eventos en un formato JSON personalizado, utilice **[!UICONTROL Esquema]** para validar la carga útil y **[!UICONTROL Transformador]** (por ejemplo, una expresión JSONata) para asignar campos al formato que espera Loyalty Challenges."
+>abstract="Cuando su organización envíe eventos en un formato JSON personalizado, utilice **[!UICONTROL Esquema]** para validar la carga útil y **[!UICONTROL Transformador]** (por ejemplo, una expresión JSONata) para asignar campos en el formato que esperan los retos de lealtad."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="Identificación de eventos"
->abstract="Especifique cómo [!DNL Journey Optimizer] reconoce el evento en las cargas entrantes mediante una ruta de identificador, valores de identificador, un ID de esquema XDM o una combinación de estos campos."
+>abstract="Especifique cómo [!DNL Journey Optimizer] reconoce el evento en las cargas útiles entrantes mediante una ruta de identificador, valores de identificador, un ID de esquema XDM o una combinación de estos campos."
 
 **[!UICONTROL Las definiciones de eventos]** indican a [!DNL Journey Optimizer] qué eventos de experiencia de Adobe Experience Platform entrantes se deben procesar. Por ejemplo, una compra o un registro de entrada en el hotel. Los especialistas en marketing hacen referencia a estas definiciones cuando crean **[!UICONTROL tareas de evento personalizado]** en el generador de tareas. Los eventos que no coinciden con ninguna definición se omiten.
 
@@ -231,7 +231,7 @@ Para crear una definición de evento, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
 >title="Inventario de productos"
->abstract="Cargue un archivo CSV que asigne identificadores de elementos a grupos de productos. Los especialistas en marketing pueden hacer referencia a estos grupos al configurar artículos aptos en las tareas de compra y gasto sin introducir cada ID de artículo."
+>abstract="Cargue un archivo CSV que asigne identificadores de elementos a grupos de productos. Los expertos en marketing pueden hacer referencia a estos grupos al configurar elementos elegibles en las tareas de compra y gasto sin introducir el ID de cada artículo."
 
 La pestaña **[!UICONTROL Inventario de productos]** agrupa los elementos del catálogo para que los especialistas en marketing puedan asignarlos a tareas sin especificar cada ID de elemento. Cargue un **archivo CSV** que asigne cada identificador de elemento a uno o más **grupos de productos** (el mismo elemento puede pertenecer a varios grupos). Los grupos importados están disponibles al configurar la idoneidad de la tarea. [Aprenda a crear tareas](create-tasks.md)
 
@@ -266,7 +266,7 @@ Para cargar un archivo de inventario de productos, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="Exclusiones"
->abstract="Cargue un archivo CSV que defina los elementos de catálogo y los grupos excluidos en todo el programa. Los grupos de exclusión importados aparecen cuando los especialistas en marketing configuran elementos aptos y exclusiones en las tareas."
+>abstract="Cargue un archivo CSV que defina los elementos del catálogo y los grupos excluidos en todo el programa. Los grupos de exclusión importados aparecen cuando los expertos en marketing configuran elementos elegibles y exclusiones en las tareas."
 
 La pestaña **[!UICONTROL Exclusions]** define los elementos y grupos de catálogo que se excluyen en todo el programa, de modo que los especialistas en marketing no tienen que enumerar las mismas exclusiones en cada tarea. Cargue un **archivo CSV** que asigne cada identificador de elemento a uno o más **grupos de exclusión** (el mismo elemento puede pertenecer a varios grupos).
 

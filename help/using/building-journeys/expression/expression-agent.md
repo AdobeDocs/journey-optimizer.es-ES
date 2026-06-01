@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generación de expresiones con el Ayudante de expresiones
+title: Generar expresiones con el Asistente de expresiones
 description: Aprenda a utilizar el Ayudante de expresiones en Adobe Journey Optimizer para generar expresiones directamente en el editor de expresiones avanzadas de Recorrido utilizando indicaciones de lenguaje natural.
 feature: Journeys
 topic: Content Management, Artificial Intelligence
@@ -15,17 +15,17 @@ subfeature_v2: []
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
 
-# Generación de expresiones con el Ayudante de expresiones {#expression-agent}
+# Generar expresiones con el Asistente de expresiones {#expression-agent}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generación de expresiones con el Ayudante de expresiones"
->abstract="El Ayudante de expresiones utiliza IA generativa para ayudarle a crear y generar expresiones directamente en el editor de expresiones avanzadas de Recorrido. Por ejemplo, en condiciones, **Optimizar** actividades o **Esperar** actividades que usan una fecha personalizada. Describa lo que necesita en un lenguaje sencillo y el ayudante generará la expresión correspondiente para usted."
+>title="Generar expresiones con el Asistente de expresiones"
+>abstract="El Asistente de expresiones utiliza la IA generativa para ayudarle a crear y generar expresiones directamente en el editor de expresiones avanzadas del recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Describa lo que necesita con palabras sencillas y el Asistente generará para usted la expresión correspondiente."
 
 >[!AVAILABILITY]
 >

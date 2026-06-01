@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creación de un mensaje móvil"
->abstract="Para crear un mensaje móvil, añada una acción SMS en un recorrido o una campaña y comience a personalizarlo con el editor de personalización."
+>abstract="Para crear un mensaje móvil, añada una acción de SMS en un recorrido o una campaña, y comience a personalizarlo con el editor de personalización."
 
 >[!AVAILABILITY]
 >

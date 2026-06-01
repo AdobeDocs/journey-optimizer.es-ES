@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegación de un subdominio de mensaje móvil"
->abstract="Configure el subdominio para mensajes de dispositivos móviles. Puede utilizar un subdominio que ya se haya delegado a Adobe o bien configurar uno nuevo."
+>title="Delegación de un subdominio de mensajes móviles"
+>abstract="Configure su subdominio para mensajes móviles. Puede utilizar un subdominio que ya se haya delegado a Adobe o bien configurar uno nuevo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegación de un subdominio de mensaje móvil"
->abstract="Debe configurar un subdominio para utilizarlo en los mensajes de Mobile, ya que necesita este subdominio para crear una configuración de SMS. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
+>title="Delegación de un subdominio de mensajes móviles"
+>abstract="Debe configurar un subdominio para utilizarlo en sus mensajes móviles, ya que lo necesitará para crear una configuración de SMS. Seleccione entre los subdominios ya delegados a Adobe o configure un nuevo subdominio."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creación de una configuración de SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Seleccionar un subdominio de mensaje de móvil"
+>title="Selección de un subdominio de mensaje móvil"
 >abstract="Para poder crear una configuración de SMS, asegúrese de haber configurado previamente al menos un subdominio de SMS para seleccionarlo en la lista de nombres Subdominio."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creación de una configuración de SMS"
 
