@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -132,7 +125,7 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
 1. Para cada campo, defina la etiqueta que se mostrará en el lienzo de recorrido.
 
-   ![Función de colección de filtros con interfaz de generador de condiciones](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Función de colección de filtros con interfaz de generador de condiciones](assets/uc-collection-2.png){width="70%"}
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Obtenga más información en [esta página](../building-journeys/using-custom-actions.md).
 
@@ -142,7 +135,7 @@ Puede ver que `products` es una matriz de dos objetos. Debe tener al menos un ob
 
 1. Para cada uno de los siguientes campos de objeto, escriba el nombre del campo correspondiente del esquema XDM de origen. Si los nombres son idénticos, no es necesario. En nuestro ejemplo, solo necesitamos definir `product id` y &quot;color&quot;.
 
-   ![Función de ordenación de colecciones con la configuración de pedidos](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Función de ordenación de colecciones con la configuración de pedidos](assets/uc-collection-4.png){width="50%"}
 
 Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el ejemplo siguiente, utilizamos las funciones [filter](functions/list-functions.md#filter) y [intersect](functions/list-functions.md#intersect):
 
@@ -206,7 +199,7 @@ Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para
 
 Para los tipos y matrices heterogéneos de matrices, la matriz se define con el tipo listAny. Solo puede asignar elementos individuales, pero no puede cambiar la matriz a variable.
 
-![Colección heterogénea con tipos de datos mixtos y selección de campos](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Colección heterogénea con tipos de datos mixtos y selección de campos](assets/uc-collection-heterogeneous.png){width="70%"}
 
 Ejemplo de tipo heterogéneo:
 

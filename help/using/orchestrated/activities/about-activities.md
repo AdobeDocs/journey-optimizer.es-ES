@@ -6,15 +6,11 @@ description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 58%
@@ -31,7 +27,7 @@ Todas las actividades se detallan en las secciones siguientes:
 * [Actividades del canal](#channel)
 * [Actividades de control de flujo](#flow-control)
 
-![Lista de actividades disponibles en el lienzo](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Lista de actividades disponibles en el lienzo](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ Vea [Protecciones y limitaciones](../guardrails.md) para todas las limitaciones 
 
 Estas actividades son específicas de la segmentación. Le permiten crear uno o más públicos destinatarios al definir públicos y dividirlos o combinarlos mediante operaciones de intersección, unión o exclusión.
 
-![Lista de actividades de segmentación](../assets/targeting-activities.png){width="40%" align="left"}
+![Lista de actividades de segmentación](../assets/targeting-activities.png){width="40%"}
 
 Las actividades de segmentación disponibles son:
 
@@ -81,7 +77,7 @@ Aprenda a [crear una acción de canal en una campaña organizada](channels.md).
 
 Las siguientes actividades son específicas para organizar y ejecutar campañas orquestadas. Su tarea principal es coordinar las demás actividades.
 
-![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="20%" align="left"}
+![Lista de actividades de control de flujo](../assets/flow-control-activities.png){width="20%"}
 
 Las actividades de control de flujo disponibles son:
 

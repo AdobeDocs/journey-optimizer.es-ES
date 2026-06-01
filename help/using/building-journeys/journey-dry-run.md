@@ -10,29 +10,13 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +63,7 @@ Durante la ejecución en seco, el recorrido se ejecuta en modo de simulación, a
 
   Para mejorar la legibilidad, las acciones personalizadas y las actividades de canal aparecen atenuadas durante la ejecución de una ejecución en seco.
 
-  ![Actividades de acción atenuadas en un recorrido de ejecución en seco](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Actividades de acción atenuadas en un recorrido de ejecución en seco](assets/dry-run-greyed-activities.png){width="80%"}
 
 * Las **fuentes de datos**, incluidas las fuentes de datos externas, y las actividades **Espera** están deshabilitadas de manera predeterminada durante la ejecución en seco. Sin embargo, puede cambiar este comportamiento [al activar el modo de ejecución en seco](#journey-dry-run-start).
 
@@ -107,7 +91,7 @@ Para activar la ejecución en seco, siga estos pasos:
 
 1. Seleccione si desea habilitar o deshabilitar las actividades **Wait** y las llamadas de **External data sources**, y confirme la publicación Dry run.
 
-   ![Confirmar la publicación de la ejecución en seco de recorrido](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Confirmar la publicación de la ejecución en seco de recorrido](assets/dry-run-publish.png){width="50%"}
 
    Aparece un mensaje de estado, **[!UICONTROL Activando la ejecución en seco]**, mientras se produce la transición.
 
@@ -141,7 +125,7 @@ Los recorridos de ejecución en seco también se pueden detener manualmente. Par
 1. Seleccione el botón **[!UICONTROL Cerrar]** para finalizar la prueba.
 Los vínculos a las últimas 24 horas y todos los informes de tiempo están disponibles en la pantalla de confirmación.
 
-   ![Detener la ejecución de la ejecución en seco de recorrido](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Detener la ejecución de la ejecución en seco de recorrido](assets/dry-run-stop.png){width="50%"}
 
 1. Haga clic en **[!UICONTROL Volver al borrador]** para confirmar.
 
@@ -173,4 +157,4 @@ Al analizar **métricas de informes de recorridos** mediante el servicio de cons
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
