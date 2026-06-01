@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 363
 ht-degree: 8%
@@ -65,7 +65,7 @@ Para añadir atributos contextuales a un fragmento publicado, siga los pasos a c
 
 1. Seleccione el fragmento publicado y haga clic en **[!UICONTROL Modificar]** para crear una versión de borrador.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
 1. Haga clic en **[!UICONTROL Editar]** para abrir el editor de contenido del fragmento.
 

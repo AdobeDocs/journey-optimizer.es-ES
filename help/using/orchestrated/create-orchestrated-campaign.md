@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 64%
@@ -163,7 +163,7 @@ Para configurar la programación de la campaña, siga estos pasos:
 
 En el siguiente ejemplo, la actividad está configurada para que la campaña orquestada se ejecute dos veces al día a las 9 y las 12 de la mañana, todos los días de la semana del 1 de octubre de 2025 al 1 de enero de 2026.
 
-![Planificador configurado para ejecutar la campaña dos veces al día a las 09:00 y a las 12:00](assets/scheduler-sample.png){width="50%" align="left"}
+![Planificador configurado para ejecutar la campaña dos veces al día a las 09:00 y a las 12:00](assets/scheduler-sample.png){width="50%"}
 
 ## Próximos pasos {#next}
 

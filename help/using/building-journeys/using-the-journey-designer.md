@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1675
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ La **barra de herramientas**, ubicada en la esquina superior derecha del lienzo,
 
 <!--and show/hide timeout and error paths-->
 
-![barra de herramientas de Recorrido con controles de zoom, cuadrícula y captura de pantalla](assets/toolbar.png){width="70%" align="left"}
+![barra de herramientas de Recorrido con controles de zoom, cuadrícula y captura de pantalla](assets/toolbar.png){width="70%"}
 
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Eliminar]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancelar]** para cancelar las modificaciones o en **[!UICONTROL Aceptar]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla Esc, se cerrará el panel de configuración de actividad.
 
@@ -167,5 +167,5 @@ Estos son los pasos para copiar/pegar actividades:
 1. Presione **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
    ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
-1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y presionar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)

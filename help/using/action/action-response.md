@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 843
 ht-degree: 7%
 
 ---
@@ -90,7 +90,7 @@ The **URL configuration** section has been renamed **Endpoint configuration**.
 
 In the **Method** drop-down, you can now select **GET**.
 
-![](assets/action-response1.png){width="70%" align="left"}
+![](assets/action-response1.png){width="70%"}
 
 ### Payloads {#payloads-new}
 
@@ -103,7 +103,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 > 
 >Both these fields are optional.
 
-![](assets/action-response2.png){width="70%" align="left"}
+![](assets/action-response2.png){width="70%"}
 -->
 
 ## Configurar la acción personalizada {#config-response}
@@ -112,7 +112,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Haga clic dentro del campo **Respuesta** (respuesta correcta).
 
-   ![](assets/action-response2.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%"}
 
 1. Pegue un ejemplo de la carga útil devuelta por la llamada. Compruebe que los tipos de campo son correctos (cadena, entero, etc.). Este es un ejemplo de carga útil de respuesta capturada durante la llamada. Nuestro extremo local envía el número de puntos de lealtad y el estado de un perfil.
 
@@ -123,7 +123,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    "points": 1290 }
    ```
 
-   ![](assets/action-response4.png){width="80%" align="left"}
+   ![](assets/action-response4.png){width="80%"}
 
    Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil.
 
@@ -139,7 +139,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Vamos a añadir también customerID como parámetro de consulta.
 
-   ![](assets/action-response9.png){width="80%" align="left"}
+   ![](assets/action-response9.png){width="80%"}
 
 1. Haga clic en **Guardar**.
 

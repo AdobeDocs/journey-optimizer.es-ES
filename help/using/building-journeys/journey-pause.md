@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Para pausar el recorrido, siga estos pasos:
 
 1. Seleccione cómo administrar los perfiles que están actualmente en el recorrido.
 
-   ![Pausar opciones de recorrido](assets/pause-confirm.png){width="50%" align="left"}
+   ![Pausar opciones de recorrido](assets/pause-confirm.png){width="50%"}
 
    Puede hacer lo siguiente:
 
@@ -84,7 +84,7 @@ Para pausar el recorrido, siga estos pasos:
 
 El número máximo de perfiles que se pueden mantener en recorridos pausados para la organización es visible en el inventario de recorridos. Solo está visible cuando hay al menos un recorrido en pausa. Este indicador también muestra el número total de recorridos en pausa. Se actualiza cada 30 minutos. Obtenga más información en [Protecciones y limitaciones](#guardrails-and-limitations).
 
-![Número de recorridos y perfiles en pausa actualmente](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Número de recorridos y perfiles en pausa actualmente](assets/profiles-in-paused-journeys.png){width="50%"}
 
 Desde la lista de recorridos, puede pausar uno o varios recorridos **Live**. Para pausar un grupo de recorridos (_pausa masiva_), selecciónelos en la lista y haga clic en el botón **Pausar** de la barra azul en la parte inferior de la pantalla. El botón **Pausar** solo está disponible cuando se seleccionan **recorridos en vivo**.
 

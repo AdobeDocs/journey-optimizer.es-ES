@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +126,7 @@ En Journey Optimizer, puede aplicar políticas de gobernanza de datos y consenti
 
 Al configurar una acción personalizada, debe definir los siguientes **[!UICONTROL parámetros de configuración de extremo]**:
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. En el campo **[!UICONTROL URL]**, especifique la URL del servicio externo:
 
@@ -203,15 +203,15 @@ Puede definir el parámetro de carga útil como se detalla a continuación:
 
    Habilite la opción **[!UICONTROL Permitir valores NULL]** para mantener los valores Null en la llamada externa. Tenga en cuenta que no se admite el envío de matrices de int, string, etc. con valores Null dentro de. Por ejemplo, la siguiente matriz de enteros `[1, null, 2, 3]` se envía como `[1, 2, 3]` aunque se marque esta opción. Además, si dicha matriz es nula, se envía como una matriz vacía.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. En la sección **[!UICONTROL Response]**, pegue un ejemplo de la carga útil devuelta cuando la llamada se realice correctamente. Este campo es opcional y está disponible para todos los métodos de llamada. Para obtener información detallada sobre cómo aprovechar las respuestas de llamadas de API en acciones personalizadas, consulte [esta página](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Opcional) Seleccione **[!UICONTROL Definir una carga útil de respuesta de error]** para habilitar el campo de carga útil de respuesta de error. Cuando esté habilitada, use la sección **[!UICONTROL Respuesta al error]** para pegar un ejemplo de la carga útil devuelta cuando falle la llamada. Se aplican los mismos requisitos que para la carga útil de respuesta (tipos de campo y formato). Aprenda a aprovechar la carga de respuesta a errores en los recorridos [aquí](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

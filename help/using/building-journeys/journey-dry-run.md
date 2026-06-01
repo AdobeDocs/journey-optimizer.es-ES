@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ Durante la ejecución en seco, el recorrido se ejecuta en modo de simulación, a
 
   Para mejorar la legibilidad, las acciones personalizadas y las actividades de canal aparecen atenuadas durante la ejecución de una ejecución en seco.
 
-  ![Actividades de acción atenuadas en un recorrido de ejecución en seco](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Actividades de acción atenuadas en un recorrido de ejecución en seco](assets/dry-run-greyed-activities.png){width="80%"}
 
 * Las **fuentes de datos**, incluidas las fuentes de datos externas, y las actividades **Espera** están deshabilitadas de manera predeterminada durante la ejecución en seco. Sin embargo, puede cambiar este comportamiento [al activar el modo de ejecución en seco](#journey-dry-run-start).
 
@@ -107,7 +107,7 @@ Para activar la ejecución en seco, siga estos pasos:
 
 1. Seleccione si desea habilitar o deshabilitar las actividades **Wait** y las llamadas de **External data sources**, y confirme la publicación Dry run.
 
-   ![Confirmar la publicación de la ejecución en seco de recorrido](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Confirmar la publicación de la ejecución en seco de recorrido](assets/dry-run-publish.png){width="50%"}
 
    Aparece un mensaje de estado, **[!UICONTROL Activando la ejecución en seco]**, mientras se produce la transición.
 
@@ -141,7 +141,7 @@ Los recorridos de ejecución en seco también se pueden detener manualmente. Par
 1. Seleccione el botón **[!UICONTROL Cerrar]** para finalizar la prueba.
 Los vínculos a las últimas 24 horas y todos los informes de tiempo están disponibles en la pantalla de confirmación.
 
-   ![Detener la ejecución de la ejecución en seco de recorrido](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Detener la ejecución de la ejecución en seco de recorrido](assets/dry-run-stop.png){width="50%"}
 
 1. Haga clic en **[!UICONTROL Volver al borrador]** para confirmar.
 

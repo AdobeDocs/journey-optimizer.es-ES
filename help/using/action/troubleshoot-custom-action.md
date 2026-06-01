@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +40,7 @@ Puede probar las acciones personalizadas enviando llamadas a la API desde la sec
 
 Como administrador, use la capacidad **[!UICONTROL Enviar solicitud de prueba]** para validar las configuraciones de acción personalizadas realizando llamadas de API reales directamente desde Adobe Journey Optimizer. Esta función garantiza que la estructura de solicitud, los encabezados, la autenticación y la carga útil tengan el formato correcto antes de utilizarse en un recorrido.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 Utilice esta capacidad para optimizar el proceso de prueba y validación, asegurándose de que las acciones personalizadas funcionen correctamente en los recorridos activos.
 
@@ -67,7 +67,7 @@ Para probar una acción personalizada, siga estos pasos:
 
 1. Vaya a la pantalla de configuración de **Actions** y seleccione una acción personalizada.
 1. Haga clic en el botón **[!UICONTROL Enviar solicitud de prueba]** en la parte inferior de la pantalla de configuración de la acción.
-   ![Enviar botón de solicitud de prueba en el panel de configuración de acción](assets/test-request.png){width="70%" align="left"}
+   ![Enviar botón de solicitud de prueba en el panel de configuración de acción](assets/test-request.png){width="70%"}
 1. En la ventana emergente, que permite especificar los parámetros de la solicitud:
 
    * Si el método de acción personalizada **es GET**, no se requiere carga útil.
