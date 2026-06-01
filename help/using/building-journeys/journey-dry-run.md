@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +84,7 @@ Durante la ejecución en seco, el recorrido se ejecuta en modo de simulación, a
 * Las **fuentes de datos**, incluidas las fuentes de datos externas, y las actividades **Espera** están deshabilitadas de manera predeterminada durante la ejecución en seco. Sin embargo, puede cambiar este comportamiento [al activar el modo de ejecución en seco](#journey-dry-run-start).
 
 * Los nodos **Reaction** no se han ejecutado: todos los perfiles que entren en ellos se cerrarán correctamente. Sin embargo, se aplican las siguientes reglas de prioridad:
+
    * Si se usa un nodo **Reaction** con uno o varios nodos **unitary event** en paralelo, los perfiles siempre pasarán por el evento de reacción.
    * Si se usa un nodo **Reaction** con uno o varios nodos **reaction event** en paralelo, los perfiles siempre pasarán por el primero del lienzo (el de arriba).
 
@@ -152,7 +153,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 * Los recorridos de ejecución en seco no afectan a las reglas empresariales
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * **Las acciones Jump** no están habilitadas en la ejecución en seco.
-Cuando un recorrido de origen déclencheur un evento **Jump** a uno de destino, ese evento de salto no sería aplicable a una versión de recorrido de ejecución en seco. Por ejemplo, si la última versión de un recorrido está en ejecución en seco y la anterior es **Live**, el evento de salto ignoraría la versión de ejecución en seco y solo sería aplicable a la versión **Live**.
+Cuando un recorrido de origen déclencheur un evento **Jump** a uno de destino, ese evento de salto no sería aplicable a una versión de recorrido de ejecución en seco. Por ejemplo, si la última versión de un recorrido está en Dry run y la anterior es **Live**, entonces el evento de salto ignoraría la versión de Dry run y solo sería aplicable para la versión de **Live**.
 
 ## Eventos de paso de recorrido y simulación {#journey-step-events}
 
