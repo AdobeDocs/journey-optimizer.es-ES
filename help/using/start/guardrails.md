@@ -6,30 +6,22 @@ description: Obtenga más información acerca de los mecanismos de protección d
 feature: Guardrails
 role: User
 level: Intermediate
-mini-toc-levels: 1
+mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
 workflow-type: tm+mt
-source-wordcount: 4490
-ht-degree: 93%
+source-wordcount: 4622
+ht-degree: 64%
 
 ---
+
 
 # Mecanismos de protección y limitaciones {#limitations}
 
@@ -43,6 +35,37 @@ Los derechos, limitaciones de productos y protección del rendimiento se enumera
 >
 >* Consulte también [Mecanismos de protección para la ingesta de datos en el perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
+## Generalidades sobre los límites de claves {#quick-reference}
+
+Utilice esta tabla para buscar los límites numéricos más críticos antes de generar o publicar. Los detalles completos y el contexto se encuentran en las secciones siguientes.
+
+| Área | Límite | Valor |
+|---|---|---|
+| **Recorridos** | [Número máximo de actividades por recorrido](#journeys-guardrails-journeys) | **50** |
+| **Recorridos** | [Máximo de recorridos activos/en pausa/de ejecución en seco](#journeys-guardrails-journeys) | **100** |
+| **Recorridos** | [Tamaño de instancia de Recorrido](#journeys-guardrails-journeys) | **1 MB** |
+| **Recorridos** | [Tamaño de carga útil de Recorrido (publicar)](#journey-payload-size) | **2 MB** (advertir al 90%) |
+| **Recorridos** | [Tiempo de espera de recorrido global](#journeys-guardrails-journeys) | **91 días** |
+| **Recorridos** | [Cola de eventos pendiente por perfil](#journeys-guardrails-journeys) | **10 eventos** |
+| **Recorridos** | [Instancias de lectura simultáneas](#read-segment-g) | **5** en todas las zonas protegidas |
+| **Recorridos** | [Rendimiento de zona protegida de lectura de Audience](#read-segment-g) | **20.000 perfiles/s** (compartidos) |
+| **Recorridos** | [Tiempo de espera del trabajo de lectura de audiencia](#read-segment-g) | **12 horas** |
+| **Canales** | [Solicitudes entrantes por segundo](#inbound-guardrails) | **5.000 RPS** |
+| **Canales** | [Máximo de acciones de entrada activas](#inbound-guardrails) | **500** |
+| **Canales** | [Mensajes transaccionales/s (campañas)](#transactional-message-guardrails) | **500** |
+| **Canales** | [Eventos de recorrido entrantes por segundo](#events-g) | **5,000** |
+| **Acciones personalizadas** | [Llamadas por minuto (respuesta &lt; 0,75 s)](#custom-actions-g) | **300.000 / min** por host/zona protegida |
+| **Acciones personalizadas** | [Llamadas por 30 s (respuesta > 0,75 s)](#custom-actions-g) | **150.000 / 30 s** por host/zona protegida |
+| **Contenido** | [Contenido de mensaje de correo electrónico al publicar](#message-content-size) | **2 MB** (el autor tiene menos de 1 MB) |
+| **Contenido** | [Contenido de mensaje en la aplicación](#in-app-activity-limitations) | **2 MB** |
+| **Contenido** | [Tamaño de fragmento visual](#fragments-guardrails) | **100 KB** |
+| **Contenido** | [Tamaño del fragmento de expresión](#fragments-guardrails) | **200 KB** |
+| **Contenido** | [nodos de fragmento de Recorrido](#fragments-journey-g) | **20 nodos/fragmento**, 200 activos/zona protegida |
+| **Públicos** | [Composiciones de audiencias por zona protegida](#audience) | **10** |
+| **Conjuntos de datos** | [TTL de almacén de perfiles (nuevas organizaciones/zonas protegidas)](#datasets-guardrails) | **90 días** |
+| **Conjuntos de datos** | [TTL del lago de datos (nuevas organizaciones/zonas protegidas)](#datasets-guardrails) | **13 meses** |
+
+
 ## Sistema y plataforma {#system-platform}
 
 ### Navegadores admitidos {#browsers}
@@ -53,8 +76,8 @@ La interfaz de Adobe [!DNL Journey Optimizer] está diseñada para funcionar de 
 
 A partir de febrero de 2025, se implementará gradualmente un mecanismo de protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las **nuevas zonas protegidas y organizaciones** de la siguiente manera:
 
-* 90 días para los datos en el almacén de perfiles,
-* 13 meses para los datos en el lago de datos.
+* **90 días** para datos en el almacén de perfiles
+* **13 meses** para datos en el lago de datos
 
 Este cambio se implementará en las **zonas protegidas de clientes existentes** en una fase posterior. [Obtenga más información sobre los mecanismos de protección de tiempo de vida (Time-To-Live, TTL) de los conjuntos de datos](../data/datasets-ttl.md)
 
@@ -68,8 +91,6 @@ Esta sección cubre las protecciones para todos los canales de comunicación, in
 
 ### Protecciones de correo electrónico {#message-guardrails}
 
-<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
-
 Las siguientes limitaciones se aplican a la actividad [canal de correo electrónico](../email/get-started-email.md):
 
 * No puede utilizar el mismo dominio de envío para enviar mensajes de correo electrónico desde [!DNL Adobe Journey Optimizer] y desde otro producto, como [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage], por ejemplo.
@@ -78,15 +99,15 @@ Al diseñar mensajes de correo electrónico, el sistema comprueba la configuraci
 
 #### Tamaño del contenido del mensaje para la publicación de recorrido {#message-content-size}
 
-Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe superar los **2 MB** después del procesamiento del back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
+Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe exceder de **2 MB** después del procesamiento back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
 
 >[!CAUTION]
 >
->Si el contenido final del mensaje procesado supera los 2 MB, fallará la publicación del recorrido. Para evitar errores de publicación, mantenga el contenido del mensaje creado muy por debajo de los 2 MB (por debajo de **1 MB** a ser posible) para permitir un búfer de 300 a 400 KB para la sobrecarga de procesamiento del back-end.
+>Si el contenido final del mensaje procesado sobrepasa los **2 MB**, la publicación del recorrido fallará. Mantenga el contenido del mensaje creado muy por debajo de los 2 MB (lo ideal es que sea inferior a **1 MB**) para permitir un búfer de 300 a 400 KB para la sobrecarga de procesamiento del servidor.
 
 **Prácticas recomendadas para evitar errores de publicación:**
 
-* Mantener el contenido del correo electrónico creado por debajo de 1 MB
+* Mantener el contenido del correo electrónico creado en **1 MB**
 * Minimizar el número de variantes de contenido
 * Optimizar y comprimir imágenes antes de añadirlas a los mensajes
 * Eliminar recursos no utilizados y elementos de HTML innecesarios
@@ -112,13 +133,9 @@ Las siguientes limitaciones se aplican a la actividad [canal de SMS](../mobile/g
 
 * Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe establecer la configuración de Adobe Experience Platform que aparece en [esta página](../content-card/content-card-configuration-prereq.md).
 
-* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
+* Journey Optimizer admite un volumen máximo de **5.000 solicitudes entrantes por segundo**. Este mecanismo de protección se aplica a todas las solicitudes entrantes, que pueden proceder de cualquiera de los canales entrantes admitidos por Journey Optimizer ([web](../web/get-started-web.md), [en la aplicación](../in-app/get-started-in-app.md), [experiencias basadas en código](../code-based/get-started-code-based.md), [tarjetas de contenido](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Los canales de entrada de Journey Optimizer se dirigen a nuevos perfiles que quizá no hayan interactuado antes en otros canales. Esto aumenta el recuento total de [perfiles interesados](../audience/license-usage.md), lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido.
-
-  Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
-
-* Journey Optimizer admite un máximo de 500 acciones entrantes activas en cualquier momento. Estas acciones de entrada se cuentan si forman parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
+* Journey Optimizer admite un máximo de **500 acciones entrantes activas** en cualquier momento. Estas acciones de entrada se cuentan si forman parte de una campaña activa o si son un nodo usado en un recorrido activo. Una vez alcanzado este número, debe desactivar las campañas o recorridos más antiguos que utilicen acciones entrantes antes de poder iniciar nuevas.
 
 #### Administración de perfiles con canales de entrada {#profile-management-inbound}
 
@@ -126,17 +143,15 @@ Los canales de entrada de [!DNL Journey Optimizer] se pueden dirigir a perfiles 
 
 Esto aumenta el recuento total de perfiles interesados, lo que puede tener implicaciones de costes si se supera el número contractual de perfiles interesados que ha adquirido. Las métricas de licencia de cada paquete se enumeran en la página [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puede comprobar el número de perfiles interesados en el [panel de control de uso de licencias](../audience/license-usage.md).
 
-Para mantener los perfiles interesados dentro de límites razonables, Adobe recomienda establecer un período de vida (TTL, Time-To-Live) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto ni han interactuado en un intervalo de tiempo específico.
+Para mantener los perfiles interesados dentro de límites razonables, Adobe recomienda establecer un período de vida (TTL, Time-To-Live) para eliminar automáticamente los perfiles seudónimos del perfil del cliente en tiempo real si no se han visto ni han interactuado en un intervalo de tiempo específico. Adobe recomienda establecer el valor TTL en **14 días** para que coincida con el TTL de perfil de Edge actual.
 
 >[!NOTE]
 >
 >Aprenda a configurar la caducidad de los datos de los perfiles seudónimos en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
-Adobe recomienda establecer el valor TTL en 14 días para que coincida con el TTL del perfil de Edge actual.
-
 ### Mecanismos de protección de mensajes transaccionales {#transactional-message-guardrails}
 
-Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por segundo en las campañas.
+Journey Optimizer admite un volumen máximo de **500 mensajes transaccionales por segundo** en las campañas.
 
 ## Contenido y recursos {#content-assets}
 
@@ -166,7 +181,7 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Para crear, editar, archivar y publicar fragmentos, necesita los permisos **[!DNL Manage library items]** y **[Publicar fragmento]** incluidos en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
-* Los fragmentos visuales no pueden superar los 100 KB. Los fragmentos de expresión no pueden superar los 200 KB.
+* Los fragmentos visuales no pueden exceder los **100 KB**. Los fragmentos de expresiones no pueden exceder los **200 KB**.
 * Para utilizar un fragmento de un recorrido o una campaña, debe tener el estado **Activo**.
 * No se admiten [atributos contextuales](../personalization/personalization-build-expressions.md) en los fragmentos.
 * Los fragmentos visuales no son compatibles entre los modos Usar temas y Estilo manual. Para poder utilizar un fragmento en un contenido en el que desee aplicar una temática, este fragmento debe crearse en el modo Usar temas. [Más información sobre los temas](../email/apply-email-themes.md)
@@ -178,7 +193,7 @@ Esta sección abarca los aspectos relativos a la gestión de públicos, el manej
 
 ### Mecanismos de protección de público y perfil {#audience}
 
-* Puede publicar hasta 10 composiciones de público en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
+* Puede publicar hasta **10 composiciones de audiencias** en una zona protegida determinada. Si ha alcanzado este umbral, debe eliminar una composición para liberar espacio y publicar una nueva.
 
   Más información sobre la composición de públicos en [esta página](../audience/get-started-audience-orchestration.md).
 
@@ -201,37 +216,41 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 ### Protecciones generales del recorrido {#journeys-guardrails-journeys}
 
-* El número de actividades en un recorrido ahora está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
+* El número de actividades de un recorrido está limitado a **50**. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
 
   A medida que los recorridos se acercan a este límite, el rendimiento de edición y publicación puede degradarse y pueden producirse errores de guardado o validación. Si esto sucede, divida el recorrido en recorridos secundarios más pequeños mediante [actividades de salto](../building-journeys/jump.md) o vuelva a crearlo en una nueva versión. El límite de actividad no se puede aumentar.
 
-* De forma predeterminada, el número de recorridos de ejecución activos/en pausa/de ensayo simultáneos está limitado a 100.  El número actual de recorridos se muestra encima del lienzo del recorrido.
-* A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
-* Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta 10 minutos en estar activa y en escuchar los perfiles que entran o salen del público.
-* Una instancia de recorrido de un perfil tiene un tamaño máximo de 1 MB. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej.: por debajo de 800 KB) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
-* Para cada perfil y versión de recorrido, el tiempo de ejecución de recorrido mantiene una cola interna de hasta 10 eventos pendientes mientras se procesa uno. Si se alcanza este límite, los eventos adicionales se descartan con el motivo `maxInstanceStackEventsReached` hasta que se agote la pila. Consulte [Eventos descartados debido a una instancia de recorrido bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
-* Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los particulares en el recorrido 91 días después de su entrada. [Más información](../building-journeys/journey-properties.md#global_timeout)
+* De manera predeterminada, el número de recorridos de ejecución en directo/en pausa/en seco al mismo tiempo está limitado a **100**. El número actual de recorridos se muestra encima del lienzo del recorrido.
 
+  A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
+
+* Cuando se usa una calificación de audiencia en un recorrido, esa actividad de calificación de audiencia puede tardar hasta **10 minutos** en estar activa y en escuchar los perfiles que entran o salen de la audiencia.
+
+* Una instancia de recorrido de un perfil tiene un tamaño máximo de **1 MB**. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comience con un evento, limitar el tamaño máximo de esa carga útil de evento (por ejemplo, por debajo de **800 KB**) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Cuando se alcanza ese límite, el perfil está en estado de error y se excluirá del recorrido.
+
+* Para cada perfil y versión de recorrido, el tiempo de ejecución de recorrido mantiene una cola interna de hasta **10 eventos pendientes** mientras se procesa uno. Si se alcanza este límite, los eventos adicionales se descartan con el motivo `maxInstanceStackEventsReached` hasta que se agote la pila. Consulte [Eventos descartados debido a una instancia de recorrido bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+
+* Además del tiempo de espera utilizado en las actividades del recorrido, también hay un tiempo de espera de recorrido global que no se muestra en la interfaz y no se puede cambiar. Este tiempo de espera global detiene el progreso de los individuos en el recorrido **91 días** después de que ingresan. [Más información](../building-journeys/journey-properties.md#global_timeout)
+
+>[!TIP]
+>
+>**Lo que esto significa para usted:** El límite de **50 actividades** y el límite de **100 recorridos en vivo** son las dos barreras que la mayoría de los equipos encuentran primero al escalar. Planifique la división anticipada del recorrido y extienda las horas de inicio de la lectura de la audiencia con una diferencia mínima de 5-10 minutos para evitar la contención del rendimiento de la zona protegida.
 
 #### Validación del tamaño de la carga útil del recorrido {#journey-payload-size}
 
 Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido para conservar la estabilidad y el rendimiento.
 
+| Situación | Umbral | Comportamiento |
+|---|---|---|
+| Carga útil &lt; 90 % del límite | Debajo de advertencia | El recorrido se guarda y publica correctamente. No se muestran advertencias ni errores. |
+| Carga útil del 90 al 99 % del límite | Advertencia (leve) | El recorrido guarda y publica con una advertencia: **Advertencia**: El tamaño de la carga útil del Recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes). |
+| Carga útil ≥ el 100 % del límite | **Error (grave)** | Guardar o publicar está bloqueado. Devuelve **HTTP 413 Entidad de solicitud demasiado grande**. Error: el tamaño de la carga útil de Recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes). |
+
 **Configuración predeterminada**
 
-* **Tamaño máximo de solicitud predeterminado**: 2 MB (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
+* **Tamaño máximo de solicitud predeterminado**: **2 MB** (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
 * **Umbral de advertencia**: 90% del límite máximo.
-* **Umbral de error**: 100% del límite máximo. Guardar o publicar está bloqueado y la solicitud devuelve **HTTP 413 Request Entity Too Large**.
-
-**Escenarios de experiencia de usuario**
-
-* **Carga útil &lt; 90% del límite**: el recorrido se guarda y publica correctamente. No se muestran advertencias ni errores.
-* **Carga útil del 90 al 99 % del límite**: el recorrido se guarda y publica correctamente, con una advertencia para optimizar. Mensaje de advertencia: **Advertencia**: el tamaño de la carga útil del recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
-* **Carga útil >= 100 % del límite**: el guardado o la publicación del recorrido se bloqueó con un error. Mensaje de error: **Error**: el tamaño de la carga útil del recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes).
-
-**Detalles de la respuesta de error**
-
-Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Entidad de solicitud demasiado grande**. La carga útil del recorrido supera el tamaño máximo permitido. Revise los detalles del error y optimice su recorrido.
+* **Umbral de error**: 100% del límite máximo.
 
 **Resolución de problemas y recomendaciones**
 
@@ -242,22 +261,24 @@ Si la solicitud supera el tamaño máximo permitido, la respuesta incluye **Enti
 
 Para monitorizar el tamaño de carga útil actual del recorrido antes de publicarlo, use el indicador **[!UICONTROL Tamaño de carga útil de recorrido actual]** en el panel de propiedades del recorrido. [Aprenda a comprobar el tamaño de su carga útil de recorrido](../building-journeys/journey-properties.md#journey-payload-size)
 
-### Seleccione limitaciones de paquetes para recorridos unitarios {#select-package-limitations}
+### Comparación de paquetes de licencias {#select-package-limitations}
 
 >[!NOTE]
 >
->Estas limitaciones no se aplican a los recorridos de Leer público o Evento empresarial con el paquete **Selección**. Si necesita una lógica de recorrido más compleja con varias acciones, condiciones o actividades de espera, considere la posibilidad de actualizar el paquete de licencias o utilizar recorridos de Leer público cuando corresponda.
+>Las limitaciones de Seleccionar paquete que se indican a continuación no se aplican a los recorridos Leer audiencia o Evento empresarial. Si necesita una lógica de recorrido más compleja con varias acciones, condiciones o actividades de espera, considere la posibilidad de actualizar el paquete de licencias o utilizar recorridos de Leer público cuando corresponda.
 
-Para los clientes que usan el paquete de licencia **Select**, las siguientes limitaciones adicionales se aplican específicamente a recorridos unitarios, recorridos que comienzan con un evento o una calificación de público:
+Para los clientes que usan el paquete de licencia **Select**, las siguientes limitaciones adicionales se aplican específicamente a los recorridos unitarios (recorridos que comienzan con un evento o una calificación de audiencia):
 
-* **Paquete SELECT: solo se permite una acción en el recorrido unitario (ERR_PKG_SELECT_8)**: los recorridos unitarios solo pueden contener una actividad de acción. No puede añadir varias actividades de correo electrónico, push, SMS u otras actividades de acción dentro del mismo recorrido.
+| Limitación | Código de error | Descripción |
+|---|---|---|
+| Solo se permite una acción | `ERR_PKG_SELECT_8` | Los recorridos unitarios solo pueden contener **una** actividad de acción. No se permiten varias actividades de correo electrónico, push, SMS u otras acciones dentro del mismo recorrido. |
+| No se permiten condiciones | `ERR_PKG_SELECT_7` | Las actividades de condición no se pueden utilizar en recorridos unitarios. El recorrido debe seguir una única ruta lineal sin lógica de ramificación. |
+| No hay actividades de espera | `ERR_PKG_SELECT_6` | Las actividades de espera no se pueden agregar a recorridos unitarios. Las acciones deben ejecutarse inmediatamente sin retrasos. |
+| Las transiciones de tiempo de espera/error deben ir al nodo final | `ERR_PKG_SELECT_2` | Si configura transiciones de tiempo de espera o error para una acción (por ejemplo, una acción de correo electrónico), estas rutas deben apuntar directamente a un nodo final. No pueden conectarse a otras actividades o acciones del recorrido. |
 
-* **Paquete SELECT: no se permite ninguna condición en el recorrido unitario (ERR_PKG_SELECT_7)**: las actividades de condición no se pueden usar en los recorridos unitarios. El recorrido debe seguir una única ruta lineal sin lógica de ramificación.
-
-* **Paquete SELECT: no se permite ninguna espera en el recorrido unitario (ERR_PKG_SELECT_6)**: no se pueden añadir actividades de espera a los recorridos unitarios. Las acciones deben ejecutarse inmediatamente sin retrasos.
-
-* **Paquete SELECT: la transición de tiempo de espera/error del nodo solo debe apuntar al nodo final (ERR_PKG_SELECT_2)**: Si configura las transiciones de tiempo de espera o error para una acción, como una acción de correo electrónico, estas rutas deben apuntar directamente a un nodo final. No pueden conectarse a otras actividades o acciones del recorrido.
-
+>[!TIP]
+>
+>**Lo que esto significa para usted:** Si se encuentra en el paquete Select y necesita lógica de ramificación, actividades de espera o varias acciones, debe usar un recorrido Leer audiencia o ponerse en contacto con su representante de Adobe para actualizar el paquete.
 
 ### Acciones generales {#general-actions-g}
 
@@ -283,28 +304,34 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action/action.md) en sus recorridos:
 
-* Se define un límite de 300 000 llamadas durante un minuto para todas las acciones personalizadas, por host y por zona protegida. El límite “por host” se aplica en el nivel de dominio (véase, ejemplo.com). Este límite se aplica como una ventana deslizante por zona protegida y por punto final para puntos finales con tiempos de respuesta inferiores a 0,75 segundos. Para los puntos finales con tiempos de respuesta superiores a 0,75 segundos, se aplica un límite independiente de 150 000 llamadas cada 30 segundos (también una ventana deslizante). Consulte [esta página](../action/about-custom-action-configuration.md). Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
-* La URL de acción personalizada no admite parámetros dinámicos.
-* Se admiten los métodos POST, PUT y llamada de GET
-* El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;
-* No se permiten direcciones IP
-* Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
-* Las acciones personalizadas integradas no se pueden eliminar.
-* Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Al elegir un extremo como destino mediante una acción personalizada, asegúrese de lo siguiente:
+| Barrera | Valor | Notas |
+|---|---|---|
+| Límite máximo: respuesta &lt; 0,75 s | **300.000 llamadas/min** por host y por zona protegida | Ventana deslizante. Forzado por zona protegida y por extremo. |
+| Límite de límite: respuesta > 0,75 s | **150 000 llamadas/30 s** por host y por zona protegida | Ventana deslizante. Límite independiente aplicado cuando la latencia del extremo supera los 0,75 s. |
+| Tipo de URL | Solo estático | No se admiten parámetros dinámicos en la dirección URL de acción personalizada. |
+| Métodos HTTP admitidos | PUBLICAR, PONER, OBTENER | No se admiten otros métodos. |
+| Parámetro de consulta/formato de nombre de encabezado | No debe comenzar con `.` o `$` | Los nombres que comienzan con estos caracteres se rechazan. |
+| Direcciones IP en URL | No permitido | Utilice nombres de host en lugar de direcciones IP. |
+| Direcciones internas de Adobe | No permitido | No se permiten direcciones de `.adobe.*` en direcciones URL y API. |
+| Acciones personalizadas integradas | No se puede eliminar | Las acciones personalizadas integradas son permanentes. |
+| Formato de carga útil | Solo JSON | Se requiere el formato JSON para las cargas útiles de solicitud y respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations). |
+| Rendimiento mínimo del extremo | 200 TPS | Cualquier punto final al que se dirija una acción personalizada debe admitir al menos 200 TPS. |
 
-   * Este extremo puede admitir el rendimiento del recorrido mediante las configuraciones de la [API de límite](../configuration/throttling.md) o la [API de cierre](../configuration/capping.md) para limitarlo. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Cualquier extremo segmentado debe admitir al menos 200 TPS.
-   * Este extremo necesita tener un tiempo de respuesta lo más bajo posible. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+>[!TIP]
+>
+>**Lo que esto significa para usted:** El límite predeterminado de 300 000 llamadas/min protege sus extremos externos de verse desbordados por el rendimiento del recorrido. Si el extremo puede gestionar más carga, puede aumentar este límite con la [API de límite](../configuration/capping.md) o la [API de restricción](../configuration/throttling.md). Póngase en contacto con su representante de Adobe si necesita un límite organizativo más alto.
+
+Este límite se ha establecido en función del uso de los clientes para proteger los extremos externos dirigidos por acciones personalizadas. Si es necesario, puede anular esta configuración definiendo un límite o restricción mayor mediante nuestras API de límite/restricción. Consulte [esta página](../configuration/external-systems.md).
 
 ### Eventos {#events-g}
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido entrantes por segundo, que abarcan todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
-* Los recorridos activados por eventos pueden tardar hasta 5 minutos en procesar la primera acción del recorrido.
+* Journey Optimizer admite un volumen máximo de **5000 eventos de recorrido entrantes por segundo** en todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
+* Los recorridos activados por eventos pueden tardar hasta **5 minutos** en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
-* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través de **Query Service** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
@@ -320,7 +347,7 @@ Las siguientes limitaciones se aplican a las [Fuentes de datos](../datasource/ab
 
 ### Creación de recorridos y perfiles {#journeys-limitation-profile-creation}
 
-Hay un retraso asociado a la creación/actualización de perfiles basados en la API en Adobe Experience Platform. El destinatario de nivel de servicio (SLT) en términos de latencia es &lt;1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
+Hay un retraso asociado a la creación/actualización de perfiles basados en la API en Adobe Experience Platform. El destinatario de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de **20 000 solicitudes por segundo (RPS)**.
 
 Si un recorrido se activa simultáneamente para crear un perfil y comprueba o recupera inmediatamente la información del servicio de perfil, es posible que no funcione de forma correcta.
 
@@ -329,7 +356,6 @@ Puede elegir entre una de estas dos soluciones:
 * Agregue una actividad de espera después del primer evento para que Adobe Experience Platform tenga el tiempo necesario para realizar la ingesta en el servicio de perfil.
 
 * Configure un recorrido que no utilice inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencia podría contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
-
 
 ### Identificadores adicionales {#supplemental}
 
@@ -340,8 +366,7 @@ Se aplican mecanismos de protección específicos al uso de identificadores supl
 Los siguientes mecanismos de protección se aplican al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición `inaudience` en el recorrido.
-* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia en un nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
-  <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
+* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia a nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
 
 ### Actividades de recorrido {#activities}
 
@@ -378,7 +403,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 * La actividad en la aplicación no se puede utilizar con actividades de **[!UICONTROL Campaign Standard]**.
 
-* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil.  Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
+* La visualización en la aplicación está ligada a la duración del recorrido, lo que significa que cuando el recorrido termina para un perfil, todos los mensajes en la aplicación dentro de ese recorrido dejan de mostrarse para ese perfil. Por lo tanto, no es posible detener un mensaje en la aplicación directamente desde una actividad de recorrido. En su lugar, deberá finalizar todo el recorrido para que los mensajes en la aplicación no se muestren en el perfil.
 
 * En el modo de prueba, la visualización en la aplicación depende de la duración del recorrido. Para evitar que el recorrido termine demasiado pronto durante la prueba, ajuste el valor **[!UICONTROL Tiempo de espera]** para sus actividades de **[!UICONTROL Espera]**.
 
@@ -386,7 +411,7 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 
 * Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
 
-* El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
+* El tamaño del contenido del mensaje en la aplicación está limitado a **2 MB**. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
 
 #### Actividad de decisión de contenido {#content-decision-g}
 
@@ -400,17 +425,24 @@ Especifique protecciones específicas de la actividad **[!UICONTROL Saltar]**. S
 
 Las siguientes limitaciones se aplican a la actividad de recorrido [Público de lectura](../building-journeys/read-audience.md):
 
-* Los públicos transmitidos siempre están actualizados, pero los públicos por lotes no se calcularán en el momento de la recuperación. Solo se evalúan cada día a la hora de evaluar el lote.
-* En la entrada de recorrido, los perfiles utilizan valores de atributo de la instantánea de público por lotes. Sin embargo, cuando un perfil alcanza una actividad de **Espera**, el recorrido actualiza automáticamente los atributos del perfil al recuperar los datos más recientes del Servicio de perfil unificado (UPS). Esto significa que los atributos de perfil pueden cambiar durante la ejecución del recorrido.
-* La actividad **Leer público** no se puede utilizar con actividades de Adobe Campaign.
-* La actividad **Leer público** solo puede utilizarse como primera actividad en un recorrido o después de una actividad de evento empresarial.
-* Un recorrido solo puede tener una actividad **Leer público**.
-* La actividad **Leer público** solo puede dirigirse a un público por recorrido. Si se requieren varios públicos, combínelos primero en uno solo. [Aprenda a combinar públicos mediante flujos de trabajo de composición](../audience/get-started-audience-orchestration.md).
-* Cada organización puede ejecutar hasta cinco instancias de **Leer público** simultáneamente (programadas o activadas por evento empresarial) en todas las zonas protegidas y recorridos. Evite tener más de cinco recorridos con **Leer audiencia** que comiencen al mismo tiempo; sepárelos con una diferencia de 5 a 10 minutos. Obtenga más información sobre las tasas de procesamiento de recorridos en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
-* Rendimiento de zona protegida: el sistema administra el procesamiento por zona protegida con un máximo de 20 000 perfiles por segundo compartidos en todas las actividades de **Leer audiencia**. Las actividades individuales se pueden configurar de 500 a 20 000 perfiles por segundo. Si se alcanzan los límites de la zona protegida, los trabajos pueden ponerse en cola.
-* Tiempo de espera de procesamiento de trabajo: trabajos de **Leer audiencia** que no se pueden procesar en un plazo de 12 horas se limpian automáticamente y no se ejecutarán.
-* Los reintentos ahora se aplican de forma predeterminada en recorridos activados por públicos destinatarios (empezando con una actividad **Leer público** o **Evento empresarial**) cuando se recupera el trabajo de exportación. Si se produce un error durante la creación del trabajo de exportación, se realizarán reintentos cada 10 minutos, hasta un máximo de 1 hora. Después de esto, se considerará como un error. Por lo tanto, estos tipos de recorridos se pueden ejecutar hasta una hora después de la hora programada.
-* En el caso de los recorridos que utilizan ID suplementarios, la tasa de lectura de la actividad leer público para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
+| Barrera | Valor | Notas |
+|---|---|---|
+| Instancias simultáneas (todas las zonas protegidas + recorridos) | **5** | Evite programar más de 5 recorridos con Audiencias de lectura que comiencen al mismo tiempo; sepárelos entre 5 y 10 minutos. |
+| Rendimiento de zona protegida | **20.000 perfiles/s** (compartidos) | Compartido en todas las actividades Leer audiencia de la zona protegida. Si se alcanzan los límites, los trabajos se pueden poner en cola. |
+| Rendimiento configurable por actividad | **500-20.000 perfiles/s** | Configure por actividad dentro del límite compartido de la zona protegida. |
+| Tiempo de espera de procesamiento de trabajo | **12 horas** | Los trabajos que no se pueden procesar en un plazo de 12 horas se limpian automáticamente y no se ejecutarán. |
+| Ventana de reintento | Hasta **1 hora** (intervalos de 10 minutos) | Los reintentos se aplican al recuperar el trabajo de exportación. Los recorridos pueden ejecutarse hasta 1 hora después de la hora programada. |
+| Tasa de lectura de ID suplementario | **500 perfiles/s** por instancia de recorrido | Se aplica cuando se utilizan ID suplementarios. |
+| Leer instancias de audiencia por recorrido | **1** | Un recorrido solo puede tener una actividad Leer audiencia. |
+| Tipos de audiencia | Las audiencias transmitidas siempre están actualizadas | Las audiencias de lote solo se evalúan una vez al día a la hora de evaluar el lote diariamente. |
+| Actualización de atributos de perfil | Actualizado a las **actividades de espera** | En la entrada de recorrido, los perfiles utilizan valores de instantánea por lotes. Los atributos se actualizan cuando un perfil alcanza una actividad de espera. |
+| Colocación en recorrido | Primera actividad o después de un evento empresarial | La actividad Leer audiencia solo puede utilizarse como primera actividad de un recorrido o después de una actividad de evento empresarial. |
+| Uso con Adobe Campaign | No compatible | La actividad Leer audiencia no se puede usar con actividades de Adobe Campaign. |
+| Varias audiencias | No admitido directamente | La actividad Leer audiencia solo puede dirigirse a una audiencia por recorrido. Para usar varias audiencias, combínelas primero. [Descubra cómo](../audience/get-started-audience-orchestration.md) |
+
+>[!TIP]
+>
+>**Lo que esto significa para usted:** El límite de 5 instancias simultáneas es un techo rígido para toda la organización. Si varios equipos programan recorridos de lectura de audiencia, coordine las horas de inicio con cuidado. Los trabajos que no ven la ventana de procesamiento de 12 horas se pierden de forma silenciosa; confirme siempre la ejecución correcta en los registros de recorrido.
 
 Consulte también [recomendaciones y configuración](../building-journeys/read-audience.md#must-read) para la actividad Leer audiencia.
 
@@ -420,7 +452,7 @@ Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL A
 
 #### Pausa de recorrido {#pause-g}
 
-Se aplican protecciones específicas a **recorridos en pausa**, incluida una duración máxima de pausa de 14 días y un límite de perfil de 10 millones en todos los recorridos en pausa de su organización. Se muestran en [esta página](../building-journeys/journey-pause.md#journey-pause-guardrails).
+Se aplican protecciones específicas a **recorridos en pausa**, incluida una duración máxima de pausa de **14 días** y un límite de perfil de **10 millones** en todos los recorridos en pausa de su organización. Se muestran en [esta página](../building-journeys/journey-pause.md#journey-pause-guardrails).
 
 #### Ensayo del recorrido {#dry-run-g}
 
@@ -428,11 +460,11 @@ Se aplican protecciones específicas a **Recorrido Dry run**, incluyendo el recu
 
 #### Fragmentos de recorrido {#fragments-journey-g}
 
-Se aplican protecciones específicas a **Fragmentos de Recorrido**, incluidos un máximo de 20 nodos por fragmento y 200 fragmentos activos por espacio aislado. Se muestran en [esta página](../building-journeys/journey-fragments.md#guardrails).
+Se aplican protecciones específicas a **Fragmentos de Recorrido**, incluidos un máximo de **20 nodos por fragmento** y **200 fragmentos activos por espacio aislado**. Se muestran en [esta página](../building-journeys/journey-fragments.md#guardrails).
 
 #### Envío mediante olas {#waves-g}
 
-Se aplican protecciones específicas a **recorridos de envío de ondas**, incluido un intervalo de ondas de 2 a 10 y un intervalo mínimo de 30 minutos entre ondas. Se muestran en [esta página](../building-journeys/send-using-waves.md#limitations-guardrails).
+Existen limitaciones específicas para **el envío de ondas en recorridos**, que incluyen un intervalo de ondas de 2 a 10 y un intervalo mínimo de **30 minutos** entre ondas. Se muestran en [esta página](../building-journeys/send-using-waves.md#limitations-guardrails).
 
 #### Simulación de recorrido {#simulation-g}
 
