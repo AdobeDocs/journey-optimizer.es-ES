@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 13%
+source-wordcount: 1328
+ht-degree: 12%
 
 ---
 
@@ -44,6 +44,21 @@ Antes de enviar tu mensaje de WhatsApp, debes configurar tu entorno de Adobe Jou
 Estos pasos debe realizarlos un administrador del sistema [de Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Crear credenciales de API de WhatsApp {#whatsapp-credentials}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_name"
+>title="Nombre"
+>abstract="Introduzca un nombre único para este conjunto de credenciales de API. Lo seleccionarás al configurar los webhooks de WhatsApp y las configuraciones de canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_api_token"
+>title="Token de la API"
+>abstract="Use un token de acceso de Meta de un usuario del sistema en el mismo Business Manager que sus recursos de WhatsApp. Este usuario necesita permisos de whatsapp_business_management, whatsapp_business_messaging y business_management, además de acceso a nivel de activos a su cuenta comercial de WhatsApp. Los tokens de Meta caducan al cabo de unos 60 días, renueve el token antes de que caduque."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_business_account_id"
+>title="ID de cuenta empresarial"
+>abstract="Introduzca su ID de portafolio empresarial de Meta, también denominado ID de Business Manager. No introduzcas el identificador de tu cuenta de WhatsApp Business en este campo."
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 
