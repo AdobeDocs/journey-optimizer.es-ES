@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +132,10 @@ Journey Optimizer admite un volumen máximo de 500 mensajes transaccionales por 
 ## Contenido y recursos {#content-assets}
 
 Esta sección trata de las reglas para la creación y administración de contenido, incluidas las páginas de destino, subdominios y fragmentos.
+
+### Protecciones del asistente de IA {#ai-assistant-g}
+
+Las protecciones y limitaciones para la **generación de contenido del Asistente de IA**, incluidos los canales admitidos (correo electrónico, push, web, SMS) y las limitaciones del editor de personalización, se enumeran en [esta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
@@ -336,7 +331,7 @@ Se aplican mecanismos de protección específicos al uso de identificadores supl
 Los siguientes mecanismos de protección se aplican al [editor de expresiones de recorrido](../building-journeys/expression/expressionadvanced.md):
 
 * Los grupos de campos de eventos de experiencia no se pueden utilizar en recorridos que comiencen con Leer público, Calificación de público o una actividad de evento empresarial. Debe crear un público nuevo y utilizar una condición `inaudience` en el recorrido.
-* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia a nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
+* Los atributos `timeSeriesEvents` no se pueden usar en el editor de expresiones. Para acceder a los eventos de experiencia en un nivel de perfil, cree un nuevo grupo de campos basado en un esquema `XDM ExperienceEvent`.
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### Actividades de recorrido {#activities}
@@ -350,6 +345,8 @@ El siguiente mecanismo de protección se aplica a la actividad de recorrido [Cal
 
 Obtenga más información acerca de las tasas de procesamiento de recorrido y los límites de rendimiento en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
+En [esta página](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails) hay protecciones adicionales, incluidas recomendaciones sobre audiencias de streaming frente a audiencias por lotes y limitaciones de audiencia de composición.
+
 #### Actividades de campaña {#ac-g}
 
 Los siguientes mecanismos de protección se aplican a las actividades **[!UICONTROL Campaign v7/v8]** y **[!UICONTROL Campaign Standard]**:
@@ -357,6 +354,10 @@ Los siguientes mecanismos de protección se aplican a las actividades **[!UICONT
 * Las actividades de Adobe Campaign no se pueden utilizar con un público de lectura o una actividad de calificación de público.
 * Las actividades de **[!UICONTROL Campaign Standard]** no se pueden utilizar con las actividades de otros canales: tarjeta, experiencia basada en código, correo electrónico, push, SMS, mensajes en la aplicación, web.
 * Las actividades de **[!UICONTROL las versiones 7 y 8 de Campaign]** se pueden usar junto con las actividades de canal nativo en el mismo recorrido.
+
+#### Eventos de reacción {#reaction-events-g}
+
+Se aplican protecciones específicas a los eventos de **[!UICONTROL Reaction]**, incluido el requisito de colocar la actividad inmediatamente después de una acción del canal y la incapacidad de rastrear los mensajes enviados en un recorrido diferente. Se muestran en [esta página](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Actividad en la aplicación {#in-app-activity-limitations}
 
@@ -377,6 +378,10 @@ Las siguientes limitaciones se aplican a la acción **[!UICONTROL Mensaje en la 
 * Puede producirse un retraso de activación entre el momento en que un perfil de usuario alcanza una actividad en la aplicación en el lienzo y la hora en que comienza a ver ese mensaje en la aplicación.
 
 * El tamaño del contenido del mensaje en la aplicación está limitado a 2 Mb. La inclusión de imágenes grandes puede dificultar el proceso de publicación.
+
+#### Actividad de decisión de contenido {#content-decision-g}
+
+Se aplican protecciones específicas a la actividad **[!UICONTROL Decisión de contenido]**, incluido un retraso de 48 horas antes de que las directivas de consentimiento actualizadas entren en vigor en las directivas de decisión. Se muestran en [esta página](../building-journeys/content-decision.md#guardrails).
 
 #### Actividad de salto {#jump-g}
 
@@ -403,6 +408,26 @@ Consulte también [recomendaciones y configuración](../building-journeys/read-a
 #### Actualizar actividad de perfil {#update-profile-g}
 
 Se aplican mecanismos de protección específicos a la actividad **[!UICONTROL Actualizar perfil]**. Se muestran en [esta página](../building-journeys/update-profiles.md).
+
+#### Pausa de recorrido {#pause-g}
+
+Se aplican protecciones específicas a **recorridos en pausa**, incluida una duración máxima de pausa de 14 días y un límite de perfil de 10 millones en todos los recorridos en pausa de su organización. Se muestran en [esta página](../building-journeys/journey-pause.md#journey-pause-guardrails).
+
+#### Ensayo del recorrido {#dry-run-g}
+
+Se aplican protecciones específicas a **Recorrido Dry run**, incluyendo el recuento hacia un perfil atractivo y cuotas de recorrido en vivo. Se muestran en [esta página](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+
+#### Fragmentos de recorrido {#fragments-journey-g}
+
+Se aplican protecciones específicas a **Fragmentos de Recorrido**, incluidos un máximo de 20 nodos por fragmento y 200 fragmentos activos por espacio aislado. Se muestran en [esta página](../building-journeys/journey-fragments.md#guardrails).
+
+#### Envío mediante olas {#waves-g}
+
+Se aplican protecciones específicas a **recorridos de envío de ondas**, incluido un intervalo de ondas de 2 a 10 y un intervalo mínimo de 30 minutos entre ondas. Se muestran en [esta página](../building-journeys/send-using-waves.md#limitations-guardrails).
+
+#### Simulación de recorrido {#simulation-g}
+
+Se aplican protecciones específicas a **simulación de recorrido**. Se muestran en [esta página](../building-journeys/simulate-journey.md#limitations).
 
 ## Orquestación de campañas {#campaign-orchestration}
 
