@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    +++ Crear desde formulario
 
-   1. Escriba **[!UICONTROL Nombre para mostrar]** y **[!UICONTROL Descripción]** para identificar a este usuario simulado.
+   1. Escriba un **[!UICONTROL nombre para mostrar]**, **[!UICONTROL espacio de nombres de identidad]** y **[!UICONTROL descripción]** para identificar a este usuario simulado.
 
       ![Panel de selección de usuarios simulados](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    1. Haga clic en **[!UICONTROL Agregar pertenencia a audiencia]** para simular las pertenencias a segmentos.
 
-   1. Haga clic en **[!UICONTROL Agregar perfil]** para crear varios usuarios simulados en una sola sesión.
+   1. En la ventana **[!UICONTROL Crear usuarios simulados]**, haga clic en **[!UICONTROL Agregar usuario simulado]** para definir varios usuarios simulados en una sesión.
 
-   1. En el menú, use **[!UICONTROL Duplicar]** para copiar un usuario, **[!UICONTROL Aplicar a todos]** para copiar los atributos de un usuario a todos los demás usuarios de la sesión o **[!UICONTROL Eliminar]** para eliminar un usuario.
+      Puede cambiar la forma en que se muestran los usuarios en la lista, contraer cada tarjeta en la vista apilada o abrir los metadatos de atributos de un usuario.
+
+      ![Panel de selección de usuarios simulados](assets/simulate-form-3.png)
+
+   1. En el menú de usuario simulado, use **[!UICONTROL Duplicate]** para copiar un usuario, **[!UICONTROL Aplicar todos los atributos a otros usuarios]** para copiar los atributos de un usuario a todos los demás usuarios de la sesión o **[!UICONTROL Delete]** para eliminar un usuario.
 
       ![Panel de selección de usuarios simulados](assets/simulate-form-2.png)
 
