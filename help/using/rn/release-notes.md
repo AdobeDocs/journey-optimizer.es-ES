@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
+source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 18%
+source-wordcount: 2561
+ht-degree: 21%
 
 ---
 
@@ -97,19 +97,20 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
 Se esperan las siguientes capacidades de recorrido en los próximos días o semanas.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimización de ruta de recorrido: segmentación (disponibilidad general)</strong><br/></th>
+<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use el nuevo nodo <strong>Optimizar</strong> para segmentar audiencias específicas y determinar la mejor ruta para cumplir con los KPI centrados en la empresa.</p>
-<p>Esta herramienta le permite desarrollar campañas de marketing más efectivas que tengan más probabilidades de interesar en el nivel 1:1, mejorar los esfuerzos de personalización de marketing para los clientes y mejorar los KPI de participación del cliente esencial, como las conversiones y los ingresos.</p>
-<p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos.</p>
-<p>Fecha de disponibilidad: 1 de junio de 2026</p>
+<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -118,19 +119,20 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 <table>
 <thead>
 <tr>
-<th><strong>Recorrido Arbitration - fórmulas de clasificación (disponibilidad general)</strong><br/></th>
+<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede utilizar fórmulas para aumentar automáticamente las puntuaciones de prioridad de recorridos en función de atributos de perfil del cliente y factores contextuales, lo que garantiza que los clientes ingresen los recorridos más relevantes.</p>
-<p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ya está disponible en todos los entornos.</p>
-<p>Fecha de disponibilidad: 1 de junio de 2026</p>
+<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -250,13 +252,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   Fecha de disponibilidad: 1 de junio de 2026
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **Anular el campo de ejecución predeterminado en las campañas**: antes disponible en el nivel de recorrido, ahora se puede anular el campo de ejecución predeterminado establecido globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de campaña.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
-  Fecha de disponibilidad: 22 de mayo de 2026
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### Toma de decisiones {#may-26-decisioning}
 
@@ -309,7 +313,7 @@ Se espera la siguiente capacidad de toma de decisiones en los próximos días o 
 <td>
 <p>Ahora puede agregar directivas de decisión a recorridos y campañas de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para cada miembro de la audiencia. La toma de decisiones por correo postal también admite casos de uso de toma de decisiones por lotes, lo que permite exportar los elementos de oferta correspondientes para cada perfil en una audiencia de Adobe Experience Platform determinada.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Fecha de disponibilidad: 1 de junio de 2026</p>
+<p>Fecha de disponibilidad: principios de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -457,23 +461,15 @@ En esta versión se han añadido las siguientes funciones y mejoras a la adminis
 
   Fecha de disponibilidad: 1 de junio de 2026
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **El conjunto de datos de evento de comentarios de mensajes que se mueve a la ingesta por lotes** - `AJO Message Feedback Event Dataset` está realizando una transición del flujo al modo de ingesta por lotes. Este cambio garantiza que la ingesta de datos no supere los límites de ingesta de transmisión. Si utiliza este conjunto de datos en informes de Customer Journey Analytics o ejecuta consultas en él, espere un aumento de la latencia de datos de hasta dos horas en adelante.
+* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
 
-  Fecha de disponibilidad: 1 de junio de 2026
-
-+++
-
-### Creación de informes {#may-26-reporting}
-
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
-
-* **Excluir clics de bots para informes de correo electrónico y SMS**: ahora hay disponibles nuevas métricas estimadas para filtrar las interacciones no humanas (bots) de los informes de correo electrónico y SMS. Estas incluyen las tasas de clics estimadas, las tasas de clics (CTR) y las tasas de clics hasta la apertura (CTOR), lo que proporciona una vista más precisa de la participación real del cliente. Las métricas existentes se mantienen sin cambios y estas nuevas métricas pueden utilizarse junto con los informes actuales para mejorar el análisis.
-
-  Fecha de disponibilidad: 1 de junio de 2026
+  Availability date: June 1, 2026
 
 +++
+-->
 
 ### Mejoras de uso {#may-26-usability}
 
@@ -509,6 +505,6 @@ En mayo de 2026 también se publicaron las siguientes mejoras de uso.
 
 * **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en carpetas para mejorar la navegación y la administración en la interfaz.
 
-  Fecha de disponibilidad: 2 de junio de 2026
+  Fecha de disponibilidad: principios de junio de 2026
 
 +++
