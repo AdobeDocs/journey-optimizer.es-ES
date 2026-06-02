@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1028
+source-wordcount: 1031
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Puede establecer el recorrido en **[!UICONTROL Simulación]** además de **Borra
 
 Adobe Journey Optimizer ofrece dos formas de probar y validar el recorrido:
 
-* **[Simulación](#test-users)**: usa la función de recorrido **[!UICONTROL Simulación]** y usuarios simulados para ejecuciones rápidas sin perfiles creados previamente en Adobe Experience Platform.
+* **[Simulación](#test-users)**: usa la función de recorrido **[!UICONTROL Simulación]** y usuarios simulados sin perfiles creados previamente en Adobe Experience Platform, que admiten usuarios con tecnología de IA y creados manualmente.
 
 * **[Modo de prueba](testing-the-journey.md)**: Use perfiles persistentes marcados como perfiles de prueba en Adobe Experience Platform, reutilizables entre sesiones. Elija este método cuando necesite datos coherentes y predefinidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
 
@@ -91,8 +91,7 @@ Si un recorrido contiene cualquiera de los siguientes nodos, no se puede iniciar
 | ID suplementario (reentrada múltiple) | La reentrada simultánea (varias instancias activas para el mismo usuario simulado) impide que se inicie **[!UICONTROL Simulation]**. |
 | Nodo de decisión de contenido | Esta actividad debe eliminarse o cambiarse antes de poder simular el recorrido. |
 | Búsqueda de conjuntos de datos | No se admiten las búsquedas de conjuntos de datos de clientes por clave; los recorridos que incluyen esta actividad no se pueden ejecutar en **[!UICONTROL Simulación]**. |
-| Experimentación con rutas (Optimizar: variante de experimento) | No admitido en **[!UICONTROL Simulación]**. Puede seguir usando **[!UICONTROL Optimizar]** para flujos que solían estar bajo **[!UICONTROL Condición]** (por ejemplo, condiciones de origen de datos). |
-| Segmentación de rutas (Optimizar, variante de regla de segmentación) | No admitido en **[!UICONTROL Simulación]**. |
+| Actividad **[!UICONTROL Optimizar]** | Los siguientes métodos de **[!UICONTROL Optimize]** no son compatibles con **[!UICONTROL Simulation]**: **[!UICONTROL Experimento]**, **[!UICONTROL Regla de segmentación]**, **[!UICONTROL División de porcentaje]**, **[!UICONTROL Condición de tiempo]**, **[!UICONTROL Condición]**, **[!UICONTROL Condición de fecha]**, **[!UICONTROL Límite de perfil]** y **[!UICONTROL Source de datos externos]**. Elimine o cambie el nodo antes de simular. |
 | Enriquecimiento de atributos de audiencia externa | Los recorridos que usen atributos personalizados de orígenes de audiencia externos no se iniciarán en **[!UICONTROL Simulación]** cuando esta validación esté activa. |
 
 +++
