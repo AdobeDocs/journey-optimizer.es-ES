@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2647
 ht-degree: 21%
 
 ---
@@ -47,6 +47,27 @@ ht-degree: 21%
 >[!NOTE]
 >
 >Las funcionalidades enumeradas en estas notas de la versión incluyen una **fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
+
+## Actualizaciones del 26 de junio {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Asistente de IA para expresiones de Recorrido (Beta público)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El asistente de IA ahora funciona en el editor de expresiones avanzadas de recorrido para convertir las peticiones de datos en lenguaje natural en expresiones válidas y lógica condicional. Describa la expresión que desea crear y el Asistente para IA genera un código listo para usar que puede aplicar inmediatamente o perfeccionar mediante mensajes de seguimiento.</p>
+<p>Esta capacidad está disponible para todos los clientes como un Beta público.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/expression/expression-agent.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 3 de junio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de la versión de mayo de 2026 {#may-26-rn}
 
@@ -137,24 +158,6 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 <table>
 <thead>
 <tr>
-<th><strong>Asistente de IA para expresiones de Recorrido (Beta público)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El asistente de IA ahora funciona en el editor de expresiones avanzadas de recorrido para convertir las peticiones de datos en lenguaje natural en expresiones válidas y lógica condicional. Describa la expresión que desea crear y el Asistente para IA genera un código listo para usar que puede aplicar inmediatamente o perfeccionar mediante mensajes de seguimiento.</p>
-<p>Esta capacidad está disponible para todos los clientes como un Beta público.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Fecha de disponibilidad: principios de junio de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Simulación de recorrido (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
@@ -187,6 +190,25 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 ### Campañas orquestadas {#may-26-oc}
 
 En esta versión se han agregado las siguientes funcionalidades y mejoras a las campañas orquestadas. También se esperan cambios adicionales en los próximos días o semanas.
+
+<table>
+<thead>
+<tr>
+<th><strong>Asistente de IA para expresiones de Recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El asistente de IA ahora funciona en el editor de expresiones avanzadas de recorrido para convertir las peticiones de datos en lenguaje natural en expresiones válidas y lógica condicional. Describa la expresión que desea crear y el Asistente para IA genera un código listo para usar que puede aplicar inmediatamente o perfeccionar mediante mensajes de seguimiento.</p>
+<p>Esta capacidad está disponible para todos los clientes como un Beta público.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/expression/expression-agent.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 20 de mayo de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
 * Al crear un temporizador personalizado, se mostrará directamente el editor avanzado.
 * Cuando asigne un parámetro de acción, haga clic en **[!UICONTROL Modo avanzado]**.
+
+>[!NOTE]
+>
+>Para generar expresiones de Recorrido utilizando indicaciones de lenguaje natural, use el **[Ayudante de expresiones](expression-agent.md)** (**beta pública**) a través del control de IA dentro del editor avanzado.
 
 ## Descubra la interfaz {#discovering-the-interface}
 
