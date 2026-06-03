@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 2%
@@ -144,19 +144,15 @@ Puede cargar un archivo con variantes y valores predefinidos para acelerar el pr
 
 ### Generar variantes de contenido automáticamente {#auto-generate-variants}
 
-[!DNL Journey Optimizer] puede usar la simulación basada en IA para generar automáticamente una variante de contenido y así validar la lógica de personalización sin necesidad de crear variantes a mano.
+[!DNL Journey Optimizer] puede usar la simulación basada en IA para generar automáticamente una variante de contenido y así validar la lógica de personalización sin necesidad de crear variantes a mano. Al procesar contenido para simulación o prueba, el sistema analiza el contenido, identifica los campos de personalización y los reemplaza por valores significativos para una previsualización casi realista.
 
-Al procesar contenido para simulación o prueba, el sistema analiza el contenido, identifica los campos de personalización y los reemplaza por valores significativos para una previsualización casi realista.
+Para generar automáticamente una variante, haga clic en el botón **[!UICONTROL Generar]** y espere a que el sistema genere la variante. Revise la variante generada en la lista de variantes y su renderización.
 
-Para generar automáticamente una variante, haga clic en el botón **[!UICONTROL Generar]** y espere a que el sistema genere la variante.
-
-![Botón Generar variantes](assets/simulate-generate-variant.png)
+![Botón Generar variantes](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >La generación produce una única variante. Al hacer clic en **[!UICONTROL Generar]**, se reemplazarán todas las variantes de contenido existentes en la lista, incluidas las que haya agregado manualmente o desde un archivo, con una variante generada.
-
-Revise la variante generada en la lista de variantes y su renderización.
 
 ### Seleccionar variantes de usuarios simulados {#simulated-users}
 
