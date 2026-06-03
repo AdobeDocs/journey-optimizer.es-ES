@@ -10,24 +10,15 @@ level: Experienced
 keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +82,16 @@ En este caso, puede establecer un nombre de **Remitente** y una dirección de co
 
 Cuando se establecen **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]**, [!DNL Journey Optimizer] agrega un encabezado SMTP del **remitente** al correo electrónico<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. Los clientes de correo electrónico que admitan esto pueden mostrar frases como **Remitente a nombre de Desde** o un indicador de **a través de**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Si deja vacíos **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]**, o si el **Remitente** resuelto es idéntico a **De**, no se agregará ningún encabezado de **Remitente**.
+>**[!UICONTROL El nombre del remitente]** y **[!UICONTROL El correo electrónico del remitente]** deben configurarse juntos; o bien ambos campos se rellenan o se dejan vacíos. Al rellenar solo uno de ellos, se evita que los recorridos y las campañas se publiquen con esta configuración de canal.
 
-Notas:
+Al configurar los encabezados **Sender**, tenga en cuenta lo siguiente:
 
+* Si deja vacíos los campos **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]**, o si el **Remitente** resuelto es idéntico a **De**, no se agrega ningún encabezado **Remitente**.
 * La dirección **Remitente** no se usa para la alineación de SPF, DKIM o DMARC; solo se realiza la validación de **formato**. SPF, DKIM y DMARC siguen dependiendo de los campos **De**. El [subdominio delegado](../configuration/about-subdomain-delegation.md) seleccionado para la configuración sigue siendo el dominio de envío utilizado para esas comprobaciones.
 
-* Si **Remitente** está configurado y la personalización no se resuelve en un valor para un destinatario, el mensaje no se envía a ese destinatario.
+* Si los encabezados **Sender** están configurados y la personalización no se resuelve en un valor para un destinatario, el mensaje no se envía a ese destinatario.
 
 ## Responder a (correo electrónico) {#reply-to-email}
 
