@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Cuando el contenido incluye lógica condicional o de personalización, debe comp
 
 La experiencia **[!UICONTROL Simular variaciones de contenido]** en [!DNL Journey Optimizer] resuelve esto al permitirle probar varias variantes de contenido desde una sola pantalla, generadas automáticamente con IA, introducidas manualmente, importadas desde un archivo o basadas en usuarios simulados reutilizables. Puede previsualizar cómo se procesa y envía cada variante de pruebas, todo sin crear previamente perfiles persistentes en Adobe Experience Platform.
 
-Desde el contenido, selecciona **[!UICONTROL Simular contenido]** y luego **[!UICONTROL Simular variaciones de contenido]** para abrir una sola experiencia donde puedas:
+Desde tu contenido, haz clic en **[!UICONTROL Simular contenido]** para abrir una sola experiencia donde puedas:
 
 * **Variantes generadas automáticamente** que usan IA para cubrir ramas condicionales y de personalización
 * **Agregar variantes manualmente** o desde un archivo CSV o JSON
@@ -63,7 +63,8 @@ Antes de empezar a probar el contenido con datos de entrada de ejemplo, tenga en
 * **Canales**: la simulación de variaciones de contenido está disponible para:
 
    * los canales de correo electrónico, SMS y notificaciones push;
-   * todos los canales entrantes (web, experiencia basada en código, aplicación, tarjetas de contenido).
+   * todos los canales entrantes (web, experiencia basada en código, aplicación, tarjetas de contenido);
+   * Campañas organizadas.
 
 * **Funciones compatibles**: las variaciones de contenido se pueden usar con [!DNL Journey Optimizer] funciones de contenido multilingüe y experimento de contenido. Esto le permite probar mensajes en varios idiomas y optimizar el contenido mediante la experimentación.
 
@@ -71,19 +72,19 @@ Antes de empezar a probar el contenido con datos de entrada de ejemplo, tenga en
 
   >[!NOTE]
   >
-  >Por ahora, los informes de procesamiento de bandeja de entrada y correo no deseado no están disponibles en la experiencia actual. Para usar estas características, selecciona el botón **[!UICONTROL Simular contenido]** de tu contenido para acceder a la interfaz de usuario anterior.
+  >Por ahora, los informes de procesamiento de bandeja de entrada y correo no deseado no están disponibles en la experiencia actual. Para usar estas características, haz clic en **[!UICONTROL Simular contenido]** y luego selecciona **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para acceder a la interfaz de usuario anterior.
 
 * **Atributos**: se admiten atributos contextuales y de perfil.
 
 * **Tipos de datos**: solo se admiten los siguientes tipos de datos al escribir datos para las variantes: número (entero y decimal), cadena, booleano y tipo de fecha. Cualquier otro tipo de datos mostrará un error.
 
-* **Número de variantes**: puede agregar hasta 30 variantes para probar el contenido, ya sea mediante un archivo, manualmente o mediante generación automática.
+* **Número de variantes**: puede agregar hasta 30 variantes para probar el contenido, ya sea mediante un archivo, manualmente o mediante generación automática. Al utilizar la generación automática de IA, se generan un máximo de 20 variantes.
 
 ## Crear variantes de contenido
 
-Para crear variaciones para el contenido, haga clic en el botón **[!UICONTROL Simular contenido]** y elija **[!UICONTROL Simular variaciones de contenido]**.
+Para crear variaciones para el contenido, haga clic en el botón **[!UICONTROL Simular contenido]**.
 
-![Opción Simular variaciones de contenido](assets/simulate-sample.png)
+![Botón Simular contenido](assets/simulate-sample.png)
 
 Puede crear variantes de las siguientes maneras:
 

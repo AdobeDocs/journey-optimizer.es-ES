@@ -8,9 +8,9 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 166
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Puede aprovechar su cuenta de **Litmus** en [!DNL Journey Optimizer] para obtene
 
 Para comprobar el procesamiento del correo electrónico, siga estos pasos:
 
-1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Simular contenido]**.
+1. En la pantalla Editar contenido del mensaje o en el Designer de correo electrónico, haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable.
 
 1. Seleccione el botón **[!UICONTROL Procesar correo electrónico]**.
 
