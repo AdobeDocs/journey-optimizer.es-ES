@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
+source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1327
 ht-degree: 12%
 
 ---
@@ -126,7 +126,7 @@ Una vez que tus credenciales de la API de WhatsApp se hayan creado correctamente
 
 >[!NOTE]
 >
->Los mensajes de WhatsApp entrantes se capturan en el conjunto de datos del sistema _AJO Inbound Activity Event Dataset_. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
+>Los mensajes de WhatsApp entrantes se capturan en el conjunto de datos del sistema _AJO Email Tracking Dataset_. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
 
 Los webhooks actúan como el puente de comunicación entre WhatsApp Business Platform y Adobe Journey Optimizer de Meta, lo que le permite recibir notificaciones en tiempo real sobre eventos de mensajes e interacciones de usuarios.
 

@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 35%
+source-wordcount: 2077
+ht-degree: 30%
 
 ---
 
@@ -250,6 +250,48 @@ Este es un ejemplo del tipo de autenticación del portador:
 >
 >* La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
 >
+
+### Autenticación personalizada basada en certificados {#certificate-credential}
+
+En el caso de las API empresariales que aplican la verificación de identidad basada en certificados (como Azure Entra ID), puede configurar la autenticación personalizada basada en certificados agregando `"subType": "certificateCredential"` a la carga útil de autorización personalizada. Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso. No se requiere ningún secreto de cliente.
+
+Esta opción agrega dos campos opcionales al esquema estándar `customAuthorization`: `subType` y `aud`. Todos los demás campos (`endpoint`, `method`, parámetros de cuerpo, `tokenInResponse`) permanecen sin cambios. Cuando `subType` está ausente, el comportamiento es idéntico al de la autenticación personalizada estándar: las configuraciones existentes no se ven afectadas.
+
+* **`subType`**: se establece en `"certificateCredential"` para activar la autenticación basada en certificados.
+* **`aud`**: el valor de audiencia incluido en la afirmación del cliente JWT. Si no se establece, el valor predeterminado es la dirección URL `endpoint`; especifique este campo únicamente si el proveedor de identidad espera un valor de audiencia diferente.
+
+El usuario nunca crea los campos `client_assertion` y `client_assertion_type`. La plataforma los inserta automáticamente durante la ejecución, inmediatamente antes de la llamada del extremo del token.
+
+Este es un ejemplo del tipo de autenticación de credencial de certificado:
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "authorizationType": "bearer",
+  "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "https://api.example.com/.default"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
+>[!CAUTION]
+>
+>Tenga en cuenta las siguientes protecciones al configurar la autenticación personalizada basada en certificados:
+>
+>* **URL de extremo de token**: debe ser HTTPS. Evite las direcciones URL que contengan `?`: se trata de un signo de que el extremo de autorización se pegó en lugar del extremo de token.
+>* **`client_id`**: no debe estar en blanco y no debe tener espacios iniciales o finales. Un valor en blanco produce un JWT de aspecto válido que el proveedor de identidad rechazará con un error opaco.
+>* **`scope`**: expresado como una sola cadena separada por espacios en `bodyParams`. Máximo 1000 caracteres en total.
+>* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** (no la CA raíz) en su proveedor de identidad.
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 
