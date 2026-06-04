@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 969d008e705c2852a3f7dadc69f4a05df3cca81f
+source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
 workflow-type: tm+mt
-source-wordcount: 2649
-ht-degree: 21%
+source-wordcount: 2755
+ht-degree: 20%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 21%
 <p>Esta capacidad está disponible para todos los clientes como un Beta público.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/expression/expression-agent.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 3 de junio de 2026</p>
+<p>Fecha de disponibilidad: 3 de junio de 2026</p> 
 </td>
 </tr>
 </tbody>
@@ -72,6 +72,8 @@ ht-degree: 21%
 * **Finalización automática para recorridos de audiencia de lectura no recurrentes** - Los recorridos de **audiencia de lectura** no recurrentes ahora pasan automáticamente al estado **Detenido** una vez que se cierra el último perfil activo. Anteriormente, estas recorridos permanecían **Activas** hasta que expiró el tiempo de espera global de 91 días, incluso cuando ya no circulaba ningún perfil por ellas. Con esta mejora, el estado de recorrido refleja el estado de ejecución real en cuanto se completa, lo que mantiene el inventario de recorrido preciso sin intervención manual.
 
   Tenga en cuenta que este comportamiento no se aplica a los recorridos que incluyen nodos que causan períodos de espera, como nodos de espera, nodos de reacción o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* **Autenticación personalizada basada en certificados en acciones personalizadas**: las acciones personalizadas ahora admiten la autenticación personalizada basada en certificados. Al agregar `subType: "certificateCredential"` a una configuración de autorización personalizada, Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso (no se requiere secreto de cliente). Diseñado para API empresariales que aplican la verificación de identidad basada en certificados, como Azure Entra ID. [Más información](../datasource/external-data-sources.md#certificate-credential)
 
   Fecha de disponibilidad: 4 de junio de 2026
 
@@ -177,7 +179,9 @@ Se esperan las siguientes capacidades de recorrido en los próximos días o sema
 </tbody>
 </table>
 
-* **Autenticación personalizada basada en certificados en acciones personalizadas**: las acciones personalizadas ahora admiten la autenticación personalizada basada en certificados. Al agregar `subType: "certificateCredential"` a una configuración de autorización personalizada, Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso (no se requiere secreto de cliente). Diseñado para API empresariales que aplican la verificación de identidad basada en certificados, como Azure Entra ID.
+* **Finalización automática para recorridos de audiencia de lectura no recurrentes** - Los recorridos de **audiencia de lectura** no recurrentes ahora pasan automáticamente al estado **Detenido** una vez que se cierra el último perfil activo. Anteriormente, estas recorridos permanecían **Activas** hasta que expiró el tiempo de espera global de 91 días, incluso cuando ya no circulaba ningún perfil por ellas. Con esta mejora, el estado de recorrido refleja el estado de ejecución real en cuanto se completa, lo que mantiene el inventario de recorrido preciso sin intervención manual.
+
+  Tenga en cuenta que este comportamiento no se aplica a los recorridos que incluyen nodos que causan períodos de espera, como nodos de espera, nodos de reacción o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días.
 
   Fecha de disponibilidad: principios de junio de 2026
 
@@ -335,7 +339,7 @@ Se espera la siguiente capacidad de toma de decisiones en los próximos días o 
 <td>
 <p>Ahora puede agregar directivas de decisión a recorridos y campañas de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para cada miembro de la audiencia. La toma de decisiones por correo postal también admite casos de uso de toma de decisiones por lotes, lo que permite exportar los elementos de oferta correspondientes para cada perfil en una audiencia de Adobe Experience Platform determinada.</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Fecha de disponibilidad: 3 de junio de 2026</p>
+<p>Fecha de disponibilidad: 4 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
