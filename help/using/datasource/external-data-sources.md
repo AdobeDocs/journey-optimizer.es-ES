@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 35%
+source-wordcount: 2077
+ht-degree: 30%
 
 ---
 
@@ -63,7 +53,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 
@@ -250,6 +240,48 @@ Este es un ejemplo del tipo de autenticación del portador:
 >
 >* La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
 >
+
+### Autenticación personalizada basada en certificados {#certificate-credential}
+
+En el caso de las API empresariales que aplican la verificación de identidad basada en certificados (como Azure Entra ID), puede configurar la autenticación personalizada basada en certificados agregando `"subType": "certificateCredential"` a la carga útil de autorización personalizada. Journey Optimizer utiliza el certificado administrado de Adobe para firmar una aserción de cliente JWT e intercambiarla por un token de acceso. No se requiere ningún secreto de cliente.
+
+Esta opción agrega dos campos opcionales al esquema estándar `customAuthorization`: `subType` y `aud`. Todos los demás campos (`endpoint`, `method`, parámetros de cuerpo, `tokenInResponse`) permanecen sin cambios. Cuando `subType` está ausente, el comportamiento es idéntico al de la autenticación personalizada estándar: las configuraciones existentes no se ven afectadas.
+
+* **`subType`**: se establece en `"certificateCredential"` para activar la autenticación basada en certificados.
+* **`aud`**: el valor de audiencia incluido en la afirmación del cliente JWT. Si no se establece, el valor predeterminado es la dirección URL `endpoint`; especifique este campo únicamente si el proveedor de identidad espera un valor de audiencia diferente.
+
+El usuario nunca crea los campos `client_assertion` y `client_assertion_type`. La plataforma los inserta automáticamente durante la ejecución, inmediatamente antes de la llamada del extremo del token.
+
+Este es un ejemplo del tipo de autenticación de credencial de certificado:
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "authorizationType": "bearer",
+  "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "https://api.example.com/.default"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
+>[!CAUTION]
+>
+>Tenga en cuenta las siguientes protecciones al configurar la autenticación personalizada basada en certificados:
+>
+>* **URL de extremo de token**: debe ser HTTPS. Evite las direcciones URL que contengan `?`: se trata de un signo de que el extremo de autorización se pegó en lugar del extremo de token.
+>* **`client_id`**: no debe estar en blanco y no debe tener espacios iniciales o finales. Un valor en blanco produce un JWT de aspecto válido que el proveedor de identidad rechazará con un error opaco.
+>* **`scope`**: expresado como una sola cadena separada por espacios en `bodyParams`. Máximo 1000 caracteres en total.
+>* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** (no la CA raíz) en su proveedor de identidad.
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 
