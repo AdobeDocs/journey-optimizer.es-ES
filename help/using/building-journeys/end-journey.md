@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Después del tiempo de espera global de recorrido de **91 días**, un recorrido 
 
 ### Parada automática de recorrido para audiencias no recurrentes {#auto-stop-non-recurring}
 
-Ahora, un **recorrido de audiencia de lectura no recurrente** pasa automáticamente al estado **[!UICONTROL Detenido]** cuando el último perfil sale del recorrido. Esto elimina el comportamiento anterior, en el cual los recorridos de audiencia de lectura no recurrentes permanecían en estado **Activo** hasta que expiró el tiempo de espera global de 91 días, aunque no hubiera perfiles que fluyeran activamente por ellos.
+Un **recorrido de audiencia de lectura no recurrente** pasa automáticamente al estado **[!UICONTROL Detenido]** cuando el último perfil sale del recorrido. Esto elimina el comportamiento anterior, en el cual los recorridos de audiencia de lectura no recurrentes permanecían en estado **Activo** hasta que expiró el tiempo de espera global de 91 días, aunque no hubiera perfiles que fluyeran activamente por ellos.
 
 **Cómo funciona:**
 
