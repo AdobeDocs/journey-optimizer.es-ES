@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 30%
@@ -261,6 +261,10 @@ Esta opción agrega dos campos obligatorios al esquema estándar `customAuthoriz
 * **`aud`**: el valor de audiencia incluido en la afirmación del cliente JWT. Para el Microsoft Entra ID, es igual que la URL `endpoint`, pero siempre se debe establecer explícitamente.
 
 El usuario nunca crea los campos `client_assertion` y `client_assertion_type`. La plataforma los inserta automáticamente durante la ejecución, inmediatamente antes de la llamada del extremo del token.
+
+<!--
+rebuild
+-->
 
 Este es un ejemplo del tipo de autenticación de credencial de certificado:
 
