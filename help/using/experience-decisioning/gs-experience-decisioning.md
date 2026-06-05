@@ -127,4 +127,4 @@ El siguiente gráfico resume el proceso de toma de decisiones de extremo a extre
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
