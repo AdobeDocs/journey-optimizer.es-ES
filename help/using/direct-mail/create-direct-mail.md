@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 17%
+source-wordcount: 1190
+ht-degree: 15%
 
 ---
 
@@ -125,7 +125,15 @@ Ahora puede empezar a configurar el archivo de extracción para enviarlo a su pr
 
 Los proveedores de correo postal requieren el archivo de extracción para enviar correo a sus clientes. Para definir la configuración del archivo de extracción, siga estos pasos:
 
-1. En la pantalla de configuración de la campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
+1. En la pantalla de configuración de la campaña o el recorrido, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
+
+1. Para agregar directivas de decisión al mensaje de correo postal, seleccione una columna en la sección **[!UICONTROL Campos de datos]** y abra el editor de personalización utilizando el icono ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Vaya al menú **[!UICONTROL Políticas de decisión]** para crear e insertar una política de decisión. A continuación, puede utilizar atributos de elemento de decisión como datos de columna en el archivo de extracción.
+
+   >[!AVAILABILITY]
+   >
+   >Experience Decisioning en correo postal es una nueva funcionalidad. Anteriormente, los archivos de extracción de correo postal no podían utilizar el motor de toma de decisiones; ahora puede agregar directivas de decisión e incluir atributos de elementos de decisión como datos de columna en la exportación.
+
+   [Aprenda a agregar una directiva de decisión en el correo postal](../experience-decisioning/create-decision-policy.md#add). Para ver ejemplos y flujos de trabajo de toma de decisiones por lotes (correo postal personalizado o exportación a sistemas descendentes), consulte [Toma de decisiones por lotes en correo postal](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Ajuste las propiedades del archivo de extracción:
 

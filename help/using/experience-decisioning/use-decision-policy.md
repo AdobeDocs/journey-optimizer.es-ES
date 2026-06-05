@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Una vez que haya agregado una política de decisión al contenido, puede utiliza
 
 >[!CAUTION]
 >
->Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **SMS**, **Notificación push** y **Correo electrónico**.
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **SMS**, **Notificación push** y **Correo directo**.
 
 ## Inserción del código de la política de decisión {#insert}
 
@@ -104,13 +104,23 @@ También puede insertar el código de directiva de decisión al usar el modo **[
 >
 >Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Correo directo]
+
+1. En la configuración del archivo de extracción, abra **Personalization Editor** (por ejemplo, en el campo **[!UICONTROL Datos]** de una columna).
+
+2. Vaya a **[!UICONTROL Directivas de decisión]** y seleccione **[!UICONTROL Insertar directiva]** para agregar el código para la directiva de decisión.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. Utilice los atributos de elemento de decisión devueltos como datos de columna para que la información de oferta seleccionada se incluya en el archivo de extracción de cada perfil.
+
 >[!ENDTABS]
 
 Se agrega el código de la política de decisión. Ahora puede utilizar atributos de los elementos de decisión devueltos para personalizar el contenido.
 
 >[!NOTE]
 >
->Para los canales de correo electrónico y de experiencia basados en código, repita esta secuencia una vez por cada elemento de decisión que desee devolver. Por ejemplo, si eligió devolver 2 elementos al [crear la decisión](create-decision-policy.md), repita la secuencia dos veces. Para los canales SMS y Push, solo se puede devolver un elemento de decisión.
+>Para los canales de experiencia basada en código, correo electrónico y correo postal, repita esta secuencia una vez por cada elemento de decisión que desee devolver. Por ejemplo, si eligió devolver 2 elementos al [crear la decisión](create-decision-policy.md), repita la secuencia dos veces. Para los canales SMS y Push, solo se puede devolver un elemento de decisión.
 
 ## Personalizar con atributos de elementos de decisión {#attributes}
 
@@ -126,7 +136,7 @@ Los atributos de elemento de decisión y los atributos contextuales no son compa
 
 Para agregar un atributo, haga clic en el icono **`+`** junto al atributo. Puede agregar tantos atributos como sea necesario. También puede incluir otros atributos de personalización, como datos de perfil.
 
-* Para los canales **Email** y **Code-based**, ajuste los atributos dentro del bucle `#each` usando corchetes `[ ]` y agregue una coma antes de la etiqueta de cierre `/each`.
+* Para los canales **Correo electrónico**, **Basado en código** y **Correo directo**, ajuste los atributos dentro del bucle `#each` entre corchetes `[ ]` y agregue una coma antes de la etiqueta de cierre `/each`.
 
   +++Ver ejemplo
 

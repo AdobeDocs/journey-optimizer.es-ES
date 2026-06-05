@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: 2743
 ht-degree: 20%
 
 ---
@@ -49,6 +49,24 @@ ht-degree: 20%
 >Las funcionalidades enumeradas en estas notas de la versión incluyen una **fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
 
 ## Actualizaciones del 26 de junio {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con Decisioning en el canal de correo directo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede agregar directivas de decisión a recorridos y campañas de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para cada miembro de la audiencia. La toma de decisiones por correo postal también admite casos de uso de toma de decisiones por lotes, lo que permite exportar los elementos de oferta correspondientes para cada perfil en una audiencia de Adobe Experience Platform determinada.</p>
+<p><img src="assets/do-not-localize/exd-dm.gif"></p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/use-decision-policy.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 3 de junio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -323,29 +341,6 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a Deci
 * **API de flujo de trabajo de migración de decisiones**: se ha actualizado el contrato de API para crear análisis de dependencia y flujos de trabajo de migración: pase **`request-level`** como **parámetro de consulta** en la dirección URL de solicitud (`sandbox`, `offer` o `decision`). El nivel de solicitud ya no debe enviarse en el cuerpo de JSON. [Más información](../experience-decisioning/decisioning-migration-api.md)
 
   Fecha de disponibilidad: 6 de mayo de 2026
-
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
-
-Se espera la siguiente capacidad de toma de decisiones en los próximos días o semanas.
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con Decisioning en el canal de correo directo</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede agregar directivas de decisión a recorridos y campañas de correo directo. Las políticas de decisión son contenedores para sus ofertas que aprovechan el motor de decisión para devolver dinámicamente el mejor contenido para cada miembro de la audiencia. La toma de decisiones por correo postal también admite casos de uso de toma de decisiones por lotes, lo que permite exportar los elementos de oferta correspondientes para cada perfil en una audiencia de Adobe Experience Platform determinada.</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Fecha de disponibilidad: 4 de junio de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Canal de correo electrónico {#may-26-email}
 

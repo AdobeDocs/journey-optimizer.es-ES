@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: 2372
 ht-degree: 6%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 6%
 Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue una política de decisión al contenido de una campaña o recorrido y, a continuación, configure los elementos que desea devolver y la estrategia de selección que desea utilizar. Para ello, siga los pasos a continuación:
 
 1. [Agregar una política de decisión](#add)
-1. [Configurar la directiva de decisión](#configure): agregue un nombre y especifique el número de elementos que se devolverán para el canal de correo electrónico.
+1. [Configurar la directiva de decisión](#configure): agregue un nombre y, para los canales de correo electrónico y correo directo, especifique el número de elementos que desea devolver.
 1. [Configurar una secuencia de estrategia](#strategy): seleccione los elementos que desea devolver con la directiva de decisión.
 1. [Seleccionar ofertas de reserva](#fallback) (opcional): seleccione los elementos que desea mostrar si no se cumplen los requisitos para los elementos o las estrategias de selección.
 1. [Revisar y guardar](#review) la estrategia de selección
@@ -55,13 +55,11 @@ Para presentar la mejor oferta dinámica y experiencia a sus clientes, agregue u
 
 >[!AVAILABILITY]
 >
->Las directivas de decisión están disponibles para los canales **Experiencia basada en código**, **Notificación push**, **SMS** y **Correo electrónico**.
+>Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push**, **SMS** y **Correo directo**.
 
 ## Agregar una política de decisión {#add}
 
-Abra un recorrido o una campaña, seleccione una [acción de canal](../building-journeys/journey-action.md) y edite el contenido del mensaje.
-
-Edite el contenido del mensaje y examine las pestañas siguientes para obtener más información sobre cómo añadir la política de decisión en función del canal seleccionado.
+Acceda a una acción de canal configurada en el recorrido o la campaña y edite el contenido del mensaje. Examine las pestañas siguientes para obtener más información sobre cómo añadir la política de decisión en función del canal seleccionado.
 
 >[!BEGINTABS]
 
@@ -195,6 +193,22 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 +++
 
+>[!TAB Correo directo]
+
+Para el correo postal, agregue una directiva de decisión desde la configuración **archivo de extracción**. [Aprenda a crear un mensaje de correo postal](../direct-mail/create-direct-mail.md).
+
+1. En la sección **[!UICONTROL Campos de datos]**, seleccione una columna o haga clic en **[!UICONTROL Agregar]** para crear una.
+
+1. En el panel de formato, abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. En la pantalla de configuración de la política de decisión, utilice el campo **[!UICONTROL Número de elementos]** para definir cuántos elementos de decisión se devuelven para cada perfil (por ejemplo, 2 para exportar las 2 ofertas aptas principales). Continúe con la [configuración de la estrategia](#strategy) y la [personalización](use-decision-policy.md) en las columnas de su archivo de extracción.
+
 >[!ENDTABS]
 
 ## Configurar la directiva de decisión {#configure}
@@ -209,7 +223,7 @@ Después de agregar una nueva política de decisión al contenido, se abre la pa
 
    >[!NOTE]
    >
-   >Esta opción solo está disponible para los canales de experiencia basados en código y correo electrónico. Para el resto de canales, solo se puede devolver 1 elemento de decisión por acción.
+   >El campo **[!UICONTROL Número de elementos]** está disponible para los canales **Correo electrónico**, **Experiencia basada en código** y **Correo directo**. Para los canales **SMS** y **Push**, solo se puede devolver 1 elemento de decisión por acción.
 
    Para devolver varios elementos para el canal de correo electrónico, debe agregar la directiva de decisión dentro de un componente **[!UICONTROL Repetir cuadrícula]**. Expanda la sección siguiente para obtener más detalles:
 
