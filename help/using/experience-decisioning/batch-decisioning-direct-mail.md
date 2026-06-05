@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: toma de decisiones por lotes, correo directo, toma de decisiones
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Esto admite casos de uso de toma de decisiones por lotes a través del canal de 
 * [Crear directivas de decisión](create-decision-policy.md#add): agregue una directiva de decisión en la ficha Correo directo
 * [Configuración de correo directo](../direct-mail/direct-mail-configuration.md): enrutamiento de archivos y configuración de canal
 * [Introducción a la toma de decisiones](gs-experience-decisioning.md): conceptos y protecciones
+
