@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Los usuarios simulados seleccionados para la simulación aparecen en la sección
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch.png)
 
-Para recorridos con **[!UICONTROL audiencia de lectura]**, puedes acceder a **[!UICONTROL simulación rápida]** o **[!UICONTROL simulación manual]**.
-
-![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-14.png)
-
 +++
 
 +++ Recorrido por lotes con una audiencia de lectura y eventos unitarios
@@ -60,10 +56,6 @@ Los usuarios simulados seleccionados para la simulación y los eventos configura
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-2.png)
 
-Con **recorrido por lotes con una audiencia de lectura y eventos unitarios**, puedes acceder a **[!UICONTROL Simulación rápida]** o **[!UICONTROL Simulación manual]**.
-
-![Botón de modo de prueba en la interfaz de recorrido](assets/simulate-12.png)
-
 +++
 
 +++ Recorrido unitario
@@ -72,10 +64,6 @@ El recorrido comienza con un evento unitario, no con una audiencia de lectura. U
 Los usuarios simulados seleccionados para la simulación y los eventos configurados serán visibles respectivamente en las secciones **Usuarios de prueba** y **Eventos de prueba**. La sección **Usuarios de prueba** no incluye una acción para almacenar en déclencheur a un usuario simulado en el recorrido. La entrada de déclencheur de **eventos de prueba**.
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-3.png)
-
-Con **recorrido unitario**, se accede directamente al menú de simulación Manual.
-
-![Panel de simulación para un recorrido unitario](assets/simulate-13.png)
 
 +++
 
@@ -105,7 +93,7 @@ Algunos nodos impiden que **[!UICONTROL Simulation]** se inicie. Otros se ejecut
 | ID suplementario (reentrada múltiple) | **[!UICONTROL La simulación]** no se inicia cuando se habilita la reentrada múltiple y el mismo usuario simulado podría tener varias instancias activas a la vez. |
 | Nodo de decisión de contenido | Elimine o cambie esta actividad antes de simular el recorrido. |
 | Búsqueda de conjuntos de datos | **[!UICONTROL La simulación]** no admite búsquedas de conjuntos de datos de clientes por clave. Elimine o cambie esta actividad antes de ejecutar una simulación. |
-| Actividad **[!UICONTROL Optimizar]** | **[!UICONTROL Experimento]** y **[!UICONTROL Regla de segmentación]** no son compatibles. Elimine o cambie el nodo antes de simular.<br><br>Otros métodos **[!UICONTROL Optimize]** se comportan de la siguiente manera:<br><br>**[!UICONTROL División porcentual &#x200B;]**: Journey Agent crea un usuario simulado por rama, no según los porcentajes de rama. Durante el tiempo de ejecución, la evaluación en directo selecciona la rama y puede diferir de la ruta generada. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior.<br><br>**[!UICONTROL Condición de tiempo]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una ventana de 8:00 a 20:00 solo permite a los usuarios pasar mientras la simulación se ejecuta dentro de esa ventana. No se puede burlar del tiempo de ejecución. Configure la condición para que coincida con la hora actual cuando realice la prueba.<br><br>**[!UICONTROL Condición de fecha &#x200B;]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una fecha del 8 de junio de 2026 solo permite a los usuarios pasar cuando la simulación se ejecuta en esa fecha. No se puede burlar la fecha de ejecución. Establezca la condición en la fecha actual cuando realice la prueba.<br><br>**[!UICONTROL Límite de perfil]**: No se aplican límites durante la simulación. Journey Agent crea un usuario simulado por rama. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior. |
+| Actividad **[!UICONTROL Optimizar]** | **[!UICONTROL Experimento]** y **[!UICONTROL Regla de segmentación]** no son compatibles. Elimine o cambie el nodo antes de simular.<br><br>Otros métodos **[!UICONTROL Optimize]** se comportan de la siguiente manera:<br><br>**[!UICONTROL División porcentual ]**: Journey Agent crea un usuario simulado por rama, no según los porcentajes de rama. Durante el tiempo de ejecución, la evaluación en directo selecciona la rama y puede diferir de la ruta generada. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior.<br><br>**[!UICONTROL Condición de tiempo]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una ventana de 8:00 a 20:00 solo permite a los usuarios pasar mientras la simulación se ejecuta dentro de esa ventana. No se puede burlar del tiempo de ejecución. Configure la condición para que coincida con la hora actual cuando realice la prueba.<br><br>**[!UICONTROL Condición de fecha ]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una fecha del 8 de junio de 2026 solo permite a los usuarios pasar cuando la simulación se ejecuta en esa fecha. No se puede burlar la fecha de ejecución. Establezca la condición en la fecha actual cuando realice la prueba.<br><br>**[!UICONTROL Límite de perfil]**: No se aplican límites durante la simulación. Journey Agent crea un usuario simulado por rama. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior. |
 | Ramas de tiempo de espera y error | Journey Agent no genera usuarios para el tiempo de espera de la actividad ni para las ramas de error. Los usuarios solo introducen esas rutas si se produce un tiempo de espera o error real durante la simulación. |
 | Rama de tiempo de espera (actividades de evento) | Se crean usuarios simulados, pero en **[!UICONTROL simulación manual]** Journey Agent no decide quién entra en una rama de tiempo de espera de evento. Controle la ruta enviando o no enviando el evento. Por ejemplo, para probar una rama de tiempo de espera, espere al tiempo de espera configurado y no envíe el evento. **[!UICONTROL Simulación rápida]** puede enviar o retener eventos automáticamente para cubrir las ramas de tiempo de espera. |
 | Eventos de reacción | Los eventos de reacción se ejecutan en simulación, pero la acción debe ocurrir en la vida real. Por ejemplo, una reacción de correo electrónico **open** requiere que se abra el mensaje de prueba. No se pueden burlar de las reacciones en la IU de simulación. |
