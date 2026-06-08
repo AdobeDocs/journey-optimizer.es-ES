@@ -12,11 +12,10 @@ badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: 920
 ht-degree: 13%
 
 ---
@@ -90,21 +89,23 @@ Puede crear estos tipos de experiencias de desafío:
 * **Desafíos secuenciales**: Los clientes completan las tareas en un orden definido. Utilice este tipo para guiar a los clientes a través de un recorrido específico o proceso de incorporación.\
   *Ejemplo: &quot;Nuevo Recorrido para miembros&quot; - Regístrese para recibir correos electrónicos → Realice su primera compra → Escriba una opinión sobre el producto → Consulte a un amigo (complete este pedido exacto)*
 
-* **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. Puede configurar Contenido, Mensajería y Audiencia como lo haría para cualquier otro tipo de desafío.
+* **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. La configuración, el contenido y la mensajería se configuran del mismo modo que para cualquier otro tipo de desafío.
+
+* **Desafíos repetibles**: Configure cuántas veces los miembros pueden completar el mismo desafío y ganar recompensas de nuevo. [Más información sobre los límites de repetición](create-challenges.md#repeat-limits)
 
 ## Funcionamiento {#how-it-works}
 
 La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
 
-1. **Crear un desafío**: defina las propiedades básicas del desafío, como nombre, tipo (Estándar, Streak, Secuencial o Traer sus propios datos cuando estén disponibles) e intervalo de fechas. [Aprenda a elegir un tipo de desafío](create-challenges.md#create-the-challenge).
+1. **Crear un desafío**: elige el tipo de desafío (Estándar, Streak, Secuencial o Trae tus propios datos cuando estén disponibles). [Aprenda a elegir un tipo de desafío](create-challenges.md#create-the-challenge).
 
-1. **Agregar tareas**: defina las acciones específicas que deben completar los clientes, incluidos los tipos de tareas (compras, gastos o eventos personalizados), las cantidades, los filtros de productos y las recompensas.
+1. **Configurar opciones**: en la pestaña Configuración, defina los detalles del desafío, la audiencia, la programación, las reglas (opción de inclusión, seguimiento del progreso, límites de repetición) y los metadatos opcionales. [Más información acerca de la configuración de desafío](create-challenges.md#settings).
 
-1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con tarjetas de contenido de Journey Optimizer que se muestran en los dispositivos del cliente. Las tarjetas de contenido muestran información de desafío, progreso y recompensas.
+1. **Agregar tareas y recompensas**: en la pestaña Estructura, defina tareas y recompensas (no es necesario para Traer sus propios desafíos de datos).
+
+1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con tarjetas de contenido de Journey Optimizer que se muestran en los dispositivos del cliente.
 
 1. **Configurar mensajes** (opcional): configure mensajes multicanal (en la aplicación, correo electrónico, push) para las fases clave del ciclo vital: inicio, en curso y finalización.
-
-1. **Seleccionar audiencia de destino** - Defina qué clientes pueden participar en su desafío seleccionando una audiencia de Adobe Experience Platform.
 
 1. **Iniciar el desafío**: publique el desafío y genere un recorrido. Journey Optimizer crea automáticamente el recorrido para el desafío. Publique el recorrido generado automáticamente para que el desafío esté disponible para los clientes.
 
@@ -212,7 +213,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafíos de lealtad</strong></a>
     </div>
     <p>

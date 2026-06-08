@@ -11,12 +11,10 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
-Esta página cubre el proceso completo de creación de un desafío de fidelidad, desde la selección del tipo de desafío y la configuración de sus propiedades hasta la generación y publicación del recorrido que ofrece el desafío a sus clientes.
+Esta página cubre el proceso completo de creación de un desafío de fidelidad, desde la selección del tipo de desafío y la configuración de la configuración, estructura, contenido y mensajería hasta la generación y publicación del recorrido que ofrece el desafío a sus clientes.
 
 ## Creación del desafío {#create-the-challenge}
 
@@ -79,58 +77,104 @@ Esta página cubre el proceso completo de creación de un desafío de fidelidad,
    * **[!UICONTROL Secuencial]**: Los clientes completan tareas en un orden definido\
      *Ejemplo: compra → revisión → uso compartido (debe completarse en esta secuencia)*
 
-   * **[!UICONTROL Trae tus propios datos]**: selecciona **[!UICONTROL Trae tus propios datos]** cuando quieras que el marco del desafío, como las tareas y las recompensas, se combine a partir de tu integración de datos de Desafíos de fidelidad. Cuando se selecciona este tipo, no es necesario configurar la estructura de desafío, solo se configura **[!UICONTROL Contenido]**, **[!UICONTROL Mensajería]** y **[!UICONTROL Audiencia]** de la misma manera que otros desafíos.
+   * **[!UICONTROL Trae tus propios datos]**: selecciona **[!UICONTROL Trae tus propios datos]** cuando quieras que el marco del desafío, como las tareas y las recompensas, se combine a partir de tu integración de datos de Desafíos de fidelidad. Cuando se selecciona este tipo, la ficha **[!UICONTROL Estructura]** es de sólo lectura. Configure **[!UICONTROL Configuración]**, **[!UICONTROL Contenido]** y **[!UICONTROL Mensajería]** del mismo modo que otros tipos de desafío.
 
      >[!AVAILABILITY]
      >
      >El tipo de desafío **[!UICONTROL Traer tus propios datos]** está disponible actualmente para un conjunto restringido de organizaciones y estará disponible de forma más amplia en una versión futura.
 
-   Después de seleccionar un tipo de desafío, la interfaz de creación de desafíos se abre con varias pestañas de configuración. Para todos los tipos excepto **[!UICONTROL Traer sus propios datos]**, comience por configurar la estructura de desafío.
+   Después de seleccionar un tipo de desafío, el editor de desafíos se abre con estas fichas: **[!UICONTROL Configuración]**, **[!UICONTROL Estructura]**, **[!UICONTROL Contenido]** y **[!UICONTROL Mensajería]**. Comience por **[!UICONTROL Configuración]** para definir los detalles del desafío, la audiencia, la programación y las reglas. Luego configura **[!UICONTROL Estructura]** (tareas y recompensas) para todos los tipos excepto **[!UICONTROL Trae tus propios datos]**.
 
-## Configuración de la estructura de desafíos {#structure}
+## Configurar opciones de desafío {#settings}
 
-En la ficha **[!UICONTROL Estructura]**, defina la organización del desafío: las propiedades, la programación, las tareas por completar y las recompensas por entregar.
+En la ficha **[!UICONTROL Configuración]**, configure las propiedades de nivel de desafío: quién puede participar, cuándo se ejecuta el desafío, cómo pueden incluirse los miembros y obtener progreso, y metadatos opcionales.
 
-### Definir las propiedades del desafío y utilizar metadatos personalizados {#properties}
+### Detalles del desafío {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="Propiedades del desafío"
->abstract="En el panel de propiedades del desafío, establezca el nombre y la descripción del desafío, y añada metadatos de clave/valor personalizados para el seguimiento o las integraciones externas."
+>title="Detalles del desafío"
+>abstract="Defina el nombre y la descripción del desafío. El ID de desafío se asigna automáticamente cuando se crea el desafío y se puede copiar para uso de API o integración."
 
-1. En el panel **[!UICONTROL Propiedades del desafío]**, defina la configuración global del desafío:
+1. En la sección **[!UICONTROL Detalles del desafío]**, defina lo siguiente:
 
    * **[!UICONTROL Nombre]**: escriba un nombre descriptivo para el desafío. Este nombre aparece en el inventario de desafíos.
+   * **[!UICONTROL Identificador de desafío]**: Identificador único asignado cuando se crea el desafío. Utilice el control de copia para hacer referencia a este ID en API o sistemas externos.
    * **[!UICONTROL Descripción]**: escriba una descripción que explique el propósito y los objetivos del desafío.
 
-1. Utilice la sección **[!UICONTROL Metadatos personalizados]** para agregar metadatos personalizados mediante pares clave/valor. Estos metadatos se pueden utilizar para el seguimiento o la integración con sistemas externos.
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### Público {#audience}
 
-### Programar el desafío {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="Público"
+>abstract="Elija quién puede participar en el desafío. Añada una audiencia de Adobe Experience Platform o deje la audiencia vacía para que todos los miembros socio sean aptos. Opcionalmente, se requiere la finalización de otros desafíos como requisitos previos."
+
+Defina quién puede participar en su desafío de fidelidad.
+
+1. En la sección **[!UICONTROL Audiencia]**, seleccione **[!UICONTROL Agregar audiencia]** para limitar el desafío a una audiencia específica de Adobe Experience Platform. [Aprenda a trabajar con audiencias](../audience/about-audiences.md).
+
+   ![](assets/challenge-create-audience.png)
+
+1. En **[!UICONTROL Requisitos previos del desafío]**, seleccione **[!UICONTROL Requerir finalización del desafío]** para restringir la elegibilidad a los miembros que ya hayan completado uno o más desafíos seleccionados.
+
+### Programación {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programación del desafío"
->abstract="Utilice la programación para definir cuándo está activo el desafío: defina la fecha y hora de inicio cuando esté disponible para los clientes y la fecha y hora de finalización cuando deje de aceptar finalizaciones. Elija una zona horaria y decida cuándo pueden los clientes completar las tareas en la **[!UICONTROL sección de la ventana de finalización de tareas]**."
+>abstract="Defina cuándo se activará el desafío utilizando la fecha y la hora de inicio y finalización y una zona horaria. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo de prueba."
 
 Configure cuándo se ejecuta el desafío:
 
-1. Seleccione el icono **[!UICONTROL Abrir programación]**:
+1. En la sección **[!UICONTROL Programar]**, establezca:
+
+   * **[!UICONTROL Fecha y hora de inicio]**: Cuando el desafío esté disponible para los clientes.
+   * **[!UICONTROL Fecha y hora de finalización]**: cuando caduca el desafío y ya no acepta nuevas finalizaciones.
+   * **[!UICONTROL Zona horaria]**: La zona horaria usada para la programación de desafío.
 
    ![](assets/challenge-create-schedule.png)
 
-1. Configure las siguientes opciones de programación:
+1. En **[!UICONTROL Ventana de finalización de tareas]**, elija cuándo los clientes pueden completar las tareas:
 
-   * **[!UICONTROL Fecha y hora de inicio]**: establezca cuándo el desafío estará disponible para los clientes.
-   * **[!UICONTROL Fecha y hora de finalización]**: establezca cuándo caduca el desafío y ya no acepta nuevas finalizaciones.
-   * **[!UICONTROL Zona horaria]**: El desafío utiliza la zona horaria local del destinatario de forma predeterminada.
-   * **[!UICONTROL Las tareas deben completarse]**: elija cuándo los clientes pueden completar las tareas:
+   * **[!UICONTROL En cualquier momento durante el desafío]**: los clientes pueden completar las tareas en cualquier momento entre las fechas de inicio y finalización del desafío.
+   * **[!UICONTROL Durante horas específicas del día]**: Restrinja la finalización de tareas a horas diarias específicas estableciendo **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]**.
 
-      * **[!UICONTROL En cualquier momento durante el desafío]**: los clientes pueden completar las tareas en cualquier momento entre las fechas de inicio y finalización del desafío.
-      * **[!UICONTROL Durante horas específicas del día]**: Restrinja la finalización de tareas a horas diarias específicas al establecer **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]**.
+### Reglas {#rules}
 
-La programación de desafíos ya está configurada. A continuación, añada las tareas que los clientes necesitan completar.
+Configure cómo se incluyen los miembros, cuándo se contabiliza el progreso de la tarea para el desafío y cuántas veces se puede completar el desafío.
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL déclencheur de inclusión]**:
+
+   * **[!UICONTROL Método de inclusión]**: elija si los clientes se unen al desafío manualmente o mediante un déclencheur de eventos.
+   * **[!UICONTROL Evento]**: para la inclusión basada en eventos, seleccione el evento de inclusión de déclencheur. Los administradores pueden hacer clic en el botón ![engranaje](assets/do-not-localize/settings-icon.svg) para crear una definición de evento. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL Iniciar el seguimiento del progreso]**:
+
+   * **[!UICONTROL Comienza el seguimiento del progreso de la tarea]**: elige cuándo se contabilizan las finalizaciones de la tarea para el progreso del desafío. Por ejemplo, seleccione **[!UICONTROL Cuando comience el desafío (después de la inclusión)]**, de modo que el progreso comience después de que el miembro se incorpore y el desafío esté activo.
+
+     Puede desvincular cuándo los miembros pueden ver un desafío y a partir de cuándo se realiza un seguimiento del progreso. Por ejemplo, puede aparecer una tarjeta de desafío y aceptar inclusiones antes de que las finalizaciones de las tareas empiecen a contar hacia el progreso en una fecha posterior.
+
+   * **[!UICONTROL Inicio]**: cuando elija una opción de inicio personalizada, establezca la fecha y la hora en que comienza el seguimiento del progreso.
+
+* **[!UICONTROL Límites de repetición]**:
+
+   * **[!UICONTROL El desafío se puede completar]**: elige si el desafío se puede completar una o varias veces. Por ejemplo, **[!UICONTROL Una vez]** o un número definido de finalizaciones.
+
+   * **[!UICONTROL Número de veces que se puede completar]**: cuando se habilita la repetición, especifique cuántas veces un miembro puede completar el desafío.
+
+### Metadatos personalizados {#custom-metadata}
+
+En la sección **[!UICONTROL Metadatos personalizados]**, seleccione **[!UICONTROL Agregar par clave/valor]** para agregar metadatos personalizados. Utilice metadatos para el seguimiento o la integración con sistemas externos.
+
+![](assets/challenge-create-metadata.png)
+
+## Configuración de la estructura de desafíos {#structure}
+
+En la ficha **[!UICONTROL Estructura]**, defina las tareas que los clientes deben completar y las recompensas que ganan. Esta pestaña no se usa para **[!UICONTROL Traer tus propios datos]** desafíos.
 
 ### Añadir tareas {#add-tasks}
 
@@ -181,7 +225,7 @@ Para añadir tareas al desafío, siga estos pasos:
 
    +++
 
-1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, seleccione el icono **[!UICONTROL Configuración]** y active la siguiente opción.
+1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, abra el menú de opciones de tarea y active la opción de transacción única.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ Configure mensajes multicanal para atraer a los clientes en etapas clave del cic
 
 Aprenda a crear mensajes para canales específicos en estas secciones: [Mensajes en la aplicación](../in-app/get-started-in-app.md) - [Mensajes de correo electrónico](../email/get-started-email.md) - [Notificaciones push](../push/get-started-push.md)
 
-Una vez completada la configuración de mensajería, defina qué clientes pueden participar en el desafío.
-
-## Seleccionar el público del desafío {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="Público"
->abstract="En la pestaña Público, elija quién puede participar en el desafío entre los públicos de Adobe Experience Platform disponibles."
-
-Defina qué clientes pueden participar en su desafío de fidelidad.
-
-1. Vaya a la pestaña **[!UICONTROL Audiencia]** y haga clic en el botón **[!UICONTROL Seleccionar audiencia]**.
-
-   ![](assets/challenge-create-audience.png)
-
-1. En el cuadro de diálogo de selección de audiencia, seleccione la audiencia de destino en la lista de audiencias de Adobe Experience Platform disponibles y seleccione **[!UICONTROL Agregar audiencia]**. [Aprenda a trabajar con audiencias](../audience/about-audiences.md).
-
-El desafío está ahora completamente configurado con su estructura, contenido, mensajería y audiencia de destino. Para iniciarlo, debe publicar el desafío y su recorrido asociado.
+El desafío está ahora completamente configurado con su configuración, estructura, contenido y mensajería. Para iniciarlo, debe publicar el desafío y su recorrido asociado.
 
 ## Lanzamiento del desafío {#launch}
 
