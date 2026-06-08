@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Actividad Cargar archivo"
->abstract="La actividad **Cargar archivo** es una actividad **Segmentación**. Utilícelo para cargar un archivo CSV o TXT en el lienzo de campaña orquestada y utilícelo como audiencia de campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
+>abstract="La actividad **Cargar archivo** es una actividad de **Segmentación**. Utilícela para cargar un archivo CSV o TXT en el lienzo de la campaña orquestada y usarlo como el público de la campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."

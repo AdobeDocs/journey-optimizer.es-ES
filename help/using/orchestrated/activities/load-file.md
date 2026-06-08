@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Actividad Cargar archivo"
->abstract="La actividad **Cargar archivo** es una actividad **Administración de datos**. Utilícelo para trabajar con perfiles y datos almacenados en un archivo externo en el lienzo de Campaign Orchestrated y definir la audiencia de Campaign. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform."
+>abstract="La actividad **Cargar archivo** es una actividad de **Administración de datos**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo en el lienzo de la campaña orquestada y definir el público de la campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como conjunto de datos de Adobe Experience Platform."
 
-La actividad **[!UICONTROL Cargar archivo]** es una actividad **[!UICONTROL Administración de datos]**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo. Admite **segmentación basada en archivos** en campañas orquestadas cuando la lista de destinatarios proviene de un sistema externo (por ejemplo, una exportación de CRM o un archivo de socio) y desea ejecutar una campaña sin crear primero una canalización de ingesta de Adobe Experience Platform completa.
+La actividad **[!UICONTROL Cargar archivo]** es una actividad de **[!UICONTROL Administración de datos]**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo. Admite **segmentación basada en archivos** en campañas orquestadas cuando la lista de destinatarios proviene de un sistema externo (por ejemplo, una exportación de CRM o un archivo de socio) y desea ejecutar una campaña sin crear primero una canalización de ingesta de Adobe Experience Platform completa.
 
 >[!AVAILABILITY]
 >
