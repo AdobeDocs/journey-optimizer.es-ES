@@ -12,20 +12,24 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
+source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
 workflow-type: tm+mt
-source-wordcount: 1031
+source-wordcount: 1491
 ht-degree: 2%
 
 ---
 
 # Introducción a la simulación de Recorrido {#simulate-journey-gs}
 
+>[!IMPORTANT]
+>
+>Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
+
 Puede establecer el recorrido en **[!UICONTROL Simulación]** además de **Borrador**, **Modo de prueba** y **Activo**. En Simulación, realiza pruebas con **usuarios simulados**: entidades temporales similares a un perfil que agrega, sin usar perfiles de prueba persistentes en Adobe Experience Platform.
 
 Adobe Journey Optimizer ofrece dos formas de probar y validar el recorrido:
 
-* **[Simulación](#test-users)**: usa la función de recorrido **[!UICONTROL Simulación]** y usuarios simulados sin perfiles creados previamente en Adobe Experience Platform, que admiten usuarios con tecnología de IA y creados manualmente.
+* **[Simulación](simulate-journey.md#test-users)**: usa la función de recorrido **[!UICONTROL Simulación]** y usuarios simulados sin perfiles creados previamente en Adobe Experience Platform, que admiten usuarios con tecnología de IA y creados manualmente.
 
 * **[Modo de prueba](testing-the-journey.md)**: Use perfiles persistentes marcados como perfiles de prueba en Adobe Experience Platform, reutilizables entre sesiones. Elija este método cuando necesite datos coherentes y predefinidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
 
@@ -35,11 +39,15 @@ El panel **[!UICONTROL Simulación]** solo muestra los pasos que necesita el rec
 
 Para obtener más información, consulta [Simular tu recorrido](simulate-journey.md).
 
-+++ Recorrido por lotes con una audiencia de lectura
++++ Recorrido por lotes con audiencia de lectura
 
-El recorrido se activó por una **audiencia de lectura**. El lienzo no tiene actividades de evento unitarias, los perfiles solo se mueven a través de condiciones, esperas y acciones de canal.
 
-Con **recorrido por lotes con una audiencia de lectura**, puede acceder a la simulación rápida o a la simulación manual.
+El recorrido se activa por una **[!UICONTROL audiencia de lectura]** y el lienzo no tiene actividades de evento unitarias. Durante la simulación, la población de audiencia no se activa. Solo los usuarios simulados entran en el recorrido.
+Los usuarios simulados seleccionados para la simulación aparecen en la sección **Usuarios de prueba**:
+
+![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch.png)
+
+Para recorridos con **[!UICONTROL audiencia de lectura]**, puedes acceder a **[!UICONTROL simulación rápida]** o **[!UICONTROL simulación manual]**.
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-14.png)
 
@@ -47,9 +55,12 @@ Con **recorrido por lotes con una audiencia de lectura**, puede acceder a la sim
 
 +++ Recorrido por lotes con una audiencia de lectura y eventos unitarios
 
-Un recorrido de déclencheur de segmento que incluye uno o más eventos unitarios a lo largo de la ruta. Después de enviar usuarios en, almacene en déclencheur los eventos de los usuarios que esperan en un nodo de evento.
+Un recorrido de déclencheur de segmento que incluye uno o más eventos unitarios a lo largo de la ruta. Primero almacene en déclencheur a los usuarios simulados para que entren en la simulación y, a continuación, almacene en déclencheur los eventos de los usuarios que esperan en un nodo de evento.
+Los usuarios simulados seleccionados para la simulación y los eventos configurados se pueden ver respectivamente en las secciones Usuarios de prueba y Eventos de prueba. La sección Eventos de prueba no estará visible hasta que un usuario simulado entre en el recorrido.
 
-Con **recorrido por lotes con una audiencia de lectura y eventos unitarios**, puede acceder a la simulación rápida o a la simulación manual.
+![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-2.png)
+
+Con **recorrido por lotes con una audiencia de lectura y eventos unitarios**, puedes acceder a **[!UICONTROL Simulación rápida]** o **[!UICONTROL Simulación manual]**.
 
 ![Botón de modo de prueba en la interfaz de recorrido](assets/simulate-12.png)
 
@@ -57,7 +68,10 @@ Con **recorrido por lotes con una audiencia de lectura y eventos unitarios**, pu
 
 +++ Recorrido unitario
 
-El recorrido **comienza** con un evento unitario, no con una audiencia de lectura. Un usuario simulado no entra en el recorrido hasta que se activa ese evento de inicio para ellos.
+El recorrido comienza con un evento unitario, no con una audiencia de lectura. Un usuario simulado no entra en el recorrido hasta que se activa ese evento de inicio para ellos.
+Los usuarios simulados seleccionados para la simulación y los eventos configurados serán visibles respectivamente en las secciones **Usuarios de prueba** y **Eventos de prueba**. La sección **Usuarios de prueba** no incluye una acción para almacenar en déclencheur a un usuario simulado en el recorrido. La entrada de déclencheur de **eventos de prueba**.
+
+![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-3.png)
 
 Con **recorrido unitario**, se accede directamente al menú de simulación Manual.
 
@@ -67,7 +81,7 @@ Con **recorrido unitario**, se accede directamente al menú de simulación Manua
 
 ## Simulación de lanzamiento {#launch}
 
-Cambie el recorrido a **[!UICONTROL Simulation]** para probarlo con usuarios simulados. Las tareas paso a paso se detallan en [Simular el recorrido](simulate-journey.md).
+Cambie el recorrido a **[!UICONTROL Simulation]** para probarlo con usuarios simulados. Las tareas paso a paso se detallan en [Simular el recorrido](simulate-journey-2.md).
 
 1. En el recorrido, haz clic en **[!UICONTROL Simular]** y elige **[!UICONTROL Simulación]**.
 
@@ -83,16 +97,21 @@ Consulte los menús desplegables siguientes para obtener más información sobre
 
 +++ Restricciones de nivel de nodo
 
-Si un recorrido contiene cualquiera de los siguientes nodos, no se puede iniciar en **[!UICONTROL Simulación]**. Para que la simulación pueda ejecutarse, debe modificarse el recorrido o eliminarse el nodo correspondiente.
+Algunos nodos impiden que **[!UICONTROL Simulation]** se inicie. Otros se ejecutan en simulación con el comportamiento descrito a continuación. Cuando se deba quitar o cambiar un nodo antes de simular, actualice primero el recorrido.
 
 | Nodo restringido | Notas |
 | --- | --- |
-| Eventos empresariales | Los recorridos que comienzan con un evento empresarial no se pueden ejecutar en **[!UICONTROL Simulación]**. |
-| ID suplementario (reentrada múltiple) | La reentrada simultánea (varias instancias activas para el mismo usuario simulado) impide que se inicie **[!UICONTROL Simulation]**. |
-| Nodo de decisión de contenido | Esta actividad debe eliminarse o cambiarse antes de poder simular el recorrido. |
-| Búsqueda de conjuntos de datos | No se admiten las búsquedas de conjuntos de datos de clientes por clave; los recorridos que incluyen esta actividad no se pueden ejecutar en **[!UICONTROL Simulación]**. |
-| Actividad **[!UICONTROL Optimizar]** | Los siguientes métodos de **[!UICONTROL Optimize]** no son compatibles con **[!UICONTROL Simulation]**: **[!UICONTROL Experimento]**, **[!UICONTROL Regla de segmentación]**, **[!UICONTROL División de porcentaje]**, **[!UICONTROL Condición de tiempo]**, **[!UICONTROL Condición]**, **[!UICONTROL Condición de fecha]**, **[!UICONTROL Límite de perfil]** y **[!UICONTROL Source de datos externos]**. Elimine o cambie el nodo antes de simular. |
-| Enriquecimiento de atributos de audiencia externa | Los recorridos que usen atributos personalizados de orígenes de audiencia externos no se iniciarán en **[!UICONTROL Simulación]** cuando esta validación esté activa. |
+| Eventos empresariales | No se pueden ejecutar recorridos que comiencen con un evento empresarial en **[!UICONTROL Simulación]**. |
+| ID suplementario (reentrada múltiple) | **[!UICONTROL La simulación]** no se inicia cuando se habilita la reentrada múltiple y el mismo usuario simulado podría tener varias instancias activas a la vez. |
+| Nodo de decisión de contenido | Elimine o cambie esta actividad antes de simular el recorrido. |
+| Búsqueda de conjuntos de datos | **[!UICONTROL La simulación]** no admite búsquedas de conjuntos de datos de clientes por clave. Elimine o cambie esta actividad antes de ejecutar una simulación. |
+| Actividad **[!UICONTROL Optimizar]** | **[!UICONTROL Experimento]** y **[!UICONTROL Regla de segmentación]** no son compatibles. Elimine o cambie el nodo antes de simular.<br><br>Otros métodos **[!UICONTROL Optimize]** se comportan de la siguiente manera:<br><br>**[!UICONTROL División porcentual ]**: Journey Agent crea un usuario simulado por rama, no según los porcentajes de rama. Durante el tiempo de ejecución, la evaluación en directo selecciona la rama y puede diferir de la ruta generada. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior.<br><br>**[!UICONTROL Condición de tiempo]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una ventana de 8:00 a 20:00 solo permite a los usuarios pasar mientras la simulación se ejecuta dentro de esa ventana. No se puede burlar del tiempo de ejecución. Configure la condición para que coincida con la hora actual cuando realice la prueba.<br><br>**[!UICONTROL Condición de fecha ]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una fecha del 8 de junio de 2026 solo permite a los usuarios pasar cuando la simulación se ejecuta en esa fecha. No se puede burlar la fecha de ejecución. Establezca la condición en la fecha actual cuando realice la prueba.<br><br>**[!UICONTROL Límite de perfil]**: No se aplican límites durante la simulación. Journey Agent crea un usuario simulado por rama. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior. |
+| Ramas de tiempo de espera y error | Journey Agent no genera usuarios para el tiempo de espera de la actividad ni para las ramas de error. Los usuarios solo introducen esas rutas si se produce un tiempo de espera o error real durante la simulación. |
+| Rama de tiempo de espera (actividades de evento) | Se crean usuarios simulados, pero en **[!UICONTROL simulación manual]** Journey Agent no decide quién entra en una rama de tiempo de espera de evento. Controle la ruta enviando o no enviando el evento. Por ejemplo, para probar una rama de tiempo de espera, espere al tiempo de espera configurado y no envíe el evento. **[!UICONTROL Simulación rápida]** puede enviar o retener eventos automáticamente para cubrir las ramas de tiempo de espera. |
+| Eventos de reacción | Los eventos de reacción se ejecutan en simulación, pero la acción debe ocurrir en la vida real. Por ejemplo, una reacción de correo electrónico **open** requiere que se abra el mensaje de prueba. No se pueden burlar de las reacciones en la IU de simulación. |
+| Fuentes de datos externas | Las llamadas de se ejecutan durante la simulación del mismo modo que en un recorrido activo. Las actividades descendentes pueden utilizar la respuesta, pero no se puede burlar de ella. Cuando un valor de respuesta alimenta una actividad **[!UICONTROL Optimize]**, Journey Agent no puede inventar ese resultado. Solo genera entradas para la llamada de. Por ejemplo, si una llamada toma una ciudad de perfil y devuelve el tiempo, el agente establece una ciudad en el usuario simulado y la llamada en directo devuelve el tiempo. |
+| Acciones personalizadas | El comportamiento coincide con las fuentes de datos externas. Las llamadas salientes son reales. El Journey Agent rellena las entradas. Los resultados provienen de la respuesta en directo. No puedes burlarte de las respuestas. |
+| Enriquecimiento de atributos de audiencia externa | Los recorridos que usan atributos personalizados de orígenes de audiencia externos no se inician en **[!UICONTROL Simulación]** cuando se aplica esta validación. |
 
 +++
 
@@ -105,19 +124,17 @@ Las siguientes capacidades no son compatibles con **[!UICONTROL Simulación]**.
 | Capacidad | Notas |
 | --- | --- |
 | Criterios de salida | Los criterios de salida no se aplican cuando ejecuta **[!UICONTROL Simulation]**. |
-| [!DNL Adobe Journey Optimizer] decisiones dentro de una acción (por ejemplo, contenido de correo electrónico con Adobe Journey Optimizer decisioning) | No se generan las revisiones de acción para el contenido que usa la toma de decisiones [!DNL Adobe Journey Optimizer]. |
+| [!DNL Adobe Journey Optimizer] toma de decisiones dentro de una acción como, por ejemplo, contenido de correo electrónico con Adobe Journey Optimizer Decisioning | No se generan las revisiones de acción para el contenido que usa la toma de decisiones [!DNL Adobe Journey Optimizer]. |
 | Simular respuesta de acción personalizada | [!UICONTROL Las acciones personalizadas] realizan una llamada saliente real de forma predeterminada. No se admite la burla de la respuesta para que no se ejecute ninguna llamada externa. |
-| Evaluación de directiva de consentimiento | El consentimiento no se puede burlar en el nivel de usuario simulado. |
-| restricción y arbitraje de recorridos | No admitido en **[!UICONTROL Simulación]**. |
-| Límite de frecuencia (por canal o tipo de comunicación) | No admitido en **[!UICONTROL Simulación]**. |
-| Administración, supresión y listas de permitidos de la exclusión | Sigue la configuración de enrutamiento de mensajería donde se aplica. |
-| Subdominio dinámico y atributos dinámicos en configuraciones de canal | Sigue la configuración de enrutamiento de mensajería donde se aplica. |
-| Optimización del tiempo de envío (STO) | No admitido en **[!UICONTROL Simulación]**. |
+| Evaluación de directiva de consentimiento | El consentimiento no se puede burlar en el nivel de usuario simulado y las políticas de consentimiento no se evalúan durante la simulación. |
+| restricción y arbitraje de recorridos | No se evalúa ni se aplica durante la simulación. |
+| Límite de frecuencia (por canal o tipo de comunicación) | No se evalúa ni se aplica durante la simulación. |
+| Administración, supresión y listas de permitidos de la exclusión | No evaluado ni aplicado durante la simulación. |
+| Subdominio dinámico y atributos dinámicos en configuraciones de canal | No compatible. |
+| Optimización del tiempo de envío (STO) | No evaluado ni aplicado durante la simulación. |
 | Herramientas para zonas protegidas (copie usuarios simulados en zonas protegidas) | No compatible. |
 | Recorridos de envío de ondas | No compatible. |
-| Horario silencioso | No compatible. |
-| Administración, supresión y listas de permitidos de la exclusión | No compatible. |
-| Subdominio dinámico y atributos dinámicos en configuraciones de canal | No compatible. |
+| Horario silencioso | No evaluado ni aplicado durante la simulación. |
 | Privacy service | Los usuarios simulados no son perfiles persistentes compatibles con el RGPD. No incluya datos de clientes reales en usuarios simulados. |
 
 +++
@@ -126,11 +143,12 @@ Las siguientes capacidades no son compatibles con **[!UICONTROL Simulación]**.
 
 +++ Barreras cuantitativas 
 
-Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas numéricas se aplican en la interfaz de recorrido y durante la ejecución. Los límites pueden cambiar en una versión posterior; si se ejecuta cerca de un techo, compruebe el comportamiento en la zona protegida.
+Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas numéricas se aplican en la interfaz de recorrido y durante la ejecución. Los límites pueden cambiar en una versión posterior. Si corre cerca de un techo, verifique el comportamiento en su zona protegida.
 
 | Barrera | Límite | Notas |
 | --- | --- | --- |
-| Máximo de usuarios simulados que se pueden seleccionar y activar en un lote (recorridos por lotes, flujos activados por eventos y flujos de calificación de audiencia) | 20 | Se cuenta para cada **[!UICONTROL Enviar todos]** o **[!UICONTROL los eventos seleccionados del Déclencheur]**; no es un límite acumulado para todo el recorrido. |
+| Máximo de usuarios simulados que se pueden seleccionar y activar en un lote (recorridos por lotes, flujos activados por eventos y flujos de calificación de audiencia) | 20 | Se cuenta para cada **[!UICONTROL Enviar todos]** o **[!UICONTROL los eventos seleccionados del Déclencheur]**, no un límite acumulado para todo el recorrido. |
+| Máximo de usuarios simulados por solicitud de generación | 50 | Máximo de usuarios simulados que Journey Agent genera en una solicitud mediante **[!UICONTROL Simulación rápida]** o **[!UICONTROL Generación con IA]** en **[!UICONTROL Simulación manual]**. Si el recorrido tiene más de **50** rutas, Journey Agent selecciona aleatoriamente las rutas para producir esos **50** usuarios simulados. |
 | Número máximo de usuarios únicos simulados probados en una sola ejecución de simulación | 100 | Se está llegando a **100** usuarios únicos en un solo bloque de ejecución **[!UICONTROL Seleccione usuarios simulados]** para nuevos usuarios simulados. Si estás en **90**, puedes agregar **10** más antes del mismo bloque. |
 | Máximo de recorridos que se pueden ejecutar en **[!UICONTROL Simulation]** al mismo tiempo en una zona protegida | 20 | El límite lo comparten todos los recorridos de **[!UICONTROL Simulación]** en esa zona protegida a la vez. |
 | Máximo de usuarios simulados activos en una zona protegida | 2,000 | Máximo de usuarios simulados que pueden existir en la zona protegida al mismo tiempo. Adobe puede ajustar este límite en función de los comentarios de los clientes. |

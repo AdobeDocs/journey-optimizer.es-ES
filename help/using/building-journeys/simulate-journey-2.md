@@ -12,14 +12,18 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
+source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1831
 ht-degree: 0%
 
 ---
 
-# Simulación del recorrido{#simulate-journey}
+# Simulación del recorrido {#simulate-journey}
+
+>[!IMPORTANT]
+>
+>Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
 
 Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
 
@@ -29,37 +33,43 @@ Para obtener información general por tipo de recorrido, consulte [Introducción
 
 Después de la activación, los recorridos por lotes con la entrada de audiencia de lectura ofrecen dos formas de ejecutar una simulación:
 
-* **[!UICONTROL Simulación rápida]** se ejecuta de extremo a extremo con usuarios generados y valores predeterminados. Tenga en cuenta que la simulación rápida no está disponible con recorridos unitarios.
+* **[!UICONTROL Simulación rápida]** se ejecuta de extremo a extremo con usuarios generados, valores de eventos generados y configuraciones de pruebas predeterminadas, con tecnología Journey Agent. Es una forma rápida de simular un recorrido de principio a fin con una intervención mínima. La simulación rápida se inicia en cuanto se selecciona esta opción.
 
-* La **[!UICONTROL simulación manual]** le permite elegir usuarios, enviar pedidos, cargas útiles de eventos y anular las esperas paso a paso.
+* **[!UICONTROL La simulación manual]** le permite ejecutar una simulación paso a paso, manualmente. Cree usuarios simulados (manualmente o con Journey Agent), déclencheur en el recorrido, defina cargas útiles de evento (manualmente o con Journey Agent) y anule las esperas.
 
-![Simulación rápida y simulación manual en el panel Simulación](assets/quick-simulation-1.png)
+![Panel de ajustes de simulación con opciones de simulación rápida y simulación manual junto al lienzo de recorrido](assets/quick-simulation-1.png)
 
 ### Simulación rápida {#quick-simulation}
 
-En un recorrido por lotes en **[!UICONTROL Simulación]**, **[!UICONTROL Simulación rápida]** ejecuta el recorrido con los usuarios generados y la configuración precargada.
+En cualquier recorrido de **[!UICONTROL Simulación]**, **[!UICONTROL Simulación rápida]** ejecuta el recorrido con usuarios generados, valores de eventos y configuraciones prerrellenadas.
 
 1. Seleccione **[!UICONTROL Simulación rápida]**.
 
-1. Revise los campos recopilados por Adobe Journey Optimizer para la ejecución. Haga clic en **[!UICONTROL Actualizar valores]** para cambiar la configuración de prueba o canal, o bien continúe sin cambios.
+1. Revise los campos recopilados por Adobe Journey Optimizer para la ejecución. Haga clic en **[!UICONTROL Actualizar valores]** para cambiar la configuración de la prueba y las direcciones de ejecución, o bien continúe sin cambios.
 
-   ![Paso de revisión rápida de simulación](assets/quick-simulation-2.png)
+   Este paso solo aparece si el recorrido utiliza Esperas o Canales. Puede ajustar todas las duraciones de espera y las direcciones de ejecución para los usuarios simulados; por ejemplo, utilice su propio correo electrónico para que los mensajes de la ejecución vayan a la bandeja de entrada.
+
+   ![Cuadro de diálogo de simulación rápida en el paso Recopilación de información con Actualizar valores y Continuar al siguiente paso](assets/quick-simulation-2.png)
 
 1. Si ha abierto **[!UICONTROL Actualizar valores]**, edite la configuración, por ejemplo, la dirección utilizada para las pruebas de mensajes, y confirme que desea iniciar la simulación.
 
-   ![Valores de actualización de simulación rápida](assets/quick-simulation-3.png)
+   ![Paso de valores de actualización rápida de simulación con anulación de tiempo de espera y campos de correo electrónico y teléfono de prueba](assets/quick-simulation-3.png)
 
-1. Adobe Journey Optimizer genera usuarios simulados a partir de la definición del recorrido y almacena en déclencheur a cada usuario en el recorrido.
+1. Journey Agent genera un conjunto de usuarios simulados a partir de la definición del recorrido.
+
+   En el caso de los recorridos con un nodo de correo electrónico, SMS o push, el agente le solicita que confirme la dirección de correo electrónico, el número de teléfono o el token push que debe utilizar. Los usuarios simulados se generan utilizando esos valores. Una vez finalizado, haga clic en **[!UICONTROL Generar]**.
 
 1. Cuando finalice la ejecución, haga clic en **[!UICONTROL Ver resultados]** para revisar las rutas, los errores y las ramas descubiertas. Ver [Ver resultados](#viewing-results).
 
-   ![Ejecución completada de simulación rápida](assets/quick-simulation-4.png)
+   ![Simulación rápida completada con todos los pasos correctos y Ver resultados disponibles](assets/quick-simulation-4.png)
+
+La simulación rápida también admite recorridos activados por eventos y recorridos que incluyen actividades de evento. Los valores de evento se establecen y activan automáticamente para cada usuario simulado generado. Una vez que un usuario introduce el recorrido, cada evento se activa en cuanto alcanza la espera correspondiente.
 
 ### Simulación manual {#manual-simulation}
 
-Elija **[!UICONTROL Simulación manual]** cuando necesite elegir cada usuario simulado, controlar el envío de pedidos, configurar las cargas de evento y anular las duraciones de **[!UICONTROL Espera]** durante la ejecución. Este flujo se aplica a los recorridos por lotes y unitarios.
+Elija **[!UICONTROL Simulación manual]** cuando necesite elegir cada usuario simulado, controlar el envío de pedidos, configurar las cargas de evento y anular las duraciones de **[!UICONTROL Espera]** durante la ejecución.
 
-Continúe con [Crear y administrar usuarios simulados](#test-users), [almacenar en Déclencheur sus eventos](#firing_events) y [Ver resultados](#viewing-results).
+Continúe con [Crear y administrar usuarios simulados](#test-users), [almacenar en Déclencheur sus eventos](#firing-events) y [Ver resultados](#viewing-results).
 
 ## Creación y administración de usuarios simulados {#test-users}
 
@@ -77,7 +87,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    En el caso de los recorridos con un nodo de correo electrónico o SMS, la API le solicita que confirme la dirección de correo electrónico o el número de teléfono que debe utilizar. Una vez finalizado, haga clic en **[!UICONTROL Generar]**.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-generate.png)
+   ![Cuadro de diálogo Generar usuarios simulados con campos de correo electrónico y teléfono de ejecución y botón Generar](assets/simulate-generate.png)
 
    +++
 
@@ -85,7 +95,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    Elija **[!UICONTROL Examinar inventario]** para agregar usuarios simulados que ya guardó, por ejemplo, usuarios que creó a partir de un formulario o JSON, o usuarios que mantuvo después de que se ejecutara una generación de IA.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-inventory.png)
+   ![Cuadro de diálogo de inventario de usuarios simulados con búsqueda, tabla de usuarios y botón Seleccionar](assets/simulate-inventory.png)
 
    +++
 
@@ -93,7 +103,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    1. Escriba un **[!UICONTROL nombre para mostrar]**, **[!UICONTROL espacio de nombres de identidad]** y **[!UICONTROL descripción]** para identificar a este usuario simulado.
 
-      ![Panel de selección de usuarios simulados](assets/simulate-form.png)
+      ![Crear formulario de usuarios simulados con nombre para mostrar, área de nombres de identidad, descripción y atributos de esquema de unión](assets/simulate-form.png)
 
    1. A continuación, seleccione los atributos del esquema de unión que desee rellenar para este usuario.
 
@@ -103,11 +113,11 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
       Puede cambiar la forma en que se muestran los usuarios en la lista, contraer cada tarjeta en la vista apilada o abrir los metadatos de atributos de un usuario.
 
-      ![Panel de selección de usuarios simulados](assets/simulate-form-3.png)
+      ![Crear pie de página de usuarios simulados con los controles Agregar usuario simulado, Contraer todo y Vista de diseño](assets/simulate-form-3.png)
 
    1. En el menú de usuario simulado, use **[!UICONTROL Duplicate]** para copiar un usuario, **[!UICONTROL Aplicar todos los atributos a otros usuarios]** para copiar los atributos de un usuario a todos los demás usuarios de la sesión o **[!UICONTROL Delete]** para eliminar un usuario.
 
-      ![Panel de selección de usuarios simulados](assets/simulate-form-2.png)
+      ![Crear tarjetas de usuarios simulados con Duplicate, Aplicar todos los atributos a otros usuarios y Eliminar en cada usuario](assets/simulate-form-2.png)
 
    1. Haga clic en **[!UICONTROL Guardar]** cuando termine de configurar usuarios en esta sesión.
 
@@ -117,7 +127,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    Defina nuevos usuarios simulados actualizando los campos correspondientes con los datos de usuario simulados.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-json.png)
+   ![Crear editor JSON de usuarios simulados con plantilla de usuarios y formato de control JSON](assets/simulate-json.png)
 
    +++
 
@@ -125,63 +135,80 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    * ![Icono Editar](assets/do-not-localize/Smock_Edit_18_N.svg): Actualice los detalles del usuario simulado.
    * ![Icono de envío](assets/do-not-localize/Smock_Send_18_N.svg): ejecute la simulación solo para este usuario simulado.
+
+     Esta opción no está disponible para recorridos que comiencen por un Evento, ya que la entrada del usuario simulada se activa por el evento que se envía. [Más información](#firing-events)
+
    * ![Borrar icono](assets/do-not-localize/Smock_Close_18_N.svg): Quitar al usuario de esta lista. El usuario simulado no se elimina y permanece disponible en la selección Usuarios simulados.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-4-2.png)
+   ![Probar lista de usuarios con las acciones de edición, envío y eliminación y la ruta simulada resaltadas en el lienzo](assets/simulate-4-2.png)
 
 1. Para cambiar la lista después de su selección, haga clic en **[!UICONTROL Administrar usuarios]** para agregar más usuarios simulados, desde el inventario o creando nuevos usuarios. Para eliminar a todos los usuarios de la lista **[!UICONTROL Usuarios de prueba]** para esta ejecución, elija **[!UICONTROL Borrar todos los usuarios]**.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-manage.png)
+   ![Se abre el menú Administrar usuarios con las opciones Agregar usuario y Borrar todos los usuarios](assets/simulate-manage.png)
 
 1. Si el recorrido incluye una actividad **[!UICONTROL Wait]**, abra la pestaña **[!UICONTROL Test settings]** para ajustar el tiempo de espera durante la simulación. Por ejemplo, si la actividad **[!UICONTROL Wait]** activa está configurada durante varios días, puede anularla a 10 segundos, de modo que el usuario simulado solo pase ese tiempo en el nodo antes de pasar a la siguiente actividad.
 
 1. Haga clic en **[!UICONTROL Enviar todo]** para enviar a todos los usuarios simulados de la lista al recorrido, o haga clic en ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) en una fila para enviar solamente a ese usuario. Aparece un mensaje de confirmación `Simulated users have entered the journey successfully.` cuando los usuarios simulados entran correctamente en el recorrido.
 
-   ![Panel de selección de usuarios simulados](assets/simulate-5-2.png)
+   ![Pruebe la ficha de los usuarios después de que estos ingresen al recorrido con mensaje de éxito y ruta de acceso en el lienzo](assets/simulate-5-2.png)
 
-1. Si el recorrido incluye eventos unitarios, debe seleccionar el evento que desea almacenar en déclencheur. Ver [Déclencheur tus eventos](#firing_events).
+1. Si el recorrido incluye eventos unitarios, debe seleccionar el evento que desea almacenar en déclencheur. Ver [Déclencheur tus eventos](#firing-events).
 
 1. Acceda a la ficha **[!UICONTROL Resultados]** para abrir el registro de ejecución y revisar cómo se ejecutó cada paso. Para obtener más información, vea [Ver resultados](#viewing-results).
+
+1. Cuando termine de probar, abra el menú **[!UICONTROL Administrar simulación]**:
+
+   * **[!UICONTROL Cierre la simulación]** para salir de la sesión de simulación actual.
+   * **[!UICONTROL Restablecer simulación]** para borrar todos los datos de la ejecución actual, los usuarios simulados seleccionados, los valores de eventos definidos y otros ajustes de prueba, de modo que pueda iniciar una nueva simulación desde cero.
+
+     ![Administrar menú de simulación abierto con las opciones Restablecer simulación y Cerrar simulación](assets/simulate-15.png)
 
 Después de validar el recorrido en **[!UICONTROL Simulation]**, revise el registro de **[!UICONTROL Results]**. Si aparecen errores, deje **[!UICONTROL Simulation]**, aplique los cambios necesarios al recorrido y ejecute **[!UICONTROL Simulation]** de nuevo hasta que la ejecución parezca correcta. A continuación, puede publicar el recorrido. Ver [Publicar tu recorrido](../building-journeys/publish-journey.md).
 
-## Activación de eventos {#firing_events}
+## Activación de eventos {#firing-events}
 
-Si el recorrido incluye uno o más eventos unitarios, se almacenan en déclencheur mientras Simulación está activa.
+Si el recorrido incluye uno o más eventos unitarios, puede almacenarlos en déclencheur mientras Simulación está activa. En el caso de los recorridos que no comienzan desde un Evento sino que contienen uno, esta sección no será visible hasta que un usuario simulado entre en el recorrido.
 
 1. En **[!UICONTROL Seleccionar tipo de evento]**, seleccione el evento que se activará para esta simulación.
 
-   ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-10-2.png)
+   ![Seleccione el menú desplegable de tipo de evento abierto en la sección de eventos de prueba de la configuración de simulación](assets/simulate-10-2.png)
 
 1. Para aplicar el mismo cambio a todos los usuarios de la lista, usa la opción **[!UICONTROL Administrar eventos]** para lo siguiente:
 
-   * **[!UICONTROL Generar valores de evento]** para permitir que Adobe Journey Optimizer genere la carga útil mediante IA. Cuando se generan los valores, el usuario se marca **[!UICONTROL Listo para enviar]**.
-   * **[!UICONTROL Editar fecha del evento]** para cambiar la carga útil solo para ese usuario simulado.
+   * **[!UICONTROL Generar valores de eventos]** para permitir que Journey Agent genere todas las cargas útiles mediante IA. Cuando se generan los valores, el usuario se marca **[!UICONTROL Listo para enviar]**.
+   * **[!UICONTROL Editar datos de evento]** para cambiar la carga útil de cada usuario simulado en la lista.
 
-   ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-9-2.png)
+   ![Menú Administrar eventos en Probar eventos con Generar con IA y Editar todas las opciones](assets/simulate-9-2.png)
 
 1. Configure la carga útil de evento para cada usuario al hacer clic en ![Editar evento](assets/do-not-localize/Smock_Edit_18_N.svg) junto a un usuario para lo siguiente:
 
-   * **[!UICONTROL Generar valores de evento]** para permitir que Adobe Journey Optimizer genere la carga útil mediante IA. Cuando se generan los valores, el usuario se marca **[!UICONTROL Listo para enviar]**.
-   * **[!UICONTROL Editar fecha del evento]** para cambiar la carga útil solo para ese usuario simulado.
+   * **[!UICONTROL Generar valores de evento]** para permitir que Journey Agent genere la carga útil mediante IA. Cuando se generan los valores, el usuario se marca **[!UICONTROL Listo para enviar]**.
+   * **[!UICONTROL Editar datos de evento]** para cambiar la carga útil solo para ese usuario simulado.
 
-   ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-8-2.png)
+   ![Menú por usuario en Eventos de prueba con las opciones Generar valores de evento y Editar datos de evento](assets/simulate-8-2.png)
 
-1. En **[!UICONTROL Eventos de prueba]**, seleccione **[!UICONTROL Enviar todo]** para enviar a todos los usuarios simulados enumerados en **[!UICONTROL Usuarios de prueba]** al recorrido, o seleccione ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) para que un solo usuario ejecute la simulación solo para ese usuario.
+1. En **[!UICONTROL Eventos de prueba]**, seleccione **[!UICONTROL Enviar todo]** para enviar este evento para todos los usuarios simulados enumerados en **[!UICONTROL Usuarios de prueba]**, o seleccione ![Enviar icono](assets/do-not-localize/Smock_Send_18_N.svg) para activar un solo evento para ese usuario solamente.
 
-   ![Interfaz de configuración de eventos con campos y lista desplegable para la selección de eventos](assets/simulate-11-2.png)
+   ![Sección de eventos de prueba con controles de envío de todo y por usuario para los usuarios marcados como Listo](assets/simulate-11-2.png)
 
-1. Una vez activados los eventos, el lienzo se actualiza para reflejar la progresión de cada usuario. Haga clic en cualquier fila de la lista **[!UICONTROL Usuarios de prueba]** para ver la nueva ruta que tomó el usuario a través del recorrido.
+1. Una vez activados los eventos, el lienzo se actualiza para reflejar la progresión de cada usuario.
 
 1. Acceda a la ficha **[!UICONTROL Resultados]** para abrir el registro de ejecución y revisar cómo se ejecutó cada paso. Para obtener más información, vea [Ver resultados](#viewing-results).
+
+1. Cuando termine de probar, abra el menú **[!UICONTROL Administrar simulación]**:
+
+   * **[!UICONTROL Cierre la simulación]** para salir de la sesión de simulación actual.
+   * **[!UICONTROL Restablecer simulación]** para borrar todos los datos de la ejecución actual, los usuarios simulados seleccionados, los valores de eventos definidos y otros ajustes de prueba, de modo que pueda iniciar una nueva simulación desde cero.
+
+     ![Administrar menú de simulación abierto con las opciones Restablecer simulación y Cerrar simulación](assets/simulate-15.png)
 
 ## Visualización de resultados {#viewing-results}
 
 La pestaña **[!UICONTROL Results]** le permite ver los resultados de la prueba. En el menú desplegable **[!UICONTROL Usuario de prueba]**, seleccione el usuario simulado cuya ejecución desee inspeccionar.
 
-Seleccione **[!UICONTROL Todos]** para ver los resultados agregados en todos los usuarios simulados de la ejecución. Esta vista le ayuda a analizar la simulación completa de un vistazo, las actividades, los resultados y los errores, sin necesidad de seleccionar primero un solo usuario simulado.
+Seleccione **[!UICONTROL Todos]** para ver los resultados agregados en todos los usuarios simulados de la ejecución. Esta vista le ayuda a analizar la simulación completa de un vistazo, incluidas las actividades, los resultados y los errores, sin necesidad de seleccionar primero un solo usuario simulado.
 
-![Registros para usuarios de prueba](assets/simulate-6-2.png)
+![Pestaña Resultados con resumen de simulación, filtro de usuario de prueba y cobertura de ruta en el lienzo de recorrido](assets/simulate-6-2.png)
 
 Para cada actividad, el &quot;log&quot; puede mostrar si el usuario que ha realizado la simulación ha entrado o salido del paso, así como los errores que se han producido durante la simulación.
 
