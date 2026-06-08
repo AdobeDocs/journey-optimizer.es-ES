@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Los usuarios simulados seleccionados para la simulación aparecen en la sección
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch.png)
 
-Para recorridos con **[!UICONTROL audiencia de lectura]**, puedes acceder a **[!UICONTROL simulación rápida]** o **[!UICONTROL simulación manual]**.
-
-![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-14.png)
-
 +++
 
 +++ Recorrido por lotes con una audiencia de lectura y eventos unitarios
@@ -60,10 +56,6 @@ Los usuarios simulados seleccionados para la simulación y los eventos configura
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-2.png)
 
-Con **recorrido por lotes con una audiencia de lectura y eventos unitarios**, puedes acceder a **[!UICONTROL Simulación rápida]** o **[!UICONTROL Simulación manual]**.
-
-![Botón de modo de prueba en la interfaz de recorrido](assets/simulate-12.png)
-
 +++
 
 +++ Recorrido unitario
@@ -72,10 +64,6 @@ El recorrido comienza con un evento unitario, no con una audiencia de lectura. U
 Los usuarios simulados seleccionados para la simulación y los eventos configurados serán visibles respectivamente en las secciones **Usuarios de prueba** y **Eventos de prueba**. La sección **Usuarios de prueba** no incluye una acción para almacenar en déclencheur a un usuario simulado en el recorrido. La entrada de déclencheur de **eventos de prueba**.
 
 ![Panel de simulación para un recorrido por lotes con solo lectura](assets/simulate-batch-3.png)
-
-Con **recorrido unitario**, se accede directamente al menú de simulación Manual.
-
-![Panel de simulación para un recorrido unitario](assets/simulate-13.png)
 
 +++
 
