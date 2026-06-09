@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +83,9 @@ Las siguientes funcionalidades y mejoras están llegando a los recorridos en est
 
 * **Detener o cerrar un recorrido pausado directamente** - Ahora puede **detener un recorrido o cerrarlo a nuevas entradas** directamente desde el estado **Pausado**. Anteriormente, un recorrido pausado tenía que reanudarse a Activo antes de que se pudiera detener o cerrar.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Vincular a tarea DOCAC JIRA</a>
+
+* **Compatibilidad con identificadores adicionales para audiencias externas**. Ahora se admiten identificadores adicionales en recorridos para audiencias externas, incluidas audiencias importadas de un archivo CSV y audiencias creadas con Federated Audience Composition. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario; no se requiere un etiquetado de esquema.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Vincular a tarea DOCAC JIRA</a>
 
 ### Campañas orquestadas {#june-26-oc}
 
