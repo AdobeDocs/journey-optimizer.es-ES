@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 10%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ Atributos disponibles para **[!UICONTROL actividades de evento personalizado]**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Elementos aptos y exclusiones"
->abstract="Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos aptos y exclusiones]** para definir qué elementos y grupos son aptos y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío. Por ejemplo, puede limitar una tarea de gasto a categorías de productos específicas o excluir del recuento las tarjetas regalo o los artículos promocionales para la finalización de la tarea."
+>abstract="Para las actividades **Purchase** y **Spend**, use el atributo **[!UICONTROL Eligible items &amp; exclusions]** para seleccionar qué artículos y grupos se contabilizan para la finalización de la tarea y cuáles se excluyen. Busque artículos o grupos del inventario de productos configurado por los administradores y, a continuación, inclúyalos o exclúyalos según sea necesario."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-Para las actividades **Compra** y **Gasto**, puede usar el atributo **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío. Los grupos de productos y los grupos de exclusión cargados en el menú **[!UICONTROL Administrador de fidelidad]** están disponibles cuando configura este atributo. [Aprenda a configurar el inventario y las exclusiones de productos](loyalty-admin.md#product-inventory)
+Para las actividades **Comprar** y **Gastar**, puede usar la sección **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
+
+Los elementos y grupos disponibles en el selector los definen los usuarios administradores en el menú **[!UICONTROL Administrador de fidelidad]**. Los administradores cargan el inventario de productos utilizado para los artículos aptos y configuran exclusiones de toda la organización que se aplican automáticamente cuando los especialistas en marketing crean tareas. [Aprenda a configurar el inventario de productos](loyalty-admin.md#product-inventory) y [exclusiones](loyalty-admin.md#exclusions)
 
 Las tareas de **[!UICONTROL Custom Event]** no utilizan elementos y exclusiones que cumplan los requisitos; la finalización depende de los **[!UICONTROL valores de Custom Event]** que configure.
 
 Por ejemplo, puede limitar una tarea a categorías de productos específicas o excluir del recuento las tarjetas regalo o los elementos promocionales para la finalización de la tarea.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### Definir artículos aptos para la tarea
 
-Para definir artículos elegibles, escribe ID de artículo, categorías o ID de destino específicos, separados por comas en **[!UICONTROL Las compras de tareas elegibles están limitadas al siguiente campo]**. Si deja este campo vacío, todas las compras son elegibles de forma predeterminada. También puede ingresar `*` para que todas las compras sean elegibles de manera explícita.
+Para definir artículos elegibles, selecciona **[!UICONTROL Agregar]** de la sección **[!UICONTROL Elementos y exclusiones elegibles]**.
 
-Ejemplo: `SKU001, SKU002, CategoryA`
+En el selector, seleccione los elementos o grupos que se deben contar para la finalización de la tarea y, a continuación, seleccione **[!UICONTROL Incluir]**. Los artículos y grupos incluidos se añaden a la lista de artículos aptos.
+
+![](assets/task-create-eligible-add.png)
+
+Si no se selecciona ningún artículo o grupo apto, las compras no se limitan a un juego de inventario específico, a menos que se configuren exclusiones.
 
 ### Excluir elementos de la tarea
 
-Para excluir elementos de la tarea, escriba id. de elemento, categorías o id. de destino específicos en el campo **[!UICONTROL Se excluyen los siguientes elementos de esta tarea]**.
+Para excluir artículos de la tarea, selecciona **[!UICONTROL Agregar]** de la sección **[!UICONTROL Elementos y exclusiones aptos]**.
 
-Ejemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+Seleccione los elementos o grupos que no deben contarse para la finalización de la tarea y, a continuación, seleccione **[!UICONTROL Excluir]**.
+
+![](assets/task-create-exclusion-add.png)
+
+Los elementos de la lista de exclusiones globales se añaden automáticamente como exclusiones. Las exclusiones tienen prioridad sobre las inclusiones: los elementos enumerados como excluidos no se cuentan, aunque también formen parte de un grupo incluido.
 
 ### Incluya sus propios datos sobre elegibilidad y exclusiones {#byod-personalization}
 
@@ -170,7 +180,7 @@ Ejemplo: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 >
 >La opción **[!UICONTROL Traer tus propios datos]** está disponible actualmente para un conjunto restringido de organizaciones y estará disponible de forma más amplia en una versión futura.
 
-Además de especificar los ID de artículo para que cumplan los requisitos o se excluyan, también puedes obtener la idoneidad de los datos externos de Retos de fidelidad durante la ejecución mediante la opción **[!UICONTROL Traer tus propios datos]**.
+Además de seleccionar elementos y grupos en Journey Optimizer, también puedes mejorar la elegibilidad de tus datos externos de Desafíos de fidelidad durante la ejecución mediante la opción **[!UICONTROL Traer tus propios datos]**.
 
 Cuando se selecciona **[!UICONTROL Traer tus propios datos]**, la elegibilidad por participante se resuelve en tiempo de ejecución a partir de los datos sincronizados con tu entorno de retos de fidelidad en lugar de una lista de ID de artículos.
 
