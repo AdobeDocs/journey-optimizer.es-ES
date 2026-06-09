@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -93,9 +93,9 @@ Este comportamiento se aplica solamente a **recorridos de audiencia de lectura n
 
 >[!NOTE]
 >
->Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días.
+>* Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos permanecen sujetos al tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout).
 >
->Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances). El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
+>* Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances). El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
 
 ### ¿Cuándo se considera que un recorrido ha &quot;finalizado&quot;? {#journey-finished-definition}
 
@@ -125,8 +125,6 @@ También puede:
    ![Menú de opciones de finalización que muestra el recorrido final y las acciones alternativas](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Cerrar a nuevas entradas]** y confirme en el cuadro de diálogo.
-
-
 
 
 ## Detener un recorrido {#stop-journey}
