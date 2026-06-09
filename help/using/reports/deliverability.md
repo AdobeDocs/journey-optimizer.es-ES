@@ -9,29 +9,16 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 TQID: https://experienceleague.adobe.com/7EdZZJgxpZA2AtSo-lMpMEDV6C9zk78mmvNVhe5KXcw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 21%
+source-wordcount: 1347
+ht-degree: 19%
 
 ---
 
@@ -130,9 +117,12 @@ Una vez que un usuario final genera una queja que el ISP devuelve a Adobe, la di
 
 >[!IMPORTANT]
 >
->No todos los ISP proporcionan un FBL tradicional, como Gmail. Gmail no ofrece comentarios a nivel individual y no se puede usar para rastrear quejas de spam a destinatarios individuales, centrándose en lugar de eso en los informes a nivel agregado dentro de sus Herramientas de Postmaster de Google. [Más información](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+>No todos los ISP proporcionan un FBL tradicional, como Gmail. Gmail no ofrece comentarios a nivel individual y no se puede usar para rastrear quejas de spam a destinatarios individuales, centrándose en lugar de eso en los informes a nivel agregado dentro de sus Herramientas de Postmaster de Google. [Más información](#providers-no-fbl)
+
 
 Todos los clientes de Adobe se inscriben automáticamente en los FBL tradicionales de los siguientes ISP:
+
++++ ISP que proporcionan un FBL tradicional
 
 * 1&amp;1
 
@@ -190,7 +180,21 @@ Todos los clientes de Adobe se inscriben automáticamente en los FBL tradicional
 
 * Ziggo
 
-Adobe audita estos FBL regularmente para asegurarse de que se añaden los FBL más recientes disponibles.
++++
+
+Adobe realiza auditorías regulares para asegurarse de que se añaden los FBL más recientes.
+
+### Proveedores sin FBL por destinatario {#providers-no-fbl}
+
+No todos los ISP proporcionan un FBL tradicional. Varios proveedores de buzones de correo principales no devuelven quejas de correo no deseado por destinatario, lo que significa que se espera la ausencia de una entrada en la lista de supresión para los destinatarios que utilizan esos proveedores.
+
+| Proveedor de buzones | ¿Queja FBL por destinatario? |
+|---|---|
+| **Gmail / Google Workspace** | No: los informes agregados solo se realizan mediante las herramientas de administrador de correo de Google (ID de comentario; no por destinatario). [Más información](https://support.google.com/a/answer/6254652?hl=en){target="_blank"} |
+| **Apple iCloud** (icloud.com, me.com, mac.com) | No — [Más información](https://support.apple.com/en-us/102322){target="_blank"} |
+| **Microsoft corporativo 365 / Exchange Online** | No: el programa de informes de correo no deseado (JMRP) cubre únicamente la red de Outlook.com del consumidor; los informes de correo no deseado del inquilino procedentes de entornos corporativos M365 no se devuelven al remitente. [Más información](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+
+Juntos, estos proveedores representan la mayoría de las bandejas de entrada de consumidores y empresas. Como ninguno de ellos devuelve quejas por destinatario, un destinatario que utilice cualquiera de estos servicios y que marque un mensaje como correo no deseado **no** aparecerá automáticamente en la lista de supresión.
 
 ## Usar retransmisión SMTP {#smtp-relay}
 
