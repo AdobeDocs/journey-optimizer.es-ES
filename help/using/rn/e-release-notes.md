@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d88ec9074feb94a55502b5904b4f8958a286576b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 1960
 ht-degree: 10%
 
 ---
@@ -83,9 +78,6 @@ Las siguientes funcionalidades y mejoras están llegando a los recorridos en est
 
 * **Detener o cerrar un recorrido pausado directamente** - Ahora puede **detener un recorrido o cerrarlo a nuevas entradas** directamente desde el estado **Pausado**. Anteriormente, un recorrido pausado tenía que reanudarse a Activo antes de que se pudiera detener o cerrar.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Vincular a tarea DOCAC JIRA</a>
-
-* **Compatibilidad con ID suplementarios en recorridos para audiencias externas** - **Ahora se admiten identificadores suplementarios** en recorridos para **audiencias externas**, incluidas las audiencias importadas de un archivo CSV y las audiencias creadas con Composición de audiencia federada. Puede designar cualquier atributo que no sea de identidad o de identidad que no sea de persona de la audiencia como ID suplementario; no se requiere un etiquetado de esquema.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Vincular a tarea DOCAC JIRA</a>
 
 ### Campañas orquestadas {#june-26-oc}
 
