@@ -7,12 +7,24 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1647
@@ -246,13 +258,13 @@ Una vez que haya definido la configuración de la campaña web y haya editado el
    >
    >Obtenga más información acerca de la activación de campañas en [esta sección](../campaigns/review-activate-campaign.md).
 
-Su campaña web toma el **[!UICONTROL estado](../campaigns/manage-campaigns.md#statuses)]** en vivo[ y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
+Su campaña web toma el **[[!UICONTROL estado]](../campaigns/manage-campaigns.md#statuses)&rbrack;** en vivo&lbrack; y ahora es visible para la audiencia seleccionada. Cada destinatario de la campaña puede ver las modificaciones agregadas al sitio web.
 
 >[!NOTE]
 >
 >Después de hacer clic en **[!UICONTROL Activar]**, los cambios de las campañas web pueden tardar hasta 15 minutos en estar disponibles en el sitio web.
 >
->Si ha definido una programación para su campaña web, tiene el **[!UICONTROL estado](../campaigns/manage-campaigns.md#statuses)]** programado[ hasta que se alcance la fecha y la hora de inicio.
+>Si ha definido una programación para su campaña web, tiene el **[[!UICONTROL estado]](../campaigns/manage-campaigns.md#statuses)&rbrack;** programado&lbrack; hasta que se alcance la fecha y la hora de inicio.
 
 Una vez que la experiencia esté activa, puede monitorizar los recorridos y campañas web. [Más información](monitor-web-experiences.md)
 
