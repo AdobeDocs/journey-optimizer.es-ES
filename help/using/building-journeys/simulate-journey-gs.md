@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 2%
@@ -69,7 +68,7 @@ Los usuarios simulados seleccionados para la simulación y los eventos configura
 
 ## Simulación de lanzamiento {#launch}
 
-Cambie el recorrido a **[!UICONTROL Simulation]** para probarlo con usuarios simulados. Las tareas paso a paso se detallan en [Simular el recorrido](simulate-journey-2.md).
+Cambie el recorrido a **[!UICONTROL Simulation]** para probarlo con usuarios simulados. Las tareas paso a paso se detallan en [Simular el recorrido](simulate-journey.md).
 
 1. En el recorrido, haz clic en **[!UICONTROL Simular]** y elige **[!UICONTROL Simulación]**.
 
