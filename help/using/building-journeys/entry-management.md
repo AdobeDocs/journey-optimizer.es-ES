@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Para obtener más información, consulte esta [sección](../event/about-creating
 
 ## Leer recorridos de audiencia {#entry-read-audience}
 
-**Leer audiencia** los recorridos pueden ser recurrentes o de una sola toma:
+**Los recorridos de la audiencia de lectura** pueden ser recurrentes o no recurrentes:
 
-* Para recorridos no recurrentes/de una sola toma: el perfil introduce una vez y solo una vez en el recorrido.
+* Para recorridos no recurrentes: el perfil introduce una vez y solo una vez en la recorrido.
 
 * Para recorridos recurrentes: de forma predeterminada, todos los perfiles pertenecientes a la audiencia introducen el recorrido en cada periodicidad. Deben finalizar el recorrido antes de poder volver a entrar en otra ocurrencia.
 

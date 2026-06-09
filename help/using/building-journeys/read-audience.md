@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 3891
+source-wordcount: 3917
 ht-degree: 7%
 
 ---
@@ -215,7 +215,7 @@ De forma predeterminada, los recorridos están configurados para ejecutarse una 
 >
 >**estado de Recorrido y tiempo de espera global de 91 días:**
 >
->* **Un solo disparo** Los recorridos de audiencia de lectura pasan al estado **Finalizado** 91 días ([tiempo de espera global de recorrido](journey-properties.md#global_timeout)) después de la ejecución del recorrido.
+>* **No recurrente** Los recorridos de audiencia de lectura cambian automáticamente al estado **Detenido** una vez que sale el último perfil activo, a menos que el recorrido incluya nodos que provoquen períodos de espera (nodos de espera, nodos de reacción o transiciones activadas por eventos), en cuyo caso se aplica el tiempo de espera global estándar de 91 días. [Más información](end-journey.md#auto-stop-non-recurring)
 >* **recorridos de audiencia recurrentes** de lectura sin fecha de finalización **permanecen activos** mientras se publique el recorrido. Pasan al estado **Finalizado** 91 días después de la ejecución de su **última incidencia**.
 >* El tiempo de espera de 91 días se aplica a **perfiles** individuales que fluyen por el recorrido (tiempo máximo que un perfil puede permanecer activo), no al estado Activo del recorrido.
 >* La ventana de creación de informes **de 91 días** es un concepto independiente: la interfaz de usuario muestra los datos de rendimiento de aproximadamente los últimos 91 días. No se puede acceder a los datos más antiguos en la interfaz de usuario, pero el recorrido sigue ejecutándose. [Más información](journey-properties.md#global_timeout)
