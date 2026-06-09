@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -178,9 +178,9 @@ La configuración del tiempo de espera controla cuánto tiempo espera un recorri
 ### Tiempo de espera en actividades de recorrido {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="Tiempo de espera o error"
->abstract="Especifique cuánto tiempo debe intentar el recorrido realizar una acción o evaluar una condición antes de tratarla como con tiempo de espera agotado. Los valores recomendados están entre 1 y 30 segundos."
+>abstract="La opción **Tiempo de espera o error** define una ruta alternativa en el recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan con una ruta de reserva en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
 
 Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera el tiempo de espera definido en el campo **[!UICONTROL Tiempo de espera o error]** de las propiedades del recorrido, se elegirá la segunda ruta para realizar una posible acción de reserva.
 

@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 1570
+source-wordcount: 1736
 ht-degree: 14%
 
 ---
@@ -72,6 +72,27 @@ Las actividades de canal nativo heredadas también se conservan en estos casos:
 * **Copiar y pegar actividades heredadas en un recorrido**: las actividades pegadas siguen siendo actividades heredadas. Puede editarlos y publicarlos tal cual; no se requiere ninguna migración.
 
 ## Añadir una acción de canal integrada a un recorrido  {#add-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_auto_wait"
+>title="Nodo de espera automático"
+>abstract="Para las acciones de canal entrante (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Wait** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia entrante antes de que el recorrido continúe con el siguiente paso."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_optimization"
+>title="Optimización"
+>abstract="La sección **Optimización** agrega experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada miembro de la audiencia."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_multilingual"
+>title="Multilingüe"
+>abstract="La sección **Multilingüe** ofrece el contenido de acción del canal en varios idiomas dentro de un solo recorrido. Una configuración de idioma define las configuraciones regionales admitidas y el idioma predeterminado para esta acción."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introducción al contenido multilingüe"
+
 
 Para agregar una acción de canal integrada al recorrido mediante la actividad **[!UICONTROL Action]**, siga los pasos a continuación.
 
@@ -118,7 +139,7 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
       <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>Crear notificaciones push<strong></a>
+      <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
       </div>
       <p>
       </td>

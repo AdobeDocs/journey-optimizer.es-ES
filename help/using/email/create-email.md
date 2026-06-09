@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 12%
+source-wordcount: 1242
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 12%
 >abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
 
 ## Añadir una acción de correo electrónico {#email-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_email"
+>title="Acción de correo electrónico"
+>abstract="Una acción del canal de correo electrónico envía un correo electrónico a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de correo electrónico que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 Para crear un correo electrónico en [!DNL Journey Optimizer], agregue una acción **[!UICONTROL Enviar correo electrónico]** a un recorrido o a una campaña. A continuación, siga los pasos que se indican a continuación según su caso.
 

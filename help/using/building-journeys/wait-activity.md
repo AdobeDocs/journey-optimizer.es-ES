@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 12%
+source-wordcount: 908
+ht-degree: 9%
 
 ---
 
@@ -52,7 +52,7 @@ Puede establecer dos tipos de actividad **Wait**:
 * [Fixed date](#fixed_date) 
 -->
 
-## Recomendaciones {#wait-recommendations}
+## Recommendations {#wait-recommendations}
 
 Utilice estas recomendaciones para mantener las esperas predecibles y seguras.
 
@@ -132,8 +132,8 @@ Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot
 ## Nodo de espera automático  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="Acerca del nodo de espera automático"
->abstract="Se agrega automáticamente una actividad de **Espera** después de esta actividad. Se establece para 3 días. Puede eliminarla o configurarla según sea necesario."
+>abstract="Se inserta automáticamente un nodo **Wait** después de esta acción entrante. Se establece en 3 días de forma predeterminada, lo que garantiza que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje o la experiencia. Puede actualizar la duración de la espera o eliminar este nodo si su caso de uso lo requiere."
 
 Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.

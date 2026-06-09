@@ -22,16 +22,22 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 5%
+source-wordcount: 748
+ht-degree: 4%
 
 ---
 
 # Creación de un mensaje de LINE {#create-line}
 
 ## Añadir un mensaje de LINE {#create-line-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_line"
+>title="Acción LINE"
+>abstract="Una acción del canal LINE envía un mensaje de LINE a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de LINE que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 Examine las pestañas siguientes para aprender a añadir un mensaje de LINE en una campaña o un recorrido.
 

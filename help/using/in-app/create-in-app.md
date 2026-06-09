@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: 2405
 ht-degree: 11%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 11%
 >id="ajo_campaigns_inapp_triggers"
 >title="Activadores de administración en la aplicación"
 >abstract="Controle de forma eficaz sus Activadores seleccionando los eventos y criterios específicos que activarán sus mensajes. Con el Generador de reglas, los usuarios pueden definir condiciones y valores precisos. Cuando se cumplen estas condiciones, inician una serie de acciones, incluido el envío de mensajes en la aplicación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="Acción de mensaje en la aplicación"
+>abstract="Una acción entrante de mensaje en la aplicación muestra un mensaje en la aplicación a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración en la aplicación que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (de forma predeterminada, 3 días), lo que proporciona a los perfiles tiempo para ver el mensaje en la aplicación."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
 
