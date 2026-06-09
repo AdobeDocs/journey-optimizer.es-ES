@@ -6,19 +6,27 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 12%
+source-wordcount: 1755
+ht-degree: 10%
 
 ---
 
 # Creación de tarjetas de contenido {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="Acción de tarjeta de contenido"
+>abstract="Una acción de entrada de tarjeta de contenido muestra una tarjeta de contenido a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de tarjeta de contenido que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (de forma predeterminada, 3 días), lo que da a los perfiles tiempo para ver la tarjeta de contenido."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+
+
+Las tarjetas de contenido son experiencias entrantes en la aplicación que muestran contenido personalizado (como promociones, anuncios o recomendaciones) directamente en una superficie dedicada de la aplicación móvil. A diferencia de los mensajes interrumpidos, permanecen disponibles en la aplicación hasta que el usuario los descarta o las reglas de envío los ocultan.
+
+En esta página se explica cómo crear una tarjeta de contenido y definir su contenido, ya sea como parte de un [recorrido](../building-journeys/journey-gs.md) o una [campaña](../campaigns/create-campaign.md). Una vez añadida, puede diseñar la tarjeta, establecer reglas de envío adicionales que controlen cuándo se muestra, se descarta o se oculta de forma permanente y ejecutar experimentos de contenido para optimizar su rendimiento.
 
 >[!IMPORTANT]
 >
