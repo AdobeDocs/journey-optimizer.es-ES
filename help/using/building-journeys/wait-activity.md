@@ -11,25 +11,16 @@ keywords: espera, actividad, recorrido, siguiente, lienzo
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +29,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Actividad Esperar"
->abstract="Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad de espera. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
+>abstract="La actividad Wait permite esperar antes de ejecutar la siguiente actividad en la ruta. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
 Puede usar una actividad **[!UICONTROL Wait]** para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es de **90 días**.
 
@@ -134,6 +125,6 @@ Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Acerca del nodo de espera automático"
->abstract="Se inserta automáticamente un nodo **Wait** después de esta acción entrante. Se establece en 3 días de forma predeterminada, lo que garantiza que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje o la experiencia. Puede actualizar la duración de la espera o eliminar este nodo si su caso de uso lo requiere."
+>abstract="Se inserta automáticamente un nodo **Wait** después de esta acción entrante. Se establece en 3 días de forma predeterminada, lo que garantiza que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje o la experiencia. La duración de la espera se puede actualizar o el nodo se puede eliminar si el caso de uso lo requiere."
 
 Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.

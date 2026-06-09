@@ -11,31 +11,16 @@ keywords: actividad, recorrido, lectura de audiencia, audiencia, segmento, lote,
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 7%
 
 ---
 
@@ -48,7 +33,7 @@ Utilice la actividad Leer audiencia para iniciar recorridos con audiencias defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
->abstract="Añadir todos los perfiles cualificados de un público de [!DNL Adobe Experience Platform] seleccionado a este recorrido. Ejecutar una vez o según una programación."
+>abstract="Agrega todos los perfiles calificados de una audiencia [!DNL Adobe Experience Platform] seleccionada a este recorrido. Se ejecuta una vez o según una programación."
 
 La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido que agrega todos los perfiles de una audiencia [!DNL Adobe Experience Platform] seleccionada a un recorrido. Puede ejecutar la entrada una vez o en una programación recurrente. En las API y referencias técnicas, esta actividad también se denomina entrada de recorrido basada en segmentos o déclencheur de audiencias.
 
@@ -94,12 +79,12 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público"
->abstract="Seleccione el público de [!DNL Adobe Experience Platform] cuyos perfiles ingresarán a este recorrido."
+>abstract="La audiencia [!DNL Adobe Experience Platform] cuyos perfiles entran en este recorrido. Todos los perfiles cualificados se leen en. Se recomiendan las audiencias por lotes para obtener recuentos fiables y coherentes, y solo se puede leer una audiencia por actividad."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Área de nombres"
->abstract="Elija qué identidad (por ejemplo, correo electrónico, ECID) se utiliza para identificar a las personas que entran en el recorrido. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
+>title="Espacio de nombres"
+>abstract="La identidad (por ejemplo: correo electrónico, ECID) utilizada para identificar a las personas que entran en el recorrido. Solo están disponibles las áreas de nombres basadas en personas y los perfiles sin esta identidad no pueden entrar. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
 
@@ -112,7 +97,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
    >[!NOTE]
    >
    >Además, puede segmentar [!DNL Adobe Experience Platform] audiencias creadas con [composiciones de audiencias](../audience/get-started-audience-orchestration.md).
-   >También puede segmentar audiencias [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}.
+   >También puede segmentar audiencias [cargadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
    >[Más información acerca de cómo generar y segmentar audiencias en Journey Optimizer](../audience/about-audiences.md).
 
    Tenga en cuenta que puede personalizar las columnas mostradas en la lista y ordenarlas.
@@ -127,7 +112,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 
    >[!NOTE]
    >
-   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Solo las personas con el estado de participación en la audiencia **Realized** entrarán al recorrido. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. En el campo **[!UICONTROL Espacio de nombres]**, elija el espacio de nombres que desea utilizar para identificar a los individuos. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado. [Más información sobre áreas de nombres](../event/about-creating.md#select-the-namespace).
 
@@ -148,7 +133,7 @@ Todas las protecciones y limitaciones de la actividad **Leer audiencia** (concur
 **Recommendations**
 
 * Se recomienda usar audiencias por lotes en una actividad **Leer audiencia** para obtener recuentos confiables y consistentes. La audiencia de lectura está diseñada para casos de uso por lotes. Si su caso de uso necesita datos en tiempo real, use la actividad [Calificación de audiencias](audience-qualification-events.md) en su lugar.
-* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
+* Las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md) se pueden seleccionar en la actividad **Leer audiencia**. Estas audiencias no están disponibles en la actividad **Calificación de audiencias**.
 * Para obtener información sobre el tiempo de instantánea de audiencia, las ventanas de finalización de segmentación por lotes y cómo garantizar que el recorrido siempre se ejecute en los datos más recientes, consulte [Tiempo y propagación de datos](#timing-and-data-propagation). Para los recorridos recurrentes, considere la posibilidad de habilitar la opción **[!UICONTROL Déclencheur después de la evaluación de audiencias por lotes]** para retrasar automáticamente la ejecución hasta que la última instantánea de audiencia esté lista. [Más información](#schedule).
 
 >[!CAUTION]
@@ -177,17 +162,17 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Fecha y hora de inicio"
->abstract="Defina cuándo iniciar este recorrido."
+>abstract="La fecha y la hora en que el recorrido empieza a leer la audiencia y los perfiles comienzan a introducir. Combínelo con las opciones de periodicidad siguientes para programar ejecuciones recurrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir hasta"
->abstract="Defina la fecha de finalización para las ejecuciones recurrentes."
+>abstract="La fecha en la que se detienen las ejecuciones recurrentes. Después de esta fecha, el recorrido ya no lee la audiencia ni admite nuevos perfiles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir cada"
->abstract="La frecuencia con la que se ejecuta el recorrido (por ejemplo, diaria o semanal)."
+>abstract="La frecuencia con la que el recorrido vuelve a leer la audiencia y se ejecuta de nuevo, por ejemplo, diariamente o semanalmente. Determina el intervalo de periodicidad entre ejecuciones hasta que se alcance la fecha Repetir hasta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +182,12 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forzar reentrada"
->abstract="Borre todos los participantes del recorrido antes de que se lea cada público nuevo."
+>abstract="Borra todos los participantes de la recorrido antes de que se lea cada audiencia nueva, de modo que cada ejecución se inicia de nuevo y los perfiles pueden volver a entrar en cada ocurrencia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Activar tras la evaluación del público por lotes"
->abstract="Ejecute el recorrido solo después de que el público por lotes se haya evaluado recientemente."
+>abstract="Retrasa cada ejecución hasta que la audiencia por lotes se ha evaluado recientemente, por lo que el recorrido lee la instantánea de audiencia más actualizada en lugar de datos antiguos. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +260,7 @@ Por ejemplo, si un recorrido está programado para las 18:00 diariamente, puede 
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 
@@ -375,7 +360,7 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 
 ### Tiempo y propagación de datos {#timing-and-data-propagation}
 
-* **Finalización del trabajo de segmentación por lotes**: Para las audiencias por lotes, asegúrese de que el trabajo de segmentación por lotes diario se haya completado y de que las instantáneas se actualicen antes de que se ejecute el recorrido. Las audiencias por lotes están listas para usarse aproximadamente **2 horas** después de que se complete el trabajo de segmentación. Más información sobre [métodos de evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es#evaluate-segments){target="_blank"}.
+* **Finalización del trabajo de segmentación por lotes**: Para las audiencias por lotes, asegúrese de que el trabajo de segmentación por lotes diario se haya completado y de que las instantáneas se actualicen antes de que se ejecute el recorrido. Las audiencias por lotes están listas para usarse aproximadamente **2 horas** después de que se complete el trabajo de segmentación. Más información sobre [métodos de evaluación de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tiempo de ingesta de datos**: compruebe que la ingesta de datos de perfil se haya completado completamente antes de la ejecución del recorrido. Si los perfiles se incorporaron poco antes de que comenzara el recorrido, es posible que aún no se reflejen en la audiencia. Más información sobre la ingesta de [datos en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 
@@ -387,9 +372,9 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 
 ### Validación de datos {#data-validation-and-monitoring}
 
-* **Comprobar el estado del trabajo de segmentación**: supervise las horas de finalización del trabajo de segmentación por lotes en el [!DNL Adobe Experience Platform] [panel de monitorización](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=es){target="_blank"}. Utilícelo para verificar cuándo están listos los datos de audiencia.
+* **Comprobar el estado del trabajo de segmentación**: supervise las horas de finalización del trabajo de segmentación por lotes en el [!DNL Adobe Experience Platform] [panel de monitorización](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Utilícelo para verificar cuándo están listos los datos de audiencia.
 
-* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información sobre [políticas de combinación en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=es){target="_blank"}.
+* **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información sobre [políticas de combinación en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Revisar definiciones de segmentos**: Confirme que las definiciones de segmentos están configuradas correctamente e incluyan todos los criterios de calificación esperados. Más información sobre [cómo generar audiencias](../audience/creating-a-segment-definition.md). Preste especial atención a:
    * Condiciones basadas en el tiempo que pueden excluir perfiles basados en marcas de tiempo de eventos
@@ -430,10 +415,10 @@ Para obtener la lista completa de protecciones de audiencia de lectura (incluido
 * [Probar un recorrido](testing-the-journey.md): valide su lógica de recorrido con perfiles de prueba antes de lanzarse.
 * [Publicar un recorrido](../building-journeys/publish-journey.md) - Activar el recorrido y supervisar su ejecución inicial.
 * [Enviar un mensaje a los suscriptores](message-to-subscribers-uc.md) - Caso de uso de extremo a extremo: dirige una lista de suscripción con un recorrido de audiencia de lectura, desde la configuración hasta la entrega.
-* [Prácticas recomendadas para leer recorridos de audiencia](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=es){target="_blank"}: blog de la comunidad que cubre dificultades comunes, discrepancias de recuento y prácticas recomendadas comprobadas.
+* [Prácticas recomendadas para leer recorridos de audiencia](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"}: blog de la comunidad que cubre dificultades comunes, discrepancias de recuento y prácticas recomendadas comprobadas.
 
 ## Vídeo práctico {#video}
 
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430360?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

@@ -11,10 +11,10 @@ keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutiliz
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 9%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Puede filtrar la lista por nombre de fragmento, estado, fecha de creación, crea
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Guardar como fragmento de recorrido"
->abstract="Introduzca un nombre único para el fragmento y haga clic en Guardar. Los nodos seleccionados se guardarán como un fragmento reutilizable disponible en el inventario de fragmentos."
+>abstract="Se introduce un nombre de fragmento único antes de guardar. Los nodos seleccionados se guardan como un fragmento reutilizable disponible en el inventario de fragmentos."
 
 Puede crear un fragmento de recorrido de dos formas: directamente desde el lienzo de recorrido (recomendado) o desde el inventario de fragmentos.
 
@@ -98,7 +98,7 @@ Para crear un fragmento directamente desde el inventario:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propiedades del fragmento de recorrido"
->abstract="Abra un fragmento del inventario para modificar sus nodos, propiedades, etiquetas o etiquetas. Los fragmentos activos deben desactivarse para poder editarlos."
+>abstract="Al abrir un fragmento desde el inventario, se pueden modificar sus nodos, propiedades, etiquetas o etiquetas. Los fragmentos activos deben desactivarse para poder editarlos."
 
 Para editar un fragmento, ábralo desde el **[!UICONTROL Inventario de fragmentos]** haciendo clic en su nombre. En la IU de creación de fragmentos puede hacer lo siguiente:
 

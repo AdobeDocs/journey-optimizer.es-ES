@@ -11,27 +11,16 @@ keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 13%
+source-wordcount: 3657
+ht-degree: 9%
 
 ---
 
@@ -42,7 +31,7 @@ Utilice las propiedades del recorrido para definir la configuración global del 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Configure las opciones globales de este recorrido, incluidos el nombre, las etiquetas, las reglas de entrada, el huso horario, las fechas, el tiempo de espera y la administración de conflictos. Los parámetros de solo lectura están ocultos de forma predeterminada. Las opciones disponibles varían en función del estado del recorrido, los permisos y la configuración del producto."
+>abstract="Las propiedades de recorrido contienen la configuración global de este recorrido, incluido el nombre, las etiquetas, las reglas de entrada, el huso horario, las fechas, el tiempo de espera y la administración de conflictos. Los parámetros de solo lectura están ocultos de forma predeterminada. Las opciones disponibles varían en función del estado del recorrido, los permisos y la configuración del producto."
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -109,7 +98,7 @@ La administración de la entrada del perfil depende del tipo de recorrido. Obten
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir reentrada**, por ejemplo, si quiere ofrecer un regalo único cuando una persona entre en una tienda."
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Desmarcar la opción **Permitir la reentrada** impide que una persona vuelva a entrar al recorrido, por ejemplo, para ofrecer un regalo de una sola vez cuando una persona entra a una tienda."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra a una tienda.
@@ -119,7 +108,7 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desm
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Período de espera de reentrada"
->abstract="Establezca el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios. Esto evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 90 días."
+>abstract="El período de espera de reentrada es el tiempo de espera antes de que un perfil pueda volver a entrar en el recorrido en recorridos unitarios. Evita que los usuarios vuelvan a entrar en la recorrido durante un tiempo determinado. Duración máxima: 90 días."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
@@ -137,7 +126,7 @@ Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Tamaño actual de la carga útil del recorrido"
->abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Utilice este indicador para monitorizar la complejidad del recorrido antes de la publicación y evitar errores producidos por un exceso del límite de tamaño de la carga útil."
+>abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Este indicador ayuda a monitorizar la complejidad del recorrido antes de la publicación y evitar errores causados por el límite de tamaño de carga útil excedido."
 
 El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel de propiedades del recorrido muestra el tamaño actual de la carga útil del recorrido en relación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura es visible en cualquier fase de la creación del recorrido.
 
@@ -160,12 +149,12 @@ La zona horaria se define en el nivel de recorrido. Puede escribir una zona hora
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="Seleccione la fecha en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
+>abstract="La fecha de inicio es cuando los perfiles pueden empezar a introducir el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Fecha de finalización"
->abstract="Establezca la fecha en la que termina el recorrido. En esta fecha, los perfiles activos saldrán automáticamente del recorrido y no se permitirán nuevas entradas."
+>abstract="La fecha de finalización es cuando finaliza el recorrido. En esta fecha, los perfiles activos saldrán automáticamente del recorrido y no se permitirán nuevas entradas."
 
 De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
@@ -356,7 +345,7 @@ Para obtener más información sobre las políticas de combinación, consulte [[
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criterios de salida"
->abstract="En esta sección se muestran las opciones de criterios de salida. Puede crear una o varias reglas y filtros de criterios de salida para el recorrido."
+>abstract="En esta sección se muestran las opciones de criterios de salida, en las que se pueden definir una o varias reglas de criterios de salida y filtros para el recorrido."
 
 ### Recorrido Criterios de salida {#exit-criteria-desc}
 
