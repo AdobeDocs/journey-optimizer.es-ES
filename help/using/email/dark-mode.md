@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: 1553
 ht-degree: 10%
 
 ---
@@ -227,11 +227,11 @@ Para definir la configuración personalizada del modo oscuro, siga los pasos a c
    >
    >La vista en directo es una previsualización genérica diseñada para comparar el aspecto que podría tener la renderización en varios tamaños de dispositivo. La renderización final puede variar según el cliente de correo electrónico del destinatario.
 
-1. Cuando esté satisfecho con los cambios del modo oscuro, haga clic en **[!UICONTROL Simular contenido]**.
+1. Una vez que esté satisfecho con los cambios del modo oscuro, haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para comprobar el procesamiento del correo electrónico.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Seleccione **[!UICONTROL Procesar correo electrónico]** y conéctese a su cuenta de Litmus. Puede ver el procesamiento final del modo oscuro para varios clientes de correo electrónico. Más información sobre [Procesamiento de correo electrónico](../content-management/rendering.md).
+1. Seleccione **[!UICONTROL Procesar correo electrónico]** y conéctese a su cuenta de Litmus. Puede ver el procesamiento final del modo oscuro para varios clientes de correo electrónico. Más información sobre [Procesamiento de correo electrónico](../content-management/rendering.md). Para probar variaciones de contenido con datos de entrada de ejemplo o generación automática de IA, haz clic en **[!UICONTROL Simular contenido]** directamente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

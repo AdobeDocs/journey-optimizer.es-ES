@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Para mostrar las diferentes ofertas que forman parte de la decisión con un perf
 
 1. Seleccione los perfiles de prueba que se utilizarán para previsualizar la oferta:
 
-   1. Haga clic en el botón **[!UICONTROL Simular contenido]** y, a continuación, elija el área de nombres que se utilizará para identificar los perfiles de prueba del campo **[!UICONTROL Área de nombres de identidad]**.
+   1. Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable y elija el área de nombres que se utilizará para identificar los perfiles de prueba en el campo **[!UICONTROL Área de nombres de identidad]**. Para probar variaciones de contenido con datos de entrada de ejemplo o generación automática de IA, haz clic en **[!UICONTROL Simular contenido]** directamente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

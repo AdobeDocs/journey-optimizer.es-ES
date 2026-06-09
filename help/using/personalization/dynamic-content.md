@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 655
-ht-degree: 14%
+source-wordcount: 686
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ Los pasos para agregar contenido dinámico en expresiones son los siguientes:
 
    ![](assets/conditions-language-sample.png)
 
-1. Una vez que el contenido esté listo, puede obtener una vista previa de las diferentes variantes mediante el botón **[!UICONTROL Simular contenido]**. [Obtenga información sobre cómo probar y obtener una vista previa de los mensajes](../content-management/preview-test.md)
+1. Una vez que el contenido esté listo, puede obtener una vista previa de diferentes variantes mediante cualquiera de los métodos de simulación: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para obtener una vista previa con perfiles de prueba. [Obtenga información sobre cómo probar y obtener una vista previa de los mensajes](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

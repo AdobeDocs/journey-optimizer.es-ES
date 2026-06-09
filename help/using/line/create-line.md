@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 652
 ht-degree: 5%
@@ -114,7 +114,7 @@ Para configurar el contenido de LINE, siga los pasos a continuación.
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa.
 
-1. Utilice el botón **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido del mensaje de LINE y del contenido personalizado.
+1. Use **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido del mensaje de LINE y del contenido personalizado. [Más información](send-line.md)
 
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar el mensaje de LINE a su audiencia. Estos pasos se detallan en [esta página](send-line.md)
 

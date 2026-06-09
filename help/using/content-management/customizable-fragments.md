@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1735
 ht-degree: 6%
 
 ---
@@ -221,7 +221,7 @@ Al añadir el fragmento al correo electrónico, ahora puede editar el contenido 
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Puede hacer clic en **[!UICONTROL Simular contenido]** para ver cómo se representan el contenido editable y el estilo. [Más información sobre la vista previa del contenido](preview-test.md)
+1. Utilice cualquiera de los métodos de simulación para ver cómo se representan el contenido editable y el estilo: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba. [Más información sobre la vista previa del contenido](preview-test.md)
 
 1. Seleccione el icono **[!UICONTROL Agregar personalización]** junto a uno de los campos editables.
 

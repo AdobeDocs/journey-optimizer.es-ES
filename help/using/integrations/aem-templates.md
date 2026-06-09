@@ -24,9 +24,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ Una vez que la plantilla de Experience Manager esté disponible en Journey Optim
 
    ![](assets/aem_ajo_5.png)
 
-1. Si agregó contenido personalizado a la plantilla de Experience Manager, haga clic en **[!UICONTROL Simular contenido]** para obtener una vista previa del aspecto que tendrá el mensaje mediante perfiles de prueba.
+1. Si agregó contenido personalizado a su plantilla de Experience Manager, use cualquiera de los métodos de simulación para obtener una vista previa de cómo aparecerá en el mensaje: haga clic en **[!UICONTROL Simular contenido]** para probar variaciones de contenido con datos de entrada de muestra o generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y luego seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba.
 
    [Más información sobre la vista previa y los perfiles de prueba](../content-management/preview-test.md)
 

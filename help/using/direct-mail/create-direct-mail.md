@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1190
-ht-degree: 15%
+source-wordcount: 1132
+ht-degree: 16%
 
 ---
 
@@ -71,9 +71,7 @@ Examine las pestañas siguientes para aprender a añadir un mensaje de correo po
 
    ![Editor de contenido de archivo de extracción para una actividad de recorrido de correo postal](assets/direct-mail-journey-content.png)
 
-1. Una vez definido el contenido del archivo de extracción, puede utilizar perfiles de prueba para previsualizarlo. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje con los datos del perfil de prueba.
-
-   Para ello, haga clic en **[!UICONTROL Simular contenido]** y añada un perfil de prueba para comprobar cómo se representa el archivo de extracción con los datos del perfil de prueba. Encontrará información detallada sobre cómo seleccionar perfiles de prueba y obtener una vista previa del contenido en la sección [Administración de contenido](../content-management/preview-test.md).
+1. Una vez definido el contenido del archivo de extracción, previsualícelo con **[!UICONTROL Simular contenido]**. [Obtenga información sobre cómo obtener una vista previa y probar contenido](../content-management/preview-test.md)
 
    ![Simular vista previa de contenido para un archivo de extracción de correo postal](assets/direct-mail-simulate.png){width="800" align="center"}
 

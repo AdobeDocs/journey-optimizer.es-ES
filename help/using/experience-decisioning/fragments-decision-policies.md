@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1143
 ht-degree: 1%
 
 ---
@@ -175,4 +175,4 @@ En este ejemplo, la política de decisión incluye dos elementos de decisión qu
 
    ![](assets/aem-fragment-attribute.png)
 
-1. Antes de activar la campaña o el recorrido, puede usar **[!UICONTROL Simular contenido]** para obtener una vista previa de cómo se representarán los valores de los campos Fragmento de contenido de AEM para un perfil de prueba específico. [Más información sobre la simulación de contenido](../content-management/preview-test.md)
+1. Antes de activar la campaña o el recorrido, utilice cualquiera de los métodos de simulación para obtener una vista previa del modo en que se representarán los valores de los campos Fragmento de contenido de AEM: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o la generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para obtener una vista previa con un perfil de prueba específico. [Más información sobre la simulación de contenido](../content-management/preview-test.md)

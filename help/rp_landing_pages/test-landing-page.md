@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 89%
+source-wordcount: '2281'
+ht-degree: 83%
 
 ---
 
@@ -150,7 +150,7 @@ Los procesos de prueba y aprobación sirven como puertas de calidad esenciales q
 | Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
 | [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
-| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file, manual entry, or AI | Test multiple personalization variants |
 | [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
 | [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
 | [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
@@ -275,7 +275,7 @@ Para maximizar la eficacia de su trabajo en las pruebas, siga estas prácticas r
 
 1. **Compruebe minuciosamente la personalización**: realice pruebas con varios [perfiles de prueba](../using/content-management/test-profiles.md) que tengan valores de atributo diferentes para confirmar que los tokens de personalización se renderizan correctamente y que los valores fallback funcionan. Use la [zona de juegos de personalización](../using/personalization/personalize.md#playground) para experimentar con expresiones de personalización y probar código con datos de ejemplo antes de aplicarlos a sus campañas.
 
-1. **Pruebe variaciones de contenido con datos de ejemplo**. Use [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) de archivos CSV o JSON para probar hasta 30 casos de personalización sin crear numerosos perfiles de prueba, lo que ahorra tiempo a la vez que garantiza una cobertura completa. Admite canales de correo electrónico, SMS, push, web, experiencia basada en código, en la aplicación y tarjetas de contenido.
+1. **Probar variaciones de contenido con datos de ejemplo**. Use [datos de entrada de ejemplo](../using/test-approve/simulate-sample-input.md) de archivos CSV o JSON, entradas manuales o generación automática de IA para probar hasta 30 escenarios de personalización sin crear numerosos perfiles de prueba.
 
 1. **Use listas semilla para la supervisión de las partes interesadas**: configure [listas semilla](../using/configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la supervisión de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
 
@@ -313,7 +313,7 @@ Consulte cómo se aplican los conceptos de prueba a los casos reales:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envío de mensajes multicanal</strong></a>
 </div>
 <p>
-Pruebe un recorrido que combine Leer público, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de públicos hasta el envío de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
+Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de audiencia hasta la entrega de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Pruebe un recorrido que combine Leer público, eventos de reacción y mensajes p
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envío de un mensaje a los suscriptores</strong></a>
 </div>
 <p>
-Realice pruebas de recorridos dirigidas a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
+Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Realice pruebas de recorridos dirigidas a listas de suscripción con direccionam
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Envío de mensajes con límite de tiempo</strong></a>
 </div>
 <p>
-Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Valide las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de programación.
+Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Validar las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de programación.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Recorridos de prueba con condiciones basadas en el tiempo para garantizar que lo
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorar más casos de uso de recorridos</strong></a>
 </div>
 <p>
-Acceda a una completa colección de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore varios contextos, patrones avanzados y enfoques de prueba de integración.
+Acceda a una completa colección de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore varios escenarios, patrones avanzados y enfoques de prueba de integración.
 </p>
 </td>
 </tr></table>
@@ -364,7 +364,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 **[Ensayo](../using/building-journeys/journey-dry-run.md)**: herramienta de análisis de ejecución de recorrido que rastrea rutas sin enviar mensajes ni realizar llamadas de API. Caso de uso: validación de la lógica sin consumir recursos. [Más información sobre el ensayo](../using/building-journeys/journey-dry-run.md)
 
-**[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)**: archivos CSV o JSON que contienen valores de atributo de perfil para probar la personalización. Admite hasta 30 variantes. Alternativa a la creación de perfiles de prueba. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
+**[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)**: archivos CSV o JSON, entrada manual o generación automática de IA para probar la personalización. Admite hasta 30 variantes. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 
 **[Listas semilla](../using/configuration/seed-lists.md)**: las direcciones de correo electrónico de las partes interesadas internas se incluyen automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: supervisión de la calidad y cumplimiento normativo. [Configure listas semilla](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 >[!TAB Guías esenciales]
 
-* [Simular variaciones de contenido](../using/test-approve/simulate-sample-input.md): pruebe hasta 30 contextos de personalización con archivos CSV o JSON. Ideal para pruebas de contenido multilingües sin crear varios perfiles de prueba. Admite tarjetas de correo electrónico, SMS, push, web, basadas en código, en la aplicación y de contenido.
+* [Simular variaciones de contenido](../using/test-approve/simulate-sample-input.md): pruebe hasta 30 escenarios de personalización utilizando archivos CSV o JSON, entradas manuales o generación automática de IA.
 
 * [Creación de perfiles de prueba](../using/audience/creating-test-profiles.md): cree y administre perfiles de prueba para simular casos de clientes. Obtenga información sobre cómo marcar perfiles para pruebas, establecer atributos y organizar segmentos de prueba.
 
@@ -453,9 +453,9 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Cuál es la diferencia entre el modo de prueba y la prueba en seco para recorridos?
 
-**Modo de prueba:** Envía perfiles de prueba a través del recorrido, activa acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
-**Ensayo:** rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
-**Usar juntos:** Modo de prueba para la prueba de mensajes + Ensayo para la validación lógica: cobertura completa.
+**Modo de prueba:** Envía perfiles de prueba a través del recorrido, déclencheur acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + área de nombres.
+**Ejecución en seco:** Rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
+**Úsalos juntos:** Modo de prueba para la prueba de mensajes + Ejecución en seco para la validación lógica: cobertura completa.
 
 ### P: ¿Puedo probar los recorridos en el estado de producción/activo?
 

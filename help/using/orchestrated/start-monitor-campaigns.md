@@ -18,9 +18,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +76,7 @@ El icono **[!UICONTROL Alertas]** / **[!UICONTROL Advertencia]** de la barra de 
 
 También puede identificar rápidamente las actividades fallidas mediante los [indicadores visuales de estado](#activities) que se muestran directamente en cada actividad. Para obtener información detallada sobre la resolución de problemas, abra los [registros de la campaña](#logs-tasks), que proporcionan información detallada sobre el error y su contexto.
 
-Si ha agregado actividades de canal en el lienzo, puede obtener una vista previa y probar el contenido de sus mensajes con el botón **[!UICONTROL Simular contenido]**. [Aprenda a trabajar con actividades de canal y a simular contenido](activities/channels.md#simulate-content-test-profiles).
+Si ha añadido actividades de canal en el lienzo, puede obtener una vista previa y probar el contenido de los mensajes. [Aprenda a trabajar con actividades de canal y a simular contenido](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

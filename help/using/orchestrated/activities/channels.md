@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 39%
+source-wordcount: 1908
+ht-degree: 37%
 
 ---
 
@@ -199,7 +199,10 @@ Para obtener información detallada sobre cómo usar el editor de personalizaci�
 
 ### Comprobación y prueba del contenido {#simulate-content-test-profiles}
 
-Una vez creado el contenido, use el botón **[!UICONTROL Simular contenido]** para obtener una vista previa y probar el contenido con los perfiles de prueba o los datos de entrada de muestra cargados desde un archivo CSV/JSON, o añadidos manualmente. [Más información](../../content-management/preview-test.md)
+Una vez creado el contenido, se puede obtener una vista previa y probarlo mediante cualquiera de los métodos de simulación:
+
+* Haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA. [Aprenda a simular variaciones de contenido](../../test-approve/simulate-sample-input.md)
+* Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizar y probar el contenido con perfiles de prueba. [Más información](../../content-management/preview-test.md)
 
 ![imagen que muestra el botón Simular contenido](../assets/channel-simulate.png)
 

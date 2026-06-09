@@ -25,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1647
 ht-degree: 18%
 
 ---
@@ -166,9 +166,10 @@ Para empezar a crear la experiencia web, siga los pasos a continuación.
 >title="Previsualizar la experiencia web"
 >abstract="Obtenga una simulación del aspecto que tendrá su experiencia web."
 
-Una vez que [haya creado su experiencia web](web-visual-editor.md) con el diseñador web, puede usar perfiles de prueba para obtener una vista previa de las páginas web modificadas. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este mediante los datos del perfil de prueba.
+Una vez que [haya creado su experiencia web](web-visual-editor.md) con el diseñador web, puede obtener una vista previa de las páginas web modificadas mediante cualquiera de los métodos de simulación:
 
-Para ello, haga clic en **[!UICONTROL Simular contenido]** desde la pantalla de contenido de edición de recorrido o campaña y, a continuación, agregue un perfil de prueba para comprobar la página web mediante los datos del perfil de prueba.
+* Haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
+* Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba y agregar un perfil de prueba para comprobar su página web.
 
 ![](assets/web-designer-preview.png)
 

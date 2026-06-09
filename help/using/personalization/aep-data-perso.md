@@ -24,9 +24,9 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 756
 ht-degree: 5%
 
 ---
@@ -114,7 +114,7 @@ Una vez que un conjunto de datos se haya habilitado para la personalización de 
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. Ahora que el código está listo, puede completar el contenido como de costumbre y probarlo con el botón **Simular contenido** para comprobar la personalización. [Obtenga información sobre cómo obtener una vista previa y probar contenido](../content-management/preview-test.md)
+1. Ahora que el código está listo, puede completar el contenido como de costumbre y probarlo con cualquiera de los métodos de simulación: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y luego seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** del menú desplegable para previsualizarlo con perfiles de prueba. [Obtenga información sobre cómo obtener una vista previa y probar contenido](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

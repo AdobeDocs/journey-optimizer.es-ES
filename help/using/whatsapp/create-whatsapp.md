@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1036
+source-wordcount: 1034
 ht-degree: 3%
 
 ---
@@ -169,7 +169,7 @@ Tenga en cuenta que la plantilla de WhatsApp primero debe ser aprobada por Meta 
 
    ![](assets/whatsapp-design-4.png)
 
-1. Usa el botón **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido de tu mensaje de WhatsApp, las URL abreviadas y el contenido personalizado. [Más información](send-whatsapp.md)
+1. Usa **[!UICONTROL Simular contenido]** para obtener una vista previa del contenido de tu mensaje de WhatsApp, las URL abreviadas y el contenido personalizado. [Más información](send-whatsapp.md)
 
 Una vez que hayas realizado las pruebas y validado el contenido, puedes [enviar tu mensaje de WhatsApp](send-whatsapp.md) a tu audiencia y monitorizar su rendimiento a través de [informes](../reports/campaign-global-report-cja.md). Para los datos de interacción de WhatsApp almacenados en Experience Platform, consulte [Analizar interacciones de WhatsApp](send-whatsapp.md#whatsapp-channel-context).
 
@@ -192,7 +192,7 @@ Una vez que hayas realizado las pruebas y validado el contenido, puedes [enviar 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -206,7 +206,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 

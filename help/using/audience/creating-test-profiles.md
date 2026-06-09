@@ -23,9 +23,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1264
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV o JSON, o añadidos manualmente. [Aprenda a probar el contenido con datos de entrada de ejemplo](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer] ofrece dos formas de simular contenido: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o generación automática de IA; o haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
 
 Puede crear perfiles de prueba al [cargar un archivo CSV](#create-test-profiles-csv) o al usar [llamadas a la API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] también proporciona un [caso de uso en el producto](#use-case-1) específico para facilitar la creación del perfil de prueba.
 
@@ -193,7 +193,7 @@ En [!DNL Adobe Experience Platform], puede crear perfiles cargando un archivo cs
    ![Menú de flujos de trabajo en Adobe Experience Platform](assets/test-profiles-14.png)
 1. Elija **[!UICONTROL Asignar CSV al esquema XDM]** y, a continuación, haga clic en **Iniciar**.
    ![Asignar CSV a la opción de flujo de trabajo de esquema XDM](assets/test-profiles-16.png)
-1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Next**.
+1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Siguiente**.
    ![Pantalla de selección de conjuntos de datos para importación de CSV](assets/test-profiles-17.png)
 1. Haga clic en **Elegir archivos** y seleccione el archivo CSV. Cuando se cargue el archivo, haga clic en **Siguiente**.
    ![Pantalla de carga de archivos con el botón Elegir archivos](assets/test-profiles-18.png)
