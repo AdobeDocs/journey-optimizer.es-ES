@@ -12,9 +12,9 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Las palabras clave de SMS entrantes se pueden almacenar en un conjunto de datos 
 
 >[!NOTE]
 >
->Si no se ha configurado ningún conjunto de datos personalizado, las palabras clave entrantes se almacenan en el sistema _AJO Inbound Activity Event Dataset_ de forma predeterminada. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets)
+>Si no se ha configurado ningún conjunto de datos personalizado, las palabras clave entrantes se almacenan en el sistema _AJO Email Tracking Dataset_ de forma predeterminada. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets)
 
 Para obtener información general sobre esquemas, grupos de campos y conjuntos de datos, consulte la siguiente documentación de Adobe Experience Platform:
 

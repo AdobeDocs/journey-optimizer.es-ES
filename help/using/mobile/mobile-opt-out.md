@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ Tenga en cuenta que si un cliente responde STOP a un mensaje de Mobile, el prove
 
 >[!NOTE]
 >
->Si planea utilizar SMS bidireccionales (responder con STOP, QUIT, etc.), asegúrese de que ha enviado primero al menos un SMS unidireccional para establecer el número de teléfono de asignación de perfiles. Las credenciales de proveedor caducadas o mal configuradas evitarán que las palabras clave entrantes actualicen el perfil del usuario, lo que dará como resultado registros de exclusión ausentes o retrasados. Las respuestas entrantes se almacenan en el conjunto de datos del sistema _AJO Inbound Activity Event Dataset_. [Más información](../data/get-started-datasets.md#system-datasets)
+>Si planea utilizar SMS bidireccionales (responder con STOP, QUIT, etc.), asegúrese de que ha enviado primero al menos un SMS unidireccional para establecer el número de teléfono de asignación de perfiles. Las credenciales de proveedor caducadas o mal configuradas evitarán que las palabras clave entrantes actualicen el perfil del usuario, lo que dará como resultado registros de exclusión ausentes o retrasados. Las respuestas entrantes se almacenan en el _conjunto de datos del sistema AJO Email Tracking_. [Más información](../data/get-started-datasets.md#system-datasets)
 
 
 ## Listas de bloqueados {#sms-blocklists}
