@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
+>
+>Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
 
 Puede establecer el recorrido en **[!UICONTROL Simulación]** además de **Borrador**, **Modo de prueba** y **Activo**. En Simulación, realiza pruebas con **usuarios simulados**: entidades temporales similares a un perfil que agrega, sin usar perfiles de prueba persistentes en Adobe Experience Platform.
 
