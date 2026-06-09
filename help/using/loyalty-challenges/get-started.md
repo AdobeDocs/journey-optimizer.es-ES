@@ -12,12 +12,11 @@ badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +90,6 @@ Puede crear estos tipos de experiencias de desafío:
   *Ejemplo: &quot;Nuevo Recorrido para miembros&quot; - Regístrese para recibir correos electrónicos → Realice su primera compra → Escriba una opinión sobre el producto → Consulte a un amigo (complete este pedido exacto)*
 
 * **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. La configuración, el contenido y la mensajería se configuran del mismo modo que para cualquier otro tipo de desafío.
-
-* **Desafíos repetibles**: Configure cuántas veces los miembros pueden completar el mismo desafío y ganar recompensas de nuevo. [Más información sobre los límites de repetición](create-challenges.md#repeat-limits)
 
 ## Funcionamiento {#how-it-works}
 
@@ -214,7 +211,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar desafíos de lealtad</strong></a>
     </div>
     <p>
