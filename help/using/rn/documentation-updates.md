@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* La página **Introducción a la entrega** se ha actualizado con una nueva subsección **Proveedores sin FBL** por destinatario. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioning ya está disponible para el canal de correo postal.** Una nueva página de **Toma de decisiones por lotes en correo postal** describe cómo usar el motor de toma de decisiones para personalizar archivos de extracción de correo postal o para exportar perfiles y sus resultados de toma de decisiones para usarlos en sistemas descendentes. **El correo postal** se ha agregado como un canal admitido en la documentación de decisiones (Introducción, Crear una directiva de decisión, Usar directivas de decisión en mensajes, Introducción a las directivas de decisiones), incluida la capacidad de devolver varios elementos de decisión por perfil a través del campo **[!UICONTROL Número de elementos]**. [Más información](../experience-decisioning/batch-decisioning-direct-mail.md)
 
