@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -94,10 +94,8 @@ Este comportamiento se aplica solamente a **recorridos de audiencia de lectura n
 >[!NOTE]
 >
 >Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos siguen estando sujetos al tiempo de espera global estándar de 91 días.
-
->[!NOTE]
 >
->Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción **[!UICONTROL Cerrar a nuevas entradas]**. El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
+>Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances). El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
 
 ### ¿Cuándo se considera que un recorrido ha &quot;finalizado&quot;? {#journey-finished-definition}
 
