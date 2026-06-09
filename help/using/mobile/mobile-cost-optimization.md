@@ -9,24 +9,15 @@ role: User
 level: Intermediate
 exl-id: c8c156da-8482-4932-9c15-45ab83c173e7
 TQID: https://experienceleague.adobe.com/ccUbyMiVNBULBlaYAb-z6-WFGcWURtmelyKUy7v2g2o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 545
 ht-degree: 1%
 
 ---
@@ -71,7 +62,7 @@ Evite utilizar aplicaciones de texto enriquecido, ya que pueden introducir carac
 
 ## Compruebe el recuento de caracteres antes de enviar {#check-character-count}
 
-Utilice aplicaciones de texto sin formato o el menú Journey Optimizer **[!UICONTROL Simular contenido]** para comprobar los recuentos de caracteres.
+Use aplicaciones de texto sin formato o cualquier método de simulación en **[!UICONTROL Simular contenido]** para comprobar los recuentos de caracteres.
 
 Aunque Journey Optimizer muestra un recuento de caracteres, incluidos los espacios, durante la simulación de contenido, tenga en cuenta que:
 

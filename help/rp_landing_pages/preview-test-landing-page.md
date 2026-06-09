@@ -5,10 +5,10 @@ title: Vista previa y prueba del contenido
 description: Valide la precisión del mensaje antes del lanzamiento. Obtenga una vista previa del contenido personalizado con perfiles de prueba, envíe pruebas a las partes interesadas, compruebe el renderizado de los correos electrónicos entre los clientes, evalúe las puntuaciones de spam y pruebe varias variaciones de contenido de forma eficaz.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Garantice un envío de mensajes impecable detectando los errores antes de que ll
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Cómo previsualizar y probar el contenido
 
@@ -38,7 +38,7 @@ Aprenda a utilizar perfiles de prueba y datos de entrada de muestra para previsu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo seleccionar perfiles de prueba
 
@@ -48,7 +48,7 @@ Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Previsualizar el contenido mediante perfiles de prueba
 
@@ -58,7 +58,7 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Enviar pruebas mediante datos de perfil de prueba
 
@@ -68,7 +68,7 @@ Pruebe y valide sus mensajes de correo electrónico enviando pruebas utilizando 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Cómo probar el renderizado de correo electrónico con Litmus
 
@@ -78,11 +78,11 @@ Integre Litmus para obtener una vista previa de la representación de correo ele
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simulación y prueba de variaciones de contenido
 
-Simule las variaciones de contenido utilizando los datos de entrada de muestra para probar el contenido personalizado y garantizar la precisión.
+Simule las variaciones de contenido utilizando datos de entrada de muestra o variantes generadas por IA para probar contenido personalizado y garantizar la precisión.
 
 [Simulación de variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 :::
@@ -122,14 +122,14 @@ Siga esta secuencia para realizar una validación completa:
 
 **Contexto:** ejemplos del mundo real que muestran cómo aplicar herramientas de prueba en casos de uso habituales.
 
-**Caso 1: probar correos electrónicos personalizados para una campaña de varios segmentos**
-→ Use [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) para probar entre 20 y 30 variaciones sin crear perfiles de prueba individuales. Cargue un CSV con diferentes atributos de cliente y previsualice todo a la vez.
+**Escenario 1: probando correos electrónicos personalizados para una campaña de varios segmentos**
+→ Use [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) para probar hasta 30 variaciones sin crear perfiles de prueba individuales. Cargue un CSV con diferentes atributos del cliente, añada valores manualmente o genere variantes automáticamente con IA y previsualice todo a la vez.
 
-**Caso 2: validar el procesamiento de correo electrónico antes de un envío principal**
+**Escenario 2: validar el procesamiento de correo electrónico antes de un envío principal**
 → Ejecutar [pruebas Litmus](../using/content-management/rendering.md) para comprobar la visualización en los principales clientes de correo electrónico y, a continuación, comprobar el [informe de correo no deseado](../using/content-management/spam-report.md) para garantizar la ubicación en la bandeja de entrada.
 
-**Caso 3: obtener la firma de las partes interesadas**
-→ [Enviar pruebas](../using/content-management/proofs.md) a revisores internos con datos de perfil de prueba para que vean exactamente lo que los clientes recibirán.
+**Escenario 3: se está consiguiendo la firma de las partes interesadas**
+→ [Envíe pruebas](../using/content-management/proofs.md) a revisores internos con datos de perfil de prueba para que vean exactamente lo que los clientes recibirán.
 
 ## Principales conclusiones
 

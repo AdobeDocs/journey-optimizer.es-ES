@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: 479
 ht-degree: 10%
 
 ---
@@ -19,9 +18,10 @@ ht-degree: 10%
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
->[!NOTE]
->
->[!DNL Journey Optimizer] también le permite probar diferentes variantes del contenido previsualizándolo y enviando pruebas utilizando datos de entrada de muestra cargados desde un archivo CSV / JSON, o añadidos manualmente. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md)
+Puede enviar pruebas utilizando cualquiera de los métodos de simulación:
+
+* Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para enviar pruebas con perfiles de prueba.
+* Haga clic en **[!UICONTROL Simular contenido]** para enviar pruebas de las variaciones de contenido creadas con datos de entrada de muestra o con la generación automática de IA. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md#proofs)
 
 ## Lectura obligatoria {#must-read}
 
