@@ -9,19 +9,12 @@ role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 TQID: https://experienceleague.adobe.com/u2OevVu38fPdytpuTmHeSdEx3Wvpih7ifk-j88rhDFI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 2%
@@ -56,7 +49,7 @@ Cuando el mensaje de WhatsApp esté listo, completa la configuración de tu [rec
 
 ## Analizar interacciones de WhatsApp {#whatsapp-channel-context}
 
-Journey Optimizer captura datos de interacción adicionales devueltos por el canal WhatsApp y los almacena en el **Conjunto de datos de eventos de experiencia de seguimiento de correo electrónico - Informes** en el grupo de campos `whatsAppChannelContext`. Utilice estos campos para generar [audiencias](../audience/about-audiences.md), ejecutar [consultas](../data/get-started-queries.md) y analizar la participación de WhatsApp. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets).
+Journey Optimizer captura datos de interacción adicionales devueltos por el canal WhatsApp y los almacena en el **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO** en el grupo de campos `whatsAppChannelContext`. Utilice estos campos para generar [audiencias](../audience/about-audiences.md), ejecutar [consultas](../data/get-started-queries.md) y analizar la participación de WhatsApp. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets).
 
 Se capturan los campos siguientes:
 

@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 3%
 
 ---
@@ -55,7 +52,7 @@ Al configurar un gancho web, puede definir su propósito según el tipo de datos
 
 >[!NOTE]
 >
->Los datos de palabras clave entrantes se almacenan en el conjunto de datos del sistema _AJO Inbound Activity Event Dataset_, a menos que se configure un conjunto de datos personalizado. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que se puedan capturar los mensajes entrantes. [Más información](../data/get-started-datasets.md#system-datasets)
+>Los datos de palabras clave entrantes se almacenan en el conjunto de datos del sistema _AJO Email Tracking Dataset_, a menos que se configure un conjunto de datos personalizado. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que se puedan capturar los mensajes entrantes. [Más información](../data/get-started-datasets.md#system-datasets)
 
 Según el proveedor, habrá diferentes expectativas sobre lo que se debe configurar para tener una implementación correcta de SMS:
 

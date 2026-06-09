@@ -9,22 +9,15 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +56,7 @@ Tenga en cuenta que si un cliente responde STOP a un mensaje de Mobile, el prove
 
 >[!NOTE]
 >
->Si planea utilizar SMS bidireccionales (responder con STOP, QUIT, etc.), asegúrese de que ha enviado primero al menos un SMS unidireccional para establecer el número de teléfono de asignación de perfiles. Las credenciales de proveedor caducadas o mal configuradas evitarán que las palabras clave entrantes actualicen el perfil del usuario, lo que dará como resultado registros de exclusión ausentes o retrasados. Las respuestas entrantes se almacenan en el conjunto de datos del sistema _AJO Inbound Activity Event Dataset_. [Más información](../data/get-started-datasets.md#system-datasets)
+>Si planea utilizar SMS bidireccionales (responder con STOP, QUIT, etc.), asegúrese de que ha enviado primero al menos un SMS unidireccional para establecer el número de teléfono de asignación de perfiles. Las credenciales de proveedor caducadas o mal configuradas evitarán que las palabras clave entrantes actualicen el perfil del usuario, lo que dará como resultado registros de exclusión ausentes o retrasados. Las respuestas entrantes se almacenan en el _conjunto de datos del sistema AJO Email Tracking_. [Más información](../data/get-started-datasets.md#system-datasets)
 
 
 ## Listas de bloqueados {#sms-blocklists}
@@ -87,6 +80,6 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
 
   +++ Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
