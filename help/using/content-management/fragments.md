@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -52,6 +52,15 @@ Para aprovechar al máximo los fragmentos:
 
 * **Crear sus propios fragmentos**: cree fragmentos visuales o de expresión, ya sea desde cero o guardando el contenido como fragmento. [Aprenda a crear un fragmento](create-fragments.md). Además, puede aprovechar Journey Optimizer **API de REST de contenido** para administrar fragmentos de contenido. Para obtener más información, consulte la [documentación de las API de Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Reutilice sus fragmentos:** Úselos tantas veces como sea necesario en su contenido. Ver [Agregar fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md)
+
+
+>[!NOTE]
+>
+>Los **[!UICONTROL fragmentos]** descritos en esta página son componentes **content** reutilizables. Son diferentes a:
+>
+>* **[Fragmentos de Recorrido](../building-journeys/journey-fragments.md)**: conjuntos reutilizables de nodos de recorrido insertados en recorridos.
+>* **[Fragmentos de contenido de AEM](../integrations/aem-fragments.md)**: contenido creado en Adobe Experience Manager y utilizado en [!DNL Journey Optimizer].
+
 
 ## Antes de empezar {#fragment-prerequisites}
 

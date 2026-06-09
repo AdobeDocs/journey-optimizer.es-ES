@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* **Experience Decisioning ya está disponible para el canal de correo postal.** Una nueva página de **Toma de decisiones por lotes en correo postal** describe cómo usar el motor de toma de decisiones para personalizar archivos de extracción de correo postal o para exportar perfiles y sus resultados de toma de decisiones para usarlos en sistemas descendentes. **El correo postal** se ha agregado como un canal admitido en la documentación de decisiones (Introducción, Crear una directiva de decisión, Usar directivas de decisión en mensajes, Introducción a las directivas de decisiones), incluida la capacidad de devolver varios elementos de decisión por perfil a través del campo **[!UICONTROL Número de elementos]**. [Más información](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* La documentación de **Fragmentos de Recorrido** ya no se marca como Disponibilidad limitada. La página ahora incluye una nota para desambiguar los fragmentos de Recorrido del contenido **[!UICONTROL Fragmentos]** y **Fragmentos de contenido de AEM** (enlazados cruzados de las tres páginas), y documentos compatibles con **Herramientas de espacio aislado**, **Registros de auditoría** y **Etiquetado**. Los fragmentos de recorrido también se han agregado a la página **Introducción a recorrido**. [Más información](../building-journeys/journey-fragments.md)
+
+* La documentación de **fuentes de datos externas** y **acción personalizada** se ha actualizado para la autenticación personalizada. El campo `tokenInResponse` ahora le permite especificar si `access_token` o `id_token` se utilizan como credencial de autenticación cuando un extremo devuelve ambos. Para la autenticación personalizada basada en certificados, los campos `subType` y `aud` ahora son obligatorios, el extremo de token `method` debe ser `POST` y las referencias a &quot;Azure Entra ID&quot; se han corregido a &quot;Microsoft Entra ID&quot;. [Más información](../datasource/external-data-sources.md#certificate-credential)
 
 * La página **Introducción a la toma de decisiones** se ha actualizado con un diagrama de procesos que resume el flujo de trabajo completo de la toma de decisiones, desde la administración de elementos de decisión y la configuración de estrategias de selección hasta la incrustación de directivas de decisión en un recorrido o campaña. [Más información](../experience-decisioning/gs-experience-decisioning.md#process)
 
