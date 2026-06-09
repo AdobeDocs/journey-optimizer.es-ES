@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac5d3c36f0af1db72a83d25e49e20ff59dbfa5bd
 workflow-type: tm+mt
 source-wordcount: 2840
 ht-degree: 21%
@@ -62,6 +62,7 @@ ht-degree: 21%
 <td>
 <p>Ahora puede establecer el recorrido en Simulación. Este modo le permite validar la lógica utilizando usuarios simulados. Son perfiles temporales creados específicamente para la simulación, lo que le permite realizar pruebas libremente sin necesidad de administrar perfiles de prueba persistentes en Adobe Experience Platform. </p>
 <p>Lanzada anteriormente en disponibilidad limitada, la simulación de Recorrido ya está disponible para todos los entornos. Con esta versión de General Availability, ahora puede utilizar Journey Agent para generar usuarios y eventos simulados directamente en el menú Simulation.</p>
+<p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/simulate-journey-gs.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 9 de junio de 2026</p>
 </td>
