@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 16%
+source-wordcount: 1080
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicación de un recorrido en modo de ensayo"
->abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez que haya diseñado su recorrido, ejecute un ensayo para confirmar que es funcional y asegurarse de que los pasos sean correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
+>abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez diseñado un recorrido, una ejecución en seco confirma que funciona y garantiza que los pasos son correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
 El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 

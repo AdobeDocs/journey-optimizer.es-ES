@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ Utilice la actividad Leer audiencia para iniciar recorridos con audiencias defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
->abstract="Añadir todos los perfiles cualificados de un público de [!DNL Adobe Experience Platform] seleccionado a este recorrido. Ejecutar una vez o según una programación."
+>abstract="Agrega todos los perfiles calificados de una audiencia [!DNL Adobe Experience Platform] seleccionada a este recorrido. Se ejecuta una vez o según una programación."
 
 La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido que agrega todos los perfiles de una audiencia [!DNL Adobe Experience Platform] seleccionada a un recorrido. Puede ejecutar la entrada una vez o en una programación recurrente. En las API y referencias técnicas, esta actividad también se denomina entrada de recorrido basada en segmentos o déclencheur de audiencias.
 
@@ -94,12 +94,12 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público"
->abstract="Seleccione el público de [!DNL Adobe Experience Platform] cuyos perfiles ingresarán a este recorrido."
+>abstract="La audiencia [!DNL Adobe Experience Platform] cuyos perfiles entran en este recorrido. Todos los perfiles cualificados se leen en. Se recomiendan las audiencias por lotes para obtener recuentos fiables y coherentes, y solo se puede leer una audiencia por actividad."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Área de nombres"
->abstract="Elija qué identidad (por ejemplo, correo electrónico, ECID) se utiliza para identificar a las personas que entran en el recorrido. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
+>title="Espacio de nombres"
+>abstract="La identidad (por ejemplo: correo electrónico, ECID) utilizada para identificar a las personas que entran en el recorrido. Solo están disponibles las áreas de nombres basadas en personas y los perfiles sin esta identidad no pueden entrar. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
 
@@ -177,17 +177,17 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Fecha y hora de inicio"
->abstract="Defina cuándo iniciar este recorrido."
+>abstract="La fecha y la hora en que el recorrido empieza a leer la audiencia y los perfiles comienzan a introducir. Combínelo con las opciones de periodicidad siguientes para programar ejecuciones recurrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir hasta"
->abstract="Defina la fecha de finalización para las ejecuciones recurrentes."
+>abstract="La fecha en la que se detienen las ejecuciones recurrentes. Después de esta fecha, el recorrido ya no lee la audiencia ni admite nuevos perfiles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir cada"
->abstract="La frecuencia con la que se ejecuta el recorrido (por ejemplo, diaria o semanal)."
+>abstract="La frecuencia con la que el recorrido vuelve a leer la audiencia y se ejecuta de nuevo, por ejemplo, diariamente o semanalmente. Determina el intervalo de periodicidad entre ejecuciones hasta que se alcance la fecha Repetir hasta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forzar reentrada"
->abstract="Borre todos los participantes del recorrido antes de que se lea cada público nuevo."
+>abstract="Borra todos los participantes de la recorrido antes de que se lea cada audiencia nueva, de modo que cada ejecución se inicia de nuevo y los perfiles pueden volver a entrar en cada ocurrencia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Activar tras la evaluación del público por lotes"
->abstract="Ejecute el recorrido solo después de que el público por lotes se haya evaluado recientemente."
+>abstract="Retrasa cada ejecución hasta que la audiencia por lotes se ha evaluado recientemente, por lo que el recorrido lee la instantánea de audiencia más actualizada en lugar de datos antiguos. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ Por ejemplo, si un recorrido está programado para las 18:00 diariamente, puede 
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

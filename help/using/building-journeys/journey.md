@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1616
-ht-degree: 98%
+source-wordcount: 1614
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Crear un recorrido"
->abstract="Con un lienzo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto."
+>abstract="El lienzo de arrastrar y soltar organiza mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación de audiencia para lograr el máximo impacto."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creación de su primer recorrido"
 
 

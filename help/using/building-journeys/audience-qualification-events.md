@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Calificación del público"
->abstract="Active la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de un público [!DNL Adobe Experience Platform]. Recomendado para públicos de streaming; utilice una actividad Leer público para escenarios por lotes."
+>abstract="Déclencheur la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de una audiencia [!DNL Adobe Experience Platform]. Recomendado para audiencias de streaming; se utiliza la actividad Leer audiencia para escenarios por lotes."
 
 ## Acerca de los eventos de calificación de público{#about-segment-qualification}
 
@@ -49,7 +49,7 @@ Supongamos que tiene un público de “clientes plata”. Con esta actividad, pu
 
 Este tipo de evento se puede colocar como primer paso o más tarde en el recorrido.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 
 >[!CAUTION]
@@ -64,22 +64,22 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etiqueta"
->abstract="Añada una etiqueta opcional para identificar esta actividad en los registros de los modos de prueba y creación de informes."
+>abstract="Una etiqueta opcional para identificar esta actividad en los registros del modo de prueba y creación de informes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público"
->abstract="Seleccione el público [!DNL Adobe Experience Platform] que desee aprovechar. El recorrido escucha las entradas y salidas de perfil de este público."
+>abstract="Audiencia [!DNL Adobe Experience Platform] que supervisa el recorrido. Los perfiles entran o avanzan según cumplen los requisitos o salen de esta audiencia. Se recomiendan las audiencias de streaming para que la calificación se evalúe en tiempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamiento"
->abstract="Elija si desea escuchar las entradas de público, las salidas o ambos."
+>abstract="Define los cambios de pertenencia a audiencias a los que reacciona el recorrido: cuando los perfiles cumplen los requisitos para (entrar) la audiencia, cuando la abandonan (salir) o ambos. Escuchar ambas abarca el ciclo de vida completo de la membresía, mientras que una sola opción restringe el recorrido a una dirección."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo de identidad"
->abstract="Seleccione el tipo de identidad utilizado para identificar a las personas. Solo están disponibles los espacios de nombres de identidad basadas en personas."
+>abstract="El área de nombres de identidad que se utiliza para reconocer a las personas cuando cumplen los requisitos para la audiencia. Solo están disponibles las áreas de nombres de identidad basadas en personas y los perfiles sin esta identidad no pueden entrar en el recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
