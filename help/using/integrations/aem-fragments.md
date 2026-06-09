@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 Las experiencias existentes de **Selector de recursos** y **Selector de fragmentos de contenido** en los flujos de trabajo de Adobe Journey Optimizer se están reemplazando con **Asesor de contenido**. El Asesor de contenido proporciona una interfaz unificada con tecnología de IA para detectar y seleccionar Assets, fragmentos de contenido y Dynamic Media directamente en los flujos de trabajo de creación de AJO. Las integraciones existentes seguirán funcionando durante el período de transición.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**Los fragmentos de contenido de AEM** se crearon en Adobe Experience Manager y se usaron en [!DNL Journey Optimizer]. Son diferentes a:
+>
+>* **[Fragmentos](../content-management/fragments.md)**: componentes de contenido reutilizables creados en [!DNL Journey Optimizer] y utilizados en correos electrónicos en campañas y recorridos.
+>* **[Fragmentos de Recorrido](../building-journeys/journey-fragments.md)**: conjuntos reutilizables de nodos de recorrido insertados en recorridos.
 
 La integración entre Adobe Experience Manager y Journey Optimizer sigue este flujo de datos:
 

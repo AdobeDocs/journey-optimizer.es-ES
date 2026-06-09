@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 49%
+source-wordcount: 979
+ht-degree: 47%
 
 ---
 
@@ -106,6 +106,16 @@ Cree **acciones personalizadas** si usa un sistema de terceros para enviar mensa
 Con el **diseñador de recorridos**, genere sus casos de uso de varios pasos: arrastre y suelte fácilmente un evento de entrada o una actividad de lectura de público, agregue condiciones y envíe mensajes personalizados.
 
 [Explorar el diseñador de recorridos](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+
+**Fragmentos de Recorrido reutilizables**
+
+Genere un conjunto de nodos de recorrido una vez, como una comprobación de idoneidad o una lógica de enrutamiento de canal, y reutilícelos en recorridos con **fragmentos de Recorrido**.
+
+[Más información sobre los Fragmentos de Recorrido](journey-fragments.md)
 :::
 
 :::
