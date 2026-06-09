@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
-badge: label="Disponibilidad limitada" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 10%
+source-wordcount: 1482
+ht-degree: 9%
 
 ---
 
 
 # Fragmentos de recorrido {#journey-fragments}
-
->[!AVAILABILITY]
->Actualmente, esta capacidad está en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido que puede generar una vez y soltarlos en cualquier recorrido de la zona protegida. Tanto si se trata de una comprobación de elegibilidad, una lógica de enrutamiento de canal preferida o una secuencia de bienvenida, los fragmentos ayudan a los equipos a moverse más rápido y a mantener la coherencia, sin volver a crear la misma lógica desde cero cada vez. [Vea ejemplos de casos de uso.](#examples)
 
@@ -187,6 +183,7 @@ Las siguientes protecciones se aplican a los fragmentos de recorrido:
 * [Etiquetas](tags.md) y **Etiquetas** son compatibles con los fragmentos.
 * Se admiten [registros de auditoría](../privacy/audit-logs.md).
 * Los recorridos que se ejecutan en la pila antigua (con campañas en línea) no admiten fragmentos de recorrido. Duplique un recorrido de este tipo para pasar a la nueva pila antes de utilizar esta función.
+* Los fragmentos de recorrido admiten [Herramientas de espacio aislado](../configuration/copy-objects-to-sandbox.md). Los fragmentos se pueden empaquetar y exportar a otra zona protegida.
 
 ## Ejemplos de casos de uso {#examples}
 
