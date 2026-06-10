@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2942
 ht-degree: 21%
 
 ---
@@ -65,6 +65,26 @@ ht-degree: 21%
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/simulate-journey-gs.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 9 de junio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimización de ruta de recorrido: segmentación</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La <strong>actividad de optimización</strong> ahora admite <strong>reglas de segmentación</strong> que le permiten definir criterios específicos que los clientes deben cumplir para calificar para una ruta de recorrido en particular, según segmentos de audiencia o atributos de perfil.</p>
+<p>A diferencia de la experimentación, en la que los clientes se asignan a rutas de forma aleatoria, la segmentación utiliza una lógica determinista para garantizar que la audiencia o el perfil de cliente adecuados se enruten a la ruta deseada.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/path-targeting.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 8 de junio de 2026</p>
 </td>
 </tr>
 </tbody>

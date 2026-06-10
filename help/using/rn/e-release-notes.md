@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 ### Recorridos {#june-26-journeys}
 
 Las siguientes funcionalidades y mejoras están llegando a los recorridos en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Optimización de ruta de recorrido: segmentación</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La <strong>actividad de optimización</strong> ahora admite <strong>reglas de segmentación</strong>. Las reglas de segmentación permiten definir criterios específicos que los clientes deben cumplir para poder optar a una ruta de recorrido determinada, según los segmentos de audiencia o los atributos de perfil.</p>
-<p>A diferencia de la experimentación, en la que los clientes se asignan a rutas de forma aleatoria, la segmentación utiliza una lógica determinista para garantizar que la audiencia o el perfil de cliente adecuados se enruten a la ruta deseada.</p>
-<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Vincular a tarea DOCAC JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
