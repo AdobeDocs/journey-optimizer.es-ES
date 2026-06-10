@@ -24,7 +24,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="Acción de tarjeta de contenido"
 >abstract="Una acción de entrada de tarjeta de contenido muestra una tarjeta de contenido a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de tarjeta de contenido que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (de forma predeterminada, 3 días), lo que da a los perfiles tiempo para ver la tarjeta de contenido."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 
 Las tarjetas de contenido son experiencias entrantes en la aplicación que muestran contenido personalizado (como promociones, anuncios o recomendaciones) directamente en una superficie dedicada de la aplicación móvil. A diferencia de los mensajes interrumpidos, permanecen disponibles en la aplicación hasta que el usuario los descarta o las reglas de envío los ocultan.

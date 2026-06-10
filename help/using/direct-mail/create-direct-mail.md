@@ -57,7 +57,7 @@ Para crear mensajes de correo postal, cree una campaña programada o un recorrid
 >id="ajo_journey_action_direct_mail"
 >title="Acción de correo directo"
 >abstract="Una acción del canal de correo postal genera el contenido de correo postal de los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de correo directo que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 Examine las pestañas siguientes para aprender a añadir un mensaje de correo postal en una campaña o un recorrido.
 

@@ -51,7 +51,7 @@ De acuerdo con las normas y regulaciones del sector, todos los mensajes de marke
 >id="ajo_journey_action_sms"
 >title="Acción de mensaje móvil"
 >abstract="Una acción del canal de mensajes móviles envía un mensaje de texto (SMS), multimedia (MMS) o de comunicación enriquecida (RCS) a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de mensaje de Mobile que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 Examine las pestañas siguientes para aprender a añadir un mensaje móvil en una campaña o un recorrido.
 
