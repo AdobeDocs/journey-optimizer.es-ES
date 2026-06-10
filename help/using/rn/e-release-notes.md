@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 ### Recorridos {#june-26-journeys}
 
 Las siguientes funcionalidades y mejoras están llegando a los recorridos en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitraje de recorrido - Fórmulas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede usar <strong>fórmulas</strong> para <strong>priorizar y arbitrar automáticamente los recorridos</strong> según los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
-<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Vincular a tarea DOCAC JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Aumento del límite de recorridos activos y nuevas protecciones**: ahora puede tener hasta **200 recorridos activos**, más que el límite anterior de 100.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Vincular a tarea DOCAC JIRA</a>
