@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +44,8 @@ Las siguientes funcionalidades y mejoras están llegando a los recorridos en est
 <tbody>
 <tr>
 <td>
-<p>Use el nuevo <strong>nodo optimizado</strong> para segmentar audiencias específicas y determinar la mejor ruta para cumplir con los KPI centrados en la empresa.</p>
-<p>Esta herramienta le permite desarrollar campañas de marketing más efectivas que tengan más probabilidades de interesar en el nivel 1:1, mejorar los esfuerzos de personalización de marketing para los clientes y mejorar los KPI de participación del cliente esencial, como las conversiones y los ingresos.</p>
+<p>La <strong>actividad de optimización</strong> ahora admite <strong>reglas de segmentación</strong>. Las reglas de segmentación permiten definir criterios específicos que los clientes deben cumplir para poder optar a una ruta de recorrido determinada, según los segmentos de audiencia o los atributos de perfil.</p>
+<p>A diferencia de la experimentación, en la que los clientes se asignan a rutas de forma aleatoria, la segmentación utiliza una lógica determinista para garantizar que la audiencia o el perfil de cliente adecuados se enruten a la ruta deseada.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Vincular a tarea DOCAC JIRA</a></p>
 </td>
@@ -67,7 +62,7 @@ Las siguientes funcionalidades y mejoras están llegando a los recorridos en est
 <tbody>
 <tr>
 <td>
-<p>Ahora puede usar <strong>fórmulas</strong> para aumentar automáticamente <strong>las puntuaciones de recorrido</strong> según los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
+<p>Ahora puede usar <strong>fórmulas</strong> para <strong>priorizar y arbitrar automáticamente los recorridos</strong> según los atributos del perfil del cliente y los factores contextuales, asegurándose de que los clientes ingresen los recorridos más relevantes.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Vincular a tarea DOCAC JIRA</a></p>
 </td>
@@ -229,7 +224,7 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 * **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Vincular a tarea DOCAC JIRA</a>
 
-* **Reventa de Journey Optimizer - Mostrar métricas de uso** - Para los clientes que compran SMS directamente a través de Adobe Journey Optimizer, se ha introducido un nuevo **panel de uso de SMS**. Ahora puede ver y rastrear las métricas de envío de mensajes de los últimos 90 días, clasificadas por mensajes móviles originados (MO) y móviles terminados (MT). Estos datos también están disponibles para su descarga a través de CSV, lo que proporciona una mayor visibilidad y control sobre la inversión en SMS.
+* **SMS - Mostrar métricas de uso** - Para los clientes que compran SMS directamente a través de Adobe Journey Optimizer, se ha introducido un nuevo **panel de uso de SMS**. Ahora puede ver y rastrear las métricas de envío de mensajes de los últimos 90 días, clasificadas por mensajes móviles originados (MO) y móviles terminados (MT). Estos datos también están disponibles para su descarga a través de CSV, lo que proporciona una mayor visibilidad y control sobre la inversión en SMS.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Vincular a tarea DOCAC JIRA</a>
 
 ### Contenido e integraciones {#june-26-content}
@@ -305,7 +300,7 @@ La siguiente funcionalidad está llegando a los canales en esta versión.
 
 En esta versión se incluyen las siguientes mejoras en los informes.
 
-* **Excluir clics de bots para informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay disponibles nuevas métricas estimadas en los informes de Recorridos, campañas y canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
+* **Nuevas métricas estimadas de clics para los informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay nuevas métricas estimadas disponibles en los informes Recorridos, Campañas y Canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
    * Clics estimados: el total de clics se cuenta después de eliminar el tráfico de bots y no humanos identificados.
    * Estimated CTR: clics estimados en relación con las entregas totales.
    * Estimated CTOR for email only: Clics estimados en relación con las aperturas estimadas.
