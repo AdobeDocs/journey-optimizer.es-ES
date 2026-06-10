@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,15 @@ La actividad **[!UICONTROL Cargar archivo]** es una actividad de **[!UICONTROL A
 >
 >Actualmente, la actividad no está disponible para usarla con **Healthcare Shield**.
 
+## Permisos {#permissions}
+
+Para usar la actividad **[!UICONTROL Cargar archivo]** en una campaña orquestada, se deben asignar a los usuarios los permisos correctos. Ambos permisos están disponibles en **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campañas orquestadas]** en la interfaz de usuario de permisos.
+
+* **[!UICONTROL Ver archivo en campañas organizadas]**: otorga acceso de solo lectura. Los usuarios con este permiso pueden obtener una vista previa de los resultados de una campaña orquestada que contenga una actividad **[!UICONTROL Cargar archivo]**, pero no pueden agregar la actividad ni cargar un archivo.
+* **[!UICONTROL Administrar archivo en campañas orquestadas]** — Necesario para agregar una actividad **[!UICONTROL Cargar archivo]** al lienzo de campaña y cargar archivos. Asigne este permiso a cualquier usuario que necesite crear o configurar una actividad **[!UICONTROL Cargar archivo]**.
+
+Para obtener instrucciones sobre cómo asignar permisos, consulte [Administrar usuarios y funciones](../../administration/permissions.md).
+
 ## Mecanismos de protección y limitaciones {#limitations}
 
 Las siguientes limitaciones se aplican a la actividad Cargar archivo:
@@ -44,6 +53,42 @@ Las siguientes limitaciones se aplican a la actividad Cargar archivo:
 * Los datos cargados se utilizan cuando se ejecuta la campaña y no se almacenan como un conjunto de datos de Adobe Experience Platform.
 
 Para ver los límites en las actividades de canal y lienzo, consulte [Protecciones y limitaciones](../guardrails.md#activities-limitations).
+
+## Requisitos previos {#prerequisites}
+
+Para poder agregar una actividad **[!UICONTROL Cargar archivo]** a una campaña orquestada y conectarla a una actividad de mensaje, un administrador debe completar la siguiente configuración única.
+
+### Creación de una dimensión objetivo de tipo de archivo {#file-target-dimension}
+
+Un **[!UICONTROL Dimension de destino de perfil]** de tipo **[!UICONTROL Archivo]** permite que las campañas orquestadas resuelvan los destinatarios de un archivo cargado en lugar de un esquema de Adobe Experience Platform. Define el área de nombres de identidad y el campo de identificador utilizado cuando la audiencia del archivo se procesa en la ejecución de la campaña.
+
+Cree una dimensión de destino desde **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** > **[!UICONTROL Campaign Target Dimension]**. [Más información sobre las dimensiones de destino](../target-dimension.md)
+
+Al crear la dimensión de destino para la segmentación basada en archivos, asegúrese de lo siguiente:
+
+* Establecer **[!UICONTROL origen de Dimension]** en **[!UICONTROL Archivo]**.
+* Seleccione el **[!UICONTROL área de nombres de identidad]** que coincida con la columna de identificador de sus archivos, por ejemplo **[!UICONTROL Correo electrónico]**.
+* Escriba la **[!UICONTROL ruta del campo de identidad]**. Utilice el campo de archivo que contiene el identificador, por ejemplo `email` si los archivos cargados incluyen una columna `email`.
+
+>[!CAUTION]
+>
+>Los valores de esquema e identidad no se pueden cambiar después de guardar la dimensión de destino. Compruebe el área de nombres de identidad y la ruta del campo de identidad antes de guardar.
+
+### Creación de una configuración de canal para el envío basado en archivos {#file-channel-configuration}
+
+Cree una configuración de canal dedicada que utilice la dimensión objetivo File-type. Esta configuración está seleccionada en la actividad de mensaje que sigue a la actividad **[!UICONTROL Cargar archivo]** en el lienzo de la campaña.
+
+1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuraciones de canal]** y cree una nueva configuración.
+
+1. En **[!UICONTROL Detalles de ejecución]**, seleccione la pestaña **[!UICONTROL Campañas orquestadas]** y habilite la configuración para campañas orquestadas.
+
+1. En el campo **[!UICONTROL Dimension de destino de perfil]**, seleccione la dimensión de destino de tipo de archivo creada en el paso anterior.
+
+1. Complete los campos de configuración de canal restantes y guarde los cambios. [Más información acerca de las configuraciones de canal para campañas orquestadas](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>Las configuraciones de canal basadas en perfiles estándar no funcionan con una audiencia basada en archivos. Use una configuración de canal que dirija la dimensión Tipo de archivo para cualquier actividad de mensaje que siga a una actividad **[!UICONTROL Cargar archivo]**.
 
 ## Configuración de la actividad Cargar archivo {#load-file-configuration}
 
@@ -168,7 +213,7 @@ Use un archivo de muestra para configurar **[!UICONTROL Columnas]** y **[!UICONT
 
 Especifique el archivo que se cargará durante la ejecución de la campaña y cómo se relaciona cada fila con los destinatarios existentes.
 
-1. En la sección **[!UICONTROL Archivo de destino]**, seleccione el archivo CSV o TXT que contiene el destino.
+1. En la sección **[!UICONTROL Archivo de destino]**, seleccione el archivo CSV o TXT que contiene la audiencia que se va a segmentar.
 
    ![](../assets/load-file-target.png)
 
