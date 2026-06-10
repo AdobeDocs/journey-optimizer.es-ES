@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +169,9 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 </tr>
 </tbody>
 </table>
+
+* **Texto enriquecido en campos editables para fragmentos**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido de los correos electrónicos. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">Vincular a tarea DOCAC JIRA</a>
 
 * **Compatibilidad con modo de texto en fragmentos**: para admitir flujos de trabajo de correo electrónico basados en texto, ahora puede crear y administrar versiones de texto de los fragmentos visuales para un uso óptimo en la versión de texto sin formato de los correos electrónicos que incluyen ese fragmento. Al utilizar un fragmento creado antes de la versión actual, la versión de texto del fragmento puede procesarse incorrectamente, tanto en el Designer de correo electrónico como en el correo electrónico final enviado a los destinatarios. Para obtener los mejores resultados con fragmentos antiguos, edite, guarde y vuelva a publicar cada fragmento.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Vincular a tarea DOCAC JIRA</a>
