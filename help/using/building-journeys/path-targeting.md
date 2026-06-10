@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilidad limitada" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 4%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 4%
 >id="ajo_path_targeting_fallback"
 >title="¿Qué es la ruta de reserva?"
 >abstract="Las rutas de reserva permiten que el público introduzca una ruta alternativa cuando no se cumplen las reglas de segmentación. </br>Si no se selecciona esta opción, las audiencias que no cumplan los requisitos para una regla de segmentación no entrarán en la ruta de reserva y saldrán del recorrido."
-
->[!AVAILABILITY]
->
->Actualmente, esta capacidad está en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 Las reglas de segmentación le permiten determinar reglas o cualificaciones específicas que deben cumplirse para que un cliente pueda entrar en una de las rutas de recorrido, según segmentos de audiencia específicos <!-- depending on profile attributes or contextual attributes-->.
 
