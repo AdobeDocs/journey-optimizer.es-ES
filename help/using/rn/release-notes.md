@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
 workflow-type: tm+mt
-source-wordcount: 2942
+source-wordcount: 2943
 ht-degree: 21%
 
 ---
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* **Conjunto de datos de evento de comentarios de mensajes de AJO que se mueve a la ingesta por lotes** - El **conjunto de datos de evento de comentarios de mensajes de AJO** se está moviendo de la ingesta por transmisión a la ingesta por lotes. Como resultado, se espera una latencia de datos de hasta dos horas para este conjunto de datos. Si ha creado informes en Customer Journey Analytics o ha ejecutado consultas utilizando este conjunto de datos, tenga en cuenta este aumento de latencia en el futuro. [Más información](../data/get-started-datasets.md)
+[!BADGE Importante]{type=Informative} **&#x200B;**&#x200B;Conjunto de datos de evento de comentarios de mensajes de AJO que se mueve a la ingesta por lotes **- El** conjunto de datos de evento de comentarios de mensajes de AJO** se está moviendo de la ingesta por transmisión a la ingesta por lotes. Como resultado, se espera una latencia de datos de hasta dos horas para este conjunto de datos. Si ha creado informes en Customer Journey Analytics o ha ejecutado consultas utilizando este conjunto de datos, tenga en cuenta este aumento de latencia en el futuro. [Más información](../data/get-started-datasets.md)
 
-  Fecha de disponibilidad: 10 de junio de 2026
+Fecha de disponibilidad: 10 de junio de 2026
 
 * **Detención automática para recorridos de lectura no recurrentes** - Los recorridos de **lectura de audiencia** no recurrentes ahora pasan automáticamente al estado **Detenido** una vez que se cierra el último perfil activo. Anteriormente, estas recorridos permanecían **Activas** hasta que expiró el tiempo de espera global de 91 días, incluso cuando ya no circulaba ningún perfil por ellas. Con esta mejora, el estado de recorrido refleja el estado de ejecución real en cuanto se completa, lo que mantiene el inventario de recorrido preciso sin intervención manual.
 
