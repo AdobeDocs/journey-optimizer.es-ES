@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ _Nombre en la interfaz: conjunto de datos de evento de comentarios de mensajes d
 Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
 
 El esquema relacionado es AJO Message Feedback Event Schema.
+
+>[!NOTE]
+>
+>Este conjunto de datos utiliza la ingesta por lotes. Se espera una latencia de datos de hasta dos horas al consultar este conjunto de datos o al utilizarlo para fines de informes.
 
 Esta consulta muestra el recuento de diferentes estados de comentarios de correo electrónico (enviados, rechazados, etc.) para un mensaje determinado:
 

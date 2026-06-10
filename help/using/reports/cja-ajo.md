@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 5%
+source-wordcount: 475
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,7 @@ Antes de usar [!DNL Customer Journey Analytics] en sus recorridos, primero debe 
 
    Se pueden configurar los siguientes [!DNL Journey Optimizer]:
    * [Evento de paso de Recorrido](../data/datasets-query-examples.md#journey-step-event): permite ver quién entra en los recorridos y hasta dónde llegan.
-   * [Conjuntos de datos de seguimiento/comentarios de mensajes](../data/datasets-query-examples.md#message-feedback-event-dataset): permite ver la información de envío de sus mensajes enviados a través de [!DNL Journey Optimizer].
+   * [Conjuntos de datos de seguimiento/comentarios de mensajes](../data/datasets-query-examples.md#message-feedback-event-dataset): permite ver la información de envío de sus mensajes enviados a través de [!DNL Journey Optimizer]. Tenga en cuenta que el conjunto de datos de eventos de comentarios de mensajes utiliza la ingesta por lotes; espere una latencia de datos de hasta dos horas en los informes de CJA.
    * [Conjuntos de datos de entidad y Recorrido](../data/datasets-query-examples.md#entity-dataset): le permite buscar nombres descriptivos y utilizarlos en sus informes.
 
 1. [Cree una vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es){target="_blank"} para configurar las dimensiones y métricas que desee usar en el informe.
@@ -73,7 +73,7 @@ El uso de [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] podría
 
 * **En [!DNL Journey Optimizer] informes, la métrica Enviada también incluye la métrica Reintento.**
 
-  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que [!DNL Customer Journey Analytics] **[!UICONTROL métricas enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.
+  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que las métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.
 Para reducir las discrepancias, utilice intervalos de fechas de hace una semana o incluso más tarde.
 
 * **Los informes se están suministrando desde una fuente de datos diferente.**

@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1128
 ht-degree: 5%
 
 ---
@@ -112,7 +112,7 @@ Comprenda, a partir de la tabla siguiente, qué conjuntos de datos de Journey Op
 | Conjunto de datos de entidad AJO | Conjunto de datos para almacenar metadatos de entidad para mensajes enviados al usuario final.  |
 | Conjunto de datos de evento de actividad entrante de AJO | Conjunto de datos para canales web e inApp de Journey Optimizer para eventos de envío e interacción. |
 | Conjunto de datos del perfil de mensajería interactiva de AJO | Almacena perfiles creados para admitir campañas activadas por API |
-| Conjunto de datos de evento de comentarios de mensajes AJO | Registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. Este conjunto de datos incluye eventos para todos los canales: correo electrónico, SMS/RCS/MMS, correo directo, etc. |
+| Conjunto de datos de evento de comentarios de mensajes AJO | Registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. Este conjunto de datos incluye eventos para todos los canales: correo electrónico, SMS/RCS/MMS, correo directo, etc. **Este conjunto de datos utiliza la ingesta por lotes, se espera una latencia de datos de hasta dos horas.** |
 | Conjunto de datos de exportación de mensajes AJO | Almacena el contenido de mensajes SMS y de correo electrónico enviados que se ha marcado para la exportación. Los datos se conservan durante siete días naturales a partir de la ingesta. |
 | Extensión de contadores de perfil de AJO | Contiene un mapa de objetos que contienen counter_value y expiryDate, escrito por counter_id |
 | Conjunto de datos del perfil push de AJO | Almacena tokens push de un perfil. |
