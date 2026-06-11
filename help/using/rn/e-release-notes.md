@@ -6,18 +6,13 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +91,9 @@ La siguiente funcionalidad llega a Decisioning en esta versión.
 </tbody>
 </table>
 
-### Canales {#june-26-channels}
-
-En esta versión se introduce la siguiente funcionalidad.
-
-<table>
-<thead>
-<tr>
-<th><strong>Canales salientes personalizados</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ahora presenta <strong>Canales personalizados</strong>, una nueva funcionalidad que permite a los administradores traer cualquier canal de mensajería saliente basado en HTTP, como WeChat, Kakao Talk, Messenger o un proveedor propietario, directamente a Journey Optimizer a través de un generador de canales sin código.</p>
-<p>Una vez configurados, los canales personalizados están disponibles en todas las campañas, recorridos y campañas orquestadas, con el mismo conjunto completo de funcionalidades que los canales nativos: personalización con el editor de expresiones, experimentación de contenido, previsualización y prueba, creación de informes predeterminada y aplicación de consentimiento y gobernanza. Esto llena el vacío que antes subsanaban las acciones personalizadas, que se limitaban a los recorridos y carecían de creación de contenido dedicada.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Correo electrónico {#june-26-email}
 
 Las siguientes funcionalidades y mejoras están llegando al canal de correo electrónico en esta versión.
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +120,45 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tr>
 <td>
 <p>Esta nueva opción permite <strong>reducir el tamaño del HTML</strong> en un mensaje de correo electrónico eliminando espacio en blanco, comentarios y código redundante innecesarios, sin cambiar el aspecto del correo electrónico. Esto ayuda a mejorar la capacidad de entrega (algunos proveedores de correo electrónico rechazan o marcan correos electrónicos de gran tamaño) y puede acelerar el tiempo de carga de los destinatarios.</p>
-<p>Fecha de disponibilidad: 10 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Texto enriquecido en campos editables para fragmentos**: Ahora puede agregar texto enriquecido a los fragmentos personalizables que se utilizan en el contenido de los correos electrónicos. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.
+<table>
+<thead>
+<tr>
+<th><strong>Texto enriquecido en campos editables para fragmentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede añadir texto enriquecido a fragmentos personalizables que se utilizan en el contenido de los correos electrónicos. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ Próximamente — **La información siguiente está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Módulos de Designer de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Email Designer ahora incluye una biblioteca de componentes de diseño listos para usar, como encabezados, tarjetas de producto (1, 2 o 3 columnas), bloques de información y pies de página, que puede arrastrar y soltar directamente en el lienzo del correo electrónico. Cada componente viene preconfigurado con propiedades editables (imagen, título, texto, botón, vínculos) y se puede personalizar completamente a través de la interfaz de WYSIWYG, lo que acelera la creación de correos electrónicos sin necesidad de crear estructuras desde cero.</p>
+<p>Fecha de disponibilidad: 22 de junio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Mensajería móvil (SMS, MMS, RCS y LINE) {#june-26-mobile}
 
