@@ -6,17 +6,12 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
 workflow-type: tm+mt
-source-wordcount: 1660
+source-wordcount: 1815
 ht-degree: 6%
 
 ---
@@ -96,6 +91,13 @@ La siguiente funcionalidad llega a Decisioning en esta versión.
 </tbody>
 </table>
 
+* **Atributos de oferta dinámicos**: los atributos de oferta de Decisioning ahora se pueden personalizar en el momento de la entrega mediante datos de perfil, contextuales y de audiencia. Esto elimina la necesidad de mantener ofertas duplicadas para variaciones de contenido menores, lo que permite a los especialistas en marketing administrar menos elementos de decisión más flexibles.
+
+* **Límite de frecuencia de nivel de ubicación en Decisioning**: las reglas de límite de frecuencia en Decisioning ahora se pueden vincular a ubicaciones individuales, lo que le proporciona un control más preciso sobre la frecuencia con la que se muestra una oferta en una superficie determinada. Hay dos modos disponibles:
+
+   * Límite específico de la ubicación: define un límite que se aplica solo cuando la oferta se muestra en una ubicación seleccionada.
+   * Límite por ubicación: aplique un límite de forma independiente en todas las ubicaciones en las que aparezca la oferta, de modo que cada ubicación mantenga su propio contador de límite.
+
 ### Correo electrónico {#june-26-email}
 
 Las siguientes funcionalidades y mejoras están llegando al canal de correo electrónico en esta versión.
@@ -145,6 +147,8 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 </tbody>
 </table>
 
+* **Conversor mejorado de imagen a HTML**: Ya está disponible una nueva versión de la función de conversión de imagen a HTML, que ofrece una precisión mejorada para la generación de HTML. Esta actualización aprovecha los modelos LLM de nivel superior para ofrecer una salida de HTML más precisa y fiable a partir de las entradas de imagen.
+
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
@@ -156,7 +160,8 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tbody>
 <tr>
 <td>
-<p>Email Designer ahora incluye una biblioteca de componentes de diseño listos para usar, como encabezados, tarjetas de producto (1, 2 o 3 columnas), bloques de información y pies de página, que puede arrastrar y soltar directamente en el lienzo del correo electrónico. Cada componente viene preconfigurado con propiedades editables (imagen, título, texto, botón, vínculos) y se puede personalizar completamente a través de la interfaz de WYSIWYG, lo que acelera la creación de correos electrónicos sin necesidad de crear estructuras desde cero.</p>
+<p>Email Designer ahora incluye una biblioteca de módulos de diseño listos para usar, como encabezados, tarjetas de producto, bloques de información y pies de página, que puede arrastrar y soltar directamente en el lienzo del correo electrónico.</p>
+<p>Cada módulo viene preconfigurado con propiedades editables (imagen, título, texto, botón, vínculos) y se puede personalizar completamente a través de la interfaz de WYSIWYG, lo que acelera la creación de correos electrónicos sin necesidad de crear estructuras desde cero.</p>
 <p>Fecha de disponibilidad: 22 de junio de 2026</p>
 </td>
 </tr>
