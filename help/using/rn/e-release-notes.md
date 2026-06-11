@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +237,18 @@ Las siguientes mejoras se implementan en las campañas de esta versión.
 
 En esta versión se incluyen las siguientes mejoras en los informes.
 
-* **Nuevas métricas estimadas de clics para los informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay nuevas métricas estimadas disponibles en los informes Recorridos, Campañas y Canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
-   * Clics estimados: el total de clics se cuenta después de eliminar el tráfico de bots y no humanos identificados.
+* **Métricas de clics estimadas para informes de correo electrónico y SMS** - **Clics estimados** ya está disponible en informes de Recorridos, campañas y canales. Esta métrica refleja el total de clics después de excluir el tráfico identificado de bots y no humanos (NHI), lo que le ofrece una vista más clara de la participación genuina del cliente.
+
++++ Próximamente — **La información siguiente está sujeta a cambios.**
+
+* **Nuevas métricas estimadas de clics para los informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay disponibles nuevas métricas estimadas en los informes Recorridos, Campañas y Canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
+
    * Estimated CTR: clics estimados en relación con las entregas totales.
    * Estimated CTOR for email only: Clics estimados en relación con las aperturas estimadas.
+
+  Fecha de disponibilidad: finales de junio de 2026
+
++++
 
 ### Configuración {#june-26-configuration}
 
