@@ -6,18 +6,13 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 6%
+source-wordcount: 1921
+ht-degree: 5%
 
 ---
 
@@ -55,20 +50,20 @@ Las siguientes funcionalidades y mejoras están llegando a las campañas orquest
 <table>
 <thead>
 <tr>
-<th><strong>Actividad de carga de archivos en campañas organizadas</strong><br/></th>
+<th><strong>Direccionamiento basado en archivos en campañas organizadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las campañas orquestadas ahora admiten la carga de un <strong>archivo CSV o TXT</strong> directamente en el lienzo de campaña como audiencia de segmentación, sin ingerir primero el archivo en Adobe Experience Platform. Los datos del archivo se consumen en el momento de la ejecución y no persisten como un conjunto de datos de Adobe Experience Platform. Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Esto admite campañas de envíos específicos o de listas de socios en las que no es práctico crear una canalización de ingesta completa.</p>
+<p>Las campañas orquestadas ahora admiten la carga de un <strong>archivo CSV o TXT</strong> directamente en el lienzo de campaña como audiencia de segmentación, sin ingerir primero el archivo en Adobe Experience Platform. Los datos del archivo se consumen en el momento de la ejecución y no persisten como un conjunto de datos de Adobe Experience Platform. Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene la audiencia limpia sin preprocesamiento manual. Esto es especialmente adecuado para envíos específicos o campañas de listas de socios en las que no es práctico crear una canalización de ingesta completa.</p>
 <p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personalización basada en bucles para datos relacionales en campañas orquestadas**: el editor de personalización ahora admite un **bloque de bucles** que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones.
+* **Personalización basada en bucles para datos relacionales en campañas orquestadas**: el editor de personalización ahora admite un **bloque de bucles** que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones. Puede obtener una vista previa de cómo se representan los bloques en bucle con los datos de ejemplo antes de que la campaña se ponga en marcha, incluida la administración de colecciones vacías.
 
 * **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de **campos de encabezado de correo electrónico**, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa. Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
@@ -110,13 +105,13 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <table>
 <thead>
 <tr>
-<th><strong>Comprobación de contenido en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Comprobaciones de calidad del contenido en el Designer de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora permite a los usuarios validar su <strong>calidad del contenido del correo electrónico</strong>, incluida la legibilidad, la eficacia y la coherencia del contenido, directamente en la interfaz de Designer de correo electrónico.</p>
+<p>Journey Optimizer ahora incluye puntuación de calidad de contenido directamente en el Designer de correo electrónico, que analiza el correo electrónico en tres dimensiones antes del lanzamiento: ortografía, gramática y puntuación; legibilidad y tono, incluidos indicadores para frases largas, voz pasiva y jerga; y línea de asunto y efectividad de CTA, puntuados para claridad, urgencia y estructura. Cada comprobación muestra sugerencias procesables, lo que permite a los equipos detectar y resolver problemas sin salir de la interfaz de creación.</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +126,7 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tbody>
 <tr>
 <td>
-<p>Esta nueva opción permite <strong>reducir el tamaño del HTML</strong> en un mensaje de correo electrónico eliminando espacio en blanco, comentarios y código redundante innecesarios, sin cambiar el aspecto del correo electrónico. Esto ayuda a mejorar la capacidad de entrega (algunos proveedores de correo electrónico rechazan o marcan correos electrónicos de gran tamaño) y puede acelerar el tiempo de carga de los destinatarios.</p>
+<p>Journey Optimizer ahora incluye una opción para reducir el tamaño del HTML del correo electrónico eliminando los espacios en blanco, los comentarios y el código redundante innecesarios, sin afectar al procesamiento del correo electrónico. Esto puede mejorar la capacidad de entrega al evitar los umbrales de tamaño que algunos proveedores de correo electrónico utilizan para marcar o rechazar mensajes y puede reducir el tiempo de carga de los destinatarios.</p>
 </td>
 </tr>
 </tbody>
@@ -237,7 +232,7 @@ Las siguientes mejoras se implementan en las campañas de esta versión.
 
 En esta versión se incluyen las siguientes mejoras en los informes.
 
-* **Métricas de clics estimadas para informes de correo electrónico y SMS** - **Clics estimados** ya está disponible en informes de Recorridos, campañas y canales. Esta métrica refleja el total de clics después de excluir el tráfico identificado de bots y no humanos (NHI), lo que le ofrece una vista más clara de la participación genuina del cliente.
+* **Clics estimados para informes de correo electrónico y SMS** — Una nueva métrica de **Clics estimados** ya está disponible en los informes de Recorridos, Campañas y Canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
 
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
