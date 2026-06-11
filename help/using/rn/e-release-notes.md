@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +154,7 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 
 * **Conversor mejorado de imagen a HTML**: Ya está disponible una nueva versión de la función de conversión de imagen a HTML, que ofrece una precisión mejorada para la generación de HTML. Esta actualización aprovecha los modelos LLM de nivel superior para ofrecer una salida de HTML más precisa y fiable a partir de las entradas de imagen.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios**
 
 <table>
 <thead>
@@ -239,7 +239,7 @@ En esta versión se incluyen las siguientes mejoras en los informes.
 
 * **Clics estimados para informes de correo electrónico y SMS** — Una nueva métrica de **Clics estimados** ya está disponible en los informes de Recorridos, Campañas y Canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios**
 
 * **Nuevas métricas estimadas de clics para los informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay disponibles nuevas métricas estimadas en los informes Recorridos, Campañas y Canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
 
@@ -256,7 +256,7 @@ Las siguientes mejoras se incluyen en la configuración y administración de est
 
 * **Conjunto de datos que se mueve de flujo a modo por lotes** - El conjunto de datos de evento de comentarios de mensajes de AJO está pasando de flujo a **modo de ingesta por lotes**. Este cambio garantiza que la ingesta de datos no supere los límites de ingesta de transmisión. Si utiliza este conjunto de datos en informes de Customer Journey Analytics o ejecuta consultas en él, espere un aumento de la latencia de datos de hasta dos horas en adelante.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios**
 
 * **Lista blanca de IP de Firewall de aplicaciones web (WAF)**: Adobe Journey Optimizer ahora admite la lista blanca de IP de Firewall de aplicaciones web (WAF) para páginas de aterrizaje, lo que permite a las organizaciones aplicar que todas las solicitudes entrantes se enruten exclusivamente a través de su infraestructura de WAF configurada. Con esta mejora, los clientes pueden configurar Journey Optimizer para que rechace cualquier solicitud directa que omita el nivel de WAF, lo que garantiza que las políticas de seguridad definidas en herramientas como Imperva se apliquen de forma coherente. Esta capacidad refuerza la postura de seguridad de las empresas con requisitos estrictos de acceso a la red, lo que les permite un control total del flujo de tráfico a sus páginas de aterrizaje alojadas en AJO.
 
