@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 7%
 
 ---
@@ -139,7 +139,7 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 
 Si lo desea, puede habilitar **Usar un identificador suplementario** para ejecutar el recorrido en el contexto de un identificador secundario (por ejemplo, un identificador de pedido o un identificador de reserva) además del identificador de perfil. Esto permite varias entradas del mismo perfil cuando el identificador suplementario es diferente.
 
-[Aprenda a utilizar identificadores suplementarios en recorrido](supplemental-identifier.md). Para los recorridos de audiencia de lectura, el identificador suplementario debe ser un atributo de perfil; la tasa de lectura está limitada a 500 perfiles por segundo cuando se utiliza un ID suplementario.
+[Aprenda a utilizar identificadores suplementarios en recorrido](supplemental-identifier.md). Para los recorridos de audiencia de lectura, el identificador suplementario se ha elaborado a partir del esquema **union/profile** para audiencias de **Unified Profile Service**, o se ha seleccionado entre atributos elegibles en **audiencias externas** (por ejemplo, audiencias [importadas de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"} o resultantes de [flujos de trabajo de composición](../audience/get-started-audience-orchestration.md)). La tasa de lectura está limitada a 500 perfiles por segundo por instancia de recorrido cuando se utiliza un ID suplementario.
 
 ### Mecanismos de protección y recomendaciones {#must-read}
 
