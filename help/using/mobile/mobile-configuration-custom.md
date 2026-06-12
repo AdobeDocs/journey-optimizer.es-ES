@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Carga útil del proveedor"
->abstract="Especifica cómo Journey Optimizer extrae un ID de mensaje único de la respuesta de envío del proveedor. </br>Coincidencia de campo: escriba el nombre del campo (por ejemplo: messageId). AJO analizará la respuesta y devolverá el primer valor coincidente. </br>Notación de puntos: introduzca la ruta al campo (por ejemplo, messages.0.id). Utilice segmentos numéricos para las matrices. No hay prefijo $.</br> Déjelo en blanco si su proveedor admite pasar un campo de datos de llamada de retorno en su lugar."
+>abstract="Especifica cómo Journey Optimizer extrae un ID de mensaje único de la respuesta de envío del proveedor. </br>Coincidencia de campo: escriba el nombre del campo (por ejemplo: messageId). AJO analizará la respuesta y devolverá el primer valor coincidente. </br>Notación de puntos: introduzca la ruta al campo (por ejemplo, messages.0.id). Utilice segmentos numéricos para las matrices. No hay prefijo $.</br> Déjelo en blanco si su proveedor admite pasar un campo de datos de devolución de llamada en su lugar."
 
 Esta función le permite integrar y configurar sus propios proveedores de mensajería, ofreciendo flexibilidad más allá de las opciones predeterminadas (Sinch, Twilio e Infobip). Esto permite una creación, entrega, creación de informes y administración de consentimientos fluidos para los mensajes de Mobile.
 

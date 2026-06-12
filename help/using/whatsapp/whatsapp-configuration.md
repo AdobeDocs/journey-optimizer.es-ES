@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -48,17 +48,17 @@ Estos pasos debe realizarlos un administrador del sistema [de Adobe Journey Opti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="Nombre"
->abstract="Introduzca un nombre único para este conjunto de credenciales de API. Lo seleccionarás al configurar los webhooks de WhatsApp y las configuraciones de canal."
+>abstract="Introduzca un nombre único para este conjunto de credenciales de API. Lo seleccionará al configurar los webhooks de WhatsApp y las configuraciones de canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
->title="Token de la API"
->abstract="Use un token de acceso de Meta de un usuario del sistema en el mismo Business Manager que sus recursos de WhatsApp. Este usuario necesita permisos de whatsapp_business_management, whatsapp_business_messaging y business_management, además de acceso a nivel de activos a su cuenta comercial de WhatsApp. Los tokens de Meta caducan al cabo de unos 60 días, renueve el token antes de que caduque."
+>title="Token API"
+>abstract="Use un token de acceso de Meta de un usuario del sistema en el mismo Business Manager que sus recursos de WhatsApp. Este usuario necesita permisos de whatsapp_business_management, whatsapp_business_messaging y business_management, además de acceso a nivel de recursos a su cuenta de empresa de WhatsApp. Los tokens de Meta caducan al cabo de unos 60 días; renueve el token antes de que caduque."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
->title="ID de cuenta empresarial"
->abstract="Introduzca su ID de portafolio empresarial de Meta, también denominado ID de Business Manager. No introduzcas el identificador de tu cuenta de WhatsApp Business en este campo."
+>title="ID de la cuenta de empresa"
+>abstract="Introduzca su ID del portafolio de empresa de Meta, también denominado ID de Business Manager. No introduzca el ID de su cuenta de empresa de WhatsApp en este campo."
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]** y seleccione el menú **[!UICONTROL Credenciales de API]**. Haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
 

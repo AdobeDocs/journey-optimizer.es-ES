@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1735
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -166,12 +166,12 @@ Para ello:
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Fragmento heredado"
->abstract="Los campos editables de este fragmento están en modo de solo texto. Esto significa que solo puede introducir texto sin formato al editar este fragmento en correos electrónicos; no se admite texto enriquecido como negrita, cursiva, hipervínculos y saltos de línea. Haga clic en <b>Cambiar al modo HTML</b> para habilitar el texto enriquecido en los campos editables al utilizar el fragmento en un mensaje de correo electrónico."
+>abstract="Los campos editables de este fragmento están en modo de solo texto. Esto significa que solo puede introducir texto sin formato cuando al editar este fragmento en correos electrónicos; no se admite el texto enriquecido como negrita, cursiva, hipervínculos y saltos de línea. Haga clic en <b>Cambiar al modo HTML</b> para habilitar el texto enriquecido en los campos editables al utilizar el fragmento en un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Fragmento heredado"
->abstract="Este campo editable está en modo de solo texto. El formato de texto enriquecido (negrita, cursiva, hipervínculos, saltos de línea, etc.) no está disponible hasta que el fragmento se actualice al modo compatible con HTML. Vaya a la configuración del cuerpo del fragmento y haga clic en <b>Cambiar al modo HTML</b> para habilitar la edición de texto enriquecido."
+>abstract="Este campo editable está en modo de solo lectura. El formato de texto enriquecido (negrita, cursiva, hipervínculos, saltos de línea, etc.) no está disponible hasta que el fragmento se actualice al modo compatible con HTML. Vaya a la configuración del cuerpo del fragmento y haga clic en <b>Cambiar al modo HTML</b> para habilitar la edición de texto enriquecido."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalización de campos editables en un fragmento"
 
 >[!CONTEXTUALHELP]
