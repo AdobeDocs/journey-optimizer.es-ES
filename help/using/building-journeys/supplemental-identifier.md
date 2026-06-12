@@ -4,21 +4,14 @@ description: Aprenda a utilizar identificadores suplementarios en recorrido.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 3%
+source-wordcount: 2009
+ht-degree: 2%
 
 ---
 
@@ -27,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usar identificador adicional"
->abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Consiste en el campo utilizado como identificador suplementario y un área de nombres asociado a él."
+>abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione cualquier atributo de no identidad (o identidad de no persona) de la audiencia o el evento que desee utilizar como identificador suplementario."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +42,9 @@ ht-degree: 3%
 
 * **recorridos admitidos**: se admiten identificadores adicionales para los recorridos **activados por eventos** y **Leer audiencia**. No son **compatibles** con los recorridos de calificación de audiencia (es decir, recorridos que comiencen con una actividad de calificación de audiencia).
 
-* **Límites de instancias simultáneas**: los perfiles no pueden tener más de 10 instancias de recorrido simultáneas.
+* **Acciones entrantes**: actualmente no se admiten identificadores adicionales para las acciones entrantes, como las acciones en la aplicación y web.
 
-* **Reglas de frecuencia**: Cada instancia de recorrido creada a partir del uso de identificadores suplementarios se contabiliza en la restricción de frecuencia, incluso si el uso de identificadores suplementarios resulta en varias instancias de recorrido.
+* **Límites de instancias simultáneas**: los perfiles no pueden tener más de 10 instancias de recorrido simultáneas.
 
 * **Tipo de datos y estructura de esquema**: el identificador suplementario debe ser del tipo `string`. Puede ser un atributo de cadena independiente o puede ser un atributo de cadena dentro de una matriz de objetos. El atributo de cadena independiente generará una única instancia de recorrido, mientras que el atributo de cadena dentro de una matriz de objetos generará una instancia de recorrido única por iteración de la matriz de objetos. No se admiten matrices de cadenas ni mapas.
 
@@ -70,10 +63,10 @@ ht-degree: 3%
 
 * **Leer recorridos de audiencia**
 
-   * El ID suplementario se desactiva si se utiliza un evento empresarial.
-   * El ID suplementario debe ser un campo del perfil (es decir, no un campo de evento/contexto).
-   * Para recorridos de audiencia de lectura que utilizan ID suplementarios, la tasa de lectura de la actividad de audiencia de lectura para cada instancia de recorrido está limitada a un máximo de 500 perfiles por segundo.
-   * Solo se admiten audiencias del servicio de perfil unificado al usar recorridos de audiencia de lectura con ID suplementarios.
+   * **Eventos empresariales**: el Id. suplementario se deshabilita si usa un evento empresarial.
+   * **Campos de contexto y evento**: El identificador suplementario no debe proceder de un campo de contexto de evento o recorrido.
+   * **Selección de atributos**: cualquier atributo que no sea de identidad (o identidad que no sea de persona) puede usarse como ID suplementario para todos los tipos de audiencia (servicio de perfil unificado, importación de CSV y composición de audiencias federadas). No se permiten los atributos de identidad basados en personas. Para audiencias externas, vea [Identificadores adicionales con audiencias externas](#external-audiences) para patrones de datos compatibles y requisitos de configuración.
+   * **Tasa de lectura**: Para los recorridos de audiencia de lectura que usan un campo de ID suplementario de tipo matriz, la tasa de lectura de la actividad Leer audiencia está limitada a un máximo de 500 perfiles por segundo.
 
 ## Comportamiento de criterios de salida con ID suplementarios {#exit-criteria}
 
@@ -95,37 +88,19 @@ En la tabla siguiente se explica el comportamiento de los perfiles en un recorri
 
 Para utilizar un identificador suplementario en un recorrido activado por evento, siga estos pasos:
 
-1. **Marcar el atributo como identificador en el esquema de eventos**
-
-   1. Acceda al esquema de eventos y busque el atributo que desee utilizar como identificador suplementario (por ejemplo, ID de reserva, ID de suscripción) y márquelo como ID. [Aprenda a trabajar con esquemas](../data/get-started-schemas.md)
-
-   1. Marca el identificador como **[!UICONTROL identidad]**.
-
-      ![Configuración de esquema con grupo de campos de identificador suplementario](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >Asegúrese de no marcar el atributo como **Identidad principal**.
-
-   1. Seleccione el área de nombres que se asociará al ID suplementario. Debe ser un área de nombres de identificador de persona.
-
-      Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo evento para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
-
 1. **Agregar el identificador suplementario al evento**
 
    1. Cree o edite el evento deseado. [Aprenda a configurar un evento unitario](../event/about-creating.md)
 
    1. En la pantalla de configuración del evento, marque la opción **[!UICONTROL Usar identificador suplementario]**.
 
-      ![Configuración de evento con selección de área de nombres de identificador suplementario](assets/supplemental-ID-event.png)
+      ![Configuración de evento con opción de identificador suplementario](assets/supplemental-ID-event.png)
 
-   1. Utilice el editor de expresiones para seleccionar el atributo marcado como ID suplementario.
+   1. Utilice el editor de expresiones para seleccionar el campo que desea utilizar como ID suplementario (por ejemplo, ID de reserva, ID de suscripción).
 
       >[!NOTE]
       >
       >Asegúrese de utilizar el editor de expresiones en **[!UICONTROL Modo avanzado]** para seleccionar el atributo.
-
-   1. Después de seleccionar el ID suplementario, el área de nombres asociado se muestra en la pantalla de configuración de evento como de solo lectura.
 
 1. **Agregar el evento al recorrido**
 
@@ -137,32 +112,6 @@ Para utilizar un identificador suplementario en un recorrido activado por evento
 
 Para utilizar un identificador suplementario en un recorrido Leer audiencia, siga estos pasos:
 
-1. **Marcar el atributo como identificador en el esquema de unión/perfil**
-
-   1. Acceda al esquema de unión/perfil y busque el atributo que desea utilizar como identificador suplementario (por ejemplo, ID de reserva, ID de suscripción) y márquelo como ID. [Aprenda a trabajar con esquemas](../data/get-started-schemas.md)
-
-   1. Marca el identificador como **[!UICONTROL identidad]**.
-
-      ![Esquema de perfil con campo de identificador suplementario configurado](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >Asegúrese de no marcar el atributo como **Identidad principal**.
-
-   1. Seleccione el área de nombres que se asociará al ID suplementario. Debe ser un área de nombres de identificador de persona.
-
-      Después de aplicar el área de nombres de identidad no personal a un esquema, debe crear un nuevo grupo de campos para utilizar el identificador suplementario. Las entidades existentes no se pueden actualizar para reconocer el nuevo identificador.
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **Agregar y configurar una actividad Leer audiencia en el recorrido**
 
    1. Arrastre una actividad **[!UICONTROL Leer audiencia]** a su recorrido.
@@ -171,14 +120,14 @@ Para utilizar un identificador suplementario en un recorrido Leer audiencia, sig
 
       ![Leer actividad de audiencia con configuración de identificador suplementario](assets/supplemental-ID-read-audience.png)
 
-   1. En el campo **[!UICONTROL Identificador de suplemento]**, use el editor de expresiones para seleccionar el atributo que marcó como identificador suplementario.
+   1. En el campo **[!UICONTROL Identificador suplementario]**, use el editor de expresiones para seleccionar el atributo de identificador suplementario.
 
-      >[!NOTE]
-      >
-      >Asegúrese de utilizar el editor de expresiones en **[!UICONTROL Modo avanzado]** para seleccionar el atributo.
+   Para las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, si la audiencia CSV contiene varias filas por ID de perfil, asegúrese de que la activación rápida esté habilitada primero; consulte [Identificadores adicionales con audiencias externas](#external-audiences).
 
-   1. Después de seleccionar el identificador suplementario, el área de nombres asociado se muestra en el campo **[!UICONTROL Área de nombres suplementaria]** como de sólo lectura.
-
+       >[!NOTE]
+     >
+     >Asegúrese de usar el editor de expresiones en **[!UICONTROL Modo avanzado]** para seleccionar el atributo.
+   
 >[!ENDTABS]
 
 ## Aprovechamiento de atributos de ID suplementarios
@@ -230,6 +179,113 @@ En una matriz de objetos con el Id. suplementario como `bookingNum` y un atribut
 
 +++
 
+## Arbitraje de recorrido e ID suplementario {#arbitration}
+
+La mediación de recorridos (incluidos los límites de concurrencia y el recuento de entradas dentro de los conjuntos de reglas) funciona en el nivel de ID de perfil, no en el nivel de par (ID de perfil, ID suplementario). Esto significa que un límite de concurrencia de 1 puede bloquear una segunda instancia de recorrido para el mismo perfil incluso cuando lleva un valor de ID suplementario diferente.
+
+Póngase en contacto con su representante de Adobe para obtener instrucciones sobre el comportamiento de mediación antes de depender de la configuración de mediación específica en producción.
+
+**Documentación relacionada:**
+
+* [Límite y arbitraje de recorrido](../conflict-prioritization/journey-capping.md)
+* [Trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
+* [Administración de conflictos y priorización](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Identificadores adicionales con audiencias externas {#external-audiences}
+
+Se admite un ID suplementario para audiencias externas, incluidas las audiencias [importadas de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} y las creadas con [Composición de audiencias federada](../audience/get-started-audience-orchestration.md). Al configurar un recorrido que lee desde una audiencia CSV o de Composición de audiencia federada, puede designar cualquier atributo que no sea de identidad en esa audiencia como ID suplementario. A continuación, Journey Optimizer crea una instancia de recorrido independiente por cada combinación de perfil único + ID suplementario.
+
+* Caso de uso 1: Una fila por perfil único + par de ID suplementario
+
+  Este es el caso de uso principal para las audiencias de Composición de audiencias federadas y CSV. La audiencia contiene varias filas en las que cada fila representa una combinación única de un perfil (por ejemplo, un cliente) y un ID suplementario (por ejemplo, una cuenta o un ID de pedido). Cada fila se trata como un registro de activación independiente.
+
+  | profile_id | account_id *(Id. suplementario)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | ACC-1001 | ... |
+  | customer_001 | ACC-1002 | ... |
+  | customer_002 | ACC-2001 | ... |
+
+  En este ejemplo, `customer_001` tiene dos cuentas. Journey Optimizer crea una instancia de recorrido independiente para cada par de perfil único + `account_id`.
+
+* Caso de uso 2: Una fila por perfil con una matriz de ID suplementarios
+
+  Este caso de uso está disponible para tipos de audiencia que admiten matrices. Una sola fila de la audiencia contiene un perfil con un atributo de matriz que contiene varios valores de ID suplementarios. Journey Optimizer crea una instancia de recorrido por valor en la matriz.
+
+  | profile_id | account_ids *(matriz, ID suplementario)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001, ACC-1002] | ... |
+  | customer_002 | [ACC-2001] | ... |
+
+  En este ejemplo, Journey Optimizer genera dos instancias de recorrido para `customer_001` (una por identificador de cuenta) y otra para `customer_002`. Esto se comporta de forma coherente con el funcionamiento del ID suplementario para las audiencias del servicio de perfil unificado.
+
+### Cómo se configura {#external-configuration}
+
+Para audiencias CSV con el Caso de uso 1 (donde la audiencia contiene intencionadamente varias filas para el mismo ID de perfil), debe habilitar la activación rápida antes de configurar la recorrido. Consulte el requisito previo a continuación. Para el resto de los casos, configure el recorrido directamente.
+
++++ Requisito previo: Habilitar la activación rápida en las audiencias CSV a través de la API
+
+>[!IMPORTANT]
+>
+>Este requisito previo se aplica solo a las audiencias CSV donde la audiencia contiene intencionadamente varias filas para el mismo ID de perfil (Caso de uso 1). Las audiencias de Composición de audiencia federada tienen habilitada la activación rápida de forma predeterminada y no requieren este paso. La interfaz de usuario de Audience Portal no admite la configuración `expressActivation`; debe utilizar la API de Audiencia externa.
+
+Debe habilitar `expressActivation` en la audiencia en el momento de la creación. Esto indica a Journey Optimizer que active cada registro de forma independiente, sin anulación de duplicación por ID de perfil. Este indicador no se puede cambiar una vez creada la audiencia.
+
+Utilice la siguiente llamada de API al crear la audiencia:
+
+Punto final:
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+Encabezados obligatorios:
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+Cuerpo de la solicitud (conjunto `expressActivation: true`):
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation` toma como valor predeterminado `false`. Debe configurarse en el momento de la creación de la audiencia y no se puede cambiar después de la creación. Todas las audiencias de Composición de audiencia federada tienen la activación rápida habilitada de forma predeterminada y no requieren este indicador.
+
+Consulte la [documentación de la API de creación de audiencias externas](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obtener toda la información.
+
++++
+
+Para configurar el recorrido:
+
+1. Abra o cree un recorrido con un nodo **[!UICONTROL Leer audiencia]**.
+1. En la configuración del nodo **[!UICONTROL Leer audiencia]**, seleccione su audiencia CSV o de Composición de audiencia federada.
+1. Active la opción **[!UICONTROL Usar identificador suplementario]** y, a continuación, en el campo **[!UICONTROL Identificador suplementario]**, use el editor de expresiones en **[!UICONTROL Modo avanzado]** para elegir el atributo que desee usar como identificador secundario (por ejemplo, `account_id`, `order_number`).
+1. El atributo seleccionado se trata como el ID suplementario para el recorrido; no se requiere registro de identidad.
+
+### Comportamiento de deduplicación {#external-dedup}
+
+Cuando una audiencia tiene habilitada la activación rápida (siempre es true para la composición de audiencias federada; debe establecerse explícitamente para CSV), Journey Optimizer administra la anulación de duplicación en función de cómo se configure el recorrido:
+
+| Situación | Ejemplo de filas de audiencia | Comportamiento |
+| --- | --- | --- |
+| **Recorrido con ID suplementario — no hay pares duplicados (ID de perfil, ID suplementario)** | (P1, S1), (P1, S2) | Caso de uso previsto. Journey Optimizer crea una instancia de recorrido independiente por cada combinación de perfil único + ID suplementario. Se admiten todas las filas. |
+| **Existen pares de Recorrido con ID suplementario — duplicado (ID de perfil, ID suplementario)** | (P1, S1), (P1, S1), (P1, S2) | Las filas que comparten la misma combinación (ID de perfil, ID suplementario) se filtran mediante la lógica de reentrada de recorrido normal. Solo se admite la primera fila coincidente por combinación única. |
+| **Recorrido sin ID suplementario configurado** | (P1, S1), (P1, S2) | Sin un ID suplementario, Journey Optimizer trata todas las filas para el mismo ID de perfil como el mismo perfil. Solo se admite una instancia de recorrido por ID de perfil; se descartan las filas adicionales para el mismo perfil. |
+
 ## Casos de uso de ejemplo
 
 Estos ejemplos muestran cómo los identificadores suplementarios admiten varios registros relacionados.
@@ -262,4 +318,4 @@ Estos ejemplos muestran cómo los identificadores suplementarios admiten varios 
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464795?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
