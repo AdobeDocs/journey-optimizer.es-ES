@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -112,7 +112,10 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora incluye puntuación de calidad de contenido directamente en el Designer de correo electrónico, que analiza el correo electrónico en tres dimensiones antes del lanzamiento: ortografía, gramática y puntuación; legibilidad y tono, incluidos indicadores para frases largas, voz pasiva y jerga; y línea de asunto y efectividad de CTA, puntuados para claridad, urgencia y estructura. Cada comprobación muestra sugerencias procesables, lo que permite a los equipos detectar y resolver problemas sin salir de la interfaz de creación.</p>
+<p>Journey Optimizer ahora incluye validación técnica automatizada directamente en el Designer de correo electrónico, lo que le ayuda a detectar problemas de HTML y CSS antes de enviarlos.</p>
+<p>Las comprobaciones cubren elementos no admitidos, como etiquetas <code>&lt;script&gt;</code> y <code>&lt;base&gt;</code>, divs vacíos que pueden romper el diseño en Microsoft Outlook, etiquetas de actualización de metadatos de HTML y umbrales de tamaño de CSS o HTML que almacenan en déclencheur los errores de procesamiento en Gmail.</p>
+<p>Los resultados aparecen como errores, advertencias o avisos informativos directamente en el panel de creación, con detalles contextuales y correcciones con un solo clic cuando están disponibles, de modo que los problemas se pueden resolver sin salir del editor.</p>
+<p>Para obtener más información, consulte la <a href="../email/content-check.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +130,8 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora incluye una opción para reducir el tamaño del HTML del correo electrónico eliminando los espacios en blanco, los comentarios y el código redundante innecesarios, sin afectar al procesamiento del correo electrónico. Esto puede mejorar la capacidad de entrega al evitar los umbrales de tamaño que algunos proveedores de correo electrónico utilizan para marcar o rechazar mensajes y puede reducir el tiempo de carga de los destinatarios.</p>
+<p>Journey Optimizer ahora incluye una opción para reducir el tamaño del HTML del correo electrónico eliminando los espacios en blanco, los comentarios y el código redundante innecesarios, sin afectar al procesamiento del correo electrónico.</p>
+<p>Esto puede mejorar la capacidad de entrega al evitar los umbrales de tamaño que algunos proveedores de correo electrónico utilizan para marcar o rechazar mensajes y puede reducir el tiempo de carga de los destinatarios.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +146,8 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <tbody>
 <tr>
 <td>
-<p>Ahora puede añadir texto enriquecido a fragmentos personalizables que se utilizan en el contenido de los correos electrónicos. Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.</p>
+<p>Ahora puede añadir texto enriquecido a fragmentos personalizables que se utilizan en el contenido de los correos electrónicos.</p>
+<p>Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.</p>
 </td>
 </tr>
 </tbody>
