@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 La actividad **Action** es el único punto de entrada para entregar contenido a los clientes desde el lienzo de recorrido. En lugar de elegir entre una actividad independiente para cada canal, arrastra una sola actividad **[!UICONTROL Action]** al lienzo y selecciona el canal que quieras usar.
 
-Consolida todos los canales integrados (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un tipo de actividad unificado, sustituyendo las actividades de canal individuales utilizadas anteriormente.
+Consolida todos los canales integrados nativos heredados (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un tipo de actividad unificada, sustituyendo las actividades de canal individuales utilizadas anteriormente.
 
 Utilice la actividad **Acción** para lo siguiente:
 
