@@ -10,32 +10,16 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -169,8 +153,42 @@ Si exporta datos stepEvent a **sistemas externos**, puede filtrar las ejecucione
 
 Al analizar **métricas de informes de recorridos** mediante el servicio de consultas [!DNL Adobe Experience Platform], se deben excluir los eventos de paso generados por la ejecución en seco. Para ello, excluya los eventos de paso donde `inDryRun` es `true` (es decir, incluya solo eventos donde `inDryRun` es `null` o `false`).
 
+## Preguntas frecuentes {#faq}
+
+**¿Una ejecución en seco envía mensajes a clientes reales?**
+
+No. La ejecución en seco utiliza datos de producción reales, pero no contacta con perfiles ni actualiza información de perfiles. Las acciones del canal (correo electrónico, SMS, push) no se ejecutan y las acciones personalizadas se deshabilitan con sus respuestas establecidas en `null`.
+
+**¿Qué permisos necesito para iniciar o detener una ejecución en seco?**
+
+El inicio de una ejecución en seco requiere el permiso de alto nivel **[!DNL Publish journeys]**. Detener una ejecución en seco requiere el permiso de alto nivel **[!DNL Manage journeys]**. Obtenga más información en la [sección de permisos](../administration/permissions-overview.md).
+
+**¿En qué recorridos puedo ejecutar una ejecución en seco?**
+
+Puede utilizar la ejecución en seco en cualquier recorrido **[!UICONTROL Draft]** que no contenga errores.
+
+**¿Cuánto dura una ejecución en seco?**
+
+Después de 14 días, los recorridos de ejecución en seco vuelven automáticamente al estado **[!UICONTROL Borrador]**. También puede detener una ejecución en seco manualmente en cualquier momento.
+
+**¿Se ejecutan las actividades de espera y los orígenes de datos externos durante una ejecución en seco?**
+
+De manera predeterminada, las actividades **Wait** y **Data sources** (incluidas las fuentes de datos externas) están deshabilitadas durante una ejecución en seco. Puede cambiar este comportamiento al [activar el modo de ejecución en seco](#journey-dry-run-start).
+
+**¿Los perfiles y recorridos de ejecución en seco se contabilizan en mis cuotas?**
+
+Sí. Los perfiles en el modo de ejecución en seco se contabilizan en [Perfiles atractivos](../audience/license-usage.md) y los recorridos en el modo de ejecución en seco se contabilizan en la cuota de recorrido en directo. Sin embargo, los recorridos de ejecución en seco no afectan a las reglas empresariales.
+
+**¿Puedo seguir accediendo a los informes de ejecución en seco después de detener la prueba?**
+
+No. Los datos de informes solo están disponibles mientras la ejecución en seco esté **activa**. Una vez detenidos, ya no se puede acceder a los datos: use el botón **Exportar** situado encima de los informes para descargarlos de antemano si es necesario.
+
+**¿Cómo excluyo los datos de ejecución en seco de mis informes?**
+
+La ejecución en seco genera **stepEvents** marcados con `inDryRun` y un `dryRunID`. Cuando analice métricas de informes de recorrido con el servicio de consultas [!DNL Adobe Experience Platform], excluya eventos de paso donde `inDryRun` sea `true` (incluya solo eventos donde `inDryRun` sea `null` o `false`).
+
 ## Vídeo práctico {#dry-run-video}
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
