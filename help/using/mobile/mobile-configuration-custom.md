@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Carga útil del proveedor"
->abstract="Especifica cómo Journey Optimizer extrae un ID de mensaje único de la respuesta de envío del proveedor. </br>Coincidencia de campo: escriba el nombre del campo (por ejemplo: messageId). AJO analizará la respuesta y devolverá el primer valor coincidente. </br>Notación de puntos: introduzca la ruta al campo (por ejemplo, messages.0.id). Utilice segmentos numéricos para las matrices. No hay prefijo $.</br> Déjelo en blanco si su proveedor admite pasar un campo de datos de llamada de retorno en su lugar."
+>abstract="Especifica cómo Journey Optimizer extrae un ID de mensaje único de la respuesta de envío del proveedor. </br>Coincidencia de campo: escriba el nombre del campo (por ejemplo: messageId). AJO analizará la respuesta y devolverá el primer valor coincidente. </br>Notación de puntos: introduzca la ruta al campo (por ejemplo, messages.0.id). Utilice segmentos numéricos para las matrices. No hay prefijo $.</br> Déjelo en blanco si su proveedor admite pasar un campo de datos de devolución de llamada en su lugar."
 
 Esta función le permite integrar y configurar sus propios proveedores de mensajería, ofreciendo flexibilidad más allá de las opciones predeterminadas (Sinch, Twilio e Infobip). Esto permite una creación, entrega, creación de informes y administración de consentimientos fluidos para los mensajes de Mobile.
 
