@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 3657
-ht-degree: 9%
+source-wordcount: 4152
+ht-degree: 8%
 
 ---
 
@@ -454,6 +454,36 @@ La sección **[!UICONTROL Administración de conflictos]** de las propiedades de
   En el caso de situaciones en las que esta misma configuración de canal entrante se utiliza en otras campañas o recorridos, se muestra al destinatario la acción entrante con la puntuación de prioridad más alta. Si varios recorridos o campañas tienen la misma puntuación, se elige el elemento que se modificó más recientemente.
 
 * **Ver conflictos** con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. [Aprenda a identificar posibles conflictos en el recorrido](../conflict-prioritization/conflicts.md)
+
+## Preguntas frecuentes {#faq}
+
+**¿Dónde encuentro las propiedades de un recorrido?**
+
+Las propiedades se encuentran en el carril derecho del lienzo de recorrido. Aparecen de forma predeterminada al crear un nuevo recorrido. Para un recorrido existente, haga clic en el icono de lápiz situado junto al nombre del recorrido para abrirlo. Para los recorridos activos, el panel muestra solo la fecha de publicación y el nombre del usuario que publicó el recorrido. Ver [Acceso a las propiedades de un recorrido](#access-properties).
+
+**¿Puedo cambiar las propiedades de un recorrido activo?**
+
+La mayoría de las propiedades son de solo lectura una vez que el recorrido está activo. Para modificarlos, cree una nueva versión del recorrido o duplique el recorrido, realice los cambios en el borrador y [vuelva a publicar](publish-journey.md).
+
+**¿Cuál es la diferencia entre la configuración de reentrada y el período de espera de reentrada?**
+
+**[Permitir la reentrada](#allow-reentrance)** controla si un perfil puede entrar en el recorrido más de una vez. El **[período de espera de reentrada](#reentrance-wait)** (que se muestra solo cuando se permite la reentrada) define cuánto tiempo se debe esperar antes de que el mismo perfil pueda volver a introducir un recorrido unitario. El valor predeterminado es 5 minutos y el máximo es 90 días. Para obtener más información, consulte [Administración de entrada de perfil](entry-management.md).
+
+**¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
+
+Un tiempo de espera de recorrido global de [1&rbrace; detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. &#x200B;](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
+
+**¿Por qué no se puede publicar mi recorrido debido al tamaño de la carga útil?**
+
+El indicador **[!UICONTROL Tamaño de carga útil del recorrido actual]** muestra la carga útil del recorrido con respecto al límite configurado (4 MB de forma predeterminada). Si la carga útil se aproxima o supera el límite, la publicación falla. Reduzca el tamaño simplificando la lógica de recorrido o reduciendo el número de actividades, o póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar un límite superior. Ver [tamaño de carga útil de Recorrido](#journey-payload-size), [validación del tamaño de carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
+
+**¿Qué política de combinación utiliza mi recorrido?**
+
+Depende del tipo de recorrido: los recorridos [Leer audiencia](read-audience.md) y [Calificación de audiencias](audience-qualification-events.md) utilizan la política de combinación de la audiencia, los recorridos [evento unitario](../event/about-events.md) utilizan la política de combinación predeterminada y los recorridos [evento empresarial](../event/about-creating-business.md) utilizan la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia. La misma política de combinación se aplica a todo el recorrido. Si se actualiza una política de combinación de audiencias, cualquier recorrido activo que haga referencia a esa audiencia debe volver a publicarse o duplicarse. Consulte [Política de combinación](#merge-policies).
+
+**¿Cuál es la diferencia entre el tiempo de espera de recorrido de 91 días y la ventana de informes de 91 días?**
+
+Son conceptos separados. El tiempo de espera global de **[recorrido](#global_timeout)** (91 días) es el tiempo máximo que un perfil individual puede permanecer activo en un recorrido, después del cual el perfil se cierra y se eliminan sus datos. La **ventana de informes** (aproximadamente 91 días) es un límite de visualización de la interfaz de usuario: los datos de rendimiento anteriores a ~91 días ya no son visibles, pero el recorrido sigue ejecutándose y siguen entrando nuevos perfiles. Para obtener detalles de TTL y retención de datos, consulte las [Preguntas frecuentes sobre tiempo de vida (TTL) y retención de datos](#timeout-faq).
 
 ## Temas relacionados {#related-topics}
 

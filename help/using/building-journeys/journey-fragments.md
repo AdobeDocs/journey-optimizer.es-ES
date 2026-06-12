@@ -11,10 +11,10 @@ keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutiliz
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 7%
+source-wordcount: 1644
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,6 @@ ht-degree: 7%
 Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido que puede generar una vez y soltarlos en cualquier recorrido de la zona protegida. Tanto si se trata de una comprobación de elegibilidad, una lógica de enrutamiento de canal preferida o una secuencia de bienvenida, los fragmentos ayudan a los equipos a moverse más rápido y a mantener la coherencia, sin volver a crear la misma lógica desde cero cada vez. [Vea ejemplos de casos de uso.](#examples)
 
 Una vez creados, los fragmentos se almacenan en un **[!UICONTROL inventario de fragmentos]** específico y se pueden insertar en cualquier recorrido mediante la actividad **[!UICONTROL fragmentos de Recorrido]**.
-
->[!NOTE]
->
->**Los fragmentos de Recorrido** son conjuntos reutilizables de nodos de recorrido. Son diferentes a:
->
->* **[Fragmentos](../content-management/fragments.md)**: componentes de contenido reutilizables utilizados en correos electrónicos en campañas y recorridos.
->* **[Fragmentos de contenido de AEM](../integrations/aem-fragments.md)**: contenido creado en Adobe Experience Manager y utilizado en [!DNL Journey Optimizer].
 
 >[!NOTE]
 >los fragmentos de recorrido usan un **comportamiento de copia**: al insertar un fragmento en un recorrido, se crea una copia estática de los nodos originales. Las actualizaciones realizadas en el fragmento original no se reflejan en los recorridos que ya lo han utilizado.
@@ -219,3 +212,17 @@ Una secuencia de bienvenida temporizada, como una serie de tres mensajes que pre
 Un fragmento puede encapsular una actividad de correo electrónico seguida de una [reacción](reaction-events.md), esperando a que el perfil abra el correo electrónico en un número determinado de días y enviando un recordatorio si no lo hicieron. Esta lógica se reutiliza comúnmente en los recorridos de nutrición y en los flujos de conversión de prueba. El fragmento puede incluir las actividades Correo electrónico y Reacción.
 
 ![Ejemplo de fragmento de recordatorio basado en reacciones](assets/journey-fragments-uc-reminder.png)
+
+## Preguntas frecuentes {#faq}
+
+**¿En qué se diferencia un fragmento de Recorrido de un fragmento (fragmento de contenido)?**
+
+Los **fragmentos de Recorrido** son conjuntos reutilizables de nodos de recorrido, como comprobaciones de idoneidad o lógica de enrutamiento de canal, que se insertan en un recorrido mediante la actividad **[!UICONTROL fragmentos de Recorrido]**. **[Los fragmentos](../content-management/fragments.md)** son componentes de contenido reutilizables (por ejemplo, un encabezado o pie de página) que se utilizan dentro de correos electrónicos en campañas y recorridos. En resumen, los fragmentos de Recorrido son *logic* reutilizables, mientras que los fragmentos de contenido son *content* reutilizables.
+
+**¿En qué se diferencia un fragmento de Recorrido de un fragmento de contenido de AEM?**
+
+**[Los fragmentos de contenido de AEM](../integrations/aem-fragments.md)** son contenido creado en Adobe Experience Manager y reutilizado en [!DNL Journey Optimizer] mensajes. No son una lógica de recorrido. Los fragmentos de recorrido, por el contrario, se crean y almacenan dentro de [!DNL Journey Optimizer] y representan conjuntos de nodos de recorrido conectados.
+
+**Si se actualiza un fragmento de Recorrido, ¿también se actualizan los recorridos existentes?**
+
+No. Los fragmentos de recorrido utilizan un **comportamiento de copia**: al insertar un fragmento, se crea una copia estática de sus nodos. Las actualizaciones realizadas en el fragmento original no se reflejan en los recorridos que ya lo han utilizado.

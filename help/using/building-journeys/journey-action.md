@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
+source-wordcount: 1775
 ht-degree: 13%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 13%
 >title="Actividad de acción"
 >abstract="La actividad **Acción** le permite configurar una sola acción de canal nativo y varias actividades entrantes con la capacidad de añadir la optimización a cualquier acción de canal integrada."
 
-La actividad **Action** es el único punto de entrada para todas las acciones de canal en el lienzo de recorrido.
+La actividad **Action** es el único punto de entrada para entregar contenido a los clientes desde el lienzo de recorrido. En lugar de elegir entre una actividad independiente para cada canal, arrastra una sola actividad **[!UICONTROL Action]** al lienzo y selecciona el canal que quieras usar.
 
-Sustituye a las actividades de canal integradas anteriores y consolida las actividades de correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido en un tipo de actividad unificado.
+Consolida todos los canales integrados (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un tipo de actividad unificado, sustituyendo las actividades de canal individuales utilizadas anteriormente.
 
-Úselo para lo siguiente:
+Utilice la actividad **Acción** para lo siguiente:
 
 * Configure cualquier acción de canal integrada desde una sola interfaz optimizada.
-* Crear grupos de acciones entrantes de varias acciones.
-* Aplique la optimización a cualquier acción del canal.
+* Combinar varias experiencias entrantes en un [grupo de acción múltiple](#multi-action).
+* Aplique [optimización](../content-management/gs-message-optimization.md), [contenido multilingüe](../content-management/multilingual-gs.md) y configuración específica del canal a cualquier acción.
 
 >[!NOTE]
 >
