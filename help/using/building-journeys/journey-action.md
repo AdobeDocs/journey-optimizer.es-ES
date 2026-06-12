@@ -11,29 +11,15 @@ keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación,
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -47,7 +33,7 @@ ht-degree: 13%
 
 La actividad **Action** es el único punto de entrada para entregar contenido a los clientes desde el lienzo de recorrido. En lugar de elegir entre una actividad independiente para cada canal, arrastra una sola actividad **[!UICONTROL Action]** al lienzo y selecciona el canal que quieras usar.
 
-Consolida todos los canales integrados (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un tipo de actividad unificado, sustituyendo las actividades de canal individuales utilizadas anteriormente.
+Consolida todos los canales integrados nativos heredados (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido) en un tipo de actividad unificada, sustituyendo las actividades de canal individuales utilizadas anteriormente.
 
 Utilice la actividad **Acción** para lo siguiente:
 
@@ -77,21 +63,21 @@ Las actividades de canal nativo heredadas también se conservan en estos casos:
 >id="ajo_journey_action_auto_wait"
 >title="Nodo de espera automático"
 >abstract="Para las acciones de canal entrante (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Wait** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia entrante antes de que el recorrido continúe con el siguiente paso."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimización"
 >abstract="La sección **Optimización** agrega experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada miembro de la audiencia."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingüe"
 >abstract="La sección **Multilingüe** ofrece el contenido de acción del canal en varios idiomas dentro de un solo recorrido. Una configuración de idioma define las configuraciones regionales admitidas y el idioma predeterminado para esta acción."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introducción al contenido multilingüe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introducción al contenido multilingüe"
 
 
 Para agregar una acción de canal integrada al recorrido mediante la actividad **[!UICONTROL Action]**, siga los pasos a continuación.
