@@ -6,20 +6,22 @@ description: Obtenga información sobre cómo solucionar problemas de actividade
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # Resolución de problemas de actividades en directo {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Diagnostique sistemáticamente por qué sus actividades Live no aparecen, actualizan o finalizan para que pueda resolver los problemas de token de perfil, configuración de campaña, carga útil y entrega en los casos de uso unitario y de difusión.
+
+>[!ENDSHADEBOX]
 
 Las actividades en directo en Adobe Journey Optimizer permiten actualizaciones dinámicas en tiempo real en las pantallas de bloqueo de iOS y en las islas dinámicas. Solo se pueden activar y administrar mediante campañas activadas por API.
 
@@ -43,7 +45,7 @@ Configure una **sesión de Assurance** para capturar eventos de SDK e inspeccion
 * Registro de token push
 * Eventos de ciclo vital de actividad activos
 
-Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/es/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Aprenda a configurar Assurance en la [documentación de Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: Para la actividad de iOS Live, asegúrate de que la aplicación se esté ejecutando en un dispositivo iOS físico (iOS 16.1 o posterior) o en un simulador Xcode (iOS 16.1 o posterior).
 
