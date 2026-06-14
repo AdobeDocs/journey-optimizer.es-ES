@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1130
+source-wordcount: 1162
 ht-degree: 3%
 
 ---
 
 # Creación de un mensaje de WhatsApp {#create-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Agrega una acción de WhatsApp a un recorrido o campaña y genera su contenido a partir de una plantilla de Meta aprobada, para que puedas enviar mensajes personalizados y bien probados a tu audiencia.
+
+>[!ENDSHADEBOX]
 
 Con Adobe Journey Optimizer, puedes diseñar y enviar mensajes atractivos en WhatsApp. Simplemente agrega una acción de WhatsApp a tu recorrido o campaña y crea el contenido del mensaje como se detalla a continuación. Adobe Journey Optimizer también le permite probar sus mensajes de WhatsApp antes de enviarlos, lo que garantiza un procesamiento perfecto, una personalización precisa y una configuración adecuada de todos los ajustes.
 

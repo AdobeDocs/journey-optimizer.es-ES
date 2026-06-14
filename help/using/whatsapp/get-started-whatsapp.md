@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # Empezar con los mensajes de WhatsApp {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Entiende cómo funciona el canal WhatsApp en Journey Optimizer, junto con sus requisitos previos y limitaciones, para que puedas decidir cómo añadir WhatsApp a tus recorridos y campañas.
+
+>[!ENDSHADEBOX]
 
 Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimizer a través de la [API en la nube](https://developers.facebook.com/docs/whatsapp/cloud-api/) de Meta. Esta función permite la integración optimizada de WhatsApp en recorridos y campañas, lo que mejora la comunicación y la participación con los destinatarios.
 
