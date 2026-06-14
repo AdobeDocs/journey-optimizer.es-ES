@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # Tipos de recorrido y guía de selección {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a comparar los cuatro tipos de recorrido (unitario, leer audiencia, calificación de audiencia y evento empresarial) y use la guía de decisión y la matriz de compatibilidad de características para elegir el adecuado para su caso de uso.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] admite cuatro tipos de recorrido, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales. Esta guía le ayuda a comprender las diferencias y elegir el tipo adecuado para su caso de uso.
 

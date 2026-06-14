@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # Administración de etiquetas en recorrido {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a organizar recorridos con etiquetas y categorías de etiquetas para que pueda clasificar, filtrar y encontrar sus recorridos más fácilmente que con las convenciones de nomenclatura.
+
+>[!ENDSHADEBOX]
 
 Como profesional de Journey Optimizer, puede organizar sus recorridos mediante etiquetas. Las etiquetas son una forma rápida y sencilla de clasificar objetos para mejorar la búsqueda.
 

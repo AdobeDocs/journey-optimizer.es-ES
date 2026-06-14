@@ -37,14 +37,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 5499
+source-wordcount: 5522
 ht-degree: 1%
 
 ---
 
 # orquestación de recorrido: preguntas más frecuentes {#faq-journeys}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Encuentre respuestas a las preguntas más frecuentes acerca de Journey Orchestration en Adobe Journey Optimizer, que abarcan conceptos generales, actividades, eventos y solución de problemas.
+
+>[!ENDSHADEBOX]
 
 Encuentre respuestas a preguntas comunes acerca de Journey Orchestration en [!DNL Adobe Journey Optimizer].
 

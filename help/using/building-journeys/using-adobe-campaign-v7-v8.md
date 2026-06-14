@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 299
-ht-degree: 28%
+source-wordcount: 327
+ht-degree: 26%
 
 ---
 
 # Acciones de [!DNL Adobe Campaign] versiones 7 y 8 {#using_campaign_v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la integración de Adobe Campaign v7 y v8 para enviar correos electrónicos, notificaciones push y SMS desde sus recorridos a través de la mensajería transaccional de Campaign.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"

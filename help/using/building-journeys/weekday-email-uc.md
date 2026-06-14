@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # Enviar correos electrónicos solo entre semana {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar un recorrido que envíe correos electrónicos solo entre semana, a poner en cola las entradas de fin de semana para la entrega del lunes mediante una actividad de condición y a realizar actividades de espera con fórmulas personalizadas.
+
+>[!ENDSHADEBOX]
 
 Este caso de uso muestra cómo configurar un recorrido en [!DNL Adobe Journey Optimizer] que envíe correos electrónicos solamente en días de semana (de lunes a viernes). Para los perfiles que entran en el recorrido los fines de semana (sábado o domingo), los correos electrónicos se ponen en cola automáticamente y se envían el lunes a una hora especificada. Esto garantiza una participación óptima al enviar mensajes durante la semana laboral.
 

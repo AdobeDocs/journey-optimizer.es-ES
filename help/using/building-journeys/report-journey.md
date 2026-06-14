@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 590
 ht-degree: 1%
 
 ---
 
 # Informe en vivo en el lienzo de recorrido {#report-journey}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar Live Reporting para monitorizar las métricas de recorrido clave de las últimas 24 horas directamente dentro del lienzo de recorrido.
+
+>[!ENDSHADEBOX]
 
 Una vez que se haya publicado el recorrido, [Modo de ejecución en seco](journey-dry-run.md) se activará y **Live Reporting** proporcionará métricas de las últimas 24 horas directamente en el lienzo del recorrido.
 

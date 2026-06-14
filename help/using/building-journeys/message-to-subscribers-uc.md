@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 15%
+source-wordcount: 382
+ht-degree: 14%
 
 ---
 
 # Envío de un mensaje a los suscriptores de una lista {#send-a-message-to-the-subscribers-of-a-list}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear un recorrido que envíe un mensaje a los suscriptores de una lista mediante el grupo de campos Detalles de consentimiento y preferencia.
+
+>[!ENDSHADEBOX]
 
 El propósito de este caso de uso es crear un recorrido para enviar un mensaje a los suscriptores de una lista.
 

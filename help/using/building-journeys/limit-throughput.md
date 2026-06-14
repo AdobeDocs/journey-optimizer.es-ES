@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 6%
+source-wordcount: 829
+ht-degree: 5%
 
 ---
 
 # Caso de uso: limitar el rendimiento con fuentes de datos externas y acciones personalizadas{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a acelerar el procesamiento del recorrido con acciones personalizadas y fuentes de datos externas para que los sistemas externos no se vean desbordados más allá del número de solicitudes admitidas por segundo.
+
+>[!ENDSHADEBOX]
 
 Utilice este caso de uso para acelerar el procesamiento del recorrido cuando los sistemas externos deban gestionar un número limitado de solicitudes por segundo.
 

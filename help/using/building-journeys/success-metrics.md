@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
+source-wordcount: 623
 ht-degree: 6%
 
 ---
 
 # Configuración y seguimiento de la métrica de recorrido {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar y asignar métricas de recorridos para realizar un seguimiento del rendimiento en relación con los KPI y medir la efectividad de los recorridos de los clientes en tiempo real.
+
+>[!ENDSHADEBOX]
 
 Obtenga una visibilidad clara de la eficacia de los recorridos de sus clientes con las métricas de recorridos. Esta función le permite realizar un seguimiento del rendimiento con respecto a los KPI definidos, descubrir información sobre lo que funciona e identificar áreas para la optimización. Si mide el impacto en tiempo real, puede impulsar una mejora continua y tomar decisiones basadas en datos que aumenten la participación de los clientes.
 

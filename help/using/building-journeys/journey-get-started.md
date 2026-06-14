@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 47%
+source-wordcount: 1009
+ht-degree: 46%
 
 ---
 
 # orquestación de recorrido: guía completa{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga una guía completa de la orquestación de recorridos en Adobe Journey Optimizer, que cubre cómo diseñar, administrar y refinar recorridos de clientes multicanal y de varios pasos que se adaptan en tiempo real.
+
+>[!ENDSHADEBOX]
 
 Los recorridos de [!DNL Adobe Journey Optimizer] le permiten crear recorridos personalizados de clientes de varios pasos que se adaptan en tiempo real al comportamiento y las necesidades de su audiencia. Con un lienzo intuitivo de tipo arrastrar y soltar, puede orquestar mensajes y acciones en varios canales, aprovechando los datos contextuales y la segmentación del público para lograr el máximo impacto.
 

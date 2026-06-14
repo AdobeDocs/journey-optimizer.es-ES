@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1405
+source-wordcount: 1358
 ht-degree: 6%
 
 ---
 
 # Saltar de un recorrido a otro {#jump}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad de salto para mover a las personas de un recorrido a otro, simplificar diseños complejos y crear patrones de recorrido comunes y reutilizables.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
@@ -137,7 +143,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
    ![Menú desplegable de selección de recorrido de destino en la configuración de actividad de salto](assets/jump2.png)
 
 1. Haga clic dentro del campo **recorrido de destino**.
-La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
+La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento de **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
 
    ![Actividad de salto que muestra el recorrido de destino y los parámetros de acción](assets/jump3.png)
 

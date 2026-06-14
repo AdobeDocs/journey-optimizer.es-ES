@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # Establecimiento de las propiedades del recorrido {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a establecer las propiedades globales de un recorrido, incluido su nombre, reglas de entrada, huso horario, fechas de inicio y finalización, tiempo de espera, criterios de salida y administración de conflictos, desde el carril derecho durante la creación.
+
+>[!ENDSHADEBOX]
 
 Utilice las propiedades del recorrido para definir la configuración global del recorrido, incluido el nombre, las reglas de entrada, la zona horaria, las fechas de inicio y finalización, la duración del tiempo de espera, los criterios de salida y la administración de conflictos. Se puede acceder a las propiedades desde el carril derecho en cualquier fase de la creación del recorrido.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # Solución de problemas de acciones de entrada en recorridos {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a depurar y resolver problemas comunes con acciones entrantes, como experiencias en la aplicación, web y basadas en código, en un recorrido antes de ponerse en contacto con el servicio de asistencia.
+
+>[!ENDSHADEBOX]
 
 Las acciones entrantes, como las experiencias en la aplicación, web y basadas en código, son componentes esenciales de [!DNL Journey Optimizer], ya que permiten la participación personalizada con los usuarios durante su recorrido. Sin embargo, se pueden producir comportamientos inesperados, como la falta de contenido entrante o la continuación de la entrega después de que un perfil salga del recorrido.
 

@@ -11,14 +11,20 @@ keywords: segmentación, reglas, recorrido, ruta, optimización, personalizació
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 823
 ht-degree: 3%
 
 ---
 
 # Aprovechamiento de la segmentación de ruta {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar las reglas de segmentación en la actividad de optimización para enrutar de forma determinista audiencias específicas por las rutas de recorrido correctas, con una ruta de reserva opcional.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

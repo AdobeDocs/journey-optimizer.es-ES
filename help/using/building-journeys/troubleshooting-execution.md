@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2232
+source-wordcount: 2263
 ht-degree: 11%
 
 ---
 
 # Resolución de problemas de ejecución de recorrido activo {#troubleshooting-execution}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a solucionar problemas de ejecución de un recorrido activo, incluida la comprobación de que se envían eventos, la confirmación de la entrada de perfiles y el progreso en el recorrido, y la comprobación de que se envían mensajes.
+
+>[!ENDSHADEBOX]
 
 En esta sección, aprenderá a solucionar problemas de eventos de recorrido, comprobar si los perfiles han introducido el recorrido, cómo navegan por él y si se envían mensajes.
 

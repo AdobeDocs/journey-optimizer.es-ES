@@ -11,14 +11,20 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1891
+source-wordcount: 1916
 ht-degree: 0%
 
 ---
 
 # Simulación del recorrido {#simulate-journey}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a ejecutar la simulación rápida y la simulación manual con usuarios simulados para validar las rutas de recorrido y revisar los resultados antes de publicar.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

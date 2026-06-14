@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 7%
 
 ---
 
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar la actividad Leer audiencia para que los perfiles de una audiencia de Adobe Experience Platform entren en un recorrido, bajo demanda o según una programación, y personalice la ruta de cada perfil.
+
+>[!ENDSHADEBOX]
 
 Utilice la actividad Leer audiencia para iniciar recorridos con audiencias definidas. Usted elige la audiencia y cuándo se ejecuta; luego usa [condiciones](#audience-targeting-in-journeys), temporizadores y acciones para personalizar la ruta de cada perfil.
 

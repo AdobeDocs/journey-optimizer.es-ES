@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # Descubra los casos de uso {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore una biblioteca de casos prácticos de uso de Adobe Journey Optimizer y escenarios de extremo a extremo para diseñar recorridos, modelar datos y generar lógica de activación.
+
+>[!ENDSHADEBOX]
 
 Esta sección reúne una colección de casos de uso prácticos para ayudarle a sacar el máximo partido a [!DNL Adobe Journey Optimizer]. Tanto si busca patrones tácticos (como lógica de supresión, técnicas de personalización o estrategias de salida de recorrido) como escenarios completos que abarquen flujos de trabajo técnicos y de marketing, a continuación encontrará vínculos a ejemplos relevantes.
 
@@ -74,7 +80,7 @@ Utilice esta biblioteca como punto de referencia para diseñar recorridos, model
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="ejemplos de consultas" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>Para crear sus casos de uso, debe consultar los conjuntos de datos [!DNL Adobe Journey Optimizer], como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, etc.
+    <br>Para crear sus casos de uso, debe consultar los conjuntos de datos [!DNL Adobe Journey Optimizer], como los conjuntos de datos del sistema para la ingesta de eventos de experiencia de seguimiento, el conjunto de datos para la ingesta de eventos de paso en un recorrido, el conjunto de datos para la ingesta de propuestas de ofertas a los usuarios, y más.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">Más información</a></div>

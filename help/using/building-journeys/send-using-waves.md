@@ -12,14 +12,20 @@ keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # Envío mediante olas en los recorridos {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a enviar mensajes salientes desde un recorrido de audiencia de lectura en lotes programados, llamados olas, para equilibrar la carga, proteger los sistemas descendentes y admitir la entrega.
+
+>[!ENDSHADEBOX]
 
 Puede enviar mensajes salientes desde un recorrido en lotes (olas) a lo largo del tiempo en lugar de todos a la vez. El envío de ondas ayuda a equilibrar la carga, evitar sistemas descendentes abrumadores (como centros de llamadas o páginas de aterrizaje) y admite la capacidad de envío y la reputación del remitente, especialmente para recorridos de audiencia de lectura de gran volumen.
 

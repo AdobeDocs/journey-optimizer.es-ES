@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # Uso de identificadores suplementarios en recorridos {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar identificadores suplementarios (identificadores secundarios como un identificador de pedido o de reserva) para ejecutar una instancia de recorrido independiente por identificador y personalizar mensajes con sus atributos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

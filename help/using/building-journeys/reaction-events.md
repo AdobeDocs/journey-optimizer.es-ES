@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 506
-ht-degree: 15%
+source-wordcount: 541
+ht-degree: 14%
 
 ---
 
 # Eventos de reacción {#reaction-events}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad de reacción para responder a los datos de seguimiento de mensajes, como aperturas y clics, dentro del mismo recorrido, y configure rutas de tiempo de espera para personas que no interactúen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"

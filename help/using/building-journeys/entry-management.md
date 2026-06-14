@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
 
 # Administración de la entrada del perfil {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda cómo funcionan la entrada y la reentrada de perfiles para cada tipo de recorrido, de modo que pueda controlar cuándo y con qué frecuencia entran los perfiles en sus recorridos.
+
+>[!ENDSHADEBOX]
 
 La administración de la entrada del perfil depende del tipo de recorrido.
 

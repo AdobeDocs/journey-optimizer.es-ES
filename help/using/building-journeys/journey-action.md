@@ -31,14 +31,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1777
-ht-degree: 13%
+source-wordcount: 1813
+ht-degree: 12%
 
 ---
 
 # Uso de la actividad Acción {#add-a-message-in-a-journey}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad de acción para entregar contenido desde el lienzo de recorrido a través de una sola actividad unificada que abarca correo electrónico, push, SMS, en la aplicación, web, experiencias basadas en código y tarjetas de contenido.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"

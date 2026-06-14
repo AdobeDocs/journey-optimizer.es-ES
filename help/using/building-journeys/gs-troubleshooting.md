@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # Solución de problemas del recorrido {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque recursos de solución de problemas organizados por áreas de problemas comunes para ayudarle a diagnosticar y resolver errores de recorrido, incoherencias en la ejecución, problemas de acciones entrantes y problemas de acciones personalizadas.
+
+>[!ENDSHADEBOX]
 
 Cuando el recorrido de un cliente no se comporta según lo previsto, puede resultar difícil identificar la causa. Para ayudarle a resolver los problemas de forma eficaz, a continuación se muestran los recursos de resolución de problemas de las áreas problemáticas más comunes. Tanto si se detectan errores de recorrido, incoherencias en la ejecución como problemas a nivel de acción, cada sección ofrece instrucciones específicas para investigarlos y resolverlos.
 

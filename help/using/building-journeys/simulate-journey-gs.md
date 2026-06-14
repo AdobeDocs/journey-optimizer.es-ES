@@ -11,14 +11,20 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 2%
 
 ---
 
 # Introducción a la simulación de Recorrido {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo la simulación de recorrido le permite realizar pruebas con usuarios simulados y cómo varía la experiencia de simulación en función del tipo de recorrido antes de publicar.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

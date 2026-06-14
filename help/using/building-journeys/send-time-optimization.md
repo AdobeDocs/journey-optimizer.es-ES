@@ -28,14 +28,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1624
-ht-degree: 6%
+source-wordcount: 1656
+ht-degree: 5%
 
 ---
 
 # Optimización del tiempo de envío{#send-time-optimization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a habilitar la optimización del tiempo de envío para que la inteligencia artificial aplicada (IA) de Adobe prediga el mejor momento para enviar mensajes push y de correo electrónico en función del comportamiento histórico de apertura y clic de cada cliente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
