@@ -9,30 +9,25 @@ role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO0Qps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # Ejemplos de consultas{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque ejemplos de consultas SQL listos para usar para analizar y solucionar problemas de eventos de pasos de recorrido en el lago de datos de Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Esta sección proporciona ejemplos de uso común para consultar eventos de pasos de Recorrido en Data Lake. Antes de profundizar en casos de uso específicos, es importante comprender los identificadores clave utilizados en los datos de evento de recorrido.
 

@@ -9,30 +9,25 @@ role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 TQID: https://experienceleague.adobe.com/JnA4LJ-FiCILS42uZZ5hUBUBQLmSn-R0TwUe-eGhCCg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # Creación de informes de recorrido {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo Journey Optimizer transmite automáticamente los datos de eventos de paso de recorrido a Adobe Experience Platform para que pueda combinarlos con otros datos y analizar el rendimiento del recorrido en Customer Journey Analytics.
+
+>[!ENDSHADEBOX]
 
 Además de los [informes en tiempo real](live-report.md) y las [capacidades de generación de informes](report-gs-cja.md) integradas, [!DNL Journey Optimizer] puede enviar automáticamente datos de rendimiento de recorrido a Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
 
@@ -90,6 +85,6 @@ El flujo de trabajo general es:
 
 * [!DNL Customer Journey Analytics] ingiere el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
 * El campo **profileID** del &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En [!DNL Customer Journey Analytics], puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
-* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es){target="_blank"}.
+* Para usar este conjunto de datos en [!DNL Customer Journey Analytics], para el análisis de recorrido entre canales, consulte [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Trabajar con Customer Journey Analytics](cja-ajo.md){target="_blank"}

@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 TQID: https://experienceleague.adobe.com/GMuI1OYuumsM7Zt7jis5IPr2ZdMsHrPzucyRZidWopw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # Informe de suscripción {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar el informe Suscripción para analizar las suscripciones y bajas de suscripción de perfil en listas, recorridos, campañas y canales a fin de medir la participación.
+
+>[!ENDSHADEBOX]
 
 El **informe de suscripciones** ofrece información esencial sobre las suscripciones y bajas de perfiles asociadas con listas particulares, lo que le ayuda a comprender la eficacia de diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.
 
@@ -40,7 +36,7 @@ Para acceder a tus informes, haz clic en el icono **[!UICONTROL Informe]** de la
 
 ![](assets/cja-sub-access.png)
 
-Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+Para obtener más información sobre Customer Journey Analytics Workspace y cómo filtrar y analizar datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## La lista de suscripción agrega
 
