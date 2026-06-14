@@ -10,27 +10,25 @@ level: Beginner, Intermediate
 keywords: alineación vertical, editor de correo electrónico, relleno
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 TQID: https://experienceleague.adobe.com/vJhROWi5ZiOLJrESMe-oUkmve1vSXrE5sNewDLpv-eE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 412
 ht-degree: 6%
 
 ---
 
 # Ajustar alineación vertical y relleno {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a ajustar la alineación vertical y el relleno de columnas y estructuras en el Designer de correo electrónico, incluido cómo corregir el relleno de fragmento residual para un procesamiento móvil correcto.
+
+>[!ENDSHADEBOX]
 
 En este ejemplo, se ajusta el relleno y la alineación vertical dentro de un componente de estructura compuesto por tres columnas.
 

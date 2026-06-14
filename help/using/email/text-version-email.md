@@ -11,14 +11,20 @@ keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 8%
 
 ---
 
 # Administrar la versión de texto de un correo electrónico {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la versión de texto sin formato predeterminada sincronizada automáticamente de un correo electrónico o a crear una personalizada, y a seleccionar cuándo funciona mejor cada método.
+
+>[!ENDSHADEBOX]
 
 Se recomienda crear una versión de texto del cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido HTML.
 

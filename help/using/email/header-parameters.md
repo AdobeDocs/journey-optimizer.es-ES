@@ -10,28 +10,25 @@ level: Experienced
 keywords: configuración, correo electrónico, configuración, encabezado del remitente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 55%
+source-wordcount: 1172
+ht-degree: 54%
 
 ---
 
 # Parámetros de encabezado {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar los parámetros de encabezado de correo electrónico en una configuración de canal, incluidos los campos De, Responder a, Error y Remitente opcional, además de cómo administrar la administración de respuestas y el reenvío de correo electrónico.
+
+>[!ENDSHADEBOX]
 
 Al configurar una nueva [configuración del canal de correo electrónico](email-settings.md), en la sección **[!UICONTROL Parámetros de encabezado]**, escriba los nombres de remitente y las direcciones de correo electrónico asociadas al tipo de correos electrónicos enviados mediante esa configuración.
 

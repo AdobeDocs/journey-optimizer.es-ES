@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # Optimización del correo electrónico para bandejas de entrada de IA {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a generar y perfeccionar una versión específica de su correo electrónico en el Designer de correo electrónico para que los clientes de la bandeja de entrada asistida por IA basen sus resúmenes y respuestas en sus ofertas y llamadas a la acción.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] incorpora una función de canal de correo electrónico que le ayuda a estructurar una versión específica de sus mensajes para mejorar las experiencias de la bandeja de entrada con asistencia de IA, como [!DNL Apple Intelligence] y [!DNL Google Gemini] en [!DNL Gmail], de modo que puedan responder preguntas y resumir el correo electrónico en función de su contenido de forma más precisa, con mejores resultados.
 

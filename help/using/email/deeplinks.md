@@ -10,15 +10,21 @@ level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # Uso y configuración de vínculos profundos en correos electrónicos y SMS {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear vínculos profundos en el contenido de correo electrónico y SMS, configurarlos en Adobe Journey Optimizer y administrar los vínculos rastreados en las aplicaciones de iOS y Android para que los destinatarios aterricen en la pantalla correcta de la aplicación.
+
+>[!ENDSHADEBOX]
 
 Los vínculos profundos le ayudan a llevar a los destinatarios de un mensaje de correo electrónico o SMS a una pantalla o fragmento de contenido específico en su aplicación móvil. Ayuda a llevar a las personas directamente a la experiencia en la aplicación deseada, sin enrutarlas a través de un explorador web o una tienda de aplicaciones, de modo que el recorrido sigue siendo relevante y se adapta a la marca.
 

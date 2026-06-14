@@ -10,30 +10,26 @@ level: Beginner, Intermediate
 keywords: modo oscuro, correo electrónico, color, editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 10%
+source-wordcount: 1584
+ht-degree: 9%
 
 ---
 
 # Administrar contenido en modo oscuro {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo los clientes de correo electrónico administran el modo oscuro y cómo previsualizar y definir la configuración personalizada de modo oscuro en el Designer de correo electrónico, junto con las prácticas recomendadas para una representación coherente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
