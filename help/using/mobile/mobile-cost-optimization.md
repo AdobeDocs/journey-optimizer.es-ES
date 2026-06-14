@@ -9,29 +9,26 @@ role: User
 level: Intermediate
 exl-id: c8c156da-8482-4932-9c15-45ab83c173e7
 TQID: https://experienceleague.adobe.com/ccUbyMiVNBULBlaYAb-z6-WFGcWURtmelyKUy7v2g2o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 576
 ht-degree: 1%
 
 ---
 
 # Prácticas recomendadas para la optimización del coste de SMS {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca las prácticas recomendadas para reducir los costos de los SMS en Adobe Journey Optimizer al mantener los mensajes cortos, evitar los caracteres especiales y la codificación UCS-2, y comprobar los recuentos de caracteres antes de enviarlos.
+
+>[!ENDSHADEBOX]
 
 Los mensajes SMS suelen facturar los proveedores en función de un límite de 160 caracteres por mensaje. El envío de mensajes SMS puede conllevar costes adicionales si los mensajes se dividen en varias partes.
 
