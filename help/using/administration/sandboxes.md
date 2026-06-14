@@ -10,26 +10,25 @@ level: Experienced
 keywords: zonas protegidas, virtual, entornos, organización, plataforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 26%
+source-wordcount: 464
+ht-degree: 24%
 
 ---
 
 # Uso y asignación de zonas protegidas {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Use y asigne zonas protegidas para particionar la instancia de Adobe Journey Optimizer en entornos aislados, de modo que pueda desarrollar, probar y ejecutar en la producción sin afectar a otro trabajo.
+
+>[!ENDSHADEBOX]
 
 **Las zonas protegidas** son entornos virtuales que dividen la instancia de Adobe Journey Optimizer en espacios de trabajo independientes y aislados para fines de desarrollo, prueba o producción. Encontrará administración de zonas protegidas en **Administración** > **Canales** > **Conecte sus sistemas y entornos** (o a través del conmutador de zonas protegidas en la parte superior derecha de la interfaz). Las zonas protegidas le ayudan a experimentar con seguridad, asignar diferentes accesos por función y mantener el contenido organizado. Esta página explica cómo usar y asignar zonas protegidas, cómo configurar el acceso al contenido y, en el artículo [Exportar objetos a otra zona protegida](../configuration/copy-objects-to-sandbox.md), cómo copiar recorridos y plantillas entre zonas protegidas.
 
@@ -85,4 +84,4 @@ Tenga en cuenta que para que el contenido se sincronice con la zona protegida co
 
 Comprenda qué son las zonas protegidas y cómo distinguir entre las zonas protegidas de desarrollo y producción. Obtenga información sobre cómo crear, restablecer y eliminar zonas protegidas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416653?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

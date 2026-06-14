@@ -10,28 +10,25 @@ level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1545
 ht-degree: 0%
 
 ---
 
 # Niveles de permisos {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo los permisos de alto nivel agrupan los permisos de bajo nivel subyacentes para cada recurso, de modo que pueda conceder a las funciones exactamente el acceso a las características que necesitan los usuarios.
+
+>[!ENDSHADEBOX]
 
 Cada función está compuesta por permisos que permiten a los usuarios acceder a las distintas funciones.
 
@@ -194,7 +191,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 

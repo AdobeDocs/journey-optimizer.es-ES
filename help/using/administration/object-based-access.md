@@ -9,17 +9,22 @@ role: Admin, Developer
 level: Experienced
 keywords: objeto, nivel, acceso, control, etiquetas, olac, autorización
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-feature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+feature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 20%
+source-wordcount: 548
+ht-degree: 19%
 
 ---
 
 # Control de acceso de nivel de objeto {#object-level-access}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Use el control de acceso a nivel de objeto para restringir objetos individuales como recorridos, campañas y ofertas con etiquetas de acceso, de modo que pueda mantener el contenido confidencial y los datos personales limitados a los usuarios autorizados.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
@@ -56,7 +61,7 @@ Las **[!UICONTROL etiquetas]** le permiten categorizar conjuntos de datos y camp
 
 Utilice etiquetas para proporcionar acceso a los usuarios y aplicar políticas de consentimiento y gobernanza de datos. Estas etiquetas de gobernanza pueden afectar al consumo descendente.
 
-Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=es){target="_blank"}.
+Puede crear etiquetas en el producto [!DNL Permissions]. Para obtener más información, consulte [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}.
 
 También puede crear **[!UICONTROL Etiquetas]** directamente en Journey Optimizer. Para crear una etiqueta, siga estos pasos:
 
@@ -98,4 +103,4 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 
 Para tener acceso a este objeto, los usuarios deben tener la **[!UICONTROL Etiqueta]** específica incluida en sus **[!UICONTROL Roles]**. Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a objetos con etiquetas C1 o sin etiquetas.
 
-Para obtener más información sobre cómo asignar una **[!UICONTROL etiqueta]** a un **[!UICONTROL rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=es#manage-labels-for-a-role){target="_blank"}.
+Para obtener más información sobre cómo asignar una **[!UICONTROL etiqueta]** a un **[!UICONTROL rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}.
