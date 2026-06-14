@@ -10,30 +10,26 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, lista, suscripción, servicio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 TQID: https://experienceleague.adobe.com/NgCn1-WZaoBA73hleiFJGucgUSzfmEF43eEWZhGJnj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 775
 ht-degree: 8%
 
 ---
 
 # Listas de suscripciones {#create-subscription-list}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Las listas de suscripción reúnen los perfiles que se suscriben a un boletín, evento o interés, lo que le proporciona una audiencia sobre la que dirigirse, enviar mensajes e informar.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
@@ -57,7 +53,7 @@ Los perfiles se pueden agregar a una lista de suscripción mediante una [página
 
 >[!NOTE]
 >
->Al crear una lista de suscripción, se genera automáticamente un segmento de flujo continuo asociado en Adobe Experience Platform. Para que el segmento de flujo continuo se cree correctamente, la política de combinación debe tener habilitada la opción **Active-On-Edge**. Obtenga más información acerca de los criterios de elegibilidad para segmentos de streaming en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Al crear una lista de suscripción, se genera automáticamente un segmento de flujo continuo asociado en Adobe Experience Platform. Para que el segmento de flujo continuo se cree correctamente, la política de combinación debe tener habilitada la opción **Active-On-Edge**. Obtenga más información acerca de los criterios de elegibilidad para segmentos de streaming en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Para crear una lista de suscripción, siga los pasos a continuación.
 

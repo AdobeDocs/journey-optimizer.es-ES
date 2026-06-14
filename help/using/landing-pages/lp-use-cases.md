@@ -10,29 +10,26 @@ level: Intermediate
 keywords: aterrizaje, página de aterrizaje, caso de uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # Casos de uso de página de aterrizaje {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** vea ejemplos prácticos que utilizan páginas de aterrizaje para impulsar suscripciones, capturar exclusiones y obtener recorridos de seguimiento de déclencheur de los envíos de formularios.
+
+>[!ENDSHADEBOX]
 
 A continuación se muestran algunos ejemplos de cómo puede usar las páginas de aterrizaje de [!DNL Journey Optimizer] para que sus clientes acepten su inclusión/exclusión en la recepción de algunas o todas sus comunicaciones.
 
@@ -185,7 +182,7 @@ La información de exclusión se almacena en el **conjunto de datos del servicio
 
 >[!NOTE]
 >
->Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=es#dataset-precedence-profile){target="_blank"}
+>Si el método de combinación para la directiva de combinación predeterminada de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es){target="_blank"} **[!UICONTROL Perfiles]** es la **[!UICONTROL Prioridad del conjunto de datos]**, asegúrese de habilitar el **[!UICONTROL conjunto de datos del servicio de consentimiento de AJO]** y de priorizarlo en la directiva de combinación. [Más información](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Incluso si no se han agregado lotes a este conjunto de datos, seguirá conteniendo la información de inclusión/exclusión.
 

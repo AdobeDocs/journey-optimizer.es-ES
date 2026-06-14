@@ -10,28 +10,26 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, página, formulario
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # Uso de formularios en las páginas de aterrizaje {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear formularios e incrustarlos en las páginas de aterrizaje de captura de datos para recopilar atributos de perfil de visitantes y escribir los envíos en los conjuntos de datos de Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Para capturar datos de perfil con sus páginas de aterrizaje de [!DNL Journey Optimizer] y enriquecer los conjuntos de datos de [!DNL Experience Platform], puede aprovechar los formularios en sus páginas de aterrizaje. Para obtener una descripción general de los escenarios y requisitos de captura de datos, consulte [Captura de datos con páginas de aterrizaje](get-started-lp.md#data-capture-lp).
 
@@ -88,7 +86,7 @@ Para crear un ajuste preestablecido de formulario, siga los pasos a continuació
    >* **El tipo de datos** debe establecerse en **XDM** (no datos sin procesar)
    >* **La autenticación** debe estar **deshabilitada** (conexión no autenticada)
    >
-   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Si la conexión de flujo continuo no aparece en la lista, compruebe que se cumplen ambas condiciones. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleccione un **[!UICONTROL conjunto de datos]** para vincularlo con el formulario. Aquí es donde se almacenan y reflejan las respuestas del formulario. Puede escribir si desea buscar un conjunto de datos específico o seleccionarlo en la lista.
 

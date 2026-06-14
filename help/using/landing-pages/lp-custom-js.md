@@ -10,25 +10,24 @@ level: Experienced
 keywords: landing, landing page, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # Uso de JavaScript personalizado en una página de aterrizaje {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Amplíe sus páginas de aterrizaje con JavaScript personalizado para validar la entrada, ejecutar envíos de formularios personalizados, activar eventos de análisis o generar comportamientos dinámicos más allá del editor estándar.
+
+>[!ENDSHADEBOX]
 
 Puede definir el contenido de la página de aterrizaje mediante JavaScript personalizado. Por ejemplo, si necesita aplicar estilos avanzados o si desea agregar comportamientos personalizados a las páginas de aterrizaje, puede crear sus propios controles y ejecutarlos en [!DNL Journey Optimizer].
 
