@@ -16,14 +16,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 35%
+source-wordcount: 643
+ht-degree: 34%
 
 ---
 
 # Asignar puntuaciones de prioridad {#priority}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Asigne puntuaciones de prioridad a recorridos, campañas y acciones entrantes para que pueda controlar qué comunicación tiene prioridad cuando un perfil cumple los requisitos para más de uno.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido, a una campaña o a una acción de canal entrante dentro de la actividad **[!UICONTROL Action]** de recorrido.
 

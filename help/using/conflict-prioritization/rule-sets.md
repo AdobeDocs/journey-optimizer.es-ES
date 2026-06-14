@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1067
-ht-degree: 33%
+source-wordcount: 1095
+ht-degree: 32%
 
 ---
 
 # Trabajar con conjuntos de reglas {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Agrupe las reglas de restricción de frecuencia, de horas de inactividad y de límite de recorrido en conjuntos de reglas para que pueda controlar con qué frecuencia y cuántas comunicaciones recibe cada cliente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

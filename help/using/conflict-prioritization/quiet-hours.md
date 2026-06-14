@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # Establecimiento de horas tranquilas {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Defina exclusiones basadas en el tiempo para correo electrónico, SMS, push y WhatsApp para que pueda evitar enviar mensajes a los clientes en los momentos equivocados y respetar sus preferencias y requisitos de cumplimiento.
+
+>[!ENDSHADEBOX]
 
 ## Qué son las horas tranquilas
 

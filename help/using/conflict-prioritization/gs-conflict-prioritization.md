@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # Administración de conflictos y priorización {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo la detección de conflictos, las puntuaciones de prioridad y los conjuntos de reglas funcionan juntos para que pueda evitar comunicaciones superpuestas y controlar la frecuencia con la que se envían mensajes a los clientes.
+
+>[!ENDSHADEBOX]
 
 En Journey Optimizer, administrar el volumen y la cronología de las campañas y los recorridos es esencial para evitar abrumar a los clientes con demasiadas interacciones. Las herramientas de administración de conflictos y la priorización le ayudan a ofrecer comunicaciones reflexivas y oportunas, ya que evitan la fatiga de los clientes y garantizan que los mensajes correctos lleguen a su público. Mediante la detección de conflictos, las puntuaciones de las prioridades y los conjuntos de reglas, puede optimizar las campañas y los recorridos para evitar solapamientos y equilibrar la frecuencia entre canales.
 

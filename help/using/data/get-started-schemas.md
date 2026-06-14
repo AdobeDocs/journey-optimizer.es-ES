@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # Introducción a los esquemas {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo los esquemas relacionales y estándar de Adobe Experience Platform definen la estructura de los datos para que pueda modelar perfiles, eventos de comportamiento y entidades relacionales para campañas de personalización y orquestadas en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] se basa en los **esquemas de Adobe Experience Platform** para describir la estructura de los datos de una manera uniforme y reutilizable. Un esquema proporciona una definición abstracta de un objeto del mundo real (como una persona) y describe qué datos deben incluirse en cada instancia de ese objeto (como nombre, cumpleaños, etc.). Cuando los datos se incorporan en Experience Platform, siempre se estructuran según un **esquema XDM**.
 

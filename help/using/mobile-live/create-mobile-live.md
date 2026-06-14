@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # Crear una actividad en directo {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree una campaña activada por API en Journey Optimizer para poder iniciar, actualizar y finalizar de forma remota actividades en directo para usuarios o audiencias individuales.
+
+>[!ENDSHADEBOX]
 
 Después de configurar la configuración móvil e implementar el SDK móvil de Adobe Experience Platform, puede empezar a crear la actividad en directo en Journey Optimizer:
 

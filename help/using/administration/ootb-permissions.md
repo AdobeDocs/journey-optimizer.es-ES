@@ -32,14 +32,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1238
 ht-degree: 2%
 
 ---
 
 # Permisos integrados {#ootb-permissions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise los permisos integrados disponibles para cada capacidad, de modo que pueda asignar a las funciones los derechos precisos que los usuarios necesitan para trabajar en Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Los permisos integrados representan los diferentes permisos que se pueden asignar a una **[!UICONTROL función]** para ajustar el acceso de los usuarios a Journey Optimizer. Los permisos de alto nivel abarcan permisos de bajo nivel, detallados en [esta página](high-low-permissions.md).
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # Introducción al control de acceso {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Familiarícese con los conceptos básicos de control de acceso en Journey Optimizer, incluidos los roles, los permisos, los entornos limitados y el control de acceso basado en objetos y atributos, para que pueda planificar cómo otorgar a los usuarios el acceso adecuado.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autorizan o deniegan el acceso a las funciones y capacidades del producto.
 
@@ -55,7 +61,7 @@ Para configurar el control de acceso para Journey Optimizer, debe tener privileg
 La administración de usuarios en [!DNL Journey Optimizer] se basa en estos conceptos clave:
 
 * **[!UICONTROL Roles]**: Los roles hacen referencia a una colección de usuarios que comparten los mismos permisos y zonas protegidas. Estas funciones le permiten administrar fácilmente el acceso y los permisos para diferentes grupos de usuarios dentro de su organización. Una función viene con un conjunto de derechos unitarios (permisos) que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz.
-Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL roles]** preexistentes, cada uno con diferentes niveles de permisos, para asignarlos a los usuarios. Obtenga más información acerca de las **funciones integradas** disponibles en [esta página](ootb-product-profiles.md).
+Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL roles]** preexistentes, cada uno con diferentes niveles de permisos, para asignarlos a sus usuarios. Obtenga más información acerca de las **funciones integradas** disponibles en [esta página](ootb-product-profiles.md).
 
 * **[!UICONTROL Permisos]**: los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL roles]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](high-low-permissions.md).
 

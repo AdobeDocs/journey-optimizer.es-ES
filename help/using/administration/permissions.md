@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 792
 ht-degree: 8%
 
 ---
 
 # Administración de usuarios y funciones {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Asigne, edite y cree funciones en el producto Permisos para que pueda proporcionar a cada usuario exactamente el acceso que necesita para realizar su trabajo en Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Los roles]** hacen referencia a una colección de usuarios que comparten los mismos permisos y zonas protegidas. Estas funciones le permiten administrar fácilmente el acceso y los permisos para diferentes grupos de usuarios dentro de su organización.
 

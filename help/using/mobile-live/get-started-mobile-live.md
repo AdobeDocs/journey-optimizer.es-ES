@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # Introducción a las actividades en directo {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo las actividades de Live ofrecen actualizaciones persistentes y en tiempo real en la pantalla de bloqueo de iPhone y en Dynamic Island para que pueda mantener a los usuarios ocupados durante los eventos en curso y planificar la configuración y las campañas activadas por API necesarias para enviarlas con Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Las actividades en directo son elementos de interfaz de usuario persistentes y visibles que se muestran en la pantalla de bloqueo del dispositivo. Permiten que la aplicación presente información actualizada en tiempo real, lo que mantiene a los usuarios informados durante un evento en curso sin pedirles que abran la aplicación ni que reciban notificaciones push repetidas.
 

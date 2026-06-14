@@ -18,14 +18,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 781
 ht-degree: 16%
 
 ---
 
 # Detección de posibles conflictos en recorridos y campañas {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Detecte recorridos y campañas que se superpongan antes de que se publiquen, de manera que pueda evitar bombardear a los clientes con demasiadas comunicaciones a la vez.
+
+>[!ENDSHADEBOX]
 
 A medida que los especialistas en marketing aumentan el volumen de campañas y Recorridos en Journey Optimizer, a un experto en marketing le resulta cada vez más difícil saber si está bombardeando a sus clientes con demasiadas interacciones de marketing. Por lo tanto, es esencial identificar fácilmente cuándo hay campañas y recorridos superpuestos para garantizar que logren el equilibrio adecuado de las comunicaciones de marketing y, al mismo tiempo, mitigar el riesgo de fatiga de los clientes.
 

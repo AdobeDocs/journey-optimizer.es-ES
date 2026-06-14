@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1152
 ht-degree: 2%
 
 ---
 
 # Ejemplos de consultas {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore ejemplos de consultas SQL listos para usar para conjuntos de datos del sistema de Journey Optimizer a fin de analizar el seguimiento de correo electrónico y push, los comentarios de mensajes, los pasos de recorrido y los datos de toma de decisiones para la creación de informes y la solución de problemas.
+
+>[!ENDSHADEBOX]
 
 En esta página, encontrará la lista de conjuntos de datos de Adobe Journey Optimizer y casos de uso relacionados:
 
