@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 235
-ht-degree: 100%
+source-wordcount: 262
+ht-degree: 89%
 
 ---
 
 # Realizar operaciones de ciclo de vida de datos {#data-hygiene}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Configure y programe operaciones del ciclo vital de datos para que pueda mantener los registros precisos, usados según lo previsto y eliminados de acuerdo con las directivas de su organización.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -45,7 +51,7 @@ Estas tareas se pueden realizar utilizando el menú **[!UICONTROL Ciclo de vida 
 ![](assets/data-hygiene.png)
 
 
-## Recomendaciones {#data-hygiene-recommendations}
+## Recommendations {#data-hygiene-recommendations}
 
 Al realizar operaciones de higiene de los datos (como eliminar identidades o conjuntos de datos), tenga en cuenta que los eventos de envío históricos asociados a identidades eliminadas ya no aparecen en los informes estándar ni en las consultas de lago de datos. Esto puede generar discrepancias entre el número de correos electrónicos notificados como **Entregados** y el número de correos electrónicos **Recibidos** en las bandejas de entrada de los destinatarios, especialmente para los recorridos más antiguos.
 

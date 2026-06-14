@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 1291
-ht-degree: 99%
+source-wordcount: 1320
+ht-degree: 97%
 
 ---
 
 # Administración de la exclusión {#consent}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Administre cómo los destinatarios cancelan la suscripción a las comunicaciones y se excluyen de la personalización, para que pueda cumplir con sus opciones de consentimiento y con sus obligaciones legales y de reputación de marca.
+
+>[!ENDSHADEBOX]
 
 Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca es un requisito legal, así como garantizar que se cumpla esta opción. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
 

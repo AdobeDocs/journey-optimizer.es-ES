@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 99%
+source-wordcount: 576
+ht-degree: 92%
 
 ---
 
 # Solicitudes de privacidad {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Use Adobe Experience Platform Privacy Service para enviar y administrar solicitudes de acceso y eliminación de datos para Adobe Journey Optimizer, de modo que pueda cumplir los derechos del interesado y automatizar el cumplimiento de las regulaciones de privacidad.
+
+>[!ENDSHADEBOX]
 
 **Privacy Service** de Adobe Experience Platform proporciona una API de RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. Con Privacy Service, puede enviar solicitudes para acceder a datos personales de clientes y eliminarlos de aplicaciones de Adobe Experience Cloud, lo que facilita el cumplimiento automatizado de las regulaciones de privacidad legales y organizativas.
 
