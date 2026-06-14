@@ -10,31 +10,26 @@ level: Intermediate, Experienced
 keywords: datos, fuente, recorrido, plataforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # Introducción a las fuentes de datos {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cuáles son las fuentes de datos y cómo elegir la estrategia de acceso a datos correcta para que pueda incluir datos adicionales en sus recorridos para condiciones, personalización y tiempo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
@@ -72,7 +67,7 @@ Para cada fuente de datos, se define la información que se recuperará mediante
 
 ## Elija su estrategia de acceso a datos {#data-access-strategy}
 
-Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Antes de configurar una fuente de datos, considere qué enfoque se adapta mejor a su caso de uso. Hay tres opciones disponibles, cada una con diferentes compensaciones en términos de persistencia, enriquecimiento de perfiles y reutilización. Para ver un análisis detallado de estas opciones, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opción 1: acceder a datos externos mediante acciones personalizadas (sin lago de datos)**
 
@@ -104,7 +99,7 @@ Ingeste datos en un conjunto de datos para almacenar en déclencheur y personali
 
 **Opción 3 — Conjunto de datos habilitado para el perfil en el lago de datos**
 
-Ingresa datos en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para crear audiencias, enriquecer gráficos de identidad y aprovechar datos en varios recorridos y destinos de RT-CDP. El más adecuado cuando:
+Ingresa datos en un [conjunto de datos con perfil habilitado](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} para crear audiencias, enriquecer gráficos de identidad y aprovechar datos en varios recorridos y destinos de RT-CDP. El más adecuado cuando:
 
 * Los datos son útiles para las definiciones de audiencia utilizadas en canales distintos de Journey Optimizer.
 * Los datos contienen varias identidades que contribuyen a fragmentos de perfil más completos y vinculados.
@@ -123,11 +118,11 @@ Ingresa datos en un [conjunto de datos con perfil habilitado](https://experience
 | **Opción 2** — Conjunto de datos no habilitado para el perfil | Sí | No |
 | **Opción 3** — Conjunto de datos habilitado para el perfil | Sí | Sí |
 
-Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=es){target="_blank"}.
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416633?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
