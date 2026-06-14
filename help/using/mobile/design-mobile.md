@@ -7,8 +7,10 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 1488
