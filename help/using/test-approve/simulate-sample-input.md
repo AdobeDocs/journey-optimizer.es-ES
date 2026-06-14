@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1362
-ht-degree: 2%
+source-wordcount: 1399
+ht-degree: 4%
 
 ---
 
 # Simulación de variaciones de contenido {#custom-profiles}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Confirme que el contenido personalizado se representa correctamente para cada tipo de destinatario probando las variantes generadas con IA, introducidas manualmente, importadas desde un archivo o basadas en usuarios simulados, previsualizándolas y enviando pruebas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

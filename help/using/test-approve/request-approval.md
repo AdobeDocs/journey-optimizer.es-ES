@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # Solicitud de aprobación {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Transfiera su recorrido o campaña hacia el lanzamiento con confianza enviándolo a los revisores adecuados y manténgala en control mientras está en revisión: cancele, edite y vuelva a enviar lo necesario para que solo el contenido aprobado y no basado en la marca llegue a sus clientes.
+
+>[!ENDSHADEBOX]
 
 El acceso al flujo de trabajo de aprobación viene determinado por el caso de uso específico:
 

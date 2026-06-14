@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # Revisión y aprobación de una solicitud {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Como aprobador designado, revise un recorrido o campaña enviada y apruébela y publíquela, o bien envíe solicitudes de cambio al creador antes de que se ponga en marcha.
+
+>[!ENDSHADEBOX]
 
 Si se aplica una directiva de aprobación a un recorrido o campaña, debe enviarse para su aprobación para que se publique. Para ello, el creador del recorrido/campaña envía una solicitud a los aprobadores definidos en la directiva de aprobación y el recorrido/campaña obtiene el estado **[!UICONTROL En revisión]**.
 
