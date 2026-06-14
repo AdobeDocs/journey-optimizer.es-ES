@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 16%
+source-wordcount: 605
+ht-degree: 15%
 
 ---
 
 # Prueba y envío de un mensaje de correo directo {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga una vista previa del archivo de extracción, valide y active su campaña o recorrido, y administre el consentimiento postal para que el correo postal llegue a los destinatarios adecuados con precisión.
+
+>[!ENDSHADEBOX]
 
 Obtenga información sobre cómo obtener una vista previa del archivo de extracción, validar y activar la campaña de correo postal o el recorrido, y administrar el consentimiento de correo postal en Journey Optimizer.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # Introducción al correo directo {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo funciona el canal de correo postal para que pueda generar los archivos de extracción que los proveedores de terceros utilizan para enviar correo físico a sus clientes.
+
+>[!ENDSHADEBOX]
 
 El correo directo es un canal sin conexión que le permite personalizar y generar los archivos de extracción necesarios para que los proveedores de correo postal de terceros envíen correo a sus clientes.
 
