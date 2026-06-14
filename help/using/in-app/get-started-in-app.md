@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # Introducción al canal en la aplicación {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Empiece a usar el canal de mensajería en la aplicación en Adobe Journey Optimizer para atraer a los usuarios de la aplicación con notificaciones que promocionen funciones, ofertas e incorporación.
+
+>[!ENDSHADEBOX]
 
 Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación y les guía a puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su público y dirigirlos hacia aspectos importantes de su aplicación.
 

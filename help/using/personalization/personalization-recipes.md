@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Fórmulas de Personalization {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Encuentre fórmulas de personalización listas para usar para fechas, matrices, cadenas, lógica condicional y casos extremos de PQL que pueda copiar directamente en el contenido de Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Esta página proporciona patrones de personalización listos para usar para los casos de uso más comunes en Adobe Journey Optimizer. Todos los ejemplos utilizan la sintaxis del editor de personalización y se pueden copiar directamente en el contenido de correo electrónico, SMS o push.
 

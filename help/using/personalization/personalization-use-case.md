@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Caso de uso de Personalization: notificación del estado del pedido {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Siga un caso de uso de estado de pedido que combine datos de perfil, decisión de oferta y recorrido contextual para personalizar una notificación push en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 En este caso de uso, verá cómo utilizar varios tipos de personalización en un único mensaje de notificación push. Se utilizan tres tipos de personalización:
 

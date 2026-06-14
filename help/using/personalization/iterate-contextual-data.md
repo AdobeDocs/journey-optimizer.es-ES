@@ -24,14 +24,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3109
 ht-degree: 1%
 
 ---
 
 # Iteración sobre datos contextuales {#personalization-contexts}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la sintaxis de iteración de Handlebars para recorrer en bucle matrices de orígenes de datos contextuales como eventos, respuestas de acciones personalizadas y búsquedas de conjuntos de datos para mostrar listas dinámicas en sus mensajes.
+
+>[!ENDSHADEBOX]
 
 Aprenda a utilizar la sintaxis de la iteración Handlebars para mostrar listas dinámicas de datos de varias fuentes en los mensajes, incluidos eventos, respuestas de acciones personalizadas y otros datos contextuales.
 

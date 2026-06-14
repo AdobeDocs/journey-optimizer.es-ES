@@ -11,15 +11,21 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: 756
 ht-degree: 3%
 
 ---
 
 
 # Configuración del canal web en la aplicación {#configure-in-app-web}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo configurar el canal en la aplicación web en la recopilación de datos de Adobe Experience Platform mediante la configuración del SDK web, las reglas de déclencheur y una configuración web en la aplicación.
+
+>[!ENDSHADEBOX]
 
 ## Requisitos previos {#prerequisites}
 

@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 701
 ht-degree: 1%
 
 ---
 
 # Cifrar parámetros de URL {#url-parameter-encryption}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a cifrar parámetros de consulta de URL confidenciales para que la información de identificación personal no se exponga en texto sin formato, incluido el modo en que los administradores crean, rotan y revocan claves en el registro de claves de zona protegida de Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

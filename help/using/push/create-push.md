@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1066
+source-wordcount: 1094
 ht-degree: 16%
 
 ---
 
 # Crear una notificación push {#create-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear una notificación push dentro de un recorrido o campaña para móviles y web, incluido el uso del modo de envío rápido para envíos de gran volumen.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"

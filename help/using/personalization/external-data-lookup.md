@@ -12,14 +12,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1292
 ht-degree: 5%
 
 ---
 
 # Asistente de búsqueda de datos externos
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el asistente externalDataLookup para recuperar dinámicamente datos de un extremo externo y personalizar el contenido de los canales entrantes en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 El asistente de `externalDataLookup` en el editor de personalización de [!DNL Journey Optimizer] se puede usar para recuperar dinámicamente datos de un extremo externo para usarlos en la generación de contenido para canales entrantes como la experiencia basada en código y los canales de mensajes web y en la aplicación.
 

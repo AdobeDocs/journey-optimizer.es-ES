@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 715
 ht-degree: 13%
 
 ---
 
 # Crear contenido dinámico {#dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar reglas condicionales para agregar contenido dinámico a sus mensajes, tanto en expresiones de personalización como en variantes de componentes de contenido en el Designer de correo electrónico.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer le permite aprovechar las reglas condicionales creadas en la biblioteca para añadir contenido dinámico a los mensajes.
 

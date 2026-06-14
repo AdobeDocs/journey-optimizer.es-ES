@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Caso de uso de Personalization: correo electrónico de abandono del carro de compras {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Siga un caso de uso de abandono del carro de compras que personalice el cuerpo de un correo electrónico mediante las funciones upperCase, each y if helper en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 En este ejemplo, personalizará el cuerpo de un mensaje de correo electrónico. Este mensaje va dirigido a los clientes que han dejado artículos en el carro de compras, pero que aún no han finalizado su compra.
 
