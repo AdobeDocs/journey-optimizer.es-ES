@@ -11,14 +11,20 @@ keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: 1186
 ht-degree: 6%
 
 ---
 
 # Uso de la experimentación de ruta {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar la experimentación de rutas con la actividad de optimización para probar diferentes rutas de recorrido mediante experimentos de bandidos A/B o multibrazo, identificar el tratamiento con mejor rendimiento por métrica de éxito y escalar el ganador.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -69,7 +75,7 @@ Supongamos que desea comparar tres rutas:
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
     IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
+-->
 
 1. Puede asignar un porcentaje preciso a cada **[!UICONTROL Tratamiento]**, o simplemente cambiar en la barra de alternancia **[!UICONTROL Distribuir uniformemente]**.
 

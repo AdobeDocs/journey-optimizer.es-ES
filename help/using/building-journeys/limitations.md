@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # Limitaciones {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise las limitaciones y protecciones que se aplican a los recorridos, incluidas las acciones, las versiones, las acciones personalizadas, los eventos y las fuentes de datos.
+
+>[!ENDSHADEBOX]
 
 Estas son las limitaciones relacionadas con el uso de recorridos.
 

@@ -11,15 +11,21 @@ keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutiliz
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 6%
 
 ---
 
 
 # Fragmentos de recorrido {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear, administrar y reutilizar fragmentos de recorrido (conjuntos reutilizables de nodos de recorrido) para generar recorridos más rápido y mantener la coherencia en toda la zona protegida.
+
+>[!ENDSHADEBOX]
 
 Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido que puede generar una vez y soltarlos en cualquier recorrido de la zona protegida. Tanto si se trata de una comprobación de elegibilidad, una lógica de enrutamiento de canal preferida o una secuencia de bienvenida, los fragmentos ayudan a los equipos a moverse más rápido y a mantener la coherencia, sin volver a crear la misma lógica desde cero cada vez. [Vea ejemplos de casos de uso.](#examples)
 

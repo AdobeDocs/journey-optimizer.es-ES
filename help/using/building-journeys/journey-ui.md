@@ -12,14 +12,20 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1482
+source-wordcount: 1506
 ht-degree: 13%
 
 ---
 
 # Examinar y filtrar sus recorridos {#browse-journeys}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a examinar, buscar y filtrar sus recorridos mediante el tablero de recorridos, la lista y las vistas de calendarios de Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"

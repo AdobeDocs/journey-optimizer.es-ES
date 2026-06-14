@@ -11,14 +11,20 @@ keywords: recorrido, caso de uso
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 8%
+source-wordcount: 324
+ht-degree: 7%
 
 ---
 
 # Caso de uso: crear una acción personalizada para enviar datos a [!DNL Adobe Experience Platform]{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear un recorrido que aumente gradualmente el volumen de correo electrónico mediante una actividad de optimización con una condición de límite de perfil para calentar la IP y proteger la reputación de su remitente.
+
+>[!ENDSHADEBOX]
 
 Si se ha trasladado recientemente a otro proveedor de servicios de correo electrónico, dirección IP o dominio o subdominio de correo electrónico, establezca su reputación como remitente. De lo contrario, los envíos podrían bloquearse o moverse a las carpetas de correo no deseado de los destinatarios. Para obtener instrucciones, consulte la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=es){target="_blank"}.
 

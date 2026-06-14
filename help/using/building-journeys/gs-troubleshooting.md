@@ -12,30 +12,26 @@ keywords: solución de problemas, solución de problemas, recorrido, comprobaci�
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2DTpTGcdmuFoajmHTUKGLK8zN2nfQp98tTc3FWtfI80
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # Solución de problemas del recorrido {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque recursos de solución de problemas organizados por áreas de problemas comunes para ayudarle a diagnosticar y resolver errores de recorrido, incoherencias en la ejecución, problemas de acciones entrantes y problemas de acciones personalizadas.
+
+>[!ENDSHADEBOX]
 
 Cuando el recorrido de un cliente no se comporta según lo previsto, puede resultar difícil identificar la causa. Para ayudarle a resolver los problemas de forma eficaz, a continuación se muestran los recursos de resolución de problemas de las áreas problemáticas más comunes. Tanto si se detectan errores de recorrido, incoherencias en la ejecución como problemas a nivel de acción, cada sección ofrece instrucciones específicas para investigarlos y resolverlos.
 
@@ -75,9 +71,9 @@ Explore las páginas siguientes para profundizar en temas específicos de soluci
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="Comprender los códigos de error comunes" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Además, revisa <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=es" target="_blank">esta publicación de blog de la comunidad de Adobe</a> que detalla <strong>códigos de error comunes</strong> y cómo resolverlos de manera efectiva.
+    <br>Además, revisa <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">esta publicación de blog de la comunidad de Adobe</a> que detalla <strong>códigos de error comunes</strong> y cómo resolverlos de manera efectiva.
     </div>
   </td>
 </tr>
