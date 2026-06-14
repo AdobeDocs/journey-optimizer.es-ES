@@ -176,4 +176,4 @@ Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la a
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)

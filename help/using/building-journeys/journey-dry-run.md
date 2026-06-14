@@ -213,4 +213,4 @@ La ejecución en seco genera **stepEvents** marcados con `inDryRun` y un `dryRun
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
