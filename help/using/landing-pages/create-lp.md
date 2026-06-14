@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 26%
+source-wordcount: 1750
+ht-degree: 25%
 
 ---
 
 # Creación y publicación de páginas de destino {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar, probar y publicar una página de aterrizaje para que los clientes que pulsen desde un mensaje lleguen a una página dedicada en la que puedan suscribirse, compartir datos u optar por no participar.
+
+>[!ENDSHADEBOX]
 
 Para dirigir a los clientes a una página web definida que desee mostrar cuando hagan clic en un vínculo específico, cree una página de aterrizaje en [!DNL Journey Optimizer], configure la página principal y las subpáginas, pruébela y publíquela.
 

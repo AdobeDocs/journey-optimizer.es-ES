@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # Uso de JavaScript personalizado en una página de aterrizaje {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Amplíe sus páginas de aterrizaje con JavaScript personalizado para validar la entrada, ejecutar envíos de formularios personalizados, activar eventos de análisis o generar comportamientos dinámicos más allá del editor estándar.
+
+>[!ENDSHADEBOX]
 
 Puede definir el contenido de la página de aterrizaje mediante JavaScript personalizado. Por ejemplo, si necesita aplicar estilos avanzados o si desea agregar comportamientos personalizados a las páginas de aterrizaje, puede crear sus propios controles y ejecutarlos en [!DNL Journey Optimizer].
 

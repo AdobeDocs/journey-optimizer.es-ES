@@ -20,14 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 13%
+source-wordcount: 440
+ht-degree: 12%
 
 ---
 
 # Definir ajustes preestablecidos de página de destino {#lp-presets}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo los ajustes preestablecidos de página de aterrizaje emparejan un subdominio con la configuración de seguimiento: el requisito previo que configuró antes de crear y publicar sus páginas de aterrizaje.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"

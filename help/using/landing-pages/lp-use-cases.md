@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # Casos de uso de página de aterrizaje {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** vea ejemplos prácticos que utilizan páginas de aterrizaje para impulsar suscripciones, capturar exclusiones y obtener recorridos de seguimiento de déclencheur de los envíos de formularios.
+
+>[!ENDSHADEBOX]
 
 A continuación se muestran algunos ejemplos de cómo puede usar las páginas de aterrizaje de [!DNL Journey Optimizer] para que sus clientes acepten su inclusión/exclusión en la recepción de algunas o todas sus comunicaciones.
 

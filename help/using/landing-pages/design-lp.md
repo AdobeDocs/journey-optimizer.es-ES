@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # Diseñar el contenido de la página de destino {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a diseñar el contenido de su página de aterrizaje en el diseñador de contenido, desde cero con el Asistente de IA, con su propia HTML o desde una plantilla guardada, para una experiencia del visitante de marca.
+
+>[!ENDSHADEBOX]
 
 Para empezar a crear contenido para tu [página principal](create-lp.md#configure-primary-page) o [subpágina](create-lp.md#configure-subpages) de aterrizaje, pasa el ratón sobre el contenido de tu página y haz clic en **[!UICONTROL Abrir Designer]**. También puede hacer clic en el botón correspondiente de la paleta derecha.
 

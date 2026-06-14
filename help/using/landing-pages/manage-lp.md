@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 9%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
 # Administración de la páginas de aterrizaje {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a buscar, filtrar y organizar las páginas de aterrizaje existentes en carpetas y etiquetas para que su trabajo permanezca estructurado a medida que sus proyectos crezcan.
+
+>[!ENDSHADEBOX]
 
 ## Acceso a páginas de aterrizaje {#access-landing-pages}
 

@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1668
 ht-degree: 12%
 
 ---
 
 # Definición del contenido específico de la página de destino {#lp-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** El componente de formulario convierte una página de aterrizaje estática en una experiencia interactiva: agréguela para que los visitantes puedan incluirse o excluirse, administrar sus suscripciones o enviar datos que fluyen directamente a los conjuntos de datos de Experience Platform.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
