@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 955
 ht-degree: 12%
 
 ---
 
 # Configuración de las experiencias web {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear una configuración de canal web en Adobe Journey Optimizer con el objetivo de una dirección URL de una sola página o de varias páginas con una regla de coincidencia de páginas y sus operadores disponibles.
+
+>[!ENDSHADEBOX]
 
 ## Creación de una configuración de canal web {#create-web-configuration}
 

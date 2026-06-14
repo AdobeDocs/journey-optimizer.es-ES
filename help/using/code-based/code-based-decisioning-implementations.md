@@ -20,14 +20,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 573
 ht-degree: 6%
 
 ---
 
 # Decisiones en las implementaciones de experiencias basadas en código {#code-based-decisioning-implementations}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a aplicar la anulación de duplicación y a utilizar el indicador de ejecución en seco al enviar solicitudes de toma de decisiones en su implementación de experiencia basada en código.
+
+>[!ENDSHADEBOX]
 
 Cuando utilice Decisioning en experiencias basadas en código, considere la posibilidad de agregar los siguientes indicadores a la implementación de su cliente en los casos que se describen a continuación.
 

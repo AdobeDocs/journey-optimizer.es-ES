@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 540
 ht-degree: 1%
 
 ---
 
 # Administración de experiencias basadas en código {#publish-code-based}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a publicar, activar y detener experiencias basadas en código en sus recorridos y campañas.
+
+>[!ENDSHADEBOX]
 
 ## Publique su experiencia basada en código {#code-based-experience-live}
 

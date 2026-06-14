@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 100%
+source-wordcount: 986
+ht-degree: 96%
 
 ---
 
 # Introducción al canal basado en código {#get-started-code-based}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo el canal basado en código le permite enviar contenido personalizado a ubicaciones granulares en sus aplicaciones y páginas web, y cuándo utilizarlo en lugar de otros canales.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le permite personalizar y probar las experiencias que desee ofrecer a sus clientes en todos sus puntos de contacto, como aplicaciones web, móviles y de escritorio, vídeoconsolas, servicios conectados al TV, televisores inteligentes, quioscos, cajeros automáticos, asistentes de voz, dispositivos IoT, etc.
 
@@ -85,7 +91,7 @@ Para ejecutar casos de uso web, puede utilizar el canal web o la experiencia bas
 * Le permite utilizar contenido con código JSON.
 * Se centra en el desarrollador.
 
-## Cómo funciona {#how-it-works}
+## Funcionamiento {#how-it-works}
 
 >[!CAUTION]
 >

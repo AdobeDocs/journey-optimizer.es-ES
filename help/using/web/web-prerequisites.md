@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 16%
+source-wordcount: 1440
+ht-degree: 15%
 
 ---
 
 # Requisitos previos y protecciones {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise los requisitos previos y las protecciones de la implementación, la creación visual, la entrega y la creación de informes que debe cumplir para acceder, crear, enviar e informar sobre las experiencias web en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Para poder acceder y crear páginas web en la interfaz de usuario de [!DNL Journey Optimizer], siga los requisitos previos siguientes:
 
@@ -78,7 +84,7 @@ Se admiten dos tipos de implementaciones para habilitar la creación y el envío
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Para poder abrir, crear y obtener una vista previa de las páginas web de forma fiable en el diseñador web de [!DNL Journey Optimizer], debe tener instalada la extensión de explorador [Ayuda de edición visual de Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} en el explorador web.
+Para poder abrir, crear y obtener una vista previa de las páginas web de forma fiable en el diseñador web [!DNL Journey Optimizer], debe tener instalada la extensión de explorador [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} en el explorador web.
 
 >[!CAUTION]
 >

@@ -23,14 +23,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 27%
+source-wordcount: 537
+ht-degree: 25%
 
 ---
 
 # Creación de aplicaciones de una sola página {#web-author-spas}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear aplicaciones de una sola página en Adobe Journey Optimizer definiendo vistas en la implementación de Web SDK, descubriéndolas en el diseñador web con el modo de exploración y aplicando modificaciones a las vistas seleccionadas.
+
+>[!ENDSHADEBOX]
 
 ## Acerca de las vistas {#about-views}
 

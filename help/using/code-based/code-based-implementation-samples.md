@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 7%
+source-wordcount: 1138
+ht-degree: 6%
 
 ---
 
 # Ejemplos de métodos de implementación basados en código {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore ejemplos de implementación del lado del cliente, del lado del servidor e híbrida para recuperar, mostrar y rastrear contenido de experiencia basado en código en su aplicación.
+
+>[!ENDSHADEBOX]
 
 La experiencia basada en código admite cualquier tipo de implementación del cliente. En esta página puede encontrar ejemplos para cada método de implementación:
 

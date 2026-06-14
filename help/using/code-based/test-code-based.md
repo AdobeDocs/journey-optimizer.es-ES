@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: 899
 ht-degree: 22%
 
 ---
 
 # Probar experiencias basadas en código {#test-code-based}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo obtener una vista previa y probar experiencias basadas en código con perfiles de prueba y vistas previas en el dispositivo antes de publicar.
+
+>[!ENDSHADEBOX]
 
 ## Vista previa de la experiencia basada en código {#preview-code-based}
 

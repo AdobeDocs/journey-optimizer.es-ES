@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 22%
+source-wordcount: 1026
+ht-degree: 21%
 
 ---
 
 # Configuración de subdominios web {#web-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo configurar subdominios web en Adobe Journey Optimizer mediante un subdominio ya delegado a Adobe o configurando uno nuevo para publicar contenido de recursos para sus experiencias web.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"

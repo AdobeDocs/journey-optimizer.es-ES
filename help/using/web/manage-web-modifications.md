@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 24%
+source-wordcount: 1009
+ht-degree: 23%
 
 ---
 
 # Administración de modificaciones web {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo revisar, eliminar y deshacer los cambios aplicados a su página web desde el panel Modificaciones, y cómo agregar el selector CSS y las modificaciones del encabezado de página directamente en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"

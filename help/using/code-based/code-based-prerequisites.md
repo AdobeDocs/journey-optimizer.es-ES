@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: 832
 ht-degree: 10%
 
 ---
 
 # Requisitos previos de la experiencia basada en código {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise los requisitos previos de implementación, envío e informes necesarios para ofrecer experiencias basadas en código a sus aplicaciones y páginas web.
+
+>[!ENDSHADEBOX]
 
 Para poder usar acciones de experiencia basadas en código en [!DNL Journey Optimizer] y entregar carga útil de contenido de código que puedan usar las aplicaciones, siga los requisitos previos siguientes:
 

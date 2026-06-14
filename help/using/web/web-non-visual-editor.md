@@ -19,18 +19,24 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: 462
 ht-degree: 0%
 
 ---
 
 # Uso del editor no visual web {#web-non-visual-editor}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a agregar un selector CSS y modificaciones en el encabezado de página a sus páginas web con el editor no visual de Adobe Journey Optimizer, sin instalar una extensión de explorador ni cargar el diseñador web.
+
+>[!ENDSHADEBOX]
+
 Además del [!DNL Journey Optimizer] diseñador web [visual](web-visual-editor.md), también puede agregar modificaciones a sus páginas web usando un **editor no visual**.
 
-Esto puede resultar útil si no puede instalar o no se le permite instalar extensiones de explorador como [Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites), que es necesario para cargar las páginas en el diseñador web.
+Esto puede resultar útil si no puede instalar o no tiene permiso para instalar extensiones de explorador como [Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites), que es necesario para cargar las páginas en el diseñador web.
 
 En algunos casos, también es posible que le resulte más fácil utilizar un editor no visual para aplicar modificaciones en un selector CSS concreto, sin el riesgo de modificar otros elementos en una página web o de cambiar la estructura de la página.
 

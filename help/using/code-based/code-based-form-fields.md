@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # Uso de campos de formulario editables en experiencias basadas en código {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a agregar campos de formulario editables a plantillas de contenido de experiencia basadas en código para que los especialistas en marketing puedan personalizar el contenido en campañas y recorridos sin editar el código.
+
+>[!ENDSHADEBOX]
 
 Para obtener más flexibilidad y control sobre las experiencias basadas en código, [!DNL Journey Optimizer] permite que su equipo de desarrollo cree plantillas de contenido JSON o HTML que contengan campos editables predefinidos específicos.
 
