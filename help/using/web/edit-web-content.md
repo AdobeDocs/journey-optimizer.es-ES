@@ -6,25 +6,28 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 20%
+source-wordcount: 1128
+ht-degree: 19%
 
 ---
 
 # Editar contenido web {#edit-web-content}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a editar el contenido web con el diseñador web de Adobe Journey Optimizer, incluyendo la adición de componentes, la personalización, la navegación con rutas de exploración y el modo de exploración y el ajuste del tamaño del dispositivo.
+
+>[!ENDSHADEBOX]
+
 Una vez que [agregaste una experiencia web](create-web.md#create-web-experience) a un recorrido o a una campaña, puedes editar el contenido de tu sitio usando el diseñador web.
 
 [Aprenda a crear una campaña web en este vídeo](#video)
 
-En [!DNL Journey Optimizer], la creación web funciona con la extensión de explorador **Adobe Experience Cloud Visual Helper** Chrome. [Más información](web-prerequisites.md#visual-authoring-prerequisites)
+En [!DNL Journey Optimizer], la creación web funciona con la extensión de explorador Chrome **Adobe Experience Cloud Visual Helper**. [Más información](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >

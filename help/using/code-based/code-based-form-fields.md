@@ -7,26 +7,25 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 TQID: https://experienceleague.adobe.com/4VLqDy1BM5TnpvvuQb-fmATJ35hMzTjPCOwtiIIXir0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # Uso de campos de formulario editables en experiencias basadas en código {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a agregar campos de formulario editables a plantillas de contenido de experiencia basadas en código para que los especialistas en marketing puedan personalizar el contenido en campañas y recorridos sin editar el código.
+
+>[!ENDSHADEBOX]
 
 Para obtener más flexibilidad y control sobre las experiencias basadas en código, [!DNL Journey Optimizer] permite que su equipo de desarrollo cree plantillas de contenido JSON o HTML que contengan campos editables predefinidos específicos.
 
@@ -259,4 +258,4 @@ Podrá editar fácilmente los campos de formulario desde un recorrido de experie
 
 Aprenda a añadir campos editables a plantillas de contenido de canal de experiencia basadas en código.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463994/?captions=spa&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
