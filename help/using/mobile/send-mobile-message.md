@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 2%
+source-wordcount: 562
+ht-degree: 1%
 
 ---
 
 # Compruebe y envíe su mensaje móvil {#send-sms}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo obtener una vista previa, validar y enviar mensajes móviles en Adobe Journey Optimizer, incluida la comprobación de la codificación y los límites de caracteres y la resolución de alertas antes de la entrega.
+
+>[!ENDSHADEBOX]
 
 ## Previsualización del mensaje móvil {#preview-sms}
 

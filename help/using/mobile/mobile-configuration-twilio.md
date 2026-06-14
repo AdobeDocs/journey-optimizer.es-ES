@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 640
 ht-degree: 1%
 
 ---
 
 # Configuración del proveedor de Twilio {#sms-configuration-twilio}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a integrar Twilio con Adobe Journey Optimizer creando credenciales de API para la mensajería SMS, MMS y RCS para que pueda enviar mensajes móviles en sus recorridos y campañas.
+
+>[!ENDSHADEBOX]
 
 Al integrar Twilio con Adobe Journey Optimizer, puede enviar mensajes móviles a sus perfiles como parte de sus recorridos y campañas.
 

@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 13%
+source-wordcount: 558
+ht-degree: 12%
 
 ---
 
 # Creación de una configuración de mensaje móvil {#message-preset-sms}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear una configuración de canal de mensajes móviles en Adobe Journey Optimizer estableciendo el tipo de mensaje, la configuración móvil, el número de remitente, el subdominio y el campo de ejecución para enviar mensajes SMS, RCS y MMS.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"

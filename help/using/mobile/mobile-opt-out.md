@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 14%
+source-wordcount: 701
+ht-degree: 13%
 
 ---
 
 # Administración de la exclusión para mensajes de dispositivos móviles {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo Adobe Journey Optimizer administra la exclusión de mensajes SMS, MMS y RCS mediante palabras clave de entrada nativas, listas de bloqueados, códigos cortos e ID de remitente alfanuméricos.
+
+>[!ENDSHADEBOX]
 
 De acuerdo con las normas y los reglamentos del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 

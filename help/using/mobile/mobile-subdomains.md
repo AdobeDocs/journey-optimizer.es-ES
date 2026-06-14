@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 20%
+source-wordcount: 1072
+ht-degree: 19%
 
 ---
 
 # Configuración de subdominios de SMS {#sms-mms-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar subdominios SMS en Adobe Journey Optimizer para acortar las direcciones URL de sus mensajes, ya sea mediante un subdominio delegado existente o configurando uno nuevo con un registro DNS.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"

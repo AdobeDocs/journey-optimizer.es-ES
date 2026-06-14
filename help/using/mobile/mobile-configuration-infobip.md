@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: 801
 ht-degree: 1%
 
 ---
 
 # Configuración del proveedor de Infobip {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar Infobip como su proveedor en Adobe Journey Optimizer configurando las credenciales de la API de SMS y a habilitar la mensajería RCS mediante una integración de proveedor personalizada.
+
+>[!ENDSHADEBOX]
 
 Al integrar Infobip con Adobe Journey Optimizer, puede enviar mensajes móviles a sus perfiles como parte de sus recorridos y campañas.
 

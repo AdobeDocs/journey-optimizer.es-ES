@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 889
 ht-degree: 6%
 
 ---
 
 # Creación de un mensaje móvil {#create-sms}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo agregar una acción de mensaje móvil a un recorrido o campaña en Adobe Journey Optimizer y, a continuación, seleccione una configuración y edite el contenido para enviar mensajes de texto, comunicaciones enriquecidas y multimedia.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"

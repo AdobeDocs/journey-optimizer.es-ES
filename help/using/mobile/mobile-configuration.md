@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 44%
+source-wordcount: 456
+ht-degree: 41%
 
 ---
 
 # Introducción a la configuración móvil {#sms-configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar su entorno de Adobe Journey Optimizer para que envíe mensajes SMS, MMS y RCS integrando un proveedor como Sinch, Twilio o Infobip, creando un gancho web y configurando una configuración móvil.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
