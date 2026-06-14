@@ -10,27 +10,26 @@ level: Intermediate
 keywords: mensaje, frecuencia, reglas, presión
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 TQID: https://experienceleague.adobe.com/sWjIVlyPh0ySD1s-TLxJu9zmItbncoxKO0u3DVjVt-8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 9%
 
 ---
 
 # Restricción de frecuencia por canal y tipo de comunicación {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** establezca límites de frecuencia por canal y tipo de comunicación para que pueda limitar la cantidad de mensajes que recibe un perfil y evitar saturar a los clientes con comunicaciones similares.
+
+>[!ENDSHADEBOX]
 
 Los conjuntos de reglas del **canal** aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de 1 correo electrónico o comunicación SMS al día.
 
@@ -182,6 +181,6 @@ In this scenario, an individual profile:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **Véalo en la práctica:** Aprenda a implementar [límites de frecuencia diarios en Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"} en este caso de uso de la comunidad.
+➡️ **Véalo en la práctica:** Aprenda a implementar [límites de frecuencia diarios en Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"} en este caso de uso de la comunidad.

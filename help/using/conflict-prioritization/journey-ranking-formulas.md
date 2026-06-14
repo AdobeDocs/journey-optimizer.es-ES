@@ -7,18 +7,22 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1159
 ht-degree: 3%
 
 ---
 
 # Utilizar fórmulas para clasificar recorridos {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree fórmulas de clasificación basadas en atributos de recorrido, atributos de perfil o puntuaciones de IA, de modo que se seleccione el mejor recorrido para cada perfil cuando se apliquen límites de recorrido.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -55,7 +59,7 @@ Para crear una fórmula de clasificación para sus recorridos, siga los pasos a 
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. Si lo desea, haga clic en **[!UICONTROL Seleccionar modelo de IA]** para establecer el modelo que se utilizará como referencia para generar la fórmula de clasificación. [Más información](journey-ai-models.md)
 

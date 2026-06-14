@@ -7,18 +7,22 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: 686
 ht-degree: 5%
 
 ---
 
 # Uso de modelos de IA para clasificar recorridos {#journey-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree modelos de IA que clasifiquen dinámicamente los recorridos, de modo que se seleccione el recorrido con mejor rendimiento para cada perfil cuando se apliquen límites de entrada de recorrido.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -60,7 +64,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. En la sección **[!UICONTROL Métrica de optimización]**, se muestran en la lista todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada. Seleccione la métrica en la que desea optimizar el modelo.
+1. En la sección **[!UICONTROL Métrica de optimización]**, se muestran en la lista todas las métricas de su [!DNL Customer Journey Analytics] [vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predeterminada. Seleccione la métrica en la que desea optimizar el modelo.
 
    ![Menú desplegable de métricas de optimización que enumera las métricas de Customer Journey Analytics para el modelo de IA](assets/journey-model-metrics.png){width="70%"}
 
@@ -79,7 +83,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
    >
    >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Evento de experiencia - Interacciones de propuesta]**. Puede seleccionar hasta 5 conjuntos de datos.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
 
    >[!NOTE]
    >

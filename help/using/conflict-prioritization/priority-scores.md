@@ -5,25 +5,25 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 TQID: https://experienceleague.adobe.com/An8xmTbO8yWDFizK1B8uvSFkr0t6e9a59ntUoLqhosw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 35%
+source-wordcount: 643
+ht-degree: 34%
 
 ---
 
 # Asignar puntuaciones de prioridad {#priority}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Asigne puntuaciones de prioridad a recorridos, campañas y acciones entrantes para que pueda controlar qué comunicación tiene prioridad cuando un perfil cumple los requisitos para más de uno.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer le permite asignar una puntuación de prioridad a un recorrido, a una campaña o a una acción de canal entrante dentro de la actividad **[!UICONTROL Action]** de recorrido.
 
@@ -84,4 +84,4 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
