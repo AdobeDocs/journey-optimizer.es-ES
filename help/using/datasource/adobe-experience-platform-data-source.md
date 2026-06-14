@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 27%
+source-wordcount: 481
+ht-degree: 25%
 
 ---
 
 # Fuente de datos de Adobe Experience Platform {#adobe-experience-platform-data-source}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** configure grupos de campos en la fuente de datos integrada de Adobe Experience Platform para que pueda recuperar y utilizar datos del perfil del cliente en tiempo real en sus recorridos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"

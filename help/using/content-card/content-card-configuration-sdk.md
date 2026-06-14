@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # Configuración de la compatibilidad con tarjetas de contenido en SDK web {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Configure y ejecute el ejemplo que busca y procesa tarjetas de contenido con Adobe Experience Platform Web SDK para que pueda entregar contenido personalizado del lado del cliente en sus páginas web.
+
+>[!ENDSHADEBOX]
 
 Este ejemplo muestra cómo recuperar tarjetas de contenido de Adobe Journey Optimizer (AJO) mediante Adobe Experience Platform. Al aprovechar [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home), el contenido de personalización se recupera y se procesa por completo en el lado del cliente.
 

@@ -12,14 +12,20 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: 338
 ht-degree: 9%
 
 ---
 
 # Requisitos previos de tarjetas de contenido {#content-card-configuration-prereq}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** configure las opciones de Adobe Experience Platform necesarias para que Adobe Journey Optimizer pueda entregar correctamente sus tarjetas de contenido e informar sobre ellas.
+
+>[!ENDSHADEBOX]
 
 Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido, debe configurar las siguientes opciones de Adobe Experience Platform:
 
