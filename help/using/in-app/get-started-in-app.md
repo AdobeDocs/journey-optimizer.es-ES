@@ -8,29 +8,26 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 TQID: https://experienceleague.adobe.com/b139LQsPe3HwKe1O5cyBx4Nj4jpW3GXCFIVIWTAIlbg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # Introducción al canal en la aplicación {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Empiece a usar el canal de mensajería en la aplicación en Adobe Journey Optimizer para atraer a los usuarios de la aplicación con notificaciones que promocionen funciones, ofertas e incorporación.
+
+>[!ENDSHADEBOX]
 
 Los mensajes en la aplicación son notificaciones que se pueden enviar a los usuarios dentro de la aplicación y les guía a puntos de interés específicos. Estas notificaciones se pueden utilizar para distintos fines, como la promoción de nuevas funciones, la presentación de ofertas especiales o la facilitación de la incorporación del usuario. Al aprovechar los mensajes en la aplicación, puede interactuar con su público y dirigirlos hacia aspectos importantes de su aplicación.
 
