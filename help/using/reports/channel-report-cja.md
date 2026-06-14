@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
 
 # Informe de información general {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar el informe Información general para analizar las métricas de participación y tráfico unificado en todas sus campañas y recorridos, con fichas específicas para recorridos, campañas, canales, conjuntos de reglas de límite de recorrido y modelos de optimización.
+
+>[!ENDSHADEBOX]
 
 El informe Información general ofrece a los usuarios un resumen exhaustivo de las métricas de tráfico y participación para todas las campañas y recorridos dentro de su entorno. Estas métricas se combinan para presentar valores unificados para acciones procedentes de diferentes canales, que abarcan varias campañas y recorridos.
 

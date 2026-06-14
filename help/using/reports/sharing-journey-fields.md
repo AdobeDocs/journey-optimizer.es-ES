@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 6%
+source-wordcount: 159
+ht-degree: 5%
 
 ---
 
 # Campos del recorrido {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Haga referencia a los campos de recorrido utilizados en el esquema de recorrido para describir cada recorrido en los informes de eventos de paso de recorrido, como ID de recorrido, versión, nombre y descripción.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos se usa en el esquema **recorrido** (en relación con **journeyStepEvent**). Contiene los campos que se enumeran a continuación.
 

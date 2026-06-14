@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 647
 ht-degree: 1%
 
 ---
 
 # Informe de campaña {#campaign-global-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer el informe de campaña en Adobe Journey Optimizer para revisar los KPI de campaña, la información general de campaña y funnel, los vínculos rastreados y el rendimiento de segmentación en todos los canales utilizados en su campaña.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

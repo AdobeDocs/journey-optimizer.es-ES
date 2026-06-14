@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 3%
+source-wordcount: 356
+ht-degree: 2%
 
 ---
 
 # Informe de campaña de tarjeta de contenido {#campaign-global-report-cja-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer el informe de campaña de la tarjeta de contenido en Adobe Journey Optimizer para analizar las tendencias de visualización y de clics, los datos de seguimiento y las etiquetas de seguimiento de las tarjetas de contenido.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 1%
 
 ---
 
 # Acceso y suscripción a alertas del sistema {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo acceder a las alertas del sistema de Adobe Journey Optimizer, suscribirse a ellas y administrarlas para supervisar de forma proactiva los eventos de ciclo vital de recorrido y campaña, los errores de acciones personalizadas, los problemas de perfil y la capacidad de envío de correo electrónico.
+
+>[!ENDSHADEBOX]
 
 ## Información general
 
@@ -63,7 +69,7 @@ Antes de trabajar con alertas:
 
 * **Reconocimiento de zona protegida**: Las suscripciones de alerta son específicas de la zona protegida. Al suscribirse a las alertas, solo se aplican a la zona protegida actual. Cuando se restablece una zona protegida, también se restablecen todas las suscripciones de alerta.
 
-* **Preferencias de notificación**: configure la forma en que recibe las alertas (correo electrónico o en la aplicación) en sus [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+* **Preferencias de notificación**: configure la forma en que recibe las alertas (por correo electrónico o en la aplicación) en sus [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
 
 ## Alertas disponibles {#available-alerts}
@@ -417,7 +423,7 @@ Las suscripciones de alerta determinan qué usuarios reciben notificaciones cuan
 
 **Envío de notificación:**
 
-* **Canales de envío**: las alertas se envían por correo electrónico o a través de notificaciones desde la aplicación en el centro de notificaciones de Journey Optimizer (icono de campana en la esquina superior derecha). Configure sus canales de envío preferidos en [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
+* **Canales de envío**: las alertas se envían por correo electrónico o a través de notificaciones desde la aplicación en el centro de notificaciones de Journey Optimizer (icono de campana en la esquina superior derecha). Configure sus canales de envío preferidos en las [Preferencias de Adobe Experience Cloud](../start/user-interface.md#in-product-uc).
 
 * **Tipos de alerta**: Journey Optimizer proporciona alertas únicas (eventos informativos como &quot;recorrido publicado&quot;) y repetidas (umbrales de supervisión). Las alertas repetidas siguen evaluando y notificando hasta que se resuelva la condición.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # Informe de página de destino {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Analice el rendimiento de la página de aterrizaje en Adobe Journey Optimizer mediante Customer Journey Analytics, incluidas las tasas de conversión y de devoluciones, las vistas y el tráfico por recorrido, campaña y canal.
+
+>[!ENDSHADEBOX]
 
 El informe **Página de aterrizaje** ofrece información valiosa sobre el comportamiento del usuario, los patrones de participación, las tasas de conversión y otras métricas clave, lo que le permite tomar decisiones informadas y optimizar el rendimiento de la página de aterrizaje de manera eficaz.
 

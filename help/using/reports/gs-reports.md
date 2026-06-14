@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # Introducción a las funciones de creación de informes {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Empiece a usar las funciones de creación de informes de Adobe Journey Optimizer, incluidos los informes en directo de las últimas 24 horas y los informes permanentes con tecnología de Customer Journey Analytics para sus campañas, recorridos, páginas de aterrizaje y listas de suscripción.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer le ofrece perspectivas procesables a través de sus sólidas capacidades de creación de informes. Los informes están disponibles para campañas, recorridos, páginas de aterrizaje, listas de suscripción y mucho más. A continuación, se enumeran los informes disponibles.
 
@@ -127,7 +133,7 @@ Todos los informes globales de tiempo están disponibles para todos sus canales.
 Seleccione un canal saliente para descubrir **informes globales permanentes** asociados.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="Correo electrónico" src="../channels/assets/do-not-localize/email.png">
+<td><img alt="correo electrónico" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><strong>Canal de correo electrónico</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Informe de recorrido</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>Canal de SMS</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Informe de campaña</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Informe de recorrido</strong></a></p></div></td>

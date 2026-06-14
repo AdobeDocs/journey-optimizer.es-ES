@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 806
 ht-degree: 8%
 
 ---
 
 # Lista de campos de eventos de paso {#sharing-field-list}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Haga referencia a los campos de eventos de paso de recorrido organizados por categoría, incluidos los campos de eventos de depuración, recorrido, perfil y servicio, y solucione los tipos de eventos descartados.
+
+>[!ENDSHADEBOX]
 
 Los campos de eventos de paso están organizados por categoría.
 

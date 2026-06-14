@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 700
 ht-degree: 3%
 
 ---
 
 # Informe de campaña de SMS {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer el informe de campaña de SMS en Adobe Journey Optimizer para analizar las tendencias de entrega y clics, el estado de entrega, los vínculos rastreados, los mensajes entrantes y las razones de rechazo, error y exclusión de sus mensajes SMS.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

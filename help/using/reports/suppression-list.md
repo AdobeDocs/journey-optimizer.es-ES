@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 11%
+source-wordcount: 870
+ht-degree: 10%
 
 ---
 
 # Lista de supresión {#suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo la lista de supresión excluye direcciones de correo electrónico y dominios específicos de sus envíos para proteger su reputación de envío y las tasas de envío.
+
+>[!ENDSHADEBOX]
 
 Una lista de supresión consiste en las direcciones y los dominios que desea excluir de las entregas, ya que el envío a estos contactos podría dañar su reputación y las tasas de entrega.
 

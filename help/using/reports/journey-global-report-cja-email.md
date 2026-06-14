@@ -28,14 +28,20 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1125
 ht-degree: 2%
 
 ---
 
 # Informe de recorrido de correo electrónico {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer las métricas de correo electrónico del informe de recorridos, que incluyen tendencias de envíos frente a clics, estado de entrega, estadísticas de envío y seguimiento, dominios de correo electrónico, vínculos seguidos, asuntos y motivos de rechazo y exclusión.
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >

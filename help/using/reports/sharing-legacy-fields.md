@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 50%
+source-wordcount: 73
+ht-degree: 31%
 
 ---
 
 # Acerca de los campos heredados {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Haga referencia a los campos heredados que conforman los grupos de campos de evento de paso de recorrido originales, incluidos los campos comunes, ejecución de acciones, captura de datos, identidad y recorrido.
+
+>[!ENDSHADEBOX]
 
 Esta categoría contiene los campos de eventos de paso originales. Estos campos forman parte de los siguientes grupos de campos:
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
-ht-degree: 19%
+source-wordcount: 1375
+ht-degree: 18%
 
 ---
 
 # Introducción a la Entregabilidad {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca las prácticas recomendadas de envío para Adobe Journey Optimizer, incluida la reducción de las tasas de quejas, el uso de listas de supresión, el establecimiento de la reputación del remitente, la implementación de DMARC y la comprensión de los bucles de comentarios.
+
+>[!ENDSHADEBOX]
 
 La capacidad de entrega es una medida del éxito de los envíos que llegan a las bandejas de entrada de los destinatarios.
 

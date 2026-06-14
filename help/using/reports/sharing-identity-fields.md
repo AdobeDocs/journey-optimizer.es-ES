@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # Campos de identidad de eventos de journeySteps {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Haga referencia a los campos de identidad que los eventos de paso de recorrido utilizan para describir la identidad del perfil, incluidos el identificador de perfil y su área de nombres.
+
+>[!ENDSHADEBOX]
 
 Este grupo de campos es específico de journeyStepEvent: este evento está relacionado con el recorrido y no tiene el identityMap, que describe la identidad del perfil, si la hay.
 

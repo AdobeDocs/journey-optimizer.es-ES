@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # Informe de suscripción {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar el informe Suscripción para analizar las suscripciones y bajas de suscripción de perfil en listas, recorridos, campañas y canales a fin de medir la participación.
+
+>[!ENDSHADEBOX]
 
 El **informe de suscripciones** ofrece información esencial sobre las suscripciones y bajas de perfiles asociadas con listas particulares, lo que le ayuda a comprender la eficacia de diferentes campañas e iniciativas de suscripción para impulsar la participación y las conversiones.
 

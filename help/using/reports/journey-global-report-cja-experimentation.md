@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 407
 ht-degree: 2%
 
 ---
 
 # Informe de recorrido de experimentación {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer las métricas de experimentación en el informe de recorrido, incluidos los KPI de experimento, el alza y la confianza y la métrica de rendimiento de variante por éxito para sus experimentos de contenido y ruta.
+
+>[!ENDSHADEBOX]
 
 El informe de Recorrido le ofrece una vista completa del rendimiento de su experimento, junto con las métricas clave que necesita para comprender su impacto.
 

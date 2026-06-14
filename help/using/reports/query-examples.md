@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # Ejemplos de consultas{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque ejemplos de consultas SQL listos para usar para analizar y solucionar problemas de eventos de pasos de recorrido en el lago de datos de Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Esta sección proporciona ejemplos de uso común para consultar eventos de pasos de Recorrido en Data Lake. Antes de profundizar en casos de uso específicos, es importante comprender los identificadores clave utilizados en los datos de evento de recorrido.
 

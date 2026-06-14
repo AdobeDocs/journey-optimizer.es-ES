@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 3%
+source-wordcount: 546
+ht-degree: 2%
 
 ---
 
 # Introducción al informe en vivo {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Empiece a usar el informe en vivo de Adobe Journey Optimizer para visualizar el rendimiento de los recorridos y las campañas en tiempo real, personalizar los widgets del tablero y exportar los informes.
+
+>[!ENDSHADEBOX]
 
 Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el impacto y el rendimiento de sus recorridos y sus mensajes en un panel integrado. Los datos están disponibles en el **[!UICONTROL informe en vivo]** tan pronto como se envíe o se ejecute el recorrido desde la ficha **[!UICONTROL Últimas 24 horas]**.
 

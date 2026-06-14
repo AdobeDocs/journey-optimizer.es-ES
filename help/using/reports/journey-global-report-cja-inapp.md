@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 680
 ht-degree: 2%
 
 ---
 
 # Informe de recorrido in-app {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a leer las métricas de mensajes en la aplicación en el informe recorrido, incluidas las tendencias de visualización y clics, los datos de seguimiento y las etiquetas de vínculos rastreados para los mensajes en la aplicación.
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >
