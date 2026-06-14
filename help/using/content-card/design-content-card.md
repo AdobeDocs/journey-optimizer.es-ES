@@ -6,19 +6,22 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # Diseño de contenido de tarjetas de contenido {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Diseñe y personalice el diseño, el texto, los medios, los botones y el comportamiento de descarte de la tarjeta de contenido para que pueda enviar un mensaje atractivo y de marca a su audiencia.
+
+>[!ENDSHADEBOX]
 
 La construcción de creación para tarjetas proporciona una experiencia de creación basada en formularios que proporciona a los especialistas en marketing entradas básicas que los desarrolladores pueden procesar.
 
