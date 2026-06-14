@@ -10,19 +10,22 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e51e8901-97d9-4f7d-a835-503025a90e32id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1563
+source-wordcount: 1592
 ht-degree: 11%
 
 ---
 
 # Adición de personalización {#build-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el editor de personalización para agregar, personalizar y validar expresiones de personalización de fuentes como atributos de perfil, audiencias, decisiones de oferta y atributos contextuales.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

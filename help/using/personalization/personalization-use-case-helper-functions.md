@@ -10,27 +10,26 @@ level: Intermediate
 keywords: expresión, editor, ayudantes, caso de uso, personalización
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Caso de uso de Personalization: correo electrónico de abandono del carro de compras {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Siga un caso de uso de abandono del carro de compras que personalice el cuerpo de un correo electrónico mediante las funciones upperCase, each y if helper en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 En este ejemplo, personalizará el cuerpo de un mensaje de correo electrónico. Este mensaje va dirigido a los clientes que han dejado artículos en el carro de compras, pero que aún no han finalizado su compra.
 
@@ -66,7 +65,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 1. Cree un evento cuyo esquema incluya la matriz `productListItems`.
 1. Defina todos los campos de esta matriz como campos de carga útil para este evento.
 
-   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=es){target="_blank"}.
+   Obtenga más información acerca del tipo de datos de elementos de la lista de productos en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Cree un recorrido que comience con este evento.
 1. Agregue una actividad **Correo electrónico** al recorrido.
@@ -119,7 +118,7 @@ El contenido del carro de compras es información contextual del recorrido. Por 
 
       ![Editor de expresiones que muestra upperCase con token de nombre de perfil](assets/personalization-uc-helpers-5.png)
 
-      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=es){target="_blank"}.
+      Obtenga más información acerca del tipo de datos de nombre de persona en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Validar]** y luego en **[!UICONTROL Guardar]**.
 
@@ -360,4 +359,4 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
