@@ -9,29 +9,26 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 856
 ht-degree: 6%
 
 ---
 
 # Flujo y componentes de datos de notificaciones push {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda el flujo de datos de las notificaciones push, los servicios y componentes clave involucrados y cómo se entregan las notificaciones de extremo a extremo con Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Esta página le ayuda a configurar y comprender los servicios y flujos de trabajo clave relacionados con las notificaciones push en [!DNL Journey Optimizer].
 
@@ -75,7 +72,7 @@ La siguiente ilustración muestra los sistemas y servicios involucrados con los 
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging): para enviar notificaciones a la aplicación móvil de Android
    * [Servicio de notificaciones push de Apple (APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html): para enviar notificaciones a la aplicación móvil de iOS
 
-* **Adobe Experience Platform Mobile SDK** que proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. SDK proporciona una extensión [!DNL Adobe Journey Optimizer] que expone una variedad de API específicas para la mensajería push y habilita el flujo de datos, como el registro del token push o el envío de eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. SDK también proporciona otras extensiones que habilitan otras funciones de Adobe Experience Cloud y de socios de terceros.
+* **Adobe Experience Platform Mobile SDK** que proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. SDK proporciona una extensión [!DNL Adobe Journey Optimizer] que expone una variedad de API específicas para la mensajería push y habilita el flujo de datos, como el registro del token push o el envío de eventos de seguimiento push o cualquier otro evento de experiencia personalizado a Adobe Experience Platform. SDK también proporciona otras extensiones que habilitan otras funcionalidades de Adobe Experience Cloud, así como de socios de terceros.
 
   La integración con SDK también requiere la configuración de los servicios de [recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es){target="_blank"} de Adobe Experience Platform, como:
 

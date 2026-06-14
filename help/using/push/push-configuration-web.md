@@ -8,30 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1164
 ht-degree: 8%
 
 ---
 
 # Configuración de canal de notificaciones push web {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo configurar el canal de notificaciones push web en Adobe Journey Optimizer, incluidos permisos, conjuntos de datos, credenciales push, configuración de canal y pruebas de instalación.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le permite crear sus recorridos y enviar mensajes al público destinatario. Antes de empezar a enviar notificaciones push web con [!DNL Journey Optimizer], debe asegurarse de que las configuraciones y las integraciones estén implementadas en Adobe Experience Platform. Para comprender el flujo de datos de notificaciones push en [!DNL Adobe Journey Optimizer], consulte [esta página](push-gs.md).
 
@@ -44,11 +40,11 @@ ht-degree: 8%
 
 ### Configuración de permisos {#setup-permissions}
 
-Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
+Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas involucradas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información acerca de los permisos de **Etiquetas** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
+>La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas involucradas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Journey Optimizer**. Obtenga más información acerca de los permisos de **Etiquetas** en [esta documentación](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -66,7 +62,7 @@ Para asignar los derechos de **Property** y **Company**, siga los pasos a contin
 
    ![](assets/push_product_1.png)
 
-1. Seleccione un **[!UICONTROL perfil de producto]** existente o cree uno nuevo con el botón **[!UICONTROL Nuevo perfil]**. Aprenda a crear un nuevo **[!UICONTROL nuevo perfil]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=es#ui){target="_blank"}.
+1. Seleccione un **[!UICONTROL perfil de producto]** existente o cree uno nuevo con el botón **[!UICONTROL Nuevo perfil]**. Aprenda a crear un nuevo **[!UICONTROL nuevo perfil]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. En la ficha **[!UICONTROL Permisos]**, seleccione **[!UICONTROL Derechos de propiedad]**.
 
@@ -112,7 +108,7 @@ Para asignar este **[!UICONTROL perfil de producto]** a los usuarios, siga los p
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -135,7 +131,7 @@ Los siguientes esquemas y conjuntos de datos están disponibles con el canal de 
 
 ### Configuración de la propiedad pushNotification {#push-property}
 
-Para habilitar **notificaciones push web**, primero debe asegurarse de que la propiedad [pushNotifications](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/pushnotifications) esté configurada correctamente en Web SDK. Esta propiedad controla cómo la aplicación web gestiona las notificaciones push.
+Para habilitar **notificaciones push web**, primero debe asegurarse de que la propiedad [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) esté configurada correctamente en Web SDK. Esta propiedad controla cómo la aplicación web gestiona las notificaciones push.
 
 Además, necesita generar claves VAPID, necesarias para configurar [sus credenciales push de la aplicación](#push-credentials-launch) en Journey Optimizer.
 
@@ -192,7 +188,7 @@ Ahora puede seleccionar la configuración al crear las notificaciones push.
 
 ## Paso 3: Configurar la propiedad sendPushSubscription {#sendPushSubscription-property}
 
-Una vez configuradas las credenciales de inserción y la configuración de canal, debe implementar [el comando sendPushSubscription](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/sendpushsubscription) en la aplicación web. Este comando registra las suscripciones push de los usuarios con Adobe Experience Platform, lo que permite al sistema rastrear qué usuarios se han suscrito para recibir notificaciones push y mantener su estado de suscripción. Este registro es esencial para que Journey Optimizer envíe notificaciones push dirigidas a sus usuarios.
+Una vez configuradas las credenciales de inserción y la configuración de canal, debe implementar [el comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) en la aplicación web. Este comando registra las suscripciones push de los usuarios con Adobe Experience Platform, lo que permite al sistema rastrear qué usuarios se han suscrito para recibir notificaciones push y mantener su estado de suscripción. Este registro es esencial para que Journey Optimizer envíe notificaciones push dirigidas a sus usuarios.
 
 ## Paso 4: Prueba de la aplicación móvil con un evento {#mobile-app-test}
 
