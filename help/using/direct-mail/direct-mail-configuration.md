@@ -10,26 +10,25 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 21%
+source-wordcount: 1994
+ht-degree: 20%
 
 ---
 
 # Configuración de correo directo {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Configure el enrutamiento de archivos y una configuración de canal de correo postal para que los archivos de extracción se exporten al servidor correcto para que los recupere su proveedor de correo postal.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le permite personalizar y generar los archivos necesarios para que los proveedores de correo postal envíen correo a sus clientes.
 
@@ -171,7 +170,7 @@ Si seleccionó **[!UICONTROL Zona de aterrizaje de datos]** como **[!UICONTROL t
 
 ![Configuración de enrutamiento de archivos de la zona de aterrizaje de datos sin campos de servidor adicionales](assets/file-routing-config-dlz-detail.png)
 
-A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
+A todos los clientes de [!DNL Adobe Experience Platform] se les ha aprovisionado un contenedor de zona de aterrizaje de datos por zona protegida. Obtenga más información acerca de la zona de aterrizaje de datos en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -211,7 +210,7 @@ Si utiliza SFTP con autenticación de clave SSH, debe tener una clave privada Op
 >
 >Después de la codificación Base64, la clave ya no contendrá los marcadores `-----BEGIN/END RSA PRIVATE KEY-----` y no debe incluir saltos de línea. La clave pública correspondiente debe añadirse al archivo de claves autorizadas del servidor SFTP.
 
-Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Para obtener más información sobre cómo conectar tu cuenta SFTP a Experience Platform, consulta [esta documentación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
