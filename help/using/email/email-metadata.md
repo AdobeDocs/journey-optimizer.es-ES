@@ -26,29 +26,35 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 333
-ht-degree: 0%
+source-wordcount: 364
+ht-degree: 24%
 
 ---
 
 # Añadir metadatos al contenido del correo electrónico {#email-metadata}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a establecer metadatos de correo electrónico en el Designer de correo electrónico, incluido el preencabezado, el título y el idioma del documento, para mejorar la legibilidad y accesibilidad del contenido del correo electrónico.
+
+>[!ENDSHADEBOX]
+
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Definir un encabezado previo"
->abstract="Un preencabezado es un breve texto de resumen que sigue a la línea de asunto cuando ve un correo electrónico de su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y, por lo general, es de una frase."
+>title="Definir un preencabezado"
+>abstract="Un preencabezado es un breve texto de resumen que sigue a la línea del asunto cuando se visualiza un correo electrónico desde su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase."
 
 Al diseñar los correos electrónicos, para mejorar la legibilidad y la accesibilidad, puede definir metaatributos adicionales para el contenido. El [!DNL Journey Optimizer] [Designer de correo electrónico](get-started-email-design.md) le permite especificar los siguientes elementos:
 
 ![](assets/email_body_settings_ex.png)
 
-* **[!UICONTROL Encabezado previo]**: Un encabezado previo es un breve texto de resumen que sigue a la línea de asunto cuando ve un correo electrónico de su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y, por lo general, es de una frase.
+* **[!UICONTROL Encabezado previo]**: Un encabezado previo es un breve texto de resumen que sigue a la línea de asunto cuando ve un correo electrónico de su cliente de correo electrónico. En muchos casos, proporciona un breve resumen del correo electrónico y suele contener una frase.
 
   >[!NOTE]
   >
-  >Los encabezados previos no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el preencabezado no se muestra.
+  >Los preencabezados no son compatibles con todos los clientes de correo electrónico. Cuando no se admite, el preencabezado no se muestra.
 
 * **[!UICONTROL Título del documento]**: este campo, que corresponde al elemento `<title>`, proporciona información descriptiva sobre el contenido del correo electrónico, que normalmente se muestra como información de objeto al pasar el ratón por encima. Puede ayudar a los usuarios con discapacidades al proporcionar un contexto adicional y puede contribuir a una mejor comprensión del contenido por parte de los motores de búsqueda.
 

@@ -31,14 +31,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1272
 ht-degree: 11%
 
 ---
 
 # Creación de un correo electrónico {#create-email}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a agregar una acción de correo electrónico a un recorrido o campaña en Adobe Journey Optimizer, definir su asunto y contenido, comprobar las alertas y obtener una vista previa antes de enviarlas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"

@@ -28,14 +28,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: 1776
 ht-degree: 3%
 
 ---
 
 # Aplicar temáticas al contenido del correo electrónico {#apply-email-themes}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear, aplicar y reutilizar temáticas en el Designer de correo electrónico para agregar un estilo coherente con la marca encima del contenido del correo electrónico y los fragmentos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"

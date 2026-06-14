@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Importación del contenido del correo electrónico
+title: Importar el contenido del correo electrónico
 description: Obtenga información sobre cómo importar contenido de correo electrónico
 feature: Email Design
 topic: Content Management
@@ -22,16 +22,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 0%
+source-wordcount: 293
+ht-degree: 27%
 
 ---
 
-# Importación del contenido del correo electrónico {#existing-content}
+# Importar el contenido del correo electrónico {#existing-content}
 
-[!DNL Journey Optimizer] le permite importar contenido existente de HTML para diseñar sus correos electrónicos. Este contenido puede ser:
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo importar contenido existente de HTML, ya sea como archivo HTML o como carpeta .zip, y convertirlo para que pueda editarlo y personalizarlo con el Designer de correo electrónico.
+
+>[!ENDSHADEBOX]
+
+[!DNL Journey Optimizer] le permite importar contenido existente de HTML para diseñar sus correos electrónicos. Este contenido puede ser el siguiente:
 
 * Un **archivo HTML** con una hoja de estilos incorporada;
 * Una carpeta **.zip** que incluye un archivo HTML, la hoja de estilo (.css) y las imágenes.
@@ -45,13 +51,13 @@ ht-degree: 0%
 >
 >Si tienes diseños de imagen (JPEG o PNG) en lugar de archivos HTML, puedes usar el conversor de [imagen a HTML](../content-management/image-to-html.md) para convertirlos automáticamente en plantillas editables de correo electrónico de HTML usando IA.
 
-Para importar un archivo con contenido de HTML, siga los pasos a continuación:
+Para importar un archivo con contenido HTML, siga los pasos a continuación:
 
 1. En la página de inicio de Email Designer, seleccione **[!UICONTROL Importar HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido de HTML y haga clic en **[!UICONTROL Importar]**.
+1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido HTML y haga clic en **[!UICONTROL Importar]**.
 
    ![](assets/html-imported_2.png)
 
@@ -69,8 +75,8 @@ Para importar un archivo con contenido de HTML, siga los pasos a continuación:
 
 1. Ahora puede personalizar el archivo importado según sea necesario con las funcionalidades de Designer de correo electrónico. [Más información](content-from-scratch.md)
 
-## Vídeo explicativo {#video}
+## Vídeo tutorial {#video}
 
-Obtenga información sobre cómo importar contenido existente de HTML, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
+Obtenga información sobre cómo importar contenido HTML existente, modificar el diseño, añadir páginas espejo y cancelar la suscripción de vínculos, y cómo codificar el contenido.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421909?captions=spa&quality=12)

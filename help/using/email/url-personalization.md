@@ -11,14 +11,20 @@ keywords: url, vínculo, personalización, seguimiento, codificación, llaves
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # Personalización de direcciones URL en correos electrónicos {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a personalizar las direcciones URL de correo electrónico con atributos de perfil, incluidas las direcciones URL completas o básicas y los parámetros de seguimiento por vínculo, a la vez que mantiene los vínculos válidos y se pueden rastrear.
+
+>[!ENDSHADEBOX]
 
 Las direcciones URL personalizadas le ayudan a entregar experiencias contextuales a través de sus mensajes de correo electrónico de [!DNL Journey Optimizer], como la generación de vínculos específicos del destinatario o la adición de parámetros dinámicos.
 

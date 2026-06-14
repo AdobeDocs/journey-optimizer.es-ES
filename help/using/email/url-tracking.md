@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 65%
+source-wordcount: 521
+ht-degree: 61%
 
 ---
 
 # Seguimiento de URL {#url-tracking}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a definir los parámetros de seguimiento de URL en el nivel de configuración del canal de correo electrónico para que se adjunten a los vínculos de contenido y se capturen en los análisis web y los informes de rendimiento.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"

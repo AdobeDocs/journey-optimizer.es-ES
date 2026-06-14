@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 23%
+source-wordcount: 529
+ht-degree: 22%
 
 ---
 
 # Codifique su propio contenido {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a escribir o pegar HTML sin procesar en el editor de código Designer de correo electrónico para generar contenido de correo electrónico, incluido cómo agregar personalización y las funciones de fecha y hora disponibles.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Codifique su propio código]** le permite escribir o pegar HTML sin procesar para crear contenido de correo electrónico directamente en el Designer de correo electrónico de [!DNL Journey Optimizer]. Utilice este modo cuando necesite control total sobre el marcado o cuando importe HTML existente.
 

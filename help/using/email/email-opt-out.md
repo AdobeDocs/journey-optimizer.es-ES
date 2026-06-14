@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # Administración de exclusión de correo electrónico {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a agregar opciones de cancelación de suscripción a sus correos electrónicos, incluidos los vínculos de no participación de un clic en el encabezado o cuerpo del correo electrónico y la no participación de dos pasos a través de una página de aterrizaje, para que los destinatarios puedan detener comunicaciones futuras.
+
+>[!ENDSHADEBOX]
 
 Al enviar mensajes desde recorridos o campañas, siempre debe asegurarse de que los clientes puedan cancelar la suscripción a comunicaciones futuras. Una vez cancelada la suscripción, los perfiles se eliminan automáticamente del público de futuros mensajes de marketing.  [Más información acerca de la administración de la privacidad y la exclusión](../privacy/opt-out.md)
 

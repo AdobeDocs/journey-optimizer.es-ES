@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # Edición del contenido de correos electrónicos con el editor avanzado de HTML {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el editor de HTML avanzado en el Designer de correo electrónico para ver y editar el origen de HTML sin procesar del contenido del correo electrónico, incluidas las protecciones que se deben tener en cuenta y cómo volver a la vista visual para previsualizarlo y guardarlo.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -32,14 +32,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1464
-ht-degree: 26%
+source-wordcount: 1491
+ht-degree: 25%
 
 ---
 
 # Adición de vínculos y seguimiento de mensajes {#tracking}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a insertar y administrar vínculos, agregar una página espejo y habilitar el rastreo de clics y aperturas para supervisar la participación de los destinatarios en los correos electrónicos.
+
+>[!ENDSHADEBOX]
 
 Use [!DNL Journey Optimizer] para agregar vínculos al contenido y realizar un seguimiento de los mensajes enviados a fin de supervisar el comportamiento de los destinatarios.
 

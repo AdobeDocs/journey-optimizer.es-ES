@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
 
 # Diseño de contenido accesible {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca las prácticas recomendadas para diseñar correos electrónicos y páginas de aterrizaje accesibles en Adobe Journey Optimizer, que cubran la legibilidad de texto, texto alternativo, modo oscuro, atributos de accesibilidad y pruebas en línea con WCAG 2.1 de nivel AA.
+
+>[!ENDSHADEBOX]
 
 La [Ley Europea de Accesibilidad](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} es una directiva diseñada para mejorar el mercado interno de productos y servicios accesibles al eliminar las barreras causadas por las diferentes reglas nacionales en los Estados Miembros.
 

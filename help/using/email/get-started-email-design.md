@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # Introducción al diseño de correo electrónico {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a diseñar el contenido de su correo electrónico en el Designer de correo electrónico, los pasos clave para crearlo desde cero, el código o el HTML importado, y las prácticas recomendadas que mantienen el procesamiento de sus correos electrónicos en todos los clientes.
+
+>[!ENDSHADEBOX]
 
 Para acceder al Diseñador de correo electrónico y comenzar a diseñar el contenido de su correo electrónico, primero debe [crear un correo electrónico](create-email.md) en un recorrido o una campaña.
 

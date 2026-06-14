@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # Añadir ofertas personalizadas {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a insertar y previsualizar decisiones de oferta en sus correos electrónicos para que Adobe Journey Optimizer ofrezca la mejor oferta personalizada a cada destinatario.
+
+>[!ENDSHADEBOX]
 
 En [!DNL Journey Optimizer] correos electrónicos, puede insertar decisiones que aprovecharán el motor de administración de decisiones para elegir la mejor oferta que se ofrezca a sus clientes.
 

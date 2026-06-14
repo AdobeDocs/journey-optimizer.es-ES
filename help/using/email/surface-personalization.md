@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # Personalizar configuración de correo electrónico {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo definir valores personalizados para subdominios dinámicos, parámetros de encabezado y parámetros de seguimiento de URL en el nivel de configuración del canal de correo electrónico.
+
+>[!ENDSHADEBOX]
 
 Para obtener más flexibilidad y control sobre la configuración del correo electrónico, [!DNL Journey Optimizer] le permite definir valores personalizados para subdominios, encabezados y parámetros de seguimiento de URL al crear configuraciones de correo electrónico.
 
