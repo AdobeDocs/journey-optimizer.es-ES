@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # Trabajar con datos de Adobe Analytics {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conecte los datos de comportamiento web que ya ha capturado con Adobe Analytics o Web SDK para poder almacenar en déclencheur los recorridos y automatizar las experiencias oportunas de la actividad en tiempo real de los clientes.
+
+>[!ENDSHADEBOX]
 
 Puede aprovechar todos los datos de evento de comportamiento web que ya está capturando a través de Adobe Analytics o Web SDK y transmitirlos a Adobe Experience Platform para almacenar en déclencheur los recorridos y automatizar las experiencias para sus clientes.
 

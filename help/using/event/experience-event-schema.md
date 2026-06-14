@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 422
 ht-degree: 1%
 
 ---
 
 # Acerca de los esquemas de experienceevent para [!DNL Journey Optimizer] eventos {#about-experienceevent-schemas}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree esquemas de evento de experiencia XDM que cumplan la estructura requerida para que los eventos transmitidos se puedan ingerir en Adobe Experience Platform y utilizarse en recorridos de déclencheur.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform a través de la ingesta de transmisión.
 

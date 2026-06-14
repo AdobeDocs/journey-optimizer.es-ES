@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 347
 ht-degree: 5%
 
 ---
 
 # Pasos adicionales para enviar eventos {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Configure su sistema de datos para insertar eventos en las API de ingesta de transmisión y que los eventos que configuró lleguen a Journey Optimizer y almacenen en déclencheur sus recorridos.
+
+>[!ENDSHADEBOX]
 
 Para configurar los eventos que se enviarán a **[!UICONTROL API de ingesta de transmisión]** y que se utilizarán en [!DNL Journey Optimizer], debe seguir estos pasos:
 
