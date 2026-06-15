@@ -7,23 +7,24 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: a3b5ff92-fe26-41ad-ad12-b346025e9e0f
 TQID: https://experienceleague.adobe.com/OOuzKAv-SCDhIxYSdrrQhtBI8jM4VevcpNj2z0pLUuQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 7%
+source-wordcount: 427
+ht-degree: 6%
 
 ---
 
 # Notificar a los usuarios sobre la disponibilidad del producto {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Siga este caso de uso para crear una campaña orquestada de reserva que use el envío de varios niveles para entregar un correo electrónico personalizado y separado para cada elemento de la lista de deseos guardado cuando los productos vuelvan a estar disponibles.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

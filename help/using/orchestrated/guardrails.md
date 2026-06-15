@@ -6,25 +6,24 @@ description: Obtenga información acerca de las limitaciones y protecciones de c
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 2%
 
 ---
 
 # Mecanismos de protección y limitaciones {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Revise las protecciones y limitaciones que se aplican al almacenamiento de datos, la ingesta, el modelado de datos, las actividades y los canales en campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 A continuación, encontrará limitaciones y protecciones al utilizar campañas orquestadas.
 
@@ -44,7 +43,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Atributos por esquema**: el número promedio de atributos por esquema no debe exceder las 50 columnas para mantener la capacidad de administración y el rendimiento.
 
-* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingesta de datos {#data-ingestion}
 

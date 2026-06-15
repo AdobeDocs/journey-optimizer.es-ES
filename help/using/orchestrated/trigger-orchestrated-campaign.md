@@ -10,16 +10,21 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # Activación de campañas orquestadas mediante una señal {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a almacenar en déclencheur una campaña orquestada con una señal de la API de REST o de la actividad Fin de otra campaña, y a pasar parámetros de carga útil que se convierten en variables para el direccionamiento, las condiciones y las expresiones.
+
+>[!ENDSHADEBOX]
 
 Puede iniciar una campaña orquestada con una señal en lugar de una programación fija. Cuando la campaña recibe la señal, se ejecuta y puede pasar parámetros en la carga útil. Están disponibles como variables para el direccionamiento, las condiciones o las expresiones.
 

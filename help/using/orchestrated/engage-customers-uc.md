@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
@@ -27,7 +22,13 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+**En esta página:** Siga un caso de uso de campaña orquestada que vuelva a atraer clientes en función de su actividad de navegación al leer una audiencia, deduplicarla, dividirla por el riesgo de pérdida y enviar mensajes de seguimiento personalizados.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Tenga en cuenta que este caso de uso comienza con una audiencia que ya existe en Experience Platform, específicamente, una audiencia de comportamiento web en tiempo real que recopila la actividad de navegación a medida que se produce. [Más información en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Esquemas necesarios para este caso de uso:**
 
@@ -105,7 +106,7 @@ Para los clientes identificados como con un alto riesgo de pérdida, cree un seg
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-A continuación, esta audiencia se guarda en Experience Cloud, donde más adelante se puede utilizar para una campaña de destino específica.
+A continuación, esta audiencia se guarda en Experience Cloud, donde se puede utilizar posteriormente para una campaña de destino específica.
 
 ## Segmentos de riesgo bajo/medio {#low-medium-risk}
 
