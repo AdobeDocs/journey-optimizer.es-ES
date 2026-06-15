@@ -6,18 +6,22 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2566
 ht-degree: 2%
 
 ---
 
 # Introducción a las funciones de ayuda{#functions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Las funciones de ayuda le permiten transformar, dar formato y aplicar condiciones a los datos directamente dentro de su contenido personalizado para que pueda crear experiencias dinámicas y adaptadas para cada cliente.
+
+>[!ENDSHADEBOX]
 
 Las funciones de ayuda permiten transformar y manipular los datos dentro del contenido personalizado. Utilícelos para realizar cálculos, formatear datos, aplicar condiciones y ejecutar varias operaciones para crear experiencias dinámicas y adaptadas para sus clientes.
 
@@ -540,4 +544,4 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
