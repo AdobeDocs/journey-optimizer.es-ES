@@ -11,30 +11,26 @@ keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, fluj
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # Recorridos frente a campañas: elija el enfoque adecuado {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Compare recorridos con campañas de acción, activadas por API y orquestadas para que pueda elegir el enfoque correcto para cada caso de uso de marketing en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] ofrece dos maneras principales de llegar a sus clientes y motivarlos: **Recorridos** y **Campañas**. Los recorridos están diseñados para una orquestación en tiempo real de varios pasos dirigida por el comportamiento del cliente, mientras que las campañas son más adecuadas para difusiones únicas o programadas a una audiencia definida. Una vez que haya decidido una campaña, puede elegir el tipo de campaña que mejor se adapte a su caso de uso.
 

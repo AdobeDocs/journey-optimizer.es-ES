@@ -8,31 +8,26 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1595
 ht-degree: 7%
 
 ---
 
 # Terminología clave {#key-terminology}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque los términos y conceptos esenciales de Adobe Journey Optimizer para que pueda navegar por la plataforma con seguridad y colaborar eficazmente con su equipo.
+
+>[!ENDSHADEBOX]
 
 Esta guía de referencia define los términos esenciales que se encontrará al utilizar Adobe Journey Optimizer. Comprender estos conceptos le ayuda a navegar por la plataforma con seguridad y a colaborar eficazmente con su equipo.
 
@@ -40,7 +35,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 
 >[!NOTE]
 >
->Adobe Journey Optimizer se creó en **Adobe Experience Platform**. Muchos conceptos básicos que encontrará, como perfiles de clientes en tiempo real, zonas protegidas, esquemas y conjuntos de datos, son conceptos de Adobe Experience Platform, no específicos de Journey Optimizer. Para ver las definiciones de esos términos, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es){target="_blank"}.
+>Adobe Journey Optimizer se creó en **Adobe Experience Platform**. Muchos conceptos básicos que encontrará, como perfiles de clientes en tiempo real, zonas protegidas, esquemas y conjuntos de datos, son conceptos de Adobe Experience Platform, no específicos de Journey Optimizer. Para ver las definiciones de esos términos, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Recorrido y términos de la campaña {#journey-campaign-terms}
 

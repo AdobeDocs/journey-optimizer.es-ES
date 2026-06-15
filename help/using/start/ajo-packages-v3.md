@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Paquetes y funciones de Adobe Journey Optimizer {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Consulte paso a paso el empaquetado modular de Adobe Journey Optimizer, eligiendo una oferta base, agregando canales y funciones avanzadas para poder hacer coincidir la configuración correcta con la forma en que interactúa con los clientes.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] usa un modelo de empaquetado modular. Comience con la oferta base que coincida con el caso de uso de orquestación principal y, a continuación, añada las funciones avanzadas y de canal que necesite.
 

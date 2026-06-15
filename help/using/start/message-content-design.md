@@ -11,31 +11,26 @@ hide: true
 keywords: contenido, diseño, correo electrónico, push, sms, personalización, plantillas
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
 TQID: https://experienceleague.adobe.com/bpZArBcEF0xy-M10Ds1CIou3hr4lcK-9wWTD-eROkbA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Diseño del contenido del mensaje{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore las herramientas y las prácticas recomendadas para diseñar contenido personalizado para correo electrónico, push, SMS y en la aplicación a fin de que pueda enviar mensajes de marca que promuevan la participación.
+
+>[!ENDSHADEBOX]
 
 El diseño del contenido del mensaje en Adobe Journey Optimizer le permite crear comunicaciones atractivas y personalizadas en todos los canales. Tanto si crea correos electrónicos con diseños visuales enriquecidos, genera notificaciones push optimizadas para móviles, diseña experiencias interactivas en la aplicación o envía mensajes SMS, esta sección proporciona directrices completas sobre las prácticas recomendadas de creación de contenido. Aprenda a aprovechar las plantillas y los fragmentos para contenido reutilizable, aplique personalización y contenido dinámico para adaptar los mensajes a cada destinatario y garantice el cumplimiento de la accesibilidad. Desde comprender los principios de diseño hasta implementar opciones de formato avanzadas, dominará las herramientas necesarias para ofrecer experiencias atractivas y en la marca que impulsen la participación y las conversiones.
 
@@ -43,7 +38,7 @@ El diseño del contenido del mensaje en Adobe Journey Optimizer le permite crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Diseño del contenido del correo electrónico
 
@@ -53,7 +48,7 @@ Domine el diseño de correos electrónicos con el Designer de correo electrónic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Diseño de notificaciones push
 
@@ -63,7 +58,7 @@ Cree notificaciones push atractivas para iOS y Android, configure el título y e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Diseño de mensajes SMS y MMS
 
@@ -73,7 +68,7 @@ Componga mensajes móviles personalizados con SMS, mejore las comunicaciones con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Diseño de mensajes en la aplicación
 
@@ -83,7 +78,7 @@ Cree experiencias atractivas en la aplicación con varias opciones de diseño, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalizar el contenido
 
@@ -93,7 +88,7 @@ Añada personalización a los mensajes mediante atributos de perfil, aproveche e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Usar plantillas y fragmentos
 
