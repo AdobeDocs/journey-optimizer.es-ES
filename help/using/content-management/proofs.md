@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: 508
 ht-degree: 10%
 
 ---
 
 # Envío de pruebas mediante datos de perfiles de prueba {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a enviar pruebas de correo electrónico mediante datos de perfil de prueba para que los destinatarios puedan revisar la representación, el contenido y la personalización antes de que el mensaje llegue a la audiencia principal.
+
+>[!ENDSHADEBOX]
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 

@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 18%
+source-wordcount: 308
+ht-degree: 16%
 
 ---
 
 # Seleccionar perfiles de prueba {#select-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a seleccionar perfiles de prueba por área de nombres de identidad en Adobe Journey Optimizer para que pueda obtener una vista previa y probar el contenido con diferentes variantes de datos de perfil.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # Vista previa del contenido mediante perfiles de prueba {#preview}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo obtener una vista previa del contenido del mensaje con los perfiles de prueba seleccionados para comprobar cómo se muestran los campos personalizados para cada variante.
+
+>[!ENDSHADEBOX]
 
 Una vez que se hayan seleccionado [perfiles de prueba](test-profiles.md), puede obtener una vista previa del contenido usando sus datos. Puede utilizar cualquiera de los métodos de simulación:
 
