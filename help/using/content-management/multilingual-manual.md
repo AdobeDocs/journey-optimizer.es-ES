@@ -26,14 +26,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 995
 ht-degree: 2%
 
 ---
 
 # Creación de contenido multilingüe con traducción manual {#multilingual-manual}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear contenido multilingüe con traducción manual configurando la configuración de idioma y traduciendo o importando contenido directamente en sus campañas y recorridos para cada configuración regional.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

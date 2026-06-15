@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 35%
+source-wordcount: 721
+ht-degree: 33%
 
 ---
 
 # Creación y administración de sus marcas {#brands}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear, configurar, publicar y administrar directrices de marca, incluida la configuración de una marca predeterminada, para que el Asistente de IA pueda generar contenido alineado con la identidad de su marca en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"

@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 13%
+source-wordcount: 1771
+ht-degree: 12%
 
 ---
 
 # Fragmentos personalizables {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a hacer editables campos específicos en fragmentos visuales y de expresión para que los usuarios puedan personalizarlos al agregar el fragmento a una campaña o recorrido, sin romper la herencia del fragmento original.
+
+>[!ENDSHADEBOX]
 
 Cuando se utilizan fragmentos en una campaña o acción de recorrido, están bloqueados de forma predeterminada debido a la herencia. Esto significa que los cambios realizados en un fragmento se propagan automáticamente a todas las campañas y recorridos donde se utilice el fragmento.
 

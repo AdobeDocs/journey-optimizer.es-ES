@@ -8,14 +8,20 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 192
 ht-degree: 3%
 
 ---
 
 # Prueba de representación de correo electrónico {#email-rendering}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a conectar su cuenta de Litmus a Adobe Journey Optimizer para probar el procesamiento de correo electrónico en clientes populares de escritorio, móviles y web.
+
+>[!ENDSHADEBOX]
 
 Puede aprovechar su cuenta de **Litmus** en [!DNL Journey Optimizer] para obtener una vista previa instantánea de su **procesamiento de correo electrónico** en clientes de correo electrónico populares. A continuación, puede asegurarse de que el contenido del correo electrónico tenga buen aspecto y funcione correctamente en cada bandeja de entrada.
 

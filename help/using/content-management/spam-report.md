@@ -17,14 +17,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 17%
+source-wordcount: 398
+ht-degree: 16%
 
 ---
 
 # Informe sobre correo electrónico spam {#spam-report}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el informe de correo no deseado en Adobe Journey Optimizer para comprobar la puntuación de correo no deseado del contenido del correo electrónico y aplicar consejos que mejoren la capacidad de envío antes de enviarlo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"

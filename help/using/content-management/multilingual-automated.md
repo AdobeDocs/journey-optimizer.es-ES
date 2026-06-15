@@ -29,14 +29,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2063
+source-wordcount: 2099
 ht-degree: 19%
 
 ---
 
 # Creación de contenido multilingüe con traducción automática {#multilingual-automated}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear contenido multilingüe con traducción automática configurando un proyecto de traducción y la configuración de idioma y, a continuación, enviando el contenido de su campaña o recorrido a un proveedor de traducción para su revisión y publicación.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"

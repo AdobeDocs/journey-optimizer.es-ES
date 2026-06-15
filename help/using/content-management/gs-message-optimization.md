@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 770
 ht-degree: 15%
 
 ---
 
 # Introducción a la optimización de contenido {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo la optimización de contenido en Adobe Journey Optimizer utiliza la segmentación, la experimentación o ambas cosas para ofrecer el contenido personalizado de mejor rendimiento en sus campañas y recorridos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 247
 ht-degree: 4%
 
 ---
 
 # Prueba de plantillas de contenido de correo electrónico {#test-template}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo obtener una vista previa y probar la representación de las plantillas de contenido de correo electrónico en Adobe Journey Optimizer y envíe pruebas para que se aprueben antes de usarlas.
+
+>[!ENDSHADEBOX]
 
 Puede probar la renderización de algunas de las plantillas de correo electrónico, tanto si se crean desde cero como a partir de contenido existente. Para ello, siga los pasos que aparecen a continuación.
 

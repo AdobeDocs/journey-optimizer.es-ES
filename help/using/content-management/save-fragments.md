@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 14%
+source-wordcount: 541
+ht-degree: 13%
 
 ---
 
 # Guardar contenido como fragmento {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a guardar todo el contenido o parte del mismo como fragmentos visuales o de expresión en Adobe Journey Optimizer para que pueda reutilizarlo en recorridos y campañas.
+
+>[!ENDSHADEBOX]
 
 Al editar contenido en [!DNL Journey Optimizer], puede guardar todo o parte del contenido como fragmento para su reutilización futura. Puede guardar contenido como fragmento [desde el Designer de correo electrónico](#save-as-visual-fragment) o [desde el editor de expresiones](#save-as-expression-fragment).
 

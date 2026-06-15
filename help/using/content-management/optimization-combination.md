@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # Combinación de segmentación y experimentación {#combination}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a combinar la segmentación y la experimentación dentro de un solo recorrido o campaña para que los experimentos permanezcan específicos para cada regla de segmentación.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer también permite combinar objetivos y experimentos dentro de un solo recorrido o campaña para crear estrategias más sofisticadas.
 

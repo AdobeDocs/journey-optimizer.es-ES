@@ -22,14 +22,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 2%
+source-wordcount: 323
+ht-degree: 1%
 
 ---
 
 # Uso de la experimentación {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar experimentos de contenido para probar múltiples variaciones de contenido dentro de un recorrido o campaña e identificar cuál funciona mejor con sus métricas de éxito.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

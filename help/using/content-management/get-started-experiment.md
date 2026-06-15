@@ -31,14 +31,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # Introducción a los experimentos de contenido {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo los experimentos de contenido en Adobe Journey Optimizer utilizan pruebas aleatorias para probar variaciones de mensajes, cómo se calculan los resultados y cómo interpretar los informes para optimizar sus campañas.
+
+>[!ENDSHADEBOX]
 
 ## ¿Qué es un experimento de contenido?
 
@@ -113,14 +119,14 @@ Por ejemplo, es poco probable que el cambio de contenido del cuerpo del mensaje 
 
 +++Ejecute la prueba en el tamaño de audiencia adecuado o durante el tiempo suficiente
 
-Si realiza las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica objetivo entre tratamientos. Sin embargo, si el valor de la línea de base de la métrica de objetivos es pequeño, necesitará muestras de mayor tamaño.
-El número de usuarios que debe incluirse en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivos, así como la tolerancia de errores de falsos positivos y falsos negativos. En Experimentos clásicos, puede usar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
+Si ejecuta las pruebas durante más tiempo, podrá detectar diferencias menores en la métrica de objetivo entre tratamientos. Sin embargo, si el valor de línea de base de la métrica de objetivo es pequeño, necesitará tamaños de muestra más grandes.
+El número de usuarios que se debe incluir en el experimento depende del tamaño del efecto que desee detectar, la variación o propagación de la métrica de objetivo, así como la tolerancia para errores de falsos positivos y falsos negativos. En Experimentos clásicos, puede usar una [calculadora de tamaño de muestra](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=es){_blank} para determinar cuánto tiempo debe ejecutar la prueba.
 +++ 
 
 +++Comprender la incertidumbre estadística
 
-Si está realizando un experimento en el que 1000 usuarios han visto un tratamiento y la tasa de conversión se establece en 5 %. ¿Sería esta la tasa de conversión real si se incluyeran a todos los usuarios? ¿Cuál sería la tasa de conversión verdadera?
-Los métodos estadísticos nos dan una forma de formalizar esta incertidumbre. Uno de los conceptos más importantes que debe comprender a la hora de ejecutar experimentos en línea es que las tasas de conversión observadas son coherentes con una serie de tasas de conversión reales subyacentes, lo que significa que debe esperar hasta que esas estimaciones sean lo suficientemente precisas, antes de intentar llegar a una conclusión. Los intervalos de confianza y la confianza nos ayudan a cuantificar esta incertidumbre.
+Si está ejecutando un experimento en el que 1000 usuarios han visto un tratamiento y la tasa de conversión se establece en 5 %. ¿Sería esta la tasa de conversión real si se incluyeran todos los usuarios? ¿Cuál sería la tasa de conversión real?
+Los métodos estadísticos nos dan una forma de formalizar esa incertidumbre. Uno de los conceptos más importantes que hay que entender al realizar experimentos en línea es que las tasas de conversión observadas son coherentes con una serie de tasas de conversión reales subyacentes, lo que significa que debe esperar hasta que esas estimaciones sean lo suficientemente precisas antes de intentar sacar una conclusión. Los intervalos de confianza y la confianza nos ayudan a cuantificar esta incertidumbre.
 +++
 
 +++Forme nuevas hipótesis y realice pruebas continuamente

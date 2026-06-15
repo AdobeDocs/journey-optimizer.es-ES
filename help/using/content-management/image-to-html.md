@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 4%
 
 ---
 
 # Conversión de imágenes en plantillas de contenido de correo electrónico {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el convertidor de imágenes a HTML con tecnología de IA en Adobe Journey Optimizer para convertir diseños de imágenes estáticas en plantillas de contenido de correo electrónico editables y reutilizables.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le ayuda a acelerar en gran medida la creación de correo electrónico al convertir diseños de imagen estáticos en plantillas de contenido de correo electrónico modulares y totalmente personalizables.
 

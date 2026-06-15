@@ -20,14 +20,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 589
 ht-degree: 8%
 
 ---
 
 # Usar segmentación {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar las reglas de segmentación para entregar contenido personalizado a segmentos de audiencia específicos en función de atributos de perfil, datos contextuales o pertenencia a audiencias.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 6%
+source-wordcount: 203
+ht-degree: 5%
 
 ---
 
 # Uso de plantillas de contenido {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a aplicar plantillas de contenido al crear contenido para cualquier canal excepto el Web en Adobe Journey Optimizer para empezar a crear mensajes más rápido.
+
+>[!ENDSHADEBOX]
 
 Al crear contenido para cualquier canal (excepto Web) en [!DNL Journey Optimizer], puede utilizar una plantilla personalizada que le permita:
 

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 6%
+source-wordcount: 268
+ht-degree: 5%
 
 ---
 
 # Introducción a las plantillas de contenido {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Empiece a usar las plantillas de contenido para crear contenido independiente y reutilizable para los canales de correo electrónico, push, aplicación, SMS y correo directo que los especialistas en marketing pueden reutilizar en campañas y recorridos de Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
