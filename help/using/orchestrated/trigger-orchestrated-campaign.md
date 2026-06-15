@@ -10,7 +10,8 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1466

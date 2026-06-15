@@ -6,10 +6,13 @@ description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1947
