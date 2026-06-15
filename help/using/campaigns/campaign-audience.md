@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 230
+source-wordcount: 231
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Seleccione la audiencia y el tipo de identidad en la ficha Audiencia para que su campaña esté dirigida a las personas adecuadas.
+**En esta página:** Seleccione la audiencia y el tipo de identidad en la ficha Audiencia para que la campaña de acción se dirija a las personas adecuadas.
 
 >[!ENDSHADEBOX]
 
