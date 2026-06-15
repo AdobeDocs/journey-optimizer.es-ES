@@ -34,7 +34,7 @@ ht-degree: 12%
 
 Si tiene diez minutos, empiece con este vídeo de orientación. Recorre la interfaz y resalta las capacidades clave por función.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
 
 A continuación, genere confianza práctica con estos recursos de aprendizaje:
 
