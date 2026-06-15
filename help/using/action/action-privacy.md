@@ -11,14 +11,20 @@ keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 100%
+source-wordcount: 1337
+ht-degree: 96%
 
 ---
 
 # Gobernanza de datos {#restrict-fields}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Proteja los datos confidenciales creando directivas de gobernanza que vinculen las etiquetas a acciones de marketing y, a continuación, aplicándolas a recorridos, campañas y acciones personalizadas de modo que los campos restringidos no se puedan compartir externamente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
