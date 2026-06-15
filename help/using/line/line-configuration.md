@@ -71,7 +71,7 @@ ht-degree: 6%
    >
    >El ID de usuario de LINE que asignó aquí ya debe existir en el [!DNL Real-Time Customer Profile] de sus clientes. Capture el ID de usuario de LINE (por ejemplo, mediante el inicio de sesión de LINE o el SDK de LIFF), introdúzcalo en Adobe Experience Platform y vincúlelo a un identificador conocido con el servicio de identidad para que [!DNL Journey Optimizer] pueda alcanzar el perfil unificado. [Más información sobre la identidad en Journey Optimizer](../audience/get-started-identity.md).
    >
-   >Para ver un ejemplo completo de unificación de ID de usuario de LINE con perfiles de clientes que utilizan el servicio de identidad, consulte el artículo de la comunidad [Unificación de ID de usuario de LINE con perfiles de cliente mediante la vinculación de identidad de AEP](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}.
+   >Para ver un ejemplo completo de unificación de ID de usuario de LINE con perfiles de clientes que utilizan el servicio de identidad, consulte el artículo de la comunidad [Unificación de ID de usuario de LINE con perfiles de cliente mediante la vinculación de identidad de AEP](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=es){target="_blank"}.
 
 1. Escriba su **[!UICONTROL nombre de remitente]**, como el nombre de su marca.
 
