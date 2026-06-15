@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 894
 ht-degree: 3%
 
 ---
 
 # Panel de control de uso de licencias {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el panel de uso de licencias de Adobe Journey Optimizer para supervisar perfiles atractivos y solucionar problemas de aumentos inesperados en el recuento de perfiles.
+
+>[!ENDSHADEBOX]
 
 La [!DNL Adobe Journey Optimizer] [interfaz de usuario](../start/user-interface.md) proporciona un panel que muestra información importante sobre el uso de licencias de su organización, tal como se captura durante una instantánea diaria.
 
@@ -115,7 +121,7 @@ Para solucionar este problema, siga estos pasos:
 
 5. **Supervisar cambios en el conjunto de datos:**
 
-   * Compruebe los conjuntos de datos habilitados para la generación de perfiles y asegúrese de que no contengan un ECID (Experience Cloud ID) excesivo.
+   * Compruebe los conjuntos de datos habilitados para la generación de perfiles y asegúrese de que no contengan un ECID excesivo (Experience Cloud ID).
    * Si es necesario, elimine conjuntos de datos con recuentos de ECID altos y vuelva a crearlos con registros reducidos.
 
 6. **Desarrollar una estrategia de reducción a largo plazo:**

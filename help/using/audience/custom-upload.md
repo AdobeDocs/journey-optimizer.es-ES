@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 10%
+source-wordcount: 177
+ht-degree: 9%
 
 ---
 
 # Carga personalizada {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo importar una audiencia de un archivo CSV mediante Adobe Experience Platform Audience Portal y asignar su atributo de identidad a perfiles de clientes.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Audience Portal le permite importar una audiencia utilizando un archivo CSV.
 

@@ -14,14 +14,20 @@ subfeature_v2:
   - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 10%
+source-wordcount: 267
+ht-degree: 9%
 
 ---
 
 # Composición de público federado {#fac}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la Composición de audiencias federada en Adobe Journey Optimizer para consultar el almacén de datos empresarial y enriquecer las audiencias de Adobe Experience Platform sin duplicar datos confidenciales.
+
+>[!ENDSHADEBOX]
 
 Aunque puede utilizar las funcionalidades de composición de audiencias para crear audiencias valiosas y altamente refinadas para la segmentación, puede enriquecer aún más las audiencias para una personalización más profunda mediante los datos de su almacén de datos empresarial y socios de confianza.
 

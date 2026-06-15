@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # Creación de perfiles de prueba {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear perfiles de prueba cargando un archivo CSV o utilizando llamadas a la API para poder obtener una vista previa del contenido y probar los recorridos en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Se requieren perfiles de prueba al usar el [modo de prueba](../building-journeys/testing-the-journey.md) en un recorrido, y para [previsualizar y probar el contenido](../content-management/preview-test.md).
 

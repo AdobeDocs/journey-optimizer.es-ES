@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 595
 ht-degree: 9%
 
 ---
 
 # Uso de atributos de enriquecimiento de audiencias {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar atributos de enriquecimiento de audiencia de flujos de trabajo de composición, cargas personalizadas y composición de audiencia federada para crear rutas de recorrido y personalizar mensajes en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Al segmentar una audiencia generada mediante flujos de trabajo de composición, audiencias personalizadas (archivo CSV) o composición de audiencias federada, puede utilizar atributos de enriquecimiento de estas audiencias para crear el recorrido y personalizar los mensajes.
 

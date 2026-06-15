@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # Configuración de una lista de permitidos {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo activar, rellenar y administrar una lista de permitidos en Adobe Journey Optimizer para restringir el envío de correo electrónico a direcciones y dominios de confianza en el nivel de espacio aislado.
+
+>[!ENDSHADEBOX]
 
 La lista de permitidos es una lista de envío seguro que puede definir en el nivel de [zona protegida](../administration/sandboxes.md). Restringe el envío de correos electrónicos a direcciones o dominios específicos, lo que garantiza que solo los destinatarios enumerados explícitamente puedan recibir mensajes desde una zona protegida determinada.
 

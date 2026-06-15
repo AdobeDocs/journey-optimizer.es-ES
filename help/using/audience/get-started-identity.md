@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 20%
+source-wordcount: 256
+ht-degree: 17%
 
 ---
 
 # Introducción a las identidades {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a examinar los identificadores de cliente y a explorar los gráficos de identidad en Adobe Journey Optimizer, incluido cómo se combinan las áreas de nombres de identidad y los valores para identificar a cada cliente.
+
+>[!ENDSHADEBOX]
 
 Una identidad son datos que son únicos para una entidad, normalmente un objeto del mundo real, como una persona individual, un dispositivo de hardware o un explorador web. Una identidad completa consta de dos elementos:
 

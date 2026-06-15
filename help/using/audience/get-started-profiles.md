@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 35%
+source-wordcount: 527
+ht-degree: 36%
 
 ---
 
 # Introducción a los perfiles {#profiles-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo el Perfil del cliente en tiempo real de Adobe Journey Optimizer unifica los datos de clientes de fuentes en línea, sin conexión y de terceros en una sola vista, y cómo acceder al panel de perfiles.
+
+>[!ENDSHADEBOX]
 
 ## Acerca de los perfiles
 
@@ -40,7 +46,7 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
-**Perfil del cliente en tiempo real&#x200B;**: integre atributos y eventos del cliente desde fuentes en línea, sin conexión y con seudónimo en un único perfil unificado. &#x200B;Utilice el perfil para atraer clientes con experiencias personalizadas en tiempo real en varios puntos de contacto. &#x200B;
+**Perfil del cliente en tiempo real&#x200B;**: integre atributos y eventos del cliente desde fuentes en línea, sin conexión y con seudónimo en un único perfil unificado. &#x200B;Utilice el perfil para atraer clientes con experiencias personalizadas en tiempo real en varios puntos de contacto. palo de golf
 
 **Ingesta de datos**: conéctese a varias fuentes de datos para ingerir datos de comportamiento, transaccionales, financieros y operativos. Introduzca datos en tiempo real o mediante cargas por lotes para mantener los perfiles actualizados constantemente. Los perfiles no se crean directamente en la interfaz de [!DNL Journey Optimizer], sino que se crean o actualizan automáticamente en Adobe Experience Platform cuando se incorporan los datos.
 
@@ -48,9 +54,9 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 >
 >Al introducir datos, los correos electrónicos distinguen entre mayúsculas y minúsculas. Significa que se pueden crear perfiles duplicados (por ejemplo, un perfil para Juan.Greene@luma.com y otro perfil para juan.greene@luma.com) y utilizarse al segmentar el destinatario correspondiente en sus recorridos y campañas de [!DNL Journey Optimizer].
 
-**Gráfico de identidad**: Combine datos de diferentes fuentes usando identidades de clientes, como ID de fidelidad o ID del sistema CRM. &#x200B;Cree una vista completa del cliente asignando relaciones entre distintas identidades dentro de los conjuntos de datos de una marca. &#x200B;
+**Gráfico de identidad**: Combine datos de diferentes fuentes usando identidades de clientes, como ID de fidelidad o ID del sistema CRM. &#x200B;Cree una vista completa del cliente asignando relaciones entre distintas identidades dentro de los conjuntos de datos de una marca. palo de golf
 
-**Participación del cliente**: utilice el perfil del cliente en tiempo real para ofrecer experiencias contextuales y personalizadas, como ofertas y mensajes segmentados. &#x200B;Capte a los clientes en varios canales, incluidas las campañas de marketing, la asistencia al cliente y las actualizaciones transaccionales. &#x200B;
+**Participación del cliente**: utilice el perfil del cliente en tiempo real para ofrecer experiencias contextuales y personalizadas, como ofertas y mensajes segmentados. &#x200B;Capte a los clientes en varios canales, incluidas las campañas de marketing, la asistencia al cliente y las actualizaciones transaccionales. palo de golf
 
 **Uso compartido de datos**: comparte perfiles de clientes con los principales proveedores de almacenamiento en la nube, como Amazon Web Service, Microsoft Azure y Google Cloud. Utilice perfiles compartidos para la creación de informes, el archivado de datos o un análisis más profundo con herramientas de inteligencia empresarial.
 

@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1860
 ht-degree: 23%
 
 ---
 
 # Integración con sistemas externos {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conozca las protecciones y prácticas recomendadas para integrar Adobe Journey Optimizer con sistemas externos, incluidas las API de límite y regulación, los tiempos de espera de recorrido y los reintentos.
+
+>[!ENDSHADEBOX]
 
 Esta página presenta las diferentes protecciones proporcionadas por Journey Optimizer al integrar un sistema externo, así como las prácticas recomendadas: cómo optimizar la protección del sistema externo mediante la API de límite, cómo configurar el tiempo de espera de recorrido y cómo funcionan los reintentos.
 

@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 48%
+source-wordcount: 1092
+ht-degree: 47%
 
 ---
 
 # Uso de la API de limitación
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la API de limitación para crear, implementar y supervisar configuraciones de limitación que limiten el número de eventos que Adobe Journey Optimizer envía por segundo a extremos externos.
+
+>[!ENDSHADEBOX]
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 50%
+source-wordcount: 1092
+ht-degree: 49%
 
 ---
 
 # Introducción a Composición de públicos {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la composición de audiencias para combinar audiencias de Adobe Experience Platform existentes en un lienzo visual y aplicar actividades como dividir, excluir, enriquecer y clasificar para crear nuevas audiencias.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"

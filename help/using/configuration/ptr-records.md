@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 11%
+source-wordcount: 875
+ht-degree: 10%
 
 ---
 
 # Creación y edición de registros PTR {#ptr-records}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo se crean automáticamente los registros PTR al delegar subdominios a Adobe, y cómo acceder a ellos, editarlos y rastrear las actualizaciones en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

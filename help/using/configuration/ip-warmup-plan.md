@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1853
 ht-degree: 8%
 
 ---
 
 # Creación de un plan de calentamiento de IP {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo configurar los permisos necesarios, preparar el archivo de plan de Excel con grupos de dominios y crear un plan de calentamiento de IP en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Una vez que haya creado una o más [campañas de calentamiento de IP](ip-warmup-campaign.md) con una configuración dedicada y la opción correspondiente habilitada, puede empezar a crear su plan de calentamiento de IP.
 

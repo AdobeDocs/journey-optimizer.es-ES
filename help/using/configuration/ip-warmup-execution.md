@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 12%
+source-wordcount: 2795
+ht-degree: 11%
 
 ---
 
 # Ejecución del plan de calentamiento de IP {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a definir las fases y ejecuciones de su plan de calentamiento de IP, activarlas y supervisar el progreso a través de los estados y los informes.
+
+>[!ENDSHADEBOX]
 
 Una vez que haya [creado un plan de calentamiento de IP](ip-warmup-plan.md) y subido el archivo preparado con su consultor de capacidad de entrega, puede definir las fases y ejecuciones de su plan.
 

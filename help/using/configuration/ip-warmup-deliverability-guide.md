@@ -30,18 +30,24 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
+source-wordcount: 1139
 ht-degree: 8%
 
 ---
 
 # Guía de entregabilidad de calentamiento de IP {#ip-warmup-deliverability-guide}
 
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda los aspectos básicos de la capacidad de entrega, la creación de reputación, las comprobaciones previas al vuelo, los calendarios de calentamiento de muestra y las métricas de monitorización para ejecutar un calentamiento de IP correcto en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
+
 Al lanzar campañas de correo electrónico con nuevas direcciones IP o dominios en Adobe Journey Optimizer, comprender los aspectos básicos de la capacidad de entrega es crucial para crear una sólida reputación de remitente. Esta guía cubre los conceptos clave, los pasos de preparación y las prácticas recomendadas para ayudarle a pasar de una reputación cero a una ubicación correcta en la bandeja de entrada.
 
-➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es){target="_blank"}.
+➡️ Obtenga información acerca de los aspectos básicos de la capacidad de envío, la creación de reputación y las prácticas recomendadas para el calentamiento de IP en el vídeo de esta [publicación de blog de Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -157,7 +163,7 @@ Una vez completado el plan de calentamiento, las métricas se han estabilizado:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es).
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
 -->
 
 ## Temas relacionados {#related-topics}

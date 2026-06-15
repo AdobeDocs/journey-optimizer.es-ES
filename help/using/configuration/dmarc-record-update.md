@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # Cumplir con el nuevo requisito de DMARC {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra por qué y cuándo debe configurar un registro de DMARC para los subdominios que delegó a Adobe en Adobe Journey Optimizer para cumplir con los requisitos de remitente de Google y Yahoo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -52,13 +58,13 @@ Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener co
 
 * Si ha [delegado completamente](delegate-subdomain.md#set-up-subdomain) sus subdominios a Adobe, elija una de las siguientes opciones:
 
-   * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
+   * Configure DMARC en el dominio principal de sus subdominios delegados **en su solución de alojamiento**.
 o
    * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**: sin trabajo adicional en su solución de alojamiento. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
 * Si ha configurado los subdominios de envío con [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga una de estas opciones:
 
-   * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
+   * Configure DMARC en sus subdominios o en el dominio principal de sus subdominios **en su solución de alojamiento**.
 o
    * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
@@ -86,6 +92,6 @@ The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Obtenga más información sobre DMARC en la [Guía de prácticas recomendadas sobre la entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es#about){target="_blank"}.
 * Lea el [anuncio de Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}.
-* Lea el [anuncio de Yahoo! ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Lea el [anuncio de Yahoo! &#x200B;](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

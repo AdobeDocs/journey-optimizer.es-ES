@@ -22,14 +22,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # Reintentos {#retries}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo Adobe Journey Optimizer reintenta los mensajes de correo electrónico de rebote suave, cómo funcionan el umbral de error y el período de tiempo de reintento, y cómo ajustarlos antes de que se añada una dirección a la lista de supresión.
+
+>[!ENDSHADEBOX]
 
 Cuando un mensaje de correo electrónico falla debido a un error temporal **Rebote suave** para una dirección determinada, se realizan varios reintentos. Cada error incrementa un contador de errores. Cuando este contador alcanza el umbral de límite, la dirección de correo electrónico se agrega a la lista de supresión.
 

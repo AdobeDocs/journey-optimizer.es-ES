@@ -33,14 +33,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
+source-wordcount: 2475
 ht-degree: 2%
 
 ---
 
 # Exportación de objetos a otra zona protegida {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a copiar objetos de Adobe Journey Optimizer, como recorridos, campañas, acciones personalizadas, plantillas de contenido y fragmentos, entre zonas protegidas mediante la exportación e importación de paquetes.
+
+>[!ENDSHADEBOX]
 
 Puede copiar objetos, como recorridos, campañas, acciones personalizadas, plantillas de contenido o fragmentos, en varios entornos limitados mediante las funciones de exportación e importación de paquetes. Un paquete puede constar de un único objeto o de varios objetos. Los objetos incluidos en un paquete deben pertenecer a la misma zona protegida.
 
