@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 896
+source-wordcount: 931
 ht-degree: 4%
 
 ---
 
 # Uso de decisiones en una experiencia basada en código con un experimento de contenido {#experience-decisioning-uc}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Siga un caso de uso que genere dos estrategias de selección y compare métodos de clasificación en un experimento de contenido de experiencia basado en código, para que pueda determinar qué método de toma de decisiones funciona mejor para su audiencia.
+
+>[!ENDSHADEBOX]
 
 Este caso de uso presenta todos los pasos necesarios para utilizar Decisioning con el canal basado en código [!DNL Journey Optimizer].
 

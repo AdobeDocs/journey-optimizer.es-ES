@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
 # Aprovechamiento de datos de contexto en Decisioning {#context}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Defina y envíe datos de contexto de Adobe Experience Platform a Decisioning para que pueda utilizar la información en tiempo real enviada en el momento de la solicitud de decisión en las reglas de decisión y las fórmulas de clasificación.
+
+>[!ENDSHADEBOX]
 
 Con Decisioning, puede aprovechar cualquier información disponible en Adobe Experience Platform para realizar diversas acciones, como crear [reglas de decisión](rules.md) o [fórmulas de clasificación](ranking/ranking.md).
 

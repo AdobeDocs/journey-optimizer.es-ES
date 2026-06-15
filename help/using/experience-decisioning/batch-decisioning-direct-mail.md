@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: toma de decisiones por lotes, correo directo, toma de decisiones
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # Toma de decisiones por lotes en correo directo {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Utilice la toma de decisiones por lotes en el canal de correo postal para poder personalizar el archivo de extracción de cada destinatario con los mejores elementos de decisión o exportar datos de perfil y toma de decisiones a sistemas descendentes.
+
+>[!ENDSHADEBOX]
 
 Con la toma de decisiones por lotes, la toma de decisiones selecciona el mejor elemento o elementos de decisión para cada perfil e incluye esos resultados en el archivo de extracción de correo postal. Puede devolver varios elementos por perfil estableciendo **[!UICONTROL Número de elementos]** al configurar la directiva de decisión. El archivo exportado se puede utilizar para la personalización del correo postal o para casos de uso por lotes en los que se exportan perfiles y atributos de decisión a otro sistema.
 

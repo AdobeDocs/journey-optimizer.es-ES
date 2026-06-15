@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 16%
+source-wordcount: 806
+ht-degree: 15%
 
 ---
 
 # Creación de modelos de IA {#create-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree modelos de IA de optimización automática o de optimización personalizada y conéctelos a sus conjuntos de datos de conversión, de modo que el motor de toma de decisiones pueda clasificar automáticamente las ofertas y proporcionar la conversión más alta a cada perfil.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] le permite crear **modelos de IA** para clasificar ofertas según sus objetivos comerciales.
 

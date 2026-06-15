@@ -20,14 +20,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 460
-ht-degree: 11%
+source-wordcount: 489
+ht-degree: 10%
 
 ---
 
 # Configuración del catálogo de elementos {#catalog}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Configure el catálogo de elementos y edite su esquema para que pueda organizar los elementos de decisión y definir los atributos estándar y personalizados disponibles al crearlos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"

@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 31%
+source-wordcount: 355
+ht-degree: 29%
 
 ---
 
 # Introducción a las capacidades de decisión en [!DNL Journey Optimizer] {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Compare las capacidades de toma de decisiones y administración de decisiones en Journey Optimizer para que pueda elegir el método adecuado para entregar ofertas personalizadas en todos sus canales.
+
+>[!ENDSHADEBOX]
 
 Las capacidades de decisión de [!DNL Journey Optimizer] le permiten ofrecer las mejores ofertas y experiencias personalizadas a sus clientes en todos los puntos de contacto, en los momentos precisos. Estas funciones simplifican la personalización mediante un catálogo centralizado de ofertas de marketing y un motor de decisión avanzado, que utiliza reglas y criterios de clasificación para ofrecer el contenido más relevante para cada persona.
 

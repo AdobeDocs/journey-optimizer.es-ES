@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 16%
+source-wordcount: 314
+ht-degree: 14%
 
 ---
 
 # Limitaciones y protecciones de decisiones {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Revise las protecciones y los límites que se aplican a la toma de decisiones en las solicitudes de decisión, los elementos, las directivas, las reglas de elegibilidad y las fórmulas de clasificación, de modo que pueda diseñar configuraciones de toma de decisiones que se mantengan dentro de los umbrales admitidos.
+
+>[!ENDSHADEBOX]
 
 Para garantizar un uso óptimo de Decisioning, tenga en cuenta las siguientes limitaciones y protecciones.
 

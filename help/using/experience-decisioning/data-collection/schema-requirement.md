@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 1%
+source-wordcount: 323
+ht-degree: 0%
 
 ---
 
 # Configuración de la recopilación de datos {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** configure los campos de evento de experiencia y los requisitos de esquema de Interacciones de propuestas para los eventos personalizados, de impresión y de clics, de modo que la toma de decisiones pueda atribuir con precisión los comentarios para la optimización de informes y la clasificación basada en IA.
+
+>[!ENDSHADEBOX]
 
 Para poder obtener comentarios sobre tipos de eventos que no sean eventos de decisión, debe establecer el valor correcto para cada tipo de evento en un **evento de experiencia** que se envíe a Adobe Experience Platform.
 

@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1795
 ht-degree: 0%
 
 ---
 
 # Modelos de optimización automática {#auto-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo el modelo de aprendizaje de refuerzo de optimización automática explora y clasifica ofertas para maximizar la tasa de clics, de modo que pueda decidir cuándo utilizarla para la optimización de un solo canal.
+
+>[!ENDSHADEBOX]
 
 El modelo de optimización automática de [!DNL Adobe Journey Optimizer] es un modelo de aprendizaje de refuerzo que maximiza la tasa de pulsaciones de oferta (CTR) al explorar todas las ofertas (o contenido) y, a continuación, clasifica los elementos en función del CTR predicho, después de aplicar las reglas de elegibilidad y los límites de frecuencia.
 

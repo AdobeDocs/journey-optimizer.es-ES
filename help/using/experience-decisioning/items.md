@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
-ht-degree: 15%
+source-wordcount: 2374
+ht-degree: 17%
 
 ---
 
 # Creación de su primer elemento de decisión {#items}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree y administre elementos de decisión, incluidos sus atributos, elegibilidad y reglas de límite, para que pueda presentar las ofertas de marketing adecuadas a los perfiles correctos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
