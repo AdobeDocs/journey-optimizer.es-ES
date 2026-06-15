@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # Programación de la campaña de acción {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Programe su campaña de acción estableciendo fechas de inicio y finalización, entrega de zona horaria del destinatario, frecuencia de ejecución y control de tarifa para que sus mensajes lleguen a la audiencia correcta en el momento adecuado sin saturar a los sistemas descendentes.
+
+>[!ENDSHADEBOX]
 
 Use la ficha **[!UICONTROL Programación]** para definir la programación de la campaña.
 

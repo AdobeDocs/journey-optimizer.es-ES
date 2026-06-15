@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 19%
+source-wordcount: 330
+ht-degree: 18%
 
 ---
 
 # Defina las propiedades de campaña activadas por API {#api-properties}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree una campaña desencadenada por API y establezca su tipo, nombre, etiquetas y etiquetas de acceso para que tenga un ámbito correcto y sea fácil de encontrar desde el principio.
+
+>[!ENDSHADEBOX]
 
 Para crear una nueva campaña activada por API, siga estos pasos:
 

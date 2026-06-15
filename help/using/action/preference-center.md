@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 911
 ht-degree: 10%
 
 ---
 
 # Administración de las preferencias de los clientes {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Registre y respete las preferencias de canal y tema de sus clientes mediante directivas de consentimiento, de modo que solo se dirija a las personas que desean saber de usted.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +49,7 @@ ht-degree: 10%
 
 En un ecosistema moderno de automatización de marketing, las marcas interactúan con los clientes en varios puntos de contacto, lo que provoca el riesgo de una comunicación irrelevante o excesiva, lo que provoca la desvinculación, quejas de spam y riesgos de cumplimiento normativo. Por este motivo, necesitan administrar las preferencias de sus clientes para obtener perspectivas en tiempo real sobre su audiencia y ofrecer una comunicación personalizada y respetuosa.
 
-Con [!DNL Adobe Journey Optimizer], mediante el uso de [directivas de consentimiento](consent.md), puede respetar las preferencias de sus clientes<!-- in terms of **channels** and **topics**-->. Esto garantiza que [!DNL Journey Optimizer] solo se dirija a los clientes en función de sus opciones y respetando su consentimiento.
+Con [!DNL Adobe Journey Optimizer], mediante el uso de [directivas de consentimiento](consent.md), puede respetar las preferencias de sus clientes<!-- in terms of **channels** and **topics**-->. Esto garantiza que [!DNL Journey Optimizer] solo se dirija a los clientes en función de sus opciones, respetando al mismo tiempo su consentimiento.
 <!-- their preferred channels and on the subscription topics-->
 
 Para administrar las preferencias de los usuarios con [!DNL Journey Optimizer], puede:
@@ -143,7 +149,7 @@ Consent policies are comprised of two logical components:
     
     >[!TIP]
     >
-    >El conjunto de datos habilitado para el perfil debe incluir el atributo de perfil **[!UICONTROL Newsletter_Email]** con el valor establecido en `true` (como se describe en el paso 1.)
+    >El conjunto de datos habilitado para el perfil debe incluir el atributo de perfil **[!UICONTROL Newsletter_Email]** con el valor establecido en &quot;true&quot; (como se describe en el paso 1)
 
 1. Una vez creada la directiva de consentimiento, utilícela en [!DNL Journey Optimizer] con [configuraciones de canal](consent.md#surface-marketing-actions) o [acciones personalizadas de recorrido](consent.md#journey-custom-actions).
 

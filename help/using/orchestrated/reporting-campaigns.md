@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 54%
+source-wordcount: 185
+ht-degree: 44%
 
 ---
 
 # Creación de informes de campañas organizadas {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra los informes activos y permanentes disponibles para campañas orquestadas en Adobe Journey Optimizer, y aprenda a medir la participación y el rendimiento del canal en correo electrónico, SMS, push y correo directo.
+
+>[!ENDSHADEBOX]
 
 La campaña organizada le ofrece información práctica a través de sus sólidas funciones de creación de informes. Esta información le ayuda a comprender mejor el comportamiento del público, medir el rendimiento de cada paso en el recorrido del cliente y tomar decisiones basadas en datos para optimizar futuras campañas. Con las métricas y visualizaciones detalladas, puede rastrear la participación y ajustar sus estrategias de segmentación para lograr el máximo impacto.
 

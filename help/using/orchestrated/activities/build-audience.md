@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 56%
+source-wordcount: 367
+ht-degree: 52%
 
 ---
 
 # Generar público {#build-audience}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad de segmentación de audiencia de compilación para definir la audiencia que entra en una campaña orquestada, utilizando una audiencia existente o el generador de reglas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"

@@ -9,15 +9,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 938
 ht-degree: 0%
 
 ---
 
 
 # Creación de consultas de retargeting {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear reglas de retargeting basadas en comentarios y en seguimiento que realicen seguimiento con los destinatarios según su respuesta a una campaña orquestada anterior.
+
+>[!ENDSHADEBOX]
 
 La reorientación le permite hacer un seguimiento de los destinatarios según su respuesta a una campaña orquestada anterior. Por ejemplo, puede enviar un segundo correo electrónico a los destinatarios que recibieron pero no hicieron clic en el primero.
 

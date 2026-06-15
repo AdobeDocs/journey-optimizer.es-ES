@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # Funciones y responsabilidades
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda los roles clave en una implementación de Adobe Journey Optimizer y sus responsabilidades para que pueda encontrar el punto de partida y las tareas de inicio rápido adecuados para su equipo.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer permite a las marcas ofrecer experiencias conectadas, contextuales y personalizadas a lo largo del recorrido del cliente. Journey Optimizer, que se ha creado con un enfoque integral en cuanto a escala, velocidad y flexibilidad, combina tres controladores de valor principales en una aplicación unificada:
 

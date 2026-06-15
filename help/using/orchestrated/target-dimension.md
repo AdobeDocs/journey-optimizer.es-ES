@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # Configuración de una dimensión de segmentación {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a configurar una dimensión de segmentación para campañas orquestadas asignando un esquema relacional al perfil del cliente para que pueda enviar mensajes en el nivel de entidad.
+
+>[!ENDSHADEBOX]
 
 Con **[!UICONTROL campañas orquestadas]**, puede diseñar y entregar comunicaciones de destino en el nivel de entidad, aprovechando las capacidades de esquema relacional de Adobe Experience Platform. Experience Platform utiliza esquemas para describir la estructura de los datos de una manera uniforme y reutilizable. Cuando se incorporan datos en Experience Platform, se estructuran según un esquema XDM.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 34%
+source-wordcount: 200
+ht-degree: 28%
 
 ---
 
 # Defina las propiedades de la campaña de acción {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree una campaña de acción y defina sus propiedades principales, como nombre, descripción, etiquetas y etiquetas de acceso, de modo que pueda identificar, organizar y controlar el acceso a su campaña antes de configurar su acción.
+
+>[!ENDSHADEBOX]
 
 Para crear una campaña de acción y definir sus propiedades, siga estos pasos:
 

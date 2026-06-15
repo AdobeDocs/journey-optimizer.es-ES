@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1076
-ht-degree: 100%
+source-wordcount: 1099
+ht-degree: 97%
 
 ---
 
 # Introducción para administradores de sistemas {#get-started-sys-admins}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** configure usuarios, permisos, zonas protegidas y configuraciones de canal para que sus equipos puedan trabajar en Adobe Journey Optimizer de forma segura y eficaz.
+
+>[!ENDSHADEBOX]
 
 Como **Administrador del sistema**, usted configura el entorno de Journey Optimizer y administra el acceso para permitir que sus equipos trabajen de manera eficiente y segura. Realice los pasos de configuración esenciales para que el [Ingeniero de datos](data-engineer.md), el [Desarrollador](developer.md) y el [Experto en marketing](marketer.md) puedan empezar a trabajar con [!DNL Adobe Journey Optimizer].
 

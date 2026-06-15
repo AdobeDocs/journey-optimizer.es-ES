@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # Introducción al seguimiento en Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a rastrear las interacciones de los clientes entre canales y a monitorizar la capacidad de entrega y el estado del sistema en Journey Optimizer, para que pueda medir la efectividad de las campañas y tomar decisiones basadas en datos.
+
+>[!ENDSHADEBOX]
 
 El seguimiento le permite medir la eficacia de las campañas, optimizar las experiencias de los clientes y garantizar que los mensajes lleguen a los destinatarios deseados. Journey Optimizer proporciona funciones de seguimiento completas que capturan las interacciones de los clientes, el rendimiento de la entrega y el estado del sistema, lo que le ayuda a tomar decisiones basadas en datos respetando la privacidad y manteniendo el cumplimiento.
 

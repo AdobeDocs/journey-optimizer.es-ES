@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 82%
+source-wordcount: 829
+ht-degree: 79%
 
 ---
 
 # Buscar, filtrar, organizar {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Busque y organice rápidamente recorridos, campañas y recursos con búsqueda universal, filtros de lista y etiquetas para que pueda seguir siendo productivo a medida que crezcan sus proyectos de Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 A medida que los proyectos de Adobe Journey Optimizer crecen, encontrar y organizar contenido se vuelve esencial para un trabajo eficiente. Esta página muestra cómo localizar rápidamente recorridos, campañas y recursos mediante la búsqueda universal, filtrar listas para centrarse en elementos específicos y organizar su trabajo con etiquetas y categorías. Estas herramientas le ayudan a navegar por grandes volúmenes de contenido, mantener la coherencia entre equipos y optimizar los flujos de trabajo diarios.
 

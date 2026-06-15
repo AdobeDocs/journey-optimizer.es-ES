@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 838
 ht-degree: 18%
 
 ---
 
 # Ingesta de datos {#ingest-data}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a ingerir datos en Adobe Experience Platform desde fuentes compatibles y a configurar un flujo de datos para sus campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

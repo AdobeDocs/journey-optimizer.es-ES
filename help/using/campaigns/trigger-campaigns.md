@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # Ejecución de una campaña activada por API {#execute}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Recupere la solicitud cURL generada y úsela para almacenar en déclencheur su campaña activada por la API activa a través de las API, con instrucciones para solucionar problemas para que pueda resolver los retrasos de entrega y los errores de autenticación.
+
+>[!ENDSHADEBOX]
 
 Una vez activada la campaña, debe recuperar la solicitud cURL de muestra generada y utilizarla en la API para crear la carga útil y almacenar la campaña en déclencheur.
 

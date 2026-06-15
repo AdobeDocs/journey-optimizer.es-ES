@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # Trabajo con el generador de reglas {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a usar el generador de reglas para filtrar datos y crear consultas dirigidas a audiencias en sus campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 Las campañas organizadas incluyen un generador de reglas que simplifica el proceso de filtrado de la base de datos en función de varios criterios. El generador de reglas administra consultas muy complejas y largas de forma eficaz, lo que ofrece una mayor flexibilidad y precisión.
 

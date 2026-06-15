@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 46%
 
 ---
 
 # Cambiar dimensión {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad Cambiar dimensión para desplazar la dimensión de segmentación dentro de una campaña orquestada, por ejemplo, cambiando de listas de deseos a los destinatarios vinculados a ellas.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

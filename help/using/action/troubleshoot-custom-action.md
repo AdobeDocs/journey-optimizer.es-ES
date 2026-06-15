@@ -27,14 +27,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1077
 ht-degree: 1%
 
 ---
 
 # Resolución de problemas de acciones personalizadas {#troubleshoot-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Envíe llamadas reales de API de prueba para validar las configuraciones de acciones personalizadas y así poder detectar errores antes de confiar en ellos en recorridos activos.
+
+>[!ENDSHADEBOX]
 
 Puede probar las acciones personalizadas enviando llamadas a la API desde la sección de administración de la interfaz de usuario de Journey Optimizer. Esta capacidad le ayuda a solucionar problemas de las acciones personalizadas antes o después de utilizarlas en un recorrido.
 

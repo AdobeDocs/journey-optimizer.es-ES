@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 3%
 
 ---
 
 # Revisión y activación de la campaña de acción {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise la configuración y el contenido de su campaña de acción para detectar cualquier error antes de activarla, de modo que pueda enviar su mensaje con seguridad inmediatamente o en la fecha programada.
+
+>[!ENDSHADEBOX]
 
 Una vez configurada la campaña de acción, debe revisar su parámetro y contenido antes de activarla. Para realizar esto, siga los pasos a continuación.
 

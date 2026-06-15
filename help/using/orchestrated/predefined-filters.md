@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # Trabajo con filtros predefinidos {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear, aplicar, compartir y administrar filtros predefinidos para reutilizar consultas guardadas en el generador de reglas para campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 Los filtros predefinidos son reglas guardadas que se pueden reutilizar en el generador de reglas. Utilícelos para evitar reconstruir consultas comunes y estandarizar la lógica de segmentación en todas las campañas orquestadas.
 

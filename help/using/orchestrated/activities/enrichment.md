@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 64%
+source-wordcount: 877
+ht-degree: 62%
 
 ---
 
 # Enriquecimiento {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la actividad de segmentación de Enriquecimiento en una campaña orquestada para mejorar su audiencia con atributos adicionales, datos de tablas vinculadas y ofertas para un direccionamiento y una personalización más precisos.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"

@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: 960
 ht-degree: 11%
 
 ---
 
 # Configuración de un esquema relacional manual {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear manualmente un esquema relacional en la interfaz de usuario, agregar atributos, vincular esquemas y crear y habilitar un conjunto de datos para campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 Los esquemas relacionales se pueden crear directamente a través de la interfaz de usuario, lo que permite una configuración detallada de atributos, claves principales, campos de versiones y relaciones.
 

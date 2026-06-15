@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 10%
+source-wordcount: 1797
+ht-degree: 9%
 
 ---
 
 # Acceso y administración de campañas {#manage-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Acceda, busque y organice sus campañas, comprenda cada estado del ciclo vital y utilice el calendario y las operaciones comunes para que pueda mantener un espacio de trabajo eficiente y actuar en cada campaña en el momento adecuado.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

@@ -24,15 +24,21 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 493d9822091427d03c012f7f9c72d0650ce625ee
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4463
+source-wordcount: 4489
 ht-degree: 70%
 
 ---
 
 
 # Mecanismos de protección y limitaciones {#limitations}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise los límites de sistema, recorrido, audiencia, canal y contenido de Adobe Journey Optimizer para que pueda planificar implementaciones que se escalen sin que se produzcan errores.
+
+>[!ENDSHADEBOX]
 
 A continuación encontrará mecanismos de protección y limitaciones adicionales cuando utilice [!DNL Adobe Journey Optimizer].
 

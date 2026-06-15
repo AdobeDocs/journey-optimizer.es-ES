@@ -32,14 +32,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1653
+ht-degree: 97%
 
 ---
 
 # Introducción a las campañas {#get-started-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda los aspectos básicos de la campaña, compare los tipos de campaña disponibles y siga el flujo de trabajo de creación de extremo a extremo para que pueda elegir el enfoque adecuado y generar campañas que envíen contenido de destino a través de los canales en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"

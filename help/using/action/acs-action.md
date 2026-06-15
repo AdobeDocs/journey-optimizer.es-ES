@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 475
 ht-degree: 5%
 
 ---
 
 # Integrar con Adobe Campaign Standard {#using_adobe_campaign_standard}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Conecte Journey Optimizer a Adobe Campaign Standard para que sus recorridos puedan enviar correos electrónicos, notificaciones push y SMS a través de sus capacidades de mensajería transaccional.
+
+>[!ENDSHADEBOX]
 
 Si tiene Adobe Campaign Standard, hay una acción integrada disponible para permitir la conexión a Adobe Campaign Standard. Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard.
 

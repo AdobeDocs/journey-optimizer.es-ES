@@ -29,14 +29,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: 2216
 ht-degree: 6%
 
 ---
 
 # IA y funciones inteligentes {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** explore las funciones de IA y aprendizaje automático de Adobe Journey Optimizer, desde el asistente de IA y los agentes hasta la generación de contenido, la optimización del tiempo de envío y la toma de decisiones, para que pueda trabajar más rápido y ofrecer experiencias de cliente más relevantes.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el aprendizaje automático para ayudarle a crear, optimizar y ofrecer experiencias de cliente excepcionales. Desde la generación de contenido personalizado hasta la predicción de tiempos de envío óptimos, las capacidades de IA optimizan el flujo de trabajo y maximizan el impacto. Los manuales de casos de uso proporcionan plantillas creadas previamente para implementar rápidamente escenarios de marketing comunes.
 

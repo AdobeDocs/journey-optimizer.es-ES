@@ -13,14 +13,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 97%
+source-wordcount: 2103
+ht-degree: 95%
 
 ---
 
 # Edición de expresiones {#edit-expressions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar el editor de expresiones para generar manualmente reglas con campos de base de datos, variables y funciones de ayuda para manipular fechas, cadenas y valores numéricos en sus campañas orquestadas.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -59,7 +65,7 @@ Las funciones de agregado realizan cálculos en un conjunto de valores.
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
+<td><strong>Name</strong></td>
 <td><strong>Descripción</strong></td>
 <td><strong>Sintaxis</strong></td>
 </tr>
@@ -118,7 +124,7 @@ Las funciones de fecha manipulan los valores de fecha u hora.
 <table>
 <tbody>
 <tr>
-<td><strong>Nombre</strong></td>
+<td><strong>Name</strong></td>
 <td><strong>Descripción</strong></td>
 <td><strong>Sintaxis</strong></td>
 </tr>

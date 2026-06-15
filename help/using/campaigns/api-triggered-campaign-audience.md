@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 571
 ht-degree: 3%
 
 ---
 
 # Defina la audiencia de campaña activada por API {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Defina la audiencia, el tipo de identidad, la creación automática de perfiles y los enlaces web para que la campaña activada por la API llegue a las personas adecuadas y devuelva el estado de envío en tiempo real.
+
+>[!ENDSHADEBOX]
 
 Utilice la ficha **[!UICONTROL Audiencia]** para definir la audiencia de la campaña.
 

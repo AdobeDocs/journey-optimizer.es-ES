@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, seleccionar, principal, final, funciones, funciones, modular, canales
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # ¿Qué hay disponible en mi paquete [!DNL Adobe Journey Optimizer]? {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Averigüe qué capacidades de Adobe Journey Optimizer desbloquea el paquete, tanto si utiliza el modelo actual de Campañas y Recorridos como las licencias heredadas de Select, Prime y Ultimate, de modo que pueda confirmar lo que está disponible y saltar a cada función.
+
+>[!ENDSHADEBOX]
 
 Las capacidades de [!DNL Adobe Journey Optimizer] varían según el acuerdo de licencia, los canales habilitados y los permisos de usuario. Utilice esta guía para comprender qué funciones suelen estar disponibles en el paquete y vaya directamente a la documentación del producto para cada función.
 

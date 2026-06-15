@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # Activación del modo de alto rendimiento para campañas activadas por API {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Active el modo de alto rendimiento para las campañas activadas por API de modo que pueda enviar correos electrónicos transaccionales a gran escala y en tiempo real con un máximo de 5000 transacciones por segundo sin depender de los perfiles.
+
+>[!ENDSHADEBOX]
 
 El modo de alto rendimiento está diseñado para organizaciones que necesitan **mensajes transaccionales en tiempo real a gran escala** (hasta 5000 transacciones por segundo). A diferencia de las campañas activadas por API normales, las campañas de alto rendimiento funcionan de forma independiente de los perfiles de Adobe y requieren un modelo de configuración diferente.
 

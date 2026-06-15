@@ -33,14 +33,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1296
-ht-degree: 100%
+source-wordcount: 1323
+ht-degree: 97%
 
 ---
 
 # Introducción a Journey Optimizer {#ajo-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda qué es Adobe Journey Optimizer, sus capacidades principales y casos de uso concretos para que pueda decidir cómo se ajusta a sus objetivos de participación de los clientes.
+
+>[!ENDSHADEBOX]
 
 Esta página presenta Adobe Journey Optimizer: qué es, para quién sirve, sus funciones clave y cómo se adapta a la arquitectura de Adobe Experience Platform. Es el punto de partida recomendado para nuevos usuarios.
 

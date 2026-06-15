@@ -29,14 +29,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 100%
+source-wordcount: 1017
+ht-degree: 97%
 
 ---
 
 # Introducción para ingenieros de datos {#data-engineer}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree los esquemas, conjuntos de datos, identidades y fuentes de datos que alimentan Adobe Journey Optimizer para que sus equipos puedan ofrecer experiencias de cliente personalizadas en tiempo real.
+
+>[!ENDSHADEBOX]
 
 Como **arquitecto de datos** o **ingeniero de datos**, usted configura y mantiene los datos de perfil del cliente y otras fuentes de datos que alimentan las experiencias orquestadas por [!DNL Journey Optimizer]. Esto incluye la integración de todos los datos de clientes y empresas, ya sean de fuentes web, CRM o sin conexión, en una vista unificada del cliente de 360 grados. Modele los datos de perfil del cliente y los datos empresariales para crear esquemas, configure los conectores de origen para la ingesta de datos y garantice que los datos fluyan sin problemas para habilitar la participación y las perspectivas de los clientes en tiempo real. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que el [Administrador de sistemas](administrator.md) le conceda acceso y prepare su entorno.
 

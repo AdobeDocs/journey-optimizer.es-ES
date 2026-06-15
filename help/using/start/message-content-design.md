@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Diseño del contenido del mensaje{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore las herramientas y las prácticas recomendadas para diseñar contenido personalizado para correo electrónico, push, SMS y en la aplicación a fin de que pueda enviar mensajes de marca que promuevan la participación.
+
+>[!ENDSHADEBOX]
 
 El diseño del contenido del mensaje en Adobe Journey Optimizer le permite crear comunicaciones atractivas y personalizadas en todos los canales. Tanto si crea correos electrónicos con diseños visuales enriquecidos, genera notificaciones push optimizadas para móviles, diseña experiencias interactivas en la aplicación o envía mensajes SMS, esta sección proporciona directrices completas sobre las prácticas recomendadas de creación de contenido. Aprenda a aprovechar las plantillas y los fragmentos para contenido reutilizable, aplique personalización y contenido dinámico para adaptar los mensajes a cada destinatario y garantice el cumplimiento de la accesibilidad. Desde comprender los principios de diseño hasta implementar opciones de formato avanzadas, dominará las herramientas necesarias para ofrecer experiencias atractivas y en la marca que impulsen la participación y las conversiones.
 

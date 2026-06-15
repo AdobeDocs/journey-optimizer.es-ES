@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 100%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
 # Trabajar con políticas de consentimiento {#consent-management}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** aplique directivas de consentimiento de Adobe Experience Platform en Journey Optimizer para que sus comunicaciones respeten las opciones de consentimiento de cada cliente y cumplan las reglas de uso de datos.
+
+>[!ENDSHADEBOX]
 
 Sus datos pueden estar sujetos a restricciones de uso definidas por su organización o por la normativa legal. Por lo tanto, es importante asegurarse de que las operaciones de datos de Journey Optimizer cumplan con las [políticas de uso de datos](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es){target="_blank"}. Estas políticas son reglas de Adobe Experience Platform que definen las acciones de marketing que se le permite realizar sobre los datos.
 
