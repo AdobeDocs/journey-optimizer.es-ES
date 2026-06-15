@@ -9,25 +9,25 @@ level: Beginner
 keywords: externo, API, optimizador, límite
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 TQID: https://experienceleague.adobe.com/004R6qxDnmHDaqIT7IJ1mm2yp-s6RvsJFeElaXwRg9A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 773
 ht-degree: 8%
 
 ---
 
 # Uso de la API de límite {#work}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar la API de límite de Adobe Journey Optimizer para crear, configurar, implementar y supervisar configuraciones de límite de extremo que limitan las llamadas a sistemas externos.
+
+>[!ENDSHADEBOX]
 
 La API de límite le ayuda a crear, configurar y supervisar sus configuraciones de límite.
 

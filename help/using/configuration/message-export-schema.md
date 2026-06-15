@@ -9,16 +9,21 @@ role: Admin
 level: Experienced
 keywords: exportación, mensajes, conjunto de datos, esquema, correos electrónicos, SMS
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 447
 ht-degree: 3%
 
 ---
 
 # Esquema de exportación de mensajes de AJO {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Explore la estructura y los campos individuales del conjunto de datos de exportación de mensajes de AJO que almacena el contenido de mensajes de correo electrónico y SMS enviados en Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Cuando **Message Export** está habilitado en una configuración de canal de correo electrónico o SMS, el contenido de los mensajes enviados se escribe en el **conjunto de datos de exportación de mensajes de AJO** en [!DNL Adobe Experience Platform].
 

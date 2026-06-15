@@ -10,31 +10,25 @@ level: Experienced
 keywords: IP, entregabilidad
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 38%
+source-wordcount: 489
+ht-degree: 35%
 
 ---
 
 # Introducción a los planes de calentamiento de IP {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo los planes de calentamiento de IP le ayudan a aumentar progresivamente el volumen de envío para crear la reputación del remitente y descubra los pasos clave para implementar uno en Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Con [!DNL Journey Optimizer], puede realizar fácilmente flujos de trabajo de calentamiento de IP directamente desde la interfaz de usuario de una manera estandarizada y eficaz que siga las prácticas recomendadas para una entrega óptima. Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
 
@@ -74,7 +68,7 @@ Los pasos clave para implementar un plan de calentamiento de IP son los siguient
 
 Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453843/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -84,10 +78,10 @@ Obtenga información sobre cómo crear y ejecutar un plan de calentamiento de IP
 
 Explore estas útiles publicaciones de blog para obtener instrucciones más detalladas sobre el calentamiento de la IP:
 
-* [Guía de entrega de Adobe Journey Optimizer: de cero reputación a la bandeja de entrada principal](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=es): Guía completa que cubre los aspectos básicos de la reputación, los calendarios de calentamiento, la monitorización y las prácticas recomendadas de solución de problemas.
+* [Guía de entrega de Adobe Journey Optimizer: de cero reputación a la bandeja de entrada principal](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950): Guía completa que cubre los aspectos básicos de la reputación, los calendarios de calentamiento, la monitorización y las prácticas recomendadas de solución de problemas.
 
-* [Comprender cómo configurar el calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=es): conozca los aspectos básicos de la configuración de planes de calentamiento de IP y las prácticas recomendadas para una implementación exitosa.
+* [Comprender cómo configurar el calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949): conozca los aspectos básicos de la configuración de planes de calentamiento de IP y las prácticas recomendadas para una implementación exitosa.
 
-* [Funciones avanzadas en planes de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=es): descubra funciones avanzadas y controles granulares para optimizar su estrategia de calentamiento de IP.
+* [Funciones avanzadas en planes de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958): descubra funciones avanzadas y controles granulares para optimizar su estrategia de calentamiento de IP.
 
-* [Solución de problemas de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=es): encuentre soluciones a problemas comunes, como retrasos de audiencia, y obtenga información acerca de los mecanismos de reintentos inteligentes.
+* [Solución de problemas de calentamiento de IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952): encuentre soluciones a problemas comunes, como retrasos de audiencia, y obtenga información acerca de los mecanismos de reintentos inteligentes.
