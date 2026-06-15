@@ -38,7 +38,7 @@ Ejecute desde la raíz del repositorio (`journey-optimizer.en/`).
 
 2. **Refine la redacción.** La semilla es un punto de partida: edite cada frase para que
 se lee como una declaración de propósito (una frase, texto sin formato, inglés estadounidense). **Posible cliente
-con el por qué**: indique el resultado/beneficio del lector (&quot;...para que pueda <outcome>&quot;), no
+con el por qué**: indique el resultado/beneficio del lector (&quot;...para que pueda &lt;outcome>&quot;), no
 solo una lista de lo que cubre la página. Igualar nombres de características de estilo doméstico (p. ej.,
 &quot;Campaña organizada&quot;, &quot;En la aplicación&quot;). Ver `.cursor/rules/on-this-page-box.mdc`. Si usted
 omitir `--seed-from-description`, en su lugar se inserta un marcador de posición `{{TODO...}}` y
