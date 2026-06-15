@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 822
 ht-degree: 3%
 
 ---
 
 # Trabajo con plantillas de Adobe Experience Manager {#aem-templates}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a diseñar plantillas en Adobe Experience Manager, exportarlas a Journey Optimizer y personalizarlas como plantillas de contenido en el Designer de correo electrónico.
+
+>[!ENDSHADEBOX]
 
 ## Introducción a las plantillas de Adobe Experience Manager {#gs-aem-templates}
 

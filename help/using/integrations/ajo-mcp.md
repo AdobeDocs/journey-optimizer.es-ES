@@ -11,14 +11,20 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: 1478
 ht-degree: 1%
 
 ---
 
 # Trabajar con clientes de MCP {#ajo-mcp}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Comprenda cómo el servidor MCP de Adobe Journey Optimizer le permite consultar campañas y ofertas con peticiones en lenguaje sencillo de clientes MCP admitidos, y revisar sus capacidades, herramientas, requisitos previos y limitaciones.
+
+>[!ENDSHADEBOX]
 
 La integración de MCP [!DNL Adobe Journey Optimizer] le permite consultar campañas y ofertas utilizando peticiones de datos en lenguaje sencillo, sin necesidad de escribir llamadas a la API ni navegar por las pantallas de productos. Esta página explica cómo funciona la integración, qué puede hacer con ella y cómo empezar.
 

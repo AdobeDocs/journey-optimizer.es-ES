@@ -12,15 +12,21 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 836
 ht-degree: 1%
 
 ---
 
 
 # Uso de integraciones externas para la personalización {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo los especialistas en marketing aplican integraciones configuradas para personalizar el correo electrónico, los SMS y el contenido push, y encadenan una llamada de API a otra para obtener mensajes dinámicos más completos.
+
+>[!ENDSHADEBOX]
 
 Antes de usar integraciones externas en el contenido, confirme que un administrador ha **configurado y activado** cada integración (extremo, autenticación, directivas, carga de respuesta y activación) como se describe en [Trabajar con integraciones](integrations.md).
 

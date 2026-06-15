@@ -11,14 +11,20 @@ keywords: integración, proveedor, terceros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 5%
 
 ---
 
 # Configuraciones de proveedor de ejemplo {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a utilizar las integraciones de Adobe Journey Optimizer con cualquier plataforma externa que exponga una API compatible, con protecciones operativas y patrones de proveedor ilustrativos para guiar su configuración.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -2104,7 +2110,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Parámetros de ruta**
 
-| Parámetro | Name | Valor |
+| Parámetro | Nombre | Valor |
 | --- | --- | --- |
 | `preferencecenterid` | `preferencecenterid` | `<pref-id>` |
 

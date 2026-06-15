@@ -27,14 +27,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 26%
+source-wordcount: 734
+ht-degree: 25%
 
 ---
 
 # Combine soluciones y aplicaciones para administrar su contenido {#combine-solutions}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a combinar soluciones y aplicaciones de Adobe como Experience Manager Assets, Stock, Express y GenStudio con Adobe Journey Optimizer para crear y administrar su contenido.
+
+>[!ENDSHADEBOX]
 
 Para crear mensajes y contenido para su activación en campañas y recorridos omnicanal de clientes, los especialistas en marketing y los profesionales de la experiencia del cliente necesitan opciones de creación fáciles de usar, incluida la IA generativa en el flujo de trabajo, las funciones de edición, los recursos, las plantillas y la administración de fragmentos.  Con Adobe Journey Optimizer, puede combinar fácilmente sus soluciones y aplicaciones de Adobe para aprovechar al máximo sus herramientas de Adobe. Estas integraciones nativas le ayudan a abordar casos de uso específicos y a ampliar el ámbito funcional de Adobe Journey Optimizer.
 

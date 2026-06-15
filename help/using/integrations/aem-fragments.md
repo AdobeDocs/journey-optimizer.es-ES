@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1752
+source-wordcount: 1780
 ht-degree: 0%
 
 ---
 
 # Trabajo con fragmentos de contenido de Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a etiquetar, agregar y personalizar fragmentos de contenido de Adobe Experience Manager en campañas y recorridos de Journey Optimizer, incluido el trabajo con variaciones y Experience Decisioning.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

@@ -11,14 +11,20 @@ exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 0%
 
 ---
 
 # Insertar temporizador de cuenta atrás {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a insertar un temporizador de cuenta atrás de Dynamic Media en los correos electrónicos de Journey Optimizer para crear urgencia en las ventas flash y las promociones con distinción de tiempo.
+
+>[!ENDSHADEBOX]
 
 Cree conversiones urgentes y maximice las conversiones con los temporizadores de cuenta atrás de Dynamic Media que se actualizan en tiempo real cuando los destinatarios abren sus correos electrónicos. Esta función es ideal para ventas flash, ofertas por tiempo limitado y promociones con distinción de tiempo.
 

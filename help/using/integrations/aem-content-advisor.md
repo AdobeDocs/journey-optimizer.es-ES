@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # Trabajar con el Asesor de contenido de Adobe Experience Manager {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Obtenga información sobre cómo acceder al Asesor de contenido de Adobe Experience Manager y utilizarlo para detectar recursos, medios dinámicos y fragmentos de contenido mediante búsquedas semánticas con tecnología de IA directamente en los flujos de trabajo de creación de Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 El Asesor de contenido de Adobe Experience Manager sustituye la detección determinista por la detección estandarizada por intención desde una superficie unificada. Permite el descubrimiento unificado y con tecnología de IA de Assets, Dynamic Media y fragmentos de contenido directamente dentro de los flujos de trabajo de creación de Journey Optimizer, lo que mejora la productividad de los expertos en marketing y la eficacia de las campañas.
 

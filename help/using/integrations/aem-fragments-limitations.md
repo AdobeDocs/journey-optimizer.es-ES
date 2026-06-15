@@ -11,14 +11,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: 793
 ht-degree: 1%
 
 ---
 
 # Consideraciones y resolución de problemas {#aem-fragments-limitations}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** revise las consideraciones clave y los pasos de solución de problemas de los fragmentos de contenido de Adobe Experience Manager en Journey Optimizer, que abarcan los tipos de fragmentos, el contenido multilingüe, el acceso al repositorio, la personalización y los errores comunes.
+
+>[!ENDSHADEBOX]
 
 ## Consideraciones clave {#considerations}
 
