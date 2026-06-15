@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1916
+source-wordcount: 1945
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
+>* Para usar **[!UICONTROL Simulation]**, asigne al menos un permiso de la funcionalidad **[!UICONTROL Recorrido]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. Los mismos permisos le permiten crear y administrar usuarios simulados; los permisos de **[!UICONTROL Usuarios simulados]** no son necesarios. [Más información](../administration/permissions.md)
 >
->Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
+>* Para administrar usuarios simulados sin **[!UICONTROL Simulation]**, asigne a **Administrar usuarios simulados** o **Ver usuarios simulados** desde la funcionalidad **[!UICONTROL Simulated Users]**.
+>
+>* Para IA en simulación (**[!UICONTROL Simulación rápida]**, usuarios generados por IA, **[!UICONTROL Generar valores de evento]**), asigne **[!UICONTROL Generar contenido]** desde la capacidad **[!UICONTROL Asistente de IA]**.
 
 Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
 
@@ -79,12 +81,6 @@ Elija **[!UICONTROL Simulación manual]** cuando necesite elegir cada usuario si
 Continúe con [Crear y administrar usuarios simulados](#test-users), [almacenar en Déclencheur sus eventos](#firing-events) y [Ver resultados](#viewing-results).
 
 ## Creación y administración de usuarios simulados {#test-users}
-
->[!IMPORTANT]
->
->Necesita al menos uno de los siguientes permisos para acceder a la función **[!UICONTROL Simulation]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. [Más información](../administration/permissions.md)
->
->Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
 
 Los usuarios simulados son entidades temporales similares a un perfil que usted define en **[!UICONTROL Configuración de simulación]**. En esta sección se explica cómo crearlos, guardarlos para reutilizarlos, ajustarlos o eliminarlos de la lista y enviarlos al recorrido.
 
@@ -213,13 +209,13 @@ Si el recorrido incluye uno o más eventos unitarios, puede almacenarlos en déc
 
 ## Visualización de resultados {#viewing-results}
 
-La pestaña **[!UICONTROL Results]** le permite ver los resultados de la prueba. En el menú desplegable **[!UICONTROL Usuario de prueba]**, seleccione el usuario simulado cuya ejecución desee inspeccionar.
+La pestaña **[!UICONTROL Results]** le permite ver los resultados de la prueba. En el menú desplegable **[!UICONTROL Usuario de prueba]**, seleccione el usuario simulado cuya ejecución desee inspeccionar. Al seleccionar un solo usuario simulado, el lienzo resalta la ruta exacta que el usuario siguió a través del recorrido para que pueda confirmar que entró en la rama esperada.
 
-Seleccione **[!UICONTROL Todos]** para ver los resultados agregados en todos los usuarios simulados de la ejecución. Esta vista le ayuda a analizar la simulación completa de un vistazo, incluidas las actividades, los resultados y los errores, sin necesidad de seleccionar primero un solo usuario simulado.
+Seleccione **[!UICONTROL Todos]** para ver los resultados agregados en todos los usuarios simulados de la ejecución. A continuación, el lienzo muestra todas las rutas incluidas en la ejecución, lo que le ayuda a comparar la cobertura entre perfiles y analizar la simulación completa de un vistazo, incluidas las actividades, los resultados y los errores, sin seleccionar primero un solo usuario simulado.
 
 ![Pestaña Resultados con resumen de simulación, filtro de usuario de prueba y cobertura de ruta en el lienzo de recorrido](assets/simulate-6-2.png)
 
-Para cada actividad, el &quot;log&quot; puede mostrar si el usuario que ha realizado la simulación ha entrado o salido del paso, así como los errores que se han producido durante la simulación.
+Para cada actividad, el registro puede mostrar si el usuario que realiza la simulación ha entrado o salido del paso, las marcas de tiempo y las decisiones de ramas de cada paso, y los errores que se han producido durante la simulación.
 
 Para las actividades **Wait**, el registro incluye dos valores relacionados con la duración:
 

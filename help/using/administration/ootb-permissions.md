@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +76,7 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Informes | **[!DNL View channel reports]**: leer y editar informes de canal. |
 | Administración de zona protegida | **[!DNL Export sandboxes]**: capacidad para exportar una zona protegida.</br>**[!DNL Manage packages]**: leer, crear, editar y eliminar paquetes.</br>**[!DNL Manage sandboxes]**: leer, crear, editar y eliminar zonas protegidas.</br>**[!DNL Reset sandboxes]**: capacidad para restablecer una zona protegida.</br>**[!DNL Share sandboxes]**: capacidad para compartir una zona protegida.</br>**[!DNL View sandboxes]**: acceso de solo lectura para zonas protegidas que pertenecen a su organización. |
 | Administración de zona protegida | **[!DNL Export sandboxes]**: capacidad para exportar una zona protegida.</br>**[!DNL Manage packages]**: leer, crear, editar y eliminar paquetes.</br>**[!DNL Manage sandboxes]**: leer, crear, editar y eliminar zonas protegidas.</br>**[!DNL View sandboxes]**: acceso de solo lectura para zonas protegidas que pertenecen a su organización.</br>**[!DNL Reset sandboxes]**: capacidad para restablecer una zona protegida. |
+| Usuarios simulados | **[!DNL Manage Simulated Users]**: leer, crear y editar usuarios simulados utilizados para probar recorridos en Simulation.</br>**[!DNL View Simulated Users]**: acceso de solo lectura para usuarios simulados. |
 | Servicio de traducción | **[!DNL Manage translation in house]**: leer, crear, editar y eliminar la traducción interna.</br>**[!DNL Manage translation projects]**: leer, crear, editar y eliminar proyectos de traducción.</br> **[!DNL Manage translation reviews]**: leer, crear, editar y eliminar revisiones de traducción.</br>**[!DNL Manage translation settings]**: leer, crear, editar y eliminar la configuración de traducción.</br>**[!DNL Manage translation tasks]**: leer, crear, editar y eliminar tareas de traducción.</br>**[!DNL View translation in house]**: acceso de solo lectura para la traducción interna.</br>**[!DNL View translation projects]**: acceso de solo lectura para proyectos de traducción.</br>**[!DNL View translation reviews]**: acceso de solo lectura para revisiones de traducción.</br>**[!DNL View translation tasks]**: acceso de solo lectura para tareas de traducción. |
 
 {style="table-layout:fixed"}
