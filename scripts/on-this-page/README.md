@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ Ejecute desde la raíz del repositorio (`journey-optimizer.en/`).
    Vista previa primero con `--dry-run`.
 
 2. **Refine la redacción.** La semilla es un punto de partida: edite cada frase para que
-se lee como una declaración de propósito (una frase, texto sin formato, inglés estadounidense). Si usted
+se lee como una declaración de propósito (una frase, texto sin formato, inglés estadounidense). **Posible cliente
+con el por qué**: indique el resultado/beneficio del lector (&quot;...para que pueda <outcome>&quot;), no
+solo una lista de lo que cubre la página. Igualar nombres de características de estilo doméstico (p. ej.,
+&quot;Campaña organizada&quot;, &quot;En la aplicación&quot;). Ver `.cursor/rules/on-this-page-box.mdc`. Si usted
 omitir `--seed-from-description`, en su lugar se inserta un marcador de posición `{{TODO...}}` y
 el validador marcará los que queden.
 
