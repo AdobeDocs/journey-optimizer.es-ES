@@ -9,18 +9,22 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Configuración del acceso al repositorio de Adobe Experience Manager {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo los administradores conectan una zona protegida a un repositorio de Adobe Experience Manager (configurando acceso de solo autor o publicación, dominios personalizados y autenticación) para que los especialistas en marketing puedan utilizar fragmentos de contenido de AEM en sus recorridos y campañas.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer se integra con **[!DNL Adobe Experience Manager as a Cloud Service]** para que pueda usar **Fragmentos de contenido** en Recorridos y campañas. Los **fragmentos de contenido** se leen desde el repositorio de publicación de Adobe Experience Manager de forma predeterminada, los administradores pueden cambiar a solo autor o ajustar el acceso de publicación en el menú **[!UICONTROL Integración de AEM]**.
 
