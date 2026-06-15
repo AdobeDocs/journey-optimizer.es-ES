@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 keywords: olas, lotes, programación, campaña, recorrido, capacidad de entrega
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # Envío mediante olas en campañas {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Divida la entrega de la campaña saliente en lotes programados, llamados olas, para que pueda equilibrar la carga, proteger la reputación del remitente y mejorar la capacidad de entrega de los envíos de gran volumen.
+
+>[!ENDSHADEBOX]
 
 Puede dividir el envío de mensajes de campaña salientes en varios lotes (olas) y programarlos a lo largo del tiempo. El envío de ondas ayuda a equilibrar la carga, evitar sistemas descendentes abrumadores (como centros de llamadas o páginas de aterrizaje) y admite la capacidad de envío y la reputación del remitente, especialmente para envíos de gran volumen.
 

@@ -10,29 +10,25 @@ level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 TQID: https://experienceleague.adobe.com/xqm-guUFMQvrDU3LSuedvImdkhIkRvFXa0B-g13OJIs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7c48f88df2a2607d23eefe95998ce6b7fe9689ae
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 51%
+source-wordcount: 494
+ht-degree: 48%
 
 ---
 
 # Configuración de la acción de campaña activada por API {#api-action}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Elige la configuración de canal y canal que tu campaña activada por API envía a través de, y establece el seguimiento, el experimento de contenido y las opciones multilingües, de modo que entregue el mensaje correcto en el canal correcto.
+
+>[!ENDSHADEBOX]
 
 Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de canal para el mensaje y configure ajustes adicionales como seguimiento, experimento de contenido o contenido multilingüe.
 

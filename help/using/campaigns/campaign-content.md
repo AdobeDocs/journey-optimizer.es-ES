@@ -10,19 +10,22 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 16%
+source-wordcount: 216
+ht-degree: 14%
 
 ---
 
 # Edición del contenido de la campaña de acción {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Diseñe y pruebe el contenido de su campaña para el canal que seleccionó de modo que cada mensaje esté listo antes de activar la campaña.
+
+>[!ENDSHADEBOX]
 
 Para configurar el contenido del mensaje, vaya a la ficha **[!UICONTROL Contenido]** o haga clic en el botón **[!UICONTROL Editar contenido]**.
 
