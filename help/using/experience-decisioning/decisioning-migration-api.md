@@ -6,19 +6,22 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 5%
 
 ---
 
 # API de migración de la toma de decisiones {#decisioning-migration-api}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Utilice la API del servicio de migración de decisiones para mover objetos de administración de decisiones entre zonas protegidas con análisis de dependencia automatizado y compatibilidad con reversiones, de modo que pueda realizar la transición del contenido de las decisiones entre entornos preservando al mismo tiempo la integridad de los datos.
+
+>[!ENDSHADEBOX]
 
 La API del servicio de migración de decisiones permite migrar objetos de administración de decisiones de una zona protegida a otra. El proceso de migración se ejecuta como flujos de trabajo asincrónicos que incluyen análisis de dependencia, ejecución y funciones de reversión opcionales.
 
