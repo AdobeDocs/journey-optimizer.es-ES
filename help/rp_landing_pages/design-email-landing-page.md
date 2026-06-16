@@ -6,9 +6,9 @@ description: Diseño del contenido del correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 El diseño del contenido de su correo electrónico en Adobe Journey Optimizer le permite crear correos electrónicos visualmente impresionantes, personalizados y adaptables que cautivan a su público. Tanto si comienza desde cero como si importa plantillas HTML o personaliza estilos, esta guía le explica todos los pasos, desde el uso de contenido dinámico para experiencias adaptadas hasta la optimización de la accesibilidad con metadatos y CSS. Explore consejos prácticos, componentes de diseño reutilizables y herramientas como Adobe Stock y Experience Manager Assets Essentials para optimizar su flujo de trabajo. Con instrucciones claras y prácticas recomendadas, ganará la confianza para crear campañas impactantes que repercutan en todas las plataformas y dispositivos.
 
-## Diseño del contenido del correo electrónico
+## Diseño del contenido de correo electrónico
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al diseño de correo electrónico
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos del diseño de correo electrónico en Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y optimizar el contenido del correo electrónico
 
@@ -40,7 +40,7 @@ Explore métodos para diseñar contenido de correo electrónico, importar HTML, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Diseño del contenido en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Descubra herramientas y prácticas recomendadas para utilizar componentes, fragm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Editar estilo: personalizar diseños de correo electrónico
 

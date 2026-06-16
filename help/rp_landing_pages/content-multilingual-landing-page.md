@@ -6,9 +6,9 @@ description: Contenido multilingüe
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La función de contenido multilingüe de Adobe Journey Optimizer permite ofrecer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al contenido multilingüe
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar y utilizar la función de contenido 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo crear una configuración regional para contenido multilingüe
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear y administrar nuevas configuracion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Añadir y configurar proveedores de idioma
 
@@ -50,7 +50,7 @@ Configure proveedores de traducción de terceros para lograr una integración pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crear contenido multilingüe con traducción manual
 
@@ -60,7 +60,7 @@ Aprenda a crear manualmente campañas y recorridos multilingües adaptados a con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Crear contenido multilingüe con traducción automática
 

@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 Las cadenas son los componentes básicos de los datos que se basan en texto, y las funciones de cadena de Adobe Journey Optimizer proporcionan potentes herramientas para administrarlas y transformarlas sin esfuerzo.
 
-## Resumen de funciones de cadena
+## Información general sobre las funciones de cadena
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de la función concat
 
@@ -31,7 +31,7 @@ Aprenda a combinar cadenas o una lista de cadenas mediante la función “concat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función &#39;contain&#39;
 
@@ -41,7 +41,7 @@ Descubra cómo comprobar la presencia de una cadena dentro de otra cadena.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función containIgnoreCase
 
@@ -51,7 +51,7 @@ Aprenda a realizar comprobaciones de contención de cadenas sin distinción entr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de la función endWith
 
@@ -61,7 +61,7 @@ Aprenda a comprobar si una cadena termina con un sufijo específico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función endWithIgnoreCase
 
@@ -71,7 +71,7 @@ Compruebe si una cadena termina con un sufijo, ignorando la distinción entre ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de la función equalIgnoreCase
 

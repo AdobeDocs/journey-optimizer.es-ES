@@ -6,9 +6,9 @@ description: Entregabilidad del correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '191'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 La entregabilidad del correo electrónico consiste en garantizar que los correos electrónicos lleguen a la bandeja de entrada del público en lugar de perderse en carpetas de correo no deseado o bloquearse por completo, un factor crítico para que las campañas tengan éxito. En Adobe Journey Optimizer, aprenderá a mejorar la entregabilidad mediante la administración de listas de supresión para excluir direcciones problemáticas, la adaptación del contenido del correo electrónico para evitar filtros de correo no deseado y la creación de una sólida reputación del remitente a través de prácticas como el calentamiento de la IP. También explorará herramientas avanzadas como la autenticación de DMARC y la retransmisión SMTP para una mayor seguridad y conformidad. Cada tema se conecta a estrategias prácticas que le permiten salvaguardar el rendimiento del correo electrónico y mejorar al mismo tiempo la confianza con los destinatarios.
 
-## Recursos de envío de correo electrónico
+## Recursos de entregabilidad del correo electrónico
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a la entregabilidad del correo electrónico
 
@@ -30,7 +30,7 @@ Conozca los conceptos, las prácticas recomendadas y las herramientas para optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Explicación de las listas de supresión
 
@@ -40,7 +40,7 @@ Descubra cómo las listas de supresión protegen la reputación del remitente y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Cumplimiento de los nuevos requisitos de DMARC
 

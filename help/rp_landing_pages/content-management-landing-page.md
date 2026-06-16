@@ -6,9 +6,9 @@ description: Gestión de contenidos
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Las funciones de administración de contenido de Adobe Journey Optimizer le permiten crear, personalizar y organizar contenido sin problemas en campañas, canales y regiones. Tanto si desea crear mensajes dinámicos, crear plantillas reutilizables o experimentar con nuevas ideas, esta sección proporciona las herramientas y estrategias necesarias para optimizar el flujo de trabajo y maximizar el impacto. Profundice en temas como la personalización, el contenido multilingüe, la generación asistida por IA y las integraciones entre soluciones para descubrir cómo encajan estas funcionalidades para ofrecer experiencias de cliente atractivas y adaptadas. Con guías prácticas y funciones intuitivas, tendrá la preparación adecuada para administrar el contenido con confianza y creatividad.
 
-## Funciones de administración de contenido
+## Funciones de gestión de contenidos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adición de personalización
 
@@ -30,7 +30,7 @@ Aprenda a implementar y optimizar las funciones de personalización para crear e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creación de páginas de aterrizaje
 
@@ -40,7 +40,7 @@ Descubra herramientas y tutoriales para crear, administrar y optimizar páginas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Plantillas de contenido
 
@@ -50,7 +50,7 @@ Optimice la creación de contenido con plantillas reutilizables para una adminis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fragmentos de contenido reutilizables
 
@@ -60,7 +60,7 @@ Aprenda a crear y administrar fragmentos de contenido reutilizables para persona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creación de contenido dinámico
 
@@ -70,7 +70,7 @@ Utilice reglas condicionales para crear contenido dinámico y personalizado para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casos de uso entre soluciones
 

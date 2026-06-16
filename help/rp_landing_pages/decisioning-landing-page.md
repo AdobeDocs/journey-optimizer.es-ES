@@ -6,9 +6,9 @@ description: Capacidades de decisión
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Las funciones de decisión de Journey Optimizer le permiten enviar las mejores ofertas y experiencias personalizadas a sus clientes en todos los puntos de contacto, en los momentos precisos. Estas funciones simplifican la personalización mediante un catálogo centralizado de ofertas de marketing y un motor de decisión avanzado, que utiliza reglas y criterios de clasificación para ofrecer el contenido más relevante para cada persona.
 
-## Resumen de capacidades de decisión
+## Información general sobre las funciones de decisión
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las funciones de decisión
 
@@ -30,7 +30,7 @@ Obtenga información sobre las herramientas y funciones de Adobe Journey Optimiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Toma de decisiones en Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Explore cómo crear, administrar y optimizar el envío de contenido personalizad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestión de decisiones en Adobe Journey Optimizer
 
