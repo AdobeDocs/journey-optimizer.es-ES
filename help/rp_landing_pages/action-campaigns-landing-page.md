@@ -6,9 +6,9 @@ description: Campañas de acción
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Las campañas de acción en Adobe Journey Optimizer le permiten enviar mensajes puntuales y específicos para comunicaciones por lotes como promociones, actualizaciones o avisos legales. Diseñadas para ofrecer flexibilidad, estas campañas le permiten definir propiedades, elegir canales de comunicación, optimizar contenido, establecer públicos, programar envíos y activar campañas con facilidad. Tanto si está creando contenido multilingüe, como si está probando variaciones o priorizando notificaciones urgentes, cada paso contribuye a que el alcance sea impactante y personalizado. En esta sección se desglosa el proceso en pasos manejables, guiándole desde la planificación hasta la ejecución, para que pueda diseñar con confianza campañas que conecten con su público y generen resultados.
 
-## Recursos de campañas de acción
+## Recursos de las campañas de acción
 
 :::: landing-cards-container
 :::
@@ -32,7 +32,7 @@ Obtenga información sobre cómo crear y administrar campañas de acción, inclu
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
-Definir propiedades de campaña de acción
+Definir propiedades de la campaña de acción
 
 Instrucciones paso a paso para definir las propiedades de la campaña, como el nombre, las etiquetas y las etiquetas de acceso.
 

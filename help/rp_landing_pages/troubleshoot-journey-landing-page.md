@@ -6,9 +6,9 @@ description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '574'
+ht-degree: 100%
 
 ---
 
@@ -111,11 +111,11 @@ Valide y depure las acciones personalizadas mediante la función **Enviar solici
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
-Directrices de vale de soporte
+Pautas para los tickets de asistencia
 
-Aprenda qué debe incluir al ponerse en contacto con el servicio de asistencia de Adobe (detalles del entorno, nivel de impacto, pasos de replicación, registros o capturas de pantalla e ID relevantes) para acelerar la resolución.
+Conozca qué debe incluir al ponerse en contacto con el servicio de asistencia de Adobe (detalles del entorno, nivel de impacto, pasos de replicación, registros o capturas de pantalla e ID relevantes) para acelerar la resolución.
 
-[Directrices de tickets de asistencia](../using/start/user-interface.md#support-ticket-guidelines)
+[Pautas para los tickets de asistencia](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::

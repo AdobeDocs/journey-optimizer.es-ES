@@ -6,9 +6,9 @@ description: Asistente de IA para la generación de contenido
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 

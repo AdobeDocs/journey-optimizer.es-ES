@@ -6,9 +6,9 @@ description: Diseño del contenido
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+workflow-type: ht
+source-wordcount: '319'
+ht-degree: 100%
 
 ---
 
@@ -72,11 +72,11 @@ Cree y personalice la versión de texto sin formato del correo electrónico para
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
 
-Optimizar el texto del correo electrónico para bandejas de entrada AI
+Optimizar el texto del correo electrónico para bandejas de entrada de IA
 
-Estructura la capa de texto sin formato del correo electrónico para que los clientes de la bandeja de entrada asistida por IA puedan resumir y extraer mejor sus ofertas y llamadas a la acción.
+Estructure la capa de texto sin formato del correo electrónico para que los clientes de la bandeja de entrada asistida por IA puedan resumir y extraer mejor sus ofertas y llamadas a la acción.
 
-[Optimizar el texto del correo electrónico para bandejas de entrada AI](../using/email/llm-email-optimizer.md)
+[Optimizar el texto del correo electrónico para bandejas de entrada de IA](../using/email/llm-email-optimizer.md)
 :::
 
 :::

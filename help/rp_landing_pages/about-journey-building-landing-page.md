@@ -6,15 +6,15 @@ description: Actividades
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
-workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
 # Actividades{#section-overview}
 
-Las actividades de Adobe Journey Optimizer son los componentes básicos que hacen realidad los recorridos de sus clientes, ya que le permiten activar eventos, tomar decisiones y realizar acciones importantes en todos los canales. Tanto si está atento a un evento de compra, enviando un correo electrónico personalizado o actualizando un perfil en tiempo real, las actividades le permiten personalizar cada paso del recorrido. Cada tipo de actividad (como Evento, Orquestación o Acción) desempeña una función única, trabajando conjuntamente para crear experiencias atractivas y sin problemas. A medida que explore estas herramientas, descubrirá cómo utilizar déclencheur, condiciones y acciones para crear recorridos que sean tan dinámicos como las necesidades de sus clientes.
+Las actividades de Adobe Journey Optimizer son los componentes básicos que hacen realidad los recorridos de sus clientes, ya que le permiten activar eventos, tomar decisiones y realizar acciones importantes en todos los canales. Tanto si está atento a un evento de compra, enviando un correo electrónico personalizado o actualizando un perfil en tiempo real, las actividades le permiten personalizar cada paso del recorrido. Cada tipo de actividad (como Evento, Orquestación o Acción) desempeña una función única, trabajando conjuntamente para crear experiencias atractivas y sin problemas. A medida que explore estas herramientas, descubrirá cómo utilizar activadores, condiciones y acciones para crear recorridos que sean tan dinámicos como las necesidades de sus clientes.
 
 ## Actividades de Adobe Journey Optimizer
 
@@ -66,7 +66,7 @@ Uso de la actividad Optimizar (condiciones)
 
 Defina varias rutas en un recorrido en función de criterios como el tiempo, la fuente de datos o las divisiones porcentuales.
 
-[Configuración de Optimización y condiciones](../using/building-journeys/optimize.md)
+[Configurar Optimizar y condiciones](../using/building-journeys/optimize.md)
 :::
 
 :::
@@ -85,7 +85,7 @@ Controle la sincronización en los recorridos con duraciones o esperas personali
 ## Recursos adicionales
 
 - **[Uso de un público en un recorrido](../using/building-journeys/read-audience.md)**: permita que personas de los públicos de Adobe Experience Platform accedan a recorridos de forma dinámica.
-- **[Acciones de canal integradas](../using/building-journeys/journey-action.md)**: use recorridos para enviar mensajes o experiencias por correo electrónico, SMS, notificaciones push, en la aplicación, web, experiencias basadas en código o tarjetas de contenido con las funciones integradas de Journey Optimizer.
+- **[Acciones de canal integradas](../using/building-journeys/journey-action.md)**: utilice recorridos para suministrar mensajes o experiencias por correo electrónico, SMS o notificaciones push, experiencias en la aplicación, en la web o basadas en código o tarjetas de contenido mediante las funciones integradas de Journey Optimizer.
 - **[Uso de acciones personalizadas](../using/building-journeys/using-custom-actions.md)**: integre sistemas de terceros mediante las API de REST con rutas dinámicas, encabezados y parámetros de consulta.
 - **[Actividad de decisión de contenido](../using/building-journeys/content-decision.md)**: envíe ofertas personalizadas en los recorridos mediante políticas de decisión y estrategias de contenido.
 - **[Acciones de Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)**: envíe correos electrónicos, SMS y notificaciones push transaccionales mediante la integración de Adobe Campaign Standard.

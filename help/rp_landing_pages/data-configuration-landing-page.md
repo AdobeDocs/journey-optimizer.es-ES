@@ -6,9 +6,9 @@ description: Aprenda a configurar esquemas relacionales, conjuntos de datos, dim
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
 source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
-workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 78%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ Guía paso a paso para asignar esquemas relacionales a perfiles de clientes y co
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
-Configurar una configuración de canal
+Cómo realizar una configuración de canal
 
-Obtenga información sobre cómo establecer y configurar configuraciones de canal para usarlas en campañas orquestadas, incluidos el correo electrónico y otros canales admitidos.
+Obtenga información sobre cómo establecer y configurar los canales para utilizarlos en campañas orquestadas, incluyendo el correo electrónico y otros canales compatibles.
 
 [Configuración de un canal](../using/orchestrated/channel-config.md)
 :::

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Aprenda a utilizar las funciones de audiencia y datos de Adobe Experience Platform en Journey Optimizer recorrido, incluida la función inAudience.
+description: Aprenda a utilizar las funciones de datos y público de Adobe Experience Platform dentro de los recorridos de Journey Optimizer, incluida la función inAudience.
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 60%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Aprenda a utilizar la función inAudience para evaluar el abono al público en A
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
-Uso de datos de Adobe Experience Platform para Personalization
+Uso de datos de Adobe Experience Platform para la personalización
 
 Descubra cómo acceder y utilizar los atributos y conjuntos de datos de perfil de Adobe Experience Platform para personalizar mensajes y condiciones de recorrido.
 
@@ -42,11 +42,11 @@ Descubra cómo acceder y utilizar los atributos y conjuntos de datos de perfil d
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
-Uso de datos de Adobe Experience Platform en Recorrido
+Uso de datos de Adobe Experience Platform en recorridos
 
-Obtenga información sobre cómo consultar y buscar datos de Adobe Experience Platform directamente en condiciones de recorrido, acciones y expresiones.
+Descubra cómo consultar y buscar datos de Adobe Experience Platform directamente en las condiciones de, acciones y expresiones de los recorridos.
 
-[Uso de datos de AEP en recorrido](../using/data/lookup-aep-data.md)
+[Uso de datos de AEP en recorridos](../using/data/lookup-aep-data.md)
 :::
 
 ::::

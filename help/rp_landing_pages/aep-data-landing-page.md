@@ -6,9 +6,9 @@ description: Aprenda a aprovechar los datos de contexto y los conjuntos de datos
 redpen-status: CREATED_||_2025-08-11_20-56-30
 exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
 source-git-commit: 249f39d83c6495524d5e53532b5ae55d59a46d04
-workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 

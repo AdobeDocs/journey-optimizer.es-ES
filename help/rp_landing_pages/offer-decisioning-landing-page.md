@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Heredado" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '378'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 La gestión de decisiones en Adobe Journey Optimizer le permite presentar la oferta correcta al público correcto en el momento perfecto. Al combinar herramientas para crear ofertas personalizadas, clasificándolas de forma inteligente mediante IA o reglas personalizadas y analizando los comentarios en tiempo real, puede crear experiencias de cliente fluidas y basadas en datos en todos los canales. Esta sección le guía a través de la creación de componentes básicos como las ubicaciones y reglas de decisión, la integración de datos de contexto y evento para una segmentación precisa y el uso de las API para flujos de trabajo avanzados. Tanto si está diseñando campañas de correo electrónico como si está optimizando las interacciones web, obtendrá información procesable y estrategias para aumentar sus capacidades de toma de decisiones.
 
-## Funciones de administración de decisiones
+## Funciones de gestión de decisiones
 
 :::: landing-cards-container
 :::
@@ -55,7 +55,7 @@ Aprenda a clasificar ofertas utilizando fórmulas y modelos de IA para optimizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Crear y administrar ofertas
 

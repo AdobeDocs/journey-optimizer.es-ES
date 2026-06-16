@@ -6,9 +6,9 @@ description: Actividades de las campañas organizadas
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
-workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '363'
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 97%
 
 Las actividades de las campañas orquestadas de Adobe Journey Optimizer le permiten diseñar recorridos de marketing basados en datos optimizados que se conecten con su público en el momento adecuado y a través de los canales adecuados. Al combinar las actividades de segmentación, canal y control de flujo, puede definir segmentos de público precisos, personalizar mensajes y automatizar flujos de trabajo complejos. Tanto si desea crear públicos, sincronizar ramas de campañas o añadir retrasos para una sincronización perfecta, estas actividades trabajan conjuntamente para optimizar la ejecución de la campaña. Con herramientas como el enriquecimiento para la mejora de datos o la división para la segmentación del público, tendrá un kit de herramientas flexible para crear experiencias de cliente significativas e impactantes.
 
-## Actividades de campaña organizadas
+## Actividades de campañas orquestadas
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
-Trabajo con actividades de campaña organizadas
+Trabajar con actividades de campañas orquestadas
 
 Obtenga información sobre las actividades de segmentación, canal y control de flujo para diseñar y ejecutar campañas orquestadas.
 
@@ -70,7 +70,7 @@ Configure el correo electrónico, los SMS, las notificaciones push y el correo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Actividad Combinar
 

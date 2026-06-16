@@ -6,9 +6,9 @@ description: Control de acceso
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ description: Gestión de contenidos
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Las funciones de administración de contenido de Adobe Journey Optimizer le permiten crear, personalizar y organizar contenido sin problemas en campañas, canales y regiones. Tanto si desea crear mensajes dinámicos, crear plantillas reutilizables o experimentar con nuevas ideas, esta sección proporciona las herramientas y estrategias necesarias para optimizar el flujo de trabajo y maximizar el impacto. Profundice en temas como la personalización, el contenido multilingüe, la generación asistida por IA y las integraciones entre soluciones para descubrir cómo encajan estas funcionalidades para ofrecer experiencias de cliente atractivas y adaptadas. Con guías prácticas y funciones intuitivas, tendrá la preparación adecuada para administrar el contenido con confianza y creatividad.
 
-## Funciones de administración de contenido
+## Funciones de gestión de contenidos
 
 :::: landing-cards-container
 :::

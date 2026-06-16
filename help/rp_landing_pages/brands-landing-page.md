@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marcas
-description: Aprenda a crear, administrar y personalizar directrices de marca en Journey Optimizer para garantizar un contenido coherente y sin marca en todas sus campañas.
+description: Aprenda a crear, administrar y personalizar directrices para la marca en Journey Optimizer para garantizar un contenido coherente con la marca en todas sus campañas.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 70%
+workflow-type: ht
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Descubra y utilice la función de alineación con la marca para validar el cumpl
 
 Personalice sus marcas
 
-Aprenda a establecer las preferencias de marca predeterminadas y adaptar las directrices de marca para una integración perfecta con el contenido generado por IA.
+Aprenda a establecer las preferencias de marca predeterminadas y adaptar las directrices de la marca para una integración perfecta con el contenido generado por IA.
 
 [Personalice sus marcas](../using/content-management/brands-personalize.md)
 :::
@@ -54,7 +54,7 @@ Aprenda a establecer las preferencias de marca predeterminadas y adaptar las dir
 
 Crear y administrar modelos generativos
 
-Descubra cómo crear y administrar modelos de IA generativos personalizados formados en las directrices de su marca para generar contenido de forma coherente.
+Descubra cómo crear y administrar modelos de IA generativa personalizados entrenados en las directrices de su marca para generar contenido de forma coherente.
 
 [Administración de modelos generativos](../using/content-management/generative-models.md)
 :::

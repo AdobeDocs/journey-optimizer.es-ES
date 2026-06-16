@@ -6,9 +6,9 @@ description: Sintaxis
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 

@@ -7,15 +7,15 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
 # Campañas{#section-overview}
 
-Las campañas de Adobe Journey Optimizer le permiten distribuir mensajes personalizados, oportunos e impactantes a través de todos los canales, lo que le ayuda a atraer a su público de forma más eficaz. Tanto si planea enviar un único correo electrónico promocional, automatizar mensajes transaccionales en tiempo real u organizar recorridos complejos de varios pasos, existe un tipo de campaña adaptado a sus necesidades. Esta sección presenta los tres tipos de campañas principales: Campañas de acción, Campañas activadas por API y Campañas orquestadas, destacando sus puntos fuertes y casos de uso únicos. También conocerá los componentes básicos esenciales, como los permisos, la configuración de públicos y las configuraciones de canal, para garantizar que dispone de todo lo necesario para crear y administrar campañas que conecten con sus clientes.
+Las campañas de Adobe Journey Optimizer le permiten distribuir mensajes personalizados, oportunos e impactantes a través de todos los canales, lo que le ayuda a atraer a su público de forma más eficaz. Tanto si planea enviar un único correo electrónico promocional, automatizar mensajes transaccionales en tiempo real u organizar recorridos complejos de varios pasos, existe un tipo de campaña adaptado a sus necesidades. En esta sección se presentan los tres tipos de campañas principales: campañas de acción, campañas activadas por la API y campañas orquestadas, destacando sus puntos fuertes y casos de uso únicos.También conocerá los componentes básicos esenciales, como los permisos, la configuración de públicos y las configuraciones de canal, para garantizar que dispone de todo lo necesario para crear y administrar campañas que conecten con sus clientes.
 
 ## Información general sobre las campañas
 

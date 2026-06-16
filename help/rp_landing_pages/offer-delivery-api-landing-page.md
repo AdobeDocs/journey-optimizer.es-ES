@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="Heredado" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 Las API para el envío de ofertas de Adobe Journey Optimizer le permiten enviar ofertas de marketing personalizadas al público adecuado, en el momento adecuado, lo que mejora la participación en múltiples canales. Tanto si diseña experiencias en tiempo real con la API de toma de decisiones en Edge, como si adapta ofertas específicas con la API de toma de decisiones o amplía el alcance a través de la API de toma de decisiones por lotes, estas herramientas proporcionan soluciones versátiles para diferentes casos de uso. Explorará cómo funciona cada API, desde la gestión de datos de contexto hasta la implementación de límites de frecuencia, y descubrirá flujos de trabajo adaptados a sus necesidades comerciales. Empiece a tomar decisiones más inteligentes y a realizar integraciones fluidas para ofrecer experiencias del cliente impactantes con confianza.
 
-## Entrega de ofertas mediante API
+## Envío de ofertas mediante las API
 
 :::: landing-cards-container
 :::

@@ -6,9 +6,9 @@ description: Canal web
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 El canal web de Adobe Journey Optimizer le permite crear experiencias personalizadas directamente en el sitio web, ayudándole a conectar con los clientes de formas significativas. Tanto si desea mejorar la participación con contenido personalizado como integrar fácilmente campañas web con otros canales, como el correo electrónico, SMS y las notificaciones push, esta función ofrece un kit de herramientas versátil para lograr sus objetivos de marketing. Descubrirá cómo configurar el canal web, definir y personalizar las experiencias web y monitorizar su impacto, todo ello con herramientas intuitivas como editores visuales y no visuales. Cada subtema se basa en el último, guiándole paso a paso hasta que domine la personalización y la optimización web con confianza.
 
-## Documentación del canal Web
+## Documentación del canal web
 
 :::: landing-cards-container
 :::

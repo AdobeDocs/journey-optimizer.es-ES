@@ -6,9 +6,9 @@ description: Casos de uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Explore ejemplos prácticos y estrategias para maximizar las funciones de Adobe 
 
 Búsqueda de eventos de experiencia
 
-Utilice alternativas de eventos de experiencia para administrar las exclusiones, personalizar el contenido y abordar los desafíos comunes en la orquestación de recorrido.
+Utilice alternativas a los eventos de experiencia para administrar exclusiones, personalizar el contenido y abordar retos habituales en la orquestación de recorrido.
 
 [Más información](../using/building-journeys/exp-event-lookup.md)
 :::

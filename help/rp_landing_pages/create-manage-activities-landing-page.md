@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Heredado" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 En Adobe Journey Optimizer, la creación y administración de decisiones le permiten ofrecer las ofertas más relevantes a sus clientes en el momento adecuado. Las decisiones actúan como contenedores inteligentes que evalúan los datos del cliente y las reglas empresariales para seleccionar la mejor oferta para cada persona. Aprenderá a definir ámbitos de decisión, configurar métodos de clasificación como la prioridad o la IA y establecer opciones de reserva para garantizar que ningún cliente se quede sin una oferta. Desde que crea su primera decisión hasta que la prueba con simulaciones, esta guía desglosa cada paso, proporcionándole las herramientas para personalizar experiencias y fomentar una participación significativa.
 
-## Creación y administración de decisiones
+## Crear y administrar decisiones
 
 :::: landing-cards-container
 :::
