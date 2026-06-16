@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 2%
 
 ---
@@ -276,5 +276,6 @@ Ahora que comprende cómo se empaqueta [!DNL Adobe Journey Optimizer], aquí es 
 
 - **Empiece a usar el producto**: configure su entorno y aprenda los conceptos principales. [Introducción a Journey Optimizer](get-started.md)
 - **Planifique su implementación**: siga la ruta de incorporación estructurada para su proyecto. [Guía del proyecto de incorporación](onboarding-hub.md)
+- **Comprobar disponibilidad de características** — Ver qué características están activas, su estado de ciclo de vida (GA/LA/Beta) y cuándo se enviaron. [Disponibilidad de funciones](ajo-features-availability.md)
 - **Encuentre el caso de uso correcto**: asigne sus objetivos de participación a las capacidades que los admiten. [Guía de caso de uso](ajo-use-case-guide.md)
 - **Configurar tus canales** — Una vez que sepas qué complementos tienes, configura los canales que necesitas: [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS / MMS](../mobile/get-started-mobile.md), [mensajería en la aplicación](../in-app/get-started-in-app.md), [tarjetas de contenido](../content-card/get-started-content-card.md), [el canal web](../web/get-started-web.md) y [experiencias basadas en código](../code-based/get-started-code-based.md).
