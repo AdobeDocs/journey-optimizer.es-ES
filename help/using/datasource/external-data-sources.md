@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 30%
+source-wordcount: 2462
+ht-degree: 27%
 
 ---
 
@@ -69,7 +59,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 
@@ -268,11 +258,64 @@ Esta opción agrega dos campos obligatorios al esquema estándar `customAuthoriz
 
 El usuario nunca crea los campos `client_assertion` y `client_assertion_type`. La plataforma los inserta automáticamente durante la ejecución, inmediatamente antes de la llamada del extremo del token.
 
-<!--
-rebuild
--->
+#### Funcionamiento {#certificate-credential-how-it-works}
 
-Este es un ejemplo del tipo de autenticación de credencial de certificado:
+La autenticación personalizada basada en certificados implementa las credenciales del cliente OAuth 2.0 con una aserción de cliente JWT, tal como se define en [RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"}, el mismo estándar admitido por Microsoft Entra ID y Okta. En lugar de un secreto de cliente, Journey Optimizer prueba su identidad mediante un JWT firmado con la clave privada administrada de Adobe. Su proveedor de identidad verifica la firma utilizando el certificado público de Adobe, que usted registra una vez en su proveedor de identidad.
+
+El intercambio de tokens sigue estos pasos:
+
+1. Journey Optimizer crea una afirmación de cliente JWT firmada con la clave privada de Adobe.
+1. La afirmación se envía al extremo de token junto con sus `client_id`, `grant_type` y `scope`.
+1. Su proveedor de identidad verifica la firma JWT con el certificado público registrado de Adobe.
+1. El proveedor de identidad devuelve un token de acceso al portador.
+1. Journey Optimizer utiliza ese token para llamar al extremo de la acción personalizada.
+
+#### Detalles del certificado de Adobe {#certificate-credential-details}
+
+Adobe administra el certificado y su clave privada asociada. La siguiente tabla resume sus propiedades clave:
+
+| Propiedad | Valor |
+| --- | --- |
+| Emitido por | DigiCert (CA pública) |
+| Administrado por | Adobe |
+| Algoritmo | RS256 (RSA) |
+| Qué debe registrarse en su proveedor de identidad | Solo certificado hoja de Adobe, no la CA intermedia o raíz |
+| Cómo obtener | Recuperarlo de la API de certificado público [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte la protección de **Certificado** a continuación) |
+| Rotación | Adobe gestiona la rotación y proporciona un aviso con al menos 30 días de antelación |
+
+#### Estructura de afirmación de JWT {#certificate-credential-jwt}
+
+No es el autor de la afirmación del cliente JWT: Journey Optimizer la genera y la firma. La estructura esperada se proporciona aquí para que el equipo del proveedor de identidad pueda validar las notificaciones.
+
+Encabezado:
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+Carga útil:
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+Tenga en cuenta lo siguiente:
+
+* `exp` − `iat` siempre está ≤ 10 minutos, lo cual concuerda con los requisitos de Okta y Entra ID.
+* Cada aserción utiliza un único `jti`, lo que hace que sea seguro volver a reproducir el ataque.
+* La plataforma inserta automáticamente `client_assertion` y `client_assertion_type`, y nunca los crea.
+
+Este es un ejemplo del tipo de autenticación de credencial de certificado, para Microsoft Entra ID:
 
 ```json
 {
@@ -294,6 +337,28 @@ Este es un ejemplo del tipo de autenticación de credencial de certificado:
 }
 ```
 
+Este es un ejemplo para el mismo tipo de autenticación de credencial de certificado, para Okta:
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >Tenga en cuenta las siguientes protecciones al configurar la autenticación personalizada basada en certificados:
@@ -302,7 +367,7 @@ Este es un ejemplo del tipo de autenticación de credencial de certificado:
 >* **`method`**: debe ser `POST`. Los extremos de token de OAuth solo aceptan solicitudes POST.
 >* **`client_id`**: no debe estar en blanco y no debe tener espacios iniciales o finales. Un valor en blanco produce un JWT de aspecto válido que el proveedor de identidad rechazará con un error opaco.
 >* **`scope`**: expresado como una sola cadena separada por espacios en `bodyParams`. Máximo 1000 caracteres en total.
->* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** (no la CA raíz) en su proveedor de identidad.
+>* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** en su proveedor de identidad. Para recuperarlo, llame a la API de certificado público [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} y busque la entrada donde `certCommonName` es `ajo-journeys.aep-mtls.adobe.com`. Registre el valor `publicCertificate` de esa entrada; no utilice los certificados de CA intermedia o raíz.
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 
