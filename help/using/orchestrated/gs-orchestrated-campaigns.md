@@ -7,22 +7,14 @@ short-description: Descubra las características clave y los casos de uso de las
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +51,8 @@ La orquestación de campañas se basa en cuatro pilares clave:
 <tr style="border: 0;">
 <td><img alt="Públicos bajo demanda" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Los públicos bajo demanda</b><br/>consultan instantáneamente entre conjuntos de datos para crear segmentos de audiencia usando cualquier combinación de tipos de datos y dimensiones.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: use entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.<br/><br/>
-Admitir el envío de varios niveles, donde se envía un mensaje por perfil y por entidad secundaria asociada. Estas entidades secundarias pueden incluir direcciones de contacto, reservas, suscripciones, contratos u otros datos vinculados. Por ejemplo, esto permite enviar campañas a todas las direcciones conocidas de un perfil o a todas las reservas asociadas con ese perfil.</td></tr>
+<td><img alt="Segmentación y envío de varias entidades" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentación y envío de varias entidades</b><br/>Vaya más allá de las campañas basadas en personas: utilice entidades como catálogos de productos, ubicaciones de tiendas o datos de servicio para segmentar con precisión.<br/><br/>
+Admita el envío multinivel, donde se envía un mensaje por perfil y por entidad secundaria asociada. Estas entidades secundarias pueden incluir direcciones de contacto, reservas, suscripciones, contratos u otros datos vinculados. Por ejemplo, esto permite enviar campañas a todas las direcciones conocidas de un perfil o a todas las reservas asociadas a ese perfil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilidad y precisión previas al envío" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilidad y precisión previas al envío</b><br/>Obtenga recuentos de segmentación exactos y un ámbito de campaña completo antes del lanzamiento, lo que garantiza precisión y confianza.</td></tr>
 <tr style="border: 0;">
@@ -156,6 +148,6 @@ Ahora que ya sabe qué son las campañas orquestadas, es el momento de profundiz
 * **[Mecanismos de protección y limitaciones](guardrails.md)**: revise los mecanismos de protección, limitaciones y prácticas recomendadas importantes para garantizar un rendimiento óptimo de la campaña.
 * **[Preguntas más frecuentes](orchestrated-campaigns-faq.md)**: encuentre respuestas a preguntas comunes sobre las características, funcionalidades y casos de uso de las campañas orquestadas.
 * **[Tutoriales de campañas orquestadas](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: explore tutoriales de vídeo paso a paso que incluyen características y prácticas recomendadas.
-* **[Captar clientes mediante la actividad de exploración](engage-customers-uc.md)**: vuelva a captar clientes con perfiles que exploraron pero no compraron, con una campaña orquestada de varios pasos.
-* **[Notificar a los usuarios sobre la disponibilidad del producto](product-availability-uc.md)**: avise a los clientes cuando un producto en el que mostraron interés vuelva a estar disponible.
-* **[Enviar actualizaciones de artículos de la lista de deseos](wishlist-uc.md)**: Déclencheur mensajes personalizados cuando los artículos de la lista de deseos se pongan a la venta o estén disponibles.
+* **[Interaccionar con clientes mediante la actividad de exploración](engage-customers-uc.md)**: vuelva a interaccionar con perfiles que exploraron pero no compraron, con una campaña orquestada de varios pasos.
+* **[Notificar a los usuarios sobre la disponibilidad del producto](product-availability-uc.md)**: avise a los clientes cuando vuelva a estar disponible un producto por el que mostraron interés.
+* **[Enviar actualizaciones de artículos de la lista de deseos](wishlist-uc.md)**: active mensajes personalizados cuando los artículos de la lista de deseos se pongan a la venta o estén disponibles.

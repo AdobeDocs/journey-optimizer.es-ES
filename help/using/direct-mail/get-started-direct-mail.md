@@ -10,22 +10,15 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +40,17 @@ El uso de los servicios de correo está sujeto a términos y condiciones adicion
 
 ## Antes de comenzar {#before-you-start}
 
-Antes de crear mensajes de correo postal, configure [enrutamiento de archivos y una configuración de canal de correo postal](direct-mail-configuration.md). También necesita audiencias y datos de perfil (como direcciones postales) en Adobe Experience Platform.
+Antes de crear mensajes de correo directo, configure el [enrutamiento de archivos y realice una configuración de canal de correo directo](direct-mail-configuration.md). También necesita públicos y datos de perfil (como, por ejemplo, direcciones postales) en Adobe Experience Platform.
 
 Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
-![Flujo de trabajo de creación de correo directo desde la configuración hasta la entrega](assets/dm-creation-process.png)
+![Flujo de trabajo de creación de correo directo desde la configuración hasta el envío](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >Los mensajes de correo directo solo se pueden crear en el contexto de recorridos y campañas. No están disponibles para su uso en campañas activadas por API.
 
-![Descripción general animada del canal de correo postal en Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Información general animada del canal de correo directo en Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Recursos adicionales {#additional-resources}
 
@@ -73,10 +66,10 @@ Aprenda cómo aprovechar el canal de correo directo en Adobe Journey Optimizer p
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3479165?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 
-Para ver un tutorial escrito de los mismos pasos, vea los [tutoriales del canal de correo postal](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Para ver un tutorial escrito de los mismos pasos, consulte los [tutoriales del canal de correo directo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Si tiene preguntas comunes acerca del correo postal, consulte la sección [Recursos adicionales](#additional-resources) más arriba.
+Si tiene preguntas frecuentes sobre el correo directo, consulte la sección [Recursos adicionales](#additional-resources) que se encuentra más arriba.

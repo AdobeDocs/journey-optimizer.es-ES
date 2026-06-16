@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +46,7 @@ Pulse **Entrar** para acceder a todos los resultados y filtrar por objeto empres
 
 ## Filtrar listas {#filter-lists}
 
-En la mayoría de las listas, utilice la barra de búsqueda para buscar elementos específicos y defina los criterios de filtrado. También puede ordenar cualquier lista haciendo clic en un encabezado de columna. En la vista de carpetas de Campañas, también se admite la ordenación por **[!UICONTROL Prioridad]** y **[!UICONTROL Configuración del canal]**.
+En la mayoría de las listas, utilice la barra de búsqueda para buscar elementos específicos y defina los criterios de filtrado. También puede ordenar los elementos de la lista haciendo clic en cualquier encabezado de columna. En la vista de carpetas Campañas, también se admite la ordenación por **[!UICONTROL Prioridad]** y **[!UICONTROL Configuración del canal]**.
 
 Se puede acceder a los filtros haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtro le permite filtrar los elementos mostrados según diferentes criterios: puede elegir mostrar solo los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días. Las opciones difieren según el contexto.
 
@@ -69,16 +62,16 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 
 ## Acciones masivas {#bulk-actions}
 
-En las listas **Campañas**, **Fragmentos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones en masa que aparece en la parte inferior de la pantalla.
+En las listas **Campañas**, **Fragmentos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones masiva que aparece en la parte inferior de la pantalla.
 
-Estas son las operaciones disponibles:
+Las siguientes operaciones son posibles:
 
-* **[!UICONTROL Agregar al paquete]**: exporte los elementos seleccionados a otra zona protegida. [Obtenga información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL Mover a carpeta]** - Mover los elementos seleccionados a una carpeta.
-* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los elementos seleccionados. [Aprenda a utilizar etiquetas →](#add-tags)
-* **[!UICONTROL Administrar acceso]** - Aplicar etiquetas de acceso a los elementos seleccionados. [Más información acerca del control de acceso de nivel de objeto →](../administration/object-based-access.md)
-* **[!UICONTROL Archivar]** - Archivar elementos seleccionados. Disponible para fragmentos y plantillas.
-* **[!UICONTROL Eliminar]** - Eliminar permanentemente los elementos seleccionados. Disponible solo para campañas.
+* **[!UICONTROL Añadir a paquete]**: exporte los elementos seleccionados a otra zona protegida. [Más información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover a carpeta]**: mueva los elementos seleccionados a una carpeta.
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los elementos seleccionados. [Más información sobre cómo utilizar etiquetas →](#add-tags)
+* **[!UICONTROL Administrar acceso]**: aplique etiquetas de acceso a los elementos seleccionados. [Más información sobre el control de acceso a nivel de objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Archivar]**: archive los elementos seleccionados. Disponible en fragmentos y plantillas.
+* **[!UICONTROL Eliminar]**: elimine permanentemente los elementos seleccionados. Disponible solo en campañas.
 
 ![](assets/bulk-actions-fragments.png)
 
@@ -102,7 +95,7 @@ El campo **[!UICONTROL Etiquetas]** le permite definir etiquetas para el objeto.
 * [Campañas](../campaigns/create-campaign.md)
 * [Elementos de decisión](../experience-decisioning/items.md)
 * [Fragmentos](../content-management/fragments.md)
-* [Fragmentos de recorrido](../building-journeys/journey-fragments.md)
+* [Fragmentos del recorrido](../building-journeys/journey-fragments.md)
 * [Recorridos](../building-journeys/journey-properties.md)
 * [Páginas de destino](../landing-pages/create-lp.md)
 * [Listas de suscripciones](../landing-pages/subscription-list.md)

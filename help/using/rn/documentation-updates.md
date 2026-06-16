@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
 source-wordcount: 8429
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -41,47 +37,47 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Mayo de 2026 {#may-2026}
 
-* Se han agregado dos nuevos permisos de alto nivel: **Administrar registro de claves**, que permite a los usuarios ver, crear, girar y revocar claves en el registro de claves, y **Ver registro de claves**, que permite a los usuarios ver la lista del registro de claves y los detalles de las claves. [Más información](../administration/high-low-permissions.md#administration-permissions)
+* Se han añadido dos nuevos permisos de alto nivel: **Administrar registro de claves**, que permite a los usuarios ver, crear, rotar y revocar claves del registro de claves, y **Ver registro de claves**, que permite a los usuarios ver la lista del registro de claves y los detalles de las claves. [Más información](../administration/high-low-permissions.md#administration-permissions)
 
-* La documentación de **Usar directivas de decisión en mensajes** ahora describe cómo ver la estructura completa de una directiva de decisión desde el resumen de la campaña y copiar un resumen técnico JSON en el portapapeles para la resolución de problemas. [Más información](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+* La documentación de **Uso de políticas de decisión en mensajes** ahora describe cómo ver la estructura completa de una política de decisión desde el resumen de la campaña y copiar un resumen técnico JSON en el portapapeles para la resolución de problemas. [Más información](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* La página heredada de **administración de decisiones** [modelos de optimización automática](../offers/ranking/auto-optimization-model.md) se ha reescrito para alinearse con la documentación actualizada de Decisioning, incluida la descripción general del aprendizaje de refuerzo, los requisitos y las limitaciones, la optimización de equilibrio con el aprendizaje y los detalles de muestreo Thompson. [Más información](../offers/ranking/auto-optimization-model.md)
+* Se ha reescrito la página heredada [Modelos de optimización automática](../offers/ranking/auto-optimization-model.md) de **Gestión de decisiones** para adaptarla a la documentación actualizada sobre tomas de decisiones, incluyendo información general sobre el aprendizaje mediante refuerzo, requisitos y limitaciones, optimización del equilibrio con el aprendizaje y detalles del muestreo de Thompson. [Más información](../offers/ranking/auto-optimization-model.md)
 
 * La página **Notas de la versión** se ha reestructurado con un diseño basado en temas. Los cambios ahora se agrupan por área de producto en lugar de por tipo de cambio, con una nueva sección **Mejoras de uso** dedicada. Próximamente, las entradas aparecerán como acordeones expandibles dentro de cada tema. [Más información](release-notes.md)
 
-* La página **Limitaciones y protecciones de campañas orquestadas** ahora documenta el límite de **actividades de canal** por campaña orquestada. [Más información](../orchestrated/guardrails.md#activities-limitations)
+* La página **Mecanismos de protección y limitaciones de las campañas orquestadas** ahora documenta el límite de **actividades de canal** por campaña orquestada. [Más información](../orchestrated/guardrails.md#activities-limitations)
 
-* La documentación de **Copiar objetos de Journey Optimizer entre zonas protegidas** ahora incluye una nota importante para **campañas orquestadas**: después de la importación, duplique la campaña en la zona protegida de destino y use el duplicado para la ejecución a fin de asegurarse de que el sistema de informes capture correctamente los comentarios y los datos de seguimiento. [Más información](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
+* La documentación de **Copiar objetos de Journey Optimizer entre zonas protegidas** ahora incluye una nota importante para **Campañas orquestadas**: después de la importación, duplique la campaña en la zona protegida de su público destinatario y utilice el duplicado para su ejecución con el fin de garantizar que el sistema de informes capture correctamente los comentarios y datos de seguimiento. [Más información](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
-* Se ha revisado la página **Terminología clave**: se han agregado seis términos nuevos, se ha introducido una nueva sección **Términos de conflicto y priorización** y se ha agregado una nueva guía de desambiguación **Cuando los términos parecen similares** para cuatro pares de términos que se confunden con frecuencia. Los términos específicos de Adobe Experience Platform se han eliminado y reemplazado por una nota que vincula al glosario de Adobe Experience Platform. [Más información](../start/terminology.md)
+* Se ha renovado la página **Terminología clave**: se han añadido seis términos nuevos, se ha introducido una nueva sección **Términos sobre conflicto y priorización** y se ha añadido una nueva guía de desambiguación **Cuando los términos parecen similares** para cuatro pares de términos que suelen confundirse. Los términos específicos de Adobe Experience Platform se han eliminado y reemplazado por una nota que remite al glosario de Adobe Experience Platform. [Más información](../start/terminology.md)
 
-* La documentación de **vínculos profundos** se ha ampliado con una nueva sección de **Creación de vínculos profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario de Designer de correo electrónico y código del editor de Personalization) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso de vínculo profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
+* La documentación de **Enlaces profundos** se ha ampliado con una nueva sección **Creación de enlaces profundos** que detalla las dos opciones disponibles para el correo electrónico (interfaz de usuario del Diseñador de correo electrónico y código del editor de personalización) y la sintaxis de la función URL para SMS. La página **Crear un mensaje SMS** ahora incluye un paso para el enlace profundo en el flujo de creación de contenido. [Más información](../email/deeplinks.md)
 
-* La referencia del asistente **Url** se ha actualizado con una sección específica en la documentación de Personalization. [Más información](../personalization/functions/helpers.md#url)
+* La referencia del asistente de **Url** se ha actualizado con una sección específica en la documentación de Personalización. [Más información](../personalization/functions/helpers.md#url)
 
-* Se ha agregado una limitación a la documentación de ayuda de **Metadatos de ejecución**: la función no se admite en canales entrantes (web, experiencia basada en código, mensaje en la aplicación, tarjetas de contenido). [Más información](../personalization/functions/helpers.md#execution-metadata)
+* Se ha añadido una limitación a la documentación del asistente de **Metadatos de ejecución**: la función no se admite en los canales entrantes (web, experiencia basada en código, mensaje en la aplicación, tarjetas de contenido). [Más información](../personalization/functions/helpers.md#execution-metadata)
 
-* Se ha agregado una nueva página **Fórmulas de Personalization** que proporciona patrones de personalización listos para usar para los casos de uso más comunes en Journey Optimizer. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (usar `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (retrospectivas de campo vacío usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
+* Se ha añadido una nueva página **Fórmulas de personalización** que proporciona patrones de personalización listos para usar para los casos de uso más comunes de Journey Optimizer. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos de días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (utilizando `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (alternativas para campos vacíos usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
 
-* La **sintaxis de Personalization** se ha actualizado con una introducción ampliada que aclara la diferencia entre las sintaxis de Handlebars (`{{...}}`) y PQL (`{%= ... %}`), que incluye una tabla de uso, instrucciones sobre cómo escapar comillas dobles literales y una nueva sección de **reglas de sintaxis de PQL para claves de atributos especiales** que abarca palabras clave reservadas, claves de atributos con guiones e ID de eventos numéricos. También se ha corregido la nota sobre el escape de acento grave: se puede hacer referencia a los nombres de campo con guiones en bloques de `{{...}}` directamente; solo la sintaxis de acento grave falla en ellos. [Más información](../personalization/personalization-syntax.md)
+* La documentación de **Sintaxis de la personalización** se ha actualizado con una introducción ampliada que aclara la diferencia entre las sintaxis de Handlebars (`{{...}}`) y PQL (`{%= ... %}`), incluyendo una tabla de uso, instrucciones sobre cómo escapar las comillas dobles literales y una nueva sección **Reglas de sintaxis de PQL para claves de atributos especiales** que abarca palabras clave reservadas, claves de atributos con guiones e ID de eventos numéricos. También se ha corregido la nota sobre el escape de acentos graves: se puede hacer referencia a los nombres de campo con guiones directamente en bloques `{{...}}`; solo la sintaxis de acento grave falla allí. [Más información](../personalization/personalization-syntax.md)
 
-* La documentación de **Funciones de fecha y hora** se ha enriquecido con nuevos ejemplos reales: un patrón de cuenta atrás para `dateDiff`, un condicional de fin de semana vs. día de la semana para `dayOfWeek` (con una nota sobre el uso de la actividad de condición de recorrido para casos de uso de enrutamiento) y un patrón de visualización de solo tiempo que combina `extractHours` y `extractMinutes` con un protector de cero a la izquierda. [Más información](../personalization/functions/dates.md)
+* La documentación de **Funciones de fecha y hora** se ha enriquecido con nuevos ejemplos reales: un patrón de cuenta atrás para `dateDiff`, un condicional de fin de semana frente al día de la semana para `dayOfWeek` (con una nota sobre el uso de la actividad Condición del recorrido para casos de uso de enrutamiento) y un patrón de visualización de solo hora que combina `extractHours` y `extractMinutes` con una protección de ceros iniciales. [Más información](../personalization/functions/dates.md)
 
 * La documentación de **Funciones de cadena** se ha actualizado con un nuevo ejemplo para `replaceAll` que muestra cómo asignar el resultado a una variable `{% let %}` para su reutilización en varias expresiones en la misma plantilla. [Más información](../personalization/functions/string.md#replace-all)
 
-* La documentación de **Funciones de matriz** se ha actualizado con una nueva sección de **Iterar sobre una matriz** que documenta el asistente de bloque de Handlebars `{{#each}}`, incluida una nota que aclara que `{{#each}}` solo es compatible con el editor de personalización y no se puede usar dentro de las actividades de condición de recorrido. [Más información](../personalization/functions/arrays-list.md#each-loop)
+* La documentación de **Funciones de matriz** se ha actualizado con una nueva sección **Iterar sobre una matriz** que documenta el asistente de bloque `{{#each}}` de Handlebars, incluyendo una nota que aclara que `{{#each}}` solo es compatible con el editor de personalización y no se puede usar dentro de las actividades de condición de recorrido. [Más información](../personalization/functions/arrays-list.md#each-loop)
 
-* La página **Introducción a los conjuntos de datos** se ha actualizado con una nueva entrada **Entrante** en la sección de conjuntos de datos del sistema, que documenta el _Conjunto de datos de evento de actividad entrante de AJO_. Se ha agregado una nota para aclarar que un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] antes de que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
+* La página **Introducción a los conjuntos de datos** se ha actualizado con una nueva entrada **Entrante** en la sección de conjuntos de datos del sistema, que documenta el _conjunto de datos de evento de actividad entrante de AJO_. Se ha añadido una nota para aclarar que un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] antes de que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
 
-* La documentación de **Exportar contenido del mensaje** se ha ampliado con **Preguntas frecuentes sobre la exportación de mensajes** (contenido personalizado, imágenes y medios, vínculos rastreados, PII, retención, casos de uso, etc.) y **ejemplos de JSON exportados de ejemplo** para SMS y correo electrónico. [Más información](../configuration/message-export.md)
+* La documentación de **Exportar contenido del mensaje** se ha ampliado con **Preguntas frecuentes sobre la exportación de mensajes** (contenido personalizado, imágenes y medios, vínculos rastreados, PII, retención, casos de uso, etc.) y **ejemplos de JSON exportados de muestra** para SMS y correo electrónico. [Más información](../configuration/message-export.md)
 
-* Una nueva página de **esquema de exportación de mensajes de AJO** documenta todos los campos del conjunto de datos de exportación de mensajes de AJO, con tipos de datos y jerarquía para la carga útil de correo electrónico y SMS exportada. [Más información](../configuration/message-export-schema.md)
+* Una nueva página **Esquema de exportación de mensajes de AJO** documenta todos los campos del conjunto de datos de exportación de mensajes de AJO, con tipos de datos y jerarquía para la carga útil de los correos electrónicos y SMS exportados. [Más información](../configuration/message-export-schema.md)
 
-* Se ha agregado una nueva página **Personalizar direcciones URL en correos electrónicos** que consolida las directrices sobre personalización dinámica de direcciones URL, personalización completa/base de direcciones URL, personalización de parámetros de seguimiento de URL y protecciones clave. [Más información](../email/url-personalization.md)
+* Se ha añadido una nueva página **Personalizar direcciones URL en correos electrónicos** que consolida las directrices sobre la personalización de direcciones URL dinámicas, la personalización de direcciones URL completas/base, la personalización de los parámetros de seguimiento de URL y los mecanismos de protección clave. [Más información](../email/url-personalization.md)
 
-* Se ha agregado una nueva sección **Consultas de reglas de negocios** a la página de ejemplos de consultas, que proporciona una consulta de lago de datos para comprobar todos los descartes de perfiles debido a exclusiones de límite de frecuencia de recorrido en un recorrido específico después de una fecha específica. La consulta incluye el campo `eventCodeReason` para identificar si los perfiles se excluyeron porque se alcanzó un límite (`CAP_REACHED`) o debido a una prioridad inferior (`LOWER_PRIORITY`). [Más información](../reports/query-examples.md#business-rules-queries)
+* Se ha añadido una nueva sección **Consultas de reglas empresariales** a la página de ejemplos de consultas, que proporciona una consulta de lago de datos para comprobar todos los descartes de perfiles debido a exclusiones de restricción de frecuencia de recorrido en un recorrido específico después de una fecha específica. La consulta incluye el campo `eventCodeReason` para identificar si los perfiles se excluyeron porque se alcanzó un límite (`CAP_REACHED`) o debido a una prioridad inferior (`LOWER_PRIORITY`). [Más información](../reports/query-examples.md#business-rules-queries)
 
-* La documentación de **propiedades de Recorrido** se ha actualizado para documentar el nuevo indicador **Tamaño actual de carga útil de recorrido** en el panel de propiedades de recorrido. Este campo de solo lectura muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado (por ejemplo, 1,5 MB de 2 MB), lo que le ayuda a monitorizar la complejidad del recorrido antes de publicarlo y evitar errores de publicación relacionados con el tamaño. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
+* Se ha actualizado la documentación de **Propiedades del recorrido** para documentar el nuevo indicador **Tamaño de carga útil del recorrido actual** en el panel de propiedades del recorrido. Este campo de solo lectura muestra el tamaño actual de la carga útil de recorrido en comparación con el límite configurado (por ejemplo, 1,5 MB de 2 MB), lo que le ayuda a monitorizar la complejidad del recorrido antes de publicarlo y evitar errores de publicación relacionados con el tamaño. [Más información](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Abril de 2026 {#april-2026}
 
@@ -97,7 +93,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La página **Introducción a las campañas orquestadas** documenta el patrón de nivel de entrada **Crear público → Bifurcación → Canal A + Canal B** en **¿Qué hay en una campaña orquestada?**, con referencias cruzadas a las páginas de actividad de bifurcación y de mensajes de marketing vs. transaccionales. [Más información](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha movido de la sección Administración de contenido a la sección **Correo electrónico** de la documentación. La página ahora documenta que el editor de HTML avanzado está disponible en el Diseñador de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
+* La página **Editar contenido de correo electrónico con el editor de HTML avanzado** se ha trasladado de la sección Gestión de contenidos a la sección **Correo electrónico** de la documentación. La página ahora documenta que el editor de HTML avanzado está disponible en el Diseñador de correo electrónico para mensajes de correo electrónico, así como para plantillas de contenido de correo electrónico. [Más información](../email/email-expert-mode.md)
 
 * La documentación de **Iniciar y monitorizar campañas orquestadas** se ha actualizado con una nueva sección que detalla la secuencia de ejecución interna en el tiempo de publicación, junto con una tabla de estado del ciclo de vida de la campaña, una lista de comprobación previa a la publicación y una advertencia de confirmación de envío para campañas no recurrentes. [Más información](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
@@ -652,7 +648,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -682,7 +678,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -757,7 +753,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -885,7 +881,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

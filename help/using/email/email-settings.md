@@ -10,25 +10,15 @@ level: Experienced
 keywords: ajustes, correo electrónico, configuración
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 TQID: https://experienceleague.adobe.com/09Be2OEwtY2-wAMaWDUZtwZCVBqzXPsPgvNZuc1UO2M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +103,10 @@ Permite incluir una URL de cancelación de suscripción de un solo clic en el en
 
 ## Parámetros de encabezado {#email-header}
 
-En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los valores de **De**, **Responder a** y **Error** para el tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
+En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los valores de **De**, **Responder a** y **Error** para los tipos de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
 
 
-De forma opcional, cuando la parte transmisora deba diferir del autor de **From**, establezca un nombre de **Remitente** y un correo electrónico diferentes para agregarlos al encabezado del correo electrónico. [Más información](header-parameters.md#sender-header)
+De forma opcional, si desea que la parte transmisora sea diferente del autor indicado en **De**, establezca un nombre y un correo electrónico distintos en **Remitente** para que se añadan al encabezado del correo electrónico. [Más información](header-parameters.md#sender-header)
 
 
 ## Correo electrónico CCO {#bcc-email}
