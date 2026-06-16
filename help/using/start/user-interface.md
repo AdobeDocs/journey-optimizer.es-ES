@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 98%
+source-wordcount: 1765
+ht-degree: 90%
 
 ---
 
@@ -408,3 +408,32 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_orchestration_load_file"
 >title="Actividad Cargar archivo"
 >abstract="La actividad **Cargar archivo** es una actividad de **Segmentación**. Utilícela para cargar un archivo CSV o TXT en el lienzo de la campaña orquestada y usarlo como el público de la campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
+
+<!-- SMS Sinch Usage metrics -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_metrics"
+>title="Métricas de uso de SMS"
+>abstract="Genere informes de uso de SMS para reconciliar el volumen de mensajería con la facturación del proveedor. Los informes enumeran los recuentos terminados en dispositivos móviles (MT) y originados en dispositivos móviles (MO) de cada código corto o número de teléfono, agregados por día."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_report_name"
+>title="Nombre del informe"
+>abstract="Introduzca una etiqueta que le ayude a reconocer este informe en la lista más adelante; por ejemplo, la revisión de facturación de mayo de 2026."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_credential"
+>title="Credenciales de SMS"
+>abstract="Seleccione la credencial de la API de Sinch cuyo tráfico de envío y recepción debe aparecer en este informe. Para agregar o actualizar credenciales, ve a **Administración** > **Canales** > **Credenciales de API**, y luego elige **Proveedor de SMS** > **Sinch MMS**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_start_date"
+>title="Fecha de inicio"
+>abstract="Primer día del intervalo de fechas que se va a incluir en el informe. Los datos de uso solo están disponibles durante los últimos 90 días."
+
+<!--  channel type in Custom Provider in API credential  -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo de canal"
+>abstract="Opcional. Clasifique los mensajes enviados con esta credencial de proveedor de SMS personalizada, por ejemplo, SMS o RCS. Journey Optimizer escribe el valor en los eventos de experiencia XDM para que pueda informar y rastrear el envío por canal."
