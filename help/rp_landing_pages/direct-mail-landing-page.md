@@ -30,7 +30,7 @@ Obtenga información sobre las campañas de correo directo en Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear una campaña de correo directo
 
@@ -40,7 +40,7 @@ Guía paso a paso para crear campañas de correo directo y configurar archivos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo comprobar y enviar una campaña de correo directo
 

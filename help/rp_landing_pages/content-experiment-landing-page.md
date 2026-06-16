@@ -20,7 +20,7 @@ Los experimentos de contenido en Adobe Journey Optimizer le permiten probar y pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los experimentos de contenido
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de los experimentos de contenido, su objetivo y c�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y ampliar experimentos de contenido
 

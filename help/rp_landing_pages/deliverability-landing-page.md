@@ -30,7 +30,7 @@ Conozca los conceptos, las prácticas recomendadas y las herramientas para optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Explicación de las listas de supresión
 
