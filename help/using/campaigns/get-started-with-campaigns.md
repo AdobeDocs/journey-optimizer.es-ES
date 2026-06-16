@@ -254,7 +254,7 @@ Cree mensajes atractivos para su público:
 
 * Use el **Diseñador de correo electrónico** para experiencias de correo electrónico enriquecidas
 * Configure las **notificaciones push** con imágenes y vínculos profundos
-* Diseñar **mensajes SMS/RCS/MMS** con personalización
+* Diseñe **mensajes SMS/MMS** con personalización
 * Cree experiencias **en la aplicación** y **web**
 * Añada **personalización** mediante atributos de perfil y datos contextuales
 

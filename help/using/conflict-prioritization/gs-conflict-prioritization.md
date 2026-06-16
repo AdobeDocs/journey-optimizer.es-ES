@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ Los conjuntos de reglas permiten **agrupar varias reglas en múltiples reglas** 
 * **[Restricción de frecuencia por canal](channel-capping.md)**: establezca límites de frecuencia a nivel de canal para evitar mensajes excesivos.
 * **[Establecer horas tranquilas](quiet-hours.md)**: defina exclusiones basadas en el tiempo para el envío de mensajes.
 * **[Tutoriales de administración de conflictos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriales de vídeo paso a paso.
-* **[Casos de uso de Journey Optimizer](../building-journeys/jo-use-cases.md)**: examine patrones prácticos, incluidos límites de frecuencia y lógica de supresión de recorrido.
+* **[Casos de uso de Journey Optimizer](../building-journeys/jo-use-cases.md)**: examine patrones prácticos, como la restricción de frecuencia y la lógica de supresión de recorrido.

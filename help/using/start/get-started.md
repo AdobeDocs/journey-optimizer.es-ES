@@ -52,7 +52,7 @@ Esta página presenta Adobe Journey Optimizer: qué es, para quién sirve, sus f
 
 ## ¿Qué es [!DNL Adobe Journey Optimizer]?{#about-ajo}
 
-[!DNL Adobe Journey Optimizer] es una aplicación empresarial para crear y ofrecer experiencias del cliente conectadas, contextuales y personalizadas en todos los canales y puntos de contacto. Se basa de forma nativa en [!DNL Adobe Experience Platform] y aprovecha un perfil del cliente en tiempo real unificado, un marco abierto de trabajo con prioridad API, toma de decisiones sobre ofertas centralizada y capacidades de IA/ML. Journey Optimizer permite a las marcas organizar campañas de marketing programadas y comunicaciones activadas por eventos en tiempo real desde una sola aplicación a escala. El resultado son experiencias de marca significativas que aumentan la lealtad del cliente y el valor de duración.
+[!DNL Adobe Journey Optimizer] es una aplicación empresarial para crear y ofrecer experiencias del cliente conectadas, contextuales y personalizadas en todos los canales y puntos de contacto. Se basa de forma nativa en [!DNL Adobe Experience Platform] y aprovecha un perfil del cliente en tiempo real unificado, un marco abierto de trabajo con prioridad API, toma de decisiones sobre ofertas centralizada y capacidades de IA/ML. Journey Optimizer permite a las marcas organizar campañas de marketing programadas y comunicaciones activadas por eventos en tiempo real desde una sola aplicación a escala. El resultado son experiencias de la marca significativas que aumentan la lealtad del cliente y el valor de duración.
 
 Esta guía se aplica a los profesionales de marketing, los equipos de operaciones y los administradores que utilicen Journey Optimizer por primera vez.
 

@@ -407,7 +407,7 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Actividad Cargar archivo"
->abstract="La actividad **Cargar archivo** es una actividad de **Segmentación**. Utilícela para cargar un archivo CSV o TXT en el lienzo de la campaña orquestada y usarlo como el público de la campaña. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
+>abstract="La actividad **Cargar archivo** es una actividad de **segmentación**. Utilícela para cargar un archivo CSV o TXT en el lienzo de campaña orquestada y utilícela como público. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
 
 <!-- SMS Sinch Usage metrics -->
 

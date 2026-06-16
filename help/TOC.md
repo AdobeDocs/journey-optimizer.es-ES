@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
 workflow-type: tm+mt
 source-wordcount: '3362'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 94%
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + Simulación {#simulate-journey}
          + [Introducción a la simulación de recorrido](using/building-journeys/simulate-journey-gs.md)
-         + [Simular tu recorrido](using/building-journeys/simulate-journey.md)
+         + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
       + [Publicación del recorrido](using/building-journeys/publish-journey.md)
@@ -98,7 +98,7 @@ ht-degree: 94%
          + [Condiciones](using/building-journeys/conditions.md)
       + [Leer público](using/building-journeys/read-audience.md)
       + [Esperar](using/building-journeys/wait-activity.md)
-      + [Fragmentos de recorrido](using/building-journeys/journey-fragments.md)
+      + [Fragmentos del recorrido](using/building-journeys/journey-fragments.md)
       + [Decisión de contenido](using/building-journeys/content-decision.md)
       + [Búsqueda de conjuntos de datos](using/building-journeys/dataset-lookup.md)
       + [Acción](using/building-journeys/journey-action.md)
@@ -148,10 +148,10 @@ ht-degree: 94%
    + {hide-from-toc}[Acceder y administrar retos y tareas](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Crear retos](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Crear tareas](using/loyalty-challenges/create-tasks.md)
-   + {hide-from-toc}[Supervisar el rendimiento del desafío de fidelidad](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[Configurar desafíos de lealtad](using/loyalty-challenges/loyalty-admin.md)
-   + {hide-from-toc}[Conjuntos de datos y datos de fidelización](using/loyalty-challenges/loyalty-data-and-datasets.md)
-   + {hide-from-toc}[Referencia de API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+   + {hide-from-toc}[Monitorizar el rendimiento del reto de fidelización](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[Configurar retos de fidelización](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[Datos y conjuntos de datos de fidelización](using/loyalty-challenges/loyalty-data-and-datasets.md)
+   + {hide-from-toc}[Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campañas {#campaigns}
    + {hide-from-toc}[Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
@@ -242,10 +242,10 @@ ht-degree: 94%
       + [Trabajar con conjuntos de reglas](using/conflict-prioritization/rule-sets.md)
       + [Administración del límite y arbitraje del recorrido](using/conflict-prioritization/journey-capping.md)
       + [Definición de la restricción de frecuencia por canal y tipo](using/conflict-prioritization/channel-capping.md)
-      + [Establecimiento de horas tranquilas](using/conflict-prioritization/quiet-hours.md)
+      + [Establecer horas de inactividad](using/conflict-prioritization/quiet-hours.md)
    + Arbitraje del recorrido {#journey-arbitration}
       + [Utilizar fórmulas para clasificar recorridos](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [Uso de modelos de IA para clasificar recorridos](using/conflict-prioritization/journey-ai-models.md)
+      + [Utilizar modelos de IA para clasificar recorridos](using/conflict-prioritization/journey-ai-models.md)
 + Prueba y aprobación {#test}
    + [Prueba, validación y aprobación](/help/rp_landing_pages/test-landing-page.md)
    + Vista previa y prueba del contenido {#preview-test}
@@ -287,11 +287,11 @@ ht-degree: 94%
       + [Empezar con correos electrónicos](using/email/get-started-email.md)
       + [Creación de un correo electrónico](using/email/create-email.md)
       + Diseño del contenido del correo electrónico {#design-email}
-         + {hide-from-toc}[Diseñar el contenido de su correo electrónico](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Diseño del contenido del correo electrónico](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Diseño del contenido del mensaje](using/start/message-content-design.md)
          + [Introducción al diseño de correo electrónico](using/email/get-started-email-design.md)
          + Empezar a crear contenido {#start-creating-content}
-            + {hide-from-toc}[Empiece a crear contenido](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[Empezar a crear contenido](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Diseño de contenido desde cero](using/email/content-from-scratch.md)
             + [Importe el contenido](using/email/existing-content.md)
             + [Codifique su propio contenido](using/email/code-content.md)
@@ -299,7 +299,7 @@ ht-degree: 94%
             + [Aprovechar los temas de correo electrónico](using/email/apply-email-themes.md)
             + [Adjuntar archivos PDF a los correos electrónicos](using/email/pdf-attachments.md)
          + Creación del contenido {#add-content}
-            + {hide-from-toc}[Diseña tu contenido](/help/rp_landing_pages/add-content-landing-page.md)
+            + {hide-from-toc}[Diseño del contenido](/help/rp_landing_pages/add-content-landing-page.md)
             + [Uso de componentes del contenido](using/email/content-components.md)
             + [Aprovechamiento de fragmentos visuales](using/email/use-visual-fragments.md)
             + [Adición de vínculos y seguimiento de mensajes](using/email/message-tracking.md)
@@ -326,7 +326,7 @@ ht-degree: 94%
          + [Parámetros de encabezado](using/email/header-parameters.md)
          + [Seguimiento de URL](using/email/url-tracking.md)
          + [Personalización de la configuración de correo electrónico](using/email/surface-personalization.md)
-      + [Uso y configuración de vínculos profundos](using/email/deeplinks.md)
+      + [Uso y configuración de enlaces profundos](using/email/deeplinks.md)
       + [Administrar la exclusión de correo electrónico](using/email/email-opt-out.md)
    + Canal en la aplicación {#in-app}
       + [Canal en la aplicación](/help/rp_landing_pages/in-app-landing-page.md)
@@ -351,20 +351,20 @@ ht-degree: 94%
    + Canal de SMS/MMS/RCS {#mobile}
       + [Introducción a la mensajería móvil](using/mobile/get-started-mobile.md)
       + [Creación de un mensaje móvil](using/mobile/create-mobile-message.md)
-      + [Diseño de un mensaje móvil](using/mobile/design-mobile.md)
-      + [Compruebe y envíe sus mensajes móviles](using/mobile/send-mobile-message.md)
-      + [Administración de la exclusión de mensajes móviles](using/mobile/mobile-opt-out.md)
-      + [Configurar subdominios de SMS](using/mobile/mobile-subdomains.md)
+      + [Diseño de un mensaje de móvil](using/mobile/design-mobile.md)
+      + [Comprobación y envío de los mensajes de móviles](using/mobile/send-mobile-message.md)
+      + [Administración de la exclusión de mensajes de móviles](using/mobile/mobile-opt-out.md)
+      + [Configuración de subdominios SMS](using/mobile/mobile-subdomains.md)
       + [Prácticas recomendadas para la optimización del coste de SMS](using/mobile/mobile-cost-optimization.md)
-      + Configurar el canal móvil {#configure-mobile}
+      + Configuración del canal móvil {#configure-mobile}
          + [Introducción a la configuración móvil](using/mobile/mobile-configuration.md)
          + [Configuración del proveedor de Sinch](using/mobile/mobile-configuration-sinch.md)
          + [Configuración del proveedor de Infobip](using/mobile/mobile-configuration-infobip.md)
          + [Configuración del proveedor de Twilio](using/mobile/mobile-configuration-twilio.md)
          + [Configuración de un proveedor personalizado](using/mobile/mobile-configuration-custom.md)
          + [Crear webhook](using/mobile/mobile-webhook.md)
-         + [Crear una configuración móvil](using/mobile/mobile-configuration-surface.md)
-         + [Usar un conjunto de datos personalizado para palabras clave entrantes](using/mobile/custom-dataset-inbound-keywords.md)
+         + [Creación de una configuración para dispositivos móviles](using/mobile/mobile-configuration-surface.md)
+         + [Uso de un conjunto de datos personalizado para palabras clave entrantes](using/mobile/custom-dataset-inbound-keywords.md)
    + Correo directo {#direct-mail}
       + [Correo directo](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Introducción al correo directo](using/direct-mail/get-started-direct-mail.md)
@@ -465,7 +465,7 @@ ht-degree: 94%
          + [Funciones de cadena](using/personalization/functions/string.md)
       + Casos de uso de personalización {#personalization-use-cases}
          + [Casos de uso de personalización](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
-         + [Fórmulas de Personalization](using/personalization/personalization-recipes.md)
+         + [Fórmulas de personalización](using/personalization/personalization-recipes.md)
          + [Notificación del estado del pedido](using/personalization/personalization-use-case.md)
          + [Correo electrónico de abandono del carro de compras](using/personalization/personalization-use-case-helper-functions.md)
          + [Correo electrónico de prescripciones del plan de salud](using/personalization/perso-uc-plan-prescriptions.md)
@@ -520,7 +520,7 @@ ht-degree: 94%
          + {hide-from-toc}[Configurar el repositorio para los fragmentos de contenido](using/integrations/aem-admin-settings.md)
          + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
          + [Consideraciones y resolución de problemas](using/integrations/aem-fragments-limitations.md)
-      + [Trabajar con el Asesor de contenido de Experience Manager](using/integrations/aem-content-advisor.md)
+      + [Trabajar con el asesor de contenido de Experience Manager](using/integrations/aem-content-advisor.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Insertar temporizador de cuenta atrás](using/integrations/countdown.md)
       + [Trabajar con GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -531,8 +531,8 @@ ht-degree: 94%
          + [Preguntas frecuentes](using/integrations/vendor-integration-faq.md)
          + Proveedores de muestra {#vendors}
             + [Introducción a la integración de proveedores](using/integrations/vendor-integration-gs.md)
-            + [Configuraciones de proveedor de ejemplo](using/integrations/vendor-integration.md)
-      + [Trabajo con herramientas de IA a través de MCP](/help/using/integrations/ajo-mcp.md)
+            + [Configuraciones de proveedor de muestra](using/integrations/vendor-integration.md)
+      + [Trabajar con herramientas de IA mediante MCP](/help/using/integrations/ajo-mcp.md)
    + Asistente de IA para la generación de contenido {#ai-assistant}
       + [Asistente de IA para la generación de contenido](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introducción al asistente de IA](using/content-management/gs-generative.md)
@@ -918,7 +918,7 @@ ht-degree: 94%
       + [Delegar subdominios de correo electrónico](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [Introducción a la delegación de subdominios](using/configuration/about-subdomain-delegation.md)
       + [Delegar un subdominio](using/configuration/delegate-subdomain.md)
-      + [Configuración de un subdominio personalizado](using/configuration/delegate-custom-subdomain.md)
+      + [Configurar un subdominio personalizado](using/configuration/delegate-custom-subdomain.md)
       + [Migrar de CNAME a la delegación personalizada](using/configuration/custom-subdomain-migration.md)
       + [Configurar el registro DMARC](using/configuration/dmarc-record.md)
       + [Añadir un registro TXT de Google](using/configuration/google-txt.md)

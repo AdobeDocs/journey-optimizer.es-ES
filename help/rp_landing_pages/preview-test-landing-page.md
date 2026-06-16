@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -122,13 +122,13 @@ Siga esta secuencia para realizar una validación completa:
 
 **Contexto:** ejemplos del mundo real que muestran cómo aplicar herramientas de prueba en casos de uso habituales.
 
-**Escenario 1: probando correos electrónicos personalizados para una campaña de varios segmentos**
+**Escenario 1: prueba de correos electrónicos personalizados para una campaña multisegmento**
 → Use [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) para probar hasta 30 variaciones sin crear perfiles de prueba individuales. Cargue un CSV con diferentes atributos del cliente, añada valores manualmente o genere variantes automáticamente con IA y previsualice todo a la vez.
 
-**Escenario 2: validar el procesamiento de correo electrónico antes de un envío principal**
-→ Ejecutar [pruebas Litmus](../using/content-management/rendering.md) para comprobar la visualización en los principales clientes de correo electrónico y, a continuación, comprobar el [informe de correo no deseado](../using/content-management/spam-report.md) para garantizar la ubicación en la bandeja de entrada.
+**Escenario 2: validación de la representación de correo electrónico antes de un envío importante**
+→ Ejecute las [pruebas Litmus](../using/content-management/rendering.md) para comprobar la visualización en los principales clientes de correo electrónico y, a continuación, compruebe el [informe de spam](../using/content-management/spam-report.md) para garantizar la ubicación en la bandeja de entrada.
 
-**Escenario 3: se está consiguiendo la firma de las partes interesadas**
+**Escenario 3: obtención de la aprobación del responsable del departamento**
 → [Envíe pruebas](../using/content-management/proofs.md) a revisores internos con datos de perfil de prueba para que vean exactamente lo que los clientes recibirán.
 
 ## Principales conclusiones

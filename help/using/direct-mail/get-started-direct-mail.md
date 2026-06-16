@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ El uso de los servicios de correo está sujeto a términos y condiciones adicion
 
 ## Antes de comenzar {#before-you-start}
 
-Antes de crear mensajes de correo postal, configure [enrutamiento de archivos y una configuración de canal de correo postal](direct-mail-configuration.md). También necesita audiencias y datos de perfil (como direcciones postales) en Adobe Experience Platform.
+Antes de crear mensajes de correo directo, configure el [enrutamiento de archivos y realice una configuración de canal de correo directo](direct-mail-configuration.md). También necesita públicos y datos de perfil (como, por ejemplo, direcciones postales) en Adobe Experience Platform.
 
 Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
-![Flujo de trabajo de creación de correo directo desde la configuración hasta la entrega](assets/dm-creation-process.png)
+![Flujo de trabajo de creación de correo directo desde la configuración hasta el envío](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >Los mensajes de correo directo solo se pueden crear en el contexto de recorridos y campañas. No están disponibles para su uso en campañas activadas por API.
 
-![Descripción general animada del canal de correo postal en Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Información general animada del canal de correo directo en Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Recursos adicionales {#additional-resources}
 
@@ -77,6 +77,6 @@ Aprenda cómo aprovechar el canal de correo directo en Adobe Journey Optimizer p
 
 +++
 
-Para ver un tutorial escrito de los mismos pasos, vea los [tutoriales del canal de correo postal](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Para ver un tutorial escrito de los mismos pasos, consulte los [tutoriales del canal de correo directo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Si tiene preguntas comunes acerca del correo postal, consulte la sección [Recursos adicionales](#additional-resources) más arriba.
+Si tiene preguntas frecuentes sobre el correo directo, consulte la sección [Recursos adicionales](#additional-resources) que se encuentra más arriba.

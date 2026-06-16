@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +113,10 @@ Permite incluir una URL de cancelación de suscripción de un solo clic en el en
 
 ## Parámetros de encabezado {#email-header}
 
-En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los valores de **De**, **Responder a** y **Error** para el tipo de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
+En la sección **[!UICONTROL Parámetros de encabezado]**, escriba los valores de **De**, **Responder a** y **Error** para los tipos de correos electrónicos enviados con esa configuración. [Más información](header-parameters.md)
 
 
-De forma opcional, cuando la parte transmisora deba diferir del autor de **From**, establezca un nombre de **Remitente** y un correo electrónico diferentes para agregarlos al encabezado del correo electrónico. [Más información](header-parameters.md#sender-header)
+De forma opcional, si desea que la parte transmisora sea diferente del autor indicado en **De**, establezca un nombre y un correo electrónico distintos en **Remitente** para que se añadan al encabezado del correo electrónico. [Más información](header-parameters.md#sender-header)
 
 
 ## Correo electrónico CCO {#bcc-email}

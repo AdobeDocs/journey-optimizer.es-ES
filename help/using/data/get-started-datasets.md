@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1087
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 * Creación de informes
 
    * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes, se espera una latencia de datos de hasta dos horas.**
-   * _Informes - Conjunto de datos de evento de experiencia de seguimiento de correo electrónico_: Registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y audiencias. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones de WhatsApp.
+   * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
    * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
    * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
    * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
@@ -99,7 +99,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
 * Entrante
 
-  _Conjunto de datos de evento de actividad entrante de AJO_: Almacena eventos de actividad entrantes para mensajes entrantes recibidos en [!DNL Journey Optimizer].
+  _Conjunto de datos del evento de actividad entrante de AJO_: almacena eventos de actividad entrantes para mensajes entrantes recibidos en [!DNL Journey Optimizer].
 
 >[!NOTE]
 >

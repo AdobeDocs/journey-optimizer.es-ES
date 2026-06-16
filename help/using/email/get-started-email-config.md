@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 73%
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 73%
 
 La configuración del canal de correo electrónico en Adobe Journey Optimizer es la puerta de enlace para crear experiencias de correo electrónico personalizadas e impactantes que involucren de forma eficaz a su público.
 
-Esta sección le guía por los pasos de configuración esenciales que debe seguir para enviar correos electrónicos a través de [!DNL Journey Optimizer]. También descubrirá cómo configurar encabezados de correo electrónico, personalizar la configuración para varias marcas, habilitar el seguimiento de URL para Analytics e incluso añadir vínculos de cancelación de suscripción de un solo clic para la comodidad del usuario. Cada tema se basa en el último, lo que le proporciona las herramientas para ajustar su estrategia de correo electrónico al tiempo que mantiene el control y la precisión.
+Esta sección le guía por los pasos de configuración esenciales que debe seguir para enviar correos electrónicos a través de [!DNL Journey Optimizer]. También descubrirá cómo configurar encabezados de correo electrónico, personalizar la configuración de varias marcas, habilitar el seguimiento de URL para el análisis e incluso añadir vínculos para cancelar la suscripción con un solo clic para mayor comodidad del usuario. Cada tema se basa en el último, lo que le proporciona las herramientas para ajustar su estrategia de correo electrónico al tiempo que mantiene el control y la precisión.
 
-Para poder enviar correos electrónicos a través de recorridos y campañas en [!DNL Journey Optimizer], debe seguir varios pasos de configuración. Estos pasos se enumeran a continuación:
+Para poder enviar correos electrónicos a través de recorridos y campañas en [!DNL Journey Optimizer], debe seguir varios pasos de configuración. Estos pasos se indican a continuación:
 
 1. Para garantizar una entregabilidad óptima y proteger su reputación, empiece **delegando en Adobe los subdominios** que va a utilizar para enviar sus correos electrónicos con [!DNL Journey Optimizer]. Estos subdominios determinarán elementos como las páginas web de las que se realizará un seguimiento y las direcciones URL de las páginas espejo. [Más información](../configuration/about-subdomain-delegation.md)
 
@@ -63,11 +63,11 @@ Para poder enviar correos electrónicos a través de recorridos y campañas en [
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * El **[!UICONTROL prefijo del correo electrónico de origen]** y el **[!UICONTROL prefijo del correo electrónico de error]** utilizan el [subdominio delegado seleccionado](../configuration/about-subdomain-delegation.md). Opcionalmente, **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]** pueden identificar a una parte transmisora diferente (dirección completa de **Remitente**, no vinculada a ese sufijo de subdominio). [Más información](header-parameters.md#sender-header)
+   * El **[!UICONTROL prefijo del correo electrónico De]** y el **[!UICONTROL prefijo del correo electrónico Error]** utilizan el [subdominio delegado](../configuration/about-subdomain-delegation.md) seleccionado actualmente. Opcionalmente, **[!UICONTROL Nombre del remitente]** y **[!UICONTROL Correo electrónico del remitente]** pueden identificar a una parte transmisora diferente (dirección completa de **Remitente**, no vinculada a ese sufijo de subdominio). [Más información](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
-1. Complete la configuración de su canal de correo electrónico configurando otros parámetros avanzados, como habilitar CCO, definir el seguimiento de URL para Analytics o añadir vínculos de cancelación de suscripción de un solo clic para la comodidad del usuario. [Más información](email-settings.md)
+1. Complete la configuración de su canal de correo electrónico configurando otros parámetros avanzados, como habilitar CCO, definir el seguimiento de URL para el análisis o añadir vínculos para cancelar la suscripción de un solo clic para mayor comodidad del usuario. [Más información](email-settings.md)
 
 1. Determine qué **campos de ejecución** va a utilizar prioritariamente para los destinatarios cuando haya varias direcciones disponibles en Adobe Experience Platform. [Más información](../configuration/primary-email-addresses.md)
 

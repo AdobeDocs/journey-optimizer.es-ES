@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,14 +58,14 @@ Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener co
 
 * Si ha [delegado completamente](delegate-subdomain.md#set-up-subdomain) sus subdominios a Adobe, elija una de las siguientes opciones:
 
-   * Configure DMARC en el dominio principal de sus subdominios delegados **en su solución de alojamiento**.
-o
+   * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
+O bien,
    * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**: sin trabajo adicional en su solución de alojamiento. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
 * Si ha configurado los subdominios de envío con [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga una de estas opciones:
 
-   * Configure DMARC en sus subdominios o en el dominio principal de sus subdominios **en su solución de alojamiento**.
-o
+   * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
+O bien,
    * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
   Sin embargo, la configuración CNAME también requiere algunas entradas adicionales en la solución de alojamiento. Por lo tanto, asegúrese de coordinar con su departamento de TI para que puedan realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).

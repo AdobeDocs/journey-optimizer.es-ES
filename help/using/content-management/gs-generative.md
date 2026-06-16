@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -145,7 +145,7 @@ A continuación, se indican las directrices generales para utilizar el Asistente
 
 ### Calidad del contenido, indicaciones y comentarios
 
-* La calidad del contenido generado se ve fuertemente afectada por el objetivo de marketing o el prompt que defina. Utilice un indicador bien definido para el modelo GenAI para interpretar con precisión. 
+* La calidad del contenido generado depende en gran medida del objetivo de marketing o la indicación que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete correctamente. 
 * El contenido de GenAI podría no ser siempre preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
 * Asegúrese de notificar cualquier salida problemática utilizando los iconos de pulgar hacia arriba, pulgar hacia abajo o bandera al seleccionar variantes.
 

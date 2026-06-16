@@ -23,7 +23,7 @@ level_v2:
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 440
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimi
 La integración de WhatsApp con Journey Optimizer requiere lo siguiente:
 
 * Una cuenta de Meta Business Manager
-* [Cuenta comercial de WhatsApp con nombre de remitente y número de teléfono verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [Cuenta de empresa de WhatsApp con nombre de remitente y número de teléfono verificados](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [Token de autorización de usuario con los permisos apropiados](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [Plantillas de Meta aprobadas](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
@@ -56,7 +56,7 @@ También debe tener en cuenta lo siguiente antes de continuar con la integració
 
 * [Reglas de contenido de WhatsApp](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Cumplimiento de las políticas de Meta](https://www.whatsapp.com/legal)
-* [Límites de conversación de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Límites de las conversaciones de 24 horas](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## Limitaciones {#limitations}
 

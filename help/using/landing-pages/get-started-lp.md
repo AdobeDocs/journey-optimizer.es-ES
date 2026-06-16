@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -137,4 +137,4 @@ El siguiente vídeo muestra cómo crear una lista de suscripción, configurar p�
 
 >[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
 
-➡️ **Véalo en la práctica:** Explore [casos de uso de páginas de aterrizaje](lp-use-cases.md) para ver ejemplos paso a paso sobre administración de suscripciones, correos electrónicos de confirmación y escenarios de captura de datos.
+➡️ **Véalo en la práctica:** Explore [casos de uso de la página de destino](lp-use-cases.md) para ver ejemplos paso a paso sobre administración de suscripciones, correos electrónicos de confirmación y escenarios de captura de datos.

@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -313,7 +313,7 @@ Consulte cómo se aplican los conceptos de prueba a los casos reales:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envío de mensajes multicanal</strong></a>
 </div>
 <p>
-Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de audiencia hasta la entrega de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
+Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de público hasta el envío de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes 
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envío de un mensaje a los suscriptores</strong></a>
 </div>
 <p>
-Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
+Pruebe recorridos dirigidos a listas de suscripciones de público destinatario con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Recorridos de prueba dirigidos a listas de suscripción con direccionamiento de 
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Envío de mensajes con límite de tiempo</strong></a>
 </div>
 <p>
-Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Validar las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de programación.
+Pruebe recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Valide las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de la programación.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Recorridos de prueba con condiciones basadas en el tiempo para garantizar que lo
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorar más casos de uso de recorridos</strong></a>
 </div>
 <p>
-Acceda a una completa colección de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore varios escenarios, patrones avanzados y enfoques de prueba de integración.
+Acceda a una colección completa de ejemplos prácticos que abarquen eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore diversos escenarios, patrones avanzados y los enfoques de pruebas de integración.
 </p>
 </td>
 </tr></table>
@@ -398,7 +398,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de trabajo de Journey Optimizer en general. Esta sección asigna requisitos previos, dependencias de subida/bajada y combinaciones de capacidades comunes.
 
-### Requisitos previos (necesarios antes de la prueba)
+### Requisitos previos (necesarios antes de realizar la prueba)
 
 * Los perfiles de prueba deben crearse antes de utilizar el modo de prueba o la previsualización de contenido
 * Las directivas de aprobación deben configurarse antes de enviarlas para su aprobación
@@ -407,7 +407,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * El recorrido debe estar en estado de borrador para utilizar el modo de prueba
 * El recorrido debe tener un espacio de nombres configurada para utilizar el modo de prueba
 
-### De qué dependen las pruebas (flujo ascendente)
+### De qué depende la prueba (flujo ascendente)
 
 * Creación de contenido: necesita campañas o recorridos para realizar pruebas
 * Perfiles de prueba: obligatorio para el modo de prueba y la previsualización de contenido
@@ -421,7 +421,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * Supervisión en directo: supervisión e informes posteriores al lanzamiento
 * Optimización: utilice los resultados de las pruebas para refinar las campañas futuras
 
-### Funciones relacionadas
+### Capacidades relacionadas
 
 * Flujos de trabajo de Prueba + Aprobación: proceso de garantía de calidad
 * Pruebas + Detección de conflictos: prevención del exceso de mensajes de los clientes
@@ -430,7 +430,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * Perfiles de prueba + Personalization: validación de contenido
 * Ensayo + Modo de prueba: validación completa del recorrido
 
-### Combinaciones de capacidades comunes
+### Combinaciones habituales de capacidades
 
 * Prueba de contenido: Perfiles de prueba + Datos de entrada de muestra + Zona de juegos de personalización
 * Validación de correo electrónico: pruebas de renderizado + Puntuaciones de correo no deseado + Perfiles de prueba + Pruebas
@@ -441,40 +441,40 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Qué pruebas se requieren antes de iniciar una campaña?
 
-**Mínimo:** Vista previa del contenido con perfiles de prueba + comprobación de puntuación de spam (correo electrónico)
-**Recomendado:** + Procesamiento de correo electrónico + Detección de conflictos + Flujo de trabajo de aprobación
-**Práctica recomendada:** + Prueba de datos de entrada de muestra + Listas semilla + Experimento A/B (si se optimiza)
+**Mínimo:** vista previa del contenido con perfiles de prueba + comprobación de puntuación de spam (correo electrónico)
+**Recomendado:** + representación de correo electrónico + detección de conflictos + flujo de trabajo de aprobación
+**Práctica recomendada:** + prueba de datos de entrada de muestra +listas semilla + experimento A/B (en caso de optimización)
 
 ### P: ¿Cómo puedo probar la personalización sin crear muchos perfiles de prueba?
 
-**Solución principal:** Use [datos de entrada de ejemplo](../using/test-approve/simulate-sample-input.md) con archivos CSV/JSON (admite hasta 30 variantes)
-**Alternativa:** Cree de 3 a 5 [perfiles de prueba](../using/audience/creating-test-profiles.md) representativos que cubran segmentos clave
-**Herramienta de aprendizaje:** Experimente primero en [área de reproducción de personalización](../using/personalization/personalize.md#playground)
+**Solución principal:** utilizar [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) con archivos CSV/JSON (admite hasta 30 variantes)
+**Alternativa:** crear entre 3 y 5 [perfiles de prueba](../using/audience/creating-test-profiles.md) representativos que cubran segmentos clave
+**Herramienta de aprendizaje:** experimentar primero en el [área de juegos de personalización](../using/personalization/personalize.md#playground)
 
-### P: ¿Cuál es la diferencia entre el modo de prueba y la prueba en seco para recorridos?
+### Q: ¿Cuál es la diferencia entre el modo de prueba y el ensayo para recorridos?
 
-**Modo de prueba:** Envía perfiles de prueba a través del recorrido, déclencheur acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + área de nombres.
-**Ejecución en seco:** Rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
-**Úsalos juntos:** Modo de prueba para la prueba de mensajes + Ejecución en seco para la validación lógica: cobertura completa.
+**Modo de prueba:** envía perfiles de prueba a través del recorrido, activa acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
+**Ensayo:** rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
+**Utilizar conjuntamente:** modo de prueba para la prueba de mensajes + ensayo para la validación lógica: cobertura completa.
 
-### P: ¿Puedo probar los recorridos en el estado de producción/activo?
+### P: ¿Puedo probar recorridos en estado de producción/activo?
 
-**Modo de prueba:** No - sólo recorridos de borrador
-**Ejecución en seco:** Sí, funciona en cualquier estado de recorrido
-**Vista previa del contenido:** Sí, vista previa de mensajes individuales en cualquier momento
-**Solución alternativa:** recorrido activo duplicado en borrador para validación completa del modo de prueba
+**Modo de prueba:** no. Sólo recorridos de borrador
+**Ensayo:** sí. Funciona en cualquier estado de recorrido
+**Vista previa del contenido:** sí, vista previa de mensajes individuales en cualquier momento
+**Solución alternativa:** duplicar el recorrido activo en borrador para la validación completa en modo de prueba
 
-### P: ¿Qué capacidades de prueba requieren integraciones externas?
+### P: ¿Qué capacidades de prueba requieren las integraciones externas?
 
-**Procesamiento de correo electrónico:** Requiere integración con Litmus (licencia independiente)
-**Todas las demás:** Integrado en Journey Optimizer, no se requieren integraciones adicionales
-**Nota:** Los perfiles de prueba requieren el servicio Perfil del cliente en tiempo real (incluido)
+**Representación de correo electrónico:** requiere integración con Litmus (licencia independiente)
+**Todos los demás:** integrado en Journey Optimizer, no se requieren integraciones adicionales
+**Nota:** Los perfiles de prueba requieren el servicio del perfil del cliente en tiempo real (incluido)
 
 ### P: ¿Cómo pruebo las campañas activadas por API?
 
-**Opción 1:** Use [API de simulación de campaña](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
-**Opción 2:** Vista previa del contenido con perfiles de prueba en la interfaz de usuario
-**Opción 3:** Enviar pruebas para probar las direcciones de correo electrónico
-**Práctica recomendada:** Combine los tres para obtener una validación completa
+**Opción 1:** utilizar [API de simulación de campaña &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 2:** vista previa del contenido con perfiles de prueba en la IU
+**Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
+**Práctica recomendada:** combinar las tres opciones para obtener una validación completa
 
 >[!ENDTABS]
