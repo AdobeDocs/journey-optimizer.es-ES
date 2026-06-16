@@ -28,7 +28,7 @@ Garantice un envío de mensajes impecable detectando los errores antes de que ll
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo previsualizar y probar el contenido
 
@@ -38,7 +38,7 @@ Aprenda a utilizar perfiles de prueba y datos de entrada de muestra para previsu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo seleccionar perfiles de prueba
 
@@ -48,7 +48,7 @@ Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Previsualizar el contenido mediante perfiles de prueba
 
@@ -58,7 +58,7 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Enviar pruebas mediante datos de perfil de prueba
 
@@ -68,7 +68,7 @@ Pruebe y valide sus mensajes de correo electrónico enviando pruebas utilizando 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=es)
 
 Cómo probar el renderizado de correo electrónico con Litmus
 
@@ -78,7 +78,7 @@ Integre Litmus para obtener una vista previa de la representación de correo ele
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Simulación y prueba de variaciones de contenido
 
