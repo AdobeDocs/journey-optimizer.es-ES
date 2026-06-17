@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 4%
+source-wordcount: '320'
+ht-degree: 5%
 
 ---
 
 # Crear una bandeja de entrada {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Cree una campaña que use la acción de la Bandeja de entrada, dirija una audiencia y programe o haga un déclencheur para que pueda enviar mensajes persistentes que los usuarios puedan volver a visitar en su Bandeja de entrada.
+
+>[!ENDSHADEBOX]
 
 Antes de crear una bandeja de entrada, complete los pasos de [Configuración de la bandeja de entrada](inbox-configuration.md). La configuración de canal identifica la aplicación o sitio web de destino, la página o regla y la ubicación en la que se representa la bandeja de entrada.
 

@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Diseño de una bandeja de entrada {#inbox-design}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** configure el diseño, la capacidad, los indicadores no leídos y el estado vacío del canal Bandeja de entrada de modo que los mensajes se representen en la marca y sean legibles, lo que proporciona a los perfiles de destino una experiencia clara y coherente en los modos claro y oscuro.
+
+>[!ENDSHADEBOX]
 
 El diseño de la bandeja de entrada controla cómo se procesa cada mensaje en los perfiles de destino dentro de la superficie de la bandeja de entrada. La configuración incluye la plantilla de bandeja de entrada, la lista y las presentaciones expandidas, así como indicadores de estado de lectura que distinguen los mensajes nuevos de los que ya se han visto.
 
