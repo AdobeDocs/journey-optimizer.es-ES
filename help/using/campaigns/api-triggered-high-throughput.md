@@ -7,7 +7,7 @@ ht-degree: 2%
 ---
 El archivo no existe en el repositorio de canalización; es un archivo de documentación proporcionado como contexto. Escribiré el Markdown actualizado completo directamente como se indica (solo el archivo de salida, sin explicaciones).
 
----
+&#x200B;---
 
 solución: Journey Optimizer
 producto: optimizador de recorrido
@@ -54,36 +54,36 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
 ## Protecciones y limitaciones
 
-* **Acceso**: disponible solo en la región de EE. UU. para organizaciones con licencia con el complemento de mensajería transaccional de alto rendimiento.
+&#x200B;* **Acceso**: disponible solo en la región de EE. UU. para organizaciones con licencia con el complemento de mensajería transaccional de alto rendimiento.
 
-* **Canales**: disponibles para notificaciones push y por correo electrónico.
+&#x200B;* **Canales**: disponibles para notificaciones push y por correo electrónico.
 
-* **Rendimiento**:
+&#x200B;* **Rendimiento**:
 
-   * **Correo electrónico**: hasta 5000 transacciones por segundo.
-   * **Push**: hasta 1500 transacciones por segundo. Los siguientes niveles de rendimiento por niveles están disponibles: 500 TPS (base), 1000 TPS y 1500 TPS. Los niveles más altos requieren el derecho de complemento adecuado.
+   &#x200B;* **Correo electrónico**: hasta 5000 transacciones por segundo.
+   &#x200B;* **Push**: hasta 1500 transacciones por segundo. Los siguientes niveles de rendimiento por niveles están disponibles: 500 TPS (base), 1000 TPS y 1500 TPS. Los niveles más altos requieren el derecho de complemento adecuado.
 
-* **Personalization**:
+&#x200B;* **Personalization**:
 
-   * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-content.md#contextual)
-   * No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
+   &#x200B;* Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-content.md#contextual)
+   &#x200B;* No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
 
-* **Configuraciones de canal personalizadas**: las configuraciones de canal que usan la [personalización basada en perfiles](../email/surface-personalization.md) no se pueden usar con campañas de alto rendimiento. Solo se pueden utilizar superficies sin personalización de perfil.
+&#x200B;* **Configuraciones de canal personalizadas**: las configuraciones de canal que usan la [personalización basada en perfiles](../email/surface-personalization.md) no se pueden usar con campañas de alto rendimiento. Solo se pueden utilizar superficies sin personalización de perfil.
 
-* **Extremo de API**: las campañas de alto rendimiento utilizan un extremo diferente que las campañas estándar activadas por API. Para obtener más información, consulte [Ejecutar una campaña desencadenada por API](../campaigns/trigger-campaigns.md#trigger).
+&#x200B;* **Extremo de API**: las campañas de alto rendimiento utilizan un extremo diferente que las campañas estándar activadas por API. Para obtener más información, consulte [Ejecutar una campaña desencadenada por API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Exclusividad de la campaña**: las campañas de alto rendimiento no utilizan perfiles de Adobe. Los mensajes se envían independientemente de si existe o no un perfil.
+&#x200B;* **Exclusividad de la campaña**: las campañas de alto rendimiento no utilizan perfiles de Adobe. Los mensajes se envían independientemente de si existe o no un perfil.
 
   Además, una campaña no se puede usar en casos de uso con y sin perfil. Si necesita ambas, cree dos campañas independientes y asegúrese de que el sistema de llamada decida cuál almacenar en déclencheur en función del contexto.
 
-* **Conjuntos de datos para comentarios y seguimiento**: los datos de comentarios y seguimiento de las campañas de alto rendimiento se almacenan en conjuntos de datos dedicados que no están habilitados para perfiles. Como resultado, estos eventos no se vinculan a perfiles, aunque exista un perfil coincidente.
+&#x200B;* **Conjuntos de datos para comentarios y seguimiento**: los datos de comentarios y seguimiento de las campañas de alto rendimiento se almacenan en conjuntos de datos dedicados que no están habilitados para perfiles. Como resultado, estos eventos no se vinculan a perfiles, aunque exista un perfil coincidente.
 
   Los conjuntos de datos utilizados son:
 
-   * **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
-   * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
+   &#x200B;* **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
+   &#x200B;* **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
 
-* **Asignación de rendimiento**: el rendimiento aprovisionado en el complemento Alto rendimiento está reservado exclusivamente para las campañas de alto rendimiento. No se comparte el rendimiento entre las campañas estándar y las activadas por la API de alto rendimiento.
+&#x200B;* **Asignación de rendimiento**: el rendimiento aprovisionado en el complemento Alto rendimiento está reservado exclusivamente para las campañas de alto rendimiento. No se comparte el rendimiento entre las campañas estándar y las activadas por la API de alto rendimiento.
 
 ## Elección entre campañas de rendimiento estándar y campañas de alto rendimiento
 
@@ -103,18 +103,18 @@ Utilice esta tabla para decidir qué tipo de campaña activada por API se adapta
 
 En otras palabras:
 
-* Elija **API estándar desencadenada** campañas si:
-   * No tiene contratado un rendimiento alto.
-   * Sus necesidades de rendimiento son ≤500 TPS.
-   * Necesita una personalización basada en Perfiles de Adobe.
-   * Desea vincular los datos de campaña a los perfiles para una futura segmentación.
-   * Necesitas mensajes SMS.
+&#x200B;* Elija **API estándar desencadenada** campañas si:
+   &#x200B;* No tiene contratado un rendimiento alto.
+   &#x200B;* Sus necesidades de rendimiento son ≤500 TPS.
+   &#x200B;* Necesita una personalización basada en Perfiles de Adobe.
+   &#x200B;* Desea vincular los datos de campaña a los perfiles para una futura segmentación.
+   &#x200B;* Necesitas mensajes SMS.
 
-* Elija **Alto rendimiento** campañas si:
-   * Necesita rendimiento > 500 TPS.
-   * No es necesario vincular perfiles.
-   * Puede pasar toda la personalización en la carga útil de la API.
-   * Desea utilizar el canal de correo electrónico o push.
+&#x200B;* Elija **Alto rendimiento** campañas si:
+   &#x200B;* Necesita rendimiento > 500 TPS.
+   &#x200B;* No es necesario vincular perfiles.
+   &#x200B;* Puede pasar toda la personalización en la carga útil de la API.
+   &#x200B;* Desea utilizar el canal de correo electrónico o push.
 
 ## Directrices de configuración
 

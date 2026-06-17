@@ -7,7 +7,7 @@ ht-degree: 17%
 ---
 No se concedieron los permisos de la herramienta wiki. Procederé usando la información detallada del ticket en sí, que contiene las especificaciones clave (500 TPS por defecto, 1000/1500 TPS niveles a través de Performance Add-on, Push-solamente, admite aumentos de ráfaga/duración limitada).
 
----
+&#x200B;---
 
 solución: Journey Optimizer
 producto: optimizador de recorrido
@@ -40,7 +40,7 @@ internal-label: Personalization
 
 Este es el archivo Markdown completo actualizado:
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Obtenga información sobre cómo crear una campaña y almacenarla en déclencheu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 La adición clave es la nueva sección **Rendimiento de notificaciones push** (`## Push notification throughput {#push-throughput}`) colocada entre &quot;Acerca de&quot; y &quot;Pasos clave&quot;, que documenta:
 - El TPS 500 predeterminado incluido para todos los clientes
