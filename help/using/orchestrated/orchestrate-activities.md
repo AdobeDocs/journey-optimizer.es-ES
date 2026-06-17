@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ Cuando llegue al final de una rama, puede agregar una actividad **[!UICONTROL En
 
 ## Próximos pasos {#next}
 
-Después de diseñar correctamente el lienzo de campaña orquestada, puede ejecutar la campaña orquestada y realizar un seguimiento del progreso de sus distintas tareas. [Aprenda a iniciar una campaña orquestada y a supervisar su ejecución](start-monitor-campaigns.md)
+Después de agregar actividades de canal al lienzo, [aprenderá a agregar personalización](add-personalization.md) en correos electrónicos, SMS y otros mensajes.
+
+Cuando el lienzo esté listo, ejecute la campaña orquestada y realice un seguimiento del progreso de sus tareas. [Aprenda a iniciar una campaña orquestada y a supervisar su ejecución](start-monitor-campaigns.md)

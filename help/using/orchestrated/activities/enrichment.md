@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +170,11 @@ Finalmente, aplique filtros para asegurarse de que solo se incluyen los registro
 
 1. Haga clic en **[!UICONTROL Confirmar]**.
 
+### Uso de datos de recopilación en la personalización de mensajes {#collection-personalization}
+
+Cuando configura un vínculo de colección con **[!UICONTROL Recopilar datos]** y establece **[!UICONTROL Líneas que se recuperarán (Columnas que se crearán)]** (por ejemplo, `3`), los atributos de enriquecimiento están disponibles en el editor de mensajes en **[!UICONTROL Atributos de destino] > [!UICONTROL Enriquecimiento]**.
+
+➡️ [Aprenda a utilizar datos de colección de enriquecimiento en la personalización](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}
