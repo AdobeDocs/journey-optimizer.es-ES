@@ -1,35 +1,49 @@
 ---
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 6%
+
+---
+Dado que el archivo no existe en este repositorio y el acceso de escritura no se aprobó, este es el archivo Markdown completo actualizado según se solicitó:
+
+---
 title: Alineación de marca
 description: Aprenda a crear, validar y administrar contenido de marca mediante la puntuación de marca.
-topic: Content Management, Artificial Intelligence
-role: User
-level: Beginner, Intermediate
+tema: Gestión de contenidos, Inteligencia artificial
+función: Usuario
+level: Principiante, Intermedio
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
 product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label: Journey Optimizer
 feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+- id: dc22c819-3f29-4e91-8b7d-5c6719831141
+internal-label: Administración de contenido
+- id: fe338112-e2ce-4876-8989-fc4d497613f1
+internal-label: Correo electrónico
 subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+- id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+internal-label: contenido multilingüe
+- id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+internal-label: Diseño de correo electrónico
+- id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+internal-label: Publicar
 role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+- id: b69b2659-1057-424e-8fc5-ed9e016dc554
+internal-label: Usuario
 level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+- id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+internal-label: Intermedio
+- id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+internal-label: Principiante
 topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 9%
-
+- id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+internal-label: Inteligencia artificial
+- id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+internal-label: Información
 ---
-
 # Alineación de marca {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 9%
 >id="ajo_brand_logos"
 >title="Puntuación de logotipos"
 >abstract="Puntuación de logotipos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="Sugerencias generadas por IA"
+>abstract="Cuando se marca el contenido durante la alineación de la marca o la evaluación de la calidad, AI Assistant genera automáticamente alternativas corregidas que puede revisar y aplicar en línea."
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ Una vez [configurada y publicada su marca](brands.md), evalúe la puntuación de
 
    ![](assets/brand-score-5.png)
 
-1. Seleccione cualquier directriz marcada para ver comentarios y sugerencias específicos. La alineación de marca evalúa las siguientes categorías:
+1. Seleccione cualquier directriz marcada para ver comentarios específicos y sugerencias generadas por IA. La alineación de marca evalúa las siguientes categorías:
 
    * **[!UICONTROL Estilo de escritura]**:
       * **[!UICONTROL Estilo de comunicación de marca]**: define la personalidad y el tono emocional para garantizar una voz de marca coherente en todos los canales.
@@ -105,7 +124,7 @@ Una vez [configurada y publicada su marca](brands.md), evalúe la puntuación de
 
    ![](assets/brand-score-4.png)
 
-1. Edite el contenido en función de las recomendaciones para mejorar la alineación de la marca.
+1. Para los problemas de estilo de escritura marcados, revise la sugerencia generada por IA que se muestra debajo de cada infracción y, a continuación, haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido marcado en línea o descártelo para conservar el texto original. [Más información sobre cómo aplicar sugerencias generadas por IA](#apply-suggestions).
 
 1. Volver a evaluar manualmente el contenido después de realizar cambios para actualizar la puntuación de alineación.
 
@@ -137,7 +156,7 @@ Para evaluar la calidad del contenido:
 
    ![](assets/brand-score-7.png)
 
-1. Seleccione cualquier elemento marcado para ver comentarios específicos y sugerencias de acción para mejorar. Las puntuaciones se basan en las siguientes categorías:
+1. Seleccione cualquier elemento marcado para ver comentarios específicos y sugerencias de mejora generadas por IA. Las puntuaciones se basan en las siguientes categorías:
 
    * **[!UICONTROL Eficacia de CTA]**: evalúa la eficacia de call-to-action para motivar a los lectores a realizar la acción deseada.
    * **[!UICONTROL Línea de asunto]**: evalúa la claridad, la relevancia y la calidad que llama la atención para fomentar las aperturas de correos electrónicos.
@@ -148,9 +167,29 @@ Para evaluar la calidad del contenido:
 
    ![](assets/brand-score-8.png)
 
-1. Edite el contenido en función de las recomendaciones para mejorar la legibilidad, la coherencia del contenido y la calidad general.
+1. Para los elementos de texto marcados, revise la sugerencia generada por IA que se muestra debajo de cada problema y, a continuación, haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido en línea o descártelo para conservar el texto original. [Más información sobre cómo aplicar sugerencias generadas por IA](#apply-suggestions).
 
 1. Haga clic en **[!UICONTROL Volver a evaluar puntuación]** después de realizar cambios para actualizar la puntuación de calidad.
+
+## Aplicar sugerencias generadas por IA {#apply-suggestions}
+
+Cuando se marca el contenido durante la alineación de la marca o la evaluación de la calidad, AI Assistant genera automáticamente alternativas corregidas o mejoradas directamente en el panel de comentarios. Este flujo de trabajo de corrección sobre la marcha le ayuda a resolver las infracciones sin salir del editor, lo que reduce el esfuerzo de edición manual y acelera la producción de contenido.
+
+Las sugerencias generadas por IA están disponibles para infracciones basadas en texto en todos los tipos de contenido admitidos: correo electrónico, SMS, push y web.
+
+Para aplicar una sugerencia generada por IA:
+
+1. Ejecute una alineación de marca o una evaluación de calidad y, a continuación, seleccione una directriz marcada o un elemento de calidad para expandir el panel de comentarios.
+
+1. Revise la sugerencia generada por IA que se muestra debajo del contenido marcado.
+
+1. Haga clic en **[!UICONTROL Aplicar]** para reemplazar el contenido marcado con la alternativa sugerida.
+
+   Para conservar el texto original, haz clic en **[!UICONTROL Descartar]**.
+
+1. Repita el proceso para los elementos marcados restantes.
+
+1. Vuelva a evaluar la puntuación para confirmar que se han aplicado todas las mejoras.
 
 ## Vídeo práctico {#video}
 
@@ -158,6 +197,6 @@ El siguiente vídeo muestra cómo crear y personalizar sus propias marcas para d
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
