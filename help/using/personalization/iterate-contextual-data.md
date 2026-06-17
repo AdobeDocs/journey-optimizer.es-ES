@@ -10,12 +10,20 @@ level: Intermediate
 keywords: expresión, editor, handlebars, iteration, array, context, personalization
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 3126
@@ -95,7 +103,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Ejemplo: Elementos de carro de compras de un evento
 
-Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4}), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
+Si el [esquema de evento](../event/experience-event-schema.md) incluye una matriz `productListItems` (formato XDM estándar [4&rbrace;), puede mostrar el contenido del carro de compras como se detalla en el ejemplo siguiente.](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}
 
 +++ Ver código de ejemplo
 
