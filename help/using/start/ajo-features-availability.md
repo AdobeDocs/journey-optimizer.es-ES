@@ -1,21 +1,25 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Disponibilidad de funciones de Journey Optimizer
-description: Una referencia única y consolidada para buscar qué funciones de Adobe Journey Optimizer están disponibles, su estado del ciclo vital (disponibilidad general, disponibilidad limitada o Beta), a qué oferta base se aplican y cuándo se envían, sin hacer referencia a las notas de la versión.
-feature: Get Started
-topic: Content Management
-role: Admin, User
-level: Beginner, Intermediate
-keywords: recorrido optimizer, disponibilidad de funciones, qué está disponible, GA, disponibilidad limitada, versión beta, ciclo vital, fecha de lanzamiento, asignación de derechos, oferta base, campañas, recorridos
-hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '2004'
+ht-degree: 12%
+
+---
+El archivo de fuente de documentación se encuentra en el repositorio de documentos, no en este proyecto de canalización. Dado que las instrucciones indican que se muestre la marca actualizada completa, aquí está:
 
 ---
 
+solución: Journey Optimizer
+producto: optimizador de recorrido
+title: Disponibilidad de funciones de Journey Optimizer
+description: Una referencia única y consolidada para buscar qué funciones de Adobe Journey Optimizer están disponibles, su estado del ciclo vital (disponibilidad general, disponibilidad limitada o Beta), a qué oferta base se aplican y cuándo se envían, sin hacer referencia a las notas de la versión.
+Función: Introducción
+Tema: Administración de contenido
+función: Administrador, Usuario
+level: Principiante, Intermedio
+palabras clave: recorrido optimizer, disponibilidad de funciones, qué está disponible, GA, disponibilidad limitada, beta, ciclo vital, fecha de lanzamiento, derecho, oferta base, campañas, recorridos
+ocultar: true
+---
 
 # Disponibilidad de funciones de Journey Optimizer {#ajo-features-availability}
 
@@ -63,6 +67,7 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 
 | Función | Estado | Se aplica a | Disponible desde | Notas |
 |---------|--------|-----------|-----------------|-------|
+| Optimización del tiempo de envío (STO) para mensajería móvil | Beta | Todas las ofertas base | H2 2026 | Tiempo de envío óptimo por perfil impulsado por IA para SMS, RCS y WhatsApp; disponible en recorridos y campañas |
 | Nuevo canal de mensajes móviles (SMS, MMS, RCS) | GA | Todas las ofertas base | 20 de mayo de 2026 | Unifica SMS/MMS/RCS; creación nativa de RCS (imágenes, carruseles) |
 | Enlaces profundos en el Diseñador de correo electrónico | GA | Todas las ofertas base | 12 de mayo de 2026 | Requiere configuración de aplicación móvil |
 | Optimización del correo electrónico para bandejas de entrada de IA | GA | Todas las ofertas base | 17 de abril de 2026 | Apple Intelligence, Gmail Gemini |
@@ -99,6 +104,7 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 | Actividad de decisión de contenido | GA | Recorridos; Campañas y Recorridos | 10 de febrero de 2026 | Anteriormente LA |
 | Horas tranquilas (exclusiones basadas en el tiempo) | GA | Recorridos; Campañas y Recorridos | 29 de enero de 2026 | Anteriormente LA |
 | Asistente de IA para expresiones de recorrido | Beta | Recorridos; Campañas y Recorridos | 3 de junio de 2026 | Beta público |
+| Optimización del tiempo de envío (STO) para mensajería móvil | Beta | Recorridos; Campañas y Recorridos | H2 2026 | Tiempo de envío óptimo por perfil impulsado por IA para SMS, RCS y WhatsApp; consulte la pestaña Canales |
 | Arbitraje del recorrido | LA | Recorridos; Campañas y Recorridos | 24 de febrero de 2026 | Póngase en contacto con su representante de Adobe |
 | Arbitraje de recorrido: modelos de IA | LA | Recorridos; Campañas y Recorridos | Abril de 2026 | Póngase en contacto con su representante de Adobe |
 | Compatibilidad con la búsqueda de conjuntos de datos en recorridos | LA | Recorridos; Campañas y Recorridos | Marzo de 2026 | Para clientes con derecho a la búsqueda de conjuntos de datos |
@@ -119,6 +125,7 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 | Déclencheur de campañas orquestadas mediante una señal | GA | Campañas; Campañas y Recorridos | Marzo de 2026 | Sigue siendo una campaña por lotes |
 | Categoría transaccional en campañas organizadas | GA | Campañas; Campañas y Recorridos | Marzo de 2026 | Desplegado gradualmente por región |
 | Envío de ondas de mensajes salientes (campañas) | GA | Campañas; Campañas y Recorridos | 19 de febrero de 2026 | LA en recorridos |
+| Optimización del tiempo de envío (STO) para mensajería móvil | Beta | Campañas; Campañas y Recorridos | H2 2026 | Tiempo de envío óptimo por perfil impulsado por IA para SMS, RCS y WhatsApp; consulte la pestaña Canales |
 | Campañas por lotes | GA | Campañas; Campañas y Recorridos | Capacidad principal | Envíos programados y basados en audiencias |
 | Campañas organizadas (flujos de trabajo de varios pasos) | GA | Campañas; Campañas y Recorridos | Capacidad principal | correo electrónico, SMS, push, solo correo directo |
 | Mensajería transaccional | GA | Todas las ofertas base | Capacidad principal | correo electrónico, push, SMS; incluido con cada oferta base |
@@ -197,3 +204,7 @@ Todas las características de Decisioning requieren el complemento **Decisioning
 - **Comprenda qué hay en su paquete** — [Paquetes y capacidades](ajo-packages.md)
 - **Ver todo lo enviado** — [Notas de la versión](../rn/release-notes.md) | [Notas de la versión de 2026](../rn/release-notes-2026.md)
 - **Introducción** — [Introducción a Journey Optimizer](get-started.md)
+
+---
+
+Se agregaron tres filas (una en cada una de las fichas **Canales**, **Recorridos** y **Campañas**) siguiendo el mismo patrón de fichas cruzadas usado para el envío de ondas. La característica está marcada **Beta / H2 2026**, ya que el ticket se dirige al segundo semestre de 2026 y la funcionalidad aún no es GA. La pestaña Canales lleva la descripción autorizada; las filas Recorridos y Campañas son breves referencias cruzadas que señalan a los lectores a la pestaña Canales para obtener más detalles.
