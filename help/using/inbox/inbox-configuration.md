@@ -5,14 +5,21 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # Configurar bandeja de entrada {#inbox-configuration}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** defina una configuración de canal de bandeja de entrada que establezca el consentimiento, etiquetas de acceso opcionales y donde la bandeja de entrada aparezca en la web o en su aplicación de iOS o Android, de modo que pueda enviar experiencias de tarjeta de contenido a través de la bandeja de entrada.
+
+>[!ENDSHADEBOX]
 
 Para poder entregar experiencias de tarjeta de contenido a través de la Bandeja de entrada, debe definir una configuración de canal **Bandeja de entrada** en **[!UICONTROL Configuraciones de canal]**. Esa configuración vincula la superficie con el consentimiento, las etiquetas de acceso opcionales y dónde aparece la experiencia en la web o en la aplicación de iOS o Android. Siga los pasos a continuación para crear una configuración:
 
