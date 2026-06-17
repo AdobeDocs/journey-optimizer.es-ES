@@ -1,32 +1,77 @@
 ---
+source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 17%
+
+---
+No se concedieron los permisos de la herramienta wiki. Procederé usando la información detallada del ticket en sí, que contiene las especificaciones clave (500 TPS por defecto, 1000/1500 TPS niveles a través de Performance Add-on, Push-solamente, admite aumentos de ráfaga/duración limitada).
+
+---
+
+solución: Journey Optimizer
+producto: optimizador de recorrido
+title: Trabajo con campañas activadas por API
+description: Descubra cómo almacenar en déclencheur las campañas de mediante las API de Journey Optimizer.
+Función: Campañas, API
+Tema: Administración de contenido
+función: Desarrollador
+level: Con experiencia
+palabras clave: campañas, activadas por API, REST, optimizador, mensajes
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+TQID: https://experienceleague.adobe.com/DNNZWQjgdcranVpuJV9WCKW8RRENVJ6iZnIt1k-Easc
+product_v2:
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label: Journey Optimizer
+feature_v2:
+- id: a653cc2e-bc85-4353-a306-399e5b247978
+internal-label: campañas de Journey Optimizer
+subfeature_v2:
+- id: f7479fa1-474b-479d-8c98-f6cee5865a38
+internal-label: campañas activadas por API
+- id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+internal-label: Administración de campañas
+role_v2:
+- id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+internal-label: Desarrollador
+topic_v2:
+- id: e0eb8757-182f-49f3-94a4-1587d16f5094
+internal-label: Personalization
+
+Este es el archivo Markdown completo actualizado:
+
+---
+
+```
 solution: Journey Optimizer
 product: journey optimizer
-title: Trabajo con campañas activadas por API
-description: Obtenga información sobre cómo almacenar en déclencheur las campañas mediante las API de Journey Optimizer.
+title: Work with API triggered campaigns
+description: Learn how to trigger campaigns using Journey Optimizer APIs.
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
-keywords: campañas, activadas por API, REST, optimizador, mensajes
+keywords: campaigns, API-triggered, REST, optimizer, messages
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 TQID: https://experienceleague.adobe.com/DNNZWQjgdcranVpuJV9WCKW8RRENVJ6iZnIt1k-Easc
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+    internal-label: API triggered campaigns
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+    internal-label: Campaign management
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
-workflow-type: tm+mt
-source-wordcount: 322
-ht-degree: 34%
-
----
+    internal-label: Personalization
+```
 
 # Trabajo con campañas activadas por API {#trigger-campaigns}
 
@@ -55,6 +100,26 @@ Para ello, primero debe crear una campaña activada por API en Journey Optimizer
 >
 >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
+## Rendimiento de notificaciones push {#push-throughput}
+
+De manera predeterminada, las campañas activadas por API admiten hasta **500 transacciones por segundo (TPS)** para la entrega de notificaciones push. Las organizaciones con requisitos de mensajería operativa de gran volumen pueden aumentar este límite con el **complemento de rendimiento**.
+
+El complemento Rendimiento proporciona dos niveles de rendimiento más altos para las notificaciones push:
+
+| Nivel | Rendimiento |
+|------|-----------|
+| Estándar | 500 TPS (incluidos para todos los clientes) |
+| Complemento de rendimiento - Nivel 1 | 1.000 TPS |
+| Complemento de rendimiento - Nivel 2 | 1.500 TPS |
+
+Un mayor rendimiento está disponible como un aumento contractual permanente y por una duración **limitada** para admitir escenarios temporales de gran volumen, como lanzamientos de productos o campañas a gran escala.
+
+>[!NOTE]
+>
+>Los niveles de rendimiento aumentados se aplican al **canal de notificaciones push solamente** para campañas activadas por API. Los canales de correo electrónico y SMS no están en el ámbito de este complemento.
+>
+>Póngase en contacto con el equipo de su cuenta de Adobe para habilitar un nivel de rendimiento más alto para su organización.
+
 ## Pasos clave para la creación de campañas activadas por API {#steps}
 
 Antes de comenzar con las campañas, compruebe los siguientes requisitos previos enumerados [en esta sección](get-started-with-campaigns.md#prerequisites). Una vez cumplidos estos requisitos previos, puede empezar a crear la campaña:
@@ -73,4 +138,13 @@ Obtenga más información sobre [completar el flujo de trabajo de creación de c
 
 Obtenga información sobre cómo crear una campaña y almacenarla en déclencheur desde un sistema externo basado en las interacciones del usuario, mediante la API de REST de ejecución de mensaje interactivo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452728?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+
+---
+
+La adición clave es la nueva sección **Rendimiento de notificaciones push** (`## Push notification throughput {#push-throughput}`) colocada entre &quot;Acerca de&quot; y &quot;Pasos clave&quot;, que documenta:
+- El TPS 500 predeterminado incluido para todos los clientes
+- Los dos niveles del complemento Rendimiento (1000 y 1500 TPS)
+- La compatibilidad con aumentos permanentes y de duración limitada
+- Ámbito limitado solo al canal push
+- Una nota que dirige a los clientes a su equipo de cuenta de Adobe
