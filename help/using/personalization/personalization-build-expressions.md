@@ -10,12 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e51e8901-97d9-4f7d-a835-503025a90e32id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 1592
 ht-degree: 11%
@@ -92,7 +89,7 @@ Puede agregar personalización al usar contenido de tipo texto en las representa
 El panel de navegación permite seleccionar el origen de la personalización. Los orígenes disponibles son:
 
 * **[!UICONTROL Atributos de perfil]** : enumera todas las referencias asociadas al esquema de perfil que se describen en [Documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}.
-* **[!UICONTROL Atributos de destino]**: esta carpeta es específica para campañas orquestadas. Contiene atributos calculados directamente dentro del lienzo de la campaña. [Aprenda a agregar personalización en campañas organizadas](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL Atributos de destino]**: esta carpeta es específica para campañas orquestadas. Contiene atributos calculados directamente dentro del lienzo de la campaña. [Aprenda a agregar personalización en campañas organizadas](../orchestrated/add-personalization.md)
 * **[!UICONTROL Audiencias]** : enumera todas las audiencias creadas en el servicio de segmentación de Adobe Experience Platform. Obtenga más información en la [documentación de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 * **[!UICONTROL Decisiones de oferta]** : enumera todas las ofertas asociadas a una ubicación específica. Seleccione la ubicación e inserte las ofertas en el contenido. Para obtener una documentación completa sobre cómo administrar ofertas, consulte [esta sección](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Atributos contextuales]**: cuando se utiliza una actividad de acción del canal (correo electrónico, push, SMS) en un recorrido o una campaña, los atributos contextuales relacionados con eventos y propiedades están disponibles para personalización. En [esta sección](personalization-use-case.md) se presenta un ejemplo de personalización que aprovecha atributos contextuales. Además, se pueden utilizar respuestas de acción personalizadas para la personalización. [Aprenda a utilizar respuestas de acción personalizadas en canales nativos](../action/action-response.md#response-in-channels).

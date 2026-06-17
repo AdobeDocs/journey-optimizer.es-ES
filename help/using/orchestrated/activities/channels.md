@@ -6,19 +6,14 @@ description: Obtenga información sobre cómo añadir una actividad de canal en 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 37%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +78,7 @@ Mediante las actividades del canal, puede crear campañas completas y personaliz
 
 * **Canales compatibles**: en las campañas orquestadas solo se admiten los canales de SMS, Push, Correo electrónico y Correo directo.
 
-* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite; las actividades de segmentación y control de flujo no lo hacen.
+* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite, la segmentación y las actividades de control de flujo no lo hacen.
 
   Si se supera el límite al guardar o publicar, se produce un error en la operación. Para permanecer dentro del límite, reduzca el número de actividades de canal o la entrega de mensajes divididos en varias campañas orquestadas.
 
@@ -183,25 +178,11 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td>
 </tr></table>
 
-### Adición de personalización
+### Adición de personalización {#add-personalization}
 
-Personalization en campañas orquestadas funciona de manera similar a otras [!DNL Journey Optimizer] campañas o recorridos, con algunas diferencias clave específicas del lienzo orquestado.
+Desde el editor de mensajes en una actividad de canal, inserte **[!UICONTROL atributos de perfil]** y **[!UICONTROL atributos de destino]** de la tabla de trabajo de campaña (dimensión de segmentación y datos de enriquecimiento).
 
-Al acceder al editor de personalización desde una campaña orquestada, dos carpetas principales contienen atributos disponibles para la personalización que se detallan a continuación.
-
-* **[!UICONTROL Atributos de perfil]**
-
-  Esta carpeta incluye todos los datos relacionados con el perfil de [!DNL Adobe Experience Platform]. Son atributos estándar como nombre, dirección de correo electrónico, ubicación o cualquier otro rasgo capturado en el perfil del usuario.
-
-* **[!UICONTROL Atributos de destino]** (específicos de campañas orquestadas)
-
-  Esta carpeta es única para las campañas orquestadas. Contiene atributos calculados directamente dentro del lienzo de la campaña. Contiene dos subcarpetas:
-
-   * **`<Targeting dimension>`** (por ejemplo, &quot;Destinatarios&quot;, &quot;Compras&quot;): Contiene todos los atributos relacionados con la dimensión objetivo de la campaña.
-
-   * **`Enrichment`**: incluye datos agregados mediante actividades **[!UICONTROL Enrichment]** en el lienzo. Esto le permite personalizar mensajes en función de conjuntos de datos externos o lógica adicional incorporada durante la orquestación. [Aprenda a utilizar una actividad de enriquecimiento](../activities/enrichment.md)
-
-Para obtener información detallada sobre cómo usar el editor de personalización, consulte [Introducción a la personalización](../../personalization/personalize.md).
+➡️ [Aprenda a agregar personalización en campañas orquestadas](../add-personalization.md), incluidas matrices de recopilación de enriquecimiento, funciones de matriz e iteración `{{#each}}`.
 
 ### Comprobación y prueba del contenido {#simulate-content-test-profiles}
 
