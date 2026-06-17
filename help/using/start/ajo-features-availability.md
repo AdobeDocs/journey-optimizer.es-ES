@@ -7,7 +7,7 @@ ht-degree: 12%
 ---
 El archivo de fuente de documentación se encuentra en el repositorio de documentos, no en este proyecto de canalización. Dado que las instrucciones indican que se muestre la marca actualizada completa, aquí está:
 
----
+&#x200B;---
 
 solución: Journey Optimizer
 producto: optimizador de recorrido
@@ -205,6 +205,6 @@ Todas las características de Decisioning requieren el complemento **Decisioning
 - **Ver todo lo enviado** — [Notas de la versión](../rn/release-notes.md) | [Notas de la versión de 2026](../rn/release-notes-2026.md)
 - **Introducción** — [Introducción a Journey Optimizer](get-started.md)
 
----
+&#x200B;---
 
 Se agregaron tres filas (una en cada una de las fichas **Canales**, **Recorridos** y **Campañas**) siguiendo el mismo patrón de fichas cruzadas usado para el envío de ondas. La característica está marcada **Beta / H2 2026**, ya que el ticket se dirige al segundo semestre de 2026 y la funcionalidad aún no es GA. La pestaña Canales lleva la descripción autorizada; las filas Recorridos y Campañas son breves referencias cruzadas que señalan a los lectores a la pestaña Canales para obtener más detalles.
