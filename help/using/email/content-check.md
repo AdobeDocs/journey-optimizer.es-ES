@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, comprobación de contenido, HTML, CSS, validación, procesamiento, calidad
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# Comprobación de contenido en el Designer de correo electrónico {#content-checks}
+# Comprobación de contenido en el Designer de correo electrónico {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Comprobaciones de contenido"
->abstract="Detecte y corrija los problemas de HTML y CSS en el correo electrónico antes de enviarlo. Las comprobaciones cubren las etiquetas no admitidas, los divs vacíos y los umbrales de tamaño que almacenan en déclencheur los errores de procesamiento en Gmail o Microsoft Outlook. Los problemas aparecen como errores, advertencias o avisos informativos."
+>title="Validación del contenido del correo electrónico"
+>abstract="Las comprobaciones de contenido detectan automáticamente los problemas de HTML y CSS en el correo electrónico antes de enviarlo. Indican etiquetas no admitidas, divs vacíos y límites de tamaño que pueden interrumpir el procesamiento en Gmail o Microsoft Outlook. Los problemas aparecen como errores, advertencias o avisos informativos, con detalles contextuales y correcciones con un solo clic cuando están disponibles."
 
 [!DNL Journey Optimizer] incluye validación técnica automatizada directamente en el Designer de correo electrónico, lo que le ayuda a detectar problemas de HTML y CSS antes de enviarlos.
 
