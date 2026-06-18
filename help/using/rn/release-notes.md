@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
-ht-degree: 26%
+source-wordcount: 3646
+ht-degree: 27%
 
 ---
 
@@ -340,12 +328,31 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 
   Fecha de disponibilidad: 1 de junio de 2026
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
+<table>
+<thead>
+<tr>
+<th><strong>Texto enriquecido en campos editables para fragmentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede añadir texto enriquecido a fragmentos personalizables que se utilizan en el contenido de los correos electrónicos.</p>
+<p>Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>Para obtener más información, consulte la <a href="../content-management/customizable-fragments.md#rich-text-visual">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: finales de junio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Comprobaciones de calidad del contenido en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Comprobación de contenido en el Designer de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +377,6 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 <td>
 <p>Journey Optimizer ahora incluye una opción para reducir el tamaño del HTML del correo electrónico eliminando los espacios en blanco, los comentarios y el código redundante innecesarios, sin afectar al procesamiento del correo electrónico.</p>
 <p>Esto puede mejorar la capacidad de entrega al evitar los umbrales de tamaño que algunos proveedores de correo electrónico utilizan para marcar o rechazar mensajes y puede reducir el tiempo de carga de los destinatarios.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Texto enriquecido en campos editables para fragmentos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede añadir texto enriquecido a fragmentos personalizables que se utilizan en el contenido de los correos electrónicos.</p>
-<p>Por ejemplo, al utilizar el componente Texto como campo editable en el Designer de correo electrónico, puede dar formato directamente al contenido (por ejemplo, negrita y cursiva) e insertar hipervínculos.</p>
 </td>
 </tr>
 </tbody>

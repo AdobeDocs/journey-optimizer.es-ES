@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +22,8 @@ ht-degree: 96%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* Las referencias a **Adobe Experience Cloud** se han alineado con la marca **[!DNL Adobe CX Enterprise]** en la documentación de [!DNL Journey Optimizer].
 
 * La página **Introducción a la entrega** se ha actualizado con una nueva subsección **Proveedores sin FBL** por destinatario. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
 
@@ -40,6 +38,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La documentación de **Encabezados de remitente** ahora aclara que **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Correo electrónico del remitente]** deben estar establecidos o ambos vacíos, de lo contrario, no se pueden publicar recorridos y campañas. [Más información](../email/header-parameters.md#sender-header)
 
 ## Mayo de 2026 {#may-2026}
+
+* Las limitaciones y prácticas recomendadas al usar contenido dinámico en fragmentos visuales se han combinado en una sola sección **Administrar contenido condicional en fragmentos** para mejorar la legibilidad. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se han añadido dos nuevos permisos de alto nivel: **Administrar registro de claves**, que permite a los usuarios ver, crear, rotar y revocar claves del registro de claves, y **Ver registro de claves**, que permite a los usuarios ver la lista del registro de claves y los detalles de las claves. [Más información](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +300,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una nueva sección a la documentación de integración de las versiones 7 y 8 de Campaign que explica cómo actualizar las acciones personalizadas existentes cuando cambia el punto final en tiempo real (RT). La sección incluye instrucciones paso a paso para actualizar la URL del punto final, probar la conexión y validar los cambios antes de guardar. [Más información](../action/acc-action.md#update-action)
 
-* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos con contenido dinámico dentro de otros fragmentos desbloqueados con contenido dinámico. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos que contienen contenido condicional dentro de otros fragmentos desbloqueados con contenido condicional. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se ha añadido una sección de resolución de problemas a la documentación de creación de informes en tiempo real del recorrido para ayudar a los usuarios a solucionar los problemas relacionados con la falta de datos en los informes. La sección abarca la sincronización del nombre del recorrido con conjuntos de datos de creación de informes, temporización de actualización de datos, verificación de permisos de acceso y requisitos de estado de recorrido. [Más información](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -652,7 +652,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -682,7 +682,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -757,7 +757,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -885,7 +885,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
