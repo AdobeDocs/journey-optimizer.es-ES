@@ -8,29 +8,15 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2652
+source-wordcount: 2650
 ht-degree: 98%
 
 ---
@@ -59,7 +45,7 @@ Utilice esta guía junto con sus ingenieros de datos, administradores y especial
 
 ## Cómo utiliza Journey Optimizer los datos de Adobe Experience Platform {#aep-data}
 
-[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras aplicaciones de Experience Cloud.
+[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras [!DNL CX Enterprise] aplicaciones.
 
 Los esquemas y conjuntos de datos se encuentran en Adobe Experience Platform. El servicio de identidad y el servicio de perfil administran las identidades y el [perfil del cliente en tiempo real](../audience/get-started-profiles.md). Journey Optimizer lee datos de perfil y evento de Adobe Experience Platform para evaluar las condiciones del recorrido, personalizar los mensajes y seleccionar ofertas. Escribe datos de interacción (como eventos de envío, apertura, clics y rechazos, y eventos de pasos de recorrido) en conjuntos de datos de Experience Platform. También puede buscar conjuntos de datos adicionales durante la ejecución sin copiar esos datos en el perfil.
 
@@ -242,7 +228,7 @@ Este flujo ilustra cómo los esquemas, conjuntos de datos, fuentes, fuentes de d
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Introducción a los esquemas**
 
@@ -252,7 +238,7 @@ Aprenda a crear esquemas XDM en Adobe Experience Platform, elegir la clase y los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Trabajar con conjuntos de datos**
 
@@ -262,7 +248,7 @@ Obtenga información sobre cómo crear conjuntos de datos de evento y habilitado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Configuración de fuentes de datos**
 
@@ -272,7 +258,7 @@ Instrucciones paso a paso sobre la configuración de la fuente de datos integrad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Uso de datos de Adobe Experience Platform**
 
@@ -282,7 +268,7 @@ Descubra cómo enriquecer mensajes en tiempo de ejecución con datos de referenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Introducción a las consultas**
 
@@ -292,7 +278,7 @@ Utilice el servicio de consultas para analizar conjuntos de datos de Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Introducción a los perfiles**
 
@@ -302,7 +288,7 @@ Explore cómo funciona el perfil del cliente en tiempo real en Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Configuración de datos: información general**
 
@@ -312,7 +298,7 @@ Un tutorial en vídeo para principiantes de la configuración de datos en Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Creación de conjuntos e ingesta de datos**
 
