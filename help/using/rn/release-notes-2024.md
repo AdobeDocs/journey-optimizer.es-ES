@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +764,7 @@ Esta versión incorpora las nuevas funciones que se indican a continuación.
 <tbody>
 <tr>
 <td>
-<p>El asistente de IA es una función de la interfaz de usuario que se puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas de su entorno específico. Está disponible en varios productos de Adobe Experience Cloud, incluido Adobe Journey Optimizer.</p>
+<p>El asistente de IA es una función de la interfaz de usuario que puede utilizar para navegar, comprender los conceptos de Adobe y obtener perspectivas operativas para su entorno específico. Está disponible en varios productos de [!DNL Adobe CX Enterprise], incluido Adobe Journey Optimizer.</p>
 <p>Para obtener más información, consulte la <a href="../start/ai-features.md#ai-assistant">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -1043,7 +1043,7 @@ Desde la versión beta hasta esta, se han añadido las siguientes mejoras:
 
 **Globalización**
 
-Como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y aplicaciones de Adobe Experience Cloud. Esto afecta al término alemán “Titel”, que se cambia por “Label” cuando se refiere al nombre de un objeto. Los cambios se irán introduciendo progresivamente en la IU y la documentación.
+Como parte de nuestro esfuerzo continuo por ofrecer una experiencia de usuario unificada, armonizamos la terminología utilizada en los productos y aplicaciones de [!DNL Adobe CX Enterprise]. Esto afecta al término alemán “Titel”, que se cambia por “Label” cuando se refiere al nombre de un objeto. Los cambios se irán introduciendo progresivamente en la IU y la documentación.
 
 
 ## Versión de abril de 2024 {#apr-2024}

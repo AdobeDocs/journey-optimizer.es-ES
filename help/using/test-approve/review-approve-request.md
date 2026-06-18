@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 374
 ht-degree: 3%
 
 ---
@@ -67,4 +67,4 @@ Después de enviar la solicitud, se notifica al creador de la recorrido/campaña
 
 >[!NOTE]
 >
-> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en los perfiles de Experience Cloud. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)
+> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en el perfil [!DNL CX Enterprise]. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)

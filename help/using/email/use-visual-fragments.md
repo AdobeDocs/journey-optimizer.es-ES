@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1236
 ht-degree: 1%
 
 ---
@@ -90,43 +90,38 @@ Para utilizar un fragmento en un correo electrónico, siga los pasos a continuac
 1. En la ficha **[!UICONTROL Configuración]**, puede:
 
    * Elija los dispositivos en los que desea que se muestre el fragmento.
-   * Abra el fragmento en una nueva pestaña para editarlo si es necesario. [Más información](../content-management/fragments.md#fragments)
+   * Abra el fragmento en una nueva pestaña y edítelo si es necesario. [Más información](../content-management/manage-fragments.md#edit-fragments)
    * Explore las referencias. [Más información](../content-management/fragments.md#visual-expression)
-
-1. Puede personalizar aún más el fragmento mediante la ficha **[!UICONTROL Estilos]**.
 
 1. Si es necesario, puede romper la herencia con el fragmento original. [Más información](#break-inheritance)
 
+   Una vez desbloqueado, puede personalizar aún más el fragmento como cualquier otro componente y utilizar la pestaña **[!UICONTROL Estilos]**.
+
 1. Agregue tantos fragmentos como desee y **[!UICONTROL guarde]** sus cambios.
 
-### Limitaciones al utilizar contenido dinámico en fragmentos {#fragment-dynamic-content}
+## Administración de contenido condicional en fragmentos {#fragment-dynamic-content}
+
+Cuando trabaje con fragmentos visuales que contengan contenido condicional, siga estas directrices. [Más información sobre el contenido dinámico](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->Al trabajar con fragmentos que contienen contenido dinámico (contenido condicional), tenga en cuenta la siguiente limitación:
+>**No se admite el anidamiento de fragmentos con contenido condicional.** No puede colocar un fragmento que contenga contenido condicional dentro de un fragmento desbloqueado que también contenga contenido condicional. Esta configuración no admitida puede provocar lo siguiente:
 >
->**No se admite el anidamiento de fragmentos con contenido dinámico.** No puede colocar un fragmento que contenga contenido dinámico dentro de un fragmento desbloqueado que también contenga contenido dinámico. Esta configuración no admitida puede provocar lo siguiente:
->
->* Pérdida de asignaciones de contenido condicional
+>* Pérdida de asignaciones de variante de contenido condicional
 >* Advertencias del modo de compatibilidad en el Designer de correo electrónico
 >* Renderización incoherente del correo electrónico
->
->**Enfoque recomendado:** Al usar varios fragmentos con contenido dinámico en el correo electrónico, agregue cada fragmento directamente a su propio bloque de estructura en el nivel de correo electrónico. Esto garantiza la funcionalidad adecuada y evita los problemas mencionados anteriormente.
 
-## Prácticas recomendadas para fragmentos con contenido dinámico {#fragment-best-practices}
+**Estructurar correctamente el correo electrónico:** Cuando utilice varios fragmentos con contenido condicional, agregue cada fragmento directamente a su propio bloque de estructura en el nivel de correo electrónico. Evite anidar fragmentos con contenido condicional dentro de otros fragmentos desbloqueados que también tengan contenido condicional.
 
-Siga estas prácticas recomendadas al trabajar con fragmentos visuales y contenido dinámico (contenido condicional):
+**Planifique con anticipación:** Antes de agregar fragmentos a su correo electrónico, identifique cuáles contienen contenido condicional y planifique su diseño en consecuencia. Esto ayuda a evitar problemas de configuración y garantiza una estructura limpia desde el principio.
 
-* **Estructurar el correo electrónico correctamente**: al crear correos electrónicos con fragmentos que contienen contenido dinámico, agregue cada fragmento a un bloque de estructura dedicado en el nivel de correo electrónico. Evite anidar fragmentos con contenido dinámico dentro de otros fragmentos desbloqueados que también contengan contenido dinámico.
+**Diseñe fragmentos reutilizables con cuidado:** Cuando cree fragmentos que incluirán contenido condicional, considere cómo se utilizarán. Si un fragmento necesita estar anidado dentro de otros fragmentos, evite añadir contenido condicional a los fragmentos principal y secundario.
 
-* **Planifique con anticipación**: antes de agregar fragmentos a su correo electrónico, identifique cuáles contienen contenido dinámico y planifique su diseño en consecuencia. Esto ayuda a evitar problemas de configuración y garantiza una estructura limpia desde el principio.
+**Solución de problemas:** Si experimenta la pérdida de asignaciones de variantes de contenido condicional o advertencias de modo de compatibilidad, siga los pasos a continuación.
 
-* **Diseñe fragmentos reutilizables con cuidado**: al crear fragmentos que incluirán contenido dinámico, considere cómo se utilizarán. Si es necesario anidar un fragmento dentro de otros fragmentos, evite agregar contenido dinámico a los fragmentos principal y secundario.
-
-* **Solución de problemas**: Si experimenta la pérdida de asignaciones de contenido condicional o advertencias del modo de compatibilidad:
-   * Compruebe la estructura del correo electrónico en busca de fragmentos anidados que contengan contenido dinámico
-   * Reestructurar moviendo cada fragmento con contenido dinámico a su propio bloque de estructura en el nivel de correo electrónico
-   * Guarde y compruebe que las asignaciones de contenido condicional se restauran correctamente
+* Compruebe la estructura de su correo electrónico en busca de fragmentos anidados que contengan contenido condicional
+* Reestructurar moviendo cada fragmento con contenido condicional a su propio bloque de estructura en el nivel de correo electrónico
+* Guarde y compruebe que las variantes de contenido condicional se restauran correctamente
 
 ## Uso de variables implícitas {#implicit-variables-in-fragments}
 
@@ -136,25 +131,45 @@ Aprenda a utilizar variables implícitas en [esta sección](../personalization/u
 
 ## Personalizar campos editables {#customize-fields}
 
-Si ciertas partes del fragmento seleccionado se han hecho editables, puede anular su valor predeterminado después de agregar el fragmento al contenido. [Aprenda a personalizar los fragmentos](../content-management/customizable-fragments.md)
+Si ciertas partes del fragmento seleccionado se han hecho editables, puede anular su valor predeterminado después de agregar el fragmento al contenido. [Aprenda a personalizar un fragmento](../content-management/customizable-fragments.md)
 
-Para personalizar los campos editables en un fragmento, siga estos pasos:
+Para personalizar campos editables en un fragmento utilizado en un correo electrónico, siga estos pasos.
 
-1. Añada el fragmento al contenido.
+1. Agregue un fragmento personalizable al contenido del correo electrónico y selecciónelo para abrir el panel **[!UICONTROL Fragmento]** en el lado derecho.
 
-1. Selecciónelo para abrir el panel de propiedades en el lado derecho.
+1. Todos los campos editables del fragmento se muestran en la ficha **[!UICONTROL Configuración]**, en las propiedades del fragmento.
 
-   Todos los campos editables del fragmento se muestran en la ficha **Configuración**, en la sección **Fragmento**.
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. Al seleccionar un campo editable en el panel derecho, se resalta en verde en el panel de vista previa central, lo que facilita la identificación de su ubicación en el contenido.
+1. Pase el ratón sobre cualquier campo editable del lienzo central. El campo se resalta en verde y aparece un icono de lápiz al hacer clic en el texto que contiene.
 
-   En el ejemplo siguiente, se puede editar la imagen **source** y **texto alternativo**, así como el botón &quot;Hacer clic aquí&quot; **URL**.
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. Edite el texto del campo en línea directamente en el lienzo central de Designer de correo electrónico.
+
+   >[!NOTE]
+   >
+   >Para localizar fácilmente los campos editables en el contenido, también puede seleccionarlos en el panel derecho, pero solo puede editar estos campos en el lienzo central.
+
+1. Para los componentes **[!UICONTROL Texto]**, **[!UICONTROL Botón]** y **[!UICONTROL Html]**, la barra de herramientas de Designer de correo electrónico también proporciona acceso a las opciones de formato de texto enriquecido: negrita, cursiva, hipervínculos, etc.
+
+   ![Opciones de formato de texto enriquecido en la barra de herramientas de Designer de correo electrónico](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >Los fragmentos creados antes de que se introdujera la capacidad de edición de texto enriquecido tienen campos editables configurados en modo de solo texto de forma predeterminada. Para habilitar las opciones de formato completas, ve al editor de fragmentos con el botón **[!UICONTROL Abrir fragmento]**, haz clic en **[!UICONTROL Habilitar]** para desbloquear el modo de texto enriquecido y **[!UICONTROL Guardar]** el fragmento. [Más información](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. En el ejemplo siguiente, se puede editar el origen de la imagen y el texto alternativo, así como los campos &quot;Título&quot;/&quot;Subtítulo&quot; y la URL del botón &quot;Más información&quot;.
+
+   ![](assets/fragment-editable-fields.png)
+
+1. Puede hacer clic en **[!UICONTROL Simular contenido]** para ver cómo se representan el contenido editable y el estilo. [Más información sobre la vista previa del contenido](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->Cuando la **etiqueta** y la **URL** de un componente de botón se hacen editables en un fragmento, los informes de seguimiento muestran la URL en lugar de la etiqueta de botón. [Más información sobre el seguimiento](../email/message-tracking.md)
+>Cuando la **etiqueta** y la **URL** de un componente de botón se hacen editables en un fragmento, los informes de seguimiento muestran la URL en lugar de la etiqueta de botón. [Más información sobre el seguimiento](message-tracking.md)
 
 ## Romper herencia {#break-inheritance}
 

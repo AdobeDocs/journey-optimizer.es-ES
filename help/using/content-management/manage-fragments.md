@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1559
 ht-degree: 18%
 
 ---
@@ -181,7 +181,7 @@ Para editar un fragmento, siga los pasos a continuación.
    >
    >Al editar un fragmento publicado, puede eliminar cualquier campo de personalización, pero no puede añadir nuevos al contenido del fragmento. Si desea agregar atributos personalizados, debe duplicar el fragmento. [Más información](#adding-new-attributes)
 
-1. Una vez que los cambios estén listos, guárdelos y haga clic en el botón **[!UICONTROL Publicar]** para activar las modificaciones. [Más información](create-fragments.md#publish)
+1. Una vez que los cambios estén listos, guárdelos, vuelva a la pantalla de detalles del fragmento y haga clic en el botón **[!UICONTROL Publicar]** para activar las modificaciones. [Más información](create-fragments.md#publish)
 
 Al editar un fragmento, los cambios se propagan automáticamente a todo el contenido mediante ese fragmento, incluidos los recorridos activos y las campañas, excepto en el caso del contenido en el que se ha roto la herencia del fragmento original.
 

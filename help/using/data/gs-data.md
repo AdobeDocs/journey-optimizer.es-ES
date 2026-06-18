@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2652
+source-wordcount: 2650
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Utilice esta guía junto con sus ingenieros de datos, administradores y especial
 
 ## Cómo utiliza Journey Optimizer los datos de Adobe Experience Platform {#aep-data}
 
-[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras aplicaciones de Experience Cloud.
+[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras [!DNL CX Enterprise] aplicaciones.
 
 Los esquemas y conjuntos de datos se encuentran en Adobe Experience Platform. El servicio de identidad y el servicio de perfil administran las identidades y el [perfil del cliente en tiempo real](../audience/get-started-profiles.md). Journey Optimizer lee datos de perfil y evento de Adobe Experience Platform para evaluar las condiciones del recorrido, personalizar los mensajes y seleccionar ofertas. Escribe datos de interacción (como eventos de envío, apertura, clics y rechazos, y eventos de pasos de recorrido) en conjuntos de datos de Experience Platform. También puede buscar conjuntos de datos adicionales durante la ejecución sin copiar esos datos en el perfil.
 

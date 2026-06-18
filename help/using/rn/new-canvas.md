@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ En la siguiente captura de pantalla, puede ver la interfaz de usuario rediseñad
 
 ## Diseño de lienzo de recorrido mejorado
 
-Con el nuevo modelo de recorrido presentamos una nueva y mejorada **interfaz de usuario de lienzo de recorrido**, que se adapta perfectamente al ecosistema de aplicaciones y soluciones de Adobe Experience Cloud, para ofrecer una experiencia de usuario intuitiva y eficiente. Cualquier recorrido en el nuevo modelo estará en ese nuevo diseño.
+Con el nuevo modelo de recorrido, presentamos una nueva y mejorada **interfaz de usuario de lienzo de recorrido**, que se adapta perfectamente al ecosistema de aplicaciones y soluciones de [!DNL Adobe CX Enterprise], para ofrecer una experiencia de usuario intuitiva y eficiente. Cualquier recorrido en el nuevo modelo estará en ese nuevo diseño.
 
 ![](assets/new-canvas3.gif)
 

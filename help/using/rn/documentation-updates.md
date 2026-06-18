@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* Las referencias a **Adobe Experience Cloud** se han alineado con la marca **[!DNL Adobe CX Enterprise]** en la documentación de [!DNL Journey Optimizer].
 
 * La página **Introducción a la entrega** se ha actualizado con una nueva subsección **Proveedores sin FBL** por destinatario. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
 
@@ -40,6 +42,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La documentación de **Encabezados de remitente** ahora aclara que **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Correo electrónico del remitente]** deben estar establecidos o ambos vacíos, de lo contrario, no se pueden publicar recorridos y campañas. [Más información](../email/header-parameters.md#sender-header)
 
 ## Mayo de 2026 {#may-2026}
+
+* Las limitaciones y prácticas recomendadas al usar contenido dinámico en fragmentos visuales se han combinado en una sola sección **Administrar contenido condicional en fragmentos** para mejorar la legibilidad. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se han añadido dos nuevos permisos de alto nivel: **Administrar registro de claves**, que permite a los usuarios ver, crear, rotar y revocar claves del registro de claves, y **Ver registro de claves**, que permite a los usuarios ver la lista del registro de claves y los detalles de las claves. [Más información](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una nueva sección a la documentación de integración de las versiones 7 y 8 de Campaign que explica cómo actualizar las acciones personalizadas existentes cuando cambia el punto final en tiempo real (RT). La sección incluye instrucciones paso a paso para actualizar la URL del punto final, probar la conexión y validar los cambios antes de guardar. [Más información](../action/acc-action.md#update-action)
 
-* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos con contenido dinámico dentro de otros fragmentos desbloqueados con contenido dinámico. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos que contienen contenido condicional dentro de otros fragmentos desbloqueados con contenido condicional. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se ha añadido una sección de resolución de problemas a la documentación de creación de informes en tiempo real del recorrido para ayudar a los usuarios a solucionar los problemas relacionados con la falta de datos en los informes. La sección abarca la sincronización del nombre del recorrido con conjuntos de datos de creación de informes, temporización de actualización de datos, verificación de permisos de acceso y requisitos de estado de recorrido. [Más información](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
