@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 16%
+source-wordcount: 1161
+ht-degree: 15%
 
 ---
 
@@ -72,6 +72,16 @@ Para configurar el proveedor personalizado, siga los pasos a continuación:
 
 ## Cree sus credenciales de API {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo de canal"
+>abstract="Opcional. Clasifique los mensajes enviados con esta credencial de proveedor de SMS personalizada, por ejemplo, SMS o RCS. Journey Optimizer escribe el valor en los eventos de experiencia XDM para que pueda informar y rastrear el envío por canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Autenticación"
+>abstract="Cuando se habilita, solo se aceptan solicitudes autenticadas a través de Adobe IMS. Los llamadores deben incluir un token de OAuth válido al enviar datos a este extremo."
+
 Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor personalizado que Adobe no tiene disponible de forma predeterminada (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Credenciales de API]** en **[!UICONTROL Configuración de SMS]** y haga clic en el botón **[!UICONTROL Crear nuevas credenciales de API]**.
@@ -89,6 +99,8 @@ Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor pers
    * **[!UICONTROL Nombre de proveedor]**: Escriba el nombre de su proveedor de SMS.
 
    * **[!UICONTROL URL de proveedor]**: escribe la URL de tu proveedor de SMS.
+
+   * **[!UICONTROL Tipo de canal]**: Opcional. Indique qué canal móvil representa esta credencial, es decir, SMS, RCS o MMS.
 
    * **[!UICONTROL Tipo de autenticación&#x200B;]**: seleccione el tipo de autorización y [complete los campos correspondientes](#auth-options) según el método de autenticación elegido.
 

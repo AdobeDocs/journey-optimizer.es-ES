@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 1%
+source-wordcount: 2332
+ht-degree: 0%
 
 ---
 
@@ -226,9 +226,13 @@ La tabla **[!UICONTROL Correo electrónico: estadísticas de seguimiento]** ofre
 
 * **[!UICONTROL Tasa de apertura de clics (CTOR)]**: Número de veces que se abrió el correo electrónico.
 
+* **[!UICONTROL Tasa de apertura]**: porcentaje de perfiles que abrieron el correo electrónico al menos una vez, en relación con la cantidad de correos electrónicos enviados.
+
 * **[!UICONTROL Aperturas estimadas por correo electrónico]**: Estimación del total de aperturas por correo electrónico que corresponden tanto a aperturas directas por perfiles como a aperturas automatizadas activadas por servidores de correo. Esta métrica ajusta las aperturas activadas por los servidores de correo para el análisis de privacidad o seguridad aplicando una tasa de apertura calculada a partir de los destinatarios que abrieron manualmente el correo electrónico a aquellos cuyos correos electrónicos solo abrieron los servidores de correo.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus correos electrónicos.
+
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
 
 * **[!UICONTROL Quejas por correo no deseado]**: Número de veces que un mensaje se declaró como correo no deseado.
 
@@ -258,17 +262,19 @@ La tabla **[!UICONTROL Dominios de correo electrónico]** ofrece un desglose det
 
 +++
 
-## Etiquetas de vínculos rastreados {#track-link-label}
+## Etiquetas rastreadas {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-La tabla **[!UICONTROL Etiquetas de vínculos rastreados]** ofrece una descripción general completa de las etiquetas de vínculos de los mensajes de correo electrónico, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
+La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una descripción general de las etiquetas de vínculo de los mensajes de correo electrónico, en la que se destacan las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
 +++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de un correo electrónico.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus correos electrónicos.
+
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
 
 +++
 
@@ -283,6 +289,8 @@ La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión ge
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido de un correo electrónico.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus correos electrónicos.
+
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
 
 +++
 

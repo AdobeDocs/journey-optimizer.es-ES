@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: 1209
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Al hacer clic en el nombre de cualquier recorrido enumerado en esta tabla, puede
 
 +++ Más información sobre las métricas de Recorrido
 
+* **[!UICONTROL Participación en el Recorrido]**: Número total de individuos únicos que recibieron mensajes enviados a través del recorrido, que representan perfiles distintos que alcanzaron un punto de acción designado en el recorrido.
+
 * **[!UICONTROL Entradas de Recorrido]**: Número total de personas que llegaron al evento de entrada del recorrido.
 
 * **[!UICONTROL Salidas de Recorrido]**: Número total de personas que salieron del recorrido.
@@ -122,6 +124,8 @@ Al hacer clic en el nombre de cualquier campaña enumerada en esta tabla, puede 
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus mensajes.
 
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
+
 +++
 
 ## Canales {#channel}
@@ -143,6 +147,8 @@ La tabla **[!UICONTROL Canales]** proporciona un desglose detallado de la partic
 * **[!UICONTROL Pantallas]**: Número de veces que se abrió el mensaje.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido de sus mensajes.
+
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
 
 +++
 

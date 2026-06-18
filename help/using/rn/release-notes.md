@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 691dcd9cdb98ca4bfd6c13dc5b4c92d71805c852
 workflow-type: tm+mt
-source-wordcount: 3672
+source-wordcount: 3693
 ht-degree: 27%
 
 ---
@@ -215,6 +215,8 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la t
 
 * **Atributos de elemento dinámico**: los atributos personalizados de elemento de decisión ahora se pueden personalizar en el momento de la entrega mediante datos de perfil, contextuales y de audiencia. Esto elimina la necesidad de mantener ofertas duplicadas para variaciones de contenido menores, lo que permite a los especialistas en marketing administrar menos elementos de decisión más flexibles.
 
+  Fecha de disponibilidad: 22 de junio de 2026
+
 +++
 
 ### Gestión de contenidos {#june-26-content}
@@ -379,6 +381,10 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 </tbody>
 </table>
 
+* **Conversor mejorado de imagen a HTML**: Ya está disponible una nueva versión de la función de conversión de imagen a HTML, que ofrece una precisión mejorada para la generación de HTML. Esta actualización aprovecha los modelos LLM de nivel superior para ofrecer una salida de HTML más precisa y fiable a partir de las entradas de imagen.
+
+  Fecha de disponibilidad: 18 de junio de 2026
+
 +++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
@@ -413,9 +419,6 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 </tr>
 </tbody>
 </table>
-
-
-* **Conversor mejorado de imagen a HTML**: Ya está disponible una nueva versión de la función de conversión de imagen a HTML, que ofrece una precisión mejorada para la generación de HTML. Esta actualización aprovecha los modelos LLM de nivel superior para ofrecer una salida de HTML más precisa y fiable a partir de las entradas de imagen.
 
 +++
 
@@ -527,15 +530,17 @@ En esta versión se han añadido las siguientes mejoras a la administración y l
 
 ### Mensajería móvil (SMS, MMS, RCS y LINE) {#june-26-mobile}
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
+Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 * **Clics únicos para informes de SMS**: Se ha introducido un nuevo módulo de **Clics únicos** en los informes de SMS, que trae el mismo nivel de seguimiento granular de rendimiento a los SMS disponibles actualmente para los informes de correo electrónico.
-
-* **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
 
 * **SMS - Mostrar métricas de uso** - Para los clientes que compran SMS directamente a través de Adobe Journey Optimizer, se ha introducido un nuevo **panel de uso de SMS**. Ahora puede ver y rastrear las métricas de envío de mensajes de los últimos 90 días, clasificadas por mensajes móviles originados (MO) y móviles terminados (MT). Estos datos también están disponibles para su descarga a través de CSV, lo que proporciona una mayor visibilidad y control sobre la inversión en SMS.
 
 * **Informe de clics estimados para SMS**: ahora hay disponible una nueva métrica de clics estimados en los informes Recorridos, campañas y canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
+
++++ Próximamente — **La información siguiente está sujeta a cambios.**
+
+* **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
 
 +++
 
