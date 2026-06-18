@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: externo, fuentes, datos, configuración, conexión, terceros
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 27%
+source-wordcount: 2590
+ht-degree: 26%
 
 ---
 
@@ -69,7 +59,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 >[!TIP]
 >
->Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` &#x200B;](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
+>Se recomienda dejar al menos un minuto de búfer entre el período de caducidad del token de la API externa y la configuración de Journey Optimizer [`cacheDuration` ](#custom-authentication-access-token), especialmente en cargas de trabajo pesadas, para evitar discrepancias de caducidad y errores 401.
 
 ## Creación y configuración de una fuente de datos externa {#create-ext-data-sources}
 
@@ -291,7 +281,9 @@ Adobe administra el certificado y su clave privada asociada. La siguiente tabla 
 | Algoritmo | RS256 (RSA) |
 | Qué debe registrarse en su proveedor de identidad | Solo certificado hoja de Adobe, no la CA intermedia o raíz |
 | Cómo obtener | Recuperarlo de la API de certificado público [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (consulte la protección de **Certificado** a continuación) |
-| Rotación | Adobe gestiona la rotación y proporciona un aviso con al menos 30 días de antelación |
+| Rotación | Adobe gira automáticamente el certificado 60 días antes de la caducidad (duración del certificado: 13 meses). El certificado anterior sigue siendo válido hasta 30 días antes de su expiración. Actualmente no se notifica a los clientes sobre la rotación: llame periódicamente a la API de certificados públicos de [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} para comprobar `expiryDate` y volver a configurar el IDP antes de que se revoque el certificado antiguo. |
+
+Adobe gira automáticamente el certificado 60 días antes de la caducidad. El certificado anterior sigue siendo válido hasta 30 días antes de su expiración. Actualmente no se notifica a los clientes. Consulte la protección [**Rotación de certificados**](#certificate-credential-guardrails) para obtener información sobre cómo supervisar la rotación mediante programación.
 
 #### Estructura de afirmación de JWT {#certificate-credential-jwt}
 
@@ -369,6 +361,8 @@ Este es un ejemplo para el mismo tipo de autenticación de credencial de certifi
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >Tenga en cuenta las siguientes protecciones al configurar la autenticación personalizada basada en certificados:
@@ -377,7 +371,7 @@ Este es un ejemplo para el mismo tipo de autenticación de credencial de certifi
 >* **`method`**: debe ser `POST`. Los extremos de token de OAuth solo aceptan solicitudes POST.
 >* **`client_id`**: no debe estar en blanco y no debe tener espacios iniciales o finales. Un valor en blanco produce un JWT de aspecto válido que el proveedor de identidad rechazará con un error opaco.
 >* **`scope`**: expresado como una sola cadena separada por espacios en `bodyParams`. Máximo 1000 caracteres en total.
->* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** en su proveedor de identidad. Para recuperarlo, llame a la API de certificado público [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} y busque la entrada donde `certCommonName` es `ajo-journeys.aep-mtls.adobe.com`. Registre el valor `publicCertificate` de esa entrada; no utilice los certificados de CA intermedia o raíz.
+>* **Certificado**: Adobe administra el certificado y la clave privada; nunca se carga ni se introduce un certificado. Antes de usar la acción personalizada en un recorrido activo, debe registrar el **certificado hoja de Adobe** en su proveedor de identidad. Para recuperarlo, llame a la API de certificado público [mTLS](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} y busque la entrada donde `certCommonName` es `ajo-journeys.aep-mtls.adobe.com`. Registre el valor `publicCertificate` de esa entrada; no utilice los certificados de CA intermedia o raíz. Dado que actualmente no se notifica a los clientes de la rotación de certificados, debe llamar periódicamente a la API de certificados públicos de mTLS para comprobar `expiryDate` y actualizar el certificado registrado en el IDP antes de que el certificado antiguo se revoque 30 días antes de la caducidad.
 
 Este es un ejemplo del tipo de autenticación de encabezado:
 
