@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 1%
@@ -161,7 +161,7 @@ Para personalizar campos editables en un fragmento utilizado en un correo electr
    >
    >Los fragmentos creados antes de que se introdujera la capacidad de edición de texto enriquecido tienen campos editables configurados en modo de solo texto de forma predeterminada. Para habilitar las opciones de formato completas, ve al editor de fragmentos con el botón **[!UICONTROL Abrir fragmento]**, haz clic en **[!UICONTROL Habilitar]** para desbloquear el modo de texto enriquecido y **[!UICONTROL Guardar]** el fragmento. [Más información](../content-management/customizable-fragments.md#rich-text-visual)
 
-   ![Advertencia de compatibilidad en el Designer de correo electrónico](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
+   ![Advertencia de compatibilidad en el Designer de correo electrónico](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}
 
 1. Puede hacer clic en **[!UICONTROL Simular contenido]** para ver cómo se representan el contenido editable y el estilo. [Más información sobre la vista previa del contenido](../content-management/preview-test.md)
 
