@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 3557
+source-wordcount: 3579
 ht-degree: 27%
 
 ---
@@ -148,9 +148,11 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
   Fecha de disponibilidad: 4 de junio de 2026
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
+* **Aumento del límite de recorridos activos y nuevas protecciones**: ahora puede tener hasta **200 recorridos activos**, más que el límite anterior de 100. [Más información](../start/guardrails.md#journeys-guardrails-journeys)
 
-* **Aumento del límite de recorridos activos y nuevas protecciones**: ahora puede tener hasta **200 recorridos activos**, más que el límite anterior de 100.
+  Fecha de disponibilidad: 18 de junio de 2026. Esta capacidad se está extendiendo gradualmente a todas las regiones en los próximos días.
+
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 * **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido activo, ahora aparecen en el **encabezado del recorrido** junto al distintivo del estado activo. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
 
