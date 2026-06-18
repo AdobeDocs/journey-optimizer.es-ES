@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 4489
-ht-degree: 72%
+source-wordcount: 4590
+ht-degree: 69%
 
 ---
 
@@ -76,9 +67,13 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
   A medida que los recorridos se acercan a este límite, el rendimiento de la edición y la de publicación puede degradarse y pueden producirse errores al guardar o validar. Si esto sucede, divida el recorrido en subrecorridos más pequeños mediante [actividades de salto](../building-journeys/jump.md) o vuelva a crearlo en una nueva versión. El límite de la actividad no se puede aumentar.
 
-* De manera predeterminada, el número de recorridos de ejecución en directo/en pausa/en seco al mismo tiempo está limitado a **100**. El número actual de recorridos se muestra encima del lienzo del recorrido.
+* El número de recorridos activos, cerrados, pausados y de ejecución en seco que pueden estar activos al mismo tiempo se limita a **200** en zonas protegidas de producción y a **100** en zonas protegidas de desarrollo. Este límite se aplica cuando publica un recorrido. El número actual de recorridos se muestra encima del lienzo del recorrido.
 
-  A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Cuando se aproxime al hito de 100 recorridos en directo al mismo tiempo, verá una notificación en la interfaz de usuario sobre este logro. Si recibe esta notificación y necesita extender sus recorridos más allá de los 100 recorridos en directo a la vez, cree un ticket para el servicio de atención al cliente y le ayudaremos a alcanzar sus objetivos.
+  A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Los recorridos cerrados se cuentan únicamente si se crean después de desplegar esta protección.
+
+>[!NOTE]
+>
+>Para las protecciones de tiempo de publicación, las organizaciones que ya exceden un límite cuando se introduce la protección reciben una excepción. Los recorridos existentes no se ven afectados.
 
 * Cuando se usa una calificación de audiencia en un recorrido, esa actividad de calificación de audiencia puede tardar hasta **10 minutos** en estar activa y en escuchar los perfiles que entran o salen de la audiencia.
 
@@ -90,7 +85,7 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 >[!TIP]
 >
->**Lo que esto significa para usted:** El límite de **50 actividades** y el límite de **100 recorridos en vivo** son las dos barreras que la mayoría de los equipos encuentran primero al escalar. Planifique la división anticipada del recorrido y extienda las horas de inicio de la lectura de la audiencia con una diferencia mínima de 5-10 minutos para evitar la contención del rendimiento de la zona protegida.
+>**Lo que esto significa para usted:** El **límite de 50 actividades** y el **límite de recorridos activos** son las dos barreras que la mayoría de los equipos encuentran primero al escalar. Planifique la división anticipada del recorrido y extienda las horas de inicio de la lectura de la audiencia con una diferencia mínima de 5-10 minutos para evitar la contención del rendimiento de la zona protegida.
 
 #### Validación del tamaño de la carga útil del recorrido {#journey-payload-size}
 
@@ -167,6 +162,8 @@ Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md)
 * Los recorridos activados por eventos pueden tardar hasta **5 minutos** en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
+* Se puede hacer referencia a un solo evento en un máximo de **25** recorridos al mismo tiempo. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
+* Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos activos y cerrados a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
 * Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través de **Query Service** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
@@ -223,10 +220,11 @@ Los siguientes mecanismos de protección se aplican al [editor de expresiones de
 
 #### Actividad de calificación de público {#audience-qualif-g}
 
-El siguiente mecanismo de protección se aplica a la actividad de recorrido [Calificación de público](../building-journeys/audience-qualification-events.md):
+Las siguientes limitaciones se aplican a la actividad de recorrido [Calificación de audiencias](../building-journeys/audience-qualification-events.md):
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 * No se admiten identificadores suplementarios para los recorridos de calificación de público.
+* Una zona protegida puede incluir un máximo de **300** nodos de calificación de audiencia en todos los recorridos activos y cerrados. Cuando se alcanza este límite, se bloquean las recorridos de publicación con nodos de calificación de audiencia adicionales.
 
 Obtenga más información acerca de las tasas de procesamiento de recorrido y los límites de rendimiento en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
