@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 2%
@@ -47,9 +47,9 @@ No. [!DNL Adobe Journey Optimizer] utiliza un modelo modular: la oferta base det
 
 +++**¿Cuál es la diferencia entre campañas y Recorridos?**
 
-**Las campañas** están basadas en audiencias y planificadas por expertos en marketing; usted define una audiencia, crea un mensaje y lo programa o lo déclencheur como un envío por lotes. Son perfectas para flujos de trabajo de alcance promocional, boletines informativos y audiencias de varios pasos.
+**[Las campañas](../campaigns/get-started-with-campaigns.md)** están basadas en audiencias y planificadas por expertos en marketing; usted define una audiencia, crea un mensaje y lo programa o lo déclencheur como un envío por lotes. Son perfectas para flujos de trabajo de alcance promocional, boletines informativos y audiencias de varios pasos.
 
-Los **Recorridos** están impulsados por eventos y en tiempo real; reaccionan al comportamiento individual de los clientes a medida que ocurre y orquestan experiencias de 1:1 en puntos de contacto. Son ideales para flujos de incorporación, secuencias posteriores a la compra y mensajes activados en tiempo real.
+Los **[Recorridos](../building-journeys/journey-gs.md)** están impulsados por eventos y en tiempo real; reaccionan al comportamiento individual de los clientes a medida que ocurre y orquestan experiencias de 1:1 en puntos de contacto. Son ideales para flujos de incorporación, secuencias posteriores a la compra y mensajes activados en tiempo real.
 
 **Campañas y Recorridos** le ofrece ambas funciones en una sola licencia.
 
@@ -65,8 +65,8 @@ Hay tres ofertas de base disponibles. Cada uno de ellos coincide con una forma d
 
 | Oferta básica | Mejor para | Comportamiento principal |
 |-----------|---------|--------------|
-| **Journey Optimizer - Campañas** | Divulgación por lotes planificada por expertos en marketing | Orquestación programada basada en audiencias. Flujos de trabajo de campaña de uno o varios pasos para la participación por lotes y alcance planificado por expertos en marketing. |
-| **Journey Optimizer - Recorridos** | Participación del cliente en tiempo real | Impulsado por eventos, orquestación 1:1. Admite la entrega de recorridos en tiempo real y programado. |
+| **[Journey Optimizer - Campañas](../campaigns/get-started-with-campaigns.md)** | Divulgación por lotes planificada por expertos en marketing | Orquestación programada basada en audiencias. Flujos de trabajo de campaña de uno o varios pasos para la participación por lotes y alcance planificado por expertos en marketing. |
+| **[Journey Optimizer - Recorridos](../building-journeys/journey-gs.md)** | Participación del cliente en tiempo real | Impulsado por eventos, orquestación 1:1. Admite la entrega de recorridos en tiempo real y programado. |
 | **Journey Optimizer - Campañas y Recorridos** | Clientes que necesitan ambos | Combina orquestación de campaña basada en audiencias y orquestación de recorrido en tiempo real. |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ Hay tres ofertas de base disponibles. Cada uno de ellos coincide con una forma d
 
 | | Journey Optimizer - Campañas | JOURNEY OPTIMIZER - RECORRIDOS | Journey Optimizer: Campañas y Recorridos |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| Orquestación por lotes basada en audiencias | ✓ | Limitado¹ | ✓ |
-| Organización impulsada por eventos en tiempo real | — | ✓ | ✓ |
+| [Organización por lotes basada en audiencias](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado¹ | ✓ |
+| [Organización impulsada por eventos en tiempo real](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Mensajería transaccional (correo electrónico, push, SMS) | ✓ | ✓ | ✓ |
-| Complementos de canal disponibles | ✓ | ✓ | ✓ |
-| Complemento de decisiones disponible | ✓ | ✓ | ✓ |
+| [Complementos de canal disponibles](#channel-addons) | ✓ | ✓ | ✓ |
+| [Complemento de decisiones disponible](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹ En **Journey Optimizer - Recorrido**, la orquestación basada en audiencias solo se admite en casos de uso de recorrido, no como campañas por lotes independientes.
 
@@ -95,7 +95,7 @@ Los canales no están agrupados en la oferta base. Seleccione el complemento de 
 
 Llegue a las audiencias a través de canales de mensajería salientes.
 
-**Incluye:** correo electrónico, notificaciones push, correo directo
+**Incluye:** [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [correo directo](../direct-mail/get-started-direct-mail.md)
 
 **Casos de uso habituales:** correos electrónicos promocionales, alertas push transaccionales y campañas de correo físico
 
@@ -107,7 +107,7 @@ Incluye aspectos básicos de la capacidad de entrega para admitir el calentamien
 
 Capte a los usuarios de la aplicación con experiencias móviles persistentes y en la sesión.
 
-**Incluye:** mensajería en la aplicación, notificaciones push, tarjetas de contenido y canales basados en código para superficies móviles
+**Incluye:** [mensajería en la aplicación](../in-app/get-started-in-app.md), [notificaciones push](../push/get-started-push.md), [tarjetas de contenido](../content-card/get-started-content-card.md), [canales basados en código](../code-based/get-started-code-based.md) para superficies móviles
 
 **Casos de uso habituales:** flujos de incorporación, anuncios de funciones, avances de fidelidad y ofertas en la aplicación en tiempo real
 
@@ -117,7 +117,7 @@ Capte a los usuarios de la aplicación con experiencias móviles persistentes y 
 
 Personalice experiencias web sin implementar código.
 
-**Incluye:** canal web (editor visual y no visual), canales basados en código para superficies web
+**Incluye:** [canal web](../web/get-started-web.md) (editor visual y no visual), [canales basados en código](../code-based/get-started-code-based.md) para superficies web
 
 **Casos de uso habituales:** titulares de páginas de inicio, personalización de páginas de aterrizaje, pruebas A/B y personalización web sin encabezado mediante API
 
@@ -127,7 +127,7 @@ Personalice experiencias web sin implementar código.
 
 El complemento **Todos los canales** agrupa los paquetes de envío saliente + Móvil + Web en una sola compra.
 
-**Incluye:** cada canal de los tres complementos individuales: correo electrónico, notificaciones push, correo directo, mensajería en la aplicación, tarjetas de contenido, canal web y canales basados en código
+**Incluye:** cada canal de los tres complementos individuales: [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [correo directo](../direct-mail/get-started-direct-mail.md), [mensajería en la aplicación](../in-app/get-started-in-app.md), [tarjetas de contenido](../content-card/get-started-content-card.md), [canal web](../web/get-started-web.md) y [canales basados en código](../code-based/get-started-code-based.md)
 
 **Casos de uso habituales:** programas omnicanal coordinados que abarcan aplicaciones móviles, web y de salida; por ejemplo, una campaña que realiza el seguimiento de un correo electrónico con un mensaje en la aplicación y un banner web personalizado
 
@@ -174,11 +174,11 @@ Determinado por su oferta base.
 
 | Capacidad | Campañas | Recorridos | Campañas y Recorridos |
 |-----------|:---------:|:--------:|:--------------------:|
-| Mensajería transaccional (correo electrónico, push, SMS) | ✓ | ✓ | ✓ |
-| Campañas por lotes | ✓ | — | ✓ |
-| Campañas organizadas _(correo electrónico, SMS, push, solo correo directo)_ | ✓ | — | ✓ |
-| Recorridos automatizados | — | ✓ | ✓ |
-| Déclencheur de eventos en tiempo real | — | ✓ | ✓ |
+| Mensajes transaccionales ([correo electrónico](../email/get-started-email.md), [push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md)) | ✓ | ✓ | ✓ |
+| [Campañas por lotes](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [Campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) _(solo correo electrónico, SMS, push, correo directo)_ | ✓ | — | ✓ |
+| [recorridos automatizados](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [déclencheur de eventos en tiempo real](../event/about-events.md) | — | ✓ | ✓ |
 
 ### Canales y funciones avanzadas {#channel-capabilities}
 
@@ -186,17 +186,17 @@ La mayoría de los canales están disponibles en las tres ofertas base y requier
 
 | Capacidad | Disponibilidad | Complemento requerido |
 |-----------|-------------|----------------|
-| Correo electrónico | Todas las ofertas base | Entrega saliente |
-| Notificaciones push | Todas las ofertas base | Entrega saliente |
-| Correo directo | Todas las ofertas base | Entrega saliente |
-| SMS/MMS | Según la configuración con licencia | Según la configuración con licencia |
-| Mensajería en la aplicación | Todas las ofertas base | Móvil |
-| Tarjetas de contenido | Todas las ofertas base | Móvil |
-| Canal web | Todas las ofertas base | Web |
-| Experiencias basadas en código | Todas las ofertas base | Móvil o web |
-| WhatsApp | Según la configuración con licencia | WhatsApp |
-| Toma de decisiones | Depende de la licencia | Toma de decisiones |
-| Clasificación con tecnología de IA | Depende de la licencia | Toma de decisiones |
+| [Correo electrónico](../email/get-started-email.md) | Todas las ofertas base | Entrega saliente |
+| [Notificaciones push](../push/get-started-push.md) | Todas las ofertas base | Entrega saliente |
+| [Correo directo](../direct-mail/get-started-direct-mail.md) | Todas las ofertas base | Entrega saliente |
+| [SMS / MMS](../mobile/get-started-mobile.md) | Según la configuración con licencia | Según la configuración con licencia |
+| [Mensajería en la aplicación](../in-app/get-started-in-app.md) | Todas las ofertas base | Móvil |
+| [Tarjetas de contenido](../content-card/get-started-content-card.md) | Todas las ofertas base | Móvil |
+| [Canal web](../web/get-started-web.md) | Todas las ofertas base | Web |
+| [Experiencias basadas en código](../code-based/get-started-code-based.md) | Todas las ofertas base | Móvil o web |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | Según la configuración con licencia | WhatsApp |
+| [Toma de decisiones](../experience-decisioning/gs-experience-decisioning.md) | Depende de la licencia | Toma de decisiones |
+| [Clasificación con tecnología de IA](../offers/ranking/ai-models.md) | Depende de la licencia | Toma de decisiones |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ La mayoría de los canales están disponibles en las tres ofertas base y requier
 
 +++**¿Qué canales son compatibles con las campañas orquestadas?**
 
-Las campañas organizadas (flujos de trabajo de audiencia de varios pasos que usan la función Campaign Orchestration) solo admiten **correo electrónico, SMS, notificaciones push y correo directo**. Los canales web, en la aplicación, basados en código y de tarjeta de contenido no son compatibles con los flujos de trabajo de campañas organizadas.
+[Las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) (flujos de trabajo de audiencia de varios pasos que usan la función Campaign Orchestration) solo admiten **correo electrónico, SMS, notificaciones push y correo directo**. Los canales web, en la aplicación, basados en código y de tarjeta de contenido no son compatibles con los flujos de trabajo de campañas organizadas.
 
 +++
 
