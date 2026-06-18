@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 keywords: integración, proveedor, terceros
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 5%
@@ -1201,13 +1200,17 @@ El host base depende de la región (por ejemplo, `https://{{customername}}.modul
 
 >[!IMPORTANT]
 >
->Esta configuración es un patrón ilustrativo probado por el equipo de Adobe Journey Optimizer. Adobe Target Recommendations es un producto de Adobe independiente con su propio ciclo de lanzamiento y versiones de API. Confirme siempre los detalles actuales de la API con la [documentación para desarrolladores de Adobe Target](https://experienceleague.adobe.com/es/docs/target-dev/developer/overview) antes de implementarla en la producción.
+>Esta configuración es un patrón ilustrativo probado por el equipo de Adobe Journey Optimizer. Adobe Target Recommendations es un producto de Adobe independiente con su propio ciclo de lanzamiento y versiones de API. Confirme siempre los detalles actuales de la API con la [documentación para desarrolladores de Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) antes de implementarla en la producción.
 
 >[!BEGINSHADEBOX]
 
 Adobe Target incluye Recommendations y API de entrega para experiencias del lado del servidor o integradas, sujetas a derechos.
 
 Los casos de uso habituales incluyen la inyección de recomendaciones en experiencias que crea en Journey Optimizer y la alineación de claves con el perfil o el contexto de Experience Platform.
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 
@@ -1227,7 +1230,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
+1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1280,7 +1283,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Autenticación**
 
-Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
+Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
 
 **Solicitar carga**
 
