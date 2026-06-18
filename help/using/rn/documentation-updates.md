@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Junio de 2026 {#june-2026}
 
+* Se ha agregado una nueva subsección **Asignación de ruta al volver a entrar al recorrido** a la documentación de **experimentación de rutas**. Aclara que la asignación de ruta es persistente para un perfil en varias entradas en la misma versión de recorrido, pero solo dentro de esa versión de recorrido. Las asignaciones se restablecen cuando se publica una nueva versión del recorrido y cada actividad de experimentación de rutas de un recorrido aplica una asignación aleatoria independiente. [Más información](../building-journeys/path-experimentation.md#path-assignment)
 * Las referencias a **Adobe Experience Cloud** se han alineado con la marca **[!DNL Adobe CX Enterprise]** en la documentación de [!DNL Journey Optimizer].
 
 * La página **Introducción a la entrega** se ha actualizado con una nueva subsección **Proveedores sin FBL** por destinatario. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
@@ -686,7 +687,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)

@@ -11,9 +11,9 @@ keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1308
 ht-degree: 6%
 
 ---
@@ -72,11 +72,6 @@ Supongamos que desea comparar tres rutas:
    >
    >Al activar la barra de alternancia, se llevará automáticamente el 10% de su población. Puede ajustar este porcentaje si es necesario.
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. Puede asignar un porcentaje preciso a cada **[!UICONTROL Tratamiento]**, o simplemente cambiar en la barra de alternancia **[!UICONTROL Distribuir uniformemente]**.
 
    ![Regulador de asignación de tratamiento con distribución porcentual](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ Supongamos que desea comparar tres rutas:
 
 1. [Publicar](publish-journey.md) su recorrido.
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 Una vez que el recorrido está activo, los usuarios se asignan aleatoriamente para seguir diferentes rutas. [!DNL Journey Optimizer] realiza un seguimiento de la ruta de acceso que tiene el mejor rendimiento y proporciona perspectivas procesables.
 
 Siga el éxito del recorrido con el informe Experimento de ruta de Recorrido. [Más información](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## Asignación de ruta en la reentrada del recorrido {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+La asignación de rutas es persistente para un perfil en varias entradas a la misma versión de recorrido. Por ejemplo, si un perfil introduce un recorrido en el día 1 y se asigna a la ruta A y luego vuelve a introducir el recorrido en el día 2, se asigna de nuevo a la ruta A. Esto garantiza una experiencia coherente para el usuario y es necesario para generar informes y análisis estadísticamente válidos.
+
+Sin embargo, las asignaciones solo son persistentes dentro de una versión de recorrido determinada. Una vez publicada una nueva versión del recorrido, la aleatorización cambia y un perfil puede terminar asignándose a una ruta diferente.
+
+Si tiene varias actividades de experimentación de rutas en un recorrido, cada actividad aplica una asignación aleatoria independiente.
 
 ## Casos de uso de experimentos {#uc-experiment}
 
