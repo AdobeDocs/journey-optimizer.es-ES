@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1029
 ht-degree: 19%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 19%
 Los fragmentos se pueden crear desde cero desde el menú de la izquierda **[!UICONTROL Fragmentos]**. Además, también puede guardar una parte del contenido existente como fragmento al diseñar contenido. [Descubra cómo](save-fragments.md#)
 
 Una vez guardado, el fragmento está disponible para utilizarlo en un recorrido, una campaña o una plantilla. Puede utilizar este fragmento al crear contenido dentro de recorridos y campañas. Ver [Agregar fragmentos visuales](../email/use-visual-fragments.md) y [Aprovechar fragmentos de expresiones](../personalization/use-expression-fragments.md).
+
+➡️ [Administre sus fragmentos de contenido de Adobe Experience Manager](../integrations/aem-fragments-manage.md) para ver los fragmentos sincronizados, las referencias, las etiquetas y la sincronización manual en la ficha **[!UICONTROL Fragmentos de AEM]**.
 
 Para crear un fragmento, siga los pasos a continuación.
 

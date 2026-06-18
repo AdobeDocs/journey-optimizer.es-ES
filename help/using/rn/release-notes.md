@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
+source-git-commit: 18cd98d012910264c321de3677970212c658236e
 workflow-type: tm+mt
-source-wordcount: 3659
+source-wordcount: 3672
 ht-degree: 27%
 
 ---
@@ -423,8 +423,6 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 
 En esta versión se incluyen las siguientes funcionalidades y mejoras para la administración de contenido y las integraciones.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
-
 <table>
 <thead>
 <tr>
@@ -443,10 +441,14 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la ad
 <li>Ahora tiene flexibilidad en la forma en que Adobe Journey Optimizer accede al contenido de Adobe Experience Manager. Esta versión incluye la capacidad de <strong>cambiar el repositorio de origen</strong> para los fragmentos de contenido utilizados en sus recorridos y campañas.</li>
 <li>Ahora compatible con <b>Managed Services</b>, puede ver, acceder y usar fragmentos de contenido de Adobe Experience Manager directamente en Journey Optimizer para personalización. Simplemente agregue la URL del repositorio de Adobe Experience Manager Managed Services en los ajustes de configuración como una configuración única.</li>
 </ul>
+<p>Para obtener más información, consulte la <a href="../integrations/aem-fragments-gs.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 18 de junio de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
 <thead>

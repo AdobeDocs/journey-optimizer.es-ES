@@ -5,10 +5,10 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
+source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
 workflow-type: tm+mt
 source-wordcount: '3360'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
       + [Cómo funciona](using/start/understanding-ajo.md)
       + [IA y funciones inteligentes](using/start/ai-features.md)
       + [Terminología clave](using/start/terminology.md)
-      + [¿Qué capacidad tiene este trabajo?](using/start/ajo-use-case-guide.md)
+      + [Resumen del caso de uso](using/start/ajo-use-case-guide.md)
       + [Protecciones y limitaciones](using/start/guardrails.md)
       + {hide-from-toc}[Paquetes y capacidades](using/start/ajo-packages.md)
       + {hide-from-toc}[Disponibilidad de funciones](using/start/ajo-features-availability.md)
@@ -515,11 +515,11 @@ ht-degree: 99%
       + [Trabajar con Experience Manager Assets](using/integrations/assets.md)
       + [Trabajar con Adobe Stock](using/integrations/stock.md)
       + [Trabajar con Adobe Express](using/integrations/express.md)
-      + {hide-from-toc}[Trabajar con plantillas de Experience Manager](using/integrations/aem-templates.md)
       + Fragmentos de contenido de Experience Manager {#aem}
          + [Introducción a los fragmentos de contenido de Experience Manager](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[Configurar el repositorio para los fragmentos de contenido](using/integrations/aem-admin-settings.md)
+         + [Configuración del repositorio para fragmentos de contenido](using/integrations/aem-admin-settings.md)
          + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+         + [Administrar los fragmentos de contenido de Adobe Experience Manager](using/integrations/aem-fragments-manage.md)
          + [Consideraciones y resolución de problemas](using/integrations/aem-fragments-limitations.md)
       + [Trabajar con el asesor de contenido de Experience Manager](using/integrations/aem-content-advisor.md)
       + [Trabajar con Dynamic Media](using/integrations/aem-dynamic.md)
