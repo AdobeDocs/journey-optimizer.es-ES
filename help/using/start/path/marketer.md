@@ -8,29 +8,15 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +30,17 @@ ht-degree: 98%
 
 Como **experto en marketing** o **profesional empresarial**, diseña recorridos de clientes para ofrecer experiencias personales y contextuales a los clientes. Puede crear y administrar los distintos componentes de estos recorridos personalizados, incluidos los mensajes de correo electrónico y push, las ofertas y los componentes de decisión para personalizar de forma inteligente el contenido del mensaje. Journey Optimizer proporciona una experiencia de usuario unificada en la que puede implementar casos de uso de extremo a extremo completos en un solo lugar. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que la variable [Administrador del sistema](administrator.md) e [Ingeniero de datos](data-engineer.md) le conceda acceso y prepare su entorno.
 
+>[!NOTE]
+>
+>**Orden de implementación:** [Administrador](administrator.md) → [Ingeniero de datos](data-engineer.md) → [Desarrollador](developer.md) → Usted está aquí: **Especialista en marketing**
+>
+>Confirme que la [configuración del entorno](administrator.md) y la [configuración de datos](data-engineer.md) se han completado antes de generar los recorridos.
+
 ## Comience con lo esencial
 
-Journey Optimizer aúna en una sola aplicación las perspectivas de los clientes en tiempo real, la orquestación omnicanal moderna y la toma de decisiones inteligente. Cree experiencias de cliente personalizadas y conectadas en correos electrónicos, SMS, push, push web, en aplicaciones, web, correo postal, tarjetas de contenido y mucho más.
-
-Journey Optimizer ofrece dos poderosos enfoques de orquestación:
-
-* **Recorridos**: participación de persona a persona en tiempo real en la que cada cliente avanza a su propio ritmo, desencadenada por comportamientos o eventos
-* **Campañas orquestadas**: campañas por lotes complejas de varios pasos a escala en las que los públicos avanzan juntos a través de flujos de trabajo, perfectos para campañas iniciadas por la marca como promociones de temporada, lanzamientos de productos o comunicaciones basadas en cuentas
+>[!NOTE]
+>
+>¿Es nuevo en Journey Optimizer? Lea [Qué es Journey Optimizer](../get-started.md) antes de comenzar esta guía.
 
 Trabaje con sus [administradores](administrator.md) para obtener acceso a los [ingenieros de datos](data-engineer.md) y con ellos configurar públicos, datos y esquemas relacionales para la segmentación avanzada. Consulte la información general de [Introducción a la administración de datos](../../data/gs-data.md) para comprender qué configuración de datos es necesaria para poder crear recorridos y campañas.
 
@@ -233,5 +222,16 @@ Colabore con [administradores](administrator.md) en el acceso y las configuracio
 
 1. **Empiece poco a poco**: cree un recorrido de bienvenida simple o una campaña de un solo mensaje para conocer la plataforma
 2. **Aproveche la IA**: use el Asistente de IA para hacer preguntas y acelerar la creación de contenido
-3. **Únase a la comunidad**: conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+3. **Únase a la comunidad**: conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explore tutoriales**: vea vídeos paso a paso en [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}
+
+## Otras guías de funciones {#other-role-guides}
+
+| Función | Guía |
+|------|-------|
+| Administrador | [Introducción para administradores](administrator.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](developer.md) |
+| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+
+Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

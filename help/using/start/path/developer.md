@@ -3,37 +3,18 @@ title: Introducción para los desarrolladores
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como desarrollador
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +27,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 Como **desarrollador**, es responsable de implementar e integrar [!DNL Adobe Journey Optimizer] en sus aplicaciones y sistemas. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que la variable [Administrador del sistema](administrator.md) e [Ingeniero de datos](data-engineer.md) le conceda acceso y prepare su entorno.
+
+>[!NOTE]
+>
+>**Orden de implementación:** [Administrador](administrator.md) → [Ingeniero de datos](data-engineer.md) → Usted está aquí: **Desarrollador** → [Especialista en marketing](marketer.md)
+>
+>Asegúrese de que los [esquemas y eventos de datos](data-engineer.md) estén configurados antes de implementar las integraciones móviles y web.
 
 ## Su función en el ecosistema de Journey Optimizer
 
@@ -316,3 +303,14 @@ Colabore con [expertos en marketing](marketer.md) en los requisitos y pruebas de
 4. **¿Sistema personalizado?** Consulte [Acciones personalizadas](#custom-actions)
 
 Cada sección incluye vínculos a documentación técnica detallada, ejemplos de código y tutoriales que guiarán la implementación.
+
+## Otras guías de funciones {#other-role-guides}
+
+| Función | Guía |
+|------|-------|
+| Administrador | [Introducción para administradores](administrator.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](developer.md) |
+| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+
+Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
