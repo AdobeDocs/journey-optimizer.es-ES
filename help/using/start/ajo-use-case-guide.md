@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-source-git-commit: 054de625361914e217c27782b487db1933c3230f
+source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 36%
+source-wordcount: '3310'
+ht-degree: 32%
 
 ---
 
@@ -57,11 +57,38 @@ Para escenarios en los que reacciona ante una acción o un evento del cliente mi
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
 | Dar la bienvenida a un nuevo cliente o suscriptor automáticamente | Recorrido activado por evento | [Introducción a recorrido](../building-journeys/journey-gs.md) · [Introducción a la creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:**, asegúrese de que tiene (1) un [evento de entrada de recorrido configurado](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) para capturar el déclencheur de registro, (2) una [superficie de canal push o de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/channel-surfaces) configurada para su zona protegida y (3) al menos un [perfil de prueba](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles) disponible para validar la recorrido antes de publicar.
+
+>[!ENDSHADEBOX]
+
+| Quiero... | Capacidad recomendada | Empiece aquí |
+| --- | --- | --- |
 | Recuperar un carro de compras o una sesión de navegación abandonados | Recorrido activado por evento | [Introducción a recorrido](../building-journeys/journey-gs.md) · [Tutorial de exploración abandonado](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** necesita (1) un [evento de comportamiento](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) que capture la acción de examinar o del carro de compras desde su SDK web o móvil, (2) una [actividad de espera](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity) que se decida por estrategia (normalmente de 1 a 4 horas antes del primer empujón) y (3) una superficie de canal lista para el mensaje de seguimiento. Nota: El recorrido debe incluir una condición para salir de los perfiles que completan la compra antes de que finalice el período de espera.
+
+>[!ENDSHADEBOX]
+
+| Quiero... | Capacidad recomendada | Empiece aquí |
+| --- | --- | --- |
 | Déclencheur de un recorrido desde un envío de formulario de sitio web | Recorrido activado por evento | [Introducción a recorrido](../building-journeys/journey-gs.md) · [Tutorial](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/trigger-journey-on-form-submission/introduction){target="_blank"} |
 | Reacción al comportamiento en la aplicación (aplicación abierta, vista de pantalla) | Recorrido + En la aplicación | [Introducción a la aplicación](../in-app/get-started-in-app.md) |
 | Enviar confirmaciones de pedidos, envíos o citas | Campaña activada por API | [Trabajar con campañas activadas por API](../campaigns/api-triggered-campaigns.md) |
 | Volver a atraer clientes inactivos o caducados | Recorridos + audiencias | [Introducción a perfiles y audiencias](../audience/get-started-profiles.md) · [Crear audiencias con el generador de reglas](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/profiles-audiences-subscriptions/create-audiences-using-the-rule-builder){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** necesita (1) una audiencia [definida en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) que identifique perfiles inactivos (por ejemplo, sin compras ni inicios de sesión en 60 días), (2) una decisión sobre el canal de reparticipación (correo electrónico, push o SMS) y (3) una regla de supresión o [límite de frecuencia](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping) para evitar contactar con perfiles enviados recientemente. Use una entrada de recorrido **Leer audiencia**, no un evento, para este escenario.
+
+>[!ENDSHADEBOX]
+
+| Quiero... | Capacidad recomendada | Empiece aquí |
+| --- | --- | --- |
 | Prueba de un recorrido con datos reales antes de activarlo | Recorrido seco | [Probar el recorrido con simulación](../building-journeys/journey-dry-run.md) |
 | Pausar un recorrido en directo para hacer ediciones sin detener los perfiles en vuelo | Recorrido pausar y reanudar | [Pausar y reanudar un recorrido](../building-journeys/journey-pause.md) |
 | Crear u optimizar un recorrido desde un indicador en lenguaje natural | Journey Agent **(IA)** | [agentes de IA](ai-features.md#ai-agents) · [tutorial de Journey Agent](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-agent-overview){target="_blank"} |
@@ -73,6 +100,15 @@ Para una difusión programada, de uno a varios, a una audiencia definida.
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
 | Enviar una newsletter o promoción a un segmento | Campaña programada | [Comience con las campañas](../campaigns/get-started-with-campaigns.md) |
+
+>[!BEGINSHADEBOX]
+
+**Antes de compilar:** necesita (1) un [segmento de audiencia publicado](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) en Adobe Experience Platform, (2) una [superficie de canal de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/channel-surfaces) con un dominio de envío verificado y (3) cualquier [fragmento o plantilla de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/fragments/fragments) que planee reutilizar ya publicado. Las campañas programadas son la opción correcta aquí, no los recorridos, si se trata de un envío único o recurrente sin lógica de ramificación.
+
+>[!ENDSHADEBOX]
+
+| Quiero... | Capacidad recomendada | Empiece aquí |
+| --- | --- | --- |
 | Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar a los clientes de una interrupción o actualización del servicio | Campaña programada + audiencias | [Acerca de las audiencias](../audience/about-audiences.md) |
 | Diseño de una campaña de varios pasos con lógica de ramificación | Campañas orquestadas | [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) |
@@ -88,6 +124,15 @@ Para adaptar las ofertas y el contenido a cada individuo.
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
 | Mostrar la mejor oferta para cada cliente | Toma de decisiones | [Introducción a Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) · Tutorial de [ofertas web](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} |
+
+>[!BEGINSHADEBOX]
+
+**Antes de generar:** la toma de decisiones requiere una secuencia de configuración específica. Necesita (1) [elementos de decisión (ofertas) creados](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) con reglas y atributos de elegibilidad, (2) una [estrategia de selección](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) o fórmula de clasificación configurada y (3) una [política de decisión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision) adjunta a la superficie donde aparecerán las ofertas. Omitir esta secuencia es la razón más común por la que las configuraciones de toma de decisiones por primera vez no devuelven resultados.
+
+>[!ENDSHADEBOX]
+
+| Quiero... | Capacidad recomendada | Empiece aquí |
+| --- | --- | --- |
 | Clasificar ofertas mediante una fórmula (código postal, ingresos, tiempo) | Decisioning — fórmula de clasificación | [Tutorial de fórmula de clasificación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [Tutorial de datos meteorológicos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | Usar datos de productos externos o CRM para personalizar ofertas | Decisioning: búsqueda de conjuntos de datos de AEP | [Usar la búsqueda de conjuntos de datos en la toma de decisiones](../experience-decisioning/context-data.md) |
 | Personalización del contenido del mensaje con datos de perfil | Personalización | [Personaliza tu contenido](../personalization/personalize.md) |
