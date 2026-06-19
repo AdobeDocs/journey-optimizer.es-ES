@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a pausar y reanudar un recorrido activo para realizar cambios o detener envíos de forma segura, incluida la aplicación de criterios de salida de atributos de perfil durante la pausa.
+**En esta página:** Aprenda a pausar y reanudar un recorrido activo para realizar cambios o detener envíos de forma segura, detener o cerrar un recorrido pausado sin reanudarlo primero y aplicar criterios de salida de atributo de perfil durante la pausa.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 >title="Pausar su recorrido"
 >abstract="La pausa de un recorrido activo impide que entren nuevos perfiles. Los perfiles que se encuentran actualmente en el recorrido se pueden descartar o mantener en su lugar. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps) o [detener el recorrido](#stop-close-paused) desde el estado **En pausa** sin reanudarlo primero.
 
 ## Ventajas principales {#journey-pause-benefits}
 
@@ -141,6 +141,24 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 
 
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
+
+## Detener un recorrido en pausa {#stop-close-paused}
+
+Si decide no reanudar un recorrido pausado, puede finalizarlo desde el estado **Paused**. Esto finaliza inmediatamente todo el procesamiento del recorrido y detiene todos los perfiles que aún se encuentran en el recorrido. [Más información sobre cómo detener un recorrido](end-journey.md#stop-journey).
+
+Para detener un recorrido pausado del lienzo de recorrido, siga estos pasos:
+
+1. Abra el recorrido **Paused** que desee detener o cerrar.
+1. Haga clic en el botón **...Más** en la sección superior derecha del lienzo de recorrido.
+1. Seleccione **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.
+
+En la lista de recorridos, también puede hacer clic en el botón **[!UICONTROL Puntos suspensivos]** a la derecha del nombre del recorrido en pausa y seleccionar **[!UICONTROL Detener]**.
+
+>[!IMPORTANT]
+>
+>No puede reiniciar ni eliminar un recorrido [cerrado](end-journey.md#close-journey) o [detenido](end-journey.md#stop-journey). Puede [crear una nueva versión](publish-journey.md#journey-versions) o [duplicarla](journey-ui.md#duplicate-a-journey).
+>
+>Detener un recorrido requiere el permiso **[!DNL Manage journeys]**. Si el recorrido incluye campañas en línea o nodos de mensajería, los usuarios también necesitan permisos de **Campañas > Publicar campañas**. [Más información sobre los permisos de detención](end-journey.md#stop-journey).
 
 ## Ver cuándo se pausó o reanudó un recorrido {#view-pause-resume-info}
 

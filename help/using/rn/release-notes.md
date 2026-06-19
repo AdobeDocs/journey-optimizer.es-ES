@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 27%
 
 ---
@@ -133,6 +133,10 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 </tr>
 </tbody>
 </table>
+
+* **Detener un recorrido pausado directamente**. Ahora puede detener un recorrido directamente desde el estado **Paused**. Anteriormente, un recorrido pausado tenía que reanudarse a **Activo** antes de poder detenerse. [Más información](../building-journeys/journey-pause.md#stop-close-paused)
+
+  Fecha de disponibilidad: 18-22 de junio de 2026
 
 * **Compatibilidad con identificadores suplementarios para públicos externos**. Ahora se admiten identificadores suplementarios en los recorridos para públicos externos, incluyendo los públicos importados de un archivo CSV y públicos creados con la composición de público federado. Puede designar cualquier atributo que no sea de identidad o de identidad no personal del público como ID suplementario; no se requiere etiquetado de esquema. [Más información](../building-journeys/supplemental-identifier.md)
 
@@ -249,7 +253,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la a
 </table>
 
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -542,7 +546,7 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 * **Informe de clics estimados para SMS**: ahora hay disponible una nueva métrica de clics estimados en los informes Recorridos, campañas y canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
 
