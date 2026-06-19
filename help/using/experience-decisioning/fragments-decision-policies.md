@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 1%
+source-wordcount: 1744
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ Si la directiva de decisión cumple los requisitos para dos ofertas y cada una t
 
 >[!AVAILABILITY]
 >
->Esta función está disponible en disponibilidad limitada para canales salientes con compatibilidad con Decisioning. Para solicitar acceso, póngase en contacto con su representante de Adobe.
+>Esta función está disponible para canales salientes con compatibilidad con Decisioning.
 
 Antes de aprovechar los fragmentos de contenido de AEM en una política de decisión, asegúrese de lo siguiente:
 
@@ -173,7 +173,7 @@ En el editor de personalización, están disponibles todos los fragmentos de con
 
 En este ejemplo, la política de decisión incluye dos elementos de decisión que tienen fragmentos de AEM vinculados a ellos a través de su nombre de referencia.
 
-![](assets/aem-fragment-select.png)
+![Editor de Personalization que muestra fragmentos de contenido de AEM disponibles por nombre de clave de fragmento en una directiva de decisión.](assets/aem-fragment-select.png)
 
 1. Haga clic en el botón + para añadir el fragmento deseado a la expresión.
 
@@ -181,9 +181,112 @@ En este ejemplo, la política de decisión incluye dos elementos de decisión qu
 
 1. Una vez seleccionado el fragmento, puede aprovechar sus atributos, como direcciones URL de imagen, campos de texto u otro contenido, y utilizar Decisioning para mostrar el contenido correcto al cliente correcto en el momento adecuado.
 
-   ![](assets/aem-fragment-attribute.png)
+   ![Atributos de fragmento de contenido de AEM seleccionados disponibles para su personalización en la expresión de directiva de decisión.](assets/aem-fragment-attribute.png)
 
-1. Antes de activar la campaña o el recorrido, utilice cualquiera de los métodos de simulación para obtener una vista previa del modo en que se representarán los valores de los campos Fragmento de contenido de AEM: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra o la generación automática de IA, o haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para obtener una vista previa con un perfil de prueba específico. [Más información sobre la simulación de contenido](../content-management/preview-test.md)
+1. Antes de activar la campaña o el recorrido, utilice cualquiera de los métodos de simulación para previsualizar cómo se renderizarán los valores de los campos de fragmento de contenido de AEM. [Más información sobre la simulación de contenido](../content-management/preview-test.md)
+
+### Usar fragmentos de contenido de AEM en varios canales {#aem-fragments-channels}
+
+La forma de insertar atributos de fragmento de contenido de AEM desde una directiva de decisión depende del canal en el que esté trabajando.
+
+>[!BEGINTABS]
+
+>[!TAB Correo electrónico]
+
+Para insertar atributos de fragmento de contenido de AEM en el correo electrónico mediante una directiva de decisión:
+
+1. Abra el borrador del correo electrónico en el Designer de correo electrónico y haga clic en el icono **[!UICONTROL Toma de decisiones]**, en el carril derecho, para abrir el panel de la política de decisión.
+1. Seleccione la estrategia de selección que ha ensamblado y especifique una **ubicación** para definir el área del correo electrónico donde se rellenará la oferta.
+1. Haga clic en el icono **+** y seleccione el campo específico del fragmento de contenido de AEM que se debe representar en esa área como, por ejemplo, el campo URL de imagen a pantalla completa.
+
+   ![Panel de directivas de decisión de Designer de correo electrónico con un campo de fragmento de contenido de AEM seleccionado para una ubicación.](assets/aem-fragment-email.png)
+
+1. Antes de publicar, haga clic en **[!UICONTROL Simular contenido]** para obtener una vista previa del resultado y comprobar que la oferta de mayor prioridad y su fragmento de contenido se representan como se espera para un perfil de prueba.
+
+>[!TAB Experiencia basada en código (JSON)]
+
+Cuando cree una experiencia basada en código JSON, utilice la siguiente estructura para procesar atributos de fragmento de contenido de AEM a partir de una política de decisión.
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>Los fragmentos de contenido de AEM utilizan `aemContentReferencesMap` para buscar fragmentos por clave de referencia. Es diferente de `contentReferencesMap`, que se usa para fragmentos de contenido de Journey Optimizer.
+
+Tenga en cuenta lo siguiente al crear la carga útil JSON:
+
+* Coloque los corchetes de matriz JSON `[` y `]` **fuera** del bucle `#each`.
+* Utilice **llaves triples** `{{{ }}}` para los valores de campo dentro de cadenas JSON a fin de evitar que HTML escape caracteres especiales y garantizar una salida JSON válida.
+* El parámetro `result='YOUR_REFERENCE_KEY'` captura el contenido del fragmento resuelto con ese nombre para que pueda hacer referencia a sus campos con `YOUR_REFERENCE_KEY.fieldName`.
+
+![Editor de experiencias basado en código que muestra atributos de fragmentos de contenido de AEM procesados a partir de una directiva de decisión en JSON.](assets/aem-fragments-cbe.png)
+
+>[!TAB Experiencia basada en código (HTML)]
+
+Para las experiencias basadas en código basadas en HTML, utilice llaves dobles estándar para la renderización de campos:
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### Uso de recursos de fragmentos de contenido de AEM {#aem-cf-assets}
+
+Los fragmentos de contenido de AEM pueden incluir campos de imagen que hacen referencia a recursos almacenados en AEM. Dado que Journey Optimizer solo recibe la **ruta relativa** de esos recursos, es posible que las imágenes no se carguen a menos que se anteponga la dirección URL de publicación completa.
+
+>[!NOTE]
+>
+>Todavía no se admite la resolución nativa de referencias de recursos de AEM dentro de fragmentos de contenido. Los enfoques siguientes son soluciones alternativas disponibles hasta que se añada dicha compatibilidad.
+
+>[!BEGINTABS]
+
+>[!TAB Anteponer el dominio de publicación de AEM]
+
+1. Desde la dirección URL de la instancia de AEM, identifique el dominio de autor; por ejemplo, `author-p12345-e67890.adobeaemcloud.com`.
+
+   ![URL de instancia de AEM que muestra el dominio de autor utilizado para derivar el dominio de publicación.](assets/aem-fragment-author-domain.png)
+
+1. Reemplazar `author` por `publish` para obtener el dominio de publicación: `publish-p12345-e67890.adobeaemcloud.com`.
+
+1. En el editor de personalización de Journey Optimizer, anteponga ese dominio de publicación al campo de referencia de recursos del fragmento de contenido.
+
+   ![Editor de Personalization con el dominio de publicación de AEM antepuesto a un campo de referencia de recurso de fragmento de contenido.](assets/aem-fragment-publish-domain.png)
+
+La imagen ahora se resolverá en la dirección URL de publicación completa a la hora de la entrega.
+
+>[!TAB Almacenar la dirección URL de publicación en un campo de texto]
+
+1. Abra el fragmento de contenido en AEM.
+1. Vaya a la vista previa de JSON y marque la sección **Referencias** para localizar la URL del recurso publicado.
+
+   ![Sección de referencias de la vista previa JSON del fragmento de contenido de AEM que muestra la URL del recurso publicado.](assets/aem-fragment-published-url.png)
+
+1. Copie la URL de publicación y péguela en un campo de texto dedicado dentro del fragmento de contenido.
+
+   ![Campo de texto de fragmento de contenido de AEM que contiene la URL de publicación copiada para el recurso al que se hace referencia.](assets/aem-fragment-copy-url.png)
+
+1. En Journey Optimizer, haga referencia a ese campo de texto directamente como origen de imagen en la expresión de personalización.
+
+   ![Expresión de personalización de Journey Optimizer que hace referencia al campo de texto Fragmento de contenido como origen de imagen.](assets/aem-fragment-use-url.png)
+
+Este método evita la construcción manual de direcciones URL y mantiene la dirección URL de publicación dentro del propio fragmento de contenido.
+
+>[!ENDTABS]
 
 ## Vídeo práctico {#video}
 
