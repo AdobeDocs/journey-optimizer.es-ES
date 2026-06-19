@@ -286,26 +286,26 @@ Almacene en déclencheur mensajes transaccionales o de marketing de un sistema e
 * Las llamadas tienen un tiempo de espera de **de 60 segundos**; los reintentos internos controlan los tiempos de espera inesperados.
 * Si se configuran las fechas de inicio y finalización de la campaña, las llamadas a la API fuera de esas fechas fallarán.
 * Para crear su carga útil, recupere la solicitud cURL de ejemplo generada desde la sección **solicitud cURL** de su campaña en directo en la interfaz de usuario de Journey Optimizer; incluye todas las variables de personalización para esa campaña.
-* Las [campañas estándar y de alto rendimiento](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) usan puntos de conexión diferentes.
+* Las [campañas estándar y de alto rendimiento](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput) usan puntos de conexión diferentes.
 
-[Referencia de API](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [Muestras de código](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [Trabajar con campañas activadas por API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[Referencia de API](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [Muestras de código](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [Trabajar con campañas activadas por API](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### Límite y restricción para extremos externos {#capping-throttling}
 
 Cuando los recorridos llaman a sistemas externos mediante acciones personalizadas o fuentes de datos, las API de restricción y límite protegen esos sistemas de la sobrecarga. El límite rechaza las llamadas que superan el límite configurado; la restricción las pone en cola durante un máximo de 6 horas (solo zonas protegidas de producción y acciones personalizadas).
 
-[Referencia de API de límite](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [Trabajar con la API de límite](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [Trabajar con la API de limitación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[Referencia de API de límite](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [Trabajar con la API de límite](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [Trabajar con la API de limitación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
 
 ### Más API de REST {#more-rest-apis}
 
 | Lo que tiene que hacer | Referencia de la API |
 | ------------------- | ------------- |
-| Excluir direcciones de correo electrónico o dominios del envío mediante programación | [API de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Administrar la lista de supresión](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| Excluir direcciones de correo electrónico o dominios del envío mediante programación | [API de supresión](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Administrar la lista de supresión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
 | Recuperar metadatos de recorrido para auditoría o sincronización externa | [API de Recorridos](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| Crear y administrar plantillas de contenido y fragmentos desde una canalización externa | [API de contenido](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Plantillas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [Fragmentos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| Crear y administrar plantillas de contenido y fragmentos desde una canalización externa | [API de contenido](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Plantillas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [Fragmentos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/fragments/fragments) |
 | Recuperación y filtrado de campañas de acción | [API de campañas](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Previsualización de campañas y envío de pruebas mediante programación | [API de simulaciones](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| Validar conjuntos de datos y ejecutar campañas organizadas por déclencheur | [Validación de conjuntos de datos](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de datos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| Validar conjuntos de datos y ejecutar campañas organizadas por déclencheur | [Validación de conjuntos de datos](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de datos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## Recursos adicionales {#additional-resources}
 
