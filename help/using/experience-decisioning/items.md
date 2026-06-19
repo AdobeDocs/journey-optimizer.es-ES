@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 2364
+source-wordcount: 2363
 ht-degree: 16%
 
 ---
@@ -79,7 +79,7 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
      >[!AVAILABILITY]
      >
-     >Esta función está disponible para canales salientes con compatibilidad con Decisioning.
+     >Esta función está disponible para canales compatibles con Decisioning.
 
      Para conocer los requisitos previos y las protecciones, consulte [Usar fragmentos de contenido de AEM con Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 

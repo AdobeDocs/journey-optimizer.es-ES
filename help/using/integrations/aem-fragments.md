@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1769
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ Adobe Experience Manager le permite identificar las campañas o recorridos de Jo
 
 >[!AVAILABILITY]
 >
->Esta función está disponible para canales salientes con compatibilidad con Decisioning.
+>Esta función está disponible para canales compatibles con Decisioning.
 
 Los fragmentos de contenido de AEM también se pueden usar como atributos de elemento de oferta en **Experience Decisioning**. Al asignar campos de fragmento de contenido a atributos de elemento de decisión, puede utilizar modelos de toma de decisiones de Journey Optimizer, fórmulas y criterios de clasificación para optimizar qué fragmento se sirve a cada perfil.
 
