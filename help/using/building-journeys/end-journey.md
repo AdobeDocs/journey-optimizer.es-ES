@@ -10,23 +10,15 @@ keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1266
 ht-degree: 2%
 
 ---
@@ -119,6 +111,8 @@ La definición de &quot;terminado&quot; varía según el tipo de recorrido:
 
 Cerrar un recorrido manualmente garantiza que los clientes que ya han introducido el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido. Cuando un recorrido está cerrado (por cualquiera de las razones anteriores), tendrá el estado **[!UICONTROL Cerrado]**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Los perfiles que ya están en el recorrido pueden finalizar el recorrido normalmente. Después del tiempo de espera global predeterminado de 91 días, el recorrido cambiará al estado **Finalizado**.
 
+Puede detener un recorrido desde el estado **Activo** o **En pausa**. Cuando el recorrido está **En pausa**, no es necesario que lo reanude a **Activo** primero. [Más información acerca de cómo detener un recorrido en pausa](journey-pause.md#stop-close-paused).
+
 Para cerrar un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Cerca de nuevas entradas]**.
 
 ![Menú desplegable Finalizar acción en el menú de acciones rápidas para finalizar el recorrido](assets/journey-finish-quick-action.png)
@@ -136,6 +130,8 @@ También puede:
 ## Detener un recorrido {#stop-journey}
 
 En caso de que necesite detener el progreso de todos los individuos en el recorrido, puede detenerlo. Deteniendo el tiempo de espera de recorrido de todos los individuos del recorrido. Sin embargo, detener un recorrido implica que todas las personas que ya han entrado en un recorrido se detengan en su progreso. El recorrido está básicamente apagado. Si desea finalizar un recorrido, se recomienda [cerrarlo](#close-journey).
+
+También puede detener un recorrido de **Paused** directamente, sin reanudarlo primero a **Live**. [Más información](journey-pause.md#stop-close-paused).
 
 Puede detener un recorrido, por ejemplo, si un experto en marketing se da cuenta de que el recorrido se dirige a la audiencia incorrecta o si una acción personalizada que se supone que debe enviar mensajes no funciona correctamente. Para detener un recorrido de la lista de recorridos, haga clic en el botón **[!UICONTROL Puntos suspensivos]** que se encuentra a la derecha del nombre del recorrido y seleccione **[!UICONTROL Detener]**.
 
@@ -162,3 +158,4 @@ Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Det
 * [Administración de entrada de perfiles](entry-management.md): configure el modo en que los perfiles escriben recorridos
 * [Configurar criterios de salida](journey-properties.md#exit-criteria) - Configurar la eliminación automática de perfiles de las recorridos
 * [Pausar un recorrido](journey-pause.md): detener temporalmente la ejecución del recorrido
+* [Detener o cerrar un recorrido pausado](journey-pause.md#stop-close-paused) - Finalizar un recorrido pausado sin reanudarlo primero

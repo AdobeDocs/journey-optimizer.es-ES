@@ -10,28 +10,15 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 4%
 
 ---
@@ -40,7 +27,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a pausar y reanudar un recorrido activo para realizar cambios o detener envíos de forma segura, incluida la aplicación de criterios de salida de atributos de perfil durante la pausa.
+**En esta página:** Aprenda a pausar y reanudar un recorrido activo para realizar cambios o detener envíos de forma segura, detener o cerrar un recorrido pausado sin reanudarlo primero y aplicar criterios de salida de atributo de perfil durante la pausa.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +36,7 @@ ht-degree: 4%
 >title="Pausar su recorrido"
 >abstract="La pausa de un recorrido activo impide que entren nuevos perfiles. Los perfiles que se encuentran actualmente en el recorrido se pueden descartar o mantener en su lugar. Si se conservan, se reanudará su ejecución en la siguiente actividad de acción una vez que se reinicie el recorrido. Es perfecto para actualizaciones o paradas de emergencia sin perder progreso."
 
-Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps).
+Puede pausar los recorridos activos, realizar todos los cambios necesarios y reanudarlos de nuevo en cualquier momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puede [aplicar criterios de salida de atributo de perfil](#journey-exit-criteria) para excluir perfiles en función de sus atributos. El recorrido se reanuda automáticamente al final del período de pausa. También puede [reanudarlo manualmente](#journey-resume-steps) o [detener el recorrido](#stop-close-paused) desde el estado **En pausa** sin reanudarlo primero.
 
 ## Ventajas principales {#journey-pause-benefits}
 
@@ -141,6 +128,24 @@ Para reanudar un recorrido en pausa y comenzar a escuchar eventos de recorrido d
 
 
 Desde la lista de sus recorridos, puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
+
+## Detener un recorrido en pausa {#stop-close-paused}
+
+Si decide no reanudar un recorrido pausado, puede finalizarlo desde el estado **Paused**. Esto finaliza inmediatamente todo el procesamiento del recorrido y detiene todos los perfiles que aún se encuentran en el recorrido. [Más información sobre cómo detener un recorrido](end-journey.md#stop-journey).
+
+Para detener un recorrido pausado del lienzo de recorrido, siga estos pasos:
+
+1. Abra el recorrido **Paused** que desee detener o cerrar.
+1. Haga clic en el botón **...Más** en la sección superior derecha del lienzo de recorrido.
+1. Seleccione **[!UICONTROL Detener]** y confirme en el cuadro de diálogo.
+
+En la lista de recorridos, también puede hacer clic en el botón **[!UICONTROL Puntos suspensivos]** a la derecha del nombre del recorrido en pausa y seleccionar **[!UICONTROL Detener]**.
+
+>[!IMPORTANT]
+>
+>No puede reiniciar ni eliminar un recorrido [cerrado](end-journey.md#close-journey) o [detenido](end-journey.md#stop-journey). Puede [crear una nueva versión](publish-journey.md#journey-versions) o [duplicarla](journey-ui.md#duplicate-a-journey).
+>
+>Detener un recorrido requiere el permiso **[!DNL Manage journeys]**. Si el recorrido incluye campañas en línea o nodos de mensajería, los usuarios también necesitan permisos de **Campañas > Publicar campañas**. [Más información sobre los permisos de detención](end-journey.md#stop-journey).
 
 ## Ver cuándo se pausó o reanudó un recorrido {#view-pause-resume-info}
 
@@ -237,7 +242,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
