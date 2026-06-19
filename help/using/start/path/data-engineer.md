@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 Como **arquitecto de datos** o **ingeniero de datos**, usted configura y mantiene los datos de perfil del cliente y otras fuentes de datos que alimentan las experiencias orquestadas por [!DNL Journey Optimizer]. Esto incluye la integración de todos los datos de clientes y empresas, ya sean de fuentes web, CRM o sin conexión, en una vista unificada del cliente de 360 grados. Modele los datos de perfil del cliente y los datos empresariales para crear esquemas, configure los conectores de origen para la ingesta de datos y garantice que los datos fluyan sin problemas para habilitar la participación y las perspectivas de los clientes en tiempo real. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que el [Administrador de sistemas](administrator.md) le conceda acceso y prepare su entorno.
+
+>[!NOTE]
+>
+>**Orden de implementación:** [Administrador](administrator.md) → Usted está aquí: **Ingeniero de datos** → [Desarrollador](developer.md) → [Especialista en mercadotecnia](marketer.md)
+>
+>Complete la [configuración del administrador](administrator.md) antes de iniciar el trabajo de base de datos.
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ Colabore con [expertos en marketing](marketer.md) en públicos y datos:
 * Compatibilidad con la segmentación de varias entidades para casos de uso avanzados
 
 >[!ENDTABS]
+
+## Otras guías de funciones {#other-role-guides}
+
+| Función | Guía |
+|------|-------|
+| Administrador | [Introducción para administradores](administrator.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](developer.md) |
+| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+
+Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

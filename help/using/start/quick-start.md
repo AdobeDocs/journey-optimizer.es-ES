@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Funciones y responsabilidades
-description: Obtenga información acerca de las diferentes funciones que intervienen en Adobe Journey Optimizer y sus responsabilidades
+title: Funciones y responsabilidades | ADOBE JOURNEY OPTIMIZER
+description: Comprenda las funciones, las responsabilidades y el orden de implementación recomendado para Adobe Journey Optimizer.
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer permite a las marcas ofrecer experiencias conectadas, contextuales y personalizadas a lo largo del recorrido del cliente. Journey Optimizer, que se ha creado con un enfoque integral en cuanto a escala, velocidad y flexibilidad, combina tres controladores de valor principales en una aplicación unificada:
+Adobe Journey Optimizer se implementa mediante cuatro funciones distintas que funcionan en secuencia. Esta página asigna las responsabilidades de cada función y los vínculos a guías de introducción detalladas.
 
-* **Datos y participación de clientes en tiempo real** con tecnología del perfil de clientes en tiempo real de Adobe
-* **Orquestación omnicanal moderna** a través de lienzos unificados para recorridos en tiempo real y campañas por lotes, además de un diseñador de mensajes moderno
-* **Toma de decisiones y personalización inteligentes** mediante la gestión de decisiones y las capacidades de IA/ML
-
-Journey Optimizer ofrece dos enfoques principales para llegar a los clientes y atraerlos:
-
-* **Recorridos**: orquestación de persona a persona en tiempo real en la que cada cliente avanza a su propio ritmo, desencadenada por comportamientos o eventos. Ideal para secuencias de incorporación, abandono del carro de compras y participación en el ciclo vital.
-* **Campañas**: mensajería basada en públicos con tres modos de envío según el caso de uso:
-   * **Campañas de acción**: mensajes programados o recurrentes enviados a un público definido de una sola vez. Ideal para boletines informativos, anuncios promocionales y lanzamientos de productos.
-   * **Campañas activadas por API**: mensajes a petición activados por un sistema externo a través de API. Ideal para mensajes transaccionales como confirmaciones de pedidos, alertas de envío y notificaciones de cuentas.
-   * **Campañas orquestadas**: flujos de trabajo por lotes complejos con segmentación de varias entidades y ejecución basada en lienzos. Es ideal para promociones de temporada, programas por lotes de varios pasos y campañas que requieran recuentos exactos de envíos previos.
-
-Esta experiencia unificada permite implementar casos de uso completos en un solo lugar, desde la definición de públicos y el diseño de recorridos hasta la creación de contenido personalizado y el análisis de resultados. En esta documentación se explican las funciones clave en el uso eficaz de Journey Optimizer, sus responsabilidades y cómo empezar.
+>[!NOTE]
+>
+>¿Es nuevo en Journey Optimizer? Comience por [Qué es Journey Optimizer](get-started.md) primero.
 
 **Nota importante:** Adobe Journey Optimizer define funciones distintas con responsabilidades específicas. Un solo individuo puede desempeñar varias funciones o todas las funciones, según la estructura de su organización.
 
@@ -295,3 +285,12 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 * [Foro de productos](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}: haga preguntas y comparta conocimientos
 
 >[!ENDTABS]
+
+## Guías de funciones {#role-guides}
+
+| Función | Guía |
+|------|-------|
+| Administrador | [Introducción para administradores](path/administrator.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](path/data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](path/developer.md) |
+| Experto en marketing | [Introducción para expertos en marketing](path/marketer.md) |

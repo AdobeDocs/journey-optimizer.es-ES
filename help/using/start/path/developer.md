@@ -3,7 +3,7 @@ title: Introducción para los desarrolladores
 description: Obtenga más información sobre cómo trabajar con Journey Optimizer como desarrollador
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 Como **desarrollador**, es responsable de implementar e integrar [!DNL Adobe Journey Optimizer] en sus aplicaciones y sistemas. Puede comenzar a trabajar con [!DNL Adobe Journey Optimizer] una vez que la variable [Administrador del sistema](administrator.md) e [Ingeniero de datos](data-engineer.md) le conceda acceso y prepare su entorno.
+
+>[!NOTE]
+>
+>**Orden de implementación:** [Administrador](administrator.md) → [Ingeniero de datos](data-engineer.md) → Usted está aquí: **Desarrollador** → [Especialista en marketing](marketer.md)
+>
+>Asegúrese de que los [esquemas y eventos de datos](data-engineer.md) estén configurados antes de implementar las integraciones móviles y web.
 
 ## Su función en el ecosistema de Journey Optimizer
 
@@ -316,3 +322,14 @@ Colabore con [expertos en marketing](marketer.md) en los requisitos y pruebas de
 4. **¿Sistema personalizado?** Consulte [Acciones personalizadas](#custom-actions)
 
 Cada sección incluye vínculos a documentación técnica detallada, ejemplos de código y tutoriales que guiarán la implementación.
+
+## Otras guías de funciones {#other-role-guides}
+
+| Función | Guía |
+|------|-------|
+| Administrador | [Introducción para administradores](administrator.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](developer.md) |
+| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+
+Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
