@@ -40,7 +40,7 @@ Una guía paso a paso para crear, configurar y ampliar experimentos para probar 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Técnicas estadísticas avanzadas para la experimentación
 

@@ -70,7 +70,7 @@ Configure el correo electrónico, los SMS, las notificaciones push y el correo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Actividad Combinar
 
