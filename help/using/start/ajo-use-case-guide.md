@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Información general sobre casos de uso de Journey Optimizer | ADOBE JOURNEY OPTIMIZER
+title: Empiece desde su meta | ADOBE JOURNEY OPTIMIZER
 description: Descubra los casos de uso principales para los que está diseñado Adobe Journey Optimizer, con instrucciones sobre las funciones de AJO que se adaptan mejor a cada escenario.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 32%
+source-wordcount: '3141'
+ht-degree: 31%
 
 ---
 
-# Encuentre la funcionalidad Journey Optimizer adecuada para su objetivo {#ajo-use-case-guide}
+# Empiece desde su meta {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -37,7 +37,7 @@ La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)*
 
 >[!TIP]
 >
->¿Es nuevo en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>¿Es nuevo en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configuración de Journey Optimizer para su equipo {#setup-admin}
 
@@ -50,7 +50,7 @@ Para administradores y usuarios técnicos que necesitan configurar el entorno an
 | Configuración de funciones, permisos y control de acceso | Control de acceso | [Introducción al control de acceso](../administration/permissions-overview.md) |
 | Trabaje en varios entornos o regiones | Zonas protegidas | [Trabajo con zonas protegidas](../administration/sandboxes.md) |
 
-## Captación de clientes en tiempo real {#engage-real-time}
+## Captar clientes a medida que ocurren eventos {#engage-real-time}
 
 Para escenarios en los que reacciona ante una acción o un evento del cliente mientras sucede.
 
@@ -109,7 +109,7 @@ Para una difusión programada, de uno a varios, a una audiencia definida.
 
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
-| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar a los clientes de una interrupción o actualización del servicio | Campaña programada + audiencias | [Acerca de las audiencias](../audience/about-audiences.md) |
 | Diseño de una campaña de varios pasos con lógica de ramificación | Campañas orquestadas | [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) |
 | Segmentar solo los perfiles que hayan cambiado desde la última ejecución de mi campaña | Campañas organizadas: consulta incremental | [Generar consultas en campañas orquestadas](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -199,7 +199,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Recuperar carros abandonados {#flow-cart}
 
-**Creará:** Un flujo de recuperación en tiempo real que recuerda a los clientes los elementos que quedan.
+**Creará:** Un flujo de recuperación automatizado que recuerda a los clientes los elementos que se han dejado atrás.
 **Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
 
 1. Asegúrese de que el evento de abandono del carro de compras llegue a Journey Optimizer (trabaje con su [equipo de datos](../data/gs-data.md) si es necesario).
@@ -258,7 +258,7 @@ Una tienda de ropa suele enviar encuestas posteriores a la compra a todos los cl
 
 **Función:** Profesional de marketing | **Capacidad principal:** [Activación de geoperímetro + push](../push/get-started-push.md)
 
-El mismo minorista podría atraer a un cliente fiel que entra en el aparcamiento de la tienda en tiempo real enviándole una notificación push acerca de un suéter de su talla que vuelve a estar en existencias.
+El mismo retailer puede atraer a un cliente fiel que entra en el aparcamiento de la tienda enviándole una notificación push sobre un suéter que vuelve a estar en existencias en la talla del cliente.
 
 [Introducción a las notificaciones push](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ El mismo minorista podría atraer a un cliente fiel que entra en el aparcamiento
 
 **Función:** Profesional de marketing | **Capacidad principal:** [recorrido de varios pasos activado por eventos](../building-journeys/journey-gs.md)
 
-Cuando un cliente añade artículos a un carro de compras en línea pero sale sin finalizar la compra, Journey Optimizer detecta el evento en tiempo real e inicia un recorrido de recuperación automáticamente. El cliente recibe un correo electrónico personalizado que le recuerda los artículos que ha dejado en el carro. Si no hace clic en un plazo de 24 horas, se envía una notificación push de seguimiento, personalizada en función de su historial de navegación y su nivel de fidelidad.
+Cuando un cliente agrega artículos a un carro de compras en línea pero sale sin completar la compra, Journey Optimizer detecta el evento e inicia un recorrido de recuperación automáticamente. El cliente recibe un correo electrónico personalizado que le recuerda los artículos que ha dejado en el carro. Si no hace clic en un plazo de 24 horas, se envía una notificación push de seguimiento, personalizada en función de su historial de navegación y su nivel de fidelidad.
 
 [Creación de su primer recorrido](../building-journeys/journey-gs.md)
 
@@ -333,15 +333,15 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 
 >[!TAB Informes y optimización]
 
-* [Monitorice y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Rastree el rendimiento en tiempo real.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Supervise y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: efectúe el seguimiento del rendimiento a medida que se ejecutan sus recorridos.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 
 ## Elección entre recorridos, campañas y campañas organizadas {#choosing}
 
 | Situación | Utilice |
-|----------|-----|
+| -------- | --- |
 | Impulsado por el comportamiento, con varios pasos, cada cliente se mueve a su propio ritmo | Recorrido |
 | Mensaje simple programado o activado por API a una audiencia | Campaign |
 | Flujo de trabajo por lotes complejo con segmentación de varias entidades | Campaña organizada |
