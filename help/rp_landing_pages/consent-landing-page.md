@@ -42,7 +42,7 @@ Obtenga información sobre cómo crear y aplicar políticas de consentimiento pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Administrar las preferencias de los clientes
 

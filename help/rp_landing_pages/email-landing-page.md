@@ -42,7 +42,7 @@ Guía paso a paso para añadir, configurar y probar acciones de correo electrón
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Diseñar y optimizar el contenido del correo electrónico
 

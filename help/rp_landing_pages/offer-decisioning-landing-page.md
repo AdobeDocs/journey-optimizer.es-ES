@@ -55,7 +55,7 @@ Aprenda a clasificar ofertas utilizando fórmulas y modelos de IA para optimizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y administrar ofertas
 

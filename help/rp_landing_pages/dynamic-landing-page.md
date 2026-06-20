@@ -40,7 +40,7 @@ Domine la creación, el almacenamiento y la administración de reglas condiciona
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Más información sobre cómo crear contenido dinámico en Adobe Journey Optimizer
 

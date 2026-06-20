@@ -20,7 +20,7 @@ La entregabilidad del correo electrónico consiste en garantizar que los correos
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la entregabilidad del correo electrónico
 
@@ -40,7 +40,7 @@ Descubra cómo las listas de supresión protegen la reputación del remitente y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Cumplimiento de los nuevos requisitos de DMARC
 
