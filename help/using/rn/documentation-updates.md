@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* Ya está disponible un nuevo concentrador de incorporación de **Introducción a Adobe Journey Optimizer**. Los nuevos usuarios pueden elegir su ruta por función, explorar los aspectos básicos o ir a las áreas diarias si ya están incorporadas, sin necesidad de saber dónde buscar primero. [Más información](../../rp_landing_pages/get-started-landing-page.md)
+
+* Una nueva página de **Empiece desde su objetivo** le permite comenzar desde lo que desea lograr en lugar de usar un nombre de característica. Asigna los objetivos comerciales a la capacidad recomendada de Journey Optimizer en la configuración, los recorridos, las campañas, la personalización, las decisiones y los informes. [Más información](../start/ajo-use-case-guide.md)
+
+* La guía de funciones de **Introducción para desarrolladores** se ha actualizado con introducciones más claras para cada sección y **Colaborar entre funciones** pestañas que hacen referencia a recorridos y vínculos a páginas de implementación clave. [Más información](../start/path/developer.md)
 
 * Se ha agregado una nueva subsección **Asignación de ruta al volver a entrar al recorrido** a la documentación de **experimentación de rutas**. Aclara que la asignación de ruta es persistente para un perfil en varias entradas en la misma versión de recorrido, pero solo dentro de esa versión de recorrido. Las asignaciones se restablecen cuando se publica una nueva versión del recorrido y cada actividad de experimentación de rutas de un recorrido aplica una asignación aleatoria independiente. [Más información](../building-journeys/path-experimentation.md#path-assignment)
 * Las referencias a **Adobe Experience Cloud** se han alineado con la marca **[!DNL Adobe CX Enterprise]** en la documentación de [!DNL Journey Optimizer].
