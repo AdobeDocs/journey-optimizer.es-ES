@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
+source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
 workflow-type: tm+mt
-source-wordcount: 3797
+source-wordcount: 3733
 ht-degree: 27%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 27%
 >Las funcionalidades que se enumeran en estas notas de la versión incluyen una **Fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
 
 ## Notas de la versión de junio de 2026 {#june-26-rn}
-
-La versión de junio de 2026 incorpora varias funciones principales a General Availability, entre las que se incluyen **Simulación de Recorrido**, **Segmentación de optimización de ruta de Recorrido** y **Fragmentos de Recorrido**, además de la nueva creación asistida por IA en recorridos y contenido, la compatibilidad ampliada de Decisioning para el canal de correo postal y controles de seguridad y administración adicionales. Las funcionalidades y mejoras que se indican a continuación están organizadas por temas. También se esperan cambios adicionales en los próximos días o semanas.
 
 ### Recorridos {#june-26-journeys}
 
@@ -156,7 +154,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
   Fecha de disponibilidad: 18 de junio de 2026. Esta capacidad se está extendiendo gradualmente a todas las regiones en los próximos días.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido activo, ahora aparecen en el **encabezado del recorrido** junto al distintivo del estado activo. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
 
@@ -166,7 +164,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
 Las siguientes funcionalidades y mejoras están llegando a las campañas orquestadas en esta versión.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -459,7 +457,7 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la ad
 </tbody>
 </table>
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -546,7 +544,7 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 * **Informe de clics estimados para SMS**: ahora hay disponible una nueva métrica de clics estimados en los informes Recorridos, campañas y canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 * **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
 
