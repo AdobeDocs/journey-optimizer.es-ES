@@ -128,7 +128,7 @@ Para utilizar un identificador suplementario en un recorrido Leer audiencia, sig
 
    1. En el campo **[!UICONTROL Identificador suplementario]**, use el editor de expresiones para seleccionar el atributo de identificador suplementario.
 
-   Para las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, si la audiencia CSV contiene varias filas por ID de perfil, asegúrese de que la activación rápida esté habilitada primero; consulte [Identificadores adicionales con audiencias externas](#external-audiences).
+   Para las audiencias [importadas desde un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"}, si la audiencia CSV contiene varias filas por ID de perfil, asegúrese de que la activación rápida esté habilitada primero; consulte [Identificadores adicionales con audiencias externas](#external-audiences).
 
        >[!NOTE]
      >
@@ -199,7 +199,7 @@ Póngase en contacto con su representante de Adobe para obtener instrucciones so
 
 ## Identificadores adicionales con audiencias externas {#external-audiences}
 
-Se admite un ID suplementario para audiencias externas, incluidas las audiencias [importadas de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} y las creadas con [Composición de audiencias federada](../audience/get-started-audience-orchestration.md). Al configurar un recorrido que lee desde una audiencia CSV o de Composición de audiencia federada, puede designar cualquier atributo que no sea de identidad en esa audiencia como ID suplementario. A continuación, Journey Optimizer crea una instancia de recorrido independiente por cada combinación de perfil único + ID suplementario.
+Se admite un ID suplementario para audiencias externas, incluidas las audiencias [importadas de un archivo CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es#import-audience){target="_blank"} y las creadas con [Composición de audiencias federada](../audience/get-started-audience-orchestration.md). Al configurar un recorrido que lee desde una audiencia CSV o de Composición de audiencia federada, puede designar cualquier atributo que no sea de identidad en esa audiencia como ID suplementario. A continuación, Journey Optimizer crea una instancia de recorrido independiente por cada combinación de perfil único + ID suplementario.
 
 * Caso de uso 1: Una fila por perfil único + par de ID suplementario
 
@@ -271,7 +271,7 @@ Cuerpo de la solicitud (conjunto `expressActivation: true`):
 >
 >`expressActivation` toma como valor predeterminado `false`. Debe configurarse en el momento de la creación de la audiencia y no se puede cambiar después de la creación. Todas las audiencias de Composición de audiencia federada tienen la activación rápida habilitada de forma predeterminada y no requieren este indicador.
 
-Consulte la [documentación de la API de creación de audiencias externas](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obtener toda la información.
+Consulte la [documentación de la API de creación de audiencias externas](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} para obtener toda la información.
 
 +++
 
