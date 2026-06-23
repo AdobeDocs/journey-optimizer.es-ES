@@ -6,8 +6,12 @@ description: Obtenga información sobre cómo solucionar problemas de actividade
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5964
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap` es un tipo de MAP estructurado, no una cadena. Utilice la sintaxis del descriptor de acceso array y struct que se muestra arriba. Las funciones de cadena como `LIKE` devolverán un error `DATATYPE_MISMATCH`.
 >
 ></br>
-&gt; El conjunto de datos de evento de comentarios de mensajes almacena solo ECID en su identityMap. Si el perfil afectado se identifica mediante un área de nombres personalizada en lugar de ECID, resuelva primero el ECID: vaya a **Perfiles** en AEP, busque el perfil utilizando el área de nombres personalizada y el valor de identidad, y recupere el ECID de los detalles de identidad del perfil. Utilice ese valor ECID en la consulta anterior.
+>&gt; El conjunto de datos de evento de comentarios de mensajes almacena solo ECID en su identityMap. Si el perfil afectado se identifica mediante un área de nombres personalizada en lugar de ECID, resuelva primero el ECID: vaya a **Perfiles** en AEP, busque el perfil utilizando el área de nombres personalizada y el valor de identidad, y recupere el ECID de los detalles de identidad del perfil. Utilice ese valor ECID en la consulta anterior.
 
 ### feedbackStatus, valores
 
