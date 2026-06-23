@@ -11,25 +11,15 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
@@ -60,7 +50,7 @@ ht-degree: 2%
 
 **Perfecto para:** confirmaciones de pedidos después de la compra, correos electrónicos de bienvenida cuando alguien se suscribe, notificaciones de restablecimiento de contraseña y personalización posterior al inicio de sesión.
 
-➡️ [Más información sobre los eventos](../event/about-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md)
+➡️ [Más información sobre los eventos](../event/about-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md) | [Crear un recorrido de eventos unitario](#build-unitary-event)
 
 >[!TAB Leer recorridos de audiencia]
 
@@ -70,7 +60,7 @@ ht-degree: 2%
 
 **Perfecto para:** boletines mensuales, campañas promocionales para segmentos de destinatario, anuncios de productos, series de participación recurrentes y campañas de marketing de temporada.
 
-➡️ [Más información sobre la audiencia de lectura](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md)
+➡️ [Más información sobre la audiencia de lectura](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md) | [Crear un recorrido de audiencia de lectura](#build-read-audience)
 
 >[!TAB recorridos de calificación de audiencia]
 
@@ -80,7 +70,7 @@ Los **recorridos de calificación de audiencias** dan déclencheur cuando los pe
 
 **Perfecto para:** notificaciones de actualización de nivel de VIP, mensajes de celebración de la primera compra, alertas de riesgo de pérdida y transiciones de fase del ciclo de vida de lealtad.
 
-➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Creando audiencias](../audience/creating-a-segment-definition.md)
+➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Creando audiencias](../audience/creating-a-segment-definition.md) | [Crear un recorrido de calificación de audiencia](#build-audience-qualification)
 
 >[!TAB recorridos de eventos empresariales]
 
@@ -90,7 +80,7 @@ Los **recorridos de calificación de audiencias** dan déclencheur cuando los pe
 
 **Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de ventas flash, notificaciones de bajadas de precios y alertas de productos que vuelven a estar disponibles.
 
-➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
+➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md) | [Crear un recorrido de evento empresarial](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +164,9 @@ No todas las funciones están disponibles para todos los tipos de recorrido. Uti
 
 ## Próximos pasos {#next-steps}
 
-Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
+En cada tabla se enumeran los pasos de configuración mediante administración para ese tipo de recorrido.
+
+### Recorridos de evento unitario {#build-unitary-event}
 
 * **[Cree su primer recorrido](journey-gs.md)** - Guía paso a paso
 * **[Más información sobre el diseñador de recorridos](using-the-journey-designer.md)**: Diseña tu lienzo de recorrido
