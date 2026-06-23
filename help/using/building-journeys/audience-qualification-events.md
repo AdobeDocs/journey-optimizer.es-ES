@@ -20,7 +20,7 @@ topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d2
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Calificación del público"
->abstract="Déclencheur la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de una audiencia [!DNL Adobe Experience Platform]. Recomendado para audiencias de streaming; se utiliza la actividad Leer audiencia para escenarios por lotes."
+>abstract="Activa la entrada o continuación del recorrido cuando un perfil cumple los requisitos o sale de un público [!DNL Adobe Experience Platform]. Recomendado para públicos de streaming; una actividad Leer público se usa para escenarios por lotes."
 
 ## Acerca de los eventos de calificación de público{#about-segment-qualification}
 
@@ -60,22 +60,22 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etiqueta"
->abstract="Una etiqueta opcional para identificar esta actividad en los registros del modo de prueba y creación de informes."
+>abstract="Etiqueta opcional para identificar esta actividad en los registros de los modos de prueba y creación de informes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público"
->abstract="Audiencia [!DNL Adobe Experience Platform] que supervisa el recorrido. Los perfiles entran o avanzan según cumplen los requisitos o salen de esta audiencia. Se recomiendan las audiencias de streaming para que la calificación se evalúe en tiempo real."
+>abstract="Público de [!DNL Adobe Experience Platform] que supervisa el recorrido. Los perfiles entran o avanzan según cumplen los requisitos o salen de este público. Se recomiendan los públicos de streaming para que la calificación se evalúe en tiempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamiento"
->abstract="Define los cambios de pertenencia a audiencias a los que reacciona el recorrido: cuando los perfiles cumplen los requisitos para (entrar) la audiencia, cuando la abandonan (salir) o ambos. Escuchar ambas abarca el ciclo de vida completo de la membresía, mientras que una sola opción restringe el recorrido a una dirección."
+>abstract="Define los cambios de pertenencia a públicos a los que reacciona el recorrido: cuando los perfiles cumplen los requisitos del público (entrar), cuando lo abandonan (salir) o ambos. Tener en cuenta ambas opciones abarca el ciclo de vida completo de la pertenencia, mientras que una sola opción restringe el recorrido a una dirección."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo de identidad"
->abstract="El área de nombres de identidad que se utiliza para reconocer a las personas cuando cumplen los requisitos para la audiencia. Solo están disponibles las áreas de nombres de identidad basadas en personas y los perfiles sin esta identidad no pueden entrar en el recorrido."
+>abstract="El espacio de nombres de identidad que se utiliza para reconocer a las personas cuando cumplen los requisitos del público. Solo están disponibles los espacios de nombres de identidad basados en personas, y los perfiles sin esta identidad no pueden entrar en el recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -109,7 +109,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
    >[!NOTE]
    >
    >**[!UICONTROL Entrar]** y **[!UICONTROL Salir]** corresponden a los estados de participación de audiencia **Realizado** y **Salido** de [!DNL Adobe Experience Platform].
-   >Consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado.
 
@@ -154,7 +154,7 @@ Cuando se utiliza la calificación de audiencia para audiencias transmitidas, ha
 
 Evite utilizar la apertura y el envío de eventos con la segmentación de flujo continuo. En su lugar, utilice señales reales de actividad del usuario como clics, compras o datos de señalizaciones. Para la frecuencia o la lógica de supresión, utilice reglas empresariales en lugar de enviar eventos. [Más información](../audience/about-audiences.md)
 
-Consulte la [[!DNL Adobe Experience Platform] documentación de segmentación de transmisión](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulte la [[!DNL Adobe Experience Platform] documentación de segmentación de transmisión](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ Estas son algunas prácticas recomendadas para evitar sobrecargar sistemas aprov
 
   ![Mensaje de error cuando no se encuentra la audiencia en [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=es){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, use una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
+* Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los recorridos para evitar sobrecargarlos. Obtenga más información en [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. Tenga en cuenta que la regla de límite no tiene reintento. Si necesita volver a intentarlo, use una ruta alternativa en el recorrido marcando la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en condiciones o acciones.
 
 * Antes de usar la audiencia en un recorrido de producción, evalúe el volumen de personas que cumplen los requisitos para esta audiencia diariamente. Para ello, compruebe el menú **[!UICONTROL Audiencia]**, abra la audiencia y observe el gráfico de **[!UICONTROL Perfiles a lo largo del tiempo]**.
 
@@ -236,7 +236,7 @@ Siga las protecciones y recomendaciones que se indican a continuación para crea
 
 Comprenda los casos de uso aplicables para los recorridos de calificación de audiencias en este vídeo. Obtenga información sobre cómo crear un recorrido con la calificación de audiencias y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446207?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
 
 +++ Referencia de conocimientos de AI
 

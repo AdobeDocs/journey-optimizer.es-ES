@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fragmentos de recorrido
+title: Fragmentos del recorrido
 description: Aprenda a crear y utilizar fragmentos de recorrido para guardar y reutilizar conjuntos de nodos de recorrido en varios recorridos en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -14,12 +14,12 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1671
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 
-# Fragmentos de recorrido {#journey-fragments}
+# Fragmentos del recorrido {#journey-fragments}
 
 >[!BEGINSHADEBOX]
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 Los fragmentos de recorrido son conjuntos reutilizables de nodos de recorrido que puede generar una vez y soltarlos en cualquier recorrido de la zona protegida. Tanto si se trata de una comprobación de elegibilidad, una lógica de enrutamiento de canal preferida o una secuencia de bienvenida, los fragmentos ayudan a los equipos a moverse más rápido y a mantener la coherencia, sin volver a crear la misma lógica desde cero cada vez. [Vea ejemplos de casos de uso.](#examples)
 
-Una vez creados, los fragmentos se almacenan en un **[!UICONTROL inventario de fragmentos]** específico y se pueden insertar en cualquier recorrido mediante la actividad **[!UICONTROL fragmentos de Recorrido]**.
+Una vez creados, los fragmentos se almacenan en un **[!UICONTROL inventario de fragmentos]** específico y se pueden insertar en cualquier recorrido mediante la actividad **[!UICONTROL Fragmentos de recorrido]**.
 
 >[!NOTE]
 >los fragmentos de recorrido usan un **comportamiento de copia**: al insertar un fragmento en un recorrido, se crea una copia estática de los nodos originales. Las actualizaciones realizadas en el fragmento original no se reflejan en los recorridos que ya lo han utilizado.
@@ -97,7 +97,7 @@ Para crear un fragmento directamente desde el inventario:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propiedades del fragmento de recorrido"
->abstract="Al abrir un fragmento desde el inventario, se pueden modificar sus nodos, propiedades, etiquetas o etiquetas. Los fragmentos activos deben desactivarse para poder editarlos."
+>abstract="Abrir un fragmento del inventario permite modificar sus nodos, propiedades o etiquetas. Los fragmentos activos deben desactivarse para poder editarlos."
 
 Para editar un fragmento, ábralo desde el **[!UICONTROL Inventario de fragmentos]** haciendo clic en su nombre. En la IU de creación de fragmentos puede hacer lo siguiente:
 

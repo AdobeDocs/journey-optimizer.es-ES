@@ -8,24 +8,16 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -45,8 +37,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="Acción de mensaje en la aplicación"
->abstract="Una acción entrante de mensaje en la aplicación muestra un mensaje en la aplicación a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración en la aplicación que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (de forma predeterminada, 3 días), lo que proporciona a los perfiles tiempo para ver el mensaje en la aplicación."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción entrante de mensaje en la aplicación muestra un mensaje en la aplicación a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración en la aplicación que define el contenido mostrado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Esperar** después de esta actividad (de forma predeterminada, tres días), lo que da a los perfiles tiempo para ver el mensaje en la aplicación."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
 
@@ -273,7 +265,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -281,7 +273,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -289,7 +281,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

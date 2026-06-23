@@ -10,23 +10,16 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 1266
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -62,8 +55,8 @@ Para crear mensajes de correo postal, cree una campaña programada o un recorrid
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
 >title="Acción de correo directo"
->abstract="Una acción del canal de correo postal genera el contenido de correo postal de los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de correo directo que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción del canal de correo directo genera el contenido de correo directo de los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración de correo directo que define el contenido enviado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingüe** puede entregar contenido en varios idiomas y la sección **Tiempo de espera o error** puede definir una ruta alternativa si la acción falla."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 Examine las pestañas siguientes para aprender a añadir un mensaje de correo postal en una campaña o un recorrido.
 

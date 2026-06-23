@@ -20,7 +20,7 @@ level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -61,14 +61,14 @@ También puede basar una condición en la pertenencia a audiencias. Consulte est
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Adición y administración de rutas de condición {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="Acerca del editor de expresiones simple"
->abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se interconectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se conectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
 
 Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas más fácilmente.
 
@@ -207,7 +207,7 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++ Referencia de conocimientos de AI
 

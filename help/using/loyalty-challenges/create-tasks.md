@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ Atributos disponibles para **[!UICONTROL actividades de evento personalizado]**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Elementos aptos y exclusiones"
->abstract="Para las actividades **Purchase** y **Spend**, use el atributo **[!UICONTROL Eligible items &amp; exclusions]** para seleccionar qué artículos y grupos se contabilizan para la finalización de la tarea y cuáles se excluyen. Busque artículos o grupos del inventario de productos configurado por los administradores y, a continuación, inclúyalos o exclúyalos según sea necesario."
+>abstract="Para las actividades **Compra** y **Gasto**, use el atributo **[!UICONTROL Elementos aptos y exclusiones]** para seleccionar qué elementos y grupos cuentan para la finalización de la tarea y cuáles están excluidos. Busque artículos o grupos del inventario de productos configurado por los administradores y, a continuación, inclúyalos o exclúyalos según sea necesario."
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -89,12 +89,12 @@ Esta página cubre el proceso completo de creación de un desafío de fidelidad,
 
 En la ficha **[!UICONTROL Configuración]**, configure las propiedades de nivel de desafío: quién puede participar, cuándo se ejecuta el desafío, cómo pueden incluirse los miembros y obtener progreso, y metadatos opcionales.
 
-### Detalles del desafío {#challenge-details}
+### Detalles del reto {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="Detalles del desafío"
->abstract="Defina el nombre y la descripción del desafío. El ID de desafío se asigna automáticamente cuando se crea el desafío y se puede copiar para uso de API o integración."
+>title="Detalles del reto"
+>abstract="Defina el nombre y la descripción del reto. El ID del reto se asigna automáticamente cuando se crea el reto y se puede copiar para uso de API o integración."
 
 1. En la sección **[!UICONTROL Detalles del desafío]**, defina lo siguiente:
 
@@ -109,7 +109,7 @@ En la ficha **[!UICONTROL Configuración]**, configure las propiedades de nivel 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Público"
->abstract="Elija quién puede participar en el desafío. Añada una audiencia de Adobe Experience Platform o deje la audiencia vacía para que todos los miembros socio sean aptos. Opcionalmente, se requiere la finalización de otros desafíos como requisitos previos."
+>abstract="Elija quién puede participar en el reto. Añada un público de Adobe Experience Platform o deje el público vacío para que todos los miembros de lealtad sean aptos. Opcionalmente, se requiere la finalización de otros retos como requisitos previos."
 
 Defina quién puede participar en su desafío de fidelidad.
 
@@ -124,7 +124,7 @@ Defina quién puede participar en su desafío de fidelidad.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programación del desafío"
->abstract="Defina cuándo se activará el desafío utilizando la fecha y la hora de inicio y finalización y una zona horaria. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo de prueba."
+>abstract="Defina cuándo se activará el reto utilizando la fecha y la hora de inicio y finalización y una zona horaria. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo del reto."
 
 Configure cuándo se ejecuta el desafío:
 

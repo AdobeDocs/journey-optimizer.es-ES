@@ -20,7 +20,7 @@ topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-15
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Actividad Esperar"
->abstract="La actividad Wait permite esperar antes de ejecutar la siguiente actividad en la ruta. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
+>abstract="La actividad Esperar permite esperar antes de ejecutar la siguiente actividad en la ruta. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
 Puede usar una actividad **[!UICONTROL Wait]** para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es de **90 días**.
 
@@ -131,7 +131,7 @@ Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Acerca del nodo de espera automático"
->abstract="Se inserta automáticamente un nodo **Wait** después de esta acción entrante. Se establece en 3 días de forma predeterminada, lo que garantiza que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje o la experiencia. La duración de la espera se puede actualizar o el nodo se puede eliminar si el caso de uso lo requiere."
+>abstract="Se inserta automáticamente un nodo **Esperar** después de esta acción de entrada. Se establece en tres días de forma predeterminada, lo que garantiza que los perfiles permanezcan en el recorrido el tiempo suficiente para ver el mensaje o la experiencia. La duración de la espera se puede actualizar o el nodo se puede eliminar si el caso de uso lo requiere."
 
 Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.
 

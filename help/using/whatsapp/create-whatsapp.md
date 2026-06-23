@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 1162
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -77,8 +69,8 @@ Tenga en cuenta que no se admiten los botones interactivos **Copiar código**.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_whatsapp"
 >title="Acción de WhatsApp"
->abstract="Una acción del canal de WhatsApp envía un mensaje de WhatsApp a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de WhatsApp que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción del canal de WhatsApp envía un mensaje de WhatsApp a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración de WhatsApp que define el contenido enviado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingüe** puede entregar contenido en varios idiomas y la sección **Tiempo de espera o error** puede definir una ruta alternativa si la acción falla."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 Examine las pestañas a continuación para aprender a añadir un mensaje de WhatsApp en una campaña o un recorrido.
 
@@ -232,6 +224,6 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470285/?captions=spa&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

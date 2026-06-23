@@ -20,7 +20,7 @@ topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -68,14 +68,14 @@ Las actividades de canal nativo heredadas también se conservan en estos casos:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nodo de espera automático"
->abstract="Para las acciones de canal entrante (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Wait** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia entrante antes de que el recorrido continúe con el siguiente paso."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Para las acciones de canal de entrada (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Esperar** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia de entrada antes de que el recorrido continúe al siguiente paso."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimización"
->abstract="La sección **Optimización** agrega experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada miembro de la audiencia."
+>abstract="La sección **Optimización** añade experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada abonado del público."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
 
 
@@ -272,7 +272,7 @@ Para los mensajes en la aplicación, puedes usar el botón **[!UICONTROL Editar 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Añadir varias acciones entrantes"
->abstract="Un solo recorrido puede incluir varias acciones entrantes. Esta función le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico."
+>abstract="Un solo recorrido puede incluir varias acciones de entrada. Esta función le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico."
 
 Para simplificar la orquestación de recorrido, puede definir varias acciones entrantes dentro de una sola acción de recorrido.
 

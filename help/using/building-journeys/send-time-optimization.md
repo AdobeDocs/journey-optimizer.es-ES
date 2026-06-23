@@ -20,7 +20,7 @@ topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e0
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2279
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Un botón de opción determina si se debe optimizar en las aperturas de correo electrónico o en las pulsaciones de correo electrónico. Los tiempos de envío utilizados por el sistema también se pueden incluir entre corchetes con un valor para la opción Send Within the next."
+>abstract="Un botón de opción determina si se debe optimizar en las aperturas de correo electrónico o en las pulsaciones de correo electrónico. Los tiempos de envío utilizados por el sistema también pueden delimitarse con un valor para la opción Enviar dentro de la próxima opción."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. Los tiempos de envío utilizados por el sistema también se pueden incluir entre corchetes con un valor para la opción Send Within the next."
+>abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. Los tiempos de envío utilizados por el sistema también pueden delimitarse con un valor para la opción Enviar dentro de la próxima opción."
 
 La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimizer], con tecnología de los servicios de IA de Recorrido de Adobe, elige la hora de envío óptima para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función de la apertura y el comportamiento de los clics históricos de sus clientes.
 
