@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` solo en una línea cierra el acordeón
 - Línea en blanco antes de `+++` y después de `+++`
 
----
+&#x200B;---
 
 ## Flujo de trabajo
 
@@ -58,7 +58,7 @@ Anexar al final del archivo. No modifique ningún otro contenido.
 - Archivos modificados ✓
 - Archivos omitidos + motivo (ya tiene página de acordeón / vacía / índice)
 
----
+&#x200B;---
 
 ## Reglas de generación de contenido
 
@@ -163,7 +163,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## Notas
 

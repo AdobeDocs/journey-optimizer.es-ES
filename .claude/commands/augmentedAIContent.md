@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` solo en una línea cierra el acordeón
 - Línea en blanco antes de `+++` y después de `+++`
 
----
+&#x200B;---
 
 ## Flujo de trabajo
 
@@ -66,7 +66,7 @@ Este comentario permite a futuros escritores y herramientas detectar cuándo el 
 - Archivos omitidos + motivo (ya tiene página de acordeón / vacía / índice)
 - Cualquier advertencia de validación generada durante el paso 2
 
----
+&#x200B;---
 
 ## Reglas de generación de contenido
 
@@ -176,7 +176,7 @@ Las respuestas deben utilizar las mismas opciones de verbo y sustantivo que el c
 - **no** inventa contenido no admitido por la página
 - **no** usa los siguientes términos imprecisos a menos que aparezcan textualmente en el cuerpo de la página: &quot;sintético&quot;, &quot;datos falsos&quot;, &quot;sin datos reales&quot;, &quot;revertir&quot;, &quot;revertir&quot; (al describir transiciones de estado del producto)
 
----
+&#x200B;---
 
 ## Lista de comprobación de validación posterior a la generación
 
@@ -198,7 +198,7 @@ Ejecute esta lista de comprobación en cada acordeón antes de anexar. Marque cu
 
 Si alguna comprobación falla, corrija el acordeón antes de anexar. Registre la corrección en el informe Paso 4.
 
----
+&#x200B;---
 
 ## Responsabilidad de sincronización
 
@@ -210,7 +210,7 @@ El acordeón es un derivado del cuerpo de la página en un momento dado. Debe tr
 
 El comentario de sincronización anexado después del acordeón (`<!-- ai-accordion-version -->`) es la señal: si el contenido del archivo antes del acordeón ha cambiado desde que se escribió ese hash, el acordeón es un candidato para revisión.
 
----
+&#x200B;---
 
 ## Plantilla completa
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## Notas
 
