@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 27%
+source-wordcount: 3596
+ht-degree: 28%
 
 ---
 
@@ -154,7 +142,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
   Fecha de disponibilidad: 18 de junio de 2026. Esta capacidad se está extendiendo gradualmente a todas las regiones en los próximos días.
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 * **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido activo, ahora aparecen en el **encabezado del recorrido** junto al distintivo del estado activo. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
 
@@ -164,7 +152,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
 Las siguientes funcionalidades y mejoras están llegando a las campañas orquestadas en esta versión.
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
 <thead>
@@ -221,7 +209,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la t
 
 * **Atributos de elemento dinámico**: los atributos personalizados de elemento de decisión ahora se pueden personalizar en el momento de la entrega mediante datos de perfil, contextuales y de audiencia. Esto elimina la necesidad de mantener ofertas duplicadas para variaciones de contenido menores, lo que permite a los especialistas en marketing administrar menos elementos de decisión más flexibles.
 
-  Fecha de disponibilidad: 22 de junio de 2026
+  Fecha de disponibilidad: finales de junio de 2026
 
 +++
 
@@ -251,7 +239,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la a
 </table>
 
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
 <thead>
@@ -268,7 +256,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la a
 <li><strong>Variantes de contenido generadas por IA</strong>: en la experiencia <strong>Simular variaciones de contenido</strong>, haga clic en <strong>Generar</strong> para usar IA y crear automáticamente variantes de contenido. El sistema analiza el mensaje, detecta los campos de personalización y las ramas condicionales y rellena valores realistas para que pueda validar el procesamiento sin crear cada variante a mano.</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../test-approve/simulate-sample-input.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 9 de junio de 2026</p>
+<p>Fecha de disponibilidad: finales de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -420,7 +408,7 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 <td>
 <p>Email Designer ahora incluye una biblioteca de módulos de diseño listos para usar, como encabezados, tarjetas de producto, bloques de información y pies de página, que puede arrastrar y soltar directamente en el lienzo del correo electrónico.</p>
 <p>Cada módulo viene preconfigurado con propiedades editables (imagen, título, texto, botón, vínculos) y se puede personalizar completamente a través de la interfaz de WYSIWYG, lo que acelera la creación de correos electrónicos sin necesidad de crear estructuras desde cero.</p>
-<p>Fecha de disponibilidad: 22 de junio de 2026</p>
+<p>Fecha de disponibilidad: finales de junio de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -457,7 +445,7 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la ad
 </tbody>
 </table>
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
++++ Próximamente — **La información siguiente está sujeta a cambios.**
 
 <table>
 <thead>
@@ -494,21 +482,6 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la ad
 </tr>
 </tbody>
 </table>
-
-+++
-
-### Creación de informes {#june-26-reporting}
-
-+++ Próximamente — **La información siguiente está sujeta a cambios**
-
-* **Clics estimados para informes de correo electrónico y SMS** — Una nueva métrica de **Clics estimados** ya está disponible en los informes de Recorridos, Campañas y Canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
-
-* **Nuevas métricas estimadas de clics para los informes de correo electrónico y SMS**: para proporcionar una vista más precisa de la participación real de los clientes, ahora hay disponibles nuevas métricas estimadas en los informes Recorridos, Campañas y Canales. Estas métricas ayudan a filtrar las interacciones no humanas (NHI) y los clics de bots a partir de los datos de los informes:
-
-   * Estimated CTR: clics estimados en relación con las entregas totales.
-   * Estimated CTOR for email only: Clics estimados en relación con las aperturas estimadas.
-
-  Fecha de disponibilidad: finales de junio de 2026
 
 +++
 
