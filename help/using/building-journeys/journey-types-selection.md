@@ -11,26 +11,16 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
 workflow-type: tm+mt
-source-wordcount: 1030
-ht-degree: 4%
+source-wordcount: 2053
+ht-degree: 2%
 
 ---
 
@@ -38,23 +28,27 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a comparar los cuatro tipos de recorrido (unitario, leer audiencia, calificación de audiencia y evento empresarial) y use la guía de decisión y la matriz de compatibilidad de características para elegir el adecuado para su caso de uso.
+**En esta página:** Aprenda a comparar los cuatro tipos de recorrido (evento unitario, lectura de audiencia, calificación de audiencia y evento empresarial) y use la guía de decisión y la matriz de compatibilidad de características para elegir el adecuado para su caso de uso.
 
 >[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] admite cuatro tipos de recorrido, cada uno diseñado para diferentes mecanismos de entrada y escenarios empresariales. Esta guía le ayuda a comprender las diferencias y elegir el tipo adecuado para su caso de uso.
 
+>[!NOTE]
+>
+>¿No está seguro de qué tipo elegir? Comience con **recorridos de eventos unitarios** para experiencias basadas en eventos o **recorridos de audiencia de lectura** para campañas programadas; estos cubren los casos de uso más comunes.
+
 ## información general sobre tipos de recorrido {#journey-types}
 
 >[!BEGINTABS]
 
->[!TAB recorridos unitarios]
+>[!TAB recorridos de eventos unitarios]
 
 **Cuándo usar:** experiencias activadas por eventos en tiempo real
 
-**Los recorridos unitarios** se activan individualmente cuando se produce una acción específica (compra, inicio de sesión en la aplicación, envío de formularios). Los perfiles se introducen de uno en uno en tiempo real, lo que los hace ideales para obtener respuestas inmediatas basadas en el comportamiento.
+**Los recorridos de eventos unitarios** se activan individualmente cuando se produce una acción específica (compra, inicio de sesión en la aplicación, envío de formularios). Los perfiles se introducen de uno en uno en tiempo real, lo que los hace ideales para obtener respuestas inmediatas basadas en el comportamiento.
 
-**Perfecto para:** confirmaciones de pedidos después de la compra, correos electrónicos de bienvenida cuando alguien se suscribe, abandono del carro de compras activado por la navegación y notificaciones de restablecimiento de contraseña.
+**Perfecto para:** confirmaciones de pedidos después de la compra, correos electrónicos de bienvenida cuando alguien se suscribe, notificaciones de restablecimiento de contraseña y personalización posterior al inicio de sesión.
 
 ➡️ [Más información sobre los eventos](../event/about-events.md) | [Mensaje para el caso de uso de los suscriptores](message-to-subscribers-uc.md)
 
@@ -62,9 +56,9 @@ ht-degree: 4%
 
 **Cuándo usar:** Campañas programadas para segmentos de audiencia
 
-**Leer recorridos de audiencia** comienza con una audiencia de [!DNL Adobe Experience Platform] y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala.
+**Leer recorridos de audiencia** comienza con una audiencia de [!DNL Adobe Experience Platform] y envía mensajes en lote a todos los perfiles simultáneamente. Este tipo de recorrido es ideal para comunicaciones programadas a gran escala. Utilice la opción **lectura incremental** en recorridos recurrentes para procesar solo los perfiles que se unieron a la audiencia desde la última ejecución, en lugar de volver a procesar la audiencia completa cada vez.
 
-**Perfecto para:** boletines mensuales, campañas promocionales para segmentos de público objetivo, anuncios de productos y campañas de marketing de temporada.
+**Perfecto para:** boletines mensuales, campañas promocionales para segmentos de destinatario, anuncios de productos, series de participación recurrentes y campañas de marketing de temporada.
 
 ➡️ [Más información sobre la audiencia de lectura](read-audience.md) | [Introducción a las audiencias](../audience/about-audiences.md)
 
@@ -72,9 +66,9 @@ ht-degree: 4%
 
 **Cuándo se debe usar:** Respuestas en tiempo real a los cambios de pertenencia a audiencias
 
-Los **recorridos de calificación de audiencias** dan déclencheur cuando los perfiles cumplen los requisitos para una audiencia específica (o salen de ella). Los perfiles se introducen de forma individual según cumplen los criterios en tiempo real, lo que permite una participación inmediata cuando cambia el comportamiento de los clientes.
+Los **recorridos de calificación de audiencias** dan déclencheur cuando los perfiles cumplen los requisitos para una audiencia específica (o salen de ella). Los perfiles se introducen de forma individual a medida que cumplen los criterios, lo que permite una participación inmediata cuando cambia el comportamiento del cliente. Para utilizar la opción de entrada en tiempo real, la audiencia debe ser **evaluada mediante streaming**; la entrada de déclencheur de audiencias evaluadas por lotes solo se realizará en la siguiente ventana de evaluación (hasta 24 horas).
 
-**Perfecto para:** notificaciones de actualización de nivel de VIP, renovación de la participación cuando los clientes se vuelven inactivos, mensajes de celebración de la primera compra y segmentación geográfica cuando los clientes se mudan.
+**Perfecto para:** notificaciones de actualización de nivel de VIP, mensajes de celebración de la primera compra, alertas de riesgo de pérdida y transiciones de fase del ciclo de vida de lealtad.
 
 ➡️ [Más información acerca de la calificación de audiencias](audience-qualification-events.md) | [Creando audiencias](../audience/creating-a-segment-definition.md)
 
@@ -82,89 +76,64 @@ Los **recorridos de calificación de audiencias** dan déclencheur cuando los pe
 
 **Cuándo usar:** Condiciones comerciales que afectan a varios clientes
 
-Los **recorridos de eventos empresariales** se desencadenan por eventos de nivel empresarial (actualizaciones de existencias, avisos meteorológicos, cambios de precios) que afectan a varios perfiles simultáneamente. Estos responden a condiciones empresariales más amplias que a acciones individuales.
+**Los recorridos de eventos empresariales** se desencadenan por un evento de nivel empresarial (actualizaciones de existencias, cambios de precios) que afecta a varios perfiles simultáneamente. Internamente, el déclencheur de evento empresarial siempre va seguido de un paso Leer audiencia que incorpora los perfiles relevantes, por lo que la entrada de perfil sigue las reglas de rendimiento Leer audiencia, no el rendimiento de evento unitario.
 
-**Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de venta flash, promociones basadas en el tiempo, notificaciones de caída de precios y alertas de productos que vuelven a estar en existencias.
+**Perfecto para:** Alertas de inventario bajas para clientes interesados, anuncios de ventas flash, notificaciones de bajadas de precios y alertas de productos que vuelven a estar disponibles.
 
 ➡️ [Más información acerca de los eventos empresariales](../event/about-creating-business.md) | [Administración de entradas](entry-management.md)
 
 >[!ENDTABS]
 
-## Guía de decisión: Elección del tipo de recorrido {#decision-guide}
+## Guía de decisión: elección del tipo de recorrido {#decision-guide}
 
-Siga este árbol de decisión para seleccionar el tipo de recorrido adecuado para su caso de uso:
-
-### Paso 1: ¿Cuáles son los déclencheur del recorrido?
-
-* **El cliente realiza una acción específica** (compra, clic, inicio de sesión) → Vaya al paso 2
-* **Tiempo/programación** (enviar a una hora específica o de forma recurrente) → **Usar el recorrido de lectura de audiencias**
-* **El estado del cliente cambia** (se une y abandona un segmento) → Vaya al paso 3
-* **Condición de la empresa** (nivel de existencias, cambio de precio, tiempo) → **Usar recorrido de evento empresarial**
-
-### Paso 2: déclencheur de acción de cliente individuales
-
-* **¿Se necesita una respuesta inmediata y en tiempo real?**
-   * Sí → **Usar recorrido Unitario**
-   * Sin → Considere el recorrido Leer audiencia con la ejecución programada
-
-### Paso 3: Cambios en el estado del cliente
-
-* **¿Necesita responder cuando los clientes entran o salen de un segmento?**
-   * Sí → **Usar recorrido de calificación de audiencia**
-   * No, solo al introducir → filtro Considerar recorrido unitario con evento o Leer audiencia con audiencia
-
-### Selección rápida por caso de uso
+Utilice la siguiente tabla para ajustar su objetivo al tipo de recorrido correcto. Para la mayoría de los usuarios nuevos, los recorridos **Evento unitario** o **Audiencia de lectura** cubren la mayoría de los casos de uso.
 
 | Su objetivo | Tipo de recorrido recomendado | Por qué |
-|-----------|------------------------|-----|
-| Enviar confirmación de pedido después de la compra | Unitario | Respuesta inmediata a la acción individual |
+|-----------|--------------------------|-----|
+| Enviar confirmación de pedido después de la compra | Evento unitario | Respuesta inmediata a la acción individual |
 | Enviar newsletter mensual a los suscriptores | Leer audiencia | Comunicación por lotes programada |
-| Notificar a los clientes cuando lleguen al estado de VIP | Calificación de público | Respuesta en tiempo real al cambio de estado |
+| Notificar a los clientes cuando lleguen al estado de VIP | Calificación de público | Respuesta en tiempo real a la entrada de audiencia de streaming |
 | Alertar a los clientes sobre existencias bajas de artículos en seguimiento | Evento empresarial | La condición empresarial afecta a varios clientes |
-| Bienvenido, nuevos usuarios de la aplicación | Unitario | Activado por evento de suscripción |
-| Volver a atraer clientes inactivos | Calificación de público | Responde a la entrada de segmento de inactividad |
+| Bienvenido, nuevos usuarios de la aplicación | Evento unitario | Activado por evento de suscripción |
+| Volver a atraer a clientes inactivos (recurrentes, programados) | Leer audiencia | Ejecución por lotes recurrente con audiencia de inactividad |
 | Promoción estacional a segmento de destino | Leer audiencia | Campaña programada para la audiencia |
 | Anuncio de venta Flash | Evento empresarial | La decisión empresarial afecta a varios clientes |
-
->[!NOTE]
->
->¿No está seguro de qué tipo elegir? Comience con **recorridos unitarios** para experiencias basadas en eventos o **recorridos de audiencia de lectura** para campañas programadas, que cubren los casos de uso más comunes.
+| Reaccionar tan pronto como un cliente alcanza el nivel de lealtad Oro | Calificación de público | Audiencia de streaming, entrada individual en tiempo real |
 
 ## Comparación detallada de los tipos de recorrido {#journey-types-comparison}
 
-Utilice esta tabla para comparar rápidamente los tipos de recorrido y elegir el adecuado para su caso de uso:
-
-| Aspecto | Recorridos unitarios | Leer recorridos de audiencia | Recorridos de calificación de audiencia | Recorridos de evento empresarial |
-|--------|------------------|------------------------|--------------------------------|------------------------|
-| **Mecanismo de entrada** | Déclencheur de evento individual | Lote programado | Cambio de pertenencia a audiencia en tiempo real | Evento de nivel empresarial |
-| **Horario de entrada** | Tiempo real, a medida que ocurren los eventos | Programado (una vez o recurrente) | Tiempo real, a medida que se produce la calificación | Tiempo real, cuando se activa un evento empresarial |
-| **Entrada de perfil** | Uno a la vez | Todo a la vez (lote) | Uno a la vez | Varios perfiles simultáneamente |
-| **origen de Déclencheur** | Acción del cliente (compra, clic, inicio de sesión) | Programación basada en el tiempo | Abono a audiencias (entrada/salida) | Condición de la empresa (stock, tiempo, precio) |
-| **Mejor para** | Mensajes transaccionales, respuestas de comportamiento | Campañas de marketing, boletines informativos | Programas de fidelización, fases del ciclo vital | Alertas de inventario, promociones, condiciones comerciales |
-| **Usar cuando** | Respuesta inmediata a las acciones individuales necesarias | Alcanzar segmentos de audiencia grandes según lo programado | Respuesta a los cambios de estado del cliente | Los eventos empresariales afectan a varios clientes |
-| **Ejemplos** | Confirmación del pedido, restablecimiento de contraseña | Newsletter mensual, campaña de temporada | Actualización de VIP, alerta de inactividad | Alerta baja de acciones, venta flash, caída de precios |
-| **Reentrada** | Configurable (permitir varias entradas por perfil) | Cada perfil introduce una vez por ejecución | Configurable por evento de calificación | El mismo evento puede afectar a varios perfiles |
-| **Requisitos de datos** | Esquema de evento con datos de déclencheur | [!DNL Adobe Experience Platform] audiencia | Streaming o audiencia por lotes | Esquema de evento empresarial |
+| Aspecto | Recorridos de evento unitario | Leer recorridos de audiencia | Recorridos de calificación de audiencia | Recorridos de evento empresarial |
+|--------|------------------------|------------------------|--------------------------------|------------------------|
+| **Mecanismo de entrada** | Déclencheur de evento individual | Lote programado | Cambio de abono de audiencia de streaming en tiempo real | Evento de nivel empresarial + paso Leer audiencia |
+| **Horario de entrada** | Tiempo real, a medida que ocurren los eventos | Programado (una vez o recurrente) | Tiempo real, a medida que se produce la calificación (audiencias de streaming); retrasado para audiencias evaluadas por lotes | Déclencheur en tiempo real; la ingesta de perfiles sigue a Leer el rendimiento de la audiencia |
+| **Entrada de perfil** | Uno a la vez | Todo a la vez (lote) | Uno a la vez | Varios perfiles a través del paso Leer audiencia interno |
+| **origen de Déclencheur** | Acción del cliente (compra, clic, inicio de sesión) | Programación basada en el tiempo | Entrada o salida de pertenencia a audiencia | Condición de negocio (stock, precio) |
+| **Mejor para** | Mensajes transaccionales, respuestas de comportamiento | Campañas de marketing, boletines informativos y programas recurrentes | Programas de fidelización, transiciones de fase del ciclo vital | Alertas de inventario, promociones, condiciones comerciales |
+| **Usar cuando** | Respuesta inmediata a las acciones individuales necesarias | Alcanzar segmentos de audiencia grandes según lo programado | Respuesta a los cambios de estado del cliente en tiempo real | Los eventos empresariales afectan a varios clientes simultáneamente |
+| **Ejemplos** | Confirmación del pedido, restablecimiento de contraseña | Newsletter mensual, campaña de temporada | Actualización de VIP, alerta de riesgo de pérdida | Alerta baja de acciones, venta flash, caída de precios |
+| **Reentrada** | Configurable | Una vez por ejecución | Configurable por evento de calificación; un perfil que ya se encuentra en el recorrido no puede volver a introducir la misma versión | El mismo evento puede afectar a varios perfiles |
+| **Rendimiento máximo** | 5000 TPS (compartido a nivel de organización con calificación de audiencia) | 20.000 TPS por zona protegida | 5.000 TPS (compartido a nivel de organización con evento unitario) | Evento empresarial: 5.000 TPS; Leer el paso de la audiencia: 20.000 TPS |
+| **Requisitos de datos** | Esquema de evento con datos de déclencheur | [!DNL Adobe Experience Platform] audiencia | Audiencia de streaming (necesaria para la entrada en tiempo real); se admite la audiencia por lotes, pero retrasa la entrada | Esquema de evento empresarial |
 
 ## Compatibilidad de funciones por tipo de recorrido {#feature-compatibility}
 
 No todas las funciones están disponibles para todos los tipos de recorrido. Utilice esta matriz para comprender qué capacidades funcionan con qué tipos de recorrido:
 
-| Funcionalidad/Funcionalidad | Unitario | Leer audiencia | Calificación de público | Evento empresarial |
+| Funcionalidad/Funcionalidad | Evento unitario | Leer audiencia | Calificación de público | Evento empresarial |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
 | **Mecanismos de entrada** | | | | |
-| Entrada activada por un evento | ✅ | ❌ | ❌ | ✅ |
+| Entrada activada por un evento | ✅ | ❌ | ❌ | ✅ (evento empresarial déclencheur el recorrido; los perfiles entran a través de un paso interno de Leer audiencia) |
 | Entrada programada | ❌ | ✅ | ❌ | ❌ |
-| Entrada basada en audiencias | ❌ | ✅ | ✅ | ❌ |
+| Entrada basada en audiencias | ❌ | ✅ (lote) | ✅ (flujo continuo) | ❌ |
 | **Características de orquestación** | | | | |
 | Actividades de espera | ✅ | ✅ | ✅ | ✅ |
 | Actividades de condición | ✅ | ✅ | ✅ | ✅ |
 | Acciones personalizadas | ✅ | ✅ | ✅ | ✅ |
-| Leer actividad de audiencia (dentro del recorrido) | ✅ | ✅ | ✅ | ✅ |
-| Actividad de calificación de audiencia | ✅ | ✅ | ✅ | ✅ |
-| Actividad de salto | ✅ | ✅ | ✅ | ✅ |
+| Leer la actividad de la audiencia (dentro del recorrido) | ✅ | ✅ | ✅ | ✅ |
+| Actividad de calificación de audiencias (dentro del recorrido) | ✅ | ✅ | ✅ | ✅ |
+| Actividad de salto | ✅ | ❌ | ❌ | ✅ |
 | **Administración de perfiles** | | | | |
-| Reentrada de perfil | ✅ configurable | ❌ Una vez por ejecución | ✅ configurable | ✅ por evento |
+| Reentrada de perfil | ✅ configurable | ❌ Una vez por ejecución | ✅ configurable (el perfil que ya está en el recorrido no puede volver a introducir la misma versión) | ✅ por evento |
 | Configuración del área de nombres | Se requiere ✅ | ✅ Opcional | Se requiere ✅ | Se requiere ✅ |
 | Límite de perfil | ✅ | ✅ | ✅ | ✅ |
 | **Pruebas y optimización** | | | | |
@@ -189,6 +158,10 @@ No todas las funciones están disponibles para todos los tipos de recorrido. Uti
 
 **Leyenda:** ✅ = Compatible | ❌ = No compatible
 
+>[!NOTE]
+>
+>Limitaciones de actividades de salto: un recorrido que comienza con una actividad Leer audiencia o Calificación de audiencias no puede contener una actividad de salto y no puede ser el objetivo de una actividad de salto de otro recorrido.
+
 ## Próximos pasos {#next-steps}
 
 Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
@@ -197,3 +170,62 @@ Ahora que comprende los tipos de recorrido, está listo para lo siguiente:
 * **[Más información sobre el diseñador de recorridos](using-the-journey-designer.md)**: Diseña tu lienzo de recorrido
 * **[Explorar las funcionalidades del recorrido](journey.md#capabilities)**: descubra características avanzadas
 * **[Ver preguntas frecuentes sobre el recorrido](journey-faq.md)** - Preguntas frecuentes respondidas
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página proporciona una comparación completa de los cuatro tipos de recorrido de AJO (evento unitario, audiencia de lectura, calificación de audiencia y evento empresarial), junto con una guía de decisión y una matriz de compatibilidad de características para ayudar a los usuarios a elegir el tipo adecuado para su caso de uso.
+
+**Intenciones:**
+
+* Elija el tipo de recorrido correcto para un caso de uso empresarial determinado mediante la tabla de decisión
+* Compare los tipos de recorridos en paralelo utilizando la matriz de compatibilidad de funciones detallada
+* Saber cuándo usar Leer recorridos de audiencia para comunicaciones por lotes programadas
+* Comprenda cuándo utilizar recorridos de evento unitarios para experiencias activadas por eventos en tiempo real
+* Comprender cuándo usar recorridos de calificación de audiencia para respuestas de cambio de estado en tiempo real
+* Comprender cuándo usar recorridos de evento empresarial para comunicaciones basadas en condiciones empresariales
+* Comprenda los límites de rendimiento por tipo de recorrido al planificar implementaciones de gran volumen
+
+**Glosario:**
+
+* **recorrido de eventos unitarios**: Un recorrido desencadenado por una acción individual del cliente específica (por ejemplo, compra o inicio de sesión) en la que los perfiles escriben uno a la vez en tiempo real. *(específico del producto)*
+* **Leer recorrido de audiencias**: Un recorrido que comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles simultáneamente según una programación. *(específico del producto)*
+* **recorrido de calificación de audiencias**: un recorrido que déclencheur cuándo los perfiles cumplen los requisitos para un segmento de audiencia específico o lo abandonan. Requiere una audiencia evaluada por streaming para el comportamiento de entrada en tiempo real. *(específico del producto)*
+* **recorrido de evento empresarial**: recorrido desencadenado por un evento de nivel empresarial (por ejemplo, actualización de existencias, cambio de precio) que afecta a varios perfiles simultáneamente; siempre asociado con un paso Leer audiencia interno para la ingesta de perfiles. *(específico del producto)*
+* **Lectura incremental**: una capacidad de Audiencia de lectura que procesa solo perfiles que se unieron a la audiencia desde la última ejecución, no la audiencia completa cada vez. Solo está disponible para recorridos de audiencia de lectura. *(específico del producto)*
+* **Audiencia de streaming**: una audiencia de Adobe Experience Platform se evalúa continuamente en tiempo real, a diferencia de una audiencia por lotes que se evalúa según una programación (por ejemplo, diariamente). Necesario para que los recorridos de cualificación de audiencia logren un comportamiento de entrada en tiempo real. *(específico del producto)*
+
+**Protecciones:**
+
+* La lectura incremental solo está disponible para recorridos de audiencia de lectura, no para recorridos de evento unitario, calificación de audiencia o evento empresarial
+* Los experimentos de ruta (pruebas A/B) no son compatibles con los recorridos de eventos empresariales
+* La reentrada del perfil en Leer recorridos de audiencia está limitada a una vez por ejecución
+* Los recorridos de cualificación de audiencia y lectura de audiencia no pueden contener una actividad de salto y no pueden ser el destino de una actividad de salto de otro recorrido
+* Los recorridos de calificación de audiencias requieren una audiencia evaluada por streaming para la entrada en tiempo real; las audiencias evaluadas por lotes causan retrasos de entrada de hasta 24 horas
+* Los recorridos de calificación de eventos unitarios y audiencias comparten un límite de rendimiento de 5000 TPS a nivel de organización; los recorridos de audiencia de lectura admiten hasta 20 000 TPS por zona protegida
+* Un perfil que ya está presente en un recorrido no puede volver a introducir la misma versión de ese recorrido, independientemente de la configuración de reentrada
+
+**Terminología:**
+
+* Nombre canónico: recorrido de evento unitario — variantes: recorrido activado por evento, recorrido unitario
+* Nombre canónico: Leer recorrido de Audiencia — variantes: recorrido por lotes, recorrido de déclencheur de segmentos, recorrido de segmento leído
+* Nombre canónico: recorrido de calificación de audiencias — variantes: recorrido de evento de calificación de audiencias
+* Nombre canónico: recorrido de evento de negocio — variantes: recorrido activado por evento de negocio
+* No confunda: &quot;Leer recorrido de audiencias&quot; ≠ &quot;recorrido de calificación de audiencias&quot;: la lectura de audiencia procesa a todos los miembros de la audiencia en lote según lo programado; la calificación de audiencias responde a cambios de pertenencia individuales en tiempo real (transmite audiencias solo para su entrada inmediata)
+* No confundir: &quot;recorrido de evento unitario&quot; ≠ &quot;recorrido de evento empresarial&quot;: el evento unitario se activa por una acción del cliente que afecta a un perfil; el evento empresarial se activa por una condición empresarial y consume varios perfiles a través de un paso interno de Leer audiencia
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Qué tipo de recorrido debo usar para una newsletter mensual?** — Utilice un recorrido Leer audiencia; está diseñado para la comunicación programada por lotes a todos los perfiles de un segmento de audiencia simultáneamente.
+* **Q: ¿Qué tipo de recorrido administra una confirmación de pedido después de una compra?** — Utilizar un recorrido de eventos unitario; proporciona una respuesta inmediata en tiempo real a una acción individual del cliente.
+* **Q: ¿Puedo ejecutar experimentos de ruta A/B en un recorrido de eventos empresariales?** — No; los experimentos de ruta no son compatibles con los recorridos de evento empresarial.
+* **Q: ¿Cuál es la diferencia entre un recorrido de evento unitario y un recorrido de calificación de audiencia?** — Un recorrido de evento unitario se activa por una acción específica del cliente (por ejemplo, compra); un recorrido de calificación de audiencia se activa cuando un perfil entra o sale de un segmento de audiencia en función de la evaluación de criterios de flujo continuo.
+* **Q: ¿Qué tipos de recorrido admiten la lectura incremental?** — Solo los recorridos de audiencia de lectura admiten la lectura incremental; los otros tres tipos de recorrido no.
+* **Q: ¿Puedo usar una actividad de salto en un recorrido de lectura de audiencias?** — No; los recorridos que comienzan con una actividad Leer audiencia o Calificación de audiencia no pueden contener una actividad Saltar y no pueden ser el destino de un salto de otro recorrido.
+* **Q: mi recorrido de calificación de audiencia no se activa en tiempo real. ¿Por qué?** — Los recorridos de cualificación de audiencias requieren una audiencia evaluada por streaming. Si la audiencia se evalúa por lotes (por ejemplo, una instantánea diaria), la entrada se retrasa hasta la siguiente ventana de evaluación, que puede tardar hasta 24 horas.
+* **Q: ¿Cuál es la diferencia de rendimiento entre el evento unitario y los recorridos de lectura de audiencia?** — Los recorridos de eventos unitarios comparten un límite de 5000 TPS con los recorridos de calificación de audiencias a nivel de organización. Los recorridos de audiencia de lectura admiten hasta 20 000 TPS por zona protegida, lo que los hace más adecuados para campañas por lotes a gran escala.
+
++++
