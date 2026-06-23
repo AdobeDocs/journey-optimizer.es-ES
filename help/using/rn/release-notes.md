@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
 workflow-type: tm+mt
-source-wordcount: 3596
+source-wordcount: 3520
 ht-degree: 28%
 
 ---
@@ -154,7 +142,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
   Fecha de disponibilidad: 18 de junio de 2026. Esta capacidad se está extendiendo gradualmente a todas las regiones en los próximos días.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido activo, ahora aparecen en el **encabezado del recorrido** junto al distintivo del estado activo. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
 
@@ -164,7 +152,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
 Las siguientes funcionalidades y mejoras están llegando a las campañas orquestadas en esta versión.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -186,8 +174,6 @@ Las siguientes funcionalidades y mejoras están llegando a las campañas orquest
 * **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones. [Más información](../orchestrated/add-personalization.md#enrichment-collections)
 
   Fecha de disponibilidad: finales de junio de 2026
-
-* **Personalizar los detalles del remitente del correo electrónico por destinatario y campaña**: las campañas organizadas ahora admiten la personalización de **campos de encabezado de correo electrónico**, incluidos el nombre del remitente, la dirección del remitente y la respuesta a, mediante atributos de perfil o datos relacionales. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa. Los valores del encabezado se pueden establecer en el nivel de canal y anularse por campaña utilizando datos contextuales para un control más preciso.
 
 +++
 
@@ -217,7 +203,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la t
 
   Fecha de disponibilidad: 18 de junio de 2026
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Atributos de elemento dinámico**: los atributos personalizados de elemento de decisión ahora se pueden personalizar en el momento de la entrega mediante datos de perfil, contextuales y de audiencia. Esto elimina la necesidad de mantener ofertas duplicadas para variaciones de contenido menores, lo que permite a los especialistas en marketing administrar menos elementos de decisión más flexibles.
 
@@ -251,7 +237,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la a
 </table>
 
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -391,7 +377,7 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 
   Fecha de disponibilidad: 18 de junio de 2026
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -457,7 +443,7 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la ad
 </tbody>
 </table>
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -529,7 +515,7 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 * **Informe de clics estimados para SMS**: ahora hay disponible una nueva métrica de clics estimados en los informes Recorridos, campañas y canales para correo electrónico y SMS. Esta métrica excluye el tráfico de interacción identificado y no humano (NHI) para proporcionar una visión más clara de la participación genuina del cliente. La métrica de clics existente permanece disponible y continúa informando de los clics totales.
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Canal LINE - Creación de cambios** - La interfaz de usuario del canal LINE se ha actualizado con funciones avanzadas de creación de mensajes. Esta versión incorpora compatibilidad con **varios formatos de mensaje**, incluidos Texto, Imagen, Mapa de imágenes, Carrusel y Flex (Editor JSON), además de vistas previas de dispositivos en tiempo real. Los usuarios ahora pueden administrar mensajes agrupados de hasta cinco mensajes ordenados (con controles de adición, eliminación y reordenación) y aprovechar el editor de personalización integrado para mensajes validados y dinámicos.
 
@@ -537,7 +523,7 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 ### Mejoras de uso {#june-26-usability}
 
-+++ Próximamente — **La información siguiente está sujeta a cambios.**
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Carpetas para Recorridos y campañas**: ahora puede organizar sus recorridos y campañas en **carpetas** para mejorar la navegación y la administración en la interfaz.
 
