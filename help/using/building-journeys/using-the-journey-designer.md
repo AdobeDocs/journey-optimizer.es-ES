@@ -11,31 +11,16 @@ keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 3%
+source-wordcount: 2271
+ht-degree: 2%
 
 ---
 
@@ -174,3 +159,52 @@ Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **C
    ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
 1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página presenta el lienzo del diseñador de recorridos de Journey Optimizer, donde se explica cómo crear recorridos de varios pasos arrastrando y soltando eventos, orquestación y actividades de acción desde la paleta.
+
+**Intenciones:**
+
+* Navegue por la interfaz del diseñador de recorridos (paleta, lienzo, barra de herramientas, panel de configuración de actividad)
+* Agregar eventos, actividades de orquestación y actividades de acción a un lienzo de recorrido
+* Configurar una ruta alternativa de reserva para las actividades Condición y Acción en tiempo de espera o error
+* Copiar y pegar actividades dentro del mismo recorrido o en distintos recorridos de la misma instancia
+* Iniciar un recorrido con un déclencheur de eventos o un punto de entrada de audiencia de lectura
+
+**Glosario:**
+
+* **Paleta**: el panel izquierdo del diseñador de recorrido que enumera todos los eventos, orquestaciones y actividades de acción disponibles para arrastrar y soltar en el lienzo *(específico del producto)*
+* **Lienzo**: área de diseño central del diseñador de recorrido donde se colocan, conectan y configuran las actividades *(específico del producto)*
+* **Panel de configuración de actividad**: El panel derecho que se abre cuando se selecciona una actividad en el lienzo y se usa para rellenar la configuración de actividad *(específica del producto)*
+* **Fragmentos de Recorrido**: conjuntos reutilizables de nodos de recorrido pregenerados que se pueden insertar directamente en el lienzo para evitar la reconstrucción de la lógica común *(específica del producto)*
+* **Evento de reacción**: una actividad de evento colocada después de un mensaje para bifurcar el recorrido en función de las interacciones de seguimiento del destinatario (abrir, hacer clic) *(específico del producto)*
+
+**Protecciones:**
+
+* Las acciones, condiciones, actividades de espera y eventos de reacción no pueden colocarse como el primer paso en un nuevo recorrido.
+* Copiar/pegar solo se admite en la misma instancia; no se admite copiar/pegar en varias instancias.
+* No puede copiar/pegar un evento en un recorrido de destino que utilice un área de nombres diferente.
+* Las actividades pegadas desde una zona protegida diferente pueden hacer referencia a datos que no existen en el recorrido de destino.
+* Solo se pueden configurar actividades de evento y de espera en paralelo; otros tipos de actividades no se pueden ejecutar en paralelo.
+* Las rutas alternativas (tiempo de espera/error de reserva) solo están disponibles para las actividades Condición y Acción.
+
+**Terminología:**
+
+* Nombre canónico: Recorrido Designer — Acrónimo: none — variantes: lienzo recorrido, lienzo orquestación
+* Sinónimos: &quot;paleta&quot; = &quot;panel de actividad&quot;; &quot;lienzo&quot; = &quot;área de diseño&quot;
+* No confunda: &quot;events&quot; (entrada o ramificación del recorrido de déclencheur) ≠ &quot;actions&quot; (qué sucede con el cliente, por ejemplo, enviar un mensaje)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Cómo ingresan los perfiles a un recorrido?** — Los perfiles se introducen de forma unitaria en tiempo real cuando se recibe un evento configurado o en lote cuando una actividad Leer audiencia déclencheur el recorrido.
+* **Q: ¿Puedo agregar varios eventos a un recorrido?** — Sí, se pueden añadir varios eventos siempre que todos utilicen la misma área de nombres.
+* **Q: ¿Cómo defino una reserva cuando falla una acción?** — En las propiedades de la actividad, habilite la opción &quot;Añadir una ruta alternativa en caso de tiempo de espera o error&quot; para agregar una ruta de reserva después de la actividad.
+* **Q: ¿Puedo copiar actividades desde un recorrido de solo lectura?** — Sí, puede copiar actividades desde cualquier recorrido independientemente de su estado, pero solo puede pegar dentro de la misma instancia.
+* **Q: ¿Qué es un fragmento de Recorrido?** — Un conjunto reutilizable de nodos de recorrido creados previamente (por ejemplo, comprobaciones de idoneidad o secuencias de bienvenida) que se pueden insertar directamente en el lienzo para evitar la reconstrucción de la lógica común desde cero.
+
++++

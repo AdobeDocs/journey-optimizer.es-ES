@@ -11,27 +11,16 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2335
-ht-degree: 6%
+source-wordcount: 3006
+ht-degree: 5%
 
 ---
 
@@ -249,3 +238,54 @@ Cuando se activa un evento con el modo de prueba, se genera automáticamente un 
 
 El modo de prueba crea automáticamente un Evento de experiencia y lo envía a [!DNL Adobe Experience Platform]. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar el modo de prueba en Adobe Journey Optimizer para validar un recorrido con perfiles de prueba persistentes antes de la publicación, lo que incluye la activación del modo de prueba, la activación de eventos, la lectura de registros y la administración de eventos empresariales y basados en reglas.
+
+**Intenciones:**
+* Active el modo de prueba en un recorrido de borrador para validarlo con perfiles de prueba de AEP preexistentes
+* Configuración y déclencheur de eventos para perfiles de prueba mediante la interfaz de Déclencheur y evento
+* Anular las duraciones de la actividad de espera en el modo de prueba para acelerar la progresión del recorrido
+* Lea e interprete la salida de Mostrar registro JSON para verificar la progresión del perfil e identificar errores
+* Probar recorridos basados en reglas y recorridos de eventos empresariales en el modo de prueba
+* Comprenda las limitaciones y diferencias de comportamiento del modo de prueba en comparación con la simulación
+
+**Glosario:**
+* **Modo de prueba**: Un estado de validación de recorrido que permite que los perfiles de prueba persistentes de AEP atraviesen un recorrido de borrador antes de publicarse *(específico del producto)*
+* **Perfiles de prueba**: los perfiles se han marcado explícitamente como perfiles de prueba en el servicio Perfil del cliente en tiempo real de Adobe Experience Platform; el único tipo de perfil que permite introducir un recorrido en el modo de prueba *(específico del producto)*
+* **Flujo visual**: la representación de lienzo que se vuelve verde para mostrar la ruta que ha seguido un perfil de prueba a través del recorrido
+* **Mostrar registro**: característica de modo de prueba que muestra el estado de ejecución del recorrido en formato JSON para cada instancia de perfil de prueba *(específica del producto)*
+* **Eventos de prueba de Journey Orchestration**: El nombre de origen en el que se almacenan los eventos de experiencia del modo de prueba en Adobe Experience Platform.
+
+**Protecciones:**
+* Solo los perfiles marcados como perfiles de prueba en AEP pueden introducir un recorrido en el modo de prueba
+* El modo de prueba requiere que el recorrido utilice un área de nombres para comprobar la identidad del perfil de prueba
+* Máximo de 100 perfiles de prueba por sesión de prueba única
+* Los eventos solo se pueden activar desde la interfaz de usuario del modo de prueba; no se admite la activación de API externa
+* El enriquecimiento de atributos de audiencia de carga personalizada no se admite en el modo de prueba
+* Los recorridos inactivos en modo de prueba durante más de una semana vuelven automáticamente al estado Borrador
+* Las ediciones de recorrido se bloquean mientras el modo de prueba está activo, pero se permite la publicación directa
+* En una división, la rama superior siempre está seleccionada; reordene las ramas para probar diferentes rutas
+* Tiempo de espera mínimo del evento de reacción y el tiempo de espera predeterminado es de 40 segundos
+* Los eventos enviados fuera de la ventana de fecha de inicio y finalización configurada del recorrido se descartan de forma silenciosa
+* Al desactivar el modo de prueba, se eliminan todos los perfiles de la recorrido y se borra la creación de informes
+
+**Terminología:**
+* Nombre canónico: Modo de prueba — Acrónimo: none — variantes: modo de prueba, modo de prueba recorrido
+* Nombre canónico: Perfiles de prueba — Acrónimo: none — variantes: usuarios de prueba (solo etiqueta de IU de simulación)
+* Sinónimos: &quot;Mostrar registro&quot; = registro de resultados de la prueba; &quot;flujo visual&quot; = visualización de la ruta del lienzo
+* No confunda: &quot;Modo de prueba&quot; ≠ &quot;Simulación&quot;. El modo de prueba utiliza perfiles de prueba AEP persistentes; la simulación utiliza usuarios simulados temporales generados sobre la marcha
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Quién puede introducir un recorrido en modo de prueba?** — Solo perfiles marcados explícitamente como perfiles de prueba en el servicio Perfil del cliente en tiempo real de Adobe Experience Platform.
+* **Q: ¿Cuántos perfiles de prueba se pueden ejecutar en una sola sesión de prueba?** — Un máximo de 100 perfiles de prueba por sesión de prueba.
+* **Q: ¿Qué sucede cuando deshabilito el modo de prueba?** — Se eliminan todos los perfiles actualmente en la recorrido o introducidos anteriormente en ella y se borra la creación de informes.
+* **Q: ¿Puedo editar un recorrido mientras el modo de prueba está activo?** — No. El recorrido no se puede modificar mientras el modo de prueba esté activo, pero puede publicarlo directamente sin desactivar primero el modo de prueba.
+* **Q: ¿Por qué se descartan silenciosamente mis eventos de prueba?** — Los eventos activados fuera de la ventana de fecha/hora activa configurada para el recorrido se descartan de forma silenciosa. Compruebe que las fechas de inicio y finalización del recorrido incluyen la hora actual.
+* **Q: ¿Qué indica el campo de fase del registro de prueba?** — Muestra el estado actual del perfil: en ejecución (activo en el recorrido), terminado (llegado al final), error (detenido debido al error) o agotado (detenido debido al tiempo de espera).
+
++++

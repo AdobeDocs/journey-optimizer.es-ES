@@ -11,10 +11,10 @@ keywords: segmentación, reglas, recorrido, ruta, optimización, personalizació
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 3%
+source-wordcount: 1327
+ht-degree: 2%
 
 ---
 
@@ -144,5 +144,46 @@ Los clientes que hayan realizado compras recientemente pueden optar por una brev
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![Segmentación del historial de compras con ruta de venta cruzada para compradores y ruta de crianza para no compradores](assets/journey-optimize-targeting-uc-purchase.png)
+
++++
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+- **TL;DR:** En esta página se explica cómo usar la segmentación de rutas en los recorridos de Adobe Journey Optimizer para enrutar de forma determinista segmentos de audiencia específicos hacia rutas de recorrido designadas en función de reglas definidas.
+
+**Intenciones:**
+- Configure la segmentación de rutas determinista mediante la actividad Optimizar con un método de regla de segmentación
+- Cree nuevas reglas de segmentación o reutilice las reglas existentes desde el menú Reglas
+- Defina una ruta de reserva para los perfiles que no cumplen los requisitos de ninguna regla de segmentación
+- Personalice las rutas del recorrido para segmentos de audiencia distintos (por ejemplo, niveles de lealtad, comportamiento, historial de compras)
+- Modificar las reglas de segmentación en línea sin afectar a la definición de regla original
+
+**Glosario:**
+- **Optimizar actividad**: una actividad de lienzo de recorrido utilizada para dividir perfiles en diferentes rutas, ya sea mediante experimentación (aleatoria) o segmentación (determinística) *(específica del producto)*
+- **Regla de segmentación**: Condición de calificación determinística que decide la ruta de recorrido en la que entra un perfil, según los atributos de perfil o audiencia *(específicos del producto)*
+- **Ruta de acceso de reserva**: una ruta de acceso de recorrido alternativa para perfiles que no cumplen ninguna de las reglas de segmentación definidas *(específica del producto)*
+
+**Protecciones:**
+- La segmentación de rutas está actualmente en disponibilidad limitada; póngase en contacto con su representante de Adobe para solicitar acceso.
+- La creación de reglas de segmentación desde el menú de Reglas de Journey Optimizer específico requiere el complemento Decisioning o está disponible bajo demanda (disponibilidad limitada).
+- Cuando se selecciona una regla del menú Reglas y se copia en el recorrido, los cambios posteriores en la regla original no afectan a la copia del recorrido.
+- La edición de una regla en línea no modifica la regla original desde la que se originó.
+- Si la opción de ruta de reserva no está activada, los perfiles que no cumplen los requisitos para ninguna regla de segmentación se retiran del recorrido por completo.
+
+**Terminología:**
+- Nombre canónico: Segmentación de rutas — Acrónimo: none — variantes: enrutamiento de ruta determinístico, división de ruta basada en reglas
+- Sinónimos: &quot;Regla de segmentación&quot; = &quot;regla de calificación&quot; = &quot;condición de ruta&quot;
+- No confunda: &quot;Segmentación&quot; ≠ &quot;Experimentación&quot; (la segmentación es determinista; la experimentación es una asignación aleatoria)
+
+**PREGUNTAS MÁS FRECUENTES:**
+- **Q: ¿Cuál es la diferencia entre la segmentación de rutas y la experimentación de rutas?** — La segmentación es determinista: los perfiles introducen una ruta basada en reglas definidas. La experimentación es aleatoria: los perfiles se asignan a rutas por casualidad para comparar el rendimiento.
+- **Q: ¿Qué les sucede a los perfiles que no cumplen los requisitos para ninguna regla de segmentación?** — Si la opción de ruta de reserva está activada, se introduce la ruta de reserva. Si no está habilitado, abandona el recorrido por completo.
+- **Q: ¿Puedo reutilizar una regla existente del menú Reglas?** — Sí, pero la fórmula de regla se copia en la actividad de recorrido; los cambios posteriores en la regla original del menú Reglas no afectarán a la copia del recorrido.
+- **Q: ¿La edición en línea de una regla de segmentación cambia la regla original?** — No, la edición en línea solo actualiza la regla dentro de la actividad de recorrido y no afecta a la regla de origen.
+- **Q: ¿Quién puede tener acceso a la segmentación de rutas?** — Actualmente está en disponibilidad limitada; póngase en contacto con su representante de Adobe para solicitar acceso.
 
 +++

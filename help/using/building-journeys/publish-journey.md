@@ -11,21 +11,16 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 20%
+source-wordcount: 1815
+ht-degree: 14%
 
 ---
 
@@ -176,4 +171,48 @@ Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la a
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo publicar un recorrido de Adobe Journey Optimizer, administrar versiones de recorrido y comprender las restricciones que se aplican una vez que un recorrido está activo.
+
+**Intenciones:**
+* Publicar un recorrido para que esté activo y disponible para la entrada de perfiles
+* Compruebe la validez de la recorrido y resuelva los errores antes de publicar
+* Cree una nueva versión de un recorrido activo para realizar modificaciones
+* Comprender las restricciones de solo lectura que se aplican después de publicar un recorrido
+* Detener un recorrido de forma permanente o administrar las transiciones entre versiones
+
+**Glosario:**
+* **Versión de Recorrido**: Una iteración numerada de un recorrido; se crean nuevas versiones para modificar un recorrido activo sin interrumpir los perfiles en curso *(específico del producto)*
+* **Estado cerrado**: El estado en el que entra automáticamente una versión anterior del recorrido cuando se publica una nueva versión; ningún perfil nuevo puede entrar en un recorrido cerrado *(específico del producto)*
+* **Directiva de aprobación**: Un flujo de trabajo de administración opcional que requiere aprobación explícita antes de que se pueda publicar un recorrido *(específico del producto)*
+
+**Protecciones:**
+* No se puede publicar un recorrido con errores.
+* Journey Optimizer valida el tamaño total de la carga útil de los recorridos en el momento de guardar y publicar; la publicación puede bloquearse si se supera el límite.
+* Después de la publicación, un recorrido se encuentra en modo de solo lectura; solo se pueden editar etiquetas, descripciones y el nombre del recorrido.
+* Solo se puede crear una nueva versión a partir de la última versión de un recorrido.
+* Cuando se detiene un recorrido, se detiene permanentemente; debe duplicarse para volver a ejecutarse.
+* Se puede acceder a Assets e imágenes en el contenido enviado durante un máximo de 730 días desde la primera publicación; se requiere volver a publicar después de ese periodo.
+* Si cambia la decisión de oferta utilizada en un mensaje de recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.
+* Se aplican protecciones específicas al control de versiones de recorrido (consulte la página de protecciones).
+
+**Terminología:**
+* Nombre canónico: Publicar Recorrido — Acrónimo: none — variantes: activar recorrido, activar
+* Sinónimos: &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
+* No confundir: &quot;Detener recorrido&quot; ≠ &quot;Cerrar recorrido&quot; (detener es una acción manual; Cerrado es un estado automático aplicado a versiones anteriores cuando se publica una nueva versión)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Puedo editar un recorrido después de publicarlo?** — Sólo se pueden cambiar las etiquetas, las descripciones y el nombre del recorrido. Para realizar otras modificaciones, cree una nueva versión del recorrido.
+* **Q: ¿Qué les sucede a los perfiles de una versión de recorrido anterior cuando se publica una nueva versión?** : los perfiles que ya están en la versión anterior permanecen allí hasta que finalizan; los nuevos perfiles introducen la versión más reciente.
+* **Q: ¿Puedo volver a publicar una versión de recorrido cerrado?** — No. Una vez que una versión anterior está Cerrada, permanece cerrada incluso si se detiene la última versión.
+* **Q: ¿Qué debo hacer si cambia una decisión de oferta usada en el recorrido?** — Cancele la publicación del recorrido y vuelva a publicarlo para incorporar la decisión de oferta actualizada.
+* **Q: ¿Se requiere aprobación antes de publicar?** — Solo si su recorrido está sujeto a una directiva de aprobación; en ese caso, primero debe solicitar la aprobación.
+
++++

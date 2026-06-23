@@ -11,25 +11,16 @@ version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 10%
+source-wordcount: 1500
+ht-degree: 6%
 
 ---
 
@@ -88,7 +79,7 @@ Para configurar la actividad **[!UICONTROL Búsqueda de conjuntos de datos]**, s
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Consulta de conjuntos de datos]** en el lienzo.
 
-   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] actividad de búsqueda del conjunto de datos en el recorrido ](assets/aep-data-activity.png)
 
 1. Añada una etiqueta y una descripción.
 
@@ -229,3 +220,55 @@ Los datos recuperados por la actividad **[!UICONTROL Búsqueda de conjuntos de d
 **Causa:** La clave de búsqueda en la actividad de búsqueda del conjunto de datos se estableció mediante el modo simple. Cuando la clave no se define en el modo avanzado, el resultado de la actividad no se expone como atributo de contexto en las actividades descendentes.
 
 **Corrección:** Abra la actividad de búsqueda del conjunto de datos, busque el campo **[!UICONTROL Teclas de búsqueda]** y cambie a **modo avanzado** para redefinir la expresión de clave. Guarde la actividad y vuelva a publicar el recorrido.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar la actividad de búsqueda de conjuntos de datos para recuperar dinámicamente los datos del conjunto de datos de registros de AEP durante el tiempo de ejecución del recorrido para la personalización en tiempo real y la lógica condicional.
+
+**Intenciones:**
+
+* Agregue una actividad de búsqueda de conjuntos de datos a un recorrido para recuperar datos de registros de AEP externos durante la ejecución
+* Seleccione campos específicos de conjuntos de datos (nodos de hoja/valores primitivos) para recuperar durante la búsqueda
+* Defina una clave de búsqueda en el modo avanzado para unir el contexto de recorrido con los registros del conjunto de datos
+* Utilice datos de conjuntos de datos enriquecidos en el editor de expresiones de recorrido o en el editor de personalización
+* Solucionar errores de &quot;No se encontró la búsqueda del conjunto de datos&quot; causados por el uso del modo simple para la clave de búsqueda
+
+**Glosario:**
+
+* **Actividad de búsqueda de conjuntos de datos**: una actividad de orquestación de recorrido que recupera datos de conjuntos de datos de registros de AEP en tiempo de ejecución mediante una clave de unión *(específica del producto)*
+* **Nodo de hoja**: Campo en el nivel inferior de una jerarquía de esquema que contiene un valor primitivo (cadena, número, booleano, fecha) *(específico del producto)*
+* **Clave de búsqueda**: La expresión de unión (cadena o lista de cadenas) utilizada para hacer coincidir los datos de contexto del recorrido con los registros del conjunto de datos seleccionado *(específico del producto)*
+* **Datos enriquecidos**: datos recuperados por una actividad de búsqueda de conjuntos de datos y almacenados de forma transitoria en el contexto de recorrido para su uso en actividades de flujo descendente *(específicas del producto)*
+
+**Protecciones:**
+
+* Máximo de 10 actividades de búsqueda de conjuntos de datos por recorrido.
+* Máximo de 20 campos seleccionados por actividad de búsqueda.
+* Máximo de 50 claves en la matriz de claves de búsqueda.
+* El tamaño de los datos enriquecidos está limitado a 10 KB.
+* El conjunto de datos debe estar habilitado para la búsqueda en Adobe Experience Platform antes de que aparezca en la configuración de la actividad.
+* Solo se pueden seleccionar nodos de hoja (valores primitivos); no se pueden seleccionar matrices y mapas.
+* Solo se admiten cadenas o listas de cadenas como claves de búsqueda.
+* La clave de búsqueda debe definirse en modo avanzado; el uso de modo simple hace que la salida de la actividad no esté disponible como atributo de contexto descendente.
+* Los datos enriquecidos son transitorios y están disponibles solo durante el tiempo de ejecución del recorrido y en la personalización de actividades salientes.
+* Para obtener rendimiento, se recomiendan hasta 5 actividades de búsqueda por recorrido y hasta 20 atributos por búsqueda.
+
+**Terminología:**
+
+* Nombre canónico: Actividad de búsqueda de conjuntos de datos — Acrónimo: n/a — variantes: búsqueda de datos de AEP, actividad de enriquecimiento de datos
+* Sinónimos: &quot;clave de búsqueda&quot; = &quot;clave de unión&quot;
+* No confunda: &quot;Actividad de búsqueda de conjuntos de datos&quot; ≠ &quot;Búsqueda de eventos de experiencia&quot;: la búsqueda de conjuntos de datos recupera datos de conjuntos de datos de registro, no eventos de experiencia de series temporales
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Por qué no aparece mi conjunto de datos en la lista desplegable de campos de conjuntos de datos?** — El conjunto de datos debe estar habilitado para la búsqueda en Adobe Experience Platform. Siga las instrucciones de la sección Debe leer para habilitarlo.
+* **Q: ¿Por qué `@datasetLookup{}` devuelve el error &quot;No se encontró la búsqueda del conjunto de datos&quot; en una condición?** — La clave de búsqueda se definió mediante el modo simple en lugar del modo avanzado. Vuelva a definirlo en modo avanzado y vuelva a publicar el recorrido.
+* **Q: ¿Puedo recuperar matrices o campos de asignación del conjunto de datos?** — No, solo se pueden seleccionar campos de nodo de hoja primitivos (cadena, número, booleano, fecha).
+* **Q: ¿Cómo puedo acceder a los datos enriquecidos en un correo electrónico?** — Utilizar el editor de personalización con la sintaxis `{{context.journey.datasetLookup.<activityId>.entities}}`.
+* **Q: ¿Persisten los datos enriquecidos después de que finalice el recorrido?** — No, los datos enriquecidos son transitorios y solo están disponibles durante la sesión de tiempo de ejecución de recorrido.
+
++++

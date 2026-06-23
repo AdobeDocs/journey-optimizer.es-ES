@@ -9,19 +9,15 @@ keywords: lista, funciones, expresión, recorrido, matriz, colección
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 9%
+source-wordcount: 1642
+ht-degree: 6%
 
 ---
 
@@ -743,5 +739,52 @@ Devuelve `[3, 2, 1]`.
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 Devuelve el listObject ordenado por atributo SKU (orden ascendente)
+
++++
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página documenta todas las funciones de lista disponibles en expresiones de recorrido de AJO, y trata sobre cómo filtrar, ordenar, deduplicar, comprobar suscripciones, limitar, serializar y buscar intersecciones de listas y matrices.
+
+**Intenciones:**
+* Quitar valores duplicados de una lista mediante `distinct` (omitiendo valores nulos) o `distinctWithNull` (conservando valores nulos)
+* Filtre un listObject para devolver únicamente objetos que coincidan con valores de clave específicos mediante `filter`
+* Recuperar un elemento en un índice específico de una lista utilizando `getListItem`
+* Comprobar si existe un valor en una lista con `in`
+* Buscar elementos comunes entre dos listas utilizando `intersect`
+* Devolver los primeros o últimos elementos N de una lista utilizando `limit`
+* Contar el número total de elementos de una lista utilizando `listSize`
+* Convertir una lista en una cadena delimitada usando `serializeList`
+* Ordenar una lista en orden ascendente o descendente utilizando `sort`
+
+**Glosario:**
+* **listObject**: una lista de objetos complejos que debe ser una referencia de campo; no puede contener objetos nulos *(específicos del producto)*
+* **keyAttributeName**: parámetro de cadena opcional utilizado con `distinct`, `filter` y `sort` para identificar qué atributo de objeto usar para la deduplicación, el filtrado o la ordenación *(específico del producto)*
+* **intersect**: una operación set devuelve solamente los elementos presentes en ambas listas de entrada
+
+**Protecciones:**
+* `distinctWithNull` no admite el tipo de parámetro `<listObject>`
+* `filter` requiere que el parámetro listObject sea una referencia de campo, no un literal en línea
+* `listSize` en un listObject requiere que la lista sea una referencia de campo; un listObject no puede contener objetos nulos
+* `serializeList` no admite el tipo `listObject`
+
+**Terminología:**
+* Nombre canónico: Funciones de lista — Acrónimo: none — variantes: funciones de colección, funciones de matriz
+* Sinónimos: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
+* No confunda: &quot;distinct&quot; (ignora los valores nulos) ≠ &quot;distinctWithNull&quot; (conserva null como valor distinto)
+* No confunda: &quot;limit&quot; con el tercer parámetro `true` (devuelve los primeros N elementos) ≠ &quot;limit&quot; con `false` (devuelve los últimos N elementos)
+* No confunda: &quot;intersect&quot; (elementos comunes entre dos listas) ≠ &quot;filter&quot; (elementos que coinciden con valores clave específicos)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cómo obtengo los primeros 3 elementos de una lista?** — Use `limit(myList, 3)` o `limit(myList, 3, true)`; el valor predeterminado es devolver los primeros elementos.
+* **Q: ¿Cómo obtengo los últimos 3 elementos de una lista?** — Usar `limit(myList, 3, false)`.
+* **Q: ¿Cuál es la diferencia entre `distinct` y `distinctWithNull`?** — `distinct` ignora los valores nulos y los excluye del resultado; `distinctWithNull` trata el valor nulo como un valor distinto e incluye una entrada nula si hay valores nulos.
+* **Q: ¿Puedo filtrar una lista de cadenas con `filter`?** — No, `filter` solo funciona en `listObject`; para las listas escalares, use `in` o `distinct` para la deduplicación.
+* **Q: ¿Cómo puedo comprobar si un valor está en una lista?** — Use `in(value, myList)`, que devuelve true si el valor se encuentra en la lista.
+* **Q: ¿Puedo ordenar un listObject por un atributo específico?** — Sí, usar `sort(@event{...}, "attributeName", true)`, donde el segundo parámetro es el nombre del atributo y el tercero es la dirección de ordenación (verdadero = ascendente).
 
 +++

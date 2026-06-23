@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1506
-ht-degree: 13%
+source-wordcount: 2066
+ht-degree: 9%
 
 ---
 
@@ -192,4 +192,52 @@ También puede reanudar uno o varios **recorridos pausados**. Para reanudar un g
 >[!NOTE]
 >
 >Puede pausar/reanudar hasta 10 recorridos por operación.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo examinar, filtrar, ver (lista y calendario), duplicar y realizar operaciones masivas en recorridos desde el panel de Journey Optimizer.
+
+**Intenciones:**
+
+* Examine y busque recorridos desde las pestañas Información general y Examinar
+* Filtrar recorridos por estado, tipo, versión, etiquetas, fecha de creación o fecha de publicación
+* Cambiar entre la vista de lista y la vista de calendario para visualizar las programaciones de recorrido
+* Añadir y administrar calendarios externos cargando archivos CSV
+* Duplique un recorrido existente para reutilizar su configuración
+* Pausar o reanudar de forma masiva varios recorridos activos o pausados a la vez
+
+**Glosario:**
+
+* **Panel de Recorridos**: La interfaz principal de recorrido con una ficha Información general que muestra las métricas clave y una ficha Examinar que enumera todos los recorridos. *(específico del producto)*
+* **Tasa de descarte**: La proporción de perfiles que no cumplen los requisitos para entrar en el recorrido (por ejemplo, debido a reglas de área de nombres o reentrada incorrectas) en comparación con el total de perfiles que intentaron entrar en las últimas 24 horas. *(específico del producto)*
+* **Vista de calendario de Recorridos**: Una representación visual de recorridos semanales, a la que se puede tener acceso haciendo clic en el icono de calendario de la lista recorridos. *(específico del producto)*
+* **Pausa masiva**: Una operación que pone en pausa varios recorridos activos a la vez (hasta 10 por operación) desde la lista de recorridos. *(específico del producto)*
+
+**Protecciones:**
+
+* Las métricas del panel se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles; solo abarcan las últimas 24 horas
+* Los recorridos de borrador y los recorridos del modo de prueba no se muestran en la vista Calendario
+* La pausa/reanudación masiva está limitada a 10 recorridos por operación
+* El botón Reanudar solo está activo cuando se seleccionan recorridos en pausa; el botón Pausa solo está activo cuando se seleccionan recorridos activos
+* El calendario muestra los recorridos en intervalos de tiempo de 1 hora, independientemente de la hora de envío o finalización real
+
+**Terminología:**
+
+* Nombre canónico: panel de Recorrido — Acrónimo: none — variantes: lista de recorridos, descripción general de recorridos
+* Sinónimos: &quot;pestaña Examinar&quot; = &quot;lista de recorridos&quot;
+* No confundir: &quot;Tasa de descarte&quot; ≠ &quot;Tasa de error&quot;: la tasa de descarte cuenta los perfiles que no cumplen los requisitos para entrar. La tasa de error cuenta los perfiles introducidos pero que han encontrado un error de procesamiento
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Dónde puedo ver las métricas clave de rendimiento de recorridos de un vistazo?** — En la pestaña Información general del panel de Recorrido, que muestra los perfiles procesados, los recorridos activos, la tasa de error y la tasa de descarte de las últimas 24 horas.
+* **Q: ¿Cómo encuentro recorridos que utilizan un evento o una acción específicos?** — utilice los filtros de actividad y los filtros de datos de la lista de recorrido para mostrar los recorridos que hacen referencia a un evento, grupo de campos o acción específicos.
+* **Q: ¿Puedo pausar varios recorridos a la vez?** — Sí; seleccione varios recorridos interactivos en la lista y haga clic en el botón Pausa de la barra inferior. Se pueden pausar hasta 10 recorridos por operación.
+* **Q: ¿Cómo se agregan eventos externos al calendario de recorrido?** — Haga clic en el icono de adición de calendario y, a continuación, arrastre y suelte un archivo CSV con columnas de nombre de evento, fecha de inicio y fecha de finalización; los eventos cargados son visibles para todos los usuarios de la organización.
+* **Q: ¿Por qué el calendario muestra un recorrido como 1 hora aunque se ejecute durante más tiempo?** — El calendario muestra todos los recorridos como intervalos de tiempo de 1 hora para mantener la coherencia visual; esto no refleja la hora real de envío o finalización.
+
++++
 

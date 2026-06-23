@@ -12,10 +12,10 @@ keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 2%
+source-wordcount: 1554
+ht-degree: 1%
 
 ---
 
@@ -136,3 +136,52 @@ Solo se puede definir el tamaño y el tiempo de las olas. La misma audiencia flu
 ## Consulte también {#see-also}
 
 * [Usar una audiencia en un recorrido](read-audience.md): configure la actividad Leer audiencia.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar el envío de oleadas en recorridos de audiencia de lectura de Adobe Journey Optimizer para que entregue mensajes salientes en lotes controlados a lo largo del tiempo, lo que mejora la capacidad de envío y protege la reputación del remitente.
+
+**Intenciones:**
+* Habilite el envío de ondas en un recorrido Leer audiencia para enviar mensajes por lotes
+* Configurar ondas iguales con un intervalo fijo entre cada ola
+* Definir tamaños de onda personalizados como porcentajes o recuentos de perfiles absolutos
+* Programe cada ola con una fecha y hora de inicio específicas mediante una programación personalizada
+* Controle el volumen de entrega para proteger la reputación del remitente o alinearlo con la capacidad operativa
+
+**Glosario:**
+* **Envío de ondas**: Modo de envío que divide la audiencia de lectura en lotes (olas) y envía mensajes a cada lote a intervalos programados en lugar de a la vez *(específico del producto)*
+* **Olas iguales**: Una configuración de ola en la que la audiencia se divide en partes de igual tamaño con un intervalo fijo entre inicios de ola *(específico del producto)*
+* **Distribución personalizada**: una configuración de ola en la que el tamaño de cada ola se define manualmente como porcentaje o número absoluto de perfiles *(específicos del producto)*
+* **Programación personalizada**: Una configuración de ola en la que cada ola tiene una fecha y hora de inicio específicas, lo que permite un espaciado no uniforme *(específico del producto)*
+
+**Protecciones:**
+* El envío de ondas solo está disponible para recorridos de audiencia de lectura con los tipos de programador &quot;Lo antes posible&quot; y &quot;Una vez&quot;; no está disponible para recorridos recurrentes, activados por eventos, de evento empresarial, de modo de prueba o de ejecución en seco.
+* Deben definirse un mínimo de 2 olas y un máximo de 10.
+* El intervalo mínimo entre el inicio de dos olas consecutivas es de 30 minutos.
+* No se puede establecer un tiempo de inicio de ola antes del inicio del recorrido o en el pasado.
+* Dividir la audiencia en olas puede tardar hasta 1 hora; es posible que los perfiles no entren hasta entonces.
+* En una sola versión de recorrido, dos olas nunca se ejecutan simultáneamente; la siguiente ola comienza solo después de que la anterior finalice.
+* Los inicios de ola se pueden retrasar por los límites de cuota de plataforma o por la carga pesada del sistema.
+* Al utilizar la distribución personalizada basada en porcentajes, todas las olas deben sumar el 100 %.
+* Cuando se utiliza la distribución personalizada basada en números, el sistema no valida la cobertura total; el usuario debe asegurarse de que los tamaños de ola cubran la audiencia deseada.
+* Si el tamaño de las olas supera a la audiencia, la primera ola se envía a la audiencia completa y las olas restantes no se ejecutan.
+* Si el tamaño de las olas es menor que la audiencia, solo los perfiles de las olas definidas reciben el mensaje; el resto no se vuelve a intentar.
+
+**Terminología:**
+* Nombre canónico: Envío de ondas — Acrónimo: none — variantes: envío por lotes, envío basado en ondas, envío por fases
+* Sinónimos: &quot;waves&quot; = &quot;batches&quot; = &quot;delivery phases&quot;
+* No confunda: &quot;Envío de ondas&quot; ≠ &quot;recorrido recurrente&quot; (el envío de ondas divide una sola audiencia leída en lotes cronometrados; los recorridos recurrentes vuelven a leer la audiencia según una programación).
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Se puede usar el envío de ondas en recorridos recurrentes?** — No; el envío de ondas solo está disponible para recorridos de audiencia de lectura con el tipo de programador &quot;Lo antes posible&quot; o &quot;Una vez&quot;.
+* **Q: ¿Cuál es el tiempo mínimo entre dos olas?** — 30 minutos entre el inicio de dos olas consecutivas.
+* **Q: ¿Qué sucede si el tamaño total de mis olas es superior al de la audiencia?** — La primera ola envía a la audiencia completa y las olas siguientes no tienen perfiles a los que enviar; no se ejecutan.
+* **Q: ¿Puedo asignar contenido o segmentos diferentes a olas individuales?** — No; todas las olas utilizan la misma audiencia y el mismo contenido de recorrido. Solo se puede personalizar el tamaño y el tiempo por ola.
+* **Q: ¿Cuántas olas puedo configurar?** — Entre 2 y 10 olas por recorrido.
+* **Q: ¿Cuándo debo usar el envío de ondas?** — Utilícelo para proteger la reputación del remitente para envíos de gran volumen, alinear la entrega con la capacidad del equipo descendente (por ejemplo, centros de llamadas) o aumentar progresivamente el volumen en una nueva IP o plataforma.
+
++++

@@ -11,29 +11,16 @@ keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1481
-ht-degree: 11%
+source-wordcount: 2097
+ht-degree: 8%
 
 ---
 
@@ -206,3 +193,46 @@ Obtenga más información acerca de los informes de recorrido en esta [sección]
 * **[recorridos para solucionar problemas](troubleshooting.md)**: encuentre soluciones a problemas comunes de recorridos y prácticas recomendadas para la depuración.
 * **[Tutoriales de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}**: Explore tutoriales de vídeo paso a paso sobre la creación de recorridos y las prácticas recomendadas.
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explican los cuatro pasos clave para crear un primer recorrido en Adobe Journey Optimizer (definir un punto de entrada, diseñar el lienzo, realizar pruebas con el modo de prueba o Ejecución en seco y publicar) junto con instrucciones para elegir el tipo de entrada correcto.
+
+**Intenciones:**
+* Cree un nuevo recorrido y configure sus propiedades en el menú Administración de Recorrido
+* Elija el punto de entrada correcto (lectura de audiencia, calificación de audiencia, evento unitario o evento empresarial) para un caso de uso determinado
+* Diseñe un recorrido de varios pasos arrastrando y soltando eventos, actividades de orquestación y acciones de canal en el lienzo
+* Pruebe un recorrido con el modo de prueba con perfiles de prueba sintéticos antes de publicar
+* Ejecute una ejecución en seco para validar la segmentación de audiencia con datos de producción reales sin ponerse en contacto con los clientes
+* Publique un recorrido para activarlo y supervisar su rendimiento con herramientas de creación de informes
+
+**Glosario:**
+* **Leer audiencia**: una actividad de entrada que procesa todos los perfiles de una audiencia por lotes a la vez o según una programación *(específica del producto)*
+* **Calificación de audiencias**: una actividad de entrada se desencadenó en tiempo real cuando un perfil entra o sale de una audiencia de flujo continuo *(específica del producto)*
+* **Evento unitario**: déclencheur en tiempo real que introduce un perfil cada vez en un recorrido cuando se produce una acción específica *(específico del producto)*
+* **Evento empresarial**: un evento sin perfil (por ejemplo, cancelación de vuelo, reabastecimiento de existencias) que déclencheur un recorrido para varios perfiles simultáneamente mediante un paso de lectura automática de audiencia *(específico del producto)*
+* **Modo de prueba**: modo de validación que utiliza perfiles de prueba sintéticos para simular la ejecución del recorrido sin activar las comunicaciones en directo *(específicas del producto)*
+* **Ejecución en seco**: Modo de publicación especial que utiliza datos de producción real para validar la lógica de recorrido sin ponerse en contacto con clientes reales ni actualizar perfiles *(específicos del producto)*
+
+**Protecciones:**
+* Un recorrido no se puede publicar si contiene errores; primero se deben resolver todos los errores
+* Un ingeniero de datos debe completar la configuración de eventos (para entradas basadas en eventos) antes de poder crear el recorrido
+* Las limitaciones y protecciones de recorrido se documentan por separado y deben revisarse antes de diseñarlas a escala
+* La creación de audiencias en Adobe Experience Platform es un requisito previo para los recorridos basados en audiencias
+
+**Terminología:**
+* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, flujo de orquestación
+* Sinónimos: &quot;Modo de prueba&quot; = &quot;Prueba de recorrido&quot;; &quot;Ejecución en seco&quot; = &quot;Modo de ejecución en seco&quot;
+* No confunda: &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: el modo de prueba utiliza perfiles sintéticos; la ejecución en seco utiliza datos de producción reales sin ponerse en contacto con los clientes
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué es lo primero que necesito hacer antes de crear un recorrido activado por evento?** — Configure el evento con un ingeniero de datos para definir el déclencheur y los datos que lleva; a continuación, haga referencia al evento como punto de entrada de recorrido.
+* **Q: ¿Qué punto de entrada se recomienda para alguien nuevo en Journey Optimizer?** — Comience con un recorrido basado en audiencias usando una actividad Leer audiencia — no requiere ninguna configuración de evento previa y es la manera más sencilla de familiarizarse con el lienzo.
+* **Q: ¿Puedo probar mi recorrido antes de que se active?** — Sí; utilice el modo de prueba con perfiles de prueba sintéticos para avanzar por el recorrido o utilice la ejecución en seco para ejecutar datos de producción reales sin enviar ninguna comunicación.
+* **Q: ¿Qué sucede si mi recorrido tiene errores cuando intento publicar?** — No se puede publicar un recorrido con errores; todos los errores de configuración deben resolverse antes de la publicación.
+* **Q: ¿Cómo se puede dividir un recorrido complejo con muchos pasos?** — Utilice la actividad de salto para conectar subrecorridos más pequeños, reduciendo la complejidad y facilitando las pruebas independientes de cada recorrido.
+
++++

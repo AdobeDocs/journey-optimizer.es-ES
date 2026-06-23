@@ -11,30 +11,16 @@ keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación,
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 12%
+source-wordcount: 2428
+ht-degree: 9%
 
 ---
 
@@ -83,21 +69,21 @@ Las actividades de canal nativo heredadas también se conservan en estos casos:
 >id="ajo_journey_action_auto_wait"
 >title="Nodo de espera automático"
 >abstract="Para las acciones de canal entrante (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Wait** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia entrante antes de que el recorrido continúe con el siguiente paso."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimización"
 >abstract="La sección **Optimización** agrega experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada miembro de la audiencia."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingüe"
 >abstract="La sección **Multilingüe** ofrece el contenido de acción del canal en varios idiomas dentro de un solo recorrido. Una configuración de idioma define las configuraciones regionales admitidas y el idioma predeterminado para esta acción."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introducción al contenido multilingüe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introducción al contenido multilingüe"
 
 
 Para agregar una acción de canal integrada al recorrido mediante la actividad **[!UICONTROL Action]**, siga los pasos a continuación.
@@ -356,3 +342,47 @@ En lugar de utilizar las funciones de mensajes integradas, puede utilizar accion
 
    * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar la actividad de acción unificada en el lienzo de recorrido para configurar acciones de canal integradas (correo electrónico, push, SMS, en la aplicación, web, tarjeta de contenido, experiencia basada en código), crear grupos de acciones de entrada múltiple y aplicar la optimización o la configuración multilingüe.
+
+**Intenciones:**
+* Añada una acción de canal integrada (correo electrónico, push, SMS, en la aplicación, web, tarjeta de contenido, experiencia basada en código) a un recorrido mediante la actividad de acción
+* Configuración de un grupo de varias acciones para enviar varias acciones entrantes simultáneamente desde un solo nodo de recorrido
+* Aplicar reglas de límite de frecuencia a una acción de canal saliente para evitar la fatiga del mensaje
+* Actualización del contenido de un mensaje en un recorrido activo sin volver a publicar
+* Conexión de un sistema de mensajería de terceros a un recorrido mediante acciones personalizadas
+* Habilitar el modo de envío rápido para notificaciones push urgentes de gran volumen
+
+**Glosario:**
+* **Actividad de acción**: la actividad de lienzo de recorrido unificado que sirve como punto de entrada único para todas las acciones de canal integradas y reemplaza las actividades de canal heredadas individuales *(específicas del producto)*
+* **Multiacción**: Una configuración dentro de un solo nodo de actividad de acción que permite que se entreguen simultáneamente hasta 10 acciones de canal entrante *(específicas del producto)*
+* **Modo de envío rápido**: Un complemento que permite el envío muy rápido y de gran volumen de mensajes push para las alertas de tiempo crítico *(específicas del producto)*
+* **Nodo de espera automática**: una actividad de espera de 3 días insertada automáticamente después de cada acción del canal entrante para que los perfiles tengan tiempo de ver la experiencia antes de que el recorrido avance *(específico del producto)*
+* **Puntuación de prioridad**: valor asignado a una acción de recorrido para determinar qué experiencia entrante tiene prioridad cuando varias acciones compiten por la misma configuración de canal *(específica del producto)*
+
+**Protecciones:**
+* Las actividades heredadas de canales individuales (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código, tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026; los recorridos existentes siguen funcionando sin migración
+* La acción múltiple solo está disponible para canales entrantes; los canales salientes como el correo electrónico no son compatibles con los grupos de acción múltiple
+* Un grupo de varias acciones admite un máximo de 10 acciones entrantes
+* En un recorrido activo, los atributos de personalización (atributos de perfil y datos contextuales) no se pueden cambiar, solo se puede actualizar el contenido del mensaje
+* Los déclencheur en la aplicación no se pueden modificar en un recorrido activo
+
+**Terminología:**
+* Nombre canónico: Actividad de acción — Acrónimo: none — variantes: acción de canal, actividad de mensaje, acción de canal integrada
+* Sinónimos: &quot;Actividad de acción&quot; = &quot;Actividad de acción del canal&quot;
+* No confunda: &quot;Actividad de acción&quot; ≠ &quot;acción personalizada&quot;: la actividad de acción utiliza canales nativos integrados, mientras que una acción personalizada se integra con un sistema de terceros a través de API
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué canales están disponibles en la actividad de acción?** — Correo electrónico, push, SMS/RCS/MMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido.
+* **Q: ¿Puedo enviar a varios extremos entrantes en el mismo nodo de recorrido?** — Sí, con el tipo de acción múltiple puede añadir hasta 10 acciones entrantes (experiencia basada en código, en la aplicación, tarjeta de contenido, web) en un solo nodo de actividad de acción.
+* **Q: ¿Qué les sucede a los recorridos que usan las actividades de canal heredadas obsoletas?** — Siguen funcionando sin ningún cambio; no se requiere ninguna migración.
+* **Q: ¿Puedo cambiar la línea de asunto del correo electrónico de un recorrido en vivo?** — Puede actualizar el contenido de un mensaje en un recorrido activo, pero no puede cambiar los atributos de personalización ni los datos contextuales utilizados en ese contenido.
+* **Q: ¿Cómo aplico un límite de frecuencia a una acción del canal?** — Utilice la lista desplegable Reglas de negocio de la configuración de acción para seleccionar un conjunto de reglas que aplique reglas de límite al canal seleccionado.
+
++++

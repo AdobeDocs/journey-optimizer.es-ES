@@ -9,19 +9,15 @@ keywords: cadena, funciones, expresión, recorrido, texto, manipulación
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 15%
+source-wordcount: 1668
+ht-degree: 10%
 
 ---
 
@@ -885,5 +881,54 @@ Devuelve una cadena.
 `uuid()`
 
 Devuelve &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.
+
++++
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página documenta todas las funciones de cadena disponibles en las expresiones de recorrido de AJO, que abarcan la búsqueda de texto, la comparación, la transformación, la extracción, la validación, el reemplazo, la división y la generación de identificadores únicos.
+
+**Intenciones:**
+* Concatenar dos o más cadenas utilizando `concat`
+* Busque una subcadena dentro de una cadena (con distinción entre mayúsculas y minúsculas o sin distinción entre mayúsculas y minúsculas) usando `contain` o `containIgnoreCase`
+* Comparar dos cadenas mientras se omiten las mayúsculas y minúsculas usando `equalIgnoreCase` o `notEqualIgnoreCase`
+* Compruebe si una cadena comienza o termina con un prefijo o sufijo específico utilizando `startWith`, `endWith` y sus variantes que no distinguen entre mayúsculas y minúsculas
+* Extraer una subcadena por posiciones de índice utilizando `substr`
+* Reemplazar la primera o todas las ocurrencias de un patrón en una cadena usando `replace` o `replaceAll`
+* Dividir una cadena en una lista de tokens mediante un separador con `split`
+* Genere un UUID aleatorio para las necesidades de identificador único usando `uuid`
+* Compruebe si una cadena está vacía o no está vacía usando `isEmpty` o `isNotEmpty`
+
+**Glosario:**
+* **RegExp**: un patrón de expresión regular utilizado como parámetro de destino en `replace`, `replaceAll` y `matchRegExp`; los caracteres especiales deben tener un carácter de escape de `\\`
+* **UUID**: identificador único universal: identificador de cadena generado aleatoriamente devuelto por `uuid()`
+* **substr**: extrae una parte de una cadena especificando un índice inicial y un índice final opcional (basado en cero)
+
+**Protecciones:**
+* El parámetro `target` en `replace` y `replaceAll` se trata como RegExp; los caracteres especiales (por ejemplo, `|`, `.`) deben tener un carácter de escape con `\\`
+* `replace` reemplaza solamente la primera incidencia que coincida; use `replaceAll` para reemplazar todas las incidencias
+* `isEmpty` devuelve falso para valores nulos (no verdadero); nulo no se considera una cadena vacía
+* `indexOf` y `lastIndexOf` devuelven -1 cuando no se encuentra ninguna coincidencia
+* Las posiciones de índice de la cadena están basadas en cero (el primer carácter se encuentra en la posición 0)
+
+**Terminología:**
+* Nombre canónico: Funciones de cadena — Acrónimo: none — variantes: funciones de texto, funciones de manipulación de cadenas
+* Sinónimos: &quot;contain&quot; = &quot;substring check&quot;; &quot;split&quot; = &quot;tokenize string&quot;; &quot;trim&quot; = &quot;strip whitespace&quot;
+* No confunda: &quot;replace&quot; (solo primera incidencia) ≠ &quot;replaceAll&quot; (todas las incidencias)
+* No confunda: &quot;indexOf&quot; (posición de la primera incidencia) ≠ &quot;lastIndexOf&quot; (posición de la última incidencia)
+* No confunda: &quot;isEmpty&quot; (verdadero solo para la cadena de longitud cero) ≠ comprobación nula (isEmpty devuelve falso para nulo)
+* No confunda: &quot;equalIgnoreCase&quot; (devuelve true cuando el caso de omisión es igual) ≠ &quot;notEqualIgnoreCase&quot; (devuelve true cuando el caso de omisión es diferente)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cómo puedo comprobar si una cadena contiene una subcadena independientemente de las mayúsculas y minúsculas?** — Use `containIgnoreCase("myString", "searchTerm")`, que devuelve true si el término de búsqueda se encuentra en cualquier caso.
+* **Q: ¿Cuál es la diferencia entre `replace` y `replaceAll`?** — `replace` sustituye solamente la primera aparición que coincida; `replaceAll` sustituye todas las apariciones de la cadena.
+* **Q: ¿Por qué necesito omitir el carácter `|` en `replace`?** — El parámetro de destino se trata como una expresión regular; `|` es un carácter RegExp especial y debe omitirse como `\\|` para tratarse como una barra vertical literal.
+* **Q: ¿Devuelve `isEmpty` true para null?** — No, `isEmpty` devuelve false para null; solo devuelve true para una cadena de longitud cero `""`.
+* **Q: ¿Cómo extraigo el número de versión principal de una cadena de versión como &quot;20.45.2.3434&quot;?** — Utilice `getListItem(split(@event{event.appVersion}, "\\."), 0)` para dividir por puntos y recuperar el primer elemento.
+* **Q: ¿Cómo se genera un identificador único en una expresión de recorrido?** — Use `uuid()`, que devuelve una cadena UUID generada aleatoriamente sin parámetros requeridos.
 
 +++

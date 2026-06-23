@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2176
+source-wordcount: 2859
 ht-degree: 0%
 
 ---
@@ -258,3 +258,51 @@ Para las actividades **Wait**, el registro incluye dos valores relacionados con 
 * **Duración real**: El tiempo que el usuario simulado permaneció en la actividad **Esperar**. Este valor se establece desde la ficha **[!UICONTROL Configuración de pruebas]**.
 
 Cuando aparezcan errores en el registro, deje **Simulation**, aplique los cambios necesarios al recorrido y ejecute **Simulation** de nuevo. Una vez completada la validación, publique el recorrido. Ver [Publicar tu recorrido](../building-journeys/publish-journey.md).
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página proporciona instrucciones paso a paso para ejecutar la simulación rápida y la simulación manual en Adobe Journey Optimizer, incluyendo cómo crear y administrar usuarios simulados, almacenar en déclencheur eventos unitarios, anular duraciones de espera e interpretar el registro de resultados.
+
+**Intenciones:**
+* Ejecute una simulación rápida para validar un recorrido de extremo a extremo con una entrada manual mínima
+* Configure la simulación manual para controlar la creación simulada de usuarios, las cargas útiles de eventos y las anulaciones de espera
+* Cree usuarios simulados a través de la generación de IA, el examen de inventario, la entrada de formulario o JSON
+* Almacenar en déclencheur eventos unitarios para usuarios simulados durante una sesión de simulación activa
+* Revise el registro de resultados para identificar errores y ramas descubiertas después de una ejecución de simulación
+* Restablecer o cerrar una sesión de simulación para iniciarla de nuevo o salir
+
+**Glosario:**
+* **Simulación rápida**: Modo de simulación automatizado que genera usuarios y valores de evento mediante Journey Agent y ejecuta el recorrido completo con pasos manuales mínimos *(específico del producto)*
+* **Simulación manual**: Modo de simulación paso a paso en el que los profesionales controlan la creación de usuarios, las cargas útiles de eventos y el tiempo de forma individual *(específico del producto)*
+* **Usuarios simulados**: entidades temporales de tipo perfil utilizadas en la simulación que no persisten en Adobe Experience Platform *(específicas del producto)*
+* **Journey Agent**: componente de IA que genera usuarios simulados y cargas útiles de evento durante la simulación asistida por IA *(específica del producto)*
+* **Configuración de prueba**: La ficha del Panel de simulación donde las duraciones de espera y las direcciones de ejecución (correo electrónico, teléfono, token push) se pueden sobrescribir para la ejecución de simulación *(específico del producto)*
+* **Registro de resultados**: se puede acceder al registro de ejecución desde la ficha Resultados que muestra los resultados, las duraciones y los errores por actividad para cada usuario simulado *(específico del producto)*
+
+**Protecciones:**
+* Requiere al menos uno de los siguientes permisos: Simular recorridos, Publicar recorridos o Aprobar y publicar recorridos
+* Las funciones de IA (simulación rápida, Generar con IA, Generar valores de evento) requieren el permiso Generar contenido de la capacidad Asistente de IA
+* En el caso de los recorridos activados por eventos, el icono Enviar por usuario no está disponible; la entrada se activa a través de la sección Eventos de prueba
+* Las anulaciones de duración de espera y la configuración de la dirección de ejecución solo se muestran si el recorrido incluye actividades de Espera o Canal
+* Los errores en el registro de resultados requieren salir de Simulación, corregir el recorrido y volver a ejecutar antes de la publicación
+
+**Terminología:**
+* Nombre canónico: Simulación rápida — Acrónimo: none — variantes: none
+* Nombre canónico: Simulación manual — Acrónimo: none — variantes: none
+* Nombre canónico: Usuarios simulados — Acrónimo: none — variantes: probar usuarios (etiqueta de interfaz de usuario en la lista de usuarios de prueba)
+* Sinónimos: &quot;Enviar todo&quot; = déclencheur todos los usuarios simulados enumerados en el recorrido simultáneamente
+* No confunda: &quot;Restablecer simulación&quot; ≠ &quot;Cerrar simulación&quot; — Restablecer borra todos los datos y configuraciones; Cerrar simplemente sale de la sesión actual
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es la diferencia entre la simulación rápida y la simulación manual?** — La simulación rápida ejecuta todo el recorrido automáticamente utilizando usuarios y eventos generados por IA; la simulación manual permite crear usuarios y eventos paso a paso con control total sobre las cargas útiles y el tiempo.
+* **Q: ¿Puedo reutilizar usuarios simulados en sesiones de simulación?** — Sí. Los usuarios guardados en el inventario se pueden recuperar mediante Examinar inventario en sesiones posteriores.
+* **Q: ¿Cómo anulo las duraciones de las actividades de espera durante la simulación?** — Abra la pestaña Test settings y defina una duración más corta, por ejemplo, 10 segundos, para que los usuarios simulados se muevan a través de los nodos Wait rápidamente.
+* **Q: ¿Cómo se almacena en déclencheur un evento unitario para un usuario simulado específico?** — En la sección Eventos de prueba, haga clic en el icono de edición situado junto al usuario para configurar la carga útil de evento y, a continuación, haga clic en el icono Enviar de esa fila para almacenar en déclencheur únicamente el evento del usuario.
+* **Q: ¿Qué significan los campos Duración definida y Duración real en el registro de resultados para las actividades de Espera?** — Duración definida es el tiempo de espera configurado del recorrido activo; duración real es la duración de prueba anulada que el usuario simulado realmente invirtió en el nodo Espera.
+* **Q: ¿Qué debo hacer cuando aparecen errores en el registro de resultados?** — Deje Simulación, aplique las correcciones necesarias al recorrido y, a continuación, vuelva a ejecutar Simulación hasta que la ejecución no muestre errores antes de la publicación.
+
++++

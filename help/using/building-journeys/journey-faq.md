@@ -11,36 +11,16 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 1%
+source-wordcount: 6198
+ht-degree: 0%
 
 ---
 
@@ -1005,3 +985,53 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
 * [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página es una lista de preguntas frecuentes completa que abarca conceptos de orquestación de recorrido, recorridos de creación, pruebas y publicación, supervisión de ejecución, funciones avanzadas y prácticas recomendadas en Adobe Journey Optimizer.
+
+**Intenciones:**
+* Comprenda los cuatro tipos de recorrido (unitario, Leer audiencia, Calificación de audiencias, evento empresarial) y cuándo usar cada uno
+* Decidir entre un recorrido y una campaña para un caso de uso determinado
+* Configure las opciones de reentrada para controlar la frecuencia con la que un perfil puede entrar en el mismo recorrido
+* Solucionar problemas de por qué no se ha introducido un perfil o por qué no se han enviado mensajes
+* Aplicar reglas de límite de recorrido para evitar la fatiga de los mensajes en varios recorridos
+* Utilice fragmentos de Recorrido para reutilizar secuencias de nodos comunes en los recorridos
+
+**Glosario:**
+* **recorrido unitario**: un recorrido activó un perfil a la vez debido a un evento en tiempo real, como una compra o registro *(específico del producto)*
+* **Leer recorrido de audiencias**: recorrido que procesa todos los perfiles de una audiencia por lotes a la vez o según una programación *(específica del producto)*
+* **recorrido de calificación de audiencia**: se desencadenó un recorrido cuando un perfil entra o sale del segmento de audiencia de flujo continuo *(específico del producto)*
+* **Límite de Recorrido**: Una configuración que limita la cantidad de veces que un perfil puede introducir recorridos en un período de tiempo o la cantidad de recorridos en los que un perfil puede estar simultáneamente *(específico del producto)*
+* **Fragmento de Recorrido**: conjunto estático reutilizable de nodos de recorrido creados una vez e insertados en varios recorridos en tiempo de diseño *(específico del producto)*
+* **Optimización del tiempo de envío (STO)**: característica controlada por IA que predice el tiempo de envío óptimo para cada perfil individual para maximizar la participación *(específica del producto)*
+* **Identificador suplementario**: Identificador adicional que permite a un perfil introducir el mismo recorrido varias veces para entidades diferentes (por ejemplo, pedidos independientes) *(específico del producto)*
+
+**Protecciones:**
+* Máximo de 50 actividades por recorrido
+* La duración máxima del recorrido es de 91 días (tiempo de espera global)
+* Las audiencias de carga y las audiencias de composición de audiencia federada no son compatibles con los recorridos de calificación de audiencias
+* Los eventos de reacción deben colocarse inmediatamente después de una acción de canal, sin una actividad de espera en el medio
+* No se permiten actividades de salto dentro de un fragmento de Recorrido
+* Un fragmento de Recorrido admite un máximo de 20 nodos; una zona protegida admite un máximo de 200 fragmentos activos
+* La calificación de audiencia de streaming se puede retrasar hasta 10 minutos después de la publicación del recorrido para los perfiles que ya están en la audiencia
+
+**Terminología:**
+* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, orquestación, flujo
+* Sinónimos: &quot;Cerca de nuevas entradas&quot; = &quot;parada correcta&quot;; &quot;parada&quot; = &quot;parada inmediata&quot;
+* No confunda: &quot;Recorrido&quot; ≠ &quot;Campaña&quot;: los recorridos admiten la orquestación activada por eventos de varios pasos; las campañas son envíos únicos o programados basados en audiencias
+* No confunda: &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: el modo de prueba utiliza perfiles de prueba sintéticos; la ejecución en seco utiliza datos de producción reales sin ponerse en contacto con los clientes
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es el número máximo de actividades en un recorrido?** — 50 actividades; mantener los recorridos más simples mejora la capacidad de mantenimiento y el rendimiento.
+* **Q: ¿Por qué un perfil no ingresó a mi recorrido?** — Entre las causas comunes se incluyen el evento de activación que no se recibe, los criterios de audiencia que no se cumplen, las reglas de reentrada que bloquean la reentrada, la cancelación de la publicación del recorrido o una discrepancia en el área de nombres.
+* **Q: ¿Puedo modificar la estructura de un recorrido activo?** — No; los cambios estructurales requieren la creación de una nueva versión del recorrido. El contenido del mensaje se puede actualizar sin una nueva versión.
+* **Q: ¿Cuál es la diferencia entre Pausar, Cerrar a nuevas entradas y Detener?** — Pausar suspende temporalmente el recorrido mientras se mantienen o se descartan los perfiles en vuelo. Cerca de las nuevas entradas detiene las nuevas entradas, pero permite que finalicen los perfiles existentes. Stop sale inmediatamente de todos los perfiles.
+* **Q: ¿Cuándo debo usar fragmentos de Recorrido en lugar de la actividad de salto?** — Utilice fragmentos para reutilizar la lógica de nodo común en tiempo de diseño (comportamiento de copiar y pegar). Utilice Saltar para redirigir perfiles a otro recorrido activo durante la ejecución.
+* **Q: ¿Cómo evito que se envíen demasiados mensajes al mismo cliente?** — aplique reglas de límite de recorrido (límite de entrada o límite de concurrencia) y utilice reglas empresariales de límite de frecuencia en acciones de canal individuales.
+
++++

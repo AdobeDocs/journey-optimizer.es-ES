@@ -10,22 +10,15 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 3%
+source-wordcount: 1382
+ht-degree: 2%
 
 ---
 
@@ -251,3 +244,44 @@ Examine las secciones siguientes para obtener más información sobre la configu
 * [Solución de problemas con acciones personalizadas](../action/troubleshoot-custom-action.md) - Aprenda a solucionar problemas de una acción personalizada
 * [Iterar en datos contextuales](../personalization/iterate-contextual-data.md#arrays-in-journeys): aprenda a trabajar con matrices en expresiones de Recorrido e iterar en respuestas de acciones personalizadas, datos de eventos y búsquedas de conjuntos de datos en la personalización de mensajes
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo pasar colecciones simples y de objetos dinámicamente a parámetros de acción personalizados en Journey Optimizer, incluidos los tipos de campo admitidos, el procedimiento de configuración y las limitaciones conocidas en torno a las matrices anidadas.
+
+**Intenciones:**
+* Configure una acción personalizada para aceptar una colección (simple u objeto) como parámetro dinámico
+* Defina parámetros de matriz como variables en el editor de expresiones avanzadas al crear un recorrido
+* Aplique funciones de filtro e intersección para manipular los datos de la matriz en el editor de expresiones
+* Comprenda y trabaje dentro de las limitaciones de matrices anidadas para cargas útiles de solicitudes de acciones personalizadas
+* Probar parámetros de colección utilizando el modo de vista de código en el modo de prueba de recorrido
+
+**Glosario:**
+* **Colección simple**: Una lista de valores escalares básicos (cadenas, números, valores booleanos) pasados como parámetro de acción personalizada *(específico del producto)*
+* **Colección de objetos**: Se pasó una lista de objetos estructurados, cada uno con varios campos, como parámetro de acción personalizada *(específico del producto)*
+* **listObject**: tipo de campo utilizado en la configuración de acción personalizada para representar una matriz de objetos *(específicos del producto)*
+* **listAny**: Tipo de campo utilizado para matrices heterogéneas o matrices de matrices donde los elementos tienen tipos mixtos *(específicos del producto)*
+* **Variable (frente a constante)**: en la configuración de parámetros de acción, un campo establecido en &quot;variable&quot; se rellena dinámicamente en tiempo de ejecución desde el contexto de recorrido, mientras que una &quot;constante&quot; es un valor fijo establecido en el tiempo de configuración *(específico del producto)*
+
+**Protecciones:**
+* Las matrices anidadas en cargas útiles de solicitud solo se admiten cuando contienen un número fijo de elementos (definidos como constantes); no se admiten matrices anidadas dinámicas
+* El modo de vista de código es necesario para probar colecciones en modo de prueba; la vista de código no es compatible con eventos empresariales, por lo que en ese caso solo se pueden enviar colecciones de un solo elemento
+* Debe haber al menos un objeto presente en el ejemplo de carga útil utilizado para definir los campos de recopilación
+* El primer objeto del ejemplo de carga útil define los campos de toda la colección
+
+**Terminología:**
+* Nombre canónico: Collection — Acrónimo: none — variantes: array, list, dynamic collection
+* Sinónimos: &quot;colección simple&quot; = &quot;lista de valores escalares&quot; ; &quot;colección de objetos&quot; = &quot;matriz de objetos&quot;
+* No confunda: &quot;listAny&quot; ≠ &quot;listObject&quot; (listAny controla matrices heterogéneas o anidadas; listObject controla matrices uniformes de objetos estructurados)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es la diferencia entre una colección simple y una colección de objetos?** — Una colección simple contiene valores escalares básicos (cadenas, números, valores booleanos), mientras que una colección de objetos contiene objetos estructurados, cada uno con varios campos con nombre.
+* **Q: ¿Cómo puedo hacer que un parámetro de colección sea dinámico durante la ejecución?** — En la sección Parámetros de acción de la acción personalizada, establezca el campo de matriz en &quot;variable&quot;; todos los campos de objeto dentro de él se establecen automáticamente en variables.
+* **Q: ¿Se admiten matrices anidadas en cargas útiles de solicitud de acción personalizada?** — Solo parcialmente. Las matrices anidadas con un número fijo y conocido de elementos se pueden definir como constantes. Las matrices anidadas con un número dinámico de elementos no son compatibles con las cargas útiles de solicitud.
+* **Q: ¿Cómo se prueba una colección en el modo de prueba de recorrido?** — Utilice el modo de vista de código en la interfaz de prueba. Tenga en cuenta que los eventos empresariales no admiten la vista de código, por lo que solo se pueden probar colecciones de un solo elemento en ese contexto.
+* **Q: ¿Qué tipos de campo se admiten en las colecciones?** — se admiten listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly y listObject.
+
++++

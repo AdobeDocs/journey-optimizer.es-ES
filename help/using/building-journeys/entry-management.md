@@ -10,27 +10,15 @@ keywords: reentrada, recorrido, perfil, recurrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 3%
+source-wordcount: 1842
+ht-degree: 2%
 
 ---
 
@@ -152,3 +140,56 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 * [Configurar criterios de salida](journey-properties.md#exit-criteria): defina cuándo deben salir los perfiles del recorrido
 * [Finalizar un recorrido](end-journey.md): comprenda cómo se cierran y finalizan los recorridos
 * [Casos de uso de Recorrido](jo-use-cases.md): vea ejemplos completos con configuraciones de entrada y salida
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo funciona la administración de entradas de perfil en los cuatro tipos de recorrido de Adobe Journey Optimizer, incluidos los límites de rendimiento, la configuración de reentrada y el comportamiento de las actividades de espera y acción en la tasa de procesamiento.
+
+**Intenciones:**
+
+* Comprenda el comportamiento de entrada y los límites de rendimiento para cada tipo de recorrido (evento unitario, evento empresarial, audiencia de lectura, calificación de audiencia)
+* Habilite o deshabilite la reentrada de perfiles y configure el período de espera de reentrada
+* Permitir varias ejecuciones de eventos empresariales en un recorrido empresarial
+* Identificar cómo las actividades de espera y las actividades de acción afectan a la tasa de procesamiento de recorridos
+* Asegúrese de que un perfil no esté presente en el mismo recorrido al mismo tiempo
+
+**Glosario:**
+
+* **Reentrada**: la capacidad de un perfil para volver a entrar en el mismo recorrido después de salir de él anteriormente; configurable con un período de espera *(específico del producto)*
+* **Período de espera de reentrada**: tiempo mínimo que debe transcurrir antes de que un perfil pueda volver a entrar en un recorrido. El valor predeterminado es de 5 minutos, el máximo es de 91 días *(específico del producto)*
+* **TPS (transacciones por segundo)**: La tasa de rendimiento a la que los perfiles pueden entrar o ser procesados en un recorrido *(específico del producto)*
+* **recorrido de evento unitario**: un recorrido desencadenado por un solo evento asociado a un perfil *(específico del producto)*
+* **recorrido de lectura de audiencia**: recorrido que procesa un lote de perfiles que pertenecen a una audiencia definida, una vez o en una programación recurrente *(específica del producto)*
+* **recorrido de evento empresarial**: recorrido desencadenado por un evento empresarial dirigido a una audiencia, que crea una instancia de recorrido por perfil *(específico del producto)*
+* **recorrido de calificación de audiencias**: Se desencadenó un recorrido cuando un perfil entra o sale de una audiencia de flujo continuo en tiempo real *(específico del producto)*
+
+**Protecciones:**
+
+* Un perfil no puede estar presente varias veces en el mismo recorrido al mismo tiempo en todas las versiones activas.
+* Leer recorridos de audiencia: máximo de 20 000 TPS en el nivel de zona protegida.
+* Recorridos de calificación de audiencias y eventos unitarios: máximo de 5000 TPS compartidos a nivel de organización.
+* Los eventos empresariales se contabilizan en la cuota de 5000 TPS; la actividad de audiencia de lectura posterior sigue el límite de 20 000 TPS.
+* El período de espera de reentrada predeterminado es de 5 minutos; el máximo es de 91 días (tiempo de espera global).
+* Las actividades de espera de tiempo fijo pueden causar picos en el perfil que superen los 20.000 TPS y no se recomiendan.
+* El límite predeterminado de acciones personalizadas es de 300 000 llamadas por minuto.
+* En el caso de los recorridos empresariales, los datos de audiencia de la primera ejecución se reutilizan durante 1 hora.
+
+**Terminología:**
+
+* Nombre canónico: Profile entry management — Acrónimo: n/a — variants: profile entry management, recorrido entry
+* Sinónimos: &quot;reentrada&quot; = &quot;reentrada&quot;
+* No confunda: &quot;recorrido de evento unitario&quot; ≠ &quot;recorrido de calificación de audiencia&quot;: ambos son escenarios unitarios pero se activan de forma diferente (emisión de evento frente a cambio de pertenencia a audiencia).
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Puede un perfil entrar en el mismo recorrido dos veces simultáneamente?** — No, el sistema utiliza la identidad del perfil como clave y evita que el mismo perfil se encuentre en diferentes lugares del mismo recorrido al mismo tiempo.
+* **Q: ¿Cuál es el período de espera de reentrada predeterminado?** — 5 minutos, configurables hasta un máximo de 91 días.
+* **Q: ¿Cuántos perfiles por segundo puede procesar un recorrido de lectura de audiencia?** — Hasta 20 000 TPS en el nivel de la zona protegida, aunque este máximo puede no ser alcanzable si varios recorridos se ejecutan simultáneamente en la misma zona protegida.
+* **Q: ¿Qué sucede con el rendimiento después de una actividad de espera con un tiempo fijo?** — Múltiples perfiles pueden salir de la espera simultáneamente, excediendo potencialmente los 20,000 TPS; se recomiendan actividades de Espera en tiempo relativo para evitar esto.
+* **Q: ¿Puede un perfil aparecer en un recorrido empresarial varias veces al mismo tiempo?** — Sí, pero solo en el contexto de distintos eventos empresariales.
+
++++

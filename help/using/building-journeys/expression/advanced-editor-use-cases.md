@@ -11,21 +11,15 @@ keywords: expresión, condición, casos de uso, eventos
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 4%
+source-wordcount: 1103
+ht-degree: 2%
 
 ---
 
@@ -186,3 +180,50 @@ Explicación: Este ejemplo utiliza las funciones `substr` y `lastIndexOf` para e
 
 
 Para obtener más información sobre cómo usar el editor de expresiones avanzadas, vea [este vídeo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=es).
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página proporciona ejemplos prácticos del uso del editor de expresiones avanzadas para generar condiciones de recorrido que filtran a los usuarios por actividad de carro de compras, estado de inventario, eventos de geovalla, manipulaciones de cadenas y ventanas de marca de tiempo.
+
+**Intenciones:**
+
+* Generar una condición de abandono del carro de compras con `in()` y `inLastDays()` para aproximarse a los usuarios que agregaron artículos pero no completaron la compra en un plazo de 7 días
+* Filtre las colecciones de eventos de experiencia por ventana de marca de tiempo para evitar capturar datos históricos
+* Aplique comparaciones de cadenas que distinguen entre mayúsculas y minúsculas y que no distinguen entre mayúsculas y minúsculas a los campos de eventos de geovalla
+* Extraer y manipular los ID de CRM desde eventos de inicio de aplicaciones móviles mediante `substr` y `lastIndexOf`
+* Comprobar la disponibilidad del inventario de productos comparando un campo de cantidad con un umbral
+* Combinar varias expresiones booleanas utilizando la lógica `and` / `not` en condiciones de recorrido
+
+**Glosario:**
+
+* **Editor de expresiones avanzadas**: La interfaz de Journey Optimizer para escribir expresiones complejas de nivel de código mediante funciones, operadores y referencias de campo *(específico del producto)*
+* **currentDataPackField**: una variable de bucle utilizada al iterar colecciones de orígenes de datos dentro de `all()`, `first()` o `last()` funciones *(específicas del producto)*
+* **inLastDays(timestamp, N)**: Una función de fecha que devuelve el valor &quot;True&quot; si la marca de tiempo especificada se encuentra dentro de los últimos N días *(específicos del producto)*
+* **Eventos de experiencia**: registros de datos de comportamiento de series de tiempo almacenados en Adobe Experience Platform, recuperados en orden cronológico inverso *(específicos del producto)*
+
+**Protecciones:**
+
+* No se admite el uso directo de eventos de experiencia en expresiones/condiciones de recorrido; en su lugar, se deben utilizar métodos alternativos como atributos calculados o segmentos de audiencia
+* Se debe utilizar el editor de expresiones avanzadas (no el editor simple) para consultas sobre datos de series temporales como colecciones de compras o clics
+* Al hacer doble clic en un campo del panel izquierdo, se inserta rápidamente en la expresión; evite escribir las rutas de campo manualmente para reducir los errores
+* Expresiones que consultan eventos de experiencia devuelven un valor booleano; asegúrese de que la lógica descendente espere un tipo booleano.
+
+**Terminología:**
+
+* Nombre canónico: Editor de expresiones avanzadas — Acrónimo: none — variantes: editor de expresiones, editor avanzado
+* Sinónimos: &quot;addToCart&quot; = &quot;add to cart interaction&quot;; &quot;completePurchase&quot; = &quot;purchase completion event&quot;
+* No confunda: eventos (con el prefijo `@`) ≠ fuentes de datos (con el prefijo `#`)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Por qué debo usar el editor avanzado en lugar del editor simple para consultas de abandono del carro de compras?** — El editor simple no puede realizar consultas en colecciones de series temporales; se requiere el editor avanzado para las funciones de colección `all()`, `first()` y `last()`.
+* **Q: ¿Cómo hago referencia al evento &quot;addToCart&quot; más reciente en una expresión?** — Utilice la función `first()` en la colección de eventos de experiencia filtrada por `productInteraction == "addToCart"`, ya que los eventos se devuelven en orden cronológico inverso.
+* **Q: ¿Cómo puedo hacer que una comparación de cadenas no distinga mayúsculas de minúsculas en el editor avanzado?** — Utilice la función `equalIgnoreCase()` en lugar del operador `==`.
+* **Q: ¿Cuál es el propósito de agregar una ventana de marca de tiempo al consultar los eventos del carro de compras?** — Especificar una marca de tiempo de inicio y de fin impide que se recojan datos históricos que no entren en la ventana de actividad prevista.
+* **Q: ¿Cómo elimino llaves de una cadena de ID de CRM pasada en un evento?** — Use `substr()` combinado con `lastIndexOf()` para extraer el contenido entre llaves.
+
++++

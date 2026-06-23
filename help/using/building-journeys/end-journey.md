@@ -10,24 +10,16 @@ keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 2%
+source-wordcount: 1779
+ht-degree: 1%
 
 ---
 
@@ -166,4 +158,50 @@ Cuando está detenido, el estado del recorrido se establece en **[!UICONTROL Det
 * [Administración de entrada de perfiles](entry-management.md): configure el modo en que los perfiles escriben recorridos
 * [Configurar criterios de salida](journey-properties.md#exit-criteria) - Configurar la eliminación automática de perfiles de las recorridos
 * [Pausar un recorrido](journey-pause.md): detener temporalmente la ejecución del recorrido
-* [Detener o cerrar un recorrido pausado](journey-pause.md#stop-close-paused) - Finalizar un recorrido pausado sin reanudarlo primero
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explican las distintas formas en que puede finalizar un recorrido activo, incluido el tiempo de espera global de 91 días, el cierre manual de las nuevas entradas y la detención de emergencia, así como sus efectos en los perfiles en curso.
+
+**Intenciones:**
+
+* Cerrar un recorrido en directo a nuevas entradas y permitir que los perfiles actuales lo completen
+* Detener un recorrido inmediatamente para detener todos los perfiles en curso
+* Comprender la diferencia entre los estados recorrido cerrado, detenido y finalizado
+* Determine cuándo se considera que un recorrido ha &quot;finalizado&quot; en función de su tipo y configuración
+* Eliminar un recorrido una vez que haya alcanzado el estado Finished
+
+**Glosario:**
+
+* **Etiqueta final**: Un nodo no extraíble generado automáticamente que se muestra al final de cada ruta de acceso de recorrido durante la creación; su etiqueta se puede cambiar *(específica del producto)*
+* **Cerca de nuevas entradas**: una acción manual que impide que los nuevos perfiles entren en un recorrido mientras permiten que los perfiles existentes completen su ruta de acceso *(específica del producto)*
+* **Tiempo de espera de recorrido global**: Período máximo de 91 días tras el cual un recorrido cambia automáticamente al estado Finalizado y se eliminan todos los datos de perfil *(específico del producto)*
+* **Estado detenido**: un estado de recorrido en el que todos los perfiles en curso se detienen inmediatamente; se usa solo para emergencias *(específicas del producto)*
+
+**Protecciones:**
+
+* Los recorridos cerrados y detenidos no se pueden reiniciar ni eliminar; solo se puede crear una nueva versión o un duplicado.
+* Solo se pueden eliminar los recorridos con el estado Finalizado.
+* La detención de un recorrido requiere el permiso Administrar recorridos; los recorridos con campañas en línea o nodos de mensajería también requieren el permiso Campañas > Publicar campañas.
+* Después del tiempo de espera global de 91 días, se eliminan todos los datos de recorrido de perfiles y los perfiles restantes se cierran automáticamente.
+* Una recorrido de audiencia de lectura de una sola toma permanece en estado Activo después de la ejecución; debe cerrarse manualmente o cerrarse después de 91 días.
+
+**Terminología:**
+
+* Nombre canónico: Cerca de nuevas entradas — Acrónimo: n/a — variantes: cerrar recorrido, cerrar manualmente
+* Sinónimos: recorrido &quot;Detenido&quot; ≠ recorrido &quot;Cerrado&quot;: detenido detiene todos los perfiles inmediatamente; cerrado solo bloquea las nuevas entradas
+* No confunda: &quot;End tag&quot; ≠ &quot;End activity&quot;: la etiqueta End se genera automáticamente y no se puede eliminar; la actividad End es un nodo de lienzo colocable
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Cuál es la diferencia entre cerrar y detener un recorrido?** — El cierre bloquea las nuevas entradas, pero permite que los perfiles existentes finalicen; la detención detiene inmediatamente todos los perfiles en seguimiento.
+* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** : 91 días después del inicio de la ejecución (no recurrente), cuando se alcanza la fecha de finalización (recurrente con fecha de finalización) o 91 días después del inicio (recurrente sin fecha de finalización).
+* **Q: ¿Puedo eliminar un recorrido cerrado?** — No, sólo se pueden eliminar los recorridos finalizados.
+* **Q: ¿Qué les sucede a los perfiles que aún están en un recorrido cuando se alcanza el tiempo de espera de 91 días?** — Se salen automáticamente del recorrido en ese punto.
+* **Q: ¿Necesito permisos especiales para detener un recorrido?** — Sí, se requiere el permiso Administrar recorridos, además de Campañas > Publicar campañas si el recorrido contiene campañas en línea o nodos de mensajería.
+
++++

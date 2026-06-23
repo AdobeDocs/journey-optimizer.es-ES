@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: Enriquece las páginas de documentación de Adobe Journey Optimizer con una sección de acordeón del Asistente de IA adjunta al final de cada archivo Markdown. Lee cada página, genera automáticamente contenido relevante del Ayudante de IA en función del tema de la página y lo inserta como un acordeón contraíble. Se utiliza cuando el usuario desea agregar información de IA a documentos de AJO, enriquecer páginas de marcado de AJO con contenido de IA o procesar un archivo o carpeta de archivos de marcado con secciones de acordeón de AI.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - `+++` solo en una línea cierra el acordeón
 - Línea en blanco antes de `+++` y después de `+++`
 
-&#x200B;---
+---
 
 ## Flujo de trabajo
 
@@ -79,19 +79,19 @@ Una vez procesados todos los archivos:
 - Archivos de lista modificados ✓
 - Lista de archivos omitidos y motivo (ya tiene acordeón, archivo vacío, no relevante, etc.)
 
-&#x200B;---
+---
 
 ## Reglas de generación de contenido
 
 Genere el contenido del acordeón analizando la página Markdown. Produzca las siguientes secciones **en orden**, con formato de listas de viñetas de markdown. Omita cualquier sección para la que no se pueda extraer contenido significativo de la página.
 
-&#x200B;---
+---
 
 ### Título del acordeón
 
 Uso: `+++AI Assistant — Page context`
 
-&#x200B;---
+---
 
 ### Secciones que se van a generar (en orden)
 
@@ -103,7 +103,7 @@ Una frase. ¿Qué enseña o habilita esta página?
 - **TL;DR:** [one sentence summary]
 ```
 
-&#x200B;---
+---
 
 **2. Intenciones**
 
@@ -115,7 +115,7 @@ Lista con viñetas de lo que un usuario puede lograr después de leer esta pági
 - [action the user can perform]
 ```
 
-&#x200B;---
+---
 
 **3. Glosario**
 
@@ -129,7 +129,7 @@ Términos clave específicos de esta página o función, con una definición cor
 
 Incluir solo términos que sean relevantes para el tema de esta página. No rellene con términos de marketing genéricos.
 
-&#x200B;---
+---
 
 **4. Protecciones**
 
@@ -141,7 +141,7 @@ Limitaciones, requisitos previos, permisos o restricciones mencionadas en la pá
 - [guardrail or prerequisite]
 ```
 
-&#x200B;---
+---
 
 **5. Terminología**
 
@@ -157,7 +157,7 @@ Nombres de productos canónicos, acrónimos, variantes aceptadas, sinónimos y s
 
 Incluir solo las entradas que estén presentes o implícitas en la página.
 
-&#x200B;---
+---
 
 **6. PREGUNTAS FRECUENTES**
 
@@ -169,7 +169,7 @@ Incluir solo las entradas que estén presentes o implícitas en la página.
 - **Q: [question]** — [short answer]
 ```
 
-&#x200B;---
+---
 
 ### Qué NO incluir
 
@@ -177,12 +177,16 @@ Incluir solo las entradas que estén presentes o implícitas en la página.
 - **no** incluye instrucciones paso a paso (las que se encuentran en la página).
 - **no** inventa contenido que no es compatible con la página.
 
-&#x200B;---
+---
 
 ### Plantilla de acordeón completa
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -205,7 +209,7 @@ Incluir solo las entradas que estén presentes o implícitas en la página.
 +++
 ```
 
-&#x200B;---
+---
 
 ## Notas
 

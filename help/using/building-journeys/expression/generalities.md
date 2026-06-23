@@ -10,17 +10,14 @@ keywords: sintaxis, editor, recorrido
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 250
-ht-degree: 5%
+source-wordcount: 620
+ht-degree: 2%
 
 ---
 
@@ -58,3 +55,47 @@ Según el contexto de uso, el editor de expresiones puede devolver valores difer
 | Condición (condición de fuente de datos, condición de fecha) | Booleano |
 | Temporizador personalizado | dateTimeOnly |
 | Asignación de parámetros de acción | Cualquiera |
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página describe las reglas de sintaxis principales del editor de expresiones avanzadas de Recorrido: la prioridad de los operadores entre paréntesis, la distinción entre mayúsculas y minúsculas para los operadores y las funciones y el tipo de valor devuelto esperado para cada contexto de editor.
+
+**Intenciones:**
+
+* Controle el orden de evaluación de expresiones ajustando las subexpresiones entre paréntesis
+* Operadores de escritura (`and`, `or`, `not`) en minúsculas para evitar errores de sintaxis
+* Use nombres de funciones con mayúsculas y minúsculas correctamente (p. ej. `inAudience()` no `INAUDIENCE()`)
+* Comprenda que las condiciones deben devolver un booleano, los temporizadores personalizados deben devolver `dateTimeOnly` y las asignaciones de parámetros de acción pueden devolver cualquier tipo
+
+**Glosario:**
+
+* **Prioridad de expresión**: El orden en que se evalúan los operadores; las multiplicaciones y divisiones tienen prioridad sobre las adiciones y las sustracciones *(específicas del producto)*
+* **Distinción entre mayúsculas y minúsculas**: en el editor avanzado, los operadores deben estar en minúsculas, los nombres de función distinguen entre mayúsculas y minúsculas y las referencias de campo distinguen entre mayúsculas y minúsculas según el usuario *(específico del producto)*
+* **dateTimeOnly**: El tipo de valor devuelto requerido para las expresiones de temporizador personalizadas (actividad de espera); representa una fecha y hora sin una zona horaria *(específica del producto)*
+
+**Protecciones:**
+
+* Operadores (`and`, `or`, `not`, etc.) debe escribirse en minúsculas; las variantes en mayúsculas no son válidas
+* Todos los nombres de función distinguen entre mayúsculas y minúsculas: `inAudience()` es válido pero `INAUDIENCE()` no lo es
+* La aritmética sigue la prioridad estándar: `*` y `/` se evalúan antes que `+` y `-`; use paréntesis para anular la prioridad
+* Las condiciones siempre devuelven un valor booleano; los temporizadores personalizados siempre devuelven `dateTimeOnly`
+
+**Terminología:**
+
+* Nombre canónico: Sintaxis del editor de expresiones avanzadas — Acrónimo: none — variants: sintaxis de expresión, sintaxis de editor
+* Sinónimos: &quot;prioridad de expresión&quot; = &quot;prioridad de operador&quot;; &quot;paréntesis&quot; = &quot;corchetes&quot; (en contexto de expresión)
+* No confundir: distingue entre mayúsculas y minúsculas en el operador (los operadores deben estar en minúsculas) ≠ la distinción entre mayúsculas y minúsculas en las referencias de campo (los nombres de campo son creados por el usuario y distinguen entre mayúsculas y minúsculas cuando se escriben).
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Se evalúa `4 + 2 * 10` en 60 o 24?** — Se evalúa como 24 porque `*` tiene prioridad sobre `+`; use `(4 + 2) * 10` para obtener 60.
+* **Q: ¿Puedo escribir `AND` en mayúsculas en una expresión?** — No; todos los operadores deben estar en minúsculas (`and`, `or`, `not`).
+* **Q: ¿Los nombres de función distinguen entre mayúsculas y minúsculas?** — Sí; `inAudience()` es válido pero `INAUDIENCE()` no.
+* **Q: ¿Qué tipo debe devolver una expresión de condición?** — Un booleano.
+* **Q: ¿Qué tipo de valor devuelto se requiere para una expresión de temporizador de actividad de espera personalizada?** — `dateTimeOnly`.
+
++++

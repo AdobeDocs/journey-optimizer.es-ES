@@ -9,17 +9,14 @@ keywords: conversión, funciones, expresión, recorrido, tipo, conversión
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 6%
+source-wordcount: 1723
+ht-degree: 4%
 
 ---
 
@@ -461,5 +458,49 @@ Devuelve la representación de cadena del campo dateOnly dado (campo de fecha XD
 `toString(toDuration(1520))`
 
 Devuelve &quot;PT1.52S&quot;.
+
++++
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página documenta todas las funciones de conversión en expresiones de recorrido de AJO, y explica cómo transformar valores entre tipos como cadena, entero, decimal, booleano, fecha, hora y duración.
+
+**Intenciones:**
+* Convertir una cadena o entero epoch a una fecha y hora según la zona horaria usando `toDateTime`
+* Convertir una cadena o fecha y hora en una fecha y hora sin zona horaria usando `toDateTimeOnly`
+* Extraer un valor de solo fecha (año-mes-día) de una cadena o fecha-hora usando `toDateOnly`
+* Convierta un valor en un entero, decimal o booleano usando `toInteger`, `toDecimal` o `toBool`
+* Serialice cualquier valor en su representación de cadena usando `toString`
+* Convertir una cadena o un entero de milisegundos en una duración con `toDuration`
+
+**Glosario:**
+* **dateTime**: un valor datetime que incluye información de desplazamiento de zona horaria *(específico del producto)*
+* **dateTimeOnly**: un valor datetime sin información de zona horaria *(específico del producto)*
+* **dateOnly**: un valor de fecha que representa el año-mes-día sin componente de hora *(específico del producto)*
+* **duration**: Período de tiempo expresado en formato ISO-8601 (por ejemplo, PT10H) *(específico del producto)*
+* **epoch milisegundos**: marca de tiempo Unix expresada en milisegundos desde 1970-01-01T00:00:00Z
+
+**Protecciones:**
+* El argumento timezone de `toDateTime` debe ser una constante de cadena; no se permiten referencias de campo ni expresiones dinámicas
+* Las entradas de cadena para `toDateTime` y `toDateTimeOnly` deben seguir el formato ISO-8601; las cadenas mal formadas devuelven un valor nulo sin error
+* `toDateTime` con un entero epoch espera milisegundos; multiplique las marcas de tiempo basadas en segundos por 1000 antes de pasar
+* `toBool` devuelve `true` solo para la cadena exacta `"true"`; cadenas como `"1"`, `"yes"` o `"TRUE"` devuelven `false`
+
+**Terminología:**
+* Nombre canónico: Funciones de conversión — Acrónimo: none — variantes: funciones de conversión de tipos, funciones de conversión de tipos
+* Sinónimos: &quot;toDateTime&quot; = &quot;convertir a fecha y hora con zona horaria&quot;; &quot;toDateTimeOnly&quot; = &quot;convertir a fecha y hora sin zona horaria&quot;
+* No confunda: &quot;toDateTime&quot; (según la zona horaria) ≠ &quot;toDateTimeOnly&quot; (sin zona horaria)
+* No confunda: &quot;toDateOnly&quot; (solo fecha, sin hora) ≠ &quot;toDateTime&quot; (fecha y hora con zona horaria)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuándo debo usar `toDateTime` en lugar de `toDateTimeOnly`?** — Use `toDateTime` cuando la información de zona horaria sea importante (por ejemplo, comparaciones de programación o entre regiones); use `toDateTimeOnly` cuando solo sea relevante la fecha y hora local y se pueda omitir la zona horaria.
+* **Q: ¿Por qué `toBool("TRUE")` devuelve false?** — `toBool` solo reconoce la cadena exacta en minúsculas `"true"`; todos los demás valores de cadena, incluidos `"TRUE"` o `"yes"`, devuelven el valor &quot;false&quot;.
+* **Q: ¿Cómo convierto una marca de tiempo Unix en segundos a dateTime?** — Multiplique el valor de los segundos por 1000 para obtener milisegundos y, a continuación, páselo a `toDateTime`, por ejemplo, `toDateTime(myField * 1000)`.
+* **Q: ¿Se puede leer la zona horaria de `toDateTime` desde un atributo de perfil?** — No, el ID de zona horaria debe ser una constante de cadena; no se admiten referencias de campo ni expresiones.
+* **Q: ¿Qué formato acepta `toDuration` como cadena?** — formato de duración ISO-8601, por ejemplo, `"PT10H"` durante 10 horas o `"P1DT2H"` durante 1 día y 2 horas.
 
 +++

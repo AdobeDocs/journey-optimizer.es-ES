@@ -11,22 +11,16 @@ keywords: recorrido, etiquetas
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/O8Igbj-JJGr0aej8xbSvZ51xkcJq8LeJ9JiveyBjBqQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 670
-ht-degree: 13%
+source-wordcount: 1152
+ht-degree: 7%
 
 ---
 
@@ -111,4 +105,45 @@ Mantenga el nombre del recorrido centrado en el hito de cliente que marca (p. ej
 
 >[!TIP]
 >
->Para un análisis más amplio de este enfoque y sus ventajas a escala, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/es/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Para un análisis más amplio de este enfoque y sus ventajas a escala, consulte [Prácticas recomendadas para recorridos avanzados en Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo agregar, filtrar y administrar etiquetas en recorridos en Adobe Journey Optimizer, y por qué las categorías de etiquetas son una mejor alternativa a las convenciones de nomenclatura complejas para organizar listas de recorridos grandes.
+
+**Intenciones:**
+* Añadir etiquetas a un recorrido desde el campo de propiedades de recorrido Etiquetas
+* Filtre la lista de recorridos por una o más etiquetas para localizar rápidamente recorridos específicos
+* Editar etiquetas en recorridos existentes de cualquier estado (activo, borrador, etc.) mediante Más acciones
+* Cree y organice categorías de etiquetas como administrador para aplicar metadatos coherentes
+* Reemplace una convención de nombres de recorrido compleja con un enfoque estructurado basado en etiquetas
+
+**Glosario:**
+* **Etiquetas**: Etiquetas adjuntas a recorridos para clasificarlos y filtrarlos; no distingue entre mayúsculas y minúsculas y se conservan cuando un recorrido está duplicado o tiene versiones *(específico del producto)*
+* **Categorías de etiquetas**: agrupaciones de valores de etiquetas relacionados creadas por administradores en Administración > Etiquetas, lo que permite la clasificación de metadatos estructurada *(específica del producto)*
+* **Categoría sin categoría**: La categoría predeterminada integrada a la que se asignan automáticamente las etiquetas creadas directamente en los recorridos *(específica del producto)*
+
+**Protecciones:**
+* Las etiquetas no distinguen entre mayúsculas y minúsculas
+* Las etiquetas definidas en recorrido se añaden automáticamente a la categoría &quot;Sin categoría&quot; integrada a menos que un administrador las asigne a una categoría con nombre
+* Solo los administradores pueden eliminar etiquetas y administrar las categorías de etiquetas a través del menú Administración > Etiquetas
+* Las etiquetas se conservan cuando se duplica un recorrido o se crea una nueva versión
+
+**Terminología:**
+* Nombre canónico: Tags — Acrónimo: none — variantes: etiquetas de recorrido, etiquetas administrativas
+* Nombre canónico: Categorías de etiquetas — Acrónimo: none — variantes: grupos de etiquetas
+* No confunda: &quot;Etiquetas&quot; (etiquetas de clasificación de recorrido) ≠ &quot;convenciones de nomenclatura&quot; (metadatos codificados directamente en nombres de recorrido)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cómo se agrega una etiqueta a un recorrido?** — En las propiedades del recorrido, escriba el nombre de la etiqueta en el campo Etiquetas y selecciónela en la lista, o bien haga clic en Crear para añadir una etiqueta nueva.
+* **Q: ¿Puedo agregar etiquetas a un recorrido activo?** — Sí. Haga clic en el icono de Más acciones situado junto al recorrido en la lista y seleccione Editar etiquetas para añadir o quitar etiquetas en cualquier recorrido independientemente del estado.
+* **Q: ¿Las etiquetas distinguen entre mayúsculas y minúsculas?** — No. Las etiquetas no distinguen entre mayúsculas y minúsculas.
+* **Q: ¿Qué les sucede a las etiquetas cuando duplico un recorrido o creo una nueva versión?** — Las etiquetas se conservan en el duplicado o en la nueva versión.
+* **Q: ¿Quién puede eliminar etiquetas o crear categorías de etiquetas?** — Solo los administradores pueden eliminar etiquetas y administrar las categorías de etiquetas mediante el menú Administración > Etiquetas.
+* **Q: ¿Por qué usar categorías de etiquetas en lugar de convenciones de nomenclatura?** — Las categorías de etiquetas refuerzan la coherencia a través de una lista controlada, permiten un filtrado multidimensional instantáneo, mantienen los nombres de los recorridos cortos y centrados en los hitos y escalan fácilmente añadiendo nuevas categorías sin reescribir las reglas de nomenclatura.
+
++++
