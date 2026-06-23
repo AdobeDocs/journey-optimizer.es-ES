@@ -11,25 +11,15 @@ keywords: recorrido, campaña, orquestado, comparación, elegir, decisión, fluj
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
+source-wordcount: 1904
 ht-degree: 4%
 
 ---
@@ -57,7 +47,7 @@ Esta guía le ayuda a elegir según el estilo de ejecución, las necesidades de 
 
 >[!TIP]
 >
->**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **campañas de acción**. ¿Se activa desde un sistema externo a través de una API? Usar **campañas activadas por API**. ¿Necesita datos de varias entidades, recuentos exactos o un lienzo por lotes? Usar **campañas orquestadas**.
+>**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **campañas de acción**. ¿Se activa un solo mensaje desde un sistema externo a través de una API? Use **campañas activadas por API** o un **recorrido de evento unitario** si necesita orquestación de varios pasos después del evento enviado por API. ¿Necesita datos de varias entidades, recuentos exactos o un lienzo por lotes? Usar **campañas orquestadas**.
 
 ## Comparación detallada {#detailed-comparison}
 
@@ -99,10 +89,10 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 * No se necesita una lógica compleja de varios pasos
 
 **Mensaje inmediato activado por un sistema externo?**
-→ **Usar campañas activadas por API**
-* Se activa bajo demanda mediante una llamada de API
+→ **Usar campañas activadas por API** (mensaje único) **o un recorrido de evento unitario** (orquestación de varios pasos)
+* Se activa bajo demanda mediante una llamada API: las campañas envían un mensaje; los recorridos unitarios consumen el evento mediante [ingesta de Experience Platform](../event/additional-steps-to-send-events-to-journey.md) y ejecutan un flujo de recorrido completo
 * Personalización impulsada por carga útil
-* No se necesita una lógica compleja de varios pasos
+* Elija campañas cuando no se necesite una lógica de varios pasos
 
 **Flujo de trabajo por lotes complejo con segmentación avanzada?**
 → **Usar campañas orquestadas**
@@ -121,7 +111,8 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 | Volver a atraer a usuarios inactivos según su comportamiento | Recorridos | Activado por calificación de audiencia, ruta personalizada |
 | Venta Flash activada por evento empresarial | Recorridos (evento empresarial) | Déclencheur en tiempo real que afectan a varios clientes |
 | Promoción de temporada con integración del catálogo de productos | Campañas orquestadas | Datos de varias entidades, segmentación compleja, recuento exacto |
-| Mensaje transaccional activado por API | Campañas activadas por API | Déclencheur del sistema externo, envío inmediato |
+| Mensaje transaccional activado por API (envío único) | Campañas activadas por API | Déclencheur del sistema externo, entrega inmediata con una sola toma |
+| Flujo de varios pasos activado por API | Recorridos (evento unitario) | El sistema externo envía un evento unitario a través de la API; el recorrido organiza los pasos de seguimiento |
 | Envío de varios niveles por reserva | Campañas orquestadas | Relaciones entre varias entidades, un mensaje por reserva |
 
 ## Distinciones clave explicadas {#key-distinctions}
@@ -251,7 +242,7 @@ Combina la complejidad del flujo de trabajo con la ejecución de campañas por l
 | Actividades de espera | ✅ | ❌ | ❌ | ✅ |
 | Ramificación condicional | ✅ | ❌ | ❌ | ✅ |
 | Ejecución programada | ✅ | ✅ | ✅ | ✅ |
-| Activación de API | ❌ | ❌ | ✅ | ❌ |
+| Activación de API | ✅ (solo evento unitario: evento enviado mediante API) | ❌ | ✅ | ❌ |
 | Datos de varias entidades | ❌ | ❌ | ❌ | ✅ |
 | Recuentos exactos previos al envío | ❌ | ❌ | ❌ | ✅ |
 | Segmentación bajo demanda | ❌ | ❌ | ❌ | ✅ |
