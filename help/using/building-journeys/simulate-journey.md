@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Las funciones de IA (simulación rápida, Generar con IA, Generar valores de evento) requieren el permiso Generar contenido de la capacidad Asistente de IA
 * En el caso de los recorridos activados por eventos, el icono Enviar por usuario no está disponible; la entrada se activa a través de la sección Eventos de prueba
 * Las anulaciones de duración de espera y la configuración de la dirección de ejecución solo se muestran si el recorrido incluye actividades de Espera o Canal
+* Las pruebas de canal y las acciones personalizadas o fuentes de datos externas pueden ejecutar llamadas salientes reales durante la simulación; utilice puntos de contacto que no sean de producción y evite la PII real del cliente en usuarios simulados
 * Los errores en el registro de resultados requieren salir de Simulación, corregir el recorrido y volver a ejecutar antes de la publicación
 
 **Terminología:**

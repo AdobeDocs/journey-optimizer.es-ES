@@ -16,9 +16,9 @@ subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
+source-wordcount: 3545
 ht-degree: 3%
 
 ---
@@ -242,7 +242,7 @@ Cuando reanude este recorrido:
 
 ## Solución de problemas de descartes de perfiles en recorridos pausados {#discards-troubleshoot}
 
-Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
+Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para consultar los eventos de paso, que pueden proporcionar más información sobre los descartes de perfiles, según el momento en que se produjeron.
 
 * Para los descartes que se producen antes de que el perfil entre en la recorrido, utilice el siguiente código:
 
@@ -308,8 +308,9 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Pausa masiva / Reanudación masiva**: La capacidad para pausar o reanudar varios recorridos activos o pausados simultáneamente desde la lista de inventario de recorrido *(específica del producto)*
 
 **Protecciones:**
-* Solo los usuarios con el permiso **Publicar recorridos** pueden pausar y reanudar las recorridos
-* Un recorrido se puede pausar durante un máximo de 14 días; después de eso, se reanuda automáticamente
+* Solo los usuarios con el permiso **Publicar recorridos** pueden pausar y reanudar los recorridos; para detener un recorrido en pausa se requiere **Administrar recorridos** (y **Campañas > Publicar campañas** si hay campañas en línea o nodos de mensajería)
+* La duración de la pausa se puede configurar de 1 a 14 días; después, la recorrido se reanuda automáticamente
+* Los perfiles retenidos durante la pausa se reanudan a un máximo de 5000 TPS; el recorrido permanece en Reanudación hasta que se hayan reanudado todos los perfiles retenidos
 * Se pueden mantener un máximo de 10 millones de perfiles en todos los recorridos pausados de una organización; los perfiles sobrantes se descartan automáticamente
 * Solo se puede establecer un criterio de salida basado en atributos de perfil por recorrido
 * Los criterios de salida basados en atributos de perfil solo se pueden crear, actualizar o eliminar mientras se pausa el recorrido
@@ -327,7 +328,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Qué les sucede a los perfiles que ya están en un recorrido cuando se pone en pausa?** — Según la opción elegida en el momento de la pausa, los perfiles se retienen (esperando en el siguiente nodo de acción) o se descartan (se salen del recorrido en el siguiente nodo de acción).
-* **Q: ¿Durante cuánto tiempo puede permanecer en pausa un recorrido?** — Un máximo de 14 días; después de ese plazo, se reanuda automáticamente.
+* **Q: ¿Durante cuánto tiempo puede permanecer en pausa un recorrido?** — Entre 1 y 14 días (seleccionados al pausar el tiempo); después de eso, se reanuda automáticamente.
 * **Q: ¿Puedo excluir ciertos perfiles mientras un recorrido está en pausa?** — Sí; aplicar un criterio de salida basado en atributos de perfil (uno por recorrido) mientras el recorrido se pone en pausa para excluir los perfiles coincidentes en el siguiente nodo de acción tras la reanudación.
 * **Q: ¿La pausa de un recorrido detiene los mensajes en la aplicación o en la web ya desencadenados?** — No; las comunicaciones entrantes ya activadas antes de la pausa se siguen entregando. Para detener todas las comunicaciones entrantes, debe detener el recorrido por completo.
 * **Q: ¿Cómo encuentro qué perfiles se descartaron durante una pausa?** — Consulte el conjunto de datos `journey_step_events` en el servicio de consultas de Adobe Experience Platform usando los filtros de tipo de evento `PAUSED_JOURNEY_VERSION` o `JOURNEY_IN_PAUSED_STATE` con el identificador de versión de recorrido.

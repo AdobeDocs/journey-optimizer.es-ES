@@ -17,9 +17,9 @@ subfeature_v2: []
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -171,7 +171,7 @@ Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la a
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referencia de conocimientos de AI
 
@@ -206,7 +206,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Terminología:**
 * Nombre canónico: Publicar Recorrido — Acrónimo: none — variantes: activar recorrido, activar
 * Sinónimos: &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
-* No confundir: &quot;Detener recorrido&quot; ≠ &quot;Cerrar recorrido&quot; (detener es una acción manual; Cerrado es un estado automático aplicado a versiones anteriores cuando se publica una nueva versión)
+* No confundir: Detener (parada de emergencia de todos los perfiles) ≠ Cerca de nuevas entradas (cierre correcto manual; perfiles existentes terminan) ≠ Estado cerrado (automático cuando se publica una nueva versión o después de cerrar manualmente las nuevas entradas)
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Puedo editar un recorrido después de publicarlo?** — Sólo se pueden cambiar las etiquetas, las descripciones y el nombre del recorrido. Para realizar otras modificaciones, cree una nueva versión del recorrido.

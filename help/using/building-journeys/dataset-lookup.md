@@ -17,9 +17,9 @@ subfeature_v2: []
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1514
 ht-degree: 6%
 
 ---
@@ -255,7 +255,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Solo se admiten cadenas o listas de cadenas como claves de búsqueda.
 * La clave de búsqueda debe definirse en modo avanzado; el uso de modo simple hace que la salida de la actividad no esté disponible como atributo de contexto descendente.
 * Los datos enriquecidos son transitorios y están disponibles solo durante el tiempo de ejecución del recorrido y en la personalización de actividades salientes.
-* Para obtener rendimiento, se recomiendan hasta 5 actividades de búsqueda por recorrido y hasta 20 atributos por búsqueda.
+* Para obtener el mejor rendimiento, limite a 5 actividades de búsqueda por recorrido (recomendado); el límite estricto impuesto por el sistema es de 10 actividades por recorrido. También se recomiendan hasta 20 atributos por búsqueda.
 
 **Terminología:**
 

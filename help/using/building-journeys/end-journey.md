@@ -16,9 +16,9 @@ subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
+source-wordcount: 1822
 ht-degree: 1%
 
 ---
@@ -188,7 +188,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Solo se pueden eliminar los recorridos con el estado Finalizado.
 * La detención de un recorrido requiere el permiso Administrar recorridos; los recorridos con campañas en línea o nodos de mensajería también requieren el permiso Campañas > Publicar campañas.
 * Después del tiempo de espera global de 91 días, se eliminan todos los datos de recorrido de perfiles y los perfiles restantes se cierran automáticamente.
-* Una recorrido de audiencia de lectura de una sola toma permanece en estado Activo después de la ejecución; debe cerrarse manualmente o cerrarse después de 91 días.
+* Un recorrido de lectura de audiencia no recurrente sin nodos de espera, reacción o activados por eventos de larga ejecución pasa automáticamente a Detenido cuando se cierra el último perfil. Los recorridos con esos nodos permanecen sujetos al tiempo de espera global de 91 días a menos que se cierren manualmente.
 
 **Terminología:**
 
@@ -199,7 +199,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **PREGUNTAS MÁS FRECUENTES:**
 
 * **Q: ¿Cuál es la diferencia entre cerrar y detener un recorrido?** — El cierre bloquea las nuevas entradas, pero permite que los perfiles existentes finalicen; la detención detiene inmediatamente todos los perfiles en seguimiento.
-* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** : 91 días después del inicio de la ejecución (no recurrente), cuando se alcanza la fecha de finalización (recurrente con fecha de finalización) o 91 días después del inicio (recurrente sin fecha de finalización).
+* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** — Para un recorrido de audiencia de lectura no recurrente: se detiene automáticamente en Detenido cuando se cierra el último perfil (o después de 91 días si los nodos de Espera, Reacción o Evento mantienen los perfiles activos). Finished se alcanza cuando un recorrido Closed alcanza el tiempo de espera global de 91 días o por reglas de recorrido recurrentes en la tabla de definición finalizada.
 * **Q: ¿Puedo eliminar un recorrido cerrado?** — No, sólo se pueden eliminar los recorridos finalizados.
 * **Q: ¿Qué les sucede a los perfiles que aún están en un recorrido cuando se alcanza el tiempo de espera de 91 días?** — Se salen automáticamente del recorrido en ese punto.
 * **Q: ¿Necesito permisos especiales para detener un recorrido?** — Sí, se requiere el permiso Administrar recorridos, además de Campañas > Publicar campañas si el recorrido contiene campañas en línea o nodos de mensajería.

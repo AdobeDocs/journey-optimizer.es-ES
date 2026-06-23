@@ -15,9 +15,9 @@ feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-
 subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1875
 ht-degree: 2%
 
 ---
@@ -160,7 +160,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Glosario:**
 
 * **Reentrada**: la capacidad de un perfil para volver a entrar en el mismo recorrido después de salir de él anteriormente; configurable con un período de espera *(específico del producto)*
-* **Período de espera de reentrada**: tiempo mínimo que debe transcurrir antes de que un perfil pueda volver a entrar en un recorrido. El valor predeterminado es de 5 minutos, el máximo es de 91 días *(específico del producto)*
+* **Período de espera de reentrada**: tiempo mínimo que debe transcurrir antes de que un perfil pueda volver a entrar en un recorrido. El valor predeterminado es 5 minutos, el máximo es 90 días en las propiedades de recorrido *(específicas del producto)*
 * **TPS (transacciones por segundo)**: La tasa de rendimiento a la que los perfiles pueden entrar o ser procesados en un recorrido *(específico del producto)*
 * **recorrido de evento unitario**: un recorrido desencadenado por un solo evento asociado a un perfil *(específico del producto)*
 * **recorrido de lectura de audiencia**: recorrido que procesa un lote de perfiles que pertenecen a una audiencia definida, una vez o en una programación recurrente *(específica del producto)*
@@ -170,10 +170,10 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Protecciones:**
 
 * Un perfil no puede estar presente varias veces en el mismo recorrido al mismo tiempo en todas las versiones activas.
-* Leer recorridos de audiencia: máximo de 20 000 TPS en el nivel de zona protegida.
-* Recorridos de calificación de audiencias y eventos unitarios: máximo de 5000 TPS compartidos a nivel de organización.
-* Los eventos empresariales se contabilizan en la cuota de 5000 TPS; la actividad de audiencia de lectura posterior sigue el límite de 20 000 TPS.
-* El período de espera de reentrada predeterminado es de 5 minutos; el máximo es de 91 días (tiempo de espera global).
+* Leer recorridos de audiencia: máximo de 20 000 TPS (cuota de nivel de zona protegida; compartida en todos los recorridos de audiencia de lectura simultáneos en la misma zona protegida)
+* Recorridos de cualificación de audiencias y eventos unitarios: máximo de 5000 TPS (cuota de nivel de organización; compartidos entre sí en todos los entornos limitados de la organización)
+* Los eventos empresariales se contabilizan en la cuota de nivel de organización de 5000 TPS; la actividad de audiencia de lectura posterior comparte la cuota de nivel de zona protegida de 20 000 TPS
+* El período de espera de reentrada predeterminado es de 5 minutos; el valor máximo configurable es de 90 días en las propiedades de recorrido
 * Las actividades de espera de tiempo fijo pueden causar picos en el perfil que superen los 20.000 TPS y no se recomiendan.
 * El límite predeterminado de acciones personalizadas es de 300 000 llamadas por minuto.
 * En el caso de los recorridos empresariales, los datos de audiencia de la primera ejecución se reutilizan durante 1 hora.
@@ -187,7 +187,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **PREGUNTAS MÁS FRECUENTES:**
 
 * **Q: ¿Puede un perfil entrar en el mismo recorrido dos veces simultáneamente?** — No, el sistema utiliza la identidad del perfil como clave y evita que el mismo perfil se encuentre en diferentes lugares del mismo recorrido al mismo tiempo.
-* **Q: ¿Cuál es el período de espera de reentrada predeterminado?** — 5 minutos, configurables hasta un máximo de 91 días.
+* **Q: ¿Cuál es el período de espera de reentrada predeterminado?** — 5 minutos, configurables hasta un máximo de 90 días en propiedades de recorrido.
 * **Q: ¿Cuántos perfiles por segundo puede procesar un recorrido de lectura de audiencia?** — Hasta 20 000 TPS en el nivel de la zona protegida, aunque este máximo puede no ser alcanzable si varios recorridos se ejecutan simultáneamente en la misma zona protegida.
 * **Q: ¿Qué sucede con el rendimiento después de una actividad de espera con un tiempo fijo?** — Múltiples perfiles pueden salir de la espera simultáneamente, excediendo potencialmente los 20,000 TPS; se recomiendan actividades de Espera en tiempo relativo para evitar esto.
 * **Q: ¿Puede un perfil aparecer en un recorrido empresarial varias veces al mismo tiempo?** — Sí, pero solo en el contexto de distintos eventos empresariales.

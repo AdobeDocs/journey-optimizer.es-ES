@@ -16,9 +16,9 @@ subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 2002
 ht-degree: 8%
 
 ---
@@ -197,7 +197,7 @@ La ejecución en seco genera **stepEvents** marcados con `inDryRun` y un `dryRun
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ Referencia de conocimientos de AI
 
@@ -222,17 +222,18 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Protecciones:**
 * En el modo de ejecución en seco solo se pueden activar los recorridos de borrador sin errores
 * Para iniciar una ejecución en seco se requiere el permiso **Publicar recorridos**; para detenerla se requiere **Administrar recorridos**
-* Los recorridos de ejecución en seco vuelven automáticamente a Borrador después de 14 días
+* Los recorridos de ejecución en seco abandonan automáticamente el modo de ejecución en seco y vuelven al estado Borrador después de 14 días. No se pierde contenido de recorrido; solo finaliza la sesión de ejecución en seco.
 * Los perfiles procesados durante una ejecución en seco se contabilizan como Perfiles atractivos y la cuota de recorrido activo
 * Los nodos de acción del canal (correo electrónico, SMS, push) y las acciones personalizadas no se ejecutan durante la ejecución en seco
 * Las acciones de salto no están habilitadas en la ejecución en seco
+* Los nodos de reacción no se ejecutan durante la ejecución en seco; los perfiles se cierran correctamente, con reglas de prioridad para ramas unitarias y de reacción paralelas
 * Los datos de informes solo están disponibles mientras la ejecución en seco está activa; una vez detenida, los datos ya no están accesibles
 * Los recorridos de ejecución en seco no afectan a las reglas empresariales
 
 **Terminología:**
 * Nombre canónico: Recorrido Dry run — Acrónimo: none — variantes: dry run mode, Dry run publication mode
 * Sinónimos: &quot;Dry run&quot; = &quot;prueba de humo&quot; (informalmente)
-* No confundir: &quot;Ejecución en seco&quot; ≠ &quot;Modo de prueba&quot;: la ejecución en seco utiliza datos de producción reales y cuenta para las cuotas; el modo de prueba utiliza perfiles de prueba sintéticos y no
+* No confunda: &quot;Ejecución en seco&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Simulación&quot;: la ejecución en seco utiliza datos de producción reales y cuenta para los perfiles atractivos y la cuota de recorrido en directo; el modo de prueba utiliza perfiles de prueba AEP persistentes en un recorrido de borrador; la simulación utiliza usuarios simulados temporales que no persisten en AEP
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿La ejecución en seco realmente envía correos electrónicos o notificaciones push a los clientes?** — No; todos los nodos de acción de canal y las acciones personalizadas se desactivan y no se ejecutan durante una ejecución en seco.

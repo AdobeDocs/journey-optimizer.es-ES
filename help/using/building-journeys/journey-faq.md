@@ -17,9 +17,9 @@ subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 0%
 
 ---
@@ -1024,7 +1024,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, orquestación, flujo
 * Sinónimos: &quot;Cerca de nuevas entradas&quot; = &quot;parada correcta&quot;; &quot;parada&quot; = &quot;parada inmediata&quot;
 * No confunda: &quot;Recorrido&quot; ≠ &quot;Campaña&quot;: los recorridos admiten la orquestación activada por eventos de varios pasos; las campañas son envíos únicos o programados basados en audiencias
-* No confunda: &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: el modo de prueba utiliza perfiles de prueba sintéticos; la ejecución en seco utiliza datos de producción reales sin ponerse en contacto con los clientes
+* No confunda: &quot;Simulación&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: la simulación utiliza usuarios simulados temporales; el modo de prueba utiliza perfiles de prueba AEP persistentes; la ejecución en seco utiliza datos de producción reales sin ponerse en contacto con los clientes ni actualizar perfiles
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Cuál es el número máximo de actividades en un recorrido?** — 50 actividades; mantener los recorridos más simples mejora la capacidad de mantenimiento y el rendimiento.

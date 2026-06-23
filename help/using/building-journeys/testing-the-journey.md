@@ -17,10 +17,10 @@ subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 5%
+source-wordcount: 3075
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 
 * **Deshabilitando el modo de prueba**: cuando deshabilita el modo de prueba, se quitan todos los perfiles que estén actualmente en la recorrido o que hayan entrado anteriormente en ella y se borran los informes.
 * **Flexibilidad de reactivación**: puede habilitar y deshabilitar el modo de prueba tantas veces como sea necesario.
-* **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** vuelven automáticamente al estado Borrador para optimizar el rendimiento y evitar el uso de recursos obsoletos.
+* **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** salen automáticamente del modo de prueba y vuelven al estado Borrador. No se pierde contenido del recorrido; solo finaliza la sesión del modo de prueba.
 * **Edición y publicación**: mientras el modo de prueba esté activo, no puede modificar el recorrido. Sin embargo, puede publicar directamente el recorrido, sin necesidad de desactivar el modo de prueba antes.
 
 ### Ejecución
@@ -267,7 +267,9 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Máximo de 100 perfiles de prueba por sesión de prueba única
 * Los eventos solo se pueden activar desde la interfaz de usuario del modo de prueba; no se admite la activación de API externa
 * El enriquecimiento de atributos de audiencia de carga personalizada no se admite en el modo de prueba
-* Los recorridos inactivos en modo de prueba durante más de una semana vuelven automáticamente al estado Borrador
+* Los eventos activados en el modo de prueba generan eventos de experiencia real que también pueden almacenar en déclencheur otros recorridos que escuchen el mismo evento
+* En el modo de prueba, las actividades de espera y la mayoría de los tiempos de espera de evento tienen un valor predeterminado de 10 segundos; los tiempos de espera de evento de reacción tienen un valor predeterminado de al menos 40 segundos
+* Desactivación automática: los Recorridos que permanecen inactivos en el modo de prueba durante más de una semana abandonan automáticamente el modo de prueba y vuelven al estado Borrador. No se pierde contenido del recorrido; solo finaliza la sesión del modo de prueba.
 * Las ediciones de recorrido se bloquean mientras el modo de prueba está activo, pero se permite la publicación directa
 * En una división, la rama superior siempre está seleccionada; reordene las ramas para probar diferentes rutas
 * Tiempo de espera mínimo del evento de reacción y el tiempo de espera predeterminado es de 40 segundos
