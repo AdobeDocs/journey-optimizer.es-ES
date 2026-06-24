@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 Después de validar el recorrido en **[!UICONTROL Simulation]**, revise el registro de **[!UICONTROL Results]**. Si aparecen errores, deje **[!UICONTROL Simulation]**, aplique los cambios necesarios al recorrido y ejecute **[!UICONTROL Simulation]** de nuevo hasta que la ejecución parezca correcta. A continuación, puede publicar el recorrido. Ver [Publicar tu recorrido](../building-journeys/publish-journey.md).
 
 ## Activación de eventos {#firing-events}
+
+>[!NOTE]
+>
+>Los eventos activados en Simulación se almacenan en conjuntos de datos dedicados en Adobe Experience Platform, etiquetados de la siguiente manera: ``JOtestmode - <schema of your event>``.
 
 Si el recorrido incluye uno o más eventos unitarios, puede almacenarlos en déclencheur mientras Simulación está activa. En el caso de los recorridos que no comienzan desde un Evento sino que contienen uno, esta sección no será visible hasta que un usuario simulado entre en el recorrido.
 
