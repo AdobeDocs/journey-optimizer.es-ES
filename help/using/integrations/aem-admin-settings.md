@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +47,25 @@ Para configurar el repositorio:
 
    ![](assets/aem-admin-settings-1.png)
 
-1. Si usa **[!DNL Adobe Experience Manager Managed Services]**, escriba un nombre de host del repositorio que termine con `adobecqms.net` en el campo **[!UICONTROL Identificador de repositorio de AMS personalizado]**.
+1. Elija un método de configuración:
 
-   ![](assets/aem-admin-settings-6.png)
+   * Para el repositorio **[!DNL Adobe Experience Manager Managed Services]**, introduzca un nombre de host del repositorio que termine con `adobecqms.net` en el campo **[!UICONTROL nombre de host del repositorio de AMS]**.
 
-1. Si usa **[!DNL Adobe Experience as a Cloud Service]**, elija qué repositorio configurar y haga clic en **[!UICONTROL Siguiente]**.
+     ![](assets/aem-admin-settings-6.png)
 
-   Además, puede hacer clic en **[!UICONTROL Ver]** para obtener acceso a este repositorio.
+   * Si usa **[!DNL Adobe Experience as a Cloud Service]**, elija qué repositorio configurar y haga clic en **[!UICONTROL Siguiente]**.
 
-   >[!IMPORTANT]
-   >
-   >Al guardar una nueva configuración para la misma organización, zona protegida y repositorio **se reemplaza** la configuración predeterminada, es decir, el repositorio **publish**.
+     Además, puede hacer clic en **[!UICONTROL Ver]** para obtener acceso a este repositorio.
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >Al guardar una nueva configuración para la misma organización, zona protegida y repositorio **se reemplaza** la configuración predeterminada, es decir, el repositorio **publish**.
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. Escriba un **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
 
-1. Elija su configuración:
+1. Elija su configuración en la lista desplegable siguiente:
 
    +++ Configuración de solo autor
 
@@ -74,6 +74,8 @@ Para configurar el repositorio:
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ Configuración de instancia de publicación
 
@@ -115,4 +117,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
