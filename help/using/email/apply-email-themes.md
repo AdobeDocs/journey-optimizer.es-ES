@@ -11,26 +11,15 @@ level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Módulos, Reutilización, Coherencia de la marca, Diseño de correo electrónico, CSS personalizado, Optimización móvil
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +235,15 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Puede navegar entre las pestañas **[!UICONTROL Adobe themes]** y **[!UICONTROL Mis temáticas]**, y seleccionar hasta cinco temáticas compatibles (de ambas pestañas) para su fragmento.
 
+   >[!NOTE]
+   >
+   >Este límite se impone por motivos de compatibilidad y rendimiento. El **[!UICONTROL tema predeterminado de Adobe]** no se puede quitar, por lo que puede seleccionar hasta cuatro temas personalizados adicionales.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Cuando use el fragmento en un contenido de correo electrónico, asegúrese de [aplicar un tema](#apply-themes-email) que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores.
+   >Al utilizar este fragmento en un contenido de correo electrónico, el tema de correo electrónico debe ser uno de los temas asociados con el fragmento. Si la temática no coincide, la inserción del fragmento se bloquea.
 
 1. Haga clic en **[!UICONTROL Cerrar]**.
 
