@@ -10,22 +10,14 @@ level: Experienced
 keywords: permiso, alto nivel, bajo nivel, perfil, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Las funciones de Journey Optimizer se crean a partir de permisos de alto nivel, cada uno de los cuales agrupa los derechos específicos de API de bajo nivel que los usuarios necesitan para leer, escribir, publicar o eliminar recursos en recorridos, campañas, decisiones, configuraciones de canal y mucho más.
+
+**Intenciones:**
+
+* Comprender la distinción entre permisos de alto nivel y de bajo nivel
+* Identificar los permisos de bajo nivel que concede cada permiso de alto nivel
+* Configure las funciones con precisión para recorridos, campañas, administración de decisiones, configuraciones de canal y campañas orquestadas
+* Conceder acceso al asistente de IA para la generación de contenido
+* Comprenda qué permite el permiso Publicar recorridos en comparación con el permiso Administrar recorridos
+
+**Glosario:**
+
+* **Permiso de alto nivel**: Un permiso con nombre asignado a una función (por ejemplo, Administrar recorridos, Publicar recorridos) que engloba uno o más permisos de bajo nivel *(específico del producto)*
+* **Permiso de bajo nivel**: Un derecho de nivel de API granular (por ejemplo, recorrido.read, recorrido.write) derivado e incluido en un permiso de alto nivel *(específico del producto)*
+* **Función**: Una colección de usuarios que comparten los mismos permisos y zonas protegidas dentro de la organización *(específica del producto)*
+
+**Terminología:**
+
+* No confunda: &quot;Permiso de alto nivel&quot; (denominado derecho asignable a una función) ≠ &quot;Permiso de bajo nivel&quot; (derecho de API granular subyacente, no asignable directamente)
+* No confunda: &quot;Administrar recorridos&quot; (permite crear, editar, eliminar, detener, incluidos los recorridos en directo, el modo de prueba y la ejecución en seco) ≠ &quot;Publicar recorridos&quot; (permite publicar, iniciar modo de prueba, iniciar ejecución en seco, pausar y reanudar)
+* No confunda: &quot;Administrar eventos de recorridos, fuentes de datos y acciones&quot; (CRUD completo en eventos, fuentes, acciones) ≠ &quot;Ver eventos de recorridos, fuentes de datos y acciones&quot; (acceso de solo lectura a esos objetos)
+* No confunda: &quot;Generar contenido&quot; (acceso al asistente de IA en Journey Optimizer) ≠ otros permisos de recorrido o campaña
+* No confunda: &quot;Modo de prueba&quot; (al que se hace referencia en Publicar recorridos y Administrar recorridos como modo de ejecución de recorrido que se puede iniciar o detener) ≠ &quot;Ejecución en seco&quot; (un modo de ejecución de recorrido independiente al que también se hace referencia en esos mismos permisos)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Permite el permiso Administrar recorridos que un usuario publique recorridos?** — No; la publicación de recorridos requiere el permiso de alto nivel independiente de recorridos de publicación.
+* **Q: ¿Qué concede el permiso Generar contenido?** — Acceso al asistente de IA en Journey Optimizer.
+* **Q: ¿Puede un usuario configurar eventos de recorrido sin el permiso Administrar recorridos?** — Sí; Administrar eventos, fuentes de datos y acciones de recorrido es un permiso independiente de alto nivel que cubre la configuración de eventos, fuentes de datos y acciones.
+* **Q: ¿Qué permisos de bajo nivel se incluyen en el informe Ver recorridos?** — recorrido_report.read y messages_report.read, además de datasets.read, queries.read, queries.write y queries.delete de Adobe Experience Platform.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

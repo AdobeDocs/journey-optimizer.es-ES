@@ -10,32 +10,16 @@ level: Intermediate
 keywords: permisos, creación, mensajes
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ Los permisos integrados representan los diferentes permisos que se pueden asigna
 | Servicio de traducción | **[!DNL Manage translation in house]**: leer, crear, editar y eliminar la traducción interna.</br>**[!DNL Manage translation projects]**: leer, crear, editar y eliminar proyectos de traducción.</br> **[!DNL Manage translation reviews]**: leer, crear, editar y eliminar revisiones de traducción.</br>**[!DNL Manage translation settings]**: leer, crear, editar y eliminar la configuración de traducción.</br>**[!DNL Manage translation tasks]**: leer, crear, editar y eliminar tareas de traducción.</br>**[!DNL View translation in house]**: acceso de solo lectura para la traducción interna.</br>**[!DNL View translation projects]**: acceso de solo lectura para proyectos de traducción.</br>**[!DNL View translation reviews]**: acceso de solo lectura para revisiones de traducción.</br>**[!DNL View translation tasks]**: acceso de solo lectura para tareas de traducción. |
 
 {style="table-layout:fixed"}
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+- **TL;DR:** Esta página es una referencia completa de todos los permisos integrados en Journey Optimizer, agrupados por área de capacidad, para que los administradores puedan identificar exactamente qué derechos deben incluirse al crear o auditar un rol.
+
+**Intenciones:**
+
+- Busque todos los permisos disponibles para un área de capacidad determinada (Recorridos, campañas, administración de decisiones, asistente de IA, etc.)
+- Identifique el permiso correcto para agregar a una función personalizada o integrada
+- Distinguir entre permisos de administración y de visualización por recurso
+- Encuentre permisos para el asistente de IA, campañas orquestadas y experience decisioning
+- Identifique qué permisos abarcan los modos de ejecución de recorrido (modo de prueba, ejecución en seco, simulación)
+
+**Glosario:**
+
+- **Permisos integrados**: derechos unitarios predefinidos asignables a una función para controlar el acceso a funciones y objetos en Journey Optimizer; los permisos de alto nivel abarcan permisos de bajo nivel *(específicos del producto)*
+- **Capacidad**: un área funcional que agrupa permisos relacionados (por ejemplo, Recorridos, campañas, administración de decisiones, asistente de IA) *(específico del producto)*
+- **Modo de prueba**: Un modo de ejecución de recorrido; el permiso Publicar recorridos incluye la capacidad de iniciar el modo de prueba *(específico del producto)*
+- **Ejecución en seco**: Un modo de ejecución en recorrido; el permiso Publicar recorridos incluye la capacidad de iniciar una ejecución en seco *(específico del producto)*
+- **Simulación**: una capacidad de recorrido independiente; el permiso Simular Recorridos cubre la lectura, creación y edición de la simulación en los Recorridos *(específicos del producto)*
+
+**Terminología:**
+
+- Nombre canónico: Permisos integrados — variantes: permisos predeterminados, permisos OOTB
+- No confunda: &quot;Administrar recorridos&quot; (incluye detener en directo, modo de prueba y ejecución en seco) ≠ &quot;Publicar recorridos&quot; (incluye publicar, iniciar modo de prueba, iniciar ejecución en seco, pausar y reanudar)
+- No confunda: &quot;Simular Recorridos&quot; (permiso para leer, crear y editar Simulación en Recorridos) ≠ &quot;Simular contenido&quot; (acceso a la opción Simular contenido para la vista previa y la prueba de mensajes)
+- No confunda: &quot;Generar contenido&quot; (acceso al asistente de IA en Journey Optimizer) ≠ &quot;Habilitar el asistente de IA&quot; (habilitar o acceder a funciones de audiencia y campañas impulsadas por IA)
+- No confunda: &quot;Modo de prueba&quot; (modo de ejecución de recorrido controlado mediante el permiso Publicar recorridos) ≠ &quot;Ejecución en seco&quot; (modo de ejecución de recorrido independiente también controlado mediante el permiso Publicar recorridos) ≠ &quot;Simulación&quot; (capacidad independiente mediante el permiso Simular Recorridos)
+- No confunda: &quot;Administrar decisiones&quot; (CRUD en entidades de decisión) ≠ &quot;Administrar decisiones de experiencia&quot; (CRUD en la configuración de Experience Decisioning y políticas de decisión)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+- **Q: ¿Qué permiso se requiere para usar el Asistente de IA para generar contenido?** — Generar contenido (en la función de asistente de IA).
+- **Q: ¿Qué permiso permite a un usuario exportar la lista de supresión?** — Exportar lista de supresión (en Configuraciones de canal).
+- **Q: ¿Qué permiso concede acceso de solo lectura a los recorridos?** — Ver recorridos (en la capacidad Recorridos ).
+- **Q: ¿Qué permiso se necesita para publicar campañas orquestadas?** — Publicar campañas orquestadas (en Campañas orquestadas); este permiso también es necesario para almacenar en déclencheur una campaña orquestada mediante una señal.
+- **Q: ¿Qué cubre el permiso Simular Recorridos?** — Leer, crear y editar simulación en Recorridos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

@@ -10,25 +10,16 @@ level: Intermediate
 keywords: abac, atributo, autorizaciones, datos, acceso, confidencial, recursos
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -54,13 +45,13 @@ En este ejemplo, se agrega una etiqueta al campo de esquema **Nationality** para
 
 1. Utilice el **[!UICONTROL campo de esquema]** en Adobe Journey Optimizer.
 
-Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=es){target="_blank"}.
+Tenga en cuenta que también se puede tener acceso a **[!UICONTROL Roles]**, **[!UICONTROL Políticas]** y **[!UICONTROL Productos]** con la API de control de acceso basada en atributos. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}.
 
 ## Crear una función y asignar etiquetas {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
+>>Antes de administrar permisos para una función, cree una directiva. Para obtener más información, consulte la [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=es){target="_blank"}.
 
 **[!UICONTROL Las funciones]** son un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de su organización. Cada usuario que pertenece a un **[!UICONTROL Rol]** tiene derecho a las aplicaciones y servicios de Adobe contenidos en el producto. También puede crear sus propios **[!UICONTROL roles]** para ajustar el acceso de los usuarios a ciertas funcionalidades u objetos de la interfaz.
 
@@ -124,11 +115,11 @@ Tenga en cuenta que también puede agregar **[!UICONTROL Label]** a **[!UICONTRO
 
    ![Editar etiquetas de gobernanza para el campo](assets/label_3.png)
 
-1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es#contract-labels){target="_blank"}.
+1. Seleccione la **[!UICONTROL Etiqueta]** correspondiente, en este caso, C2 - Los datos no se pueden exportar a terceros. Para obtener la lista detallada de las etiquetas disponibles, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}.
 
    ![](assets/label_4.png)
 
-1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=es#profile){target="_blank"}.
+1. Personalice aún más el esquema si es necesario y, a continuación, actívelo. Para ver los pasos detallados sobre cómo habilitar el esquema, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}.
 
 El campo del esquema ahora solo lo podrán ver y utilizar los usuarios que formen parte de un conjunto de funciones con la etiqueta C2. Al aplicar una **[!UICONTROL Etiqueta]** a su **[!UICONTROL Nombre de campo]**, la **[!UICONTROL Etiqueta]** se aplicará automáticamente al campo **Nacionalidad** en cada esquema creado.
 
@@ -181,3 +172,51 @@ Si el usuario Y, sin acceso a los objetos de la etiqueta C2, necesita acceder a 
 * El usuario Y puede eliminar la expresión.
 * El usuario Y no podrá probar el recorrido.
 * El usuario Y no podrá publicar el recorrido.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Proteja los campos de datos confidenciales en Journey Optimizer mediante la aplicación de etiquetas de control a los campos de esquema y la asignación de etiquetas coincidentes a los roles, de modo que los usuarios no autorizados no puedan ver, editar, probar ni publicar recorridos que utilicen esos campos restringidos.
+
+**Intenciones:**
+
+* Cree una función y asigne una etiqueta de control para restringir el acceso a campos de esquema específicos
+* Aplicar una etiqueta a un campo de esquema en Adobe Experience Platform para aplicar restricciones de acceso
+* Uso de un campo de esquema etiquetado en un recorrido de Journey Optimizer
+* Comprender cómo los usuarios sin la etiqueta requerida experimentan restricciones de acceso en los recorridos
+* Administrar funciones, directivas y productos mediante la API de control de acceso basada en atributos
+
+**Glosario:**
+
+* **ABAC (control de acceso basado en atributos)**: capacidad para definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos en función de atributos como etiquetas *(específicas del producto)*
+* **Función**: Un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de una organización *(específica del producto)*
+* **Etiqueta**: un marcador de gobernanza (por ejemplo, C2) aplicado a campos de esquema, conjuntos de datos o audiencias para controlar qué funciones pueden acceder a ellos *(específico del producto)*
+* **Directiva**: configuración que debe crearse antes de administrar permisos para un rol. Requisito previo para ABAC *(específico del producto)*
+* **Esquema XDM**: el esquema del modelo de datos de Experience utilizado para definir la estructura de datos en Adobe Experience Platform *(específico del producto)*
+
+**Protecciones:**
+
+* Se debe crear una directiva antes de administrar los permisos de una función (requisito previo, como se indica en la nota importante de la página)
+* El uso incorrecto de las etiquetas puede interrumpir el acceso de las personas y las infracciones de la directiva de déclencheur (como se indica en la advertencia de la página)
+* Los usuarios sin una etiqueta que coincida con un campo restringido no pueden: ver el nombre del campo restringido, editar las expresiones que hacen referencia a él en el modo avanzado, probar el recorrido o publicar el recorrido
+
+**Terminología:**
+
+* Nombre canónico: Control de acceso basado en atributos — Acrónimo: ABAC — variants: attribute-based access management
+* Nombre canónico: Experience Data Model — Acrónimo: XDM — variantes: XDM schema, XDM schemas
+* Sinónimos: &quot;Label&quot; = &quot;governance label&quot; = &quot;data governance label&quot;
+* No confunda: &quot;Función&quot; (un grupo de usuarios con permisos y etiquetas compartidos) ≠ &quot;Política&quot; (reglas que rigen la aplicación del acceso a los datos basadas en etiquetas)
+* No confunda: ABAC (controla el acceso a los campos de esquema, conjuntos de datos y audiencias a través de políticas de etiquetas en el nivel de plataforma) ≠ OLAC (controla el acceso a objetos de Journey Optimizer específicos como recorridos y campañas)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Es posible agregar etiquetas a los roles integrados?** — Sí, se pueden agregar etiquetas tanto a las funciones personalizadas como a las integradas.
+* **Q: ¿Qué le sucede a un usuario que no tiene la etiqueta para un campo restringido en un recorrido?** — El campo no es visible para ellos; no pueden editar expresiones que hagan referencia a él, probar el recorrido ni publicar el recorrido.
+* **Q: ¿Es posible aplicar etiquetas a objetos que no sean campos de esquema?** — Sí; las etiquetas también se pueden aplicar a esquemas, conjuntos de datos y audiencias.
+* **Q: ¿Existe alguna API para administrar roles, directivas y productos con ABAC?** — Sí; se puede acceder a las funciones, directivas y productos a través de la API de control de acceso basada en atributos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->
