@@ -155,7 +155,7 @@ Elija una identidad principal para sus clientes (como ECID, correo electrónico 
 Cree esquemas de **XDM Individual Profile** para capturar atributos del cliente, como información de nombre y contacto, preferencias e intereses, y la fase del ciclo vital o el estado de consentimiento. Cree **esquemas XDM ExperienceEvent** para capturar datos de comportamiento y transaccionales, como eventos web y de aplicación, compras e interacciones sin conexión. Marque los campos correctos como identidades y atributos de perfil donde corresponda.
 
 ➡️ [Más información sobre los Esquemas](get-started-schemas.md)\
-➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Cree esquemas de **XDM Individual Profile** para capturar atributos del cliente,
 En Adobe Experience Platform, cree conjuntos de datos basados en los esquemas XDM y habilite Perfil en cualquier conjunto de datos que deba contribuir al Perfil del cliente en tiempo real. Confirme que los conjuntos de datos generados por el sistema y creados por Journey Optimizer estén visibles en el espacio de trabajo Conjuntos de datos.
 
 ➡️ [Más información acerca de los conjuntos de datos](get-started-datasets.md)\
-➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +245,7 @@ Este flujo ilustra cómo los esquemas, conjuntos de datos, fuentes, fuentes de d
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 **Introducción a los esquemas**
 
@@ -255,7 +255,7 @@ Aprenda a crear esquemas XDM en Adobe Experience Platform, elegir la clase y los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 **Trabajar con conjuntos de datos**
 
@@ -265,7 +265,7 @@ Obtenga información sobre cómo crear conjuntos de datos de evento y habilitado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 **Configuración de fuentes de datos**
 
@@ -275,7 +275,7 @@ Instrucciones paso a paso sobre la configuración de la fuente de datos integrad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **Uso de datos de Adobe Experience Platform**
 
@@ -285,7 +285,7 @@ Descubra cómo enriquecer mensajes en tiempo de ejecución con datos de referenc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Introducción a las consultas**
 
@@ -295,7 +295,7 @@ Utilice el servicio de consultas para analizar conjuntos de datos de Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 **Introducción a los perfiles**
 
@@ -305,7 +305,7 @@ Explore cómo funciona el perfil del cliente en tiempo real en Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Configuración de datos: información general**
 
@@ -315,7 +315,7 @@ Un tutorial en vídeo para principiantes de la configuración de datos en Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Creación de conjuntos e ingesta de datos**
 
