@@ -6,14 +6,20 @@ description: Descubra cómo administrar fragmentos de contenido de AEM
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Administrar los fragmentos de contenido de Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Administre fragmentos de contenido de AEM desde la lista de fragmentos de administración de contenido para supervisar el estado y los metadatos, vea dónde se utilizan los fragmentos en los recorridos y las campañas, sincronice las actualizaciones publicadas desde Experience Manager y abra los fragmentos para editarlos sin salir de Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Al integrar Adobe Experience Manager as a Cloud Service o Managed Services con Adobe Journey Optimizer, puede utilizar fragmentos de contenido de AEM en el contenido y comprobar los estados de los fragmentos sin salir de Journey Optimizer.
 

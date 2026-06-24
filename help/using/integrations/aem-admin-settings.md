@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +36,8 @@ Adobe Journey Optimizer se integra con **[!DNL Adobe Experience Manager as a Clo
 > **[!UICONTROL La integración de AEM]** guarda la configuración del repositorio **por zona protegida**. Cada zona protegida mantiene sus propias integraciones y no se aplican a todas ellas.
 
 Journey Optimizer almacena una integración por organización, zona protegida y repositorio de Adobe Experience Manager. Si guarda una nueva integración para esa misma combinación y reemplaza la configuración anterior, solo se conserva la configuración más reciente.
+
+➡️ [Descubra esta característica para el servicio administrado de Adobe Experience Manager en vídeo](#video)
 
 Para configurar el repositorio:
 
@@ -109,3 +109,8 @@ Para configurar el repositorio:
 
 Al guardar esta configuración, Journey Optimizer la almacena para ese repositorio en la zona protegida actual. A continuación, puede usar ese repositorio y su configuración al examinar y seleccionar contenido en el selector **Asesor de contenido**.
 
+## Vídeo práctico {#video}
+
+Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
