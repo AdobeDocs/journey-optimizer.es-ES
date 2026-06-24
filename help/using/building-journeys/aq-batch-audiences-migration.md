@@ -2,23 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migrar audiencias por lotes desde recorridos de calificación de audiencias
-description: Obtenga información sobre cómo migrar recorridos que utilizan audiencias por lotes en un nodo de Calificación de audiencias antes de la fecha de aplicación del 3 de agosto de 2026.
+description: Obtenga información sobre cómo migrar recorridos que utilizan audiencias por lotes en un nodo de Calificación de audiencias antes de la fecha de aplicación.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: calificación de audiencia, audiencia por lotes, obsolescencia, migración, leer audiencia, audiencia de streaming
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -26,11 +21,11 @@ ht-degree: 0%
 
 # Migrar audiencias por lotes desde recorridos de calificación de audiencias {#aq-batch-migration}
 
-A partir del 3 de agosto de 2026, Journey Optimizer bloqueará la publicación de recorridos que utilicen una audiencia por lotes en un nodo de calificación de audiencias. Identifique el caso de uso que se muestra a continuación y siga la ruta de migración recomendada.
+A partir de agosto de 2026, Journey Optimizer bloqueará la publicación de recorridos que utilicen una audiencia por lotes en un nodo de calificación de audiencias. Identifique el caso de uso que se muestra a continuación y siga la ruta de migración recomendada.
 
 >[!CAUTION]
 >
->**Fecha de aplicación: 3 de agosto de 2026.** Los recorridos nuevos, borradores y duplicados que utilizan una audiencia por lotes en un nodo de Calificación de audiencias no se pueden publicar después de esta fecha. Ya aparece una advertencia de validación en el lienzo de recorrido desde la versión de junio de 2026.
+>**Fecha de aplicación: agosto de 2026.** Los recorridos nuevos, borradores y duplicados que utilizan una audiencia por lotes en un nodo de Calificación de audiencias no se pueden publicar después de esta fecha. Ya aparece una advertencia de validación en el lienzo de recorrido desde la versión de junio de 2026.
 
 ## Por qué este cambio {#why}
 
@@ -42,10 +37,10 @@ La actividad **[Leer audiencia](read-audience.md)** es la herramienta correcta p
 
 ## Cómo se ven afectados sus recorridos {#impact}
 
-Un recorrido en directo que utiliza una audiencia por lotes en un nodo de Calificación de audiencias seguirá ejecutándose después del 3 de agosto de 2026. Sin embargo, si detiene, duplica o vuelve a publicar el recorrido, se bloqueará hasta que se actualice la configuración.
+Un recorrido en directo que utiliza una audiencia por lotes en un nodo de Calificación de audiencias seguirá ejecutándose después de agosto de 2026. Sin embargo, si detiene, duplica o vuelve a publicar el recorrido, se bloqueará hasta que se actualice la configuración.
 
 
-| Estado del recorrido | Impacto después del 3 de agosto de 2026 |
+| Estado del recorrido | Impacto después de agosto de 2026 |
 | --- | --- |
 | **recorridos en vivo** | No se vio afectado. Los recorridos activos existentes siguen ejecutándose. Sin detención automática. |
 | **Nuevos recorridos** | Bloqueado desde la publicación hasta que se sustituya la audiencia por lotes. |
