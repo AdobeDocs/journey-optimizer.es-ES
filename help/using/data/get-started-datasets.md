@@ -47,7 +47,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 ## Protecciones y limitaciones
 
-* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
 
 * A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ Antes de habilitar, tenga en cuenta lo siguiente:
 
 Para obtener instrucciones detalladas, consulte la documentación de Adobe Experience Platform:
 
-* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
-* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
+* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
+* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
 
 ## Gobernanza de datos
 
@@ -157,4 +157,4 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 >* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
