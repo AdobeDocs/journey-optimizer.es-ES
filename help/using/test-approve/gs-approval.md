@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +22,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Un proceso de aprobación incrustado mantiene bloqueados los recorridos y las campañas durante la revisión, de modo que las partes interesadas correctas cierran sesión antes de que se publique cualquier cosa, con cada solicitud administrada y rastreada centralmente.
+**En esta página:** un proceso de aprobación incrustado mantiene bloqueados los recorridos y las campañas durante la revisión, de modo que las partes interesadas correctas cierran sesión antes de que se publique cualquier cosa, con cada solicitud administrada y rastreada centralmente.
 
 >[!ENDSHADEBOX]
 
@@ -146,4 +141,4 @@ No. Los solicitantes no pueden seleccionar manualmente qué grupo de usuarios re
 * **[Crear directivas de aprobación](approval-policies.md)**: aprenda a configurar las directivas de aprobación para aplicar flujos de trabajo de revisión para campañas y recorridos.
 * **[Solicitar aprobación](request-approval.md)**: aprenda cómo enviar contenido para su aprobación y hacer un seguimiento del estado de aprobación.
 * **[Revisar y aprobar solicitudes](review-approve-request.md)**: descubra cómo revisar, aprobar o rechazar solicitudes de aprobación como aprobador.
-* **[Simular variaciones de contenido](simulate-sample-input.md)** - Haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra, generación automática de IA o usuarios simulados. Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba.
+* **[Simular variaciones de contenido](simulate-sample-input.md)**: haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido con datos de entrada de muestra, generación automática por IA o usuarios simulados. Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para previsualizarlo con perfiles de prueba.

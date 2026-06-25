@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 606
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Obtenga información sobre cómo obtener una vista previa y probar el contenido del mensaje en Adobe Journey Optimizer mediante perfiles de prueba o datos de entrada de muestra para comprobar la representación, la personalización y la precisión antes de enviarlo.
+**En esta página:** obtenga información sobre cómo obtener una vista previa y probar el contenido del mensaje en Adobe Journey Optimizer mediante perfiles de prueba o datos de entrada de muestra para comprobar el procesamiento, la personalización y la precisión antes de enviarlo.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +36,7 @@ Una vez definido el contenido, puede obtener una vista previa del mismo antes de
 
 También puede realizar envíos de prueba de sus mensajes de correo electrónico a destinatarios o suscriptores específicos para su prueba y validación, y comprobar cómo se renderizan en los clientes más conocidos de escritorio, móviles y basados en web. Además, puede evaluar aspectos generales de calidad del contenido, como la legibilidad y la eficacia. [Más información sobre la validación de la calidad del contenido](brands-score.md#validate-quality)
 
-Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico. Haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones de contenido usando datos de entrada de ejemplo. Para obtener una vista previa con perfiles de prueba, enviar pruebas o comprobar el procesamiento de correo electrónico, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en la lista desplegable.
+Todas estas acciones se pueden realizar con el botón **[!UICONTROL Simular contenido]**, al que se puede acceder desde la pantalla de edición de contenido del mensaje, o desde el correo electrónico y los diseñadores web de los canales web y de correo electrónico. Haga clic en **[!UICONTROL Simular contenido]** para probar las variaciones del contenido mediante datos de entrada de muestra. Para obtener una vista previa con perfiles de prueba, enviar pruebas o comprobar el procesamiento de correo electrónico, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en la lista desplegable.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -81,4 +80,4 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
 Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430335?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

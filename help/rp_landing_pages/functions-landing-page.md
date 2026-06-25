@@ -6,8 +6,8 @@ description: Lista de funciones del asistente
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '301'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Las funciones de ayuda de Adobe Journey Optimizer le permiten personalizar exper
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a las funciones de ayuda
 
@@ -30,7 +30,7 @@ Aprenda a utilizar las funciones de ayuda para la manipulación y personalizaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Biblioteca de funciones de agregación
 
@@ -40,7 +40,7 @@ Descubra funciones para resumir varios valores en un único valor para la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Biblioteca de funciones aritméticas
 
@@ -50,7 +50,7 @@ Explore cómo las funciones aritméticas realizan cálculos como sumas, restas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de funciones de matriz y lista
 
@@ -60,7 +60,7 @@ Aprenda a manipular matrices y listas con funciones como contar, recuperar valor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Biblioteca de funciones de fecha y hora
 
@@ -70,7 +70,7 @@ Utilice las funciones de fecha y hora para manipular y aplicar formato a las fec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Biblioteca de funciones booleanas y de comparación
 

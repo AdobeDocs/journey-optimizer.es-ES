@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Proteja los datos confidenciales creando directivas de gobernanza que vinculen las etiquetas a acciones de marketing y, a continuación, aplicándolas a recorridos, campañas y acciones personalizadas de modo que los campos restringidos no se puedan compartir externamente.
+**En esta página:** proteja los datos confidenciales creando políticas de gobernanza que vinculen las etiquetas a acciones de marketing y, a continuación, aplicándolas a recorridos, campañas y acciones personalizadas de modo que los campos restringidos no se puedan compartir externamente.
 
 >[!ENDSHADEBOX]
 

@@ -10,25 +10,16 @@ level: Beginner
 keywords: destino, página de destino, inicio, introducción
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +27,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Las páginas de aterrizaje convierten un clic de un correo electrónico, un anuncio o una campaña en un destino web dedicado en el que los clientes se excluyen o excluyen, administran sus preferencias y comparten datos de perfil, lo que le ayuda a aumentar las audiencias consentidas y a capturar los datos de origen que alimentan la personalización.
+**En esta página:** las páginas de destino convierten un clic de un correo electrónico, un anuncio o una campaña en un destino web dedicado en el que los clientes se adhieren o cancelan, administran sus preferencias y comparten datos de perfil, lo que aumenta los públicos que hayan aceptado y a capturar los datos de origen que alimentan la personalización.
 
 >[!ENDSHADEBOX]
 
@@ -135,6 +126,6 @@ La creación y la implementación de una página de destino siguen esta secuenci
 
 El siguiente vídeo muestra cómo crear una lista de suscripción, configurar páginas de destino para ofrecer suscripciones a un servicio o cancelaciones del mismo, integrar la opción de suscripción/cancelación de suscripción en un mensaje y configurar los recorridos relevantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/344397?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **Véalo en la práctica:** Explore [casos de uso de la página de destino](lp-use-cases.md) para ver ejemplos paso a paso sobre administración de suscripciones, correos electrónicos de confirmación y escenarios de captura de datos.

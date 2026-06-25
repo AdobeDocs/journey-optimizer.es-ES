@@ -8,7 +8,7 @@ badge: label="Heredado" type="Informative"
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: ht
-source-wordcount: '201'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ La sección “Configuración de ofertas” de Adobe Journey Optimizer le permit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Crear ofertas personalizadas
 
@@ -35,7 +35,7 @@ Obtenga información sobre cómo crear y administrar ofertas personalizadas con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Añadir representaciones a ofertas
 
@@ -45,7 +45,7 @@ Defina y configure dónde se muestran las ofertas mediante representaciones, a l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Añadir restricciones a ofertas
 

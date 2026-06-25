@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '405'
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Las funciones de fecha de Adobe Journey Optimizer le permiten trabajar sin probl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referencia de función currentTimeInMillis
 
@@ -31,7 +31,7 @@ Aprenda a utilizar la función &#39;currentTimeInMillis&#39; para recuperar la h
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función inLastDays
 
@@ -41,7 +41,7 @@ Comprenda la función &#39;inLastDays&#39;, que comprueba si una fecha determina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastHours
 
@@ -51,7 +51,7 @@ Explore la función &#39;inLastHours&#39; para determinar si una fecha y hora se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastMonths
 
@@ -61,7 +61,7 @@ Compruebe si una fecha se encuentra dentro de un intervalo de meses especificado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uso de la función inLastYears
 
@@ -71,7 +71,7 @@ Aprenda a utilizar la función &#39;inLastYears&#39; para evaluar si una fecha s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Función inNextDays
 

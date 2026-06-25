@@ -8,7 +8,7 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Crear un recorrido en Adobe Journey Optimizer le permite crear experiencias del 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Cómo crear su primer recorrido del cliente
 
@@ -31,7 +31,7 @@ Aprenda a crear, diseñar, probar y publicar su primer recorrido de cliente con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definir y administrar las propiedades del recorrido
 
@@ -41,7 +41,7 @@ Configure las reglas de entrada, la configuración relacionada con el tiempo, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Cómo diseñar su recorrido
 
@@ -51,7 +51,7 @@ Utilice la interfaz de tipo arrastrar y soltar para diseñar recorridos de marke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Cómo probar su recorrido
 
@@ -61,7 +61,7 @@ Pruebe los recorridos con perfiles simulados y detecte errores antes de activarl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Prueba de recorridos con el modo de ensayo
 
@@ -71,7 +71,7 @@ Valide los recorridos con datos de producción reales sin ponerse en contacto co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publicación de un recorrido
 
@@ -87,4 +87,4 @@ Obtenga información sobre cómo publicar el recorrido, administrar versiones y 
 
 - **[Administración de recorridos en pausa](../using/building-journeys/journey-pause.md)**: ponga en pausa y reanude los recorridos activos de forma segura, administre perfiles y aplique filtros globales durante las pausas.
 - **[Configurar y rastrear métricas de los recorridos](../using/building-journeys/success-metrics.md)**: defina, asigne y monitorice métricas para evaluar el éxito de sus recorridos.
-- **[Creación de informes activos en el lienzo del recorrido](../using/building-journeys/report-journey.md)**: supervise las métricas de recorrido en tiempo real y obtenga información sobre el rendimiento directamente desde el lienzo.
+- **[Creación de informes activos en el lienzo del recorrido](../using/building-journeys/report-journey.md)**: monitorice las métricas de recorrido en tiempo real y obtenga información sobre el rendimiento directamente desde el lienzo.
