@@ -50,7 +50,7 @@ Obtenga información sobre cómo exportar conjuntos de datos a destinos de almac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Adobe Journey Optimizer: ejemplos de consultas de conjuntos de datos
 

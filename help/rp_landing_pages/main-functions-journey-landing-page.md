@@ -31,7 +31,7 @@ Explore una descripción general de las principales funciones disponibles, clasi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Uso de la función inAudience
 
@@ -41,7 +41,7 @@ Obtenga información sobre cómo evaluar el abono al público mediante la funci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Referencia de funciones de agregación
 
@@ -71,7 +71,7 @@ Aprenda a manipular y evaluar los valores de fecha y hora mediante potentes func
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Funciones de lista en Adobe Journey Optimizer
 

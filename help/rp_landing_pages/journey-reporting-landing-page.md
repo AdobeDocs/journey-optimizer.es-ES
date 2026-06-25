@@ -20,7 +20,7 @@ Los informes de recorridos de Adobe Journey Optimizer proporcionan potentes herr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Análisis de informes de recorridos
 
@@ -30,7 +30,7 @@ Explore cómo analizar y optimizar el rendimiento del recorrido mediante métric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Informes de recorridos basados en código
 
@@ -70,7 +70,7 @@ Obtenga información sobre el rendimiento del correo electrónico, la participac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Información sobre la mensajería en la aplicación
 

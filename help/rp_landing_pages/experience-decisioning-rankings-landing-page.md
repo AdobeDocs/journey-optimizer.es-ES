@@ -40,7 +40,7 @@ Aprenda a utilizar el generador de fórmulas de IA para crear fórmulas de clasi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Exploración e implementación de modelos de IA
 

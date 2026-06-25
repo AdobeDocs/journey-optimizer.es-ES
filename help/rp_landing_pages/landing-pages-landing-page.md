@@ -20,7 +20,7 @@ Las páginas de aterrizaje en Adobe Journey Optimizer le permiten crear páginas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las páginas de aterrizaje
 
@@ -70,7 +70,7 @@ Configure listas de suscripción para administrar perfiles de inclusión y optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Casos de uso de la página de aterrizaje
 

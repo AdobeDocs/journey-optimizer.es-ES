@@ -20,7 +20,7 @@ Los públicos de Adobe Journey Optimizer le ayudan a conectar con las personas a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los públicos
 
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de la administración de públicos, la segmentaci�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Crear y administrar públicos
 
@@ -40,7 +40,7 @@ Descubra flujos de trabajo avanzados para la creación, composición y enriqueci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Activar públicos en campañas y recorridos
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo activar públicos y utilizarlos de forma eficaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Aprovechar atributos de enriquecimiento
 

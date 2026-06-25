@@ -30,7 +30,7 @@ Obtenga información sobre cómo administrar la privacidad en Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Administración de solicitudes de privacidad
 
@@ -40,7 +40,7 @@ Siga las instrucciones paso a paso para crear y administrar solicitudes de priva
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Registros de auditoría para acciones de usuario
 
@@ -60,7 +60,7 @@ Descubra cómo administrar tareas del ciclo vital de los datos, tales como actua
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Gestión del consentimiento
 

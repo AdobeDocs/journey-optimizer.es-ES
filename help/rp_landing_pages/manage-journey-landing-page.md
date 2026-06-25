@@ -40,7 +40,7 @@ Descubra cómo los perfiles entran en los recorridos, incluidas las reglas de re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Usar identificadores suplementarios en los recorridos
 

@@ -30,7 +30,7 @@ Obtenga información sobre los campos de eventos de pasos heredados en Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Información general sobre los campos de recorrido
 

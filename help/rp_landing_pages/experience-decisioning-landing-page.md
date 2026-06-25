@@ -20,7 +20,7 @@ La función de toma de decisiones de Adobe Journey Optimizer le permite suminist
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la toma de decisiones
 
@@ -40,7 +40,7 @@ Conozca las restricciones y las prácticas recomendadas para utilizar las tomas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
 Preguntas frecuentes
 
@@ -50,7 +50,7 @@ Obtenga respuestas a preguntas comunes sobre Decisioning, incluidas las reglas d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de API: envío de ofertas
 
@@ -60,7 +60,7 @@ Explore cómo enviar ofertas utilizando el canal de experiencia basada en códig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar elementos de decisión y catálogos
 

@@ -20,7 +20,7 @@ Las notificaciones push en Adobe Journey Optimizer le permiten conectar con su p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Flujo de datos y configuración de las notificaciones push
 
@@ -30,7 +30,7 @@ Descubra los componentes, los flujos de trabajo y el flujo de datos necesarios p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración de canal de notificaciones push
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso para configurar permisos, integrar aplicaciones y conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Flujo de trabajo de inicio rápido para la incorporación a dispositivos móviles
 

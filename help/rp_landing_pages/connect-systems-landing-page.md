@@ -20,7 +20,7 @@ Adobe Journey Optimizer le permite conectar sus sistemas y entornos sin problema
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Integración de Adobe Journey Optimizer con otras soluciones
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar las API para ofrecer experiencias personalizadas en vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Integración de los recorridos con sistemas externos
 
@@ -50,7 +50,7 @@ Obtenga información sobre las prácticas recomendadas para integrar Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Enviar con las soluciones de Adobe
 
@@ -60,7 +60,7 @@ Configure Adobe Journey Optimizer para que se integre con Adobe Campaign, Market
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de zonas protegidas en Adobe Journey Optimizer
 

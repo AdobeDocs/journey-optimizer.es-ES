@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear páginas de aterrizaje desde cero, utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Crear y personalizar el contenido de la página de aterrizaje
 

@@ -20,7 +20,7 @@ La aprobación de recorridos y campañas en Adobe Journey Optimizer garantiza qu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Configurar y administrar la aprobación de recorridos y campañas
 
@@ -30,7 +30,7 @@ Descubra cómo configurar y administrar el proceso de aprobación de recorridos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Cómo crear y administrar políticas de aprobación
 
@@ -40,7 +40,7 @@ Guía paso a paso para crear, configurar y administrar políticas de aprobación
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo solicitar la aprobación de recorridos y campañas
 
@@ -50,7 +50,7 @@ Descubra cómo solicitar la aprobación de recorridos y campañas, incluidos los
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Revisar y aprobar solicitudes de recorridos y campañas
 

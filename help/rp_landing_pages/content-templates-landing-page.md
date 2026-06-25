@@ -20,7 +20,7 @@ Las plantillas de contenido de Adobe Journey Optimizer son potentes herramientas
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a las plantillas de contenido
 
@@ -30,7 +30,7 @@ Conozca los conceptos básicos sobre la creación y administración de plantilla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Acceso y administración de plantillas
 
@@ -70,7 +70,7 @@ Valide las plantillas de correo electrónico probando el procesamiento, las vari
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Uso de plantillas de contenido
 

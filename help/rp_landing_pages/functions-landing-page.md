@@ -20,7 +20,7 @@ Las funciones de ayuda de Adobe Journey Optimizer le permiten personalizar exper
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a las funciones de ayuda
 
@@ -40,7 +40,7 @@ Descubra funciones para resumir varios valores en un único valor para la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Biblioteca de funciones aritméticas
 
@@ -50,7 +50,7 @@ Explore cómo las funciones aritméticas realizan cálculos como sumas, restas, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Referencia de funciones de matriz y lista
 
@@ -70,7 +70,7 @@ Utilice las funciones de fecha y hora para manipular y aplicar formato a las fec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Biblioteca de funciones booleanas y de comparación
 

@@ -40,7 +40,7 @@ Siga una guía paso a paso para crear fragmentos visuales y de expresiones reuti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Guardar contenido existente como fragmentos
 
@@ -60,7 +60,7 @@ Descubra cómo conseguir que campos específicos se puedan editar en fragmentos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de fragmentos de contenido
 

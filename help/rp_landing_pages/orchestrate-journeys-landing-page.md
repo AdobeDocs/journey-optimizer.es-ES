@@ -21,7 +21,7 @@ Los recorridos de Adobe Journey Optimizer le permiten crear recorridos para el c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los recorridos de Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Aprenda a crear recorridos para clientes en varios pasos en tiempo real utilizan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Guía completa para crear y administrar recorridos
 
@@ -41,7 +41,7 @@ Instrucciones paso a paso sobre el diseño, la prueba, la publicación y el segu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Guía completa para administrar recorridos
 

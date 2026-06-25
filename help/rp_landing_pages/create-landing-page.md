@@ -30,7 +30,7 @@ Obtenga información sobre cómo definir segmentos de público, incluyendo instr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Introducción a la composición de público
 
@@ -50,7 +50,7 @@ Descubra cómo importar públicos a través de archivos CSV y asignar atributos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Composición de público federado
 

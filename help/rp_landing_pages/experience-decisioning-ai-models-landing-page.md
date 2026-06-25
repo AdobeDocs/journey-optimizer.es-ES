@@ -40,7 +40,7 @@ Descubra cómo funcionan los modelos de optimización automática, como el muest
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Modelos de optimización personalizada
 
@@ -50,7 +50,7 @@ Descubra cómo los modelos de optimización personalizada aprovechan los datos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Guía paso a paso: creación de modelos de IA
 
