@@ -8,27 +8,16 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 24%
 
 ---
 
@@ -60,12 +49,32 @@ Aproveche el Perfil del cliente en tiempo real en [!DNL Adobe Journey Optimizer]
 
 **Uso compartido de datos**: comparte perfiles de clientes con los principales proveedores de almacenamiento en la nube, como Amazon Web Service, Microsoft Azure y Google Cloud. Utilice perfiles compartidos para la creación de informes, el archivado de datos o un análisis más profundo con herramientas de inteligencia empresarial.
 
+## Perfiles atractivos y uso de licencias {#engageable-profiles}
+
+Un **perfil atractivo** es un registro de información que representa a un individuo que está almacenado en el servicio de perfil y que ha sido contratado por recorridos o campañas. Es la métrica de licencia de claves para [!DNL Adobe Journey Optimizer].
+
+Características principales:
+
+* **Período móvil de 12 meses**: El recuento refleja perfiles únicos que ha intentado vincular en los últimos 12 meses mediante las capacidades de creación, toma de decisiones, envío, experimentación u orquestación de Journey Optimizer.
+* **Contado una vez por zona protegida**: Un perfil que introduce varios recorridos o campañas en una zona protegida cuenta como un único perfil atractivo para esa zona protegida.
+* **Según su audiencia a la que se puede dirigir**: los perfiles atractivos se calculan a partir de su audiencia a la que se puede dirigir. El recuento representa la audiencia comprometida en los últimos 12 meses que utiliza cualquiera de las capacidades de Journey Optimizer, de su audiencia total a la que se puede dirigir.
+* **Comportamiento de la métrica**: El recuento de perfiles atractivos:
+   * Pueden aumentar cuando se comprometen nuevos perfiles a través de recorridos o campañas
+   * No puede disminuir a menos que no haya participación con determinados perfiles durante más de 12 meses
+   * Puede disminuir cuando los perfiles seudónimos se vinculan a perfiles conocidos
+
+>[!TIP]
+>
+>Al segmentar perfiles seudónimos (visitantes no autenticados) con canales entrantes como web, aplicación o experiencias basadas en código, considere la posibilidad de establecer un tiempo de vida (TTL) para la eliminación automática de perfiles a fin de administrar el recuento de perfiles atractivos y los costes asociados. [Más información sobre las protecciones de canal entrante](../start/guardrails.md#profile-management-inbound)
+
+Supervise el recuento de perfiles atractivos de su organización en cualquier momento desde **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. Si observa un pico repentino en el recuento, consulte la [sección Resolución de problemas](license-usage.md#troubleshooting-engageable-profiles) para obtener instrucciones detalladas. [Más información sobre el tablero de uso de licencias](license-usage.md)
+
 >[!MORELIKETHIS]
 >
 >* [Introducción a la gestión de datos en Journey Optimizer](../data/gs-data.md)
 >* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
 >* [Protecciones predeterminadas para la segmentación y los datos del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Documentación de ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/home){target="_blank"}
+>* [Documentación de ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Panel de perfiles
 
@@ -83,4 +92,4 @@ Puede unir fragmentos de datos de varias fuentes y combinarlos para ver una vist
 
 Descubra cómo Adobe Experience Platform organiza y actualiza los perfiles de clientes en tiempo real, y cómo puede acceder a ellos y utilizarlos.
 
->[!VIDEO](https://video.tv.adobe.com/v/31833?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

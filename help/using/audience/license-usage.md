@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a utilizar el panel de uso de licencias de Adobe Journey Optimizer para supervisar perfiles atractivos y solucionar problemas de aumentos inesperados en el recuento de perfiles.
+**En esta página:** Aprenda a navegar por el panel de uso de licencias de Adobe Journey Optimizer y a solucionar problemas con los incrementos inesperados en el recuento de Perfiles atractivos.
 
 >[!ENDSHADEBOX]
 
@@ -50,29 +38,11 @@ Para acceder a este tablero, ve a **[!UICONTROL Administración]** > **[!UICONTR
 
 >[!NOTE]
 >
->* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=es#available-permissions){target="_blank"}.
+>* Para ver el tablero, debe tener el permiso [Ver tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 >
 >* Ciertas métricas (por ejemplo, calcular horas y correos electrónicos) no se muestran para los entornos limitados de desarrollo, como indica `N/A` en la columna de cuota. En el panel solo se muestran valores no nulos: cuando las métricas son cero o están cerca de cero, no se rellenan.
 
-
-Para [!DNL Adobe Journey Optimizer], el tablero le permite comprobar el número de **perfiles atractivos**.
-
-## ¿Qué es un perfil atractivo? {#what-is-engageable-profile}
-
-Un **perfil atractivo** es un registro de información que representa a un individuo que está almacenado en el servicio de perfil y que ha sido contratado por recorridos o campañas.
-
-Características clave de los perfiles atractivos:
-
-* **Período móvil de 12 meses**: Los perfiles atractivos se cuentan según la participación en los últimos 12 meses. Esta métrica muestra el número de perfiles únicos con los que ha intentado interactuar mediante las capacidades de creación, toma de decisiones, envío, experimentación u orquestación de Journey Optimizer.
-
-* **Recuento único por zona protegida**: Si un perfil introduce varios recorridos o campañas en una zona protegida, se cuenta solo una vez como un único perfil atractivo para esa zona protegida.
-
-* **Según la audiencia a la que se puede dirigir**: los perfiles atractivos se calculan a partir de la audiencia a la que se puede dirigir. El recuento representa la audiencia comprometida en los últimos 12 meses que utiliza cualquiera de las capacidades de Journey Optimizer, de su audiencia total a la que se puede dirigir.
-
-* **Comportamiento de la métrica**: El recuento de perfiles atractivos:
-   * Pueden aumentar cuando se comprometen nuevos perfiles a través de recorridos o campañas
-   * No puede disminuir a menos que no haya participación con determinados perfiles durante más de 12 meses
-   * Puede disminuir cuando los perfiles seudónimos se vinculan a perfiles conocidos
+Para [!DNL Adobe Journey Optimizer], el panel le permite comprobar el número de **Perfiles atractivos**: perfiles únicos involucrados a través de recorridos, campañas o decisiones en un período de 12 meses. Para obtener una explicación completa de cómo se definen y calculan los perfiles atractivos, consulte [Perfiles atractivos y uso de licencias](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >
@@ -104,7 +74,7 @@ Para solucionar este problema, siga estos pasos:
 
 2. **Investigue recorridos, campañas y toma de decisiones dirigidas a grandes audiencias:**
 
-   * Revise los recorridos y campañas recientes dirigidos a un gran número de perfiles mediante [Consultas de perfiles atractivas](../reports/query-examples.md#engageable-profiles-queries) o [Servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/home){target="_blank"}.
+   * Revise los recorridos y campañas recientes dirigidos a un gran número de perfiles mediante [Consultas de perfiles atractivas](../reports/query-examples.md#engageable-profiles-queries) o [Servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
    * Identifique las versiones de recorridos específicas que contribuyeron al pico en los recuentos de perfiles.
    * Es probable que los recorridos, las campañas y las decisiones que impliquen nuevos perfiles produzcan un aumento en el recuento de eventos en los conjuntos de datos de Recorrido, lo que contribuirá al aumento en el recuento de perfiles atractivos.
 
@@ -131,13 +101,13 @@ Para solucionar este problema, siga estos pasos:
 **Ver también:**
 
 * [Ejemplos de consultas de perfiles interactivos](../reports/query-examples.md#engageable-profiles-queries): consultas de muestra para supervisar y analizar sus perfiles interactivos
-* [Información general del servicio de consultas Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/query/home){target="_blank"}
+* [Información general del servicio de consultas Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
 
 ## Documentación relacionada {#related-documentation}
 
 Obtenga más información en la documentación de Adobe Experience Platform:
 
-* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es){target="_blank"}
-* [Exploración del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#exploring-the-license-usage-dashboard){target="_blank"}
+* [Resumen del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [Exploración del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}
 * [Caducidad de datos de perfil seudónimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=es){target="_blank"}

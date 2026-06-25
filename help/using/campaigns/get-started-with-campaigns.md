@@ -11,31 +11,16 @@ mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -191,6 +176,10 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
 * **Públicos**: los públicos deben estar disponibles en Adobe Experience Platform antes de crear campañas. [Introducción a los públicos→](../audience/about-audiences.md)
 
+  >[!NOTE]
+  >
+  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles atractivos** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en una audiencia grande o nueva puede provocar un aumento significativo de este recuento. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
+
 * **Configuraciones de canal**: las configuraciones de canal (ajustes preestablecidos) deben crearse y estar disponibles para los canales que desee utilizar. [Creación de configuraciones de canal →](../configuration/channel-surfaces.md)
 
 * **Permisos**: necesita los permisos adecuados según el tipo de campaña. Póngase en contacto con el administrador si no puede acceder a las funcionalidades de la campaña. [Más información acerca de las funciones integradas →](../administration/ootb-product-profiles.md)
@@ -319,7 +308,7 @@ A medida que se familiarice con las campañas, explore estas potentes funcionali
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Programación y sincronización**
 
@@ -329,7 +318,7 @@ Programe campañas para fechas/horas específicas, establezca envíos recurrente
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de velocidad**
 
@@ -339,7 +328,7 @@ Limite el rendimiento de mensajes para evitar sobrecargas en sistemas descendent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmentación de público**
 
@@ -349,7 +338,7 @@ Segmente públicos de Adobe Experience Platform específicos con precisión y ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flujos de trabajo de aprobación**
 
@@ -359,7 +348,7 @@ Implemente procesos de revisión y aprobación antes de que las campañas se pub
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Horario silencioso**
 
@@ -369,7 +358,7 @@ Respete las preferencias del cliente evitando el envío de mensajes durante los 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimización**
 

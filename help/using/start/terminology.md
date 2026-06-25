@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -46,7 +35,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 
 >[!NOTE]
 >
->Adobe Journey Optimizer se creó en **Adobe Experience Platform**. Muchos conceptos básicos que encontrará, como perfiles de clientes en tiempo real, zonas protegidas, esquemas y conjuntos de datos, son conceptos de Adobe Experience Platform, no específicos de Journey Optimizer. Para ver las definiciones de esos términos, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=es){target="_blank"}.
+>Adobe Journey Optimizer se creó en **Adobe Experience Platform**. Muchos conceptos básicos que encontrará, como perfiles de clientes en tiempo real, zonas protegidas, esquemas y conjuntos de datos, son conceptos de Adobe Experience Platform, no específicos de Journey Optimizer. Para ver las definiciones de esos términos, consulte el [glosario de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Recorrido y términos de la campaña {#journey-campaign-terms}
 
@@ -63,7 +52,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 |------|------------|
 | **Audiencia** | Un grupo de clientes que comparten características o comportamientos comunes, como &quot;clientes que compraron en los últimos 30 días&quot; o &quot;miembros del programa de fidelidad&quot;. Las audiencias se utilizan para segmentar clientes específicos. [Más información](../audience/about-audiences.md) |
 | **Calificación de audiencias** | Proceso automático que se produce cuando un cliente se une a una audiencia o la abandona. Journey Optimizer puede almacenar en déclencheur las acciones que se producen cuando alguien entra o sale de una audiencia, lo que garantiza comunicaciones oportunas y relevantes. [Más información](../building-journeys/audience-qualification-events.md) |
-| **Audiencia atractiva** | El número de perfiles de cliente con los que puede ponerse en contacto de forma activa mediante Adobe Journey Optimizer en función del acuerdo de licencia. Esto suele referirse a perfiles contratados en los últimos 12 meses. |
+| **Perfiles atractivos** | Los perfiles de cliente únicos involucrados a través de recorridos, campañas o actividades de toma de decisiones en un período móvil de 12 meses. Esta es la métrica de licencias clave para Journey Optimizer: cada perfil se cuenta una vez por zona protegida, independientemente de la cantidad de recorridos o campañas que introduzca. Supervise el recuento en **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. [Más información](../audience/license-usage.md) |
 | **Perfil de prueba** | Perfiles ficticios utilizados para probar y previsualizar mensajes antes de enviarlos a clientes reales. Los perfiles de prueba ayudan a comprobar la personalización, el contenido y la lógica de recorrido. [Más información](../audience/creating-test-profiles.md) |
 
 ## Contenido y términos de personalización {#content-terms}
