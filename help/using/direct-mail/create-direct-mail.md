@@ -10,20 +10,13 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -137,7 +130,7 @@ Los proveedores de correo postal requieren el archivo de extracción para enviar
 
 1. En la pantalla de configuración de la campaña o el recorrido, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del archivo de extracción.
 
-1. Para agregar directivas de decisión al mensaje de correo postal, seleccione una columna en la sección **[!UICONTROL Campos de datos]** y abra el editor de personalización utilizando el icono ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Vaya al menú **[!UICONTROL Políticas de decisión]** para crear e insertar una política de decisión. A continuación, puede utilizar atributos de elemento de decisión como datos de columna en el archivo de extracción.
+1. Para agregar directivas de decisión al mensaje de correo postal, seleccione una columna en la sección **[!UICONTROL Campos de datos]** y abra el editor de personalización utilizando el icono ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Vaya al menú **[!UICONTROL Políticas de decisión]** para crear e insertar una política de decisión. A continuación, puede utilizar atributos de elemento de decisión como datos de columna en el archivo de extracción.
 
    >[!AVAILABILITY]
    >
