@@ -9,12 +9,22 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
 source-wordcount: 1243
@@ -166,7 +176,7 @@ La tabla **[!UICONTROL Límite de Recorrido y conflictos]** proporciona informac
 
 La columna **[!UICONTROL Entradas de Recorrido por conjunto de reglas]** muestra el número de perfiles que ingresaron al recorrido. Hay tres tipos de entradas:
 
-* ****[!UICONTROL Sin conflicto]****: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
+* **&#x200B;**&#x200B;[!UICONTROL Sin conflicto]&#x200B;**&#x200B;**: el perfil entró en la recorrido sin ningún conflicto en el conjunto de reglas. Ningún conjunto de reglas activo impidió esta entrada, y la entrada de recorrido se produjo independientemente de las reglas de mediación.
 
 * **Prioridad más alta**: el perfil entró en el recorrido debido a que tiene mayor prioridad que otros recorridos de la competencia. Aunque se ha producido un conflicto (el perfil se clasifica para varios recorridos), este recorrido se ha seleccionado debido a su mayor puntuación de prioridad.
 
