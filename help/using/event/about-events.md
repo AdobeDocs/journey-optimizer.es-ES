@@ -10,27 +10,15 @@ level: Intermediate, Experienced
 keywords: eventos, evento, recorrido, definición, inicio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2181
 ht-degree: 27%
 
 ---
@@ -140,11 +128,16 @@ Para los eventos generados por el sistema, la canalización filtra los eventos q
 
 ## Acerca del rendimiento de eventos de Recorrido {#event-thoughput}
 
-Adobe Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido por segundo a nivel de organización, en todas las zonas protegidas. Esta cuota se aplica a todos los eventos que se usan en recorridos activos, entre los que se incluyen los recorridos **Live**, **Dry run**, **Closed** y **Paused**. Cuando se alcanza esta cuota, los nuevos eventos se ponen en cola con una velocidad de procesamiento de 5000 por segundo. El tiempo máximo que un evento puede pasar en la cola es de **24 horas**.
+Adobe Journey Optimizer aplica límites de rendimiento independientes por tipo de evento, a nivel de organización, en todas las zonas protegidas:
+
+* **Eventos unitarios**: 5000 eventos por segundo
+* **Leer eventos de recorrido basados en audiencias**: 5000 eventos por segundo
+
+Estos límites se aplican a todos los eventos usados en recorridos activos, que incluyen recorridos **Live**, **Dry run**, **Cerrado** y **Pausado**. Cuando se alcanza un límite, los nuevos eventos se ponen en cola y se procesan a 5000 por segundo hasta que se vacía la cola.
 
 Para obtener más información sobre las tasas de procesamiento de recorridos y cómo afectan los distintos tipos de recorridos al rendimiento, consulte [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
-Los siguientes tipos de eventos se contabilizan dentro de la cuota de 5,000 TPS:
+Para estas cuotas se contabilizan los siguientes tipos de eventos:
 
 * **Eventos unitarios externos**: incluye eventos basados en reglas y generados por el sistema. Si el mismo evento sin procesar cumple los requisitos para varias definiciones de regla, cada regla completa se cuenta como un evento independiente. Más detalles a continuación.
 
@@ -187,8 +180,8 @@ No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draf
 
 Aprenda a configurar un evento y a especificar su punto final de reproducción y la carga útil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431518?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

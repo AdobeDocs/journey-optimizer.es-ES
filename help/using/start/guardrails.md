@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 4590
-ht-degree: 95%
+source-wordcount: 4606
+ht-degree: 94%
 
 ---
 
@@ -167,7 +158,7 @@ Puede elegir entre una de estas dos soluciones:
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Journey Optimizer admite un volumen máximo de **5000 eventos de recorrido entrantes por segundo** en todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
+* Journey Optimizer admite un volumen máximo de **5.000 eventos de recorrido entrantes por segundo** para eventos unitarios y **5.000 eventos de recorrido entrantes por segundo** para eventos de recorrido basados en Audiencias de lectura en todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
 * Los recorridos activados por eventos pueden tardar hasta **5 minutos** en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
@@ -208,7 +199,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
