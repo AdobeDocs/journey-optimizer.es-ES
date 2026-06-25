@@ -14,9 +14,9 @@ feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -441,6 +441,12 @@ Devuelve un valor dateTime.
 
 Devuelve un valor dateTime de hace exactamente 2 horas.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+Cuando se evalúa el 31-01-2026, devuelve 2026-02-28T...; cuando se evalúa el 31-05-2026, devuelve 30-06-2026...
+
+`nowWithDelta()` utiliza aritmética de mes calendario. Si el mes de destino tiene menos días que el día del mes actual, el resultado se normaliza al último día válido de ese mes. La función no se traslada al mes siguiente.
+
 +++
 
 ## setHours {#setHours}
@@ -606,5 +612,6 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Cómo puedo obtener el desfase de tiempo actual de 2 horas en el pasado?** — Usar `nowWithDelta(-2, "hours")`.
 * **Q: ¿Qué hace `updateTimeZone` de manera diferente a `setHours`?** — `updateTimeZone` mantiene el mismo instante en el tiempo pero lo expresa en una zona horaria diferente, mientras que `setHours` cambia realmente el componente de hora del valor datetime.
 * **Q: ¿Puede el parámetro de zona horaria de `nowWithDelta` ser un campo de perfil?** — No, el ID de zona horaria debe ser una constante de cadena; no se admiten referencias de campo.
+* **Q: ¿Qué sucede cuando `nowWithDelta()` se usa con meses y la fecha actual es una fecha de fin de mes?** — La función utiliza aritmética de mes-calendario y normaliza el resultado hasta el último día válido del mes de destino. Por ejemplo, si agrega 1 mes al 31 de enero, se devuelve el 28 de febrero (no el 3 de marzo).
 
 +++
