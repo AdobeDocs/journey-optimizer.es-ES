@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -50,17 +46,17 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación de **`nowWithDelta()`date function** se ha actualizado para aclarar el comportamiento de fin de mes: cuando el mes de destino tiene menos días que el día del mes actual, el resultado se normaliza al último día válido de ese mes. [Más información](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* La página **Introducción a la entrega** se ha actualizado con una nueva subsección **Proveedores sin FBL** por destinatario. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
+* La página **Introducción a la entregabilidad** se ha actualizado con una nueva subsección **Proveedores sin FBL por destinatario**. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
 
-* **Experience Decisioning ya está disponible para el canal de correo postal.** Una nueva página de **Toma de decisiones por lotes en correo postal** describe cómo usar el motor de toma de decisiones para personalizar archivos de extracción de correo postal o para exportar perfiles y sus resultados de toma de decisiones para usarlos en sistemas descendentes. **El correo postal** se ha agregado como un canal admitido en la documentación de decisiones (Introducción, Crear una directiva de decisión, Usar directivas de decisión en mensajes, Introducción a las directivas de decisiones), incluida la capacidad de devolver varios elementos de decisión por perfil a través del campo **[!UICONTROL Número de elementos]**. [Más información](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **Decisiones sobre experiencias ya está disponible para el canal de correo directo.** Una nueva página de **Toma de decisiones por lotes en correo directo** describe cómo usar el motor de toma de decisiones para personalizar archivos de extracción de correo directo o para exportar perfiles y sus resultados de toma de decisiones para usarlos en sistemas descendentes. **El correo directo** se ha añadido como un canal admitido en la documentación de toma de decisiones (Introducción, Crear una política de decisión, Usar políticas de decisión en mensajes, Introducción a las políticas de decisiones), incluida la capacidad de devolver varios elementos de decisión por perfil a través del campo **[!UICONTROL Número de elementos]**. [Más información](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* La documentación de **Fragmentos de Recorrido** ya no se marca como Disponibilidad limitada. La página ahora incluye una nota para desambiguar los fragmentos de Recorrido del contenido **[!UICONTROL Fragmentos]** y **Fragmentos de contenido de AEM** (enlazados cruzados de las tres páginas), y documentos compatibles con **Herramientas de espacio aislado**, **Registros de auditoría** y **Etiquetado**. Los fragmentos de recorrido también se han agregado a la página **Introducción a recorrido**. [Más información](../building-journeys/journey-fragments.md)
+* La documentación de **Fragmentos del recorrido** ya no se marca como Disponibilidad limitada. La página ahora incluye una nota para evitar la ambigüedad entre los fragmentos de recorrido del contenido **[!UICONTROL Fragmentos]** y **Fragmentos de contenido de AEM** (enlazados entre las tres páginas), y documentos compatibles con **Herramientas de zona protegida**, **Registros de auditoría** y **Etiquetado**. Los fragmentos del recorrido también se han añadido a la página **Introducción al recorrido**. [Más información](../building-journeys/journey-fragments.md)
 
-* La documentación de **fuentes de datos externas** y **acción personalizada** se ha actualizado para la autenticación personalizada. El campo `tokenInResponse` ahora le permite especificar si `access_token` o `id_token` se utilizan como credencial de autenticación cuando un extremo devuelve ambos. Para la autenticación personalizada basada en certificados, los campos `subType` y `aud` ahora son obligatorios, el extremo de token `method` debe ser `POST` y las referencias a &quot;Azure Entra ID&quot; se han corregido a &quot;Microsoft Entra ID&quot;. [Más información](../datasource/external-data-sources.md#certificate-credential)
+* La documentación de **Fuentes de datos externas** y **Acción personalizada** se ha actualizado para la autenticación personalizada. El campo `tokenInResponse` ahora le permite especificar si `access_token` o `id_token` se utilizan como credencial de autenticación cuando un punto final devuelve ambos. Para la autenticación personalizada basada en certificados, los campos `subType` y `aud` ahora son obligatorios, el punto final del token `method` debe ser `POST` y las referencias a “Azure Entra ID” se han corregido a “Microsoft Entra ID”. [Más información](../datasource/external-data-sources.md#certificate-credential)
 
-* La página **Introducción a la toma de decisiones** se ha actualizado con un diagrama de procesos que resume el flujo de trabajo completo de la toma de decisiones, desde la administración de elementos de decisión y la configuración de estrategias de selección hasta la incrustación de directivas de decisión en un recorrido o campaña. [Más información](../experience-decisioning/gs-experience-decisioning.md#process)
+* La página **Introducción a la toma de decisiones** se ha actualizado con un gráfico de procesos que resume el flujo de trabajo de extremo a extremo de la toma de decisiones, desde la administración de elementos de decisión y la configuración de estrategias de selección hasta la incrustación de políticas de decisión en un recorrido o campaña. [Más información](../experience-decisioning/gs-experience-decisioning.md#process)
 
-* La documentación de **Encabezados de remitente** ahora aclara que **[!UICONTROL Nombre de remitente]** y **[!UICONTROL Correo electrónico del remitente]** deben estar establecidos o ambos vacíos, de lo contrario, no se pueden publicar recorridos y campañas. [Más información](../email/header-parameters.md#sender-header)
+* La documentación de **Encabezados de remitente** ahora aclara que el **[!UICONTROL Nombre de remitente]** y el **[!UICONTROL Correo electrónico del remitente]** deben estar establecidos o ambos vacíos, de lo contrario, no se pueden publicar recorridos y campañas. [Más información](../email/header-parameters.md#sender-header)
 
 ## Mayo de 2026 {#may-2026}
 
@@ -677,7 +673,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -707,7 +703,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -782,7 +778,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -910,7 +906,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

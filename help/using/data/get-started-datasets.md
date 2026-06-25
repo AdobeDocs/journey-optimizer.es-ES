@@ -9,29 +9,15 @@ level: Experienced
 keywords: plataforma, lago de datos, crear, lago, conjuntos de datos, perfil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -39,7 +25,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Obtenga información sobre cómo acceder, crear y administrar conjuntos de datos de Adobe Experience Platform para que pueda almacenar y explorar los datos que alimentan los recorridos, las campañas y los informes en Adobe Journey Optimizer.
+**En esta página:** obtenga información sobre cómo acceder, crear y gobernar conjuntos de datos de Adobe Experience Platform para que pueda almacenar y explorar los datos que alimentan los recorridos, las campañas y los informes en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +33,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 ## Protecciones y limitaciones
 
-* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
+* A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
@@ -80,7 +66,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
 * Creación de informes
 
-   * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes, se espera una latencia de datos de hasta dos horas.**
+   * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.**
    * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
    * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
    * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
@@ -118,7 +104,7 @@ Puede crear un conjunto de datos a partir de un esquema o un archivo CSV. Encont
 
 Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esquema, añadirle datos y confirmar que estos se han introducido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416648?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Habilitar conjuntos de datos para el perfil {#profile-datasets}
 
@@ -132,8 +118,8 @@ Antes de habilitar, tenga en cuenta lo siguiente:
 
 Para obtener instrucciones detalladas, consulte la documentación de Adobe Experience Platform:
 
-* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
-* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
+* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
+* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
 
 ## Gobernanza de datos
 
@@ -157,4 +143,4 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 >* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
