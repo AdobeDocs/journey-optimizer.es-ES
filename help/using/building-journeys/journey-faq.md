@@ -11,35 +11,15 @@ keywords: recorrido, preguntas, respuestas, solución de problemas, ayuda, guía
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
+source-wordcount: 6214
 ht-degree: 0%
 
 ---
@@ -185,7 +165,7 @@ Obtenga más información sobre [audiencias](../audience/about-audiences.md), [c
 
 Usar **recorridos unitarios** cuando:
 
-* Debe reaccionar ante las acciones individuales de los clientes en tiempo real (por ejemplo, confirmación de compra o abandono del carro de compras)
+* Debe reaccionar a las acciones individuales de los clientes en tiempo real (por ejemplo, abandono del carro de compras, incorporación de nuevos miembros)
 * Cada cliente debe progresar a su propio ritmo
 * Desea almacenar en déclencheur según eventos específicos
 
@@ -286,17 +266,17 @@ Más información sobre [actualizaciones de perfil](update-profiles.md).
 
 +++
 
-+++ ¿Cómo envío un correo electrónico inmediatamente después de que alguien realice una compra?
++++ ¿Cómo envío un correo electrónico inmediatamente después de abandonar un carro de compras?
 
 Crear un **recorrido activado por evento unitario**:
 
-1. Configure un evento &quot;Purchase&quot; con los detalles del pedido
+1. Configure un evento de &quot;Abandono del carro de compras&quot; con los detalles relevantes del carro de compras
 2. Añada el evento como punto de entrada de recorrido
 3. Seguir inmediatamente con una acción de correo electrónico
-4. Diseñe su correo electrónico de confirmación de pedido con detalles personalizados del pedido
+4. Diseñe el correo electrónico de recuperación del carro de compras con detalles personalizados del producto
 5. Publicación del recorrido
 
-El recorrido envía automáticamente un déclencheur cada vez que se recibe un evento de compra y envía el correo electrónico de confirmación en tiempo real.
+El recorrido se almacenará en déclencheur automáticamente cada vez que se reciba un evento de abandono del carro de compras y se enviará el correo electrónico de recuperación en tiempo real.
 
 Más información sobre [configuración de eventos](../event/about-events.md) y [acciones de correo electrónico](journey-action.md).
 
@@ -369,7 +349,7 @@ Más información sobre [administración de huso horario](timezone-management.md
 
 **Prácticas recomendadas para tiempos de espera**:
 
-* **Mensajes transaccionales** (confirmaciones de pedidos): enviar inmediatamente
+* **Mensajes de marketing activados** (recuperación de abandono del carro de compras): enviar inmediatamente
 * **Serie de bienvenida**: 1-3 días entre correos electrónicos
 * **Contenido educativo**: de 3 a 7 días entre mensajes
 * **Campañas promocionales**: al menos 7 días entre ofertas

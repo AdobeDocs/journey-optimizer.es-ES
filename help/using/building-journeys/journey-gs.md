@@ -11,26 +11,13 @@ keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 9%
@@ -92,7 +79,7 @@ Lo que debe configurar antes de crear depende de cómo se active el recorrido. L
 |---|---|---|
 | **[Leer audiencia](read-audience.md)** | Desea enviar un mensaje programado o recurrente a un conjunto definido de perfiles (boletines informativos, promociones, series de incorporación). | Todos los perfiles de una audiencia por lotes, a la vez o según una programación. |
 | **[Calificación de audiencias](audience-qualification-events.md)** | Debe reaccionar en tiempo real cuando un perfil entra o sale de una audiencia (actualización del nivel de fidelidad, indicador de riesgo de pérdida). | Un perfil a la vez, en cuanto se clasifique en una audiencia de streaming. |
-| **Evento unitario** | Una acción de perfil genera un déclencheur de respuesta inmediata (confirmación de compra, envío de formulario, inicio de sesión en la aplicación). | Perfil a perfil, en tiempo real. |
+| **Evento unitario** | Una acción de perfil genera un déclencheur de respuesta inmediata (abandono del carro de compras, envío de formularios, inicio de sesión en la aplicación). | Perfil a perfil, en tiempo real. |
 | **[Evento empresarial](../event/about-creating-business.md)** | Un evento que no es de perfil afecta a varias personas a la vez (cancelación de vuelos, reabastecimiento de existencias, alerta de noticias de última hora). | Todos los perfiles asociados con el evento, a través de un paso automático Leer audiencia. |
 
 Los siguientes elementos son opcionales, pero pueden ser necesarios según el caso de uso:
