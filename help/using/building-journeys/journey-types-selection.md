@@ -8,28 +8,17 @@ role: User
 level: Beginner
 keywords: tipos de recorrido, unitario, leer audiencia, calificación de audiencia, evento empresarial, comparación, guía de decisión, elegir, selección, tiempo real, programado, por lotes, activado por evento
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: 2274
 ht-degree: 1%
 
 ---
@@ -223,13 +212,12 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Los recorridos de cualificación de audiencia y lectura de audiencia no pueden contener una actividad de salto y no pueden ser el destino de una actividad de salto de otro recorrido
 * Los recorridos de calificación de audiencias requieren una audiencia evaluada por streaming. A partir de agosto de 2026, las audiencias evaluadas por lotes no se podrán usar en un nodo de calificación de audiencias; consulte la [guía de migración](aq-batch-audiences-migration.md)
 * Los recorridos de calificación de eventos unitarios y audiencias comparten un límite de rendimiento de 5000 TPS a nivel de organización; los recorridos de audiencia de lectura admiten hasta 20 000 TPS por zona protegida
-* La simulación es compatible con la mayoría de los tipos de recorrido, pero no con la entrada de eventos empresariales; consulte Limitaciones de simulación para restricciones de nivel de nodo
 * Un perfil que ya está presente en un recorrido no puede volver a introducir la misma versión de ese recorrido, independientemente de la configuración de reentrada
 
 **Terminología:**
 
 * Nombre canónico: recorrido de evento unitario — variantes: recorrido activado por evento, recorrido unitario
-* Nombre canónico: Leer recorrido de Audiencia — variantes: recorrido por lotes, recorrido de déclencheur de segmentos, recorrido de segmento leído
+* Nombre canónico: Leer recorrido de audiencia — variantes: recorrido por lotes
 * Nombre canónico: recorrido de calificación de audiencias — variantes: recorrido de evento de calificación de audiencias
 * Nombre canónico: recorrido de evento de negocio — variantes: recorrido activado por evento de negocio
 * No confunda: &quot;Leer recorrido de audiencias&quot; ≠ &quot;recorrido de calificación de audiencias&quot;: la lectura de audiencia procesa a todos los miembros de la audiencia en lote según lo programado; la calificación de audiencias responde a cambios de pertenencia individuales en tiempo real (transmite audiencias solo para su entrada inmediata)

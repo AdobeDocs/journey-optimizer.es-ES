@@ -8,29 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: recorrido, campaña, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
-hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4be496be65eef2c9cab727804f762350957223a
 workflow-type: tm+mt
-source-wordcount: 1660
-ht-degree: 4%
+source-wordcount: 2483
+ht-degree: 2%
 
 ---
 
@@ -42,7 +31,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer] ofrece dos maneras principales de llegar a sus clientes y motivarlos: **Recorridos** y **Campañas**. Los recorridos están diseñados para una orquestación en tiempo real de varios pasos dirigida por el comportamiento del cliente, mientras que las campañas son más adecuadas para difusiones únicas o programadas a una audiencia definida. Una vez que haya decidido una campaña, puede elegir el tipo de campaña que mejor se adapte a su caso de uso.
+[!DNL Adobe Journey Optimizer] ofrece dos maneras principales de llegar a sus clientes y motivarlos: **Recorridos** y **Campañas**. Los recorridos están diseñados para una orquestación en tiempo real de varios pasos dirigida por el comportamiento del cliente, mientras que las campañas son más adecuadas para difusiones únicas o programadas para una audiencia definida, o para activaciones de canal entrantes al límite para una personalización de baja latencia. Una vez que haya decidido una campaña, puede elegir el tipo de campaña que mejor se adapte a su caso de uso.
 
 Esta guía le ayuda a elegir entre Recorridos, campañas de acción y campañas activadas por API en función del estilo de ejecución, las necesidades de datos y los casos de uso, con una comparación rápida, un árbol de decisiones y ejemplos concretos.
 
@@ -55,12 +44,12 @@ Esta guía le ayuda a elegir entre Recorridos, campañas de acción y campañas 
 | Enfoque | Mejor para | Estilo de ejecución |
 |----------|----------|-----------------|
 | **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | 1:1 orquestación: cada perfil a su propio ritmo |
-| **Campañas de acción** | Difusiones programadas o recurrentes a audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
+| **Campañas de acción** | Activaciones programadas o recurrentes para audiencias | Ejecución por lotes: la audiencia se procesa junta en el momento del envío |
 | **Campañas activadas por API** | Mensajes transaccionales o impulsados por eventos de sistemas externos | Ejecución bajo demanda: activada por una llamada de API con carga útil |
 
 >[!TIP]
 >
->**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **campañas de acción**. ¿Se activa un solo mensaje desde un sistema externo a través de una API? Use **campañas activadas por API** o un **recorrido de evento unitario** si necesita orquestación de varios pasos después del evento enviado por API.
+>**Regla general rápida:** ¿Necesita que cada cliente se mueva a su propio ritmo con lógica en tiempo real? Usar **Recorridos**. ¿Desea enviar un mensaje a una audiencia según una programación? Usar **campañas de acción**. ¿Se activa un solo mensaje desde un sistema externo a través de una API? Use **campañas activadas por API** o un **recorrido de evento unitario** si necesita orquestación de varios pasos después del evento enviado por API. ¿Necesita personalización entrante y basada en Edge? Usar **campañas de acción**.
 
 ## Comparación detallada {#detailed-comparison}
 
@@ -110,6 +99,11 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 **Flujo de trabajo por lotes complejo con segmentación avanzada, datos de varias entidades o recuentos exactos de preenvío?**
 → **Usar campañas orquestadas**; consulte [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para obtener instrucciones detalladas.
 
+>[!NOTE]
+>
+>* **Composición de audiencia ad hoc**: las campañas orquestadas le permiten definir su audiencia de destino directamente en el lienzo de la campaña utilizando el generador de reglas integrado, sin necesidad de crear previamente y evaluar una audiencia de Adobe Experience Platform primero. [Aprenda a crear su primera regla](../orchestrated/build-query.md)
+>* **Datos federados**: use la Composición de audiencia federada para consultar el almacén de datos empresarial y crear o enriquecer audiencias sin importar datos confidenciales a Adobe Experience Platform. [Más información acerca de la composición de audiencias federadas](../audience/federated-audience-composition.md)
+
 ### Paso 2: Validar la elección
 
 | Su necesidad | Enfoque recomendado | Por qué |
@@ -157,6 +151,7 @@ Cada cliente experimenta su propia cronología de recorridos en función de sus 
 * Ejecución sin estado: sin contexto
 * Programación simple o activación de API
 * Idóneo para comunicaciones broadcast
+* Envío entrante de varias superficies: añada hasta 10 acciones de canal entrante (experiencia basada en código, aplicación, tarjeta de contenido, web) en una sola campaña, utilizando reglas de segmentación para crear variantes de mensaje basadas en la pertenencia a audiencias o atributos de perfil. [Más información](../campaigns/campaign-action.md#multi-action)
 
 **Flujo de ejemplo:**
 
@@ -215,7 +210,7 @@ Todos reciben el mismo mensaje al mismo tiempo.
 
 >[!NOTE]
 >
->Para la disponibilidad del canal de campañas orquestadas, consulte [Campañas orquestadas: canales compatibles](../orchestrated/gs-orchestrated-campaigns.md).
+>Para la disponibilidad del canal de campañas orquestadas, consulte [Canales en recorridos y campañas](../channels/gs-channels.md#channels).
 
 ### Funciones avanzadas
 
@@ -245,7 +240,7 @@ Todos reciben el mismo mensaje al mismo tiempo.
 Sí. Muchas organizaciones utilizan todos los enfoques para diferentes escenarios:
 
 * **Recorridos** para participación en tiempo real y de comportamiento
-* **Campañas de acción** para comunicaciones de difusión programadas
+* **Campañas de acción** para comunicaciones programadas o activaciones entrantes
 * **Campañas activadas por API** para mensajes transaccionales
 * **Campañas orquestadas** para campañas por lotes complejas que requieren gran cantidad de datos; consulte [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -261,7 +256,7 @@ No, debe reconstruir la experiencia en el formato adecuado. Sin embargo, puede r
 
 +++ ¿Qué enfoque es más fácil de crear?
 
-Las campañas de acción suelen ser las más sencillas (enviar un solo mensaje a la audiencia), seguidas de campañas activadas por API y, a continuación, Recorridos (más complejas con la lógica de varios pasos).
+Las campañas de acción suelen ser las más sencillas (un solo punto de contacto o participación entregada a una audiencia), seguidas de campañas activadas por API y, a continuación, Recorridos (más complejas con la lógica de varios pasos).
 
 +++
 
@@ -296,3 +291,47 @@ Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar e
 >* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [PREGUNTAS FRECUENTES SOBRE EL Recorrido](../building-journeys/journey-faq.md)
 >* [Preguntas frecuentes sobre campañas orquestadas](../orchestrated/orchestrated-campaigns-faq.md)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Elija entre Recorridos, campañas de acción y campañas activadas por API en función de si necesita orquestación 1:1 en tiempo real, entrega por lotes programada o entrante o ejecución activada por API a petición.
+
+**Intenciones:**
+* Comprenda las diferencias clave entre Recorridos, campañas de acción y campañas activadas por API
+* Seleccione el método adecuado para un caso de uso de marketing determinado mediante la guía de decisión y las tablas de comparación
+* Comprender cuándo las campañas de acción admiten activaciones de canal entrante frente a difusiones salientes
+* Saber cuándo escalar a campañas orquestadas (composición ad hoc, datos federados, varias entidades)
+* Combinar varios enfoques de forma eficaz en una estrategia de marketing
+
+**Glosario:**
+* **Recorrido**: Flujo de orquestación en tiempo real de varios pasos en el que cada perfil progresa a su propio ritmo en función del comportamiento y los eventos. *(específico del producto)*
+* **Campaña de acción**: Una campaña que entrega activaciones programadas o recurrentes a audiencias: activaciones de canal entrante o difusión saliente al perímetro de para una personalización de baja latencia. *(específico del producto)*
+* **Campaña activada por API**: Una campaña iniciada por un sistema externo a través de una llamada de API, que entrega un único mensaje bajo demanda con personalización controlada por carga útil. *(específico del producto)*
+* **Campaña orquestada**: una campaña por lotes del lado del concentrador que admite datos relacionales de varias entidades, composición de audiencias ad hoc y fuentes de datos federadas; no incluida en las tablas de comparación de esta página. *(específico del producto)*
+* **recorrido de eventos unitarios**: un recorrido activado por una única acción de perfil en tiempo real; úselo cuando se necesite orquestación de varios pasos después de un evento enviado por API. *(específico del producto)*
+* **Activación del canal entrante**: entrega de experiencias personalizadas al perímetro (experiencia basada en código, aplicación, tarjeta de contenido, web) para una representación de baja latencia, compatible con campañas de acción. *(específico del producto)*
+
+**Protecciones:**
+* Hasta 10 acciones de canal entrante por campaña de acción (límite estricto): se aplica solo a los canales entrantes: experiencia basada en código, aplicación, tarjeta de contenido, web
+* Las campañas orquestadas se excluyen de las tablas de comparación de esta página para evitar una simplificación excesiva; consulte la documentación de campañas orquestadas dedicadas para obtener información de arquitectura
+
+**Terminología:**
+* Nombre canónico: Campañas de acción. Variantes: &quot;campañas programadas&quot;, &quot;campañas de difusión&quot;
+* Nombre canónico: campañas activadas por API. Variantes: &quot;campañas transaccionales&quot;, &quot;campañas impulsadas por eventos&quot;.
+* No confunda: &quot;Campañas de acción&quot; (envío programado/entrante a audiencias) ≠ &quot;campañas activadas por API&quot; (bajo demanda, impulsadas por carga útil, sin audiencia generada previamente) ≠ &quot;Campañas orquestadas&quot; (lote del lado del concentrador con datos relacionales)
+* No confunda: &quot;recorrido de evento unitario&quot; (activado por la acción en tiempo real de un perfil) ≠ &quot;recorrido de evento empresarial&quot; (activado por un evento que no es de perfil que afecta a varias personas a través de un paso interno de Leer audiencia)
+* Sinónimos: &quot;activación de canal entrante&quot; = &quot;acción de canal entrante&quot; (se utiliza de forma intercambiable en esta página para experiencias entregadas por Edge en campañas de acción)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuándo debo usar un Recorrido en lugar de una campaña de acción?** : utilice Recorridos cuando los clientes necesiten moverse a su propio ritmo con lógica condicional en tiempo real en varios puntos de contacto; utilice campañas de acción para envíos programados o entrantes a una audiencia predefinida.
+* **Q: ¿Pueden las campañas de acción entregar a los canales entrantes?** — Sí. Las campañas de acción admiten la activación del canal entrante (experiencia basada en código, aplicación, tarjeta de contenido, web) hasta el perímetro de para la personalización con baja latencia, con hasta 10 acciones entrantes por campaña y reglas de segmentación para variantes de mensaje.
+* **Q: ¿Qué distingue a las campañas orquestadas de las campañas de acción?** — Las campañas organizadas ejecutan la ejecución por lotes en el concentrador con datos relacionales de varias entidades, recuentos exactos de preenvío, composición de audiencias ad hoc y compatibilidad con datos federados. Las campañas de acción son envíos sin estado de ejecución única a audiencias de Experience Platform.
+* **Q: ¿Cuándo debo usar una campaña desencadenada por API en lugar de un recorrido de evento unitario?** — Utilice una campaña activada por API cuando un sistema externo necesite almacenar en déclencheur un solo mensaje inmediatamente con datos de carga útil; utilice un recorrido de evento unitario cuando sea necesaria la orquestación de varios pasos después del evento enviado por API.
+* **Q: ¿Puedo combinar Recorridos y campañas en la misma estrategia de marketing?** — Sí. Utilice Recorridos para la participación en tiempo real basada en el comportamiento, campañas de acción para difusiones programadas o activaciones entrantes, campañas activadas por API para mensajes transaccionales y campañas orquestadas para flujos de trabajo por lotes complejos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 873097f5 -->
