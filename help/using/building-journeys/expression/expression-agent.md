@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1147
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generar expresiones con el Asistente de expresiones"
->abstract="El Asistente de expresiones utiliza la IA generativa para ayudarle a crear y generar expresiones directamente en el editor de expresiones avanzadas del recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Al describir lo que necesita con lenguaje sencillo, el asistente generará para usted la expresión correspondiente."
+>abstract="El Asistente de expresiones utiliza la IA generativa para ayudarle a crear y generar expresiones directamente en el editor de expresiones avanzadas del recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Cuando describe lo que necesita en lenguaje sencillo, el asistente genera la expresión correspondiente."
 
 >[!AVAILABILITY]
 >
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 El Ayudante de expresiones es una función con tecnología de IA integrada en el editor de expresiones avanzadas de Recorrido. Le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
