@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '271'
+workflow-type: ht
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Las funciones de agregación de Adobe Journey Optimizer le permiten resumir, ana
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
-Función avg de Adobe Journey Optimizer 
+Función avg de Adobe Journey Optimizer
 
 Aprenda a utilizar la función &#39;avg&#39; para calcular el valor medio de las expresiones, con ejemplos y detalles de sintaxis.
 

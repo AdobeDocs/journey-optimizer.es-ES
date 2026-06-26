@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 889
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -51,13 +51,13 @@ Puede diseñar y enviar mensajes de texto (SMS), de comunicación enriquecida (R
 
 De acuerdo con las normas y regulaciones del sector, todos los mensajes de marketing SMS/RCS/MMS deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. [Aprenda a administrar la exclusión](../privacy/opt-out.md#opt-out-decision-management)
 
-## Añadir un mensaje de Mobile {#create-sms-journey-campaign}
+## Añadir un mensaje de móvil {#create-sms-journey-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_sms"
->title="Acción de mensaje móvil"
->abstract="Una acción del canal de mensajes móviles envía un mensaje de texto (SMS), multimedia (MMS) o de comunicación enriquecida (RCS) a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de mensaje de Mobile que define el contenido enviado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingual** puede entregar contenido en varios idiomas y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>title="Acción de mensaje de móvil"
+>abstract="Una acción del canal de mensajes de móvil envía un mensaje de texto (SMS), multimedia (MMS) o de comunicación enriquecida (RCS) a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración de mensajes de móvil que define el contenido enviado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación, la sección **Multilingüe** puede entregar contenido en varios idiomas y la sección **Tiempo de espera o error** puede definir una ruta alternativa si la acción falla."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 Examine las pestañas siguientes para aprender a añadir un mensaje móvil en una campaña o un recorrido.
 

@@ -18,14 +18,14 @@ subfeature_v2:
 source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
 workflow-type: tm+mt
 source-wordcount: 43
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # Notas de la versión preliminar {#e-release-notes}
 
-Adobe Journey Optimizer ofrece continuamente nuevas funciones, mejoras en las funciones existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en las [notas de la versión](release-notes.md).
+Adobe Journey Optimizer ofrece de forma continua nuevas funciones, mejoras en las existentes y correcciones de errores. Todos los cambios se consolidan la última semana de cada mes en las [notas de la versión](release-notes.md).
 
 <!--
 ## June '26 pre-release notes {#june-26-rn}

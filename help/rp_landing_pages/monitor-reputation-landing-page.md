@@ -6,13 +6,13 @@ description: Monitorizar las direcciones de correo electrónico
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
 
-# Monitorizar las direcciones de correo electrónico{#section-overview}
+# Supervisar las direcciones de correo electrónico{#section-overview}
 
 Administrar el buen funcionamiento de las campañas de correo electrónico comienza con la monitorización de las direcciones de correo electrónico a las que envía los mensajes, lo que garantiza que los mensajes lleguen a las bandejas de entrada correctas y, al mismo tiempo, protege su reputación como remitente. En Adobe Journey Optimizer, aprenderá a utilizar herramientas como las listas de supresión para bloquear direcciones problemáticas, reintentos para gestionar problemas temporales y listas de permitidos para controlar quién recibe los correos electrónicos. Cada tema se basa en el último, y muestra cómo evitar errores de envío, administrar las exclusiones y mantener una comunicación segura y eficaz con su público. Tanto si es para solucionar problemas con los rechazos, como ajustar la configuración o probar las campañas de forma segura, estas funciones le permiten controlar su estrategia de entregabilidad de correo electrónico.
 

@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 4%
+source-wordcount: 2251
+ht-degree: 3%
 
 ---
 
@@ -241,3 +241,51 @@ Comience asignando claramente los déclencheur del cliente y los puntos de salid
 **Funciones relacionadas**
 
 [Eventos de calificación de audiencia](audience-qualification-events.md) | [Métricas de éxito y objetivos](success-metrics.md) | [Administración de conflictos](../conflict-prioritization/conflicts.md) | [Límite de frecuencia](../conflict-prioritization/rule-sets.md) | [recorridos de prueba](testing-the-journey.md) | [Optimizar actividad](optimize.md) | [Eventos de reacción](reaction-events.md) | [Actividad de espera](wait-activity.md)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta guía se explica cómo definir, configurar y optimizar los criterios de entrada y salida de recorrido en Adobe Journey Optimizer, con ejemplos reales y prácticas recomendadas para garantizar que se alcanzan los perfiles correctos en el momento adecuado.
+
+**Intenciones:**
+
+* Configurar criterios de entrada basados en eventos, audiencias o atributos para un recorrido
+* Configure criterios de salida basados en la finalización de recorridos, métricas de éxito, tiempos de espera de inactividad o descalificación de audiencias
+* Aplique reglas de reentrada para controlar si los perfiles pueden introducir un recorrido varias veces
+* Evite los recorridos superpuestos mediante la administración de conflictos y las puntuaciones de prioridad
+* Monitorización y optimización de las tasas de entrada y salida mediante informes de recorrido
+
+**Glosario:**
+
+* **Criterios de entrada**: Condiciones que determinan cuándo un perfil de cliente cumple los requisitos para entrar en un recorrido *(específico del producto)*
+* **Criterios de salida**: Condiciones que definen cuándo y cómo se sale o se quita un perfil de un recorrido *(específico del producto)*
+* **Calificación de audiencias**: Un mecanismo de entrada de recorrido que entra en déclencheur cuando un perfil entra o sale de una audiencia de flujo continuo en tiempo real *(específico del producto)*
+* **Reentrada**: la capacidad de un perfil para entrar en el mismo recorrido más de una vez, configurable con un período de espera *(específico del producto)*
+* **Límite de frecuencia**: Regla que limita la cantidad de mensajes que un perfil puede recibir en un período de tiempo determinado *(específico del producto)*
+
+**Protecciones:**
+
+* Un perfil no puede estar presente varias veces en el mismo recorrido al mismo tiempo.
+* La reentrada debe habilitarse explícitamente; el período de espera de reentrada predeterminado es de 5 minutos con un máximo de 91 días.
+* Para la administración avanzada de frecuencias de varios recorridos, utilice límites y mediación de recorridos en lugar de criterios de salida individuales.
+* Las superposiciones de recorridos deben gestionarse de forma proactiva; utilice la gestión de conflictos y las puntuaciones de prioridad para resolver recorridos contrapuestos.
+
+**Terminología:**
+
+* Nombre canónico: Criterios de entrada — Acrónimo: n/a — variantes: condiciones de entrada, déclencheur de recorrido
+* Nombre canónico: Criterios de salida — Acrónimo: n/a — variantes: condiciones de salida, reglas de eliminación de perfiles
+* Sinónimos: &quot;audience disqualification&quot; = &quot;audience exit&quot; como déclencheur de salida
+* No confunda: &quot;Cerca de nuevas entradas&quot; ≠ &quot;criterios de salida&quot;: la primera bloquea las nuevas entradas; los criterios de salida eliminan los perfiles en curso
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Puede un perfil estar en el mismo recorrido dos veces al mismo tiempo?** — No, un perfil no puede estar presente en el mismo recorrido al mismo tiempo. La identidad del perfil se utiliza como clave para aplicar esto.
+* **Q: ¿Cómo evito que un perfil vuelva a entrar en un recorrido?** — Deshabilite la reentrada en el panel Propiedades del recorrido o agregue una condición para comprobar si el perfil ya ha entrado.
+* **Q: ¿Cuál es la diferencia entre los criterios de salida y cerrar un recorrido?** : los criterios de salida eliminan perfiles individuales de un recorrido activo según las condiciones; al cerrar un recorrido, se detienen todas las nuevas entradas, mientras que los perfiles actuales finalizan.
+* **Q: ¿Cómo puedo dejar de comunicarme en exceso con los clientes en varios recorridos?** — Utilice reglas de límite de frecuencia y límite y arbitraje de recorrido para aplicar límites de mensajes de recorrido cruzado.
+* **Q: ¿Qué es la descalificación de audiencia como déclencheur de salida?** — Cuando un perfil ya no cumple los criterios del segmento de audiencia objetivo, se elimina automáticamente del recorrido para mantener las comunicaciones relevantes.
+
++++

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="Acción de experiencia basada en código"
->abstract="Una acción entrante de experiencia basada en código ofrece una experiencia basada en código a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración basada en código que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (3 días de forma predeterminada), lo que proporciona a los perfiles tiempo para ver la experiencia."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción de entrada ofrece una experiencia basada en código a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración basada en código que define el contenido mostrado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Esperar** después de esta actividad (tres días de forma predeterminada), lo que proporciona a los perfiles tiempo para ver la experiencia."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 En [!DNL Journey Optimizer], puede crear experiencias basadas en código en un recorrido o una campaña.
 

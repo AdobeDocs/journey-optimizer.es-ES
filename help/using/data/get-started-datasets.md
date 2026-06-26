@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Obtenga información sobre cómo acceder, crear y administrar conjuntos de datos de Adobe Experience Platform para que pueda almacenar y explorar los datos que alimentan los recorridos, las campañas y los informes en Adobe Journey Optimizer.
+**En esta página:** obtenga información sobre cómo acceder, crear y gobernar conjuntos de datos de Adobe Experience Platform para que pueda almacenar y explorar los datos que alimentan los recorridos, las campañas y los informes en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -50,6 +50,8 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 * A partir del 1 de noviembre de 2024, la segmentación de streaming ya no admite eventos de envío y apertura de conjuntos de datos de seguimiento y comentarios [!DNL Journey Optimizer]. Para implementar la restricción de frecuencia o la administración de fatiga, utilice reglas empresariales en su lugar. Puede encontrar más detalles en [esta sección](../conflict-prioritization/rule-sets.md), incluyendo una explicación de caso de uso para el límite diario [aquí](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"}.
 
 * A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
+
+* Habilitar un conjunto de datos para el perfil tiene implicaciones permanentes en el nivel de esquema. Planifique su esquema y diseño de identidad cuidadosamente antes de habilitar. [Más información](#profile-datasets)
 
 ## Acceso a conjuntos de datos {#access}
 
@@ -78,7 +80,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
 * Creación de informes
 
-   * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes, se espera una latencia de datos de hasta dos horas.**
+   * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.**
    * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
    * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
    * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
@@ -118,6 +120,21 @@ Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esqu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416648?captions=spa&quality=12)
 
+## Habilitar conjuntos de datos para el perfil {#profile-datasets}
+
+Al crear un conjunto de datos, puede habilitarlo para que contribuya a [Perfil del cliente en tiempo real](../audience/get-started-profiles.md). Esto permite utilizar los datos que contiene para la segmentación, personalización y condiciones de recorrido en [!DNL Journey Optimizer].
+
+Antes de habilitar, tenga en cuenta lo siguiente:
+
+* **La habilitación del esquema es permanente.** Una vez que el esquema subyacente a un conjunto de datos está habilitado para el perfil, esto no se puede deshacer; el esquema no se puede deshabilitar ni eliminar. Solo el propio conjunto de datos se puede deshabilitar o eliminar por separado.
+* **Deshabilitar un conjunto de datos tiene consecuencias.** Puede deshabilitar o eliminar un conjunto de datos para el perfil independientemente de su esquema, pero al hacerlo se eliminan los registros de perfil asociados y puede interrumpir los flujos de trabajo de segmentación y activación.
+* **Planifique su configuración antes de habilitar.** Los campos de identidad y las selecciones de grupos de campos se tornan más difíciles de cambiar después de la Habilitación de perfiles. Finalice primero el diseño de esquema.
+
+Para obtener instrucciones detalladas, consulte la documentación de Adobe Experience Platform:
+
+* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
+* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
+
 ## Gobernanza de datos
 
 En un conjunto de datos, examine la pestaña **Gobernanza de datos** para comprobar las etiquetas en el conjunto de datos y en el nivel de campo. La gobernanza de datos categoriza los datos según el tipo de políticas que se apliquen.
@@ -140,3 +157,4 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 >* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

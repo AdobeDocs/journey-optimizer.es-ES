@@ -14,10 +14,10 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 7%
+source-wordcount: 204
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 Adobe Journey Optimizer permite a las marcas crear y administrar perfiles y audiencias de clientes en tiempo real para ofrecer experiencias de cliente personalizadas. Esta descripción general proporciona información general sobre cómo trabajar con perfiles y audiencias en Journey Optimizer. Para obtener información detallada, consulte las secciones específicas sobre Perfiles y audiencias.
 
 **Perfiles**
-Adobe Journey Optimizer ofrece una serie de funciones para trabajar con perfiles de clientes en tiempo real, lo que permite a las marcas crear una vista unificada de sus clientes en 360 grados. Las funciones clave incluyen la ingesta de datos en tiempo real, la creación de gráficos de identidades y las herramientas de participación del cliente. [Introducción a los perfiles](get-started-profiles.md)
+Adobe Journey Optimizer ofrece una serie de funciones para trabajar con perfiles de clientes en tiempo real, lo que permite a las marcas crear una vista unificada de sus clientes en 360 grados. Las funciones clave incluyen la ingesta de datos en tiempo real, la creación de gráficos de identidades y las herramientas de participación del cliente. Los perfiles que participan a través de recorridos, campañas o decisiones se contabilizan en la métrica de licencia de **Perfiles atractivos**. [Introducción a los perfiles](get-started-profiles.md) | [Supervisar el uso de la licencia](license-usage.md)
 
 **Audiencias**
 Adobe Journey Optimizer proporciona herramientas sólidas para crear, administrar y enriquecer audiencias a fin de mejorar los esfuerzos de marketing. &#x200B;Las funciones clave incluyen segmentación de audiencia, enriquecimiento, administración y activación, junto con herramientas de gobernanza y privacidad. [Introducción a las audiencias](about-audiences.md)

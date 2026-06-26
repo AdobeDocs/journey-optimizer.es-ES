@@ -28,10 +28,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 953
-ht-degree: 8%
+source-wordcount: 1484
+ht-degree: 5%
 
 ---
 
@@ -140,3 +140,51 @@ También necesita definir el **[!UICONTROL Token de registro]**. La expresión d
 >No se puede pasar una colección en datos de personalización. Si la inserción transaccional espera colecciones, no funcionará. Tenga en cuenta también que los datos de personalización tienen un formato esperado (por ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados.
 
 Estos son los campos esperados por la plantilla transaccional utilizada en su mensaje estándar de [!DNL Adobe Campaign]. Estos campos se pueden utilizar para personalizar el mensaje, aplicar formato condicional o elegir una variante de mensaje específica.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar las actividades integradas de acción push, SMS y correo electrónico de Adobe Campaign Standard en los recorridos de Journey Optimizer a través de las plantillas de mensajería transaccional de Campaign.
+
+**Intenciones:**
+
+* Configuración de actividades de correo electrónico, SMS o acción push en un recorrido mediante la integración de Adobe Campaign Standard
+* Seleccione y asigne una plantilla de mensajería transaccional de Campaign Standard a los campos de recorrido
+* Asignar campos de dirección y datos de Personalization desde eventos de recorrido o fuentes de datos a la carga útil de mensajes
+* Gestión de la baja para plantillas de correo electrónico transaccional basadas en eventos y perfiles
+* Configuración de la plataforma de destino de notificaciones push y el token de registro para las acciones push de Campaign Standard
+
+**Glosario:**
+
+* **Mensajería transaccional**: Capacidad de Adobe Campaign Standard para enviar mensajes activados en tiempo real (correo electrónico, SMS, push) en función de los eventos *(específicos del producto)*
+* **rtEvent**: plantilla de mensaje transaccional de evento en tiempo real en Adobe Campaign Standard, utilizada para la mensajería basada en eventos *(específica del producto)*
+* **Plantilla transaccional de perfil**: Una plantilla de mensaje transaccional de Campaign Standard que usa datos de perfil para la resolución de destinatarios y la administración de bajas de suscripción *(específica del producto)*
+* **Token de registro**: se requiere un identificador de nivel de dispositivo para dirigir una notificación push a una instalación específica de aplicación móvil *(específica del producto)*
+
+**Protecciones:**
+
+* La acción integrada debe configurarse antes de su uso; consulte la página de configuración de la acción.
+* Tanto el mensaje transaccional de Campaign Standard como su evento asociado deben publicarse para que la plantilla se pueda utilizar en Journey Optimizer.
+* Las colecciones no se pueden pasar en los campos de datos de Personalization.
+* Para las plantillas basadas en eventos (rtEvent), la administración de bajas debe gestionarse manualmente con una condición antes de enviarlas.
+* En el caso de los mensajes push basados en perfiles, los campos de Target se recuperan automáticamente; la categoría de Target solo está visible para los mensajes de evento.
+* La aplicación móvil debe configurarse con Campaign Standard para poder utilizar la actividad push.
+
+**Terminología:**
+
+* Nombre canónico: Adobe Campaign Standard — Acrónimo: ACS — variantes: Campaign Standard
+* Sinónimos: &quot;mensaje transaccional de evento&quot; = &quot;rtEvent&quot;; &quot;mensaje transaccional en tiempo real&quot; = &quot;rtEvent&quot;
+* No confunda: &quot;plantilla transaccional de perfil&quot; (cancelación de suscripción gestionada automáticamente) ≠ &quot;plantilla transaccional de evento&quot; (la cancelación de suscripción debe gestionarse manualmente)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Qué canales están disponibles a través de la integración de Adobe Campaign Standard?** — Los canales de correo electrónico, SMS y notificaciones push están disponibles como actividades de acción integradas.
+* **Q: ¿Es necesario publicar el mensaje transaccional en Campaign Standard antes de utilizarlo en Journey Optimizer?** — Sí, tanto el mensaje transaccional como su evento asociado deben publicarse; un mensaje sin publicar no se puede utilizar aunque esté visible en la interfaz.
+* **Q: ¿Cómo se administra la baja para las plantillas de correo electrónico basadas en perfiles?** — Adobe Campaign Standard gestiona automáticamente la baja al utilizar una plantilla transaccional de perfil; incluya un bloque de contenido Vínculo de baja en la plantilla.
+* **Q: ¿Puedo pasar una colección como datos de personalización?** — No, las colecciones no se pueden pasar en los datos de Personalization; el mensaje transaccional no debe esperar colecciones.
+* **Q: ¿Dónde asigno la dirección de destinatario para un correo electrónico basado en eventos?** — La categoría Dirección del panel de configuración de actividad sólo está visible para los mensajes transaccionales de eventos; para los mensajes de perfil, la dirección se recupera automáticamente.
+
++++

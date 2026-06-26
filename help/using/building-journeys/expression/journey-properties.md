@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 2%
+source-wordcount: 1103
+ht-degree: 1%
 
 ---
 
@@ -79,3 +79,49 @@ A continuación se muestran algunos ejemplos de casos de uso:
 | | lastDataFetchErrorCode | Último código de error de recuperación de datos | Código de error de la última recuperación de datos de las fuentes de datos |
 | Fecha | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de la acción | Tiempo empleado para ejecutar la acción más reciente |
 | | lastDataFetchElapsedTime | Tiempo transcurrido en la última recuperación de datos | Tiempo empleado para ejecutar la captura de datos más reciente de las fuentes de datos |
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página describe la categoría Propiedades de Recorrido en el editor de expresiones: un conjunto de campos técnicos sobre la instancia de recorrido activa (ID, errores, nodos actuales/anteriores, tiempos transcurridos) que se pueden utilizar para generar expresiones para el registro, las alertas y los informes específicos de errores.
+
+**Intenciones:**
+
+* Acceda a los campos Propiedades de Recorrido en el editor de expresiones simples o avanzadas para hacer referencia a los metadatos de recorrido en directo
+* Cree una condición que filtre los perfiles descartados por tipo de error para enrutarlos a un sistema de registro de terceros
+* Enviar alertas de error a un canal externo (por ejemplo, Slack) haciendo referencia al último código de error y al nombre del nodo en una acción personalizada
+* Restrinja el informe de errores de recorrido creando rutas de condición independientes por tipo de error con `lastNodeTypeInError` y `lastErrorCode`
+* Identificadores de versión de recorrido de referencia, identificadores de instancia y nombre de zona protegida en expresiones para seguimiento y auditoría
+
+**Glosario:**
+
+* **Propiedades de Recorrido**: categoría del editor de expresiones que contiene campos de metadatos técnicos para la instancia de ejecución de recorrido actual *(específica del producto)*
+* **instanceUID**: El identificador único de la instancia de recorrido para la ejecución de un perfil determinado *(específico del producto)*
+* **lastErrorCode**: El código de error de la actividad fallida más reciente en el recorrido; los valores posibles incluyen códigos HTTP, `capped`, `timedOut` y `error` *(específico del producto)*
+* **lastNodeTypeInError**: El tipo de la última actividad que encontró un error; puede ser Eventos, Control de flujo o Acciones *(específicas del producto)*
+* **externalKey**: El identificador individual (por ejemplo, el identificador de perfil) que activó la instancia de recorrido *(específica del producto)*
+
+**Protecciones:**
+
+* Los valores del campo Propiedades de recorrido se recuperan directamente de la recorrido activa en el momento de la ejecución y no están disponibles para la validación previa a la ejecución
+* El campo `lastErrorCode` utiliza valores predefinidos: códigos de error HTTP, `capped`, `timedOut` y `error`
+* Las Propiedades de recorrido están disponibles en los editores de expresiones simples y avanzados, en la categoría Propiedades de Recorrido
+
+**Terminología:**
+
+* Nombre canónico: Propiedades de Recorrido — Acrónimo: none — variantes: campos técnicos de recorrido, campos de metadatos de recorrido
+* Sinónimos: &quot;Propiedades de Recorrido&quot; = &quot;Campos técnicos de recorrido&quot;; &quot;instanceUID&quot; = &quot;Identificador de instancia de recorrido&quot;
+* No confunda: journeyUID (identifica la definición del recorrido) ≠ instanceUID (identifica la ejecución del recorrido por parte de un perfil específico)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Dónde se encuentran los campos Propiedades de Recorrido en el editor de expresiones?** — Aparecen en los editores de expresiones simples y avanzados en la categoría Propiedades del Recorrido, debajo de Eventos y Fuentes de datos.
+* **Q: ¿Cómo puedo registrar los perfiles descartados por una regla de límite?** — Añada un filtro de condición de ruta de error en `lastErrorCode == "capped"` e inserte esos perfiles en un sistema de terceros mediante una acción personalizada.
+* **Q: ¿Cuál es la diferencia entre `journeyUID` y `instanceUID`?** — `journeyUID` identifica la definición de recorrido; `instanceUID` identifica una instancia de ejecución específica para un perfil determinado.
+* **Q: ¿Qué código de error se devolvió por un error inesperado del sistema?** — El código `error`, que se usa como predeterminado para errores inesperados y que rara vez debería producirse.
+* **Q: ¿Puedo usar los campos de Propiedades de Recorrido para enviar alertas de Slack sobre errores de acción?** — Sí; hacer referencia a `lastNodeNameInError` y `lastErrorCode` en una acción personalizada para incluir detalles de error en una notificación de Slack.
+
++++

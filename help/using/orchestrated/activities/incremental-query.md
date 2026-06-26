@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +51,9 @@ Usos habituales:
 * **Mensajería y audiencias**: Para ir al siguiente paso (por ejemplo, correo electrónico, SMS), solo necesita nuevos registros, nuevos compradores u otros segmentos &quot;nuevos desde la última ejecución&quot;.
 * **Exportaciones en curso**: envíe solo filas nuevas o actualizadas a archivos para herramientas de informes o BI, sin duplicar lo que ya exportó.
 
-Cuando una ejecución no devuelve filas, la campaña orquestada se detiene en la **consulta incremental**. Las actividades posteriores a la consulta incremental no se ejecutan hasta que hay datos, cuando la campaña se ejecuta de nuevo.
+>[!IMPORTANT]
+>
+>Cuando una ejecución no devuelve filas, la campaña orquestada se detiene en la **consulta incremental**. Las actividades posteriores a la consulta incremental no se ejecutan hasta que hay datos, cuando la campaña se ejecuta de nuevo.
 
 ## Configuración de la actividad Consulta incremental {#incremental-query-configuration}
 

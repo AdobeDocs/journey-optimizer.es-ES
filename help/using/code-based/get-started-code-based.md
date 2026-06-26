@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 986
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra cómo el canal basado en código le permite enviar contenido personalizado a ubicaciones granulares en sus aplicaciones y páginas web, y cuándo utilizarlo en lugar de otros canales.
+**En esta página:** descubra cómo el canal basado en código le permite enviar contenido personalizado a ubicaciones granulares en sus aplicaciones y páginas web, y cuándo utilizarlo en lugar de otros canales.
 
 >[!ENDSHADEBOX]
 

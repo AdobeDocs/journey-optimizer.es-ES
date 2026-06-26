@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 2137
-ht-degree: 6%
+source-wordcount: 2684
+ht-degree: 5%
 
 ---
 
@@ -240,6 +240,52 @@ Esta función incluye los siguientes permisos:
 | Gestión de decisiones | <ul><li>**[!DNL View decisions]**: acceso de solo lectura a entidades de decisiones.</li></ul> |
 | Reglas de Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: acceso de solo lectura a reglas de frecuencia.</li></ul> |
 | Campañas orquestadas | <ul><li>**[!DNL View orchestrated campaigns]**: acceso de solo lectura a campañas organizadas.</li><li>**[!DNL View orchestrated campaigns report]**: acceso de solo lectura a los informes de campañas organizadas.</li></ul> |
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Journey Optimizer se distribuye con funciones integradas (desde Administrador de campañas hasta Visor de campañas orquestadas) y cada una incluye un conjunto de permisos listo para su uso, de modo que los administradores pueden otorgar rápidamente a los usuarios un nivel de acceso que coincida con sus responsabilidades sin tener que crear una función desde cero.
+
+**Intenciones:**
+
+* Identificar qué función integrada se adapta mejor a las responsabilidades laborales de un usuario
+* Comprender lo que cada función integrada puede hacer y no puede hacer (incluidos los derechos de publicación)
+* Comparar funciones entre dominios de recorrido, campaña y campaña orquestada
+* Asigne una función lista para usar en lugar de crear una personalizada
+* Comprender qué funciones incluyen acceso de asistente de IA
+
+**Glosario:**
+
+* **Función integrada**: conjunto predefinido de permisos y derechos de recursos listos para asignar a los usuarios sin configuración personalizada *(específica del producto)*
+* **Administrador de Recorrido**: función integrada que permite la administración y publicación de Recorridos y la administración de decisiones, incluida la configuración del canal y los permisos de control de datos *(específicos del producto)*
+* **Administrador de campañas**: función integrada que permite la administración y publicación de campañas y administración de decisiones, incluidas las configuraciones de canal *(específicas del producto)*
+* **Administrador de decisiones**: función integrada que proporciona acceso exclusivo al menú Administración de decisiones; puede administrar, ver y publicar decisiones *(específicas del producto)*
+* **Administrador de biblioteca de contenido**: función integrada que proporciona acceso solamente al menú Plantillas de contenido; no se puede obtener acceso a los recorridos o campañas *(específicos del producto)*
+* **Modo de prueba**: Modo de ejecución de recorrido al que se hace referencia en los permisos Administrar recorridos y Publicar recorridos (el administrador de Recorrido puede detener recorridos en modo de prueba; el permiso Publicar recorridos incluye el inicio del modo de prueba) *(específico del producto)*
+* **Ejecución en seco**: Modo de ejecución de recorrido al que se hace referencia en los permisos Administrar recorridos y Publicar recorridos junto con el modo de prueba *(específico del producto)*
+
+**Terminología:**
+
+* Nombre canónico: Funciones integradas — variantes: funciones integradas, funciones OOTB, perfiles de producto
+* No confunda: &quot;Aprobador de campaña&quot; (puede aprobar y publicar campañas) ≠ &quot;Administrador de campaña&quot; (puede crear y editar campañas, pero no puede publicarlas)
+* No confunda: &quot;Aprobador de Recorrido&quot; (puede aprobar y publicar recorridos) ≠ &quot;Administrador de Recorrido&quot; (puede crear y editar recorridos, pero no puede publicarlos)
+* No confunda: &quot;Visor de Recorridos&quot; (acceso de solo lectura a recorridos y administración de decisiones) ≠ &quot;Visor de campañas&quot; (acceso de solo lectura a campañas y administración de decisiones)
+* No confunda: &quot;Administrador de campañas orquestadas&quot; (administra campañas orquestadas, incluye el asistente de IA y la ingesta/administración de datos) ≠ &quot;Administrador de campañas&quot; (administra campañas estándar; no incluye permisos de campañas orquestadas)
+* No confunda: &quot;Modo de prueba&quot; (al que se hace referencia como estado de ejecución de recorrido que se puede detener o iniciar mediante Administrar recorridos/Publicar recorridos) ≠ &quot;Ejecución en seco&quot; (un modo de ejecución de recorrido independiente al que también se hace referencia en esos mismos permisos)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Qué funciones integradas pueden publicar recorridos?** — El administrador de Recorridos y el aprobador de Recorridos pueden publicar recorridos.
+* **Q: ¿Puede un administrador de Recorrido publicar recorridos?** — No; el Administrador de Recorrido puede crear y editar recorridos, pero el permiso Publicar recorridos no está incluido en esa función.
+* **Q: ¿Qué rol concede acceso solamente al menú Administración de decisiones?** — Gestor de decisiones.
+* **Q: ¿Qué rol proporciona acceso solo a las plantillas de contenido?** — Administrador de biblioteca de contenido.
+* **Q: ¿Qué funciones integradas incluyen el permiso Habilitar el asistente de IA?** — Administrador de campañas organizadas, Aprobador de campañas organizadas, Administrador de campañas organizadas y Visor de campañas organizadas.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: b9740765 -->
 
 
 

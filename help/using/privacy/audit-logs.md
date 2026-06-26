@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Revise los registros de auditoría que registran las acciones de los usuarios en los recursos de Journey Optimizer para que pueda aumentar la visibilidad, solucionar problemas y demostrar el cumplimiento de las regulaciones y las directivas de administración de datos.
+**En esta página:** revise los registros de auditoría que registran las acciones de los usuarios en los recursos de Journey Optimizer para que pueda aumentar la visibilidad, solucionar problemas y demostrar el cumplimiento de las regulaciones y las políticas de administración de datos.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ Con Journey Optimizer, puede identificar las acciones ejecutadas por los usuario
 
 Esto le permite aumentar la visibilidad de las actividades realizadas en el sistema, solucionar problemas y ayudar a su empresa a cumplir con las regulaciones y las políticas de administración de datos corporativos..
 
-Cada acción se registra con metadatos en “registros de auditoría” a los que se puede acceder desde Adobe Experience Platform. Para obtener más información sobre los registros de auditoría, incluido cómo verlos y administrarlos en la IU o la API, consulte [&#x200B; la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=es).
+Cada acción se registra con metadatos en “registros de auditoría” a los que se puede acceder desde Adobe Experience Platform. Para obtener más información sobre los registros de auditoría, incluido cómo verlos y administrarlos en la IU o la API, consulte [ la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=es).
 
 ![](assets/audit-logs.png)
 
@@ -83,6 +83,6 @@ La siguiente tabla indica qué acciones y sobre qué recursos de Journey Optimiz
 | Acción personalizada de recorrido | Creación/eliminación/actualización |
 | Fuente de datos de recorrido | Creación/eliminación/actualización |
 | Evento de recorrido | Creación/eliminación/actualización |
-| fragmento de recorrido | Creación/eliminación/actualización/activación/archivo |
+| Fragmento del recorrido | Creación/eliminación/actualización/activación/archivado |
 | Regla de frecuencia de mensajes | Creación/eliminación/actualización |
 | Estrategia de clasificación | Creación/eliminación/actualización |

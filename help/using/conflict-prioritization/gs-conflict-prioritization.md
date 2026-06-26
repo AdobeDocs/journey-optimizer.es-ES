@@ -1,5 +1,5 @@
 ---
-title: Administración de conflictos y priorización
+title: Administración y priorización de conflictos
 description: Aproveche las herramientas de conflictos y priorización de Journey Optimizer.
 role: User
 level: Beginner
@@ -22,17 +22,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 896
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Administración de conflictos y priorización {#conflict-prioritization}
+# Administración y priorización de conflictos {#conflict-prioritization}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra cómo la detección de conflictos, las puntuaciones de prioridad y los conjuntos de reglas funcionan juntos para que pueda evitar comunicaciones superpuestas y controlar la frecuencia con la que se envían mensajes a los clientes.
+**En esta página:** descubra cómo la detección de conflictos, las puntuaciones de prioridad y los conjuntos de reglas funcionan juntos para que pueda evitar comunicaciones superpuestas y controlar la frecuencia con la que se envían mensajes a los clientes.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Los conjuntos de reglas permiten **agrupar varias reglas en múltiples reglas** 
 
 [Descubra cómo trabajar con conjuntos de reglas](rule-sets.md)
 
-## Protecciones y limitaciones {#guardrails}
+## Mecanismos de protección y limitaciones {#guardrails}
 
 * **Campañas y puntuaciones de prioridad**: en las campañas, la puntuación de prioridad solo está disponible en los canales de entrada **web**, **en la aplicación** y **basados en código**.
 

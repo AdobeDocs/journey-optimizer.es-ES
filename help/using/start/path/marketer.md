@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Siga una ruta de introducción para los especialistas en marketing a fin de que pueda crear audiencias, diseñar contenido y organizar recorridos y campañas que ofrezcan experiencias de cliente personalizadas en Journey Optimizer.
+**En esta página:** Siga una ruta de introducción para los especialistas en marketing a fin de que pueda crear públicos, diseñar contenido y orquestar recorridos y campañas que ofrezcan experiencias de cliente personalizadas en Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Conozca los pasos esenciales para configurar el canal de correo electrónico en Adobe Journey Optimizer, desde delegar subdominios y crear grupos de IP hasta configurar configuraciones de canal, campos de ejecución y reintentos.
+**En esta página:** conozca los pasos necesarios para configurar el canal de correo electrónico en Adobe Journey Optimizer, desde delegar subdominios y crear grupos de IP hasta configurar configuraciones de canal, campos de ejecución y reintentos.
 
 >[!ENDSHADEBOX]
 

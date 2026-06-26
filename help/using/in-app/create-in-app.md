@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="Acción de mensaje en la aplicación"
->abstract="Una acción entrante de mensaje en la aplicación muestra un mensaje en la aplicación a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración en la aplicación que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (de forma predeterminada, 3 días), lo que proporciona a los perfiles tiempo para ver el mensaje en la aplicación."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción entrante de mensaje en la aplicación muestra un mensaje en la aplicación a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración en la aplicación que define el contenido mostrado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Esperar** después de esta actividad (de forma predeterminada, tres días), lo que da a los perfiles tiempo para ver el mensaje en la aplicación."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 Puede añadir un mensaje en la aplicación en una campaña o en un recorrido. Siga los pasos detallados a continuación para crear un mensaje en la aplicación en ambos contextos.
 

@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Comprenda cómo funciona el canal de correo postal para que pueda generar los archivos de extracción que los proveedores de terceros utilizan para enviar correo físico a sus clientes.
+**En esta página:** comprenda cómo funciona el canal de correo directo para que pueda generar los archivos de extracción que los proveedores de terceros utilizan para enviar correo físico a sus clientes.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Los pasos principales para enviar mensajes de correo directo son los siguientes:
 
 * **[Cree correo postal](create-direct-mail.md)**: aprenda a crear envíos de correo postal y a configurar archivos de extracción para canales sin conexión.
 * **[Configure el canal de correo postal](direct-mail-configuration.md)**: configure las superficies de correo postal y las configuraciones de enrutamiento de archivos.
-* **[Toma de decisiones por lotes en el correo postal](../experience-decisioning/batch-decisioning-direct-mail.md)**: use la toma de decisiones para personalizar los archivos de extracción para el correo postal o para exportar los datos de toma de decisiones para los sistemas descendentes.
+* **[Toma de decisiones por lotes en el correo directo](../experience-decisioning/batch-decisioning-direct-mail.md)**: use la toma de decisiones para personalizar los archivos de extracción para el correo directo o para exportar los datos de toma de decisiones para los sistemas descendentes.
 * **[Pruebe y envíe correo postal](test-send-direct-mail.md)**: aprenda a probar, validar y publicar sus envíos de correo postal.
 * **[Tutoriales de correo postal](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del correo directo y las prácticas recomendadas.
 

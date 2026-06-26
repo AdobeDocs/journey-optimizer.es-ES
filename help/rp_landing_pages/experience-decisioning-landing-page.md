@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: ht
-source-wordcount: '354'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Conozca los aspectos básicos de las tomas de decisiones en Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Mecanismos de protección y limitaciones de las tomas de decisiones
 
@@ -70,7 +70,7 @@ Configure y administre elementos de decisión, catálogos y colecciones para org
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Crear reglas de decisión
 
@@ -80,7 +80,7 @@ Defina reglas de decisión para dirigirse a los públicos con precisión mediant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Crear clasificaciones con modelos de IA
 

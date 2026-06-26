@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '361'
+workflow-type: ht
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Descubra cómo comprobar si un valor existe en una lista mediante la función &#
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
-Función intersect en Adobe Journey Optimizer 
+Función intersect en Adobe Journey Optimizer
 
 Conozca cómo la función &#39;intersect&#39; recupera valores comunes entre dos listas de entrada.
 

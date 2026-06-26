@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 389
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Empiece a usar las notificaciones push en Adobe Journey Optimizer para llegar a los usuarios de su aplicación móvil y a los visitantes web a través de recorridos y campañas.
+**En esta página:** empiece a usar las notificaciones push en Adobe Journey Optimizer para llegar a los usuarios de su aplicación móvil y a los visitantes del sitio web a través de recorridos y campañas.
 
 >[!ENDSHADEBOX]
 

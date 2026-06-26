@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 344
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Empiece a utilizar el canal de correo electrónico en Adobe Journey Optimizer y aprenda a crear, diseñar, personalizar y previsualizar mensajes de correo electrónico en recorridos y campañas mediante el Designer de correo electrónico.
+**En esta página:** empiece a utilizar el canal de correo electrónico en Adobe Journey Optimizer y aprenda a crear, diseñar, personalizar y previsualizar mensajes de correo electrónico en recorridos y campañas mediante el diseñador de correo electrónico.
 
 >[!ENDSHADEBOX]
 

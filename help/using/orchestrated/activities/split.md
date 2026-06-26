@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 85%
+source-wordcount: 876
+ht-degree: 80%
 
 ---
 
@@ -99,6 +99,8 @@ Siga estos pasos para configurar la actividad **[!UICONTROL División]**:
    1. Haga clic en **[!UICONTROL Crear filtro]** para definir las reglas de filtrado con el generador de reglas; por ejemplo, seleccione perfiles con una dirección de correo electrónico válida.
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. En el campo **[!UICONTROL Código de segmento]**, escriba un código para identificar el subconjunto en los registros. Este código se almacena junto con los datos de perfil y se puede utilizar para realizar un seguimiento y medir el rendimiento de cada segmento. Si se deja vacía, se utiliza automáticamente la etiqueta de subconjunto.
 
    1. Para limitar el número de perfiles seleccionados, active **[!UICONTROL Habilitar límite]** y especifique un número o porcentaje.
 

@@ -28,9 +28,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +246,15 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Puede navegar entre las pestañas **[!UICONTROL Adobe themes]** y **[!UICONTROL Mis temáticas]**, y seleccionar hasta cinco temáticas compatibles (de ambas pestañas) para su fragmento.
 
+   >[!NOTE]
+   >
+   >Este límite se impone por motivos de compatibilidad y rendimiento. El **[!UICONTROL tema predeterminado de Adobe]** no se puede quitar, por lo que puede seleccionar hasta cuatro temas personalizados adicionales.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Cuando use el fragmento en un contenido de correo electrónico, asegúrese de [aplicar un tema](#apply-themes-email) que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores.
+   >Al utilizar este fragmento en un contenido de correo electrónico, el tema de correo electrónico debe ser uno de los temas asociados con el fragmento. Si la temática no coincide, la inserción del fragmento se bloquea.
 
 1. Haga clic en **[!UICONTROL Cerrar]**.
 

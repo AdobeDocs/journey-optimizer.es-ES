@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2335
+source-wordcount: 3075
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 
 * **Deshabilitando el modo de prueba**: cuando deshabilita el modo de prueba, se quitan todos los perfiles que estén actualmente en la recorrido o que hayan entrado anteriormente en ella y se borran los informes.
 * **Flexibilidad de reactivación**: puede habilitar y deshabilitar el modo de prueba tantas veces como sea necesario.
-* **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** vuelven automáticamente al estado Borrador para optimizar el rendimiento y evitar el uso de recursos obsoletos.
+* **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** salen automáticamente del modo de prueba y vuelven al estado Borrador. No se pierde contenido del recorrido; solo finaliza la sesión del modo de prueba.
 * **Edición y publicación**: mientras el modo de prueba esté activo, no puede modificar el recorrido. Sin embargo, puede publicar directamente el recorrido, sin necesidad de desactivar el modo de prueba antes.
 
 ### Ejecución
@@ -154,7 +154,7 @@ Para validar el recorrido de extremo a extremo:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configurar el modo de prueba"
->abstract="Si un recorrido contiene varios eventos, se utiliza la lista desplegable para seleccionar un evento. Para cada evento, se configuran los campos pasados y la ejecución del envío del evento."
+>abstract="Si un recorrido contiene varios eventos, la lista desplegable se utiliza para seleccionar un evento. Para cada evento, se configuran los campos pasados y la ejecución del envío del evento."
 
 Use el botón **[!UICONTROL Déclencheur un evento]** para configurar un evento que hará que una persona entre en el recorrido.
 
@@ -249,3 +249,56 @@ Cuando se activa un evento con el modo de prueba, se genera automáticamente un 
 
 El modo de prueba crea automáticamente un Evento de experiencia y lo envía a [!DNL Adobe Experience Platform]. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar el modo de prueba en Adobe Journey Optimizer para validar un recorrido con perfiles de prueba persistentes antes de la publicación, lo que incluye la activación del modo de prueba, la activación de eventos, la lectura de registros y la administración de eventos empresariales y basados en reglas.
+
+**Intenciones:**
+* Active el modo de prueba en un recorrido de borrador para validarlo con perfiles de prueba de AEP preexistentes
+* Configuración y déclencheur de eventos para perfiles de prueba mediante la interfaz de Déclencheur y evento
+* Anular las duraciones de la actividad de espera en el modo de prueba para acelerar la progresión del recorrido
+* Lea e interprete la salida de Mostrar registro JSON para verificar la progresión del perfil e identificar errores
+* Probar recorridos basados en reglas y recorridos de eventos empresariales en el modo de prueba
+* Comprenda las limitaciones y diferencias de comportamiento del modo de prueba en comparación con la simulación
+
+**Glosario:**
+* **Modo de prueba**: Un estado de validación de recorrido que permite que los perfiles de prueba persistentes de AEP atraviesen un recorrido de borrador antes de publicarse *(específico del producto)*
+* **Perfiles de prueba**: los perfiles se han marcado explícitamente como perfiles de prueba en el servicio Perfil del cliente en tiempo real de Adobe Experience Platform; el único tipo de perfil que permite introducir un recorrido en el modo de prueba *(específico del producto)*
+* **Flujo visual**: la representación de lienzo que se vuelve verde para mostrar la ruta que ha seguido un perfil de prueba a través del recorrido
+* **Mostrar registro**: característica de modo de prueba que muestra el estado de ejecución del recorrido en formato JSON para cada instancia de perfil de prueba *(específica del producto)*
+* **Eventos de prueba de Journey Orchestration**: El nombre de origen en el que se almacenan los eventos de experiencia del modo de prueba en Adobe Experience Platform.
+
+**Protecciones:**
+* Solo los perfiles marcados como perfiles de prueba en AEP pueden introducir un recorrido en el modo de prueba
+* El modo de prueba requiere que el recorrido utilice un área de nombres para comprobar la identidad del perfil de prueba
+* Máximo de 100 perfiles de prueba por sesión de prueba única
+* Los eventos solo se pueden activar desde la interfaz de usuario del modo de prueba; no se admite la activación de API externa
+* El enriquecimiento de atributos de audiencia de carga personalizada no se admite en el modo de prueba
+* Los eventos activados en el modo de prueba generan eventos de experiencia real que también pueden almacenar en déclencheur otros recorridos que escuchen el mismo evento
+* En el modo de prueba, las actividades de espera y la mayoría de los tiempos de espera de evento tienen un valor predeterminado de 10 segundos; los tiempos de espera de evento de reacción tienen un valor predeterminado de al menos 40 segundos
+* Desactivación automática: los Recorridos que permanecen inactivos en el modo de prueba durante más de una semana abandonan automáticamente el modo de prueba y vuelven al estado Borrador. No se pierde contenido del recorrido; solo finaliza la sesión del modo de prueba.
+* Las ediciones de recorrido se bloquean mientras el modo de prueba está activo, pero se permite la publicación directa
+* En una división, la rama superior siempre está seleccionada; reordene las ramas para probar diferentes rutas
+* Tiempo de espera mínimo del evento de reacción y el tiempo de espera predeterminado es de 40 segundos
+* Los eventos enviados fuera de la ventana de fecha de inicio y finalización configurada del recorrido se descartan de forma silenciosa
+* Al desactivar el modo de prueba, se eliminan todos los perfiles de la recorrido y se borra la creación de informes
+
+**Terminología:**
+* Nombre canónico: Modo de prueba — Acrónimo: none — variantes: modo de prueba, modo de prueba recorrido
+* Nombre canónico: Perfiles de prueba — Acrónimo: none — variantes: usuarios de prueba (solo etiqueta de IU de simulación)
+* Sinónimos: &quot;Mostrar registro&quot; = registro de resultados de la prueba; &quot;flujo visual&quot; = visualización de la ruta del lienzo
+* No confunda: &quot;Modo de prueba&quot; ≠ &quot;Simulación&quot;. El modo de prueba utiliza perfiles de prueba AEP persistentes; la simulación utiliza usuarios simulados temporales generados sobre la marcha
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Quién puede introducir un recorrido en modo de prueba?** — Solo perfiles marcados explícitamente como perfiles de prueba en el servicio Perfil del cliente en tiempo real de Adobe Experience Platform.
+* **Q: ¿Cuántos perfiles de prueba se pueden ejecutar en una sola sesión de prueba?** — Un máximo de 100 perfiles de prueba por sesión de prueba.
+* **Q: ¿Qué sucede cuando deshabilito el modo de prueba?** — Se eliminan todos los perfiles actualmente en la recorrido o introducidos anteriormente en ella y se borra la creación de informes.
+* **Q: ¿Puedo editar un recorrido mientras el modo de prueba está activo?** — No. El recorrido no se puede modificar mientras el modo de prueba esté activo, pero puede publicarlo directamente sin desactivar primero el modo de prueba.
+* **Q: ¿Por qué se descartan silenciosamente mis eventos de prueba?** — Los eventos activados fuera de la ventana de fecha/hora activa configurada para el recorrido se descartan de forma silenciosa. Compruebe que las fechas de inicio y finalización del recorrido incluyen la hora actual.
+* **Q: ¿Qué indica el campo de fase del registro de prueba?** — Muestra el estado actual del perfil: en ejecución (activo en el recorrido), terminado (llegado al final), error (detenido debido al error) o agotado (detenido debido al tiempo de espera).
+
++++

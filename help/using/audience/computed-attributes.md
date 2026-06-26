@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 956
+source-wordcount: 1012
 ht-degree: 1%
 
 ---
@@ -96,7 +96,11 @@ Dado que los atributos calculados son campos de atributos de perfil creados en s
 
 ![](assets/computed-attributes-ajo.png)
 
-+++Asistente de IA: contexto de página
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
 
 - **TL;DR:** Aprenda a crear atributos calculados en Adobe Experience Platform y a aprovecharlos en Journey Optimizer para la segmentación, personalización y lógica de recorrido.
 

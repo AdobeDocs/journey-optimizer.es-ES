@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ae7ea7c6b3f111dca040173221eec5210c41bef8
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 666
 ht-degree: 4%
@@ -43,7 +43,7 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
 ## Protecciones y limitaciones
 
-* **Acceso**: disponible solo en la región de EE. UU. para organizaciones con licencia con el complemento de mensajería transaccional de alto rendimiento.
+* **Acceso**: disponible en todas las regiones, excepto en Suiza, para organizaciones con licencia del complemento de mensajería transaccional de alto rendimiento.
 
 * **Canales**: Actualmente solo está disponible para correo electrónico.
 

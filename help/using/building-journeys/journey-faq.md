@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 1%
+source-wordcount: 6214
+ht-degree: 0%
 
 ---
 
@@ -185,7 +185,7 @@ Obtenga más información sobre [audiencias](../audience/about-audiences.md), [c
 
 Usar **recorridos unitarios** cuando:
 
-* Debe reaccionar ante las acciones individuales de los clientes en tiempo real (por ejemplo, confirmación de compra o abandono del carro de compras)
+* Debe reaccionar a las acciones individuales de los clientes en tiempo real (por ejemplo, abandono del carro de compras, incorporación de nuevos miembros)
 * Cada cliente debe progresar a su propio ritmo
 * Desea almacenar en déclencheur según eventos específicos
 
@@ -286,17 +286,17 @@ Más información sobre [actualizaciones de perfil](update-profiles.md).
 
 +++
 
-+++ ¿Cómo envío un correo electrónico inmediatamente después de que alguien realice una compra?
++++ ¿Cómo envío un correo electrónico inmediatamente después de abandonar un carro de compras?
 
 Crear un **recorrido activado por evento unitario**:
 
-1. Configure un evento &quot;Purchase&quot; con los detalles del pedido
+1. Configure un evento de &quot;Abandono del carro de compras&quot; con los detalles relevantes del carro de compras
 2. Añada el evento como punto de entrada de recorrido
 3. Seguir inmediatamente con una acción de correo electrónico
-4. Diseñe su correo electrónico de confirmación de pedido con detalles personalizados del pedido
+4. Diseñe el correo electrónico de recuperación del carro de compras con detalles personalizados del producto
 5. Publicación del recorrido
 
-El recorrido envía automáticamente un déclencheur cada vez que se recibe un evento de compra y envía el correo electrónico de confirmación en tiempo real.
+El recorrido se almacenará en déclencheur automáticamente cada vez que se reciba un evento de abandono del carro de compras y se enviará el correo electrónico de recuperación en tiempo real.
 
 Más información sobre [configuración de eventos](../event/about-events.md) y [acciones de correo electrónico](journey-action.md).
 
@@ -369,7 +369,7 @@ Más información sobre [administración de huso horario](timezone-management.md
 
 **Prácticas recomendadas para tiempos de espera**:
 
-* **Mensajes transaccionales** (confirmaciones de pedidos): enviar inmediatamente
+* **Mensajes de marketing activados** (recuperación de abandono del carro de compras): enviar inmediatamente
 * **Serie de bienvenida**: 1-3 días entre correos electrónicos
 * **Contenido educativo**: de 3 a 7 días entre mensajes
 * **Campañas promocionales**: al menos 7 días entre ofertas
@@ -1005,3 +1005,53 @@ Para obtener más información y actualizaciones, explore los siguientes recurso
 * [Guías de solución de problemas](troubleshooting.md)
 * [Casos de uso de recorrido](jo-use-cases.md)
 * [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página es una lista de preguntas frecuentes completa que abarca conceptos de orquestación de recorrido, recorridos de creación, pruebas y publicación, supervisión de ejecución, funciones avanzadas y prácticas recomendadas en Adobe Journey Optimizer.
+
+**Intenciones:**
+* Comprenda los cuatro tipos de recorrido (unitario, Leer audiencia, Calificación de audiencias, evento empresarial) y cuándo usar cada uno
+* Decidir entre un recorrido y una campaña para un caso de uso determinado
+* Configure las opciones de reentrada para controlar la frecuencia con la que un perfil puede entrar en el mismo recorrido
+* Solucionar problemas de por qué no se ha introducido un perfil o por qué no se han enviado mensajes
+* Aplicar reglas de límite de recorrido para evitar la fatiga de los mensajes en varios recorridos
+* Utilice fragmentos de Recorrido para reutilizar secuencias de nodos comunes en los recorridos
+
+**Glosario:**
+* **recorrido unitario**: un recorrido activó un perfil a la vez debido a un evento en tiempo real, como una compra o registro *(específico del producto)*
+* **Leer recorrido de audiencias**: recorrido que procesa todos los perfiles de una audiencia por lotes a la vez o según una programación *(específica del producto)*
+* **recorrido de calificación de audiencia**: se desencadenó un recorrido cuando un perfil entra o sale del segmento de audiencia de flujo continuo *(específico del producto)*
+* **Límite de Recorrido**: Una configuración que limita la cantidad de veces que un perfil puede introducir recorridos en un período de tiempo o la cantidad de recorridos en los que un perfil puede estar simultáneamente *(específico del producto)*
+* **Fragmento de Recorrido**: conjunto estático reutilizable de nodos de recorrido creados una vez e insertados en varios recorridos en tiempo de diseño *(específico del producto)*
+* **Optimización del tiempo de envío (STO)**: característica controlada por IA que predice el tiempo de envío óptimo para cada perfil individual para maximizar la participación *(específica del producto)*
+* **Identificador suplementario**: Identificador adicional que permite a un perfil introducir el mismo recorrido varias veces para entidades diferentes (por ejemplo, pedidos independientes) *(específico del producto)*
+
+**Protecciones:**
+* Máximo de 50 actividades por recorrido
+* La duración máxima del recorrido es de 91 días (tiempo de espera global)
+* Las audiencias de carga y las audiencias de composición de audiencia federada no son compatibles con los recorridos de calificación de audiencias
+* Los eventos de reacción deben colocarse inmediatamente después de una acción de canal, sin una actividad de espera en el medio
+* No se permiten actividades de salto dentro de un fragmento de Recorrido
+* Un fragmento de Recorrido admite un máximo de 20 nodos; una zona protegida admite un máximo de 200 fragmentos activos
+* La calificación de audiencia de streaming se puede retrasar hasta 10 minutos después de la publicación del recorrido para los perfiles que ya están en la audiencia
+
+**Terminología:**
+* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, orquestación, flujo
+* Sinónimos: &quot;Cerca de nuevas entradas&quot; = &quot;parada correcta&quot;; &quot;parada&quot; = &quot;parada inmediata&quot;
+* No confunda: &quot;Recorrido&quot; ≠ &quot;Campaña&quot;: los recorridos admiten la orquestación activada por eventos de varios pasos; las campañas son envíos únicos o programados basados en audiencias
+* No confunda: &quot;Simulación&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: la simulación utiliza usuarios simulados temporales; el modo de prueba utiliza perfiles de prueba AEP persistentes; la ejecución en seco utiliza datos de producción reales sin ponerse en contacto con los clientes ni actualizar perfiles
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es el número máximo de actividades en un recorrido?** — 50 actividades; mantener los recorridos más simples mejora la capacidad de mantenimiento y el rendimiento.
+* **Q: ¿Por qué un perfil no ingresó a mi recorrido?** — Entre las causas comunes se incluyen el evento de activación que no se recibe, los criterios de audiencia que no se cumplen, las reglas de reentrada que bloquean la reentrada, la cancelación de la publicación del recorrido o una discrepancia en el área de nombres.
+* **Q: ¿Puedo modificar la estructura de un recorrido activo?** — No; los cambios estructurales requieren la creación de una nueva versión del recorrido. El contenido del mensaje se puede actualizar sin una nueva versión.
+* **Q: ¿Cuál es la diferencia entre Pausar, Cerrar a nuevas entradas y Detener?** — Pausar suspende temporalmente el recorrido mientras se mantienen o se descartan los perfiles en vuelo. Cerca de las nuevas entradas detiene las nuevas entradas, pero permite que finalicen los perfiles existentes. Stop sale inmediatamente de todos los perfiles.
+* **Q: ¿Cuándo debo usar fragmentos de Recorrido en lugar de la actividad de salto?** — Utilice fragmentos para reutilizar la lógica de nodo común en tiempo de diseño (comportamiento de copiar y pegar). Utilice Saltar para redirigir perfiles a otro recorrido activo durante la ejecución.
+* **Q: ¿Cómo evito que se envíen demasiados mensajes al mismo cliente?** — aplique reglas de límite de recorrido (límite de entrada o límite de concurrencia) y utilice reglas empresariales de límite de frecuencia en acciones de canal individuales.
+
++++

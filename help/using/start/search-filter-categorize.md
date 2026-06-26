@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Busque y organice rápidamente recorridos, campañas y recursos con búsqueda universal, filtros de lista y etiquetas para que pueda seguir siendo productivo a medida que crezcan sus proyectos de Journey Optimizer.
+**En esta página:** busque y organice rápidamente recorridos, campañas y recursos con búsqueda universal, filtros de lista y etiquetas para que pueda seguir siendo productivo a medida que crezcan sus proyectos de Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

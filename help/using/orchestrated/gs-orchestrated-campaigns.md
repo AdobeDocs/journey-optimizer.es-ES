@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 940
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra cómo las campañas orquestadas en Adobe Journey Optimizer le permiten consultar conjuntos de datos relacionales, crear audiencias con recuentos exactos y enviar mensajes transaccionales y de marketing a través de varios canales.
+**En esta página:** descubra cómo las campañas orquestadas en Adobe Journey Optimizer le permiten consultar conjuntos de datos relacionales, crear públicos con recuentos exactos y enviar mensajes transaccionales y de marketing a través de varios canales.
 
 >[!ENDSHADEBOX]
 

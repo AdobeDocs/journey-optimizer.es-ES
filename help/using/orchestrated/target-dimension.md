@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 Con **[!UICONTROL campañas orquestadas]**, puede diseñar y entregar comunicaciones de destino en el nivel de entidad, aprovechando las capacidades de esquema relacional de Adobe Experience Platform. Experience Platform utiliza esquemas para describir la estructura de los datos de una manera uniforme y reutilizable. Cuando se incorporan datos en Experience Platform, se estructuran según un esquema XDM.
 
-Aunque la segmentación de **[!UICONTROL campañas orquestadas]** funciona principalmente en esquemas relacionales, la entrega de mensajes real siempre se produce en el nivel de **perfil**.
+**[!UICONTROL Las campañas orquestadas]** admiten dos tipos de dimensiones de segmentación:
 
-Al configurar el direccionamiento, se definen dos aspectos clave:
+* **Dimensión de segmentación de perfiles**: El valor predeterminado integrado, que se dirige a los destinatarios directamente mediante el esquema **Perfil**.
+* **Dimensión de segmentación personalizada**: Segmenta a los destinatarios a través de un esquema relacional (por ejemplo, `Recipients`, `Visitors`, `Customers`). Utilice esto cuando necesite enviar mensajes en el nivel de entidad, como por suscripción o por contrato, en lugar de en el nivel de perfil.
+
+Al configurar una dimensión de segmentación personalizada, se definen dos aspectos clave:
 
 * **Esquemas de destino**
 

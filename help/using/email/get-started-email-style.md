@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a ajustar el estilo del contenido del correo electrónico desde el panel Estilos de Designer de correo electrónico, aplicando configuraciones como colores, fuentes, bordes, márgenes y relleno a los componentes del cuerpo, estructura o contenido.
+**En esta página:** aprenda a ajustar el estilo del contenido del correo electrónico desde el panel Estilos del diseñador de correo electrónico, aplicando configuraciones como colores, fuentes, bordes, márgenes y relleno a los componentes del cuerpo, estructura o contenido.
 
 >[!ENDSHADEBOX]
 

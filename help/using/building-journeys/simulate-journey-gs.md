@@ -11,10 +11,10 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1507
-ht-degree: 2%
+source-wordcount: 2137
+ht-degree: 1%
 
 ---
 
@@ -150,5 +150,57 @@ Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas nu
 | Máximo de recorridos que se pueden ejecutar en **[!UICONTROL Simulation]** al mismo tiempo en una zona protegida | 20 | El límite lo comparten todos los recorridos de **[!UICONTROL Simulación]** en esa zona protegida a la vez. |
 | Máximo de usuarios simulados activos en una zona protegida | 2,000 | Máximo de usuarios simulados que pueden existir en la zona protegida al mismo tiempo. Adobe puede ajustar este límite en función de los comentarios de los clientes. |
 | Relleno previo de eventos (solo en el navegador) | — | Solo puede rellenar previamente los campos de carga útil de evento en la IU de simulación basada en el explorador. Los valores rellenados previamente permanecen en ese explorador y no se sincronizan con otros exploradores, dispositivos o sesiones, por lo que puede ver diferentes datos de rellenado previo en cada lugar que pruebe. |
+
++++
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página presenta la característica Simulación de Recorrido en Adobe Journey Optimizer, explicando en qué se diferencia del modo de prueba, qué tipos de recorrido admite, cómo iniciar una simulación y cuáles son sus limitaciones de nivel de nodo, funcionales y cuantitativas.
+
+**Intenciones:**
+* Comprender la diferencia entre los modos Simulación y Prueba para validar recorridos
+* Iniciar una sesión de simulación para un tipo de recorrido por lotes, unitario o mixto
+* Identifique los nodos de recorrido que bloquean o restringen la ejecución de la simulación
+* Determine qué funciones no son compatibles durante la simulación (por ejemplo, consentimiento, límite de frecuencia, STO).
+* Planifique en torno a protecciones cuantitativas, como el máximo de usuarios simulados por zona protegida
+* Decida si desea utilizar la simulación rápida o la simulación manual en función de las necesidades de prueba
+
+**Glosario:**
+* **Usuarios simulados**: entidades temporales de tipo perfil creadas para la simulación sin persistir en Adobe Experience Platform *(específicas del producto)*
+* **Simulación**: Un estado de recorrido (junto con Borrador, Modo de prueba y Activo) que se usa para realizar pruebas con usuarios simulados en lugar de perfiles de prueba persistentes *(específicos del producto)*
+* **Journey Agent**: el componente de IA que genera usuarios simulados, valores de evento y configuraciones de prueba durante la simulación rápida y la simulación manual asistida por IA *(específico del producto)*
+* **Simulación rápida**: ejecución de simulación automatizada de extremo a extremo que genera usuarios y eventos con una entrada manual mínima *(específica del producto)*
+* **Simulación manual**: Modo de simulación paso a paso en el que los usuarios y eventos se crean y desencadenan individualmente *(específico del producto)*
+
+**Protecciones:**
+* Requiere al menos uno de los permisos siguientes: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**
+* Las funciones de simulación con tecnología de IA requieren el permiso **Generar contenido** de la capacidad del Asistente de IA
+* Máximo de 20 usuarios simulados por lote Enviar todos o Déclencheur los eventos seleccionados
+* Máximo de 50 usuarios simulados por solicitud de generación de IA
+* Máximo de 100 usuarios únicos simulados por cada ejecución de simulación
+* 20 recorridos como máximo ejecutando la simulación simultáneamente en una zona protegida
+* Máximo de 2000 usuarios simulados activos en una zona protegida a la vez
+* Los recorridos activados por eventos empresariales no se pueden simular
+* No se pueden simular los recorridos de ID suplementarios con la reentrada múltiple habilitada
+* Las políticas de consentimiento, el límite de frecuencia, la exclusión, el tiempo de espera y las horas de inactividad no se evalúan durante la simulación
+* Los usuarios simulados no deben contener datos de clientes reales (no compatibles con el RGPD)
+
+**Terminología:**
+* Nombre canónico: Simulation — Acrónimo: none — variantes: Recorrido Simulation, Simulation mode
+* Nombre canónico: Usuarios simulados — Acrónimo: none — variantes: probar usuarios (en etiquetas de interfaz de usuario)
+* Sinónimos: &quot;Simulation&quot; = &quot;Simulation mode&quot;; &quot;simulated users&quot; = &quot;test users&quot; (solo etiqueta de interfaz de usuario)
+* No confunda: &quot;Simulación&quot; ≠ &quot;Modo de prueba&quot; (el modo de prueba utiliza perfiles de prueba de AEP persistentes; la simulación utiliza usuarios simulados temporales)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué permisos necesito para usar Simulation?** — Necesita al menos uno de: Simular recorridos, Publicar recorridos o Aprobar y publicar recorridos. Las funciones de IA también requieren el permiso Generar contenido de la capacidad Asistente de IA.
+* **Q: ¿En qué se diferencia la simulación del modo de prueba?** — La simulación utiliza usuarios simulados temporales creados sobre la marcha sin perfiles Adobe Experience Platform persistentes; el modo de prueba utiliza perfiles persistentes marcados explícitamente como perfiles de prueba en AEP.
+* **Q: ¿Puedo simular un recorrido que comience con un evento empresarial?** — No. Los recorridos activados por un evento empresarial no se pueden ejecutar en Simulación.
+* **Q: ¿Cuántos usuarios simulados puedo probar en una sola ejecución de simulación?** — Hasta 100 usuarios simulados únicos por ejecución; cada acción Enviar todo está limitada a 20 usuarios a la vez.
+* **Q: ¿Se aplican directivas de consentimiento durante la simulación?** — No. La evaluación de la política de consentimiento, el límite de frecuencia, la administración de exclusión y las horas de silencio no se evalúan durante la simulación.
+* **Q: ¿Qué sucede si mi recorrido tiene más de 50 rutas durante la generación de IA?** — Journey Agent selecciona aleatoriamente las rutas para producir un máximo de 50 usuarios simulados.
 
 +++

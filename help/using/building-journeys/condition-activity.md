@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 14%
+source-wordcount: 2580
+ht-degree: 10%
 
 ---
 
@@ -214,3 +214,51 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
    >[!NOTE]
    >
    >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se describe la actividad de la condición en Journey Optimizer, que abarca los cinco tipos de condición disponibles (Source de datos, Hora, División porcentual, Fecha y Límite de perfil) y cómo enrutar perfiles a diferentes rutas de recorrido en función de reglas, datos o pertenencia a audiencias.
+
+**Intenciones:**
+* Agregue una actividad Condición a un recorrido y cree varias rutas de ramificación
+* Configuración de una condición de Data Source mediante el editor de expresiones para evaluar atributos de perfil o evento
+* Configure una condición Hora para enrutar perfiles en función de la hora del día o del día de la semana
+* Utilice una división porcentual para distribuir aleatoriamente los perfiles entre las rutas
+* Aplique un límite de perfil para limitar el número de perfiles que toman una ruta de recorrido específica
+* Usar una comprobación de pertenencia a audiencia como condición en una ruta de recorrido
+
+**Glosario:**
+* **Actividad de condición**: Una actividad de recorrido que evalúa reglas y enruta perfiles a diferentes rutas en función del resultado *(específico del producto)*
+* **Condición de Data Source**: tipo de condición que evalúa campos de fuentes de datos o eventos de recorrido mediante el editor de expresiones *(específico del producto)*
+* **Condición de tiempo**: un tipo de condición que filtra perfiles en función de la hora del día, el día de la semana o una combinación de ambos *(específicos del producto)*
+* **División porcentual**: tipo de condición que distribuye aleatoriamente los perfiles entre las rutas mediante un mecanismo aleatorio estadístico de Java *(específico del producto)*
+* **Límite de perfil**: Tipo de condición que limita el número de perfiles que pueden tomar una ruta específica; los perfiles adicionales se enrutan a una ruta alternativa *(específica del producto)*
+* **Ruta alternativa**: Se activa una ruta de reserva cuando se alcanza un límite de error, tiempo de espera o límite de perfil *(específico del producto)*
+
+**Protecciones:**
+* La evaluación de condiciones falla para perfiles con más de dos identidades entre dispositivos en el almacén de perfiles
+* Los campos de esquema sin datos ingeridos se interpretan como nulos; isEmpty() y isNull() se evalúan como true para dichos campos, lo que puede provocar un comportamiento inesperado
+* La zona horaria se define en el nivel de recorrido, no en el nivel de condición individual
+* La opción &quot;Mostrar ruta para otros casos&quot; no está disponible en las condiciones de división de porcentaje
+* El límite predeterminado del perfil es 1000; counter se restablece cuando se duplica el recorrido o se crea una nueva versión, pero no entre las repeticiones de un recorrido recurrente
+* Para un capuchón superior a 10.000, inyectar al menos 1,3 veces el número de perfiles del capuchón; para un capuchón inferior a 10.000, inyectar al menos 1.000 más el capuchón
+* El límite de perfil no se aplica en el modo de prueba
+* Las consultas de series temporales (por ejemplo, lista de compras, clics anteriores) no son compatibles con el editor de expresiones simple; se debe utilizar el editor avanzado
+
+**Terminología:**
+* Nombre canónico: Actividad de condición — Acrónimo: none — variantes: nodo de condición, paso de condición
+* Sinónimos: &quot;Condición de Source de datos&quot; = &quot;condición basada en expresiones&quot; ; &quot;División porcentual&quot; = &quot;división aleatoria&quot;
+* No confunda: &quot;División porcentual&quot; ≠ &quot;Límite de perfil&quot; (la división porcentual distribuye aleatoriamente todos los perfiles; el límite de perfil detiene el enrutamiento a una ruta una vez que se alcanza un umbral de recuento)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué sucede cuando se definen varias rutas y un perfil cumple más de una condición?** — Solo se ejecuta la primera ruta elegible (de arriba a abajo en el lienzo); el orden de la ruta determina la prioridad.
+* **Q: ¿Puedo agregar una ruta de acceso de reserva para perfiles que no coinciden con ninguna condición?** — Sí, habilitar &quot;Mostrar ruta para otros casos que no sean los anteriores&quot; — excepto en condiciones de división porcentual, donde todos los perfiles siempre introducen una de las rutas divididas.
+* **Q: ¿Por qué mi condición isEmpty() se evalúa como true para un campo que espero que tenga datos?** — Si el campo de esquema existe pero no se han introducido datos para él, Journey Optimizer y el Perfil del cliente en tiempo real lo interpretan como nulo, por lo que isEmpty() y isNull() devuelven el valor true.
+* **Q: ¿Se restablece el contador de límite de perfil en un recorrido recurrente?** — No, el contador no se restablece entre repeticiones; sólo se restablece cuando se duplica el recorrido o se crea una nueva versión.
+* **Q: ¿Cómo funciona la división de porcentaje en el modo de prueba?** — En el modo de prueba, siempre se elige la rama superior independientemente de los porcentajes de división configurados.
+
++++

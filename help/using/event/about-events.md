@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c70b128e07c801e729a1268600265e47d7240291
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: 2181
 ht-degree: 27%
 
 ---
@@ -86,7 +86,7 @@ Se activa un evento **calificación de audiencia** cuando un perfil entra o sale
 |---|---|---|
 | **Vinculado a un perfil?** | Sí, se activa por la acción de un individuo específico. | No: se activa por una incidencia externa no vinculada a una persona. |
 | **Comportamiento de entrada** | Un perfil entra en el recorrido en tiempo real. | Varios perfiles introducen mediante un paso automático de Lectura de Audiencia. |
-| **Casos de uso habituales** | Confirmación de compra, envío de formulario, inicio de sesión en la aplicación, hito de lealtad. | Cancelación de vuelo, alerta de reposición de stock, noticias de última hora, evento meteorológico. |
+| **Casos de uso habituales** | Recuperación del abandono del carro de compras, envío de formularios, inicio de sesión en la aplicación, hito de lealtad. | Cancelación de vuelo, alerta de reposición de stock, noticias de última hora, evento meteorológico. |
 | **Cómo inicia el recorrido** | Entrada basada en eventos: no se necesita audiencia. | Evento empresarial + audiencia de lectura automática (añadida por Journey Optimizer). |
 | **Múltiple por recorrido?** | Sí, se pueden escuchar varios eventos unitarios a través de pasos de recorrido. | No: sólo un evento empresarial por recorrido, realizado al principio. |
 | **Tipo de ID de evento** | Basado en reglas o generado por el sistema. | Siempre basado en reglas. |
@@ -140,11 +140,16 @@ Para los eventos generados por el sistema, la canalización filtra los eventos q
 
 ## Acerca del rendimiento de eventos de Recorrido {#event-thoughput}
 
-Adobe Journey Optimizer admite un volumen máximo de 5000 eventos de recorrido por segundo a nivel de organización, en todas las zonas protegidas. Esta cuota se aplica a todos los eventos que se usan en recorridos activos, entre los que se incluyen los recorridos **Live**, **Dry run**, **Closed** y **Paused**. Cuando se alcanza esta cuota, los nuevos eventos se ponen en cola con una velocidad de procesamiento de 5000 por segundo. El tiempo máximo que un evento puede pasar en la cola es de **24 horas**.
+Adobe Journey Optimizer aplica límites de rendimiento independientes por tipo de evento, a nivel de organización, en todas las zonas protegidas:
+
+* **Eventos unitarios**: 5000 eventos por segundo
+* **Leer eventos de recorrido basados en audiencias**: 5000 eventos por segundo
+
+Estos límites se aplican a todos los eventos usados en recorridos activos, que incluyen recorridos **Live**, **Dry run**, **Cerrado** y **Pausado**. Cuando se alcanza un límite, los nuevos eventos se ponen en cola y se procesan a 5000 por segundo hasta que se vacía la cola.
 
 Para obtener más información sobre las tasas de procesamiento de recorridos y cómo afectan los distintos tipos de recorridos al rendimiento, consulte [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
-Los siguientes tipos de eventos se contabilizan dentro de la cuota de 5,000 TPS:
+Para estas cuotas se contabilizan los siguientes tipos de eventos:
 
 * **Eventos unitarios externos**: incluye eventos basados en reglas y generados por el sistema. Si el mismo evento sin procesar cumple los requisitos para varias definiciones de regla, cada regla completa se cuenta como un evento independiente. Más detalles a continuación.
 

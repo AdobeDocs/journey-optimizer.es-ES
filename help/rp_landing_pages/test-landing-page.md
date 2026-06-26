@@ -10,9 +10,9 @@ keywords: probar, validar, aprobar, aprobación, garantía de calidad, control d
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2281'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ Para maximizar la eficacia de su trabajo en las pruebas, siga estas prácticas r
 
 1. **Compruebe minuciosamente la personalización**: realice pruebas con varios [perfiles de prueba](../using/content-management/test-profiles.md) que tengan valores de atributo diferentes para confirmar que los tokens de personalización se renderizan correctamente y que los valores fallback funcionan. Use la [zona de juegos de personalización](../using/personalization/personalize.md#playground) para experimentar con expresiones de personalización y probar código con datos de ejemplo antes de aplicarlos a sus campañas.
 
-1. **Probar variaciones de contenido con datos de ejemplo**. Use [datos de entrada de ejemplo](../using/test-approve/simulate-sample-input.md) de archivos CSV o JSON, entradas manuales o generación automática de IA para probar hasta 30 escenarios de personalización sin crear numerosos perfiles de prueba.
+1. **Pruebe variaciones de contenido con datos de muestra**: utilice [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) de archivos CSV o JSON, con entrada manual o generación automática con IA para probar hasta 30 contextos de personalización sin crear numerosos perfiles de prueba.
 
 1. **Use listas semilla para la supervisión de las partes interesadas**: configure [listas semilla](../using/configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la supervisión de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
 
@@ -364,7 +364,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 **[Ensayo](../using/building-journeys/journey-dry-run.md)**: herramienta de análisis de ejecución de recorrido que rastrea rutas sin enviar mensajes ni realizar llamadas de API. Caso de uso: validación de la lógica sin consumir recursos. [Más información sobre el ensayo](../using/building-journeys/journey-dry-run.md)
 
-**[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)**: archivos CSV o JSON, entrada manual o generación automática de IA para probar la personalización. Admite hasta 30 variantes. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
+**[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)**: archivos CSV o JSON, entrada manual o generación automática por IA para probar la personalización. Admite hasta 30 variantes. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 
 **[Listas semilla](../using/configuration/seed-lists.md)**: las direcciones de correo electrónico de las partes interesadas internas se incluyen automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: supervisión de la calidad y cumplimiento normativo. [Configure listas semilla](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 >[!TAB Guías esenciales]
 
-* [Simular variaciones de contenido](../using/test-approve/simulate-sample-input.md): pruebe hasta 30 escenarios de personalización utilizando archivos CSV o JSON, entradas manuales o generación automática de IA.
+* [Simular variaciones de contenido](../using/test-approve/simulate-sample-input.md): pruebe hasta 30 contextos de personalización con archivos CSV o JSON, entrada manual o generación automática por IA.
 
 * [Creación de perfiles de prueba](../using/audience/creating-test-profiles.md): cree y administre perfiles de prueba para simular casos de clientes. Obtenga información sobre cómo marcar perfiles para pruebas, establecer atributos y organizar segmentos de prueba.
 
@@ -472,7 +472,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Cómo pruebo las campañas activadas por API?
 
-**Opción 1:** utilizar [API de simulación de campaña &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 1:** utilizar [API de simulación de campaña ](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
 **Opción 2:** vista previa del contenido con perfiles de prueba en la IU
 **Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
 **Práctica recomendada:** combinar las tres opciones para obtener una validación completa

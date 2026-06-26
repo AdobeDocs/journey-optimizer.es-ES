@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 5%
+source-wordcount: 1454
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,51 @@ Como protección adicional, también puede utilizar las funcionalidades de lími
 >[!NOTE]
 >
 >A diferencia de las capacidades de límite, que protegen un extremo al ser global para todos los recorridos de una zona protegida, esta solución solo funciona en el nivel de recorrido. Esto significa que si se ejecutan varios recorridos en paralelo y están dirigidos al mismo punto de conexión, deberá tenerlo en cuenta al diseñar el recorrido. Por lo tanto, esta solución no es adecuada para cada caso de uso.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo limitar el rendimiento del recorrido cuando los orígenes de datos externos o las acciones personalizadas tienen un número limitado de solicitudes por segundo, mediante la configuración de tasa de lectura de audiencia, las divisiones de porcentaje y las actividades de espera.
+
+**Intenciones:**
+
+* Limite el rendimiento de un recorrido activado por audiencia para proteger un sistema externo de sobrecargas
+* Configure la tasa de lectura de una actividad Leer audiencia para controlar cuántos perfiles introducen por segundo
+* Combine condiciones de división porcentual y actividades de espera para propagar el procesamiento de perfiles a lo largo del tiempo
+* Comprenda la diferencia entre las soluciones de rendimiento de nivel de recorrido y las capacidades de límite de nivel de zona protegida
+* Aplicar capacidades de límite a las acciones personalizadas en el nivel de producto
+
+**Glosario:**
+
+* **Límite de restricción/rendimiento**: controla la velocidad a la que los perfiles fluyen a través de un recorrido para evitar exceder la capacidad de solicitud de un sistema externo. *(específico del producto)*
+* **Tasa de lectura de la audiencia de lectura**: Parámetro configurable de la actividad Leer audiencia que establece el número máximo de perfiles que entran en el recorrido por segundo (intervalo: 500-20 000 instancias/segundo). *(específico del producto)*
+* **API de límite**: una API de Journey Optimizer que define un límite máximo de solicitudes por extremo para orígenes de datos externos; se eliminan las solicitudes que exceden el límite. *(específico del producto)*
+* **Condición de división porcentual**: una actividad de condición que divide el flujo de perfil en ramas por porcentaje, que se usa aquí para distribuir perfiles en rutas de espera escalonadas en el tiempo. *(específico del producto)*
+
+**Protecciones:**
+
+* Leer La tasa de lectura de la audiencia se puede establecer entre 500 y 20 000 instancias por segundo; los valores por debajo de 500/s requieren una solución alternativa mediante divisiones de porcentaje y actividades de espera
+* Los recorridos unitarios admiten hasta 5000 instancias/segundo; los recorridos activados por audiencia admiten hasta 20 000 instancias/segundo
+* La solución de porcentaje dividido + espera solo funciona en el nivel de recorrido, no en todos los recorridos de la zona protegida
+* Cuando varios recorridos se dirigen al mismo extremo externo en paralelo, esta solución no tiene en cuenta la carga combinada: en su lugar, se deben utilizar capacidades de límite
+* Las solicitudes restantes que exceden el límite en orígenes de datos externos se pierden, no se ponen en cola
+* La solución debe probarse a fondo antes de pasar a producción
+
+**Terminología:**
+
+* Nombre canónico: Limitación de rendimiento — Acrónimo: none — variantes: regulación, limitación de velocidad, control de rendimiento de recorrido
+* Sinónimos: &quot;Límite&quot; = &quot;Aceleración&quot; en el contexto de la protección de extremo externo
+* No confunda: &quot;API de límite (nivel de extremo)&quot; ≠ &quot;tasa de lectura (nivel de recorrido)&quot;. La API de límite se aplica globalmente a todos los recorridos de una zona protegida segmentada por un extremo; la tasa de lectura y la solución de división/espera solo se aplican al recorrido individual
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Cuál es la tasa de lectura máxima que puedo establecer en una actividad Leer audiencia?** — Entre 500 y 20 000 perfiles por segundo; para bajar de 500/s, utilice una división porcentual con actividades de espera.
+* **Q: ¿Cómo ayudan las divisiones de porcentaje y las actividades de espera a limitar el rendimiento?** — Al dividir los perfiles en ramas (por ejemplo, 20 % cada una) y agregar temporizadores de espera escalonados por rama, se garantiza que solo un número controlado de perfiles llegue al sistema externo por segundo.
+* **Q: ¿Protege la solución alternativa de división porcentual todos los recorridos dirigidos al mismo extremo?** — No; sólo funciona a nivel de recorrido individual. Si varios recorridos se ejecutan en paralelo con el mismo extremo, utilice capacidades de límite de nivel de zona protegida en su lugar.
+* **Q: ¿Qué sucede con las solicitudes que exceden el límite de una fuente de datos externa?** — Se pierden; la API de límite no pone en cola las solicitudes sobrantes.
+* **Q: ¿Debo usar acciones personalizadas o fuentes de datos para casos de uso de datos externos?** — Se prefieren las acciones personalizadas porque admiten la administración de respuestas; las fuentes de datos solo deben utilizarse cuando el caso de uso las requiera específicamente.
+
++++

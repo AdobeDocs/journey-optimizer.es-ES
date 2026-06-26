@@ -18,10 +18,10 @@ subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 3%
+source-wordcount: 1044
+ht-degree: 2%
 
 ---
 
@@ -176,3 +176,52 @@ Ejemplo:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo hacer referencia a campos de evento y grupos de campos de origen de datos en expresiones de recorrido, incluida la sintaxis de valor predeterminada, las funciones de acceso a mapas (`entry`, `firstEntryKey`, `keys`) y el paso del parámetro de origen de datos en línea con la palabra clave `params`.
+
+**Intenciones:**
+
+* Hacer referencia a un campo de evento en una expresión mediante la sintaxis `@event{eventName.fieldPath}`
+* Hacer referencia a un grupo de campos de origen de datos con la sintaxis `#{dataSourceName.fieldGroupName.fieldPath}`
+* Asignar un valor predeterminado de reserva a una referencia de campo para que las expresiones no devuelvan un valor nulo
+* Recupere una entrada específica de un mapa de identidad o mapa de suscripción mediante la función `entry()`
+* Recupere todas las claves de un campo de asignación utilizando la función `keys()`
+* Pase valores de parámetro a un origen de datos externo en línea mediante la palabra clave `params`
+
+**Glosario:**
+
+* **Referencia de campo**: sintaxis de expresión que señala a un campo con nombre dentro de una carga útil de evento o un grupo de campos de origen de datos *(específico del producto)*
+* **defaultValue**: Expresión de reserva opcional anexada a una referencia de campo que se devuelve cuando el campo está ausente o es nulo *(específico del producto)*
+* **entry(key)**: una función de asignación que recupera la entrada de colección asociada con la clave dada *(específica del producto)*
+* **firstEntryKey()**: Una función de asignación que devuelve la primera clave de un campo de asignación *(específico del producto)*
+* **keys()**: Una función de asignación que devuelve todas las claves de un campo de asignación *(específico del producto)*
+* **palabra clave params**: sintaxis en línea para especificar valores de parámetro para campos de origen de datos externos en la expresión principal *(específica del producto)*
+
+**Protecciones:**
+
+* Los nombres de campo que contengan caracteres especiales (que comiencen por un dígito, que contengan `-` o caracteres externos a `a-z A-Z 0-9 _`) deben escribirse entre comillas simples o dobles
+* La expresión de valor predeterminada debe devolver el mismo tipo de datos que el campo; los tipos que no coinciden no son válidos
+* Cuando se utiliza la palabra clave `params` para definir los valores de parámetros en línea, desaparece la pestaña de parámetros independiente a la derecha del editor
+* Las funciones utilizadas como valores predeterminados deben encapsularse entre paréntesis
+
+**Terminología:**
+
+* Nombre canónico: Referencias de campo — Acrónimo: none — variantes: ruta del campo, expresión del campo
+* Sinónimos: `@event{...}` = &quot;referencia de campo de evento&quot;; `#{...}` = &quot;referencia de campo de origen de datos&quot;
+* No confunda: campos de evento (con el prefijo `@`) ≠ campos de origen de datos (con el prefijo `#`)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Cómo hago referencia a un campo cuyo nombre comienza con un número?** — escriba el nombre del campo entre comillas simples o dobles, por ejemplo `#{OpenWeather.weatherData.rain.'3h'}`.
+* **Q: ¿Qué sucede cuando falta un campo al que se hace referencia en la carga útil de evento y no se establece ningún valor predeterminado?** — La expresión devuelve `null`.
+* **Q: ¿Cómo se establece un valor predeterminado dinámico mediante una función?** — ajuste la llamada de función entre paréntesis, p. ej. `defaultValue: (now())`.
+* **Q: ¿Cómo puedo recuperar la dirección de correo electrónico almacenada como la primera clave en un mapa de suscriptores?** — Utilice la función `firstEntryKey()` en el campo de asignación de suscriptores.
+* **Q: ¿Cómo paso un parámetro a una fuente de datos externa sin usar la ficha del lado derecho?** — Usar la palabra clave `params` en línea: `#{DataSource.group.field, params: {paramName: value}}`.
+
++++

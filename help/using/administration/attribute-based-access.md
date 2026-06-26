@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -181,3 +181,51 @@ Si el usuario Y, sin acceso a los objetos de la etiqueta C2, necesita acceder a 
 * El usuario Y puede eliminar la expresión.
 * El usuario Y no podrá probar el recorrido.
 * El usuario Y no podrá publicar el recorrido.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Proteja los campos de datos confidenciales en Journey Optimizer mediante la aplicación de etiquetas de control a los campos de esquema y la asignación de etiquetas coincidentes a los roles, de modo que los usuarios no autorizados no puedan ver, editar, probar ni publicar recorridos que utilicen esos campos restringidos.
+
+**Intenciones:**
+
+* Cree una función y asigne una etiqueta de control para restringir el acceso a campos de esquema específicos
+* Aplicar una etiqueta a un campo de esquema en Adobe Experience Platform para aplicar restricciones de acceso
+* Uso de un campo de esquema etiquetado en un recorrido de Journey Optimizer
+* Comprender cómo los usuarios sin la etiqueta requerida experimentan restricciones de acceso en los recorridos
+* Administrar funciones, directivas y productos mediante la API de control de acceso basada en atributos
+
+**Glosario:**
+
+* **ABAC (control de acceso basado en atributos)**: capacidad para definir autorizaciones para administrar el acceso a datos para equipos o grupos de usuarios específicos en función de atributos como etiquetas *(específicas del producto)*
+* **Función**: Un conjunto de usuarios que comparten los mismos permisos, etiquetas y zonas protegidas dentro de una organización *(específica del producto)*
+* **Etiqueta**: un marcador de gobernanza (por ejemplo, C2) aplicado a campos de esquema, conjuntos de datos o audiencias para controlar qué funciones pueden acceder a ellos *(específico del producto)*
+* **Directiva**: configuración que debe crearse antes de administrar permisos para un rol. Requisito previo para ABAC *(específico del producto)*
+* **Esquema XDM**: el esquema del modelo de datos de Experience utilizado para definir la estructura de datos en Adobe Experience Platform *(específico del producto)*
+
+**Protecciones:**
+
+* Se debe crear una directiva antes de administrar los permisos de una función (requisito previo, como se indica en la nota importante de la página)
+* El uso incorrecto de las etiquetas puede interrumpir el acceso de las personas y las infracciones de la directiva de déclencheur (como se indica en la advertencia de la página)
+* Los usuarios sin una etiqueta que coincida con un campo restringido no pueden: ver el nombre del campo restringido, editar las expresiones que hacen referencia a él en el modo avanzado, probar el recorrido o publicar el recorrido
+
+**Terminología:**
+
+* Nombre canónico: Control de acceso basado en atributos — Acrónimo: ABAC — variants: attribute-based access management
+* Nombre canónico: Experience Data Model — Acrónimo: XDM — variantes: XDM schema, XDM schemas
+* Sinónimos: &quot;Label&quot; = &quot;governance label&quot; = &quot;data governance label&quot;
+* No confunda: &quot;Función&quot; (un grupo de usuarios con permisos y etiquetas compartidos) ≠ &quot;Política&quot; (reglas que rigen la aplicación del acceso a los datos basadas en etiquetas)
+* No confunda: ABAC (controla el acceso a los campos de esquema, conjuntos de datos y audiencias a través de políticas de etiquetas en el nivel de plataforma) ≠ OLAC (controla el acceso a objetos de Journey Optimizer específicos como recorridos y campañas)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Es posible agregar etiquetas a los roles integrados?** — Sí, se pueden agregar etiquetas tanto a las funciones personalizadas como a las integradas.
+* **Q: ¿Qué le sucede a un usuario que no tiene la etiqueta para un campo restringido en un recorrido?** — El campo no es visible para ellos; no pueden editar expresiones que hagan referencia a él, probar el recorrido ni publicar el recorrido.
+* **Q: ¿Es posible aplicar etiquetas a objetos que no sean campos de esquema?** — Sí; las etiquetas también se pueden aplicar a esquemas, conjuntos de datos y audiencias.
+* **Q: ¿Existe alguna API para administrar roles, directivas y productos con ABAC?** — Sí; se puede acceder a las funciones, directivas y productos a través de la API de control de acceso basada en atributos.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

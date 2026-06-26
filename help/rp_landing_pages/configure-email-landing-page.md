@@ -6,8 +6,8 @@ description: Configuración de canal de correo electrónico
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '260'
+workflow-type: ht
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Personalice las direcciones de correo electrónico del remitente y la respuesta,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Configurar el seguimiento de URL para el canal de correo electrónico
 

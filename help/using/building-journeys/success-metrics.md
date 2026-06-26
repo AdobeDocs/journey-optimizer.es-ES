@@ -28,10 +28,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 6%
+source-wordcount: 1153
+ht-degree: 3%
 
 ---
 
@@ -126,3 +126,48 @@ Para empezar a rastrear las métricas de recorridos, siga los pasos descritos a 
 
    ![Menú desplegable de métricas de éxito que muestra los eventos disponibles para el seguimiento de metas](assets/success_metric_2.png)
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar y realizar un seguimiento de las métricas de éxito de recorridos en Adobe Journey Optimizer, asignando un KPI a un recorrido y revisando su rendimiento en los informes de recorridos.
+
+**Intenciones:**
+* Añada los grupos de campos del conjunto de datos de AEP necesarios (Detalles de Commerce, Web, Móvil) como requisito previo para las métricas de recorrido
+* Asignar una métrica de recorridos (KPI) a un recorrido durante la creación o configuración del recorrido
+* Comprender qué métricas están disponibles en función de los grupos de campos de conjuntos de datos configurados
+* Interprete los modelos de atribución para métricas de recorrido con licencias de Journey Optimizer y Customer Journey Analytics
+* Creación de métricas de éxito personalizadas con una licencia de Customer Journey Analytics
+* Rastrear el rendimiento del recorrido con el KPI asignado en los informes de recorrido
+
+**Glosario:**
+* **métricas de Recorrido**: KPI asignados a un recorrido para medir su efectividad, visibles en informes de recorrido *(específicos del producto)*
+* **Atribución de último contacto**: El modelo de atribución predeterminado que acredita la interacción más reciente antes de una conversión
+* **Grupo de campos Detalles de Commerce**: grupo de campos XDM que habilita métricas comerciales como Compras, Cierres de compra y Eventos de carro de compras
+* **Ventana retrospectiva**: Intervalo de tiempo durante el cual se evalúa la atribución; establecido en un máximo de 7 días solo con licencia de Journey Optimizer
+
+**Protecciones:**
+* Solo se permite una métrica de recorridos por recorrido
+* Los grupos de campos de conjuntos de datos (detalles de Commerce, web, móvil) deben seleccionarse entre las opciones integradas, no entre los grupos personalizados, y agregarse en Configuración > Informes en Adobe Experience Platform
+* Sin un conjunto de datos configurado, solo están disponibles los clics, los clics únicos, la tasa de clics y la tasa de apertura
+* La ventana retrospectiva máxima es de 7 días solo con una licencia de Journey Optimizer
+* Las métricas personalizadas y la configuración de atribución personalizada requieren una licencia de Customer Journey Analytics
+
+**Terminología:**
+* Nombre canónico: métricas de Recorrido — Acrónimo: none — variantes: métricas de éxito, métricas de éxito de recorridos
+* Nombre canónico: Tasa de clics — Acrónimo: CTR — variantes: none
+* Nombre canónico: Tasa de apertura de clics — Acrónimo: CTOR — variantes: none
+* Sinónimos: &quot;métricas de recorrido&quot; = &quot;métricas de éxito&quot; (utilizadas indistintamente en la interfaz de usuario y la documentación de )
+* No confunda: &quot;Atribución de licencia de Journey Optimizer&quot; ≠ &quot;Atribución de Customer Journey Analytics&quot;. La licencia de CJA permite modelos de atribución personalizados y ventanas retrospectivas más largas
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuántas métricas de recorridos puedo asignar a un solo recorrido?** — Solo se permite una métrica de recorridos por recorrido.
+* **Q: ¿Qué métricas están disponibles si no he configurado un conjunto de datos con grupos de campos?** — Solo los clics, los clics únicos, la tasa de clics y la tasa de apertura están disponibles sin necesidad de una configuración de grupo de campos adicional.
+* **Q: ¿Qué grupos de campos necesito para habilitar las métricas de compra y comercio?** — Debe añadir el grupo de campos Detalles de Commerce a su conjunto de datos de informes en Adobe Experience Platform.
+* **Q: ¿Cuál es el modelo de atribución predeterminado para las métricas de recorrido?** — Último contacto, que acredita la interacción más reciente antes de la conversión, con una ventana retrospectiva de 7 días como máximo con una licencia de Journey Optimizer.
+* **Q: ¿Puedo crear métricas de éxito personalizadas?** — Sí, pero solo con una licencia de Customer Journey Analytics.
+* **Q: ¿Dónde puedo ver los resultados de las métricas de recorrido después de publicar?** — en la tabla KPI y estadísticas de Recorrido del informe de recorrido.
+
++++

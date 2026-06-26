@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 6%
+source-wordcount: 1491
+ht-degree: 4%
 
 ---
 
@@ -117,3 +117,53 @@ Para obtener más información sobre cómo convertir un perfil existente en un p
 * La actividad **[!UICONTROL Actualizar perfil]** solo actualiza el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}, no el lago de datos.
 * Se pueden actualizar hasta cinco pares de campo/valor en una sola acción **[!UICONTROL Actualizar perfil]**. Use el botón **[!UICONTROL Actualizar otro campo]** para agregar más pares.
 * Para obtener un mejor rendimiento, agrupe varias actualizaciones de atributos en una sola acción **[!UICONTROL Actualizar perfil]** en lugar de usar una acción por atributo.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar la actividad Actualizar perfil para enriquecer o corregir un perfil de Adobe Experience Platform existente con datos de eventos de recorrido, fuentes de datos o valores estáticos a medida que un cliente avanza por un recorrido.
+
+**Intenciones:**
+
+* Configure la actividad Actualizar perfil para modificar los atributos de perfil existentes durante un recorrido
+* Seleccione un conjunto de datos con perfil habilitado dedicado a las acciones de actualización de perfil
+* Asignar valores de campo de eventos de recorrido, fuentes de datos o valores estáticos a atributos de perfil
+* Actualización de varios atributos de perfil (hasta cinco) en una sola actividad
+* Probar actualizaciones de perfil en el modo de prueba de recorrido
+
+**Glosario:**
+
+* **Actualizar actividad de perfil**: una actividad de acción que escribe nuevos valores en campos existentes en un perfil de Adobe Experience Platform en tiempo real a medida que un perfil se mueve a través de un recorrido *(específico del producto)*
+* **Almacén de perfiles**: Almacén de Adobe Experience Platform que contiene datos de perfil del cliente en tiempo real, distinto del lago de datos *(específico del producto)*
+* **Área de nombres de identidad**: Una etiqueta que distingue los contextos de identidad (por ejemplo, correo electrónico, ID de CRM) utilizados para coincidir con el perfil que se está actualizando *(específico del producto)*
+* **Conjunto de datos con perfil habilitado**: Un conjunto de datos de Adobe Experience Platform configurado para aportar registros al perfil unificado *(específico del producto)*
+
+**Protecciones:**
+
+* La acción Actualizar perfil solo se puede utilizar en recorridos que tengan un área de nombres definida.
+* La acción solo actualiza los campos XDM existentes; no puede crear nuevos campos de perfil.
+* Solo se admiten tipos de campo simples (cadena, número, booleano); no se admiten enumeraciones, matrices de objetos y colecciones complejas.
+* La acción no puede generar eventos de experiencia como compras.
+* Se pueden actualizar hasta cinco pares de campo/valor en una sola acción de actualización de perfil.
+* No comparta el conjunto de datos dedicado con procesos de ingesta por lotes o de flujo continuo, ya que otras ejecuciones de ingesta sobrescribirán los cambios de Actualizar perfil.
+* Es posible que las actualizaciones de perfil no estén disponibles de forma inmediata en la misma ejecución de recorrido.
+* La actividad solo actualiza el almacén de perfiles, no el lago de datos.
+
+**Terminología:**
+
+* Nombre canónico: Actualizar perfil — Acrónimo: none — variantes: Actualizar actividad de perfil, Actualizar acción de perfil
+* Sinónimos: &quot;Almacenamiento de perfiles&quot; = &quot;Almacén de perfiles del cliente en tiempo real&quot;
+* No confunda: &quot;Almacenamiento de perfiles&quot; (actualizado por esta actividad) ≠ &quot;Lago de datos&quot; (no actualizado por esta actividad)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Puede la actividad Actualizar perfil crear nuevos campos de perfil?** — No, solo puede actualizar los campos que ya existen en el esquema de perfil XDM seleccionado.
+* **Q: ¿Por qué debería usar un conjunto de datos dedicado para las acciones de Actualizar perfil?** — Compartir el conjunto de datos con la ingesta por lotes o de flujo continuo puede hacer que otras ejecuciones de ingesta sobrescriban los cambios realizados por la actividad Actualizar perfil.
+* **Q: ¿Las actualizaciones de perfil son visibles inmediatamente para las actividades descendentes en el mismo recorrido?** — No, es posible que los valores actualizados aún no se reflejen si una acción lee el mismo campo inmediatamente después de que la actividad Actualizar perfil lo escriba.
+* **Q: ¿Cuántos campos puedo actualizar en una sola acción Actualizar perfil?** — Se pueden configurar hasta cinco pares de campo/valor en una sola actividad utilizando el botón &quot;Actualizar otro campo&quot;.
+* **Q: ¿Se aplican las actualizaciones de perfil en el modo de prueba?** — Sí, en el modo de prueba las actualizaciones surten efecto inmediatamente en el perfil de prueba y no se simulan.
+
++++

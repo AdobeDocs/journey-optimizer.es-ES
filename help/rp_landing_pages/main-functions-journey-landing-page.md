@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '284'
+workflow-type: ht
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Las funciones de Adobe Journey Optimizer le permiten crear expresiones dinámica
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funciones principales de Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Domine las funciones de agregación para realizar operaciones como promedios, re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Funciones de conversión
 
@@ -61,7 +61,7 @@ Transforme los tipos de datos con funciones de conversión para manipular las en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Funciones de fecha en Adobe Journey Optimizer
 

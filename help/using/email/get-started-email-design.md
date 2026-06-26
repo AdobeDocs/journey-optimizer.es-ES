@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a diseñar el contenido de su correo electrónico en el Designer de correo electrónico, los pasos clave para crearlo desde cero, el código o el HTML importado, y las prácticas recomendadas que mantienen el procesamiento de sus correos electrónicos en todos los clientes.
+**En esta página:** aprenda a diseñar el contenido de su correo electrónico en el diseñador de correo electrónico, los pasos clave para crearlo desde cero, el código o el HTML importado, y las prácticas recomendadas que mantienen el procesamiento de sus correos electrónicos en todos los clientes.
 
 >[!ENDSHADEBOX]
 

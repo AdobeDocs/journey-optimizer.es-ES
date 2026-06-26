@@ -6,8 +6,8 @@ description: Creación de experiencias basadas en código
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '219'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Obtenga información sobre cómo crear y configurar experiencias basadas en cód
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uso de campos editables en experiencias basadas en código
 
@@ -40,7 +40,7 @@ Descubra cómo añadir campos editables a las plantillas, lo que permite a los e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Probar experiencias basadas en código
 

@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 2%
+source-wordcount: 1279
+ht-degree: 1%
 
 ---
 
@@ -140,3 +140,45 @@ Obtenga más información sobre el uso de audiencias en Adobe Journey Optimizer:
 * **[Uso de audiencias en condiciones](../conditions.md#using-a-segment)**: cree rutas de recorrido condicionales basadas en la pertenencia a audiencias mediante la actividad Optimizar
 * **[Propiedades del Recorrido - Políticas de combinación](../journey-properties.md)** - Comprenda cómo funcionan las políticas de combinación al utilizar varias audiencias con la función inAudience
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página documenta la función `inAudience`, que comprueba en tiempo real si un perfil de recorrido pertenece a una audiencia de Adobe Experience Platform con nombre y devuelve un valor booleano utilizado en condiciones de recorrido.
+
+**Intenciones:**
+* Bifurcar una ruta de recorrido en función de si un perfil es miembro de una audiencia específica mediante `inAudience`
+* Combine varias comprobaciones `inAudience` con la lógica AND/OR para crear condiciones de segmentación complejas
+* Compruebe que un perfil no ha ingresado a una audiencia específica mediante una comprobación de negación (`inAudience("...") == false`)
+* Comprenda las diferencias de tiempo de propagación entre Leer recorridos de Audiencia y recorridos de evento unitario
+* Identificar y corregir referencias de audiencias rotas causadas por cambios de nombre de audiencias en Adobe Experience Platform
+
+**Glosario:**
+* **Realizado**: estado de participación de audiencia que indica que el individuo cumple actualmente los requisitos para la definición de audiencia y es un miembro activo *(específico del producto)*
+* **Salido**: estado de participación de audiencia que indica que el individuo ha abandonado la audiencia y ya no califica *(específico del producto)*
+* **Política de combinación**: Regla de Adobe Experience Platform que determina cómo se combinan los datos de perfil de varios conjuntos de datos al evaluar la pertenencia a audiencias *(específica del producto)*
+* **Proyección por lotes**: el almacén de datos de perfil se actualizó según una programación (en las 2 horas siguientes a la ingesta) usada por Leer recorridos de audiencia *(específico del producto)*
+* **Proyección de streaming**: El almacén de datos de perfil en tiempo real (normalmente disponible en 15 minutos) que se usa en los recorridos de eventos unitarios y después de las actividades de espera *(específico del producto)*
+
+**Protecciones:**
+* Un solo recorrido puede recuperar hasta 100 audiencias
+* El parámetro de nombre de audiencia debe ser una constante de cadena; no se admiten referencias de campo ni expresiones dinámicas
+* Cambiar el nombre de una audiencia en Adobe Experience Platform no actualiza automáticamente las referencias de `inAudience` en las expresiones de recorrido: se requieren actualizaciones manuales
+* Las políticas de combinación incoherentes en varias audiencias utilizadas en el mismo recorrido pueden provocar errores o alertas
+
+**Terminología:**
+* Nombre canónico: inAudience — Acrónimo: none — variantes: inSegment (nombre heredado)
+* Sinónimos: &quot;inAudience&quot; = &quot;función de comprobación de pertenencia a audiencia&quot;
+* No confunda: &quot;Realized&quot; (miembro activo) ≠ &quot;Exited&quot; (ya no es miembro)
+* No confunda: &quot;inAudience&quot; (función actual) ≠ &quot;inSegment&quot; (función heredada obsoleta)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué devuelve `inAudience` cuando un perfil ha salido de la audiencia?** — Devuelve `false`; solo los perfiles con el estado &quot;Realized&quot; se consideran miembros activos y devuelven `true`.
+* **Q: ¿Cuántas audiencias puedo comprobar en un solo recorrido?** — Se pueden recuperar hasta 100 audiencias en un solo recorrido.
+* **Q: ¿Qué sucede si cambio el nombre de una audiencia en Adobe Experience Platform después de usarla en un recorrido?** — La expresión de recorrido no se actualiza automáticamente; debe editar manualmente la llamada a `inAudience` para utilizar el nuevo nombre de audiencia; de lo contrario, se producirá un error en la condición.
+* **Q: ¿Con qué rapidez está disponible el abono a audiencias después de actualizar el perfil en un recorrido de lectura de audiencias?** — En un recorrido de lectura de audiencias antes de una actividad de espera, los datos se leen desde la proyección por lotes actualizada en un plazo de 2 horas tras la ingesta.
+* **Q: ¿Puedo pasar un atributo de perfil como parámetro de nombre de audiencia?** — No, el nombre de audiencia debe ser una constante de cadena; no se admiten referencias de campo ni expresiones.
+
++++

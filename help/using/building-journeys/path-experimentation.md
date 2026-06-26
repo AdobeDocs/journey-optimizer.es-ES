@@ -11,10 +11,10 @@ keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 6%
+source-wordcount: 1865
+ht-degree: 4%
 
 ---
 
@@ -213,3 +213,48 @@ Para escalar manualmente el ganador de los experimentos:
    ![Escalar selección de tratamiento en experimento de ruta](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Tenga en cuenta que escalar el tratamiento puede tomar hasta una hora. Recibirá una notificación una vez que finalice el proceso de escalado manual.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar y ejecutar la experimentación de rutas en recorridos Adobe Journey Optimizer mediante métodos de bandido A/B o multibrazo, y cómo escalar el tratamiento ganador de forma automática o manual.
+
+**Intenciones:**
+* Configuración de un experimento de ruta de bandido A/B o multibrazo en un recorrido
+* Defina métricas de éxito para evaluar el rendimiento del experimento
+* Asignar tráfico entre rutas de tratamiento de forma uniforme o por porcentaje personalizado
+* Añada un grupo de exclusión para excluir una parte de la audiencia de todos los tratamientos
+* Habilitar el escalado automático para desplegar automáticamente el tratamiento ganador
+* Escalar manualmente el tratamiento ganador después de revisar los resultados del experimento
+
+**Glosario:**
+* **Optimizar actividad**: una actividad de lienzo de recorrido usada para dividir perfiles en diferentes rutas para experimentación o segmentación *(específica del producto)*
+* **Tratamiento**: Una variante de ruta única en un experimento de ruta (por ejemplo, Tratamiento A, Tratamiento B) *(específico del producto)*
+* **Métrica de éxito**: KPI utilizado para evaluar qué tratamiento funciona mejor en un experimento *(específico del producto)*
+* **Bandido multibrazo**: Tipo de experimento en el que la división del tráfico se ajusta automáticamente cada 7 días según el rendimiento de la métrica principal *(específico del producto)*
+* **Escalar al ganador**: característica que despliega el tratamiento ganador para toda la audiencia restante, ya sea de forma automática o manual *(específico del producto)*
+* **Grupo de exclusión**: un segmento de la audiencia excluido de todos los tratamientos del experimento, utilizado como grupo de control *(específico del producto)*
+
+**Protecciones:**
+* Escalar el ganador solo está disponible para recorridos unitarios (activados por eventos y Calificación de audiencias); no está disponible para Leer recorridos de audiencias.
+* La hora de escalado automático debe programarse antes de la fecha de finalización del experimento o el recorrido no se publicará.
+* Una vez que se ha producido el escalado automático, el escalado manual ya no está disponible.
+* Escalado manual del ganador antes de que el tiempo programado de escalado automático cancele el escalado automático.
+* La ampliación del tratamiento puede tardar hasta una hora.
+
+**Terminología:**
+* Nombre canónico: Experimentación de rutas — Acrónimo: none — variantes: experimentación de recorridos, prueba de ruta A/B
+* Sinónimos: &quot;Optimizar actividad&quot; = &quot;actividad del experimento&quot; = &quot;actividad de división de ruta&quot;
+* No confunda: &quot;Experimento A/B&quot; ≠ &quot;Multi-armed bandit&quot; (A/B tiene una división de tráfico fija; Multi-armed bandit ajusta las ponderaciones de forma dinámica cada 7 días)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es la diferencia entre el experimento A/B y Multi-armed bandit?** — El experimento A/B utiliza una división de tráfico fija definida al principio, mientras que Multi-armed bandit ajusta automáticamente las ponderaciones de tráfico cada 7 días en función del rendimiento de la métrica principal.
+* **Q: ¿Puedo usar Escalar el ganador en un recorrido de lectura de audiencias?** — No; Escalar el ganador solo está disponible para recorridos unitarios (activados por evento y Calificación de audiencias).
+* **Q: ¿Qué sucede si no se encuentra ningún ganador en el tiempo de escalado automático?** — Se puede configurar una alternativa: continuar el experimento hasta su finalización programada o escalar un tratamiento alternativo después de un tiempo especificado.
+* **Q: ¿Cómo se distribuye el tráfico si no configuro los porcentajes de tratamiento manualmente?** — Puede activar el botón de alternancia Distribuir uniformemente para dividir el tráfico de forma equitativa entre todos los tratamientos.
+* **Q: ¿Puedo editar un experimento de ruta de acceso después de publicar el recorrido?** — El recorrido entra en modo de solo lectura después de la publicación; para realizar cambios, cree una nueva versión del recorrido.
+
++++

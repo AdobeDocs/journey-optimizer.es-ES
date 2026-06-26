@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 11%
+source-wordcount: 2993
+ht-degree: 8%
 
 ---
 
@@ -252,3 +252,51 @@ Si persisten las discrepancias, [póngase en contacto con el Soporte técnico de
 Si las direcciones URL de seguimiento en los correos electrónicos enviados contienen marcadores de posición vacíos como `cid=em-acou-adob{}`, esto puede indicar que no se pudo resolver un campo de contexto como `context.system.source.actionId`. Esto suele ocurrir cuando se cierra un recorrido y no se ha vuelto a publicar después de un cambio de producto relevante: solo los recorridos que se han vuelto a publicar rellenan correctamente estos campos de contexto en las direcciones URL de seguimiento.
 
 Para resolver esto, vuelva a publicar el recorrido ([cree una nueva versión y publíquelo](publish-journey.md#journey-create-new-version)) o quite la referencia al campo de contexto afectado de los [parámetros de seguimiento de URL](../email/url-tracking.md) en la configuración del canal o del contenido del correo electrónico.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página es una referencia completa de solución de problemas para la ejecución de recorridos en directo en Adobe Journey Optimizer, y abarca la entrega de eventos, errores de entrada de perfil, problemas de transición de modo de prueba, eventos descartados, registros de eventos de pasos duplicados, comprobaciones de entrega de mensajes y discrepancias de métricas de panel.
+
+**Intenciones:**
+* Diagnostique por qué los eventos no activan la entrada de recorridos comprobando la estructura de carga útil, los encabezados y las condiciones de calificación
+* Compruebe si los perfiles entran y progresan a través de un recorrido en directo o en modo de prueba
+* Resolver errores de transición del modo de prueba causados por fechas de inicio futuras o áreas de nombres de identidad mal configuradas
+* Comprenda y gestione el motivo de descarte de `maxInstanceStackEventsReached` para las instancias de recorrido bloqueadas
+* Identificar y consultar correctamente las entradas duplicadas del registro de eventos de paso de Recorrido provocadas por el escalado automático del servidor
+* Investigue los mensajes que faltan comprobando los resultados de los informes de recorrido y las llamadas de acción personalizada
+* Corrección de marcadores de posición de URL de seguimiento vacíos en correos electrónicos de recorridos cerrados
+
+**Glosario:**
+* **Eventos de paso de Recorrido**: Un conjunto de datos que registra cada paso que un perfil ejecuta dentro de un recorrido y que se utiliza para generar informes y depurar *(específico del producto)*
+* **notSuitableInitialEvent**: Se recibió un código de descarte que indica un evento, pero se descartó porque no se cumplió la condición de calificación *(específico del producto)*
+* **maxInstanceStackEventsReached**: se ha excedido *(específico del producto)* un código de descarte que indica el límite de 10 eventos de recorrido por perfil
+* **isValidTransition**: propiedad de solo interfaz de usuario en los detalles técnicos del recorrido; un valor nulo puede indicar una fecha de inicio futura o una conexión de nodo dañada, pero no afecta al procesamiento back-end *(específico del producto)*
+* **Condición de calificación**: regla definida en un evento que debe cumplirse para que el evento almacene en déclencheur un recorrido; los eventos que no cumplan esta condición se descartarán
+* **Reequilibrio**: una operación de escalado automático back-end en los microservicios de AJO que puede crear entradas de registro de eventos de pasos de Recorrido duplicadas con valores de `_id` diferentes
+
+**Protecciones:**
+* Los eventos enviados fuera de la ventana de fecha y hora activa del recorrido se descartan silenciosamente sin ningún mensaje de error
+* El límite de pila de eventos de instancia de recorrido por perfil es de 10 eventos. Si se supera este límite, los eventos se descartarán con `maxInstanceStackEventsReached`
+* Las entradas duplicadas de eventos de pasos de Recorrido con valores diferentes de `_id` se esperan en el sistema y no indican la duplicación de mensajes
+* Las métricas de Información general del panel solo incluyen recorridos con tráfico en las últimas 24 horas; las métricas pueden tardar hasta 30 minutos en actualizarse
+* Los recorridos cerrados que no se hayan vuelto a publicar después de un cambio de producto pueden producir marcadores de posición vacíos en las direcciones URL de seguimiento
+
+**Terminología:**
+* Nombre canónico: Eventos de paso de Recorrido — Acrónimo: none — variantes: eventos de paso, registros de ejecución de recorrido
+* Nombre canónico: Condición de calificación — Acrónimo: none — variantes: regla de calificación de eventos, condición de evento
+* Sinónimos: &quot;reequilibrio&quot; = &quot;escalado automático&quot; (operación back-end que provoca entradas de registro duplicadas)
+* No confunda: &quot;duplicar `_id`&quot; ≠ &quot;duplicar entradas de registro del reequilibrio&quot;: los duplicados verdaderos comparten el mismo `_id`; los duplicados del reequilibrio tienen valores diferentes de `_id`
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Por qué mis eventos no desencadenan un recorrido aunque se envíen correctamente?** — Compruebe que el recorrido está activo o en modo de prueba, que la carga útil coincide con la estructura del esquema de eventos, que se cumple la condición de calificación y que se incluyen los encabezados correctos (`X-gw-ims-org-id`, `Content-type`).
+* **Q: ¿Por qué los perfiles de prueba entran en el recorrido pero no avanzan más allá del primer paso?** — La causa más común es una fecha de inicio del recorrido establecida en el futuro; los eventos se descartan silenciosamente fuera de la ventana de fecha activa. Compruebe también la coincidencia del indicador del perfil de prueba y el área de nombres de identidad.
+* **Q: ¿Qué significa `maxInstanceStackEventsReached`?** — El tiempo de ejecución de la recorrido ha alcanzado el límite interno de pila de 10 eventos para una instancia de perfil específica, normalmente porque un paso de larga duración está bloqueando el procesamiento. Reduzca las esperas largas, deduplique los eventos ascendentes o divida el escenario en varios recorridos.
+* **Q: veo filas duplicadas en Eventos de paso de Recorrido. ¿Hay algún problema?** — No. Se esperan entradas duplicadas con diferentes valores de `_id` y el resultado es un escalado automático del backend. Solo se envía un mensaje; compruebe con `ajo_message_feedback_event_dataset`.
+* **Q: ¿Por qué las direcciones URL de seguimiento en los correos electrónicos muestran marcadores de posición vacíos como `cid=em-acou-adob{}`?** — El recorrido se cerró y no se volvió a publicar después de un cambio de producto; los campos de contexto no se pueden resolver. Vuelva a publicar el recorrido o elimine la referencia del campo de contexto afectado de los parámetros de seguimiento de URL.
+* **Q: ¿Por qué el panel Información general muestra números diferentes a los de la ficha Examinar?** — El tablero solo cuenta los recorridos con tráfico en las últimas 24 horas, las métricas tardan hasta 30 minutos en actualizarse y los permisos de acceso pueden limitar la visibilidad.
+
++++

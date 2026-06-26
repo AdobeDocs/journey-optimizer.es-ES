@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1413
-ht-degree: 11%
+source-wordcount: 2002
+ht-degree: 9%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publicación de un recorrido en modo de ensayo"
->abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez diseñado un recorrido, una ejecución en seco confirma que funciona y garantiza que los pasos son correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
+>abstract="El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales. Una vez diseñado un recorrido, un ensayo confirma que funciona y garantiza que los pasos son correctos. Este modo de publicación le permite realizar una prueba preliminar de un recorrido sin enviar comunicaciones a los perfiles."
 
 El ensayo del recorrido es un modo especial de publicación de recorrido de [!DNL Adobe Journey Optimizer] que permite a los profesionales de recorridos probarlos utilizando datos de producción reales sin ponerse en contacto con clientes reales ni actualizar la información de perfil.  Esta función ayuda a los profesionales de recorridos a confiar en el diseño del recorrido y en la segmentación del público antes de publicarlo en vivo.
 
@@ -214,3 +214,48 @@ La ejecución en seco genera **stepEvents** marcados con `inDryRun` y un `dryRun
 Aprenda a secar los recorridos en este vídeo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica Recorrido Dry run, un modo especial de publicación que permite a los profesionales probar un recorrido utilizando datos de producción reales sin ponerse en contacto con los clientes ni modificar perfiles, y explica cómo iniciar, supervisar, detener y filtrar eventos de paso de ejecución en seco.
+
+**Intenciones:**
+* Active el modo de ejecución en seco en un recorrido Borrador para validar la lógica de alcance y rama de la audiencia con datos de producción reales
+* Monitorizar las métricas de ejecución de recorrido en el lienzo durante una ejecución en seco
+* Detener una ejecución en seco manualmente y devolver el recorrido al estado Borrador
+* Filtrar los eventos de paso de ejecución en seco de las consultas de informes mediante el indicador `inDryRun`
+* Comprender qué actividades se desactivan o simulan durante una ejecución en seco
+
+**Glosario:**
+* **Ejecución en seco**: Modo de publicación de recorrido especial que ejecuta el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar la información de perfil *(específica del producto)*
+* **stepEvent**: un registro de conjunto de datos generado automáticamente que captura cada paso que realiza un perfil en un recorrido; los eventos de paso de ejecución en seco llevan `inDryRun=true` y un `dryRunID` *(específico del producto)*
+* **Indicador inDryRun**: Un campo booleano en stepEvents que es `true` para ejecuciones de ejecución en seco y `null` para recorridos en directo o de prueba *(específicos del producto)*
+
+**Protecciones:**
+* En el modo de ejecución en seco solo se pueden activar los recorridos de borrador sin errores
+* Para iniciar una ejecución en seco se requiere el permiso **Publicar recorridos**; para detenerla se requiere **Administrar recorridos**
+* Los recorridos de ejecución en seco abandonan automáticamente el modo de ejecución en seco y vuelven al estado Borrador después de 14 días. No se pierde contenido de recorrido; solo finaliza la sesión de ejecución en seco.
+* Los perfiles procesados durante una ejecución en seco se contabilizan como Perfiles atractivos y la cuota de recorrido activo
+* Los nodos de acción del canal (correo electrónico, SMS, push) y las acciones personalizadas no se ejecutan durante la ejecución en seco
+* Las acciones de salto no están habilitadas en la ejecución en seco
+* Los nodos de reacción no se ejecutan durante la ejecución en seco; los perfiles se cierran correctamente, con reglas de prioridad para ramas unitarias y de reacción paralelas
+* Los datos de informes solo están disponibles mientras la ejecución en seco está activa; una vez detenida, los datos ya no están accesibles
+* Los recorridos de ejecución en seco no afectan a las reglas empresariales
+
+**Terminología:**
+* Nombre canónico: Recorrido Dry run — Acrónimo: none — variantes: dry run mode, Dry run publication mode
+* Sinónimos: &quot;Dry run&quot; = &quot;prueba de humo&quot; (informalmente)
+* No confunda: &quot;Ejecución en seco&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Simulación&quot;: la ejecución en seco utiliza datos de producción reales y cuenta para los perfiles atractivos y la cuota de recorrido en directo; el modo de prueba utiliza perfiles de prueba AEP persistentes en un recorrido de borrador; la simulación utiliza usuarios simulados temporales que no persisten en AEP
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿La ejecución en seco realmente envía correos electrónicos o notificaciones push a los clientes?** — No; todos los nodos de acción de canal y las acciones personalizadas se desactivan y no se ejecutan durante una ejecución en seco.
+* **Q: ¿Cuánto tiempo dura una ejecución en seco antes de que se detenga automáticamente?** — 14 días, después de los cuales el recorrido vuelve automáticamente al estado Borrador.
+* **Q: ¿Cómo excluyo los datos de ejecución en seco de mis consultas de análisis de recorrido?** — Filtrar eventos de paso donde `inDryRun` es `true`; incluir solo eventos donde `inDryRun` es `null` o `false`.
+* **Q: ¿Se cuentan los perfiles con respecto a algún límite durante una ejecución en seco?** — Sí; los perfiles se contabilizan en Perfiles atractivos y el recorrido de Ejecución en seco se contabiliza en la cuota de recorrido activo.
+* **Q: ¿Puedo habilitar las actividades de espera y las llamadas a fuentes de datos externas durante una ejecución en seco?** — Ambos están desactivados de forma predeterminada, pero puede elegir activarlos o desactivarlos al activar la ejecución en seco.
+
++++

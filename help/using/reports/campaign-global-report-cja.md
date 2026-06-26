@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -87,6 +87,10 @@ Tenga en cuenta que las métricas variarán en función de los canales utilizado
 * **[!UICONTROL Tasa de clics]**: Porcentaje de usuarios que interactuaron con el mensaje.
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido del mensaje.
+
+* **[!UICONTROL Clics estimados]**: Número de veces que se hizo clic en un contenido en su mensaje, excluido el tráfico de bots identificados y de interacciones no humanas (NHI).
+
+* **[!UICONTROL Estimated CTR]** (tasa de pulsaciones): se calcula como una estimación de clics en relación con la cantidad total de mensajes enviados.
 
 * **[!UICONTROL Clics únicos]**: Número de perfiles que hicieron clic en un contenido del mensaje.
 

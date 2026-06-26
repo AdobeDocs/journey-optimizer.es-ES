@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Comprenda cómo el canal de la Bandeja de entrada mantiene los mensajes de marketing en un lugar persistente dentro de la aplicación o del sitio web, de modo que los usuarios puedan volver a leerlos y actuar en consecuencia según les convenga.
+**En esta página:** comprenda cómo el canal de la bandeja de entrada mantiene los mensajes de marketing en un lugar persistente dentro de la aplicación o del sitio web, de modo que los usuarios puedan volver a leerlos y actuar en consecuencia según les convenga.
 
 >[!ENDSHADEBOX]
 

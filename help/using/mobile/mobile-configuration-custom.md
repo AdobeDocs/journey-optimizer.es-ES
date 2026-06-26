@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: 1198
 ht-degree: 15%
 
 ---
@@ -162,6 +162,10 @@ Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor pers
    ![](assets/verify-connection.png)
 
 Después de crear y configurar las credenciales de la API, debes establecer [la configuración de entrada del webhook](#webhook) para los mensajes SMS.
+
+>[!TIP]
+>
+>Cree y mantenga siempre configuraciones de agente independientes para cada zona protegida (producción, desarrollo, etc.) para evitar problemas de respuesta de ganchos web entre entornos. No reutilice las mismas credenciales de API, enlaces web o URL de devolución de llamada del proveedor (incluidos los agentes RCS) en los entornos limitados.
 
 ### Opciones de autenticación para proveedores de SMS personalizados {#auth-options}
 

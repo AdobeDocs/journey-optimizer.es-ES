@@ -27,10 +27,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 18%
+source-wordcount: 1024
+ht-degree: 8%
 
 ---
 
@@ -97,3 +97,46 @@ Para especificar el valor de los campos de encabezado dinámico y parámetro de 
 
 En la sección **[!UICONTROL Parámetros de acción]**, verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir de dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pasar valores manualmente o utilizar el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. Consulte [esta página](expression/expressionadvanced.md).
 
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo agregar y configurar una actividad de acción personalizada en un recorrido para llamar a una API de REST de terceros con una carga útil JSON, incluida la configuración de URL, la asignación de parámetros de encabezado/consulta, la asignación de parámetros de acción y la aplicación de directivas de gobernanza y consentimiento de datos.
+
+**Intenciones:**
+
+* Añada una actividad de acción personalizada a un recorrido para enviar datos a un sistema de terceros mediante la API de REST
+* Configure una ruta de URL dinámica concatenando campos y texto estático en el editor de expresiones
+* Asignar valores de encabezado dinámico y parámetros de consulta desde eventos de recorrido o fuentes de datos
+* Asignar parámetros de acción (definidos como variables) a campos de evento, campos de fuente de datos o valores estáticos
+* Aplique políticas de gobernanza de datos y consentimiento para controlar qué datos se exportan mediante acciones personalizadas
+
+**Glosario:**
+
+* **Acción personalizada**: una actividad de acción de recorrido que llama a un extremo externo de API REST con una carga en formato JSON para integrar sistemas de terceros *(específicos del producto)*
+* **Ruta dinámica**: La parte variable de la URL de acción personalizada que se define por ejecución usando campos del contexto de recorrido *(específico del producto)*
+* **Parámetros de acción**: los campos de carga útil del mensaje definidos como &quot;Variable&quot; en la configuración de acción personalizada, asignados a los datos de recorrido en el nivel de recorrido *(específico del producto)*
+
+**Protecciones:**
+
+* La parte estática de la dirección URL no se puede modificar en la recorrido; debe establecerse en la configuración de acción personalizada global.
+* Los campos de encabezado dinámico y parámetro de consulta se definen como variables en la pantalla de configuración de acciones, no en el recorrido.
+* Las políticas de gobernanza de datos y consentimiento se pueden aplicar para evitar que se exporten campos específicos o para excluir a los clientes no consentidos.
+
+**Terminología:**
+
+* Nombre canónico: Acción personalizada — Acrónimo: none — variantes: acciones personalizadas, acción de terceros
+* Sinónimos: &quot;parámetros de acción&quot; = &quot;parámetros de mensaje definidos como variables&quot;
+* No confunda: &quot;parte de URL estática&quot; (establecida en la configuración de acción global, no editable en el recorrido) ≠ &quot;ruta dinámica&quot; (establecida en el recorrido por ejecución)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Puedo cambiar la dirección URL base de una acción personalizada dentro del recorrido?** — No, solo se puede establecer la parte de ruta dinámica en la recorrido; la parte estática de la dirección URL se configura en la configuración de acción personalizada global.
+* **Q: ¿Cómo creo una ruta de URL dinámica que incluya un identificador de perfil?** — Utilice el campo Ruta con el editor de expresiones avanzadas para concatenar el campo Id. con cadenas estáticas, por ejemplo: `_id + '/messages'`.
+* **Q: ¿Cómo se aplican las reglas de consentimiento a una acción personalizada?** — Configure políticas de consentimiento en la acción personalizada para excluir a los clientes que no hayan aceptado recibir la comunicación relevante; consulte la página Consentimiento para obtener más detalles.
+* **Q: ¿Dónde se asignan los valores para los encabezados dinámicos?** — En la sección Configuración de URL del panel de actividad, haga clic dentro del campo de encabezado dinámico o utilice el icono de lápiz para seleccionar el campo deseado entre eventos o fuentes de datos.
+* **Q: ¿Qué tipos de valores puedo asignar a parámetros de acción?** — Puede asignar parámetros a campos de evento, campos de fuente de datos, pasar valores manualmente o utilizar el editor de expresiones avanzadas para la manipulación de datos.
+
++++

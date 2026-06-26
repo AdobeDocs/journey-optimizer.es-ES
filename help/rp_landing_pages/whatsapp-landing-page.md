@@ -6,8 +6,8 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '189'
+workflow-type: ht
+source-wordcount: '209'
 ht-degree: 100%
 
 ---

@@ -12,10 +12,10 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 feature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 19%
+source-wordcount: 1017
+ht-degree: 10%
 
 ---
 
@@ -105,3 +105,47 @@ Para asignar etiquetas de uso de datos personalizadas o principales a los objeto
 Para tener acceso a este objeto, los usuarios deben tener la **[!UICONTROL Etiqueta]** específica incluida en sus **[!UICONTROL Roles]**. Por ejemplo, un usuario con la etiqueta C1 solo tendrá acceso a objetos con etiquetas C1 o sin etiquetas.
 
 Para obtener más información sobre cómo asignar una **[!UICONTROL etiqueta]** a un **[!UICONTROL rol]**, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=es#manage-labels-for-a-role){target="_blank"}.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** El control de acceso de nivel de objeto (OLAC) le permite aplicar etiquetas de acceso a objetos específicos de Journey Optimizer, como recorridos, campañas y ofertas, de modo que sólo los usuarios cuya función incluya la etiqueta coincidente pueden ver esos objetos o interactuar con ellos.
+
+**Intenciones:**
+
+* Cree una etiqueta de acceso personalizada directamente en Journey Optimizer o a través del producto Permisos
+* Asignar etiquetas de acceso a objetos de Journey Optimizer (recorridos, campañas, ofertas, etc.)
+* Restringir contenido confidencial únicamente a usuarios autorizados
+* Comprender qué permisos son necesarios para crear y asignar etiquetas
+
+**Glosario:**
+
+* **OLAC (control de acceso de nivel de objeto)**: capacidad para definir autorizaciones para administrar el acceso a datos para una selección de objetos Journey Optimizer específicos *(específicos del producto)*
+* **Etiqueta**: etiqueta aplicada a un objeto para categorizarlo por directiva de uso y restringir el acceso según la pertenencia a funciones *(específica del producto)*
+* **Administrar acceso**: botón o interfaz disponible en objetos Journey Optimizer admitidos para crear y asignar etiquetas de acceso *(específicas del producto)*
+* **Etiquetas de uso de datos principales**: etiquetas predefinidas proporcionadas por Adobe Experience Platform, a diferencia de las etiquetas personalizadas creadas por la organización *(específicas del producto)*
+
+**Protecciones:**
+
+* La creación de etiquetas requiere el permiso **Administrar etiquetas de uso** (requisito previo)
+* La asignación de etiquetas requiere un permiso **Administrar** para el tipo de objeto (por ejemplo, Administrar recorridos, Administrar campañas o Administrar decisiones); sin él, el botón **Administrar acceso** aparece atenuado (requisito previo)
+* Objetos admitidos para las etiquetas OLAC: Recorrido, Campaña, Plantilla, Fragmento, Página de aterrizaje, Oferta, Colección de ofertas estáticas, Decisión de oferta, Configuración de canal, Plan de calentamiento de IP
+
+**Terminología:**
+
+* Nombre canónico: Control de acceso de nivel de objeto — Acrónimo: OLAC — variantes: control de acceso basado en objetos, administración de acceso basado en objetos
+* No confunda: OLAC (restringe el acceso a objetos AJO específicos como recorridos y campañas mediante etiquetas) ≠ ABAC (basado en atributos, aplica políticas de etiquetas a campos de esquema, conjuntos de datos y audiencias a nivel de plataforma)
+* No confunda: &quot;etiquetas de uso de datos principales&quot; (etiquetas creadas previamente desde Adobe Experience Platform) ≠ &quot;etiquetas personalizadas&quot; (etiquetas creadas por la organización)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Puedo crear una etiqueta directamente en Journey Optimizer sin ir al producto Permisos?** — Sí; utilice la ventana Administrar acceso en cualquier objeto compatible y haga clic en Crear etiqueta.
+* **Q: ¿Qué tipos de objeto admiten etiquetas OLAC?** — Recorrido, campaña, plantilla, fragmento, página de aterrizaje, oferta, colección de ofertas estáticas, decisión de oferta, configuración de canal y plan de calentamiento de IP.
+* **Q: ¿Qué permiso se necesita para asignar una etiqueta a un recorrido?** — el permiso Administrar recorridos; sin permiso Administrar, el botón Administrar acceso aparece atenuado.
+* **Q: si un usuario sólo tiene la etiqueta C1 en su rol, ¿a qué objetos puede tener acceso?** — Sólo objetos etiquetados o sin etiquetar C1.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 4e9b2577 -->

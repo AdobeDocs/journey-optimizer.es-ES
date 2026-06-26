@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Heredado" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Exportar el catálogo de ofertas en Adobe Journey Optimizer es como abrir la pue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guía para la exportación de catálogos de ofertas
 

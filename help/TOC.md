@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
 workflow-type: tm+mt
-source-wordcount: '3365'
+source-wordcount: '3383'
 ht-degree: 98%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 98%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + {hide-from-toc}[Lienzo del recorrido mejorado](using/rn/new-canvas.md)
+   + {hide-from-toc}[Migrar audiencias por lotes desde la calificación de audiencias](using/building-journeys/aq-batch-audiences-migration.md)
 + Introducción {#get-started}
    + [Empiece aquí](/help/rp_landing_pages/get-started-landing-page.md)
    + [Centro de incorporación](using/start/onboarding-hub.md)
@@ -39,7 +40,7 @@ ht-degree: 98%
       + [IA y funciones inteligentes](using/start/ai-features.md)
       + [Terminología clave](using/start/terminology.md)
       + [Empiece desde su meta](using/start/ajo-use-case-guide.md)
-      + [Protecciones y limitaciones](using/start/guardrails.md)
+      + [Mecanismos de protección y limitaciones](using/start/guardrails.md)
       + {hide-from-toc}[Paquetes y capacidades](using/start/ajo-packages.md)
       + {hide-from-toc}[Disponibilidad de funciones](using/start/ajo-features-availability.md)
    + Cómo comenzar según función {#by-role}
@@ -53,11 +54,13 @@ ht-degree: 98%
       + [Buscar, filtrar y organizar](using/start/search-filter-categorize.md)
       + [Preguntas frecuentes sobre solución de problemas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accesibilidad](using/start/accessibility.md)
-      + {hide-from-toc}[Recorridos frente a campañas](using/start/journeys-vs-campaigns.md)
+      + [Recorridos frente a campañas](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[Recorridos vs. Campañas - 2](using/start/journeys-vs-campaigns-v2.md)
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
    + {hide-from-toc}[Guía de introducción de recorrido](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[Tipos de recorrido y guía de selección](using/building-journeys/journey-types-selection.md)
+   + [tipos de recorrido: elija el correcto](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[tipos de Recorrido: elija el correcto-2](using/building-journeys/journey-types-selection-v2.md)
    + [Preguntas frecuentes de Journey Orchestration](using/building-journeys/journey-faq.md)
    + Crear un recorrido {#create-journey}
       + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -67,7 +70,7 @@ ht-degree: 98%
       + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
       + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
       + Simulación {#simulate-journey}
-         + [Introducción a la simulación de recorrido](using/building-journeys/simulate-journey-gs.md)
+         + [Introducción a la simulación del recorrido](using/building-journeys/simulate-journey-gs.md)
          + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
       + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
       + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
@@ -234,7 +237,7 @@ ht-degree: 98%
          + [Definir variables globales en campañas organizadas](using/orchestrated/global-variables.md)
          + [Activación de campañas orquestadas mediante una señal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflicto y priorización {#conflict-prioritization}
-   + [Administración de conflictos y priorización](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Administración y priorización de conflictos](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificar posibles conflictos](using/conflict-prioritization/conflicts.md)
    + [Asignar puntuaciones de prioridad](using/conflict-prioritization/priority-scores.md)
    + Establecimiento de reglas de límite de mensajes y recorridos {#capping-rules}
@@ -407,8 +410,8 @@ ht-degree: 98%
          + [Administración de experiencias basadas en código](using/code-based/publish-code-based.md)
    + Tarjetas de contenido {#content-card}
       + [Tarjetas de contenido](/help/rp_landing_pages/content-card-landing-page.md)
-      + Configuración del canal de tarjetas de contenido {#configure}
-         + [Configuración del canal de tarjetas de contenido](/help/rp_landing_pages/configure-landing-page.md)
+      + Configuración del canal de las tarjetas de contenido {#configure}
+         + [Configuración del canal de las tarjetas de contenido](/help/rp_landing_pages/configure-landing-page.md)
          + [Requisitos previos de tarjetas de contenido](using/content-card/content-card-configuration-prereq.md)
          + [Configuración del canal de tarjetas de contenido en Journey Optimizer](using/content-card/content-card-configuration.md)
          + [Configuración de la compatibilidad con tarjetas de contenido en el SDK para dispositivos móviles](using/content-card/content-card-lp.md)
@@ -728,10 +731,10 @@ ht-degree: 98%
          + [Creación de políticas de decisión](using/experience-decisioning/create-decision-policy.md)
          + [Uso de políticas de decisión en mensajes](using/experience-decisioning/use-decision-policy.md)
          + [Aprovechamiento de fragmentos en políticas de decisión](using/experience-decisioning/fragments-decision-policies.md)
-         + [Toma de decisiones por lotes en correo postal](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [Toma de decisiones por lotes en correo directo](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Informe sobre la toma de decisiones](using/experience-decisioning/cja-reporting.md)
       + [Caso de uso sobre la toma de decisiones](using/experience-decisioning/experience-decisioning-uc.md)
-      + Recopilación de datos de evento {#experience-decisioning-collect-event-data}
+      + Recopilación de datos del evento {#experience-decisioning-collect-event-data}
          + {hide-from-toc}[Introducción a la recopilación de datos](using/experience-decisioning/data-collection/data-collection.md)
          + {hide-from-toc}[Crear un conjunto de datos para recopilar eventos](using/experience-decisioning/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/experience-decisioning/data-collection/schema-requirement.md)
@@ -776,8 +779,8 @@ ht-degree: 98%
          + [Configurar selección de ofertas en decisiones](using/offers/offer-activities/configure-offer-selection.md)
          + [Creación de simulaciones](using/offers/offer-activities/simulation.md)
       + [Usar toma de decisiones por lotes](using/offers/batch-delivery.md)
-      + Recopilación de datos de evento {#collect-event-data}
-         + [Recopilación de datos de evento](/help/rp_landing_pages/collect-event-data-landing-page.md)
+      + Recopilación de datos del evento {#collect-event-data}
+         + [Recopilación de datos del evento](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [Introducción a la recopilación de datos](using/offers/data-collection/data-collection.md)
          + [Crear un conjunto de datos para recopilar eventos](using/offers/data-collection/create-dataset.md)
          + [Configurar la captura de eventos](using/offers/data-collection/schema-requirement.md)
@@ -971,8 +974,8 @@ ht-degree: 98%
    + [Conectar sus sistemas y entornos](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integración con otras soluciones](using/integrations/ajo-integrations.md)
    + [Trabajo con las API de Journey Optimizer](using/configuration/ajo-apis.md)
-   + Integración de los recorridos con sistemas externos {#external-systems}
-      + [Integración de los recorridos con sistemas externos](/help/rp_landing_pages/external-systems-landing-page.md)
+   + Integración de los recorridos con los sistemas externos {#external-systems}
+      + [Integración de los recorridos con los sistemas externos](/help/rp_landing_pages/external-systems-landing-page.md)
       + [Integración de recorridos con sistemas externos](using/configuration/external-systems.md)
       + [API de límite](using/configuration/capping.md)
       + [API de limitación](using/configuration/throttling.md)

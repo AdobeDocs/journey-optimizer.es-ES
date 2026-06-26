@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 8%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -151,3 +151,45 @@ Para crear nuestros **Recorridos de solo lectura** **[!UICONTROL Rol]**:
 Su **[!UICONTROL función]** se ha creado y configurado. Ahora debe asignarlo a los usuarios.
 
 Para obtener más información sobre la creación y administración de funciones, consulte la [documentación de Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=es){target="_blank"}.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+- **TL;DR:** Esta página muestra a los administradores de productos y sistemas las tres tareas de administración de funciones del producto Permisos: asignar una función existente a un usuario, editar los permisos de una función y crear una nueva función personalizada con permisos específicos y zonas protegidas.
+
+**Intenciones:**
+
+- Asignar una función integrada o personalizada a un usuario en Journey Optimizer
+- Editar los permisos de una función existente (agregar o quitar derechos)
+- Crear una nueva función personalizada con permisos específicos y asignaciones de zona protegida
+- Comprender quién tiene la autoridad para realizar la administración de funciones y permisos
+
+**Glosario:**
+
+- **Función**: una colección de usuarios que comparten los mismos permisos y zonas protegidas, que se usan para administrar el acceso dentro de una organización *(específica del producto)*
+- **Producto de permisos**: Interfaz de Adobe CX Enterprise (a la que se accede a través de [!DNL Permissions]) donde las funciones, los permisos y las zonas protegidas están configurados *(específico del producto)*
+- **Función integrada**: una función preexistente con un conjunto de permisos definido disponible para su asignación inmediata sin la configuración personalizada *(específica del producto)*
+
+**Protecciones:**
+
+- Solo los administradores de productos o sistemas pueden asignar, editar o crear funciones (requisito previo estricto, como se indica en la nota importante de la página)
+- Los cambios realizados en una función integrada o personalizada afectarán a todos los usuarios asignados a esa función (como se indica en la nota importante de la página)
+
+**Terminología:**
+
+- Nombre canónico: Producto Permisos — variantes: Permisos de Adobe, IU de permisos, Permisos empresariales de Adobe CX
+- No confunda: &quot;Asignar una función&quot; (agregar un usuario a una función existente) ≠ &quot;Crear una función&quot; (definir una nueva función con sus propios permisos y zonas protegidas desde cero)
+- No confunda: &quot;Editar una función existente&quot; (modificar permisos o zonas protegidas en una función existente; afecta a todos los usuarios asignados) ≠ &quot;Crear una nueva función&quot; (crear una nueva función sin afectar a ninguna función existente ni a sus usuarios)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+- **Q: ¿Quién puede asignar roles a los usuarios en Journey Optimizer?** — Solo los administradores de productos o sistemas.
+- **Q: ¿Qué sucede si edito los permisos de una función integrada?** — Los cambios afectarán a todos los usuarios asignados actualmente a ese rol.
+- **Q: ¿Dónde debo ir en el producto para administrar los roles?** — en el producto Permisos, vaya a la ficha Funciones.
+- **Q: después de asignar un rol, ¿recibe el usuario una notificación?** — Sí; el usuario recibe automáticamente un correo electrónico que le redirige a la instancia.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

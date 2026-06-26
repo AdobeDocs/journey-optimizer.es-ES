@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 692
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a utilizar la configuración guiada para configurar canales móviles y web en Adobe Journey Optimizer, crear automáticamente los recursos necesarios y compartir la configuración de canal con sus equipos de campaña y recorrido.
+**En esta página:** aprenda a utilizar la configuración guiada para configurar canales móviles y web en Adobe Journey Optimizer, crear automáticamente los recursos necesarios y compartir la configuración de canal con sus equipos de campaña y recorrido.
 
 >[!ENDSHADEBOX]
 

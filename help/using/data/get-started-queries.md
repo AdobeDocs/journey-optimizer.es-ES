@@ -26,9 +26,9 @@ subfeature_v2:
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 161
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Use el Editor de consultas con tecnología Adobe Experience Platform Query Service para poder escribir, validar y ejecutar consultas en los datos de la experiencia del cliente para análisis y exploración de datos en Adobe Journey Optimizer.
+**En esta página:** use el editor de consultas con tecnología del servicio de consultas de Adobe Experience Platform para poder escribir, validar y ejecutar consultas en los datos de la experiencia del cliente para el análisis y la exploración de datos en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

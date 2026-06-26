@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +85,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
 +++Agregar una directiva de decisión desde el menú Decisiones
 
-1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+1. Haga clic en el icono ![](assets/do-not-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
 1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
 
@@ -111,7 +111,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
    +++Añadir una política de decisión desde el editor de Personalization
 
-   1. Abra el editor de personalización mediante el icono ![](assets/do-no-localize/editor-icon.svg) disponible en el campo de la línea de asunto o en cualquier campo del cuerpo del correo electrónico donde pueda agregar personalización.
+   1. Abra el editor de personalización mediante el icono ![](assets/do-not-localize/editor-icon.svg) disponible en el campo de la línea de asunto o en cualquier campo del cuerpo del correo electrónico donde pueda agregar personalización.
 
    1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
 
@@ -123,7 +123,7 @@ Para las experiencias basadas en código, puede agregar una nueva directiva de d
 
    1. Abra la Designer de correo electrónico y seleccione cualquier componente de la estructura de correo electrónico.
 
-   1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+   1. Haga clic en el icono ![](assets/do-not-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
    1. Haga clic en el botón **[!UICONTROL Agregar nueva directiva]**.
 
@@ -155,7 +155,7 @@ Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de
 
 +++Añadir una política de decisión desde el editor de personalización
 
-1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+1. Abra el editor de personalización utilizando el icono ![](assets/do-not-localize/editor-icon.svg).
 1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +164,7 @@ Para SMS, puede agregar una nueva directiva de decisión mediante el **editor de
 
 +++Agregar una directiva de decisión desde el menú Decisiones
 
-1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+1. Haga clic en el icono ![](assets/do-not-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
 1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
 
@@ -178,7 +178,7 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 +++Añadir una política de decisión desde el editor de personalización
 
-1. Abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+1. Abra el editor de personalización utilizando el icono ![](assets/do-not-localize/editor-icon.svg).
 1. Vaya al menú **[!UICONTROL Políticas de decisión]** y haga clic en el botón **[!UICONTROL Agregar política de decisión]**.
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +187,7 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 +++Agregar una directiva de decisión desde el menú Decisiones
 
-1. Haga clic en el icono ![](assets/do-no-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
+1. Haga clic en el icono ![](assets/do-not-localize/decisioning-icon.png) del panel de propiedades para obtener acceso al menú **[!UICONTROL Decisioning]**.
 
 1. Haga clic en el botón **[!UICONTROL Agregar directiva de decisión]**.
 
@@ -195,7 +195,7 @@ Para las notificaciones push, puede agregar una nueva directiva de decisión med
 
 >[!IMPORTANT]
 >
->Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>Decisiones sobre experiencias con notificaciones push requiere una versión específica del SDK para móviles. Antes de implementar esta función, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión necesaria y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
 
@@ -205,7 +205,7 @@ Para el correo postal, agregue una directiva de decisión desde la configuració
 
 1. En la sección **[!UICONTROL Campos de datos]**, seleccione una columna o haga clic en **[!UICONTROL Agregar]** para crear una.
 
-1. En el panel de formato, abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+1. En el panel de formato, abra el editor de personalización utilizando el icono ![](assets/do-not-localize/editor-icon.svg).
 
    ![](assets/decision-policy-dm-add.png)
 

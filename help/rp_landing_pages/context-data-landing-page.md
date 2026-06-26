@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="Heredado" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '231'
+workflow-type: ht
+source-wordcount: '247'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Descubra cómo pasar datos de contexto en solicitudes de toma de decisiones en E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Usar datos de contexto en solicitudes de toma de decisiones y reglas de elegibilidad
 

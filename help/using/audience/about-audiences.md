@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -99,6 +99,10 @@ Las audiencias se pueden generar mediante diferentes métodos:
 ## Audiencias objetivo en recorridos y campañas {#target-audiences}
 
 Una vez que las audiencias estén listas, puede seleccionarlas al crear recorridos o campañas, lo que le permite llegar a las personas adecuadas en el momento adecuado con mensajes relevantes. [Más información acerca de la activación de audiencias en Journey Optimizer](target-audiences.md).
+
+>[!NOTE]
+>
+>Los perfiles que se activan mediante una audiencia (ya sea en una actividad de recorrido, campaña o toma de decisiones) se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización. Cada perfil se cuenta una vez por zona protegida durante un periodo móvil de 12 meses. [Supervisar el recuento de perfiles atractivos](license-usage.md)
 
 ## Vídeo práctico {#video}
 

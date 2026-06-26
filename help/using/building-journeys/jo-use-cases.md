@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 17%
+source-wordcount: 1523
+ht-degree: 12%
 
 ---
 
@@ -259,3 +259,40 @@ Examine las siguientes publicaciones de blog para encontrar más directrices y p
 </div>
 </td>
 </tr></table>
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+- **TL;DR:** Esta página es una biblioteca revisada de casos prácticos de uso de recorrido que abarcan eventos de experiencia, consultas de conjuntos de datos, escenarios empresariales, patrones técnicos, tutoriales de vídeo y publicaciones de blogs de la comunidad para ayudar a los profesionales a sacar el máximo partido de Adobe Journey Optimizer.
+
+**Intenciones:**
+- Encuentre ejemplos prácticos de casos de uso que abarquen situaciones comerciales como mensajería multicanal, campañas de suscriptores y envíos de correo electrónico solo entre semana
+- Busque patrones de casos de uso técnicos para acciones personalizadas, limitación del rendimiento y eliminación de perfiles de un recorrido activo
+- Acceda a tutoriales de vídeo para patrones de recorrido comunes, incluida la incorporación del cliente, el abandono del carro de compras y la renovación de la participación
+- Consulte conjuntos de datos de Adobe Journey Optimizer (eventos de paso, eventos de seguimiento, propuestas de ofertas) para crear informes y análisis personalizados
+- Utilice patrones de búsqueda de Experience Event para administrar exclusiones, frecuencia y personalización en tiempo real
+
+**Glosario:**
+- **Evento de experiencia**: registro con marca de tiempo de una interacción de cliente (por ejemplo, compra, clic, vista de página) almacenada en Adobe Experience Platform y utilizada para almacenar en déclencheur o personalizar los recorridos *(específicos del producto)*
+- **Evento de paso**: registro de conjunto de datos generado automáticamente que captura cada paso que realiza un perfil en un recorrido y que se usa para generar informes personalizados y depurar *(específico del producto)*
+- **Acción personalizada**: una actividad de recorrido que llama a una API externa para enviar o recibir datos de un sistema de terceros *(específico del producto)*
+
+**Protecciones:**
+- Cada ejemplo de caso de uso incluye recomendaciones que deben adaptarse a necesidades específicas; son puntos de partida, no configuraciones prescriptivas
+- Las consultas de conjuntos de datos requieren acceso al servicio de consultas de Adobe Experience Platform
+- Los tutoriales en vídeo hacen referencia a recursos de aprendizaje externos en Experience League
+
+**Terminología:**
+- Nombre canónico: Ejemplos de uso — Acrónimo: none — variantes: casos de uso de recorrido, ejemplos prácticos, fórmulas
+- Sinónimos: &quot;caso de uso empresarial&quot; = &quot;caso de uso de marketing&quot;; &quot;caso de uso técnico&quot; = &quot;caso de uso de desarrollador&quot;
+
+**PREGUNTAS MÁS FRECUENTES:**
+- **Q: ¿Por dónde empiezo si soy nuevo en los criterios de entrada y salida de recorrido?** — Comience con la guía completa para los criterios de entrada y salida de recorrido, que incluye casos de uso reales, prácticas recomendadas y directrices de configuración paso a paso.
+- **Q: ¿Cómo consulto los eventos de paso del recorrido para los informes personalizados?** — utilice el servicio de consulta de Adobe Experience Platform para consultar el conjunto de datos de eventos de paso de recorrido; las consultas de ejemplo están disponibles en la página de ejemplos de consultas de conjuntos de datos vinculados.
+- **Q: ¿Dónde puedo encontrar un caso de uso para enviar correos electrónicos solo de lunes a viernes?** — Consulte la página de caso de uso de correo electrónico entre semana, también disponible como publicación de blog de la comunidad.
+- **Q: ¿Cómo puedo quitar perfiles de un recorrido activo?** — Utilice la función de criterios de salida del atributo de perfil en un recorrido pausado, tal como se describe en el caso de uso técnico para eliminar perfiles de un recorrido activo.
+
++++

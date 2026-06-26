@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 22%
+source-wordcount: 1253
+ht-degree: 12%
 
 ---
 
@@ -89,3 +89,44 @@ El tiempo de espera definido se aplica a todos los eventos colocados después de
 * Si no se recibe ningún evento dentro de la duración del tiempo de espera, el individuo fluye a la rama de tiempo de espera del evento en la que se ha definido el tiempo de espera.
 
 ![Varios eventos con configuraciones de tiempo de espera en el recorrido](assets/event-timeout-group.png)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar eventos generales (unitarios y empresariales) en recorrido para almacenar en déclencheur la entrega de mensajes en tiempo real a nivel individual, incluido cómo configurar tiempos de espera de evento y rutas de tiempo de espera.
+
+**Intenciones:**
+* Añada una actividad de evento general a un lienzo de recorrido para almacenar en déclencheur la entrada de perfil en tiempo real
+* Configuración del tiempo de espera de un evento para limitar la duración de la escucha de un evento por parte de un recorrido
+* Configure una ruta de tiempo de espera para administrar perfiles que no almacenen en déclencheur el evento esperado a tiempo
+* Distinguir entre eventos unitarios y eventos empresariales, y comprender cuándo se agregan automáticamente
+* Combine tiempos de espera de evento con actividades de espera para controlar el comportamiento del tiempo de espera de varios eventos
+
+**Glosario:**
+* **Evento unitario**: evento que almacena en déclencheur el recorrido de un individuo a la vez, en tiempo real *(específico del producto)*
+* **Evento empresarial**: evento no relacionado con perfiles que déclencheur un recorrido para una audiencia de perfiles y agrega automáticamente una actividad Leer audiencia *(específica del producto)*
+* **Tiempo de espera del evento**: Un tiempo configurable (hasta 90 días) después del cual el recorrido deja de esperar un evento específico y enruta el perfil a una ruta de tiempo de espera *(específica del producto)*
+* **Ruta de tiempo de espera**: Una rama de recorrido opcional que los perfiles siguen cuando el evento esperado no se recibe dentro de la ventana de tiempo de espera *(específico del producto)*
+
+**Protecciones:**
+* La etiqueta y la descripción del evento son los únicos campos editables para un evento general en el lienzo; el resto de la configuración la realiza un usuario técnico y no se puede cambiar desde el recorrido
+* La duración máxima del tiempo de espera del evento es de 90 días
+* Cuando hay varios eventos después de una actividad Wait, el tiempo de espera debe configurarse solo en uno de esos eventos; el tiempo de espera definido se aplica a todos los eventos después de Wait
+* Si no se define ninguna ruta de tiempo de espera, el tiempo de espera actúa como una actividad de Espera; los perfiles que no reciben el evento permanecen en la recorrido hasta que transcurre el tiempo de espera
+
+**Terminología:**
+* Nombre canónico: General event — Acrónimo: none — variantes: unitary event, custom event
+* Sinónimos: &quot;evento general&quot; = &quot;evento unitario&quot; (en el contexto de la actividad de lienzo)
+* No confunda: &quot;evento empresarial&quot; ≠ &quot;evento unitario&quot;: un evento empresarial se dirige a una audiencia de perfiles, mientras que un evento unitario se dirige a una sola persona
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Puedo cambiar la configuración del evento desde el lienzo de recorrido?** — No; solo la etiqueta y la descripción pueden editarse en el lienzo. La configuración completa del evento la establece un usuario técnico y no se puede modificar desde la recorrido.
+* **Q: ¿Qué sucede si no se recibe ningún evento antes de que expire el tiempo de espera?** — Si se define una ruta de tiempo de espera, el perfil fluye a esa ruta. Si no se establece ninguna ruta de tiempo de espera, el tiempo de espera se comporta como una actividad de Espera y el perfil continúa el recorrido después del período de tiempo de espera.
+* **Q: ¿Cuál es la duración máxima del tiempo de espera del evento?** — 90 días.
+* **Q: ¿Cuándo debo habilitar la opción de ruta de tiempo de espera?** — Habilítelo siempre si desea que los perfiles salgan de esa rama después del tiempo de espera; sin una ruta de tiempo de espera, los perfiles permanecen en el recorrido esperando el evento.
+* **Q: ¿En qué se diferencia un evento empresarial de un evento unitario en el lienzo de recorrido?** — Al eliminar un evento empresarial, se añade automáticamente una actividad Leer audiencia, ya que los eventos empresariales se dirigen a varios perfiles simultáneamente, en lugar de a un único individuo.
+
++++

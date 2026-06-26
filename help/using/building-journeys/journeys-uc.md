@@ -29,10 +29,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 1%
+source-wordcount: 1720
+ht-degree: 0%
 
 ---
 
@@ -166,4 +166,52 @@ Conecte los subrecorridos mediante la actividad [**[!UICONTROL Jump]**](jump.md)
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta página presenta dos casos prácticos de uso de recorrido: un flujo de mensajes multicanal que combina la audiencia de lectura, eventos de reacción, correo electrónico y push; y un patrón de recorrido de lealtad multifase que utiliza la actividad de salto para descomponer recorridos complejos en recorridos secundarios manejables.
+
+**Intenciones:**
+
+* Cree un recorrido multicanal que envíe un correo electrónico de seguimiento o una notificación push en función de si un cliente abre un correo electrónico inicial
+* Configuración de un evento de compra para almacenar en déclencheur una notificación push de agradecimiento dentro de un recorrido
+* Utilice eventos de reacción para bifurcar un recorrido en función del comportamiento de apertura de correo electrónico
+* Descomponer un recorrido complejo multifase en subrecorridos más pequeños conectados mediante actividades Jump
+* Creación y configuración de un evento basado en reglas para utilizarlo como déclencheur de recorrido
+* Defina una audiencia basada en los atributos de ciudad y año de nacimiento para la entrada de recorrido objetivo
+
+**Glosario:**
+
+* **Evento de reacción**: un evento de recorrido que entra en déclencheur cuando un perfil interactúa con un mensaje (por ejemplo, abre un correo electrónico o hace clic en un vínculo), lo que habilita la bifurcación basada en el comportamiento. *(específico del producto)*
+* **Leer actividad de audiencia**: La actividad de entrada de recorrido que carga todos los perfiles de una audiencia de Adobe Experience Platform especificada para iniciar la recorrido. *(específico del producto)*
+* **Actividad de salto**: Actividad de acción que inserta un perfil de un recorrido (origen) a otro (destino), lo que habilita la arquitectura modular de recorridos secundarios. *(específico del producto)*
+* **Evento basado en reglas**: Tipo de evento en el que la condición de déclencheur se define mediante una expresión de regla en lugar de un ID de orquestación, lo cual resulta útil para los déclencheur de compra o de comportamiento. *(específico del producto)*
+
+**Protecciones:**
+
+* Se debe configurar una ruta de tiempo de espera de evento de reacción para controlar los perfiles que no interactúan con el mensaje dentro de la duración definida
+* La audiencia utilizada en el caso de uso debe crearse antes de crear el recorrido
+* Se debe configurar el evento de compra para poder utilizarlo en el recorrido
+* Los subrecorridos conectados mediante Jump deben utilizar el mismo área de nombres que el recorrido de origen
+* La anulación de direcciones de correo electrónico (anulación de parámetros) solo debe utilizarse para casos de uso específicos, no como reemplazo general de la dirección principal
+
+**Terminología:**
+
+* Nombre canónico: Evento de reacción — Acrónimo: none — variantes: actividad de reacción, reacción de mensaje
+* Sinónimos: &quot;recorrido de origen&quot; = &quot;recorrido de origen&quot;; &quot;recorrido de destino&quot; = &quot;recorrido de destino&quot;
+* No confunda: &quot;Leer actividad de audiencia&quot; ≠ &quot;Actividad de calificación de audiencia&quot;: la lectura de audiencia carga todos los miembros de la audiencia en lote a la vez; los déclencheur de calificación de audiencia por perfil en tiempo real a medida que cambia la pertenencia
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Cómo envío un mensaje de seguimiento solamente a los clientes que no abrieron un correo electrónico?** — Añadir un evento de reacción (correo electrónico abierto) con una ruta de tiempo de espera; los perfiles que no se abren dentro de la duración de tiempo de espera fluyen por la ruta de tiempo de espera en la que se coloca el correo electrónico de seguimiento.
+* **Q: ¿Cómo se configura el evento de compra en el caso de uso de varios canales?** — Como evento basado en reglas con una condición como `purchaseMessage="thank you"`, configurado con un esquema, campos de carga útil (producto, fecha, ID de compra), área de nombres e identificador de perfil.
+* **Q: ¿Por qué descomponer un recorrido complejo en recorridos secundarios?** — Los recorridos complejos pueden exponer 20 o más rutas de cliente únicas, y la complejidad aumenta exponencialmente con cada punto de contacto. Los subrecorridos mantienen cada fase legible, comprobable y mantenible de forma independiente.
+* **Q: ¿Puede un perfil estar en el recorrido de origen y de destino al mismo tiempo después de un salto?** — Sí; cuando un perfil llega a un paso de salto, continúa progresando en el recorrido de origen mientras introduce simultáneamente el recorrido de destino.
+* **Q: ¿Cuántos recorridos secundarios se usan en el ejemplo de fidelidad de varias fases?** — Tres recorridos secundarios: Fase 1 (descarga de la aplicación), Fase 2 (primera operación) y Fase 3 (segunda operación), conectados secuencialmente utilizando actividades Jump.
+
++++
 

@@ -26,9 +26,9 @@ topic_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 724
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Comprenda qué son los conectores de origen y cómo traen datos de su CRM, almacenamiento en la nube y bases de datos a Adobe Journey Optimizer, para que pueda impulsar recorridos de clientes personalizados y basados en datos.
+**En esta página:** comprenda qué son los conectores de origen y cómo traen datos de su CRM, almacenamiento en la nube y bases de datos a Adobe Journey Optimizer, para que pueda impulsar recorridos de clientes personalizados y basados en datos.
 
 >[!ENDSHADEBOX]
 

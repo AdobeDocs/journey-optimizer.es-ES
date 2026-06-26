@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 6%
+source-wordcount: 1982
+ht-degree: 4%
 
 ---
 
@@ -191,3 +191,53 @@ En los casos siguientes, el paso de salto se trata como una **acción fallida** 
 * La instancia de recorrido de destino existente se ha terminado y el recorrido de destino no es de reentrada.
 * Se configura un período de reentrada en el recorrido de destino. Incluso cuando, en principio, se permite la reentrada, el perfil no puede volver a entrar hasta que transcurra el periodo (el salto falla con el estado &quot;no reentrante para el periodo&quot;).
 * La versión del recorrido de destino no se puede encontrar, se ha eliminado, está en estado terminado o se ha detenido.
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica la actividad de salto, que inserta perfiles de un recorrido a otro para simplificar diseños de recorridos complejos mediante patrones de recorridos secundarios reutilizables.
+
+**Intenciones:**
+
+* Utilice la actividad Jump para transferir perfiles de un recorrido de origen a un recorrido de destino
+* Descomponga un recorrido complejo en recorridos secundarios más pequeños y manejables conectados mediante actividades Jump
+* Configure la actividad Jump seleccionando un recorrido de destino y parámetros de acción de asignación
+* Comprender el comportamiento del perfil cuando se ejecuta un salto (perfil activo en ambos recorridos simultáneamente)
+* Solucionar errores de configuración de Jump y errores de tiempo de ejecución
+* Evite los patrones de bucle al encadenar varios recorridos con actividades de salto
+
+**Glosario:**
+
+* **Actividad de salto**: una actividad de acción que envía un evento interno al primer evento de un recorrido de destino, lo que hace que el perfil empiece a fluir a través de ese recorrido. *(específico del producto)*
+* **recorrido de origen**: el recorrido que contiene la actividad de salto e inicia la transferencia de un perfil a otro recorrido. *(específico del producto)*
+* **recorrido de destino**: el recorrido que recibe el perfil a través del déclencheur de eventos interno de la actividad de salto. *(específico del producto)*
+* **Omisión silenciosa**: El comportamiento cuando un perfil ya está activo en el recorrido de destino en el momento de un salto; el salto se omite sin error y el recorrido de origen continúa normalmente. *(específico del producto)*
+
+**Protecciones:**
+
+* La actividad de salto solo está disponible en recorridos que utilizan un área de nombres; los recorridos de origen y destino deben compartir el mismo área de nombres
+* No se puede saltar a un recorrido que comience por un evento de calificación de audiencia o una audiencia de lectura
+* No se puede utilizar una actividad de salto y un evento de calificación de audiencia o una audiencia de lectura en el mismo recorrido
+* Los patrones de bucle (cadenas de recorrido circulares) no son compatibles y la interfaz de usuario de configuración los impide
+* Durante el tiempo de ejecución, se activa la última versión activa del recorrido de destino
+* Un perfil solo puede estar presente una vez en el mismo recorrido a la vez; si ya está activo en el recorrido de destino, el salto se omite silenciosamente
+* Si el recorrido de destino es borrador, cerrado, detenido, eliminado o si su primera asignación de evento se rompe, el salto provoca un error de configuración
+
+**Terminología:**
+
+* Nombre canónico: Jump activity — Acrónimo: none — variantes: Jump action, recorrido jumping
+* Sinónimos: &quot;recorrido de origen&quot; = &quot;recorrido de origen&quot;; &quot;recorrido de destino&quot; = &quot;recorrido de destino&quot;
+* No confundir: &quot;omisión silenciosa&quot; ≠ &quot;error de tiempo de ejecución&quot;: se produce una omisión silenciosa cuando el perfil ya está en la recorrido de destino (sin que se produzca ningún error); se produce un error de tiempo de ejecución cuando el recorrido de destino no está disponible o no se reintroduce (se trata como una acción fallida)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Qué le sucede a un perfil en la recorrido de origen después de un salto?** — El perfil sigue progresando a través de los pasos restantes del recorrido de origen después del paso Saltar mientras entra simultáneamente en el recorrido de destino; está activo en ambos recorridos al mismo tiempo.
+* **Q: ¿Puedo saltar a un recorrido de lectura de audiencias?** — No; no puede saltar a un recorrido que comience con un evento Leer audiencia o Calificación de audiencias.
+* **Q: ¿Qué déclencheur genera el recorrido de destino cuando se ejecuta un salto?** — la actividad Jump envía un evento interno al primer evento del recorrido de destinatario; a continuación, el perfil fluye a través del recorrido de destino desde ese primer evento.
+* **Q: ¿Cómo evito bucles infinitos al encadenar recorridos con Jump?** — Los patrones de bucle están bloqueados por la interfaz de usuario de configuración de actividad de salto, que filtra los recorridos de destino que crearían una cadena circular.
+* **Q: ¿Qué versión del recorrido de destino se activa mediante un salto?** — La última versión activa (o en modo de prueba) del recorrido de destino se activa durante la ejecución.
+
++++

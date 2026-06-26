@@ -26,9 +26,9 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 278
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las herramientas de Adobe Journey Optimizer y Adobe Experience Platform para administrar solicitudes de datos, registros de auditoría, consentimientos y políticas de gobernanza, de modo que pueda manejar los datos personales de manera responsable y cumplir con regulaciones como el RGPD.
+**En esta página:** descubra las herramientas de Adobe Journey Optimizer y Adobe Experience Platform para administrar solicitudes de datos, registros de auditoría, consentimientos y políticas de gobernanza, de modo que pueda gestionar los datos personales de manera responsable y cumplir con regulaciones como el RGPD.
 
 >[!ENDSHADEBOX]
 

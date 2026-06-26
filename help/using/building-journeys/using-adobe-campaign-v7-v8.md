@@ -25,10 +25,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 26%
+source-wordcount: 761
+ht-degree: 11%
 
 ---
 
@@ -70,3 +70,44 @@ Se presenta un caso de uso de extremo a extremo en esta [sección](../building-j
 >* Las acciones de las versiones 7 y 8 de Campaign no se pueden usar con las actividades Leer audiencia o Calificación de audiencias. Consulte las protecciones Leer audiencia y Calificación de audiencias en la página Protecciones.
 
 ![[!DNL Adobe Campaign] configuración de acciones e integración de las versiones 7 y 8](assets/accintegration2.png)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar Adobe Campaign v7/v8 como acción en Journey Optimizer recorrido para enviar correos electrónicos, notificaciones push y SMS a través de la mensajería transaccional de Campaign.
+
+**Intenciones:**
+
+* Añadir una acción de Campaign v7/v8 a un recorrido para enviar mensajes transaccionales
+* Asigne campos de evento de recorrido o fuente de datos a los parámetros de carga útil de mensajes de Campaign
+* Combine acciones de las versiones 7 y 8 de Campaign con acciones nativas del canal de Journey Optimizer en el mismo recorrido
+* Configure la acción dedicada necesaria para la integración de las versiones 7 y 8 de Campaign
+
+**Glosario:**
+
+* **Mensajería transaccional de Campaign**: La capacidad de Adobe Campaign v7/v8 para enviar mensajes activados (correo electrónico, SMS, push) a través de una acción dedicada integrada con Journey Optimizer *(específico del producto)*
+* **Parámetros de acción**: campos en el panel de actividad de recorrido que asignan datos de recorrido a la carga útil de mensaje de Campaign esperada *(específica del producto)*
+
+**Protecciones:**
+
+* Adobe configura la conexión entre Journey Optimizer y la instancia de Campaign en el momento del aprovisionamiento; póngase en contacto con Adobe para habilitarla.
+* Se debe configurar una acción específica antes de que las acciones de las versiones 7 y 8 de Campaign estén disponibles en la paleta recorrido.
+* Las acciones de las versiones 7 y 8 de Campaign no se pueden usar con las actividades Leer audiencia o Calificación de audiencias.
+* El acceso a la mensajería transaccional de Campaign y a los permisos necesarios en Campaign son requisitos previos.
+
+**Terminología:**
+
+* Nombre canónico: Adobe Campaign v7/v8 — Acrónimo: ACC — variantes: Campaign v7, Campaign v8, Campaign Classic
+* No confunda: &quot;Acciones de Campaign v7/v8&quot; (se pueden usar junto con acciones nativas) ≠ &quot;Acciones de Campaign Standard&quot; (no se pueden combinar con acciones nativas en el mismo recorrido)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **P: ¿Quién configura la conexión entre Journey Optimizer y las versiones 7 y 8 de Campaign?** — Adobe configura la conexión en el momento del aprovisionamiento; debe ponerse en contacto con Adobe para configurarla.
+* **P: ¿Pueden combinarse las acciones de las versiones 7 y 8 de Campaign con las acciones nativas del canal de Journey Optimizer en el mismo recorrido?** — Sí, las acciones de las versiones 7 y 8 de Campaign se pueden usar junto con las acciones del canal nativo; este no es el caso de las acciones de Campaign Standard.
+* **Q: ¿Pueden usarse acciones de Campaign v7/v8 con actividades Leer audiencia o Calificación de audiencias?** — No, las acciones de las versiones 7 y 8 de Campaign no se pueden usar con las actividades Leer audiencia o Calificación de audiencias.
+* **Q: ¿Cómo asigno los datos de recorrido a la carga útil del mensaje de Campaign?** — en el panel Parámetros de acción, asigne cada campo de carga útil esperado al campo correspondiente desde el evento de recorrido o la fuente de datos, del mismo modo que las acciones personalizadas.
+
++++

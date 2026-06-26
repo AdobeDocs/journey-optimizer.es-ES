@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +106,8 @@ La tabla **[!UICONTROL Información general de campaña]** sirve como un panel p
 
 La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las etiquetas de vínculo dentro de los mensajes SMS, destacando las que generan el mayor tráfico de visitantes. Esta función le permite identificar y priorizar los vínculos más populares.
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ Obtenga más información acerca de las métricas de etiquetas de vínculos rastreados
 
 * **[!UICONTROL Clics]**: Número de veces que se hizo clic en un contenido en sus mensajes SMS.
@@ -119,6 +121,8 @@ La tabla **[!UICONTROL Etiquetas rastreadas]** ofrece una visión general de las
 ## URL de vínculos rastreados {#track-link-url-sms}
 
 La tabla **[!UICONTROL URL de vínculos rastreados]** proporciona una visión general de las URL de los mensajes SMS que atraen el tráfico de visitantes más alto. Esto le permite identificar y priorizar los vínculos más populares, lo que mejora su comprensión de la participación del perfil con contenido específico en los mensajes SMS.
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ Obtenga más información acerca de las métricas de URL de vínculos rastreados
 

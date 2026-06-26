@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Las **campañas de acción** (también conocidas como Campañas programadas) son
 Antes de trabajar con campañas, asegúrese de haber revisado los requisitos previos que se indican a continuación.
 
 * **Públicos**: los públicos deben estar disponibles en Adobe Experience Platform antes de crear campañas. [Introducción a los públicos→](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles atractivos** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en una audiencia grande o nueva puede provocar un aumento significativo de este recuento. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
 
 * **Configuraciones de canal**: las configuraciones de canal (ajustes preestablecidos) deben crearse y estar disponibles para los canales que desee utilizar. [Creación de configuraciones de canal →](../configuration/channel-surfaces.md)
 

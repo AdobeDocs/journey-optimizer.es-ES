@@ -8,7 +8,7 @@ badge: label="Heredado" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: ht
-source-wordcount: '241'
+source-wordcount: '266'
 ht-degree: 100%
 
 ---

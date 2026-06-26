@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 722
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Los canales nativos de Adobe Journey Optimizer le permiten llegar a los clientes a través de envíos salientes y experiencias entrantes: compare correos electrónicos, SMS, push, actividades en directo, correo directo, WhatsApp, LINE, en la aplicación, web, basado en código y tarjetas de contenido para ver dónde se admite cada uno en recorridos y campañas.
+**En esta página:** los canales nativos de Adobe Journey Optimizer le permiten llegar a los clientes a través de envíos salientes y experiencias entrantes: compare correos electrónicos, SMS, push, actividades en directo, correo directo, WhatsApp, LINE, en la aplicación, web, basado en código y tarjetas de contenido para ver dónde se admite cada uno en recorridos y campañas.
 
 >[!ENDSHADEBOX]
 

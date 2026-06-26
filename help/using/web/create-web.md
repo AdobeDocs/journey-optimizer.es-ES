@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
 >title="Acción web"
->abstract="Una acción de entrada de experiencia web muestra una experiencia web a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración web que define el contenido mostrado. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Wait** después de esta actividad (3 días de forma predeterminada), lo que proporciona a los perfiles tiempo para ver la experiencia web."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Una acción de entrada de experiencia web muestra una experiencia web a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración web que define el contenido mostrado. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación. Se inserta automáticamente un nodo **Esperar** después de esta actividad (tres días de forma predeterminada), lo que proporciona a los perfiles tiempo para ver la experiencia web."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 [!DNL Journey Optimizer] le permite personalizar la experiencia web que entrega a sus clientes a través de recorridos o campañas entrantes.
 

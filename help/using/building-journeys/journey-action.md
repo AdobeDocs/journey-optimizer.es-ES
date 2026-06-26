@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 12%
+source-wordcount: 2428
+ht-degree: 9%
 
 ---
 
@@ -356,3 +356,47 @@ En lugar de utilizar las funciones de mensajes integradas, puede utilizar accion
 
    * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo usar la actividad de acción unificada en el lienzo de recorrido para configurar acciones de canal integradas (correo electrónico, push, SMS, en la aplicación, web, tarjeta de contenido, experiencia basada en código), crear grupos de acciones de entrada múltiple y aplicar la optimización o la configuración multilingüe.
+
+**Intenciones:**
+* Añada una acción de canal integrada (correo electrónico, push, SMS, en la aplicación, web, tarjeta de contenido, experiencia basada en código) a un recorrido mediante la actividad de acción
+* Configuración de un grupo de varias acciones para enviar varias acciones entrantes simultáneamente desde un solo nodo de recorrido
+* Aplicar reglas de límite de frecuencia a una acción de canal saliente para evitar la fatiga del mensaje
+* Actualización del contenido de un mensaje en un recorrido activo sin volver a publicar
+* Conexión de un sistema de mensajería de terceros a un recorrido mediante acciones personalizadas
+* Habilitar el modo de envío rápido para notificaciones push urgentes de gran volumen
+
+**Glosario:**
+* **Actividad de acción**: la actividad de lienzo de recorrido unificado que sirve como punto de entrada único para todas las acciones de canal integradas y reemplaza las actividades de canal heredadas individuales *(específicas del producto)*
+* **Multiacción**: Una configuración dentro de un solo nodo de actividad de acción que permite que se entreguen simultáneamente hasta 10 acciones de canal entrante *(específicas del producto)*
+* **Modo de envío rápido**: Un complemento que permite el envío muy rápido y de gran volumen de mensajes push para las alertas de tiempo crítico *(específicas del producto)*
+* **Nodo de espera automática**: una actividad de espera de 3 días insertada automáticamente después de cada acción del canal entrante para que los perfiles tengan tiempo de ver la experiencia antes de que el recorrido avance *(específico del producto)*
+* **Puntuación de prioridad**: valor asignado a una acción de recorrido para determinar qué experiencia entrante tiene prioridad cuando varias acciones compiten por la misma configuración de canal *(específica del producto)*
+
+**Protecciones:**
+* Las actividades heredadas de canales individuales (correo electrónico, push, SMS, en la aplicación, web, experiencia basada en código, tarjeta de contenido) quedaron obsoletas a partir de la versión de marzo de 2026; los recorridos existentes siguen funcionando sin migración
+* La acción múltiple solo está disponible para canales entrantes; los canales salientes como el correo electrónico no son compatibles con los grupos de acción múltiple
+* Un grupo de varias acciones admite un máximo de 10 acciones entrantes
+* En un recorrido activo, los atributos de personalización (atributos de perfil y datos contextuales) no se pueden cambiar, solo se puede actualizar el contenido del mensaje
+* Los déclencheur en la aplicación no se pueden modificar en un recorrido activo
+
+**Terminología:**
+* Nombre canónico: Actividad de acción — Acrónimo: none — variantes: acción de canal, actividad de mensaje, acción de canal integrada
+* Sinónimos: &quot;Actividad de acción&quot; = &quot;Actividad de acción del canal&quot;
+* No confunda: &quot;Actividad de acción&quot; ≠ &quot;acción personalizada&quot;: la actividad de acción utiliza canales nativos integrados, mientras que una acción personalizada se integra con un sistema de terceros a través de API
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Qué canales están disponibles en la actividad de acción?** — Correo electrónico, push, SMS/RCS/MMS, en la aplicación, web, experiencia basada en código y tarjeta de contenido.
+* **Q: ¿Puedo enviar a varios extremos entrantes en el mismo nodo de recorrido?** — Sí, con el tipo de acción múltiple puede añadir hasta 10 acciones entrantes (experiencia basada en código, en la aplicación, tarjeta de contenido, web) en un solo nodo de actividad de acción.
+* **Q: ¿Qué les sucede a los recorridos que usan las actividades de canal heredadas obsoletas?** — Siguen funcionando sin ningún cambio; no se requiere ninguna migración.
+* **Q: ¿Puedo cambiar la línea de asunto del correo electrónico de un recorrido en vivo?** — Puede actualizar el contenido de un mensaje en un recorrido activo, pero no puede cambiar los atributos de personalización ni los datos contextuales utilizados en ese contenido.
+* **Q: ¿Cómo aplico un límite de frecuencia a una acción del canal?** — Utilice la lista desplegable Reglas de negocio de la configuración de acción para seleccionar un conjunto de reglas que aplique reglas de límite al canal seleccionado.
+
++++

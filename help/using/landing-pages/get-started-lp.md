@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Las páginas de aterrizaje convierten un clic de un correo electrónico, un anuncio o una campaña en un destino web dedicado en el que los clientes se excluyen o excluyen, administran sus preferencias y comparten datos de perfil, lo que le ayuda a aumentar las audiencias consentidas y a capturar los datos de origen que alimentan la personalización.
+**En esta página:** las páginas de destino convierten un clic de un correo electrónico, un anuncio o una campaña en un destino web dedicado en el que los clientes se adhieren o cancelan, administran sus preferencias y comparten datos de perfil, lo que aumenta los públicos que hayan aceptado y a capturar los datos de origen que alimentan la personalización.
 
 >[!ENDSHADEBOX]
 

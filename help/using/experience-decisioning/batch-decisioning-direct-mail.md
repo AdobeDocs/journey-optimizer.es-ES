@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: toma de decisiones por lotes, correo directo, toma de decisiones
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ La toma de decisiones por lotes en el correo postal admite dos casos de uso prin
 1. **Agregar una directiva de decisión**:
 
    1. Haga clic en **[!UICONTROL Editar contenido]** para configurar el archivo de extracción.
-   1. Agregue una columna al archivo de extracción y abra el editor de personalización utilizando el icono ![](assets/do-no-localize/editor-icon.svg).
+   1. Agregue una columna al archivo de extracción y abra el editor de personalización utilizando el icono ![](assets/do-not-localize/editor-icon.svg).
 
       ![](assets/decision-policy-dm-add.png)
 

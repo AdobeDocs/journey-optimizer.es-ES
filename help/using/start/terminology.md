@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ Para pares de términos que suenan similares y que a menudo se confunden, como *
 |------|------------|
 | **Audiencia** | Un grupo de clientes que comparten características o comportamientos comunes, como &quot;clientes que compraron en los últimos 30 días&quot; o &quot;miembros del programa de fidelidad&quot;. Las audiencias se utilizan para segmentar clientes específicos. [Más información](../audience/about-audiences.md) |
 | **Calificación de audiencias** | Proceso automático que se produce cuando un cliente se une a una audiencia o la abandona. Journey Optimizer puede almacenar en déclencheur las acciones que se producen cuando alguien entra o sale de una audiencia, lo que garantiza comunicaciones oportunas y relevantes. [Más información](../building-journeys/audience-qualification-events.md) |
-| **Audiencia atractiva** | El número de perfiles de cliente con los que puede ponerse en contacto de forma activa mediante Adobe Journey Optimizer en función del acuerdo de licencia. Esto suele referirse a perfiles contratados en los últimos 12 meses. |
+| **Perfiles atractivos** | Los perfiles de cliente únicos involucrados a través de recorridos, campañas o actividades de toma de decisiones en un período móvil de 12 meses. Esta es la métrica de licencias clave para Journey Optimizer: cada perfil se cuenta una vez por zona protegida, independientemente de la cantidad de recorridos o campañas que introduzca. Supervise el recuento en **[!UICONTROL Administración]** > **[!UICONTROL Uso de licencias]**. [Más información](../audience/license-usage.md) |
 | **Perfil de prueba** | Perfiles ficticios utilizados para probar y previsualizar mensajes antes de enviarlos a clientes reales. Los perfiles de prueba ayudan a comprobar la personalización, el contenido y la lógica de recorrido. [Más información](../audience/creating-test-profiles.md) |
 
 ## Contenido y términos de personalización {#content-terms}

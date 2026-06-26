@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 3%
+source-wordcount: 366
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,11 @@ Una vez que la experiencia web esté activa, puede consultar la pestaña **[!UIC
 Para mejorar aún más la monitorización de la experiencia web, también puede rastrear los clics en cualquier elemento específico del sitio web. Esto le permite mostrar el número de clics en ese elemento en los informes web. [Descubra cómo](#use-click-tracing)
 
 ## Uso del rastreo de clics {#use-click-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_click_tracking"
+>title="Uso del rastreo de clics"
+>abstract="Rastree los clics en cualquier elemento de la página web para monitorizar las interacciones del usuario. Seleccione un elemento, elija **Haga clic en rastrear elemento** en el menú contextual y agregue una etiqueta significativa. Los datos rastreados aparecen en los informes web, lo que le ayuda a comprender cómo los usuarios interactúan con el contenido."
 
 El diseñador web le permite seleccionar cualquier elemento del sitio web y rastrear los clics en ese elemento.
 

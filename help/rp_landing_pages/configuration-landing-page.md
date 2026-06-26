@@ -6,19 +6,19 @@ description: Configuración de canal
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
 # Configuración de canal{#section-overview}
 
-La configuración de canal en Adobe Journey Optimizer le permite administrar cómo se envían los mensajes en varios canales, como correo electrónico, SMS, notificaciones push y web, lo que garantiza una comunicación personalizada y eficaz.
+La configuración de canal en Adobe Journey Optimizer le permite administrar cómo se envían los mensajes en varios canales, como el correo electrónico, SMS, notificaciones push y web, lo que garantiza una comunicación adaptada y eficaz.
 
-Tanto si desea configurar parámetros técnicos, subdominios o optimizar la capacidad de envío de correo electrónico con planes de calentamiento de IP, cada paso está diseñado para mejorar el rendimiento y el cumplimiento de los mensajes.
+Tanto si desea configurar parámetros técnicos, subdominios como si desea optimizar la entregabilidad de correo electrónico con planes de calentamiento de IP, cada paso se ha diseñado para mejorar el rendimiento y el cumplimiento de los mensajes.
 
-También encontrará herramientas para monitorizar la reputación del correo electrónico, administrar listas de supresión e incluso archivar mensajes para fines de auditoría.
+También encontrará herramientas para monitorizar la reputación del correo electrónico, administrar listas de supresión e incluso archivar mensajes para la auditoría.
 
 Explore en detalle los temas siguientes para descubrir cómo funcionan conjuntamente estas configuraciones, lo que le ayuda a crear experiencias de cliente impactantes y sin problemas.
 

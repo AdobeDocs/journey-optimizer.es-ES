@@ -6,8 +6,8 @@ description: Informes de campaña
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '309'
+workflow-type: ht
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Los informes de campaña de Adobe Journey Optimizer le permiten obtener información útil sobre sus esfuerzos de marketing en diversos canales. Desde el rendimiento del correo electrónico y la participación por SMS hasta las interacciones web y las notificaciones push, estos informes ofrecen una imagen clara de cómo responden los públicos a las campañas. Cada informe se centra en métricas específicas, como las tasas de pulsaciones, el estado de envío o los vínculos rastreados, adaptadas al tipo de campaña, lo que le ayuda a identificar tendencias, optimizar estrategias y mejorar las experiencias de los usuarios. Tanto si analiza los resultados del canal como si ajusta la personalización basada en IA, estas herramientas le guían paso a paso para alcanzar un mayor éxito de campaña.
 
-## Informes de campaña en Adobe Journey Optimizer 
+## Informes de campaña en Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::

@@ -5,8 +5,8 @@ title: Funciones y responsabilidades
 description: Funciones y responsabilidades
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '224'
 ht-degree: 100%
 
 ---

@@ -6,8 +6,8 @@ description: Plantillas de contenido
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '244'
+workflow-type: ht
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Descubra cómo acceder, organizar y administrar plantillas de contenido, incluid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Creación de plantillas de contenido
 
@@ -50,7 +50,7 @@ Guía paso a paso sobre cómo crear plantillas de contenido reutilizables desde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloquear contenido en plantillas de correo electrónico
 
@@ -60,7 +60,7 @@ Descubra cómo bloquear secciones o plantillas completas para evitar ediciones o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Plantillas de contenido de prueba
 

@@ -28,9 +28,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1005
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a acceder al Asistente de IA en Adobe Journey Optimizer, configure los permisos necesarios y comprenda las protecciones para generar contenido de texto e imagen.
+**En esta página:** aprenda a acceder al Asistente de IA en Adobe Journey Optimizer, configure los permisos necesarios y comprenda los mecanismos de protección para generar contenido de texto e imagen.
 
 >[!ENDSHADEBOX]
 

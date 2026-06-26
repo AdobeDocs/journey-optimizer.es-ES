@@ -6,8 +6,8 @@ description: Empezar a crear contenido
 redpen-status: CREATED_||_2025-08-11_20-31-35
 exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '245'
+workflow-type: ht
+source-wordcount: '266'
 ht-degree: 100%
 
 ---

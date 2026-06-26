@@ -6,9 +6,9 @@ description: Valide la precisión del mensaje antes del lanzamiento. Obtenga una
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Previsualizar el contenido mediante perfiles de prueba
 
@@ -58,7 +58,7 @@ Guía paso a paso para obtener una vista previa del contenido personalizado medi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Enviar pruebas mediante datos de perfil de prueba
 
@@ -82,7 +82,7 @@ Integre Litmus para obtener una vista previa de la representación de correo ele
 
 Simulación y prueba de variaciones de contenido
 
-Simule las variaciones de contenido utilizando datos de entrada de muestra o variantes generadas por IA para probar contenido personalizado y garantizar la precisión.
+Simule las variaciones de contenido utilizando las variantes de datos de entrada de muestra o generadas por IA para probar el contenido personalizado y garantizar la precisión.
 
 [Simulación de variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 :::

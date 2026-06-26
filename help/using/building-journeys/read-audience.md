@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 7%
+source-wordcount: 4780
+ht-degree: 10%
 
 ---
 
@@ -54,7 +54,7 @@ Utilice la actividad Leer audiencia para iniciar recorridos con audiencias defin
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Actividad Leer público"
->abstract="Agrega todos los perfiles calificados de una audiencia [!DNL Adobe Experience Platform] seleccionada a este recorrido. Se ejecuta una vez o según una programación."
+>abstract="Añade todos los perfiles cualificados de un público de [!DNL Adobe Experience Platform] seleccionado a este recorrido. Se ejecuta una vez o según una programación."
 
 La actividad **Leer audiencia** es la actividad de punto de entrada de recorrido que agrega todos los perfiles de una audiencia [!DNL Adobe Experience Platform] seleccionada a un recorrido. Puede ejecutar la entrada una vez o en una programación recurrente. En las API y referencias técnicas, esta actividad también se denomina entrada de recorrido basada en segmentos o déclencheur de audiencias.
 
@@ -100,12 +100,12 @@ Establecerá: **Audiencia** (obligatoria), **Espacio de nombres** (obligatorio),
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Público"
->abstract="La audiencia [!DNL Adobe Experience Platform] cuyos perfiles entran en este recorrido. Todos los perfiles cualificados se leen en. Se recomiendan las audiencias por lotes para obtener recuentos fiables y coherentes, y solo se puede leer una audiencia por actividad."
+>abstract="El público [!DNL Adobe Experience Platform] cuyos perfiles entrarán en este recorrido. Todos los perfiles cualificados se leen. Se recomiendan los públicos por lotes para obtener recuentos fiables y coherentes, y solo se puede leer un público por actividad."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Espacio de nombres"
->abstract="La identidad (por ejemplo: correo electrónico, ECID) utilizada para identificar a las personas que entran en el recorrido. Solo están disponibles las áreas de nombres basadas en personas y los perfiles sin esta identidad no pueden entrar. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
+>title="Área de nombres"
+>abstract="La identidad (por ejemplo, correo electrónico, ECID) utilizada para identificar a las personas que entran en el recorrido. Solo están disponibles las áreas de nombres basadas en personas y los perfiles sin esta identidad no pueden entrar. De forma predeterminada, el campo está rellenado previamente con el último espacio de nombres utilizado."
 
 1. Despliegue la categoría **[!UICONTROL Orchestration]** y suelte una actividad **[!UICONTROL Leer audiencia]** en el lienzo.
 
@@ -183,17 +183,17 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Fecha y hora de inicio"
->abstract="La fecha y la hora en que el recorrido empieza a leer la audiencia y los perfiles comienzan a introducir. Combínelo con las opciones de periodicidad siguientes para programar ejecuciones recurrentes."
+>abstract="La fecha y la hora en que el recorrido empieza a leer el público y los perfiles comienzan a entrar. Combínelo con las opciones de periodicidad siguientes para programar ejecuciones recurrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Repetir hasta"
->abstract="La fecha en la que se detienen las ejecuciones recurrentes. Después de esta fecha, el recorrido ya no lee la audiencia ni admite nuevos perfiles."
+>abstract="La fecha en la que se detienen las ejecuciones recurrentes. Después de esta fecha, el recorrido ya no lee el público ni admite nuevos perfiles."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Repetir cada"
->abstract="La frecuencia con la que el recorrido vuelve a leer la audiencia y se ejecuta de nuevo, por ejemplo, diariamente o semanalmente. Determina el intervalo de periodicidad entre ejecuciones hasta que se alcance la fecha Repetir hasta."
+>abstract="La frecuencia con la que el recorrido vuelve a leer el público y se ejecuta de nuevo, por ejemplo, diaria o semanalmente. Determina el intervalo de periodicidad entre ejecuciones hasta que se alcance la fecha Repetir hasta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forzar reentrada"
->abstract="Borra todos los participantes de la recorrido antes de que se lea cada audiencia nueva, de modo que cada ejecución se inicia de nuevo y los perfiles pueden volver a entrar en cada ocurrencia."
+>abstract="Borra todos los participantes del recorrido antes de que se lea cada público nuevo, de modo que cada ejecución se inicia de nuevo y los perfiles pueden volver a entrar en cada ocurrencia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Activar tras la evaluación del público por lotes"
->abstract="Retrasa cada ejecución hasta que la audiencia por lotes se ha evaluado recientemente, por lo que el recorrido lee la instantánea de audiencia más actualizada en lugar de datos antiguos. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
+>abstract="Retrasa cada ejecución hasta que el público por lotes se ha evaluado recientemente, por lo que el recorrido lee la instantánea de público más actualizada, en lugar de datos antiguos. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -443,3 +443,56 @@ Para obtener la lista completa de protecciones de audiencia de lectura (incluido
 Comprenda los casos de uso pertinentes para un recorrido que se desencadena por la actividad de lectura del público. Obtenga información sobre cómo crear recorridos basados en lotes y qué prácticas recomendadas aplicar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430360?captions=spa&quality=12)
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar y utilizar la actividad Leer audiencia en Adobe Journey Optimizer para agregar perfiles de una audiencia de Adobe Experience Platform a un recorrido, ya sea una vez o según una programación recurrente, con instrucciones sobre programación, rendimiento, solución de problemas y prácticas recomendadas.
+
+**Intenciones:**
+* Configuración de una actividad Leer audiencia como punto de entrada de un recorrido
+* Seleccione una audiencia de Adobe Experience Platform y un área de nombres de identidad para el recorrido
+* Establezca la tasa de lectura para controlar cuántos perfiles introducen por segundo
+* Programe un recorrido para que se ejecute una vez, diariamente, semanalmente o con una periodicidad personalizada
+* Habilitar la lectura incremental para procesar solo los nuevos miembros de la audiencia en ejecuciones recurrentes
+* Solucionar problemas de discrepancias de recuentos de público, ejecuciones de perfil cero y entradas retrasadas
+* Decida entre Leer audiencia y Calificación de audiencias según las necesidades por lotes o en tiempo real
+
+**Glosario:**
+* **Leer actividad de audiencia**: La actividad de punto de entrada de recorrido que lee todos los perfiles calificados de una audiencia seleccionada de Adobe Experience Platform y los agrega al recorrido *(específico del producto)*
+* **Tasa de lectura**: El número máximo de perfiles que pueden ingresar al recorrido por segundo (500-20.000; predeterminado 5.000) *(específico del producto)*
+* **Lectura incremental**: Una opción de recorrido recurrente que procesa solo los perfiles agregados recientemente a la audiencia desde la última ejecución de recorrido *(específica del producto)*
+* **Forzar reentrada en repetición**: una opción de programación que quita todos los participantes activos del recorrido antes de cada nueva ejecución para que los perfiles puedan volver a introducir *(específico del producto)* nuevos
+* **Déclencheur después de la evaluación de audiencia por lotes**: Una opción de programación que retrasa la ejecución de la recorrido hasta que haya una nueva instantánea de audiencia por lotes disponible (hasta 6 horas) *(específica del producto)*
+* **Identificador suplementario**: Un identificador secundario (por ejemplo, identificador de pedido) que permite que el mismo perfil introduzca el recorrido varias veces cuando el identificador difiere *(específico del producto)*
+
+**Protecciones:**
+* Solo se permite una actividad Leer audiencia por recorrido, que debe ser la primera actividad.
+* Solo se puede seleccionar una audiencia por actividad Leer audiencia.
+* Hasta cinco ejecuciones simultáneas de Audiencia de lectura por organización.
+* La tasa de lectura máxima es de 20 000 perfiles por segundo por zona protegida (suma de todas las actividades de audiencia de lectura simultáneas).
+* La tasa de lectura está limitada a 500 perfiles por segundo cuando se utiliza un identificador suplementario.
+* Solo los perfiles con estado de participación de audiencia Realizada entran en el recorrido.
+* Solo están disponibles las áreas de nombres de identidad basadas en personas; los perfiles sin el área de nombres seleccionada no pueden entrar.
+* El tiempo de espera del trabajo de 12 horas se aplica a los trabajos de exportación de Leer audiencia.
+* Los reintentos de los trabajos de exportación fallidos se producen cada 10 minutos durante un máximo de 1 hora.
+* Para audiencias de carga personalizadas con Lectura incremental habilitada, los perfiles solo se recuperan en la primera periodicidad (estas audiencias son fijas).
+* Escalar el ganador no está disponible para Leer recorridos de audiencia (experimentación de rutas).
+
+**Terminología:**
+* Nombre canónico: Leer audiencia — Acrónimo: none — variantes: segmento-déclencheur, entrada de recorrido basada en audiencia, Leer segmento (nombre de API heredado)
+* Sinónimos: &quot;Leer audiencia&quot; = &quot;déclencheur del segmento&quot; = &quot;recorrido activado por la audiencia&quot;
+* No confunda: &quot;Leer audiencia&quot; ≠ &quot;Calificación de audiencia&quot; (la lectura de audiencia es por lotes/programada; la calificación de audiencia es una transmisión en tiempo real)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuándo debo usar Leer audiencia en lugar de Calificación de audiencias?** — Utilice la opción Leer audiencia para casos de uso por lotes y programados (por ejemplo, boletines semanales o campañas de renovación de la participación). Utilice la calificación de audiencias cuando los perfiles deban entrar en el recorrido inmediatamente después de calificar en tiempo real.
+* **Q: ¿Por qué entran menos perfiles en el recorrido que el tamaño de la audiencia?** — Las causas comunes incluyen perfiles que no tienen el área de nombres seleccionada, trabajos de segmentación por lotes que aún no se han completado antes de que se ejecute el recorrido o perfiles que no están en estado Realizado. Habilite &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; y compruebe la configuración del área de nombres.
+* **Q: ¿Qué hace la lectura incremental en la primera ejecución?** — En la primera ejecución, entran todos los perfiles de audiencia. En ejecuciones posteriores, solo se procesan los perfiles recién añadidos a la audiencia desde la última ejecución.
+* **Q: ¿Qué sucede si falla el trabajo de exportación?** — El sistema reintenta cada 10 minutos durante un máximo de 1 hora. Los errores se notifican en Alertas. Después de 1 hora sin éxito, la ejecución se considera fallida.
+* **Q: ¿Puede el mismo perfil ingresar a un recorrido de lectura de audiencias varias veces?** — Sí, si se ha configurado un identificador suplementario y difiere entre las entradas, o si está activada la opción Forzar reentrada en repetición. Sin estos, un perfil no puede estar presente varias veces al mismo tiempo.
+* **Q: ¿Durante cuánto tiempo permanece activo un recorrido de lectura de una sola toma?** — Se detiene automáticamente en Detenido cuando se cierra el último perfil, a menos que el recorrido incluya Esperar, Reacción o transiciones activadas por eventos, en cuyo caso se aplica el tiempo de espera global de 91 días. De forma predeterminada, no permanece activo hasta que finaliza a los 91 días.
+
++++

@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-00-55
 badge: label="Heredado" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '201'
+workflow-type: ht
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ La sección “Creación” y administración de ofertas&#39; de Adobe Journey O
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar ofertas en Adobe Journey Optimizer
 

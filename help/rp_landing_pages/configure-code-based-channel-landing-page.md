@@ -6,8 +6,8 @@ description: Configuración del canal basado en código
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Conozca las superficies y sus identificadores, composición y uso en experiencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Muestras de métodos de implementación
 

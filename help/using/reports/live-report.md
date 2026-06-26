@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -50,6 +50,10 @@ Use **[!UICONTROL Informe en vivo]** para medir y visualizar en tiempo real el i
   ![](assets/report_campaign.png)
 
 Para obtener una lista detallada de todas las métricas disponibles en Adobe Journey Optimizer, consulte [esta página](#list-of-components-live).
+
+>[!NOTE]
+>
+>Se esperan discrepancias a corto plazo entre el informe en vivo y el informe completo. El informe en directo utiliza fuentes de datos casi en tiempo real, mientras que el informe completo depende de los datos agregados. Si se producen discrepancias, espere un mínimo de dos horas antes de reconciliar los dos informes, ya que los datos suelen propagarse a la vista agregada dentro de ese periodo de tiempo.
 
 ## Personalizar tablero {#modify-dashboard}
 

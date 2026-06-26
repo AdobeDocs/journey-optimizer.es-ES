@@ -6,8 +6,8 @@ description: Privacidad
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Las herramientas de privacidad de Adobe Journey Optimizer le permiten administra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Información general sobre administración de privacidad
 
@@ -44,13 +44,13 @@ Siga las instrucciones paso a paso para crear y administrar solicitudes de priva
 
 Registros de auditoría para acciones de usuario
 
-Rastree y supervise las acciones realizadas en los recursos de Adobe Journey Optimizer mediante registros de auditoría para garantizar el cumplimiento y facilitar la resolución de problemas.
+Rastree y monitorice las acciones realizadas en los recursos de Adobe Journey Optimizer mediante registros de auditoría para garantizar el cumplimiento y facilitar la resolución de problemas.
 
 [Explorar registros de auditoría](../using/privacy/audit-logs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Realizar operaciones del ciclo de vida de los datos
 
@@ -70,7 +70,7 @@ Administre las preferencias y políticas de consentimiento del destinatario para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Directivas de gobernanza de datos
 

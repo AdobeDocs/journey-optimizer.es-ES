@@ -27,10 +27,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a utilizar el panel de uso de licencias de Adobe Journey Optimizer para supervisar perfiles atractivos y solucionar problemas de aumentos inesperados en el recuento de perfiles.
+**En esta página:** Aprenda a navegar por el panel de uso de licencias de Adobe Journey Optimizer y a solucionar problemas con los incrementos inesperados en el recuento de Perfiles atractivos.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +54,7 @@ Para acceder a este tablero, ve a **[!UICONTROL Administración]** > **[!UICONTR
 >
 >* Ciertas métricas (por ejemplo, calcular horas y correos electrónicos) no se muestran para los entornos limitados de desarrollo, como indica `N/A` en la columna de cuota. En el panel solo se muestran valores no nulos: cuando las métricas son cero o están cerca de cero, no se rellenan.
 
-
-Para [!DNL Adobe Journey Optimizer], el tablero le permite comprobar el número de **perfiles atractivos**.
-
-## ¿Qué es un perfil atractivo? {#what-is-engageable-profile}
-
-Un **perfil atractivo** es un registro de información que representa a un individuo que está almacenado en el servicio de perfil y que ha sido contratado por recorridos o campañas.
-
-Características clave de los perfiles atractivos:
-
-* **Período móvil de 12 meses**: Los perfiles atractivos se cuentan según la participación en los últimos 12 meses. Esta métrica muestra el número de perfiles únicos con los que ha intentado interactuar mediante las capacidades de creación, toma de decisiones, envío, experimentación u orquestación de Journey Optimizer.
-
-* **Recuento único por zona protegida**: Si un perfil introduce varios recorridos o campañas en una zona protegida, se cuenta solo una vez como un único perfil atractivo para esa zona protegida.
-
-* **Según la audiencia a la que se puede dirigir**: los perfiles atractivos se calculan a partir de la audiencia a la que se puede dirigir. El recuento representa la audiencia comprometida en los últimos 12 meses que utiliza cualquiera de las capacidades de Journey Optimizer, de su audiencia total a la que se puede dirigir.
-
-* **Comportamiento de la métrica**: El recuento de perfiles atractivos:
-   * Pueden aumentar cuando se comprometen nuevos perfiles a través de recorridos o campañas
-   * No puede disminuir a menos que no haya participación con determinados perfiles durante más de 12 meses
-   * Puede disminuir cuando los perfiles seudónimos se vinculan a perfiles conocidos
+Para [!DNL Adobe Journey Optimizer], el panel le permite comprobar el número de **Perfiles atractivos**: perfiles únicos involucrados a través de recorridos, campañas o decisiones en un período de 12 meses. Para obtener una explicación completa de cómo se definen y calculan los perfiles atractivos, consulte [Perfiles atractivos y uso de licencias](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >

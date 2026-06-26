@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 46%
+source-wordcount: 1602
+ht-degree: 29%
 
 ---
 
@@ -288,3 +288,45 @@ Descubra los componentes de un recorrido y comprenda los conceptos básicos para
 * **[Solución de problemas](troubleshooting.md)**: problemas y soluciones comunes de recorrido
 * **[Tutoriales de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}**: aprenda a crear recorridos con tutoriales de vídeo prácticos
 * **[limitaciones y protecciones de Recorrido](../start/guardrails.md)**: compruebe las limitaciones y protecciones al usar [!DNL Adobe Journey Optimizer]
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** Esta es la guía de introducción completa para la orquestación de recorrido en Adobe Journey Optimizer, que cubre funciones clave (entrega en tiempo real y por lotes, datos contextuales, acciones integradas y personalizadas, el diseñador visual, fragmentos de Recorrido y pruebas), casos de uso comunes y vínculos a todos los recursos de aprendizaje principales.
+
+**Intenciones:**
+* Comprenda las funciones clave disponibles en el diseñador de recorridos de Journey Optimizer antes de crear un primer recorrido
+* Vaya al recurso correcto para crear, administrar, probar o solucionar problemas de recorridos
+* Aprenda a almacenar en déclencheur 1:1 mensajes en tiempo real en cualquier canal mediante el diseñador de recorridos
+* Descubra cómo los fragmentos de Recorrido permiten reutilizar la lógica de nodo común en todos los recorridos
+* Acceda a tutoriales en vídeo y guías paso a paso para casos de uso comunes del recorrido, como series de bienvenida, abandono del carro de compras y optimización del tiempo de envío
+
+**Glosario:**
+* **diseñador de Recorridos**: el lienzo visual de arrastrar y soltar de Adobe Journey Optimizer utilizado para crear y organizar recorridos de clientes de varios pasos *(específicos del producto)*
+* **Fragmento de Recorrido**: Un conjunto reutilizable de nodos de recorrido (por ejemplo, comprobación de elegibilidad, lógica de enrutamiento de canal) creados una vez e insertados en varios recorridos *(específicos del producto)*
+* **Envío unitario**: Se activa un mensaje en tiempo real para un solo perfil cuando se produce un evento específico *(específico del producto)*
+* **Envío por lotes**: mensajes enviados a todos los perfiles de una audiencia de Adobe Experience Platform a la vez o según una programación *(específica del producto)*
+* **Optimización del tiempo de envío (STO)**: característica controlada por IA que predice el momento óptimo para enviar un mensaje a cada perfil individual para maximizar la participación *(específica del producto)*
+* **Acción personalizada**: una actividad de recorrido que se conecta a un sistema de terceros mediante API para enviar mensajes o recuperar datos *(específicos del producto)*
+
+**Protecciones:**
+* Las protecciones y limitaciones de recorrido se detallan por separado en la página de protecciones y deben revisarse antes de diseñar a escala
+* Las acciones personalizadas requieren la configuración previa de un usuario técnico para poder utilizarse en un recorrido
+* Los fragmentos de recorrido deben estar activos antes de poder insertarse en un recorrido
+
+**Terminología:**
+* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, flujo de orquestación, recorrido de varios pasos
+* Sinónimos: &quot;diseñador de recorridos&quot; = &quot;lienzo de recorrido&quot; = &quot;generador de recorridos&quot;
+* No confunda: &quot;acciones de canal integradas&quot; ≠ &quot;acciones personalizadas&quot;: las acciones integradas utilizan canales nativos de AJO; las acciones personalizadas llaman a API externas de terceros
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: ¿Cuál es la diferencia entre la entrega en tiempo real (unitario) y la entrega por lotes en recorridos?** — Entrega unitaria envía un mensaje para un perfil a la vez en tiempo real cuando se produce un evento. La entrega por lotes procesa todos los perfiles de una audiencia a la vez o según una programación mediante una actividad Leer audiencia.
+* **Q: ¿Puedo reutilizar la lógica común (como una comprobación de elegibilidad) en varios recorridos?** — Sí; guarde los nodos como un fragmento de Recorrido e inserte el fragmento activo en cualquier recorrido de la zona protegida.
+* **Q: ¿Dónde debo ir para crear mi primer recorrido?** — Siga la guía paso a paso de la página &quot;Crear su primer recorrido&quot;, que muestra la selección del punto de entrada, el diseño del lienzo, las pruebas y la publicación.
+* **Q: ¿Cómo envío mensajes a través de un sistema de terceros desde un recorrido?** — Configure una acción personalizada para llamar a la API externa y, a continuación, añádala como una actividad de acción en el lienzo de recorrido.
+* **Q: ¿Dónde puedo encontrar respuestas a preguntas comunes sobre el recorrido?** — Visite la página de preguntas más frecuentes sobre el Recorrido para obtener respuestas que cubran conceptos, creación, prueba, ejecución, monitorización y prácticas recomendadas.
+
++++

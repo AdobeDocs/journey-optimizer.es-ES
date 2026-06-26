@@ -6,8 +6,8 @@ description: Informes de recorridos
 redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '284'
+workflow-type: ht
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Conozca y analice las métricas para participar en experiencias basadas en códi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Participación con la tarjeta de contenido
 
@@ -50,7 +50,7 @@ Aprenda a medir y evaluar la participación del usuario con las tarjetas de cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Métricas de correo directo
 
@@ -60,7 +60,7 @@ Analice e interprete las métricas clave para campañas de correo directo, inclu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 Creación de informes de recorrido de correo electrónico
 

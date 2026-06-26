@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1969
-ht-degree: 13%
+source-wordcount: 2629
+ht-degree: 10%
 
 ---
 
@@ -225,3 +225,49 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
    >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
 
 ➡️ **Véalo en la práctica:** Aprenda a utilizar las condiciones de tiempo y día de la semana para [enviar correos electrónicos solo entre semana](weekday-email-uc.md).
+
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica cómo configurar condiciones dentro de la actividad Optimizar en Journey Optimizer, que abarca cinco tipos de condición (Data Source, Hora, Porcentaje dividido, Fecha y Límite de perfil) que enrutan perfiles a diferentes rutas de recorrido en función de reglas, tiempo o pertenencia a audiencias.
+
+**Intenciones:**
+* Añada una condición a un recorrido mediante la actividad Optimizar y seleccione un método de condición
+* Cree varias rutas de ramificación y administre su orden de prioridad en el lienzo de recorrido
+* Configuración de una condición de Data Source mediante el editor de expresiones para evaluar atributos de perfil o evento
+* Configure una condición Hora para enrutar perfiles en función de la hora del día o del día de la semana
+* Aplique un límite de perfil para limitar el número de perfiles distribuidos en una ruta específica
+* Usar una comprobación de pertenencia a audiencia como condición en una ruta de recorrido
+
+**Glosario:**
+* **Optimizar actividad**: la actividad de recorrido actual que reemplaza a la actividad anterior de Condición; toda la lógica de ramificación condicional se ha configurado ahora mediante su lista desplegable de Métodos *(específico del producto)*
+* **Condición de origen de datos**: método de condición que evalúa campos de orígenes de datos o eventos de recorrido mediante el editor de expresiones *(específico del producto)*
+* **División porcentual**: método de condición que distribuye aleatoriamente perfiles entre rutas mediante un mecanismo aleatorio estadístico de Java *(específico del producto)*
+* **Límite de perfil**: Método de condición que enruta los perfiles a una ruta alternativa una vez que se alcanza un recuento máximo definido en la ruta nominal *(específica del producto)*
+* **Ruta de acceso nominal**: La ruta de acceso de recorrido principal asociada con una condición Límite de perfil; siempre tiene prioridad sobre la ruta de acceso alternativa *(específica del producto)*
+
+**Protecciones:**
+* La evaluación de condiciones falla para perfiles con más de dos identidades entre dispositivos en el almacén de perfiles
+* Los campos de esquema sin datos ingeridos se interpretan como nulos; isEmpty() y isNull() se evalúan como true para dichos campos
+* La zona horaria se define en el nivel de recorrido, no en el nivel de condición individual
+* La opción &quot;Mostrar ruta para otros casos&quot; no está disponible en las condiciones de división de porcentaje
+* El límite predeterminado del perfil es 1000; el contador se restablece en la duplicación de recorridos o en la creación de una nueva versión, pero no entre recurrencias
+* En los capuchones de más de 10.000, inyecte al menos 1,3x el capuchón; en los de menos de 10.000, inyecte al menos 1.000 cápsulas más el capuchón
+* El límite de perfil no se aplica en el modo de prueba; en el modo de prueba, la rama superior siempre se elige para División porcentual
+
+**Terminología:**
+* Nombre canónico: Conditions — Acrónimo: none — variants: actividad de condición, método de condición, ramificación condicional
+* Sinónimos: &quot;Optimizar actividad (método de condición)&quot; = &quot;actividad de condición anterior&quot;
+* No confunda: &quot;División porcentual&quot; ≠ &quot;Límite de perfil&quot; (la división porcentual distribuye todos los perfiles estadísticamente; el límite de perfil detiene el enrutamiento a la ruta nominal después de un umbral de recuento)
+
+**PREGUNTAS MÁS FRECUENTES:**
+* **Q: la actividad Condición ha desaparecido de mi interfaz de usuario. ¿Qué la reemplazó?** — la actividad Condición se ha sustituido por la actividad Optimizar. Seleccione &quot;Condición&quot; en la lista desplegable Método para obtener el mismo comportamiento. Los recorridos existentes con actividades de Condición siguen funcionando y ahora se muestran con el icono Optimizar.
+* **Q: cuando varias rutas de acceso cumplen los requisitos para un perfil, ¿qué ruta se toma?** — Solo se ejecuta la primera ruta elegible (la más alta del lienzo); puede volver a priorizar reordenando las rutas verticalmente.
+* **Q: ¿Por qué mi condición isEmpty() se evalúa inesperadamente como true?** — Si el campo de esquema existe pero no se han introducido datos para él, Journey Optimizer lo interpreta como nulo, lo que provoca que isEmpty() y isNull() devuelvan el valor verdadero.
+* **Q: ¿Se restablece el contador de límite de perfil en un recorrido recurrente?** — No, el contador no se restablece entre repeticiones; sólo se restablece cuando se duplica el recorrido o se crea una nueva versión.
+* **Q: ¿Puedo usar una audiencia de Adobe Experience Platform como condición?** — Sí, suelte una actividad de optimización, seleccione &quot;Condición de fuente de datos&quot;, añada una ruta y arrastre la audiencia desde el nodo Audiencias en el editor de expresiones.
+
++++
