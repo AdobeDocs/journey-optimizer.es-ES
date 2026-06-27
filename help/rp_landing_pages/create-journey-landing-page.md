@@ -51,7 +51,7 @@ Utilice la interfaz de tipo arrastrar y soltar para diseñar recorridos de marke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo probar su recorrido
 
@@ -61,7 +61,7 @@ Pruebe los recorridos con perfiles simulados y detecte errores antes de activarl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Prueba de recorridos con el modo de ensayo
 

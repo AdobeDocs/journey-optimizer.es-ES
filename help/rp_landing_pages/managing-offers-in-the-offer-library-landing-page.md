@@ -25,7 +25,7 @@ La sección “Creación” y administración de ofertas&#39; de Adobe Journey O
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar ofertas en Adobe Journey Optimizer
 

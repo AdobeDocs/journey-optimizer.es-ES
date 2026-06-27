@@ -41,7 +41,7 @@ Descubra métodos para detectar y resolver conflictos de campañas y recorridos,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Asignar puntuaciones de prioridad a las campañas
 
@@ -51,7 +51,7 @@ Aprenda a asignar puntuaciones de prioridades numéricas a recorridos y campaña
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Establecer reglas de límite de mensajes y recorridos
 

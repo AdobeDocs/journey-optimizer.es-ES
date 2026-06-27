@@ -45,7 +45,7 @@ Defina reglas de decisión para personalizar las ofertas dirigiéndose a segment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=es)
 
 Cómo crear y administrar cualificadores de colección en Adobe Journey Optimizer
 

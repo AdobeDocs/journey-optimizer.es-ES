@@ -30,7 +30,7 @@ Obtenga información sobre cómo configurar fuentes de datos, eventos y acciones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configuración de eventos en Adobe Journey Optimizer
 

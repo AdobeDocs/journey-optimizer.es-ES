@@ -20,7 +20,7 @@ Las herramientas de privacidad de Adobe Journey Optimizer le permiten administra
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Información general sobre administración de privacidad
 
@@ -50,7 +50,7 @@ Rastree y monitorice las acciones realizadas en los recursos de Adobe Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Realizar operaciones del ciclo de vida de los datos
 
@@ -70,7 +70,7 @@ Administre las preferencias y políticas de consentimiento del destinatario para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Directivas de gobernanza de datos
 
