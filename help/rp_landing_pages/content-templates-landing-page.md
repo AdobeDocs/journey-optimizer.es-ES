@@ -40,7 +40,7 @@ Descubra cómo acceder, organizar y administrar plantillas de contenido, incluid
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Creación de plantillas de contenido
 
@@ -50,7 +50,7 @@ Guía paso a paso sobre cómo crear plantillas de contenido reutilizables desde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Bloquear contenido en plantillas de correo electrónico
 
@@ -60,7 +60,7 @@ Descubra cómo bloquear secciones o plantillas completas para evitar ediciones o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Plantillas de contenido de prueba
 

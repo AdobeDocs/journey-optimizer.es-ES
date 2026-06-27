@@ -40,7 +40,7 @@ Siga una guía paso a paso para configurar eventos unitarios, incluida la defini
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Esquemas de ExperienceEvent
 
@@ -50,7 +50,7 @@ Conozca los requisitos y las configuraciones de esquema para la ingesta de event
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Integración de Adobe Analytics
 
@@ -60,7 +60,7 @@ Aprenda a integrar datos de Adobe Analytics para automatizar recorridos y crear 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configurar un evento empresarial
 
@@ -70,7 +70,7 @@ Instrucciones paso a paso para configurar eventos empresariales, incluida la def
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Enviar eventos mediante las API de streaming
 

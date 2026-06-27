@@ -60,7 +60,7 @@ Personalice las direcciones de correo electrónico del remitente y la respuesta,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Configurar el seguimiento de URL para el canal de correo electrónico
 

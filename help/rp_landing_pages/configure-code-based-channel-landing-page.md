@@ -40,7 +40,7 @@ Conozca las superficies y sus identificadores, composición y uso en experiencia
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Muestras de métodos de implementación
 

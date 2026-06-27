@@ -30,7 +30,7 @@ Conozca los aspectos básicos de las tomas de decisiones en Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Mecanismos de protección y limitaciones de las tomas de decisiones
 
@@ -70,7 +70,7 @@ Configure y administre elementos de decisión, catálogos y colecciones para org
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Crear reglas de decisión
 
@@ -80,7 +80,7 @@ Defina reglas de decisión para dirigirse a los públicos con precisión mediant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Crear clasificaciones con modelos de IA
 
