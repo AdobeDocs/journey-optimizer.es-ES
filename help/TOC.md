@@ -5,7 +5,7 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -59,7 +59,6 @@ ht-degree: 98%
 + Recorridos {#orchestrate-journeys}
    + [Introducción a los recorridos](using/building-journeys/journey.md)
    + {hide-from-toc}[Guía de introducción de recorrido](using/building-journeys/journey-get-started.md)
-   + [tipos de recorrido: elija el correcto](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[tipos de Recorrido: elija el correcto-2](using/building-journeys/journey-types-selection-v2.md)
    + [Preguntas frecuentes de Journey Orchestration](using/building-journeys/journey-faq.md)
    + Crear un recorrido {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + Actividades {#about-journey-building}
       + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Introducción a actividades de recorrido](using/building-journeys/about-journey-activities.md)
+      + [tipos de recorrido: elija el correcto](using/building-journeys/journey-types-selection.md)
       + [Eventos generales](using/building-journeys/general-events.md)
       + [Eventos de reacción](using/building-journeys/reaction-events.md)
       + [Calificación del público](using/building-journeys/audience-qualification-events.md)

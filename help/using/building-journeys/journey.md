@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ Use [!DNL Journey Optimizer] para:
 * **Recorridos de calificación de públicos**: respuestas en tiempo real a cambios de pertenencia a públicos (actualizaciones de VIP, renovación de participación)
 * **Recorridos de eventos empresariales**: condiciones empresariales que afectan a varios clientes (alertas de inventario, ventas flash)
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[tipos de Recorrido: elija el correcto](journey-types-selection.md)**: comparación detallada, guía de decisión y matriz de compatibilidad de características
+
 
 ## Crear con el diseñador de recorridos {#journey-designer}
 
@@ -413,14 +411,12 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ ¿Qué tipo de recorrido debo usar?
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+Use la [guía de decisión](journey-types-selection.md#decision-guide) o la [tabla comparativa](journey-types-selection.md#journey-types-comparison) para elegir entre recorridos Unitarios, Leer audiencia, Calificación de audiencias y Evento empresarial en función de su déclencheur y caso de uso.
 
 +++
--->
+
 
 +++ ¿Puedo editar un recorrido en directo?
 

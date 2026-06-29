@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ Lo que debe configurar antes de crear depende de cómo se active el recorrido. L
 
 * **Entrada basada en eventos**: el recorrido se activa en tiempo real cuando un individuo realiza una acción, como una compra o un registro. [Configura un evento](../event/about-events.md) para definir el déclencheur y los datos que lleva.
 
-**¿No está seguro de qué punto de entrada usar?** La siguiente tabla asigna los casos de uso más comunes a la actividad de inicio correcta.
+**¿No está seguro de qué punto de entrada usar?** La siguiente tabla asigna los casos de uso más comunes a la actividad de inicio correcta. Obtenga más información en la [matriz de selección de tipo de Recorrido](journey-types-selection.md).
 
 | Punto de entrada | Usar cuando... | Introducir perfiles |
 |---|---|---|
