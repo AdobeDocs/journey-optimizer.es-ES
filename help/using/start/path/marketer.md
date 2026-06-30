@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 
 ### Orquestación de campañas
 
-* **Elija el enfoque correcto**: [Compare tipos de recorridos](../../building-journeys/journey.md#journey-types) para experiencias en tiempo real activadas por comportamientos o [tipos de campañas](../../campaigns/get-started-with-campaigns.md#campaign-types) para campañas programadas por lotes
+* **Elija el enfoque correcto**: vea [Recorridos vs. Campañas](../journeys-vs-campaigns.md) para decidir entre la orquestación en tiempo real y la entrega programada y, a continuación, [tipos de Recorridos: elija el correcto](../../building-journeys/journey-types-selection.md) para elegir el tipo de recorrido correcto
 * **Defina objetivos de campaña claros**: establezca metas antes de diseñar flujos de trabajo de varios pasos
 * **Comience con públicos piloto**: valide los recuentos y la lógica de segmentación antes de escalar
 * **Aproveche los datos relacionales**: use la segmentación de varias entidades para conectar los datos de los clientes con cuentas, compras y suscripciones para una segmentación precisa.

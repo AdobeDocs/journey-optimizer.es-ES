@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1072
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,7 @@ Colabore con [expertos en marketing](marketer.md) en públicos y datos:
 * Cree públicos en función de sus necesidades de campaña y recorrido
 * Configure esquemas relacionales para campañas orquestadas
 * Compatibilidad con la segmentación de varias entidades para casos de uso avanzados
+* Cuando los especialistas en marketing elijan entre recorridos y campañas, comparta [Recorridos vs. Campañas](../journeys-vs-campaigns.md) y [tipos de Recorridos: elija el adecuado](../../building-journeys/journey-types-selection.md) para ayudarlos a elegir la arquitectura de datos correcta para su caso de uso
 
 >[!ENDTABS]
 

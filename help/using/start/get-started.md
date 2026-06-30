@@ -33,10 +33,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 85%
+source-wordcount: 831
+ht-degree: 83%
 
 ---
 
@@ -93,6 +93,8 @@ Journey Optimizer admite una amplia gama de escenarios, desde recorridos activad
 
 Para encontrar la funcionalidad que se ajuste a su objetivo, consulte la [descripción general de los casos de uso de Journey Optimizer](ajo-use-case-guide.md). Para ver ejemplos prácticos e integrales, examine la [biblioteca de casos de uso de recorrido](../building-journeys/jo-use-cases.md).
 
+¿No está seguro de si usar Recorridos o campañas para su objetivo? Ver [Recorridos vs. Campañas: elige el enfoque correcto](journeys-vs-campaigns.md).
+
 
 ## Disponibilidad y licencias {#availability}
 
@@ -123,4 +125,5 @@ Journey Optimizer se ha creado de forma nativa en Adobe Experience Platform, com
 | Comprender cómo Journey Optimizer se integra con Adobe Experience Platform | [Explicación de Journey Optimizer](understanding-ajo.md) |
 | Introducción a mi función específica | [Funciones y responsabilidades](quick-start.md) |
 | Explorar casos de uso | [Información general sobre casos de uso de Journey Optimizer](ajo-use-case-guide.md) |
+| Decidir entre Recorridos y campañas | [Recorridos frente a campañas](journeys-vs-campaigns.md) |
 | Consulte terminología clave | [Terminología](terminology.md) |

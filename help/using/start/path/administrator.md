@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1168
-ht-degree: 95%
+source-wordcount: 1189
+ht-degree: 93%
 
 ---
 
@@ -159,6 +159,7 @@ Colabore con [expertos en marketing](marketer.md) en la configuración de permis
 * Configure los canales que utilizarán (correo electrónico, push, SMS, etc.)
 * Apoye entornos de prueba de soporte y flujos de trabajo de aprobación
 * Habilite el acceso a las nuevas funciones y capacidades
+* Comparta guías de decisión para ayudar a su equipo a elegir el enfoque adecuado: [Recorridos frente a Campañas](../journeys-vs-campaigns.md) y [tipos de Recorridos: elija el adecuado](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
