@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] usa un modelo de empaquetado modular. Comience con la oferta base que coincida con su caso de uso principal y, a continuación, añada los canales y las funciones avanzadas que necesita.
 
+La disponibilidad del paquete y las capacidades incluidas pueden variar según el acuerdo, los complementos seleccionados y la disponibilidad regional. Póngase en contacto con su representante de Adobe para obtener detalles específicos de su organización.
+
 >[!TIP]
 >
 >**¿No estás seguro de en qué modelo estás?** Si compró [!DNL Adobe Journey Optimizer] bajo el modelo de empaquetado modular, se le aplican las ofertas base y los complementos descritos en esta página. Si en el contrato se hace referencia a **Select**, **Prime** o **Ultimate**, estás en un modelo de empaque heredado; ponte en contacto con el representante de Adobe para confirmar tus derechos actuales.
-
->[!NOTE]
->
->La disponibilidad del paquete y las capacidades incluidas pueden variar según el acuerdo, los complementos seleccionados y la disponibilidad regional. Póngase en contacto con su representante de Adobe para obtener detalles específicos de su organización.
 
 ## Respuestas rápidas {#quick-answers}
 
@@ -77,13 +75,13 @@ Hay tres ofertas de base disponibles. Cada uno de ellos coincide con una forma d
 
 | | Journey Optimizer - Campañas | JOURNEY OPTIMIZER - RECORRIDOS | Journey Optimizer: Campañas y Recorridos |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [Organización por lotes basada en audiencias](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado¹ | ✓ |
+| [Organización por lotes basada en audiencias](../campaigns/get-started-with-campaigns.md) | ✓ | Limitado<sup>1</sup> | ✓ |
 | [Organización impulsada por eventos en tiempo real](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Mensajería transaccional (correo electrónico, push, SMS) | ✓ | ✓ | ✓ |
 | [Complementos de canal disponibles](#channel-addons) | ✓ | ✓ | ✓ |
 | [Complemento de decisiones disponible](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ En **Journey Optimizer - Recorrido**, la orquestación basada en audiencias solo se admite en casos de uso de recorrido, no como campañas por lotes independientes.
+<sup>1</sup> En **Journey Optimizer - Recorrido**, la orquestación basada en audiencias solo se admite en casos de uso de recorrido, no como campañas por lotes independientes.
 
 ## Paso 2: Añadir los canales que necesita {#channel-addons}
 
