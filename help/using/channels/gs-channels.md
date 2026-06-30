@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
 
-Campañas de correo directo
+Correo directo
 
 Descubra cómo crear y administrar campañas de correo directo, incluida la exportación de archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
 
-[Más información sobre las campañas de correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
+[Más información sobre el Correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
