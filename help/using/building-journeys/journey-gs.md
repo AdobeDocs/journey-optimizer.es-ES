@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ Para crear un recorrido de varios pasos, siga estos pasos:
 
 1. Edite el panel de configuración del recorrido para definir el nombre del recorrido y sus propiedades. Aprenda a establecer las propiedades de su recorrido en [esta página](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**¿Qué tipo de recorrido debo elegir?** Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. ¿Listo para profundizar? [Descubra todos los tipos de recorrido y sus reglas de entrada](entry-management.md#types-of-journeys).
-
    ![Panel de propiedades del Recorrido con opciones de configuración y configuración](assets/jo-properties.png)
 
 A continuación, puede empezar a diseñar el recorrido.
+
+>[!TIP]
+>
+>**¿Qué tipo de recorrido debo elegir?**
+>
+>Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. ¿Listo para profundizar? [Descubra todos los tipos de recorrido y sus reglas de entrada](entry-management.md#types-of-journeys).
 
 ## Diseño del recorrido {#jo-design}
 
