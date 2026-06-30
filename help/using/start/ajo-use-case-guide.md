@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 31%
+source-wordcount: '3224'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,7 @@ La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)*
 
 >[!TIP]
 >
->¿Es nuevo en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>¿Es nuevo en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configuración de Journey Optimizer para su equipo {#setup-admin}
 
@@ -109,7 +109,7 @@ Para una difusión programada, de uno a varios, a una audiencia definida.
 
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
-| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar a los clientes de una interrupción o actualización del servicio | Campaña programada + audiencias | [Acerca de las audiencias](../audience/about-audiences.md) |
 | Diseño de una campaña de varios pasos con lógica de ramificación | Campañas orquestadas | [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) |
 | Segmentar solo los perfiles que hayan cambiado desde la última ejecución de mi campaña | Campañas organizadas: consulta incremental | [Generar consultas en campañas orquestadas](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -187,8 +187,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Bienvenido nuevos clientes {#flow-welcome}
 
-**Creará:** Una serie de bienvenida automatizada que saluda a cada suscriptor nuevo y empuja a los inactivos.
-**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
+**Creará:** Una serie de bienvenida automatizada que saluda a cada suscriptor nuevo y empuja a los inactivos.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
 
 1. Confirme que sus [perfiles y audiencias unificados](../audience/get-started-profiles.md) están recibiendo el evento de registro.
 1. [Cree su primer recorrido](../building-journeys/journey-gs.md) y use el evento de registro como entrada.
@@ -199,8 +198,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Recuperar carros abandonados {#flow-cart}
 
-**Creará:** Un flujo de recuperación automatizado que recuerda a los clientes los elementos que se han dejado atrás.
-**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
+**Creará:** Un flujo de recuperación automatizado que recuerda a los clientes los elementos que se han dejado atrás.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
 
 1. Asegúrese de que el evento de abandono del carro de compras llegue a Journey Optimizer (trabaje con su [equipo de datos](../data/gs-data.md) si es necesario).
 1. [Crear un recorrido](../building-journeys/journey-gs.md) desencadenado por el evento de abandono.
@@ -211,8 +209,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Envío de mensajes transaccionales {#flow-transactional}
 
-**Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.
-**Ideal para:** especialistas en marketing y desarrolladores · **Capacidad:** Campaña activada por un sistema externo
+**Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.**Ideal para:** especialistas en marketing y desarrolladores · **Funcionalidad:** Campaña desencadenada por un sistema externo
 
 1. Revise cómo funcionan las [campañas activadas por un sistema externo](../campaigns/api-triggered-campaigns.md) y qué carga útil esperan.
 1. Diseñe la plantilla de mensaje y [personalícela](../personalization/personalize.md) con los detalles de la transacción.
@@ -222,8 +219,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Lanzamiento de una campaña con pruebas de contenido {#flow-campaign}
 
-**Crearás:** Una promoción programada que selecciona automáticamente el contenido con mejor rendimiento.
-**Ideal para:** especialistas en mercadotecnia · **Capacidad:** Campaña programada + experimentación de contenido
+**Crearás:** Una promoción programada que selecciona automáticamente el contenido con mejor rendimiento.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** Campaña programada + experimentación de contenido
 
 1. [Empiece a usar las campañas](../campaigns/get-started-with-campaigns.md) y defina su audiencia.
 1. Use [generación de contenido](../content-management/gs-generative.md) para redactar variaciones de línea de asunto y de copia.
@@ -233,8 +229,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Personalizar ofertas por cliente {#flow-offers}
 
-**Creará:** Una decisión que muestra la mejor oferta para cada cliente.
-**Ideal para:** especialistas en marketing · **Capacidad:** Toma de decisiones
+**Creará:** Una decisión que muestra la mejor oferta para cada cliente.**Óptimo para:** Especialistas en marketing · **Capacidad:** Toma de decisiones
 
 1. [Empiece con Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) y cree sus ofertas y reglas de elegibilidad.
 1. Agregue la decisión a un [recorrido](../building-journeys/journey-gs.md) o mensaje de campaña.
@@ -334,7 +329,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 >[!TAB Informes y optimización]
 
 * [Supervise y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: efectúe el seguimiento del rendimiento a medida que se ejecutan sus recorridos.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 
@@ -345,6 +340,8 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 | Impulsado por el comportamiento, con varios pasos, cada cliente se mueve a su propio ritmo | Recorrido |
 | Mensaje simple programado o activado por API a una audiencia | Campaign |
 | Flujo de trabajo por lotes complejo con segmentación de varias entidades | Campaña organizada |
+
+Para ver una comparación detallada con un árbol de decisiones y tablas de características, consulte [Recorridos frente a campañas: elija el método adecuado](journeys-vs-campaigns.md). Una vez que haya decidido los Recorridos, consulte [Tipos de Recorridos: elija el adecuado](../building-journeys/journey-types-selection.md) para elegir entre recorridos de evento unitario, audiencia de lectura, calificación de audiencia y evento empresarial.
 
 ## ¿No está seguro? {#not-sure}
 
