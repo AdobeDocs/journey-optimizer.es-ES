@@ -10,25 +10,15 @@ level: Beginner
 keywords: recorrido, campaña, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +78,22 @@ Siga este árbol de decisión para elegir el enfoque correcto. Muchas marcas uti
 
 ### Paso 1: ¿Cuál es su requisito de ejecución?
 
-**Respuestas individuales en tiempo real al comportamiento de los clientes?**
-→ **Usar Recorridos**
+**Respuestas individuales en tiempo real al comportamiento de los clientes?→** Usar Recorridos **
 * Los perfiles deben moverse a su propio ritmo
 * Lógica condicional basada en el comportamiento
 * El contexto en tiempo real es fundamental
 
-**Envío de mensaje simple a una audiencia a una hora programada?**
-→ **Usar campañas de acción**
+**Envío de mensaje simple a una audiencia a una hora programada?→** Usar campañas de acción **
 * Todos los perfiles reciben el mensaje simultáneamente
 * Envíos programados o recurrentes
 * No se necesita una lógica compleja de varios pasos
 
-**Mensaje inmediato activado por un sistema externo?**
-→ **Usar campañas activadas por API** (mensaje único) **o un recorrido de evento unitario** (orquestación de varios pasos)
+**Mensaje inmediato activado por un sistema externo?→** Usar campañas activadas por API **(mensaje único)** o un recorrido de evento unitario **(orquestación de varios pasos)
 * Se activa bajo demanda mediante una llamada API: las campañas envían un mensaje; los recorridos unitarios consumen el evento mediante [ingesta de Experience Platform](../event/additional-steps-to-send-events-to-journey.md) y ejecutan un flujo de recorrido completo
 * Personalización impulsada por carga útil
 * Elija campañas cuando no se necesite una lógica de varios pasos
 
-**Flujo de trabajo por lotes complejo con segmentación avanzada, datos de varias entidades o recuentos exactos de preenvío?**
-→ **Usar campañas orquestadas**; consulte [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para obtener instrucciones detalladas.
+**Flujo de trabajo por lotes complejo con segmentación avanzada, datos de varias entidades o recuentos exactos de preenvío?→** Usar campañas orquestadas **; consulte [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) para obtener instrucciones detalladas.
 
 >[!NOTE]
 >
@@ -152,7 +138,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 Cada cliente experimenta su propia cronología de recorridos en función de sus acciones.
 
-[Más información sobre Recorrido](../building-journeys/journey.md)
+[Más información sobre los Recorridos](../building-journeys/journey.md) | [tipos de Recorrido: elija el correcto](../building-journeys/journey-types-selection.md)
 
 ### Campañas: Envío por lotes simple o activado
 
@@ -292,11 +278,13 @@ Sí. Las audiencias creadas en [!DNL Adobe Experience Platform] se pueden usar e
 ¿Listo para comenzar a crear? Explore la documentación detallada del enfoque elegido:
 
 * **[Introducción a Recorrido](../building-journeys/journey.md)**: tipos de Recorrido, diseñador y flujo de trabajo
+* **[tipos de Recorrido: elija el correcto](../building-journeys/journey-types-selection.md)**: evento unitario, audiencia de lectura, calificación de audiencia y evento empresarial
 * **[Introducción a campañas](../campaigns/get-started-with-campaigns.md)**: campañas activadas por acciones y API
 * **[Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md)**: flujos de trabajo en lienzo por lotes con datos de varias entidades (instrucciones independientes)
 
 >[!MORELIKETHIS]
 >
+>* [tipos de Recorrido: elija el correcto](../building-journeys/journey-types-selection.md)
 >* [Comparación de tipos de Recorrido](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparación de tipos de campaña](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [PREGUNTAS FRECUENTES SOBRE EL Recorrido](../building-journeys/journey-faq.md)
