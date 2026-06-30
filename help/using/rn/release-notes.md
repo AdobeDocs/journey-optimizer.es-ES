@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
 workflow-type: tm+mt
-source-wordcount: 3714
+source-wordcount: 3606
 ht-degree: 85%
 
 ---
@@ -353,7 +353,7 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 <table>
 <thead>
 <tr>
-<th><strong>Activar reducción de tamaño de correo electrónico</strong><br/></th>
+<th><strong>Optimización de tamaño de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -527,15 +527,15 @@ En esta versión se han añadido las siguientes mejoras a la administración y l
 
   Fecha de disponibilidad: 1 de junio de 2026
 
+<!--
++++ Coming soon — **Information below is subject to change**
 
-+++ Próximamente: **La información siguiente está sujeta a cambios**
-
-* **Lista de permitidos de IP del cortafuegos de las aplicaciones web (WAF)**: Adobe Journey Optimizer ahora admite la lista de permitidos de IP de cortafuegos de las aplicaciones web (WAF) para páginas de destino, lo que permite a las organizaciones aplicar que todas las solicitudes entrantes se enruten exclusivamente a través de su infraestructura de WAF configurada. Con esta mejora, los clientes pueden configurar Journey Optimizer para que rechace cualquier solicitud directa que omita la capa de WAF, lo que garantiza que las políticas de seguridad definidas en herramientas como Imperva se apliquen de forma consistente. Esta funcionalidad refuerza la postura de seguridad de las empresas con requisitos estrictos de acceso a la red, lo que les permite un control total del flujo de tráfico a sus páginas de destino alojadas en AJO.
-
-  Fecha de disponibilidad: finales de junio de 2026
+* **Web Application Firewall (WAF) IP whitelisting** - Adobe Journey Optimizer now supports Web Application Firewall (WAF) IP whitelisting for landing pages, enabling organizations to enforce that all incoming requests are routed exclusively through their configured WAF infrastructure. With this enhancement, customers can configure Journey Optimizer to reject any direct requests that bypass the WAF layer, ensuring that security policies defined in tools such as Imperva are consistently applied. This capability strengthens the security posture for enterprises with strict network access requirements, giving them full control over the traffic flow to their AJO-hosted landing pages.
+  
+  Availability date: Late June, 2026
 
 +++
-
+-->
 
 ### Mensajería móvil (SMS, MMS, RCS y LINE) {#june-26-mobile}
 
