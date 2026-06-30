@@ -11,26 +11,13 @@ keywords: recorrido, primero, inicio, inicio rápido, audiencia, evento, acción
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -90,7 +77,7 @@ Lo que debe configurar antes de crear depende de cómo se active el recorrido. L
 
 | Punto de entrada | Usar cuando... | Introducir perfiles |
 |---|---|---|
-| **[Leer audiencia](read-audience.md)** | Desea enviar un mensaje programado o recurrente a un conjunto definido de perfiles (boletines informativos, promociones, series de incorporación). | Todos los perfiles de una audiencia por lotes, a la vez o según una programación. [Más información acerca de las exportaciones de audiencia y el tiempo](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/overview){target="_blank"} |
+| **[Leer audiencia](read-audience.md)** | Desea enviar un mensaje programado o recurrente a un conjunto definido de perfiles (boletines informativos, promociones, series de incorporación). | Todos los perfiles de una audiencia por lotes, a la vez o según una programación. [Más información acerca de las exportaciones de audiencia y el tiempo](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[Calificación de audiencias](audience-qualification-events.md)** | Debe reaccionar en tiempo real cuando un perfil entra o sale de una audiencia (actualización del nivel de fidelidad, indicador de riesgo de pérdida). | Un perfil a la vez, en cuanto se clasifique en una audiencia de streaming. |
 | **Evento unitario** | Una acción de perfil genera un déclencheur de respuesta inmediata (abandono del carro de compras, envío de formularios, inicio de sesión en la aplicación). | Perfil a perfil, en tiempo real. |
 | **[Evento empresarial](../event/about-creating-business.md)** | Un evento que no es de perfil afecta a varias personas a la vez (cancelación de vuelos, reabastecimiento de existencias, alerta de noticias de última hora). | Todos los perfiles asociados con el evento, a través de un paso automático Leer audiencia. |
@@ -117,13 +104,15 @@ Para crear un recorrido de varios pasos, siga estos pasos:
 
 1. Edite el panel de configuración del recorrido para definir el nombre del recorrido y sus propiedades. Aprenda a establecer las propiedades de su recorrido en [esta página](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**¿Qué tipo de recorrido debo elegir?** Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. ¿Listo para profundizar? [Descubra todos los tipos de recorrido y sus reglas de entrada](entry-management.md#types-of-journeys).
-
    ![Panel de propiedades del Recorrido con opciones de configuración y configuración](assets/jo-properties.png)
 
 A continuación, puede empezar a diseñar el recorrido.
+
+>[!TIP]
+>
+>**¿Qué tipo de recorrido debo elegir?**
+>
+>Si es nuevo en Journey Optimizer, empiece con un recorrido basado en audiencias usando una actividad de **[!UICONTROL Leer audiencia]**; no requiere ninguna configuración de evento anterior y es la manera más sencilla de familiarizarse con el lienzo. Para experiencias en tiempo real activadas por eventos (por ejemplo, reaccionar ante una compra o un envío de formulario), configure primero un evento y utilice una entrada basada en eventos. ¿Listo para profundizar? [Descubra todos los tipos de recorrido y sus reglas de entrada](entry-management.md#types-of-journeys).
 
 ## Diseño del recorrido {#jo-design}
 
