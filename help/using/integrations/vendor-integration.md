@@ -11,9 +11,9 @@ keywords: integración, proveedor, terceros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 5%
 
 ---
@@ -1209,9 +1209,7 @@ Adobe Target incluye Recommendations y API de entrega para experiencias del lado
 
 Los casos de uso habituales incluyen la inyección de recomendaciones en experiencias que crea en Journey Optimizer y la alineación de claves con el perfil o el contexto de Experience Platform.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ Después de activar la integración, aprenda a [agregar la integración en la creación de contenido](integrations-personalization.md#apply-integration-personalization) y a [usar datos de Adobe Target en las plantillas de mensajes](integrations-personalization.md#use-adobe-target-in-templates).
 
 >[!ENDSHADEBOX]
 

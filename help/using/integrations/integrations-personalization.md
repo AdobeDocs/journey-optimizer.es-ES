@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 1302
 ht-degree: 1%
 
 ---
@@ -137,20 +137,19 @@ En **[!UICONTROL Simulation]** o envío, Journey Optimizer ejecuta las integraci
 
 ![](assets/uc-integrations-7.png)
 
-<!--
-## Use Adobe Target data in templates {#use-adobe-target-in-templates}
+## Uso de datos de Adobe Target en plantillas {#use-adobe-target-in-templates}
 
-This section explains how to use **Integrations** in Adobe Journey Optimizer to fetch personalization data from **[!DNL Adobe Target]** at send time and use it in message templates. It assumes the Target Delivery API has already been configured as an integration.
+En esta sección se explica cómo usar **Integraciones** en Adobe Journey Optimizer para recuperar datos de personalización de **[!DNL Adobe Target]** en el momento del envío y usarlos en plantillas de mensajes. Supone que la API de envío de Target ya se ha configurado como integración.
 
-For configuration steps, see [Work with Integrations](integrations.md) and the [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations) sample.
+Para ver los pasos de configuración, consulte [Trabajar con integraciones](integrations.md) y el ejemplo de [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations).
 
-The Target Delivery API returns a `prefetch.mboxes` array. Each mbox includes an `options` object with `content` and `type` fields. The `type` value determines how you use `content` in your template. Open the tab that matches your mbox response, then follow the steps to use that data in your message.
+La API de envío de Target devuelve una matriz `prefetch.mboxes`. Cada mbox incluye un objeto `options` con `content` y `type` campos. El valor `type` determina cómo se usa `content` en la plantilla. Abra la pestaña que coincida con la respuesta de mbox y siga los pasos para utilizar esos datos en el mensaje.
 
 >[!BEGINTABS]
 
->[!TAB JSON content]
+>[!TAB Contenido JSON]
 
-When `type` is `json`, the `content` field is a **JSON string**. Parse it before you access nested fields. The example below shows a typical Delivery API response for a JSON mbox.
+Cuando `type` es `json`, el campo `content` es una **cadena JSON**. Analícelo antes de acceder a los campos anidados. El ejemplo siguiente muestra una respuesta típica de la API de envío para un mbox JSON.
 
 ```json
 {
@@ -170,61 +169,63 @@ When `type` is `json`, the `content` field is a **JSON string**. Parse it before
 }
 ```
 
-Use three helpers in sequence to fetch, extract, and parse the Target response.
+Utilice tres ayudantes en secuencia para recuperar, extraer y analizar la respuesta de Target.
 
-1. **Fetch the Target response.** Call your configured Target integration with `externalDataLookup`. Set `integrationName` to the **[!UICONTROL Name]** of that integration (replace the example placeholder `target_recommendations`). Use the `result` parameter to name the template variable that holds the full Delivery API payload—for example, `targetResponse`.
+1. **Recupere la respuesta de Target.** Llame a la integración de Target configurada con `externalDataLookup`. Establezca `integrationName` en el **[!UICONTROL Nombre]** de esa integración (reemplace el marcador de posición de ejemplo `target_recommendations`). Utilice el parámetro `result` para asignar un nombre a la variable de plantilla que contiene la carga útil completa de la API de envío; por ejemplo, `targetResponse`.
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    ```
+   También puede seleccionar la integración directamente desde el menú **[!UICONTROL Integraciones]** en la navegación izquierda del editor de personalización. Ver [Aplicar personalización de integración a tu contenido](#apply-integration-personalization).
 
-1. **Extract a specific mbox using valueAtPath.** `valueAtPath` extracts an element from an array by its 0-based index and assigns it to a template variable. Use the `idx` parameter to specify which element to access.
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   ```
 
-    ```handlebars
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    ```
+1. **Extraer un mbox específico mediante valueAtPath.** `valueAtPath` extrae un elemento de una matriz por su índice basado en 0 y lo asigna a una variable de plantilla. Utilice el parámetro `idx` para especificar a qué elemento acceder.
 
-    | Parameter | Description |
-    | --- | --- |
-    | `path` | Path to the array (positional, no keyword) |
-    | `idx` | 0-based index for array access (optional) |
-    | `result` | Variable name to store the extracted value |
+   ```handlebars
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If `idx` is out of bounds, rendering throws an exception. Guard invalid indexes with `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}` when the index may be invalid. PQL expressions cannot be used as the path. **Available since release 2025.9.0.**
+   | Parámetro | Descripción |
+   | --- | --- |
+   | `path` | Ruta a la matriz (posicional, sin palabra clave) |
+   | `idx` | Índice basado en 0 para el acceso a la matriz (opcional) |
+   | `result` | Nombre de variable para almacenar el valor extraído |
 
-1. **Parse the JSON string using parseJson.** The mbox `options.content` field is a raw JSON string. `parseJson` converts it into a structured object whose fields can then be accessed directly in the template.
+   >[!NOTE]
+   >
+   > Si `idx` está fuera de los límites, el procesamiento genera una excepción. Proteja los índices no válidos con `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}` cuando el índice pueda no ser válido. Las expresiones PQL no se pueden usar como ruta. **Disponible desde la versión 2025.9.0.**
 
-    ```handlebars
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
-    ```
+1. **Analizar la cadena JSON mediante parseJson.** El campo mbox `options.content` es una cadena JSON sin procesar. `parseJson` lo convierte en un objeto estructurado a cuyos campos se puede tener acceso directamente en la plantilla.
 
-    | Parameter | Description |
-    | --- | --- |
-    | `jsonStr` | Path to the string field containing valid JSON |
-    | `result` | Variable name to store the parsed object |
+   ```handlebars
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If the JSON string is invalid or the reference is null, `result` is set to `null` — no rendering error is thrown. Test with your actual Target response to confirm the content is valid JSON. **Available since: 2026.6.0**
+   | Parámetro | Descripción |
+   | --- | --- |
+   | `jsonStr` | Ruta al campo de cadena que contiene un JSON válido |
+   | `result` | Nombre de variable para almacenar el objeto analizado |
 
-1. **Access the data.** Once parsed, use dot notation to access fields from `summerOfferContent`. To render a list of recommendations:
+   >[!NOTE]
+   >
+   > Si la cadena JSON no es válida o la referencia es nula, `result` se establece en `null`; no se produce ningún error de procesamiento. Pruebe con su respuesta de Target real para confirmar que el contenido es un archivo JSON válido. **Disponible desde: 2026.6.0**
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+1. **Acceder a los datos.** Una vez analizado, utilice la notación de puntos para acceder a los campos de `summerOfferContent`. Para procesar una lista de recomendaciones:
 
-    Strategy: {{summerOfferContent.strategy}}
-    {{#each summerOfferContent.recommendations as |rec|}}
-      {{rec.name}} — {{rec.price}}
-    {{/each}}
-    ```
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   
+   Strategy: {{summerOfferContent.strategy}}
+   {{#each summerOfferContent.recommendations as |rec|}}
+     {{rec.name}} — {{rec.price}}
+   {{/each}}
+   ```
 
->[!TAB HTML content]
+>[!TAB Contenido de HTML]
 
-When `type` is `html`, the `content` field is a ready-to-render HTML string. You do not need to parse it. The example below shows a typical Delivery API response for an HTML mbox.
+Cuando `type` es `html`, el campo `content` es una cadena de HTML lista para procesar. No es necesario analizarlo. El ejemplo siguiente muestra una respuesta típica de la API de envío para un mbox de HTML.
 
 ```json
 {
@@ -244,7 +245,7 @@ When `type` is `html`, the `content` field is a ready-to-render HTML string. You
 }
 ```
 
-Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
+Busque y extraiga el mbox y, a continuación, procese `content` directamente. Omitir `parseJson`.
 
 ```handlebars
 {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
@@ -254,11 +255,9 @@ Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
 
 >[!NOTE]
 >
-> Use **triple braces** `{{{...}}}` to render HTML content as-is. Double braces `{{...}}` will escape HTML entities and render raw tag strings instead of the HTML.
+> Use **llaves triples** `{{{...}}}` para procesar el contenido de HTML tal cual. Las llaves dobles `{{...}}` escaparán a las entidades de HTML y procesarán cadenas de etiquetas sin procesar en lugar de HTML.
 
 >[!ENDTABS]
-
--->
 
 ## Vídeo práctico {#video}
 
