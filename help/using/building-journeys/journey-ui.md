@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 9%
+source-wordcount: 2122
+ht-degree: 10%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 ## Panel de control del recorrido {#dashboard-jo}
 
-En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay dos fichas disponibles: **[!UICONTROL Información general]** y **[!UICONTROL Examinar]**.
+En la sección de menú ADMINISTRACIÓN DE RECORRIDO, haga clic en **[!UICONTROL Recorridos]**. Hay tres fichas específicas disponibles: **[!UICONTROL Información general]** (panel), **[!UICONTROL Examinar]** (lista y calendario) y **[!UICONTROL Vista de carpetas]** (organizar recorridos en carpetas).
 
 ### Información general sobre Recorrido
 
@@ -109,6 +109,15 @@ Para desplazarse por el calendario de Recorrido:
 
    ![lista de campañas con el panel de información abierto](assets/journey-calendar-4.png)
 
+### Vista Carpetas {#journeys-folders}
+
+Abra la vista de carpetas de recorridos con el icono **[!UICONTROL Mostrar carpetas]** en la lista de recorridos o use la ficha **[!UICONTROL Vista de carpetas]**. [Aprenda a trabajar con carpetas](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>Las carpetas para los recorridos están en disponibilidad limitada. Para ver el estado actual de la versión, consulte [Ciclo de la versión de Journey Optimizer](../rn/releases.md).
 
 ## Filtrar sus recorridos {#journey-filter}
 

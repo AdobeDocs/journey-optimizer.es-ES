@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 85%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -555,11 +555,9 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 ### Mejoras de uso {#june-26-usability}
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
+* **Carpetas para Recorridos**: ahora puede organizar sus recorridos en **carpetas** para mejorar la navegación y la administración en la interfaz. [Más información](../building-journeys/journey-ui.md#journeys-folders)
 
-* **Carpetas para recorridos y campañas**: ahora puede organizar sus recorridos y campañas en **carpetas** para mejorar la navegación y la administración en la interfaz.
-
-+++
+  Fecha de disponibilidad: 30 de junio de 2026
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
