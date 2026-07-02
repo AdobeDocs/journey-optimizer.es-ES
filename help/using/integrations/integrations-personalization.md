@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 1%
 
 ---
@@ -137,9 +137,9 @@ En **[!UICONTROL Simulation]** o envío, Journey Optimizer ejecuta las integraci
 
 ![](assets/uc-integrations-7.png)
 
-## Uso de datos de Adobe Target en plantillas {#use-adobe-target-in-templates}
+## Uso de Adobe Target Recommendations en el contenido {#use-adobe-target-in-templates}
 
-En esta sección se explica cómo usar **Integraciones** en Adobe Journey Optimizer para recuperar datos de personalización de **[!DNL Adobe Target]** en el momento del envío y usarlos en plantillas de mensajes. Supone que la API de envío de Target ya se ha configurado como integración.
+En esta sección se explica cómo usar **Integraciones** en Adobe Journey Optimizer para recuperar datos de personalización de **[!DNL Adobe Target]** en el momento del envío y usarlos en el contenido del mensaje, ya se haya creado en una plantilla o en línea. Supone que la API de envío de Target ya se ha configurado como integración.
 
 Para ver los pasos de configuración, consulte [Trabajar con integraciones](integrations.md) y el ejemplo de [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations).
 
