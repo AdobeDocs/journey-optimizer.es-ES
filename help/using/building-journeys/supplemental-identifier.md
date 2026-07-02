@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 1%
+source-wordcount: 2792
+ht-degree: 2%
 
 ---
 
@@ -33,13 +33,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usar identificador adicional"
->abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione cualquier atributo de no identidad (o identidad de no persona) de la audiencia o el evento que desee utilizar como identificador suplementario."
+>abstract="El identificador adicional es un identificador secundario que proporciona contexto adicional para la ejecución de un recorrido. Para definirlo, seleccione cualquier atributo que no sea de identidad (o identidad de no persona) del público o el evento que desee utilizar como identificador adicional."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>De forma predeterminada, los recorridos se ejecutan en el contexto de un <b>ID de perfil</b>. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, Journey Optimizer le permite capturar un <b>identificador adicional</b>, como un ID de pedido, un ID de suscripción o un ID de prescripción, además del ID de perfil.  
-      <p>En este ejemplo, hemos agregado un <b>ID de reserva</b> como identificador suplementario.</p>
+      <p>De forma predeterminada, los recorridos se ejecutan en el contexto de un <b>ID de perfil</b>. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, Journey Optimizer le permite capturar un <b>identificador adicional</b>, como un identificador de pedido, un identificador de suscripción o un identificador de prescripción, además del identificador de perfil.  <p>En este ejemplo, hemos agregado un <b>ID de reserva</b> como identificador suplementario.</p>
       <p>Al hacerlo, los recorridos se ejecutan en el contexto del ID de perfil asociado al identificador suplementario (en este caso, el ID de reserva). Se ejecuta una instancia del recorrido para cada iteración del identificador suplementario. Esto permite varias entradas del mismo ID de perfil en recorridos si han realizado reservas diferentes.</p>
       <p>Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes.</p>
     </td>
@@ -202,7 +201,7 @@ Póngase en contacto con su representante de Adobe para obtener instrucciones so
 
 * [Límite y arbitraje de recorrido](../conflict-prioritization/journey-capping.md)
 * [Trabajar con conjuntos de reglas](../conflict-prioritization/rule-sets.md)
-* [Administración de conflictos y priorización](../conflict-prioritization/gs-conflict-prioritization.md)
+* [Administración y priorización de conflictos](../conflict-prioritization/gs-conflict-prioritization.md)
 
 ## Identificadores adicionales con audiencias externas {#external-audiences}
 

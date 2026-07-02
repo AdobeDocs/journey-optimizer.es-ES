@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -213,8 +213,8 @@ Pueden producirse dos tipos de alertas:
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="Reducir el tamaño de HTML"
->abstract="Active esta opción para comprimir el correo electrónico de HTML durante la publicación eliminando los espacios en blanco, la sangría y los comentarios no esenciales innecesarios. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
+>title="Reducir tamaño de HTML"
+>abstract="Habilite esta opción para comprimir el HTML de correo electrónico durante la publicación eliminando los espacios en blanco innecesarios, la sangría y los comentarios no esenciales. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
 
 [!DNL Journey Optimizer] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco, sangrías y comentarios no esenciales innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
 

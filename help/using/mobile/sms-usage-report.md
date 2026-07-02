@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="Métricas de uso de SMS"
->abstract="Genere informes de uso de SMS para reconciliar el volumen de mensajería con la facturación del proveedor. Los informes enumeran los recuentos terminados en dispositivos móviles (MT) y originados en dispositivos móviles (MO) de cada código corto o número de teléfono, agregados por día."
+>abstract="Genere informes de uso de SMS para reconciliar el volumen de mensajería con la facturación del proveedor. Los informes enumeran los recuentos terminados en dispositivos móviles (MT) y originados en dispositivos móviles (MO) de cada código corto o número de teléfono, añadidos por día."
 
 >[!BEGINSHADEBOX]
 
@@ -48,7 +48,7 @@ Estos pasos requieren el permiso **[!UICONTROL Administrar configuración de SMS
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
 >title="Credenciales de SMS"
->abstract="Seleccione la credencial de la API de Sinch cuyo tráfico de envío y recepción debe aparecer en este informe. Para agregar o actualizar credenciales, ve a **Administración** > **Canales** > **Credenciales de API**, y luego elige **Proveedor de SMS** > **Sinch MMS**."
+>abstract="Seleccione la credencial de la API de Sinch cuyo tráfico de envío y recepción debe aparecer en este informe. Para añadir o actualizar credenciales, vaya a **Administración** > **Canales** > **Credenciales de API**, y luego elija **Proveedor de SMS** > **MMS de Sinch**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"

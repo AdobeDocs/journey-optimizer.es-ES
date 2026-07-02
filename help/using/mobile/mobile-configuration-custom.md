@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
 source-wordcount: 1198
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -70,17 +70,17 @@ Para configurar el proveedor personalizado, siga los pasos a continuación:
 1. [Crear configuración de canal](mobile-configuration-surface.md)
 1. [Creación de un Recorrido o una campaña con una acción de canal SMS](create-mobile-message.md)
 
-## Cree sus credenciales de API {#api-credential}
+## Crear credenciales de API {#api-credential}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="Tipo de canal"
->abstract="Opcional. Clasifique los mensajes enviados con esta credencial de proveedor de SMS personalizada, por ejemplo, SMS o RCS. Journey Optimizer escribe el valor en los eventos de experiencia XDM para que pueda informar y rastrear el envío por canal."
+>abstract="Opcional. Clasifique los mensajes enviados con esta credencial del proveedor de SMS personalizada, por ejemplo, SMS o RCS. Journey Optimizer escribe el valor en los eventos de experiencia XDM para que pueda crear informes y rastrear el envío por canal."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="Autenticación"
->abstract="Cuando se habilita, solo se aceptan solicitudes autenticadas a través de Adobe IMS. Los llamadores deben incluir un token de OAuth válido al enviar datos a este extremo."
+>abstract="Cuando se habilita, solo se aceptan solicitudes autenticadas a través de Adobe IMS. Los clientes deben incluir un token de OAuth válido al enviar datos a este punto final."
 
 Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor personalizado que Adobe no tiene disponible de forma predeterminada (por ejemplo, Sinch, Infobip, Twilio), siga estos pasos:
 
