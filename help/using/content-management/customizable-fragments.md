@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -91,18 +81,18 @@ Para poder editar partes de un fragmento visual, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Fragmento heredado"
->abstract="Los campos editables de este fragmento están en modo de solo texto. Esto significa que solo puede introducir texto sin formato al editar este fragmento en correos electrónicos; no se admiten opciones de formato completo como negrita, cursiva, hipervínculos y saltos de línea. Haga clic en <b>Habilitar</b> para permitir texto enriquecido en campos editables al utilizar el fragmento en un mensaje de correo electrónico."
+>abstract="Los campos editables de este fragmento están en modo de solo texto. Esto significa que solo puede introducir texto sin formato al editar este fragmento en correos electrónicos; no se admiten opciones de formato como como negrita, cursiva, hipervínculos y saltos de línea. Haga clic en <b>Habilitar</b> para poder usar texto enriquecido en los campos editables al utilizar el fragmento en un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Fragmento heredado"
->abstract="Este campo editable está en modo de solo lectura. Opciones de formato completo (negrita, cursiva, hipervínculos, saltos de línea, etc.) no están disponibles hasta que el fragmento se actualice al modo de texto enriquecido. Vaya a la configuración del cuerpo del fragmento y haga clic en <b>Habilitar</b> para desbloquear texto enriquecido en campos editables."
+>abstract="Este campo editable está en modo de solo lectura. Las opciones de formato (negrita, cursiva, hipervínculos, saltos de línea, etc.) no están disponibles hasta que el fragmento se actualice al modo de texto enriquecido. Vaya a la configuración del cuerpo del fragmento y haga clic en <b>Habilitar</b> para desbloquear el texto enriquecido enriquecido en los campos editables."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalización de campos editables en un fragmento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Fragmento heredado"
->abstract="Los campos editables de este fragmento están en modo de solo texto. Opciones de formato completo (negrita, cursiva, hipervínculos, saltos de línea, etc.) no están disponibles hasta que el fragmento se actualice al modo de texto enriquecido. Para desbloquear este modo, abre el editor de fragmentos y haz clic en <b>Habilitar</b>."
+>abstract="Los campos editables de este fragmento están en modo de solo texto. Las opciones de formato (negrita, cursiva, hipervínculos, saltos de línea, etc.) no están disponibles hasta que el fragmento se actualice al modo de texto enriquecido. Para desbloquear este modo, abra el editor de fragmentos y haga clic en <b>Habilitar</b>."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalización de campos editables en un fragmento"
 
 El texto enriquecido <!--— including bold, italic, line breaks, and hyperlinks —--> ahora se admite de forma nativa en fragmentos visuales personalizables.
@@ -263,5 +253,5 @@ When adding the fragment to your email, you can now edit the rich text content a
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464371/?captions=spa&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

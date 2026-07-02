@@ -12,16 +12,16 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Comprobación de contenido en el Designer de correo electrónico {#content-check}
+# Comprobación de contenido en el diseñador de correo electrónico {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Validación del contenido del correo electrónico"
+>title="Validar el contenido del correo electrónico"
 >abstract="Las comprobaciones de contenido detectan automáticamente los problemas de HTML y CSS en el correo electrónico antes de enviarlo. Indican etiquetas no admitidas, divs vacíos y límites de tamaño que pueden interrumpir el procesamiento en Gmail o Microsoft Outlook. Los problemas aparecen como errores, advertencias o avisos informativos, con detalles contextuales y correcciones con un solo clic cuando están disponibles."
 
 >[!AVAILABILITY]
