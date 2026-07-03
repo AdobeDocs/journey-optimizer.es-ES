@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: 539
 ht-degree: 10%
 
 ---
@@ -29,6 +28,8 @@ Puede enviar pruebas utilizando cualquiera de los métodos de simulación:
 
 * Haga clic en **[!UICONTROL Simular contenido]** y, a continuación, seleccione **[!UICONTROL Simular contenido (perfiles de AEP)]** en el menú desplegable para enviar pruebas con perfiles de prueba.
 * Haga clic en **[!UICONTROL Simular contenido]** para enviar pruebas de las variaciones de contenido creadas con datos de entrada de muestra o con la generación automática de IA. [Aprenda a simular variaciones de contenido](../test-approve/simulate-sample-input.md#proofs)
+
+Para las campañas activadas por API y de acción (programadas), también puede enviar pruebas mediante programación usando [API de simulaciones](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Esto no es compatible con campañas organizadas.
 
 ## Lectura obligatoria {#must-read}
 
