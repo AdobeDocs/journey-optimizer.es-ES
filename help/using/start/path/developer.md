@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,7 +312,12 @@ Más allá de la mensajería y el límite, Journey Optimizer expone los puntos f
 | Crear y administrar plantillas de contenido y fragmentos desde una canalización externa | [API de contenido](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Plantillas](../../content-management/content-templates.md) · [Fragmentos](../../content-management/fragments.md) |
 | Recuperación y filtrado de campañas de acción | [API de campañas](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Previsualización de campañas y envío de pruebas mediante programación | [API de simulaciones](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| Validar conjuntos de datos y ejecutar campañas organizadas por déclencheur | [Validación de conjuntos de datos](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de datos](../../orchestrated/manual-schema.md) |
+
+>[!NOTE]
+>
+>La API de simulaciones está disponible para campañas de acción (programadas) y activadas por API. No es **compatible con campañas orquestadas**: use en su lugar el flujo de trabajo de vista previa y prueba en la interfaz de usuario de campañas orquestadas para esas campañas.
+
+| Validación de conjuntos de datos y ejecución de campañas organizadas por déclencheur | [Validación de conjuntos de datos](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Habilitar conjuntos de datos](../../orchestrated/manual-schema.md) |
 
 ## Recursos adicionales {#additional-resources}
 
