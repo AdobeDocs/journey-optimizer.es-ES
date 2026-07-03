@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
+source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1648
+ht-degree: 97%
 
 ---
 
@@ -410,4 +410,9 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >abstract="La actividad **Cargar archivo** es una actividad de **segmentación**. Utilícela para cargar un archivo CSV o TXT en el lienzo de campaña orquestada y utilícela como público. Los datos del archivo se consumen en el momento de la ejecución y no se conservan como un conjunto de datos de Adobe Experience Platform. Las filas se reconcilian con los destinatarios existentes mediante una columna de identidad y una dimensión de segmentación."
 
 
+<!-- OC - LINE ACTIVITY -->
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Actividad de línea"
+>abstract="La actividad **Line** le permite agregar una acción LINE a su campaña orquestada. Cree contenido personalizado, desde texto y pegatinas hasta imágenes, vídeos, ubicaciones y mensajes de Flex, para atraer a los clientes en LINE."
