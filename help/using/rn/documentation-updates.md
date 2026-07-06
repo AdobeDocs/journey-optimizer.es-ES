@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Junio de 2026 {#june-2026}
+
+* La página **Comprobar y enviar un mensaje de correo postal** se ha actualizado para aclarar el tiempo y el comportamiento de agrupamiento de las exportaciones de correo postal, incluida la programación fija de 4 horas UTC, por qué se pueden generar varios archivos en un solo día, cuándo se ejecuta **[!UICONTROL Actualizar perfil]** en recorridos y recomendaciones para escenarios de un archivo por día. [Más información](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * Hay disponibles nuevos tipos de Recorrido **elegir la página correcta**. Compara todos los puntos de entrada de recorrido (audiencia de lectura, calificación de audiencias, evento unitario y evento empresarial) con guías de decisión y una matriz de compatibilidad de funciones que le ayudará a seleccionar el tipo adecuado para su caso de uso. [Más información](../building-journeys/journey-types-selection.md)
 
