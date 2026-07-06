@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +368,6 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >title="Parámetros de encabezado"
 >abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="Ayuda para la configuración de AEM"
->abstract="Más información sobre la creación y administración de una configuración"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="Configuración de la instancia"
->abstract="Seleccione el tipo de configuración de la instancia adecuado para la instalación. </br>Configuración solo de autor: utilice fragmentos de contenido de la instancia de autor de AEM. No se admiten la configuración de instancias de publicación ni las actualizaciones en directo.</br>Configuración de la instancia de publicación: configuración de los ajustes de la instancia. Si lo desea, active “Enviar token a la instancia de publicación” para suministrar las credenciales de servicio para la autenticación."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="Enviar token a la instancia de publicación"
->abstract="Cuando están habilitadas, las credenciales del servicio se envían para autenticar las solicitudes en la instancia de publicación. Proporcione a continuación un JSON de credencial de servicio válido."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="Pegar JSON de la credencial de servicio"
->abstract="Pegue el JSON de la credencial de servicio de AEM después de crearlos. Para ello, consulte la documentación de la cuenta técnica pública. Se formateará y se validará automáticamente."
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="Dominio personalizado"
->abstract="Opcional. Proporcione un dominio personalizado si se impide que publish-p16552-e147195.adobeaemcloud.comis recupere contenido para su organización"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
