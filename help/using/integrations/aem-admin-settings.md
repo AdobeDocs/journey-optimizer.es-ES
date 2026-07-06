@@ -8,18 +8,42 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Configuración del acceso al repositorio de Adobe Experience Manager {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Configuración de Adobe Experience Manager"
+>abstract="Conecte una zona protegida a un repositorio de Adobe Experience Manager configurando el acceso de solo autor o publicación, los dominios personalizados y la autenticación para que los especialistas en marketing puedan utilizar los fragmentos de contenido de Adobe Experience Manager en sus recorridos y campañas."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Configuración de la instancia"
+>abstract="Seleccione el tipo de configuración de la instancia adecuado para la instalación. </br>Configuración solo de autor: utilice fragmentos de contenido de la instancia de autor de AEM. No se admiten la configuración de instancias de publicación ni las actualizaciones en directo.</br>Configuración de la instancia de publicación: configuración de los ajustes de la instancia. Si lo desea, active “Enviar token a la instancia de publicación” para suministrar las credenciales de servicio para la autenticación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Enviar token a la instancia de publicación"
+>abstract="Cuando se habilita, las credenciales del servicio se envían para autenticar solicitudes en la instancia de publicación. Introduzca un JSON de credencial de servicio válido a continuación."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="Pegar JSON de la credencial de servicio"
+>abstract="Pegue el JSON de credencial de servicio de Adobe Experience Manager. Se formateará y se validará automáticamente."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Dominio personalizado"
+>abstract="Opcional. Proporcione un dominio personalizado si &quot;your-publish-instance.adobeaemcloud.com&quot; no puede recuperar contenido para su organización."
 
 >[!BEGINSHADEBOX]
 
@@ -119,4 +143,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
