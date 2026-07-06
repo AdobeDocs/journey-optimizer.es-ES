@@ -6,16 +6,13 @@ description: Aprenda a crear campañas organizadas con Adobe Journey Optimizer
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 46%
+source-wordcount: 981
+ht-degree: 45%
 
 ---
 
@@ -33,7 +30,7 @@ Una vez que haya [creado una campaña orquestada](gs-campaign-creation.md), pued
 
 En esta fase de la configuración, el lienzo de la campaña orquestada se muestra con un icono de inicio que representa el principio de la campaña orquestada. Para añadir su primera actividad, haga clic en el botón **+** conectado al icono de inicio.
 
-Aparece una lista de actividades que se pueden agregar al lienzo de campaña orquestada. Las actividades disponibles dependen de su posición dentro del lienzo de la campaña orquestada. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña orquestada segmentando una audiencia, dividiendo la ruta de la campaña orquestada o estableciendo una actividad **Wait** para retrasar la ejecución de la campaña orquestada. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de campaña orquestado con actividades de control de flujo.
+Aparece una lista de actividades que se pueden agregar al lienzo de campaña orquestada. Las actividades disponibles dependen de su posición dentro del lienzo de la campaña orquestada. Por ejemplo, al agregar la primera actividad, puede iniciar la campaña orquestada definiendo una audiencia (por ejemplo, con **Generar audiencia**, **Leer audiencia** o **Cargar archivo**), dividiendo la ruta de la campaña orquestada o configurando una actividad **Esperar** para retrasar la ejecución de la campaña orquestada. Por otro lado, después de una actividad **Generar audiencia**, puede refinar el segmento con actividades de segmentación, enviar una entrega a la audiencia con actividades de canal u organizar el proceso de campaña orquestado con actividades de control de flujo.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 

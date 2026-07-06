@@ -6,18 +6,14 @@ description: Obtenga información sobre cómo organizar actividades de campaña
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 55%
+source-wordcount: 628
+ht-degree: 48%
 
 ---
 
@@ -29,11 +25,10 @@ ht-degree: 55%
 
 >[!ENDSHADEBOX]
 
-Las actividades de las campañas organizadas se agrupan en tres categorías. Dependiendo del contexto, las actividades disponibles pueden diferir.
-
-Todas las actividades se detallan en las secciones siguientes:
+Las actividades de campaña organizadas se agrupan en varias categorías. Dependiendo del contexto, las actividades disponibles pueden diferir. Todas las actividades se detallan en las secciones siguientes:
 
 * [Actividades de segmentación](#targeting)
+* [Actividades de gestión de datos](#data-management)
 * [Actividades del canal](#channel)
 * [Actividades de control de flujo](#flow-control)
 
@@ -45,7 +40,7 @@ Todas las actividades se detallan en las secciones siguientes:
 
 ## Mecanismos de protección y limitaciones {#activity-guardrails}
 
-* **Límite de actividades de canal**: una campaña orquestada admite un máximo de 10 actividades de canal en la publicación (correo electrónico, SMS, push o correo directo). Las actividades de segmentación y control de flujo no se contabilizan en este límite.
+* **Límite de actividades de canal**: una campaña orquestada admite un máximo de 10 actividades de canal en la publicación (correo electrónico, SMS, push o correo directo). Las actividades de segmentación, administración de datos y control de flujo no se contabilizan en este límite.
 
 * **Límite de actividades de lienzo**: el número de actividades en el lienzo está limitado a 500. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
 
@@ -66,6 +61,14 @@ Las actividades de segmentación disponibles son:
 * [Enrichment](enrichment.md): defina datos adicionales para procesar en su campaña orquestada. Con esta actividad, puede aprovechar la transición entrante y configurar la actividad para completar la transición saliente con datos adicionales.
 * [Reconciliación](reconciliation.md): defina el vínculo entre los datos de Journey Optimizer y los datos de una tabla de trabajo, por ejemplo, los datos cargados desde un archivo externo.
 * [División](split.md): segmente la población entrante en varios subconjuntos.
+
+## Actividades de gestión de datos {#data-management}
+
+Estas actividades permiten trabajar con datos almacenados en archivos externos y ponerlos a disposición de actividades de segmentación, personalización o actividades de flujo descendente en el lienzo.
+
+Las actividades de gestión de datos disponibles son:
+
+* [Cargar archivo](load-file.md) (disponibilidad limitada): cargue un archivo CSV o TXT en el lienzo y utilícelo para definir la audiencia de la campaña (segmentación basada en archivos) sin ingerir primero el archivo en Adobe Experience Platform. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 ## Actividades del canal {#channel}
 

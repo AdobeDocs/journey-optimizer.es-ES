@@ -5,18 +5,14 @@ title: Uso de la actividad Cargar archivo
 description: Aprenda a utilizar la actividad Cargar archivo para dirigirse a una audiencia de campaña organizada desde un archivo CSV o TXT sin ingerir el archivo en Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
-ht-degree: 5%
+source-wordcount: 1697
+ht-degree: 4%
 
 ---
 
@@ -35,11 +31,11 @@ ht-degree: 5%
 
 La actividad **[!UICONTROL Cargar archivo]** es una actividad de **[!UICONTROL Administración de datos]**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo. Admite **segmentación basada en archivos** en campañas orquestadas cuando la lista de destinatarios proviene de un sistema externo (por ejemplo, una exportación de CRM o un archivo de socio) y desea ejecutar una campaña sin crear primero una canalización de ingesta de Adobe Experience Platform completa.
 
+Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene la audiencia limpia sin preprocesamiento manual.
+
 >[!AVAILABILITY]
 >
->La actividad **Cargar archivo** está disponible en **Disponibilidad limitada** para un conjunto de organizaciones. Para solicitar acceso, póngase en contacto con su representante de Adobe. Para ver las fases de disponibilidad, consulte [Ciclo de la versión de Journey Optimizer](../../rn/releases.md).
->
->Actualmente, la actividad no está disponible para usarla con **Healthcare Shield**.
+>La actividad **Cargar archivo** no está disponible actualmente para su uso con **Healthcare Shield**.
 
 ## Permisos {#permissions}
 

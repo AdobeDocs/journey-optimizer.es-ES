@@ -6,20 +6,13 @@ description: Obtenga información acerca de las limitaciones y protecciones de c
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -50,7 +43,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Atributos por esquema**: el número promedio de atributos por esquema no debe exceder las 50 columnas para mantener la capacidad de administración y el rendimiento.
 
-* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Habilitación de perfiles**: no se pueden habilitar esquemas relacionales para perfiles de Adobe Experience Platform. Solo se admiten esquemas XDM estándar para perfiles de Adobe Experience Platform. Los esquemas relacionales se pueden habilitar para campañas organizadas o campañas de acción. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Ingesta de datos {#data-ingestion}
 
@@ -88,13 +81,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Claves principales compuestas**: la compatibilidad con claves principales compuestas con flujos de carga de archivos no está disponible en este momento.
 
-## Limitaciones de actividades {#activities-limitations}
-
-* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite. Las actividades de segmentación y control de flujo no cuentan (por ejemplo, Generar audiencia, Esperar, Dividir, Enriquecimiento, Reconciliación, Bifurcación, Fin o Prueba).
-
-  Si se supera el límite al guardar o publicar, se produce un error en la operación. Para permanecer dentro del límite, reduzca el número de actividades de canal o la entrega de mensajes divididos en varias campañas orquestadas.
-
-* **Límite de actividades de lienzo**: el número de actividades en un lienzo de campaña orquestado está limitado a 500. Este límite se aplica a todos los tipos de actividades en el lienzo. Es independiente del límite de actividades de canal que se aplica en la publicación. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
+## Públicos
 
 * **Solo atributos escalares**: en las definiciones de audiencia solo se admiten atributos escalares; no se permiten asignaciones y matrices.
 
@@ -108,9 +95,19 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Optimización de audiencias**: se recomienda usar la optimización cuando se trabaja con definiciones de audiencia grandes o complejas para garantizar el rendimiento.
 
-* **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
+* **Audiencias guardadas**
+
+   * **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
 
 * **No se anexó a la audiencia guardada**. No se admite anexar a una actividad de audiencia guardada. Cualquier modificación requiere una sobrescritura completa de la audiencia.
+
+## Limitaciones de actividades {#activities-limitations}
+
+* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite. Las actividades de segmentación, administración de datos y control de flujo no cuentan (por ejemplo, Generar audiencia, Cargar archivo, Esperar, Dividir, Enriquecimiento, Reconciliación, Bifurcar, Finalizar o Probar).
+
+  Si se supera el límite al guardar o publicar, se produce un error en la operación. Para permanecer dentro del límite, reduzca el número de actividades de canal o la entrega de mensajes divididos en varias campañas orquestadas.
+
+* **Límite de actividades de lienzo**: el número de actividades en un lienzo de campaña orquestado está limitado a 500. Este límite se aplica a todos los tipos de actividades en el lienzo. Es independiente del límite de actividades de canal que se aplica en la publicación. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
 
 ## Limitaciones de canal
 
