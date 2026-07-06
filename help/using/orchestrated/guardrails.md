@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -88,13 +88,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Claves principales compuestas**: la compatibilidad con claves principales compuestas con flujos de carga de archivos no está disponible en este momento.
 
-## Limitaciones de actividades {#activities-limitations}
-
-* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite. Las actividades de segmentación y control de flujo no cuentan (por ejemplo, Generar audiencia, Esperar, Dividir, Enriquecimiento, Reconciliación, Bifurcación, Fin o Prueba).
-
-  Si se supera el límite al guardar o publicar, se produce un error en la operación. Para permanecer dentro del límite, reduzca el número de actividades de canal o la entrega de mensajes divididos en varias campañas orquestadas.
-
-* **Límite de actividades de lienzo**: el número de actividades en un lienzo de campaña orquestado está limitado a 500. Este límite se aplica a todos los tipos de actividades en el lienzo. Es independiente del límite de actividades de canal que se aplica en la publicación. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
+## Públicos
 
 * **Solo atributos escalares**: en las definiciones de audiencia solo se admiten atributos escalares; no se permiten asignaciones y matrices.
 
@@ -108,9 +102,19 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Optimización de audiencias**: se recomienda usar la optimización cuando se trabaja con definiciones de audiencia grandes o complejas para garantizar el rendimiento.
 
-* **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
+* **Audiencias guardadas**
+
+   * **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
 
 * **No se anexó a la audiencia guardada**. No se admite anexar a una actividad de audiencia guardada. Cualquier modificación requiere una sobrescritura completa de la audiencia.
+
+## Limitaciones de actividades {#activities-limitations}
+
+* **Límite de actividades de canal**: una campaña organizada admite un máximo de 10 actividades de canal (correo electrónico, SMS, push o correo directo). Solo las actividades de canal cuentan para este límite. Las actividades de segmentación, administración de datos y control de flujo no cuentan (por ejemplo, Generar audiencia, Cargar archivo, Esperar, Dividir, Enriquecimiento, Reconciliación, Bifurcar, Finalizar o Probar).
+
+  Si se supera el límite al guardar o publicar, se produce un error en la operación. Para permanecer dentro del límite, reduzca el número de actividades de canal o la entrega de mensajes divididos en varias campañas orquestadas.
+
+* **Límite de actividades de lienzo**: el número de actividades en un lienzo de campaña orquestado está limitado a 500. Este límite se aplica a todos los tipos de actividades en el lienzo. Es independiente del límite de actividades de canal que se aplica en la publicación. Para mantener la capacidad y el rendimiento, mantenga los flujos de trabajo por debajo de 100 actividades en la práctica.
 
 ## Limitaciones de canal
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 3602
+source-wordcount: 3586
 ht-degree: 84%
 
 ---
@@ -47,6 +47,25 @@ ht-degree: 84%
 >[!NOTE]
 >
 >Las funcionalidades que se enumeran en estas notas de la versión incluyen una **Fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
+
+## Actualizaciones de julio de 2026 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direccionamiento basado en archivos en campañas organizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las campañas orquestadas ahora admiten la carga de un <strong>archivo CSV o TXT</strong> directamente en el lienzo de campaña como audiencia de segmentación, sin ingerir primero el archivo en Adobe Experience Platform. Los datos del archivo se consumen en el momento de la ejecución y no persisten como un conjunto de datos de Adobe Experience Platform. Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene la audiencia limpia sin preprocesamiento manual. Esto es especialmente adecuado para envíos específicos o campañas de listas de socios en las que no es práctico crear una canalización de ingesta completa.</p>
+<p>Para obtener más información, consulte la <a href="../orchestrated/activities/load-file.md">documentación detallada</a>.</p>
+<p> Fecha de disponibilidad: 6 de julio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de la versión de junio de 2026 {#june-26-rn}
 
@@ -171,27 +190,6 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 * **Personalización basada en bucles para datos relacionales**: el editor de personalización ahora admite un bloque de Bucle que se repite en colecciones relacionales, como pedidos, cuentas o reservas, y procesa un bloque de contenido por registro en un solo correo electrónico o SMS. Las colecciones se configuran mediante el selector de datos utilizando tokens de personalización, sin necesidad de escribir expresiones. [Más información](../orchestrated/add-personalization.md#enrichment-collections)
 
   Fecha de disponibilidad: 26 de junio de 2026
-
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Direccionamiento basado en archivos en campañas organizadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Las campañas orquestadas ahora admiten la carga de un <strong>archivo CSV o TXT</strong> directamente en el lienzo de campaña como audiencia de segmentación, sin ingerir primero el archivo en Adobe Experience Platform. Los datos del archivo se consumen en el momento de la ejecución y no persisten como un conjunto de datos de Adobe Experience Platform. Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene la audiencia limpia sin preprocesamiento manual. Esto es especialmente adecuado para envíos específicos o campañas de listas de socios en las que no es práctico crear una canalización de ingesta completa.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-<p> Fecha de disponibilidad: 30 de junio de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Toma de decisiones {#june-26-decisioning}
 
@@ -391,7 +389,7 @@ En esta versión se han añadido las siguientes mejoras al canal de correo elect
 <table>
 <thead>
 <tr>
-<th><strong>Comprobación de contenido en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Comprobación de contenido en el diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
