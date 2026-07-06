@@ -26,9 +26,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4a7f98ce24af02658620485840d11190c0954c09
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: 1158
 ht-degree: 4%
 
 ---
@@ -41,13 +41,36 @@ ht-degree: 4%
 
 ## Introducción y requisitos previos {#edge-overview-and-prerequisites}
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es#video-overview) es una biblioteca JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios de Experience Cloud a través de Experience Platform Edge Network.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es#video-overview) es una biblioteca de JavaScript del lado del cliente que permite a los clientes de Adobe Experience Cloud interactuar con los distintos servicios de Experience Cloud a través de Experience Platform Edge Network.
 
 Experience Platform Web SDK admite la consulta de las soluciones de personalización en Adobe, incluida la Gestión de decisiones, lo que le permite recuperar y procesar ofertas personalizadas creadas mediante API o la Biblioteca de ofertas. Para obtener instrucciones más detalladas, consulte la documentación sobre [creación de una oferta](../../get-started/starting-offer-decisioning.md).
 
 Existen dos maneras de implementar la administración de decisiones con [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es#video-overview). Una forma está dirigida a los desarrolladores y requiere conocimientos de sitios web y programación. La otra forma es utilizar la interfaz de usuario de Adobe Experience Platform para configurar ofertas, lo que solo requiere que se haga referencia a un pequeño script en el encabezado de la página de HTML.
 
 Consulte la documentación de Adobe Experience Platform sobre [administración de decisiones](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es#enabling-offer-decisioning) para obtener más información sobre cómo entregar ofertas personalizadas mediante Adobe Experience Platform Web SDK.
+
+### Ámbitos de decisión {#decision-scopes}
+
+Un ámbito de decisión es la cadena codificada en Base64 de un objeto JSON que contiene la actividad y los ID de ubicación que desea que el servicio de Offer Decisioning utilice para proponer ofertas.
+
+*Ámbito de decisión JSON:*
+
+```json
+{
+  "activityId":"xcore:offer-activity:11cfb1fa93381aca",
+  "placementId":"xcore:offer-placement:1175009612b0100c"
+}
+```
+
+*Cadena codificada en Base64 del ámbito de decisión:*
+
+```json
+"eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ=="
+```
+
+>[!TIP]
+>
+>Puede copiar el valor del ámbito de decisión desde la página **Información general de actividad** en la interfaz de usuario.
 
 ## SDK web de Adobe Experience Platform {#aep-web-sdk}
 
@@ -64,7 +87,7 @@ SDK no combinó estas bibliotecas y es una nueva implementación desde cero. Par
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [Configure su secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=es) en la ficha Recopilación de datos de su cuenta en Adobe Experience Cloud.
+1. [Configure su secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=es) en la pestaña Recopilación de datos de su cuenta en Adobe Experience Cloud.
 
 1. Instale SDK. Existen varios métodos para hacerlo, que se explican en [Instalar la página de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es). Esta página continuará con cada método de implementación diferente.
 
@@ -277,6 +300,99 @@ let offerImageURL = offer['image'];
 
 document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
+```
+
+### Varios valores de decisionScopes {#multiple-decision-scopes}
+
+También puede enviar varios ámbitos de decisión en una sola llamada a `sendEvent`. En este ejemplo, la respuesta devuelve una propuesta para cada ámbito solicitado.
+
+**Ejemplo**:
+
+```javascript
+alloy("sendEvent", {
+    "decisionScopes":
+    [
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTIyMjA4YjNhODc0MDU1OCIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjEyMjIwNDUyOTUxNGEyYzAifQ=="
+    ]
+});
+```
+
+La respuesta contiene una entrada de carga útil por ámbito resuelto:
+
+```json
+{
+    "requestId": "94c4f2f1-9218-43ce-afd3-eb0d853c5174",
+    "handle": [
+        {
+            "payload": [
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MTEyMyIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDExMjMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381123",
+                        "etag": "1"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b01123",
+                        "etag": "3"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a22954123",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-text",
+                            "etag": "2",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a22954123",
+                                "format": "text/text",
+                                "language": [
+                                    "en"
+                                ],
+                                "content": "20% Off on shipping",
+                                "characteristics": {
+                                    "foo2": "bar2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381aca",
+                        "etag": "2"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b0100c",
+                        "etag": "1"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a2295415d",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                            "etag": "1",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a2295415d",
+                                "format": "image/png",
+                                "language": [
+                                    "en"
+                                ],
+                                "deliveryURL": "https://image.jpeg",
+                                "characteristics": {
+                                    "foo": "bar",
+                                    "foo1": "bar1"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "type": "personalization:decisions",
+            "eventIndex": 0
+        }
+    ]
+}
 ```
 
 <!--
