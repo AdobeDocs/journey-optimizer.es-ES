@@ -5,9 +5,9 @@ user-guide-title: Guía de Journey Optimizer
 user-guide-description: Utilice Journey Optimizer para crear y ofrecer experiencias conectadas, contextuales y personalizadas a sus clientes
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3421'
 ht-degree: 97%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 97%
    + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
    + {hide-from-toc}[Lienzo del recorrido mejorado](using/rn/new-canvas.md)
    + {hide-from-toc}[Migrar audiencias por lotes desde la calificación de audiencias](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[Guía de CNIL sobre píxeles de seguimiento de correo electrónico](using/privacy/cnil-pixel-tracking.md)
 + Introducción {#get-started}
    + [Empiece aquí](/help/rp_landing_pages/get-started-landing-page.md)
    + [Centro de incorporación](using/start/onboarding-hub.md)
