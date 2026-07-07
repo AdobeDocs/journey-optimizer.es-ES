@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, seguimiento, píxel, correo electrónico, consentimiento, exclusión, privacidad
-source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
+source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -24,9 +24,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
->[!NOTE]
->
->Esta página es solo con fines informativos. No es asesoramiento legal y no garantiza el cumplimiento de la ley aplicable. Las funcionalidades del producto de Adobe Journey Optimizer que se describen a continuación son componentes básicos que, configurados y operados correctamente, pueden admitir una implementación compatible. Cada cliente es responsable de determinar y cumplir con sus obligaciones según la ley aplicable.
+Esta página es solo con fines informativos. No es asesoramiento legal y no garantiza el cumplimiento de la ley aplicable. Las funcionalidades del producto de Adobe Journey Optimizer que se describen a continuación son componentes básicos que, configurados y operados correctamente, pueden admitir una implementación compatible. Cada cliente es responsable de determinar y cumplir con sus obligaciones según la ley aplicable.
 
 ## Información general {#overview}
 
@@ -38,11 +36,11 @@ A medida que la CNIL y otros reguladores aclaren las directrices sobre el seguim
 
 Adobe Journey Optimizer proporciona controles que pueden ayudar a los clientes a administrar el seguimiento abierto en el nivel de entrega. Los clientes son responsables de determinar sus propias obligaciones de cumplimiento según las directrices de CNIL aplicables y otras leyes, pero estas capacidades pueden apoyar los esfuerzos de cumplimiento de los clientes.
 
-## Qué es un píxel de seguimiento de correo electrónico {#tracking-pixel}
+### Qué es un píxel de seguimiento de correo electrónico {#tracking-pixel}
 
 Un píxel de seguimiento de correo electrónico es una imagen transparente 1x1 incrustada en el HTML de un correo electrónico. Cuando el cliente de correo electrónico del destinatario carga esa imagen, el píxel hace ping a un servidor que registra datos como una marca de tiempo, un tipo de dispositivo, un cliente de correo electrónico y, a veces, una dirección IP para obtener una ubicación aproximada. A continuación, ese registro se vincula al registro de un destinatario, lo que permite a los especialistas en marketing ver si se abre un correo electrónico.
 
-## Atención al cliente {#support}
+### Atención al cliente {#support}
 
 Los clientes que busquen ayuda para implementar los cambios descritos anteriormente pueden interactuar con el ecosistema de Adobe existente. Para preguntas técnicas sobre las funcionalidades de Adobe a las que se hace referencia, póngase en contacto con el administrador de éxito del cliente o con el administrador técnico de cuentas.
 
