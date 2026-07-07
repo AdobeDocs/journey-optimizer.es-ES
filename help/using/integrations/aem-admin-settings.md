@@ -8,10 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
 source-wordcount: 709
@@ -145,4 +143,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
