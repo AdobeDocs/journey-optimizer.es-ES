@@ -11,14 +11,14 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 5%
 
 ---
 
-# Uso de modelos de IA para clasificar recorridos {#journey-ai-models}
+# Utilizar modelos de IA para clasificar recorridos {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +29,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >Actualmente, esta función se encuentra en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>
+>Los modelos de IA solo están disponibles para las organizaciones que han adquirido la oferta de complementos de **Decisioning**.
 
 [!DNL Adobe Journey Optimizer] le ayuda a controlar qué recorridos puede introducir un perfil cuando cumplen los requisitos para obtener más de lo que permite el sistema. Para ello, puede usar [conjuntos de reglas](rule-sets.md) para definir límites en la entrada de recorrido o la concurrencia. Cuando un perfil es elegible para recibir más recorridos de los que permite el límite, la prioridad asignada a cada recorrido determina qué recorridos se seleccionan.
 
