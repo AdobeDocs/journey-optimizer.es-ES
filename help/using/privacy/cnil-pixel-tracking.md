@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, seguimiento, píxel, correo electrónico, consentimiento, exclusión, privacidad
-source-git-commit: 24d6a17d57ede317d3f04add2fd01bd3ff0ab9af
+source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1466'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 El 14 de abril de 2026, la *Comisión Nacional de Informática y Libertades* (CNIL), la autoridad de protección de datos de Francia, publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guía aclara cuándo se requiere el consentimiento y resalta la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles del correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a suscriptores con sede en Francia.
 
-CNIL proporcionó a las empresas un periodo de tres meses a partir de la fecha de la recomendación para informar a sus destinatarios de correo electrónico (&quot;usuarios&quot;) de la presencia de los píxeles de seguimiento, su propósito y el derecho de los usuarios a la exclusión. Durante este período de transición, se espera que los clientes notifiquen a los usuarios el seguimiento de píxeles y proporcionen una exclusión si es necesario. Se espera que CNIL inicie sus actividades de aplicación después del 14 de julio de 2026.
+CNIL proporcionó a las empresas un periodo de tres meses a partir de la fecha de la recomendación para informar a sus destinatarios de correo electrónico (&quot;usuarios&quot;) de la presencia de los píxeles de seguimiento, su propósito y el derecho de los usuarios a la exclusión. Durante este período de transición, se espera que los clientes notifiquen a los usuarios el seguimiento de píxeles y proporcionen una exclusión si es necesario. Se espera que **CNIL comience las actividades de aplicación después del 14 de julio de 2026.**
 
 A medida que la CNIL y otros reguladores aclaren las directrices sobre el seguimiento de píxeles y problemas relacionados, Adobe seguirá supervisando las actualizaciones e informando a los clientes de las funciones técnicas de los productos de Adobe que admiten el marketing por correo electrónico, incluido Adobe Journey Optimizer.
 
@@ -57,7 +57,7 @@ En Adobe Journey Optimizer, cada configuración de canal de correo electrónico 
 * **Correos electrónicos de marketing**: se han enviado comunicaciones promocionales a los suscriptores de inclusión. Se requiere el consentimiento del usuario. Estos correos electrónicos respetan automáticamente las preferencias de supresión y exclusión.
 * **Correos electrónicos de transacción**: comunicaciones no comerciales (por ejemplo, confirmaciones de pedidos, restablecimientos de contraseñas). Pueden enviarse a perfiles que hayan cancelado la suscripción a comunicaciones de marketing, según la legislación aplicable.
 
-El tipo de correo electrónico se establece en el nivel de configuración de canal. Al crear un correo electrónico en un recorrido o campaña, los autores deben seleccionar una configuración de canal cuyo tipo de correo electrónico coincida con la naturaleza de la comunicación. Esta clasificación indica qué comprobaciones de consentimiento se aplican antes de la entrega.
+El tipo de correo electrónico se establece en el nivel [configuración de canal](../email/email-settings.md#email-type). Al crear un correo electrónico en un recorrido o campaña, los autores deben seleccionar una configuración de canal cuyo tipo de correo electrónico coincida con la naturaleza de la comunicación. Esta clasificación indica qué comprobaciones de consentimiento se aplican antes de la entrega.
 
 ### Abrir controles de seguimiento {#open-tracking}
 
@@ -77,7 +77,7 @@ Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel fr
 
 ### Administración de seguimiento a nivel de vínculo {#link-tracking}
 
-Más allá de la opción de seguimiento de apertura por mensaje, Email Designer de Adobe Journey Optimizer proporciona un control granular sobre las direcciones URL que se rastrean. Con el panel Vínculos de la Designer de correo electrónico, los autores pueden ver todas las direcciones URL rastreadas en un mensaje y establecer el modo de seguimiento de cada vínculo individualmente.
+Más allá de la opción de seguimiento de apertura por mensaje, Email Designer de Adobe Journey Optimizer proporciona un control granular sobre las direcciones URL que se rastrean. Con el panel **[!UICONTROL Links]** del Designer de correo electrónico, los autores pueden ver todas las direcciones URL rastreadas en un mensaje y establecer el modo de seguimiento para cada vínculo de forma individual.
 
 Los modos de seguimiento disponibles para cada vínculo incluyen:
 
@@ -88,9 +88,11 @@ Los modos de seguimiento disponibles para cada vínculo incluyen:
 
 Establecer vínculos específicos en **Nunca** puede ayudar a garantizar que no se realice el seguimiento de ciertas direcciones URL aunque el seguimiento en el nivel de mensaje esté habilitado.
 
+[Obtenga información sobre cómo administrar el seguimiento en Email Designer](../email/message-tracking.md#manage-tracking)
+
 ### Captura y administración del consentimiento {#consent-management}
 
-Adobe Journey Optimizer gestiona el consentimiento a través del esquema de preferencias y consentimiento de Adobe Experience Platform (AEP). Las preferencias de consentimiento se almacenan en el nivel de perfil y se aplican automáticamente durante el recorrido y la ejecución de la campaña.
+Adobe Journey Optimizer administra el consentimiento a través del [esquema de preferencias y consentimiento](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es){target="_blank"} de Adobe Experience Platform (AEP). Las preferencias de consentimiento se almacenan en el nivel de perfil y se aplican automáticamente durante el recorrido y la ejecución de la campaña.
 
 Los atributos de consentimiento clave relevantes para el seguimiento de correo electrónico incluyen:
 
@@ -104,6 +106,8 @@ Adobe Journey Optimizer ofrece varios mecanismos para que los suscriptores se ex
 
 Cuando la opción **[!UICONTROL Habilitar cancelación de suscripción a una lista]** está activada en la configuración del canal de correo electrónico, se agrega automáticamente al encabezado del correo electrónico una dirección URL de cancelación de suscripción de un solo clic y una dirección mailto. Los destinatarios pueden excluirse directamente de su cliente de correo electrónico sin hacer clic en el cuerpo del correo electrónico. Esta opción está habilitada de forma predeterminada para las nuevas configuraciones de canal.
 
+[Obtenga información sobre cómo configurar la cancelación de suscripción a una lista](../email/list-unsubscribe.md)
+
 **Exclusión con un clic (cuerpo del correo electrónico)**
 
 Los autores pueden insertar un vínculo de no participación de un solo clic directamente en el contenido del correo electrónico mediante el Designer de correo electrónico. Cuando un destinatario hace clic en este vínculo, su preferencia se actualiza inmediatamente. La exclusión se puede definir en cualquiera de las siguientes ubicaciones:
@@ -111,11 +115,15 @@ Los autores pueden insertar un vínculo de no participación de un solo clic dir
 * **Nivel de canal**: Excluye el perfil de todas las comunicaciones por correo electrónico futuras entre canales.
 * **Nivel de identidad**: excluye la dirección de correo electrónico específica utilizada solo en el mensaje actual.
 
-**Centro de preferencias a través de páginas de aterrizaje de AJO**
+[Obtenga información sobre cómo añadir un vínculo de no participación de un clic](../email/email-opt-out.md#one-click-opt-out)
+
+**Centro de preferencias mediante páginas de aterrizaje**
 
 La funcionalidad de página de aterrizaje nativa de Adobe Journey Optimizer permite a las organizaciones crear centros de preferencias en los que los suscriptores pueden administrar sus preferencias de comunicación y seguimiento. Cuando un suscriptor envía un formulario de centro de preferencias, sus opciones se escriben de nuevo en sus atributos de perfil de AEP en el grupo de campos Consentimiento y Preferencias.
 
 En los casos de cumplimiento de la CNIL, se puede vincular una página de aterrizaje del centro de preferencias desde el pie del correo electrónico (distinto del vínculo de cancelación de suscripción) para que los destinatarios puedan administrar sus preferencias de seguimiento independientemente de su estado de suscripción.
+
+[Aprenda a administrar las preferencias de sus clientes](../action/preference-center.md)
 
 ### Procesamiento y aplicación del consentimiento {#consent-enforcement}
 
@@ -125,6 +133,8 @@ Cuando un destinatario se excluye a través de cualquiera de los mecanismos ante
 * El perfil se excluye inmediatamente de futuros envíos de correo electrónico de marketing en recorridos y campañas.
 * La información de exclusión se almacena en el conjunto de datos del servicio de consentimiento de AEP.
 * Journey Optimizer realiza una comprobación de consentimiento en el nivel de canal antes de cada envío, lo que garantiza que los perfiles de exclusión no reciban comunicaciones de marketing.
+
+[Más información acerca de la administración de la exclusión](opt-out.md)
 
 ### Políticas de consentimiento {#consent-policies}
 
@@ -138,6 +148,8 @@ Adobe Journey Optimizer administra automáticamente una lista de supresión que 
 
 La API de REST de supresión de Journey Optimizer proporciona control programático adicional sobre los mensajes salientes, lo que permite a las organizaciones administrar el comportamiento de supresión y lista de permitidos mediante API.
 
+[Obtenga información sobre cómo administrar la lista de supresión](../configuration/manage-suppression-list.md)
+
 <!--
 EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
 AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
@@ -145,19 +157,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### Creación de informes {#reporting}
 
-Los informes de correo electrónico de Adobe Journey Optimizer proporcionan métricas de aperturas y clics a través de informes en directo e informes de Customer Journey Analytics. Cuando el seguimiento de **[!UICONTROL Aperturas del correo electrónico]** está deshabilitado para un mensaje, los datos abiertos no se recopilan para ese envío; los informes reflejarán únicamente los clics y otras señales de participación.
+Los informes de correo electrónico de Adobe Journey Optimizer proporcionan métricas de aperturas y clics a través de [informes en vivo](../reports/live-report.md) y [informes de Customer Journey Analytics](../reports/report-gs-cja.md). Cuando el seguimiento de **[!UICONTROL Aperturas del correo electrónico]** está deshabilitado para un mensaje, los datos abiertos no se recopilan para ese envío; los informes reflejarán únicamente los clics y otras señales de participación.
 
-## Referencias de documentación {#references}
-
-Para obtener más información sobre el seguimiento de correo electrónico y la administración de consentimientos en Adobe Journey Optimizer, consulte la siguiente documentación.
-
-| Tema | Referencia de documentación |
-|-------|------------------------|
-| Habilitar y deshabilitar el seguimiento de aperturas | [Seguimiento de mensajes](../email/message-tracking.md) |
-| Administración de exclusión de correo electrónico | [Administración de exclusión de correo electrónico](../email/email-opt-out.md) |
-| Cancelación de suscripción a una lista (encabezado de correo electrónico) | [Configurar cancelación de suscripción a lista](../email/list-unsubscribe.md) |
-| Páginas de aterrizaje del centro de preferencias | [Casos de uso de la página de destino](../landing-pages/lp-use-cases.md) |
-| Administración de consentimiento y exclusión | [Administrar exclusión](opt-out.md) |
-| Políticas de consentimiento | [Trabajar con directivas de consentimiento](../action/consent.md) |
-| Configuración de canal de correo electrónico | [Configurar opciones de correo electrónico](../email/email-settings.md) |
-| Lista de supresión | [Administrar la lista de supresión](../configuration/manage-suppression-list.md) |
