@@ -7,13 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1174
 ht-degree: 3%
 
 ---
@@ -29,6 +27,8 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >Actualmente, esta función se encuentra en disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
+>
+>Las fórmulas de clasificación solo están disponibles para las organizaciones que han adquirido la oferta del complemento **Decisioning**.
 
 [!DNL Adobe Journey Optimizer] le ayuda a controlar qué recorridos puede introducir un perfil cuando cumplen los requisitos para obtener más de lo que permite el sistema. Para ello, puede usar [conjuntos de reglas](rule-sets.md) para definir límites en la entrada de recorrido o la concurrencia. Cuando un perfil es elegible para recibir más recorridos de los que permite el límite, la prioridad asignada a cada recorrido determina qué recorridos se seleccionan.
 
@@ -61,7 +61,7 @@ Para crear una fórmula de clasificación para sus recorridos, siga los pasos a 
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. Si lo desea, haga clic en **[!UICONTROL Seleccionar modelo de IA]** para establecer el modelo que se utilizará como referencia para generar la fórmula de clasificación. [Más información](journey-ai-models.md)
 
