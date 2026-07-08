@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
+source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 20%
+source-wordcount: 1447
+ht-degree: 19%
 
 ---
 
@@ -135,6 +135,8 @@ Una vez que tus credenciales de la API de WhatsApp se hayan creado correctamente
 >Los mensajes de WhatsApp entrantes se capturan en el conjunto de datos del sistema _AJO Email Tracking Dataset_. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que los mensajes entrantes se capturen en este conjunto de datos. [Más información](../data/get-started-datasets.md#system-datasets)
 
 Los webhooks actúan como el puente de comunicación entre WhatsApp Business Platform y Adobe Journey Optimizer de Meta, lo que le permite recibir notificaciones en tiempo real sobre eventos de mensajes e interacciones de usuarios.
+
+Tenga en cuenta que Meta solo permite un webhook, una URL de llamada de retorno y un token de verificación, por cuenta comercial de WhatsApp, incluso en varias zonas protegidas o credenciales de WhatsApp. **Los eventos de comentarios** (Enviados, Entregados, Leídos, Errores, Clics en botones) se siguen capturando correctamente en cada zona protegida. **Los eventos entrantes** (respuestas, palabras clave de inclusión/exclusión/ayuda) solo se reciben en la única zona protegida en la que está registrado el gancho web. Regístrela en la **zona protegida de producción** para recibir eventos entrantes allí.
 
 1. En el carril izquierdo, vaya a **[!UICONTROL Administración]** `>` **[!UICONTROL Canales]**, seleccione el menú **[!UICONTROL Webhooks de WhatsApp]** en **[!UICONTROL Configuración de WhatsApp]** y haga clic en el botón **[!UICONTROL Crear webhook]**.
 
