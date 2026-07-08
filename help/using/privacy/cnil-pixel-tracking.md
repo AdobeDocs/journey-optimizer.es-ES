@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, seguimiento, píxel, correo electrónico, consentimiento, exclusión, privacidad
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,10 @@ Adobe Journey Optimizer permite a los especialistas en marketing controlar el se
 * **[!UICONTROL Aperturas del correo electrónico]**: controla si el píxel de seguimiento abierto se incluye en el correo electrónico. Esta opción está habilitada de manera predeterminada.
 * **[!UICONTROL Hacer clic en el correo electrónico]**: controla si se realiza un seguimiento de los clics en los vínculos. Esta opción también está habilitada de forma predeterminada.
 
-Para deshabilitar el seguimiento de aperturas para un correo electrónico específico, anule la selección de la opción **[!UICONTROL Aperturas de correos electrónicos]** al crear el mensaje. Cuando está desactivada, la opción evita que se recopilen los datos de seguimiento abiertos para esa entrega. Para las organizaciones que envían a suscriptores franceses, revise la configuración de seguimiento abierta para todos los recorridos y campañas activos antes de la fecha de aplicación.
+Para deshabilitar el seguimiento de aperturas para un correo electrónico específico, anule la selección de la opción **[!UICONTROL Aperturas de correos electrónicos]** al crear el mensaje. Cuando está desactivada, la opción evita que se recopilen los datos de seguimiento abiertos para esa entrega. Para las organizaciones dentro del ámbito, revise la configuración de seguimiento abierto para todos los recorridos y campañas activos antes de la fecha de aplicación.
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [Obtenga información sobre cómo rastrear mensajes](../email/message-tracking.md)
@@ -149,8 +148,7 @@ La API de REST de supresión de Journey Optimizer proporciona control programát
 [Obtenga información sobre cómo administrar la lista de supresión](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### Creación de informes {#reporting}
