@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
 workflow-type: tm+mt
-source-wordcount: 9187
+source-wordcount: 9227
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* Las páginas del **modelo de optimización personalizado** se han actualizado para reflejar las mejoras del modelo más recientes, que abarcan el funcionamiento del modelo ensamblado, los requisitos de conjuntos de datos, los casos de uso, las suposiciones clave y el comportamiento del inicio en frío. Obtenga más información en las secciones [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) y [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
 * Se ha agregado una nota a la página **fórmulas de clasificación de mediación de Recorrido** para especificar que las fórmulas de clasificación solo están disponibles para las organizaciones que han adquirido la oferta del complemento **Decisioning**. [Más información](../conflict-prioritization/journey-ranking-formulas.md)
 
