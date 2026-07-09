@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2325
-ht-degree: 70%
+source-wordcount: 2334
+ht-degree: 68%
 
 ---
 
@@ -207,7 +207,7 @@ Utilice el diseñador de recorridos para crear el flujo:
 Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo experimenten:
 
 * Use **modo de prueba** para simular el recorrido con perfiles de prueba
-* Utilice la **ejecución en seco** para obtener una vista previa de la ejecución del recorrido sin afectar a los datos reales ni enviar mensajes
+* Use **ejecución en seco** para ejecutar el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar perfiles
 * Compruebe que todas las condiciones, mensajes y acciones funcionan según lo esperado
 * Compruebe la sincronización, los flujos de datos y la personalización
 
@@ -345,7 +345,7 @@ Gestione públicos globales con ajustes automáticos de zona horaria y tiempos d
 
 **Modo de prueba y ensayo**
 
-Valide los recorridos con perfiles de prueba antes de activarlos y previsualice la ejecución sin afectar a los datos reales.
+Valide los recorridos con perfiles de prueba antes de activarlos y previsualice la ejecución mediante datos de producción reales sin enviar comunicaciones ni actualizar perfiles.
 
 [Utilice el ensayo](journey-dry-run.md)
 :::
