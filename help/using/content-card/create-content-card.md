@@ -6,15 +6,12 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 1785
-ht-degree: 16%
+source-wordcount: 1794
+ht-degree: 15%
 
 ---
 
@@ -40,6 +37,8 @@ En esta página se explica cómo crear una tarjeta de contenido y definir su con
 >[!IMPORTANT]
 >
 >De forma predeterminada, el botón Cerrar oculta la tarjeta. Para añadir más funciones, puede definir manualmente reglas de despido o descalificación.
+>
+>Las reglas de descalificación requieren Web SDK versión 2.28.0 o posterior.
 
 >[!BEGINTABS]
 
