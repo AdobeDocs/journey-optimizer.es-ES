@@ -9,11 +9,10 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 7ced44f92f816d83d9a9ad667b4322dcb5930741
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: 1552
 ht-degree: 1%
 
 ---
@@ -61,6 +60,8 @@ El servidor MCP de [!DNL Adobe Journey Optimizer] le permite inspeccionar, resum
 * **Detectar problemas al principio**: la superficie detuvo campañas, borradores huérfanos y problemas de configuración de canal en el momento en que preguntas para que tu equipo pueda actuar con rapidez.
 * **Colabore en torno a datos activos**: los especialistas en marketing, los administradores de campañas y los interesados pueden consultar los mismos datos de [!DNL Adobe Journey Optimizer] activos a través de su asistente de IA, lo que facilita la alineación, la decisión y la movilidad juntas.
 * **Auditar el portafolio de orquestación**: revise el estado completo de las campañas sin analizar JSON ni saltar entre las pantallas de producto.
+* **Verificar detalles de configuración del canal**: compruebe los dominios del remitente, la configuración de cancelación de suscripción y los grupos de IP antes de usar una configuración de canal en un recorrido o una campaña.
+* **Confirmar directivas de gobernanza**: vea qué acciones de marketing y directivas de gobernanza están asociadas a una configuración de canal.
 
 ## Herramientas disponibles {#mcp-tools}
 
@@ -72,7 +73,6 @@ El servidor MCP [!DNL Adobe Journey Optimizer] expone las siguientes herramienta
 |---|---|
 | **Enumerar campañas** | Examine sus [!DNL Adobe Journey Optimizer] campañas de marketing. Admite el filtrado por estado (BORRADOR, ACTIVO, DETENIDO, COMPLETADO). |
 | **Obtener campaña** | Obtenga información y configuración completas para una campaña específica por ID, incluida la segmentación de audiencia, programación, canal y configuración de contenido. |
-| **Enumerar configuraciones de canal** | Vea los ajustes preestablecidos de superficie y la configuración de marca de los canales de correo electrónico, SMS, push o WhatsApp. |
 
 **herramientas de Recorrido**
 
@@ -81,6 +81,16 @@ El servidor MCP [!DNL Adobe Journey Optimizer] expone las siguientes herramienta
 | **Obtener todos los Recorridos** | Examine todos los recorridos de su zona protegida [!DNL Adobe Journey Optimizer]. |
 | **Obtener Recorrido** | Obtenga detalles completos para un recorrido específico por ID, incluidas su ramificación, condiciones y acciones. |
 | **Visualice sus recorridos** | Procese los recorridos con herramientas interactivas para que pueda explorar su estructura y flujo visualmente. |
+
+**Herramientas de configuración de canal**
+
+| Herramienta | Descripción |
+|---|---|
+| **Enumerar configuraciones de canal** | Filtre las configuraciones de canal por nombre, estado (borrador, activo, archivado, desactivado) o tipo de canal en todos los canales de AJO: correo electrónico, mensaje móvil, notificaciones push, WhatsApp, correo directo, mensajería en la aplicación, web, experiencia basada en código, tarjetas de contenido, LINE, actividad en directo. |
+| **Obtener configuración de canal** | Recupere detalles completos de configuración para una configuración de canal específica, incluidas las direcciones de remitente/respuesta, subdominios, grupos de IP y configuración de cancelación de suscripción. |
+| **Enumerar recursos de configuración** | Lista de recursos de soporte a los que hacen referencia las configuraciones de canal, como credenciales push, subdominios de correo electrónico, grupos de IP, credenciales de SMS, credenciales de WhatsApp, enrutamiento de correo directo, configuración de canal de LINE y registro de actividades en directo. |
+| **Obtener recurso de configuración** | Recupere todos los detalles de un único recurso de configuración por tipo e ID. |
+| **Enumerar acciones de marketing** | Enumerar las acciones de marketing disponibles para la aplicación de políticas de gobernanza de datos. |
 
 >[!NOTE]
 >
@@ -98,8 +108,9 @@ Los siguientes ejemplos muestran cómo interactuar con el servidor MCP [!DNL Ado
 | **Audiencia y segmentación** | ¿A qué audiencia se dirige la campaña o el recorrido [ID]? / ¿Qué reglas de elegibilidad se establecen en la campaña o el recorrido [ID]? |
 | **Programación y horario** | ¿Cuándo está programado que se ejecute la campaña [ID]? / ¿Es la campaña [ID] un envío único o recurrente? |
 | **Resolución de problemas** | ¿Por qué no se está enviando la campaña [ID]? / Revise la configuración de la campaña [ID] para detectar cualquier problema. |
-| **Configuración de canal** | ¿Qué ajustes preestablecidos de canal hay disponibles en mi zona protegida? / Mostrarme todas mis configuraciones de canal de correo electrónico. |
+| **Configuración de canal** | ¿Qué ajustes preestablecidos de canal hay disponibles en mi zona protegida? / Mostrarme todas mis configuraciones de canal de correo electrónico. / ¿Tengo alguna configuración de WhatsApp configurada? / ¿Qué dirección de remitente y respuesta están configurados para mi configuración de correo electrónico de marketing? |
 | **Auditoría de canal** | ¿Qué configuraciones de canal faltan o están incompletas? / ¿Cuántas configuraciones de canal tengo en todos los canales? |
+| **Gobernanza** | ¿Qué acciones de marketing están disponibles en mi zona protegida? |
 
 ## Requisitos previos {#mcp-prerequisites}
 
@@ -136,7 +147,7 @@ El servidor MCP [!DNL Adobe Journey Optimizer] está disponible actualmente para
 
 +++¿A qué objetos de [!DNL Adobe Journey Optimizer] puedo acceder a través de MCP?
 
-Puede acceder a campañas, recorridos, ofertas e información de la zona protegida. Las operaciones son de solo lectura (recuperar API); las operaciones de escritura no son compatibles con la versión actual.
+Puede acceder a campañas, recorridos, ofertas, configuraciones de canal, recursos de configuración e información de la zona protegida. Las operaciones son de solo lectura (recuperar API); las operaciones de escritura no son compatibles con la versión actual.
 +++
 
 +++¿Necesito acceso de desarrollador para usar el servidor MCP [!DNL Adobe Journey Optimizer]?
