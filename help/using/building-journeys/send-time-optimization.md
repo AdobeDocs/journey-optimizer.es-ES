@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
-ht-degree: 4%
+source-wordcount: 2316
+ht-degree: 6%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Un botón de opción determina si se debe optimizar en las aperturas de correo electrónico o en las pulsaciones de correo electrónico. Los tiempos de envío utilizados por el sistema también se pueden incluir entre corchetes con un valor para la opción Send Within the next."
+>abstract="Un botón de opción determina si se debe optimizar en las aperturas de correo electrónico o en las pulsaciones de correo electrónico. Los tiempos de envío utilizados por el sistema también pueden delimitarse con un valor para la opción Enviar dentro de la próxima opción."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activación de la optimización del tiempo de envío"
->abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. Los tiempos de envío utilizados por el sistema también se pueden incluir entre corchetes con un valor para la opción Send Within the next."
+>abstract="Los mensajes push tienen por defecto la opción de apertura, ya que los clics no se aplican a la mensajería push. Los tiempos de envío utilizados por el sistema también pueden delimitarse con un valor para la opción Enviar dentro de la próxima opción."
 
 La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimizer], con tecnología de los servicios de IA de Recorrido de Adobe, elige la hora de envío óptima para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función de la apertura y el comportamiento de los clics históricos de sus clientes.
 
@@ -67,6 +67,8 @@ La optimización del tiempo de envío solo está disponible para los tipos de ac
 >* La característica Optimización del tiempo de envío está habilitada para [!DNL Adobe Journey Optimizer] clientes que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
 >
 >* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**.
+>
+>* La optimización del tiempo de envío se admite en las siguientes regiones de AEP Hub: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Estos son códigos de región de implementación de Adobe. Póngase en contacto con su representante de Adobe si no está seguro de la región que utiliza su organización.
 >
 
 ## Utilizar optimización del tiempo de envío{#use-send-time-optimization}
@@ -87,7 +89,7 @@ Antes de empezar, considere qué mensajes encajan bien antes de activarlos. La o
 
    Para obtener los mejores resultados, optimice la mayoría de los correos electrónicos para **Clics**. Elija **Aperturas** cuando el mensaje sea informativo y no esté pensado para dirigir una acción específica.
 
-1. Para los mensajes de correo electrónico y push, establezca **[!UICONTROL Enviar en las próximas]** horas con el número máximo de horas (1-168) que el sistema esperará antes de enviar el mensaje.
+1. Para los mensajes de correo electrónico y push, establezca **[!UICONTROL Enviar en el plazo de]** al número máximo de horas (2-100) que el sistema esperará antes de enviar el mensaje.
 
    Para obtener los mejores resultados, elija un valor entre 6 y 24 horas. Un valor menor reduce el número de tiempos de envío disponibles y puede limitar el beneficio de la optimización del tiempo de envío. Un valor mayor puede significar que el mensaje está obsoleto o es menos relevante en el momento en que se envía.
 
@@ -216,14 +218,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **IA de Recorrido**: los servicios de IA de Adobe permiten la optimización del tiempo de envío en Journey Optimizer *(específico del producto)*
 * **Tiempo de envío de exploración**: tiempo de envío seleccionado aleatoriamente (utilizado para el 5 % de los envíos) para probar diferentes tiempos y mejorar la precisión del modelo *(específico del producto)*
 * **Tiempo de envío optimizado**: tiempo de envío predicho por el modelo seleccionado para maximizar las tasas de clics o de aperturas (utilizadas para el 95 % de los envíos) *(específico del producto)*
-* **Enviar en el plazo de** siguientes: El número máximo de horas (1-168) que el sistema esperará antes de enviar el mensaje a un perfil determinado *(específico del producto)*
+* **Enviar en el plazo de** siguientes: La cantidad máxima de horas (2-100) que el sistema esperará antes de enviar el mensaje a un perfil determinado *(específico del producto)*
 
 **Protecciones:**
 * Adobe debe habilitar la optimización del tiempo de envío para la organización; póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activarla.
 * La optimización del tiempo de envío solo se aplica a los canales de notificaciones push y de correo electrónico dentro de los Recorridos; no está disponible para campañas o acciones personalizadas.
 * La organización debe haber utilizado acciones de correo electrónico o push en Journey Optimizer durante al menos 30 días antes de que la optimización del tiempo de envío produzca resultados significativos.
 * No utilice Optimización del tiempo de envío para mensajes operativos urgentes o urgentes (por ejemplo, confirmaciones de pedidos, restablecimientos de contraseñas o cambios en las puertas de vuelo).
-* El intervalo máximo de tiempo de espera es de 1 a 168 horas; el intervalo recomendado es de 6 a 24 horas para obtener los mejores resultados.
+* El intervalo máximo de tiempo de espera es de 2 a 100 horas; el intervalo recomendado es de 6 a 24 horas para obtener los mejores resultados.
 * Las puntuaciones de modelo se almacenan en atributos de perfil en `_experience.intelligentServices.journeyAI.sendTimeOptimization` y no son legibles en lenguaje natural.
 * Los modelos se entrenan semanalmente inicialmente, luego se vuelven a entrenar y se vuelven a calificar mensualmente después de 16 semanas.
 
