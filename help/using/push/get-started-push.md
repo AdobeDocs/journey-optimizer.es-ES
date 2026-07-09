@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -57,6 +49,8 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 >[!NOTE]
 >
 >Mientras **[!DNL Journey Optimizer]** proporciona formas de administrar la exclusión en correos electrónicos y mensajes SMS, las notificaciones push no requieren ninguna acción por su parte, ya que los destinatarios pueden cancelar la suscripción a través de sus propios dispositivos. Por ejemplo, al descargar o al usar la aplicación, pueden seleccionar detener las notificaciones. Del mismo modo, pueden cambiar la configuración de notificación a través del sistema operativo móvil o de los ajustes del navegador web. Para comprobar el estado de consentimiento push de un perfil en el visor de perfiles de AEP, consulte [Comprobar el estado de exclusión push](../privacy/opt-out.md#push-opt-out-status).
+
+</br>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -94,3 +88,26 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 <p>
 </td>
 </tr></table>
+
+## Casos de uso
+
+Las notificaciones push funcionan mejor cuando necesita llegar a los usuarios de forma rápida y directa en su dispositivo, sin depender de que estén dentro de la aplicación ni comprobar su bandeja de entrada.
+
+| Ventaja | Por qué | Casos de uso de ejemplo |
+| --- | --- | --- |
+| Actualizaciones con distinción de tiempo | Se entrega al instante, incluso cuando los usuarios no utilizan activamente la aplicación | Alertas de retraso de vuelo, cambios de estado de pedidos, noticias de última hora |
+| Nueva participación | Solicita a los usuarios que regresen a la aplicación después de un período de inactividad | Recordatorios de abandono del carro de compras, campañas de recuperación |
+| Reducción de costes frente a SMS | Sin tarifas de operador de mensajes, a diferencia de los SMS | Notificaciones transaccionales o promocionales de gran volumen |
+| Contenido enriquecido e interactivo | Admite imágenes, botones de acción y vínculos profundos | Promociones de productos con botones de tocar para comprar, previsualizaciones de medios enriquecidos |
+| Funciones nativas del dispositivo | Aprovecha las funciones del sistema operativo que no están disponibles para otros canales | Alertas de vibraciones, distintivos de iconos de aplicaciones, déclencheur de ubicación geovalados |
+| Alta probabilidad de inclusión | Los usuarios deben incluirse ya en la instalación de la aplicación o en el primer inicio | Flujos de incorporación, campañas de participación del día uno |
+
+## Cuándo no utilizar
+
+Las notificaciones push no son adecuadas para cada mensaje. Considere otro canal en las siguientes situaciones:
+
+* Su audiencia tiene bajas tasas de inclusión push o ha mostrado resistencia a las notificaciones, ya que es posible que el mensaje nunca llegue a ellos
+* El mensaje requiere contenido de formato largo, que el correo electrónico gestiona mejor y permite un formato más detallado
+* El contenido es confidencial o privado y no debe ser visible en una pantalla de bloqueo, donde cualquier persona cerca del dispositivo podría verlo
+* La mayoría de los usuarios accede al servicio desde el escritorio en lugar de desde una aplicación móvil, donde las notificaciones push tienen un alcance limitado o nulo
+

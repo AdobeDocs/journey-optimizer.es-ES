@@ -7,25 +7,15 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 TQID: https://experienceleague.adobe.com/z3r5z9-AxswpuG4whRbbpkyvqONUyuyU3xOsY81p5Cw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 46%
 
 ---
 
@@ -69,8 +59,29 @@ Esta función permite a los especialistas en marketing presentar a los usuarios 
 </td>
 </tr></table>
 
+## Casos de uso
+
+Las tarjetas de contenido funcionan mejor cuando desea que un mensaje esté disponible para que los usuarios actúen a su propio ritmo, en lugar de interrumpirlos en el momento en que llega.
+
+| Ventaja | Por qué | Casos de uso de ejemplo |
+| --- | --- | --- |
+| Visibilidad persistente | Las tarjetas permanecen en la aplicación o el sitio web hasta que el usuario las descarta | Promociones en curso, características destacadas que los usuarios pueden volver a visitar |
+| Envío no intrusivo | Se integra en la interfaz de en lugar de interrumpir al usuario | Actualizaciones pasivas que se muestran junto con otro contenido |
+| Funciona sin la opción de inclusión push | Se entrega en la aplicación o en el sitio, independientemente del consentimiento de las notificaciones push | Llegar a los usuarios que han deshabilitado las notificaciones push |
+| Mensajería visualmente enriquecida | Admite botones de medios y call-to-action | Proyectores de productos con imágenes y un botón &quot;Comprar ahora&quot; |
+
+## Cuándo no utilizar
+
+Las tarjetas de contenido están pensadas para que los usuarios de contenido puedan verlas a su propio ritmo, por lo que no son adecuadas para todos los escenarios. Considere otro canal en las siguientes situaciones:
+
+* El mensaje es una alerta con distinción de tiempo, ya que los usuarios no pueden abrir la aplicación o el sitio web a tiempo para ver la tarjeta
+* Los usuarios de destino están inactivos, ya que las tarjetas de contenido solo se muestran en la aplicación o el sitio web, y los usuarios inactivos nunca las verán
+* El contenido es confidencial o requiere un manejo seguro que una tarjeta persistente y visible no puede garantizar
+* El mensaje necesita una call to action urgente, como una venta flash, en la que una notificación push o un correo electrónico pidan una acción más rápida
+
 ## Recursos adicionales
 
 * **[Tarjetas de contenido en páginas de aterrizaje](content-card-lp.md)**: descubra cómo implementar tarjetas de contenido en páginas de aterrizaje para mejorar la participación.
 * **[Informes de las tarjetas de contenido](content-card-report.md)**: rastree y analice el rendimiento de las tarjetas de contenido con métricas y perspectivas detalladas.
 * **[Tutoriales de tarjetas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características de las tarjetas de contenido y las prácticas recomendadas.
+
