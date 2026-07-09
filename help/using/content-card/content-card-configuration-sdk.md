@@ -22,9 +22,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 558
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ Tras la carga inicial de la página, la página muestra su estado predeterminado
 >[!PREREQUISITES]
 >
 >Debe instalar node y npm. [Consulte esta documentación](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>Para utilizar reglas de descalificación con tarjetas de contenido, se requiere Web SDK versión 2.28.0 o posterior.
 
 
 1. Configure los certificados SSL locales para HTTPS. Estos ejemplos requieren certificados SSL firmados localmente para proporcionar contenido a través de HTTPS:
