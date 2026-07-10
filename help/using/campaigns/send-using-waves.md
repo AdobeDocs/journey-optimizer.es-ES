@@ -9,14 +9,11 @@ role: User
 level: Intermediate
 keywords: olas, lotes, programación, campaña, recorrido, capacidad de entrega
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 966
 ht-degree: 1%
 
 ---
@@ -132,6 +129,19 @@ El envío de ondas le ayuda a controlar cuándo y cuántos mensajes se emiten, l
 +++ ¿Puedo asignar diferentes segmentos o criterios a olas individuales?
 
 Solo se puede definir el tamaño y el tiempo de las olas. La selección de destinatarios es la misma para toda la campaña; no se pueden asignar segmentos o criterios diferentes a olas individuales.
+
++++
+
++++ ¿Se vuelve a evaluar la audiencia antes de cada ola o se corrige al inicio de la campaña?
+
+La audiencia se **evalúa una vez** cuando se activa la campaña. En ese momento se toma una instantánea de los perfiles aptos que se utiliza para todas las olas (la pertenencia a la audiencia no se vuelve a evaluar antes de cada ola subsiguiente).
+
+Sin embargo, **los atributos de perfil se leen en el momento en que se procesa cada ola**, no en la activación de la campaña. Esto significa que para las olas se extienden a lo largo de varios días:
+
+* Los atributos de Personalization (por ejemplo, el nombre o el nivel de fidelidad de un perfil) reflejan el estado del perfil en el momento en que se ejecuta la oleada.
+* **Las comprobaciones de consentimiento y supresión se aplican en el momento del envío para cada ola.** Si un perfil se excluye entre dos olas, no recibirá mensajes de las olas siguientes.
+
+En resumen: *who* se incluye en la campaña se ha corregido por adelantado, pero *los datos utilizados para enviar a esos perfiles* reflejan su estado actual cuando se procesa su ola.
 
 +++
 
