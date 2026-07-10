@@ -12,9 +12,9 @@ keywords: olas, lotes, programación, recorrido, lectura de audiencia, entrega
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1554
+source-wordcount: 1707
 ht-degree: 1%
 
 ---
@@ -130,6 +130,19 @@ El envío de ondas le ayuda a controlar cuándo y cuántos mensajes se emiten, l
 +++ ¿Puedo asignar diferentes segmentos o criterios a olas individuales?
 
 Solo se puede definir el tamaño y el tiempo de las olas. La misma audiencia fluye a través del recorrido; no se pueden asignar segmentos o criterios diferentes a olas individuales.
+
++++
+
++++ ¿Se vuelve a evaluar la audiencia antes de cada ola o se corrige al inicio del recorrido?
+
+La audiencia se **evalúa una vez** cuando se activa el recorrido. En ese momento se toma una instantánea de los perfiles aptos que se utiliza para todas las olas (la pertenencia a la audiencia no se vuelve a evaluar antes de cada ola subsiguiente).
+
+Sin embargo, **los atributos de perfil se leen en el momento en que se procesa cada ola**, no al inicio del recorrido. Esto significa que para las olas se extienden a lo largo de varios días:
+
+* Los atributos de Personalization (por ejemplo, el nombre o el nivel de fidelidad de un perfil) reflejan el estado del perfil en el momento en que se ejecuta la oleada.
+* **Las comprobaciones de consentimiento y supresión se aplican en el momento del envío para cada ola.** Si un perfil se excluye entre dos olas, no recibirá mensajes de las olas siguientes.
+
+En resumen: *who* se incluye en el recorrido y se corrigió por adelantado, pero *los datos utilizados para enviar a esos perfiles* reflejan su estado actual cuando se procesa su oleada.
 
 +++
 

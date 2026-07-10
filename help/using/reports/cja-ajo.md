@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -79,9 +79,12 @@ El uso de [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] podría
 
 * **En [!DNL Journey Optimizer] informes, la métrica Enviada también incluye la métrica Reintento.**
 
-  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que las métricas [!DNL Customer Journey Analytics] **[!UICONTROL Enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.
-Para reducir las discrepancias, utilice intervalos de fechas de hace una semana o incluso más tarde.
+  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que [!DNL Customer Journey Analytics] **[!UICONTROL métricas enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.Para reducir las discrepancias, utilice intervalos de fechas de hace una semana o incluso más tarde.
 
 * **Los informes se están suministrando desde una fuente de datos diferente.**
 
   Esto podría provocar discrepancias de datos de entre el 1 y el 2 % entre los productos.
+
+* **Recientemente se agregó un conjunto de datos a la conexión de informes.**
+
+  El relleno histórico automático para un conjunto de datos recién agregado puede tardar un par de días en completarse. Hasta que termine, los informes históricos de ese conjunto de datos pueden mostrarse como incompletos o cero, aunque los nuevos datos ya estén fluyendo correctamente. Tenga en cuenta que este es un comportamiento esperado, no una pérdida de datos.

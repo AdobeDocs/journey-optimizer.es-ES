@@ -24,9 +24,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 922
 ht-degree: 10%
 
 ---
@@ -117,11 +117,13 @@ Para editar un registro PTR con un subdominio delegado a Adobe mediante el [mét
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Si recibe este mensaje: &quot;Cree el DNS de reenvío primero y vuelva a intentarlo&quot;, siga los pasos a continuación:
+   * Compruebe en el proveedor DNS si el registro DNS de reenvío se creó correctamente.
+   * Es posible que los registros en el DNS no se sincronicen inmediatamente. Espere unos minutos e inténtelo de nuevo.
+
+   >[!WARNING]
    >
-   >Si recibe este mensaje: &quot;Cree el DNS de reenvío primero y vuelva a intentarlo&quot;, siga los pasos a continuación:
-   >   * Compruebe en el proveedor DNS si el registro DNS de reenvío se creó correctamente.
-   >   * Es posible que los registros en el DNS no se sincronicen inmediatamente. Espere unos minutos e inténtelo de nuevo.
+   >Al agregar un nuevo registro DNS de reenvío para el nuevo subdominio en la plataforma de alojamiento, no elimine el registro DNS de reenvío para el subdominio antiguo hasta que se complete el movimiento. Si elimina el registro antiguo antes de que finalice el proceso, se producirá un error en la edición del registro PTR.
 
 1. Haz clic en **[!UICONTROL Guardar]** para confirmar los cambios. Tenga en cuenta que los campos **[!UICONTROL IP]** y **[!UICONTROL registro PTR]** no se pueden modificar.
 
