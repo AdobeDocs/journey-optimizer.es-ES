@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +214,13 @@ Pueden producirse dos tipos de alertas:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Reducir tamaño de HTML"
->abstract="Habilite esta opción para comprimir el HTML de correo electrónico durante la publicación eliminando los espacios en blanco innecesarios, la sangría y los comentarios no esenciales. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
+>abstract="Active esta opción para comprimir el correo electrónico de HTML durante la publicación eliminando los espacios en blanco y la sangría innecesarios. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
 
-[!DNL Journey Optimizer] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco, sangrías y comentarios no esenciales innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
+[!DNL Journey Optimizer] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco y sangrías innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
+
+>[!NOTE]
+>
+>La eliminación de comentarios no esenciales de HTML también forma parte de la optimización, pero esta capacidad se ha deshabilitado temporalmente a partir del 10 de julio de 2026.
 
 * Evite **recortes de correo electrónico**: algunos clientes, como Gmail, truncan mensajes de más de ~100 KB, lo que impide que los destinatarios vean todo el contenido.
 * Mejorar **tiempo de carga del correo electrónico** en la bandeja de entrada del destinatario.
