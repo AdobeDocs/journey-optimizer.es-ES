@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 39%
+source-wordcount: 1877
+ht-degree: 37%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Marcador de posición para la sección Target"
+>abstract="La sección **[!UICONTROL Target]** establece el destinatario de la entrega para esta actividad del canal. Use **[!UICONTROL Dimensión de destino]** para seleccionar qué dimensión de destino se aplica a este envío. A continuación, elija **[!UICONTROL Un mensaje por perfil]** para enviar un solo mensaje por persona o **[!UICONTROL Un mensaje por dimensión secundaria]** para enviar un mensaje por dimensión secundaria correspondiente; por ejemplo, un mensaje de correo electrónico por vuelo cuando el mismo viajero tiene varios vuelos coincidentes."
 
 <!--
 UNUSED IDs in BJ

@@ -12,9 +12,9 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
-></br>
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
@@ -41,7 +40,7 @@ ht-degree: 2%
 * **[!UICONTROL Editor de Personalization]**: siempre que el editor esté disponible en los canales (línea de asunto, cuerpo y otros campos que lo abran). Esta es la ruta general para la personalización asistida por IA. Para saber dónde y cómo abrir el editor, consulte [Agregar personalización](../personalization/personalization-build-expressions.md#where).
 * **Barra de herramientas de Designer de correo electrónico**: cuando crea correos electrónicos en el Designer de correo electrónico, selecciona un componente y utiliza **[!UICONTROL Agregar expresión]** en la barra de herramientas contextual para abrir el asistente en una caja de herramientas sin abrir primero el editor completo. Este punto de entrada no está disponible fuera de la creación de correo electrónico. Ver [Generar desde el Designer de correo electrónico](#generate-email-designer).
 
-Para obtener información sobre la configuración y los idiomas del Asistente de IA, consulte [Introducción al Asistente de IA](gs-generative.md). Para ver los conceptos de personalización, consulte [Introducción a la personalización](../personalization/personalize.md). Para obtener ideas rápidas, consulte [Prácticas recomendadas de mensajes de IA](ai-assistant-prompting-guide.md).
+Para obtener información sobre la configuración y los idiomas del Asistente de IA, consulte [Introducción al Asistente de IA](gs-generative.md). Para ver los conceptos de personalización, consulte [Introducción a la personalización](../personalization/personalize.md). Para escribir mensajes que produzcan expresiones utilizables, vea [Escribir mensajes efectivos para expresiones de personalización](#prompt-best-practices). Para obtener ideas rápidas de generación de contenido (tono, estilo, marca), consulte [Prácticas recomendadas de mensajes de IA](ai-assistant-prompting-guide.md).
 
 Según el contexto de su campaña o recorrido, el asistente puede trabajar con datos y construir el [!UICONTROL Editor de Personalization] que ya expone, por ejemplo atributos de perfil, pertenencia a segmentos, funciones de ayuda y fuentes de personalización relacionadas.
 
@@ -145,3 +144,37 @@ En el Designer de correo electrónico, puede usar el [!UICONTROL Asistente de IA
    * Refine la expresión en el editor completo: haga clic en el icono ![Editar](assets/do-not-localize/Smock_Edit_18_N.svg "Editar") para abrir **[!UICONTROL Personalization Editor]**.
 
 1. Cuando esté satisfecho con el resultado, haga clic en **[!UICONTROL Insertar]** para agregar la expresión al contenido.
+
+## Escribir mensajes efectivos para expresiones de personalización {#prompt-best-practices}
+
+Las solicitudes de expresiones de personalización difieren de las solicitudes de generación de contenido, que se centran en el tono, el estilo y la marca. Dado que el asistente crea una lógica de plantilla que se resuelve en función de los datos contextuales y de perfil, el mensaje debe describir esa lógica con precisión. Comience desde la experiencia del cliente que desea ofrecer y, a continuación, exprésela en términos que el asistente pueda traducir en una expresión.
+
+Un aviso efectivo suele definir cuatro elementos:
+
+* **Origen de datos**: el atributo de perfil, los datos de contexto, el segmento, la oferta u otro recurso que se va a evaluar. Incluya la ruta de campo exacta cuando la conozca, como `profile.person.name.firstName`.
+* **Condición**: la lógica que se va a aplicar, por ejemplo, si un valor existe o coincide con un criterio específico.
+* **Salida**: lo que se debe mostrar cuando se cumpla la condición, incluido cualquier formato requerido.
+* **Reserva**: qué se debe mostrar cuando faltan datos o no se cumple la condición.
+
+Por ejemplo, una solicitud para *tomar la fecha de renovación del cliente, agregar un año, aplicarle el formato dd/MM/aa y no mostrar nada cuando falte la fecha de renovación* proporciona una fuente de datos, una transformación, un formato de salida y una reserva: todo lo que el asistente necesita para producir una expresión utilizable.
+
+### Recommendations {#prompt-recommendations}
+
+Para obtener los resultados más relevantes:
+
+* Mantenga cada mensaje centrado en una única regla de personalización en lugar de combinar varias reglas no relacionadas en una sola solicitud.
+* Hacer referencia únicamente a los campos, fragmentos, ofertas y conjuntos de datos que existen en el entorno. El asistente trabaja con lo que expone el editor y no crea fuentes de datos.
+* Describa el comportamiento de reserva para los datos opcionales o que puedan faltar, de modo que la expresión se resuelva correctamente para cada perfil.
+* Indique la estructura de salida esperada explícitamente cuando importe; por ejemplo, las claves que una carga útil de oferta debe devolver como JSON.
+* Cuando edite el código existente, proporcione solo la expresión relevante como contexto en lugar de un mensaje completo y use **[!UICONTROL Explain]** para comprender el código antes de aplicar **[!UICONTROL Fix]** u otro cambio.
+
+## Requisitos de datos y configuración {#requirements}
+
+El asistente genera expresiones a partir de los recursos que el [!UICONTROL Editor de Personalization] ya expone, por lo que los datos subyacentes deben estar configurados y disponibles. Si un mensaje no devuelve una expresión utilizable, confirme lo siguiente:
+
+* el campo al que hace referencia pertenece a un esquema activo en su entorno,
+* cualquier fragmento que desee reutilizar se publica,
+* cualquier conjunto de datos utilizado para una búsqueda está habilitado para búsquedas, y
+* la solicitud se relaciona con la personalización de plantillas en lugar de con otra tarea.
+
+Cuando la configuración sea correcta, aclare el mensaje aclarando la fuente de datos, la condición, la salida y la reserva y, a continuación, vuelva a generar.

@@ -12,7 +12,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -20,6 +20,14 @@ ht-degree: 10%
 ---
 
 # Configuración del acceso al repositorio de Adobe Experience Manager {#aem-admin-settings}
+
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra cómo los administradores conectan una zona protegida a un repositorio de Adobe Experience Manager, configurando el acceso de solo autor o publicación, los dominios personalizados y la autenticación, para que los especialistas en marketing puedan utilizar fragmentos de contenido de AEM en sus recorridos y campañas.
+
+>[!ENDSHADEBOX]
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
@@ -46,12 +54,6 @@ ht-degree: 10%
 >id="ajo_admin_aem_custom_domain"
 >title="Dominio personalizado"
 >abstract="Opcional. Proporcione un dominio personalizado si &quot;your-publish-instance.adobeaemcloud.com&quot; no puede recuperar contenido para su organización."
-
->[!BEGINSHADEBOX]
-
-**En esta página:** Descubra cómo los administradores conectan una zona protegida a un repositorio de Adobe Experience Manager, configurando el acceso de solo autor o publicación, los dominios personalizados y la autenticación, para que los especialistas en marketing puedan utilizar fragmentos de contenido de AEM en sus recorridos y campañas.
-
->[!ENDSHADEBOX]
 
 Adobe Journey Optimizer se integra con **[!DNL Adobe Experience Manager as a Cloud Service]** y **[!DNL Adobe Experience Manager Managed Service]** para que pueda usar **Fragmentos de contenido** en Recorridos y campañas. Los **fragmentos de contenido** se leen desde el repositorio de publicación de Adobe Experience Manager de forma predeterminada, los administradores pueden cambiar a solo autor o ajustar el acceso de publicación en el menú **[!UICONTROL Integración de AEM]**.
 

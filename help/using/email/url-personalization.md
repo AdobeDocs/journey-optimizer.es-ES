@@ -11,10 +11,10 @@ keywords: url, vínculo, personalización, seguimiento, codificación, llaves
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 1%
+source-wordcount: 570
+ht-degree: 0%
 
 ---
 
@@ -73,9 +73,15 @@ Journey Optimizer también admite la personalización de la dirección URL **ent
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->Para habilitar la personalización completa o básica de la URL, póngase en contacto con Adobe y proporcione su lista de dominios aceptados. Esto es necesario para evitar redirecciones no seguras.
+>* Para habilitar la personalización completa o básica de la URL, póngase en contacto con Adobe y proporcione su lista de dominios aceptados. Esto es necesario para evitar redirecciones no seguras.
+>
+>* Las direcciones URL generadas dinámicamente (donde la dirección URL completa o el dominio base se resuelven a partir de un atributo de perfil en el momento de la entrega) tienen una limitación de seguimiento conocida: Journey Optimizer no puede rastrear de forma fiable los clics para estos vínculos y es posible que **los datos de clics no aparezcan en los informes de recorridos o campañas**. Esto ocurre porque la redirección de seguimiento se aplica en tiempo de diseño, antes de que se conozca la dirección URL final. Cuando el valor resuelto difiere por destinatario, la cadena de redirección se interrumpe y los clics no se registran. Además, la dirección URL resuelta debe comenzar con `http` o `https` para cada destinatario; si no es así, el seguimiento se omite silenciosamente para ese vínculo. Para mantener un seguimiento de clics fiable, utilice uno de los siguientes métodos:
+>
+>   * Use una dirección URL base fija y anexe solo parámetros personalizados (por ejemplo, `https://www.example.com/page?uid={{profile.person.crmid}}`).
+>   
+>   * Genere previamente una dirección URL personalizada por destinatario, almacénela como atributo de perfil y haga referencia a ella en el contenido del correo electrónico.
 
 ## Personalizar parámetros de seguimiento de URL {#personalize-url-tracking-parameters}
 
