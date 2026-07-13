@@ -9,7 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
 source-wordcount: 1540
@@ -28,7 +30,6 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
-
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
