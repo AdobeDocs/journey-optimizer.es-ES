@@ -11,19 +11,12 @@ level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Du6LWrtaD6lS54qfxT7K8YIRvft8gO8ZlZabCMJ84tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 855cddf7a2f05dcee99a4ec108cf47622c2bcfd5
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 22%
@@ -42,7 +35,7 @@ ht-degree: 22%
 >abstract="Una oferta de reserva es la oferta predeterminada que se muestra cuando un usuario final no cumple los requisitos para ninguna de las ofertas personalizadas."
 
 >[!CONTEXTUALHELP]
->id="ajo_decisioning_fallback_offer_details "
+>id="ajo_decisioning_fallback_offer_details"
 >title="Detalles de la oferta de reserva"
 >abstract="Especifique el nombre de la oferta de reserva. También puede asociarle uno o varios cualificadores de colección existentes, lo que le permite buscar y organizar la biblioteca de ofertas más fácilmente."
 
@@ -92,5 +85,5 @@ Para crear una oferta de reserva, siga estos pasos:
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341344?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
