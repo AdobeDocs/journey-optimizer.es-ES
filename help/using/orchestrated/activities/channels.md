@@ -6,19 +6,14 @@ description: Obtenga información sobre cómo añadir una actividad de canal en 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: 1877
-ht-degree: 37%
+source-wordcount: 1972
+ht-degree: 36%
 
 ---
 
@@ -69,13 +64,19 @@ UNUSED IDs in BJ
 >title="Actividad de correo directo"
 >abstract="La actividad de correo directo facilita el envío de correo directo dentro de la campaña orquestada, tanto para mensajes únicos como recurrentes. Sirve para automatizar el proceso de generación del archivo de extracción requerido por los proveedores de correo directo. Puede combinar actividades de canal en el lienzo de la campaña orquestada para crear campañas en canales múltiples que puedan activar acciones basadas en el comportamiento y los datos del cliente."
 
-[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas en varios canales (correo electrónico, SMS, notificaciones push y correo directo), tanto para los mensajes transaccionales como de marketing. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_custom"
+>title="Actividad de canal personalizado"
+>abstract="La actividad de canal personalizado permite enviar mensajes a través de sistemas de terceros o integraciones personalizadas dentro de la campaña orquestada. Permite almacenar en déclencheur los procesos de entrega externos, como las plataformas de socios o las herramientas de mensajería propietarias, exportando los datos de audiencia a un sistema externo. Puede combinar actividades de canal personalizado con otras actividades de canal en el lienzo de la campaña para crear campañas de canales cruzados que involucren a los clientes en puntos de contacto nativos y personalizados."
+
+[!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas en todos los canales (correo electrónico, SMS, notificaciones push, correo directo y personalizado), tanto para los mensajes transaccionales como de marketing. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
 
 Por ejemplo:
 
 * Envíe una serie de bienvenida por correo electrónico, SMS, push y correo directo.
 * Envíe un correo electrónico de seguimiento después de la compra.
 * Envíe felicitaciones de cumpleaños personalizadas por SMS.
+* Almacenar en déclencheur un mensaje a través de un canal personalizado cuando un cliente abandona el carro de compras.
 
 Mediante las actividades del canal, puede crear campañas completas y personalizadas que atraigan a los clientes en varios puntos de contacto e impulsen las conversiones.
 
@@ -180,7 +181,7 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="correo electrónico" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creación de un correo electrónico</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Creación de un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Crear una acción personalizada</strong></a></td>
 </tr></table>
 
 ### Adición de personalización {#add-personalization}
@@ -238,6 +239,22 @@ Para establecer el control de velocidad, siga estos pasos:
 >[!IMPORTANT]
 >
 >Al establecer una tasa de entrega, el periodo de tiempo máximo para el que se puede ejecutar una audiencia de campaña es de 12 horas. Si la tasa de entrega se establece en un valor que no permite que toda la audiencia envíe el mensaje en el periodo de tiempo de 12 horas, los perfiles restantes se excluirán de la campaña. Puede ver el recuento de estos perfiles excluidos en el informe de campaña.
+
+<!--
+## Example: cross-channel campaign with a custom channel {#example-custom}
+
+The following example shows an Orchestrated campaign that combines native and custom channels to re-engage lapsed customers.
+
+The campaign targets customers who have not made a purchase in the last 90 days:
+
+1. A **Build audience** activity filters profiles with no purchase in the last 90 days.
+1. A **Split** activity divides the audience into two groups:
+   * **Group A** — customers with a known email address receive a re-engagement email with a personalized discount offer.
+   * **Group B** — customers without an email address, or those who did not open the email after 3 days, are routed to a **Custom channel** activity that triggers a message through a third-party messaging platform (for example, a WhatsApp Business provider or an in-house notification system).
+1. Both branches converge on a **Wait** activity, then a follow-up **SMS** is sent to all profiles who still have not converted.
+
+This pattern lets you extend your campaign reach beyond native channels and engage customers on the platforms they are most active on, without requiring a separate campaign workflow.
+-->
 
 ## Próximos pasos {#next}
 
