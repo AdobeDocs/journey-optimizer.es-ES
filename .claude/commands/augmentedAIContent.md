@@ -44,7 +44,7 @@ Content here.
 - Los nombres de las pestañas son mayúsculas y minúsculas, cortos (de 1 a 3 palabras)
 - Línea en blanco antes de `>[!BEGINTABS]` y después de `>[!ENDTABS]`
 
----
+&#x200B;---
 
 ## Flujo de trabajo
 
@@ -96,7 +96,7 @@ Antes de anexar, vuelva a leer la notificación de sección generada por notific
 
 **Regla de corrección:** Si falla alguna comprobación, corrija el contenido **antes de** anexando. Registre todas las correcciones en el informe del paso 5.
 
----
+&#x200B;---
 
 ### Paso 4: Añadir la sección
 
@@ -114,7 +114,7 @@ Este comentario permite a los futuros escritores y herramientas detectar cuándo
 - Archivos omitidos + motivo (ya tiene sección / vacío / página de índice)
 - Cualquier advertencia de validación generada durante el paso 2
 
----
+&#x200B;---
 
 ## Reglas de generación de contenido
 
@@ -229,7 +229,7 @@ Las respuestas deben utilizar las mismas opciones de verbo y sustantivo que el c
 - **no** inventa contenido no admitido por la página
 - **no** usa los siguientes términos imprecisos a menos que aparezcan textualmente en el cuerpo de la página: &quot;sintético&quot;, &quot;datos falsos&quot;, &quot;sin datos reales&quot;, &quot;revertir&quot;, &quot;revertir&quot; (al describir transiciones de estado del producto)
 
----
+&#x200B;---
 
 ## Lista de comprobación de validación posterior a la generación
 
@@ -252,7 +252,7 @@ Ejecute esta lista de comprobación en cada sección antes de anexar. Marque cua
 
 Si alguna comprobación falla, corrija la sección antes de anexar. Registre la corrección en el informe Paso 4.
 
----
+&#x200B;---
 
 ## Responsabilidad de sincronización
 
@@ -265,7 +265,7 @@ La sección Referencia rápida es una derivada del cuerpo de la página en un mo
 
 El comentario de sincronización anexado después de la sección (`<!-- ai-section-version -->`) es la señal: si el contenido del archivo antes de la sección ha cambiado desde que se escribió ese hash, la sección es candidata para revisión.
 
----
+&#x200B;---
 
 ## Plantilla completa
 
