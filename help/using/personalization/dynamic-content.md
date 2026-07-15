@@ -10,23 +10,16 @@ level: Intermediate
 keywords: expresión, editor, dinámico, contenido
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 TQID: https://experienceleague.adobe.com/j9jmVxc9Pn53hghR-2sUGXjcczfQibs5XTGuD7gwiI4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: e51e8901-97d9-4f7d-a835-503025a90e32
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 13%
+source-wordcount: 1262
+ht-degree: 7%
 
 ---
 
@@ -123,3 +116,67 @@ Los pasos para crear variantes de un componente de contenido en el Designer de c
 1. Para eliminar una variante, haga clic en el icono Más acciones que está junto a la variante deseada y seleccione **[!UICONTROL Eliminar]**.
 
    ![](assets/conditions-delete.png)
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo utilizar reglas condicionales para añadir contenido dinámico a los mensajes, ya sea mediante etiquetas de expresión en el editor de personalización o como variantes de componente de contenido en el Designer de correo electrónico.
+
+**Intenciones**
+
+* Agregar contenido dinámico a expresiones de personalización utilizando etiquetas condicionales `{%if%}` / `{%/if%}`
+* Vista previa de varias variantes de contenido dinámico mediante simulación
+* Habilitar contenido condicional en un componente de contenido de Designer de correo electrónico
+* Cree varias variantes de componentes, cada una vinculada a una regla condicional
+* Administrar la variante predeterminada que se muestra cuando no se cumple ninguna condición en el momento del envío
+
+>[!TAB Glosario]
+
+* **Contenido dinámico**: contenido de mensaje que varía según las reglas condicionales; se muestra contenido diferente en función de si se cumplen las condiciones definidas en el momento de la entrega. *(específico del producto)*
+* **Contenido condicional**: función de Designer de correo electrónico que aplica reglas condicionales a un componente de contenido y crea varias variantes de visualización. *(específico del producto)*
+* **Variante predeterminada**: el contenido mostrado para un componente cuando no se cumple ninguna de las reglas condicionales definidas al enviar el mensaje. *(específico del producto)*
+* **`{%if%}`/ `{%/if%}` tags**: sintaxis de expresión del editor de Personalization utilizada para ajustar bloques de contenido que solo se muestran cuando se cumple una regla condicional.
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** contenido dinámico — variantes: contenido condicional, contenido personalizado
+* **Sinónimos:** &quot;contenido condicional&quot; (etiqueta de la interfaz de usuario de Designer de correo electrónico) = &quot;contenido dinámico&quot; (término general utilizado en todo)
+* **No confunda:** agregar contenido dinámico en expresiones (mediante etiquetas `{%if%}` en el editor de personalización) ≠ agregar contenido dinámico en correos electrónicos (creando variantes de componente en el Designer de correo electrónico: dos flujos de trabajo distintos)
+* **No confunda:** &quot;variante predeterminada&quot; (se muestra cuando no se cumplen las reglas condicionales) ≠ una variante con nombre (cada una asociada a una regla condicional específica)
+
+>[!TAB Protecciones y limitaciones]
+
+* Las variantes de contenido condicional se evalúan según sus reglas asociadas en el orden en que se muestran; la variante predeterminada siempre se muestra si no se cumplen otras condiciones.
+* Al simular o procesar pruebas para correos electrónicos con varias variantes condicionales, Journey Optimizer puede requerir más tiempo de procesamiento; considere la posibilidad de reducir el número de variantes o simplificar las reglas condicionales si se producen errores o tiempos de espera.
+* Si el Designer de correo electrónico no se representa correctamente después de agregar bloques condicionales, compruebe que la sintaxis de cada condición sea correcta y que no existan instrucciones duplicadas o en conflicto.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué sucede si no se cumple ninguna de las condiciones definidas cuando se envía el mensaje?**
+
+El componente de contenido muestra el contenido definido en la variante predeterminada.
+
+**Q: ¿En qué orden se evalúan las variantes de contenido condicional?**
+
+Las variantes se evalúan según sus reglas asociadas en el orden en que se muestran. La variante predeterminada siempre se muestra si no se cumplen otras condiciones.
+
+**Q: ¿Dónde se puede agregar contenido dinámico en Journey Optimizer?**
+
+En cualquier campo donde se pueda añadir personalización, incluidas las líneas de asunto, los vínculos, el contenido de las notificaciones push y las representaciones de ofertas de tipo texto, a través del editor de personalización y en los componentes de contenido de Designer de correo electrónico a través de variantes condicionales.
+
+**Q: ¿Qué debo hacer si el Designer de correo electrónico no se puede procesar después de agregar bloques condicionales?**
+
+Compruebe que la sintaxis de cada condición sea correcta y que no existan instrucciones duplicadas o en conflicto. Si los problemas persisten, vuelva a generar las secciones problemáticas en una plantilla nueva y pruebe cada bloque condicional gradualmente.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: e6005d80 -->

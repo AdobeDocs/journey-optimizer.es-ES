@@ -9,15 +9,12 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 710
-ht-degree: 22%
+source-wordcount: 1403
+ht-degree: 11%
 
 ---
 
@@ -60,7 +57,7 @@ Este área de reproducción proporciona un entorno simulado para escribir y prob
 
 ![área de reproducción de personalización](assets/playground.png)
 
-➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## El Asistente de IA para expresiones de personalización {#ai-personalization-expressions}
 
@@ -134,14 +131,81 @@ Ahora que comprende la personalización de **[!DNL Journey Optimizer]**, es hora
 
 Aprenda a utilizar la información de evento contextual de un recorrido para personalizar un mensaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448133?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Obtenga información sobre cómo añadir una personalización basada en perfiles a un mensaje y cómo utilizar el abono a un público como condición previa a un bloque de personalización.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416236?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Aprenda a aprovechar el patio del editor de personalización para escribir y probar el código de personalización con datos de ejemplo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Descubra más tutoriales en vídeo sobre funciones de personalización y prácticas recomendadas en [tutoriales de Personalization](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+Esta página presenta la personalización en Journey Optimizer: cómo funciona el editor de personalización basado en Handlebars, qué datos utiliza, el área de reproducción interactiva, el asistente de IA para expresiones y la edición de atributos en línea en el editor de correo electrónico Designer y push.
+
+**Intenciones**
+
+* Descubra cómo funciona la personalización de Journey Optimizer (sintaxis de Handlebars con llaves dobles)
+* Identifique las fuentes de datos disponibles para la personalización (esquema de perfil individual XDM, atributos calculados, búsqueda de conjuntos de datos AEP en versión beta)
+* Experimente con la personalización mediante el área de reproducción interactiva sin una zona protegida en directo
+* Utilice el asistente de IA para generar, explicar o corregir expresiones de personalización a partir del lenguaje natural
+* Inserte atributos de perfil en línea en el editor de correo electrónico Designer o push escribiendo `{{`
+
+>[!TAB Glosario]
+
+* **Editor de Personalization**: La herramienta con todas las funciones para crear, personalizar y validar expresiones de personalización; disponible en cualquier campo de Journey Optimizer que admita personalización. *(específico del producto)*
+* **Esquema de perfil individual de XDM**: El único esquema que se puede usar para personalizar el contenido en Journey Optimizer; define todos los atributos de perfil disponibles para la personalización. *(específico del producto)*
+* **Atributos calculados**: atributos de perfil precalculados que resumen eventos de comportamiento individuales en valores de nivel de perfil; disponibles como datos de personalización junto con campos de perfil XDM estándar. *(específico del producto)*
+* **Personalization playground**: un entorno interactivo y simulado en Experience League para escribir y probar código de personalización con datos de muestra; no se requieren conjuntos de datos activos ni zonas protegidas. *(específico del producto)*
+* **Edición en línea**: la capacidad de escribir `{{` en cualquier campo de texto del editor de canales push o de correo electrónico para almacenar en déclencheur un menú desplegable de autocompletar e insertar atributos de perfil sin abrir el editor de personalización completo. *(específico del producto)*
+* **Asistente de IA (expresiones de personalización)**: herramienta de IA del editor de personalización y Designer de correo electrónico que genera expresiones de personalización a partir del lenguaje natural, explica el código existente y corrige los problemas de una selección. *(específico del producto)*
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** personalización — variantes: personalización de contenido, personalización de mensajes, personalización de expresiones
+* **Nombre canónico:** editor de personalización — variantes: funcionalidades de personalización
+* **No confundir:** El editor de Personalization (utilizado para generar expresiones de contenido en mensajes y ofertas, admite Handlebars y PQL) ≠ el editor de expresiones avanzadas (utilizado en el recorrido para condiciones en fuentes de datos e información de eventos, actividades de espera personalizadas y asignación de parámetros de acción) proporciona funciones y operadores integrados que difieren de los del editor de personalización
+* **No confunda:** edición en línea (escriba `{{` en Email Designer o Push para inserción rápida de atributos sin abrir el editor completo) ≠ editor de personalización (herramienta completa para expresiones complejas, funciones de ayuda, reglas condicionales y fragmentos)
+* **No confunda:** esquema de perfil individual XDM (el único esquema utilizable para la personalización en Journey Optimizer) ≠ otros esquemas AEP (no utilizable para la personalización a menos que se exponga mediante la búsqueda de conjuntos de datos)
+
+>[!TAB Protecciones y limitaciones]
+
+* El esquema Perfil individual de XDM es el único esquema que se puede utilizar para personalizar el contenido en Journey Optimizer.
+* La búsqueda de conjuntos de datos de AEP para la personalización requiere que los conjuntos de datos se habiliten mediante una llamada de API antes de su uso; esta función está actualmente en fase beta.
+* La edición en línea (que escribe `{{` en el Designer de correo electrónico o el editor push) solo admite atributos de perfil.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué datos se pueden usar para la personalización en Journey Optimizer?**
+
+Los datos de perfil del esquema Perfil individual de XDM, los atributos calculados (eventos de comportamiento resumidos en el nivel de perfil) y la búsqueda de conjuntos de datos de registro de AEP (actualmente beta) requieren que los conjuntos de datos se habiliten mediante API.
+
+**Q: ¿Qué es el área de reproducción de personalización?**
+
+Un entorno interactivo y simulado en Experience League donde puede escribir y probar código de personalización con datos de ejemplo, sin necesidad de una zona protegida de Journey Optimizer activa o conjuntos de datos reales.
+
+**Q: ¿Cómo funciona la edición de atributos en línea?**
+
+Escriba `{{` en cualquier campo de texto del editor de canales push o de correo electrónico de Designer para abrir un menú desplegable de autocompletar en la posición del cursor. Empiece a escribir para filtrar los atributos de perfil y, a continuación, seleccione uno para insertarlo como token de personalización. Solo los atributos de perfil están disponibles en línea.
+
+**Q: ¿Qué puede hacer el Asistente de IA en el editor de personalización?**
+
+Puede generar nuevas expresiones de personalización a partir de descripciones en lenguajes naturales, explicar lo que hace el código existente y corregir problemas en una expresión seleccionada. A continuación, aplique el resultado cuando coincida con la intención.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 248b894f -->
