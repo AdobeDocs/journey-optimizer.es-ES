@@ -366,7 +366,7 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 
 Aprenda a utilizar las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
 
 ## Referencia rápida {#quick-reference}
 
