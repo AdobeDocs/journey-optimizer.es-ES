@@ -10,23 +10,15 @@ keywords: volver a entrar, recorrido, finalizar, en directo, detener
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 1822
+source-wordcount: 2155
 ht-degree: 1%
 
 ---
@@ -78,7 +70,7 @@ Si el recorrido tiene varias rutas, le recomendamos que agregue una etiqueta a c
 
 Un recorrido se puede cerrar por los siguientes motivos:
 
-* Un recorrido de lectura de audiencias no recurrente **se detiene automáticamente** una vez que el último perfil sale del recorrido. [Más información](#auto-stop-non-recurring)
+* Un recorrido de audiencia de lectura no recurrente **se detiene automáticamente** después de que un búfer de seguridad siga a su ejecución programada. [Más información](#auto-stop-non-recurring)
 * Después de la última incidencia de un recorrido recurrente basado en audiencias.
 * El recorrido se cierra manualmente mediante el botón [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances).
 * Se alcanza el tiempo de espera de recorrido global de 91 días.
@@ -87,21 +79,24 @@ Después del tiempo de espera global de recorrido de **91 días**, un recorrido 
 
 ### Parada automática de recorrido para audiencias no recurrentes {#auto-stop-non-recurring}
 
-Un **recorrido de audiencia de lectura no recurrente** pasa automáticamente al estado **[!UICONTROL Detenido]** cuando el último perfil sale del recorrido. Esto elimina el comportamiento anterior, en el cual los recorridos de audiencia de lectura no recurrentes permanecían en estado **Activo** hasta que expiró el tiempo de espera global de 91 días, aunque no hubiera perfiles que fluyeran activamente por ellos.
+Un **recorrido de audiencia de lectura no recurrente** pasa automáticamente al estado **[!UICONTROL Detenido]** después de que un búfer de seguridad siga su ejecución programada. Esto elimina el comportamiento anterior, en el cual los recorridos de audiencia de lectura no recurrentes permanecían en estado **Activo** hasta que expiró el tiempo de espera global de 91 días, aunque no hubiera perfiles que fluyeran activamente por ellos.
 
 **Cómo funciona:**
 
 1. El recorrido se ejecuta y se procesan todos los perfiles de la audiencia.
 1. A medida que cada perfil llega al final del recorrido, sale normalmente.
-1. Cuando el **último perfil activo sale**, el recorrido pasa automáticamente al estado **[!UICONTROL Detenido]**.
+1. Cuando el **último perfil activo sale**, la recorrido entra en un período de búfer de seguridad y permanece en estado **[!UICONTROL Activo]**.
+1. Una vez que transcurre el búfer de seguridad (~96 horas después del tiempo de ejecución programado del recorrido), el recorrido pasa automáticamente al estado **[!UICONTROL Detenido]** en el siguiente pase de escáner.
 
 Este comportamiento se aplica solamente a **recorridos de audiencia de lectura no recurrentes**. Los recorridos recurrentes no se ven afectados.
 
->[!NOTE]
->
->* Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos permanecen sujetos al tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout).
->
->* Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances). El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
+* **Tiempo de parada automática:** El búfer de seguridad cuenta para dos ventanas: un período de inactividad de **24 horas** para permitir que se completen los envíos en vuelo, y una asignación de horas silenciosas de **72 horas** (las horas silenciosas pueden retrasar los envíos hasta 72 horas y no son visibles para el escáner). El búfer total es de aproximadamente **96 horas (~4 días)** después del tiempo de ejecución programado del recorrido. El recorrido permanece en estado **[!UICONTROL Activo]** durante este período. Este es un comportamiento esperado y no indica un problema.
+
+* **Se excluyen los recorridos basados en ondas:** Este comportamiento de detención automática no se aplica a los recorridos basados en ondas, incluidos los recorridos que utilizan la optimización del tiempo de envío. Estos recorridos permanecen activos en todas las olas programadas y se detienen solamente en el tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout), a menos que se cierren o se detengan manualmente.
+
+* Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos permanecen sujetos al tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout).
+
+* Puede cerrar manualmente un recorrido de audiencia de lectura no recurrente en cualquier momento mediante la opción [**[!UICONTROL Cerrar a nuevas entradas]**](#close-to-new-entrances). El comportamiento de parada automática simplemente garantiza que el recorrido se detenga automáticamente cuando ya no sea necesario, sin necesidad de intervención manual.
 
 ### ¿Cuándo se considera que un recorrido ha &quot;finalizado&quot;? {#journey-finished-definition}
 
@@ -109,7 +104,7 @@ La definición de &quot;terminado&quot; varía según el tipo de recorrido:
 
 | Tipo de recorrido | ¿Recurrente? | ¿Tiene fecha de finalización? | Definición de &quot;finished&quot; |
 |--------------|------------|---------------|--------------------------|
-| Leer público | No | n/a | Cuando existe el último perfil (parada automática) |
+| Leer público | No | n/a | ~96h después de la última salida del perfil (búfer de parada automática) |
 | Leer público | Sí | No | 91 días después del último inicio de la incidencia |
 | Leer público | Sí | Sí | Cuando se llega a la fecha de finalización |
 | Recorrido activado por evento | n/a | Sí | Cuando se llega a la fecha de finalización |
@@ -196,7 +191,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Solo se pueden eliminar los recorridos con el estado Finalizado.
 * La detención de un recorrido requiere el permiso Administrar recorridos; los recorridos con campañas en línea o nodos de mensajería también requieren el permiso Campañas > Publicar campañas.
 * Después del tiempo de espera global de 91 días, se eliminan todos los datos de recorrido de perfiles y los perfiles restantes se cierran automáticamente.
-* Un recorrido de lectura de audiencia no recurrente sin nodos de espera, reacción o activados por eventos de larga ejecución pasa automáticamente a Detenido cuando se cierra el último perfil. Los recorridos con esos nodos permanecen sujetos al tiempo de espera global de 91 días a menos que se cierren manualmente.
+* Un recorrido de audiencia de lectura no recurrente sin nodos de espera, reacción o activados por eventos de larga ejecución pasa automáticamente a Detenido aproximadamente 96 horas (~4 días) después de que salga el último perfil. El recorrido permanece en estado Activo durante este búfer. Los recorridos basados en olas, incluidos los casos de uso de optimización del tiempo de envío, se excluyen de esta detención automática y permanecen sujetos al tiempo de espera global de 91 días a menos que se cierren o detengan manualmente.
 
 **Terminología:**
 
@@ -207,7 +202,9 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **PREGUNTAS MÁS FRECUENTES:**
 
 * **Q: ¿Cuál es la diferencia entre cerrar y detener un recorrido?** — El cierre bloquea las nuevas entradas, pero permite que los perfiles existentes finalicen; la detención detiene inmediatamente todos los perfiles en seguimiento.
-* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** — Para un recorrido de audiencia de lectura no recurrente: se detiene automáticamente en Detenido cuando se cierra el último perfil (o después de 91 días si los nodos de Espera, Reacción o Evento mantienen los perfiles activos). Finished se alcanza cuando un recorrido Closed alcanza el tiempo de espera global de 91 días o por reglas de recorrido recurrentes en la tabla de definición finalizada.
+* **Q: ¿Por qué un recorrido no recurrente permanece en estado Activo durante varios días después de su ejecución?** — Esto es lo esperado. Después de la última salida del perfil, AJO aplica un búfer de seguridad de ~96 horas (~4 días): 24 horas para permitir que se completen los envíos en vuelo, más 72 horas para aplazamientos de horas tranquilas. El recorrido pasa a Detenido en la siguiente pasada del escáner después de que transcurra el búfer.
+* **Q: ¿Los recorridos basados en olas se detienen automáticamente después de ~96 horas?** — No. Los recorridos basados en olas, incluidos los recorridos que utilizan la optimización del tiempo de envío, se excluyen de esta parada automática para que puedan permanecer activos en todas las olas programadas. Siguen el tiempo de espera de recorrido estándar de 91 días a menos que se cierren o se detengan manualmente.
+* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** — Para un recorrido de audiencia de lectura no recurrente: se detiene automáticamente hasta Detenido aproximadamente 96 horas (~4 días) después de que salga el último perfil (búfer de seguridad: ventana de inactividad de 24 horas + asignación de horas silenciosas de 72 horas). El recorrido permanece en estado Activo durante este búfer. Si los nodos de Espera, Reacción o Evento mantienen los perfiles activos, se aplica el tiempo de espera global estándar de 91 días. Finished se alcanza cuando un recorrido Closed alcanza el tiempo de espera global de 91 días o por reglas de recorrido recurrentes en la tabla de definición finalizada.
 * **Q: ¿Puedo eliminar un recorrido cerrado?** — No, sólo se pueden eliminar los recorridos finalizados.
 * **Q: ¿Qué les sucede a los perfiles que aún están en un recorrido cuando se alcanza el tiempo de espera de 91 días?** — Se salen automáticamente del recorrido en ese punto.
 * **Q: ¿Necesito permisos especiales para detener un recorrido?** — Sí, se requiere el permiso Administrar recorridos, además de Campañas > Publicar campañas si el recorrido contiene campañas en línea o nodos de mensajería.
