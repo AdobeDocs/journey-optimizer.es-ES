@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, comprobación de contenido, HTML, CSS, validación, procesamiento, calidad
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="Validar el contenido del correo electrónico"
 >abstract="Las comprobaciones de contenido detectan automáticamente los problemas de HTML y CSS en el correo electrónico antes de enviarlo. Indican etiquetas no admitidas, divs vacíos y límites de tamaño que pueden interrumpir el procesamiento en Gmail o Microsoft Outlook. Los problemas aparecen como errores, advertencias o avisos informativos, con detalles contextuales y correcciones con un solo clic cuando están disponibles."
-
->[!AVAILABILITY]
->
->Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 [!DNL Journey Optimizer] incluye validación técnica automatizada directamente en el Designer de correo electrónico, lo que le ayuda a detectar problemas de HTML y CSS antes de enviarlos.
 
@@ -56,8 +51,10 @@ Cuando no se detectan problemas, el panel muestra **No se detectaron problemas**
 
 Según el problema, puede ver más contexto, aplicar una corrección de un solo clic o guardar el correo electrónico para actualizar un resultado de la comprobación.
 
-* Para algunos problemas detectados, puede hacer clic en el botón **[!UICONTROL Mostrar detalles]** para ver más contexto. Haga clic en **[!UICONTROL Ocultar detalles]** para contraer.  ![Panel de verificación de contenido en el Designer de correo electrónico con detalles](assets/content-check-details.png){width="80%"}
-* Del mismo modo, puede hacer clic en el botón **[!UICONTROL Mostrar corrección]** y aplicar una corrección de un clic cuando esté disponible. Si la corrección no se puede aplicar automáticamente, se muestra un mensaje y debe resolver el problema manualmente.  ![Panel de verificación de contenido en el Designer de correo electrónico con el botón Aplicar corrección](assets/content-check-fix.png){width="80%"}
+* Para algunos problemas detectados, puede hacer clic en el botón **[!UICONTROL Mostrar detalles]** para ver más contexto. Haga clic en **[!UICONTROL Ocultar detalles]** para contraer.
+  ![Panel de verificación de contenido en el Designer de correo electrónico con detalles](assets/content-check-details.png){width="80%"}
+* Del mismo modo, puede hacer clic en el botón **[!UICONTROL Mostrar corrección]** y aplicar una corrección de un clic cuando esté disponible. Si la corrección no se puede aplicar automáticamente, se muestra un mensaje y debe resolver el problema manualmente.
+  ![Panel de verificación de contenido en el Designer de correo electrónico con el botón Aplicar corrección](assets/content-check-fix.png){width="80%"}
 
 ### Recalculación de los cheques {#recalculation}
 
@@ -111,6 +108,26 @@ En las tablas siguientes se enumeran todos los mensajes posibles y la acción re
 
 ## Acerca del tamaño de HTML y CSS {#size-estimation}
 
-Los valores de tamaño de HTML y CSS son **estimaciones calculadas en el momento de la creación** y pueden diferir del tamaño real entregado a los destinatarios; por ejemplo, cuando el correo electrónico utiliza bloques condicionales (solo se procesa una rama por destinatario) o cuando la minificación de HTML está habilitada en el momento del envío.
+Los valores de tamaño de HTML y CSS que se muestran en el Designer de correo electrónico son **estimaciones calculadas a la hora de crear**. Reflejan la carga útil procesada completa tal como existe en el editor en ese momento e incluyen:
 
-Las advertencias de tamaño son señales proactivas que ayudan a optimizar el contenido antes de enviarlo, no bloques duros.
+* **Estructura de HTML**: todo el marcado, las etiquetas, los contenedores de diseño y los estilos en línea
+* **CSS en línea**: envía por correo electrónico estilos en línea de Designer antes de calcular el tamaño, que es estándar para los clientes de correo electrónico, pero infla la cifra sin procesar en comparación con una hoja de estilos externa
+* **Contenido de texto**: todos los tokens de copia y personalización, contados a la longitud de su marcador de posición (no su valor resuelto)
+* **Fragmentos**: todos los fragmentos a los que se hace referencia se expanden en línea, por lo que cada fragmento aporta su peso total de HTML/CSS al total
+* **Los bloques condicionales (if-else)** - **todas las ramas** se incluyen en la estimación de tamaño en el momento de la creación, porque las condiciones no se evalúan hasta el momento del envío
+* **Imágenes**: solo se cuenta la referencia de imagen (URL src), no los datos de imagen binaria en sí
+
+### Por qué la estimación puede diferir del tamaño entregado {#size-estimate-difference}
+
+El tamaño mostrado es una estimación del límite superior en el peor de los casos, no el correo electrónico exacto que recibirá un destinatario. Puede diferir por las siguientes razones:
+
+* **Contenido condicional**: a la hora de envío, solo se representa la rama que coincide con el perfil del destinatario. Una plantilla que muestre 120 KB en el editor puede generar un mensaje de correo electrónico de 60 KB para la mayoría de los destinatarios.
+* **tokens de Personalization**: los tokens de marcador de posición se cuentan en su longitud de token sin procesar. Los valores resueltos suelen ser más cortos.
+* **Optimización de tamaño de HTML**: si la opción **[!UICONTROL Optimizar tamaño de HTML]** está habilitada, los espacios en blanco, los comentarios y los caracteres redundantes se eliminan en el momento del envío, lo que reduce la carga útil final. [Más información](create-email.md#optimize-html-size)
+
+### Significado de las advertencias de tamaño para los autores {#size-warnings}
+
+Las advertencias de tamaño (por ejemplo, HTML que supera los 100 KB) son **señales proactivas** que le ayudarán a optimizar su correo electrónico antes de enviarlo; no son bloques duros y no reflejan el tamaño exacto que verán los destinatarios. Existen para ayudar a evitar:
+
+* Cortes de correo electrónico recortados por Gmail, que recorta mensajes a aproximadamente 102 KB de HTML
+* Representación lenta en dispositivos móviles o en conexiones de bajo ancho de banda
