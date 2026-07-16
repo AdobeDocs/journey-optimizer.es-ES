@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -28,10 +26,9 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Configuración de Adobe Experience Manager"
+>title="Configuración de Adobe Experience Manager"
 >abstract="Conecte una zona protegida a un repositorio de Adobe Experience Manager configurando el acceso de solo autor o publicación, los dominios personalizados y la autenticación para que los especialistas en marketing puedan utilizar los fragmentos de contenido de Adobe Experience Manager en sus recorridos y campañas."
 
 >[!CONTEXTUALHELP]
@@ -147,4 +144,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
