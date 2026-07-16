@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 2%
+source-wordcount: 1086
+ht-degree: 1%
 
 ---
 
@@ -132,3 +132,65 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 El siguiente vídeo muestra un caso de uso similar que aprovecha los datos contextuales de un recorrido para personalizar un correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428527?captions=spa&quality=12)
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+Esta página muestra un caso de uso de notificaciones push de estado de pedido que combina tres tipos de personalización (campo de perfil, decisión de oferta y datos de recorrido contextual) en un solo mensaje.
+
+**Intenciones**
+
+* Creación de un recorrido con un evento de pedido y una actividad de acción push
+* Añadir la personalización basada en perfiles (nombre del cliente) al título push
+* Añadir personalización de datos contextuales (número de pedido, nombre de elemento, progreso de pedido) desde el evento de recorrido
+* Añadir personalización de la decisión de oferta al cuerpo push
+* Pruebe el recorrido en el modo de prueba y publique
+
+>[!TAB Glosario]
+
+* **Personalización del perfil**: Personalization basado en un campo de perfil como el nombre, al que se accede a través de `profile.*` atributos. *(específico del producto)*
+* **Decisión de oferta**: Personalization basado en variables de administración de decisiones; insertado desde el menú Decisiones de oferta en el editor de personalización. *(específico del producto)*
+* **Personalización contextual**: Personalization basado en datos del recorrido: campos de evento (por ejemplo: número de pedido, nombre de elemento, progreso de pedido) y propiedades de recorrido (por ejemplo: ID de recorrido, errores). Solo está disponible cuando un recorrido ha pasado datos contextuales al mensaje. *(específico del producto)*
+* **Propiedades del Recorrido**: campos técnicos relacionados con el recorrido de un perfil determinado, como el identificador de recorrido o los errores encontrados, accesibles en Atributos contextuales > Journey Orchestration. *(específico del producto)*
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** personalización contextual — variantes: personalización basada en el contexto, personalización de contexto de recorrido
+* **Sinónimos:** &quot;Journey Orchestration&quot; (etiqueta de interfaz de usuario en el menú Atributos contextuales) = origen de datos de recorrido contextual
+* **No confunda:** La personalización del perfil (valores de campo de perfil estático, siempre disponibles) ≠ la personalización contextual (datos de propiedades y evento de recorrido, solo disponibles después de que el contexto de recorrido se haya pasado al mensaje) ≠ la personalización de decisión de oferta (variables de administración de decisiones)
+
+>[!TAB Protecciones y limitaciones]
+
+* Los atributos contextuales solo están disponibles en el editor de personalización si un recorrido ha pasado datos contextuales al mensaje.
+* El modo de prueba solo funciona con perfiles de prueba; el identificador de perfil introducido en la configuración de evento debe corresponder a un perfil de prueba existente.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué tres tipos de personalización se combinan en este caso de uso?**
+
+Personalización de perfil (nombre del cliente de `profile.*`), personalización de datos contextuales (número de pedido, nombre del elemento y progreso del pedido desde el evento de recorrido) y personalización de decisión de oferta (una oferta de administración de decisiones insertada en el cuerpo).
+
+**Q: ¿De dónde provienen los atributos contextuales en el editor de personalización?**
+
+Los atributos contextuales provienen de eventos colocados antes de la actividad de acción del canal en el recorrido y de propiedades técnicas del recorrido. Aparecen en el editor de personalización en Atributos contextuales > Journey Orchestration > Eventos (campos de evento) o Propiedades de Recorrido (metadatos de recorrido).
+
+**Q: ¿Cuáles son los requisitos previos para este caso de uso?**
+
+Se debe configurar un evento de pedido con campos de número de pedido, estado y nombre de artículo, y debe existir una decisión en la administración de decisiones.
+
+**Q: ¿Cómo pruebo la notificación push en este caso de uso?**
+
+Haga clic en el botón Test del recorrido, luego haga clic en &quot;Déclencheur de un evento&quot; e introduzca los valores de evento en la ventana Event configuration. El modo de prueba solo funciona con perfiles de prueba; el identificador de perfil debe corresponder a un perfil de prueba existente.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: ae5284c7 -->

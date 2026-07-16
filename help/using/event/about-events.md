@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
+source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
-source-wordcount: 2181
-ht-degree: 27%
+source-wordcount: 2407
+ht-degree: 15%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Los eventos son los déclencheur en tiempo real que inician sus recorridos; compare los tipos de cualificación unitaria, empresarial y de audiencia para elegir el adecuado para cada caso de uso.
+**En esta página:** Comprenda los tres tipos de eventos, sus requisitos de esquema, las restricciones clave y cómo elegir el adecuado para su caso de uso.
 
 >[!ENDSHADEBOX]
 
@@ -48,48 +48,75 @@ ht-degree: 27%
 >title="Eventos de recorrido"
 >abstract="Journey Optimizer admite tres tipos de eventos en los recorridos: eventos unitarios, vinculados al comportamiento de una persona específica (como una compra o un hito de lealtad); eventos empresariales, activados por una ocurrencia global (como una cancelación de un vuelo o una actualización de stock) y eventos de calificación de público, activados cuando un perfil entra o sale de un público. Utilice eventos para activar recorridos y orquestar las acciones adecuadas para sus perfiles."
 
-Utilice eventos para almacenar en déclencheur los recorridos individualmente y enviar mensajes en tiempo real a cada usuario cuando entre en el recorrido.
+Utilice eventos para almacenar en déclencheur los recorridos individualmente y enviar mensajes en tiempo real a cada usuario cuando entre en el recorrido. En la configuración de eventos, se configuran los eventos esperados en los recorridos. Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
+
+La configuración del evento es **obligatoria** y la debe realizar un ingeniero de datos.
 
 >[!IMPORTANT]
 >
->Para conocer los requisitos y limitaciones de eventos (flujo continuo, servicio de consultas, ingesta por lotes), consulte [protecciones de Recorrido: eventos](../start/guardrails.md#events-g).
+>* Antes de configurar eventos, asegúrese de que dispone de: la función **Administrador de Journey Optimizer** o **Ingeniero de datos**, un esquema XDM con **Perfil del cliente en tiempo real** habilitado, un extremo de flujo continuo activo y acceso a la zona protegida correcta.
+>
+>* Para conocer los requisitos y limitaciones de eventos (flujo continuo, servicio de consultas, ingesta por lotes), consulte [protecciones de Recorrido: eventos](../start/guardrails.md#events-g).
 
-En la configuración de eventos, se configuran los eventos esperados en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de streaming para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile). Puede utilizar varios eventos (en diferentes pasos de un recorrido) y varios recorridos pueden utilizar el mismo evento.
+**Quién hace qué:**
 
-La configuración del evento es **obligatoria** y la debe realizar un ingeniero de datos.
+| Tarea | Función |
+| --- | --- |
+| Diseño y creación del esquema XDM | Ingeniero de datos |
+| Configuración del extremo de flujo continuo | Ingeniero de datos |
+| Configurar eventos unitarios y empresariales (**Administración > Eventos**) | Ingeniero de datos o administrador |
+| Uso de eventos en un recorrido | practicante de recorrido |
+| Configurar eventos de cualificación de audiencia (seleccionados en el lienzo) | practicante de recorrido |
 
 Puede configurar tres tipos de eventos: **Eventos unitarios**, **Eventos empresariales** y **Eventos de calificación de audiencias**.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
 
+➡️ [Descubra esta funcionalidad en vídeo](#video)
+
 ## Eventos unitarios {#unitary-events}
 
-**Los eventos unitarios** están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden basarse en reglas o generarse por el sistema. Para aprender a crear un evento unitario, consulte esta [página](../event/about-creating.md).
+**Los eventos unitarios** están vinculados a una persona. Se refieren al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Optimizer] en los recorridos para orquestar las mejores próximas acciones. Los eventos unitarios pueden basarse en reglas o generarse por el sistema. [Aprenda a crear un evento unitario](../event/about-creating.md).
 
-Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante cinco minutos. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+**Requisito de esquema:** Un esquema XDM ExperienceEvent con una identidad principal basada en persona y **Perfil del cliente en tiempo real** habilitado.
+
+**Ejemplo:** Un cliente agrega elementos al carro de compras y cierra el explorador. Se activa un evento abandonado por el carro de compras, el perfil entra en la recorrido en tiempo real y recibe un correo electrónico de recuperación una hora después.
+
+>[!NOTE]
+>
+>Los recorridos unitarios incluyen una protección de reentrada: la reentrada del perfil se bloquea de forma predeterminada durante 5 minutos después de los déclencheur del recorrido. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil y otro llega a las 12:03, el recorrido no se reiniciará para ese perfil.
 
 ## Eventos empresariales {#business-events}
 
-Los eventos de **Empresa** no están vinculados a un perfil específico. Por ejemplo, puede ser una alerta de noticias, una actualización deportiva, un cambio o cancelación de vuelo, una actualización de inventario, eventos meteorológicos, etc. Aunque estos eventos no son específicos de un perfil, pueden ser de interés para cualquier número de perfiles: personas suscritas a temas de noticias particulares, pasajeros en un vuelo, compradores interesados en un producto agotado, etc. Los eventos empresariales siempre están basados en reglas. Cuando suelta un evento empresarial en un recorrido, agrega automáticamente una actividad **Leer audiencia** justo después. Aprenda a crear un evento empresarial [en esta página](../event/about-creating-business.md).
+Los eventos de **Empresa** no están vinculados a un perfil específico. Por ejemplo, puede ser una alerta de noticias, una actualización deportiva, un cambio o cancelación de vuelo, una actualización de inventario, eventos meteorológicos, etc. Aunque estos eventos no son específicos de un perfil, pueden ser de interés para cualquier número de perfiles: personas suscritas a temas de noticias particulares, pasajeros en un vuelo, compradores interesados en un producto agotado, etc. Los eventos empresariales siempre están basados en reglas. Cuando suelta un evento empresarial en un recorrido, agrega automáticamente una actividad **Leer audiencia** justo después. [Aprenda a crear un evento empresarial](../event/about-creating-business.md).
+
+**Requisito de esquema:** Un esquema XDM de serie temporal con una identidad principal que no es de persona y los campos `_id` y `timestamp` rellenados. Planifique un retraso de exportación de audiencia de 15 minutos a una hora como máximo.
+
+**Ejemplo:** Una aerolínea cancela un vuelo. Se desencadena un evento empresarial, [!DNL Journey Optimizer] lee la audiencia de los pasajeros afectados y envía a cada uno una notificación de nueva reserva.
 
 ## Eventos de calificación de público {#audience-qualification-events}
 
 Se activa un evento **calificación de audiencia** cuando un perfil entra o sale de una audiencia. Por ejemplo, un cliente que cruza un umbral de gasto en fidelidad entra en la audiencia de nivel Gold; esa calificación déclencheur el recorrido de ese perfil en tiempo real (para audiencias de streaming) o en la siguiente evaluación por lotes. A diferencia de los eventos unitarios, la calificación de audiencia permite crear lógicas de activación complejas aprovechando toda la potencia de las definiciones de audiencia, sin requerir cambios de implementación para enviar un nuevo evento. Más información sobre [eventos de calificación de audiencia](../building-journeys/audience-qualification-events.md).
 
+**Requisito de esquema:** No se requiere ningún esquema adicional; el evento se basa en definiciones de audiencia existentes ya creadas en Adobe Experience Platform.
+
+**Ejemplo:** El gasto de lealtad de un cliente cruza el umbral del nivel Gold. Su perfil se clasifica para la audiencia Gold, el recorrido déclencheur automáticamente y envía una recompensa de bienvenida.
+
 >[!NOTE]
 >
 >Los eventos de cualificación de audiencia no se configuran en **Administración > Eventos**; se seleccionan directamente en el lienzo de recorrido como primer paso de un recorrido.
 
-## Eventos unitarios o empresariales de un vistazo {#event-comparison}
+## Tipos de eventos de un vistazo {#event-comparison}
 
-| | Evento unitario | Evento empresarial |
-|---|---|---|
-| **Vinculado a un perfil?** | Sí, se activa por la acción de un individuo específico. | No: se activa por una incidencia externa no vinculada a una persona. |
-| **Comportamiento de entrada** | Un perfil entra en el recorrido en tiempo real. | Varios perfiles introducen mediante un paso automático de Lectura de Audiencia. |
-| **Casos de uso habituales** | Recuperación del abandono del carro de compras, envío de formularios, inicio de sesión en la aplicación, hito de lealtad. | Cancelación de vuelo, alerta de reposición de stock, noticias de última hora, evento meteorológico. |
-| **Cómo inicia el recorrido** | Entrada basada en eventos: no se necesita audiencia. | Evento empresarial + audiencia de lectura automática (añadida por Journey Optimizer). |
-| **Múltiple por recorrido?** | Sí, se pueden escuchar varios eventos unitarios a través de pasos de recorrido. | No: sólo un evento empresarial por recorrido, realizado al principio. |
-| **Tipo de ID de evento** | Basado en reglas o generado por el sistema. | Siempre basado en reglas. |
+| | Evento unitario | Evento empresarial | Evento de calificación de audiencia |
+| --- | --- | --- | --- |
+| **Vinculado a un perfil?** | Sí, se activa por la acción de un individuo específico. | No: se activa por una incidencia externa no vinculada a una persona. | Sí: se activa cuando un perfil entra o sale de una audiencia. |
+| **Comportamiento de entrada** | Un perfil entra en el recorrido en tiempo real. | Varios perfiles introducen mediante un paso automático de Lectura de Audiencia. | Se introduce un perfil cuando cambia la pertenencia a la audiencia. |
+| **Casos de uso habituales** | Recuperación del abandono del carro de compras, envío de formularios, inicio de sesión en la aplicación, hito de lealtad. | Cancelación de vuelo, alerta de reposición de stock, noticias de última hora, evento meteorológico. | Nuevo compromiso de los clientes caducados, cambios en el nivel de lealtad, flujos de incorporación de VIP. |
+| **Cómo inicia el recorrido** | Entrada basada en eventos: no se necesita audiencia. | Evento empresarial + audiencia de lectura automática (añadida por Journey Optimizer). | El perfil entra o sale de una audiencia definida. |
+| **Múltiple por recorrido?** | Sí, se pueden escuchar varios eventos unitarios a través de pasos de recorrido. | No: sólo un evento empresarial por recorrido, realizado al principio. | Sí, se puede combinar con otras actividades. |
+| **Tipo de ID de evento** | Basado en reglas o generado por el sistema. | Siempre basado en reglas. | Sin ID de evento, según la evaluación de pertenencia a audiencias. |
+| **Configurado en la administración?** | Sí | Sí | No: se selecciona directamente en el lienzo de recorrido. |
 
 >[!NOTE]
 >
@@ -111,11 +138,25 @@ Para los eventos **unitarios**, existen dos tipos de ID de evento:
 
 >[!NOTE]
 >
->Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través de **Query Service** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en esos eventos y use la actividad **Leer público** en su lugar. Técnicamente, la calificación de audiencias puede utilizarse, pero puede provocar desafíos descendentes en función de las acciones utilizadas. Estos datos no necesariamente tienen que ir al perfil en tiempo real. Si desea utilizar los eventos para la segmentación, le recomendamos que habilite el conjunto de datos para el perfil.
+>Solo los eventos transmitidos pueden almacenar en déclencheur los recorridos. El(la) siguiente **no se puede** usar para almacenar en déclencheur un recorrido:
+>
+>* Eventos ingeridos en lote
+>* Eventos insertados mediante **servicio de consultas**
+>* Eventos de conjuntos de datos internos de [!DNL Journey Optimizer] (comentarios de mensajes, seguimiento de correo electrónico y similares)
+>
+>Si no puede obtener eventos de flujo continuo, genere una audiencia basada en esos eventos y use una actividad **Leer audiencia** en su lugar. Para usar eventos solo para la segmentación, habilita el conjunto de datos para **Perfil del cliente en tiempo real**.
 
 ## Cómo elegir {#choose-event-type}
 
 Use los siguientes criterios para seleccionar el tipo de evento adecuado para el recorrido; la pregunta clave es: **¿está activando una acción para una persona específica o está difundiendo a muchos perfiles?** [Más información sobre los tipos de recorrido](../building-journeys/journey.md#journey-types).
+
+Cada tipo de evento se asigna a un patrón de recorrido específico:
+
+| Tipo de evento | patrón de recorrido |
+| --- | --- |
+| Evento unitario | Recorrido en tiempo real de un solo perfil: déclencheur inmediatamente cuando una persona actúa |
+| Evento empresarial | Recorrido de difusión: se dirige a muchos perfiles mediante un paso automático de Lectura de audiencia. |
+| Evento de calificación de audiencia | Recorrido activado por segmentos: se activa cuando un perfil entra o sale de una audiencia |
 
 * **Elija un evento unitario** cuando el déclencheur esté vinculado a un individuo específico; por ejemplo, una compra, un envío de formulario o un hito de lealtad. Los eventos unitarios requieren una identidad principal basada en persona en el esquema e inician la recorrido inmediatamente para ese perfil. [Aprenda a configurar un evento unitario](../event/about-creating.md).
 
@@ -127,18 +168,28 @@ Use los siguientes criterios para seleccionar el tipo de evento adecuado para el
 >
 >Los eventos empresariales no se pueden usar en el mismo recorrido que los eventos unitarios o las actividades de calificación de audiencia.
 
-## Ciclo de datos {#data-cycle}
+## Restricciones clave {#key-constraints}
 
-Los eventos son llamadas API POST. Los eventos se envían a Adobe Experience Platform a través de las API de ingesta de transmisión. El destino URL de los eventos enviados a través de las API de mensajería transaccional se denomina &quot;entrada&quot;. La carga útil de eventos sigue el formato XDM.
+Utilice este resumen para planificar la implementación antes de configurar los eventos.
 
-La carga útil contiene la información requerida por las API de ingesta de transmisión para funcionar (en el encabezado) y la información requerida por [!DNL Journey Optimizer] para funcionar y la información que se utilizará en los recorridos (en el cuerpo, por ejemplo, la cantidad de un carro de compras abandonado). Existen dos modos para la ingesta de streaming: autenticado y no autenticado. Para obtener más información sobre las API de ingesta de streaming, consulte [este vínculo](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es){target="_blank"}.
+| Restricción | Detalles |
+| --- | --- |
+| Límite de rendimiento | 5000 eventos por segundo por organización, en todos los entornos limitados (recorridos de audiencia unitarios y de lectura) |
+| Bloque de reentrada | Reentrada del perfil bloqueada durante 5 minutos después de un déclencheur de recorrido unitario |
+| Eventos empresariales por recorrido | Máximo 1, debe ser el primer paso |
+| Combinar empresa y unidad en un recorrido | No compatible |
+| Eventos por lotes | No se pueden almacenar en déclencheur los recorridos: use una actividad **Leer audiencia** en su lugar |
+| Calificación de audiencias: administración | No configurado en **Administración > Eventos** — seleccionado directamente en el lienzo de recorrido |
+| Edición de un evento activo | Solo puede cambiar el nombre, la descripción o agregar campos de carga útil |
 
-Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
+## Cómo llegan los eventos a Journey Optimizer {#data-cycle}
 
-Para los eventos generados por el sistema, la canalización filtra los eventos que tienen una carga útil que contiene [!DNL Journey Optimizer] eventIDs (consulte el proceso de creación de eventos que se muestra a continuación) proporcionados por [!DNL Journey Optimizer] y contenidos en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento con la condición eventID. Estos eventos son escuchados por [!DNL Journey Optimizer] y se activa el recorrido correspondiente.
+Los eventos deben enviarse a [!DNL Journey Optimizer] como llamadas POST a través de [API de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es){target="_blank"}. La carga útil debe seguir el formato XDM y el esquema de evento debe tener habilitado **Perfil del cliente en tiempo real**.
+
+Se admiten los modos de flujo continuo autenticado y no autenticado. Los eventos ingeridos por lotes y los eventos de conjuntos de datos [!DNL Journey Optimizer] internos (comentarios de mensajes, seguimiento de correo electrónico y similares) no se pueden usar para almacenar en déclencheur los recorridos; use una actividad **Leer audiencia** en su lugar para esos casos de uso.
 
 
-## Acerca del rendimiento de eventos de Recorrido {#event-thoughput}
+## Límites de rendimiento de eventos {#event-throughput}
 
 Adobe Journey Optimizer aplica límites de rendimiento independientes por tipo de evento, a nivel de organización, en todas las zonas protegidas:
 
@@ -147,11 +198,11 @@ Adobe Journey Optimizer aplica límites de rendimiento independientes por tipo d
 
 Estos límites se aplican a todos los eventos usados en recorridos activos, que incluyen recorridos **Live**, **Dry run**, **Cerrado** y **Pausado**. Cuando se alcanza un límite, los nuevos eventos se ponen en cola y se procesan a 5000 por segundo hasta que se vacía la cola.
 
-Para obtener más información sobre las tasas de procesamiento de recorridos y cómo afectan los distintos tipos de recorridos al rendimiento, consulte [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
+Para obtener más información sobre las tasas de procesamiento de recorridos y cómo afectan los distintos tipos de recorridos al rendimiento, [obtenga más información sobre las tasas de procesamiento de recorridos](../building-journeys/entry-management.md#journey-processing-rate).
 
 Para estas cuotas se contabilizan los siguientes tipos de eventos:
 
-* **Eventos unitarios externos**: incluye eventos basados en reglas y generados por el sistema. Si el mismo evento sin procesar cumple los requisitos para varias definiciones de regla, cada regla completa se cuenta como un evento independiente. Más detalles a continuación.
+* **Eventos unitarios externos**: incluye eventos basados en reglas y generados por el sistema. Si el mismo evento sin procesar cumple los requisitos para varias definiciones de regla, cada regla coincidente cuenta como un evento independiente para la cuota.
 
 * **Eventos de calificación de audiencias**: Si se usa la misma audiencia de flujo continuo en varios recorridos, cada uso se cuenta por separado. Por ejemplo, si se utiliza la misma audiencia en una actividad de calificación de audiencia en dos recorridos, se cuentan dos eventos.
 
@@ -169,24 +220,44 @@ Para estas cuotas se contabilizan los siguientes tipos de eventos:
 >
 >Excepto en los eventos de espera y reanudación, todos los demás tipos de eventos también se contabilizan en la cuota cuando se utilizan en recorridos basados en audiencias de lectura.
 
-### Acerca de los eventos sin procesar que cumplen los requisitos para varias definiciones de regla
-
-El mismo evento sin procesar puede cumplir los requisitos para varias definiciones de regla en los recorridos. Cuando se configura un evento en la sección **Administration** para el mismo esquema de evento, se pueden definir varias reglas de evento. Supongamos, por ejemplo, que tenemos un evento de compra con campos city y purchaseValue. Consideremos los siguientes escenarios:
-
-1. Se crea un evento **E1** denominado `newYorkPurchases` con una definición de regla que indica `city=='New York'`. Este evento puede utilizarse en 10 recorridos, pero se contará solo como 1 evento cuando llegue.
-
-1. Ahora supongamos que también se crea un evento **E2** denominado `highValuePurchases` con `purchaseValue > 1000` como definición de regla, en el mismo esquema de evento que **E1**. En este caso, el mismo evento entrante se evaluará con dos reglas: `newYorkPurchases` y `highValuePurchases`. Ahora puede ocurrir que una compra en Nueva York también sea una compra de alto valor.
-
-   En este caso, Journey Optimizer creará dos eventos, **E1** y **E2**, a partir del mismo evento entrante, lo que hará que este solo evento entrante se cuente como dos eventos.
-
-   Tenga en cuenta que estos eventos comienzan a contarse cuando se utilizan en un recorrido activo, incluido el recorrido **Activo**, **Ejecución en seco**, **Cerrado** y **En pausa**.
-
 ## Actualización y eliminación de un evento {#update-event}
 
 
 Para evitar romper los recorridos existentes, cuando edita un evento utilizado en un recorrido **Borrador**, **Activo** o **Cerrado**, solo puede cambiar el nombre, la descripción o agregar campos de carga útil.
 
 No se puede eliminar ningún evento utilizado en los recorridos **Live**, **Draft** o **Closed**. Para eliminar un evento utilizado, debe detener los recorridos que lo utilicen o eliminarlo de los recorridos de borrador en los que se utilice. Puede comprobar el campo **[!UICONTROL Utilizado en]**. Muestra el número de recorridos que utilizan ese evento en particular. Puede hacer clic en el botón **[!UICONTROL Ver recorridos]** para mostrar la lista de los recorridos correspondientes.
+
+## Preguntas frecuentes {#faq}
+
+**¿Puedo usar el mismo evento en varios recorridos?**
+Sí: varios recorridos pueden escuchar el mismo evento simultáneamente.
+
+**¿Puedo combinar un evento empresarial y un evento unitario en el mismo recorrido?**
+No: los eventos empresariales no se pueden usar en el mismo recorrido que los eventos unitarios o las actividades de calificación de audiencia.
+
+**¿Necesito configurar algo para los eventos de calificación de audiencia?**
+No — los eventos de cualificación de audiencia no están configurados en **Administración > Eventos**. Seleccione la audiencia directamente en el lienzo de recorrido como primer paso.
+
+**¿Puedo usar datos ingeridos por lotes para almacenar en déclencheur un recorrido?**
+No, solo los eventos transmitidos pueden almacenar en déclencheur los recorridos. Para los datos por lotes, cree una audiencia y use una actividad **Leer audiencia** en su lugar.
+
+**Mi recorrido no se está activando. ¿Qué debo comprobar?**
+
+* Compruebe que su esquema de evento tenga habilitado **Perfil del cliente en tiempo real**.
+* Confirme que los eventos se transmiten por secuencias: los eventos introducidos por lotes no pueden almacenar en déclencheur los recorridos.
+* Para los eventos basados en reglas, compruebe que la condición de regla coincida con los campos de carga útil entrantes.
+* Compruebe que el recorrido esté en estado **Activo** y que el perfil cumpla las condiciones de entrada.
+
+## Próximos pasos {#next-steps}
+
+* [Configuración de un evento unitario](../event/about-creating.md)
+* [Configuración de un evento empresarial](../event/about-creating-business.md)
+* [Más información sobre los eventos de calificación de audiencias](../building-journeys/audience-qualification-events.md)
+* [Administrar entrada y reentrada de recorrido](../building-journeys/entry-management.md)
+
+>[!TIP]
+>
+>Si el recorrido no se activa, compruebe que el esquema de eventos tenga habilitado **Perfil del cliente en tiempo real** y que los eventos se transmitan por secuencias; los eventos ingeridos por lotes no pueden almacenar en déclencheur los recorridos.
 
 ## Vídeotutoriales {#video}
 

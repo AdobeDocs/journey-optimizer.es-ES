@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 3893
 ht-degree: 1%
 
 ---
@@ -1071,3 +1071,80 @@ Use [modo de prueba de recorrido](../building-journeys/testing-the-journey.md) p
 **Casos de uso de Personalization:** [Correo electrónico de abandono del carro de compras](personalization-use-case-helper-functions.md) | [Notificación de estado del pedido](personalization-use-case.md)
 
 **Diseño de mensaje:** [Introducción al diseño de correo electrónico](../email/get-started-email-design.md) | [Crear notificaciones push](../push/create-push.md) | [Crear mensajes SMS](../mobile/create-mobile-message.md) | [Previsualizar y probar el contenido](../content-management/preview-test.md)
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo utilizar la sintaxis de Handlebars `{{#each}}` para recorrer en bucle matrices de orígenes contextuales (eventos, respuestas de acciones personalizadas, búsquedas de conjuntos de datos y propiedades técnicas) en la personalización de mensajes, y cómo trabajar con matrices en la sintaxis de expresiones de recorrido al configurar actividades de recorrido.
+
+**Intenciones**
+
+* Itere en los datos de la matriz de eventos (por ejemplo, elementos del carro de compras, elementos de pedidos) en la personalización de mensajes mediante `{{#each}}`
+* Itere en matrices de respuestas de acciones personalizadas (por ejemplo, recomendaciones de productos) en mensajes
+* Iterar en matrices de resultados de búsqueda de conjuntos de datos en mensajes
+* Combinación de datos de varias fuentes contextuales en un único mensaje personalizado
+* Pasar valores de matriz a parámetros de acción personalizados mediante sintaxis de expresión de recorrido
+* Usar matrices como claves de búsqueda en actividades de búsqueda de conjuntos de datos
+* Aplique las prácticas recomendadas para las reservas de matrices vacías, los nombres de variables, el rendimiento y el ámbito de fragmentos de expresiones
+
+>[!TAB Glosario]
+
+* **Handlebars**: idioma de creación de plantillas utilizado en la personalización de mensajes de Journey Optimizer para la iteración (`{{#each}}`) y el procesamiento condicional (`{{#if}}`). *(específico del producto)*
+* **`{{#each}}`helper**: sintaxis de Handlebars para repetir en una matriz; cada iteración expone el elemento actual a través de una variable con nombre (por ejemplo, `|product|`). *(específico del producto)*
+* **Datos contextuales**: datos disponibles en el momento del envío del mensaje procedentes de fuentes de recorrido (eventos, respuestas de acciones personalizadas, búsquedas de conjuntos de datos y propiedades técnicas de recorrido) en lugar de atributos de perfil estáticos. *(específico del producto)*
+* **`currentEventField`**: referencia utilizada en expresiones de recorrido (no en Handlebars) para hacer referencia a cada elemento de una matriz de eventos durante las operaciones de filtrado o asignación.
+* **`currentActionField`**: se utiliza en expresiones de recorrido para hacer referencia a cada elemento en una colección de respuestas de acción personalizada.
+* **`currentDataPackField`**: se utiliza en expresiones de recorrido para hacer referencia a cada elemento de una colección de orígenes de datos.
+* **`serializeList`**: función de expresión de recorrido que convierte una lista de valores en una cadena delimitada (por ejemplo, separada por comas), adecuada para su uso como parámetro de consulta.
+* **Identificador suplementario**: Identificador de nivel de recorrido que distingue las instancias de recorrido simultáneas activadas por el mismo perfil; se usa para filtrar una matriz en el elemento correspondiente a la instancia actual.
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** Iteración de Handlebars — variantes: bucle `{{#each}}`, cada bucle, iteración de matriz
+* **No confunda:** La sintaxis de Handlebars `{{#each}}` (utilizada en el contenido del mensaje para la iteración y visualización) ≠ la sintaxis de la expresión de recorrido (utilizada en la configuración de la actividad de recorrido — usa funciones como `first`, `all`, `serializeList`)
+* **No confunda:** `currentEventField` (expresiones de recorrido sobre matrices de eventos) ≠ `currentActionField` (colecciones de respuestas de acciones personalizadas) ≠ `currentDataPackField` (colecciones de orígenes de datos)
+* **No confunda:** `@index` / `@first` / `@last` (Variables especiales de Handlebars, solo disponibles en `{{#each}}` bucles en el contenido del mensaje) ≠ funciones `first` / `head` (funciones de expresión de recorrido para extraer elementos únicos, utilizadas en la configuración de la actividad de recorrido)
+
+>[!TAB Protecciones y limitaciones]
+
+* Los recorridos no pueden crear bucles dinámicos en los que un nodo de acción se ejecute varias veces por elemento de matriz; esto se realiza por diseño para evitar problemas de rendimiento. En su lugar, pase toda la matriz o una lista serializada a una única acción personalizada.
+* Mantenga las cargas útiles de eventos por debajo de 50 KB en total.
+* Las cargas útiles de respuesta de acción personalizada deben ser inferiores a 100 KB.
+* Limite el número de claves de búsqueda del conjunto de datos y entidades devueltas para el rendimiento.
+* Los fragmentos de expresiones no pueden recibir variables de ámbito de bucle (por ejemplo, el elemento de iteración actual `{{#each}}`) como parámetros; se trata de una limitación conocida. En su lugar, utilice variables globales o lógica en línea.
+* Los id. de evento numéricos deben incluirse entre comillas invertidas en las rutas de expresión (p. ej., `` context.journey.events.`1697323153`.fieldName ``); sin ellas, el analizador de PQL genera un error de sintaxis.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Cuál es la diferencia entre la sintaxis de Handlebars y la sintaxis de expresión de recorrido al trabajar con matrices?**
+
+Handlebars `{{#each}}` se utiliza en el contenido del mensaje para la iteración y visualización. La sintaxis de expresión de recorrido, que utiliza funciones como `first`, `all` y `serializeList`, se utiliza en la configuración de la actividad de recorrido (por ejemplo, parámetros de acción personalizados, condiciones). Son sintaxis distintas que se utilizan en contextos diferentes.
+
+**Q: ¿Puedo crear un bucle en un nodo de acción de recorrido para que se ejecute una vez por elemento de matriz?**
+
+No. Los recorridos no pueden crear bucles dinámicos que ejecuten un nodo de acción varias veces por elemento. En su lugar, pase toda la matriz o una lista serializada a una única acción personalizada que procese todos los elementos, o utilice la agregación externa.
+
+**Q: ¿Puedo pasar el elemento de bucle actual a un fragmento de expresión dentro de un bucle `{{#each}}`?**
+
+No. Los fragmentos de expresión no pueden recibir variables de ámbito de bucle como parámetros. Utilice variables globales definidas fuera del bucle o incluya la lógica de personalización directamente dentro del bucle en lugar de utilizar un fragmento.
+
+**Q: ¿Cómo se muestra el contenido de reserva cuando una matriz está vacía?**
+
+Utilice la cláusula `{{else}}` en el bloque `{{#each}}`. El contenido dentro de `{{else}}` se procesa cuando la matriz no tiene elementos.
+
+**Q: ¿Qué significan `@index`, `@first` y `@last` dentro de un bucle `{{#each}}`?**
+
+Estas son variables Handlebars especiales disponibles solamente dentro de bucles `{{#each}}` en el contenido del mensaje: `@index` es el índice de iteración actual basado en 0, `@first` es verdadero para la primera iteración y `@last` es verdadero para la última iteración.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->

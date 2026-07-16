@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, p
 * Mueva el fragmento a una carpeta. [Más información](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Métodos abreviados de inicio rápido {#quick-launch-fragments}
+
+Desde el botón **[!UICONTROL Más acciones]** situado junto a cada fragmento, también están disponibles los siguientes métodos abreviados de inicio rápido:
+
+* **[!UICONTROL Editar]**: abre el editor de fragmentos directamente.
+* **[!UICONTROL Abrir]**: abre los detalles del fragmento y la pantalla de vista previa.
+* **[!UICONTROL Descartar borrador]**: descarte la versión de borrador actual y vuelva a la última versión publicada.
+
+![](assets/fragment-quick-launch.png)
 
 ### Acciones masivas {#bulk-actions-fragments}
 

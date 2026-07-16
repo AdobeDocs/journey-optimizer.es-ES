@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
 workflow-type: tm+mt
-source-wordcount: 4990
-ht-degree: 7%
+source-wordcount: 4991
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ Utilice las propiedades del recorrido para definir la configuración global del 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propiedades del recorrido"
->abstract="Las propiedades de recorrido contienen la configuración global de este recorrido, incluido el nombre, las etiquetas, las reglas de entrada, el huso horario, las fechas, el tiempo de espera y la administración de conflictos. Los parámetros de solo lectura están ocultos de forma predeterminada. Las opciones disponibles varían en función del estado del recorrido, los permisos y la configuración del producto."
+>abstract="Las propiedades del recorrido contienen las opciones globales de este recorrido, incluidos el nombre, las etiquetas, las reglas de entrada, el huso horario, las fechas, el tiempo de espera y la administración de conflictos. Los parámetros de solo lectura están ocultos de forma predeterminada. Las opciones disponibles varían en función del estado del recorrido, los permisos y la configuración del producto."
 
 ## Acceso a las propiedades de un recorrido {#access-properties}
 
@@ -115,7 +115,7 @@ La administración de la entrada del perfil depende del tipo de recorrido. Obten
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Permitir la reentrada"
->abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Desmarcar la opción **Permitir la reentrada** impide que una persona vuelva a entrar al recorrido, por ejemplo, para ofrecer un regalo de una sola vez cuando una persona entra a una tienda."
+>abstract="De forma predeterminada, los nuevos recorridos permiten la reentrada. Desmarcar la opción **Permitir reentrada** impide que una persona vuelva a iniciar el recorrido, por ejemplo, si quiere ofrecer un regalo único cuando una persona entra en una tienda."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desmarcar la opción **Permitir la reentrada** para recorridos de &quot;una sola vez&quot;, por ejemplo, si desea ofrecer un regalo de una sola vez cuando una persona entra a una tienda.
@@ -125,7 +125,7 @@ De forma predeterminada, los nuevos recorridos permiten la reentrada. Puede desm
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Período de espera de reentrada"
->abstract="El período de espera de reentrada es el tiempo de espera antes de que un perfil pueda volver a entrar en el recorrido en recorridos unitarios. Evita que los usuarios vuelvan a entrar en la recorrido durante un tiempo determinado. Duración máxima: 90 días."
+>abstract="El período de espera de reentrada es el tiempo de espera antes de que un perfil pueda volver a entrar en recorridos unitarios. Evita que los usuarios vuelvan a entrar en el recorrido durante un tiempo determinado. Duración máxima: 90 días."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Administración de la entrada del perfil"
 
 Cuando se activa la opción **Permitir la reentrada**, se muestra el campo **Período de espera de reentrada**. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en el caso de recorridos unitarios (empezando con un evento o una calificación de público). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. La duración máxima es de 90 días.
@@ -143,7 +143,7 @@ Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Tamaño actual de la carga útil del recorrido"
->abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Este indicador ayuda a monitorizar la complejidad del recorrido antes de la publicación y evitar errores causados por el límite de tamaño de carga útil excedido."
+>abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Este indicador monitoriza la complejidad del recorrido antes de la publicación y evita errores producidos por un exceso del límite de tamaño de la carga útil."
 
 El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel de propiedades del recorrido muestra el tamaño actual de la carga útil del recorrido en relación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura es visible en cualquier fase de la creación del recorrido.
 
@@ -166,7 +166,7 @@ La zona horaria se define en el nivel de recorrido. Puede escribir una zona hora
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Fecha de inicio"
->abstract="La fecha de inicio es cuando los perfiles pueden empezar a introducir el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
+>abstract="La fecha de inicio en la que los perfiles pueden empezar a entrar en el recorrido. Si no se establece ninguna fecha de inicio, la predeterminada es la fecha de publicación del recorrido."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
@@ -186,7 +186,7 @@ La configuración del tiempo de espera controla cuánto tiempo espera un recorri
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="Tiempo de espera o error"
->abstract="La opción **Tiempo de espera o error** define una ruta alternativa en el recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan con una ruta de reserva en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
+>abstract="La opción **Tiempo de espera o error** define una ruta alternativa en el recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan con una ruta de reserva, en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
 
 Al editar una actividad de acción o condición, puede definir una ruta alternativa en caso de error o tiempo de espera. Si el procesamiento de la actividad que busca un sistema de terceros supera el tiempo de espera definido en el campo **[!UICONTROL Tiempo de espera o error]** de las propiedades del recorrido, se elegirá la segunda ruta para realizar una posible acción de reserva.
 
@@ -200,7 +200,7 @@ Recorrido también utiliza un tiempo de espera global como se detalla a continua
 
 Además del tiempo de espera [timeout](#timeout_and_error) utilizado en las actividades de recorrido, se aplica un tiempo de espera de recorrido global. No se muestra en la interfaz y no se puede cambiar.
 
-Este tiempo de espera global detiene el progreso de los individuos en el recorrido **91 días** después de que ingresan. Esto significa que el recorrido de una persona no puede durar más de 91 días. Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
+Este tiempo de espera global detiene el progreso de los particulares en el recorrido **91 días** después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 91 días. Después de este período de tiempo de espera, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del periodo de tiempo de espera se detendrán y no se tendrán en cuenta en los informes. Por lo tanto, podría ver más personas entrando en el recorrido que saliendo.
 
 >[!NOTE]
 >
@@ -500,15 +500,21 @@ Son conceptos separados. El tiempo de espera global de **[recorrido](#global_tim
 * [Administración de zonas horarias](timezone-management.md): configure las zonas horarias de recorrido y perfil
 * [Administración y priorización de conflictos](../conflict-prioritization/conflicts.md): identifique y resuelva conflictos entre recorridos y campañas
 
-+++ Referencia de conocimientos de AI
+## Referencia rápida {#quick-reference}
 
 Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
 
 Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
 
-* **TL;DR:** En esta página se explica cómo configurar y administrar toda la configuración global de un recorrido, incluidas las reglas de entrada, las zonas horarias, las fechas de inicio y finalización, el comportamiento del tiempo de espera, los criterios de salida, el tamaño de la carga útil y la administración de conflictos.
+>[!BEGINTABS]
 
-**Intenciones:**
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo configurar y administrar todas las configuraciones globales de un recorrido, incluidas las reglas de entrada, las zonas horarias, las fechas de inicio y finalización, el comportamiento del tiempo de espera, los criterios de salida, el tamaño de la carga útil y la administración de conflictos.
+
+**Intenciones**
 
 * Configuración de las reglas de entrada y reentrada de recorrido para perfiles
 * Establezca las fechas de inicio y finalización para controlar cuándo los perfiles pueden entrar o salir de un recorrido
@@ -517,7 +523,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Supervisar el tamaño de la carga útil del recorrido para evitar errores de publicación
 * Resolución de conflictos y asignación de puntuaciones de prioridad entre recorridos y campañas
 
-**Glosario:**
+>[!TAB Glosario]
 
 * **propiedades de Recorrido**: panel de configuración global (carril derecho) que controla el nombre, las reglas de entrada, la zona horaria, las fechas, el tiempo de espera, el tamaño de carga útil y la administración de conflictos de un recorrido. *(específico del producto)*
 * **Período de espera de reentrada**: tiempo mínimo que un perfil debe esperar antes de que se le permita volver a entrar en un recorrido unitario; el máximo es de 90 días. *(específico del producto)*
@@ -529,7 +535,13 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Tamaño de carga útil de Recorrido**: El tamaño actual de la carga útil de definición del recorrido en comparación con el límite configurado; al exceder el límite, se bloquea la publicación. *(específico del producto)*
 * **OLAC (Control de acceso de nivel de objeto)**: modelo de permisos que restringe el acceso a recorridos individuales que utilizan etiquetas de uso de datos.
 
-**Protecciones:**
+>[!TAB Terminología]
+
+* **Nombre canónico:** propiedades de Recorrido — Acrónimo: none — variantes: configuración de recorrido, panel de configuración de recorrido
+* **Sinónimos:** &quot;tiempo de espera de recorrido global&quot; = &quot;TTL&quot; = &quot;Tiempo de vida&quot;
+* **No confunda:** &quot;tiempo de espera de recorrido global (91 días)&quot; ≠ &quot;ventana de informes (~91 días)&quot;: el tiempo de espera limita la duración de perfil individual en un recorrido; la ventana de informes es un límite de visualización de la interfaz de usuario para los datos de análisis
+
+>[!TAB Protecciones y limitaciones]
 
 * El período máximo de espera de reentrada es de 90 días
 * El tiempo de espera de recorrido global es de 91 días; después de este periodo, los datos de perfil se eliminan y el perfil se cierra
@@ -541,19 +553,30 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Políticas de combinación incoherentes en una publicación de bloque de recorrido; las incoherencias en la personalización de los mensajes no avisan
 * En el caso de los recorridos activos, el panel de propiedades muestra solo la fecha de publicación y el nombre del editor
 
-**Terminología:**
+>[!TAB Preguntas más frecuentes]
 
-* Nombre canónico: propiedades de Recorrido — Acrónimo: none — variantes: configuración de recorrido, panel de configuración de recorrido
-* Sinónimos: &quot;tiempo de espera de recorrido global&quot; = &quot;TTL&quot; = &quot;Tiempo de vida&quot;
-* No confunda: &quot;tiempo de espera de recorrido global (91 días)&quot; ≠ &quot;ventana de informes (~91 días)&quot;: el tiempo de espera limita la duración del perfil individual en un recorrido; la ventana de informes es un límite de visualización de la interfaz de usuario para los datos de análisis
+**Q: ¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
 
-**PREGUNTAS MÁS FRECUENTES:**
+Un máximo de 91 días (el tiempo de espera de recorrido global); después de este período, el perfil se abandona automáticamente y se eliminan sus datos.
 
-* **Q: ¿Cuánto tiempo puede un perfil permanecer en un recorrido?** — Un máximo de 91 días (el tiempo de espera de recorrido global); después de este período, el perfil se abandona automáticamente y se eliminan sus datos.
-* **Q: ¿Puedo editar las propiedades del recorrido mientras el recorrido está activo?** — En el caso de los recorridos activos, el panel de propiedades muestra únicamente la fecha de publicación y el nombre del editor; los cambios estructurales requieren una nueva versión.
-* **Q: ¿Qué sucede cuando se configuran varios criterios de salida?** — Se evalúan de arriba a abajo con la lógica OR en cada paso del recorrido; un perfil existe cuando se cumple un criterio.
-* **Q: ¿Cómo evito que un perfil vuelva a entrar en un recorrido?** — Desmarque la opción &quot;Permitir reentrada&quot; en las propiedades del recorrido; esto es adecuado para experiencias únicas, como una oferta de regalo.
-* **Q: ¿Cuál es la diferencia entre el tiempo de espera del recorrido y la fecha de finalización?** — La fecha de finalización detiene todas las nuevas entradas y sale automáticamente de los perfiles activos en esa fecha específica; el tiempo de espera global de 91 días se aplica por perfil desde el momento en que ingresa, independientemente de la fecha de finalización del recorrido.
-* **Q: ¿Cómo se determina la política de combinación para un recorrido?** — Depende del tipo de recorrido: Leer audiencia y recorridos de calificación de audiencia utilizan la política de combinación de la audiencia; recorridos de eventos unitarios utilizan la política de combinación predeterminada; recorridos de eventos empresariales utilizan la política de combinación de la audiencia de destino en la actividad de lectura de audiencia posterior.
+**Q: ¿Puedo editar las propiedades del recorrido mientras el recorrido está activo?**
 
-+++
+En el caso de los recorridos activos, el panel de propiedades muestra solo la fecha de publicación y el nombre del editor; los cambios estructurales requieren una nueva versión.
+
+**Q: ¿Qué sucede cuando se configuran varios criterios de salida?**
+
+Se evalúan de arriba a abajo con la lógica OR en cada paso del recorrido; un perfil existe cuando se cumple un criterio determinado.
+
+**Q: ¿Cómo evito que un perfil vuelva a entrar en un recorrido?**
+
+Desmarque la opción &quot;Permitir reentrada&quot; en las propiedades del recorrido; esto es adecuado para experiencias únicas, como una oferta de regalo.
+
+**Q: ¿Cuál es la diferencia entre el tiempo de espera del recorrido y la fecha de finalización?**
+
+La fecha de finalización detiene todas las nuevas entradas y sale automáticamente de los perfiles activos en esa fecha específica; el tiempo de espera global de 91 días se aplica por perfil desde el momento en que ingresa, independientemente de la fecha de finalización del recorrido.
+
+**Q: ¿Cómo se determina la política de combinación para un recorrido?**
+
+Depende del tipo de recorrido: Leer audiencia y recorridos de calificación de audiencia utilizan la política de combinación de la audiencia; recorridos de evento unitarios utilizan la política de combinación predeterminada; recorridos de evento empresarial utilizan la política de combinación de la audiencia de destino en la actividad de lectura de audiencia posterior.
+
+>[!ENDTABS]

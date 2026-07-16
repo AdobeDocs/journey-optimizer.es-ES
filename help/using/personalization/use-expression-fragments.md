@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 2174
 ht-degree: 0%
 
 ---
@@ -245,4 +245,79 @@ Sin embargo, también puede pegar el contenido de un fragmento de expresión en 
 En ese caso, la herencia del fragmento original se interrumpe. El contenido del fragmento se copia en el editor y los cambios ya no se sincronizan.
 
 Se convierte en un elemento independiente que ya no está vinculado al fragmento original; puede editarlo como cualquier otro elemento del código.
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo insertar, personalizar y administrar fragmentos de expresiones en el editor de personalización, incluidas las variables implícitas, el uso de fragmentos dentro de bucles, campos editables, la resolución dinámica y la interrupción de la herencia.
+
+**Intenciones**
+
+* Inserte un fragmento de expresión desde el menú Fragmentos y comprenda la propagación automática de cambios
+* Usar variables implícitas: variables de entrada (declaradas fuera del fragmento y utilizadas dentro) y variables de salida (declaradas dentro del fragmento y utilizadas dentro del contenido del mensaje)
+* Usar fragmentos de expresión dentro de bucles: aprovechar las variables globales para el acceso a fragmentos; comprender la limitación de pasar variables con ámbito de bucle como parámetros
+* Anular campos editables en un fragmento personalizable mediante la sintaxis `<fieldId>="<value>"`
+* Resolver ID de fragmento de forma dinámica durante la ejecución en función de atributos de perfil, búsquedas de conjuntos de datos o datos de contexto
+* Para romper la herencia, pegue el contenido del fragmento directamente en el editor
+
+>[!TAB Glosario]
+
+* **Fragmento de expresión**: Componente de expresión de personalización reutilizable al que hace referencia el identificador en todas las campañas y recorridos; los cambios en el fragmento se propagan automáticamente a todo el contenido que hace referencia a él. *(específico del producto)*
+* **Variables implícitas**: Variables que amplían la funcionalidad del fragmento: variables de entrada (declaradas en el contenido de campaña/recorrido, consumidas dentro del fragmento) y variables de salida (declaradas dentro del fragmento, disponibles en el contenido del mensaje circundante). *(específico del producto)*
+* **Variable de entrada**: Una variable declarada fuera del fragmento (en contenido de campaña o recorrido) al que el fragmento puede hacer referencia y usar internamente.
+* **Variable de salida**: Una variable declarada o calculada dentro de un fragmento que está disponible para su uso en el contenido del mensaje adyacente después de llamar al fragmento.
+* **Campos editables**: Las variables de fragmento expuestas permiten al usuario que realiza la inserción anular los valores predeterminados mediante la sintaxis `<fieldId>="<value>"`, sin editar el origen del fragmento. *(específico del producto)*
+* **Resolución dinámica de fragmentos**: La capacidad para resolver un ID de fragmento durante la ejecución (según atributos de perfil, búsquedas de conjuntos de datos o datos de contexto) en lugar de incrustar un ID de fragmento estático en tiempo de diseño. *(específico del producto)*
+* **Romper herencia**: al usar &quot;Pegar fragmento&quot; desde el menú contextual, se copia el contenido del fragmento en el editor como un elemento independiente que ya no se sincroniza con el fragmento original. *(específico del producto)*
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** fragmento de expresión — variantes: fragmento, fragmento de expresión
+* **Sinónimos:** &quot;ID de fragmento&quot; = el identificador utilizado para hacer referencia al fragmento en las expresiones
+* **No confunda:** al insertar un fragmento por identificador (al que se hace referencia; los cambios se propagan automáticamente a todo el contenido) ≠ de romper la herencia / pegar fragmento (contenido copiado en el editor; elemento independiente, ya no vinculado al original)
+* **No confunda:** variables de entrada (declaradas fuera del fragmento, consumidas dentro) ≠ variables de salida (declaradas dentro del fragmento, consumidas fuera en el contenido del mensaje adyacente)
+* **No confunda:** Fragmento de borrador (se puede agregar al contenido, pero bloquea la publicación de recorrido/campaña hasta que se apruebe) ≠ Fragmento activo (totalmente publicado; seguro para recorridos y campañas activos)
+
+>[!TAB Protecciones y limitaciones]
+
+* Se pueden agregar un máximo de 30 fragmentos en una entrega determinada.
+* Los fragmentos solo se pueden anidar hasta 1 nivel.
+* Un recorrido o campaña no se puede activar ni publicar si contiene un fragmento con el estado Borrador; los fragmentos de borrador deben aprobarse antes de la publicación.
+* Los fragmentos de expresiones no pueden recibir variables de ámbito de bucle (el elemento de iteración actual `{{#each}}`) como parámetros; se trata de una limitación conocida. Utilice variables globales o lógica en línea como solución alternativa.
+* Si se utiliza un fragmento que contiene varios saltos de línea en el contenido push o SMS, se conservan los saltos de línea; pruebe el contenido antes de enviarlo.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Cuántos fragmentos se pueden agregar en una sola entrega?**
+
+Hasta 30 fragmentos.
+
+**Q: ¿Es posible anidar fragmentos dentro de otros fragmentos?**
+
+Sí, pero solo hasta 1 nivel de anidación.
+
+**Q: ¿Qué sucede si utilizo un fragmento de borrador en un recorrido o una campaña?**
+
+Puede agregar un fragmento de borrador al contenido, pero no puede activar ni publicar el recorrido o la campaña hasta que el fragmento se apruebe y su estado cambie a Activo.
+
+**Q: ¿Puede un fragmento de expresión recibir el elemento de bucle actual (por ejemplo, `product` en `{{#each}}`) como parámetro?**
+
+No. Los fragmentos de expresión no pueden recibir variables de ámbito de bucle como parámetros. Utilice variables globales declaradas fuera del bucle (a las que puede acceder el fragmento) o incluya la lógica de personalización directamente dentro del bucle en lugar de utilizar un fragmento.
+
+**Q: ¿Qué es romper la herencia y cuándo debo usarla?**
+
+Romper la herencia significa utilizar &quot;Pegar fragmento&quot; del menú contextual para copiar el contenido del fragmento directamente en el editor. El contenido pegado se convierte en un elemento independiente que ya no se sincroniza con el fragmento original. Utilícelo cuando necesite personalizar el contenido más allá de lo que permitan los campos editables, sabiendo que los cambios futuros en el fragmento original no se propagarán a esta copia.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 64745ff0 -->
 

@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 4%
+source-wordcount: 1188
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ En este ejemplo, el valor `there` se muestra si el atributo `firstName` de este 
 El asistente `if` se usa para definir un bloque condicional.
 Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
 
-**Syntax**
+**Sintaxis**
 
 ```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -43,7 +43,7 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 ```
 
 Después del asistente `if`, puede escribir una instrucción `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-La instrucción `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;False&quot;.
+La instrucción `elseif` especificará una nueva condición para comprobar si la primera instrucción devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -311,9 +311,9 @@ Durante el tiempo de ejecución, el valor de los metadatos se agrega al **[!UICO
 
 **Limitaciones**
 
-Hay un límite superior de 2 kb en los pares de valor clave por acción. Si se supera el límite de 2 KB, el mensaje se envía, pero cualquiera de los pares de valor clave se puede truncar.
-
-No se capturan metadatos para perfiles excluidos de la acción. Cuando se excluye a un perfil de la recepción de un mensaje, no se crea ninguna entrada de metadatos para ese perfil en el conjunto de datos.
+* Puede pasar un máximo de 50 pares clave-valor por acción.
+* La carga útil total de metadatos está limitada a 2 KB por acción. Si se supera el límite de 2 KB, el mensaje se envía, pero cualquier par clave-valor se puede truncar.
+* No se capturan metadatos para perfiles excluidos de la acción. Cuando se excluye a un perfil de la recepción de un mensaje, no se crea ninguna entrada de metadatos para ese perfil en el conjunto de datos.
 
 **Ejemplo**
 

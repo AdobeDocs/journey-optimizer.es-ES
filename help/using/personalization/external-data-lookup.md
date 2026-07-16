@@ -12,10 +12,10 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 5%
+source-wordcount: 2044
+ht-degree: 3%
 
 ---
 
@@ -236,3 +236,81 @@ Utilice el menú Atributos contextuales > Flujo de datos > Evento para examinar 
 Actualmente no. Esta función será compatible en el futuro.
 
 +++
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo configurar una acción para un extremo externo y cómo utilizar el asistente de `externalDataLookup` en el editor de personalización para recuperar dinámicamente esos datos en tiempo de ejecución para personalizar el contenido del canal entrante.
+
+**Intenciones**
+
+* Configurar una acción que defina un extremo externo (URL, método HTTP, parámetros, esquemas de solicitud/respuesta)
+* Insertar el asistente `externalDataLookup` en una expresión personalizada para una acción entrante
+* Pase parámetros de encabezado, consulta, carga útil o ruta de variables al extremo externo en el momento de la llamada
+* Acceso a los datos recuperados a través del alias de resultados mediante expresiones de personalización y funciones de ayuda
+* Gestionar errores y tiempos de espera correctamente con patrones de contenido de reserva
+* Depuración de problemas de búsqueda externa mediante Adobe Experience Platform Assurance
+
+>[!TAB Glosario]
+
+* **externalDataLookup**: función auxiliar del editor de personalización que recupera dinámicamente datos de un extremo externo configurado en el momento de la solicitud, para usarlos en la personalización de contenido del canal entrante. *(específico del producto)*
+* **Acción**: Un objeto de configuración en Journey Optimizer (Administración > Configuraciones) que define un extremo externo: URL, método HTTP, parámetros de encabezado/consulta, esquema de cuerpo de POST y esquema de respuesta. Requerido antes de usar `externalDataLookup`. *(específico del producto)*
+* **variable de resultado**: Un alias arbitrario asignado en la llamada `externalDataLookup`; se usa para hacer referencia a todos los campos de la respuesta recuperada en expresiones de personalización posteriores.
+* **Canales entrantes**: Canales en los que el contenido se entrega bajo demanda cuando un usuario abre una superficie: experiencia basada en código, web, mensaje en la aplicación. *(específico del producto)*
+* **AEP Edge Network**: La infraestructura que recibe las solicitudes de personalización y almacena en déclencheur la llamada de búsqueda de datos externa durante la ejecución.
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** externalDataLookup — variantes: búsqueda de datos externa, asistente de búsqueda de datos externos, asistente de búsqueda de datos externos
+* **Sinónimos:** &quot;externalDataLookup&quot; = &quot;ayudante de búsqueda de datos externos&quot;
+* **No confunda:** `actionId` (ID de la acción configurada, que identifica el extremo externo) ≠ `result` (alias de los datos de respuesta recuperados) ≠ nombres de parámetros (valores de variable pasados al extremo en tiempo de llamada)
+* **No confunda:** con `externalDataLookup` en una acción de personalización entrante (recupera datos dinámicamente en el momento de la solicitud de Edge Network) ≠ con una acción personalizada en una actividad de recorrido (recupera contenido dentro de un flujo de recorrido)
+
+>[!TAB Protecciones y limitaciones]
+
+* La función está en disponibilidad limitada; solo está disponible para un conjunto de organizaciones.
+* Tiempo de espera predeterminado para llamadas de extremo externas: 300 ms (predeterminado; póngase en contacto con su representante de Adobe para aumentar este tiempo de espera para un extremo específico).
+* La exploración del esquema de respuesta no es compatible con el editor de personalización; Journey Optimizer no valida referencias a atributos JSON de la respuesta utilizada en las expresiones.
+* Tipos de datos admitidos para los parámetros de variables de carga útil: `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* No se admite actualmente la sustitución de variables dentro de `externalDataLookup` parámetros de ayuda.
+* Actualmente no se admiten rutas de URL dinámicas.
+* Las opciones de autenticación de la configuración de acción no son compatibles actualmente con `externalDataLookup`; utilice campos de encabezado para la autorización de texto sin formato o basada en claves de API como solución alternativa.
+* Los cambios en una configuración de Acción no se reflejan en campañas en directo o recorridos que utilizan esa Acción; copie o modifique cualquier campaña o recorrido en directo para aplicar los cambios.
+* Se admite el procesamiento en varias pasadas.
+* Journey Optimizer no almacena actualmente en caché las respuestas de extremos externas.
+* El punto de conexión externo debe poder gestionar al menos tanta carga y rendimiento simultáneos como el tráfico entrante enviado a AEP Edge Network para la superficie determinada.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué sucede si el extremo externo agota el tiempo de espera o devuelve un error?**
+
+La variable de resultado estará vacía. Las referencias de atributo dentro del resultado se mostrarán como en blanco y las iteraciones de matriz no devolverán elementos. Use patrones de contenido de reserva, como `?: "none found"` para atributos únicos o `{%#if result%}…{%else%}…{%/if%}` para bloques de contenido completos, para manejar estos casos correctamente.
+
+**Q: ¿Cómo paso un atributo contextual desde la solicitud como parámetro a una búsqueda de datos externa?**
+
+Utilice el menú Atributos contextuales > Flujo de datos > Evento en el editor de personalización para examinar el esquema de Experience Event e insertar el atributo relevante como valor de parámetro, por ejemplo: `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`.
+
+**Q: ¿Journey Optimizer almacena en caché las respuestas de extremo externas?**
+
+Actualmente no. El almacenamiento en caché será compatible en el futuro.
+
+**Q: ¿Cómo se depuran los problemas con externalDataLookup?**
+
+Utilice Adobe Experience Platform Assurance. Inicie una sesión de Assurance, inicie una llamada de Journey Optimizer desde la implementación web o móvil y utilice la vista de Edge Delivery para inspeccionar el bloque customActions y comprobar si se ha superado el tiempo de espera o se han producido detalles del error.
+
+**Q: ¿Puedo usar la autenticación en la configuración de acción con externalDataLookup?**
+
+Actualmente no se admiten las opciones de autenticación en la configuración de acción. Para la autorización basada en claves API u otro tipo de autorización de texto sin formato, especifique las credenciales como campos de encabezado en la configuración de acción.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->

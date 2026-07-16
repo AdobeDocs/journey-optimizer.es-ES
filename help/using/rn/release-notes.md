@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
+source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
 workflow-type: tm+mt
-source-wordcount: 2765
-ht-degree: 78%
+source-wordcount: 3059
+ht-degree: 74%
 
 ---
 
@@ -55,6 +55,27 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
+<th><strong>Comprobación de contenido en el diseñador de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ahora incluye validación técnica automatizada directamente en el diseñador de correo electrónico, lo que le ayuda a detectar problemas de HTML y CSS antes de enviarlos.</p>
+<p>Las comprobaciones cubren elementos no admitidos, como etiquetas <code>&lt;script&gt;</code> y <code>&lt;base&gt;</code>, divs vacíos que pueden romper el diseño en Microsoft Outlook, metaetiquetas de actualización HTML y umbrales de tamaño de CSS o HTML que activan los errores de procesamiento en Gmail.</p>
+<p>Los resultados aparecen como errores, advertencias o avisos informativos directamente en el panel de creación, con detalles contextuales y correcciones con un solo clic cuando están disponibles, de modo que los problemas se pueden resolver sin salir del editor.</p>
+<p>Esta funcionalidad, que antes estaba disponible en disponibilidad limitada, ya está disponible para todos los clientes.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Para obtener más información, consulte la <a href="../email/content-check.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 16 de julio de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Direccionamiento basado en archivos en campañas organizadas</strong><br/></th>
 </tr>
 </thead>
@@ -74,6 +95,32 @@ ht-degree: 78%
 * **Nuevas herramientas del servidor MCP de AJO**: el servidor MCP de [!DNL Adobe Journey Optimizer] ahora expone cinco **herramientas de configuración de canal** de solo lectura adicionales, lo que le permite consultar las configuraciones de canal, los recursos de soporte y las acciones de marketing directamente desde su asistente de IA. Ahora puede usar **Configuraciones de canal de lista** (en todos los canales de AJO), **Obtener configuración de canal**, **Enumerar recursos de configuración**, **Obtener recurso de configuración** y **Enumerar acciones de marketing**. [Más información](../integrations/ajo-mcp.md#mcp-tools)
 
   Fecha de disponibilidad: 9 de julio de 2026
+
+
+### Mejoras de uso {#july-26-usability}
+
+Las siguientes mejoras de uso se publicaron en julio de 2026.
+
+#### Gestión de contenidos
+
+* **Métodos abreviados de inicio rápido en el inventario de fragmentos**: ahora puede acceder rápidamente a las acciones comunes desde la lista de fragmentos con el botón **[!UICONTROL Más acciones]**. Los métodos abreviados disponibles incluyen editar el fragmento, abrir sus detalles y descartar la versión de borrador. [Más información](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **Métodos abreviados de inicio rápido en el inventario de plantillas** - El botón **[!UICONTROL Más acciones]** de la lista Plantillas de contenido ahora proporciona acceso rápido a acciones comunes: editar detalles de plantilla, simular contenido y eliminar una plantilla. En el caso de las plantillas de correo electrónico, los métodos abreviados adicionales permiten editar la línea de asunto y el cuerpo del correo electrónico, ver o enviar una prueba, ejecutar un informe de correo no deseado y procesar el correo electrónico. [Más información](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### Recorridos
+
+Se ha presentado una **nueva interfaz de usuario** para el lienzo de recorrido, que ofrece un rendimiento mejorado para recorridos grandes, un diseño automático para una mejor legibilidad y una experiencia de creación guiada.
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+Para cambiar a la nueva interfaz de usuario, haga clic en el botón **[!UICONTROL Nueva experiencia]**. Esta configuración se guarda en el nivel de recorrido, por lo que el recorrido se vuelve a abrir en la nueva experiencia de forma predeterminada. Para volver, haz clic en **[!UICONTROL Experiencia anterior]**. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Notas de la versión de junio de 2026 {#june-26-rn}
 

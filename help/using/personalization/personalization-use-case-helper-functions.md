@@ -23,10 +23,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -367,3 +367,65 @@ Este paso muestra la iteración en los datos de evento. Para ver ejemplos comple
 Aprenda a utilizar las funciones de ayuda.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+Esta página muestra un caso de uso de correo electrónico de abandono del carro de compras mediante tres funciones de ayuda: `upperCase`, `each` y `if` para mostrar el nombre de un cliente en mayúsculas, enumerar los artículos del carro de compras e insertar una nota de envío específica de un producto de forma condicional.
+
+**Intenciones**
+
+* Cree un evento de recorrido cuyo esquema incluya la matriz `productListItems`
+* Insertar el nombre de un cliente en mayúsculas usando `{%= upperCase(profile.person.name.firstName) %}`
+* Enumerar elementos del carro de compras iterando más de `context.journey.events.event_ID.productListItems` con `{{#each}}`
+* Mostrar una nota específica del producto de forma condicional usando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %&rbrace;&grave;
+* Pruebe el recorrido en modo de prueba con un perfil de prueba con carga útil de evento y, a continuación, publique
+
+>[!TAB Glosario]
+
+* **`upperCase`**: función de cadena de PQL que convierte una cadena en mayúsculas; llamada con `{%= upperCase(string) %}`. *(específico del producto)*
+* **`each`helper**: un asistente de bloque Handlebars (`{{#each array as |alias|}} ... {{/each}}`) que se repite en una matriz como `productListItems`. *(específico del producto)*
+* **`if`helper**: un asistente de bloque condicional (`{%#if condition%} ... {%else%} ... {%/if%}`) que procesa contenido solo cuando la condición especificada es verdadera.
+* **`productListItems`**: una matriz XDM estándar que representa el contenido del carro de compras, con campos que incluyen `name`, `quantity` y `priceTotal`. *(específico del producto)*
+* **Modo de prueba**: característica de recorrido que permite enviar mensajes de prueba a direcciones de perfil de prueba para comprobar el recorrido y el comportamiento de los mensajes antes de la publicación. *(específico del producto)*
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** correo electrónico de abandono del carro de compras — variantes: caso de uso de abandono del carro de compras
+* **No confunda:** `context.journey.events.event_ID.productListItems` (matriz de origen de evento, a la que se tiene acceso mediante atributos contextuales) ≠ `profile.*` atributos (de origen de perfil, siempre disponibles)
+
+>[!TAB Protecciones y limitaciones]
+
+* Los atributos contextuales (incluidos los datos de evento de recorrido) están disponibles en el editor de personalización solo después de que el mensaje se haya colocado dentro de un recorrido que incluya el evento correspondiente.
+* El modo de prueba solo funciona con perfiles de prueba.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué funciones de ayuda se utilizan en este caso de uso?**
+
+Tres: `upperCase` (procesa el nombre en mayúsculas), `each` (se repite en la matriz de elementos del carro de compras) y `if` (muestra de forma condicional una nota de envío específica del producto).
+
+**Q: ¿De dónde provienen los datos del elemento de carro de compras en la expresión personalizada?**
+
+Desde la matriz `productListItems` del evento de recorrido, a la que se accede a través de los atributos contextuales en `context.journey.events.event_ID.productListItems`.
+
+**Q: ¿Se pueden usar atributos contextuales antes de colocar el mensaje dentro de un recorrido?**
+
+No. Los atributos contextuales solo están disponibles en el editor de personalización después de colocar el mensaje dentro de un recorrido que incluya el evento correspondiente.
+
+**Q: ¿Cómo pruebo el correo electrónico con los datos del carro de compras?**
+
+Active la opción **Test** en el recorrido, haga clic en **Déclencheur un evento**, introduzca los valores de entrada en la ventana de configuración de eventos y, a continuación, haga clic en **Enviar**. El correo electrónico se envía a la dirección del perfil de prueba.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->

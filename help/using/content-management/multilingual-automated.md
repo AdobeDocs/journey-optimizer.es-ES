@@ -29,9 +29,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
-source-wordcount: 2099
+source-wordcount: 2097
 ht-degree: 19%
 
 ---
@@ -192,7 +192,7 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 
    1. En Recopilación de datos de Adobe Experience Platform, acceda a sus Propiedades de etiquetas.
 
-   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Acceda al menú **[!UICONTROL Reglas]** y cree una regla nueva. Encontrará información detallada sobre cómo crear reglas en [!DNL Adobe Experience Platform] [Documentación de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    1. En la sección **[!UICONTROL IF]** de la regla, agregue un evento configurado de la siguiente manera:
 

@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 11%
 
 ---
 
@@ -166,6 +166,10 @@ Configure cómo se incluyen los miembros, cuándo se contabiliza el progreso de 
 
    * **[!UICONTROL Número de veces que se puede completar]**: cuando se habilita la repetición, especifique cuántas veces un miembro puede completar el desafío.
 
+* **[!UICONTROL Requisitos de finalización]** *(solo desafíos estándar)*:
+
+   * **[!UICONTROL Completar en una sola transacción]**: cuando está habilitada, los clientes deben completar todas las tareas dentro de una sola transacción. Cuando está desactivada, las tareas se pueden completar en transacciones independientes.
+
 ### Metadatos personalizados {#custom-metadata}
 
 En la sección **[!UICONTROL Metadatos personalizados]**, seleccione **[!UICONTROL Agregar par clave/valor]** para agregar metadatos personalizados. Utilice metadatos para el seguimiento o la integración con sistemas externos.
@@ -278,28 +282,31 @@ Para configurar cuándo y cómo se entregan las recompensas:
 
    +++
 
-Después de configurar la estructura de desafíos con tareas y recompensas, diseñe las tarjetas de contenido para mostrar el desafío a los clientes.
+Después de configurar la estructura de desafíos con tareas y recompensas, puede configurar de forma opcional cómo se representa el desafío para los clientes. Si no necesita contenido de desafío, omita este paso y continúe directamente a [Configurar mensajes](#configure-messaging).
 
-## Configurar las tarjetas de contenido {#configure-content-cards}
+## Configuración del contenido de desafío (opcional) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenido"
->abstract="Configure la tarjeta de contenido que representa su desafío en los dispositivos de los clientes y muestra la información, el progreso y las recompensas del desafío. Introduzca un nombre para la tarjeta, seleccione una configuración de canal para que la entrega utilice la configuración técnica adecuada (por ejemplo, encabezados, subdominios o aplicaciones móviles) y, a continuación, seleccione Editar contenido para diseñar y personalizar la experiencia de la tarjeta."
+>abstract="Configure cómo se representa el desafío en ubicaciones en las que los miembros socio accedan a los desafíos y realicen un seguimiento de su progreso. Utilice la acción Añadir para elegir Tarjeta de contenido para mostrar una experiencia de estilo tarjeta o Experiencia basada en código para entregar contenido a través de su propia implementación personalizada."
 
-Las tarjetas de contenido representan visualmente su desafío en los dispositivos de los clientes, y muestran información de desafío, progreso y recompensas. [Más información sobre las tarjetas de contenido](../content-card/create-content-card.md).
+La pestaña **[!UICONTROL Contenido]** controla cómo se representa el desafío en ubicaciones donde los miembros socio acceden a los desafíos y hacen un seguimiento de su progreso.
 
-Para configurar las tarjetas de contenido para el desafío:
+Para configurar el contenido de desafío:
 
-1. Vaya a la pestaña **[!UICONTROL Contenido]** e introduzca un **[!UICONTROL Nombre]** para la tarjeta de contenido.
+1. Vaya a la pestaña **[!UICONTROL Contenido]** y haga clic en **[!UICONTROL Agregar acción]**.
 
-1. Seleccione la **[!UICONTROL configuración de canal]**. Las configuraciones de canal contienen todos los parámetros técnicos para enviar mensajes, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Más información acerca de las configuraciones de canal](../configuration/channel-surfaces.md).
+1. Elija el tipo de acción:
 
-1. Seleccione **[!UICONTROL Editar contenido]** para diseñar su tarjeta de contenido. [Aprenda a diseñar y personalizar tarjetas de contenido](../content-card/design-content-card.md).
+   * **[!UICONTROL Tarjeta de contenido]**: muestra el desafío como una experiencia de estilo tarjeta en los dispositivos del cliente. Seleccione una **[!UICONTROL configuración de canal]** y haga clic en **[!UICONTROL Editar contenido]** para diseñar y personalizar la tarjeta. [Más información sobre las tarjetas de contenido](../content-card/create-content-card.md).
+   * **[!UICONTROL Experiencia basada en código]**: Ofrece contenido de desafío a través de su propia implementación personalizada mediante el canal basado en código de Journey Optimizer. Seleccione una **[!UICONTROL configuración de canal]** y haga clic en **[!UICONTROL Editar contenido]** para definir el contenido. [Más información sobre las experiencias basadas en código](../code-based/create-code-based.md).
 
    ![](assets/challenge-create-content.png)
 
-Después de configurar la tarjeta de contenido, configure la mensajería para atraer a los clientes a lo largo del ciclo de vida del desafío.
+   Puede añadir varias acciones para representar el desafío en diferentes superficies.
+
+Después de configurar el contenido, configure la mensajería para atraer a los clientes a lo largo del ciclo de vida del desafío.
 
 ### Configurar la mensajería {#configure-messaging}
 

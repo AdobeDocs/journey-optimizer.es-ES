@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +86,21 @@ De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar
 Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publicar]**, **[!UICONTROL Duplicar]**, **[!UICONTROL Eliminar]**, **[!UICONTROL Modo de prueba]**, **[!UICONTROL Administrar el acceso]**, **[!UICONTROL Alertas]**. Estos botones aparecen cuando no se ha seleccionado ninguna actividad. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba.
 
 ![Botones de acción de Recorrido: Publicar, Duplicar, Eliminar, Modo de prueba, Administrar acceso, Alertas](assets/journey41.png)
+
+## nueva experiencia de interfaz de recorrido {#canvas-capabilities}
+
+Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, diseñada para adaptarse a los casos de uso más complejos:
+
+* **Rendimiento**: administra recorridos grandes con muchos pasos y ramas de forma eficaz.
+* **Diseño automático**: organiza automáticamente las actividades para mejorar la legibilidad.
+* **Creación guiada**: proporciona una experiencia de creación estructurada que le ayudará a crear recorridos con facilidad y eficacia.
+
+![](assets/journey-new-canvas.png)
+
+Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Una vez cambiado, este ajuste se guarda en el nivel de recorrido, por lo que el recorrido se abrirá en la nueva experiencia de forma predeterminada en las visitas posteriores. Para volver, haz clic en el botón **[!UICONTROL Experiencia antigua]**.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Inicie el recorrido {#start-your-journey}
 
@@ -172,7 +187,7 @@ Estos son los pasos para copiar/pegar actividades:
 1. Presione **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
    ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
-1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y presionar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)
 
 +++ Referencia de conocimientos de AI

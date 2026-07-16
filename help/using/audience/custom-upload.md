@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 9%
+source-wordcount: 183
+ht-degree: 8%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Experience Platform Audience Portal le permite importar una audiencia util
 
 Durante el proceso de carga personalizado, especifique el atributo CSV que se utilizará como identidad y la identidad del perfil a la que se asigna. Esto establece un vínculo entre los datos de audiencia y el perfil. Si el archivo CSV contiene un valor de identidad que no se encuentra en el perfil, se crea un nuevo perfil con ese valor de identidad.
 
->[!NOTE]
->
->Para las audiencias de carga personalizadas, si &quot;Lectura incremental&quot; está habilitado en un recorrido recurrente, los perfiles solo se recuperan en la primera periodicidad, ya que estas audiencias son fijas.
-
 ![](assets/import-audience.png)
 
 Encontrará información detallada sobre cómo importar audiencias en [Documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
+
+>[!NOTE]
+>
+>Para audiencias de carga personalizadas (carga CSV) y otras audiencias externas, **[!UICONTROL Lectura incremental]** no es compatible funcionalmente hoy. En cada repetición, se recupera **toda la audiencia**, independientemente de la configuración de alternancia de lectura incremental.
 
 Obtenga información sobre cómo cargar audiencias en formato CSV en vídeo:
 

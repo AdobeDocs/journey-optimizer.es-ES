@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 11%
+source-wordcount: 2328
+ht-degree: 7%
 
 ---
 
@@ -275,3 +275,77 @@ HTML: content<br/></td>
 </table>
 
 +++
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+En esta página se explica cómo utilizar el editor de personalización de Journey Optimizer para seleccionar, generar, personalizar y validar expresiones de personalización de fuentes de datos, incluidos atributos de perfil, audiencias, decisiones de oferta y atributos contextuales.
+
+**Intenciones**
+
+* Saber dónde se puede añadir la personalización en Journey Optimizer (mensajes, correo electrónico, Designer, direcciones URL, configuración de correo electrónico, ofertas)
+* Seleccione el origen de personalización adecuado para una expresión
+* Añadir atributos y expresiones de compilación en el espacio de trabajo del editor
+* Usar herramientas del editor: Buscar/Reemplazar, Completar automáticamente, Validar, Pastillas, Guardar como fragmento
+* Usar funciones del panel de navegación: funciones de ayuda, Favoritos, Condiciones, Fragmentos
+* Validar expresiones y resolver errores comunes
+
+>[!TAB Glosario]
+
+* **Editor de Personalization**: La herramienta de interfaz de usuario central de Journey Optimizer para crear, personalizar y validar expresiones de personalización; disponible siempre que se pueda definir la personalización. *(específico del producto)*
+* **Fuentes de Personalization**: Las categorías de datos disponibles para crear expresiones: atributos de perfil, atributos de destino, audiencias, decisiones de oferta y atributos contextuales.
+* **Atributos contextuales**: los datos específicos de Recorrido o campaña (eventos, propiedades, respuestas de acciones personalizadas) solo están disponibles para su personalización cuando se utiliza una acción de canal en un recorrido o campaña. *(específico del producto)*
+* **Pills**: modo de visualización del editor de personalización que procesa las rutas de atributos largas como tokens compactos en los que se puede hacer clic para mejorar la legibilidad. Disponible solo para atributos de perfil, atributos contextuales y medios dinámicos. *(específico del producto)*
+* **Completado automático**: característica del editor que sugiere y completa automáticamente el código mientras escribe; disponible sólo para formatos de HTML y texto, sólo admite atributos de perfil y contexto. *(específico del producto)*
+* **Fragmento de expresión**: un componente de expresión de personalización reutilizable al que se puede hacer referencia en campañas y recorridos. *(específico del producto)*
+* **Texto de reserva**: cadena predeterminada que se muestra cuando un atributo de perfil de tipo cadena está vacío para un perfil determinado; configurada por atributo mediante &quot;Insertar con texto de reserva&quot;.
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** editor de personalización
+* **No confunda:** El editor de Personalization (utilizado para generar expresiones de contenido en mensajes, correos electrónicos, notificaciones push y ofertas, admite la sintaxis de Handlebars y PQL) ≠ el editor de expresiones avanzadas (utilizado en el recorrido para condiciones en fuentes de datos e información de evento, actividades de espera personalizadas y asignación de parámetros de acción) proporciona funciones y operadores integrados que difieren de los del editor de personalización
+* **No confunda:** Atributos de perfil (basados en esquemas XDM, disponibles en todos los contextos) ≠ Atributos contextuales (específicos de recorrido/campaña, solo disponibles en ese contexto) ≠ Atributos de destino (solo campañas orquestadas)
+* **No confundir:** Finalización automática para HTML/Texto (sugiere finalizaciones de atributos de personalización) ≠ finalización automática de código HTML nativo (el editor es el predeterminado cuando se deshabilita la opción)
+
+>[!TAB Protecciones y limitaciones]
+
+* Completar automáticamente solo está disponible para los formatos HTML y Texto; solo admite atributos de perfil y contexto.
+* El modo de visualización de pastillas solo está disponible para atributos de perfil, atributos contextuales y medios dinámicos.
+* La personalización de URL solo está disponible para los tipos de vínculo Vínculo externo, Vínculo de baja y Vínculo de no participación.
+* De forma predeterminada, el panel de atributos muestra solo los atributos rellenados; desactive &quot;Mostrar solo atributos rellenados&quot; para mostrar todos los atributos de esquema.
+* El uso del modelo de ofertas solo debe contener atributos de perfil; los atributos que no sean de perfil en una decisión provocarán un error de validación.
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Dónde se puede agregar la personalización en Journey Optimizer?**
+
+En cualquier campo con el icono de añadir personalización, incluida la línea de asunto del correo electrónico, los campos de notificación push (Título, Cuerpo, Sonido personalizado, Distintivos, Datos personalizados), los elementos de texto de Designer de correo electrónico, las direcciones URL (vínculo externo, vínculo de baja, exclusión), los subdominios/encabezados de configuración de correo electrónico/parámetros de seguimiento de URL y las representaciones de tipo de texto de ofertas.
+
+**Q: ¿Cuáles son las fuentes de personalización disponibles?**
+
+Atributos de perfil, atributos de Target (solo campañas orquestadas), audiencias, decisiones de oferta y atributos de contexto (eventos de recorrido/campaña y respuestas de acciones personalizadas).
+
+**Q: ¿Cómo se valida una expresión?**
+
+La validación se ejecuta automáticamente al hacer clic en Agregar para cerrar el editor. También puede almacenarla en déclencheur manualmente con el botón Validar. Los errores comunes incluyen: ruta no encontrada (campo no en esquema), discrepancia de tipos (iteración de una cadena como matriz), sintaxis de Handlebars no válida y definición de segmento no válida.
+
+**Q: ¿Qué hace la opción Píldoras?**
+
+Procesa las rutas de atributos largas como tokens compactos en los que se puede hacer clic para mejorar la legibilidad en el editor. Disponible solo para atributos de perfil, atributos contextuales y medios dinámicos.
+
+**Q: ¿Por qué sólo veo algunos atributos en el panel de atributos?**
+
+De forma predeterminada, el panel solo muestra los atributos rellenados. Seleccione el icono de configuración situado encima del campo de búsqueda y active la opción &quot;Mostrar solo atributos rellenados&quot; para mostrar todos los atributos de esquema.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 54973b31 -->

@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer admite varios tipos de fuentes para conectarse con los sistema
 * Salesforce
 * Marketing Cloud de Salesforce
 
+**Fidelidad y recompensas:**
+* Talon.One
+* Capilar
+* Kobie
+
 ➡️ Vea la lista completa en el [catálogo de fuentes de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"}
 
 ## Antes de empezar {#prerequisites}
@@ -138,7 +143,7 @@ Para obtener información detallada sobre cómo configurar y administrar fuentes
 Ahora que comprende cuáles son las fuentes y por qué son importantes:
 
 * Explore el [catálogo de fuentes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"} para encontrar conectores para sus sistemas
-* Obtenga información sobre cómo [crear una conexión de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=es){target="_blank"}
-* Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=es){target="_blank"}
+* Obtenga información sobre cómo [crear una conexión de origen](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home){target="_blank"}
+* Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home){target="_blank"}
 * Descubra cómo [usar datos importados en recorridos](../building-journeys/journey-gs.md)
 * Revise la información general de [Introducción a la administración de datos](../data/gs-data.md) para comprender cómo encajan las fuentes en la configuración de datos completa de Journey Optimizer

@@ -19,10 +19,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 148
-ht-degree: 2%
+source-wordcount: 522
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ En este caso de uso, queremos enviar un solo correo electrónico a cada perfil, 
 <li>
       <strong>Id. de prescripción:</strong> pres2<br>
       <strong>Nombre:</strong> Medicamento B<br>
-      Recuperación de <strong>estado: </strong>
+      Recuperación de <strong>estado:</strong>
    </li>
 
 </ul>
@@ -69,7 +69,7 @@ En este caso de uso, queremos enviar un solo correo electrónico a cada perfil, 
 
 <li>
       <strong>Id. de prescripción:</strong> pres4<br>
-      <strong>Nombre:</strong> Medicamento D<br>
+      <strong>Nombre:</strong> ID de medicamento<br>
       <strong>Estado:</strong> listo
    </li>
 
@@ -144,3 +144,53 @@ En este caso de uso, queremos enviar un solo correo electrónico a cada perfil, 
 ```
 
 >[!ENDTABS]
+
+## Referencia rápida {#quick-reference}
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+>[!BEGINTABS]
+
+>[!TAB Información general]
+
+**TL;DR**
+
+Esta página muestra un caso de uso de personalización completo: iteración en matrices de perfiles anidadas (planes de mantenimiento que contienen recetas) con filtrado condicional para mostrar solo las recetas en estados &quot;listas&quot; o &quot;recuperadas&quot; en un mensaje de correo electrónico.
+
+**Intenciones**
+
+* Ver un ejemplo de salida procesado de un correo electrónico personalizado del plan de mantenimiento
+* Comprenda la plantilla de HTML utilizando bloques anidados `{{#each}}` y `{%#if%}` para la iteración de matriz condicional
+* Comprenda la estructura de datos de perfil necesaria: una matriz `plans` en la que cada plan contiene una matriz `prescriptions` con `state` campos
+
+>[!TAB Glosario]
+
+* **Iteración anidada**: se usan bucles `{{#each}}` dentro de otros bucles `{{#each}}` para atravesar estructuras de matrices de varios niveles en datos de perfil (por ejemplo, planes → prescripciones).
+* **Estado de prescripción**: un campo en cada objeto de prescripción que indica su estado de ciclo de vida en este caso de uso; los valores utilizados son &quot;listo&quot;, &quot;recuperado&quot; y &quot;recogido&quot;. *(específico de caso de uso)*
+* **`{%#if%}`/`{%/if%}`**: sintaxis de bloque condicional utilizada dentro de las plantillas de mensajes para filtrar los elementos de la matriz durante la iteración (distinta de la sintaxis de Handlebars de doble curvatura `{{#if}}`).
+
+>[!TAB Terminología]
+
+* **Nombre canónico:** iteración de matriz anidada — variantes: bucles anidados, cada uno anidado, iteración de varios niveles
+* **No confunda:** `{{#each}}` / `{{/each}}` (sintaxis de iteración de Handlebars, llaves dobles) ≠ `{%#if%}` / `{%/if%}` (sintaxis condicional, llaves de porcentaje): ambos se utilizan juntos en esta plantilla
+* **No confunda:** &quot;listo&quot; (receta disponible para recoger) ≠ &quot;recuperar&quot; (receta recuperada) ≠ &quot;recogido&quot; (receta ya recopilada; excluido de la salida por el filtro condicional)
+
+>[!TAB Preguntas más frecuentes]
+
+**Q: ¿Qué estados de prescripción se incluyen en la salida de correo electrónico?**
+
+Solo se muestran las recetas con el estado &quot;listo&quot; o &quot;retirado&quot;. Las recetas con el estado &quot;recogidas&quot; se excluyen mediante el filtro condicional `{%#if prescription.state = "ready" or prescription.state = "recall"%}`.
+
+**Q: ¿Qué estructura de datos de perfil se requiere para este caso de uso?**
+
+Un perfil con una matriz `plans`, donde cada objeto de plan contiene una matriz `prescriptions`. Cada objeto de prescripción debe tener los campos `prescription_id`, `name` y `state`.
+
+**Q: ¿Cómo se iteran los planes y las recetas en la plantilla?**
+
+El bucle `{{#each profile.plans as |plan|}}` externo se repite en cada plan de mantenimiento. Dentro de él, `{{#each plan.prescriptions as |prescription|}}` se repite en las prescripciones de cada plan, y un bloque condicional se filtra únicamente a los estados &quot;listo&quot; o &quot;revocar&quot;.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 4b68d597 -->

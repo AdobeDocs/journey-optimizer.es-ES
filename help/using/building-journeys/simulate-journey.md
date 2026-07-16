@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ En cualquier recorrido de **[!UICONTROL Simulación]**, **[!UICONTROL Simulació
 
    >[!NOTE]
    >
-   >Los campos de correo electrónico y teléfono de la ejecución precargada proceden de la dirección de correo electrónico y el número de teléfono del perfil de usuario de Adobe IMS.
+   >Los campos de correo electrónico y teléfono de ejecución precargados proceden de valores utilizados anteriormente en la simulación de recorrido y almacenados en la caché del explorador.
 
    ![Paso de valores de actualización rápida de simulación con anulación de tiempo de espera y campos de correo electrónico y teléfono de prueba](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    >[!NOTE]
    >
-   >Los campos de correo electrónico y teléfono están rellenados previamente desde el perfil de usuario de Adobe IMS.
+   >Los campos de correo electrónico y teléfono se rellenan previamente con los valores utilizados anteriormente en la simulación de recorrido y se almacenan en la caché del explorador.
 
    ![Cuadro de diálogo Generar usuarios simulados con campos de correo electrónico y teléfono de ejecución y botón Generar](assets/simulate-generate.png)
 

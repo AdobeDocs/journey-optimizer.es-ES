@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* La página **Comprobación de contenido** se ha actualizado con una nueva sección **Acerca de HTML y el tamaño de CSS** que explica qué se incluye en la estimación del tiempo de creación (estructura de HTML, CSS en línea, tokens de personalización, fragmentos, bloques condicionales y referencias de imagen), por qué la estimación difiere del tamaño entregado y qué significan las advertencias de tamaño para los autores. [Más información](../email/content-check.md#size-estimation)
+
+* La página **Crear campañas de calentamiento de IP** se ha actualizado para aclarar que se pueden aplicar reglas de segmentación a las campañas de calentamiento de IP y para documentar el comportamiento de evaluación: la pertenencia a la audiencia se corrige al ejecutar la activación (segmentación por lotes diaria), mientras que los atributos de perfil se leen en el momento de la ejecución a partir de los datos por lotes ingeridos más recientemente. [Más información](../configuration/ip-warmup-campaign.md)
+* La página **Finalizar un recorrido** se ha actualizado para aclarar el tiempo de detención automática de los recorridos de audiencia de lectura no recurrentes: un búfer de seguridad de aproximadamente **96 horas (~4 días)** después de la ejecución programada, durante las cuales el recorrido puede permanecer en el estado **Activo** antes de pasar a **Detenido** en el siguiente pase de escáner. La página ahora también aclara que los recorridos basados en olas, incluidos los casos de uso de optimización del tiempo de envío, se excluyen de esta parada automática y, en su lugar, siguen el tiempo de espera de recorrido estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* Las páginas **Carga personalizada** y **Leer audiencia** se han corregido para aclarar el comportamiento de Lectura incremental para audiencias externas/personalizadas (incluidas la carga de CSV y la Composición de audiencias federadas): La Lectura incremental no es compatible funcionalmente con estos tipos de audiencia hoy en día y la audiencia completa se procesa en cada periodicidad independientemente de la configuración de Alternancia de lectura incremental. La guía ahora cruza los controles de periodicidad, incluido **Forzar reentrada en repetición**. [Más información sobre la carga personalizada](../audience/custom-upload.md) y [Más información sobre la programación de la lectura de audiencias](../building-journeys/read-audience.md#schedule)
 
 * Se ha agregado una advertencia a la página **Editar registros PTR** para informar a los clientes de que al agregar un nuevo registro DNS de reenvío a su plataforma, el registro DNS de reenvío del subdominio anterior no debe quitarse hasta que se complete el movimiento, ya que esto provocará que la edición falle. [Más información](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 10%
+source-wordcount: 5162
+ht-degree: 9%
 
 ---
 
@@ -236,6 +236,14 @@ De forma predeterminada, los recorridos están configurados para ejecutarse una 
 
 En el caso de los recorridos recurrentes, hay opciones específicas disponibles para ayudarle a administrar la entrada de perfiles en el recorrido. Expanda las secciones siguientes para obtener más información sobre cada opción.
 
+>[!NOTE]
+>
+>**Uso de las instantáneas de audiencia**
+>
+>Cada ejecución de Leer audiencia utiliza el abono de audiencia disponible en el momento de ejecutarse la ejecución. Para audiencias por lotes, [!DNL Journey Optimizer] lee la última instantánea de audiencia por lotes disponible. No vuelve a calcular la audiencia en tiempo real cuando se inicia el recorrido.
+>
+>En el caso de los recorridos recurrentes, cada incidencia utiliza la instantánea disponible para dicha incidencia. Si desea que el recorrido espere a que se realice la última evaluación de audiencia por lotes antes de que se ejecute, habilite **[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]**.
+
 ![Leer opciones recurrentes de audiencia: lectura incremental, forzar reentrada, Déclencheur después del lote](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lectura incremental]**
@@ -253,7 +261,9 @@ Para minimizar el riesgo de que falten perfiles:
 
 >[!CAUTION]
 >
->Si va a segmentar una [audiencia de carga personalizada](../audience/about-audiences.md#about-segments) en su recorrido, los perfiles solo se recuperan en la primera periodicidad cuando esta opción está habilitada en un recorrido recurrente. Estas audiencias son fijas.
+>Para [audiencias de carga personalizadas](../audience/custom-upload.md) (carga CSV) y otras audiencias externas (por ejemplo, Composición de audiencia federada), **[!UICONTROL Lectura incremental]** no es compatible funcionalmente hoy. En cada repetición, se procesa **toda la audiencia**, independientemente de la opción de alternancia de lectura incremental.
+>
+>Para controlar las entradas recurrentes, use [Forzar reentrada en repetición](#schedule).
 
 +++
 
@@ -264,6 +274,30 @@ Esta opción le permite hacer que todos los perfiles que aún están presentes e
 Por ejemplo, si tiene una espera de 2 días en un recorrido recurrente diario, al activar esta opción los perfiles se mueven a la siguiente ejecución del recorrido. Esto sucede al día siguiente, tanto si se encuentran en la audiencia de próxima ejecución como si no.
 
 Si la duración de los perfiles en este recorrido puede ser mayor que la periodicidad, no active esta opción para asegurarse de que los perfiles puedan finalizar su recorrido.
+
++++
+
++++**Cómo funcionan juntos [!UICONTROL Lectura incremental] y [!UICONTROL Forzar reentrada en repetición]**
+
+Estas dos opciones controlan diferentes partes de la ejecución del recorrido:
+
+* **[!UICONTROL Lectura incremental]** controla **qué perfiles se seleccionan de la audiencia** para la siguiente ejecución recurrente.
+* **[!UICONTROL Forzar reentrada en repetición]** controla **lo que les sucede a los perfiles que aún están activos en el recorrido** cuando se inicia la siguiente ejecución recurrente.
+
+Utilice la siguiente tabla para comprender el comportamiento combinado en la siguiente ejecución.
+
+| [!UICONTROL Lectura incremental] | [!UICONTROL Forzar reentrada en repetición] | Comportamiento en la siguiente ejecución |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| Desactivado | Desactivado | [!DNL Journey Optimizer] lee la audiencia completa de esa ejecución. Los perfiles que aún están activos en el recorrido no se restablecen automáticamente. |
+| Día | Desactivado | [!DNL Journey Optimizer] solo lee perfiles que se agregaron a la audiencia desde la última ejecución. Los perfiles que aún están activos en el recorrido no se restablecen automáticamente. |
+| Desactivado | Día | [!DNL Journey Optimizer] quita los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, vuelve a leer la audiencia completa. Esto permite que los perfiles comiencen de nuevo en la nueva ocurrencia. |
+| Día | Día | [!DNL Journey Optimizer] elimina los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, solo lee los perfiles que se agregaron a la audiencia desde la última ejecución. La reentrada forzada restablece la participación activa en el recorrido, pero la lectura incremental limita la selección a los miembros de audiencia recién añadidos. |
+
+En otras palabras, **[!UICONTROL Forzar reentrada en repetición] no deshabilita [!UICONTROL Lectura incremental]**. Si ambas opciones están habilitadas, los perfiles se eliminan de su instancia de recorrido activa antes de que comience la siguiente ocurrencia, pero esta sigue seleccionando solo los miembros de audiencia que se consideran nuevos desde la última ejecución.
+
+>[!IMPORTANT]
+>
+>Un perfil eliminado por **[!UICONTROL Forzar reentrada en repetición]** no se trata automáticamente como un nuevo miembro de audiencia para **[!UICONTROL Lectura incremental]**. La selección de audiencias sigue dependiendo de si el perfil se ha añadido recientemente a la audiencia desde la última ejecución.
 
 +++
 

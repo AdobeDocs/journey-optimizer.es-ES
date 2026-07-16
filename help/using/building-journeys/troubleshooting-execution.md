@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -100,14 +100,14 @@ Si los perfiles de prueba no progresan a través del recorrido en el modo de pru
 
 Si los perfiles de prueba entran en el recorrido pero no avanzan más allá del paso inicial, compruebe lo siguiente:
 
-* **fecha de inicio del Recorrido** - La causa más común es cuando la fecha de inicio del recorrido se establece en el futuro. Los perfiles de prueba se descartan inmediatamente si la hora actual no coincide con la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) configurada en el recorrido. Para resolver:
+* **fecha de inicio del Recorrido** - La causa más común es cuando la fecha de inicio del recorrido se establece en el futuro. Los perfiles de prueba se descartan inmediatamente si la hora actual no coincide con la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) de la recorrido, lo que genera la entrada de registro: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para resolver:
    * Compruebe que la fecha de inicio del recorrido no esté establecida en el futuro
    * Asegúrese de que la hora actual se encuentre dentro de la ventana de fecha activa del recorrido
-   * Si es necesario, actualice las propiedades del recorrido para ajustar la fecha de inicio
+   * Si es necesario, establezca temporalmente la fecha de inicio a una hora anterior al momento actual para realizar la prueba y, a continuación, restáurela antes de publicar
 
 * **Configuración del perfil de prueba** - Confirme que el perfil está marcado correctamente como perfil de prueba en [!DNL Adobe Experience Platform]. Consulte [cómo crear perfiles de prueba](../audience/creating-test-profiles.md) para obtener más información.
 
-* **Área de nombres de identidad** - Asegúrese de que el área de nombres de identidad utilizada en la configuración del evento coincida con el área de nombres del perfil de prueba.
+* **El área de nombres de identidad no coincide**: una falta de coincidencia de área de nombres provoca una caída silenciosa: el evento se acepta y devuelve una respuesta correcta, pero el perfil nunca entra en la recorrido y no aparece ningún error en la interfaz de usuario. Asegúrese de que el espacio de nombres del **Identificador de perfil** coincida exactamente con el espacio de nombres definido en el esquema de eventos (distingue mayúsculas de minúsculas). Consulte el [formato de expresión de identificador de perfil](testing-the-journey.md#trigger-events-prerequisites) para obtener detalles.
 
 ### Indicadores de transición nulos
 
@@ -125,7 +125,7 @@ Si encuentra problemas de transición persistentes:
 
 >[!NOTE]
 >
->Recuerde que los eventos enviados fuera de la ventana de fecha activa del recorrido se descartan silenciosamente sin ningún mensaje de error. Compruebe siempre primero la configuración del tiempo de recorrido al solucionar problemas de progresión de perfiles de prueba.
+>Los eventos enviados fuera de la ventana de fecha activa del recorrido se descartan silenciosamente con la entrada de registro `DISPATCHER DISCARD #16 — unqualified on journey version enablements` y sin error de interfaz de usuario. Compruebe siempre primero la configuración del tiempo de recorrido al solucionar problemas de progresión de perfiles de prueba.
 
 ## Comprobar cómo navegan las personas por el recorrido {#checking-how-people-navigate-through-the-journey}
 

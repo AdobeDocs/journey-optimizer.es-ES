@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 6%
+source-wordcount: 3541
+ht-degree: 5%
 
 ---
 
@@ -82,12 +82,13 @@ Revise estas notas antes de ejecutar pruebas en el recorrido.
 * **Flexibilidad de reactivación**: puede habilitar y deshabilitar el modo de prueba tantas veces como sea necesario.
 * **Desactivación automática**: los Recorridos que permanecen inactivos en modo de prueba durante **más de una semana** salen automáticamente del modo de prueba y vuelven al estado Borrador. No se pierde contenido del recorrido; solo finaliza la sesión del modo de prueba.
 * **Edición y publicación**: mientras el modo de prueba esté activo, no puede modificar el recorrido. Sin embargo, puede publicar directamente el recorrido, sin necesidad de desactivar el modo de prueba antes.
+* **Envío de mensajes**: en el modo de prueba, los mensajes se envían a las bandejas de entrada reales de los perfiles de prueba utilizando la misma canalización de envío que la producción. Esto difiere de [Ejecución en seco del Recorrido](journey-dry-run.md), que simula la ejecución del recorrido sin enviar mensajes ni activar acciones del canal real. Ninguno de los métodos duplica todos los aspectos de un envío en directo; utilice un entorno de ensayo para la validación completa de extremo a extremo.
 
 ### Ejecución
 
-* **Comportamiento de división**: cuando el recorrido alcanza una división, siempre se selecciona la rama superior. Reordene las ramas si desea probar una ruta diferente.
+* **Comportamiento de división**: cuando el recorrido alcanza una división, la rama superior siempre se selecciona en modo de prueba. Esto no refleja la ruta seleccionada estadísticamente durante la ejecución en directo. Reordene las ramas si desea probar una ruta diferente.
 * **Programación de eventos**: si el recorrido incluye varios eventos, almacene en déclencheur cada evento en secuencia. Si se envía un evento demasiado pronto (antes de que termine el primer nodo de espera) o demasiado tarde (después del tiempo de espera configurado), se descartará el evento. A continuación, el perfil se envía a una ruta de tiempo de espera. Confirme siempre que las referencias a los campos de carga útil de evento sigan siendo válidas enviando la carga útil dentro de la ventana definida.
-* **Ventana de fecha activa**. Asegúrese de que la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) configurada en el recorrido incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba activados se descartan silenciosamente. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Ventana de fecha activa**. Asegúrese de que la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) configurada en el recorrido incluya la hora actual al iniciar el modo de prueba. De lo contrario, los eventos de prueba desencadenados se descartan silenciosamente con el mensaje de registro `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para evitarlo durante la prueba, establezca temporalmente la fecha de inicio de la recorrido a una hora anterior al momento actual y, a continuación, restáurela antes de publicarla. Obtenga más información acerca de la solución de problemas de este problema [en esta página](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventos de reacción**: para los eventos de reacción con tiempo de espera, el tiempo de espera mínimo y predeterminado es de 40 segundos.
 * **Conjuntos de datos de prueba**: los eventos activados en el modo de prueba se almacenan en conjuntos de datos dedicados etiquetados de la siguiente manera: `JOtestmode - <schema of your event>`
 * **Infraestructura compartida**: el modo de prueba se ejecuta en la misma infraestructura que la producción. Durante los períodos de alto tráfico, es posible que observe retrasos en los envíos de correo electrónico o en el procesamiento de eventos. En este caso, compruebe los paneles de tráfico de la plataforma o vuelva a intentar las pruebas durante las horas de menor actividad.
@@ -149,6 +150,17 @@ Para validar el recorrido de extremo a extremo:
 >* El identificador de perfil que especificó está marcado como perfil de prueba en [!DNL Adobe Experience Platform].
 >* Las fechas de inicio y finalización configuradas del recorrido incluyen la hora actual. Los eventos activados fuera de esta ventana se descartan de forma silenciosa. [Más información](troubleshooting-execution.md#troubleshooting-test-transitions).
 
+## Solucionar problemas del modo de prueba {#troubleshoot-test-mode}
+
+Utilice esta tabla para autodiagnosticar errores comunes del modo de prueba antes de abrir un ticket de asistencia.
+
+| Síntoma | Causa probable | Resolución |
+| --- | --- | --- |
+| El evento se envía correctamente, pero el perfil nunca aparece en el registro de recorrido | El área de nombres no coincide en el identificador de perfil: el valor del área de nombres no coincide con el área de nombres definido en el esquema de evento | Compruebe el formato del identificador: `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` debe coincidir exactamente con el esquema de eventos (distingue mayúsculas de minúsculas). Consulte [Requisitos previos](#trigger-events-prerequisites). |
+| Eventos aceptados (200 respuestas) pero el recorrido nunca genera déclencheur; el registro muestra `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | La fecha de inicio del recorrido se establece en el futuro; los eventos de prueba se descartan silenciosamente fuera de la ventana de fecha activa | Establezca temporalmente la fecha de inicio del recorrido en antes de la hora actual. Restaure antes de publicar. Ver [fechas de recorrido](journey-properties.md#dates). |
+| Leer recorrido de audiencia muestra un registro de evaluación de segmentos por lotes, pero ninguna entrada de perfil | La evaluación de segmentos por lotes se registra por separado para cada entrada de perfil; el registro de lotes no confirma que los perfiles hayan entrado en el recorrido | Espere a que finalice la ventana de procesamiento por lotes. Para obtener comentarios de registro en tiempo real, realice pruebas con un recorrido de eventos unitarios. |
+| No se puede habilitar el modo de prueba; error `ERR_MODEL_RULES_16` | El evento no incluye un área de nombres de identidad, necesario cuando el recorrido utiliza una acción de canal | Agregue un [área de nombres de identidad](../audience/get-started-identity.md) a la configuración del evento. |
+
 ## Activación de eventos {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +176,12 @@ Use el botón **[!UICONTROL Déclencheur un evento]** para configurar un evento 
 Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en [!DNL Adobe Experience Platform]. De hecho, el modo de prueba solo permite estos perfiles en el recorrido.
 
 El evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe agregarse en el campo **Identificador de perfil**.
+
+El valor **Identificador de perfil** debe coincidir exactamente con la identidad almacenada en el esquema de eventos. El formato utilizado para hacer referencia a una identidad en la carga útil de evento es el siguiente:
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+Reemplace `<NamespaceName>` con el área de nombres exactamente como se define en el esquema de evento (por ejemplo, `Email` o `Phone`). Una falta de coincidencia de área de nombres provoca una **caída silenciosa**: el evento se acepta y devuelve una respuesta correcta, pero el perfil nunca entra en el recorrido y no aparece ningún error en la interfaz de usuario. Si un perfil no aparece en los registros de prueba después de activar un evento, compruebe que el área de nombres del **Identificador de perfil** coincida exactamente con el área de nombres del esquema de evento.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -237,6 +255,10 @@ Se muestra el número de individuos (técnicamente denominados instancias) que e
 * _richData_: los datos que el recorrido ha recuperado si el recorrido usa orígenes de datos.
 * _transitionHistory_: la lista de pasos que siguió el individuo. Para los eventos, se muestra la carga útil.
 * _actionExecutionErrors_ : información sobre los errores que se produjeron.
+
+>[!NOTE]
+>
+>El registro de prueba solo muestra entradas para **eventos de entrada de perfil unitario**. Si está probando un recorrido Leer audiencia, el registro de evaluación de segmentos por lotes es independiente del registro de entrada de perfil individual. Un segmento por lotes que se está evaluando no confirma que los perfiles individuales hayan progresado a través de los pasos de recorrido. Si no aparece ninguna entrada de perfil después de activar un recorrido Leer audiencia, espere a que se complete la ventana de procesamiento por lotes antes de extraer conclusiones.
 
 Estos son los diferentes estados del recorrido de un individuo:
 
