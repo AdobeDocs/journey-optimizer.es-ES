@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Monitorización del rendimiento del desafío de fidelidad
-description: Aprenda a utilizar los paneles de informes de Retos de fidelidad para rastrear las métricas de tarea y rendimiento de desafíos en Adobe Journey Optimizer.
+description: Aprenda a utilizar los paneles de informes de Retos de fidelidad para rastrear el rendimiento y las perspectivas de los desafíos en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 2%
+source-wordcount: 586
+ht-degree: 4%
 
 ---
 
@@ -58,66 +58,73 @@ ht-degree: 2%
 >
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
-Los informes de Desafíos de fidelidad proporcionan paneles de nivel de desafío para que pueda realizar un seguimiento de métricas clave como el rendimiento de funnel de la audiencia, las tasas de finalización de tareas, la emisión de recompensas y el impacto en los ingresos. Todos los datos proceden de Adobe Customer Journey Analytics y se presentan en una interfaz personalizada y diseñada específicamente.
+Utilice los informes Retos de fidelización para ver el rendimiento de los desafíos. Compruebe quién se inscribe, quién completa los desafíos y cuántos ingresos genera su programa, todo en un solo lugar. Los datos proceden de Adobe Customer Journey Analytics.
+
+Para abrir los paneles de informes, vaya a **[!UICONTROL Desafíos de fidelización (Beta)]** en Journey Optimizer y seleccione **[!UICONTROL Informes de fidelización]** en el panel de navegación izquierdo.
+
+La interfaz de informes tiene dos pestañas:
+
+* **[Informes](#reports-view)**: números y gráficos para tus desafíos.
+* **[Datos](#insights-cards)**: tarjetas que destacan lo que merece tu atención en este momento.
+
+## Vista Informes {#reports-view}
+
+La ficha **Informes** le ofrece una descripción general del rendimiento de su programa durante el período seleccionado. Utilice el selector de fechas en la parte superior de la página y seleccione el botón **[!UICONTROL Aplicar filtro]** para cambiar el período de informe y ver los números y gráficos actualizados.
+
+![](assets/reporting-challenge-key.png)
+
+El área de **métricas clave** muestra cuatro números de un vistazo. Cada métrica también muestra un cambio porcentual en comparación con el período anterior.
+
+* **Miembros socio**: Cuántos miembros socio estaban activos durante el período.
+* **Suscripciones al desafío**: Cuántas veces se inscribieron los miembros en un desafío.
+* **Ingresos**: Ingresos totales vinculados a la actividad de desafío.
+* **Tasa promedio de finalización**: Porcentaje de miembros inscritos que finalizaron al menos un desafío.
+
+El panel **Últimas perspectivas** de la derecha muestra las perspectivas generadas por IA más recientes de su programa. Seleccione **[!UICONTROL Ver todo]** para abrir la ficha **Información** completa.
+
+Debajo de las métricas clave, la sección **Desafíos** le ofrece dos vistas de la actividad del desafío.
+
+![](assets/reporting-challenge-challenges.png)
+
+* **Participación en el desafío**: Una cronología que muestra cuántos miembros iniciaron, están en curso y completaron desafíos durante el período.
+* **Informes de desafíos**: Una tabla de todos tus desafíos con detalles como tipo, tareas, estado y números de inscripción. Utilice la barra de búsqueda para encontrar un desafío específico. Seleccione un desafío para ver su informe completo con tendencias de participación y detalles de rendimiento.
+
+  +++Ejemplo de informe de desafío
+
+  ![](assets/reporting-challenge-report.png)
+
+  +++
+
+## Pestaña Perspectivas {#insights-cards}
+
+La pestaña **Insights** muestra tarjetas generadas por IA que marcan anomalías, tendencias y oportunidades en su programa de fidelidad. Cada tarjeta representa una sola observación y se clasifica según su importancia en relación con los datos actuales del programa.
+
+![](assets/reporting-insights.png)
+
+La marca de tiempo **Última rastreada** en la parte superior derecha muestra la última vez que el motor de insight procesó los datos del programa.
+
+### Acciones de tarjeta {#insight-card-actions}
+
+Cada tarjeta tiene un menú ![](assets/do-not-localize/Smock_More_18_N.svg) con dos acciones:
+
+* **Descartar**: quita permanentemente la tarjeta de la lista de perspectivas.
+* **Posponer**: oculta la tarjeta temporalmente. Elija posponer por **1 día**, **3 días** o **7 días**. La tarjeta vuelve a aparecer una vez finalizado el periodo de inactividad.
 
 <!--
-A direct **Analyze in CJA** button will be added to the reporting interface before the feature reaches general availability.
+### Priority badges {#insight-badges}
+
+Each card has a priority badge — **High**, **Medium**, or **Low** — based on how significant the underlying signal is relative to your current program data. These levels are relative: there are always a few **High** cards, even in a quiet week. **High** means "most relevant right now", not that a fixed threshold was crossed.
 -->
 
-## Acceso a informes de fidelidad {#access-reports}
+### Etiquetas de categoría {#insight-category-tags}
 
-Para abrir los paneles de informes de fidelidad, vaya a **[!UICONTROL Desafíos de fidelidad (Beta)]** en Journey Optimizer y seleccione **[!UICONTROL Informes de fidelidad]** en el panel de navegación izquierdo.
+Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del programa se relaciona insight.
 
-![](assets/reporting-home.png)
-
-La interfaz de informes proporciona tres vistas, cada una con un nivel de detalle diferente. La **[Información general](#overview)** muestra un resumen de todos tus desafíos activos. Debajo, dos pestañas permiten cambiar entre vistas más granulares:
-
-* **[Desafíos](#challenges-view)**: Un desglose por desafío con capacidad de desglose,
-* **[Tareas](#tasks-view)**: una vista de nivel de tarea de las métricas de ingresos y finalización.
-
-Puede ajustar el intervalo de fechas para todas las vistas utilizando el selector de fechas en la parte superior de la página. También hay disponibles ajustes preestablecidos de fecha estándar.
-
-![](assets/reporting-date.png)
-
-## Información general {#overview}
-
-La página **Información general** muestra las métricas agregadas en todos los desafíos activos durante el período seleccionado.
-
-![](assets/reporting-overview.png)
-
-En la parte superior de la página se muestran las métricas siguientes:
-
-**Miembros socio** - Cantidad de miembros del programa de fidelidad que estuvieron activos durante el período seleccionado.
-**Suscripciones a desafíos**: número total de nuevas inscripciones a desafíos en todos los desafíos.
-**Ingresos** - Ingresos totales vinculados a la actividad de desafío durante el período.
-**Tasa promedio de finalización** - Porcentaje de clientes inscritos que completaron al menos un desafío.
-
-Debajo de estas métricas, una cronología de **participación en el desafío diario** muestra cómo evolucionó la participación en el desafío a lo largo del período, trazando tres series:
-
-* Clientes que **iniciaron** un desafío,
-* Clientes que se movieron al estado **en curso**,
-* Clientes que **completaron** un desafío.
-
-## Vista de retos {#challenges-view}
-
-La ficha **Desafíos** desglosa el rendimiento por desafío individual. Cada reto se muestra con columnas clave como Tipo, Estado, Inscripción, Finalización, etc. La lista se ordena por la fecha de la última modificación y muestra diez desafíos a la vez. Utilice el botón **Siguiente** de la parte inferior para buscar más información.
-
-![](assets/reporting-challenges-tab.png)
-
-Seleccione cualquier desafío de la lista para abrir su vista de detalles. El informe incluye varios bloques de métricas, como ingresos totales, inscripción, tasa de finalización y gráficos de tendencias, así como un desglose diario.
-
-+++Ejemplo de informe de desafío
-
-![](assets/reporting-challenge-report.png)
-
-+++
-
-## Vista de tareas {#tasks-view}
-
-La ficha **Tareas** proporciona una vista de desafío cruzado del rendimiento de las tareas. Puede alternar entre tareas principales por ingresos y tareas principales por finalizaciones para centrarse en la métrica más relevante para usted.
-
-La pestaña también resalta las 6 tareas principales por ingresos, lo que proporciona una vista rápida de qué tareas obtienen el mayor valor.
-
-Debajo del gráfico radial, una lista de tareas muestra todas las tareas con columnas clave como Finalizaciones, Ingresos y los desafíos a los que pertenece cada tarea. La lista se ordena por ingresos y muestra diez tareas a la vez. Utilice el botón **Siguiente** para buscar más información.
-
-![](assets/reporting-task-report.png)
+| Categoría | Qué cubre |
+| --- | --- |
+| **En todo el programa** | Estado general y rendimiento de su programa de fidelización |
+| **Nivel** | Ganar tasas, movimientos y distribución entre niveles de miembros |
+| **Desafío** | Actividad, tasas de finalización y anomalías para un desafío específico o entre desafíos |
+| **Producto** | Rendimiento del catálogo de productos, incluidas vistas, reembolsos y tendencias de nivel de catálogo |
+| **Ciclo de vida del miembro** | Cómo progresan los miembros en las fases de inscripción, participación y cancelación |
+| **Tendencia** | Patrones basados en el tiempo, como ciclos semanales, picos estacionales o reversiones de tendencias |

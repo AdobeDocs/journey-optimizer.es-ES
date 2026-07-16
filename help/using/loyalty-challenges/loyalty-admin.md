@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ Para abrir la interfaz de configuración, seleccione el menú **[!UICONTROL Admi
 >title="Configuración global"
 >abstract="La configuración global define la configuración en el nivel de organización para los Retos de lealtad, incluido el espacio de nombres de identidad utilizado para identificar a los miembros en distintos eventos y retos."
 
-Abra la pestaña **[!UICONTROL Configuración global]** y seleccione el [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) de Adobe Experience Platform para desafíos de fidelidad en la lista desplegable **[!UICONTROL Área de nombres]**. Este área de nombres debe coincidir con la forma en que se identifican los perfiles de miembro en los datos.
+Abra la ficha **[!UICONTROL Configuración global]** para establecer la configuración global de Desafíos de fidelidad.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [Aprenda a trabajar con áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* En la sección **[!UICONTROL Configuración de la organización]**, seleccione el área de nombres de identidad [Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces) para los retos de fidelidad. Este área de nombres debe coincidir con la forma en que se identifican los perfiles de miembro en los datos.
+
+  ➡️ [Aprenda a trabajar con áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* Utilice la sección **[!UICONTROL Informes]** para establecer la métrica de prioridad de su organización en el panel de información de fidelización. Esta configuración determina qué perspectivas reciben énfasis en la fuente, lo que le permite centrarse en la métrica que más importa a su negocio.
+
+  Seleccione una de las siguientes opciones de KPI:
+
+   * **[!UICONTROL Ingresos]** — Priorizar información relacionada con transacciones monetarias y rendimiento de ventas
+   * **[!UICONTROL Participación]**: dé prioridad a las perspectivas relacionadas con la actividad y participación de los miembros
+   * **[!UICONTROL Canjes]**: dé prioridad a las perspectivas relacionadas con las tasas de canje de recompensas y la actividad
+   * **[!UICONTROL Conversiones]**: dé prioridad a las perspectivas relacionadas con las métricas de conversión y la finalización de objetivos
+
+  Al seleccionar un KPI, las perspectivas relacionadas con esa métrica reciben un aumento de puntuación, lo que hace que suban a la parte superior de la fuente. Esto significa que las perspectivas más relevantes para el KPI seleccionado aparecerán primero. No se ocultan datos: sigue apareciendo toda la fuente de insight, clasificada por relevancia con el KPI seleccionado priorizado por encima de otras métricas. Esta configuración solo afecta a cómo se clasifican las perspectivas en la fuente y no modifica cómo funciona el programa de fidelidad ni cómo se evalúan los desafíos. Puede cambiar la selección de KPI en cualquier momento y la fuente de insight vuelve a priorizar en el siguiente ciclo de actualización para reflejar la nueva prioridad.
+
+  Para obtener más información acerca de las perspectivas de fidelidad y la supervisión del rendimiento, consulte [Supervisar el rendimiento del desafío de fidelidad](loyalty-reporting.md).
 
 ## Proveedores de recompensas {#reward-providers}
 
