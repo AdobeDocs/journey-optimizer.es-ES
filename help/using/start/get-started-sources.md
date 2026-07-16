@@ -8,27 +8,16 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 TQID: https://experienceleague.adobe.com/vlCiIs-yHeTzHxkij1OTVljHm07GI-jLtS-RKFV5nKs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b90bc9ee925e10634af77c79448a732a20db7598
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 99%
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -134,7 +123,7 @@ Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano,
 
 Vea este vídeo para comprender los conectores de origen y cómo configurarlos en Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422582?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Para obtener información detallada sobre cómo configurar y administrar fuentes, consulte la [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es){target="_blank"}.
 
@@ -143,7 +132,7 @@ Para obtener información detallada sobre cómo configurar y administrar fuentes
 Ahora que comprende cuáles son las fuentes y por qué son importantes:
 
 * Explore el [catálogo de fuentes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"} para encontrar conectores para sus sistemas
-* Obtenga información sobre cómo [crear una conexión de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=es){target="_blank"}
-* Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=es){target="_blank"}
+* Obtenga información sobre cómo [crear una conexión de origen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
+* Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
 * Descubra cómo [usar datos importados en recorridos](../building-journeys/journey-gs.md)
 * Revise la información general de [Introducción a la administración de datos](../data/gs-data.md) para comprender cómo encajan las fuentes en la configuración de datos completa de Journey Optimizer
