@@ -5,14 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -363,7 +360,7 @@ No. `{{#each}}` solo está disponible en el contenido de personalización de men
 
 **Q: ¿Cómo hago referencia a un campo cuyo nombre contiene un guion?**
 
-Ajuste la clave con guiones en acentos graves dentro de una expresión PQL: `{%= profile.events.\`order-total\` > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&grave; variable como paso intermedio si es necesario.
+Ajuste la clave con guiones en comillas invertidas dentro de una expresión PQL: ``{%= profile.events.`order-total` > 100 %}``. No se admiten las comillas invertidas en la interpolación de Handlebars sin formato: use una variable `{% let %}` como paso intermedio si es necesario.
 
 **Q: ¿Por qué `topN` necesita `{% let %}` antes de un bucle `{{#each}}`?**
 
