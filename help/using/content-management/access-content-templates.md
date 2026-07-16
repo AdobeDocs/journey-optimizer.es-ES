@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -108,13 +101,26 @@ Para desplazarse fácilmente por las plantillas de contenido, utilice carpetas p
 
 ## Editar y eliminar plantillas de contenido {#edit}
 
-* Para editar el contenido de una plantilla, haga clic en el elemento deseado de la lista y realice los cambios necesarios. También puede editar las propiedades de la plantilla de contenido haciendo clic en el botón Editar junto al nombre de la plantilla.
+Desde el botón **[!UICONTROL Más acciones]** situado junto a cada plantilla, puede acceder a los siguientes métodos abreviados y acciones:
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL Editar detalles]**: edite el nombre, la descripción y las etiquetas de la plantilla.
+* **[!UICONTROL Simular contenido]**: previsualice y pruebe el contenido de la plantilla.
+* **[!UICONTROL Eliminar]**: elimine la plantilla.
 
-* Para eliminar una plantilla, selecciona el botón **[!UICONTROL Más acciones]** junto a la plantilla deseada y selecciona **[!UICONTROL Eliminar]**.
+Para las plantillas de correo electrónico, están disponibles los siguientes métodos abreviados adicionales:
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL Editar línea de asunto]**: actualice rápidamente la línea de asunto del correo electrónico.
+* **[!UICONTROL Editar cuerpo del correo electrónico]**: abra el diseñador de correo electrónico para modificar el contenido de la plantilla.
+* **[!UICONTROL Ver revisión]**: vea una revisión de la plantilla de correo electrónico.
+* **[!UICONTROL Enviar revisión]** — Envíe una revisión de la plantilla a los destinatarios designados.
+* **[!UICONTROL Informe de correo no deseado]**: analice la plantilla con filtros de correo no deseado.
+* **[!UICONTROL Procesar correo electrónico]**: obtenga una vista previa del procesamiento del correo electrónico en diferentes clientes de correo electrónico.
+
+![](assets/content-template-quick-launch.png)
+
+Para editar el contenido completo de una plantilla, haga clic en el elemento deseado de la lista y realice los cambios necesarios. También puede editar las propiedades de la plantilla de contenido haciendo clic en el botón Editar junto al nombre de la plantilla.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >
