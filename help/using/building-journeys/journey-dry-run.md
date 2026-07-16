@@ -10,32 +10,16 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2002
-ht-degree: 9%
+source-wordcount: 2330
+ht-degree: 8%
 
 ---
 
@@ -93,6 +77,8 @@ Durante la ejecución en seco, el recorrido se ejecuta en modo de simulación, a
 
    * Si se usa un nodo **Reaction** con uno o varios nodos **unitary event** en paralelo, los perfiles siempre pasarán por el evento de reacción.
    * Si se usa un nodo **Reaction** con uno o varios nodos **reaction event** en paralelo, los perfiles siempre pasarán por el primero del lienzo (el de arriba).
+
+* Las actividades de **Leer audiencia** con un tiempo de ejecución programado (diario, semanal o mensual) no siguen el tiempo configurado en el recorrido: la programación se ancla al momento en que se activó la ejecución en seco. Por ejemplo, si el recorrido está configurado para ejecutarse diariamente a las 10 a. m. pero activa la ejecución en seco a las 8 a. m., todas las lecturas programadas posteriores durante la ejecución en seco se ejecutarán a las 8 a. m.
 
 >[!CAUTION]
 >
@@ -159,7 +145,7 @@ Los vínculos a las últimas 24 horas y todos los informes de tiempo están disp
 * Los recorridos de ejecución en seco no afectan a las reglas empresariales
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * **Las acciones Jump** no están habilitadas en la ejecución en seco.
-Cuando un recorrido de origen déclencheur un evento **Jump** a uno de destino, ese evento de salto no sería aplicable a una versión de recorrido de ejecución en seco. Por ejemplo, si la última versión de un recorrido está en Dry run y la anterior es **Live**, entonces el evento de salto ignoraría la versión de Dry run y solo sería aplicable para la versión de **Live**.
+Cuando un recorrido de origen déclencheur un evento **Jump** a uno de destino, ese evento de salto no sería aplicable a una versión de recorrido de ejecución en seco. Por ejemplo, si la última versión de un recorrido está en ejecución en seco y la anterior es **Live**, el evento de salto ignoraría la versión de ejecución en seco y solo sería aplicable a la versión **Live**.
 
 ## Eventos de paso de recorrido y simulación {#journey-step-events}
 
@@ -209,11 +195,15 @@ No. Los datos de informes solo están disponibles mientras la ejecución en seco
 
 La ejecución en seco genera **stepEvents** marcados con `inDryRun` y un `dryRunID`. Cuando analice métricas de informes de recorrido con el servicio de consultas [!DNL Adobe Experience Platform], excluya eventos de paso donde `inDryRun` sea `true` (incluya solo eventos donde `inDryRun` sea `null` o `false`).
 
+**¿Cambia el tiempo de ejecución programado de una actividad Leer audiencia en Ejecución en seco?**
+
+Sí. En el caso de los recorridos que usan una actividad **Leer audiencia** con una hora programada (diaria, semanal o mensual), la ejecución en seco ancla la programación al momento en que se activó la ejecución en seco, no la hora configurada en el recorrido. Por ejemplo, si el recorrido está configurado para ejecutarse a las 10 de la mañana pero activa la ejecución en seco a las 8 de la mañana, todas las lecturas diarias durante la ejecución en seco se ejecutarán a las 8 de la mañana.
+
 ## Vídeo práctico {#dry-run-video}
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ Referencia de conocimientos de AI
 
@@ -245,6 +235,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Los nodos de reacción no se ejecutan durante la ejecución en seco; los perfiles se cierran correctamente, con reglas de prioridad para ramas unitarias y de reacción paralelas
 * Los datos de informes solo están disponibles mientras la ejecución en seco está activa; una vez detenida, los datos ya no están accesibles
 * Los recorridos de ejecución en seco no afectan a las reglas empresariales
+* En el caso de los recorridos que usan una actividad **Leer audiencia** con una hora programada (diaria, semanal o mensual), la ejecución en seco no sigue la programación de recorrido configurada: la programación se ancla al momento en que se activó la ejecución en seco (por ejemplo, cuando el recorrido se establece en 10 a. m., cuando la ejecución en seco se activa a las 8 a. m. → cuando todas las lecturas se ejecutan a las 8 a. m.)
 
 **Terminología:**
 * Nombre canónico: Recorrido Dry run — Acrónimo: none — variantes: dry run mode, Dry run publication mode
@@ -257,5 +248,6 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Cómo excluyo los datos de ejecución en seco de mis consultas de análisis de recorrido?** — Filtrar eventos de paso donde `inDryRun` es `true`; incluir solo eventos donde `inDryRun` es `null` o `false`.
 * **Q: ¿Se cuentan los perfiles con respecto a algún límite durante una ejecución en seco?** — Sí; los perfiles se contabilizan en Perfiles atractivos y el recorrido de Ejecución en seco se contabiliza en la cuota de recorrido activo.
 * **Q: ¿Puedo habilitar las actividades de espera y las llamadas a fuentes de datos externas durante una ejecución en seco?** — Ambos están desactivados de forma predeterminada, pero puede elegir activarlos o desactivarlos al activar la ejecución en seco.
+* **Q: ¿La ejecución en seco respeta el tiempo de ejecución programado configurado en un recorrido de lectura de audiencias?** — No. La ejecución en seco ancla la programación a la hora de activación, no a la hora de recorrido configurada. Si el recorrido está configurado para ejecutarse a las 10 a. m. pero la ejecución en seco está activada a las 8 a. m., todas las lecturas programadas durante la ejecución en seco se ejecutan a las 8 a. m.
 
 +++
