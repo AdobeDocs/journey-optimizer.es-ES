@@ -122,7 +122,8 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
    * **[!UICONTROL Habilitar regulación]** - Deshabilitado de forma predeterminada. Establezca el número máximo de solicitudes por segundo (predeterminado: **5,000c**). Una vez alcanzado el límite, las solicitudes se ponen en cola y se envían lo antes posible.
    * **[!UICONTROL Habilitar reintento]** - Habilitado de forma predeterminada. Establezca el número máximo de reintentos (predeterminado: **3**, intervalo configurable: 0-10) para las solicitudes con errores. Esto ayuda a evitar saturar el extremo durante errores transitorios.
-   * **[!UICONTROL Tiempo de espera]** - Predeterminado: **5.000 milisegundos**. Establezca el tiempo máximo de espera para una respuesta del extremo antes de considerar que la solicitud ha fallado.     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL Tiempo de espera]** - Predeterminado: **5.000 milisegundos**. Establezca el tiempo máximo de espera para una respuesta del extremo antes de considerar que la solicitud ha fallado.
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## Configuración de autenticación {#authentication-settings}
 
