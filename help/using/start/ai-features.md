@@ -9,30 +9,16 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 177322b6e3e5c1ac0b8a56207a816e98b777ecc8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
 workflow-type: tm+mt
-source-wordcount: 2380
-ht-degree: 6%
+source-wordcount: 2521
+ht-degree: 4%
 
 ---
 
@@ -40,7 +26,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** explore las funciones de IA y aprendizaje automático de Adobe Journey Optimizer, desde el asistente de IA y los agentes hasta la generación de contenido, la optimización del tiempo de envío y la toma de decisiones, para que pueda trabajar más rápido y ofrecer experiencias de cliente más relevantes.
+**En esta página:** Explore las funciones de IA y aprendizaje automático de Adobe Journey Optimizer, desde el asistente de IA y los agentes hasta la generación de contenido, las integraciones y herramientas con tecnología de IA como GenStudio y el servidor de MCP, la optimización del tiempo de envío y la toma de decisiones, para que pueda trabajar más rápido y ofrecer experiencias de cliente más relevantes.
 
 >[!ENDSHADEBOX]
 
@@ -51,10 +37,11 @@ Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el ap
 Utilice estos vínculos agrupados para ir a la función que necesita:
 
 * **Agentes de inteligencia artificial y conversación:** [Asistente de IA](#ai-assistant), [Journey Agent](#journey-agent), [Experimentation Agent](#experimentation-agent), [Agentes de IA adicionales](#additional-ai-agents)
-* **Creación de contenido:** [generación de contenido con tecnología de IA](#content-generation), [conversor de imagen a HTML](#image-to-html), [GenStudio para marketing de rendimiento](#genstudio), [puntuación de alineación de marca](#brand-alignment)
+* **Creación de contenido:** [generación de contenido con tecnología de IA](#content-generation)
+* **Integraciones y herramientas con tecnología de IA:** [Conversor de imagen a HTML](#image-to-html), [GenStudio para marketing de rendimiento](#genstudio), [Puntuación de alineación de marca](#brand-alignment), [servidor MCP de Adobe Journey Optimizer](#mcp-server)
 * **Optimización y toma de decisiones:** [Optimización del tiempo de envío](#send-time-optimization), [modelos de IA para la toma de decisiones](#ai-decisioning), [optimización de reglas y fórmulas con tecnología de IA](#decisioning-optimization)
 * **Experimentación:** [Experimentación de contenido con IA](#experimentation)
-* **Plantillas e integraciones:** [Libros de casos de uso](#playbooks), [servidor MCP de Adobe Journey Optimizer](#mcp-server)
+* **Plantillas:** [Libros de casos de uso](#playbooks)
 * **Ayuda:** [Preguntas frecuentes](#faq)
 
 ## Asistente de IA {#ai-assistant}
@@ -121,7 +108,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### aptitud para analizar recorridos {#journey-analyze-skill}
 
-[Agente de análisis de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
+[Agente de análisis de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
 
 +++**Capacidades clave**
 
@@ -144,7 +131,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -227,112 +214,7 @@ Utilice IA generativa para crear y personalizar el contenido en varios canales, 
 
 [Más información sobre la generación de contenido de IA](../content-management/gs-generative.md)
 
-## Optimización del tiempo de envío {#send-time-optimization}
-
-Utilice la IA para predecir el momento óptimo para enviar cada mensaje en función de los patrones de comportamiento de los clientes individuales, lo que maximiza la participación.
-
-### Cómo funciona
-
-La optimización del tiempo de envío analiza los datos de participación históricos (aperturas y clics) para predecir cuándo es más probable que cada cliente interactúe con sus mensajes. El sistema programa automáticamente la entrega en el plazo especificado.
-
-### Cuándo se debe utilizar
-
-| Mejor para | No Recomendado Para |
-|----------|---------------------|
-| Campañas de marketing y boletines | Mensajes operativos con distinción de tiempo (confirmaciones de pedidos, restablecimientos de contraseñas) |
-| Mensajes promocionales | Notificaciones urgentes (retrasos de vuelos, alertas de emergencia) |
-| Contenido educativo | Mensajes basados en eventos con requisitos de tiempo específicos |
-| Campañas de participación | |
-
-[Más información sobre Optimización del tiempo de envío](../building-journeys/send-time-optimization.md)
-
-## Modelos de IA para toma de decisiones {#ai-decisioning}
-
-Cree modelos de clasificación inteligentes que optimicen automáticamente qué ofertas mostrar a cada cliente, maximizando los objetivos comerciales.
-
-### Tipos de modelo
-
-**Optimización automática**: aprende de las interacciones de los clientes para mejorar automáticamente el rendimiento de las ofertas con el tiempo
-
-**Optimización personalizada**: utiliza atributos y comportamiento de perfil del cliente para predecir la mejor oferta para cada individuo
-
-### Requisitos
-
-* Al menos 2 ofertas con datos de interacción suficientes:
-  * Más de 100 eventos de visualización
-  * Más de 5 eventos de clic
-  * En los últimos 14 días
-* Máximo de 5 modelos de clasificación de IA por organización
-
-[Más información sobre los modelos de IA para la toma de decisiones](../experience-decisioning/ranking/ai-models.md) | [Crear modelos de clasificación de IA](../experience-decisioning/ranking/create-ai-models.md)
-
-## Optimización de reglas y fórmulas con tecnología de IA {#decisioning-optimization}
-
-Adobe Journey Optimizer puede analizar automáticamente [reglas de decisión](../experience-decisioning/rules.md) y [fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md) expresadas en la sintaxis de PQL, y sugerir simplificaciones que preserven la lógica original. Cuando se encuentra una simplificación, aparece un indicador rojo **[!UICONTROL Optimize]** junto a la regla o fórmula, que abre una comparación en paralelo de las expresiones originales y sugeridas por IA, con un análisis descargable para validar que ambas se comportan de manera idéntica.
-
-### Funcionalidades clave
-
-* **Simplificaciones que preservan la lógica**: la IA sugiere una expresión más corta que devuelve el mismo resultado en perfiles simulados.
-* **Informe de validación**: descargue un análisis (TSV) que muestre cómo se evalúa cada perfil simulado frente a ambas versiones antes de aplicar el cambio.
-* **Aplicación con un solo clic**: reemplaza el PQL original por la versión optimizada directamente desde la ventana **[!UICONTROL Optimizar]**.
-
-### Idoneidad
-
-Solo las reglas y fórmulas de clasificación cuya expresión PQL sea mayor que **2 KB** (con codificación UTF-8) están destinadas al análisis; no se analizan las expresiones más pequeñas.
-
-### Permisos
-
-Esta capacidad usa los mismos controles de acceso de IA generativos que **Asistente de IA**. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. [Más información sobre el acceso al Asistente de IA](../content-management/gs-generative.md#generative-access)
-
-[Optimizar reglas de decisiones](../experience-decisioning/rules.md#optimize) | [Optimizar fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md#optimize)
-
-## Experimento de contenido con IA {#experimentation}
-
-**Acelerador de experimentos** te ayuda a ejecutar experimentos más rápido con perspectivas y recomendaciones impulsadas por IA, identificando las variaciones de contenido ganadoras más rápidamente.
-
-Funcionalidades clave:
-
-* Generar varias variaciones de contenido automáticamente
-* Recibir recomendaciones de IA para el diseño de experimentos
-* Obtenga indicadores tempranos de las tendencias de rendimiento
-* Acelerar el tiempo hasta alcanzar la relevancia estadística
-
-[Más información sobre el Acelerador de experimentos](../content-management/experiment-accelerator-gs.md)
-
-## Manuales de casos de uso {#playbooks}
-
-Los manuales de casos de uso son flujos de trabajo creados previamente que le ayudan a implementar situaciones de marketing comunes de forma rápida. Cada manual incluye recorridos, mensajes, esquemas y segmentos listos para usar.
-
-![Interfaz de manuales de casos de uso](assets/playbooks-filter.png)
-
-### Cómo funcionan los libros de reproducción
-
-1. **Examine** la biblioteca de libros de reproducción para encontrar casos de uso que coincidan con sus metas
-2. **Habilite** un manual para generar automáticamente todos los recursos necesarios
-3. **Personalice** los recursos generados para que coincidan con su marca y sus requisitos
-4. **Implementar** en producción o prueba en una zona protegida de desarrollo
-
-### Libros de reproducción disponibles
-
-Examine los libros de reproducción de Journey Optimizer para conocer escenarios comunes como:
-
-* Recuperación del carro abandonado
-* Serie de bienvenida para nuevos clientes
-* Participación posterior a la compra
-* Mensajes de cumpleaños
-* Campañas de renovación de participación
-
-+++**Requisitos previos**
-
-* Zona protegida con los permisos adecuados
-* Configuraciones de canal para correo electrónico, push o SMS
-* Permisos de usuario para crear recorridos y mensajes
-
-+++
-
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
-
-## Capacidades adicionales de IA {#additional-capabilities}
+## Integraciones y herramientas con tecnología de IA {#additional-capabilities}
 
 ### Conversor de imagen a HTML {#image-to-html}
 
@@ -358,14 +240,125 @@ Conecte Adobe Journey Optimizer a aplicaciones de IA compatibles con MCP como Cl
 
 [Más información sobre el servidor MCP de Journey Optimizer](../integrations/ajo-mcp.md)
 
+## Optimización del tiempo de envío {#send-time-optimization}
+
+Utilice la IA para predecir el momento óptimo para enviar cada mensaje en función de los patrones de comportamiento de los clientes individuales, lo que maximiza la participación.
+
+### Cómo funciona
+
+La optimización del tiempo de envío analiza los datos de participación históricos (aperturas y clics) para predecir cuándo es más probable que cada cliente interactúe con sus mensajes. El sistema programa automáticamente la entrega en el plazo especificado.
+
+### Cuándo se debe utilizar
+
+| Mejor para | No Recomendado Para |
+|----------|---------------------|
+| Campañas de marketing y boletines | Mensajes operativos con distinción de tiempo (confirmaciones de pedidos, restablecimientos de contraseñas) |
+| Mensajes promocionales | Notificaciones urgentes (retrasos de vuelos, alertas de emergencia) |
+| Contenido educativo | Mensajes basados en eventos con requisitos de tiempo específicos |
+| Campañas de participación | |
+
+[Más información sobre Optimización del tiempo de envío](../building-journeys/send-time-optimization.md)
+
+## Modelos de IA para toma de decisiones {#ai-decisioning}
+
+Cree modelos de clasificación inteligentes que clasifiquen ofertas por tasa de conversión (conversiones ÷ impresiones), mostrando automáticamente a cada cliente la oferta que tiene más probabilidades de convertir.
+
+### Tipos de modelo
+
+* **Optimización automática**: aprende del rendimiento general no personalizado de tus ofertas para mejorar automáticamente la conversión con el tiempo. Un buen ajuste cuando las ofertas cambian con frecuencia, ya que el modelo se vuelve a entrenar aproximadamente cada 6 horas.
+* **Optimización personalizada**: utiliza atributos de perfil del cliente, comportamiento y pertenencia a audiencias para predecir la mejor oferta para cada individuo. Elija esta opción cuando necesite una clasificación diferente por cliente en lugar de un ganador general.
+
+### Requisitos
+
+Los requisitos mínimos de datos difieren según el tipo de modelo:
+
+* **Optimización automática**: al menos 2 ofertas con más de 100 eventos de visualización y más de 5 eventos de clic en cada una en los últimos 14 días. Las ofertas por debajo de este umbral se tratan como nuevas y solo se sirven a través del tráfico de exploración.
+* **Optimización personalizada**: utiliza un intervalo móvil de 30 días. Adobe recomienda tener al menos 1000 impresiones y 100 eventos de conversión por oferta y semana; de forma predeterminada, las ofertas con menos de 1000 impresiones o 50 conversiones no reciben formación para ellas. Se pueden seleccionar hasta 5 audiencias para formar un solo modelo.
+
+[Más información sobre los modelos de IA para la toma de decisiones](../experience-decisioning/ranking/ai-models.md) | [Crear modelos de clasificación de IA](../experience-decisioning/ranking/create-ai-models.md)
+
+## Optimización de reglas y fórmulas con tecnología de IA {#decisioning-optimization}
+
+Adobe Journey Optimizer puede analizar automáticamente [reglas de decisión](../experience-decisioning/rules.md) y [fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md) expresadas en la sintaxis de PQL, y sugerir simplificaciones que preserven la lógica original. Cuando se encuentra una simplificación, aparece un indicador rojo **[!UICONTROL Optimize]** junto a la regla o fórmula, que abre una comparación en paralelo de las expresiones originales y sugeridas por IA, con un análisis descargable para validar que ambas se comportan de manera idéntica.
+
+### Funcionalidades clave
+
+* **Simplificaciones que preservan la lógica**: la IA sugiere una expresión más corta que devuelve el mismo resultado en perfiles simulados.
+* **Informe de validación**: descargue un análisis (TSV) que muestre cómo se evalúa cada perfil simulado frente a ambas versiones antes de aplicar el cambio.
+* **Aplicación con un solo clic**: reemplaza el PQL original por la versión optimizada directamente desde la ventana **[!UICONTROL Optimizar]**.
+
++++**Elegibilidad**
+
+Solo las reglas y fórmulas de clasificación cuya expresión PQL sea mayor que **2 KB** (con codificación UTF-8) están destinadas al análisis; no se analizan las expresiones más pequeñas.
+
++++
+
++++**Permisos**
+
+Esta capacidad usa los mismos controles de acceso de IA generativos que **Asistente de IA**. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. [Más información sobre el acceso al Asistente de IA](../content-management/gs-generative.md#generative-access)
+
++++
+
+[Optimizar reglas de decisiones](../experience-decisioning/rules.md#optimize) | [Optimizar fórmulas de clasificación](../experience-decisioning/ranking/ranking-formulas.md#optimize)
+
+## Experimento de contenido con IA {#experimentation}
+
+**Acelerador de experimentos** te ayuda a ejecutar experimentos más rápido con perspectivas y recomendaciones impulsadas por IA, identificando las variaciones de contenido ganadoras más rápidamente.
+
+Funcionalidades clave:
+
+* Generar varias variaciones de contenido automáticamente
+* Recibir recomendaciones de IA para el diseño de experimentos
+* Obtenga indicadores tempranos de las tendencias de rendimiento
+* Acelerar el tiempo hasta alcanzar la relevancia estadística
+
+[Más información sobre el Acelerador de experimentos](../content-management/experiment-accelerator-gs.md)
+
+## Manuales de casos de uso {#playbooks}
+
+Los manuales de casos de uso son flujos de trabajo creados previamente que le ayudan a implementar situaciones de marketing comunes de forma rápida. Cada manual incluye recorridos, mensajes, esquemas y segmentos listos para usar.
+
+![Interfaz de manuales de casos de uso](assets/playbooks-filter.png)
+
++++**Cómo funcionan los libros de reproducción**
+
+1. **Examine** la biblioteca de libros de reproducción para encontrar casos de uso que coincidan con sus metas
+2. **Habilite** un manual para generar automáticamente todos los recursos necesarios
+3. **Personalice** los recursos generados para que coincidan con su marca y sus requisitos
+4. **Implementar** en producción o prueba en una zona protegida de desarrollo
+
++++
+
++++**Libros de reproducción disponibles**
+
+Examine los libros de reproducción de Journey Optimizer para conocer escenarios comunes como:
+
+* Recuperación del carro abandonado
+* Serie de bienvenida para nuevos clientes
+* Participación posterior a la compra
+* Mensajes de cumpleaños
+* Campañas de renovación de participación
+
++++
+
++++**Requisitos previos**
+
+* Zona protegida con los permisos adecuados
+* Configuraciones de canal para correo electrónico, push o SMS
+* Permisos de usuario para crear recorridos y mensajes
+
++++
+
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+
 ## Preguntas frecuentes {#faq}
 
 +++**¿Qué permisos necesito para las características de IA?**
 
 * **[Asistente de IA para la generación de contenido](#content-generation)** - Requiere el permiso &quot;Generar contenido&quot;
 * Conocimiento del producto **[Ayudante de IA](#ai-assistant)** - Requiere acuerdo con las Directrices del usuario de IA generativa de Adobe
-* **[Agente de análisis de Recorrido](#journey-agent)**: requiere permisos de Ver/Administrar Recorridos y Ver/Administrar segmentos
-* **[Agente de creación de Recorrido](#journey-create-agent)**: requiere permisos de administración de Recorridos, visualización de eventos de Recorrido/fuentes de datos/acciones, visualización de segmentos y administración de segmentos
+* **[Agente de análisis de Recorrido](#journey-analyze-skill)**: requiere permisos de Ver/Administrar Recorridos y Ver/Administrar segmentos
+* **[Agente de creación de Recorrido](#journey-create-skill)**: requiere permisos de administración de Recorridos, visualización de eventos de Recorrido/fuentes de datos/acciones, visualización de segmentos y administración de segmentos
 * **[Experimentation Agent](#experimentation-agent)**: requiere permisos para Ver experimentos y Administrar metadatos de experimento
 
 Todos los agentes de IA requieren acceso al asistente de IA y acuerdo con las directrices del usuario de IA generativa de Adobe Experience Cloud.
@@ -382,9 +375,9 @@ No. Revise siempre [el contenido generado por IA](#content-generation) para comp
 
 +++**¿Cuáles son las limitaciones principales?**
 
-* **[Optimización del tiempo de envío](#send-time-optimization)**: solo disponible para recorridos de correo electrónico y de inserción; requiere un período de formación de 30 días
-* **[Generación de contenido de IA](#content-generation)** - No disponible para correo directo, tarjetas de contenido, LINE o WhatsApp
-* **[Modelos de clasificación de IA](#ai-decisioning)**: máximo de 5 modelos por organización; requiere datos mínimos de interacción
+* **[Optimización del tiempo de envío](#send-time-optimization)**: solo disponible para acciones de correo electrónico y push en los recorridos; su organización necesita al menos 30 días de historial con esas acciones antes de habilitarlo
+* **[Generación de contenido de IA](#content-generation)**: solo disponible para los canales de correo electrónico, push, web y SMS
+* **[Modelos de clasificación de IA](#ai-decisioning)**: los datos mínimos de interacción requeridos y los umbrales difieren según el tipo de modelo (consulte [Requisitos](#ai-decisioning))
 
 +++
 
