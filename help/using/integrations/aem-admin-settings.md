@@ -146,4 +146,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
