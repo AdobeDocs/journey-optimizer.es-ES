@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **Configurar e integrar**
 
 * [Configuración de desafíos de lealtad](loyalty-admin.md)
+* [Guía de definición de recompensa](reward-definition-guide.md)
+* [Guía del transformador de eventos](event-transformer-guide.md)
 * [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -149,26 +151,26 @@ Configure cómo se incluyen los miembros, cuándo se contabiliza el progreso de 
 
 * **[!UICONTROL déclencheur de inclusión]**:
 
-   * **[!UICONTROL Método de inclusión]**: elija si los clientes se unen al desafío manualmente o mediante un déclencheur de eventos.
-   * **[!UICONTROL Evento]**: para la inclusión basada en eventos, seleccione el evento de inclusión de déclencheur. Los administradores pueden hacer clic en el botón ![engranaje](assets/do-not-localize/settings-icon.svg) para crear una definición de evento. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL Método de inclusión]**: elija si los clientes se unen al desafío manualmente o mediante un déclencheur de eventos.
+  * **[!UICONTROL Evento]**: para la inclusión basada en eventos, seleccione el evento de inclusión de déclencheur. Los administradores pueden hacer clic en el botón ![engranaje](assets/do-not-localize/settings-icon.svg) para crear una definición de evento. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL Iniciar el seguimiento del progreso]**:
 
-   * **[!UICONTROL Comienza el seguimiento del progreso de la tarea]**: elige cuándo se contabilizan las finalizaciones de la tarea para el progreso del desafío. Por ejemplo, seleccione **[!UICONTROL Cuando comience el desafío (después de la inclusión)]**, de modo que el progreso comience después de que el miembro se incorpore y el desafío esté activo.
+  * **[!UICONTROL Comienza el seguimiento del progreso de la tarea]**: elige cuándo se contabilizan las finalizaciones de la tarea para el progreso del desafío. Por ejemplo, seleccione **[!UICONTROL Cuando comience el desafío (después de la inclusión)]**, de modo que el progreso comience después de que el miembro se incorpore y el desafío esté activo.
 
-     Puede desvincular cuándo los miembros pueden ver un desafío y a partir de cuándo se realiza un seguimiento del progreso. Por ejemplo, puede aparecer una tarjeta de desafío y aceptar inclusiones antes de que las finalizaciones de las tareas empiecen a contar hacia el progreso en una fecha posterior.
+    Puede desvincular cuándo los miembros pueden ver un desafío y a partir de cuándo se realiza un seguimiento del progreso. Por ejemplo, puede aparecer una tarjeta de desafío y aceptar inclusiones antes de que las finalizaciones de las tareas empiecen a contar hacia el progreso en una fecha posterior.
 
-   * **[!UICONTROL Inicio]**: cuando elija una opción de inicio personalizada, establezca la fecha y la hora en que comienza el seguimiento del progreso.
+  * **[!UICONTROL Inicio]**: cuando elija una opción de inicio personalizada, establezca la fecha y la hora en que comienza el seguimiento del progreso.
 
 * **[!UICONTROL Límites de repetición]**:
 
-   * **[!UICONTROL El desafío se puede completar]**: elige si el desafío se puede completar una o varias veces. Por ejemplo, **[!UICONTROL Una vez]** o un número definido de finalizaciones.
+  * **[!UICONTROL El desafío se puede completar]**: elige si el desafío se puede completar una o varias veces. Por ejemplo, **[!UICONTROL Una vez]** o un número definido de finalizaciones.
 
-   * **[!UICONTROL Número de veces que se puede completar]**: cuando se habilita la repetición, especifique cuántas veces un miembro puede completar el desafío.
+  * **[!UICONTROL Número de veces que se puede completar]**: cuando se habilita la repetición, especifique cuántas veces un miembro puede completar el desafío.
 
 * **[!UICONTROL Requisitos de finalización]** *(solo desafíos estándar)*:
 
-   * **[!UICONTROL Completar en una sola transacción]**: cuando está habilitada, los clientes deben completar todas las tareas dentro de una sola transacción. Cuando está desactivada, las tareas se pueden completar en transacciones independientes.
+  * **[!UICONTROL Completar en una sola transacción]**: cuando está habilitada, los clientes deben completar todas las tareas dentro de una sola transacción. Cuando está desactivada, las tareas se pueden completar en transacciones independientes.
 
 ### Metadatos personalizados {#custom-metadata}
 

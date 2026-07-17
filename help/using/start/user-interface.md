@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 96%
+source-wordcount: 1516
+ht-degree: 98%
 
 ---
 
@@ -369,12 +369,12 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
 
 
-<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+<!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Asistente de expresiones"
->abstract="Utilice el asistente de expresiones para generar y perfeccionar expresiones en Journey Optimizer."
+>title="Generación de expresiones con IA"
+>abstract="Utilice la IA para generar y refinar expresiones en Journey Optimizer."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->
@@ -389,5 +389,5 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_line"
->title="Actividad de línea"
->abstract="La actividad **Line** le permite agregar una acción LINE a su campaña orquestada. Cree contenido personalizado, desde texto y pegatinas hasta imágenes, vídeos, ubicaciones y mensajes de Flex, para atraer a los clientes en LINE."
+>title="Actividad de Line"
+>abstract="La actividad de **Line** le permite añadir una acción de LINE a su campaña orquestada. Cree contenido personalizado, desde texto y pegatinas hasta imágenes, vídeos, ubicaciones y mensajes de Flex, para atraer a los clientes en LINE."

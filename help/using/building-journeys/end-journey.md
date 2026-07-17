@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
+source-git-commit: 4d4656744a775cbe1ac5e7e6789ad98ef28cc219
 workflow-type: tm+mt
-source-wordcount: 2155
+source-wordcount: 2131
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ Un **recorrido de audiencia de lectura no recurrente** pasa automáticamente al 
 
 1. El recorrido se ejecuta y se procesan todos los perfiles de la audiencia.
 1. A medida que cada perfil llega al final del recorrido, sale normalmente.
-1. Cuando el **último perfil activo sale**, la recorrido entra en un período de búfer de seguridad y permanece en estado **[!UICONTROL Activo]**.
-1. Una vez que transcurre el búfer de seguridad (~96 horas después del tiempo de ejecución programado del recorrido), el recorrido pasa automáticamente al estado **[!UICONTROL Detenido]** en el siguiente pase de escáner.
+1. Después de la ejecución programada, el recorrido permanece en estado **[!UICONTROL Activo]** durante un período de búfer de seguridad.
+1. Una vez que transcurre el búfer de seguridad (~96 horas después del tiempo de ejecución programado del recorrido), el recorrido pasa automáticamente al estado **[!UICONTROL Detenido]** poco después.
 
 Este comportamiento se aplica solamente a **recorridos de audiencia de lectura no recurrentes**. Los recorridos recurrentes no se ven afectados.
 
-* **Tiempo de parada automática:** El búfer de seguridad cuenta para dos ventanas: un período de inactividad de **24 horas** para permitir que se completen los envíos en vuelo, y una asignación de horas silenciosas de **72 horas** (las horas silenciosas pueden retrasar los envíos hasta 72 horas y no son visibles para el escáner). El búfer total es de aproximadamente **96 horas (~4 días)** después del tiempo de ejecución programado del recorrido. El recorrido permanece en estado **[!UICONTROL Activo]** durante este período. Este es un comportamiento esperado y no indica un problema.
+* **Tiempo de parada automática:** El búfer de seguridad cuenta para dos ventanas: un período de inactividad de **24 horas** para permitir que se completen los envíos en vuelo, y una asignación de horas silenciosas de **72 horas** (las horas silenciosas pueden retrasar los envíos hasta 72 horas). El búfer total es de aproximadamente **96 horas (~4 días)** después del tiempo de ejecución programado del recorrido. El recorrido permanece en estado **[!UICONTROL Activo]** durante este período. Este es un comportamiento esperado y no indica un problema.
 
-* **Se excluyen los recorridos basados en ondas:** Este comportamiento de detención automática no se aplica a los recorridos basados en ondas, incluidos los recorridos que utilizan la optimización del tiempo de envío. Estos recorridos permanecen activos en todas las olas programadas y se detienen solamente en el tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout), a menos que se cierren o se detengan manualmente.
+* **Se excluyen los recorridos basados en ondas:** Este comportamiento de detención automática no se aplica a los recorridos basados en ondas ni a los recorridos que utilizan la optimización del tiempo de envío. Estos recorridos permanecen activos en todas las olas programadas y se detienen solamente en el tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout), a menos que se cierren o se detengan manualmente.
 
 * Este comportamiento de detención automática **no** se aplica a recorridos no recurrentes que incluyen nodos que causan períodos de espera, como nodos de **Espera** (basados en temporizador), nodos de **Reacción** (esperando eventos como correos electrónicos abiertos o clics) o transiciones activadas por eventos. Estos recorridos permanecen sujetos al tiempo de espera global estándar de [91 días](../building-journeys/journey-properties.md#global_timeout).
 
@@ -112,7 +112,7 @@ La definición de &quot;terminado&quot; varía según el tipo de recorrido:
 
 | Tipo de recorrido | ¿Recurrente? | ¿Tiene fecha de finalización? | Definición de &quot;finished&quot; |
 |--------------|------------|---------------|--------------------------|
-| Leer público | No | n/a | ~96h después de la última salida del perfil (búfer de parada automática) |
+| Leer público | No | n/a | ~96h después de la ejecución programada (búfer de parada automática) |
 | Leer público | Sí | No | 91 días después del último inicio de la incidencia |
 | Leer público | Sí | Sí | Cuando se llega a la fecha de finalización |
 | Recorrido activado por evento | n/a | Sí | Cuando se llega a la fecha de finalización |
@@ -199,7 +199,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Solo se pueden eliminar los recorridos con el estado Finalizado.
 * La detención de un recorrido requiere el permiso Administrar recorridos; los recorridos con campañas en línea o nodos de mensajería también requieren el permiso Campañas > Publicar campañas.
 * Después del tiempo de espera global de 91 días, se eliminan todos los datos de recorrido de perfiles y los perfiles restantes se cierran automáticamente.
-* Un recorrido de audiencia de lectura no recurrente sin nodos de espera, reacción o activados por eventos de larga ejecución pasa automáticamente a Detenido aproximadamente 96 horas (~4 días) después de que salga el último perfil. El recorrido permanece en estado Activo durante este búfer. Los recorridos basados en olas, incluidos los casos de uso de optimización del tiempo de envío, se excluyen de esta detención automática y permanecen sujetos al tiempo de espera global de 91 días a menos que se cierren o detengan manualmente.
+* Un recorrido de audiencia de lectura no recurrente sin nodos de espera, reacción o activados por eventos de larga ejecución pasa automáticamente a Detenido aproximadamente 96 horas (~4 días) después de su ejecución programada. El recorrido permanece en estado Activo durante este búfer. Los recorridos basados en olas y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta detención automática y permanecen sujetos al tiempo de espera global de 91 días a menos que se cierren o detengan manualmente.
 
 **Terminología:**
 
@@ -210,9 +210,9 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **PREGUNTAS MÁS FRECUENTES:**
 
 * **Q: ¿Cuál es la diferencia entre cerrar y detener un recorrido?** — El cierre bloquea las nuevas entradas, pero permite que los perfiles existentes finalicen; la detención detiene inmediatamente todos los perfiles en seguimiento.
-* **Q: ¿Por qué un recorrido no recurrente permanece en estado Activo durante varios días después de su ejecución?** — Esto es lo esperado. Después de la última salida del perfil, AJO aplica un búfer de seguridad de ~96 horas (~4 días): 24 horas para permitir que se completen los envíos en vuelo, más 72 horas para aplazamientos de horas tranquilas. El recorrido pasa a Detenido en la siguiente pasada del escáner después de que transcurra el búfer.
-* **Q: ¿Los recorridos basados en olas se detienen automáticamente después de ~96 horas?** — No. Los recorridos basados en olas, incluidos los recorridos que utilizan la optimización del tiempo de envío, se excluyen de esta parada automática para que puedan permanecer activos en todas las olas programadas. Siguen el tiempo de espera de recorrido estándar de 91 días a menos que se cierren o se detengan manualmente.
-* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** — Para un recorrido de audiencia de lectura no recurrente: se detiene automáticamente hasta Detenido aproximadamente 96 horas (~4 días) después de que salga el último perfil (búfer de seguridad: ventana de inactividad de 24 horas + asignación de horas silenciosas de 72 horas). El recorrido permanece en estado Activo durante este búfer. Si los nodos de Espera, Reacción o Evento mantienen los perfiles activos, se aplica el tiempo de espera global estándar de 91 días. Finished se alcanza cuando un recorrido Closed alcanza el tiempo de espera global de 91 días o por reglas de recorrido recurrentes en la tabla de definición finalizada.
+* **Q: ¿Por qué un recorrido no recurrente permanece en estado Activo durante varios días después de su ejecución?** — Esto es lo esperado. AJO aplica un búfer de seguridad de ~96 horas (~4 días): 24 horas para permitir que se completen los envíos en vuelo, más 72 horas para aplazamientos de horas tranquilas. El recorrido pasa a Detenido poco después de que transcurra el tiempo de almacenamiento en búfer.
+* **Q: ¿Los recorridos basados en olas se detienen automáticamente después de ~96 horas?** — No. Los recorridos basados en olas y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta parada automática para que puedan permanecer activos en todas las olas programadas. Siguen el tiempo de espera de recorrido estándar de 91 días a menos que se cierren o se detengan manualmente.
+* **Q: ¿Cuándo alcanza el estado Finalizado un recorrido de lectura de audiencia?** — Para un recorrido de audiencia de lectura no recurrente: se detiene automáticamente hasta Detenerse aproximadamente 96 horas (~4 días) después de su ejecución programada (búfer de seguridad: ventana de inactividad de 24 horas + asignación de horas silenciosas de 72 horas). El recorrido permanece en estado Activo durante este búfer. Si los nodos de Espera, Reacción o Evento mantienen los perfiles activos, se aplica el tiempo de espera global estándar de 91 días. Finished se alcanza cuando un recorrido Closed alcanza el tiempo de espera global de 91 días o por reglas de recorrido recurrentes en la tabla de definición finalizada.
 * **Q: ¿Puedo eliminar un recorrido cerrado?** — No, sólo se pueden eliminar los recorridos finalizados.
 * **Q: ¿Qué les sucede a los perfiles que aún están en un recorrido cuando se alcanza el tiempo de espera de 91 días?** — Se salen automáticamente del recorrido en ese punto.
 * **Q: ¿Necesito permisos especiales para detener un recorrido?** — Sí, se requiere el permiso Administrar recorridos, además de Campañas > Publicar campañas si el recorrido contiene campañas en línea o nodos de mensajería.

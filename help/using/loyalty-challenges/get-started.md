@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 14%
+source-wordcount: 906
+ht-degree: 16%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 14%
 **Configurar e integrar**
 
 * [Configuración de desafíos de lealtad](loyalty-admin.md)
+* [Guía de definición de recompensa](reward-definition-guide.md)
+* [Guía del transformador de eventos](event-transformer-guide.md)
 * [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -213,7 +215,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     </a>
     <div>
   -->
-    <a href="loyalty-admin.md"><strong>Configurar desafíos de lealtad</strong></a>
+    <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
     <em>Configurar proveedores de recompensas, definiciones de eventos y configuraciones de organización</em>

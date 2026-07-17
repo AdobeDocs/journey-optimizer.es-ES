@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -87,6 +87,13 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
    >Las audiencias de carga de CSV no son compatibles con las campañas de calentamiento de IP, por lo que se producirá un error al activar la campaña.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
+1. De forma opcional, desde la sección **[!UICONTROL Optimization]** , agregue reglas de segmentación para entregar contenido diferente a subconjuntos de la audiencia según los atributos del perfil. [Más información](../content-management/optimization-targeting.md)
+
+   Si utiliza reglas de segmentación, tenga en cuenta lo siguiente:
+
+   * La audiencia de la campaña de calentamiento de IP se evalúa **una vez** a través del ciclo de segmentación por lotes diario. La pertenencia al perfil se corrige durante la activación de la ejecución y no se vuelve a evaluar por ejecución.
+   * Los atributos de perfil utilizados en las reglas de segmentación se leen en el momento en que se ejecuta cada ejecución, lo que refleja los datos de perfil por lotes introducidos más recientemente, no las actualizaciones de perfil en tiempo real.
 
 1. [Activar](../campaigns/review-activate-campaign.md) la campaña. Su estado cambia a **[!UICONTROL Activo]**.
 
