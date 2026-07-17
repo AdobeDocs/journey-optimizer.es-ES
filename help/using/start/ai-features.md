@@ -122,7 +122,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### aptitud para analizar recorridos {#journey-analyze-skill}
 
-[Agente de análisis de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
+[Agente de análisis de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
 
 +++**Capacidades clave**
 
@@ -145,7 +145,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -363,7 +363,7 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
 
 ## Preguntas frecuentes {#faq}
 
