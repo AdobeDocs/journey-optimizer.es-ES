@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
 source-wordcount: 2469
 ht-degree: 2%
@@ -99,7 +99,7 @@ Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, di
 
 Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Una vez cambiado, este ajuste se guarda en el nivel de recorrido, por lo que el recorrido se abrirá en la nueva experiencia de forma predeterminada en las visitas posteriores. Para volver, haz clic en el botón **[!UICONTROL Experiencia antigua]**.
 
-![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](assets/journey-new-experience-switch.png)
 
 
 ## Inicie el recorrido {#start-your-journey}
