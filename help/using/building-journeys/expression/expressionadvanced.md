@@ -10,24 +10,15 @@ keywords: editor de expresiones, datos, recorrido
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1233
-ht-degree: 30%
+source-wordcount: 1236
+ht-degree: 31%
 
 ---
 
@@ -55,7 +46,7 @@ El editor de expresiones avanzadas oferta un conjunto de funciones y operadores 
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas &#x200B;](../conditions.md#data_source_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas ](../conditions.md#data_source_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
@@ -78,7 +69,7 @@ Puede acceder al editor de expresiones avanzadas de diferentes maneras:
 
 >[!NOTE]
 >
->Para generar expresiones de Recorrido utilizando indicaciones de lenguaje natural, use el **[Ayudante de expresiones](expression-agent.md)** (**beta pública**) a través del control de IA dentro del editor avanzado.
+>Para generar expresiones de Recorrido utilizando indicaciones en lenguaje natural, use **[Generate expression with AI](generate-expression.md)** (**public beta**) mediante el control de IA dentro del editor avanzado.
 
 ## Descubra la interfaz {#discovering-the-interface}
 
@@ -137,14 +128,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Generar condiciones booleanas avanzadas con campos de evento, campos de fuente de datos, pertenencia a audiencias y propiedades de recorrido
 * Cambie entre el modo simple y el modo avanzado al configurar las condiciones
 * Hacer referencia a parámetros de origen de datos externos directamente dentro de la expresión principal mediante la palabra clave `params`
-* Utilice el Asistente de expresiones con tecnología de IA para generar expresiones a partir de mensajes en lenguaje natural
+* Utilice la generación de expresiones con tecnología de IA para crear expresiones a partir de peticiones de datos en lenguaje natural
 
 **Glosario:**
 
 * **Editor de expresiones avanzadas**: el editor de código de Journey Optimizer para escribir expresiones complejas; distinto del editor de condiciones más sencillo de apuntar y hacer clic *(específico del producto)*
 * **Modo simple**: Un editor de condiciones de apuntar y hacer clic; menos flexible que el editor avanzado, pero más fácil para quienes no son desarrolladores *(específico del producto)*
 * **propiedades de Recorrido**: campos técnicos sobre la instancia de recorrido (ID, versión, errores, nodo actual) accesibles en el editor de expresiones *(específico del producto)*
-* **Ayudante de expresiones**: herramienta con tecnología de IA (beta pública) dentro del editor avanzado que genera expresiones a partir de mensajes en lenguaje sencillo *(específicos del producto)*
+* **Generar expresiones con IA**: una capacidad con tecnología de IA (beta pública) dentro del editor avanzado que genera expresiones a partir de mensajes en lenguaje sencillo *(específicos del producto)*
 
 **Protecciones:**
 
@@ -165,7 +156,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Cuándo debo usar el editor de expresiones avanzadas en lugar del modo simple?** : utilice el editor avanzado cuando necesite consultar colecciones, utilizar funciones, hacer referencia a propiedades de recorridos o crear una lógica de varias condiciones que el editor simple no pueda expresar.
 * **Q: ¿Cómo paso un parámetro a un origen de datos externo en la expresión?** — Utilice la palabra clave `params` en la sintaxis de la expresión, p. ej. `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
 * **Q: ¿Qué hace el mecanismo de finalización automática?** — Muestra sugerencias de funciones y campos contextuales a medida que escribe, lo que le ayuda a crear expresiones válidas más rápido.
-* **Q: ¿Dónde se accede al Ayudante de expresiones?** — A través del control de IA dentro del editor de expresiones avanzadas; actualmente está en versión beta pública.
+* **Q: ¿Dónde se accede a Generar expresiones con IA?** — A través del control de IA dentro del editor de expresiones avanzadas; actualmente está en versión beta pública.
 * **Q: ¿Las condiciones del editor avanzado devuelven un tipo diferente al del modo simple?** — No; las condiciones siempre devuelven un valor booleano en ambos modos.
 
 +++

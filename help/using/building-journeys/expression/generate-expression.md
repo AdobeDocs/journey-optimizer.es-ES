@@ -1,45 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generar expresiones con el Asistente de expresiones
-description: Aprenda a utilizar el Ayudante de expresiones en Adobe Journey Optimizer para generar expresiones directamente en el editor de expresiones avanzadas de Recorrido utilizando indicaciones de lenguaje natural.
+title: Generación de expresiones con IA
+description: Aprenda a utilizar la IA en Adobe Journey Optimizer para generar expresiones directamente en el editor de expresiones avanzadas de Recorrido utilizando indicadores de lenguaje natural.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 badge: label="Beta pública" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 7%
+source-wordcount: 1132
+ht-degree: 2%
 
 ---
 
 
-# Generar expresiones con el Asistente de expresiones {#expression-agent}
+# Generación de expresiones con IA {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generar expresiones con el Asistente de expresiones"
->abstract="El Asistente de expresiones utiliza la IA generativa para ayudarle a crear y generar expresiones directamente en el editor de expresiones avanzadas del recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Al describir lo que necesita con lenguaje sencillo, el asistente generará para usted la expresión correspondiente."
+>title="Generación de expresiones con IA"
+>abstract="Utilice IA para crear y generar expresiones directamente en el editor de expresiones avanzadas de Recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Cuando describe lo que necesita en lenguaje sencillo, AI genera la expresión correspondiente."
 
 >[!AVAILABILITY]
 >
 >Esta característica se encuentra actualmente en **versión beta pública**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../../rn/releases.md).
 >
->Antes de usar el Ayudante de expresiones, lea las [protecciones y limitaciones](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplican a las características de IA generativa en Journey Optimizer.
+Antes de usar esta capacidad, lea las [protecciones y limitaciones](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplican a las características de IA generativa en Journey Optimizer.
 
-El Ayudante de expresiones es una función con tecnología de IA integrada en el editor de expresiones avanzadas de Recorrido. Le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
+Esta capacidad con tecnología de IA, integrada en el editor de expresiones avanzadas de Recorrido, le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
 Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
-Para generar una expresión con el Ayudante de expresiones:
+Para generar una expresión con IA:
 
 1. Abra el **[!UICONTROL editor de expresiones avanzadas]** en el recorrido, por ejemplo, desde una condición de ramificación, una actividad de **[!UICONTROL Optimize]** o una actividad de **[!UICONTROL Wait]** con una fecha personalizada.
 
@@ -103,42 +102,42 @@ Esta sección contiene conocimientos estructurados destinados a apoyar la interp
 
 Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
 
-* **TL;DR:** En esta página se explica el Ayudante de expresiones, una característica con tecnología de IA del editor de expresiones avanzadas de Recorrido que genera expresiones de recorrido válidas a partir de mensajes de lenguaje sencillo.
+* **TL;DR:** En esta página se explica cómo usar IA en el editor de expresiones avanzadas de Recorrido para generar expresiones de recorrido válidas a partir de mensajes de lenguaje sencillo.
 
 **Intenciones:**
 
-* Generación de una expresión de recorrido a partir de una descripción en lenguaje natural mediante el Ayudante de expresiones
+* Generación de una expresión de recorrido a partir de una descripción en lenguaje natural mediante IA
 * Aplique una expresión generada directamente en el editor de expresiones avanzadas con el botón Aplicar
-* Utilice el Ayudante de expresiones dentro de Optimizar actividades, Actividades de condición y Actividades de espera con fecha personalizada
+* Utilice la generación de expresiones basadas en IA dentro de Optimizar actividades, Condicionar actividades y actividades de Espera de fecha personalizada
 * Proporcione peticiones de ejemplo para condiciones basadas en eventos y `dateTimeOnly` expresiones de espera
 * Solucione los problemas de generación fallida revisando las indicaciones para hacer referencia a nombres de campo y fuentes de datos válidos
 
 **Glosario:**
 
-* **Ayudante de expresiones**: característica generativa con tecnología de IA incrustada en el editor de expresiones avanzadas de Recorrido que convierte los mensajes de texto sin formato en expresiones de recorrido válidas *(específicas del producto)*
+* **Generar expresiones con IA**: una capacidad generativa con tecnología de IA incrustada en el editor de expresiones avanzadas de Recorrido que convierte los mensajes de texto sin formato en expresiones de recorrido válidas *(específicas del producto)*
 * **Editor de expresiones avanzadas**: La interfaz de Journey Optimizer para escribir expresiones complejas en condiciones, actividades de espera y asignación de parámetros de acción *(específico del producto)*
 * **dateTimeOnly**: un tipo de expresión de fecha y hora sin zona horaria, necesaria para las actividades de espera de fecha personalizada *(específica del producto)*
 * **Optimizar actividad**: una actividad de recorrido que admite condiciones de ramificación configurables mediante el editor de expresiones avanzadas *(específico del producto)*
 
 **Protecciones:**
 
-* El Ayudante de expresiones se encuentra actualmente en **versión beta pública**; la disponibilidad y el comportamiento pueden cambiar
+* Generar expresiones con IA está actualmente en **beta pública**; la disponibilidad y el comportamiento pueden cambiar
 * A esta función se aplican las limitaciones y protecciones de IA generativas de la documentación principal del asistente de IA
 * Si el asistente hace referencia a campos que no están presentes en las fuentes de datos del recorrido, devuelve un error: revise el mensaje para utilizar los nombres de campo disponibles
 * La sintaxis de la expresión generada exacta depende de los campos y las actividades configurados en el recorrido específico
 
 **Terminología:**
 
-* Nombre canónico: Ayudante de expresiones — Acrónimo: none — variantes: IA de expresión, generador de expresiones de recorrido
-* Sinónimos: &quot;Ayudante de expresiones&quot; = &quot;Generador de expresiones de IA&quot;
-* No confundir: Ayudante de expresiones (generador con tecnología de IA) ≠ Editor de expresiones avanzadas (el editor de código manual en sí)
+* Nombre canónico: Generar expresiones con IA — Acrónimo: none — variantes: generación de expresiones de IA, generador de expresiones de recorrido
+* Sinónimos: &quot;Generar expresiones con IA&quot; = &quot;Generador de expresiones de IA&quot;
+* No confunda: genera expresiones con AI (generador alimentado por IA) ≠ el editor de expresiones avanzadas (el propio editor de código manual)
 
 **PREGUNTAS MÁS FRECUENTES:**
 
-* **Q: ¿Dónde está disponible el Asistente para expresiones?** — Está disponible dondequiera que se abra el editor de expresiones avanzadas de Recorrido, incluidas las actividades Condición, Optimizar actividades y Actividades de espera con una fecha personalizada.
-* **Q: ¿Qué sucede si el asistente no puede generar una expresión válida?** — Aparecerá un mensaje de error; deberá revisar la solicitud para que utilice nombres de campo y fuentes de datos que existan en la configuración de recorrido.
+* **Q: ¿Dónde está disponible Generar expresiones con IA?** — Está disponible dondequiera que se abra el editor de expresiones avanzadas de Recorrido, incluidas las actividades Condición, Optimizar actividades y Actividades de espera con una fecha personalizada.
+* **Q: ¿Qué sucede si AI no puede generar una expresión válida?** — Aparecerá un mensaje de error; deberá revisar la solicitud para que utilice nombres de campo y fuentes de datos que existan en la configuración de recorrido.
 * **Q: ¿Cómo inserto una expresión generada en el editor?** — Haga clic en el botón **Aplicar** del panel del asistente para insertarlo directamente en la posición actual del cursor en el editor de expresiones avanzadas.
-* **Q: ¿Puede el Ayudante de expresiones generar expresiones `dateTimeOnly` para las actividades de espera?** — Sí; por ejemplo, si se solicita &quot;dentro de 30 días a las 10 p.m. solo hora de fecha&quot;, se generará la expresión `dateTimeOnly` adecuada.
-* **Q: ¿Está disponible el Ayudante de expresiones de forma general?** — No; actualmente está en versión beta pública. Consulte la página Ciclo de versiones de Journey Optimizer para ver las actualizaciones de disponibilidad.
+* **Q: ¿Es posible generar expresiones con IA para crear expresiones `dateTimeOnly` para las actividades de espera?** — Sí; por ejemplo, si se solicita &quot;dentro de 30 días a las 10 p.m. solo hora de fecha&quot;, se generará la expresión `dateTimeOnly` adecuada.
+* **Q: ¿Está disponible de forma general Generar expresiones con IA?** — No; actualmente está en versión beta pública. Consulte la página Ciclo de versiones de Journey Optimizer para ver las actualizaciones de disponibilidad.
 
 +++
