@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Fragmentos de contenido, administración, repositorio, autenticación, autor, publicación
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -41,7 +39,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Enviar token a la instancia de publicación"
->abstract="Cuando se habilita, las credenciales del servicio se envían para autenticar solicitudes en la instancia de publicación. Introduzca un JSON de credencial de servicio válido a continuación."
+>abstract="Cuando están habilitadas, las credenciales del servicio se envían para autenticar las solicitudes en la instancia de publicación. Introduzca un JSON de credencial de servicio válido a continuación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
@@ -52,7 +50,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Dominio personalizado"
->abstract="Opcional. Proporcione un dominio personalizado si &quot;your-publish-instance.adobeaemcloud.com&quot; no puede recuperar contenido para su organización."
+>abstract="Opcional. Proporcione un dominio personalizado si se impide que &quot;your-publish-instance.adobeaemcloud.com&quot; recupere contenido para su organización."
 
 Adobe Journey Optimizer se integra con **[!DNL Adobe Experience Manager as a Cloud Service]** y **[!DNL Adobe Experience Manager Managed Service]** para que pueda usar **Fragmentos de contenido** en Recorridos y campañas. Los **fragmentos de contenido** se leen desde el repositorio de publicación de Adobe Experience Manager de forma predeterminada, los administradores pueden cambiar a solo autor o ajustar el acceso de publicación en el menú **[!UICONTROL Integración de AEM]**.
 
@@ -146,4 +144,4 @@ Al guardar esta configuración, Journey Optimizer la almacena para ese repositor
 
 Descubra cómo los administradores configuran el repositorio de Adobe Experience Manager Managed Services en Journey Optimizer para que los especialistas en marketing puedan utilizar fragmentos de contenido en recorridos y campañas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
