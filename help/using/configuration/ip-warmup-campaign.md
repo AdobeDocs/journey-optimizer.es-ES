@@ -10,28 +10,16 @@ level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 TQID: https://experienceleague.adobe.com/mzP9buvUwW2h0QahDBXWxefokjZv-XziM-uFaPwg3Wg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -82,11 +70,18 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
 
    >[!IMPORTANT]
    >
-   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
+   >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
    >Las audiencias de carga de CSV no son compatibles con las campañas de calentamiento de IP, por lo que se producirá un error al activar la campaña.
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
+
+1. De forma opcional, desde la sección **[!UICONTROL Optimization]** , agregue reglas de segmentación para entregar contenido diferente a subconjuntos de la audiencia según los atributos del perfil. [Más información](../content-management/optimization-targeting.md)
+
+   Si utiliza reglas de segmentación, tenga en cuenta lo siguiente:
+
+   * La audiencia de la campaña de calentamiento de IP se evalúa **una vez** a través del ciclo de segmentación por lotes diario. La pertenencia al perfil se corrige durante la activación de la ejecución y no se vuelve a evaluar por ejecución.
+   * Los atributos de perfil utilizados en las reglas de segmentación se leen en el momento en que se ejecuta cada ejecución, lo que refleja los datos de perfil por lotes introducidos más recientemente, no las actualizaciones de perfil en tiempo real.
 
 1. [Activar](../campaigns/review-activate-campaign.md) la campaña. Su estado cambia a **[!UICONTROL Activo]**.
 
