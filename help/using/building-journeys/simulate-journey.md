@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
+source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
 workflow-type: tm+mt
-source-wordcount: 2909
+source-wordcount: 3003
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    En el caso de los recorridos con un nodo de correo electrónico, push o SMS, la API le solicita que confirme la dirección de correo electrónico o el número de teléfono que debe utilizar. Los usuarios simulados se generarán utilizando esos valores definidos. Una vez finalizado, haga clic en **[!UICONTROL Generar]**.
 
+   Los usuarios simulados generados solo muestran los atributos utilizados en el recorrido actual, por ejemplo en expresiones o personalización.
+
    >[!NOTE]
    >
    >Los campos de correo electrónico y teléfono se rellenan previamente con los valores utilizados anteriormente en la simulación de recorrido y se almacenan en la caché del explorador.
@@ -109,6 +111,8 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    Elija **[!UICONTROL Examinar inventario]** para agregar usuarios simulados que ya guardó, por ejemplo, usuarios que creó a partir de un formulario o JSON, o usuarios que mantuvo después de que se ejecutara una generación de IA.
 
+   Tenga en cuenta que cuando selecciona un usuario simulado del inventario, solo se muestran los atributos utilizados en el recorrido actual, incluso si el usuario tiene valores para otros atributos establecidos en un recorrido diferente.
+
    ![Cuadro de diálogo de inventario de usuarios simulados con búsqueda, tabla de usuarios y botón Seleccionar](assets/simulate-inventory.png)
 
    +++
@@ -119,7 +123,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
       ![Crear formulario de usuarios simulados con nombre para mostrar, área de nombres de identidad, descripción y atributos de esquema de unión](assets/simulate-form.png)
 
-   1. A continuación, seleccione los atributos del esquema de unión que desee rellenar para este usuario.
+   1. A continuación, seleccione los atributos del esquema de unión que desee rellenar para este usuario. Tenga en cuenta que solo están disponibles aquí los atributos utilizados en el recorrido actual, por ejemplo en expresiones o personalización.
 
    1. Haga clic en **[!UICONTROL Agregar pertenencia a audiencia]** para simular las pertenencias a segmentos.
 
@@ -140,6 +144,8 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
    +++ Crear a partir de JSON
 
    En **[!UICONTROL Crear usuarios simulados]**, edite la plantilla JSON para definir usuarios, luego haga clic en **[!UICONTROL Formato JSON]** y **[!UICONTROL Guardar]**.
+
+   Tenga en cuenta que **[!UICONTROL Crear a partir de JSON]** y **[!UICONTROL Actualizar a partir de JSON]** le proporcionan acceso a todos los atributos, independientemente de lo que utilice el recorrido actual.
 
    ![Crear editor JSON de usuarios simulados con plantilla de usuarios y formato de control JSON](assets/simulate-json.png)
 
