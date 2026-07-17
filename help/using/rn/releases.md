@@ -4,23 +4,19 @@ product: journey optimizer
 title: Ciclo de lanzamiento de Adobe Journey Optimizer
 feature: Release Notes
 description: Explicación del ciclo de lanzamiento de Adobe Journey Optimizer
+keywords: ciclo de lanzamiento, versión beta, disponibilidad limitada, disponibilidad general, GA, LA, notas de la versión
+role: User
+level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: ht
-source-wordcount: 943
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
+workflow-type: tm+mt
+source-wordcount: 993
+ht-degree: 90%
 
 ---
 
@@ -55,7 +51,7 @@ Aunque la versión mensual introduce el conjunto principal de nuevas funcionalid
 
 ## Rutas de lanzamiento {#release-paths}
 
-Las funciones de Journey Optimizer siguen diferentes rutas de lanzamiento según su complejidad, dependencias y ámbito. La plataforma utiliza varias etiquetas de disponibilidad (Beta, disponibilidad limitada, disponibilidad general), pero no todas las funciones pasan por todas ellas.
+Las características de [!DNL Journey Optimizer] siguen diferentes rutas de lanzamiento según su complejidad, dependencias y ámbito. La plataforma utiliza varias etiquetas de disponibilidad (Beta, disponibilidad limitada, disponibilidad general), pero no todas las funciones pasan por todas ellas.
 
 Las rutas comunes de las versiones incluyen:
 
@@ -70,6 +66,8 @@ Las rutas comunes de las versiones incluyen:
 
 
 ## Etiquetas de disponibilidad {#availability-labels}
+
+La tabla siguiente describe cada etiqueta de disponibilidad utilizada en las rutas de versión, qué significa para el acceso y la asistencia, y qué esperar en cada fase.
 
 | **Etiqueta** | **Finalidad** | **Disponibilidad** | **Notas clave** |
 |------------|-------------|------------------|----------------|
@@ -94,21 +92,21 @@ Para mantenerse al día:
 * Monitorice las **Notas de la versión preliminar** (cuando estén disponibles) para obtener una vista previa de las próximas funciones.
 * Póngase en contacto con su representante de Adobe para obtener información sobre el acceso o la asignación de derechos Beta o de disponibilidad limitada.
 
-Puede suscribirse a las **alertas por correo electrónico y en el producto** para las versiones de productos de Journey Optimizer. Para suscribirse:
+Puede suscribirse a **correos electrónicos y alertas internas del producto** para [!DNL Journey Optimizer] versiones de productos. Para suscribirse:
 
 1. Vaya a **Preferencias de Adobe Experience Cloud**.
 1. En **Notificaciones**, busque **Journey Optimizer**.
 1. Habilite las notificaciones de **nuevas versiones** en la aplicación y por correo electrónico
 
-![](assets/do-not-localize/pulse-notif.png){width="70%"}
+![Panel de preferencias de notificaciones de Adobe Experience Cloud para Journey Optimizer, con notificaciones en la aplicación y por correo electrónico habilitadas para las categorías Alertas, Aprobaciones y Nuevas versiones](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## Preguntas frecuentes {#faq}
 
-A continuación, encontrará las preguntas frecuentes sobre el ciclo de lanzamiento de Adobe Journey Optimizer.
+A continuación encontrará las preguntas más frecuentes sobre el ciclo de lanzamiento de [!DNL Adobe Journey Optimizer].
 
 ¿Necesita más información? Use las opciones de comentarios situados en la parte inferior de esta página para plantear su pregunta o conecte con la [comunidad de Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}.
 
-+++ ¿Cuándo se programan las versiones de Adobe Journey Optimizer?
++++ ¿Cuándo están programadas las versiones de [!DNL Adobe Journey Optimizer]?
 
 [!DNL Adobe Journey Optimizer] generalmente publica actualizaciones durante la última semana de cada mes. Al final de cada trimestre, la versión puede tardar hasta dos semanas en alinearse con las actualizaciones entre soluciones o en toda la plataforma.
 
@@ -130,7 +128,7 @@ Algunas funciones de GA se implementan progresivamente para garantizar la estabi
 
 +++ ¿Todas las funciones pasan por Beta y disponibilidad limitada?
 
-No. Algunas funciones se publican directamente en GA o solo en LA, según su naturaleza y estado de preparación.La ruta de lanzamiento está adaptada a cada capacidad para equilibrar agilidad, calidad y estabilidad.
+No. Algunas funciones se publican directamente en GA o solo en LA, según su naturaleza y estado de preparación. La ruta de lanzamiento está adaptada a cada capacidad para equilibrar agilidad, calidad y estabilidad.
 
 +++
 
