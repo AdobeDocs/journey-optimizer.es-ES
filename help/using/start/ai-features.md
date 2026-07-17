@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 177322b6e3e5c1ac0b8a56207a816e98b777ecc8
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: 2380
 ht-degree: 6%
 
 ---
@@ -45,6 +31,17 @@ ht-degree: 6%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizer aprovecha el poder de la inteligencia artificial y el aprendizaje automático para ayudarle a crear, optimizar y ofrecer experiencias de cliente excepcionales. Desde la generación de contenido personalizado hasta la predicción de tiempos de envío óptimos, las capacidades de IA optimizan el flujo de trabajo y maximizan el impacto. Los manuales de casos de uso proporcionan plantillas creadas previamente para implementar rápidamente escenarios de marketing comunes.
+
+## Navegación rápida {#quick-navigation}
+
+Utilice estos vínculos agrupados para ir a la función que necesita:
+
+* **Agentes de inteligencia artificial y conversación:** [Asistente de IA](#ai-assistant), [Journey Agent](#journey-agent), [Experimentation Agent](#experimentation-agent), [Agentes de IA adicionales](#additional-ai-agents)
+* **Creación de contenido:** [generación de contenido con tecnología de IA](#content-generation), [conversor de imagen a HTML](#image-to-html), [GenStudio para marketing de rendimiento](#genstudio), [puntuación de alineación de marca](#brand-alignment)
+* **Optimización y toma de decisiones:** [Optimización del tiempo de envío](#send-time-optimization), [modelos de IA para la toma de decisiones](#ai-decisioning), [optimización de reglas y fórmulas con tecnología de IA](#decisioning-optimization)
+* **Experimentación:** [Experimentación de contenido con IA](#experimentation)
+* **Plantillas e integraciones:** [Libros de casos de uso](#playbooks), [servidor MCP de Adobe Journey Optimizer](#mcp-server)
+* **Ayuda:** [Preguntas frecuentes](#faq)
 
 ## Asistente de IA {#ai-assistant}
 
@@ -133,7 +130,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -186,7 +183,7 @@ El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs
 
 +++
 
-### Agentes de IA adicionales
+### Agentes de IA adicionales {#additional-ai-agents}
 
 **Audience Agent**: para la exploración y administración de audiencias conversacionales en Adobe Experience Platform, incluida la detección de duplicados y el seguimiento de tamaño. [Más información sobre Audience Agent](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
@@ -319,23 +316,23 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Capacidades adicionales de IA {#additional-capabilities}
 
-### Conversor de imagen a HTML
+### Conversor de imagen a HTML {#image-to-html}
 
 Transforme diseños de imagen estáticos (JPEG, PNG) en plantillas de correo electrónico editables de HTML mediante la tecnología de conversión con tecnología de IA.
 
 [Más información sobre la Imagen en HTML](../content-management/image-to-html.md)
 
-### GenStudio para marketing de rendimiento
+### GenStudio para marketing de rendimiento {#genstudio}
 
 Integre con Adobe GenStudio for Performance Marketing para crear contenido de correo electrónico con tecnología de IA e importar plantillas en Journey Optimizer para su orquestación. Exporte plantillas de Journey Optimizer a GenStudio, genere variaciones con IA y devuélvalas para su implementación. (Disponibilidad limitada, solo canal de correo electrónico).
 
 [Más información sobre GenStudio](../integrations/genstudio.md)
 
-### Puntuación de la alineación de marca
+### Puntuación de la alineación de marca {#brand-alignment}
 
 Evalúe la alineación del contenido con las directrices de su marca mediante puntuación con tecnología de IA que mide el tono, la voz y la coherencia de la mensajería.
 
