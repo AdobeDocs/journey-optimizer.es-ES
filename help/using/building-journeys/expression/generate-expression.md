@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >Esta característica se encuentra actualmente en **versión beta pública**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../../rn/releases.md).
 >
->Antes de usar esta capacidad, lea las [protecciones y limitaciones](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplican a las características de IA generativa en Journey Optimizer.
+Antes de usar esta capacidad, lea las [protecciones y limitaciones](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplican a las características de IA generativa en Journey Optimizer.
 
 Esta capacidad con tecnología de IA, integrada en el editor de expresiones avanzadas de Recorrido, le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
