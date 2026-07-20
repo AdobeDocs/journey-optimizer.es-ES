@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 11%
+source-wordcount: '2578'
+ht-degree: 9%
 
 ---
 
@@ -59,6 +59,16 @@ ht-degree: 11%
 >Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 Esta página cubre el proceso completo de creación de un desafío de fidelidad, desde la selección del tipo de desafío y la configuración de la configuración, estructura, contenido y mensajería hasta la generación y publicación del recorrido que ofrece el desafío a sus clientes.
+
+La creación de un desafío implica los siguientes pasos:
+
+1. **[Crear el desafío](#create-the-challenge)**: seleccione un tipo de desafío y abra el editor de desafíos.
+1. **[Configurar opciones](#settings)**: defina el nombre del desafío, la audiencia, la programación, las reglas de inclusión y los límites de repetición.
+1. **[Configurar estructura](#structure)** — Agregar tareas y recompensas (no aplicable para Traer sus propios desafíos de datos).
+1. **[Configurar contenido](#configure-content-cards)** *(opcional)*: defina cómo aparecerán los miembros el desafío mediante una tarjeta de contenido o una experiencia basada en código.
+1. **[Configurar mensajes](#configure-messaging)** *(opcional)*: configure mensajes de canal para las fases de inicio, en curso y finalización.
+1. **[Publicar el desafío](#launch)**: haga que el desafío esté disponible para la generación de recorridos.
+1. **[Genera y publica el recorrido](#launch)**: Déclencheur el recorrido generado automáticamente que entrega el desafío a los clientes.
 
 ## Creación del desafío {#create-the-challenge}
 
@@ -231,10 +241,6 @@ Para añadir tareas al desafío, siga estos pasos:
 
    +++
 
-1. De forma predeterminada, los desafíos estándar y secuenciales permiten a los clientes completar tareas en varias transacciones. Para requerir que todas las tareas se completen en una sola transacción, abra el menú de opciones de tarea y active la opción de transacción única.
-
-   ![](assets/challenge-create-single-transaction.png)
-
 Después de agregar tareas al desafío, configure las recompensas que los clientes ganarán por completarlas.
 
 ### Configuración de recompensas {#rewards}
@@ -315,50 +321,75 @@ Después de configurar el contenido, configure la mensajería para atraer a los 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Mensajes"
->abstract="La mensajería ayuda a la participación en todo el ciclo de vida del desafío. En la pestaña Mensajería, añada mensajes para cada fase: Inicio (cuándo comienza el desafío), En curso (recordatorios y actualizaciones de progreso) y Finalización (celebrar el éxito y confirmar las recompensas). Para cada fase, añada un mensaje, elija el canal, seleccione una configuración de canal y, a continuación, seleccione Editar para diseñar el contenido del mensaje."
+>abstract="La mensajería ayuda a la participación en todo el ciclo de vida del desafío. En la pestaña Mensajería, añada mensajes para cada fase: Lanzamiento (anunciar el desafío e invitar a los participantes a unirse), En curso (mantener a los participantes comprometidos y completar tareas) y Finalización (celebrar la finalización y notificar a los participantes de sus recompensas). Para cada fase, haga clic en el botón Add message, elija un canal, seleccione una configuración de canal y, a continuación, seleccione Edit para diseñar el contenido del mensaje."
 
 Configure mensajes multicanal para atraer a los clientes en etapas clave del ciclo de vida del desafío. La mensajería es opcional, pero se recomienda para maximizar la participación del cliente.
 
-1. Vaya a la pestaña **[!UICONTROL Mensajería]** y configure los mensajes para cada fase del ciclo vital:
+Vaya a la pestaña **[!UICONTROL Mensajería]** y configure los mensajes para cada fase del ciclo vital:
 
-   * **Iniciar** mensaje: Notifique a los clientes cuando comience el desafío
-   * Mensaje de **En curso**: Mantén a los clientes comprometidos con los recordatorios y las actualizaciones de progreso
-   * **Finalización** mensaje: Celebre el éxito y confirme la asignación del premio
+* **[!UICONTROL Launch]**: Anuncia el desafío e invita a los participantes a unirse.
+* **[!UICONTROL En curso]**: Mantenga a los participantes comprometidos y completando tareas.
+* **[!UICONTROL Fin]**: Celebre la finalización y notifique a los participantes de sus recompensas.
 
-1. Para cada fase, haga clic en el botón Añadir mensaje para crear un mensaje para esa fase.
+Para cada fase, haga clic en el botón Agregar mensaje (**[!UICONTROL Agregar mensaje de inicio]**, **[!UICONTROL Agregar mensaje en curso]** o **[!UICONTROL Agregar mensaje de desafío finalizado]**) y elija un canal.
 
-1. Elija el canal que desee: **[!UICONTROL En la aplicación]**, **[!UICONTROL Correo electrónico]** o **[!UICONTROL Notificación push]** y seleccione la configuración de canal asociada.
+Seleccione la **[!UICONTROL configuración del canal]** asociada y haga clic en **[!UICONTROL Editar]** para diseñar el contenido del mensaje.
 
-1. Seleccione el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y elija **[!UICONTROL Editar]** para diseñar el contenido del mensaje.
+![](assets/challenge-create-messaging.png)
 
-   ![](assets/challenge-create-messaging.png)
-
-Aprenda a crear mensajes para canales específicos en estas secciones: [Mensajes en la aplicación](../in-app/get-started-in-app.md) - [Mensajes de correo electrónico](../email/get-started-email.md) - [Notificaciones push](../push/get-started-push.md)
+| Canal | Descripción |
+|---|---|
+| **[!UICONTROL En la aplicación]** | Muestre un mensaje dentro de su aplicación móvil o web. [Acerca de los mensajes en la aplicación](../in-app/get-started-in-app.md) · [Diseñar un mensaje en la aplicación](../in-app/design-in-app.md) |
+| **[!UICONTROL Correo electrónico]** | Enviar una notificación por correo electrónico. [Acerca del correo electrónico](../email/get-started-email.md) · [Diseñar contenido de correo electrónico](../email/get-started-email-design.md) |
+| **[!UICONTROL Notificación push]** | Envíe una notificación push a dispositivos móviles. [Acerca de las notificaciones push](../push/get-started-push.md) · [Diseño de una notificación push](../push/design-push.md) |
+| **[!UICONTROL Tarjeta de contenido]** | Envíe un mensaje persistente de estilo tarjeta en la aplicación o en la superficie web. [Acerca de las tarjetas de contenido](../content-card/get-started-content-card.md) · [Diseña una tarjeta de contenido](../content-card/design-content-card.md) |
+| **[!UICONTROL Experiencia basada en código]** | Ofrezca contenido a través de una implementación personalizada utilizando el canal basado en código de AJO. [Acerca de las experiencias basadas en código](../code-based/get-started-code-based.md) · [Crear una experiencia basada en código](../code-based/create-code-based.md) |
+| **[!UICONTROL Acción personalizada]** | Almacenar en déclencheur un sistema externo o un extremo personalizado. [Acerca de las acciones personalizadas](../action/about-custom-action-configuration.md) |
 
 El desafío está ahora completamente configurado con su configuración, estructura, contenido y mensajería. Para iniciarlo, debe publicar el desafío y su recorrido asociado.
 
 ## Lanzamiento del desafío {#launch}
 
-Para iniciar un desafío se requieren **tres pasos**: (1) publicar el desafío, (2) generar el recorrido, (3) publicar el recorrido. Los tres deben completarse para que el desafío se entregue a los clientes.
+Tiene dos opciones para lanzar el desafío:
+
+* **[!UICONTROL Desafío de publicación]** (disponible en el menú **[!UICONTROL ...]**): utilice esta opción para publicar el desafío sin generar un recorrido. Esto le permite probar, previsualizar y simular la experiencia de desafío antes de la entrega. Los clientes no recibirán el desafío hasta que genere y publique un recorrido.
+
+* **[!UICONTROL Generar Recorrido]**: utilice esta opción para publicar automáticamente el desafío y crear el recorrido que organizará su envío de desafío a los clientes.
+
+### Publicación del desafío {#publish-challenge}
 
 1. Revise la configuración de desafío para asegurarse de que se completan todos los campos obligatorios.
 
-1. Haga clic en el icono ![](assets/do-not-localize/Smock_More_18_N.svg) y seleccione **[!UICONTROL Publicar]**.
+1. Haga clic en el icono ![](assets/do-not-localize/Smock_More_18_N.svg) junto al botón **[!UICONTROL Generar Recorrido]** y seleccione **[!UICONTROL Publicar]**.
 
    ![](assets/challenge-create-publish.png)
 
-1. Seleccione **[!UICONTROL Generar Recorrido]** para crear el recorrido que organizará su envío de desafío.
+   Se le redirigirá al inventario de desafíos. El desafío ahora aparece con un estado **[!UICONTROL Publicado]**.
+
+   Cuando esté listo para enviar el desafío a los clientes, puede generar el recorrido asociado. Para obtener más información, vea [Generar el recorrido](#generate-journey).
+
+### Generación del recorrido {#generate-journey}
+
+1. Revise la configuración de desafío para asegurarse de que se completan todos los campos obligatorios.
+
+1. Seleccione **[!UICONTROL Generar Recorrido]** para publicar automáticamente el desafío y crear el recorrido que organizará la entrega del desafío.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crea automáticamente un recorrido en estado de Borrador. El recorrido aparece en su inventario de recorridos con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;*. [Más información sobre el inventario de recorridos](../building-journeys/journey-ui.md).
+   Aparecerá un mensaje de confirmación. Haga clic en **[!UICONTROL Abrir Recorrido]** para ir directamente al recorrido generado o en **[!UICONTROL Reconocer]** para descartarlo y acceder al recorrido más tarde.
+
+   >[!IMPORTANT]
+   >
+   >Cualquier cambio en el desafío debe realizarse en el editor del Reto de fidelización y requerirá que genere un nuevo recorrido. Cualquier trabajo realizado directamente en el recorrido de desafío existente se perderá si realiza cambios en el desafío.
+
+1. Abra el recorrido generado y publíquelo. El recorrido aparece en estado **Draft** con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;* y se puede acceder a él desde:
+
+   * El mensaje de confirmación del paso anterior: haga clic en **[!UICONTROL Abrir Recorrido]**.
+   * El inventario **desafíos** — usa el vínculo de columna **[!UICONTROL Recorrido]** junto al desafío.
+   * El **inventario de recorridos**: busque el recorrido por su nombre.
+
+   Una vez publicado, el recorrido se inicia automáticamente en la fecha de inicio del desafío especificada. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Abra el recorrido y publíquelo. El recorrido se iniciará automáticamente en la fecha de inicio del desafío especificada y enviará el contenido y los mensajes según la configuración. [Más información sobre cómo publicar un recorrido](../building-journeys/publish-journey.md).
-
 1. Una vez que el desafío esté activo, monitorice los KPI del programa, los resultados del desafío y las métricas de nivel de tarea en los [informes de desafío de lealtad](loyalty-reporting.md). También puede supervisar el envío de mensajes en el [informe de recorrido](../reports/journey-global-report-cja.md).
-
->[!NOTE]
->
->El recorrido generado automáticamente se puede personalizar para agregar lógica o mensajes adicionales. Sin embargo, los cambios realizados directamente en el recorrido no se sincronizan con la configuración de desafío. Si edita el desafío más adelante, las personalizaciones del recorrido se perderán cuando se regenere el recorrido.
