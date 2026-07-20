@@ -11,7 +11,7 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
 source-wordcount: 3012
 ht-degree: 0%
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
+
 >[!IMPORTANT]
 >
 >* Para usar **[!UICONTROL Simulation]**, asigne al menos un permiso de la funcionalidad **[!UICONTROL Recorrido]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. Los mismos permisos le permiten crear y administrar usuarios simulados; los permisos de **[!UICONTROL Usuarios simulados]** no son necesarios. [Más información](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* Para administrar usuarios simulados sin **[!UICONTROL Simulation]**, asigne a **Administrar usuarios simulados** o **Ver usuarios simulados** desde la funcionalidad **[!UICONTROL Simulated Users]**.
 >
 >* Para IA en simulación (**[!UICONTROL Simulación rápida]**, usuarios generados por IA, **[!UICONTROL Generar valores de evento]**), asigne **[!UICONTROL Generar contenido]** desde la capacidad **[!UICONTROL Asistente de IA]**.
-
-Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
 
 Para obtener información general por tipo de recorrido, consulte [Introducción a la simulación de Recorrido](simulate-journey-gs.md).
 
