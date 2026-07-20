@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
-source-wordcount: 3003
+source-wordcount: 3012
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
+
 >[!IMPORTANT]
 >
 >* Para usar **[!UICONTROL Simulation]**, asigne al menos un permiso de la funcionalidad **[!UICONTROL Recorrido]**: **Simular recorridos**, **Publicar recorridos** o **Aprobar y publicar recorridos**. Los mismos permisos le permiten crear y administrar usuarios simulados; los permisos de **[!UICONTROL Usuarios simulados]** no son necesarios. [Más información](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* Para administrar usuarios simulados sin **[!UICONTROL Simulation]**, asigne a **Administrar usuarios simulados** o **Ver usuarios simulados** desde la funcionalidad **[!UICONTROL Simulated Users]**.
 >
 >* Para IA en simulación (**[!UICONTROL Simulación rápida]**, usuarios generados por IA, **[!UICONTROL Generar valores de evento]**), asigne **[!UICONTROL Generar contenido]** desde la capacidad **[!UICONTROL Asistente de IA]**.
-
-Use **[!UICONTROL Simulación]** para validar su recorrido con **usuarios simulados** antes de publicar. Esta página lo acompaña en **[!UICONTROL simulación rápida]** y **[!UICONTROL simulación manual]**, creando y enviando usuarios simulados, activando eventos unitarios cuando el recorrido los necesita y revisando el registro de **[!UICONTROL Resultados]**.
 
 Para obtener información general por tipo de recorrido, consulte [Introducción a la simulación de Recorrido](simulate-journey-gs.md).
 
@@ -65,9 +65,9 @@ En cualquier recorrido de **[!UICONTROL Simulación]**, **[!UICONTROL Simulació
 
    >[!NOTE]
    >
-   >Los campos de correo electrónico y teléfono de ejecución precargados proceden de valores utilizados anteriormente en la simulación de recorrido y almacenados en la caché del explorador.
+   >Los campos de correo electrónico, teléfono y token de ejecución prerrellenados provienen de los valores utilizados anteriormente en la simulación de recorrido y almacenados en caché en el explorador.
 
-   ![Paso de valores de actualización rápida de simulación con anulación de tiempo de espera y campos de correo electrónico y teléfono de prueba](assets/quick-simulation-3.png)
+   ![Paso de valores de actualización rápida de la simulación con anulación del tiempo de espera y campos de correo electrónico de prueba, teléfono y token push](assets/quick-simulation-3.png)
 
 1. Journey Agent genera un conjunto de usuarios simulados a partir de la definición del recorrido.
 
@@ -95,15 +95,15 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    Adobe Journey Optimizer genera un conjunto de usuarios simulados a partir de la definición del recorrido.
 
-   En el caso de los recorridos con un nodo de correo electrónico, push o SMS, la API le solicita que confirme la dirección de correo electrónico o el número de teléfono que debe utilizar. Los usuarios simulados se generarán utilizando esos valores definidos. Una vez finalizado, haga clic en **[!UICONTROL Generar]**.
+   En el caso de los recorridos con un nodo de correo electrónico, push o SMS, la API le solicita que confirme la dirección de correo electrónico, el número de teléfono o el token push que debe utilizar. Los usuarios simulados se generan utilizando esos valores definidos. Una vez finalizado, haga clic en [!UICONTROL Generar].
 
    Los usuarios simulados generados solo muestran los atributos utilizados en el recorrido actual, por ejemplo en expresiones o personalización.
 
    >[!NOTE]
    >
-   >Los campos de correo electrónico y teléfono se rellenan previamente con los valores utilizados anteriormente en la simulación de recorrido y se almacenan en la caché del explorador.
+   >Los campos correo electrónico, teléfono y token push se rellenan previamente a partir de los valores utilizados anteriormente en la simulación de recorrido y se almacenan en la caché del explorador.
 
-   ![Cuadro de diálogo Generar usuarios simulados con campos de correo electrónico y teléfono de ejecución y botón Generar](assets/simulate-generate.png)
+   ![Cuadro de diálogo Generar usuarios simulados con correo electrónico de ejecución, campos de teléfono y token push y botón Generar](assets/simulate-generate.png)
 
    +++
 
