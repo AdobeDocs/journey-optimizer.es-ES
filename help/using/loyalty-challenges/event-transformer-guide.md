@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
@@ -108,40 +108,28 @@ Cada definición de evento debe producir un objeto JSON con el siguiente formato
 | Campo | Requerido | Notas |
 |--------------------------------|--------------------|-------|
 | `loyalty_identity` | **Sí** | Debe contener `id`: el ID de fidelidad del miembro. |
-| `item_list` | **Sí** | Debe contener al menos un elemento. Un `item_list` vacío hace que el evento se rechace como no válido. |
-| `item_set` | **Sí** (por elemento) | Los identificadores de esta matriz son con los que coinciden las listas de tareas de desafío de inclusión/exclusión. Incluya todos los identificadores relevantes (SKU, categoría de producto, código de departamento, nombre de evento) para que los filtros de tareas funcionen correctamente. |
+| `item_list` | **Sí** | Debe tener ≥1 elemento; se rechaza item_list vacío. |
+| `item_set` | **Sí** (por elemento) | La tarea de identificadores incluye/excluye listas con las que coincide. |
 | `timestamp` | **Sí** | Se utiliza para la evaluación de ventana de fecha. Debe ser ISO 8601. |
-| `utc_offset` | Recomendado | Necesario para la coincidencia de ventanas de día y para calcular rachas de día consecutivo. Si se omite, se omitirán tanto la evaluación de la parte del día como el recuento de días de racha. |
-| `_id` | No | Si la detección de duplicados está habilitada para la organización, el servicio de desafío rechaza un evento cuyo `_id` ya se ha procesado. |
-| `sub_total` | No | Lo utilizan las tareas de umbral de gasto. Si se omite, el elemento no aporta gasto alguno. |
+| `utc_offset` | Recomendado | Necesario para la coincidencia de días y el recuento de días de racha. |
+| `_id` | No | Se utiliza para la desduplicación si org tiene habilitada la detección de duplicados. |
+| `sub_total` | No | Las tareas de umbral de gasto utilizan esto; omitir significa no gastar. |
 
 ## Campos de definición de evento
 
 | Campo | Tipo | Requerido | Descripción |
 |--------------------------------|------------------|----------------------|-------------|
-| `guid` | Cadena | No (asignado por el sistema) | Identificador único asignado en la creación. Sólo lectura. |
+| `guid` | Cadena | No (asignado por el sistema) | ID único asignado por el sistema; solo lectura. |
 | `name` | Cadena | **Sí** | Etiqueta legible en lenguaje natural, p. ej. `"Starbucks POS Purchase"`. |
-| `xdmSchemaId` | Cadena | No* | El ID de esquema XDM se usa para hacer coincidir los eventos que llegan a través de la **ruta de ingesta DCCS**. La plataforma lee la referencia de esquema incrustada en el evento entrante y la compara con este valor. |
-| `identifierPath` | Cadena | No* | Ruta de notación de puntos en el evento JSON utilizado para hacer coincidir eventos que llegan a través de la **ruta HTTP directa (adobe.io)**. La plataforma lee el valor en esta ruta y lo compara con `identifier`. |
-| `identifier` | Matriz de cadenas | No | Valores esperados en `identifierPath`. Si se proporciona y no está vacío, el valor en la ruta debe coincidir con uno de estos valores. Si está vacío, cualquier evento que tenga un valor en la ruta coincide. |
-| `schema` | Cadena | No | Documento de [esquema JSON](https://json-schema.org/) (como cadena JSON) utilizado para validar el evento entrante antes de la transformación. Si la validación falla, el evento se rechaza con un error descriptivo. |
-| `transformer` | Cadena | **Sí** | Expresión JSONata que asigna el evento entrante al formato de evento de fidelidad de Adobe. |
-
-\* Se debe proporcionar al menos uno de `xdmSchemaId` o `identifierPath`.
+| `xdmSchemaId` | Cadena | **Sí** | Coincide con eventos por ID de esquema XDM (consulte Funcionamiento de la coincidencia). |
+| `schema` | Cadena | No | [Esquema JSON](https://json-schema.org/) (como cadena) para validar eventos entrantes. |
+| `transformer` | Cadena | **Sí** | Expresión JSONata que asigna el evento al formato de Fidelidad. |
 
 ## Funcionamiento de la coincidencia
 
-La estrategia de coincidencia depende de cómo llegue el evento a la plataforma:
+Los eventos que llegan a través del servicio principal de recopilación de datos (DCCS) llevan una referencia de esquema XDM en su sobre. La plataforma lee el identificador de esquema de `/body/xdmMeta/schemaRef/id` y lo compara con el `xdmSchemaId` de cada definición.
 
-**Ruta de ingesta de DCCS**: los eventos que llegan a través del servicio principal de recopilación de datos (DCCS) llevan una referencia de esquema XDM en su sobre. La plataforma lee el identificador de esquema de `/body/xdmMeta/schemaRef/id` y lo compara con el `xdmSchemaId` de cada definición. Configure `xdmSchemaId` en las definiciones destinadas a esta ruta.
-
-**Ruta HTTP directa (adobe.io)**: los eventos publicados directamente en la plataforma a través de la API de adobe.io no llevan una referencia de esquema XDM. En su lugar, la plataforma atraviesa el evento JSON usando `identifierPath` y comprueba el valor encontrado allí:
-* Si `identifier` no está vacío: el valor debe coincidir con una de las cadenas configuradas.
-* Si `identifier` está vacío: cualquier evento que tenga un valor no nulo en la ruta coincide.
-
-Configure `identifierPath` (y opcionalmente `identifier`) en las definiciones destinadas a esta ruta.
-
-La plataforma recorre las definiciones de evento de la organización **en orden** y aplica la primera coincidencia. Una vez encontrada una coincidencia, se pasa al transformador el cuerpo `xdmEntity` (para eventos DCCS) o el cuerpo de evento completo (para eventos HTTP directos).
+La plataforma recorre las definiciones de evento de la organización **en orden** y aplica la primera coincidencia. Una vez encontrada una coincidencia, el cuerpo `xdmEntity` se pasa al transformador.
 
 ## Escritura del transformador
 
@@ -291,10 +279,9 @@ La biblioteca completa de funciones JSONata está disponible. Ejemplos útiles:
 
 ```json
 {
-  "name":           "Mobile Store Check-In",
-  "identifierPath": "eventName",
-  "identifier":     ["store-checkin"],
-  "transformer":    "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
+  "name":        "Mobile Store Check-In",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/store-checkin-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
 }
 ```
 
@@ -366,10 +353,9 @@ Una tarea de desafío sin restricciones de inclusión/exclusión contará este e
 
 ```json
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
 }
 ```
 
@@ -550,10 +536,9 @@ x-sandbox-name: {SANDBOX}
 Content-Type: application/json
 
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{ ... }"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{ ... }"
 }
 ```
 
