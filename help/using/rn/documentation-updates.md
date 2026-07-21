@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
+source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
 workflow-type: tm+mt
-source-wordcount: 9505
-ht-degree: 86%
+source-wordcount: 9560
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 ## Julio de 2026 {#july-2026}
 
 * La página **Finalizar un recorrido** se ha actualizado para aclarar el tiempo de detención automática de los recorridos de audiencia de lectura no recurrentes: un búfer de seguridad de aproximadamente **96 horas (~4 días)** después de la ejecución programada (ventana inactiva de 24 horas + asignación de horas silenciosas de 72 horas), durante el cual el recorrido puede permanecer en el estado **Activo** antes de pasar a **Detenido** poco después de que transcurra el búfer. La página ahora también aclara que los recorridos basados en olas (multionda) y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta parada automática y, en su lugar, siguen el tiempo de espera de recorrido estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* La página **Crear campañas de calentamiento de IP** se ha actualizado para aclarar que se pueden aplicar reglas de segmentación a las campañas de calentamiento de IP y para documentar el comportamiento de evaluación: la pertenencia a la audiencia se corrige al ejecutar la activación (segmentación por lotes diaria), mientras que los atributos de perfil se leen en el momento de la ejecución a partir de los datos por lotes ingeridos más recientemente. [Más información](../configuration/ip-warmup-campaign.md)
 
 * Se ha agregado una advertencia a la página **Editar registros PTR** para informar a los clientes de que al agregar un nuevo registro DNS de reenvío a su plataforma, el registro DNS de reenvío del subdominio anterior no debe quitarse hasta que se complete el movimiento, ya que esto provocará que la edición falle. [Más información](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
