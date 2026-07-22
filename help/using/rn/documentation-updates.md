@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 9560
+source-wordcount: 9592
 ht-degree: 85%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 85%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* La documentación de la función **To Precision** se ha actualizado para aclarar que `toPrecision` se comporta como JavaScript `toFixed()`: devuelve una cadena con un número fijo de decimales, incluido el relleno cero cuando es necesario. [Más información](../personalization/functions/math.md#to-precision)
 
 * La página **Finalizar un recorrido** se ha actualizado para aclarar el tiempo de detención automática de los recorridos de audiencia de lectura no recurrentes: un búfer de seguridad de aproximadamente **96 horas (~4 días)** después de la ejecución programada (ventana inactiva de 24 horas + asignación de horas silenciosas de 72 horas), durante el cual el recorrido puede permanecer en el estado **Activo** antes de pasar a **Detenido** poco después de que transcurra el búfer. La página ahora también aclara que los recorridos basados en olas (multionda) y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta parada automática y, en su lugar, siguen el tiempo de espera de recorrido estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
 

@@ -9,10 +9,10 @@ exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 6%
+source-wordcount: 267
+ht-degree: 5%
 
 ---
 
@@ -130,7 +130,8 @@ La función `toPercentage` se usa para convertir un número en porcentaje.
 
 ## A Precisión {#to-precision}
 
-La función `toPrecision` se usa para convertir un número en una precisión requerida.
+La función `toPrecision` convierte un número en un número fijo de decimales y devuelve una cadena con relleno cero.
+Esta función equivale al comportamiento de JavaScript `toFixed()`.
 
 **Sintaxis**
 
