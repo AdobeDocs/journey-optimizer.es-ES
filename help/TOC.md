@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
 workflow-type: tm+mt
 source-wordcount: '3477'
 ht-degree: 95%
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Documentación de Journey Optimizer](ajo-home.md)
 + Novedades {#whats-new}
   + [Ciclo de lanzamiento](using/rn/releases.md)
-  + {hide-from-toc}[Notas de la versión preliminar](using/rn/e-release-notes.md)
+  + [Notas de la versión preliminar](using/rn/e-release-notes.md)
   + [Últimas notas de la versión](using/rn/release-notes.md)
   + Notas de la versión anterior {#previous-rn-new}
     + {hide-from-toc}[Notas de la versión anterior](/help/rp_landing_pages/previous-rn-new-landing-page.md)
