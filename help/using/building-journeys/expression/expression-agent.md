@@ -12,7 +12,7 @@ badge: label="Beta pública" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 El Ayudante de expresiones es una función con tecnología de IA integrada en el editor de expresiones avanzadas de Recorrido. Le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
@@ -137,4 +137,3 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Está disponible el Ayudante de expresiones de forma general?** — No; actualmente está en versión beta pública. Consulte la página Ciclo de versiones de Journey Optimizer para ver las actualizaciones de disponibilidad.
 
 +++
-
