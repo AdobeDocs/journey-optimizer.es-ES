@@ -13,7 +13,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1731
 ht-degree: 1%
@@ -689,3 +689,4 @@ Sin `utc_offset`, la coincidencia de la ventana de la parte del día y el recuen
 Para los eventos de DCCS, el transformador recibe solamente el cuerpo de `xdmEntity`, no el sobre externo de AJO. Todas las rutas deben ser relativas a la raíz de la entidad XDM. Si la expresión hace referencia a campos que residen en el sobre exterior (p. ej. `/body/xdmMeta/...`), no se encontrarán y generarán un valor nulo de forma silenciosa.
 
 +++
+
