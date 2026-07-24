@@ -5,10 +5,10 @@ title: Asistente de IA para la generación de contenido
 description: Asistente de IA para la generación de contenido
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ El asistente de IA de Adobe Journey Optimizer revoluciona la creación de conten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al asistente de IA
 
@@ -30,7 +30,7 @@ Obtenga información sobre cómo acceder y configurar la función del Asistente 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generar contenido completo
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar el Asistente de IA para crear contenido completo, inclui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generación de solo texto
 
@@ -50,7 +50,7 @@ Utilice el Asistente de IA para generar y refinar el contenido de texto para tod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Generar solo imágenes
 
@@ -67,3 +67,4 @@ Cree y personalice imágenes con el Asistente de IA para utilizarlas en correos 
 - **[Experimentación del contenido con IA](../using/content-management/generative-experimentation.md)**: pruebe y mida el rendimiento de varias variaciones de contenido mediante la función Experimento de contenido.
 - **[Casos de uso del Asistente de IA](../using/content-management/generative-uc.md)**: explore varias formas de aprovechar el Asistente de IA para generar contenido, perfeccionarlo y personalizarlo.
 - **[Administración y alineación con la marca](brands-landing-page.md)**: administre las directrices de la marca y garantice una alineación coherente entre el contenido generado por IA y las campañas.
+- **[Siga el curso: Creación de contenido en la marca con tecnología de IA](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**. Obtenga información sobre cómo crear contenido en la marca en Adobe Journey Optimizer para especialistas en marketing mediante herramientas con tecnología de IA.
