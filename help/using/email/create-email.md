@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
+source-git-commit: 977a3adf312c5121e5597fd75a3d1a3a3a6c0f1e
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 15%
+source-wordcount: 1903
+ht-degree: 14%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
 >abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Curso de creación de contenido en marca con tecnología de IA"
+
 
 ## Añadir una acción de correo electrónico {#email-action}
 
@@ -183,27 +185,27 @@ Pueden producirse dos tipos de alertas:
 
 * **Advertencias** hacen referencia a recomendaciones y prácticas recomendadas, como:
 
-   * **[!UICONTROL El vínculo de no participación no está presente en el cuerpo del correo electrónico]**: se recomienda agregar un vínculo para darse de baja al cuerpo del correo electrónico. Aprenda a configurarla en [esta sección](../privacy/opt-out.md#opt-out-decision-management).
+  * **[!UICONTROL El vínculo de no participación no está presente en el cuerpo del correo electrónico]**: se recomienda agregar un vínculo para darse de baja al cuerpo del correo electrónico. Aprenda a configurarla en [esta sección](../privacy/opt-out.md#opt-out-decision-management).
 
-     >[!NOTE]
-     >
-     >Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [configuración de canal](email-settings.md#email-type) y cuando [crea el mensaje](#create-email-journey-campaign) a partir de un recorrido o una campaña.
+    >[!NOTE]
+    >
+    >Los mensajes de correo electrónico de tipo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales. La categoría del mensaje (**[!UICONTROL Marketing]** o **[!UICONTROL Transaccional]**) se define en el nivel de [configuración de canal](email-settings.md#email-type) y cuando [crea el mensaje](#create-email-journey-campaign) a partir de un recorrido o una campaña.
 
-   * **[!UICONTROL La versión de texto de HTML está vacía]**: no olvide definir una versión de texto de su cuerpo de correo electrónico, ya que se utilizará cuando el contenido de HTML no se pueda mostrar. Aprenda a crear la versión de texto en [esta sección](text-version-email.md).
+  * **[!UICONTROL La versión de texto de HTML está vacía]**: no olvide definir una versión de texto de su cuerpo de correo electrónico, ya que se utilizará cuando el contenido de HTML no se pueda mostrar. Aprenda a crear la versión de texto en [esta sección](text-version-email.md).
 
-   * **[!UICONTROL El vínculo vacío está presente en el cuerpo del correo electrónico]**: compruebe que todos los vínculos del correo electrónico sean correctos. Aprenda a administrar contenido y vínculos en [esta sección](content-from-scratch.md).
+  * **[!UICONTROL El vínculo vacío está presente en el cuerpo del correo electrónico]**: compruebe que todos los vínculos del correo electrónico sean correctos. Aprenda a administrar contenido y vínculos en [esta sección](content-from-scratch.md).
 
-   * **[!UICONTROL El tamaño del correo electrónico ha superado el límite de 100 KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Para reducir el tamaño de HTML, usa la opción **[!UICONTROL Optimizar tamaño de HTML]**. [Más información](#optimize-html-size)
+  * **[!UICONTROL El tamaño del correo electrónico ha superado el límite de 100 KB]**: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB. Para reducir el tamaño de HTML, usa la opción **[!UICONTROL Optimizar tamaño de HTML]**. [Más información](#optimize-html-size)
 
 * **Los errores** le impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, por ejemplo:
 
-   * **[!UICONTROL Falta la línea de asunto]**: la línea de asunto del correo electrónico es obligatoria. Aprenda a definirlo y personalizarlo en [esta sección](create-email.md).
+  * **[!UICONTROL Falta la línea de asunto]**: la línea de asunto del correo electrónico es obligatoria. Aprenda a definirlo y personalizarlo en [esta sección](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL La versión de correo electrónico del mensaje está vacía]**: este error se muestra cuando no se ha configurado el contenido del correo electrónico. Aprenda a diseñar contenido de correo electrónico en [esta sección](get-started-email-design.md).
+  * **[!UICONTROL La versión de correo electrónico del mensaje está vacía]**: este error se muestra cuando no se ha configurado el contenido del correo electrónico. Aprenda a diseñar contenido de correo electrónico en [esta sección](get-started-email-design.md).
 
-   * **[!UICONTROL la configuración no existe]**: no puede usar el mensaje si la configuración seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra configuración en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información acerca de las configuraciones de canal en [esta sección](../configuration/channel-surfaces.md).
+  * **[!UICONTROL la configuración no existe]**: no puede usar el mensaje si la configuración seleccionada se elimina después de la creación del mensaje. Si se produce este error, seleccione otra configuración en el mensaje **[!UICONTROL Propiedades]**. Obtenga más información acerca de las configuraciones de canal en [esta sección](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
+source-git-commit: b82181c7415383035a632f390fc70e5970948af5
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 15%
+source-wordcount: 2250
+ht-degree: 14%
 
 ---
 
@@ -177,7 +177,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a las 
 </tbody>
 </table>
 
-* **Carpetas para campañas**: ahora puede organizar sus campañas en carpetas para mejorar la navegación y la administración en la interfaz. <!-- Documentation link: TBD -->
+* **Carpetas para campañas**: ahora puede organizar sus campañas en carpetas para mejorar la navegación y la administración en la interfaz. Esta capacidad solo está disponible para campañas activadas por acciones y API. <!-- Documentation link: TBD -->
 
 * **Anular el campo de ejecución predeterminado en las campañas**: antes disponible en el nivel de recorrido, ahora se puede anular el campo de ejecución predeterminado establecido globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de campaña. <!-- Documentation link: TBD -->
 
@@ -356,3 +356,11 @@ En esta versión se han añadido las siguientes funcionalidades a la administrac
 </tr>
 </tbody>
 </table>
+
+### Mejoras de uso {#july-26-usability}
+
+En esta versión se incluyen las siguientes mejoras en la facilidad de uso.
+
+* **Métodos abreviados de inicio rápido para los canales SMS, Push, In-App y Codebase en las plantillas de contenido**: el botón **Más acciones** de la lista Plantillas de contenido ahora proporciona métodos abreviados adicionales específicos del canal. En el caso de las plantillas SMS, edite rápidamente el mensaje o compruebe el recuento o los segmentos de caracteres. En las plantillas push, edite el título, el cuerpo o los medios. Para las plantillas en la aplicación, edite el encabezado del mensaje, el cuerpo del mensaje o la URL de medios. Para las plantillas de canal de Codebase, edite el código directamente. Estos métodos abreviados amplían los métodos abreviados de inicio rápido del canal de correo electrónico que ya están disponibles. <!-- Documentation link: TBD -->
+
+* **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. <!-- Documentation link: TBD -->
