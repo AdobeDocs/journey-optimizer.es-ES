@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 3115
 ht-degree: 72%
@@ -513,3 +513,4 @@ Las siguientes mejoras se incluyen en la mensajería móvil en esta versión.
 
 +++
 -->
+

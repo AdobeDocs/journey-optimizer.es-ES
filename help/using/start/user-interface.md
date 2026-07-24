@@ -31,7 +31,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6f12c9d87f9a12bfe5d43c984439c066e881b680
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
 ht-degree: 90%
@@ -426,4 +426,3 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_migration_token_url"
 >title="URL de token"
 >abstract="Extremo del servidor de autorización que emite tokens de acceso para el flujo de credenciales del cliente, que normalmente termina en /oauth/token o /token."
-

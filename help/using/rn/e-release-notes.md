@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0a4a356b7806eee2365f0606eb7956f21cbacfb6
+source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
 workflow-type: tm+mt
-source-wordcount: 2022
+source-wordcount: 2036
 ht-degree: 15%
 
 ---
@@ -70,9 +70,10 @@ Journey Optimizer presenta Loyalty, una nueva funcionalidad de esta versión.
 <tbody>
 <tr>
 <td>
-<p>Los Desafíos de lealtad convierten las iniciativas de lealtad en experiencias atractivas y entretenidas que motivan a los clientes a realizar acciones valiosas, como realizar compras, escribir críticas o participar en medios sociales.</p>
-<p>Los administradores pueden usar el menú de administración de Fidelidad para conectar Journey Optimizer con su ecosistema de fidelidad, incluidas las API de cumplimiento de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración de identidad. Los especialistas en marketing pueden diseñar desafíos estándar, de racha o secuenciales, definir tareas y recompensas, ofrecer tarjetas de contenido de marca y mensajes, y monitorizar el rendimiento con paneles de informes integrados. Journey Optimizer genera los recorridos que organizan cada desafío en segundo plano, de modo que los equipos puedan centrarse en la experiencia del cliente y los objetivos empresariales.</p>
-<p>La lealtad también introduce una habilidad de Coworker que permite a los equipos realizar operaciones de desafío clave de forma más eficiente, incluida la creación de desafíos, la configuración de propiedades de desafío, la administración de audiencias y la configuración relacionada, y la revisión de perspectivas para monitorizar la participación en el desafío y recompensar el rendimiento.</p>
+<p>Los retos de fidelidad convierten las iniciativas de fidelidad en experiencias atractivas y entretenidas que motivan a los clientes a realizar acciones valiosas, como realizar compras, escribir críticas o cualquier comportamiento deseado.</p>
+<p>Los administradores pueden usar el menú de administración de Fidelidad para conectar Journey Optimizer con su ecosistema de fidelidad, incluidas las API de cumplimiento de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración de identidad. Los especialistas en marketing pueden diseñar desafíos estándar, de racha o secuenciales, definir tareas y recompensas, ofrecer tarjetas de contenido de marca y mensajes, y monitorizar el rendimiento con paneles de informes impulsados por IA. Journey Optimizer genera los recorridos que organizan cada desafío en segundo plano, de modo que los equipos puedan centrarse en la experiencia del cliente y los objetivos empresariales.</p>
+<p>La lealtad también introduce habilidades de Coworker que permiten a los equipos realizar operaciones de desafío clave de forma más eficiente, incluida la creación de desafíos, la configuración de propiedades de desafío, la administración de audiencias y la configuración relacionada, y la revisión de perspectivas para monitorizar la participación en el desafío y recompensar el rendimiento.</p>
+<p>Esta funcionalidad solo está disponible para organizaciones con licencia de Lealtad de Journey Optimizer. Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -133,7 +134,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 </tbody>
 </table>
 
-* **Compatibilidad de documentos con audiencias externas en la simulación de Recorrido**: la simulación de Recorrido ahora admite audiencias externas. Al simular recorridos dirigidos a audiencias CSV o Composición de audiencia federada, puede burlar los atributos de enriquecimiento de esas audiencias directamente a través del formulario de la interfaz de usuario o una importación JSON. La interfaz de usuario muestra dinámicamente solo los atributos de enriquecimiento específicos utilizados en la lógica de recorrido, lo que permite la validación precisa de las ramas de decisión y las reglas de personalización antes de su lanzamiento. <!-- Documentation link: TBD -->
+* **Audiencias externas en la simulación de Recorrido**: la simulación de Recorrido ahora admite audiencias externas. Al simular recorridos dirigidos a audiencias CSV o Composición de audiencia federada, puede burlar los atributos de enriquecimiento de esas audiencias directamente a través del formulario de la interfaz de usuario o una importación JSON. La interfaz de usuario muestra dinámicamente solo los atributos de enriquecimiento específicos utilizados en la lógica de recorrido, lo que permite la validación precisa de las ramas de decisión y las reglas de personalización antes de su lanzamiento. <!-- Documentation link: TBD -->
 
 ### Campañas {#july-26-campaigns}
 

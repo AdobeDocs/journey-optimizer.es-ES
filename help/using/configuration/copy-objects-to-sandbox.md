@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 2428
 ht-degree: 2%
@@ -201,7 +201,7 @@ Antes de importar en producción, tenga en cuenta los siguientes comportamientos
 
 +++
 
-+++ Fragmentos de recorrido
++++ Fragmentos del recorrido
 
 * [Los fragmentos de Recorrido](../building-journeys/journey-fragments.md) (conjuntos reutilizables de nodos de recorrido) son compatibles con las herramientas de espacio aislado. Al exportar un fragmento de recorrido, su último estado de Borrador se copia en la zona protegida de destino.
 
@@ -274,3 +274,4 @@ Una vez publicado el paquete, debe importarlo en la zona protegida de destino. S
    ![](assets/journey-sandbox8.png)
 
 1. Acceda a la zona protegida de destino y realice una comprobación exhaustiva de todos los objetos copiados.
+

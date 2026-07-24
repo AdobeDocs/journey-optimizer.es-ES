@@ -12,7 +12,7 @@ badge: label="Beta pública" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 9551133fab06cfa5e056ba98da73dcbf066916fc
+source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
