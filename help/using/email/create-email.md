@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 977a3adf312c5121e5597fd75a3d1a3a3a6c0f1e
+source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1901
 ht-degree: 14%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 14%
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
 >abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Curso de creación de contenido en marca con tecnología de IA"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Siga el curso de contenido de IA"
 
 
 ## Añadir una acción de correo electrónico {#email-action}
