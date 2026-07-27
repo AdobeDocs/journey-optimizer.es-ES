@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
+source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
 workflow-type: tm+mt
-source-wordcount: 2469
+source-wordcount: 2387
 ht-degree: 2%
 
 ---
@@ -101,6 +101,9 @@ Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva e
 
 ![](assets/journey-new-experience-switch.png)
 
+Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
 ## Inicie el recorrido {#start-your-journey}
 
@@ -187,7 +190,7 @@ Estos son los pasos para copiar/pegar actividades:
 1. Presione **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
    ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
-1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y presionar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)
 
 +++ Referencia de conocimientos de AI
