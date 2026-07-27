@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '809'
 ht-degree: 2%
 
 ---
 
 
 # Prueba del canal personalizado {#test-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a validar su canal personalizado antes de lanzarlo, probando la conexión de extremo desde el Generador de canales, simulando contenido con perfiles de prueba y enviando pruebas.
+
+>[!ENDSHADEBOX]
 
 Antes de activar un recorrido o una campaña que utilice un canal personalizado, compruebe que el punto de conexión sea accesible, que la autenticación funcione y que los tokens de personalización se resuelvan correctamente para los perfiles de destinatario.
 

@@ -6,9 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: canal personalizado, subdominios, configuración
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '872'
 ht-degree: 3%
 
 ---
@@ -47,20 +47,19 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## Usar un subdominio existente {#custom-channel-use-existing-subdomain}
 
 Para utilizar un subdominio que ya se haya delegado a Adobe, siga los pasos a continuación.
 
 1. Vaya al menú **[!UICONTROL Administración]** > **[!UICONTROL Canales]** y seleccione **[!UICONTROL Generador de canales]** > **[!UICONTROL Subdominios]**.
 
-   ![](assets/custom_channel_subdomains.png){width="100%"}
+   ![inventario de subdominios de canal personalizado](assets/custom_channel_subdomains.png){width="100%"}
 
 1. Haga clic en **[!UICONTROL Crear subdominio de canal personalizado]**.
 
 1. Seleccione **[!UICONTROL Usar subdominio delegado]** de la sección **[!UICONTROL Tipo de configuración]**.
 
-   ![](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![Usar formulario de configuración delegada de subdominios](assets/custom_channel_create_subdomain.png){width="100%"}
 
 1. Introduzca el prefijo que se mostrará en la URL de su canal personalizado. Solo se permiten caracteres alfanuméricos y guiones.
 
@@ -101,7 +100,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
 1. Seleccione **[!UICONTROL Agregar su propio dominio]** de la sección **[!UICONTROL Tipo de configuración]**.
 
-   ![](assets/custom_channel_new_subdomain.png){width="70%"}
+   ![Agregar su propio formulario de configuración de dominio](assets/custom_channel_new_subdomain.png){width="70%"}
 
 1. Especifique el subdominio que desea delegar.
 
@@ -119,7 +118,7 @@ Para configurar un nuevo subdominio, siga los pasos a continuación.
 
 1. Asegúrese de que se ha generado un registro DNS en la solución de alojamiento de dominios. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot; y luego haga clic en **[!UICONTROL Enviar]**.
 
-   ![](assets/custom_channel_new_subdomain_confirm.png)
+   ![Casilla de verificación de confirmación de registro DNS antes del envío de subdominios](assets/custom_channel_new_subdomain_confirm.png)
 
    Al configurar un nuevo subdominio de canal personalizado, siempre apunta a un registro CNAME.
 
