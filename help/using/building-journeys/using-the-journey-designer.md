@@ -103,7 +103,7 @@ Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva e
 
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
 ## Inicie el recorrido {#start-your-journey}
 
