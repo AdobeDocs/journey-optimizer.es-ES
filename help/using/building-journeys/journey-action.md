@@ -11,30 +11,16 @@ keywords: recorrido, mensaje, push, sms, correo electrónico, en la aplicación,
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
-ht-degree: 9%
+source-wordcount: 2506
+ht-degree: 16%
 
 ---
 
@@ -59,6 +45,7 @@ Utilice la actividad **Acción** para lo siguiente:
 
 * Configure cualquier acción de canal integrada desde una sola interfaz optimizada.
 * Combinar varias experiencias entrantes en un [grupo de acción múltiple](#multi-action).
+* Agregue varios canales salientes a una sola acción y utilice [optimización de canales](channel-optimization.md) para seleccionar automáticamente el mejor canal por cliente (disponibilidad limitada).
 * Aplique [optimización](../content-management/gs-message-optimization.md), [contenido multilingüe](../content-management/multilingual-gs.md) y configuración específica del canal a cualquier acción.
 
 >[!NOTE]
@@ -82,14 +69,14 @@ Las actividades de canal nativo heredadas también se conservan en estos casos:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nodo de espera automático"
->abstract="Para las acciones de canal entrante (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Wait** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia entrante antes de que el recorrido continúe con el siguiente paso."
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones del canal"
+>abstract="Para las acciones de canal de entrada (mensaje en la aplicación, web, tarjeta de contenido y experiencia basada en código), se inserta automáticamente un nodo **Esperar** después de la acción (3 días de forma predeterminada). Esto proporciona a los perfiles tiempo para ver la experiencia de entrada antes de que el recorrido continúe al siguiente paso."
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a las acciones de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimización"
->abstract="La sección **Optimización** agrega experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada miembro de la audiencia."
+>abstract="La sección **Optimización** añade experimentos de contenido, reglas de segmentación o ambos a una acción del canal. Permite probar variantes y entregar el contenido más efectivo a cada abonado del público."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Uso de la actividad Optimizar"
 
 
@@ -125,6 +112,12 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
    ![Ficha Acciones del menú Administración que muestra las acciones personalizadas y de Adobe](assets/journey-action-actions-tab.png)
 
 1. Si ha seleccionado un canal entrante, puede añadir varias acciones. [Más información](#multi-action)
+
+1. Si ha seleccionado un canal saliente (correo electrónico, push, SMS), puede añadir varios canales y utilizar la optimización de canales para seleccionar automáticamente el mejor canal por cliente. [Más información](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para habilitarlo para su organización.
 
 1. Configure la actividad según el canal seleccionado. Encontrará instrucciones de configuración detalladas en los vínculos siguientes.
 
@@ -286,13 +279,13 @@ Para los mensajes en la aplicación, puedes usar el botón **[!UICONTROL Editar 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Añadir varias acciones entrantes"
->abstract="Un solo recorrido puede incluir varias acciones entrantes. Esta función le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico."
+>abstract="Un solo recorrido puede incluir varias acciones de entrada. Esta función le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, y cada acción con un contenido específico."
 
 Para simplificar la orquestación de recorrido, puede definir varias acciones entrantes dentro de una sola acción de recorrido.
 
 >[!NOTE]
 >
->Esta capacidad solo está disponible para canales entrantes. Actualmente, no se admiten canales salientes como correo electrónico.
+>Esta capacidad está disponible para canales entrantes. Para los canales salientes (correo electrónico, push, SMS), usa [optimización de canales](channel-optimization.md) para agregar varios canales y seleccionar automáticamente el mejor canal por cliente.
 
 Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, sin necesidad de crear varias acciones de recorrido. Facilita la implementación del recorrido y ofrece una creación de informes más fluida, con todos los datos consolidados en un solo recorrido.
 
@@ -354,8 +347,8 @@ En lugar de utilizar las funciones de mensajes integradas, puede utilizar accion
 
 * Si está trabajando con Adobe Campaign, consulte estas secciones:
 
-   * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer] y Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer] y Campaign Standard](../action/acs-action.md)
 
 +++ Referencia de conocimientos de AI
 

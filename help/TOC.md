@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
+source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
 workflow-type: tm+mt
-source-wordcount: '3477'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
     + [Trabajar con eventos de pasos del recorrido](using/reports/journey-step-events-overview.md)
     + [Administración de husos horarios](using/building-journeys/timezone-management.md)
     + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
+    + [Optimización de canal](using/building-journeys/channel-optimization.md)
     + [Termine el recorrido](using/building-journeys/end-journey.md)
   + Actividades {#about-journey-building}
     + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)

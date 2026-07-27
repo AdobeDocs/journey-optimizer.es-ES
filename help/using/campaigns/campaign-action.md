@@ -11,27 +11,16 @@ mini-toc-levels: 1
 keywords: crear, optimizador, campaña, superficie, mensajes
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 TQID: https://experienceleague.adobe.com/NYmffTrdeExP-YY92lHKD21uvDN8IeUqW46P6Rrkek8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 31%
+source-wordcount: 939
+ht-degree: 30%
 
 ---
 
@@ -39,7 +28,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Configure la acción de campaña seleccionando una configuración de canal y canal junto con optimización y contenido multilingüe, y agregue varias acciones entrantes para que la campaña ofrezca las experiencias correctas en todos los canales.
+**En esta página:** Configure la acción de campaña seleccionando una configuración de canal y canal junto con optimización y contenido multilingüe, agregue varias acciones entrantes o utilice la optimización de canal para seleccionar automáticamente el mejor canal saliente para cada cliente, de modo que la campaña ofrezca las experiencias correctas en todos los canales.
 
 >[!ENDSHADEBOX]
 
@@ -58,6 +47,8 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
    >Los canales disponibles varían en función del modelo de licencia y los complementos.
 
    Si selecciona un canal entrante (experiencia basada en código, mensaje en la aplicación, tarjeta de contenido o acción web), puede agregar más acciones entrantes, para un total de hasta 10 acciones en una sola campaña. [Descubra cómo](#multi-action)
+
+   Si selecciona varios canales salientes (correo electrónico, push, SMS), puede utilizar la optimización de canales para seleccionar automáticamente el mejor canal para cada cliente en el momento del envío. [Descubra cómo](../building-journeys/channel-optimization.md)
 
 1. **Seleccionar una configuración de canal**
 
@@ -129,7 +120,7 @@ Para simplificar la orquestación de la campaña, puede definir varias acciones 
 
 >[!NOTE]
 >
->Esta capacidad solo está disponible para canales entrantes. Actualmente, no se admiten canales salientes como correo electrónico.
+>Esta capacidad solo está disponible para canales entrantes. Para los canales salientes (correo electrónico, push, SMS), usa [optimización de canales](../building-journeys/channel-optimization.md) para seleccionar automáticamente el mejor canal por cliente.
 
 Esta capacidad le permite enviar varias experiencias basadas en código, mensajes en la aplicación, tarjetas de contenido o acciones web a diferentes ubicaciones al mismo tiempo, sin necesidad de crear varias campañas. Facilita la implementación de la campaña y permite generar informes más fluidos, con todos los datos consolidados en una sola campaña.
 
