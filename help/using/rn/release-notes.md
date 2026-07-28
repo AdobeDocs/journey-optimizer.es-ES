@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
+source-git-commit: c8082b429d351a35f2c2ed9627551e3eac64df68
 workflow-type: tm+mt
-source-wordcount: 3165
+source-wordcount: 3167
 ht-degree: 69%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>Ahora puede configurar una acción de recorrido para incluir varios canales salientes (correo electrónico, push, SMS) y permitir que Journey Optimizer realice envíos automáticamente a través del mejor canal para cada cliente. Hay tres modos de optimización disponibles:</p>
+<p>Ahora puede configurar un recorrido o una acción de campaña para incluir varios canales salientes (correo electrónico, push, SMS) y permitir que Journey Optimizer realice envíos automáticamente a través del mejor canal para cada cliente. Hay tres modos de optimización disponibles:</p>
 <ul>
 <li>Clasificación manual: especifique el orden de canal preferido.</li>
 <li>Preferencia del cliente: utilice el canal preferido del cliente desde su perfil (atributo Consentimientos y preferencias del modelo de datos de experiencia ).</li>

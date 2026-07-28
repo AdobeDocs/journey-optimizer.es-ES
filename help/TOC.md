@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
   + {hide-from-toc}[Lienzo del recorrido mejorado](using/rn/new-canvas.md)
   + {hide-from-toc}[Migrar audiencias por lotes desde la calificación de audiencias](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[Guía de CNIL sobre píxeles de seguimiento de correo electrónico](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[Guía de la CNIL sobre píxeles de seguimiento de correo electrónico](using/privacy/cnil-pixel-tracking.md)
 + Introducción {#get-started}
   + [Empiece aquí](/help/rp_landing_pages/get-started-landing-page.md)
   + [Centro de incorporación](using/start/onboarding-hub.md)
@@ -431,6 +431,7 @@ ht-degree: 95%
   + Bandeja de entrada {#inbox}
     + [Introducción a la bandeja de entrada](using/inbox/inbox-gs.md)
     + [Configuración del canal de la bandeja de entrada en Journey Optimizer](using/inbox/inbox-configuration.md)
+    + [Configuración de la compatibilidad con la bandeja de entrada en Web SDK](using/inbox/inbox-configuration-sdk.md)
     + [Creación de su bandeja de entrada](using/inbox/inbox-create.md)
     + [Diseño de la bandeja de entrada](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
