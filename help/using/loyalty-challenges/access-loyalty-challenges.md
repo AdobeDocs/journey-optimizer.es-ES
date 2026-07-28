@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 470
 ht-degree: 0%
@@ -82,3 +82,4 @@ Desde la pestaña Tareas, puede realizar acciones en las tareas:
   >[!IMPORTANT]
   >
   >Puede eliminar una tarea incluso cuando se utiliza en uno o más desafíos. Tenga en cuenta el impacto en los desafíos que hacen referencia a la tarea antes de eliminarla.
+

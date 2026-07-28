@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 0%
@@ -89,3 +89,4 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 | **Producto** | Rendimiento del catálogo de productos, incluidas vistas, reembolsos y tendencias de nivel de catálogo |
 | **Ciclo de vida del miembro** | Cómo progresan los miembros en las fases de inscripción, participación y cancelación |
 | **Tendencia** | Patrones basados en el tiempo, como ciclos semanales, picos estacionales o reversiones de tendencias |
+

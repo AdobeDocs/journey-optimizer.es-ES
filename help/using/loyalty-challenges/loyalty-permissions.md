@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 6%
@@ -147,3 +147,4 @@ Si un usuario no puede acceder a Retos de fidelización o a una función relacio
 * La organización y la zona protegida están habilitadas para Retos de fidelidad.
 
 Si los problemas de acceso persisten después de actualizar los permisos, póngase en contacto con su representante de Adobe.
+

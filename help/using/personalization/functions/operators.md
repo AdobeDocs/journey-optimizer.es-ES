@@ -7,19 +7,15 @@ role: Developer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 TQID: https://experienceleague.adobe.com/b4Tz4auDyWb-iaUYAie31DL5hlHh97n3rYm7EP-JjIw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 11%
+source-wordcount: 461
+ht-degree: 9%
 
 ---
 
@@ -199,3 +195,76 @@ La siguiente operación define a las personas nacidas en 2000 o antes.
 ```
 
 **Operaciones con números**
+
+## Funciones de migración de plantillas {#template-migration-functions}
+
+Las funciones de migración de plantillas están disponibles en el editor de personalización para ayudarle a migrar las plantillas existentes a Journey Optimizer.
+
+### Comparar mediante el operador{#amp-compare}
+
+La función `ampCompare` compara dos valores utilizando el operador de comparación especificado.
+
+**Sintaxis**
+
+```sql
+{%= ampCompare(value1, value2, operator) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `value1` | Primer valor para comparar. |
+| `value2` | Segundo valor para comparar. |
+| `operator` | Entero que representa el operador de comparación que se va a utilizar. |
+
+**Ejemplo**
+
+```sql
+{%= ampCompare(profile.person.age, 18, 4) %}
+```
+
+### Rango de subcadenas{#amp-substr}
+
+La función `ampSubstr` devuelve una parte de una cadena entre los índices de inicio y fin especificados.
+
+**Sintaxis**
+
+```sql
+{%= ampSubstr(string, startIndex, endIndex) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `string` | La cadena de origen. |
+| `startIndex` | Índice de inicio de la subcadena (entero). |
+| `endIndex` | Índice final de la subcadena (entero). |
+
+**Ejemplo**
+
+La siguiente expresión devuelve los cinco primeros caracteres de la cadena &quot;Hello World&quot;.
+
+```sql
+{%= ampSubstr("Hello World", 0, 5) %}
+```
+
+Devuelve `Hello`.
+
+### Comparar con{#compare-to}
+
+La función `compareTo` compara dos cadenas lexicográficamente. Devuelve un entero negativo si la primera cadena va antes que la segunda, cero si son iguales o un entero positivo si la primera cadena va después de la segunda.
+
+**Sintaxis**
+
+```sql
+{%= compareTo(string1, string2) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `string1` | Primera cadena que comparar. |
+| `string2` | Segunda cadena para comparar. |
+
+**Ejemplo**
+
+```sql
+{%= compareTo("apple", "banana") %}
+```

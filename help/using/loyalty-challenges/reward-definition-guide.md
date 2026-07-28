@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 3%
@@ -475,3 +475,4 @@ Para desarrollar y probar una expresión antes de publicarla, use [JSONata Exerc
 | `task.accumulators.item_list[-1]` es nulo | No se aplicó ningún artículo antes de la recompensa emitida (evento sin compra) | Protéjase con un condicional o use `timestamp` del contexto en su lugar |
 | Se accedió a `milestone` cuando el origen es `"task"` o `"challenge"` | `milestone` es nulo; la expresión emite o produce campos nulos | Compruebe `rewardContext.source` antes de acceder a `milestone` o use `milestone` solamente en las definiciones adjuntas a las recompensas de hito |
 | La expresión devuelve una matriz en lugar de un objeto | El proveedor recibe una estructura de carga útil inesperada | Agrupar expresiones que devuelven matrices en un objeto externo: `{ "items": [...] }` |
+

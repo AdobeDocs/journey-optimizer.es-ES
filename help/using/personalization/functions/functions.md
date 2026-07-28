@@ -6,13 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2758
 ht-degree: 2%
 
 ---
@@ -156,6 +154,9 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Diferencia de fechas</a></td><td>Esta función recupera la diferencia entre dos fechas en número de días.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-between">Fecha entre</a></td><td>Esta función comprueba si una fecha determinada se encuentra entre una fecha de inicio y una fecha de finalización, ambas incluidas.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">Día del mes</a></td><td>Esta función devuelve el número que representa el día del mes.</td>
@@ -302,10 +303,16 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
         <td><a href="string.md#char-code-at">Código Char en</a></td><td>Esta función devuelve el valor ASCII de un carácter, como la función charCodeAt de JavaScript</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>Esta función se utiliza para combinar dos cadenas en una</td>
+        <td><a href="string.md#concate">Concat</a></td><td>Esta función concatena dos o más cadenas en una.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#append-query-params">Anexar parámetros de consulta</a></td><td>Esta función anexa o sustituye un parámetro de consulta en una dirección URL.</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">Contiene</a></td><td>Esta función se utiliza para determinar si una cadena contiene una subcadena especificada</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#decode64">Descodificar 64</a></td><td>Esta función descodifica una cadena codificada en Base64.</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">No contiene</a></td><td>Esta función se utiliza para determinar si una cadena no contiene una subcadena especificada</td>
@@ -330,6 +337,9 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
         <td><a href="string.md#equalsIgnoreCase">Ignorar mayúsculas y minúsculas</a></td><td>Esta función se utiliza para determinar si una cadena no comienza con una subcadena especificada, sin distinción de mayúsculas y minúsculas</td>
     </tr>
     <tr>
+        <td><a href="string.md#equals-any-ignore-case">Es igual a cualquier omisión de mayúsculas</a></td><td>Esta función comprueba si una cadena es igual a cualquiera de los valores de comparación proporcionados, ignorando las mayúsculas y minúsculas.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#extractEmailDomain">Extraer dominio de correo electrónico</a></td><td>Esta función se utiliza para extraer el dominio de una dirección de correo electrónico</td>
     </tr>
     <tr>
@@ -345,6 +355,9 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
         <td><a href="string.md#get-url-protocol">Obtener protocolo de URL</a></td><td>Esta función se utiliza para obtener el protocolo de la URL.</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-fragment">Obtener fragmento de URL</a></td><td>Esta función se utiliza para obtener el fragmento de la URL</td>
+    </tr>
+    <tr>
         <td><a href="string.md#index-of">Índice De</a></td><td>Esta función devuelve la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia</td>
     </tr>
     <tr>
@@ -352,6 +365,9 @@ Las funciones se organizan en tres categorías para facilitar la navegación:
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>Esta función devuelve true si la cadena del parámetro no está vacía.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#join">Unirse</a></td><td>Esta función concatena elementos de matriz en una sola cadena utilizando un separador.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Último Índice De</a></td><td>Esta función devuelve la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.</td>
@@ -453,6 +469,9 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#default">Valor de reserva predeterminado</a></td><td>Esta función se utiliza para procesar una variable de forma predeterminada</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#abort">Anular</a></td><td>Este asistente detiene el envío del mensaje cuando se invoca durante el procesamiento (disponibilidad limitada)</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#each">Cada</a></td><td>Esta función se utiliza para repetir una matriz</td>
     </tr>
     <tr>
@@ -468,10 +487,16 @@ Los ayudantes se encuentran detallados en [esta página](helpers.md).
         <td><a href="helpers.md#let">Let</a></td><td>Esta función permite almacenar una expresión como variable para utilizarla posteriormente en una consulta</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#parse-json">Analizar JSON</a></td><td>Este asistente analiza una cadena JSON y almacena el objeto analizado en una variable de plantilla</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>Esta función se utiliza para definir un bloque condicional: si la evaluación de la expresión devuelve false, se procesa el bloque</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">Cifrar</a></td><td>Cifra los valores de expresión de los parámetros de consulta de URL en el momento del procesamiento mediante una clave activa del registro de zona protegida </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#value-at-path">Valor en ruta</a></td><td>Este asistente asigna un valor de una ruta de datos a una variable de plantilla, con indexación de matriz opcional</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-function">Url</a></td><td>Esta función administra las direcciones URL en el contenido del mensaje SMS; utilícelo con <code>originalUrl</code> para acortar la dirección URL y <code>type='DEEPLINK'</code> para insertar vínculos profundos</td>
@@ -542,8 +567,25 @@ Las funciones de comparación se utilizan para comparar entre diferentes expresi
     </tr>
 </table>
 
+
+### Funciones de migración de plantillas {#template-migration-functions}
+
+Las funciones de migración de plantillas están disponibles para ayudarle a migrar las plantillas existentes a Journey Optimizer.
+
+<table>
+    <tr>
+        <td><a href="operators.md#amp-compare">Comparar mediante el operador</a></td><td>Esta función compara dos valores utilizando el operador de comparación especificado</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#amp-substr">Rango de subcadenas</a></td><td>Esta función devuelve una parte de una cadena entre los índices de inicio y fin especificados</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#compare-to">Comparar con</a></td><td>Esta función compara dos cadenas lexicográficamente</td>
+    </tr>
+</table>
+
 ## Vídeo práctico{#video}
 
 Aprenda a transformar los valores de personalización mediante las funciones de ayuda de personalización y comprenda diferentes casos de uso de las funciones de ayuda.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416643?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
