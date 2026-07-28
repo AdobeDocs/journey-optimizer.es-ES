@@ -7,59 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 16%
+source-wordcount: 917
+ht-degree: 13%
 
 ---
 
 # Introducción a los desafíos de fidelidad {#get-started-loyalty-challenges}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-**[Introducción a los retos de fidelización](get-started.md)** ◀︎ **Ya está aquí**
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ## Información general {#overview}
 
@@ -67,6 +25,10 @@ ht-degree: 16%
 >id="ajo_loyalty_inventory"
 >title="Desafíos de lealtad"
 >abstract="Los desafíos de lealtad le permiten crear programas de lealtad atractivos e interactivos que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta participar en redes sociales y recomendar a amigos."
+
+>[!AVAILABILITY]
+>
+>* Actualmente, Journey Optimizer Loyalty no está disponible para los clientes de Healthcare Shield y Privacy and Security Shield. La disponibilidad de Healthcare Shield y de los clientes de Privacy and Security Shield se actualizará cuando estén preparados para funciones futuras.
 
 Los desafíos de lealtad le permiten crear programas de lealtad atractivos e interactivos que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta participar en redes sociales y recomendar a amigos.
 
@@ -96,21 +58,19 @@ Puede crear estos tipos de experiencias de desafío:
 
 ## Funcionamiento {#how-it-works}
 
-La creación y el lanzamiento de un desafío de fidelidad siguen este flujo de trabajo:
+El uso de Desafíos de fidelización implica tres fases amplias (configuración, ejecución y medición) que normalmente se comparten entre las funciones de administrador y profesional.
 
-1. **Crear un desafío**: elige el tipo de desafío (Estándar, Streak, Secuencial o Trae tus propios datos cuando estén disponibles). [Aprenda a elegir un tipo de desafío](create-challenges.md#create-the-challenge).
+**1. Configure su programa** *(administrador)*
 
-1. **Configurar opciones**: en la pestaña Configuración, defina los detalles del desafío, la audiencia, la programación, las reglas (opción de inclusión, seguimiento del progreso, límites de repetición) y los metadatos opcionales. [Más información acerca de la configuración de desafío](create-challenges.md#settings).
+Antes de poder crear desafíos, un administrador configura las bases del programa: proveedores de recompensas, definiciones de eventos que asignan acciones del cliente a finalizaciones de tareas, inventario de productos y listas de exclusión. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md).
 
-1. **Agregar tareas y recompensas**: en la pestaña Estructura, defina tareas y recompensas (no es necesario para Traer sus propios desafíos de datos).
+**2. Autor y desafíos de inicio** *(profesional)*
 
-1. **Diseñar tarjetas de contenido**: cree la representación visual de su desafío con tarjetas de contenido de Journey Optimizer que se muestran en los dispositivos del cliente.
+Los especialistas en marketing crean desafíos al seleccionar un tipo (Estándar, Estándar, Streak, Secuencial o Traer sus propios datos), configurar opciones (audiencia, programación, reglas) y definir tareas y recompensas. Opcionalmente, pueden superar el desafío en interfaces de cara al miembro con una **tarjeta de contenido** o una **experiencia basada en código**, y configurar notificaciones de canal para momentos clave en el ciclo de vida del desafío. Una vez configurado, publica el desafío, genera el recorrido generado automáticamente y lo publica para que el desafío se ponga en marcha. [Aprenda a crear desafíos](create-challenges.md).
 
-1. **Configurar mensajes** (opcional): configure mensajes multicanal (en la aplicación, correo electrónico, push) para las fases clave del ciclo vital: inicio, en curso y finalización.
+**3. Supervisar rendimiento** *(profesional/analista)*
 
-1. **Iniciar el desafío**: publique el desafío y genere un recorrido. Journey Optimizer crea automáticamente el recorrido para el desafío. Publique el recorrido generado automáticamente para que el desafío esté disponible para los clientes.
-
-Para obtener instrucciones detalladas paso a paso, consulte [Crear desafíos](create-challenges.md).
+Una vez que un desafío está activo, los paneles integrados de creación de informes proporcionan métricas de nivel de desafío: rendimiento de funnel de audiencia, tasas de finalización de tareas, emisión de recompensas e impacto en los ingresos. El motor de perspectivas con tecnología de IA también muestra recomendaciones contextuales para ayudar a optimizar el rendimiento del programa. [Más información acerca de los informes de lealtad](loyalty-reporting.md).
 
 ## Requisitos previos {#prerequisites}
 
@@ -118,28 +78,9 @@ Antes de usar Desafíos de fidelización, asegúrese de lo siguiente:
 
 +++Permisos necesarios
 
-Para utilizar Desafíos de fidelización, necesita los permisos adecuados en Journey Optimizer y Adobe Experience Platform.
+Para utilizar Retos de fidelización, se le debe asignar una función de fidelización. Las funciones predeterminadas están disponibles para administradores, profesionales y analistas en la zona protegida de producción. Para los entornos limitados que no son de producción, el administrador debe crear una función personalizada con los permisos de Fidelidad necesarios.
 
-**Journey Optimizer:**
-
-* `journeys.read`
-* `journeys.write`
-* `journeys.delete`
-* `journeys.publish`
-* `journeys_events.read`
-* `journeys_events.write`
-* `journeys_events.delete`
-* `journeys_report.read`
-* `messages.read`
-* `messages_report.read`
-
-**Adobe Experience Platform:**
-
-* `segments.read`
-* `profiles.read`
-* `identity_namespace.read`
-
-Póngase en contacto con el administrador si no puede acceder a la función o necesita permisos adicionales.
+Póngase en contacto con el administrador si no puede acceder a la función o necesita permisos adicionales. [Aprenda a configurar los permisos de los retos de fidelidad](loyalty-permissions.md).
 
 +++
 
@@ -214,7 +155,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>

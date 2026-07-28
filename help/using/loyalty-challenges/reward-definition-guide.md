@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad en [!DNL Journey Optimizer], consulte [ciclo de lanzamiento](../rn/releases.md).
 
 Cuando una tarea, hito o desafío de desafío completa **y tiene configurado un valor de recompensa**, la plataforma emite un incentivo llamando al extremo HTTP del proveedor de recompensas con una carga útil JSON. Una **definición de recompensa** describe qué recompensa emitir y proporciona una expresión [JSONata](https://docs.jsonata.org/overview) — `rewardJsonata` — que define la carga útil exacta que espera su proveedor.
 

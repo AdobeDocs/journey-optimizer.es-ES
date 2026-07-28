@@ -7,58 +7,28 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 9%
+source-wordcount: '2584'
+ht-degree: 8%
 
 ---
 
+
 # Crear desafíos {#create-challenges}
 
->[!BEGINSHADEBOX]
+Esta página cubre el proceso completo de creación y publicación de un desafío de fidelidad en Adobe Journey Optimizer.
 
-**Tabla de contenido**
+La creación de un desafío implica los siguientes pasos:
 
-[Introducción a los retos de fidelización](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* **Crear desafíos** ◀︎ **Usted está aquí**
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
-
-Esta página cubre el proceso completo de creación de un desafío de fidelidad, desde la selección del tipo de desafío y la configuración de la configuración, estructura, contenido y mensajería hasta la generación y publicación del recorrido que ofrece el desafío a sus clientes.
+1. **[Crear el desafío](#create-the-challenge)**: seleccione un tipo de desafío y abra el editor de desafíos.
+1. **[Configurar opciones](#settings)**: defina el nombre del desafío, la audiencia, la programación, las reglas de inclusión y los límites de repetición.
+1. **[Configurar estructura](#structure)** — Agregar tareas y recompensas (no aplicable para Traer sus propios desafíos de datos).
+1. **[Configurar contenido](#configure-content-cards)** *(opcional)*: defina cómo aparecerán los miembros el desafío mediante una tarjeta de contenido o una experiencia basada en código.
+1. **[Configurar mensajes](#configure-messaging)** *(opcional)*: configure mensajes de canal para las fases de inicio, en curso y finalización.
+1. **[Publicar el desafío](#launch)**: haga que el desafío esté disponible para la generación de recorridos.
+1. **[Genera y publica el recorrido](#launch)**: Déclencheur el recorrido generado automáticamente que entrega el desafío a los clientes.
 
 La creación de un desafío implica los siguientes pasos:
 
@@ -72,7 +42,7 @@ La creación de un desafío implica los siguientes pasos:
 
 ## Creación del desafío {#create-the-challenge}
 
-1. Vaya a **[!UICONTROL Desafíos de fidelidad (Beta)]** en Journey Optimizer.
+1. Vaya a **[!UICONTROL Desafíos de fidelización]** en Journey Optimizer.
 
 1. Seleccione la ficha **[!UICONTROL Desafíos]** y seleccione **[!UICONTROL Crear desafío]**.
 

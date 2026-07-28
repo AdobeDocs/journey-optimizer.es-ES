@@ -7,60 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1755
 ht-degree: 15%
 
 ---
 
 # Configuración de desafíos de lealtad {#loyalty-admin}
-
-<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-[Introducción a los retos de fidelización](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* **Configurar desafíos de lealtad** ◀︎ **Usted está aquí**
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad en [!DNL Journey Optimizer], consulte [ciclo de lanzamiento](../rn/releases.md).
 
 ## Información general {#access-loyalty-admin}
 
@@ -305,7 +262,7 @@ Para cargar exclusiones, siga estos pasos:
 
    ![](assets/admin-exclusions-upload.png)
 
-1. Revise los datos importados en la lista de exclusiones. La lista muestra una fila por elemento. La columna **[!UICONTROL Grupos incluidos en]** muestra todos los grupos de exclusión de ese artículo en forma de píldora o de varias píldoras cuando el artículo pertenece a varios grupos.
+1. Revise los datos importados en la lista de exclusiones. La lista muestra una fila por elemento. Los **[!UICONTROL grupos incluidos en la columna]** tienen todos los grupos de exclusión de ese artículo en forma de píldora o de varias píldoras cuando el artículo pertenece a varios grupos.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

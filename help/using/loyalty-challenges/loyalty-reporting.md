@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # Monitorización del rendimiento del desafío de fidelidad {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-[Introducción a los retos de fidelización](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* **Supervisar el rendimiento del desafío de lealtad** ◀︎ **Usted está aquí**
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
-
 Utilice los informes Retos de fidelización para ver el rendimiento de los desafíos. Compruebe quién se inscribe, quién completa los desafíos y cuántos ingresos genera su programa, todo en un solo lugar. Los datos proceden de Adobe Customer Journey Analytics.
 
-Para abrir los paneles de informes, vaya a **[!UICONTROL Desafíos de fidelización (Beta)]** en Journey Optimizer y seleccione **[!UICONTROL Informes de fidelización]** en el panel de navegación izquierdo.
+Para abrir los paneles de informes, vaya a **[!UICONTROL Desafíos de fidelización]** en Journey Optimizer y seleccione **[!UICONTROL Informes de fidelización]** en el panel de navegación izquierdo.
 
 La interfaz de informes tiene dos pestañas:
 
