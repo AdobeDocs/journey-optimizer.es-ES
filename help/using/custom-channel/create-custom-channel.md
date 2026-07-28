@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
 
 
 # Configuración de un canal personalizado {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear un canal personalizado en Adobe Journey Optimizer mediante el Generador de canales, definiendo la dirección URL del extremo, los encabezados, la autenticación, la directiva de restricción y la estructura de carga útil del mensaje.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ Para crear un nuevo canal personalizado, siga los pasos a continuación.
 
 Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensajería externo. [!DNL Journey Optimizer] envía una petición POST a este extremo con la carga útil personalizada cuando un perfil cumple los requisitos de una campaña o recorrido.
 
-![Configuración del extremo](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![Configuración del extremo](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. En la sección **[!UICONTROL Configuración de extremo]**, escriba la **[!UICONTROL URL]** de host de su sistema de mensajería externo.
+1. En la sección **[!UICONTROL Configuración de extremo]**, escriba la **[!UICONTROL URL]** de host de su sistema de mensajería externo. Por ejemplo: `https://api.my-messaging-provider.com/v1/messages`.
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png)
+   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    Para cada encabezado, puede definir si su valor es:
 
@@ -135,7 +141,7 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
 Seleccione el **[!UICONTROL tipo de autenticación]** que necesita usar para este canal. Las opciones disponibles dependen de los métodos de autenticación admitidos por el sistema de mensajería externo.
 
-![Tipo de autenticación](assets/custom_channel_authentication_type.png){width="70%"}
+![Tipo de autenticación](assets/custom_channel_authentication_type.png){width="85%"}
 
 Proporcione los detalles de autenticación según lo requiera el punto de conexión.
 
@@ -165,7 +171,17 @@ En la configuración de carga útil, defina la estructura de la carga útil del 
 
 1. Haga clic en **[!UICONTROL Definir carga útil]** y elija cómo definir la carga útil:
 
-   * **[!UICONTROL Pegar carga útil JSON de muestra]**: pegue un objeto JSON representativo y [!DNL Journey Optimizer] infiere automáticamente un esquema de él.
+   * **[!UICONTROL Pegar carga útil JSON de muestra]**: pegue un objeto JSON representativo y [!DNL Journey Optimizer] infiere automáticamente un esquema de él. Por ejemplo:
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL Importar esquema JSON]** (próximamente): cargue un archivo de esquema JSON completo.
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ En la configuración de carga útil, defina la estructura de la carga útil del 
 
 1. Una vez generado el esquema, [!DNL Journey Optimizer] muestra todos los campos detectados en una vista de formulario.
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![Configuración de carga útil](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. Para cada campo, configure las siguientes opciones:
 

@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
 workflow-type: tm+mt
-source-wordcount: 2363
-ht-degree: 16%
+source-wordcount: 2475
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,18 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 
 1. El campo **Etiquetas** le permite asignar etiquetas unificadas de Adobe Experience Platform a los elementos de decisión. Esto le permite clasificarlos fácilmente y mejorar la búsqueda. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
 
+1. Si lo desea, puede especificar atributos personalizados. Son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión, definidos en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
+
+   Puede ordenar los atributos personalizados haciendo clic en los encabezados de columna y buscando un atributo específico mediante el campo de búsqueda.
+
+   ![Pantalla de creación de elementos de decisión con la sección de atributos personalizados](assets/item-custom-attributes.png){width="80%"}
+
+1. Para cualquier atributo personalizado definido con el tipo **[!UICONTROL Decisioning Content]** en el esquema del catálogo, haga clic en el icono del editor de personalización situado junto al campo para abrir el editor de expresiones, donde puede escribir código y agregar referencias de atributos mediante la sintaxis del controlador (por ejemplo, `{{profile.person.name.firstName}}`).
+
+   Esto le permite definir un valor evaluado en el momento de la entrega mediante datos de perfil, contexto, recorrido y audiencia, y permite que un solo elemento de decisión ofrezca contenido personalizado a diferentes perfiles sin duplicaciones. [Más información sobre cómo agregar personalización](../personalization/personalization-build-expressions.md)
+
+   ![Pantalla de creación de elementos de decisión con icono del editor de personalización](assets/item-custom-attribute-personalization.png){width="80%"}
+
 1. Añada fragmentos al elemento de decisión para enriquecer su contenido. Se admiten dos tipos de fragmentos:
 
    * **Fragmentos de contenido de Journey Optimizer**: utilice fragmentos de expresiones reutilizables creados en Journey Optimizer para mostrar contenido diferente en función del contexto, por ejemplo, en varios modelos de dispositivos móviles. Puede aprovechar estos fragmentos en las políticas de decisión en todos los canales donde Decisioning está disponible (experiencia basada en código, correo electrónico, push, SMS y recorridos). [Descubra cómo](fragments-decision-policies.md#ajo-fragments)
@@ -82,8 +94,6 @@ Comience por definir los atributos estándar y personalizados del elemento de de
      >Esta función está disponible para canales compatibles con Decisioning.
 
      Para conocer los requisitos previos y las protecciones, consulte [Usar fragmentos de contenido de AEM con Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
-
-1. Especifique atributos personalizados (opcional). Los atributos personalizados son atributos específicos adaptados a sus necesidades que puede asignar a un elemento de decisión. Se definen en el esquema de catálogo de los elementos de decisión. [Aprenda a trabajar con catálogos](catalogs.md)
 
 1. Una vez definidos los atributos del elemento de decisión, haga clic en **[!UICONTROL Siguiente]**.
 

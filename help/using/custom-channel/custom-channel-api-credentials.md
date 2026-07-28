@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 
 # Administrar credenciales de API {#api-credentials}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a ver, administrar y crear conjuntos de credenciales de API para canales personalizados en Adobe Journey Optimizer, de modo que pueda autenticar solicitudes en su extremo en diferentes marcas o entornos sin duplicar el canal.
+
+>[!ENDSHADEBOX]
 
 Cuando se crea un canal personalizado con un tipo de autenticación distinto de **None**, se genera automáticamente un conjunto inicial de credenciales de API cuando se activa el canal.
 

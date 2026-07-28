@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
+source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
 workflow-type: tm+mt
-source-wordcount: '3477'
+source-wordcount: '3473'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
     + [Trabajar con eventos de pasos del recorrido](using/reports/journey-step-events-overview.md)
     + [Administración de husos horarios](using/building-journeys/timezone-management.md)
     + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
+    + [Optimización de canal](using/building-journeys/channel-optimization.md)
     + [Termine el recorrido](using/building-journeys/end-journey.md)
   + Actividades {#about-journey-building}
     + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -115,7 +116,6 @@ ht-degree: 95%
     + [Expresiones de compilación](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [Trabajo con el editor de expresiones avanzado](using/building-journeys/expression/expressionadvanced.md)
     + [Generación de expresiones con IA](using/building-journeys/expression/generate-expression.md)
-    + {hide-from-toc}[Generar expresiones con el Asistente para expresiones](using/building-journeys/expression/expression-agent.md)
     + Sintaxis {#syntax}
       + [Sintaxis](/help/rp_landing_pages/syntax-landing-page.md)
       + [Sintaxis avanzada del editor de expresiones](using/building-journeys/expression/generalities.md)
