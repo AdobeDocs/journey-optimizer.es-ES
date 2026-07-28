@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
 source-wordcount: 917
@@ -155,7 +156,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
