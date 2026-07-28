@@ -9,19 +9,11 @@ role: User
 level: Intermediate
 keywords: canal, optimización, preferencia, tendencia, IA, saliente, correo electrónico, push, mensaje móvil
 badge: label="Disponibilidad limitada" type="Informative"
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
 workflow-type: tm+mt
 source-wordcount: 1219
@@ -123,7 +115,7 @@ Una vez seleccionada una acción saliente en la ficha **[!UICONTROL Acciones]**,
 >[!CONTEXTUALHELP]
 >id="ajo_channel_optimization_method"
 >title="Definición del funcionamiento de la selección de canales"
->abstract="Elija la forma en que Journey Optimizer selecciona el mejor canal para cada cliente: **Prioridad manual**: los canales se prueban en el orden definido. La disponibilidad se determina aplicando las preferencias de suscripción y las reglas de consentimiento de marketing asociadas con las configuraciones de canal seleccionadas y todas las reglas empresariales (por ejemplo, límite de frecuencia de canal) asociadas con la campaña o el recorrido. **Atributo de perfil del cliente**: el canal que coincide con la preferencia declarada del cliente en su perfil se selecciona primero. Si no se encuentra ninguna preferencia, se aplica la prioridad manual. **Optimizado para IA**: un modelo de aprendizaje automático puntúa cada canal según la participación histórica del cliente, y se selecciona el canal disponible con mayor puntuación."
+>abstract="Elija la forma en que Journey Optimizer selecciona el mejor canal para cada cliente: **Prioridad manual**: los canales se prueban en el orden definido. La disponibilidad se determina aplicando las preferencias de suscripción y las reglas de consentimiento de marketing asociadas con las configuraciones de canal seleccionadas y todas las reglas empresariales (por ejemplo, límite de frecuencia de canal) asociadas con la campaña o el recorrido. **Atributo de perfil del cliente**: el canal que coincide con la preferencia declarada del cliente en su perfil se selecciona primero. Si no se encuentra ninguna preferencia, se aplica la prioridad manual. **Optimizado para IA**: un modelo de aprendizaje automático puntúa cada canal según la participación histórica del cliente, y se selecciona el canal disponible con mayor puntuación.
 
 <!--
 Previous content for contextual help: "The customer's first available channel, based on the selected prioritization method, is used for this action. Availability is determined by the customer's subscription preferences and marketing consent rules for the selected channel configurations, as well as any business rules — such as frequency capping — configured for the campaign or journey." TBC which to keep.
@@ -176,7 +168,7 @@ En los modos **[!UICONTROL Prioridad manual]** y **[!UICONTROL Atributo de perfi
 
 Descubra cómo la función de optimización de canales de Adobe Journey Optimizer le ayuda a llegar a los clientes en el canal más eficaz mediante el uso manual de prioridad, atributos de perfil o el modelo de IA de Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492135?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
 
 <!--
 **Related topics**
