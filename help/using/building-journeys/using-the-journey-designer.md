@@ -11,30 +11,15 @@ keywords: diseño, lienzo, recorrido, interfaz, arrastrar, soltar
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -98,12 +83,13 @@ Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, di
 ![](assets/journey-new-canvas.png)
 
 Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Una vez cambiado, este ajuste se guarda en el nivel de recorrido, por lo que el recorrido se abrirá en la nueva experiencia de forma predeterminada en las visitas posteriores. Para volver, haz clic en el botón **[!UICONTROL Experiencia antigua]**.
+Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda en el nivel de usuario. En adelante, esta preferencia se aplicará automáticamente cada vez que cree un nuevo recorrido, por lo que no tendrá que cambiar manualmente cada vez.
 
 ![](assets/journey-new-experience-switch.png)
 
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3496193)
 
 ## Inicie el recorrido {#start-your-journey}
 
