@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -59,6 +58,8 @@ Puede crear estos tipos de experiencias de desafío:
 
 >[!TIP]
 >También puede crear y administrar desafíos de fidelidad mediante la **administración de desafíos de fidelidad** en [Habilidades de Recorrido de compañeros de CX](../start/ajo-coworker-skills.md#loyalty-challenge-management) con indicaciones de lenguaje natural para crear desafíos más rápido.
+
+➡️ [Vea una descripción general de la característica](#video)
 
 ## Funcionamiento {#how-it-works}
 
@@ -159,7 +160,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -172,4 +173,10 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
 ## Referencia de la API {#api-reference}
 
 Para administrar los desafíos de fidelidad mediante programación, usa la [API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. La API permite crear, actualizar y administrar desafíos y tareas a través de puntos de conexión REST.
+
+## Vídeo práctico {#video}
+
+**¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
