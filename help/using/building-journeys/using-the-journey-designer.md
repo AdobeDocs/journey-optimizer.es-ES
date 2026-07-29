@@ -104,7 +104,7 @@ Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda
 
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
 ## Inicie el recorrido {#start-your-journey}
 
