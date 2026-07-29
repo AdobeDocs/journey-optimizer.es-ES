@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1246
 ht-degree: 5%
 
 ---
@@ -74,6 +74,10 @@ Antes de ejecutar una migración, asegúrese de que la zona protegida de Target 
 * **Flujo de datos** - Decida si la migración debe crear un flujo de datos (`createDataStream`).
 
 Para obtener más información sobre la administración de zonas protegidas, consulte [Usar y asignar zonas protegidas](../administration/sandboxes.md).
+
+>[!NOTE]
+>
+>La zona protegida de destino puede ser la misma que la de origen. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro del mismo entorno limitado o a uno diferente.
 
 ## Conceptos básicos de la API {#api-basics}
 

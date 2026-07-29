@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 8%
+source-wordcount: '2860'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ## Información general {#overview}
 
-CX Coworker incorpora funciones con tecnología de IA a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} es el asistente de IA conversacional de Adobe que se integra con las aplicaciones de tu empresa para ayudarte a trabajar de manera más eficiente.
+CX Coworker incorpora funciones con tecnología de IA a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} es la experiencia de conversación de Adobe que se integra con las aplicaciones de tu empresa para ayudarte a trabajar de manera más eficiente.
 
 Gracias a sus conocimientos con tecnología de IA, CX Coworker permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o audiencia, analizar el rendimiento y los puntos de entrega e identificar recorridos de alto rendimiento para replicarlos en campañas futuras. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
@@ -57,15 +57,15 @@ Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar r
 
 >[!AVAILABILITY]
 >
->Recorrido Crear está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer. También necesitará los siguientes permisos para utilizar completamente las funciones de creación de Recorridos:
+>Necesita los siguientes permisos para utilizar completamente las funciones de creación de Recorrido:
 >
->**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en el Asistente para IA.
+>**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en CX Coworker.
 >
->**Ver eventos de Recorrido, fuentes de datos y acciones**: este permiso garantiza que el Ayudante de IA pueda buscar mediante eventos de Recorrido y acciones personalizadas.
+>**Ver eventos, fuentes de datos y acciones de Recorrido**: este permiso garantiza que CX Coworker pueda buscar a través de eventos de Recorrido y acciones personalizadas.
 >
->**Ver segmentos**: Este permiso garantiza que el Asistente de IA pueda buscar segmentos de audiencia al crear un Recorrido.
+>**Ver segmentos**: Este permiso garantiza que CX Coworker pueda buscar segmentos de audiencia al crear un Recorrido.
 >
->**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en el Asistente de IA.
+>**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
 
 ### Casos de uso clave
 
@@ -294,19 +294,17 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
-
 >[!AVAILABILITY]
 >
->Las habilidades de recorrido están disponibles para todos los clientes que tienen acceso al asistente de IA. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Aptitudes de Recorrido:
+>Las habilidades de recorrido están disponibles para todos los clientes que tienen acceso a CX Coworker. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Aptitudes de Recorrido:
 >
->**Ver Recorridos**: este permiso le permite ver información sobre el recorrido directamente en el Ayudante de IA.
+>**Ver Recorridos**: Este permiso le permite ver información sobre el recorrido directamente en CX Coworker.
 >
->**Administrar Recorridos**: El permiso Para permite crear nuevos recorridos directamente en el Asistente de IA.
+>**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en CX Coworker.
 >
->**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en el Asistente de IA.
+>**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en CX Coworker.
 >
->**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en el Asistente de IA.
+>**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
 
 ### Casos de uso clave
 
@@ -364,8 +362,8 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
 El análisis de Recorrido admite las siguientes funciones:
 
 * **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
-* **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para un análisis más profundo.
-* **Estructura de la respuesta del agente**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
+* **Integración con otras habilidades**: colabora con las capacidades de Audience y Data Insights para realizar un análisis más profundo.
+* **Estructura de la respuesta**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
 
 ### Aptitudes fuera de ámbito
 
@@ -383,7 +381,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas recomendadas:
 
 1. **Sea específico**: utilice preguntas claras y concisas para obtener información específica. Por ejemplo, en lugar de preguntar &quot;¿Cuáles son mis recorridos?&quot;, especifique &quot;Enumerar todos los recorridos creados en el último mes&quot;.
-1. **Combine información**: integre la información de Audience Agent y Data Insights Agent para obtener una visión integral del rendimiento del recorrido.
+1. **Combinar información**: integre información de las capacidades de Audience y Data Insights para obtener una vista integral del rendimiento del recorrido.
 1. **Perfeccionamiento iterativo**: utilice el análisis de abandonos y solapamientos para perfeccionar de forma iterativa el diseño y la programación de los recorridos.
 
 ### Prácticas recomendadas para la configuración

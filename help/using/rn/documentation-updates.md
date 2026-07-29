@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 9638
+source-wordcount: 9688
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* La documentación de **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro del mismo entorno limitado o a uno diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
 * Ya está disponible la nueva página **CX Coworker Skills**. Proporciona documentación completa de todas las aptitudes de Recorrido disponibles en Journey Optimizer, incluidas la creación de Recorridos, la creación de contenido de canal, la administración de retos de fidelidad y el análisis de Recorrido, con casos de uso, mensajes de muestra y prácticas recomendadas para cada aptitud. [Más información](../start/ajo-coworker-skills.md)
 

@@ -15,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 909
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 # Migrar audiencias por lotes desde recorridos de calificación de audiencias {#aq-batch-migration}
 
-A partir de agosto de 2026, Journey Optimizer bloqueará la publicación de recorridos que utilicen una audiencia por lotes en un nodo de calificación de audiencias. Identifique el caso de uso que se muestra a continuación y siga la ruta de migración recomendada.
+A partir de septiembre de 2026, Journey Optimizer bloqueará la publicación de recorridos que utilicen una audiencia por lotes en un nodo de Calificación de audiencias o en Criterios de salida. Identifique el caso de uso que se muestra a continuación y siga la ruta de migración recomendada.
 
 >[!CAUTION]
 >
->**Fecha de aplicación: agosto de 2026.** Los recorridos nuevos, borradores y duplicados que utilizan una audiencia por lotes en un nodo de Calificación de audiencias no se pueden publicar después de esta fecha. Ya aparece una advertencia de validación en el lienzo de recorrido desde la versión de junio de 2026.
+>**Fecha de aplicación: septiembre de 2026.** Los recorridos nuevos, borradores y duplicados que utilizan una audiencia por lotes en un nodo de Calificación de audiencias o en Criterios de salida no se pueden publicar después de esta fecha. Ya aparece una advertencia de validación en el lienzo de recorrido desde la versión de junio de 2026.
 
 ## Por qué este cambio {#why}
 
@@ -39,12 +39,14 @@ Cuando se utiliza una audiencia por lotes con un nodo de calificación de audien
 
 La actividad **[Leer audiencia](read-audience.md)** es la herramienta correcta para los casos de uso por lotes: está diseñada para gestionar el procesamiento por lotes programado de una manera controlada y predecible.
 
+**[Los criterios de salida](journey-properties.md#exit-criteria)** dependen del mismo mecanismo de **[!UICONTROL calificación de audiencias]** que el nodo de entrada, por lo que están sujetos a las mismas limitaciones. En adelante, use una audiencia de flujo continuo al configurar **[!UICONTROL criterios de salida]**.
+
 ## Cómo se ven afectados sus recorridos {#impact}
 
-Un recorrido en directo que utiliza una audiencia por lotes en un nodo de Calificación de audiencias seguirá ejecutándose después de agosto de 2026. Sin embargo, si detiene, duplica o vuelve a publicar el recorrido, se bloqueará hasta que se actualice la configuración.
+Un recorrido en directo que utiliza una audiencia por lotes en un nodo de calificación de audiencias o criterio de salida sigue ejecutándose después de septiembre de 2026. Sin embargo, si detiene, duplica o vuelve a publicar el recorrido, se bloqueará hasta que se actualice la configuración.
 
 
-| Estado del recorrido | Impacto después de agosto de 2026 |
+| Estado del recorrido | Impacto después de septiembre de 2026 |
 | --- | --- |
 | **recorridos en vivo** | No se vio afectado. Los recorridos activos existentes siguen ejecutándose. Sin detención automática. |
 | **Nuevos recorridos** | Bloqueado desde la publicación hasta que se sustituya la audiencia por lotes. |

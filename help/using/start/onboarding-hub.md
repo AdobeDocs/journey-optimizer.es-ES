@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: optimizador de recorrido, incorporación, centro de incorporación, casos de uso, vídeos, tutoriales, introducción, ampliación, primer recorrido
-source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
+source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -156,6 +156,7 @@ Para obtener una descripción general completa de cómo funcionan juntas estas f
 
 ## Recursos relacionados {#related-resources}
 
+<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
 * [Encuentre la capacidad de Journey Optimizer adecuada para su objetivo](ajo-use-case-guide.md): guía de decisión para cada capacidad basada en objetivos.
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación.
 * [Terminología clave](terminology.md): aclare los conceptos subyacentes a cada capacidad.

@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: e71668f881bbaac88b1a0980838ff27b3d9dfc76
 workflow-type: tm+mt
-source-wordcount: 2174
+source-wordcount: 2200
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 1. Abra [editor de personalización](personalization-build-expressions.md) y seleccione el botón **[!UICONTROL Fragmentos]** en el panel izquierdo.
 
    La lista muestra todos los fragmentos de expresiones que se han creado o guardado como fragmentos en la zona protegida actual. [Aprenda a crear fragmentos](../content-management/create-fragments.md)
-Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista.
+   Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -66,7 +66,11 @@ Se ordenan por fecha de creación: los fragmentos de expresión añadidos recien
    >
    >Si se han modificado o agregado fragmentos mientras edita el contenido, la lista se actualizará con los cambios más recientes.
 
-1. Haga clic en el icono + junto a un fragmento de expresión para insertar el ID de fragmento correspondiente en el editor.
+1. Coloque el cursor en la ubicación deseada en el contenido y, a continuación, haga clic en el icono + junto a un fragmento de expresión para insertar el ID de fragmento correspondiente en el editor.
+
+   >[!NOTE]
+   >
+   >También puede agregar fragmentos de expresiones a la sección `<head>` de un correo electrónico o plantilla de contenido.
 
    ![](assets/expression-fragment-add.png)
 

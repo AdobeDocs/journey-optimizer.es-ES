@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
 workflow-type: tm+mt
-source-wordcount: 2137
+source-wordcount: 2186
 ht-degree: 1%
 
 ---
@@ -99,6 +99,7 @@ Algunos nodos impiden que **[!UICONTROL Simulation]** se inicie. Otros se ejecut
 | Nodo restringido | Notas |
 | --- | --- |
 | Eventos empresariales | No se pueden ejecutar recorridos que comiencen con un evento empresarial en **[!UICONTROL Simulación]**. |
+| Canales de entrada | No se pueden ejecutar recorridos que incluyan un nodo de canal entrante en **[!UICONTROL Simulación]**. |
 | ID suplementario (reentrada múltiple) | **[!UICONTROL La simulación]** no se inicia cuando se habilita la reentrada múltiple y el mismo usuario simulado podría tener varias instancias activas a la vez. |
 | Nodo de decisión de contenido | Elimine o cambie esta actividad antes de simular el recorrido. |
 | Búsqueda de conjuntos de datos | **[!UICONTROL La simulación]** no admite búsquedas de conjuntos de datos de clientes por clave. Elimine o cambie esta actividad antes de ejecutar una simulación. |
@@ -150,6 +151,8 @@ Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas nu
 | Máximo de recorridos que se pueden ejecutar en **[!UICONTROL Simulation]** al mismo tiempo en una zona protegida | 20 | El límite lo comparten todos los recorridos de **[!UICONTROL Simulación]** en esa zona protegida a la vez. |
 | Máximo de usuarios simulados activos en una zona protegida | 2,000 | Máximo de usuarios simulados que pueden existir en la zona protegida al mismo tiempo. Adobe puede ajustar este límite en función de los comentarios de los clientes. |
 | Relleno previo de eventos (solo en el navegador) | — | Solo puede rellenar previamente los campos de carga útil de evento en la IU de simulación basada en el explorador. Los valores rellenados previamente permanecen en ese explorador y no se sincronizan con otros exploradores, dispositivos o sesiones, por lo que puede ver diferentes datos de rellenado previo en cada lugar que pruebe. |
+| Retención de usuarios simulada generada por IA | 10 días | Los usuarios simulados generados por IA se eliminan automáticamente 10 días después de su creación. |
+| Retención de usuarios simulada global | 12 meses | Los usuarios globales simulados se eliminan automáticamente 12 meses después de la creación. |
 
 +++
 

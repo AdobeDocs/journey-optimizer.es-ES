@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1136
-ht-degree: 13%
+source-wordcount: 1619
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ Estas son las acciones disponibles:
 
 * Desde el botón **[!UICONTROL Más acciones]** ubicado junto a cada elemento, puede:
 
-   * Si seleccionó la entidad **[!UICONTROL Elemento de decisión]**, agregue la regla a un paquete para exportarla a otra zona protegida. Obtenga información sobre cómo [exportar objetos a otra zona protegida](../configuration/copy-objects-to-sandbox.md).
-   * Duplique una regla.
-   * Eliminar una regla.
+  * Si seleccionó la entidad **[!UICONTROL Elemento de decisión]**, agregue la regla a un paquete para exportarla a otra zona protegida. Obtenga información sobre cómo [exportar objetos a otra zona protegida](../configuration/copy-objects-to-sandbox.md).
+  * Duplique una regla.
+  * Eliminar una regla.
 
 ![](assets/rules-list.png){width=100%}
 
@@ -105,14 +105,23 @@ Para crear una regla, siga estos pasos:
 
 1. Vaya a **[!UICONTROL Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Rules]** y, a continuación, haga clic en el botón **[!UICONTROL Crear regla]**.
 
-1. Seleccione la entidad de regla para especificar el tipo de objeto para el que se crea la regla.
+1. En el cuadro de diálogo **[!UICONTROL Crear regla]**, elija una de las siguientes fichas:
+
+   * **[!UICONTROL Cree desde cero]** para continuar en el flujo de creación de reglas.
+   * **[!UICONTROL Cree con IA]** para usar la creación asistida por IA. Describa la regla que desea crear y confirme. Se le redirigirá al generador de reglas y el Ayudante de IA generará una sugerencia de reglas en el panel derecho. Para obtener más información sobre cómo generar una regla con IA, consulte la sección [Generar una regla con IA](#build-rule-with-ai).
+
+     >[!NOTE]
+     >
+     >Esta funcionalidad está disponible para las organizaciones con acceso a las funcionalidades de Adobe AI.
+
+1. Si elige **[!UICONTROL Crear desde cero]**, seleccione la entidad de regla para especificar para qué tipo de objeto se crea la regla.
 
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Elemento de decisión]** - La regla se puede aplicar en un [elemento de decisión](#decision-rules) en el contexto de Decisioning;
    * **[!UICONTROL Segmentación]**: la regla se puede usar al generar reglas de [segmentación](#targeting-rules), ya sea como parte de [optimización de contenido](../building-journeys/path-targeting.md) en una campaña o un recorrido, ya sea en la [actividad Optimizar recorrido](../building-journeys/path-targeting.md).
 
-1. Si crea una regla de **[!UICONTROL elemento de decisión]**, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform a fin de enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real. [Aprenda a utilizar los datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
+   Si crea una regla de **[!UICONTROL elemento de decisión]**, puede seleccionar **[!UICONTROL Habilitar la búsqueda del conjunto de datos]** para usar datos de Adobe Experience Platform a fin de enriquecer la lógica de decisión con datos externos. Esto resulta especialmente útil para atributos que cambian con frecuencia, como la disponibilidad del producto o los precios en tiempo real. [Aprenda a utilizar los datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
 
 1. Se abre la pantalla de creación de reglas. Especifique un nombre para la regla y una descripción.
 
@@ -148,6 +157,68 @@ Para crear una regla, siga estos pasos:
 >Una cadena de regla puede tener un tamaño máximo de 15 KB para caracteres codificados en UTF-8. Esto equivale a 15 000 caracteres ASCII (1 byte cada uno) o a 3 750-7 500 caracteres no ASCII (2-4 bytes cada uno).
 >
 >[Más información sobre las limitaciones y protecciones de las reglas de elegibilidad](decisioning-guardrails.md#eligibility-rules)
+
+## Creación de una regla con IA {#build-rule-with-ai}
+
+>[!NOTE]
+>
+>Esta funcionalidad está disponible para las organizaciones con acceso a las funcionalidades de Adobe AI. Solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+>
+>En este momento, la generación de reglas asistida por IA no admite la generación de expresiones basadas en datos de contexto de Recorrido.
+
+Puede iniciar la creación de reglas asistidas por IA desde dos lugares:
+
+* En el cuadro de diálogo Crear regla, en la ficha **[!UICONTROL Crear con IA]**:
+
+  ![](assets/rule-ai-create.png){width=85%}
+
+* Desde el generador de reglas, usando el botón **[!UICONTROL Asistente de IA]**.
+
+  ![](assets/rule-ai-generate.png){width=85%}
+
+En el panel Asistente de IA, describa la regla que desea generar en lenguaje sencillo. El asistente de IA genera una sugerencia de regla, que puede aplicar al generador o descartar.
+
+![](assets/rule-ai-generate-prompt.png)
+
+>[!CAUTION]
+>
+>Al hacer clic en **[!UICONTROL Aplicar al generador]**, la regla generada por IA reemplaza cualquier lógica de regla existente creada actualmente en el lienzo del generador.
+
+## Simulación de la regla {#simulate-rules}
+
+Antes de utilizar una regla en la estrategia de toma de decisiones o campaña, puede probarla con datos de ejemplo o generados para validar la lógica de regla y asegurarse de que se comporta según lo esperado.
+
+1. Abra una regla existente o [cree una nueva](#create) y luego haga clic en el botón **[!UICONTROL Simular regla]**.
+
+   ![](assets/rule-simulate-button.png)
+
+
+1. La pantalla de simulación se abre con varias secciones:
+
+   ![](assets/rule-simulate-new.png)
+
+   * **Variantes de prueba**: donde se generan o crean variantes de prueba manuales
+   * **Expresión de regla**: muestra la definición de regla para referencia
+   * **Resultado de la simulación**: Muestra si el perfil será elegible para esta regla o no
+
+1. Añada variantes de prueba con los atributos requeridos por la regla mediante uno de los dos métodos siguientes:
+   * Para crear una muestra manual, seleccione el botón **[!UICONTROL Crear muestra]**.
+   * Para generar variantes de prueba mediante IA, haga clic en el botón **[!UICONTROL Generar]**.
+
+>[!NOTE]
+>
+>La generación de variantes de prueba basada en IA está disponible para las organizaciones con acceso a las funciones de Adobe AI.
+
+La sección Variantes de prueba se rellena automáticamente con las muestras creadas o generadas. Cada variante incluye atributos utilizados en la regla. Puede editar los valores de campo directamente para simular diferentes escenarios.
+
+Para ver los resultados de la evaluación de reglas, seleccione una variante de prueba en la lista. El área de resultados de simulación muestra si el perfil será apto para esta regla o no.
+
+En el ejemplo siguiente, la primera variante de prueba muestra un resultado de simulación **[!UICONTROL Pass]**, mientras que la segunda variante de prueba muestra un resultado **[!UICONTROL Failed]**.
+
+| Pasar ejemplo | Ejemplo fallido |
+| --- | --- |
+| ![](assets/rule-simulate-pass.png) | ![](assets/rule-simulate-fail.png) |
+| Los datos de variante cumplen todas las condiciones de regla, por lo que el perfil cumple los requisitos para la regla. | Una o más condiciones no se cumplen, por lo que el perfil no cumple los requisitos para la regla. |
 
 ## Optimización de reglas con tecnología de IA {#optimize}
 

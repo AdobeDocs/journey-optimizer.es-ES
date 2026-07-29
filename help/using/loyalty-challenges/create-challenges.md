@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 8%
 
 ---
@@ -30,15 +30,7 @@ La creación de un desafío implica los siguientes pasos:
 1. **[Publicar el desafío](#launch)**: haga que el desafío esté disponible para la generación de recorridos.
 1. **[Genera y publica el recorrido](#launch)**: Déclencheur el recorrido generado automáticamente que entrega el desafío a los clientes.
 
-La creación de un desafío implica los siguientes pasos:
-
-1. **[Crear el desafío](#create-the-challenge)**: seleccione un tipo de desafío y abra el editor de desafíos.
-1. **[Configurar opciones](#settings)**: defina el nombre del desafío, la audiencia, la programación, las reglas de inclusión y los límites de repetición.
-1. **[Configurar estructura](#structure)** — Agregar tareas y recompensas (no aplicable para Traer sus propios desafíos de datos).
-1. **[Configurar contenido](#configure-content-cards)** *(opcional)*: defina cómo aparecerán los miembros el desafío mediante una tarjeta de contenido o una experiencia basada en código.
-1. **[Configurar mensajes](#configure-messaging)** *(opcional)*: configure mensajes de canal para las fases de inicio, en curso y finalización.
-1. **[Publicar el desafío](#launch)**: haga que el desafío esté disponible para la generación de recorridos.
-1. **[Genera y publica el recorrido](#launch)**: Déclencheur el recorrido generado automáticamente que entrega el desafío a los clientes.
+➡️ [Mira cómo crear desafíos](#video)
 
 ## Creación del desafío {#create-the-challenge}
 
@@ -363,4 +355,16 @@ Tiene dos opciones para lanzar el desafío:
    ![](assets/challenge-create-journey.png)
 
 1. Una vez que el desafío esté activo, monitorice los KPI del programa, los resultados del desafío y las métricas de nivel de tarea en los [informes de desafío de lealtad](loyalty-reporting.md). También puede supervisar el envío de mensajes en el [informe de recorrido](../reports/journey-global-report-cja.md).
+
+## Vídeotutoriales {#video}
+
+Aprenda a crear y configurar desafíos de lealtad con estos tutoriales de vídeo paso a paso:
+
+**Configurar un desafío de fidelidad**: cree y configure un nuevo desafío de fidelidad
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+**Configurar recompensas** - Configurar entrega y cumplimiento de recompensas
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
