@@ -179,5 +179,5 @@ Para administrar los desafíos de fidelidad mediante programación, usa la [API 
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
 

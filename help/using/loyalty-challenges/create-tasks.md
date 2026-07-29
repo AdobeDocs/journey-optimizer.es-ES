@@ -170,5 +170,5 @@ Después de configurar todos los atributos y propiedades, seleccione **[!UICONTR
 
 Aprenda a crear y configurar tareas con este tutorial paso a paso:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496445?captions=spa&quality=12)
 
