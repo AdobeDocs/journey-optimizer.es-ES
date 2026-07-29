@@ -9,12 +9,11 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 930
+ht-degree: 12%
 
 ---
 
@@ -161,7 +160,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -171,13 +170,9 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
 </tr>
 </table>
 
-## Referencia de la API {#api-reference}
-
-Para administrar los desafíos de fidelidad mediante programación, usa la [API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. La API permite crear, actualizar y administrar desafíos y tareas a través de puntos de conexión REST.
-
 ## Vídeo práctico {#video}
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
