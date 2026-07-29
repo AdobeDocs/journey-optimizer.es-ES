@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
+source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3126
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Continúe con [Crear y administrar usuarios simulados](#test-users), [almacenar 
 
 Los usuarios simulados son entidades temporales similares a un perfil que usted define en **[!UICONTROL Configuración de simulación]**. En esta sección se explica cómo crearlos, guardarlos para reutilizarlos, ajustarlos o eliminarlos de la lista y enviarlos al recorrido.
 
+Si el recorrido utiliza una audiencia externa, por ejemplo una audiencia CSV o de Composición de audiencia federada, y las condiciones, expresiones o personalización dependen de atributos de enriquecimiento de la misma, puede burlar esos atributos en un usuario simulado al igual que los atributos de perfil. Esto permite dirigir al usuario a una rama específica en función del valor establecido, sin ejecutar la audiencia real.
+
 1. Comience por rellenar la lista **[!UICONTROL Usuarios de prueba]**:
 
    +++ Generación de usuarios con IA
@@ -125,6 +127,8 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    1. A continuación, seleccione los atributos del esquema de unión que desee rellenar para este usuario. Tenga en cuenta que solo están disponibles aquí los atributos utilizados en el recorrido actual, por ejemplo en expresiones o personalización.
 
+      Los atributos se agrupan por origen, en secciones independientes para los atributos de perfil y, si el recorrido lee una audiencia externa como una audiencia CSV o de Composición de audiencia federada, para los atributos de enriquecimiento de dicha audiencia.
+
    1. Haga clic en **[!UICONTROL Agregar pertenencia a audiencia]** para simular las pertenencias a segmentos.
 
    1. En la ventana **[!UICONTROL Crear usuarios simulados]**, haga clic en **[!UICONTROL Agregar usuario simulado]** para definir varios usuarios simulados en una sesión.
@@ -145,7 +149,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
    En **[!UICONTROL Crear usuarios simulados]**, edite la plantilla JSON para definir usuarios, luego haga clic en **[!UICONTROL Formato JSON]** y **[!UICONTROL Guardar]**.
 
-   Tenga en cuenta que **[!UICONTROL Crear a partir de JSON]** y **[!UICONTROL Actualizar a partir de JSON]** le proporcionan acceso a todos los atributos, independientemente de lo que utilice el recorrido actual.
+   Tenga en cuenta que **[!UICONTROL Crear a partir de JSON]** y **[!UICONTROL Actualizar a partir de JSON]** le proporcionan acceso a todos los atributos almacenados en el usuario simulado, incluidos los atributos de perfil y, si procede, los atributos de enriquecimiento de una audiencia externa como una audiencia CSV o de Composición de audiencias federadas.
 
    ![Crear editor JSON de usuarios simulados con plantilla de usuarios y formato de control JSON](assets/simulate-json.png)
 
@@ -204,7 +208,7 @@ Los usuarios simulados son entidades temporales similares a un perfil que usted 
 
 1. Cuando termine de probar, abra el menú **[!UICONTROL Administrar simulación]**:
 
-   * **[!UICONTROL Cierre la simulación]** para salir de la sesión de simulación actual.
+   * **[!UICONTROL Detener simulación]** para salir de la sesión de simulación actual.
    * **[!UICONTROL Restablecer simulación]** para borrar todos los datos de la ejecución actual, los usuarios simulados seleccionados, los valores de eventos definidos y otros ajustes de prueba, de modo que pueda iniciar una nueva simulación desde cero.
 
      ![Administrar menú de simulación abierto con las opciones Restablecer simulación y Cerrar simulación](assets/simulate-15.png)
@@ -247,10 +251,10 @@ Si el recorrido incluye uno o más eventos unitarios, puede almacenarlos en déc
 
 1. Cuando termine de probar, abra el menú **[!UICONTROL Administrar simulación]**:
 
-   * **[!UICONTROL Cierre la simulación]** para salir de la sesión de simulación actual.
+   * **[!UICONTROL Detener simulación]** para salir de la sesión de simulación actual.
    * **[!UICONTROL Restablecer simulación]** para borrar todos los datos de la ejecución actual, los usuarios simulados seleccionados, los valores de eventos definidos y otros ajustes de prueba, de modo que pueda iniciar una nueva simulación desde cero.
 
-     ![Administrar menú de simulación abierto con las opciones Restablecer simulación y Cerrar simulación](assets/simulate-15.png)
+     ![Administrar menú de simulación abierto con las opciones Restablecer simulación y Detener simulación](assets/simulate-15.png)
 
 ## Visualización de resultados {#viewing-results}
 
