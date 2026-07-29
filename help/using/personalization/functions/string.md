@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2122
 ht-degree: 6%
 
 ---
@@ -65,21 +65,23 @@ La siguiente función devuelve el valor ASCII o, es decir 111.
 
 ## Concat {#concate}
 
-La función `concat` combina dos cadenas en una.
+La función `concat` concatena dos o más cadenas y devuelve la cadena resultante.
 
 **Sintaxis**
 
 ```sql
-{%= concat(string,string) %}
+{%= concat(string1, string2, ...) %}
 ```
 
 **Ejemplo**
 
-La siguiente función combinará ciudad y país de perfil en una sola cadena.
+La siguiente función combina varias cadenas en un único valor.
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
+{%= concat("Hello", " ", "World") %}
 ```
+
+Devuelve &quot;Hello World&quot;.
 
 ## Contiene {#contains}
 
@@ -194,6 +196,28 @@ La función `encode64` se usa para codificar una cadena para conservar la inform
 {%= encode64(string) %}
 ```
 
+## Descodificar 64{#decode64}
+
+La función `decode64` descodifica una cadena codificada en Base64. Si la entrada no es Base64 válida, la cadena de entrada original se devuelve sin cambiar.
+
+**Sintaxis**
+
+```sql
+{%= decode64(string) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `string` | Cadena codificada en Base64 que se va a descodificar. |
+
+**Ejemplo**
+
+```sql
+{%= decode64("aGVsbG8=") %}
+```
+
+Esta expresión devuelve `hello`.
+
 ## Termina por{#endsWith}
 
 La función `endsWith` se usa para determinar si una cadena termina con una subcadena especificada.
@@ -264,6 +288,29 @@ La siguiente consulta determina, sin distinción entre mayúsculas y minúsculas
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
+
+## Es igual a cualquier omisión de mayúsculas {#equals-any-ignore-case}
+
+La función `equalsAnyIgnoreCase` comprueba si una cadena es igual a cualquiera de los valores de comparación proporcionados, omitiendo las diferencias en mayúsculas y minúsculas.
+
+**Sintaxis**
+
+```sql
+{%= equalsAnyIgnoreCase(string, string, ...) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `string` | Cadena de Source que comparar. |
+| `string, ...` | De una a diez cadenas de comparación. |
+
+**Ejemplo**
+
+```sql
+{%= equalsAnyIgnoreCase("Icon", "icon", "ambassador", "luminary") %}
+```
+
+Devuelve `true`.
 
 ## Extraer dominio de correo electrónico {#extractEmailDomain}
 
@@ -355,6 +402,48 @@ La función `getUrlProtocol` se usa para recuperar el protocolo de una direcció
 
 Devuelve &quot;http&quot;
 
+## Obtener fragmento de URL {#get-url-fragment}
+
+La función `getUrlFragment` se usa para recuperar la parte de fragmento de una dirección URL.
+
+**Sintaxis**
+
+```sql
+{%= getUrlFragment(string) %}: string
+```
+
+**Ejemplo**
+
+```sql
+{%= getUrlFragment("https://www.myurl.com/contact.html#faq") %}
+```
+
+Devuelve &quot;faq&quot;
+
+## Anexar parámetros de consulta {#append-query-params}
+
+La función `appendQueryParams` anexa o reemplaza un parámetro de consulta en una dirección URL e inserta el parámetro antes de cualquier fragmento.
+
+**Sintaxis**
+
+```sql
+{%= appendQueryParams(url, key, value) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `url` | URL que actualizar. |
+| `key` | Clave de parámetro de consulta para anexar o reemplazar. |
+| `value` | Valor del parámetro de consulta que se establecerá para la clave. |
+
+**Ejemplo**
+
+```sql
+{%= appendQueryParams("https://example.com/page", "utm_source", "email") %}
+```
+
+Devuelve `https://example.com/page?utm_source=email`.
+
 ## Índice De {#index-of}
 
 La función `indexOf` se usa para devolver la posición (en el primer argumento) de la primera aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
@@ -413,6 +502,29 @@ La siguiente función devuelve &quot;true&quot; si el número de teléfono móvi
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
+
+## Unirse {#join}
+
+La función `join` concatena elementos de una matriz en una sola cadena utilizando un separador.
+
+**Sintaxis**
+
+```sql
+{%= join(array, separator) %}
+```
+
+| Argumento | Descripción |
+| --------- | ----------- |
+| `array` | Matriz para concatenar. |
+| `separator` | Cadena insertada entre cada elemento de matriz. |
+
+**Ejemplo**
+
+```sql
+{%= join(["red", "green", "blue"], ",") %}
+```
+
+Devuelve `red,green,blue`.
 
 ## Último Índice De {#last-index-of}
 

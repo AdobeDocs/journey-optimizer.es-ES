@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 4%
+source-wordcount: 470
+ht-degree: 0%
 
 ---
 
 # Acceder y administrar desafíos y tareas {#access-loyalty-challenges}
 
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-[Introducción a los retos de fidelización](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* **Acceder y administrar desafíos y tareas** ◀︎ **Usted está aquí**
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
-
 ## Acceder y administrar desafíos y tareas
 
-Para acceder a Desafíos de fidelización, vaya a Journey Optimizer y seleccione **[!UICONTROL Desafío de fidelización (Beta)]** en la sección **[!UICONTROL Administración de Recorridos]**. La interfaz Retos de fidelización proporciona una ubicación centralizada para ver, administrar y organizar todos los desafíos y tareas.
+Para acceder a Desafíos de fidelización, vaya a Journey Optimizer y seleccione **[!UICONTROL Desafío de fidelización]** en la sección **[!UICONTROL Administración de Recorridos]**. La interfaz Retos de fidelización proporciona una ubicación centralizada para ver, administrar y organizar todos los desafíos y tareas.
 
 La interfaz permite acceder a dos inventarios principales:
 
@@ -123,3 +82,4 @@ Desde la pestaña Tareas, puede realizar acciones en las tareas:
   >[!IMPORTANT]
   >
   >Puede eliminar una tarea incluso cuando se utiliza en uno o más desafíos. Tenga en cuenta el impacto en los desafíos que hacen referencia a la tarea antes de eliminarla.
+

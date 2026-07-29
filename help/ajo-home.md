@@ -5,10 +5,10 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,11 @@ Descubra las últimas funciones y mejoras de Journey Optimizer en las Notas de l
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB Desafíos de fidelización]
+
+Descubra cómo crear y administrar **Desafíos de fidelidad** para atraer y recompensar a sus clientes más fieles con funciones de gamification.
+
+[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB Asistente de IA para personalización]
 
@@ -41,14 +46,6 @@ Use el **Asistente de IA** en el editor de personalización o en la barra de her
 Aprenda a utilizar la sintaxis de iteración para mostrar listas dinámicas de datos de varias fuentes en los mensajes, incluidos eventos, respuestas de acciones personalizadas y otros datos contextuales.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
-
-
->[!TAB Orquestación de campañas]
-
-Journey Optimizer ahora incluye **orquestación de campañas**, una nueva funcionalidad diseñada específicamente para campañas por lotes iniciadas por la marca.
-
-[![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
 
 >[!ENDTABS]
 

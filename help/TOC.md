@@ -6,10 +6,10 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: '3479'
-ht-degree: 95%
+source-wordcount: '3495'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Documentación de Journey Optimizer](ajo-home.md)
 + Novedades {#whats-new}
   + [Ciclo de lanzamiento](using/rn/releases.md)
-  + [Notas de la versión preliminar](using/rn/e-release-notes.md)
+  + {hide-from-toc}[Notas de la versión preliminar](using/rn/e-release-notes.md)
   + [Últimas notas de la versión](using/rn/release-notes.md)
   + Notas de la versión anterior {#previous-rn-new}
     + {hide-from-toc}[Notas de la versión anterior](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -40,6 +40,7 @@ ht-degree: 95%
     + [¿Qué es Journey Optimizer?](using/start/get-started.md)
     + [Cómo funciona](using/start/understanding-ajo.md)
     + [IA y funciones inteligentes](using/start/ai-features.md)
+    + [Aptitudes de Journey Optimizer en CX Coworker](using/start/ajo-coworker-skills.md)
     + [Terminología clave](using/start/terminology.md)
     + [Empiece desde su meta](using/start/ajo-use-case-guide.md)
     + [Mecanismos de protección y limitaciones](using/start/guardrails.md)
@@ -149,16 +150,19 @@ ht-degree: 95%
     + [Limitación del rendimiento con fuentes de datos externas y acciones personalizadas](using/building-journeys/limit-throughput.md)
     + [Utilice acciones personalizadas para escribir los eventos de recorrido en Experience Platform](using/building-journeys/custom-action-aep.md)
 + Desafíos de lealtad {#loyalty-challenges}
-  + {hide-from-toc}[Introducción a los retos de fidelización](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[Acceder y administrar retos y tareas](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[Crear retos](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[Crear tareas](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[Monitorizar el rendimiento del reto de fidelización](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[Configurar retos de fidelización](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[Guía de definición de recompensa](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[Guía del transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[Datos y conjuntos de datos de fidelización](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [Introducción a los retos de fidelización](using/loyalty-challenges/get-started.md)
+  + Crear y administrar desafíos {#create-manage-challenges}
+    + [Acceder y administrar desafíos y tareas](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [Crear desafíos](using/loyalty-challenges/create-challenges.md)
+    + [Creación de tareas](using/loyalty-challenges/create-tasks.md)
+    + [Monitorización del rendimiento del desafío de fidelidad](using/loyalty-challenges/loyalty-reporting.md)
+  + Configuración e integración {#configure-integrate-loyalty}
+    + [Configuración de desafíos de lealtad](using/loyalty-challenges/loyalty-admin.md)
+    + [Guía de definición de recompensa](using/loyalty-challenges/reward-definition-guide.md)
+    + [Guía del transformador de eventos](using/loyalty-challenges/event-transformer-guide.md)
+    + [Permisos de retos de fidelización](using/loyalty-challenges/loyalty-permissions.md)
+    + [Datos y conjuntos de datos de fidelización](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campañas {#campaigns}
   + {hide-from-toc}[Campañas](/help/rp_landing_pages/campaigns-landing-page.md)
   + [Introducción a las campañas](using/campaigns/get-started-with-campaigns.md)
@@ -1034,5 +1038,3 @@ ht-degree: 95%
     + [Administración de las preferencias de los clientes](using/action/preference-center.md)
   + [Gobernanza de datos](using/action/action-privacy.md)
   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
-
-

@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="Beta privada" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # Datos y conjuntos de datos de fidelización {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**Tabla de contenido**
-
-[Introducción a los retos de fidelización](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
-* [Guía del transformador de eventos](event-transformer-guide.md)
-* **Conjuntos de datos y datos de fidelización** ◀︎ **Usted está aquí**
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta privada**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
 
 ## Información general {#overview}
 
@@ -88,6 +47,8 @@ Para los atributos de fidelidad estándar del perfil (puntos, nivel, programa, e
 
 ➡️ [grupo de campos de esquema de detalles de fidelización](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
+➡️ [diccionario de esquema de AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es){target="_blank"}
+
 ### Eventos de experiencia {#experience-events}
 
 Las tareas **[!UICONTROL Compra]**, **[!UICONTROL Gasto]** y **[!UICONTROL Evento personalizado]** dependen de los eventos de experiencia ingeridos en Adobe Experience Platform. Para las tareas **[!UICONTROL Custom Event]**, las definiciones de evento coincidentes (ruta de identificador, ID de esquema XDM opcional, esquema y transformador) deben configurarse en el menú **[!UICONTROL Administrador de fidelidad]** antes de que los especialistas en marketing puedan introducir valores de evento personalizados en el generador de tareas. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
@@ -108,4 +69,5 @@ Journey Optimizer aplica protecciones TTL a muchos conjuntos de datos generados 
 
 >[!NOTE]
 >
->La configuración de lealtad en el nivel de organización puede incluir la configuración de archivo y retención (por ejemplo, la duración del archivo) administrada mediante el servicio de metadatos de lealtad. Póngase en contacto con el administrador de Adobe si necesita ajustar la retención de su entorno beta privado.
+>La configuración de lealtad en el nivel de organización puede incluir la configuración de archivo y retención (por ejemplo, la duración del archivo) administrada mediante el servicio de metadatos de lealtad. Póngase en contacto con el administrador de Adobe si necesita ajustar la retención de su organización.
+

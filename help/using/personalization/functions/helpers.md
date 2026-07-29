@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1188
-ht-degree: 3%
+source-wordcount: 1329
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ En este ejemplo, el valor `there` se muestra si el atributo `firstName` de este 
 El asistente `if` se usa para definir un bloque condicional.
 Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
 
-**Sintaxis**
+**Syntax**
 
 ```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -43,7 +43,7 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 ```
 
 Después del asistente `if`, puede escribir una instrucción `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-La instrucción `elseif` especificará una nueva condición para comprobar si la primera instrucción devuelve el valor &quot;False&quot;.
+La instrucción `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;False&quot;.
 
 
 **Formato**
@@ -217,6 +217,89 @@ El siguiente ejemplo permite calcular la suma total de los precios de los produc
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## Anular {#abort}
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta función se encuentra en disponibilidad limitada.
+
+El asistente de `abort` detiene el envío del mensaje cuando se alcanza durante el procesamiento.
+
+Use un bloque condicional como `{%#if%}` para controlar cuándo se ejecuta el asistente. Cuando se ejecuta `abort`, se anula la entrega.
+
+**Syntax**
+
+```handlebars
+{{abort code='code' description='description'}}
+```
+
+**Parámetros**
+
+| Parámetro | Descripción |
+| --- | --- |
+| `code` | Código de anulación opcional incluido en el error generado. |
+| `description` | Razón opcional legible en lenguaje natural para abortar. |
+
+**Ejemplo**
+
+```handlebars
+{%#if profile.person.email = ""%}
+  {{abort code='ERR_001' description='Missing email'}}
+{%/if%}
+Hello {{profile.person.name.firstName}}!
+```
+
+En este ejemplo, el procesamiento continúa cuando `email` está presente. Cuando la condición coincide, la entrega se anula con los `code` y `description` proporcionados.
+
+## Analizar JSON {#parse-json}
+
+El asistente de `parseJson` analiza una cadena JSON y almacena el objeto analizado en una variable de plantilla para que pueda acceder a los campos directamente en expresiones de personalización.
+
+**Syntax**
+
+```handlebars
+{{parseJson jsonStr=jsonStringPath result="variableName"}}
+```
+
+**Parámetros**
+
+| Parámetro | Descripción |
+| --- | --- |
+| `jsonStr` | Cadena JSON que se va a analizar. Puede ser una referencia de datos o una cadena JSON literal. |
+| `result` | Nombre de la variable que almacena el objeto analizado. |
+
+**Ejemplo**
+
+```handlebars
+{{parseJson jsonStr=targetResponse.options.content result="offerContent"}}
+{{offerContent.title}}
+```
+
+## Valor en ruta {#value-at-path}
+
+El ayudante `valueAtPath` asigna un valor de una ruta de datos a una variable de plantilla. Si lo desea, puede utilizar un índice para extraer un elemento específico de matrices o colecciones.
+
+**Syntax**
+
+```handlebars
+{{valueAtPath path idx=indexPath result="value"}}
+```
+
+**Parámetros**
+
+| Parámetro | Descripción |
+| --- | --- |
+| `path` | Ruta de origen desde la que se extrae el valor (parámetro posicional). |
+| `idx` | Índice opcional basado en 0 que se utiliza para extraer un elemento específico de una matriz o colección. |
+| `result` | Nombre de la variable que almacena el valor extraído. |
+
+**Ejemplo**
+
+```handlebars
+{{valueAtPath targetResponse.prefetch.mboxes idx=0 result="firstMbox"}}
+{{firstMbox.name}}
 ```
 
 ## Url {#url}
