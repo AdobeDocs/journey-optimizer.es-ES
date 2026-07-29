@@ -10,23 +10,15 @@ level: Intermediate
 keywords: expresión, editor, biblioteca, personalización
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: e71668f881bbaac88b1a0980838ff27b3d9dfc76
 workflow-type: tm+mt
-source-wordcount: 2174
+source-wordcount: 2200
 ht-degree: 0%
 
 ---
@@ -56,7 +48,7 @@ Para añadir fragmentos de expresión al contenido, siga los pasos a continuaci�
 1. Abra [editor de personalización](personalization-build-expressions.md) y seleccione el botón **[!UICONTROL Fragmentos]** en el panel izquierdo.
 
    La lista muestra todos los fragmentos de expresiones que se han creado o guardado como fragmentos en la zona protegida actual. [Aprenda a crear fragmentos](../content-management/create-fragments.md)
-Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista.
+   Se ordenan por fecha de creación: los fragmentos de expresión añadidos recientemente se muestran primero en la lista.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -66,7 +58,11 @@ Se ordenan por fecha de creación: los fragmentos de expresión añadidos recien
    >
    >Si se han modificado o agregado fragmentos mientras edita el contenido, la lista se actualizará con los cambios más recientes.
 
-1. Haga clic en el icono + junto a un fragmento de expresión para insertar el ID de fragmento correspondiente en el editor.
+1. Coloque el cursor en la ubicación deseada en el contenido y, a continuación, haga clic en el icono + junto a un fragmento de expresión para insertar el ID de fragmento correspondiente en el editor.
+
+   >[!NOTE]
+   >
+   >También puede agregar fragmentos de expresiones a la sección `<head>` de un correo electrónico o plantilla de contenido.
 
    ![](assets/expression-fragment-add.png)
 
