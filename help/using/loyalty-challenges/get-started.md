@@ -175,5 +175,5 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
 
