@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 13%
@@ -92,9 +91,9 @@ Póngase en contacto con el administrador si no puede acceder a la función o ne
 
 +++Configuración del programa de fidelización (administradores)
 
-Los administradores configuran los proveedores de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Administrador de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
+Los administradores configuran los proveedores de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Configuraciones de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
 
-Póngase en contacto con el administrador si el menú **[!UICONTROL Administrador de fidelidad]** no está visible en el panel de navegación izquierdo.
+Póngase en contacto con el administrador si el menú **[!UICONTROL Configuraciones de fidelidad]** no está visible en el panel de navegación izquierdo.
 
 +++
 
@@ -161,7 +160,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -179,5 +178,5 @@ Para administrar los desafíos de fidelidad mediante programación, usa la [API 
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 1755
 ht-degree: 15%
@@ -27,7 +27,7 @@ La configuración de Retos de fidelidad conecta a [!DNL Journey Optimizer] con s
 >
 >La configuración de Desafíos de fidelización requiere acceso de administrador a su instancia de [!DNL Journey Optimizer], además de los permisos necesarios para Desafíos de fidelización. Póngase en contacto con el administrador de Adobe para obtener acceso.
 
-Para abrir la interfaz de configuración, seleccione el menú **[!UICONTROL Administrador de fidelización]** en el panel de navegación izquierdo. La interfaz está organizada en pestañas:
+Para abrir la interfaz de configuración, seleccione el menú **[!UICONTROL Configuraciones de fidelidad]** en el panel de navegación izquierdo. La interfaz está organizada en pestañas:
 
 * **Configuración global**: seleccione el área de nombres de Experience Platform para su programa. [Aprenda a configurar las opciones globales](#global-settings)
 * **Proveedores de recompensas**: conecte las API que cumplen las recompensas cuando los clientes progresan o completan desafíos. [Aprenda a configurar proveedores de recompensas](#reward-providers).
