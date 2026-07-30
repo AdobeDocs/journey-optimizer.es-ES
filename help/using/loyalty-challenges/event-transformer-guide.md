@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1705
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Cada definición de evento debe producir un objeto JSON con el siguiente formato
 | `guid` | Cadena | No (asignado por el sistema) | ID único asignado por el sistema; solo lectura. |
 | `name` | Cadena | **Sí** | Etiqueta legible en lenguaje natural, p. ej. `"Starbucks POS Purchase"`. |
 | `xdmSchemaId` | Cadena | **Sí** | Coincide con eventos por ID de esquema XDM (consulte Funcionamiento de la coincidencia). |
-| `schema` | Cadena | No | [Esquema JSON](https://json-schema.org/) (como cadena) para validar eventos entrantes. |
+| `schema` | Cadena | **Sí** | [Esquema JSON](https://json-schema.org/) (como cadena) para validar eventos entrantes. |
 | `transformer` | Cadena | **Sí** | Expresión JSONata que asigna el evento al formato de Fidelidad. |
 
 ## Funcionamiento de la coincidencia
@@ -461,9 +461,9 @@ Una tarea de desafío con `include: ["BEVERAGE"]` vería que el elemento de lín
 
 +++
 
-## Adición de la validación del esquema JSON (opcional)
+## Agregar validación de esquema JSON
 
-Si desea que la plataforma valide la estructura de los eventos entrantes antes de intentar la transformación, establezca el campo `schema` en un documento [Esquema JSON](https://json-schema.org/draft-04) codificado como una cadena JSON.
+El campo `schema` es obligatorio. Configúrelo en un documento [Esquema JSON](https://json-schema.org/draft-04) codificado como una cadena JSON para validar la estructura de los eventos entrantes antes de que se ejecute la transformación.
 
 Los eventos que no superan la validación del esquema se rechazan antes de ejecutar la transformación. La respuesta de error incluye el error de validación específico, lo que facilita el diagnóstico de eventos ascendentes con formato incorrecto.
 
