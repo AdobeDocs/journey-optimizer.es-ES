@@ -7,7 +7,7 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, cortafuegos, ip, subdominio, seguridad, tráfico, entrante
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Confirme siempre las direcciones IP de salida exactas con el equipo de seguridad
 
 Para obtener acceso a la lista de subdominios para los que ha permitido IP para el firewall de aplicaciones web, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Lista de permitidos - IP]**.
 
-![Inventario de listas de permitidos IP de WAF](assets/waf-ip-allowlist.png)
+![Inventario de listas de permitidos IP de WAF](assets/waf-ip-allowlist.png){width="90%"}
 
 La página de inventario enumera todos los subdominios que tienen al menos una IP de WAF permitida, en todos los tipos de canales (correo electrónico, página de aterrizaje, SMS, web). Obtenga más información sobre los subdominios en [esta sección](about-subdomain-delegation.md).
 
