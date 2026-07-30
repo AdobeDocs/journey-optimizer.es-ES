@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 1125
 ht-degree: 9%
@@ -56,7 +56,7 @@ Seleccione el tipo de actividad que deben realizar los clientes para completar e
 
 * **[!UICONTROL Comprar]**: los clientes deben comprar uno o más elementos para completar esta tarea
 * **[!UICONTROL Gasto]**: los clientes deben gastar una cantidad especificada para completar esta tarea
-* **[!UICONTROL Evento personalizado]**: los clientes deben realizar una actividad representada por un evento de experiencia de Adobe Experience Platform. Por ejemplo, un registro de llegada de hotel, una acción de aplicación móvil o un envío de revisión. El evento subyacente ya debe capturarse en Experience Platform y asignarse mediante una definición de evento en el menú **[!UICONTROL Administrador de fidelidad]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+* **[!UICONTROL Evento personalizado]**: los clientes deben realizar una actividad representada por un evento de experiencia de Adobe Experience Platform. Por ejemplo, un registro de llegada de hotel, una acción de aplicación móvil o un envío de revisión. El evento subyacente ya debe capturarse en Experience Platform y asignarse mediante una definición de evento en el menú **[!UICONTROL Configuraciones de fidelidad]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
 
 Para seleccionar una actividad, haga clic en el icono **+** y seleccione la actividad del cliente que mejor se ajuste a los objetivos del resultado. Cada tipo de actividad tiene atributos configurables específicos para definir y dar forma aún más a los requisitos de las tareas.
 ![](assets/task-create-activity.png)
@@ -92,7 +92,7 @@ Atributos disponibles para actividades **Spend**:
 
 Atributos disponibles para **[!UICONTROL actividades de evento personalizado]**:
 
-* **[!UICONTROL Valores de evento personalizados]**: escriba los valores para el evento personalizado que deben completar los clientes. Utilice una coma para separar cada valor. Estos valores deben coincidir con las definiciones de eventos configuradas en el menú **[!UICONTROL Administrador de fidelización]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+* **[!UICONTROL Valores de evento personalizados]**: escriba los valores para el evento personalizado que deben completar los clientes. Utilice una coma para separar cada valor. Estos valores deben coincidir con las definiciones de eventos configuradas en el menú **[!UICONTROL Configuraciones de fidelidad]**. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
 
 ![](assets/task-create-custom.png)
 
@@ -109,7 +109,7 @@ Atributos disponibles para **[!UICONTROL actividades de evento personalizado]**:
 
 Para las actividades **Comprar** y **Gastar**, puede usar la sección **[!UICONTROL Elementos y exclusiones elegibles]** para definir qué artículos y grupos son elegibles y cuáles están excluidos. Esto le permite dirigirse a productos, categorías o ubicaciones específicos para alinearlos con los objetivos del desafío.
 
-Los elementos y grupos disponibles en el selector los definen los usuarios administradores en el menú **[!UICONTROL Administrador de fidelidad]**. Los administradores cargan el inventario de productos utilizado para los artículos aptos y configuran exclusiones de toda la organización que se aplican automáticamente cuando los especialistas en marketing crean tareas. [Aprenda a configurar el inventario de productos](loyalty-admin.md#product-inventory) y [exclusiones](loyalty-admin.md#exclusions)
+Los usuarios administradores definen los elementos y grupos disponibles en el selector en el menú **[!UICONTROL Configuraciones de fidelidad]**. Los administradores cargan el inventario de productos utilizado para los artículos aptos y configuran exclusiones de toda la organización que se aplican automáticamente cuando los especialistas en marketing crean tareas. [Aprenda a configurar el inventario de productos](loyalty-admin.md#product-inventory) y [exclusiones](loyalty-admin.md#exclusions)
 
 Las tareas de **[!UICONTROL Custom Event]** no utilizan elementos y exclusiones que cumplan los requisitos; la finalización depende de los **[!UICONTROL valores de Custom Event]** que configure.
 

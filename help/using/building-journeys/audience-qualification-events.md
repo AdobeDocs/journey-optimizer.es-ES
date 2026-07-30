@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 9%
@@ -156,7 +156,7 @@ La velocidad de recepción de esta información es alta. Las mediciones muestran
 
 >[!CAUTION]
 >
->**Aviso de obsolescencia - agosto de 2026**: a partir del **agosto de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un nodo **Calificación de audiencias**. Los recorridos en directo existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de agosto de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
+>**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un nodo **Calificación de audiencias**. Los recorridos en directo existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
 
 Cuando utilice la calificación de audiencia para una audiencia por lotes, tenga en cuenta que se produce un pico de entrada en el momento del cálculo diario. El tamaño del pico depende de cuántos individuos entren o salgan de la audiencia cada día.
 
@@ -227,8 +227,8 @@ Siga las protecciones y recomendaciones que se indican a continuación para crea
 
 * Las audiencias de [!DNL Adobe Experience Platform] se calculan una vez al día (**audiencias por lotes**) o en tiempo real (para audiencias de **transmisión por secuencias**, con la opción Audiencias de alta frecuencia de [!DNL Adobe Experience Platform]).
 
-   * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia pueden entrar en el recorrido en tiempo real.
-   * Si la audiencia es por lotes, las personas recién calificadas para esta audiencia potencialmente ingresarán al recorrido cuando el cálculo de audiencia se ejecute el [!DNL Adobe Experience Platform].
+  * Si la audiencia seleccionada se transmite por secuencias, las personas que pertenecen a esta audiencia pueden entrar en el recorrido en tiempo real.
+  * Si la audiencia es por lotes, las personas recién calificadas para esta audiencia potencialmente ingresarán al recorrido cuando el cálculo de audiencia se ejecute el [!DNL Adobe Experience Platform].
 
   Se recomienda usar audiencias de streaming en una actividad **Calificación de audiencias**. Para los casos de uso por lotes, utilice una actividad **[Leer audiencia](read-audience.md)**.
 

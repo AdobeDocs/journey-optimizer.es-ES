@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 1860
-ht-degree: 23%
+source-wordcount: 1937
+ht-degree: 22%
 
 ---
 
@@ -104,6 +104,8 @@ Cuando un extremo tiene un tiempo de respuesta mayor de 0,75 segundos, sus llama
 
 Este servicio de acción personalizada lenta aplica un límite de 150 000 llamadas cada 30 segundos. El límite se aplica mediante una ventana deslizante, que puede comenzar en cualquier milisegundo dentro de ese período de 30 segundos. Una vez que la ventana está llena, las llamadas adicionales se rechazan con errores de límite. El sistema no espera al siguiente intervalo fijo, pero comienza la restricción inmediatamente después de alcanzar el umbral de 30 segundos.
 
+Además, para ayudar a evitar la sobrecarga de un extremo ya lento, el servicio de acción personalizada lenta limita temporalmente todas las llamadas durante hasta 5 minutos si más del 20 % de las llamadas en cualquier ventana de 120 segundos superan los 10 segundos. Este mecanismo de disyuntor solo se aplica si hay al menos 200 llamadas en la ventana de 130 segundos. Esta protección está disponible actualmente en algunas regiones y se está extendiendo progresivamente a todas las regiones en los próximos días.
+
 Dado que los extremos lentos pueden causar retrasos en todas las acciones en cola de la canalización, se recomienda no configurar acciones personalizadas con extremos que tengan tiempos de respuesta lentos. El enrutamiento de estas acciones al servicio lento ayuda a proteger el rendimiento general del sistema y evita una latencia adicional para otras acciones personalizadas.
 
 ## Tiempo de espera y reintentos {#timeout}
@@ -125,8 +127,8 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 * La primera llamada dura menos de 5 segundos: la llamada se realiza correctamente, no se realiza ningún reintento.
 * La primera llamada dura más de 5 segundos: la llamada se cancela y no hay reintento. Se cuenta como un error de tiempo de espera en los informes.
 * La primera llamada falla después de 2 segundos (el sistema externo devuelve un error): quedan 3 segundos para los reintentos, si están disponibles los espacios de límite.
-   * Si uno de los tres reintentos se realiza correctamente antes del final de los 5 segundos, se realiza la llamada y no hay ningún error.
-   * Si se alcanza el final de la duración del tiempo de espera durante los reintentos, la llamada se cancela y se cuenta como un error de tiempo de espera en el sistema de informes.
+  * Si uno de los tres reintentos se realiza correctamente antes del final de los 5 segundos, se realiza la llamada y no hay ningún error.
+  * Si se alcanza el final de la duración del tiempo de espera durante los reintentos, la llamada se cancela y se cuenta como un error de tiempo de espera en el sistema de informes.
 
 ## Preguntas frecuentes {#faq}
 

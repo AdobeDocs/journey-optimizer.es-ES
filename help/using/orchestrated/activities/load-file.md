@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +41,6 @@ Durante la configuración del archivo, puede definir asignaciones de columnas, t
 >
 >La actividad **Cargar archivo** no está disponible actualmente para su uso con **Healthcare Shield**.
 
-## Permisos {#permissions}
-
-Para usar la actividad **[!UICONTROL Cargar archivo]** en una campaña orquestada, se deben asignar a los usuarios los permisos correctos. Ambos permisos están disponibles en **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campañas orquestadas]** en la interfaz de usuario de permisos.
-
-* **[!UICONTROL Ver archivo en campañas organizadas]**: otorga acceso de solo lectura. Los usuarios con este permiso pueden obtener una vista previa de los resultados de una campaña orquestada que contenga una actividad **[!UICONTROL Cargar archivo]**, pero no pueden agregar la actividad ni cargar un archivo.
-* **[!UICONTROL Administrar archivo en campañas orquestadas]** — Necesario para agregar una actividad **[!UICONTROL Cargar archivo]** al lienzo de campaña y cargar archivos. Asigne este permiso a cualquier usuario que necesite crear o configurar una actividad **[!UICONTROL Cargar archivo]**.
-
-Para obtener instrucciones sobre cómo asignar permisos, consulte [Administrar usuarios y funciones](../../administration/permissions.md).
-
 ## Mecanismos de protección y limitaciones {#limitations}
 
 Las siguientes limitaciones se aplican a la actividad Cargar archivo:
@@ -63,6 +54,10 @@ Para ver los límites en las actividades de canal y lienzo, consulte [Proteccion
 ## Requisitos previos {#prerequisites}
 
 Para poder agregar una actividad **[!UICONTROL Cargar archivo]** a una campaña orquestada y conectarla a una actividad de mensaje, un administrador debe completar la siguiente configuración única.
+
+Para usar la actividad **[!UICONTROL Cargar archivo]** en una campaña orquestada, se debe asignar a los usuarios el permiso **[!UICONTROL Administrar archivo en campañas orquestadas]**.
+
+Para obtener instrucciones sobre cómo asignar permisos, consulte [Administrar usuarios y funciones](../../administration/permissions.md).
 
 ### Creación de una dimensión objetivo de tipo de archivo {#file-target-dimension}
 
@@ -134,17 +129,17 @@ Use un archivo de muestra para configurar **[!UICONTROL Columnas]** y **[!UICONT
    * **[!UICONTROL Tipo de datos]** — Tipo de datos en la columna.
    * **[!UICONTROL Permitir valores NULL]** — Especifica cómo administrar los valores vacíos en la columna:
 
-      * **[!UICONTROL Adobe Campaign default]**: genera un error solo para campos numéricos. De lo contrario, inserta un valor NULL.
-      * **[!UICONTROL Valor vacío permitido]** — Autoriza valores vacíos. Por lo tanto, se inserta el valor NULL.
-      * **[!UICONTROL Siempre rellenado]**: genera un error si un valor está vacío.
+     * **[!UICONTROL Adobe Campaign default]**: genera un error solo para campos numéricos. De lo contrario, inserta un valor NULL.
+     * **[!UICONTROL Valor vacío permitido]** — Autoriza valores vacíos. Por lo tanto, se inserta el valor NULL.
+     * **[!UICONTROL Siempre rellenado]**: genera un error si un valor está vacío.
 
    * **[!UICONTROL Error al procesar]** — Define el comportamiento si se encuentra un error en la columna:
 
-      * **[!UICONTROL Ignorar el valor]** — El valor se ignora.
-      * **[!UICONTROL Rechazar la línea]** — No se procesa la línea completa.
-      * **[!UICONTROL Usar un valor predeterminado en caso de error]**: reemplaza el valor que causa el error por un valor predeterminado definido en el campo **[!UICONTROL Valor predeterminado]**.
-      * **[!UICONTROL Usar un valor predeterminado en caso de que no se reasigne el valor]**: reemplaza el valor que causa el error por un valor predeterminado, definido en el campo **[!UICONTROL Valor predeterminado]**, a menos que se haya definido una asignación para el valor incorrecto.
-      * **[!UICONTROL Rechazar la línea cuando no haya ningún valor de reasignación]**: no se procesará la línea completa a menos que se haya definido una asignación para el valor erróneo.
+     * **[!UICONTROL Ignorar el valor]** — El valor se ignora.
+     * **[!UICONTROL Rechazar la línea]** — No se procesa la línea completa.
+     * **[!UICONTROL Usar un valor predeterminado en caso de error]**: reemplaza el valor que causa el error por un valor predeterminado definido en el campo **[!UICONTROL Valor predeterminado]**.
+     * **[!UICONTROL Usar un valor predeterminado en caso de que no se reasigne el valor]**: reemplaza el valor que causa el error por un valor predeterminado, definido en el campo **[!UICONTROL Valor predeterminado]**, a menos que se haya definido una asignación para el valor incorrecto.
+     * **[!UICONTROL Rechazar la línea cuando no haya ningún valor de reasignación]**: no se procesará la línea completa a menos que se haya definido una asignación para el valor erróneo.
 
    * **[!UICONTROL Valor predeterminado]**: valor predeterminado que se usará cuando **[!UICONTROL Error al procesar]** se establezca para usar un valor predeterminado.
    * **[!UICONTROL Reasignación de valores]**: asigne valores específicos a valores nuevos. Haga clic en **[!UICONTROL Agregar asignación]** para definir cada asignación (por ejemplo, reemplazar `True`/`False` por `1`/`0`).
@@ -163,14 +158,14 @@ Use un archivo de muestra para configurar **[!UICONTROL Columnas]** y **[!UICONT
 
    * **[!UICONTROL Formato]** — Define cómo se leen los valores numéricos en el archivo:
 
-      * **[!UICONTROL Otro]** — Define el **[!UICONTROL separador de miles]** y el **[!UICONTROL separador decimal]** en la sección **[!UICONTROL Separadores]**.
-      * **[!UICONTROL 1.000,00]**: coma como separador de miles y punto como separador decimal.
-      * **[!UICONTROL 1 000,00]**: espacio como separador de miles y coma como separador decimal.
+     * **[!UICONTROL Otro]** — Define el **[!UICONTROL separador de miles]** y el **[!UICONTROL separador decimal]** en la sección **[!UICONTROL Separadores]**.
+     * **[!UICONTROL 1.000,00]**: coma como separador de miles y punto como separador decimal.
+     * **[!UICONTROL 1 000,00]**: espacio como separador de miles y coma como separador decimal.
 
    * **[!UICONTROL Separadores]** (cuando **[!UICONTROL Formato]** es **[!UICONTROL Otro]**):
 
-      * **[!UICONTROL Separador de miles]**: carácter que agrupa miles en valores numéricos (dejar vacío si no se utiliza).
-      * **[!UICONTROL Separador decimal]**: carácter utilizado para la parte decimal de valores numéricos (por ejemplo, `,` o `.`).
+     * **[!UICONTROL Separador de miles]**: carácter que agrupa miles en valores numéricos (dejar vacío si no se utiliza).
+     * **[!UICONTROL Separador decimal]**: carácter utilizado para la parte decimal de valores numéricos (por ejemplo, `,` o `.`).
 
    +++
 
@@ -183,14 +178,14 @@ Use un archivo de muestra para configurar **[!UICONTROL Columnas]** y **[!UICONT
    * **[!UICONTROL Formato de fecha]** — Patrón que coincide con la forma en que aparecen las fechas en el archivo (por ejemplo, `yyyy/mm/dd`).
    * **[!UICONTROL Separadores]**:
 
-      * **[!UICONTROL Año, mes, día]**: carácter entre los componentes año, mes y día (por ejemplo, `/`).
+     * **[!UICONTROL Año, mes, día]**: carácter entre los componentes año, mes y día (por ejemplo, `/`).
 
    **Hora**
 
    * **[!UICONTROL Formato de hora]**: Patrón que coincide con la forma en que aparecen las horas en el archivo (por ejemplo, `13:30` para las horas y los minutos de 24 horas).
    * **[!UICONTROL Separadores]**:
 
-      * **[!UICONTROL Hora, minuto, segundo]**: carácter entre los componentes de hora, minuto y segundo (por ejemplo, `:`).
+     * **[!UICONTROL Hora, minuto, segundo]**: carácter entre los componentes de hora, minuto y segundo (por ejemplo, `:`).
 
    **Fecha y hora**
 

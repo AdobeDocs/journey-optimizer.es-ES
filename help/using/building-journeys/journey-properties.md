@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -359,6 +359,10 @@ Para obtener más información sobre las políticas de combinación, consulte [[
 
 ## Criterios de salida {#exit-criteria}
 
+>[!CAUTION]
+>
+>**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un **criterio de salida**. Los recorridos en directo existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criterios de salida"
@@ -430,8 +434,8 @@ Se aplican las siguientes limitaciones al usar la capacidad [Criterios de salida
 * **Solo disponible en recorridos pausados**\
   Solo puede agregar o editar los criterios de salida del &quot;Atributo de perfil&quot; cuando el recorrido está en pausa.
 
-   * En un **recorrido de borrador**, la opción *Atributo de perfil* aparece deshabilitada (solo lectura), mientras que las opciones *Evento* y *Audiencia* permanecen activas.
-   * En un **recorrido pausado**, la opción *Atributo de perfil* se vuelve editable, y las opciones *Evento* y *Audiencia* se vuelven de solo lectura.
+  * En un **recorrido de borrador**, la opción *Atributo de perfil* aparece deshabilitada (solo lectura), mientras que las opciones *Evento* y *Audiencia* permanecen activas.
+  * En un **recorrido pausado**, la opción *Atributo de perfil* se vuelve editable, y las opciones *Evento* y *Audiencia* se vuelven de solo lectura.
 
 ### Temas relacionados {#exit-criteria-related}
 

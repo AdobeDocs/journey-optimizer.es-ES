@@ -7,7 +7,7 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
+source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 7%

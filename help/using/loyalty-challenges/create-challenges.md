@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 8%
@@ -224,7 +224,7 @@ Para configurar cuándo y cómo se entregan las recompensas:
    * **[!UICONTROL Entregar recompensas en hitos de finalización de tareas a medida que se avanza el desafío]**: Las recompensas se incrementan a medida que los clientes completan tareas individuales (solo están disponibles para desafíos que requieren más de una tarea)\
      *Ejemplo: otorga 10 puntos después de la tarea 1, 20 puntos después de la tarea 2 y 50 puntos después de la tarea 3*
 
-1. Seleccione a su proveedor de recompensas. Esta es su solución de fidelidad que administra los puntos y recompensas del cliente. Los proveedores de recompensas se crean en el menú **[!UICONTROL Administrador de fidelidad]** antes de que usted cree desafíos. [Aprenda a configurar proveedores de recompensas](loyalty-admin.md#reward-providers)
+1. Seleccione a su proveedor de recompensas. Esta es su solución de fidelidad que administra los puntos y recompensas del cliente. Los proveedores de recompensas se crean en el menú de **[!UICONTROL Configuraciones de fidelidad]** antes de que usted cree desafíos. [Aprenda a configurar proveedores de recompensas](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

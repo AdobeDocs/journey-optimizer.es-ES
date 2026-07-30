@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 930
+ht-degree: 12%
 
 ---
 
@@ -92,9 +92,9 @@ Póngase en contacto con el administrador si no puede acceder a la función o ne
 
 +++Configuración del programa de fidelización (administradores)
 
-Los administradores configuran los proveedores de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Administrador de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
+Los administradores configuran los proveedores de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Configuraciones de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
 
-Póngase en contacto con el administrador si el menú **[!UICONTROL Administrador de fidelidad]** no está visible en el panel de navegación izquierdo.
+Póngase en contacto con el administrador si el menú **[!UICONTROL Configuraciones de fidelidad]** no está visible en el panel de navegación izquierdo.
 
 +++
 
@@ -170,10 +170,6 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
   </td>
 </tr>
 </table>
-
-## Referencia de la API {#api-reference}
-
-Para administrar los desafíos de fidelidad mediante programación, usa la [API de desafíos de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. La API permite crear, actualizar y administrar desafíos y tareas a través de puntos de conexión REST.
 
 ## Vídeo práctico {#video}
 

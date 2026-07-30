@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, di
 ![](assets/journey-new-canvas.png)
 
 Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Una vez cambiado, este ajuste se guarda en el nivel de recorrido, por lo que el recorrido se abrirá en la nueva experiencia de forma predeterminada en las visitas posteriores. Para volver, haz clic en el botón **[!UICONTROL Experiencia antigua]**.
+Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda en el nivel de usuario. En adelante, esta preferencia se aplicará automáticamente cada vez que cree un nuevo recorrido, por lo que no tendrá que cambiar manualmente cada vez.
 
 ![](assets/journey-new-experience-switch.png)
 
