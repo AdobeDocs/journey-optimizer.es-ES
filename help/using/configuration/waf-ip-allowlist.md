@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, cortafuegos, ip, subdominio, seguridad, tráfico, entrante
-source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # Administrar IP permitidas {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="Introduzca las IP permitidas para el subdominio seleccionado"
+>abstract="Seleccione un subdominio delegado e introduzca las direcciones IP de salida pública del cortafuegos de la aplicación web. Una vez guardado, [!DNL Journey Optimizer] rechazará cualquier solicitud de entrada a ese subdominio que no se origine desde una de las direcciones IP declaradas. Confirme siempre las direcciones IP de salida exactas con el equipo de seguridad antes de guardar."
+
 >[!BEGINSHADEBOX]
 
 **En esta página:** Agregue y administre sus direcciones IP de salida de Firewall de aplicaciones web (WAF) por subdominio delegado directamente en [!DNL Journey Optimizer], de modo que solo el tráfico enrutado a través del firewall pueda llegar a los vínculos hospedados en [!DNL Journey Optimizer].
 
 >[!ENDSHADEBOX]
-
 
 Las organizaciones con requisitos estrictos de seguridad de red, como las del sector financiero, pueden exigir que todas las solicitudes a vínculos alojados por [!DNL Adobe Journey Optimizer] pasen a través de un **firewall de aplicaciones web** (WAF) administrado por el cliente antes de llegar a la red de Adobe. Cualquier solicitud que omita el cortafuegos debe ser rechazada.
 
@@ -70,11 +74,11 @@ Confirme siempre las direcciones IP de salida exactas con el equipo de seguridad
 >
 >Para acceder y administrar la lista de permitidos IP, debe tener los permisos **[!UICONTROL Ver IP permitidas]** y **[!UICONTROL Administrar IP permitidas]**. [Más información](../administration/ootb-permissions.md)
 
-Para obtener acceso a la lista de subdominios para los que ha permitido IP para el firewall de aplicaciones web, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Lista de permitidos - IP]**.
+Para obtener acceso a la lista de subdominios para los que ha permitido las IP del firewall de aplicaciones web, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]** > **[!UICONTROL Configuración general]** y seleccione **[!UICONTROL Lista de permitidos - IP]**.
 
-![Inventario de listas de permitidos IP de WAF](assets/waf-ip-allowlist.png){width="90%"}
+![inventario de lista de permitidos IP](assets/waf-ip-allowlist.png){width="90%"}
 
-La página de inventario enumera todos los subdominios que tienen al menos una IP de WAF permitida, en todos los tipos de canales (correo electrónico, página de aterrizaje, SMS, web). Obtenga más información sobre los subdominios en [esta sección](about-subdomain-delegation.md).
+La página de inventario enumera todos los subdominios que tienen al menos una IP permitida, en todos los tipos de canales (correo electrónico, página de aterrizaje, SMS, web). Obtenga más información sobre los subdominios en [esta sección](about-subdomain-delegation.md).
 
 La lista muestra el número de direcciones IP permitidas por subdominio y el autor de la última modificación.
 
@@ -82,12 +86,7 @@ Puede filtrar el inventario por tipo de canal y buscar por nombre de subdominio.
 
 ## Añadir direcciones IP a la lista de permitidos {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="Introduzca las IP permitidas por WAF para el subdominio seleccionado"
->abstract="Seleccione un subdominio delegado e introduzca las direcciones IP de salida pública del cortafuegos de la aplicación web. Una vez guardado, [!DNL Journey Optimizer] rechazará cualquier solicitud de entrada a ese subdominio que no se origine desde una de las direcciones IP declaradas. Confirme siempre las direcciones IP de salida exactas con el equipo de seguridad antes de guardar."
-
-Para agregar direcciones IP del cortafuegos de aplicaciones web a la lista de permitidos de un subdominio determinado, siga los pasos a continuación.
+Para añadir direcciones IP a la lista de permitidos de un subdominio determinado, siga los pasos a continuación.
 
 1. En el inventario de **[!UICONTROL Lista de permitidos - IP]**, haga clic en el botón **[!UICONTROL Agregar IP permitidas]**.
 
@@ -97,7 +96,7 @@ Para agregar direcciones IP del cortafuegos de aplicaciones web a la lista de pe
 
    Cada entrada válida y no duplicada se valida en línea antes de agregarse. Puede agregar hasta **50 entradas de IP por subdominio**.
 
-   ![Agregar direcciones IP permitidas de WAF para un subdominio](assets/waf-ip-allowlist-add-ip.png)
+   ![Agregar direcciones IP permitidas para un subdominio](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ Ahora se rechazarán todas las solicitudes a este subdominio desde cualquier IP 
 
 Para actualizar las direcciones IP permitidas para un subdominio existente, haga clic en el nombre de subdominio en el inventario.
 
-El campo **Subdominio** es de solo lectura <!--as well as the Channel field-->; no se puede cambiar después de crearlo.
+El campo **[!UICONTROL Subdominio]** es de solo lectura <!--as well as the Channel field-->; no se puede cambiar después de crearlo.
 
 Agregue nuevas direcciones IP mediante el campo de entrada o elimine las direcciones IP existentes haciendo clic en el icono **✕** de cada chip.
 
-![Editar o quitar IP permitidas de WAF](assets/waf-ip-allowlist-edit-ip.png)
+![Editar o eliminar direcciones IP permitidas](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ Agregue nuevas direcciones IP mediante el campo de entrada o elimine las direcci
 
 ## Eliminar direcciones IP permitidas {#waf-ip-allowlist-remove}
 
-Para eliminar todas las IP de la lista de permitidos de un subdominio, utilice el icono Delete de la columna Actions del inventario. Esto elimina completamente la restricción de WAF para ese subdominio.
+Para quitar todas las direcciones IP de la lista de permitidos de un subdominio, usa el icono **Delete** de la columna **[!UICONTROL Actions]** del inventario. Esto elimina completamente la restricción de WAF para ese subdominio.
 
-![Icono Eliminar en la columna Acciones de la lista IP permitidas](assets/waf-ip-allowlist-delete-icon.png)
+![Eliminar icono en la columna Acciones de la lista de IP permitidas](assets/waf-ip-allowlist-delete-icon.png)
 
 Se abre una ventana emergente de confirmación. Escriba el nombre exacto del subdominio que desea confirmar y haga clic en **[!UICONTROL Quitar]**.
 
-![Confirmar la eliminación de todas las direcciones IP permitidas por WAF para un subdominio](assets/waf-ip-allowlist-remove.png){width="80%"}
+![Confirmar la eliminación de todas las direcciones IP permitidas para un subdominio](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->Al confirmar, esta acción elimina todas las direcciones IP de lista de permitidos del subdominio que ha introducido. El tráfico entrante se aceptará una vez más desde cualquier fuente, incluidas las solicitudes que omiten el cortafuegos de su aplicación web. Esto no se puede deshacer: es necesario volver a introducir las direcciones IP para restaurar la restricción.
+>Al confirmar, esta acción elimina todas las IP permitidas para el subdominio introducido. El tráfico entrante se aceptará una vez más desde cualquier fuente, incluidas las solicitudes que omiten el cortafuegos de su aplicación web. Esto no se puede deshacer: es necesario volver a introducir las direcciones IP para restaurar la restricción.
 
 Después de eliminar todas las direcciones IP, el subdominio ya no aparece en el inventario. Puede volver a configurarlo en cualquier momento volviendo a agregar direcciones IP para este subdominio.
