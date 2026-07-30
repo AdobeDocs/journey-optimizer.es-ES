@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
 source-wordcount: '3485'
 ht-degree: 93%
@@ -36,7 +36,7 @@ ht-degree: 93%
 + Introducción {#get-started}
   + [Empiece aquí](/help/rp_landing_pages/get-started-landing-page.md)
   + [Centro de incorporación](using/start/onboarding-hub.md)
-  + {hide-from-toc}[Migrar contenido y recorridos](using/start/migrate-content-and-journeys.md)
+  + [Migración de contenido y recorridos](using/start/migrate-content-and-journeys.md)
   + Características esenciales {#essentials}
     + [¿Qué es Journey Optimizer?](using/start/get-started.md)
     + [Cómo funciona](using/start/understanding-ajo.md)
