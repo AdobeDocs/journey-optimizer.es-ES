@@ -54,7 +54,7 @@ Aprenda a utilizar la sintaxis de iteración para mostrar listas dinámicas de d
 
 ::::landing-cards-container
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Últimas notas de la versión
 
@@ -64,7 +64,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción
 
@@ -74,7 +74,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Guía completa de los Recorridos
 
@@ -84,7 +84,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
 
 Explicación y administración de campañas
 
@@ -94,7 +94,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Canales de comunicación
 
@@ -104,7 +104,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
 
 Administración de conflictos y priorización
 
