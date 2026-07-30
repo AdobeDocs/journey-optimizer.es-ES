@@ -9,22 +9,15 @@ level: Experienced
 keywords: aterrizaje, página de aterrizaje, subdominios, configuración
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 TQID: https://experienceleague.adobe.com/oxSnH-wTxOVwNjYVdhSRSWLFdDZezqm-1KQCwlNKJ0s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -56,6 +49,10 @@ ht-degree: 21%
 ## Introducción a los subdominios de página de aterrizaje {#gs-lp-subdomains}
 
 Para poder [crear ajustes preestablecidos de página de aterrizaje](lp-presets.md), debe configurar los subdominios que utilizará para las páginas de aterrizaje.
+
+>[!NOTE]
+>
+>Una vez delegado un subdominio de página de aterrizaje, puede configurar una lista de permitidos IP de WAF para que todo el tráfico entrante a ese subdominio fluya exclusivamente a través del cortafuegos de la aplicación web. [Aprenda a configurar una lista de permitidos IP de WAF](../configuration/waf-ip-allowlist.md)
 
 Puede utilizar un subdominio que ya se haya delegado a Adobe o configurar otro. Obtenga más información acerca de la delegación de subdominios a Adobe en [esta sección](../configuration/delegate-subdomain.md).
 
