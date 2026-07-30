@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: optimizador de recorrido, incorporación, centro de incorporación, casos de uso, vídeos, tutoriales, introducción, ampliación, primer recorrido
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1101'
 ht-degree: 12%
 
 ---
@@ -39,12 +39,12 @@ rebuild
 
 Si tiene diez minutos, empiece con este vídeo de orientación. Recorre la interfaz y resalta las capacidades clave por función.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 A continuación, genere confianza práctica con estos recursos de aprendizaje:
 
 * [Tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: vídeos paso a paso y tutoriales guiados para cada función.
-* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
+* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
 * [Entorno aislado de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un entorno seguro con datos de ejemplo para practicar.
 * [Desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — Aplique lo que aprende con ejercicios guiados.
 
@@ -133,13 +133,13 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 
 >[!TAB Personalization y IA]
 
-* [Asistente de IA para la generación de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genere copias, imágenes y variaciones.
+* [Generar contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genera copias, imágenes y variaciones.
 * [Use la toma de decisiones para personalizar ofertas web](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}: adapte las ofertas por cliente.
 
 >[!TAB Informes y optimización]
 
 * [Monitorice y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Rastree el rendimiento en tiempo real.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 

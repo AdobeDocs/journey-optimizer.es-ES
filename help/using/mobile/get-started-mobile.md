@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -108,7 +101,7 @@ Se requieren los siguientes requisitos previos para utilizar RCS en Journey Opti
 
 ## Recursos adicionales {#additional-resources}
 
-Examine los temas siguientes para obtener más información sobre la mensajería móvil en Journey Optimizer. Consulte también la [descripción general de SMS/MMS/RCS](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} en el centro de aprendizaje móvil para ver más casos de uso y prácticas recomendadas.
+Examine los temas siguientes para obtener más información sobre la mensajería móvil en Journey Optimizer. Consulte también la [descripción general de SMS/MMS/RCS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} en el centro de aprendizaje móvil para ver más casos de uso y prácticas recomendadas.
 
 +++Guías de configuración
 
@@ -139,7 +132,7 @@ Cree, personalice y administre su contenido de mensajes de Mobile:
 * [Vista previa, prueba y envío de mensajes](send-mobile-message.md)
 * [Personalization en mensajes móviles](../personalization/personalize.md)
 * [Contenido dinámico](../personalization/get-started-dynamic-content.md)
-* [Generación de contenido de SMS con el Asistente de IA](../content-management/generative-text.md)
+* [Generación de contenido SMS con IA](../content-management/generative-text.md)
 
 +++
 
@@ -206,7 +199,7 @@ Obtenga información sobre cómo configurar, crear e incluir mensajes SMS en sus
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422693?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -216,7 +209,7 @@ Descubra las funcionalidades completas de mensajería móvil que Adobe Journey O
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430377?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -226,6 +219,6 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 
 +++Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

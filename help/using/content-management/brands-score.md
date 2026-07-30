@@ -6,26 +6,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 693
 ht-degree: 9%
 
 ---
@@ -60,7 +49,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar Generar contenido en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 La función Alineación de marca le ayuda a crear, revisar y administrar contenido que se adhiere a las directrices de marca. Garantiza coherencia en el tono, la mensajería y la identidad visual en todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.
 
@@ -91,15 +80,15 @@ Una vez [configurada y publicada su marca](brands.md), evalúe la puntuación de
 1. Seleccione cualquier directriz marcada para ver comentarios y sugerencias específicos. La alineación de marca evalúa las siguientes categorías:
 
    * **[!UICONTROL Estilo de escritura]**:
-      * **[!UICONTROL Estilo de comunicación de marca]**: define la personalidad y el tono emocional para garantizar una voz de marca coherente en todos los canales.
-      * **[!UICONTROL Estándares de mensajería de marca]**: reglas estructurales y de formato para texto promocional y de marketing efectivo.
-      * **[!UICONTROL Estándares de cumplimiento legal]**: garantiza que todas las comunicaciones cumplan con los requisitos legales, incluida la ubicación de texto y las listas de comprobación de cumplimiento.
+     * **[!UICONTROL Estilo de comunicación de marca]**: define la personalidad y el tono emocional para garantizar una voz de marca coherente en todos los canales.
+     * **[!UICONTROL Estándares de mensajería de marca]**: reglas estructurales y de formato para texto promocional y de marketing efectivo.
+     * **[!UICONTROL Estándares de cumplimiento legal]**: garantiza que todas las comunicaciones cumplan con los requisitos legales, incluida la ubicación de texto y las listas de comprobación de cumplimiento.
 
    * **[!UICONTROL Contenido visual]**:
-      * **[!UICONTROL Estándares fotográficos]**: Requisitos para el contenido fotográfico, incluidos los formatos de resolución, composición, iluminación y archivo.
-      * **[!UICONTROL Estándares de ilustración]**: parámetros de estilo, grosores de línea, uso de color y requisitos de formato de archivo para ilustraciones.
-      * **[!UICONTROL Estándares de iconos]**: Especificaciones para el diseño de iconos, incluidos los sistemas de cuadrícula, los pesos de trazo y el tamaño para la uniformidad.
-      * **[!UICONTROL Directrices de uso]**: prácticas recomendadas para la selección, ubicación y contexto de imágenes para mantener la identidad de la marca.
+     * **[!UICONTROL Estándares fotográficos]**: Requisitos para el contenido fotográfico, incluidos los formatos de resolución, composición, iluminación y archivo.
+     * **[!UICONTROL Estándares de ilustración]**: parámetros de estilo, grosores de línea, uso de color y requisitos de formato de archivo para ilustraciones.
+     * **[!UICONTROL Estándares de iconos]**: Especificaciones para el diseño de iconos, incluidos los sistemas de cuadrícula, los pesos de trazo y el tamaño para la uniformidad.
+     * **[!UICONTROL Directrices de uso]**: prácticas recomendadas para la selección, ubicación y contexto de imágenes para mantener la identidad de la marca.
 
 
 
@@ -158,6 +147,6 @@ El siguiente vídeo muestra cómo crear y personalizar sus propias marcas para d
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

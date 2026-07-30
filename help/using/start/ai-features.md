@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: 2521
+source-wordcount: 2514
 ht-degree: 4%
 
 ---
@@ -122,7 +108,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### aptitud para analizar recorridos {#journey-analyze-skill}
 
-[Agente de análisis de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
+[Agente de análisis de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a optimizar el rendimiento del recorrido mediante el análisis de lenguaje natural:
 
 +++**Capacidades clave**
 
@@ -145,7 +131,7 @@ Journey Agent incluye dos habilidades en el asistente de IA: Analizar y Crear. U
 
 #### Recorrido crear aptitud {#journey-create-skill}
 
-El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
+El [Agente de creación de Recorrido](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} le ayuda a generar recorridos a partir de mensajes en lenguaje natural, lo que traduce sus objetivos en configuraciones de recorrido estructuradas:
 
 +++**Capacidades clave**
 
@@ -206,15 +192,15 @@ El [Agente de creación de Recorrido](https://experienceleague.adobe.com/es/docs
 
 ## Generación de contenido con tecnología de IA {#content-generation}
 
-Utilice IA generativa para crear y personalizar el contenido en varios canales, lo que acelera el proceso de creación de contenido y mantiene la coherencia de la marca. El asistente de IA para la generación de contenido está disponible para las experiencias [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) y [web](../web/get-started-web.md), lo que le ayuda a generar líneas de asunto, texto independiente, imágenes y variaciones completas de mensajes.
+Utilice IA generativa para crear y personalizar el contenido en varios canales, lo que acelera el proceso de creación de contenido y mantiene la coherencia de la marca. Generar contenido está disponible para las experiencias [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) y [web](../web/get-started-web.md), lo que le ayuda a generar líneas de asunto, texto independiente, imágenes y variaciones completas de mensajes.
 
 ### Características principales
 
-* **Generación de contenido completo**: genera experiencias de contenido completas (texto e imágenes) en un solo flujo para correo electrónico, web, páginas de aterrizaje y notificaciones push. [Generar contenido completo con el Asistente de IA](../content-management/generative-full-content.md)
+* **Generación de contenido completo**: genera experiencias de contenido completas (texto e imágenes) en un solo flujo para correo electrónico, web, páginas de aterrizaje y notificaciones push. [Generar contenido completo con IA](../content-management/generative-full-content.md)
 * **Generación de texto**: crea una copia atractiva basada en la voz y los objetivos de tu marca. [Generar texto con IA](../content-management/generative-text.md)
 * **Generación de imágenes** - Generar imágenes personalizadas mediante Adobe Firefly. [Generar imágenes con IA](../content-management/generative-image.md)
 * **Variaciones de contenido**: produzca varias variaciones para las pruebas A/B. [Experimento de contenido con IA](../content-management/generative-experimentation.md)
-* **Personalization**: genera nuevas expresiones, explica el código existente o corrige problemas con el Asistente de IA desde el Editor de Personalization o desde la barra de herramientas de Designer de correo electrónico (**Agregar expresión**). [Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
+* **Personalization**: genera nuevas expresiones, explica el código existente o corrige problemas con la generación de contenido desde el editor de Personalization o desde la barra de herramientas de Designer de correo electrónico (**Agregar expresión**). [Generar contenido para expresiones de personalización](../content-management/generative-personalization-expressions.md)
 * **Alineación de marca**: asegúrese de que el contenido generado coincida con las directrices de marca. [Evaluar alineación de marca](../content-management/brands-score.md)
 * **Compatibilidad con plantillas** - Aproveche las plantillas de correo electrónico existentes. [Trabajo con plantillas de contenido](../content-management/content-templates.md)
 
@@ -309,7 +295,7 @@ Solo las reglas y fórmulas de clasificación cuya expresión PQL sea mayor que 
 
 +++**Permisos**
 
-Esta capacidad usa los mismos controles de acceso de IA generativos que **Asistente de IA**. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. [Más información sobre el acceso al Asistente de IA](../content-management/gs-generative.md#generative-access)
+Esta capacidad usa los mismos controles de acceso de IA generativos que **Generar contenido**. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. [Más información acerca del acceso Generar contenido](../content-management/gs-generative.md#generative-access)
 
 +++
 
@@ -363,13 +349,13 @@ Examine los libros de reproducción de Journey Optimizer para conocer escenarios
 
 +++
 
-[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Preguntas frecuentes {#faq}
 
 +++**¿Qué permisos necesito para las características de IA?**
 
-* **[Asistente de IA para la generación de contenido](#content-generation)** - Requiere el permiso &quot;Generar contenido&quot;
+* **[Generar contenido](#content-generation)**: requiere el permiso &quot;Generar contenido&quot;
 * Conocimiento del producto **[Ayudante de IA](#ai-assistant)** - Requiere acuerdo con las Directrices del usuario de IA generativa de Adobe
 * **[Agente de análisis de Recorrido](#journey-analyze-skill)**: requiere permisos de Ver/Administrar Recorridos y Ver/Administrar segmentos
 * **[Agente de creación de Recorrido](#journey-create-skill)**: requiere permisos de administración de Recorridos, visualización de eventos de Recorrido/fuentes de datos/acciones, visualización de segmentos y administración de segmentos
@@ -405,7 +391,7 @@ La mayoría de las funciones de IA se incluyen con Adobe Journey Optimizer. Algu
 >
 >* [¿Qué es Journey Optimizer?](get-started.md) — Información general sobre las funciones clave, los casos de uso y la arquitectura.
 >* [Comprender cómo funciona](understanding-ajo.md) — Cómo Journey Optimizer y Experience Platform trabajan juntos.
->* [Generación de contenido de IA](../content-management/gs-generative.md): genere correos electrónicos, mensajes push, SMS y contenido web con el Asistente de IA.
+>* [Generación de contenido de IA](../content-management/gs-generative.md): genere correos electrónicos, mensajes push, SMS y contenido web con Generar contenido.
 >* [Optimización del tiempo de envío](../building-journeys/send-time-optimization.md): prediga y optimice el tiempo de envío de mensajes por individuo.
 >* [Modelos de IA para la toma de decisiones](../experience-decisioning/ranking/ai-models.md): Clasifique y personalice ofertas automáticamente con modelos de clasificación de IA.
 >* [Trabajar con clientes MCP](../integrations/ajo-mcp.md): consulte campañas, recorridos y ofertas de Claude Web, Claude Desktop o Cursor mediante el servidor MCP de Journey Optimizer.

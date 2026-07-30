@@ -8,29 +8,15 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 94%
+source-wordcount: 1733
+ht-degree: 92%
 
 ---
 
@@ -63,7 +49,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 1. **Crear públicos**. Cree públicos a través de definiciones de segmentos, cargue archivos CSV o utilice la composición de público. Journey Optimizer ofrece varias formas de dirigirse a los clientes adecuados. Más información sobre [públicos](../../audience/about-audiences.md) y [creación de definiciones de segmento](../../audience/creating-a-segment-definition.md).
 
 1. **Contenido de diseño**. Cree mensajes atractivos en todos los canales, incluidos correo electrónico, SMS, push, push web, en la aplicación, web, correo postal y tarjetas de contenido:
-   * Use el **Asistente de IA** para generar contenido de correo electrónico, líneas de asunto e imágenes según las directrices de su marca. [Más información sobre la generación de contenido de IA](../../content-management/gs-generative.md)
+   * Utilice IA para generar contenido de correo electrónico, líneas de asunto e imágenes en función de las directrices de marca. [Más información sobre la generación de contenido de IA](../../content-management/gs-generative.md)
    * **Personalice mensajes** con datos de clientes, contenido dinámico y lógica condicional. [Más información sobre la personalización](../../personalization/personalize.md)
    * **Itere en datos contextuales** para mostrar listas dinámicas a partir de eventos, acciones personalizadas y búsquedas de conjuntos de datos. [Obtenga información sobre cómo iterar datos contextuales](../../personalization/iterate-contextual-data.md)
    * Cree **plantillas de contenido** y **fragmentos** reutilizables para mantener la coherencia de la marca. [Trabajo con plantillas](../../content-management/content-templates.md)
@@ -130,7 +116,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 
 * **Comience con plantillas**: use plantillas prediseñadas y fragmentos de contenido para acelerar la creación y mantener la coherencia
 * **Realice pruebas tempranas y con frecuencia**: obtenga siempre una vista previa del contenido en todos los dispositivos y utilice perfiles de prueba para validar la personalización
-* **Aproveche bien la IA**: use el Asistente para IA para los borradores y las variaciones iniciales, pero siempre revise y perfeccione la voz de su marca
+* **Aproveche bien la IA**: Use la IA para los borradores y las variaciones iniciales, pero siempre revise y perfeccione la voz de su marca
 * **Simplifique**: los mensajes claros y concisos con llamadas a la acción potentes funcionan mejor que los diseños complejos
 
 ### Diseño de recorrido
@@ -235,8 +221,8 @@ Colabore con [administradores](administrator.md) en el acceso y las configuracio
 ## Próximos pasos
 
 1. **Empiece poco a poco**: cree un recorrido de bienvenida simple o una campaña de un solo mensaje para conocer la plataforma
-2. **Aproveche la IA**: use el Asistente de IA para hacer preguntas y acelerar la creación de contenido
-3. **Únase a la comunidad**: conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
+2. **Aprovechar IA**: Use IA para hacer preguntas y acelerar la creación de contenido
+3. **Únase a la comunidad**: conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Explore tutoriales**: vea vídeos paso a paso en [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}
 
 ## Otras guías de funciones {#other-role-guides}

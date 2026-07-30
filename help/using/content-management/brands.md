@@ -8,21 +8,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 TQID: https://experienceleague.adobe.com/z-uBnjTprUGtSOa6yxa7WKs5zc7ZvY5PaF5snrOsGuE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +25,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a crear, configurar, publicar y administrar directrices de marca, incluida la configuración de una marca predeterminada, para que el Asistente de IA pueda generar contenido alineado con la identidad de su marca en Adobe Journey Optimizer.
+**En esta página:** Aprenda a crear, configurar, publicar y administrar directrices de marca, incluida la configuración de una marca predeterminada, para que Generar contenido pueda crear contenido alineado con la identidad de su marca en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +51,7 @@ En [!DNL Journey Optimizer], ahora tiene la opción de introducir y organizar ma
 
 >[!AVAILABILITY]
 >
->Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar el Asistente de IA en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>Debe aceptar el [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar Generar contenido en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 
 ## Acceso a marcas {#generative-access}
@@ -125,7 +117,7 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-18.png)
 
-1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que la guía de marca esté disponible en el Asistente de IA.
+1. Una vez configurada, haz clic en **[!UICONTROL Guardar]** y luego en **[!UICONTROL Publicar]** para que las directrices de marca estén disponibles en Generar contenido.
 
 1. Para hacer modificaciones a tu marca publicada, haz clic en **[!UICONTROL Editar marca]**.
 
@@ -148,7 +140,7 @@ Para crear y administrar las directrices de marca, puede introducir los detalles
 
    ![](assets/brands-6.png)
 
-Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Asistente de IA, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información sobre el Asistente de IA](gs-generative.md)
+Ahora se puede acceder a las directrices de marca desde la lista desplegable **[!UICONTROL Marca]** del menú Generar contenido, lo que le permite generar contenido y recursos alineados con las especificaciones. [Más información acerca de Generar contenido](gs-generative.md)
 
 ![](assets/brands-7.png)
 

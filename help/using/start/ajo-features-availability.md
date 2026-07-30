@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: recorrido optimizer, disponibilidad de funciones, qué está disponible, GA, disponibilidad limitada, versión beta, ciclo vital, fecha de lanzamiento, asignación de derechos, oferta base, campañas, recorridos
 hide: true
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '1878'
+ht-degree: 14%
 
 ---
 
@@ -90,7 +90,7 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 
 | Función | Estado | Se aplica a | Disponible desde | Notas |
 |---------|--------|-----------|-----------------|-------|
-| Fragmentos del recorrido | GA | Recorridos; Campañas y Recorridos | 9 de junio de 2026 | Nodos de recorrido reutilizables; compatibilidad con herramientas de zona protegida |
+| Fragmentos de recorrido | GA | Recorridos; Campañas y Recorridos | 9 de junio de 2026 | Nodos de recorrido reutilizables; compatibilidad con herramientas de zona protegida |
 | Simulación de recorrido | GA | Recorridos; Campañas y Recorridos | 9 de junio de 2026 | Validación de la lógica con usuarios simulados |
 | Optimización de ruta de recorrido: segmentación | GA | Recorridos; Campañas y Recorridos | 8 de junio de 2026 | Segmentación de ruta determinista |
 | Compatibilidad con identificadores adicionales para audiencias externas | GA | Recorridos; Campañas y Recorridos | 11 de junio de 2026 | Composición de audiencias federadas y CSV |
@@ -98,12 +98,12 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 | Actividad de acción en recorridos | GA | Recorridos; Campañas y Recorridos | 20 de febrero de 2026 | Reemplaza las actividades obsoletas del canal nativo |
 | Actividad de decisión de contenido | GA | Recorridos; Campañas y Recorridos | 10 de febrero de 2026 | Anteriormente LA |
 | Horas tranquilas (exclusiones basadas en el tiempo) | GA | Recorridos; Campañas y Recorridos | 29 de enero de 2026 | Anteriormente LA |
-| Asistente de IA para expresiones de recorrido | Beta | Recorridos; Campañas y Recorridos | 3 de junio de 2026 | Beta público |
+| Generación de contenido para expresiones de recorrido | Beta | Recorridos; Campañas y Recorridos | 3 de junio de 2026 | Beta público |
 | Arbitraje del recorrido | LA | Recorridos; Campañas y Recorridos | 24 de febrero de 2026 | Póngase en contacto con su representante de Adobe |
 | Arbitraje de recorrido: modelos de IA | LA | Recorridos; Campañas y Recorridos | Abril de 2026 | Póngase en contacto con su representante de Adobe |
 | Compatibilidad con la búsqueda de conjuntos de datos en recorridos | LA | Recorridos; Campañas y Recorridos | Marzo de 2026 | Para clientes con derecho a la búsqueda de conjuntos de datos |
 | Envío de ondas de mensajes salientes (recorridos) | LA | Recorridos; Campañas y Recorridos | 16 de marzo de 2026 | GA en campañas; LA en recorridos |
-| Recorridos automatizados (activados por eventos) | GA | Recorridos; Campañas y Recorridos | Capacidad principal | Organización 1:1 en tiempo real |
+| Recorridos automatizados (activados por eventos) | GA | Recorridos; Campañas y Recorridos | Capacidad principal | Orquestación 1:1 en tiempo real |
 | Déclencheur de eventos en tiempo real | GA | Recorridos; Campañas y Recorridos | Capacidad principal | — |
 | Leer recorridos de audiencia (basados en audiencias) | GA | Recorridos; Campañas y Recorridos | Capacidad principal | — |
 | Informes de recorridos | GA | Recorridos; Campañas y Recorridos | Capacidad principal | — |
@@ -131,7 +131,7 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 | Integraciones (fuentes de datos de terceros) | GA | Todas las ofertas base | 4 de mayo de 2026 | Anteriormente Beta |
 | Restringir el salto de herencia en fragmentos | GA | Todas las ofertas base | 21 de mayo de 2026 | Bloqueo de fragmentos contra ediciones locales |
 | Integración de Adobe Express | GA | Todas las ofertas base | 23 de abril de 2026 | Anteriormente LA |
-| Asistente de IA para expresiones de personalización | GA | Todas las ofertas base | 13 de abril de 2026 | En el editor de personalización y Email Designer |
+| Generar contenido para expresiones de personalización | GA | Todas las ofertas base | 13 de abril de 2026 | En el editor de personalización y Email Designer |
 | Conversión de imágenes en plantillas de contenido de correo electrónico | GA | Todas las ofertas base | 31 de marzo de 2026 | Anteriormente LA |
 | Formularios personalizados de página de aterrizaje | GA | Todas las ofertas base | 26 de marzo de 2026 | Anteriormente LA (EE.UU. y Australia) |
 | Integración de modelos de imagen personalizados de Firefly y de terceros | GA | Todas las ofertas base | 2 de marzo de 2026 | Adobe, Partner (Gemini) y modelos personalizados |
@@ -141,8 +141,8 @@ Las características de canal, contenido y plataforma marcadas como **Todas las 
 | Correo electrónico de Designer (arrastrar y soltar) | GA | Todas las ofertas base | Capacidad principal | Creación visual y de HTML |
 | Fragmentos de contenido | GA | Todas las ofertas base | Capacidad principal | Bloques de contenido reutilizables |
 | Plantillas de contenido | GA | Todas las ofertas base | Capacidad principal | — |
-| editor de Personalization | GA | Todas las ofertas base | Capacidad principal | Personalización basada en expresiones |
-| Asistente de IA para la generación de contenido | GA | Todas las ofertas base | Capacidad principal | Requiere términos de licencia de IA |
+| Editor de personalización | GA | Todas las ofertas base | Capacidad principal | Personalización basada en expresiones |
+| Generar contenido | GA | Todas las ofertas base | Capacidad principal | Requiere términos de licencia de IA |
 
 >[!TAB Toma de decisiones]
 
