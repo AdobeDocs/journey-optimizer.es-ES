@@ -11,14 +11,14 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 4%
 
 ---
 
-# Diseño de un mensaje móvil {#design-mobile}
+# Diseño de un mensaje de móvil {#design-mobile}
 
 >[!BEGINSHADEBOX]
 
@@ -137,7 +137,7 @@ Para configurar el contenido del mensaje, siga los pasos a continuación. La con
 
    ![](assets/sms-content.png)
 
-1. Genere mensajes móviles atractivos y adaptados a su audiencia con [AI Assistant para generar texto](../content-management/generative-text.md).
+1. Genere mensajes móviles atractivos y adaptados a su audiencia usando [Generar texto con IA](../content-management/generative-text.md).
 
 1. Utilice el editor de personalización para definir contenido, añadir personalización y contenido dinámico. Puede utilizar cualquier atributo, como el nombre del perfil o la ciudad, por ejemplo. También puede definir reglas condicionales. Vaya a las páginas siguientes para obtener más información sobre [personalización](../personalization/personalize.md) y [contenido dinámico](../personalization/get-started-dynamic-content.md) en el editor de personalización.
 

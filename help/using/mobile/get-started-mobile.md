@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -139,7 +139,7 @@ Cree, personalice y administre su contenido de mensajes de Mobile:
 * [Vista previa, prueba y envío de mensajes](send-mobile-message.md)
 * [Personalization en mensajes móviles](../personalization/personalize.md)
 * [Contenido dinámico](../personalization/get-started-dynamic-content.md)
-* [Generación de contenido de SMS con el Asistente de IA](../content-management/generative-text.md)
+* [Generación de contenido SMS con IA](../content-management/generative-text.md)
 
 +++
 

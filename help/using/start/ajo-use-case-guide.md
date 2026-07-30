@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3224'
-ht-degree: 30%
+source-wordcount: '3183'
+ht-degree: 29%
 
 ---
 
@@ -187,7 +187,8 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Bienvenido nuevos clientes {#flow-welcome}
 
-**Creará:** Una serie de bienvenida automatizada que saluda a cada suscriptor nuevo y empuja a los inactivos.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
+**Creará:** Una serie de bienvenida automatizada que saluda a cada suscriptor nuevo y empuja a los inactivos.
+**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
 
 1. Confirme que sus [perfiles y audiencias unificados](../audience/get-started-profiles.md) están recibiendo el evento de registro.
 1. [Cree su primer recorrido](../building-journeys/journey-gs.md) y use el evento de registro como entrada.
@@ -198,7 +199,8 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Recuperar carros abandonados {#flow-cart}
 
-**Creará:** Un flujo de recuperación automatizado que recuerda a los clientes los elementos que se han dejado atrás.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
+**Creará:** Un flujo de recuperación automatizado que recuerda a los clientes los elementos que se han dejado atrás.
+**Ideal para:** especialistas en mercadotecnia · **Capacidad:** recorrido activado por eventos
 
 1. Asegúrese de que el evento de abandono del carro de compras llegue a Journey Optimizer (trabaje con su [equipo de datos](../data/gs-data.md) si es necesario).
 1. [Crear un recorrido](../building-journeys/journey-gs.md) desencadenado por el evento de abandono.
@@ -209,7 +211,8 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Envío de mensajes transaccionales {#flow-transactional}
 
-**Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.**Ideal para:** especialistas en marketing y desarrolladores · **Funcionalidad:** Campaña desencadenada por un sistema externo
+**Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.
+**Ideal para:** especialistas en marketing y desarrolladores · **Capacidad:** Campaña activada por un sistema externo
 
 1. Revise cómo funcionan las [campañas activadas por un sistema externo](../campaigns/api-triggered-campaigns.md) y qué carga útil esperan.
 1. Diseñe la plantilla de mensaje y [personalícela](../personalization/personalize.md) con los detalles de la transacción.
@@ -219,7 +222,8 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Lanzamiento de una campaña con pruebas de contenido {#flow-campaign}
 
-**Crearás:** Una promoción programada que selecciona automáticamente el contenido con mejor rendimiento.**Ideal para:** especialistas en mercadotecnia · **Capacidad:** Campaña programada + experimentación de contenido
+**Crearás:** Una promoción programada que selecciona automáticamente el contenido con mejor rendimiento.
+**Ideal para:** especialistas en mercadotecnia · **Capacidad:** Campaña programada + experimentación de contenido
 
 1. [Empiece a usar las campañas](../campaigns/get-started-with-campaigns.md) y defina su audiencia.
 1. Use [generación de contenido](../content-management/gs-generative.md) para redactar variaciones de línea de asunto y de copia.
@@ -229,7 +233,8 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ### Personalizar ofertas por cliente {#flow-offers}
 
-**Creará:** Una decisión que muestra la mejor oferta para cada cliente.**Óptimo para:** Especialistas en marketing · **Capacidad:** Toma de decisiones
+**Creará:** Una decisión que muestra la mejor oferta para cada cliente.
+**Ideal para:** especialistas en marketing · **Capacidad:** Toma de decisiones
 
 1. [Empiece con Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) y cree sus ofertas y reglas de elegibilidad.
 1. Agregue la decisión a un [recorrido](../building-journeys/journey-gs.md) o mensaje de campaña.
@@ -293,7 +298,7 @@ Cuando se produce una interrupción del servicio, Journey Optimizer identifica a
 
 **Rol:** Especialista en marketing | **Capacidad principal:** [Generación de contenido + experimentación](ai-features.md)
 
-Una marca comercial que planea el lanzamiento de un producto utiliza el asistente de IA de Journey Optimizer para generar varias variaciones de línea de asunto y texto del cuerpo en minutos, guiadas por una indicación en lenguaje natural y sus directrices de marca cargadas. La experimentación de contenido integrada identifica automáticamente la variante con mejor rendimiento entre una muestra de público inicial. El mensaje ganador se implementa a continuación en los destinatarios restantes, lo que maximiza la participación sin esfuerzo adicional de escritura.
+Una marca comercial que planea el lanzamiento de un producto utiliza la función Generar contenido de Journey Optimizer para generar varias variaciones de línea de asunto y copia del cuerpo en minutos, guiadas por un mensaje en lenguaje natural y sus directrices de marca cargadas. La experimentación de contenido integrada identifica automáticamente la variante con mejor rendimiento entre una muestra de público inicial. El mensaje ganador se implementa a continuación en los destinatarios restantes, lo que maximiza la participación sin esfuerzo adicional de escritura.
 
 [Explorar características inteligentes](ai-features.md) | [Más información sobre la experimentación de contenido](../content-management/experiment-accelerator-gs.md)
 
@@ -323,7 +328,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 
 >[!TAB Personalization e inteligencia]
 
-* [Asistente de IA para la generación de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genere copias, imágenes y variaciones.
+* [Generar contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genera copias, imágenes y variaciones.
 * [Use la toma de decisiones para personalizar ofertas web](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}: adapte las ofertas por cliente.
 
 >[!TAB Informes y optimización]

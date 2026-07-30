@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -259,3 +259,27 @@ Aprenda a agregar ofertas personalizadas a un correo electrónico en [esta secci
 >[!IMPORTANT]
 >
 >Si se realizan cambios en una decisión de oferta que se utiliza en el mensaje de un recorrido, se debe cancelar la publicación del recorrido y volver a publicarlo.  Esto garantizará que los cambios se incorporen al mensaje del recorrido y que el mensaje sea coherente con las últimas actualizaciones.
+
+## Cuadrícula {#grid}
+
+Utilice el componente **[!UICONTROL Grid]** para organizar el contenido en una estructura compuesta de filas y columnas, donde cada celda puede contener otros componentes de contenido.
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. Al igual que el componente [Contenedor](#container), arrastre y suelte otros componentes de contenido en cada celda de la cuadrícula.
+
+   Por ejemplo, puede agregar un componente **[!UICONTROL Texto]**, un componente **[!UICONTROL Imagen]** y dos componentes **[!UICONTROL Botón]**. A continuación, puede añadir una imagen y editar el contenido de cada componente individualmente.
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. Para ajustar la estructura de la cuadrícula, selecciónela y vaya a la pestaña **[!UICONTROL Configuración]** del panel derecho de Designer de correo electrónico.
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. Puede definir cuántas columnas y filas contiene la cuadrícula, editar el espaciado entre columnas y filas y cambiar el ancho de cada columna individual en porcentaje.
+
+   >[!NOTE]
+   >
+   >Use la opción **[!UICONTROL No apilar columnas en dispositivos móviles]** para conservar el diseño de la cuadrícula en dispositivos móviles en lugar de apilar columnas verticalmente.
+
+1. Coloque otros componentes de contenido en cada celda según sea necesario y ajuste el estilo desde la pestaña **[!UICONTROL Estilos]** de cada componente.

@@ -22,10 +22,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
+source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
 workflow-type: tm+mt
-source-wordcount: 1213
-ht-degree: 7%
+source-wordcount: 1635
+ht-degree: 5%
 
 ---
 
@@ -49,20 +49,21 @@ Para obtener más información sobre Dynamic Media en Adobe Experience Manager a
 >
 >Para los clientes de atención sanitaria, la integración solo se activa tras obtener la licencia de las ofertas adicionales de Journey Optimizer Healthcare Shield y Adobe Experience Manager Extended Security for Healthcare.
 
+## Consideraciones
+
+* Asegúrese de que Dynamic Media con OpenAPI esté habilitado en Adobe Experience Manager as a Cloud Service. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+
+* La integración de Dynamic Media con Adobe Journey Optimizer está disponible tanto para Dynamic Media [modo Scene7](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} como para [con OpenAPI](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+
+* Para los recursos de Dynamic Media Scene7, Journey Optimizer agrega modificadores predeterminados (`bfc=off&fmt=png-alpha`) al principio de la dirección URL. Si el ajuste preestablecido también establece `fmt` o `bfc`, tiene prioridad, ya que Scene7 utiliza la última aparición de un parámetro repetido. Para evitar resultados inesperados, quite `fmt`/`bfc` del ajuste preestablecido o muévalo antes que los modificadores predeterminados en la dirección URL.
+
+* Por diseño, el selector de recursos devuelve un formato de dirección URL basado en `/images`. Si desea enviar un recurso en su formato original, por ejemplo, GIF o SVG, debe actualizar manualmente la dirección URL para utilizar la ruta de acceso `/content`. Obtenga más información en [Documentación de prácticas recomendadas de Dynamic Media](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}.
+
 
 ## Adición y administración de medios dinámicos {#dynamic-media}
 
-
 Mejore y optimice el contenido para cualquier pantalla o navegador insertando medios dinámicos de Adobe Experience Manager as a Cloud Service directamente en el contenido de Journey Optimizer.  A continuación, puede cambiar el tamaño, recortar, mejorar y realizar otros ajustes según sea necesario.
 
-
->[!IMPORTANT]
->
->Asegúrese de que Dynamic Media con OpenAPI esté habilitado en Adobe Experience Manager as a Cloud Service. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
-
-La integración de Dynamic Media con Adobe Journey Optimizer está disponible tanto para Dynamic Media [modo Scene7](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} como para [con OpenAPI](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
-
-Para los recursos de Dynamic Media Scene7, Journey Optimizer agrega modificadores predeterminados (`bfc=off&fmt=png-alpha`) al principio de la dirección URL. Si el ajuste preestablecido también establece `fmt` o `bfc`, tiene prioridad, ya que Scene7 utiliza la última aparición de un parámetro repetido. Para evitar resultados inesperados, quite `fmt`/`bfc` del ajuste preestablecido o muévalo antes que los modificadores predeterminados en la dirección URL.
 
 <!--
 >[!AVAILABILITY]
@@ -219,6 +220,59 @@ Puede insertar la plantilla dinámica directamente en el contenido mediante el c
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar el mensaje a la audiencia.
+
+## Insertar temporizador de cuenta atrás {#countdown}
+
+Cree conversiones urgentes y maximice las conversiones con los temporizadores de cuenta atrás de Dynamic Media que se actualizan en tiempo real cuando los destinatarios abren sus correos electrónicos. Esta función es ideal para ventas flash, ofertas por tiempo limitado y promociones con distinción de tiempo.
+
+Por ejemplo, como experto en marketing de una marca minorista, realiza una venta flash de 48 horas. Usando el temporizador de cuenta atrás en sus correos electrónicos promocionales:
+
+* Los destinatarios que abren inmediatamente ven &quot;Quedan 47 horas&quot;
+* Los destinatarios que abren 24 horas después ven &quot;Quedan 23 horas&quot;
+* Los destinatarios que abran después de que finalice la venta verán &quot;¡Se acabó el tiempo!&quot;
+
+Para obtener más información sobre cómo agregar temporizadores de cuenta atrás a la plantilla de Dynamic Media en Adobe Experience Manager, consulte [este documento](assets/do-not-localize/countdown.pdf).
+
+
+1. En **[!DNL Adobe Experience Manager]**, cree una plantilla de Dynamic Media y agréguele un componente de temporizador de cuenta atrás.
+
+   ![](assets/timer-1.png)
+
+1. En **[!DNL Journey Optimizer]**, cree una nueva campaña o abra una existente y luego acceda al Designer de correo electrónico.
+
+1. Arrastre y suelte un componente **HTML** o **Asset** en el contenido del correo electrónico.
+
+1. Pase el ratón sobre el componente y haga clic en **[!UICONTROL Mostrar código fuente]** (para componentes de HTML) o **[!UICONTROL Examinar]** (para componentes de recursos).
+
+   ![](assets/timer-2.png)
+
+1. En el menú **[!UICONTROL Editar HTML]**, vaya a **[!UICONTROL Assets]** y haga clic en **[!UICONTROL Abrir selector de recursos]** para examinar y seleccionar la plantilla publicada de Dynamic Media.
+
+   ![](assets/timer-3.png)
+
+1. Active la experiencia de las píldoras cambiando Píldoras a Activado. Esto mejora la legibilidad al ocultar las rutas de atributos largas.
+
+   ![](assets/timer-6.png)
+
+1. En el menú **[!UICONTROL Atributos personalizados]**, configure los parámetros personalizables de URL que sean necesarios para la plantilla.
+
+   Haga clic en **[!UICONTROL Guardar]** cuando termine.
+
+   ![](assets/timer-4.png)
+
+1. También puede acceder a los parámetros de la plantilla de Dynamic Media seleccionando el recurso en Email Designer y, a continuación, accediendo al menú **[!UICONTROL Configuración]**.
+
+   Configure lo siguiente:
+
+   * **Texto del titular**: El texto mostrado con el temporizador
+   * **Hora de finalización**: La fecha y hora en que caduca la cuenta atrás. Introduzca la hora solo en GMT (hora del meridiano de Greenwich). El sistema no acepta otras zonas horarias.
+   * **Texto alternativo**: El mensaje que aparece después de que finalice el temporizador
+
+   ![](assets/timer-5.png)
+
+1. Haga clic en **[!UICONTROL Vista previa]** para ver el temporizador con actualizaciones de cuenta atrás en tiempo real y verificar la configuración.
+
+Cuando los destinatarios abren el correo electrónico, ven el tiempo preciso que queda para la venta flash. Si vuelve a abrir el correo electrónico más tarde, la cuenta atrás se actualiza automáticamente para reflejar el tiempo restante actual. Después de la fecha de finalización, aparece automáticamente el mensaje predeterminado.
 
 ## Vídeo práctico {#video}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guía de solicitud de contenido del Ayudante AI
+title: Generar guía de solicitud de contenido
 description: Aprenda a crear indicadores eficaces para la generación de contenido con tecnología de IA mediante el marco de trabajo CO-STAR para crear contenido de marketing de alta conversión y alineado con la marca.
 topic: Artificial Intelligence
 role: User
@@ -25,18 +25,18 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# Prácticas recomendadas de indicaciones del Asistente de IA {#ai-assistant-prompting-guide}
+# Prácticas recomendadas para generar mensajes de contenido {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a escribir avisos efectivos del Asistente de IA usando el asistente de mensajes y el módulo CO-STAR para generar contenido de marketing de alta conversión y de marca en Adobe Journey Optimizer.
+**En esta página:** Aprenda a escribir avisos de generación de contenido efectivos mediante el asistente de mensajes y el marco de trabajo CO-STAR para generar contenido de marketing de alta conversión y sin marca en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 >abstract="Explore la siguiente documentación de Journey Optimizer para aprender a crear indicaciones eficaces que produzcan contenido de marketing de alta conversión y coherente con la marca."
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de la campaña.
-Aprenda a escribir indicadores eficaces que permitan al asistente de IA generar contenido de marketing de alta calidad y de marca adaptado a sus objetivos.
+Aprenda a escribir indicadores eficaces que le permitan utilizar la IA para generar contenido de marketing de alta calidad y de marca adaptado a sus objetivos.
 
 ## Uso del asistente Preguntar {#prompt-assistant}
 
 El asistente le ayuda a reforzar el símbolo del sistema de apertura para que la generación de contenido necesite menos idas y vueltas. Desde esa primera entrada, puede obtener sugerencias, una reescritura sugerida, mejoras opcionales y preguntas aclaratorias. Las respuestas refinan el indicador que se utiliza para generar el contenido.
 
-1. En el menú **[!UICONTROL Ayudante de IA]**, abra **[!UICONTROL Asistente de preguntas]** para acotar la solicitud antes de generar contenido.
+1. En el menú **[!UICONTROL Generar contenido]**, abra **[!UICONTROL Asistente de mensajes]** para restringir la solicitud antes de generar contenido.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +80,7 @@ Al seguir este flujo de trabajo se establecen los objetivos y el detalle requeri
 
 ## Uso del marco CO-STAR {#costar-framework}
 
-Para obtener los mejores resultados con el asistente de IA, organice las indicaciones mediante el marco de trabajo CO-STAR. Este enfoque estructurado garantiza que la IA entienda exactamente lo que necesita.
+Para obtener los mejores resultados con Generar contenido, organice las indicaciones mediante el marco de trabajo CO-STAR. Este enfoque estructurado garantiza que la IA entienda exactamente lo que necesita.
 
 | Componente | Lo que significa | Por qué importa |
 |-|-|-|

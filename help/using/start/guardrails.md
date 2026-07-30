@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 4612
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -173,7 +173,7 @@ Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md)
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
 * Se puede hacer referencia a un solo evento en un máximo de **25** recorridos al mismo tiempo, en todos los recorridos activos y cerrados. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
 * Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos activos y cerrados a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
-* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través de **Query Service** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
@@ -415,9 +415,9 @@ Journey Optimizer admite un volumen máximo de **500 mensajes transaccionales po
 
 Esta sección trata de las reglas para la creación y administración de contenido, incluidas las páginas de destino, subdominios y fragmentos.
 
-### Mecanismos de protección del asistente de IA {#ai-assistant-g}
+### Generar protecciones de contenido {#ai-assistant-g}
 
-Los mecanismos de protección y las limitaciones para la **generación de contenido del Asistente de IA**, incluidos los canales admitidos (correo electrónico, push, web, SMS) y las limitaciones del editor de personalización, se enumeran en [esta página](../content-management/gs-generative.md#generative-guardrails).
+Las protecciones y limitaciones de **Generar contenido**, incluidos los canales admitidos (correo electrónico, push, web, SMS) y las limitaciones del editor de personalización, se enumeran en [esta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Mecanismos de protección de las páginas de destino {#lp-guardrails}
 

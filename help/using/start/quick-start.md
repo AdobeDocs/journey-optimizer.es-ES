@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Una implementación correcta de Journey Optimizer suele seguir esta secuencia, q
 4. **Experto en marketing**: diseña y ejecuta experiencias de clientes\
    Los expertos en marketing impulsan todo el trabajo básico para crear recorridos, crear contenido y optimizar las experiencias de los clientes en todos los canales.
    * Crear públicos mediante segmentación, carga de CSV o composición de público
-   * Diseño de contenido personalizado con el asistente de IA y plantillas
+   * Diseño de contenido personalizado con plantillas y Generar contenido
    * Creación de recorridos multicanal con activadores de evento y público
    * Probar con flujos de trabajo de aprobación antes del lanzamiento
    * Monitorización del rendimiento y optimización en función de las perspectivas de informes
@@ -270,7 +270,7 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 * [Vídeos de tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}: tutoriales de vídeo paso a paso para todas las funciones
 * [Introducción a la administración de datos](../data/gs-data.md): esquemas, conjuntos de datos, identidades y lista de comprobación de preparación de datos para Journey Optimizer
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación
-* [IA y funciones inteligentes](ai-features.md): obtenga información sobre el asistente de IA, la optimización del tiempo de envío y la generación de contenido
+* [Funciones inteligentes y de IA](ai-features.md): obtenga información sobre IA, optimización del tiempo de envío y generación de contenido
 * [Guía de interfaz de usuario](user-interface.md): navegue por Journey Optimizer de forma eficaz
 
 >[!TAB Manténgase al día]

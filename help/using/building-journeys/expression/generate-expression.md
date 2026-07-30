@@ -11,7 +11,7 @@ badge: label="Beta pública" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1132
 ht-degree: 2%
@@ -94,7 +94,7 @@ Cuando una actividad **[!UICONTROL Wait]** usa una fecha personalizada, usted de
 ## Recursos relacionados {#related}
 
 * [Trabajar con el editor de expresiones avanzadas](expressionadvanced.md): Información general sobre la interfaz del editor de expresiones y sintaxis admitida.
-* [Introducción al Asistente de IA en Journey Optimizer](../../content-management/gs-generative.md): protecciones generales, acceso y configuración para las funciones de IA generativa.
+* [Empiece a generar contenido en Journey Optimizer](../../content-management/gs-generative.md): protecciones generales, acceso y configuración para las funciones de IA generativa.
 
 +++ Referencia de conocimientos de AI
 
@@ -122,7 +122,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Protecciones:**
 
 * Generar expresiones con IA está actualmente en **beta pública**; la disponibilidad y el comportamiento pueden cambiar
-* A esta función se aplican las limitaciones y protecciones de IA generativas de la documentación principal del asistente de IA
+* A esta función se aplican limitaciones y protecciones de IA generativas de la documentación principal de generación de contenido
 * Si el asistente hace referencia a campos que no están presentes en las fuentes de datos del recorrido, devuelve un error: revise el mensaje para utilizar los nombres de campo disponibles
 * La sintaxis de la expresión generada exacta depende de los campos y las actividades configurados en el recorrido específico
 

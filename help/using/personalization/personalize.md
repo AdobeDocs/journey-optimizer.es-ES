@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1402
 ht-degree: 11%
 
 ---
@@ -62,13 +62,13 @@ Este área de reproducción proporciona un entorno simulado para escribir y prob
 
 ➡️ [Acceso al área de reproducción de personalización](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## El Asistente de IA para expresiones de personalización {#ai-personalization-expressions}
+## Generar contenido para expresiones de personalización {#ai-personalization-expressions}
 
-En **[!UICONTROL Personalization Editor]** o en la barra de herramientas de Email Designer (**[!UICONTROL Agregar expresión]**), **[!UICONTROL AI Assistant]** le ayuda a generar nuevas expresiones a partir del lenguaje natural, a explicar qué hace el código existente y a corregir problemas en una selección, y a aplicar la salida cuando coincida con su intención.
+En el **[!UICONTROL Editor de Personalization]** o en la barra de herramientas de Email Designer (**[!UICONTROL Agregar expresión]**), **[!UICONTROL Generar contenido]** le ayuda a generar nuevas expresiones a partir del lenguaje natural, a explicar qué hace el código existente y a corregir problemas en una selección, y a aplicar el resultado cuando coincida con su intención.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
-➡️ [Aprenda a trabajar con el Asistente de IA para expresiones Personalization](../content-management/generative-personalization-expressions.md)
+➡️ [Aprenda a trabajar con Generar contenido para expresiones de personalización](../content-management/generative-personalization-expressions.md)
 
 ## Edición en línea de atributos de perfil {#inline-personalization}
 
@@ -158,14 +158,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **TL;DR**
 
-Esta página presenta la personalización en Journey Optimizer: cómo funciona el editor de personalización basado en Handlebars, qué datos utiliza, el área de reproducción interactiva, el asistente de IA para expresiones y la edición de atributos en línea en el editor de correo electrónico Designer y push.
+Esta página presenta la personalización en Journey Optimizer: cómo funciona el editor de personalización basado en Handlebars, qué datos utiliza, el área de reproducción interactiva, la generación de contenido para expresiones y la edición de atributos en línea en el editor de correo electrónico Designer y push.
 
 **Intenciones**
 
 * Descubra cómo funciona la personalización de Journey Optimizer (sintaxis de Handlebars con llaves dobles)
 * Identifique las fuentes de datos disponibles para la personalización (esquema de perfil individual XDM, atributos calculados, búsqueda de conjuntos de datos AEP en versión beta)
 * Experimente con la personalización mediante el área de reproducción interactiva sin una zona protegida en directo
-* Utilice el asistente de IA para generar, explicar o corregir expresiones de personalización a partir del lenguaje natural
+* Utilice IA para generar, explicar o corregir expresiones de personalización a partir del lenguaje natural
 * Inserte atributos de perfil en línea en el editor de correo electrónico Designer o push escribiendo `{{`
 
 >[!TAB Glosario]
@@ -175,7 +175,7 @@ Esta página presenta la personalización en Journey Optimizer: cómo funciona e
 * **Atributos calculados**: atributos de perfil precalculados que resumen eventos de comportamiento individuales en valores de nivel de perfil; disponibles como datos de personalización junto con campos de perfil XDM estándar. *(específico del producto)*
 * **Personalization playground**: un entorno interactivo y simulado en Experience League para escribir y probar código de personalización con datos de muestra; no se requieren conjuntos de datos activos ni zonas protegidas. *(específico del producto)*
 * **Edición en línea**: la capacidad de escribir `{{` en cualquier campo de texto del editor de canales push o de correo electrónico para almacenar en déclencheur un menú desplegable de autocompletar e insertar atributos de perfil sin abrir el editor de personalización completo. *(específico del producto)*
-* **Asistente de IA (expresiones de personalización)**: herramienta de IA del editor de personalización y Designer de correo electrónico que genera expresiones de personalización a partir del lenguaje natural, explica el código existente y corrige los problemas de una selección. *(específico del producto)*
+* **Generar contenido (expresiones de personalización)**: herramienta de IA en el editor de personalización y Designer de correo electrónico que genera expresiones de personalización a partir del lenguaje natural, explica el código existente y corrige los problemas de una selección. *(específico del producto)*
 
 >[!TAB Terminología]
 
@@ -205,7 +205,7 @@ Un entorno interactivo y simulado en Experience League donde puede escribir y pr
 
 Escriba `{{` en cualquier campo de texto del editor de canales push o de correo electrónico de Designer para abrir un menú desplegable de autocompletar en la posición del cursor. Empiece a escribir para filtrar los atributos de perfil y, a continuación, seleccione uno para insertarlo como token de personalización. Solo los atributos de perfil están disponibles en línea.
 
-**Q: ¿Qué puede hacer el Asistente de IA en el editor de personalización?**
+**Q: ¿Qué puede hacer Generar contenido en el editor de personalización?**
 
 Puede generar nuevas expresiones de personalización a partir de descripciones en lenguajes naturales, explicar lo que hace el código existente y corregir problemas en una expresión seleccionada. A continuación, aplique el resultado cuando coincida con la intención.
 

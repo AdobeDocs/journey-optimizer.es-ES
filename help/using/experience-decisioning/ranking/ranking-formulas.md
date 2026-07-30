@@ -22,7 +22,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 2024
 ht-degree: 4%
@@ -337,7 +337,7 @@ Para cada variante seleccionada, la simulación devuelve un resultado ordenado:
 
 >[!NOTE]
 >
->La optimización de fórmulas con tecnología de IA se basa en las mismas capacidades de IA generativa que **AI Assistant** y usa los mismos controles de acceso. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. Para obtener más información, consulte [Acceder al asistente de IA](../../content-management/gs-generative.md#generative-access).
+>La optimización de fórmulas con tecnología de IA se basa en las mismas capacidades de IA generativa que **Generar contenido** y usa los mismos controles de acceso. A los usuarios se les debe otorgar el permiso **[!UICONTROL Generar contenido]** en el recurso **[!UICONTROL Asistente de IA]**. Para obtener más información, consulte [Acceder a generar contenido](../../content-management/gs-generative.md#generative-access).
 
 Para optimizar una fórmula de clasificación:
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: optimizador de recorrido, incorporación, centro de incorporación, casos de uso, vídeos, tutoriales, introducción, ampliación, primer recorrido
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 
 >[!TAB Personalization y IA]
 
-* [Asistente de IA para la generación de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genere copias, imágenes y variaciones.
+* [Generar contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genera copias, imágenes y variaciones.
 * [Use la toma de decisiones para personalizar ofertas web](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}: adapte las ofertas por cliente.
 
 >[!TAB Informes y optimización]
@@ -156,7 +156,7 @@ Para obtener una descripción general completa de cómo funcionan juntas estas f
 
 ## Recursos relacionados {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [Migrar contenido y recorridos](migrate-content-and-journeys.md): importe contenido y recorridos de correo electrónico desde otra plataforma de marketing.
 * [Encuentre la capacidad de Journey Optimizer adecuada para su objetivo](ajo-use-case-guide.md): guía de decisión para cada capacidad basada en objetivos.
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación.
 * [Terminología clave](terminology.md): aclare los conceptos subyacentes a cada capacidad.

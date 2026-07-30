@@ -30,10 +30,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
-source-wordcount: 344
-ht-degree: 100%
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+workflow-type: tm+mt
+source-wordcount: 341
+ht-degree: 98%
 
 ---
 
@@ -103,9 +103,9 @@ Se pueden crear envíos de correo electrónico de la siguiente manera:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../content-management/generative-full-content.md">
-<img alt="Asistente de IA" src="../assets/do-not-localize/email-generate.jpg">
+<img alt="Generar contenido" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-full-content.md"><strong>Asistente de IA para la generación de contenido</strong>
+<div><a href="../content-management/generative-full-content.md"><strong>Generar contenido</strong>
 </div>
 <p>
 </td>

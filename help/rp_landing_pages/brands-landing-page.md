@@ -5,16 +5,16 @@ title: Marcas
 description: Aprenda a crear, administrar y personalizar directrices para la marca en Journey Optimizer para garantizar un contenido coherente con la marca en todas sus campañas.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 86%
+source-wordcount: '296'
+ht-degree: 77%
 
 ---
 
 # Marcas{#section-overview}
 
-En Adobe Journey Optimizer, la función “Marcas” le permite definir y mantener la identidad única de su marca en todos sus esfuerzos de marketing. Gracias a la configuración de directrices visuales y verbales claras, como colores, logotipos, estilos de escritura e imágenes, tendrá la garantía de que cada parte del contenido conecta con su público y refuerza su marca. Explorará cómo crear y personalizar estas directrices, establecer preferencias predeterminadas para una integración perfecta y utilizar herramientas como el asistente de IA para generar contenido coherente en la marca. Profundice en temas como el estilo de escritura, el contenido visual y la alineación con la marca para ver cómo estos elementos funcionan conjuntamente para crear una experiencia unificada para sus clientes.
+En Adobe Journey Optimizer, la función “Marcas” le permite definir y mantener la identidad única de su marca en todos sus esfuerzos de marketing. Gracias a la configuración de directrices visuales y verbales claras, como colores, logotipos, estilos de escritura e imágenes, tendrá la garantía de que cada parte del contenido conecta con su público y refuerza su marca. Explorará cómo crear y personalizar estas directrices, establecer preferencias predeterminadas para una integración perfecta y utilizar herramientas como Generar contenido para generar contenido coherente en la marca. Profundice en temas como el estilo de escritura, el contenido visual y la alineación con la marca para ver cómo estos elementos funcionan conjuntamente para crear una experiencia unificada para sus clientes.
 
 ## Características de las marcas
 

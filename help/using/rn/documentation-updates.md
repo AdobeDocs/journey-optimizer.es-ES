@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
+source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
 workflow-type: tm+mt
-source-wordcount: 9688
+source-wordcount: 9725
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* La sección de componentes **Grid** se ha agregado a la página **Componentes de contenido de Designer de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
 
 * La documentación de **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro del mismo entorno limitado o a uno diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 

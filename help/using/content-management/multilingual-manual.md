@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 
    +++
 
+1. Una vez creada una condición para una configuración regional, puede volver a utilizarla para otras configuraciones regionales en lugar de volver a crearla desde cero. Haga clic en **[!UICONTROL Copiar en...]** y, a continuación, seleccione una o varias configuraciones regionales de destino a las que aplicar la condición.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >Copiar una condición sobrescribe cualquier condición existente en las configuraciones regionales de destino seleccionadas.
+
 1. Arrastre y suelte las configuraciones regionales para reordenarlas y administrar su prioridad en la lista.
 
 1. Para eliminar una configuración regional, haga clic en el icono de la bandeja.
@@ -152,6 +160,10 @@ En esta sección, puede establecer las distintas configuraciones regionales para
 1. Haz clic en **[!UICONTROL Enviar]** para crear tu **[!UICONTROL configuración de idioma]**.
 
 Tenga en cuenta que después de configurar las preferencias de idioma, ya no tendrá la opción de editarlas.
+
+Para agregar una configuración regional o cambiar las condiciones de una **[!UICONTROL configuración de idioma]** activa, acceda a ![](assets/do-not-localize/Smock_More_18_N.svg) y seleccione **[!UICONTROL Duplicar]**. Esto crea una copia de la configuración existente que puede editar a continuación.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: El Asistente de IA para expresiones de personalización
-description: Aprenda a utilizar el Asistente de IA en Journey Optimizer para generar expresiones de personalización a partir del lenguaje natural en el Editor de Personalization y cómo funciona el control Añadir expresión en el Designer de correo electrónico.
+title: Generar contenido para expresiones de personalización
+description: Aprenda a utilizar Generar contenido en Journey Optimizer para generar expresiones de personalización a partir del lenguaje natural en el Editor de Personalization y cómo funciona el control Añadir expresión en el Designer de correo electrónico.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -12,41 +12,42 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1540
-ht-degree: 2%
+source-wordcount: 1541
+ht-degree: 1%
 
 ---
 
-# El Asistente de IA para expresiones de personalización{#generative-personalization-expressions}
+# Generar contenido para expresiones de personalización{#generative-personalization-expressions}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a utilizar el Asistente de IA en Adobe Journey Optimizer para generar, corregir y explicar expresiones de personalización a partir del lenguaje natural en el Editor de Personalization y en el Designer de correo electrónico.
+**En esta página:** Aprenda a utilizar Generar contenido en Adobe Journey Optimizer para generar, corregir y explicar expresiones de personalización a partir del lenguaje natural en el Editor de Personalization y en el Designer de correo electrónico.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+></br>
 >
->Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar el Asistente de IA en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar Generar contenido en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 ## Información general {#where-available}
 
-[!UICONTROL Ayudante de IA] le ayuda a generar una nueva personalización a partir de un lenguaje sencillo, a explicar lo que hacen las expresiones existentes y a solucionar problemas en el código seleccionado, de modo que dedique menos tiempo a la sintaxis y a la detección manual de campos. También puede iterar en una selección o solicitar otros cambios en la conversación. Está disponible de dos maneras:
+[!UICONTROL Generar contenido] le ayuda a generar una nueva personalización a partir del lenguaje sin formato, explicar lo que hacen las expresiones existentes y corregir problemas en el código seleccionado, de modo que dedique menos tiempo a la sintaxis y a la detección manual de campos. También puede iterar en una selección o solicitar otros cambios en la conversación. Está disponible de dos maneras:
 
 * **[!UICONTROL Editor de Personalization]**: siempre que el editor esté disponible en los canales (línea de asunto, cuerpo y otros campos que lo abran). Esta es la ruta general para la personalización asistida por IA. Para saber dónde y cómo abrir el editor, consulte [Agregar personalización](../personalization/personalization-build-expressions.md#where).
 * **Barra de herramientas de Designer de correo electrónico**: cuando crea correos electrónicos en el Designer de correo electrónico, selecciona un componente y utiliza **[!UICONTROL Agregar expresión]** en la barra de herramientas contextual para abrir el asistente en una caja de herramientas sin abrir primero el editor completo. Este punto de entrada no está disponible fuera de la creación de correo electrónico. Ver [Generar desde el Designer de correo electrónico](#generate-email-designer).
 
-Para obtener información sobre la configuración y los idiomas del Asistente de IA, consulte [Introducción al Asistente de IA](gs-generative.md). Para ver los conceptos de personalización, consulte [Introducción a la personalización](../personalization/personalize.md). Para escribir mensajes que produzcan expresiones utilizables, vea [Escribir mensajes efectivos para expresiones de personalización](#prompt-best-practices). Para obtener ideas rápidas de generación de contenido (tono, estilo, marca), consulte [Prácticas recomendadas de mensajes de IA](ai-assistant-prompting-guide.md).
+Para obtener información más amplia sobre la configuración y los idiomas de la generación de contenido, consulte [Introducción a la generación de contenido](gs-generative.md). Para ver los conceptos de personalización, consulte [Introducción a la personalización](../personalization/personalize.md). Para escribir mensajes que produzcan expresiones utilizables, vea [Escribir mensajes efectivos para expresiones de personalización](#prompt-best-practices). Para obtener ideas de mensajes para generar contenido (tono, estilo, marca), consulte [Prácticas recomendadas para generar mensajes de contenido](ai-assistant-prompting-guide.md).
 
 Según el contexto de su campaña o recorrido, el asistente puede trabajar con datos y construir el [!UICONTROL Editor de Personalization] que ya expone, por ejemplo atributos de perfil, pertenencia a segmentos, funciones de ayuda y fuentes de personalización relacionadas.
 
 >[!NOTE]
 >
->El asistente mantiene el contexto alejado de los mensajes mientras [!UICONTROL AI Assistant] permanece abierto en esa sesión. Al cerrar el asistente o el editor, se borra la conversación; la próxima vez que abra el asistente, iniciará una nueva conversación.
+>El asistente mantiene el contexto alejado de los mensajes mientras [!UICONTROL Generar contenido] permanece abierto en esa sesión. Al cerrar el asistente o el editor, se borra la conversación; la próxima vez que abra el asistente, iniciará una nueva conversación.
 
 ## Generar expresiones de personalización {#generate}
 
@@ -54,7 +55,7 @@ Estos pasos cubren la generación de expresiones de personalización desde cero.
 
 1. En el mensaje o el contenido, abra **[!UICONTROL Personalization Editor]**.
 
-1. Coloque el cursor en el editor donde desee insertar el código de personalización generado y, a continuación, haga clic en el botón **[!UICONTROL Ayudante de IA]**.
+1. Coloque el cursor en el editor donde desee insertar el código de personalización generado y, a continuación, haga clic en el botón **[!UICONTROL Generar contenido]**.
 
    ![](assets/ai-perso-access.png)
 
@@ -92,21 +93,21 @@ Estos pasos cubren la generación de expresiones de personalización desde cero.
    >
    >Este control sirve para comprobar rápidamente el código personalizado en el editor, no para obtener una vista previa completa del mensaje del contenido. Para validar completamente la experiencia, utilice el flujo de simulación habitual. [Obtenga información sobre cómo obtener una vista previa y probar el contenido](../content-management/preview-test.md)
 
-1. Para implementar el resultado en su expresión personalizada, haga clic en **[!UICONTROL Aplicar]**. La salida del asistente se inserta en la ubicación del cursor en el editor de personalización. Para reemplazar el código que ya está allí, selecciónelo primero en el editor y, a continuación, usa **[!UICONTROL Editar con el Asistente para IA]** (consulta [Editar, corregir o explicar el código existente](#edit-existing)).
+1. Para implementar el resultado en su expresión personalizada, haga clic en **[!UICONTROL Aplicar]**. La salida del asistente se inserta en la ubicación del cursor en el editor de personalización. Para reemplazar el código que ya está allí, selecciónelo primero en el editor y, a continuación, usa **[!UICONTROL Editar con Generar contenido]** (consulta [Editar, corregir o explicar el código existente](#edit-existing)).
 
    También puede copiar el resultado y pegarlo donde lo necesite utilizando el icono ![Copiar icono](../orchestrated/assets/do-not-localize/activity-copy.svg).
 
 ## Editar, corregir o explicar el código existente {#edit-existing}
 
-Puede seleccionar una expresión de personalización existente y utilizar el Asistente de IA para solucionar problemas de personalización, explicar lo que hace el código o solicitar otros cambios.
+Puede seleccionar una expresión de personalización existente y utilizar Generar contenido para solucionar problemas de personalización, explicar lo que hace el código o solicitar otros cambios.
 
 1. Seleccione código de personalización existente en el editor.
 
-1. Haga clic con el botón derecho en la selección y elija **[!UICONTROL Editar con el asistente de IA]** para que el asistente use su selección como contexto.
+1. Haga clic con el botón derecho en la selección y elija **[!UICONTROL Editar con Generar contenido]** para que el asistente use su selección como contexto.
 
    ![](assets/ai-perso-right-click.png)
 
-1. Se abre **[!UICONTROL Asistente de IA]**. En **[!UICONTROL Comandos rápidos]**, haga clic en **[!UICONTROL Explicar]** o **[!UICONTROL Corregir]**, o use el campo de texto para solicitar otros cambios e iniciar una conversación.
+1. Se abre **[!UICONTROL Generar contenido]**. En **[!UICONTROL Comandos rápidos]**, haga clic en **[!UICONTROL Explicar]** o **[!UICONTROL Corregir]**, o use el campo de texto para solicitar otros cambios e iniciar una conversación.
 
    ![](assets/ai-perso-edit.png)
 
@@ -122,7 +123,7 @@ Puede seleccionar una expresión de personalización existente y utilizar el Asi
 >
 >Esta sección se aplica solamente cuando edita el contenido de **email** en el Designer de correo electrónico. Para otros canales, usa **[!UICONTROL Personalization Editor]**.
 
-En el Designer de correo electrónico, puede usar el [!UICONTROL Asistente de IA para expresiones de personalización] desde la barra de herramientas contextual sin abrir primero el [!UICONTROL Editor de Personalization] completo.
+En Email Designer, puede usar [!UICONTROL Generar contenido para expresiones de personalización] desde la barra de herramientas contextual sin abrir primero el [!UICONTROL Editor de Personalization] completo.
 
 1. En el Designer de correo electrónico, seleccione el componente que desea personalizar y haga clic en la ubicación en la que desea insertar la expresión.
 
@@ -130,7 +131,7 @@ En el Designer de correo electrónico, puede usar el [!UICONTROL Asistente de IA
 
    ![](assets/ai-perso-add-expression.png)
 
-1. Se abrirá un cuadro de herramientas en el que puede solicitar al Ayudante de IA que lo personalice. Escriba lo que necesite en lenguaje sencillo, el asistente sugerirá campos de perfil y otros atributos que coincidan con el mensaje para que pueda crear la expresión más rápido.
+1. Se abrirá un cuadro de herramientas en el que puede solicitar la personalización de Generar contenido. Escriba lo que necesite en lenguaje sencillo, el asistente sugerirá campos de perfil y otros atributos que coincidan con el mensaje para que pueda crear la expresión más rápido.
 
 1. El asistente genera la expresión.
 

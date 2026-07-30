@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a diseñar el contenido de su página de aterrizaje en el diseñador de contenido, desde cero con el Asistente de IA, con su propia HTML o desde una plantilla guardada, para una experiencia del visitante de marca.
+**En esta página:** Aprenda a diseñar el contenido de su página de aterrizaje en el diseñador de contenido (desde cero, con IA, con su propia HTML o desde una plantilla guardada) para una experiencia del visitante de marca.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ A partir de ahí, puede realizar lo siguiente:
 
 * **Diseña tu página de aterrizaje desde cero** a través de la interfaz del diseñador de contenido y aprovecha las imágenes de [Adobe Experience Manager Assets](../integrations/assets.md). Aprenda a diseñar el contenido <!--or use built-in templates--> [en esta sección](../email/content-from-scratch.md).
 
-* **Genere contenido con el Asistente de IA** para acelerar la creación de páginas de aterrizaje con texto e imágenes generados por IA. [Más información sobre el Asistente de IA](../content-management/generative-full-content.md).
+* **Genere contenido con IA** para acelerar la creación de páginas de aterrizaje con texto e imágenes generados por IA. [Más información acerca de Generar contenido](../content-management/generative-full-content.md).
 
 * **Codifique o pegue HTML sin procesar** directamente en el diseñador de contenido. Aprenda a codificar su propio contenido [en esta sección](../email/code-content.md).
 

@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
 workflow-type: tm+mt
 source-wordcount: 1937
 ht-degree: 22%
@@ -104,7 +104,7 @@ Cuando un extremo tiene un tiempo de respuesta mayor de 0,75 segundos, sus llama
 
 Este servicio de acción personalizada lenta aplica un límite de 150 000 llamadas cada 30 segundos. El límite se aplica mediante una ventana deslizante, que puede comenzar en cualquier milisegundo dentro de ese período de 30 segundos. Una vez que la ventana está llena, las llamadas adicionales se rechazan con errores de límite. El sistema no espera al siguiente intervalo fijo, pero comienza la restricción inmediatamente después de alcanzar el umbral de 30 segundos.
 
-Además, para ayudar a evitar la sobrecarga de un extremo ya lento, el servicio de acción personalizada lenta limita temporalmente todas las llamadas durante hasta 5 minutos si más del 20 % de las llamadas en cualquier ventana de 120 segundos superan los 10 segundos. Este mecanismo de disyuntor solo se aplica si hay al menos 200 llamadas en la ventana de 130 segundos. Esta protección está disponible actualmente en algunas regiones y se está extendiendo progresivamente a todas las regiones en los próximos días.
+Además, para ayudar a evitar la sobrecarga de un extremo ya lento, el servicio de acción personalizada lenta limita temporalmente todas las llamadas durante hasta 5 minutos si más del 20 % de las llamadas en cualquier ventana de 120 segundos superan los 10 segundos. Este mecanismo de disyuntor solo se aplica si hay al menos 200 llamadas en la ventana de 120 segundos. Esta protección está disponible actualmente en algunas regiones y se está extendiendo progresivamente a todas las regiones en los próximos días.
 
 Dado que los extremos lentos pueden causar retrasos en todas las acciones en cola de la canalización, se recomienda no configurar acciones personalizadas con extremos que tengan tiempos de respuesta lentos. El enrutamiento de estas acciones al servicio lento ayuda a proteger el rendimiento general del sistema y evita una latencia adicional para otras acciones personalizadas.
 
