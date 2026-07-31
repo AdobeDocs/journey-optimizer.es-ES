@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
+source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 8%
@@ -45,7 +45,7 @@ CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de f
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -233,68 +233,6 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Definir tono**: especifique el tono deseado (cordial, formal, informal, urgente).
 1. **Iterar y refinar**: use la acción de regeneración para refinar el contenido hasta que cumpla con sus requisitos.
 
-## Aptitudes de fidelización {#loyalty-skills}
-
-### Administración de desafío de fidelización {#loyalty-challenge-management}
-
->[!AVAILABILITY]
->
->Las habilidades de fidelización están disponibles en CX Coworker para las organizaciones elegibles. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de colaborador de CX.
-
-La administración de retos de fidelidad permite a los usuarios de Journey Optimizer crear y gestionar retos de fidelidad en CX Coworker utilizando indicaciones en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
-
-#### Casos de uso clave
-
-1. **Desafío de incorporación de varios pasos**
-
-   &quot;Cree un desafío llamado &quot;KickStart de cuenta nueva&quot; para los clientes recién inscritos que les exija completar estos pasos en orden: abra una cuenta corriente, encuéntrela con al menos 500 dólares y descargue la aplicación móvil. Cuando se hayan realizado todos los pasos, recompénselos con 5000 puntos de bonificación. Ejecútelo desde el 1 de septiembre hasta el 31 de octubre, zona horaria del este&quot;.
-
-1. **Desafío del umbral de actividad acumulativa**
-
-   &quot;Cree un desafío llamado &quot;Pasar y ganar verano&quot; para los titulares de tarjetas en el que los miembros ganan un crédito de estado de cuenta de 50 dólares una vez que gastan 1.500 dólares en su tarjeta de crédito durante el tercer trimestre. Comience el 1 de julio, zona horaria del este&quot;.
-
-1. **Desafío de racha de frecuencia**
-
-   &quot;Cree un desafío llamado &quot;Frequent Flyer Sprint&quot; para miembros de nivel elite que requiere 3 vuelos al mes durante dos meses consecutivos. Recompense la finalización con una extensión de estado de nivel y 10.000 millas de bonificación. Empieza el primero del mes que viene, zona horaria del Pacífico&quot;.
-
-1. **Desafío de acción de calificación único**
-
-   &quot;Configure un desafío llamado &quot;Go Paperless&quot; que recompensa a los suscriptores pospago con 500 puntos de bonificación después de que se inscriban en pago automático y cambien a la facturación electrónica dentro de los 30 días. Comience el primero del mes que viene, zona horaria central&quot;.
-
-1. **Desafío de objetivo de participación/consumo**
-
-   &quot;Crea un desafío llamado &quot;Distintivo del explorador&quot; para los miembros que les exige completar 5 actividades en al menos 3 categorías diferentes durante el mes de agosto. Recompénsalos con 1.000 puntos y una insignia &quot;Explorer&quot; al finalizar. Comienza el 1 de agosto, zona horaria de la montaña&quot;.
-
-1. **Desafío de acción diaria**
-
-   &quot;Ayúdame a crear un desafío para los amantes del matcha que requiere que vengan a la tienda todos los días esta semana y compren una bebida de matcha. Su recompensa debería ser de 200 puntos extra si completan el desafío. Llámalo &quot;Loco por Matcha&quot;, usa SKU matcha-001, empieza el lunes de la semana que viene, zona horaria del este&quot;.
-
-#### Aptitudes en el ámbito
-
-La administración de retos de fidelización admite las siguientes funciones:
-
-* **Creación de desafío**: cree una configuración de desafío a partir del lenguaje natural (audiencia, criterios de acción, tiempo, recompensa, nombre).
-* **Actualizaciones de desafío**: modifique los detalles del desafío mediante mensajes iterativos.
-* **Publicación de desafío**: publique las configuraciones de desafío admitidas directamente desde la conversación.
-* **Visibilidad del contexto del desafío**: recupere y revise la información del desafío mientras realiza la iteración.
-
-#### Aptitudes fuera del ámbito
-
-Actualmente no se admiten las siguientes funcionalidades:
-
-* Desafío de eliminación
-* Perspectivas de fidelización y habilidades de recomendaciones
-* Automatización completa de la creación de contenido para la mensajería de desafío en todos los casos
-
-#### Impulso de las prácticas recomendadas
-
-1. **Asígnele un nombre**: escriba un título claro y fácil de recordar entre comillas.
-1. **Especifique la audiencia**: quién califica (por ejemplo, todos los miembros, un nivel, un segmento, nuevos inscritos, titulares de tarjeta y suscriptores).
-1. **Defina la acción y cuánto**: Qué deben hacer los miembros, y la frecuencia, umbral o secuencia que cuenta como finalización.
-1. **Establecer la ventana de tiempo**: Una fecha de inicio (y de finalización si es de duración fija) más la zona horaria.
-1. **Indica la recompensa**: Puntos, millas, créditos de extractos, extensiones de estado, cupones o beneficios otorgados al finalizar.
-1. **Haga referencia al evento correspondiente**: indique el SKU, el producto, la acción de la cuenta o el evento de participación específico que rastrea el desafío.
-
 ### Análisis de recorrido {#journey-analyze}
 
 Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
@@ -395,8 +333,71 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 * **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 * **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
+## Aptitudes de fidelización {#loyalty-skills}
+
+### Administración de desafío de fidelización {#loyalty-challenge-management}
+
+>[!AVAILABILITY]
+>
+>Las habilidades de fidelización están disponibles en CX Coworker para las organizaciones elegibles. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de colaborador de CX.
+
+La administración de retos de fidelidad permite a los usuarios de Journey Optimizer crear y gestionar retos de fidelidad en CX Coworker utilizando indicaciones en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
+
+#### Casos de uso clave
+
+1. **Desafío de incorporación de varios pasos**
+
+   &quot;Cree un desafío llamado &quot;KickStart de cuenta nueva&quot; para los clientes recién inscritos que les exija completar estos pasos en orden: abra una cuenta corriente, encuéntrela con al menos 500 dólares y descargue la aplicación móvil. Cuando se hayan realizado todos los pasos, recompénselos con 5000 puntos de bonificación. Ejecútelo desde el 1 de septiembre hasta el 31 de octubre, zona horaria del este&quot;.
+
+1. **Desafío del umbral de actividad acumulativa**
+
+   &quot;Cree un desafío llamado &quot;Pasar y ganar verano&quot; para los titulares de tarjetas en el que los miembros ganan un crédito de estado de cuenta de 50 dólares una vez que gastan 1.500 dólares en su tarjeta de crédito durante el tercer trimestre. Comience el 1 de julio, zona horaria del este&quot;.
+
+1. **Desafío de racha de frecuencia**
+
+   &quot;Cree un desafío llamado &quot;Frequent Flyer Sprint&quot; para miembros de nivel elite que requiere 3 vuelos al mes durante dos meses consecutivos. Recompense la finalización con una extensión de estado de nivel y 10.000 millas de bonificación. Empieza el primero del mes que viene, zona horaria del Pacífico&quot;.
+
+1. **Desafío de acción de calificación único**
+
+   &quot;Configure un desafío llamado &quot;Go Paperless&quot; que recompensa a los suscriptores pospago con 500 puntos de bonificación después de que se inscriban en pago automático y cambien a la facturación electrónica dentro de los 30 días. Comience el primero del mes que viene, zona horaria central&quot;.
+
+1. **Desafío de objetivo de participación/consumo**
+
+   &quot;Crea un desafío llamado &quot;Distintivo del explorador&quot; para los miembros que les exige completar 5 actividades en al menos 3 categorías diferentes durante el mes de agosto. Recompénsalos con 1.000 puntos y una insignia &quot;Explorer&quot; al finalizar. Comienza el 1 de agosto, zona horaria de la montaña&quot;.
+
+1. **Desafío de acción diaria**
+
+   &quot;Ayúdame a crear un desafío para los amantes del matcha que requiere que vengan a la tienda todos los días esta semana y compren una bebida de matcha. Su recompensa debería ser de 200 puntos extra si completan el desafío. Llámalo &quot;Loco por Matcha&quot;, usa SKU matcha-001, empieza el lunes de la semana que viene, zona horaria del este&quot;.
+
+#### Aptitudes en el ámbito
+
+La administración de retos de fidelización admite las siguientes funciones:
+
+* **Creación de desafío**: cree una configuración de desafío a partir del lenguaje natural (audiencia, criterios de acción, tiempo, recompensa, nombre).
+* **Actualizaciones de desafío**: modifique los detalles del desafío mediante mensajes iterativos.
+* **Publicación de desafío**: publique las configuraciones de desafío admitidas directamente desde la conversación.
+* **Visibilidad del contexto del desafío**: recupere y revise la información del desafío mientras realiza la iteración.
+
+#### Aptitudes fuera del ámbito
+
+Actualmente no se admiten las siguientes funcionalidades:
+
+* Desafío de eliminación
+* Perspectivas de fidelización y habilidades de recomendaciones
+* Automatización completa de la creación de contenido para la mensajería de desafío en todos los casos
+
+#### Impulso de las prácticas recomendadas
+
+1. **Asígnele un nombre**: escriba un título claro y fácil de recordar entre comillas.
+1. **Especifique la audiencia**: quién califica (por ejemplo, todos los miembros, un nivel, un segmento, nuevos inscritos, titulares de tarjeta y suscriptores).
+1. **Defina la acción y cuánto**: Qué deben hacer los miembros, y la frecuencia, umbral o secuencia que cuenta como finalización.
+1. **Establecer la ventana de tiempo**: Una fecha de inicio (y de finalización si es de duración fija) más la zona horaria.
+1. **Indica la recompensa**: Puntos, millas, créditos de extractos, extensiones de estado, cupones o beneficios otorgados al finalizar.
+1. **Haga referencia al evento correspondiente**: indique el SKU, el producto, la acción de la cuenta o el evento de participación específico que rastrea el desafío.
+
+
 <!--
-Journey analysis new skills to document:
+Journey new skills to document:
 
 Journey Custom Action Error Analysis
 - Identify when custom actions are failing or error rates spike within a journey.
@@ -490,6 +491,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
