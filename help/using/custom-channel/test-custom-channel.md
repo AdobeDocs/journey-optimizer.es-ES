@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ Antes de activar un recorrido o una campaña que utilice un canal personalizado,
 
 Mientras un canal personalizado está en estado **[!UICONTROL Borrador]**, usa el botón **[!UICONTROL Probar]** del Generador de canales para enviar una solicitud de prueba a tu punto final y validar la conexión de extremo a extremo antes de activarla. [Más información](create-custom-channel.md#test-connection)
 
+![Botón de conexión de prueba](assets/custom_channel_test_connection.png){width="70%"}
+
 Esta prueba confirma:
 
 * Que se puede acceder al extremo desde las direcciones IP salientes de [!DNL Journey Optimizer].
@@ -35,7 +37,13 @@ Esta prueba confirma:
 
 Compruebe los registros del sistema externo para confirmar que la solicitud de prueba se recibió con los encabezados y la estructura de carga esperados.
 
-## Simulación del contenido con perfiles de prueba {#simulate-content}
+## Previsualización y prueba de la experiencia de canal personalizada {#preview-test}
+
+Una vez creada una experiencia de canal personalizada, puede validar la entrega de extremo a extremo del contenido personalizado antes de activar un recorrido o una campaña.
+
+Utilice las siguientes funciones para previsualizar y probar la carga útil del canal personalizado y verificar la experiencia de extremo a extremo.
+
+### Simulación del contenido con perfiles de prueba {#simulate-content}
 
 La característica **[!UICONTROL Simular contenido]** resuelve las expresiones de personalización con perfiles de prueba para que pueda inspeccionar la carga útil exacta que se enviará antes de que se envíe un mensaje real.
 
@@ -50,17 +58,23 @@ La característica **[!UICONTROL Simular contenido]** resuelve las expresiones d
    * Se rellenan los campos de carga útil requeridos.
    * Las funciones de ayuda producen el resultado formateado esperado.
 
+   ![Simular contenido con perfiles de prueba](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >Realice pruebas con varios perfiles que representen diferentes segmentos de audiencia para detectar casos extremos; por ejemplo, perfiles a los que les faltan atributos opcionales, conjuntos de caracteres no latinos o valores nulos en campos personalizados.
 
-## Envío de una prueba {#send-proof}
+Obtenga más información sobre cómo obtener una vista previa y probar contenido en [esta sección](../content-management/preview-test.md).
+
+### Envío de una prueba {#send-proof}
 
 Para validar la entrega de extremo a extremo antes de activarlo, envíe una prueba a un conjunto de destinatarios de prueba:
 
 1. En el panel **[!UICONTROL Simular contenido]**, cambie a la pestaña **[!UICONTROL Enviar prueba]**.
 
-1. Añada los perfiles que desee utilizar. Puede cargar un archivo CSV con perfiles que no estén definidos como perfiles de prueba en [!DNL Journey Optimizer].
+1. Añada los perfiles que desee utilizar. Puede cargar un archivo CSV con perfiles que no estén definidos como perfiles de prueba en [!DNL Journey Optimizer]. Más información sobre [creación de perfiles de prueba](../audience/creating-test-profiles.md)
+
+   ![Enviar ficha de revisión](assets/custom_channel_send_proof.png){width="70%"}
 
 1. Haga clic en **[!UICONTROL Enviar revisión]**. [!DNL Journey Optimizer] llama a su extremo externo con la carga útil personalizada para cada perfil seleccionado.
 
@@ -68,9 +82,9 @@ Para validar la entrega de extremo a extremo antes de activarlo, envíe una prue
 
 El resultado de la prueba se muestra con los mismos patrones de validación que la prueba por correo electrónico: los campos obligatorios, las discrepancias de tipos y los errores de validación de esquema aparecen antes de que se envíe la prueba.
 
-Más información sobre cómo enviar pruebas en [campañas](../campaigns/create-campaign.md#send-proof) y [recorridos](../building-journeys/testing-the-journey.md).
+Obtenga más información sobre cómo enviar pruebas en [esta sección](../content-management/proofs.md)
 
-## Prueba en el modo de prueba de recorrido {#test-journey}
+### Prueba en el modo de prueba de recorrido {#test-journey}
 
 Para la validación de recorrido de extremo a extremo, active el recorrido en **[!UICONTROL Modo de prueba]**:
 
@@ -86,9 +100,9 @@ Para la validación de recorrido de extremo a extremo, active el recorrido en **
 
 1. Haga clic en **[!UICONTROL Detener prueba]** cuando haya terminado.
 
-Obtenga más información sobre los recorridos de prueba en [modo de prueba](../building-journeys/testing-the-journey.md).
+Obtenga más información sobre los recorridos de prueba en el modo de prueba en [esta sección](../building-journeys/testing-the-journey.md).
 
-## Simulación de un recorrido {#simulate-journey}
+### Simulación de un recorrido {#simulate-journey}
 
 El modo **Simulation** de [!DNL Journey Optimizer] le permite validar su recorrido de extremo a extremo mediante usuarios simulados (entidades temporales similares a perfiles que no persisten en Adobe Experience Platform) sin que sea necesario crear previamente perfiles de prueba.
 
@@ -108,9 +122,9 @@ Para simular un recorrido con un canal personalizado:
 >
 >La simulación está disponible tanto para recorridos en borrador como activos, y utiliza usuarios simulados temporales que no cuentan para cuotas de perfil o llamadas de extremo reales.
 
-[Más información sobre la simulación de recorrido](../building-journeys/simulate-journey-gs.md)
+Obtenga más información acerca de la simulación de recorrido en [esta sección](../building-journeys/simulate-journey-gs.md).
 
-## Lista de comprobación previa a la activación {#checklist}
+### Lista de comprobación previa a la activación {#checklist}
 
 Antes de activar el recorrido o la campaña, confirme lo siguiente:
 

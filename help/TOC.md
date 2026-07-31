@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
+source-git-commit: 50a5713be405c11882e58987f2032d8d7141f928
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 93%
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [Configuración de actividad en directo en Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
       + [Configuración de la integración de SDK de actividades en directo](using/mobile-live/mobile-live-configuration-sdk.md)
   + Canales personalizados {#custom-channel}
-    + {hide-from-toc}[Introducción a los canales personalizados](using/custom-channel/get-started-custom-channel.md)
+    + [Introducción a los canales personalizados](using/custom-channel/get-started-custom-channel.md)
     + Configuración de canales personalizados {#configure-custom-channel}
-      + {hide-from-toc}[Configurar los canales personalizados](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[Crear un canal personalizado](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[Administrar credenciales de API](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[Delegar un subdominio](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[Crear una configuración de canal](using/custom-channel/custom-channel-configuration.md)
+      + [Configuración de los canales personalizados](using/custom-channel/configure-custom-channel.md)
+      + [Crear un canal personalizado](using/custom-channel/create-custom-channel.md)
+      + [Administrar credenciales de API](using/custom-channel/custom-channel-api-credentials.md)
+      + [Delegar un subdominio](using/custom-channel/custom-channel-subdomains.md)
+      + [Creación de una configuración de canal](using/custom-channel/custom-channel-configuration.md)
     + Crear experiencias de canal personalizadas {#create-custom-channel-experiences}
-      + {hide-from-toc}[Crear una experiencia de canal personalizada](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[Prueba tu experiencia de canal personalizado](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[Supervisar canales personalizados](using/custom-channel/monitor-custom-channel.md)
+      + [Crear una experiencia de canal personalizada](using/custom-channel/create-custom-experience.md)
+      + [Pruebe su experiencia de canal personalizado](using/custom-channel/test-custom-channel.md)
+    + [Monitorización de canales personalizados](using/custom-channel/monitor-custom-channel.md)
 + Gestión de contenidos {#content-management}
   + [Gestión de contenidos](/help/rp_landing_pages/content-management-landing-page.md)
   + Personalización {#personalization}

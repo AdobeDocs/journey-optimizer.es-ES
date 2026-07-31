@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    Para cada encabezado, puede definir si su valor es:
 
@@ -120,11 +120,11 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
 1. Opcionalmente, agregue **[!UICONTROL parámetros de consulta]** utilizando el mismo patrón constante/variable. Los parámetros de consulta se anexan a la dirección URL del punto de conexión en el momento de la entrega. Los parámetros constantes siempre se añaden con el mismo valor; los parámetros variables se resuelven en el momento del envío, por ejemplo para pasar un identificador de usuario desde el perfil.
 
-   ![Parámetros de consulta](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![Parámetros de consulta](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. En la sección **[!UICONTROL Configuración de directiva]**, defina cómo [!DNL Journey Optimizer] administra el rendimiento de las solicitudes y los errores. Esto es importante para garantizar que el sistema externo pueda gestionar el volumen de solicitudes y evitar saturarlo.
 
-   ![Configuración de directiva](assets/custom_channel_endpoint_policy_config.png)
+   ![Configuración de directiva](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL Habilitar regulación]** - Deshabilitado de forma predeterminada. Establezca el número máximo de solicitudes por segundo (predeterminado: **5,000c**). Una vez alcanzado el límite, las solicitudes se ponen en cola y se envían lo antes posible.
    * **[!UICONTROL Habilitar reintento]** - Habilitado de forma predeterminada. Establezca el número máximo de reintentos (predeterminado: **3**, intervalo configurable: 0-10) para las solicitudes con errores. Esto ayuda a evitar saturar el extremo durante errores transitorios.
