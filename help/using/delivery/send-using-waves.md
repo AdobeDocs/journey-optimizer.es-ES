@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
