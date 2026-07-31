@@ -171,7 +171,7 @@ En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia.
 
 >[!TIP]
 >
->Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}.
+>Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=es){target="_blank"}.
 
 ## Copiar y pegar actividades {#copy-paste}
 
