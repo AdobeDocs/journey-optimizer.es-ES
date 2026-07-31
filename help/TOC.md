@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
 workflow-type: tm+mt
-source-wordcount: '3492'
+source-wordcount: '3489'
 ht-degree: 93%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
     + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
-    + [Envío mediante olas en los recorridos](using/building-journeys/send-using-waves.md)
     + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
     + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
     + Simulación {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [Uso de identificadores suplementarios en recorridos](using/building-journeys/supplemental-identifier.md)
     + [Trabajar con eventos de pasos del recorrido](using/reports/journey-step-events-overview.md)
     + [Administración de husos horarios](using/building-journeys/timezone-management.md)
-    + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
-    + [Optimización de canal](using/building-journeys/channel-optimization.md)
     + [Termine el recorrido](using/building-journeys/end-journey.md)
   + Actividades {#about-journey-building}
     + [Actividades](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [Edición del contenido de la campaña](using/campaigns/campaign-content.md)
     + [Definición del público de la campaña](using/campaigns/campaign-audience.md)
     + [Programación de la campaña](using/campaigns/campaign-schedule.md)
-    + [Envío mediante olas](using/campaigns/send-using-waves.md)
     + [Revisión y activación de una campaña de acción](using/campaigns/review-activate-campaign.md)
   + Campañas activadas por API {#api-triggered-campaigns}
     + [Campañas activadas por API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + Arbitraje del recorrido {#journey-arbitration}
     + [Utilizar fórmulas para clasificar recorridos](using/conflict-prioritization/journey-ranking-formulas.md)
     + [Utilizar modelos de IA para clasificar recorridos](using/conflict-prioritization/journey-ai-models.md)
++ Configuración del envío {#delivery-settings}
+  + [Envío mediante olas](using/delivery/send-using-waves.md)
+  + [Optimización de hora de envío](using/building-journeys/send-time-optimization.md)
+  + [Optimización de canal](using/building-journeys/channel-optimization.md)
 + Prueba y aprobación {#test}
   + [Prueba, validación y aprobación](/help/rp_landing_pages/test-landing-page.md)
   + Vista previa y prueba del contenido {#preview-test}
