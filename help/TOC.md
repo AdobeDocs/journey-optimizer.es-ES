@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
+source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
