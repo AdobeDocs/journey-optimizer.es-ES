@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
+source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 8%
+source-wordcount: '2969'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de f
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -300,6 +300,18 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
    * &quot;¿Cuántos recorridos de vida tengo?&quot;
    * &quot;Dame una lista de todos los recorridos recurrentes programados y sus tiempos de ejecución esperados&quot;.
 
+1. **Análisis de errores de acción personalizada de Recorrido**
+
+   * Identifique cuándo las acciones personalizadas dan error o las tasas de error se disparan dentro de un recorrido.
+   * Diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción del recorrido más amplia.
+   * Utilice pasos de corrección específicos para restaurar rápidamente la fiabilidad de las acciones personalizadas.
+
+   Ejemplos de mensajes:
+   * &quot;¿Por qué las acciones personalizadas fallan en el recorrido [Nombre de Recorrido]?&quot;
+   * &quot;¿Cuál es la tasa de error para la acción personalizada [Nombre de acción personalizada] en el recorrido [Nombre de Recorrido]?&quot;
+   * &quot;Mostrarme la causa raíz de los errores de acciones personalizadas en el recorrido [Nombre de Recorrido]&quot;.
+   * &quot;¿Hay algún error de acción personalizada que afecte al recorrido [Nombre de Recorrido] en este momento?&quot;
+
 #### Aptitudes en el ámbito
 
 El análisis de Recorrido admite las siguientes funciones:
@@ -307,6 +319,7 @@ El análisis de Recorrido admite las siguientes funciones:
 * **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
 * **Integración con otras habilidades**: colabora con las capacidades de Audience y Data Insights para realizar un análisis más profundo.
 * **Estructura de la respuesta**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
+* **Análisis de errores de acciones personalizadas**: Detecte y diagnostique errores de acciones personalizadas y picos de error dentro de un recorrido.
 
 #### Aptitudes fuera del ámbito
 
@@ -397,20 +410,6 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 
 <!--
-Journey new skills to document:
-
-Journey Custom Action Error Analysis
-- Identify when custom actions are failing or error rates spike within a journey.
-- Diagnose root causes before failures cascade into broader journey disruption.
-- Use specific remediation steps to restore custom action reliability quickly.
-
-Journey Anomaly Detection
-- Detect unexpected spikes or drops in journey sends and exits against historical baselines.
-- Catch send or exit volume issues early, before they affect a large share of your audience.
-- Use the insights to pinpoint the root cause and keep the journey performing as expected.
--->
-
-<!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
 ## Journey Simulate: Use Cases, Agentic Skills and User Guide
@@ -491,6 +490,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
