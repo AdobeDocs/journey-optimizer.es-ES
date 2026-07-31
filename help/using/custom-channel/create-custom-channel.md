@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Para acceder al **Generador de canales** y administrar tus canales personalizado
 
 1. Seleccione **[!UICONTROL Canales personalizados]** en la sección **[!UICONTROL Generador de canales]**.
 
-   ![Inventario de canales personalizados](assets/custom_channels_inventory.png){width="70%"}
+   ![Inventario de canales personalizados](assets/custom_channels_inventory.png){width="100%"}
 
 1. El inventario enumera todos los canales personalizados de la zona protegida, incluido su estado actual y el tipo de autenticación utilizado para conectarse al extremo externo.
 
@@ -60,7 +60,7 @@ Para acceder al **Generador de canales** y administrar tus canales personalizado
 
 1. Para archivar un canal, ábralo desde el inventario y haga clic en **[!UICONTROL Archivar]**.
 
-   El archivado de un canal activo lo elimina de todos los desplegables de selección: selector de acciones de campaña, paleta de acciones de recorrido, lista de canales de campañas orquestadas, configuraciones de canal y plantillas de contenido. Los recorridos y campañas existentes que ya usan el canal siguen funcionando normalmente.
+   Al archivar un canal activo, se eliminará de todas las listas desplegables de selección: selector de acciones de campaña, paleta de acciones de recorrido, <!--orchestrated campaigns channel list,--> configuraciones de canal y plantillas de contenido. Los recorridos y campañas existentes que ya usan el canal siguen funcionando normalmente.
 
 ## Crear un canal personalizado {#create-channel}
 
@@ -70,7 +70,7 @@ Para crear un nuevo canal personalizado, siga los pasos a continuación.
 
    ![Configuración general](assets/custom_channel_properties.png){width="70%"}
 
-1. En la sección **[!UICONTROL Propiedades]**, escribe un **[!UICONTROL Nombre]** para tu canal personalizado. Este nombre aparecerá en el lienzo de recorridos, en el selector de acciones de campaña y en la lista de canales de campañas orquestadas.
+1. En la sección **[!UICONTROL Propiedades]**, escribe un **[!UICONTROL Nombre]** para tu canal personalizado. Este nombre aparecerá en el lienzo de recorridos y en el selector de acciones de campaña <!--and orchestrated campaigns channel list-->.
 
    >[!NOTE]
    >

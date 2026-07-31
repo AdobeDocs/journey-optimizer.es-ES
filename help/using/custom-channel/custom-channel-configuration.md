@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '361'
 ht-degree: 2%
 
 ---
@@ -50,9 +50,11 @@ Para crear una configuración de canal para un canal personalizado, siga los pas
 
    Configure un valor para cada campo según corresponda para esta configuración. Esto resulta útil para campos que pueden variar según el contexto de la campaña o el recorrido, como la información del remitente o las plantillas de mensajes.
 
-1. Para las campañas orquestadas, complete la sección **[!UICONTROL Detalles de ejecución]** para asignar dimensiones de perfil y especificar la dirección de ejecución.
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![Detalles de ejecución en campañas orquestadas](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. Haga clic en **[!UICONTROL Enviar]** para guardar y activar la configuración del canal.
 
@@ -68,4 +70,4 @@ El canal personalizado ya está completamente configurado. Los especialistas en 
 
 * [Crear experiencias de canal personalizadas](create-custom-experience.md)
 * [Prueba del canal personalizado](test-custom-channel.md)
-* [Monitorización de canales personalizados](configure-custom-channel.md)
+* [Monitorización de canales personalizados](monitor-custom-channel.md)
