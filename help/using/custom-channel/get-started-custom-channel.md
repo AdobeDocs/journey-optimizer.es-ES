@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
@@ -92,10 +92,40 @@ Los canales personalizados son ideales para:
 
 La configuración y el uso de un canal personalizado siguen las etapas principales a continuación:
 
-1. **Configurar** (administrador): un administrador crea un canal personalizado en el **Generador de canales**, y define el punto de conexión, la autenticación, la directiva de restricción y la estructura de carga del mensaje. A continuación, se crea una configuración de canal y se vincula al canal personalizado. [Más información](configure-custom-channel.md)
-1. **Crear** (Especialista en marketing): un especialista en marketing agrega el canal personalizado a un recorrido o campaña, selecciona una configuración de canal y crea la carga útil del mensaje con el editor de personalización de [!DNL Journey Optimizer]. [Más información](create-custom-experience.md)
+1. **Configurar** (administrador): un administrador crea un canal personalizado en el **Generador de canales**, y define el punto de conexión, la autenticación, la directiva de restricción y la estructura de carga del mensaje. A continuación, se crea una configuración de canal y se vincula al canal personalizado.
+1. **Crear** (Especialista en marketing): un especialista en marketing agrega el canal personalizado a un recorrido o campaña, selecciona una configuración de canal y crea la carga útil del mensaje con el editor de personalización de [!DNL Journey Optimizer].
 1. **Enviar**: cuando un perfil se califica, [!DNL Journey Optimizer] envía la carga útil personalizada al extremo configurado. El sistema externo procesa la llamada y envía el mensaje.
-1. **Supervisar** (Administrador/Especialista en mercadotecnia): los administradores y los especialistas en mercadotecnia pueden supervisar el rendimiento y la confiabilidad del canal personalizado mediante los paneles de informes y supervisión de [!DNL Journey Optimizer]. [Más información](monitor-custom-channel.md)
+1. **Supervisar** (Administrador/Especialista en mercadotecnia): los administradores y los especialistas en mercadotecnia pueden supervisar el rendimiento y la confiabilidad del canal personalizado mediante los paneles de informes y supervisión de [!DNL Journey Optimizer].
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="Configurar" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>Configurar un canal personalizado</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="Crear" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>Crear una experiencia de canal personalizada</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="Monitorizar" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>Supervisar un canal personalizado</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}
