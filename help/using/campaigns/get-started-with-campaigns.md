@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -210,11 +210,11 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
   +++Aprenda a asignar permisos de campaña
 
-   1. Vaya a la pestaña **[!UICONTROL Funciones]** en el producto [!DNL Permissions] y seleccione una de las **[!UICONTROL funciones]** relacionadas con la campaña integrada.
+  1. Vaya a la pestaña **[!UICONTROL Funciones]** en el producto [!DNL Permissions] y seleccione una de las **[!UICONTROL funciones]** relacionadas con la campaña integrada.
 
-   1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
+  1. En la pestaña **[!UICONTROL Usuarios]**, haga clic en **[!UICONTROL Añadir usuario]**.
 
-   1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
+  1. Introduzca el nombre o la dirección de correo electrónico del usuario o seleccione el usuario en la lista y haga clic en **[!UICONTROL Guardar]**.
 
   Si el usuario no se ha creado previamente, consulte la [documentación de Añadir usuarios](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
@@ -246,7 +246,7 @@ Configure las bases de la campaña:
 2. **Seleccione el tipo de campaña** (activada por acción, activada por API u orquestada)
 3. **Elija su público**
 4. **Establezca la prioridad** si se usa la administración de conflictos
-5. **Configure la programación** (para campañas de acción) o detalles de API (para activadas por API) Para las campañas de acción, también puede [enviar mediante olas](send-using-waves.md) para enviar el mensaje en lotes a lo largo del tiempo.
+5. **Configure la programación** (para campañas de acción) o detalles de API (para activadas por API) Para las campañas de acción, también puede [enviar mediante olas](../delivery/send-using-waves.md) para enviar el mensaje en lotes a lo largo del tiempo.
 
 **Guías específicas del tipo:** [Propiedades de campaña de acción](campaign-properties.md) | [Propiedades de campaña activada por API](api-triggered-campaign-properties.md) | [Configuración de campaña orquestada](../orchestrated/create-orchestrated-campaign.md)
 

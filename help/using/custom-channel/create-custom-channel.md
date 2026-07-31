@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Para acceder al **Generador de canales** y administrar tus canales personalizado
 
 1. Seleccione **[!UICONTROL Canales personalizados]** en la sección **[!UICONTROL Generador de canales]**.
 
-   ![Inventario de canales personalizados](assets/custom_channels_inventory.png){width="70%"}
+   ![Inventario de canales personalizados](assets/custom_channels_inventory.png){width="100%"}
 
 1. El inventario enumera todos los canales personalizados de la zona protegida, incluido su estado actual y el tipo de autenticación utilizado para conectarse al extremo externo.
 
@@ -60,7 +60,7 @@ Para acceder al **Generador de canales** y administrar tus canales personalizado
 
 1. Para archivar un canal, ábralo desde el inventario y haga clic en **[!UICONTROL Archivar]**.
 
-   El archivado de un canal activo lo elimina de todos los desplegables de selección: selector de acciones de campaña, paleta de acciones de recorrido, lista de canales de campañas orquestadas, configuraciones de canal y plantillas de contenido. Los recorridos y campañas existentes que ya usan el canal siguen funcionando normalmente.
+   Al archivar un canal activo, se eliminará de todas las listas desplegables de selección: selector de acciones de campaña, paleta de acciones de recorrido, <!--orchestrated campaigns channel list,--> configuraciones de canal y plantillas de contenido. Los recorridos y campañas existentes que ya usan el canal siguen funcionando normalmente.
 
 ## Crear un canal personalizado {#create-channel}
 
@@ -70,7 +70,7 @@ Para crear un nuevo canal personalizado, siga los pasos a continuación.
 
    ![Configuración general](assets/custom_channel_properties.png){width="70%"}
 
-1. En la sección **[!UICONTROL Propiedades]**, escribe un **[!UICONTROL Nombre]** para tu canal personalizado. Este nombre aparecerá en el lienzo de recorridos, en el selector de acciones de campaña y en la lista de canales de campañas orquestadas.
+1. En la sección **[!UICONTROL Propiedades]**, escribe un **[!UICONTROL Nombre]** para tu canal personalizado. Este nombre aparecerá en el lienzo de recorridos y en el selector de acciones de campaña <!--and orchestrated campaigns channel list-->.
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![Configuración de encabezados](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    Para cada encabezado, puede definir si su valor es:
 
@@ -120,11 +120,11 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 
 1. Opcionalmente, agregue **[!UICONTROL parámetros de consulta]** utilizando el mismo patrón constante/variable. Los parámetros de consulta se anexan a la dirección URL del punto de conexión en el momento de la entrega. Los parámetros constantes siempre se añaden con el mismo valor; los parámetros variables se resuelven en el momento del envío, por ejemplo para pasar un identificador de usuario desde el perfil.
 
-   ![Parámetros de consulta](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![Parámetros de consulta](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. En la sección **[!UICONTROL Configuración de directiva]**, defina cómo [!DNL Journey Optimizer] administra el rendimiento de las solicitudes y los errores. Esto es importante para garantizar que el sistema externo pueda gestionar el volumen de solicitudes y evitar saturarlo.
 
-   ![Configuración de directiva](assets/custom_channel_endpoint_policy_config.png)
+   ![Configuración de directiva](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL Habilitar regulación]** - Deshabilitado de forma predeterminada. Establezca el número máximo de solicitudes por segundo (predeterminado: **5,000c**). Una vez alcanzado el límite, las solicitudes se ponen en cola y se envían lo antes posible.
    * **[!UICONTROL Habilitar reintento]** - Habilitado de forma predeterminada. Establezca el número máximo de reintentos (predeterminado: **3**, intervalo configurable: 0-10) para las solicitudes con errores. Esto ayuda a evitar saturar el extremo durante errores transitorios.

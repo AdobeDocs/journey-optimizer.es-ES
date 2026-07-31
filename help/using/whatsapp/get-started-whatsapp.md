@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 64%
+source-wordcount: 707
+ht-degree: 62%
 
 ---
 
@@ -52,6 +52,7 @@ WhatsApp funciona mejor cuando tu audiencia ya utiliza la plataforma y quieres c
 | Alta participación global | Plataforma de mensajería ampliamente utilizada con una fuerte adopción en muchas regiones | Llegar a audiencias internacionales ya activas en WhatsApp |
 | Mensajes interactivos y enriquecidos | Admite imágenes, vídeos, botones y respuestas rápidas | Catálogos de productos, confirmaciones de citas con opciones de respuesta rápida |
 | Experiencias conversacionales bidireccionales | Los destinatarios pueden responder dentro del mismo subproceso | Conversaciones de asistencia al cliente, preguntas de seguimiento de pedidos |
+| Experiencias interactivas en varias pantallas | Las plantillas de flujo de WhatsApp te permiten crear interacciones guiadas de varios pasos dentro del chat | Encuestas, formularios de captura de posibles clientes |
 | Conformidad y confianza mediante API oficial | Entregado a través de la API en la nube verificada de Meta con verificación del remitente | Comunicaciones verificadas por la marca que generan confianza en los destinatarios |
 | Integración con otros canales | Se puede agrupar con recorridos y campañas junto con otros canales | Recorridos multicanal con WhatsApp como punto de contacto complementario |
 

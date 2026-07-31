@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 8%
 >
 >Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-La configuración de un canal personalizado es una tarea del administrador que se produce una vez por canal. Una vez configurado el canal, los especialistas en marketing pueden seleccionarlo inmediatamente en campañas, recorridos y campañas orquestadas, igual que cualquier canal [!DNL Journey Optimizer] nativo.
+La configuración de un canal personalizado es una tarea del administrador que se produce una vez por canal. Una vez configurado el canal, los especialistas en marketing pueden seleccionarlo inmediatamente en campañas y recorridos, como cualquier canal [!DNL Journey Optimizer] nativo.
 
 El proceso de configuración cubre cuatro pasos: definir el canal en sí (punto de conexión, autenticación, carga útil), administrar las credenciales de API utilizadas para autenticar solicitudes, delegar opcionalmente un subdominio para el seguimiento de vínculos y, finalmente, crear una configuración de canal que los especialistas en marketing seleccionarán en el momento de la creación.
 

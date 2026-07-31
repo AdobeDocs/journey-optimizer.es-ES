@@ -11,7 +11,7 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
 source-wordcount: 1174
 ht-degree: 3%
@@ -63,14 +63,12 @@ Para crear una fórmula de clasificación para sus recorridos, siga los pasos a 
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+    -->
 
 1. Si lo desea, haga clic en **[!UICONTROL Seleccionar modelo de IA]** para establecer el modelo que se utilizará como referencia para generar la fórmula de clasificación. [Más información](journey-ai-models.md)
 
 <!--
-    >[!NOTE]
-    >
-    >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
+    [Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
     Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
 -->
@@ -91,11 +89,11 @@ Para crear una fórmula de clasificación para sus recorridos, siga los pasos a 
 
 1. Cree una expresión que asigne una puntuación de clasificación a los recorridos que cumplan la condición definida anteriormente. Puede hacer referencia a cualquiera de las siguientes opciones:
    * una variable:
-      * la prioridad de recorrido, que es un valor manual asignado al recorrido al [crear un recorrido](../building-journeys/journey-gs.md);
-      * la puntuación que salió del modelo de IA que seleccionó anteriormente de forma opcional;
+     * la prioridad de recorrido, que es un valor manual asignado al recorrido al [crear un recorrido](../building-journeys/journey-gs.md);
+     * la puntuación que salió del modelo de IA que seleccionó anteriormente de forma opcional;
    * un atributo:
-      * cualquier atributo que pueda residir en el perfil, como cualquier puntuación de tendencia derivada externamente;
-      * un atributo de recorrido;
+     * cualquier atributo que pueda residir en el perfil, como cualquier puntuación de tendencia derivada externamente;
+     * un atributo de recorrido;
    * un valor estático que se puede asignar en formato libre;
    * una combinación de todos los anteriores.
 

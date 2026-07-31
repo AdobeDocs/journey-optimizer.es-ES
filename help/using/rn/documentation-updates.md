@@ -15,18 +15,25 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9823
+ht-degree: 83%
 
 ---
+
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Julio de 2026 {#july-2026}
+
+* Se ha agregado una nueva sección **Configuración de envío** a la navegación de la documentación. Agrupa funciones relacionadas con la entrega que se aplican a todos los recorridos, campañas y campañas orquestadas: **Enviar mediante olas**, **Optimización del tiempo de envío** y **Optimización del canal** se han movido allí desde la sección de Recorridos.
+
+* Las páginas de documentación separadas de **Send using waves** para recorridos y campañas de acción se han combinado en una sola página, y ahora también abarcan campañas orquestadas. [Más información](../delivery/send-using-waves.md)
+
+* Se ha agregado una sugerencia que apunta al artículo de la comunidad de Experience League sobre **cómo desasociar y volver a unir nodos** en el nuevo lienzo de recorrido a la página **Diseñar tu recorrido**. [Más información](../building-journeys/using-the-journey-designer.md)
 
 * La sección de componentes **Grid** se ha agregado a la página **Componentes de contenido de Designer de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
 
@@ -42,7 +49,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha agregado una advertencia a la página **Editar registros PTR** para informar a los clientes de que al agregar un nuevo registro DNS de reenvío a su plataforma, el registro DNS de reenvío del subdominio anterior no debe quitarse hasta que se complete el movimiento, ya que esto provocará que la edición falle. [Más información](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* Las páginas **Enviar mediante olas** se han actualizado para aclarar el comportamiento de reevaluación de audiencias en todas las olas: la pertenencia a la audiencia se corrige en el momento de la activación (captura de pantalla), pero los atributos de perfil y el consentimiento se evalúan en el momento en que se procesa cada ola. Esto significa que se respetan las exclusiones que se producen entre olas. Obtenga más información en las secciones de preguntas frecuentes sobre [recorridos](../building-journeys/send-using-waves.md#faq) y [campañas](../campaigns/send-using-waves.md#faq).
+* Las páginas **Enviar mediante olas** se han actualizado para aclarar el comportamiento de reevaluación de audiencias en todas las olas: la pertenencia a la audiencia se corrige en el momento de la activación (captura de pantalla), pero los atributos de perfil y el consentimiento se evalúan en el momento en que se procesa cada ola. Esto significa que se respetan las exclusiones que se producen entre olas. Obtenga más información en la [sección de preguntas frecuentes](../delivery/send-using-waves.md#faq).
 
 * La página **Control de datos** se ha actualizado para aclarar que la aplicación de la directiva DULE se aplica solo a **campos de atributos de perfil**. No se admiten los campos basados en eventos (atributos de contexto como los campos de evento de recorrido): las etiquetas aplicadas a esos campos en la interfaz de usuario no restringirán el uso de datos. [Más información](../action/action-privacy.md)
 
@@ -191,7 +198,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación de la actividad **Leer público** se ha actualizado para aclarar que una actividad de **Evento empresarial** es una excepción a la regla de que Leer público debe ser la primera actividad de un recorrido. También se añadió una nota que hace referencia a la actividad **Optimizar** como alternativa avanzada para controlar la segmentación de público. [Más información](../building-journeys/read-audience.md)
 
-* **Enviar en oleadas** en recorridos ya está disponible de forma general. El indicador de disponibilidad limitada se ha eliminado de la documentación. [Más información](../building-journeys/send-using-waves.md)
+* **Enviar en oleadas** en recorridos ya está disponible de forma general. El indicador de disponibilidad limitada se ha eliminado de la documentación. [Más información](../delivery/send-using-waves.md)
 
 * La documentación de la actividad **Salto** se ha enriquecido con una nueva sección de estrategia de diseño ( **recorridos secundarios de tamaño de mordida**) que explica cómo dividir flujos complejos de extremo a extremo en recorridos secundarios más pequeños y centrados conectados a través de la actividad Salto. [Más información](../building-journeys/jump.md#jump-strategy)
 

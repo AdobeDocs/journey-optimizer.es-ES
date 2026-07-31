@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 4612
 ht-degree: 93%
@@ -319,7 +319,7 @@ Se aplican mecanismos de protección específicos a **Fragmentos de Recorrido**,
 
 #### Envío mediante olas {#waves-g}
 
-Existen mecanismos de protección específicos para **el envío de olas en recorridos**, que incluyen un intervalo de ondas de 2 a 10 y un **intervalo mínimo de 30 minutos** entre olas. Se muestran en [esta página](../building-journeys/send-using-waves.md#limitations-guardrails).
+Existen mecanismos de protección específicos para **el envío de olas en recorridos**, que incluyen un intervalo de ondas de 2 a 10 y un **intervalo mínimo de 30 minutos** entre olas. Se muestran en [esta página](../delivery/send-using-waves.md#limitations-guardrails).
 
 #### Simulación de recorrido {#simulation-g}
 

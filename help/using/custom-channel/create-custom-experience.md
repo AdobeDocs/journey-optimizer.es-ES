@@ -1,14 +1,14 @@
 ---
 title: Crear experiencias de canal personalizadas
-description: Aprenda a utilizar un canal personalizado en un recorrido, una campaña o una campaña organizada en Adobe Journey Optimizer.
+description: Aprenda a utilizar un canal personalizado en un recorrido o una campaña en Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a agregar un canal personalizado a un recorrido, una campaña o una campaña orquestada en Adobe Journey Optimizer, y a crear cargas de mensajes personalizadas mediante el editor de expresiones.
+**En esta página:** Aprenda a agregar un canal personalizado a un recorrido o a una campaña en Adobe Journey Optimizer y a crear cargas de mensajes personalizadas mediante el editor de expresiones.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >Esta funcionalidad tiene disponibilidad limitada. Póngase en contacto con su representante de Adobe para obtener acceso.
 
-En [!DNL Journey Optimizer], puede enviar mensajes mediante canales personalizados en campañas, recorridos y campañas organizadas. Siga los pasos a continuación para configurar su experiencia de canal personalizada.
+En [!DNL Journey Optimizer], puede enviar mensajes mediante canales personalizados en campañas y recorridos. Siga los pasos a continuación para configurar su experiencia de canal personalizada.
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ Para incluir un vínculo rastreado en la carga útil del canal personalizado (de
 >
 >El seguimiento de vínculos requiere un subdominio configurado para canales personalizados. [Aprenda a delegar un subdominio para canales personalizados](custom-channel-subdomains.md#subdomain-delegation)
 
-**Ejemplo: vínculo rastreado en una carga útil de Viber:**
+**Ejemplo: vínculo rastreado en una carga útil:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->Previsualice y pruebe la carga útil del canal personalizado antes de activarlo. [Descubra cómo](test-custom-channel.md)
+>Previsualice y pruebe la carga útil del canal personalizado antes de activarlo. [Descubra cómo](test-custom-channel.md#preview-test)
 >
 >Si la campaña o el recorrido están sujetos a una directiva de aprobación, debe solicitar la aprobación antes de la activación. [Más información](../test-approve/gs-approval.md)
 
-* **Desde un recorrido** - Haga clic en **[!UICONTROL Publicar]** en el área superior derecha. El recorrido se activa y comienza a llamar al extremo externo para calificar perfiles.
-* **Desde una campaña** - Haz clic en **[!UICONTROL Revisar para activar]**, revisa tu configuración y luego haz clic en **[!UICONTROL Activar]**. La campaña adquiere el estado **[!UICONTROL Activo]** (o **[!UICONTROL Programado]** si se ha definido una fecha de inicio futura).
+* **Desde un recorrido** - Haga clic en **[!UICONTROL Publicar]** en el área superior derecha. El recorrido se activa y comienza a llamar al extremo externo para calificar perfiles. Más información sobre [recorridos de publicación](../building-journeys/journey-gs.md#publish-journey).
+* **Desde una campaña** - Haz clic en **[!UICONTROL Revisar para activar]**, revisa tu configuración y luego haz clic en **[!UICONTROL Activar]**. La campaña adquiere el estado **[!UICONTROL Activo]** (o **[!UICONTROL Programado]** si se ha definido una fecha de inicio futura). Más información sobre [activar campañas](../campaigns/create-campaign.md#review-activate).

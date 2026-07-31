@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -170,6 +170,10 @@ Tenga en cuenta que la plantilla de WhatsApp primero debe ser aprobada por Meta 
    [Más información sobre cómo crear tus plantillas de Whatsapp](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
+
+   >[!NOTE]
+   >
+   >Puede seleccionar una plantilla de **WhatsApp Flow** para ofrecer experiencias interactivas en varias pantallas, como encuestas o formularios de captura de posibles clientes, directamente en la conversación de WhatsApp. Todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp, se capturan en el _conjunto de datos de evento de seguimiento de canales de AJO_. [Más información sobre los conjuntos de datos del sistema](../data/get-started-datasets.md#system-datasets).
 
 1. En el campo **[!UICONTROL URL de imagen]**, agregue URL de medios para reemplazar cualquier marcador de posición en la plantilla. Los medios de plantilla de Meta solo son marcadores de posición. Para mostrar imágenes, audio o vídeo correctamente, debe utilizar direcciones URL externas de Adobe Experience Manager u otras fuentes.
 

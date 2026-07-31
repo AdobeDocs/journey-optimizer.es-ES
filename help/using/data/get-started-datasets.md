@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 82%
+source-wordcount: 1343
+ht-degree: 81%
 
 ---
 
@@ -80,12 +80,13 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
 * Creación de informes
 
-   * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.**
-   * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
-   * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
-   * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
-   * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
-   * _Informes - CCO_: conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Se utilizarán para elaborar informes.
+  * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.**
+  * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
+  * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
+  * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
+  * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
+  * _Informes - CCO_: conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Se utilizarán para elaborar informes.
+  * _Conjunto de datos de evento de seguimiento de canales de AJO_: captura todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
 
 * Consentimiento
 

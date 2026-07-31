@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ Para establecer el control de tarifa, habilite la opción **[!UICONTROL Entrega 
 
 Para enviar el mensaje de campaña por lotes a lo largo del tiempo en lugar de todos a la vez, puede utilizar el envío de ondas. Esto ayuda a equilibrar la carga, admite la entrega y evita sistemas descendentes abrumadores (por ejemplo, centros de llamadas o páginas de aterrizaje). Se define el número de olas, su tamaño (por porcentaje o número absoluto) y la programación para cada ola.
 
-[Aprenda a enviar mediante olas](send-using-waves.md).
+[Aprenda a enviar mediante olas](../delivery/send-using-waves.md).
 
 ## Próximos pasos {#next}
 

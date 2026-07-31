@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 65caf63a1d7a2c6243f5f7b59237011777ae2421
+source-git-commit: b27b9b7b600ac9d0357329aa795b5787face1f4b
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 98%
+source-wordcount: 1520
+ht-degree: 97%
 
 ---
 
@@ -393,3 +393,10 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >abstract="La actividad de **Line** le permite añadir una acción de LINE a su campaña orquestada. Cree contenido personalizado, desde texto y pegatinas hasta imágenes, vídeos, ubicaciones y mensajes de Flex, para atraer a los clientes en LINE."
 
 
+
+<!-- Asset selector content generation -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Modo de selección de Assets"
+>abstract="X"
