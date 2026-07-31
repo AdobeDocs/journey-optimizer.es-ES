@@ -7,10 +7,11 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
+mini-toc-levels: 2
+source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
 workflow-type: tm+mt
-source-wordcount: '2860'
-ht-degree: 7%
+source-wordcount: '2864'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 7%
 
 ## Información general {#overview}
 
-CX Coworker incorpora funciones con tecnología de IA a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} es la experiencia de conversación de Adobe que se integra con las aplicaciones de tu empresa para ayudarte a trabajar de manera más eficiente.
+CX Coworker incorpora funciones con tecnología de IA a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home){target="_blank"} es la experiencia de conversación de Adobe que se integra con las aplicaciones de tu empresa para ayudarte a trabajar de manera más eficiente.
 
 Gracias a sus conocimientos con tecnología de IA, CX Coworker permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o audiencia, analizar el rendimiento y los puntos de entrega e identificar recorridos de alto rendimiento para replicarlos en campañas futuras. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
@@ -51,7 +52,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## Crear recorrido
+## aptitudes de recorrido {#journey-skills}
+
+### Crear recorrido {#journey-create}
 
 Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. La aptitud guía a los usuarios por las diferentes opciones para crear un recorrido, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.
 
@@ -67,7 +70,7 @@ Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar r
 >
 >**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
 
-### Casos de uso clave
+#### Casos de uso clave
 
 Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del marketing:
 
@@ -119,7 +122,7 @@ Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del 
 
 Con esta aptitud, los requisitos del lenguaje natural se traducen en configuraciones de recorrido estructuradas.
 
-### Aptitudes en el ámbito
+#### Aptitudes en el ámbito
 
 Recorrido Crear admite las siguientes funciones:
 
@@ -129,7 +132,7 @@ Recorrido Crear admite las siguientes funciones:
 * **Mensajería multicanal**: Admite notificaciones push, correo electrónico y canales SMS.
 * **Programación de Recorridos**: Configura las fechas de inicio y el horario de los recorridos programados.
 
-### Aptitudes fuera del ámbito
+#### Aptitudes fuera del ámbito
 
 Actualmente no se admiten las siguientes funcionalidades:
 
@@ -144,7 +147,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 * Asignación de campos de acción personalizada
 * Transformaciones de datos complejas
 
-### Impulso de las prácticas recomendadas
+#### Impulso de las prácticas recomendadas
 
 Para maximizar la eficacia de Creación de Recorridos, siga estas prácticas recomendadas:
 
@@ -157,14 +160,14 @@ Para maximizar la eficacia de Creación de Recorridos, siga estas prácticas rec
 Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienvenida mediante la acción personalizada ExternalPush. Espere 2 días y, a continuación, envíe un mensaje de seguimiento mediante una acción personalizada por correo electrónico externo con una encuesta sobre su visita.
 1. **Validar expresiones**: asegúrese de comprobar y validar cualquier expresión que las aptitudes de Recorrido creen para asegurarse de que se utilizan los campos y valores correctos.
 
-### Prácticas recomendadas de configuración
+#### Prácticas recomendadas de configuración
 
 * **Definir objetivos claros**: antes de crear recorridos, establezca objetivos claros (mejorar la retención, impulsar las conversiones y aumentar la participación).
 * **Preparar audiencias**: Asegúrese de que las audiencias de destino ya se hayan creado y segmentado correctamente.
 * **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
 * **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
-## Creación de contenido de canal
+### Creación de contenido de canal {#channel-content-create}
 
 <!--Ivan : Need to speak with Amar on new options for content generation as this skill has changed. -->
 
@@ -174,7 +177,7 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 
 La creación de contenido de canal permite a los usuarios de Journey Optimizer generar, editar y administrar contenido específico del canal para recorridos mediante la generación de contenido con tecnología de IA.
 
-### Casos de uso clave
+#### Casos de uso clave
 
 1. **Generación de contenido específico del canal**: genere contenido para correo electrónico, notificaciones push, SMS y otros canales mediante mensajes en lenguaje natural.
 
@@ -204,7 +207,7 @@ La creación de contenido de canal permite a los usuarios de Journey Optimizer g
 
 1. **Integración de lienzo de Recorrido**: seleccione recorridos del inventario y vea los canales asociados.
 
-### Aptitudes en el ámbito
+#### Aptitudes en el ámbito
 
 Las siguientes funciones son compatibles con la creación de contenido de canal:
 
@@ -215,7 +218,7 @@ Las siguientes funciones son compatibles con la creación de contenido de canal:
 * **Compatibilidad con varios canales**: genere y administre contenido para varios canales dentro del mismo flujo de trabajo de recorrido.
 * **acceso al inventario de Recorridos**: seleccione recorridos del inventario y vea los canales asociados.
 
-### Aptitudes fuera del ámbito
+#### Aptitudes fuera del ámbito
 
 Actualmente no se admiten las siguientes funcionalidades:
 
@@ -223,14 +226,16 @@ Actualmente no se admiten las siguientes funcionalidades:
 * **Insertar nodos de contenido directamente en el lienzo de recorrido**
 * **Importación de plantilla**
 
-### Impulso de las prácticas recomendadas
+#### Impulso de las prácticas recomendadas
 
 1. **Sea específico**: Proporcione detalles claros sobre el tipo de contenido, el tono, la audiencia de destino y los mensajes clave.
 1. **Especificar canal**: indique claramente para qué canal está creando contenido (correo electrónico, push, SMS).
 1. **Definir tono**: especifique el tono deseado (cordial, formal, informal, urgente).
 1. **Iterar y refinar**: use la acción de regeneración para refinar el contenido hasta que cumpla con sus requisitos.
 
-## Administración de desafío de fidelización
+## Aptitudes de fidelización {#loyalty-skills}
+
+### Administración de desafío de fidelización {#loyalty-challenge-management}
 
 >[!AVAILABILITY]
 >
@@ -238,7 +243,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 La administración de retos de fidelidad permite a los usuarios de Journey Optimizer crear y gestionar retos de fidelidad en CX Coworker utilizando indicaciones en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
 
-### Casos de uso clave
+#### Casos de uso clave
 
 1. **Desafío de incorporación de varios pasos**
 
@@ -264,7 +269,7 @@ La administración de retos de fidelidad permite a los usuarios de Journey Optim
 
    &quot;Ayúdame a crear un desafío para los amantes del matcha que requiere que vengan a la tienda todos los días esta semana y compren una bebida de matcha. Su recompensa debería ser de 200 puntos extra si completan el desafío. Llámalo &quot;Loco por Matcha&quot;, usa SKU matcha-001, empieza el lunes de la semana que viene, zona horaria del este&quot;.
 
-### Aptitudes en el ámbito
+#### Aptitudes en el ámbito
 
 La administración de retos de fidelización admite las siguientes funciones:
 
@@ -273,7 +278,7 @@ La administración de retos de fidelización admite las siguientes funciones:
 * **Publicación de desafío**: publique las configuraciones de desafío admitidas directamente desde la conversación.
 * **Visibilidad del contexto del desafío**: recupere y revise la información del desafío mientras realiza la iteración.
 
-### Aptitudes fuera del ámbito
+#### Aptitudes fuera del ámbito
 
 Actualmente no se admiten las siguientes funcionalidades:
 
@@ -281,7 +286,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 * Perspectivas de fidelización y habilidades de recomendaciones
 * Automatización completa de la creación de contenido para la mensajería de desafío en todos los casos
 
-### Impulso de las prácticas recomendadas
+#### Impulso de las prácticas recomendadas
 
 1. **Asígnele un nombre**: escriba un título claro y fácil de recordar entre comillas.
 1. **Especifique la audiencia**: quién califica (por ejemplo, todos los miembros, un nivel, un segmento, nuevos inscritos, titulares de tarjeta y suscriptores).
@@ -290,7 +295,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Indica la recompensa**: Puntos, millas, créditos de extractos, extensiones de estado, cupones o beneficios otorgados al finalizar.
 1. **Haga referencia al evento correspondiente**: indique el SKU, el producto, la acción de la cuenta o el evento de participación específico que rastrea el desafío.
 
-## Análisis de recorrido
+### Análisis de recorrido {#journey-analyze}
 
 Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
@@ -306,7 +311,7 @@ Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer ana
 >
 >**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
 
-### Casos de uso clave
+#### Casos de uso clave
 
 El análisis de recorrido ofrece una serie de funcionalidades que se pueden aprovechar para optimizar los esfuerzos de marketing:
 
@@ -357,7 +362,7 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
    * &quot;¿Cuántos recorridos de vida tengo?&quot;
    * &quot;Dame una lista de todos los recorridos recurrentes programados y sus tiempos de ejecución esperados&quot;.
 
-## Aptitudes en el ámbito
+#### Aptitudes en el ámbito
 
 El análisis de Recorrido admite las siguientes funciones:
 
@@ -365,7 +370,7 @@ El análisis de Recorrido admite las siguientes funciones:
 * **Integración con otras habilidades**: colabora con las capacidades de Audience y Data Insights para realizar un análisis más profundo.
 * **Estructura de la respuesta**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
 
-### Aptitudes fuera de ámbito
+#### Aptitudes fuera del ámbito
 
 Actualmente no se admiten las siguientes funcionalidades:
 
@@ -376,7 +381,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 * **Análisis de problemas técnicos**
 * **Análisis de fatiga**
 
-### Prácticas recomendadas en materia de solicitudes
+#### Impulso de las prácticas recomendadas
 
 Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas recomendadas:
 
@@ -384,7 +389,7 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 1. **Combinar información**: integre información de las capacidades de Audience y Data Insights para obtener una vista integral del rendimiento del recorrido.
 1. **Perfeccionamiento iterativo**: utilice el análisis de abandonos y solapamientos para perfeccionar de forma iterativa el diseño y la programación de los recorridos.
 
-### Prácticas recomendadas para la configuración
+#### Prácticas recomendadas de configuración
 
 * **Defina objetivos claros**: antes de analizar los recorridos, establezca objetivos claros (por ejemplo, mejorar la retención, aumentar las conversiones).
 * **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.

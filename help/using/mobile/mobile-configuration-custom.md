@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -118,7 +118,7 @@ Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor pers
 
 1. En la sección **[!UICONTROL Encabezados]**, haga clic en **[!UICONTROL Agregar nuevo parámetro]** para especificar los encabezados HTTP para el mensaje de solicitud que se enviará al servicio externo.
 
-   Los campos de encabezado **Content-Type** y **Charset** están establecidos de forma predeterminada y no se pueden eliminar.
+   Los campos de encabezado **Content-Type** y **Charset** están establecidos de forma predeterminada y no se pueden eliminar, aunque puede editar el valor **Content-Type** predeterminado. Puede añadir hasta 10 parámetros de encabezado personalizados.
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +129,8 @@ Para enviar mensajes de Mobile en Journey Optimizer utilizando un proveedor pers
    >[!NOTE]
    >
    >Al configurar un proveedor de SMS personalizado con autenticación básica o al portador, debe incluir el parámetro `authOption` en la carga útil JSON. Además, **Provider Payload** debe hacer referencia a las variables de plantilla `{{fromNumber}}`, `{{toNumber}}` y `{{message}}`.
+   >
+   >La **carga útil del proveedor** también admite [funciones de ayuda de personalización](../personalization/functions/string.md) de Adobe Journey Optimizer, entre ellas [`encode64`](../personalization/functions/string.md#encode64).
 
 1. Seleccione **[!UICONTROL Usar conjunto de datos personalizado para entrante]** para enrutar el SMS entrante de esta credencial a un conjunto de datos creado previamente que elija en el menú desplegable. [Más información acerca del uso de un conjunto de datos personalizado para palabras clave entrantes](custom-dataset-inbound-keywords.md)
 

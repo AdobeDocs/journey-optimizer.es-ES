@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
+source-git-commit: f667e577fb04accd2ebfacae19c8bffc2af9fe4b
 workflow-type: tm+mt
 source-wordcount: 1996
 ht-degree: 0%
@@ -199,9 +199,9 @@ Por ejemplo, el rol **[!DNL Journey administrator]** tiene asignado el permiso *
       * experiments.read
       * experiments.write
       * experiments.delete
-    -->
+      -->
 
-+++
+  +++
 
 * El permiso de alto nivel **[!DNL Publish campaigns]** permite a los usuarios publicar campañas.
 

@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 12%
+source-wordcount: 1005
+ht-degree: 13%
 
 ---
 
@@ -170,6 +170,15 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
   </td>
 </tr>
 </table>
+
+## Recursos para desarrolladores {#developer-resources}
+
+Desafíos de fidelización expone las API de REST que le permiten administrar desafíos mediante programación y rastrear la participación en perfiles:
+
+* **[API de metadatos de desafío de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}**: cree, recupere, actualice, publique, archive y duplique desafíos.
+* **[API de estado de desafío de fidelidad](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}**: consulte y actualice el estado de participación de desafío para perfiles individuales.
+
+Para obtener la autenticación y los encabezados requeridos, consulte el [tutorial de autenticación](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ## Vídeo práctico {#video}
 
