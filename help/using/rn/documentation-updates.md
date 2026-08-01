@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
 source-wordcount: 9823
 ht-degree: 83%
@@ -54,6 +54,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La página **Control de datos** se ha actualizado para aclarar que la aplicación de la directiva DULE se aplica solo a **campos de atributos de perfil**. No se admiten los campos basados en eventos (atributos de contexto como los campos de evento de recorrido): las etiquetas aplicadas a esos campos en la interfaz de usuario no restringirán el uso de datos. [Más información](../action/action-privacy.md)
 
 * La documentación de **Optimización del tiempo de envío** se ha actualizado para reflejar el nuevo límite de **[!UICONTROL Envío en las siguientes]** de **2-100 horas** (anteriormente era de 1-168) y para documentar las regiones de AEP Hub admitidas para esta funcionalidad. [Más información](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+
 
 * Las páginas del **modelo de optimización personalizado** se han actualizado para reflejar las mejoras del modelo más recientes, que abarcan el funcionamiento del modelo ensamblado, los requisitos de conjuntos de datos, los casos de uso, las suposiciones clave y el comportamiento del inicio en frío. Obtenga más información en las secciones [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) y [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
@@ -924,7 +925,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md) 
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)

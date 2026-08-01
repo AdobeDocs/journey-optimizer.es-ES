@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e267b222b35465e6bb8a253d3f13441128a527a1
+source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
 workflow-type: tm+mt
 source-wordcount: 2393
 ht-degree: 2%
@@ -102,6 +102,10 @@ Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda
 
 ![](assets/journey-new-experience-switch.png)
 
+>[!TIP]
+>
+>Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=es){target="_blank"}.
+
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
@@ -168,10 +172,6 @@ Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el icono **[!
 En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia. Coloque el cursor en el icono de advertencia para mostrar el mensaje de error. Para solucionar el problema, simplemente mueva la actividad desconectada y conéctela a la actividad anterior.
 
 ![Icono de advertencia que muestra actividades desconectadas en el lienzo](assets/canvas-disconnected.png)
-
->[!TIP]
->
->Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=es){target="_blank"}.
 
 ## Copiar y pegar actividades {#copy-paste}
 
