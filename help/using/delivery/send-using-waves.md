@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,3 +290,4 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Se reevalúa la audiencia por ola?** — No; la audiencia se captura al activarse. Los atributos de perfil (personalización, consentimiento) se leen en el momento del procesamiento de la ola.
 
 +++
+
