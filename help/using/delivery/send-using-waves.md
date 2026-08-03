@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -121,6 +121,8 @@ Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de 
 
 1. Elige cómo definir el tamaño y el tiempo de la onda como se detalla en la sección [Tamaño y tiempo de la onda](#wave-options) a continuación.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
@@ -140,8 +142,6 @@ Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de 
 
 1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
 -->
-
->[!ENDTABS]
 
 ## Tamaño y tiempo de onda {#wave-options}
 
@@ -252,6 +252,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **TL;DR:** En esta página se explica cómo configurar el envío de oleadas en Adobe Journey Optimizer para que entregue mensajes salientes en lotes controlados a lo largo del tiempo, lo que mejora la capacidad de envío y protege la reputación del remitente. El envío de ondas está disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
 
 **Intenciones:**
+
 * Habilite el envío de ondas en un recorrido Leer audiencia, una campaña de acción o una actividad de canal de campaña orquestada
 * Configurar ondas iguales con un intervalo fijo entre cada ola
 * Definir tamaños de onda personalizados como porcentajes o recuentos de perfiles absolutos
@@ -259,17 +260,20 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Controle el volumen de entrega para proteger la reputación del remitente o alinearlo con la capacidad operativa
 
 **Glosario:**
+
 * **Envío de ondas**: Modo de envío que divide la audiencia en lotes (olas) y envía mensajes a cada lote a intervalos programados en lugar de todos a la vez *(específico del producto)*
 * **Olas iguales**: Una configuración en la que la audiencia se divide en partes de igual tamaño con un intervalo fijo entre inicios de ola *(específico del producto)*
 * **Distribución personalizada**: Una configuración en la que el tamaño de cada ola se define manualmente como porcentaje o número absoluto de perfiles *(específicos del producto)*
 * **Programación personalizada**: Una configuración en la que cada ola tiene una fecha y hora de inicio específicas, lo que permite un espaciado no uniforme *(específico del producto)*
 
 **Contextos donde el envío de ondas está disponible:**
+
 * Leer recorridos de audiencia (&quot;Lo antes posible&quot; o solo programador &quot;Una vez&quot;, no para recorridos recurrentes, activados por eventos, de evento empresarial, de prueba o de ejecución en seco)
 * Campañas de acción (solo acciones de canal saliente)
 <!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
 
 **Protecciones comunes (todos los contextos):**
+
 * Mínimo 2 olas, máximo 10 olas
 * Mínimo de 30 minutos entre el inicio de dos olas consecutivas
 * El inicio de la ola no puede ser del pasado
@@ -277,12 +281,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * La distribución personalizada basada en números no valida automáticamente la cobertura total
 
 **protecciones específicas del Recorrido:**
+
 * El inicio de ola no puede ser antes del inicio del recorrido
 * La división de audiencias puede tardar hasta 1 hora; los perfiles pueden retrasarse
 * Dos olas nunca se ejecutan simultáneamente dentro de la misma versión de recorrido
 * Los inicios de ola se pueden retrasar por los límites de cuota de plataforma o la carga pesada del sistema
 
 **PREGUNTAS MÁS FRECUENTES:**
+
 * **Q: ¿El envío de ondas se aplica a los canales entrantes?** — No; solo de salida (correo electrónico, SMS, push, correo directo).
 * **Q: ¿Puedo asignar contenido diferente a olas individuales?** — No; la misma audiencia y contenido para todas las olas. Solo pueden diferir el tamaño y el tiempo.
 * **Q: ¿Cuál es el tiempo mínimo entre dos olas?** — 30 minutos entre el inicio de dos olas consecutivas.
@@ -290,4 +296,3 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Se reevalúa la audiencia por ola?** — No; la audiencia se captura al activarse. Los atributos de perfil (personalización, consentimiento) se leen en el momento del procesamiento de la ola.
 
 +++
-

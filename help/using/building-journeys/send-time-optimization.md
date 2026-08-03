@@ -28,7 +28,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -209,6 +209,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **TL;DR:** En esta página se explica cómo configurar y utilizar la optimización del tiempo de envío en Adobe Journey Optimizer, una función con tecnología de IA que predice el mejor momento para enviar mensajes de correo electrónico o push a cada individuo a fin de maximizar la participación.
 
 **Intenciones:**
+
 * Habilitar la optimización del tiempo de envío en un correo electrónico o una acción push en un recorrido
 * Elija si desea optimizar las aperturas o los clics en los mensajes de correo electrónico
 * Establecer la ventana de espera máxima (Enviar en el siguiente) para el envío retrasado
@@ -216,6 +217,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Determine si la optimización del tiempo de envío es adecuada para un tipo de mensaje determinado
 
 **Glosario:**
+
 * **Optimización del tiempo de envío (STO)**: característica con tecnología de IA que retrasa la entrega de mensajes a cada perfil hasta la hora de participación óptima prevista dentro de un intervalo de tiempo configurado *(específico del producto)*
 * **IA de Recorrido**: los servicios de IA de Adobe permiten la optimización del tiempo de envío en Journey Optimizer *(específico del producto)*
 * **Tiempo de envío de exploración**: tiempo de envío seleccionado aleatoriamente (utilizado para el 5 % de los envíos) para probar diferentes tiempos y mejorar la precisión del modelo *(específico del producto)*
@@ -223,6 +225,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Enviar en el plazo de** siguientes: La cantidad máxima de horas (2-100) que el sistema esperará antes de enviar el mensaje a un perfil determinado *(específico del producto)*
 
 **Protecciones:**
+
 * Adobe debe habilitar la optimización del tiempo de envío para la organización; póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activarla.
 * La optimización del tiempo de envío solo se aplica a los canales de notificaciones push y de correo electrónico dentro de los Recorridos; no está disponible para campañas o acciones personalizadas.
 * La organización debe haber utilizado acciones de correo electrónico o push en Journey Optimizer durante al menos 30 días antes de que la optimización del tiempo de envío produzca resultados significativos.
@@ -232,11 +235,13 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Los modelos se entrenan semanalmente inicialmente, luego se vuelven a entrenar y se vuelven a calificar mensualmente después de 16 semanas.
 
 **Terminología:**
+
 * Nombre canónico: Optimización del tiempo de envío — Acrónimo: STO — variantes: mejor tiempo de envío, inteligencia artificial aplicada al tiempo de envío, tiempo de envío inteligente
 * Sinónimos: &quot;Optimización del tiempo de envío&quot; = &quot;tiempo de envío óptimo&quot; = &quot;tiempo de envío de IA&quot;
 * No confunda: &quot;Tiempo de envío de exploración&quot; ≠ &quot;Tiempo de envío optimizado&quot; (la exploración es aleatoria para las pruebas de modelos; la optimización se predice según el modelo para la participación).
 
 **PREGUNTAS MÁS FRECUENTES:**
+
 * **Q: ¿Qué canales admiten la optimización del tiempo de envío?** — Solo los canales de correo electrónico y notificaciones push dentro de los Recorridos; no se admiten campañas y acciones personalizadas.
 * **Q: ¿Debo optimizar para aperturas o clics en correos electrónicos?** — Optimizar para clics para la mayoría de los correos electrónicos. Elija Abre cuando el mensaje es informativo y no está pensado para dirigir una acción específica.
 * **Q: ¿Cuánto tiempo debe esperar la organización antes de habilitar STO?** — Se necesitan al menos 30 días de uso de correo electrónico o push en Journey Optimizer para recopilar datos de comportamiento suficientes. Los resultados continúan mejorando hasta 16 semanas.
@@ -244,5 +249,3 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Cuál es el beneficio esperado de la optimización del tiempo de envío?** — Mejora de aproximadamente el 2-10 % en la tasa de clics por correo electrónico o la tasa de apertura push en todos los mensajes optimizados, aunque los beneficios pueden no observarse en envíos de pequeño volumen individuales.
 
 +++
-
-
