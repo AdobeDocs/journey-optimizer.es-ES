@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se define el número de olas, su tamaño (como porcentaje de la audiencia o como
 
 ## Limitaciones y barreras {#limitations-guardrails}
 
-Las siguientes limitaciones se aplican a todos los contextos:
+Las siguientes limitaciones se aplican al envío de ondas en cualquier contexto:
 
 * Debe definir al menos **2 olas** y puede agregar **10 ondas**.
 * El intervalo mínimo entre el inicio de dos olas es de **30 minutos**.
