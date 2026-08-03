@@ -50,7 +50,7 @@ Este cambio se aplicará en **zonas protegidas de clientes existentes** a partir
 
 ## Conjuntos de datos afectados {#datasets}
 
-En la tabla siguiente se enumeran todos los conjuntos de datos afectados y su respectivo tiempo de vida en el lago de datos y el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+En la tabla siguiente se enumeran todos los conjuntos de datos afectados y su respectivo tiempo de vida en el lago de datos y el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
 
 | Conjunto de datos | TTL de lago de datos | TTL de almacenamiento de perfiles |
 |------|-----|-----|
@@ -100,13 +100,13 @@ Actualmente no se admiten extensiones TTL. Sin embargo, se ha planificado trabaj
 
 >[!NOTE]
 >
->Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
+>Los datos almacenados en el perfil están sujetos al derecho Volumen total de datos. Por lo tanto, cualquier aumento del almacenamiento de datos en el perfil como resultado de una extensión TTL se contaría con el derecho Volumen de datos total. [Más información](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=es){target="_blank"}
 
 +++
 
 +++¿Pueden los clientes aumentar el TTL para los datos del conjunto de datos del sistema [!DNL Journey Optimizer] en el lago de datos? 
 
-Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+Actualmente no se admiten extensiones TTL. Los clientes pueden exportar datos a través de Destinos para conservar los datos durante más tiempo. [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es){target="_blank"}. Además, los clientes con un derecho de **[!DNL Data Distiller]** pueden crear conjuntos de datos derivados para almacenar los datos en el lago de datos sin un TTL. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -146,8 +146,8 @@ La nueva directiva TTL limitará el período retroactivo de los datos de conjunt
 
 Los clientes que requieren una retención más larga tienen dos opciones:
 
-* **Exportar a almacenamiento externo**: exporte los datos relevantes de los conjuntos de datos de AJO antes de la caducidad del TTL. Adobe Journey Optimizer admite la exportación de conjuntos de datos a varios destinos de almacenamiento en la nube (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
-* **Conjuntos de datos derivados de Data Distiller**: los clientes con derechos de Data Distiller pueden configurar consultas automatizadas para copiar datos críticos en un conjunto de datos derivado en el lago de datos, que se puede almacenar sin un TTL. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **Exportar a almacenamiento externo**: exporte los datos relevantes de los conjuntos de datos de AJO antes de la caducidad del TTL. Adobe Journey Optimizer admite la exportación de conjuntos de datos a varios destinos de almacenamiento en la nube (Amazon S3, Azure Blob, Google Cloud Storage, etc.). [Más información](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=es){target="_blank"}
+* **Conjuntos de datos derivados de Data Distiller**: los clientes con derechos de Data Distiller pueden configurar consultas automatizadas para copiar datos críticos en un conjunto de datos derivado en el lago de datos, que se puede almacenar sin un TTL. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
