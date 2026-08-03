@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de 
 1. Elige cómo definir el tamaño y el tiempo de la onda como se detalla en la sección [Tamaño y tiempo de la onda](#wave-options) a continuación.
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
