@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 1%
@@ -58,14 +58,14 @@ Se aplican restricciones adicionales específicas del contexto:
 * El envío de ondas solo se aplica a **acciones salientes** (correo electrónico, SMS, push, correo directo).
 * No se puede iniciar una ola antes del inicio de la campaña.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## Configurar el envío de olas {#configure-wave-sending}
 
