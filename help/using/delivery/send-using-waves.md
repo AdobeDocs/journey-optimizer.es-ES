@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a dividir la entrega de mensajes salientes en lotes programados (olas) para equilibrar la carga, proteger la reputación del remitente y mejorar la capacidad de entrega, disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
+**En esta página:** Aprenda a dividir el envío de mensajes salientes en lotes programados, llamados olas, para equilibrar la carga, proteger la reputación del remitente y mejorar la capacidad de envío. El envío de ondas está disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
 
 >[!ENDSHADEBOX]
 
