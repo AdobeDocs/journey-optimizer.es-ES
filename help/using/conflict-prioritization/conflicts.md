@@ -103,4 +103,4 @@ Al aprovechar estas capacidades, puede asegurarse de que los esfuerzos de market
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445647?captions=spa&quality=12)
