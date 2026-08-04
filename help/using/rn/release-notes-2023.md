@@ -16,8 +16,8 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 4372
+workflow-type: tm+mt
+source-wordcount: 4443
 ht-degree: 100%
 
 ---
@@ -94,9 +94,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * La duración máxima que puede definir en cualquier tiempo de espera ahora es de 29 días, en lugar de 30. Esta mejora se ha introducido para evitar que la duración de la espera supere los 30 días de vida útil del recorrido. Esto se aplica a:
 
-   * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
-   * el **Período de espera de reentrada** en [Propiedades del recorrido](../building-journeys/journey-properties.md#entrance)
-   * el campo **Esperar a** en la definición de tiempo de espera de las [actividades de eventos](../building-journeys/general-events.md#events-specific-time).
+  * el campo **Cantidad de tiempo** en la [actividad de espera](../building-journeys/wait-activity.md)
+  * el **Período de espera de reentrada** en [Propiedades del recorrido](../building-journeys/journey-properties.md#entrance)
+  * el campo **Esperar a** en la definición de tiempo de espera de las [actividades de eventos](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -125,8 +125,8 @@ Esta versión incorpora las nuevas funciones que se enumeran a continuación.
 <tbody>
 <tr>
 <td>
-<p>Los atributos calculados permiten resumir fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta función, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en la segmentación, en destinos de perfil del cliente en tiempo real o en Journey Optimizer.<br/><br/>
-Además, los atributos calculados simplifican la segmentación y los flujos de trabajo de recorrido con el fin de ayudarle a ofrecer sin problemas experiencias relevantes. Más información en la <a href="../audience/computed-attributes.md">documentación detallada</a>.</p>
+<p>Los atributos calculados permiten que la funcionalidad resuma fácilmente los datos de evento en atributos de perfil a través de una interfaz de usuario intuitiva para mejorar la segmentación, personalización y activación basada en el comportamiento. Con esta funcionalidad, puede crear atributos calculados de forma automática, administrarlos y utilizarlos en segmentación, destinos de perfil del cliente en tiempo real o Journey Optimizer.<br/><br/>
+Además, los atributos calculados simplifican la segmentación y los flujos de trabajo del recorrido para ofrecer experiencias relevantes. Obtenga más información en la <a href="../audience/computed-attributes.md">documentación detallada</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -615,16 +615,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Como preparación para la disponibilidad general de la función de Audience Portal, Adobe Experience Platform está actualizando el uso de &quot;públicos&quot; y &quot;segmentos&quot; en el sistema y la documentación.
 
-   * Público: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
-   * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
+  * Público: conjunto de personas, cuentas, hogares u otras entidades que comparten características y comportamientos comunes.
+  * Definición del segmento: en Adobe Experience Platform, las reglas utilizadas para describir las características clave o el comportamiento de un público destinatario. Este término se conocía anteriormente como &quot;segmento&quot;.
 
   Como resultado, dentro de Adobe Journey Optimizer y de la IU de Adobe Experience Platform, verá &quot;Segmentos&quot; reemplazado por &quot;Públicos&quot; para reflejar esta nueva ruta de creación y administración de públicos.
 
   Las traducciones del término &quot;público&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para algunos idiomas:
 
-   * Alemán: Zielgruppe
-   * Portugués brasileño: público-alvo
-   * Español: público destinatario
+  * Alemán: Zielgruppe
+  * Portugués brasileño: público-alvo
+  * Español: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -1001,7 +1001,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Ahora puede crear plantillas de contenido independientes que se pueden aprovechar en distintos recorridos y campañas para que las pueda reutilizar rápidamente.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Aprenda a crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=es">este vídeo</a>. Para obtener más información, consulte la <a href="../content-management/content-templates.md">documentación detallada</a>.
+<p>Obtenga información sobre cómo crear, editar y utilizar plantillas de contenido en <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=es">este vídeo</a>. Para obtener más información, consulte la <a href="../content-management/content-templates.md">documentación detallada</a>.
 </p>
 </td>
 </tr>
