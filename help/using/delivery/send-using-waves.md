@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a dividir la entrega de mensajes salientes en lotes programados (olas) para equilibrar la carga, proteger la reputación del remitente y mejorar la capacidad de entrega, disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
+**En esta página:** Aprenda a dividir el envío de mensajes salientes en lotes programados, llamados olas, para equilibrar la carga, proteger la reputación del remitente y mejorar la capacidad de envío. El envío de ondas está disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Se define el número de olas, su tamaño (como porcentaje de la audiencia o como
 
 ## Limitaciones y barreras {#limitations-guardrails}
 
-Las siguientes limitaciones se aplican a todos los contextos:
+Las siguientes limitaciones se aplican al envío de ondas en cualquier contexto:
 
 * Debe definir al menos **2 olas** y puede agregar **10 ondas**.
 * El intervalo mínimo entre el inicio de dos olas es de **30 minutos**.
@@ -58,14 +58,14 @@ Se aplican restricciones adicionales específicas del contexto:
 * El envío de ondas solo se aplica a **acciones salientes** (correo electrónico, SMS, push, correo directo).
 * No se puede iniciar una ola antes del inicio de la campaña.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## Configurar el envío de olas {#configure-wave-sending}
 
@@ -122,6 +122,7 @@ Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de 
 1. Elige cómo definir el tamaño y el tiempo de la onda como se detalla en la sección [Tamaño y tiempo de la onda](#wave-options) a continuación.
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
