@@ -9,11 +9,10 @@ role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a923d702836704542a4a6273d056a12225daab2d
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 1549
+source-wordcount: 1654
 ht-degree: 3%
 
 ---
@@ -28,7 +27,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar Generar contenido en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
@@ -66,10 +65,14 @@ Aprenda a crear indicadores efectivos y configurar ajustes de imagen para genera
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![Generar panel de generación de imágenes de contenido con opciones](assets/image-genai-2-bis.png){zoomable="yes"}
+   ![Generar panel de generación de imágenes de contenido con opciones](assets/image-genai-2.png){zoomable="yes"}
 
 1. Adapte el mensaje con la opción **[!UICONTROL Configuración de imagen]**:
 
+   * **[!UICONTROL Modo]**: cómo se obtienen las imágenes de su biblioteca de administración de recursos digitales y el contenido de referencia. [Más información](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: utiliza imágenes coincidentes de la administración de recursos digitales como contenido de referencia; de lo contrario, agrega contenido de referencia manualmente.
+     * **[!UICONTROL Equilibrado]**: Haga referencia al contenido primero y después a IA si es necesario.
+     * **[!UICONTROL Creative]**: IA generativa sin depender directamente de la administración de recursos digitales.
    * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md). Para usar el modelo asociado (**Gemini**) con **superposiciones de texto** en imágenes generadas, consulte [Usar Gemini como modelo generativo para la imagen de superposición de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Proporción de aspecto]**: determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o bien puede introducir un tamaño personalizado.
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
@@ -109,7 +112,7 @@ Después de generar variaciones de imagen, puede revisar los resultados, comprob
 
    * **[!UICONTROL Guardar]** para almacenar los recursos y poder acceder a ellos más adelante.
 
-     ![Refinar opciones que muestran las acciones disponibles](assets/image-genai-5-bis.png){zoomable="yes"}
+     ![Refinar opciones que muestran las acciones disponibles](assets/image-genai-5.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Seleccionar]** cuando encuentre el contenido apropiado.
 
@@ -148,12 +151,16 @@ Después de acceder a Generar contenido, puede ajustar la configuración de gene
 
    Si está buscando ayuda para crear su mensaje, acceda a la **[!UICONTROL Biblioteca de mensajes]**, que proporciona una amplia gama de ideas para mejorar sus campañas.
 
-   ![Generar generación de imágenes de contenido para push](assets/push-gen-img-bis.png){zoomable="yes"}
+   ![Generar generación de imágenes de contenido para push](assets/push-gen-img.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Imagen]** como campo para generar.
 
 1. Elija su **[!UICONTROL configuración de imagen]**:
 
+   * **[!UICONTROL Modo]**: cómo se obtienen las imágenes de su biblioteca de administración de recursos digitales y el contenido de referencia. [Más información](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: utiliza imágenes coincidentes de la administración de recursos digitales como contenido de referencia; de lo contrario, agrega contenido de referencia manualmente.
+     * **[!UICONTROL Equilibrado]**: Haga referencia al contenido primero y después a IA si es necesario.
+     * **[!UICONTROL Creative]**: IA generativa sin depender directamente de la administración de recursos digitales.
    * **[!UICONTROL Modelo generador]**: Seleccione entre **[!UICONTROL modelo Adobe]**, **[!UICONTROL modelo de socio]** para obtener funciones especializadas o **[!UICONTROL modelos personalizados]** entrenados en los recursos de su marca. [Más información](generative-models.md). Para usar el modelo asociado (**Gemini**) con **superposiciones de texto** en imágenes generadas, consulte [Usar Gemini como modelo generativo para la imagen de superposición de texto](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo de contenido]**: Esto categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual como fotografías, gráficos o arte.
    * **[!UICONTROL Intensidad visual]**: puede controlar el impacto de la imagen ajustando su intensidad. Un ajuste inferior (2) creará una apariencia más suave y restringida, mientras que un ajuste superior (10) hará que la imagen sea más vibrante y visualmente potente.
