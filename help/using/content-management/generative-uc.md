@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
@@ -257,6 +257,41 @@ Con **Gemini 2.5** seleccionado como modelo generador, puede producir variantes 
 
 1. Cuando la superposición de texto parezca correcta, haga clic en **[!UICONTROL Guardar]** y, a continuación, haga clic en **[!UICONTROL Aplicar]** en la variación que desee usar.
 
+## Usar modo de configuración de imagen {#image-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Modo de selección de Assets"
+>abstract="La configuración [!UICONTROL Modo Assets] controla el origen de los recursos visuales. Permite definir si las imágenes se recuperan directamente de la biblioteca de administración de activos digitales (DAM) o si se producen dinámicamente mediante contenido generado por IA."
 
+La opción **[!UICONTROL Modo]** en **[!UICONTROL Configuración de imágenes]** controla cómo se obtienen las imágenes de su biblioteca de administración de activos digitales y del contenido generado.
 
+1. Después de configurar la campaña, seleccione **[!UICONTROL Editar contenido]**.
+
+1. Abra la sección **[!UICONTROL Generar contenido]**.
+
+1. Ajuste el contenido especificando la solicitud en el cuadro **[!UICONTROL Preguntar]** y personalice la configuración según sea necesario.
+
+1. Elige tu **[!UICONTROL Modo]** en el menú **[!UICONTROL Configuración de imágenes]**:
+
+   * **[!UICONTROL Equilibrado]** (predeterminado): IA utiliza primero la imagen coincidente de la biblioteca de administración de recursos digitales. Cuando esto no es suficiente para cubrir los elementos visuales que necesita, genera imágenes con IA.
+     Para usar esto, habilite Usar imágenes de DAM y, a continuación, elija una carpeta de la biblioteca de administración de activos digitales para establecer la ruta de DAM.
+   * **[!UICONTROL DAM]** (administración de recursos digitales): AI busca una imagen coincidente en su biblioteca de administración de recursos digitales y la usa como parte del contenido generado. Si no se encuentra ninguna coincidencia, agregue manualmente contenido de referencia o imágenes antes de generar.
+     Elija una carpeta de la biblioteca de administración de activos digitales para establecer la ruta DAM.
+   * **[!UICONTROL Creative]**: la IA crea imágenes con IA generativa y no extrae imágenes directamente de la biblioteca de administración de recursos digitales.
+
+   ![](assets/image-mode-3.png)
+
+1. Haga clic en **[!UICONTROL Generar]** y examine las **[!UICONTROL sugerencias de variación]** para encontrar el recurso deseado.
+
+1. Haga clic en **[!UICONTROL Vista previa]** para ver una versión en pantalla completa de la variación seleccionada.
+
+1. Si la imagen proviene de su biblioteca, haga clic en **[!UICONTROL Opciones de imagen]** para examinar los demás recursos relevantes.
+
+   ![](assets/image-mode-1.png)
+
+1. Haga clic en **[!UICONTROL Aplicar]** para cambiar el recurso.
+
+1. Si AI no encuentra una imagen coincidente en la biblioteca de administración de recursos digitales, la variación muestra una imagen de marcador de posición. Añada contenido de referencia o cargue una imagen manualmente y, a continuación, genere de nuevo.
+
+   ![](assets/image-mode-2.png)
