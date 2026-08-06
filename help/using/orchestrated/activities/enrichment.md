@@ -46,7 +46,7 @@ Puede aprovechar esta información para segmentar el público de forma más prec
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="Actividad de enriquecimiento"
->abstract="Una vez añadidos los datos de enriquecimiento a la campaña de varios pasos, se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en distintos grupos según sus comportamientos, preferencias y necesidades o bien para crear mensajes y campañas de marketing personalizados que tengan más probabilidades de conectar con el público destinatario."
+>abstract="Una vez añadidos los datos de enriquecimiento a la campaña orquestada, se pueden utilizar en las actividades añadidas después de la actividad Enriquecimiento para segmentar a los clientes en distintos grupos según sus comportamientos, preferencias y necesidades o bien para crear mensajes y campañas de marketing personalizados que tengan más probabilidades de conectar con el público destinatario."
 
 Siga estos pasos para configurar la actividad **Enriquecimiento**:
 

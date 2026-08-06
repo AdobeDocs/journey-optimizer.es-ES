@@ -36,7 +36,7 @@ ht-degree: 7%
 
 ---
 
-# Introducción a la actividad de optimización {#journey-path-optimization}
+# Introduccion a la actividad Optimizar {#journey-path-optimization}
 
 >[!BEGINSHADEBOX]
 
