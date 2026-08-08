@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
 workflow-type: tm+mt
-source-wordcount: 9823
-ht-degree: 83%
+source-wordcount: 9976
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 83%
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
+
+## Agosto de 2026 {#august-2026}
+
+* La página **Protecciones de tiempo de vida de conjuntos de datos (TTL)** se ha actualizado con una tabla **Conjuntos de datos afectados** significativamente ampliada, que ahora cubre todos los conjuntos de datos generados por el sistema Journey Optimizer (incluidos varios que no se habían enumerado anteriormente, como el servicio de consentimiento de AJO, el perfil de mensajería interactiva, el perfil push y los conjuntos de datos de exportación de mensajes) junto con una nueva columna **Disponibilidad** que indica si cada conjunto de datos se incluye de forma predeterminada o requiere un complemento o licencia específicos. La página **Protecciones y limitaciones** también se ha actualizado para reflejar la fecha de aplicación confirmada para esta protección: el cambio se aplicará en **zonas protegidas de clientes existentes** a partir del **1 de octubre de 2026**. [Más información](../data/datasets-ttl.md#datasets)
+
+* Se ha agregado una nueva sección **Usar modo de configuración de imagen** a la documentación de contenido generativo. En él se explican los modos **Equilibrado**, **DAM** y **Creative** disponibles en **[!UICONTROL Configuración de imágenes]**, que controlan si el contenido generado por IA genera imágenes de su biblioteca de administración de recursos digitales, las genera con IA o las mezcla. [Más información](../content-management/generative-uc.md#image-mode)
 
 ## Julio de 2026 {#july-2026}
 

@@ -28,7 +28,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
+source-git-commit: de8759bda1690076110ba19f878ff940441907e8
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 81%
@@ -86,7 +86,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
   * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
   * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
   * _Informes - CCO_: conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Se utilizarán para elaborar informes.
-  * _Conjunto de datos de evento de seguimiento de canales de AJO_: captura todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
+  * _Conjunto de datos de evento de seguimiento de canal de AJO_: captura todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
 
 * Consentimiento
 

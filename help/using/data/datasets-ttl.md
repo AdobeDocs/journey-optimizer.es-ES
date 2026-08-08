@@ -26,10 +26,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 11%
+source-wordcount: 1422
+ht-degree: 13%
 
 ---
 
@@ -50,19 +50,31 @@ Este cambio se aplicará en **zonas protegidas de clientes existentes** a partir
 
 ## Conjuntos de datos afectados {#datasets}
 
-En la tabla siguiente se enumeran todos los conjuntos de datos afectados y su respectivo tiempo de vida en el lago de datos y el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+En la tabla siguiente se enumeran todos los conjuntos de datos generados por el sistema de Journey Optimizer con su respectivo tiempo de vida en el lago de datos y el [almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}. Los conjuntos de datos de series de tiempo están sujetos a TTL; los conjuntos de datos de tipo de registro se enumeran para referencia y se marcan `n/a` en ambas columnas. La columna Disponibilidad indica si un conjunto de datos se incluye de forma predeterminada o requiere un complemento o una licencia específicos.
 
-| Conjunto de datos | TTL de lago de datos | TTL de almacenamiento de perfiles |
-|------|-----|-----|
-| Conjunto de datos de evento de comentarios de mensajes AJO | 13 meses | 90 días |
-| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | 13 meses | 90 días |
-| Conjunto de datos de evento de experiencia de seguimiento push de AJO | 13 meses | 90 días |
-| Conjunto de datos de AJO Surfaces | 13 meses | n/a |
-| Conjunto de datos de evento de actividad entrante de AJO | 13 meses | 90 días |
-| Conjunto de datos de evento de comentarios del destinatario secundario de AJO | 13 meses | n/a |
-| Conjunto de datos de evento de entidad | 13 meses | n/a |
-| Eventos de paso de recorrido | 13 meses | n/a |
-| ODE DecisionEvents: toma de decisiones de producción | 13 meses | n/a |
+| Conjunto de datos | Disponibilidad | TTL de lago de datos | TTL de almacenamiento de perfiles |
+|------|-----|-----|-----|
+| Conjunto de datos de evento de comentarios de mensajes AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos de evento de experiencia de seguimiento de correo electrónico AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos de evento de experiencia de seguimiento push de AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos de AJO Surfaces | Incluido | 13 meses | n/a |
+| Conjunto de datos de evento de actividad entrante de AJO | Incluido | 13 meses | n/a |
+| Conjunto de datos de evento de comentarios del destinatario secundario de AJO | Incluido | 13 meses | n/a |
+| Conjunto de datos de entidad de AJO *(anteriormente: Conjunto de datos de evento de entidad)* | Incluido | n/a | n/a |
+| Eventos de paso de recorrido | Incluido | 13 meses | n/a |
+| Conjunto de datos de evento de decisión de AJO ExD *(anteriormente: ODE DecisionEvents - prod decisioning)* | Requiere el complemento de Decisioning | 13 meses | n/a |
+| Conjunto de datos de evento de comentarios de actividades de AJO Live | Incluido | 13 meses | n/a |
+| Conjunto de datos de resumen de STO de AJO | Incluido | 13 meses | n/a |
+| Conjunto de datos del servicio de consentimiento AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos del perfil de mensajería interactiva de AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos del perfil push de AJO | Incluido | 13 meses | 90 días |
+| Extensión de contadores de perfil de AJO | Incluido | 13 meses | 90 días |
+| Recorrido entrante | Incluido | 13 meses | 90 días |
+| Conjunto de datos de clasificación AJO | Incluido | n/a | n/a |
+| Conjunto de datos de evento de seguimiento de canal AJO | Incluido | 13 meses | 90 días |
+| Conjunto de datos de evento de cambio de estado de desafío de fidelidad Adobe | Requiere licencia de fidelización de Journey Optimizer | 13 meses | n/a |
+| Conjunto de datos de exportación de mensajes AJO | Requiere el complemento Message Export | 30 días | n/a |
+| Conjunto de datos de metadatos de evento de mensaje AJO | Requiere el complemento Message Export | 30 días | n/a |
 
 ## Preguntas frecuentes {#faq}
 
@@ -72,13 +84,13 @@ A continuación, encontrará las preguntas más frecuentes sobre los conjuntos d
 
 +++¿Qué tipos de conjuntos de datos están sujetos a TTL?
 
-TTL se aplica solo a conjuntos de datos de series temporales. Los conjuntos de datos de tipo de registro (como conjuntos de datos de entidad, conjuntos de datos de clasificación y repositorios de objetos de decisión) no están sujetos a TTL y, por lo tanto, no aparecen en la tabla Conjuntos de datos afectados anterior.
+TTL se aplica solo a conjuntos de datos de series temporales. Los conjuntos de datos de tipo de registro (como los conjuntos de datos de entidad y los conjuntos de datos de clasificación) no están sujetos a TTL. Se enumeran en la tabla anterior como referencia, con `n/a` indicado en las columnas TTL de lago de datos y TTL de almacén de perfiles.
 
 +++
 
 +++¿Este cambio se aplicará solo a las zonas protegidas de producción o también a las de desarrollo?
 
-Este cambio se aplicará a todos los tipos de zonas protegidas.
+Este cambio se aplica a todos los tipos de zonas protegidas.
 
 +++
 
