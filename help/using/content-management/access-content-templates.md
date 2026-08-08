@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1038
 ht-degree: 2%
 
 ---
@@ -39,8 +32,8 @@ ht-degree: 2%
 
 Para acceder y administrar plantillas de contenido, asegúrese de lo siguiente:
 
-* **Permiso para plantillas de contenido** — Su función debe incluir el permiso **[!UICONTROL Administrar plantillas de contenido]** (en el recurso **Administración de contenido**). Sin él, el menú **Plantillas de contenido** no estará visible en el panel de navegación izquierdo. [Obtenga información sobre cómo administrar permisos](../administration/permissions.md)
-* **Ámbito de zona protegida**: las plantillas de contenido son específicas de la zona protegida. Las plantillas creadas en una zona protegida no están disponibles en otra. Asegúrese de que está en la zona protegida correcta antes de buscar una plantilla.
+* **Permiso para plantillas de contenido**: su función debe incluir el permiso **[!UICONTROL Administrar plantillas de contenido]** (en el recurso **Administración de contenido**). Sin él, el menú **Plantillas de contenido** no estará visible en el panel de navegación izquierdo. [Obtenga información sobre cómo administrar permisos](../administration/permissions.md)
+* **Ámbito de zona protegida**: Las plantillas de contenido son específicas de la zona protegida. Las plantillas creadas en una zona protegida no están disponibles en otra. Asegúrese de que está en la zona protegida correcta antes de buscar una plantilla.
 * **Plantillas de HTML (obsoletas)**: a partir de marzo de 2025, las plantillas de contenido de tipo HTML quedarán obsoletas. Las plantillas de HTML existentes siguen siendo accesibles, pero no se pueden crear nuevas.
 
 ## Plantillas de contenido de acceso {#access}
@@ -114,16 +107,27 @@ Desde el botón **[!UICONTROL Más acciones]** situado junto a cada plantilla, p
 * **[!UICONTROL Simular contenido]**: previsualice y pruebe el contenido de la plantilla.
 * **[!UICONTROL Eliminar]**: elimine la plantilla.
 
-Para las plantillas de correo electrónico, están disponibles los siguientes métodos abreviados adicionales:
+Hay métodos abreviados adicionales disponibles según el canal. Acceda a la lista desplegable siguiente para obtener más información:
 
-* **[!UICONTROL Editar línea de asunto]**: actualice rápidamente la línea de asunto del correo electrónico.
++++ Para plantillas de correo electrónico
+
 * **[!UICONTROL Editar cuerpo del correo electrónico]**: abra el diseñador de correo electrónico para modificar el contenido de la plantilla.
 * **[!UICONTROL Ver revisión]**: vea una revisión de la plantilla de correo electrónico.
-* **[!UICONTROL Enviar revisión]** — Envíe una revisión de la plantilla a los destinatarios designados.
-* **[!UICONTROL Informe de correo no deseado]**: analice la plantilla con filtros de correo no deseado.
-* **[!UICONTROL Procesar correo electrónico]**: obtenga una vista previa del procesamiento del correo electrónico en diferentes clientes de correo electrónico.
+* **[!UICONTROL Enviar prueba]**: Envíe una prueba de la plantilla a los destinatarios designados.
+* **[!UICONTROL Informe de spam]**: Analice la plantilla con filtros de spam.
+* **[!UICONTROL Procesar correo electrónico]**: obtiene una vista previa del procesamiento del correo electrónico en diferentes clientes de correo electrónico.
 
-![](assets/content-template-quick-launch.png)
+![](assets/content-template-quick-launch-email.png)
+
++++
+
++++ Para plantillas SMS
+
+* **[!UICONTROL Comprobar recuento/segmentos de caracteres]**: compruebe el recuento de caracteres y el número de segmentos utilizados por el mensaje.
+
+![](assets/content-template-quick-launch-sms.png)
+
++++
 
 Para editar el contenido completo de una plantilla, haga clic en el elemento deseado de la lista y realice los cambios necesarios. También puede editar las propiedades de la plantilla de contenido haciendo clic en el botón Editar junto al nombre de la plantilla.
 
