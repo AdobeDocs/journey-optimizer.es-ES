@@ -28,8 +28,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 4%
+source-wordcount: 1053
+ht-degree: 1%
 
 ---
 
@@ -114,53 +114,53 @@ Esta es la lista de todos los campos que se pueden usar en el **[!UICONTROL Repo
   **Tipo:** objeto
   **Requerido:** &quot;formato&quot;
 
-   * **Formato**
+  * **Formato**
 
-     Formato **Campo:**
-     Formato **Título:**
-     **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet]&#x200B;(https://www.iana.org/) que definen formatos de medios informáticos).
-     **Tipo:** cadena
-     **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
+    Formato **Campo:**
+    Formato **Título:**
+    **Descripción:** La manifestación física o digital del recurso. Normalmente, el formato debe incluir el tipo de medio del recurso. El formato se puede utilizar para determinar el software, hardware u otro equipo necesario para mostrar o utilizar el recurso. La práctica recomendada es seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de [tipos de medios de Internet]&#x200B;(https://www.iana.org/) que definen formatos de medios informáticos).
+    **Tipo:** cadena
+    **Ejemplo:** &quot;application/vnd.adobe.photoshop&quot;
 
-   * **Idioma**
+  * **Idioma**
 
-     **Campo:** idioma
-     **Título:** Idioma
-     **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
-     **Tipo:** matriz
-     **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+    **Campo:** idioma
+    **Título:** Idioma
+    **Descripción:** Idioma o idiomas del recurso. \nLos idiomas se especifican en el código de idioma tal como se definen en [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), que forma parte de BCP 47, que se usa en otras partes de XDM.
+    **Tipo:** matriz
+    **Ejemplos:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > toma de decisiones > content > components > _repo**
 
   **Campo:** _repositorio
   **Tipo:** objeto
 
-   * **id**
+  * **id**
 
-     **Campo:** id.
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-     **Tipo:** cadena
-     **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+    **Campo:** id.
+    **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+    **Tipo:** cadena
+    **Ejemplo:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **name**
+  * **name**
 
-     **Campo:** nombre
-     **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo del \&quot;repo:id\&quot;.
-     **Tipo:** cadena
+    **Campo:** nombre
+    **Descripción:** Algunas sugerencias sobre dónde ubicar el repositorio que almacena el recurso externo del \&quot;repo:id\&quot;.
+    **Tipo:** cadena
 
-   * **ID de repositorio**
+  * **ID de repositorio**
 
-     **Campo:** repositoryID
-     **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad adicional \&quot;repo:resolveUrl\&quot; para recuperar el recurso.
-     **Tipo:** cadena
-     **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+    **Campo:** repositoryID
+    **Descripción:** Identificador único opcional para hacer referencia al recurso en un repositorio de contenido. Cuando se utilizan las API de Platform para recuperar la representación, el cliente puede esperar una propiedad \&quot;repo:resolveUrl\&quot; adicional para recuperar el recurso.
+    **Tipo:** cadena
+    **Ejemplo:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
-   * **resolveURL**
+  * **resolveURL**
 
-     **Campo:** resolveURL
-     **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
-     **Tipo:** cadena
-     **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+    **Campo:** resolveURL
+    **Descripción:** Un localizador de recursos único opcional para leer el recurso en un repositorio de contenido. Esto facilitará la obtención del recurso sin que el cliente entienda dónde se administra el recurso y a qué API llamar. Esto es similar a un vínculo HAL, pero la semántica es más sencilla y útil.
+    **Tipo:** cadena
+    **Ejemplo:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > toma de decisiones > content > components > content**
 
