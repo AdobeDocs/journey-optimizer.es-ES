@@ -7,23 +7,15 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +73,9 @@ Para cualquier solicitud de toma de decisiones, puede tener una o más política
 
 * Para **varias** directivas o ubicaciones de decisión en una solicitud:
 
-   * Si `allowDuplicateDecisionItems` se establece en `false`: todos los elementos de la respuesta son únicos (independientemente de para qué directiva de mensaje/decisión/ubicación se encuentre el elemento).
+  * Si `allowDuplicateDecisionItems` se establece en `false`: todos los elementos de la respuesta son únicos (independientemente de para qué directiva de mensaje/decisión/ubicación se encuentre el elemento).
 
-   * Si `allowDuplicateDecisionItems` se establece en `true` (predeterminado): los elementos de la respuesta se pueden duplicar (si varios mensajes/directivas de decisión/ubicaciones cumplen los requisitos para el mismo elemento de decisión para esa solicitud).
+  * Si `allowDuplicateDecisionItems` se establece en `true` (predeterminado): los elementos de la respuesta se pueden duplicar (si varios mensajes/directivas de decisión/ubicaciones cumplen los requisitos para el mismo elemento de decisión para esa solicitud).
 
 ### Aplicación de la deduplicación en una solicitud {#deduplication-in-request}
 
@@ -154,13 +146,13 @@ Supongamos que tiene la misma política de decisión con la colocación del enca
 
 * Si `itemId-X` es el único elemento de decisión que cumple los requisitos tanto para la política de decisión como para la combinación de ubicación:
 
-   * Si `allowDuplicateDecisionItems` es `true` (predeterminado): `itemId-X` se devuelve para ambas propuestas en una sola respuesta.
+  * Si `allowDuplicateDecisionItems` es `true` (predeterminado): `itemId-X` se devuelve para ambas propuestas en una sola respuesta.
 
-   * Si `allowDuplicateDecisionItems` es `false`:
+  * Si `allowDuplicateDecisionItems` es `false`:
 
-      * `itemId-X` se devolvió para la primera propuesta.
+    * `itemId-X` se devolvió para la primera propuesta.
 
-      * El elemento de decisión de reserva (también único) o un elemento de decisión vacío se pasan para la segunda propuesta.
+    * El elemento de decisión de reserva (también único) o un elemento de decisión vacío se pasan para la segunda propuesta.
 
 +++Respuesta de muestra de toma de decisiones (`allowDuplicateDecisionItems` = `true`)
 

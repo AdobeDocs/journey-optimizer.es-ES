@@ -6,12 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: 1388
 ht-degree: 4%
 
 ---
@@ -35,7 +34,7 @@ En este ejemplo, el valor `there` se muestra si el atributo `firstName` de este 
 El asistente `if` se usa para definir un bloque condicional.
 Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo contrario, se omite.
 
-**Syntax**
+**Sintaxis**
 
 ```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -43,7 +42,7 @@ Si la evaluación de la expresión devuelve true, se procesa el bloque; de lo co
 ```
 
 Después del asistente `if`, puede escribir una instrucción `else` para especificar un bloque de código que se va a ejecutar, si la misma condición es falsa.
-La instrucción `elseif` especificará una nueva condición para probar si la primera instrucción devuelve el valor &quot;False&quot;.
+La instrucción `elseif` especificará una nueva condición para comprobar si la primera instrucción devuelve el valor &quot;False&quot;.
 
 
 **Formato**

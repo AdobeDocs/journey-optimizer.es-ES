@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +283,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * Se han introducido las siguientes mejoras para optimizar las funciones de mensajería SMS con Infobip y Sinch:
 
-   * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
+  * Puede definir y administrar palabras clave únicas para sus campañas y recorridos de SMS, lo que permite una comunicación más personalizada y eficaz.
 
-   * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
+  * Puede crear y enviar un mensaje SMS predeterminado cuando no se reconozca una palabra clave.
 
   Obtenga más información sobre estas mejoras en la documentación de configuración de SMS para [Infobip](../mobile/mobile-configuration-infobip.md) y [Sinch](../mobile/mobile-configuration-sinch.md).
 
@@ -311,8 +307,8 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * **Tiempo de vida del conjunto de datos (TTL)**: a partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer en las nuevas zona protegidas y organizaciones de la siguiente manera:
 
-   * 90 días para los datos en el almacén de perfiles
-   * 13 meses para los datos en el lago de datos
+  * 90 días para los datos en el almacén de perfiles
+  * 13 meses para los datos en el lago de datos
 
   Este cambio se implementará en las zonas protegidas de clientes existentes en una fase posterior. [Más información](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +635,7 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 **Recorridos**
 
-* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL Condición de tiempo]** se establece ahora por hora, de 00:00 a 12:00. [Más información](../building-journeys/conditions.md#time_condition)
+* En la actividad **Condición**, de forma predeterminada, la **[!UICONTROL condición horaria]** ahora se establece por hora, de 00:00 a 12:00. [Más información](../building-journeys/conditions.md#time_condition)
 * Al crear los recorridos, las alertas se muestran ahora en el botón **Alertas** para alinearse con otras alertas y ofrecer una experiencia de usuario coherente. [Más información](../building-journeys/troubleshooting.md#activity-errors)
 * Se han mejorado las opciones de zoom en la barra de herramientas del recorrido. El porcentaje del zoom ahora es visible y se puede restablecer su valor más fácilmente.
 
@@ -653,9 +649,9 @@ Esta versión incorpora las mejoras que se enumeran a continuación.
 
 * Se han añadido nuevos casos de uso a la nueva experiencia de creación de informes:
 
-   * Cree métricas calculadas personalizadas directamente en los informes.
-   * Cree un público a partir de los datos de creación del informe.
-   * Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de las **[!UICONTROL Dimensiones]** y las **[!UICONTROL Métricas]** que haya seleccionado.
+  * Cree métricas calculadas personalizadas directamente en los informes.
+  * Cree un público a partir de los datos de creación del informe.
+  * Use la herramienta de análisis exploratorio para crear fácilmente tablas y visualizaciones a partir de las **[!UICONTROL Dimensiones]** y las **[!UICONTROL Métricas]** que haya seleccionado.
 
   Para obtener más información, consulte la [documentación detallada](../reports/report-cja-manage.md).
 
