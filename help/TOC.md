@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 802f1ac973f328e46c0b9845720dc7056b045c53
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
@@ -95,7 +95,7 @@ ht-degree: 93%
     + [Eventos de reacción](using/building-journeys/reaction-events.md)
     + [Calificación del público](using/building-journeys/audience-qualification-events.md)
     + Optimizar {#optimize-activity}
-      + [Introducción a la actividad de optimización](using/building-journeys/optimize.md)
+      + [Introduccion a la actividad Optimizar](using/building-journeys/optimize.md)
       + [Experimentación de rutas](using/building-journeys/path-experimentation.md)
       + [Segmentación de rutas](using/building-journeys/path-targeting.md)
       + [Condiciones](using/building-journeys/conditions.md)
@@ -569,7 +569,7 @@ ht-degree: 93%
   + Generar contenido {#generate-content}
     + [Introducción a la generación de contenido](using/content-management/gs-generative.md)
     + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[Content Credentials en el asistente de IA](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[Content Credentials en el asistente de IA](using/content-management/generative-c2pa-metadata.md)
     + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
     + [Generación de texto con IA](using/content-management/generative-text.md)
     + [Generación de imágenes con IA](using/content-management/generative-image.md)
