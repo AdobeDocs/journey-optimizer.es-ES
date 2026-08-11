@@ -8,12 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ea831b383982d312357e1d7893675818650325e
 workflow-type: tm+mt
 source-wordcount: 843
