@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 802f1ac973f328e46c0b9845720dc7056b045c53
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3496'
 ht-degree: 93%
 
 ---
@@ -267,7 +267,8 @@ ht-degree: 93%
     + [Vista previa usando perfiles de prueba](using/content-management/preview.md)
     + [Enviar pruebas mediante datos de perfil de prueba](using/content-management/proofs.md)
     + [Prueba de representación de correo electrónico](using/content-management/rendering.md)
-    + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
+    + [Simular variaciones de contenido (experiencia clásica)](using/test-approve/simulate-sample-input.md)
+    + [Simular variaciones de contenido (nueva experiencia)](using/test-approve/simulate-content-variations.md)
     + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
   + Aprobar recorridos y campañas {#approve}
     + [Aprobar recorridos y campañas](/help/rp_landing_pages/approve-landing-page.md)
