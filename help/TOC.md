@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3496'
 ht-degree: 93%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 93%
     + [Eventos de reacción](using/building-journeys/reaction-events.md)
     + [Calificación del público](using/building-journeys/audience-qualification-events.md)
     + Optimizar {#optimize-activity}
-      + [Introducción a la actividad de optimización](using/building-journeys/optimize.md)
+      + [Introduccion a la actividad Optimizar](using/building-journeys/optimize.md)
       + [Experimentación de rutas](using/building-journeys/path-experimentation.md)
       + [Segmentación de rutas](using/building-journeys/path-targeting.md)
       + [Condiciones](using/building-journeys/conditions.md)
@@ -267,7 +267,8 @@ ht-degree: 93%
     + [Vista previa usando perfiles de prueba](using/content-management/preview.md)
     + [Enviar pruebas mediante datos de perfil de prueba](using/content-management/proofs.md)
     + [Prueba de representación de correo electrónico](using/content-management/rendering.md)
-    + [Simulación de variaciones de contenido](using/test-approve/simulate-sample-input.md)
+    + [Simular variaciones de contenido (experiencia clásica)](using/test-approve/simulate-sample-input.md)
+    + [Simular variaciones de contenido (nueva experiencia)](using/test-approve/simulate-content-variations.md)
     + [Informe de correo electrónico no deseado](using/content-management/spam-report.md)
   + Aprobar recorridos y campañas {#approve}
     + [Aprobar recorridos y campañas](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 93%
   + Generar contenido {#generate-content}
     + [Introducción a la generación de contenido](using/content-management/gs-generative.md)
     + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[Content Credentials en el asistente de IA](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[Content Credentials en el asistente de IA](using/content-management/generative-c2pa-metadata.md)
     + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
     + [Generación de texto con IA](using/content-management/generative-text.md)
     + [Generación de imágenes con IA](using/content-management/generative-image.md)
