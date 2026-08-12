@@ -15,9 +15,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 985
 ht-degree: 11%
 
 ---
@@ -47,6 +47,10 @@ El ejemplo siguiente define manualmente el esquema **Pertenencias de fidelizaci�
 ➡️ [Obtenga más información acerca de esquemas relacionales manuales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Cree su esquema {#schema}
+
+>[!NOTE]
+>
+> El **[!UICONTROL diagrama de relaciones de vista]** de la ficha **[!UICONTROL Relación]** es de solo lectura. Para crear o editar una relación, abre el esquema desde la pestaña **[!UICONTROL Examinar]**.
 
 Comience creando un nuevo esquema relacional manualmente en Adobe Experience Platform. Este proceso permite definir la estructura de esquema desde cero, incluido su nombre y comportamiento.
 

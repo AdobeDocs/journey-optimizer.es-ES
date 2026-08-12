@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 2%
+source-wordcount: 521
+ht-degree: 5%
 
 ---
 
@@ -57,6 +57,10 @@ El proceso de creación de contenido depende del canal seleccionado. Conozca los
 >[!IMPORTANT]
 >
 >[Las campañas de alto rendimiento](../campaigns/api-triggered-high-throughput.md) no dependen de los perfiles de Adobe: toda personalización debe incluirse en la carga útil de la API como datos de contexto, como se detalla a continuación. Este modo solo está disponible para el canal de correo electrónico y en la región de EE. UU.
+
+## Adjuntar archivos personalizados de PDF {#attachments}
+
+Para las campañas de correo electrónico transaccionales activadas por la API, puede incluir hasta cinco archivos adjuntos de PDF en un correo electrónico, incluidos archivos adjuntos estáticos y personalizados. Cada destinatario puede recibir diferentes PDF personalizados. [Aprenda a adjuntar archivos personalizados de PDF](../email/pdf-attachments.md#personalized-attachments)
 
 ## Personalización del contenido mediante datos contextuales {#contextual}
 

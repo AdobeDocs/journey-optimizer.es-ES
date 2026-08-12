@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -49,8 +49,8 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
 * **Personalization**:
 
-   * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-content.md#contextual)
-   * No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
+  * Toda personalización debe incluirse en la carga útil de la API como **datos contextuales**. [Aprenda a personalizar el contenido mediante datos contextuales](../campaigns/api-triggered-campaign-content.md#contextual)
+  * No se admite la personalización basada en perfiles. Si se utilizan variables de perfil, se producirán errores de validación.
 
 * **Configuraciones de canal personalizadas**: las configuraciones de canal que usan la [personalización basada en perfiles](../email/surface-personalization.md) no se pueden usar con campañas de alto rendimiento. Solo se pueden utilizar superficies sin personalización de perfil.
 
@@ -64,10 +64,12 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
   Los conjuntos de datos utilizados son:
 
-   * **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
-   * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
+  * **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
+  * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
 
 * **Asignación de rendimiento**: el rendimiento aprovisionado en el complemento Alto rendimiento está reservado exclusivamente para las campañas de alto rendimiento. No se comparte el rendimiento entre las campañas estándar y las activadas por la API de alto rendimiento.
+
+* **Archivos adjuntos personalizados de PDF**: no se admiten cuando una campaña de alto rendimiento conmuta por error a otra región. [Más información sobre los archivos adjuntos personalizados de PDF](../email/pdf-attachments.md#personalized-attachments)
 
 ## Elección entre campañas de rendimiento estándar y campañas de alto rendimiento
 
@@ -88,17 +90,17 @@ Utilice esta tabla para decidir qué tipo de campaña activada por API se adapta
 En otras palabras:
 
 * Elija **API estándar desencadenada** campañas si:
-   * No tiene contratado un rendimiento alto.
-   * Sus necesidades de rendimiento son &lt;500 TPS.
-   * Necesita una personalización basada en Perfiles de Adobe.
-   * Desea vincular los datos de campaña a los perfiles para una futura segmentación.
-   * Desea utilizar otro canal que no sea Correo electrónico.
+  * No tiene contratado un rendimiento alto.
+  * Sus necesidades de rendimiento son &lt;500 TPS.
+  * Necesita una personalización basada en Perfiles de Adobe.
+  * Desea vincular los datos de campaña a los perfiles para una futura segmentación.
+  * Desea utilizar otro canal que no sea Correo electrónico.
 
 * Elija **Alto rendimiento** campañas si:
-   * Necesita rendimiento > 500 TPS.
-   * No es necesario vincular perfiles.
-   * Puede pasar toda la personalización en la carga útil de la API.
-   * Desea utilizar el canal de correo electrónico.
+  * Necesita rendimiento > 500 TPS.
+  * No es necesario vincular perfiles.
+  * Puede pasar toda la personalización en la carga útil de la API.
+  * Desea utilizar el canal de correo electrónico.
 
 ## Directrices de configuración
 

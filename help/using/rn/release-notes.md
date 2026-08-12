@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
+source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
 workflow-type: tm+mt
-source-wordcount: 3139
+source-wordcount: 3245
 ht-degree: 19%
 
 ---
@@ -50,6 +50,27 @@ ht-degree: 19%
 
 ## Actualizaciones del 26 de agosto {#aug-26-updates}
 
+<!--
+### Loyalty {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Loyalty Insights skill</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
+<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
+<p>Availability date: August 12, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
 ### Administración de contenido
 
 <table>
@@ -70,7 +91,32 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### Campañas {#aug-26-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>Archivos adjuntos personalizados de PDF en correos electrónicos activados por API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ahora admite hasta <b>cinco archivos adjuntos de PDF</b> en total por correo electrónico en campañas activadas por API, incluidos archivos PDF estáticos y específicos de destinatarios. Los archivos PDF específicos del destinatario se recuperan de forma segura desde la zona de aterrizaje de datos y se adjuntan en el momento de la entrega, con la ubicación de cada archivo pasada directamente en la carga útil de la API. Esto permite que los sistemas existentes de generación de documentos de subida permanezcan en su sitio, con Journey Optimizer gestionando la entrega.</p>
+<p>Los casos de uso admitidos incluyen facturas, extractos, tickets, contratos, etiquetas de envío y documentos similares que varían según el destinatario. Los archivos adjuntos personalizados de PDF solo están disponibles para campañas de correo electrónico transaccionales activadas por API y no son compatibles con recorridos o campañas organizadas.</p>
+<p>Los volúmenes y tamaños de archivos adjuntos más grandes son compatibles mediante el complemento de archivos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md#personalized-attachments">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 12 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mejoras de uso {#august-26-usability}
+
+* **Operaciones masivas en el inventario de recorrido**: ahora puede realizar nuevas acciones masivas directamente desde la lista de inventario de recorrido, lo que permite administrar varios recorridos a la vez con mayor rapidez. Seleccione varios recorridos y aplique cualquiera de las siguientes acciones nuevas en un solo paso: **agregar al paquete**, **eliminar**, **mover a la carpeta**, **editar etiquetas** o **administrar el acceso**. Esto reduce la necesidad de repetir la misma acción un recorrido a la vez, lo que optimiza la administración de recorridos para equipos que trabajan con un gran número de recorridos. [Más información](../building-journeys/journey-ui.md)
+
+  Fecha de disponibilidad: 12 de agosto de 2026
 
 * **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. [Más información](../test-approve/simulate-content-variations.md)
 
@@ -416,25 +462,6 @@ En esta versión se incluyen las siguientes mejoras en los informes.
 ### Campañas {#campaigns}
 
 +++ Próximamente
-
-<table>
-<thead>
-<tr>
-<th><strong>Archivos adjuntos personalizados de PDF en correos electrónicos activados por API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ahora admite la asociación de hasta cinco PDF específicos de destinatarios por correo electrónico en campañas activadas por API. Los archivos PDF se recuperan de forma segura desde el almacenamiento de Azure o AWS y se adjuntan en el momento del envío, con la ubicación de cada archivo pasada directamente en la carga útil de la API. Esto permite que los sistemas existentes de generación de documentos de subida permanezcan en su sitio, con Journey Optimizer gestionando la entrega.</p>
-<p>Los casos de uso admitidos incluyen facturas, extractos, tickets, contratos, etiquetas de envío y documentos similares que varían según el destinatario. Los archivos adjuntos personalizados de PDF solo están disponibles en campañas activadas por API y no son compatibles con recorridos u otros tipos de campañas (de acción, organizadas).</p>
-<p>Los volúmenes y tamaños de archivos adjuntos más grandes son compatibles mediante el complemento de archivos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe.</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Complemento de rendimiento para el rendimiento en campañas activadas por API - Push** - Hay un nuevo modo de mensajería transaccional de alto rendimiento disponible en campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Antes solo estaba disponible para el canal de correo electrónico, pero ahora también lo está para el canal push, para organizaciones que han adquirido la oferta de complementos de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información. <!-- Documentation link: TBD -->
 

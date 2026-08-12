@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 69035184126985778b12eb7a8a86148fd9a7cb11
 workflow-type: tm+mt
-source-wordcount: 920
+source-wordcount: 950
 ht-degree: 7%
 
 ---
@@ -84,6 +84,7 @@ Para obtener más información sobre los motivos de exclusión específicos, con
 | EmailNoMessageFoundForTreatment | 050027 | Correo electrónico | Se genera un evento de exclusión cuando el experimento está habilitado para el mensaje y no se encuentra ningún mensaje para el tratamiento cualificado. |
 | EmailMalformattedAddress | 050024 | Correo electrónico | Se genera un evento de exclusión cuando el correo electrónico contiene una dirección mal formada. |
 | UnsubscribeLinkNotValid | 050081 | Correo electrónico | Se genera un evento de exclusión cuando la longitud del asunto de mailTo de cancelación de suscripción a una lista es mayor que el límite RFC de 998 caracteres. |
+| AttachmentResolutionFailed | 050083 | Correo electrónico | Se genera un evento de exclusión cuando uno o más archivos adjuntos de PDF encuentran un error permanente de resolución o recuperación. El correo electrónico afectado se excluye y no se envía. |
 | InAppNoVariantDefined | 050041 | InApp | Se genera un evento de exclusión cuando no se define ninguna variante para el mensaje en la aplicación. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Se genera un evento de exclusión cuando el experimento está habilitado para el mensaje y no se encuentra ningún mensaje para el tratamiento cualificado. |
 | PushNoTokenFoundInProfile | 050030 | Push | Se genera un evento de exclusión cuando el perfil no tiene tokens push. |

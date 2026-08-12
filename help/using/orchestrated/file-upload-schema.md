@@ -14,10 +14,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 1255
-ht-degree: 41%
+source-wordcount: 1280
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,10 @@ En esta sección se proporciona una guía paso a paso sobre cómo crear un esque
 ➡️ [Obtenga más información acerca de esquemas relacionales en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational)
 
 ## Cargar un archivo DDL{#ddl-upload}
+
+>[!NOTE]
+>
+> El **[!UICONTROL diagrama de relaciones de vista]** de la ficha **[!UICONTROL Relación]** es de solo lectura. Para crear o editar una relación, abre el esquema desde la pestaña **[!UICONTROL Examinar]**.
 
 Al cargar un archivo DDL, puede definir la estructura del modelo de datos por adelantado, incluidas tablas, atributos, claves y relaciones.
 

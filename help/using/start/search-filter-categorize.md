@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 96%
+source-wordcount: 837
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 
 ## Acciones masivas {#bulk-actions}
 
-En las listas **Campañas**, **Fragmentos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones masiva que aparece en la parte inferior de la pantalla.
+En las listas **Campañas**, **Fragmentos**, **Recorridos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones en masa que aparece en la parte inferior de la pantalla.
 
 Las siguientes operaciones son posibles:
 
@@ -78,7 +78,11 @@ Las siguientes operaciones son posibles:
 * **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los elementos seleccionados. [Más información sobre cómo utilizar etiquetas →](#add-tags)
 * **[!UICONTROL Administrar acceso]**: aplique etiquetas de acceso a los elementos seleccionados. [Más información sobre el control de acceso a nivel de objeto →](../administration/object-based-access.md)
 * **[!UICONTROL Archivar]**: archive los elementos seleccionados. Disponible en fragmentos y plantillas.
-* **[!UICONTROL Eliminar]**: elimine permanentemente los elementos seleccionados. Disponible solo en campañas.
+* **[!UICONTROL Eliminar]**: elimine permanentemente los elementos seleccionados. Disponible para campañas y Recorridos.
+
+>[!NOTE]
+>
+>Los recorridos también admiten **[!UICONTROL Pausa]** y **[!UICONTROL Reanudación]** en lotes. [Más información →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 
