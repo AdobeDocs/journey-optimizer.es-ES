@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 2122
+source-wordcount: 2311
 ht-degree: 10%
 
 ---
@@ -190,13 +190,23 @@ Para ello, siga los pasos a continuación:
 
 ## Operaciones masivas {#bulk-operations}
 
-Desde la lista de recorridos, puede pausar varios recorridos **Live**. Para pausar un grupo de recorridos (_pausa masiva_), selecciónelos en la lista y haga clic en el botón **Pausar** de la barra azul en la parte inferior de la pantalla. El botón **Pausar** solo está disponible cuando se seleccionan **recorridos en vivo**.
+Desde la lista de recorridos, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones masiva que aparece en la parte inferior de la pantalla.
+
+![Barra de acciones en lotes con varios recorridos seleccionados](assets/bulk-actions-journeys.png)
+
+Las siguientes operaciones son posibles:
+
+* **[!UICONTROL Agregar al paquete]**: exporte los recorridos seleccionados a otra zona protegida. [Más información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Mover a carpeta]** - Mover los recorridos seleccionados a una carpeta. [Aprenda a trabajar con carpetas →](#journeys-folders)
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los recorridos seleccionados. [Más información sobre cómo utilizar etiquetas →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Administrar acceso]** - Aplicar etiquetas de acceso a los recorridos seleccionados. [Más información sobre el control de acceso a nivel de objeto →](../administration/object-based-access.md)
+* **[!UICONTROL Eliminar]** - Eliminar permanentemente los recorridos seleccionados.
+* **[!UICONTROL Pausar]** - Pausar **recorridos en vivo** seleccionados (_pausa masiva_). Solo está disponible cuando se seleccionan **recorridos en vivo**.
+* **[!UICONTROL Reanudar]** - Reanudar **recorridos** seleccionados en pausa (_reanudación masiva_). Solo está disponible cuando se seleccionan **recorridos en pausa**.
 
 ![Pausa masiva de dos recorridos activos desde la barra inferior](assets/bulk-pause-journeys.png)
 
-También puede reanudar uno o varios **recorridos pausados**. Para reanudar un grupo de recorridos (_reanudación masiva_), selecciónelos y haga clic en el botón **Reanudar** ubicado en la barra azul en la parte inferior de la pantalla. Tenga en cuenta que el botón **Reanudar** solo estará disponible cuando se seleccionen **recorridos en pausa**.
-
-[Más información sobre las recorridos de pausa/reanudación](journey-pause.md).
+[Más información sobre las recorridos de pausa/reanudación](journey-pause.md). [Más información sobre las otras acciones masivas →](../start/search-filter-categorize.md#bulk-actions)
 
 >[!NOTE]
 >
@@ -217,14 +227,15 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Cambiar entre la vista de lista y la vista de calendario para visualizar las programaciones de recorrido
 * Añadir y administrar calendarios externos cargando archivos CSV
 * Duplique un recorrido existente para reutilizar su configuración
-* Pausar o reanudar de forma masiva varios recorridos activos o pausados a la vez
+* Aplicar operaciones por lotes a varios recorridos seleccionados desde la barra de acciones por lotes: agregar a un paquete, mover a una carpeta, editar etiquetas, administrar el acceso, eliminar, pausar o reanudar
 
 **Glosario:**
 
 * **Panel de Recorridos**: La interfaz principal de recorrido con una ficha Información general que muestra las métricas clave y una ficha Examinar que enumera todos los recorridos. *(específico del producto)*
 * **Tasa de descarte**: La proporción de perfiles que no cumplen los requisitos para entrar en el recorrido (por ejemplo, debido a reglas de área de nombres o reentrada incorrectas) en comparación con el total de perfiles que intentaron entrar en las últimas 24 horas. *(específico del producto)*
 * **Vista de calendario de Recorridos**: Una representación visual de recorridos semanales, a la que se puede tener acceso haciendo clic en el icono de calendario de la lista recorridos. *(específico del producto)*
-* **Pausa masiva**: Una operación que pone en pausa varios recorridos activos a la vez (hasta 10 por operación) desde la lista de recorridos. *(específico del producto)*
+* **Barra de acciones en lotes**: La barra de acciones que aparece en la parte inferior de la lista de recorridos una vez que se han seleccionado uno o más recorridos, que ofrece agregar al paquete, mover a la carpeta, editar etiquetas, administrar el acceso, eliminar, pausar y reanudar. *(específico del producto)*
+* **Pausa/reanudación masiva**: Las operaciones de pausa y reanudación disponibles en la barra de acciones masivas, se limitan a recorridos activos (pausa) o recorridos en pausa (reanudación), hasta 10 por operación. *(específico del producto)*
 
 **Protecciones:**
 
@@ -239,6 +250,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Nombre canónico: panel de Recorrido — Acrónimo: none — variantes: lista de recorridos, descripción general de recorridos
 * Sinónimos: &quot;pestaña Examinar&quot; = &quot;lista de recorridos&quot;
 * No confundir: &quot;Tasa de descarte&quot; ≠ &quot;Tasa de error&quot;: la tasa de descarte cuenta los perfiles que no cumplen los requisitos para entrar. La tasa de error cuenta los perfiles introducidos pero que han encontrado un error de procesamiento
+* Nota: Las opciones Añadir a paquete, mover a carpeta, editar etiquetas, gestionar acceso y borrar se comparten con las listas Campañas, Fragmentos y Plantillas. Las pausas y reanudaciones son específicas del recorrido
 
 **PREGUNTAS MÁS FRECUENTES:**
 
@@ -247,6 +259,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Puedo pausar varios recorridos a la vez?** — Sí; seleccione varios recorridos interactivos en la lista y haga clic en el botón Pausa de la barra inferior. Se pueden pausar hasta 10 recorridos por operación.
 * **Q: ¿Cómo se agregan eventos externos al calendario de recorrido?** — Haga clic en el icono de adición de calendario y, a continuación, arrastre y suelte un archivo CSV con columnas de nombre de evento, fecha de inicio y fecha de finalización; los eventos cargados son visibles para todos los usuarios de la organización.
 * **Q: ¿Por qué el calendario muestra un recorrido como 1 hora aunque se ejecute durante más tiempo?** — El calendario muestra todos los recorridos como intervalos de tiempo de 1 hora para mantener la coherencia visual; esto no refleja la hora real de envío o finalización.
+* **Q: ¿Qué operaciones masivas puedo realizar en varios recorridos a la vez?** — Además de pausar y reanudar, puede seleccionar varios recorridos y añadirlos a un paquete, moverlos a una carpeta, editar sus etiquetas, administrar su acceso o eliminarlos, utilizando la barra de acciones por lotes en la parte inferior de la lista recorridos.
 
 +++
 
