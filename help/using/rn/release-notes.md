@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
 workflow-type: tm+mt
-source-wordcount: 3137
+source-wordcount: 3139
 ht-degree: 19%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 19%
 </tbody>
 </table>
 
-### Mejoras de uso {#july-26-usability}
+### Mejoras de uso {#august-26-usability}
 
 * **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. [Más información](../test-approve/simulate-content-variations.md)
 
@@ -342,14 +342,6 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la a
 </tbody>
 </table>
 
-* **Métodos abreviados de inicio rápido en el inventario de fragmentos**: ahora puede acceder rápidamente a las acciones comunes desde la lista de fragmentos con el botón **[!UICONTROL Más acciones]**. Los métodos abreviados disponibles incluyen editar el fragmento, abrir sus detalles y descartar la versión de borrador. [Más información](../content-management/manage-fragments.md#quick-launch-fragments)
-
-  ![](../content-management/assets/fragment-quick-launch.png)
-
-* **Métodos abreviados de inicio rápido en el inventario de plantillas** - El botón **[!UICONTROL Más acciones]** de la lista Plantillas de contenido ahora proporciona acceso rápido a acciones comunes: editar detalles de plantilla, simular contenido y eliminar una plantilla. También hay disponibles métodos abreviados adicionales específicos del canal: para plantillas de correo electrónico, edite el cuerpo del correo electrónico, vea o envíe una prueba, ejecute un informe de correo no deseado y procese el correo electrónico; para plantillas de SMS, compruebe el recuento de caracteres y el número de segmentos. [Más información](../content-management/access-content-templates.md#edit)
-
-  ![](../content-management/assets/content-template-quick-launch-email.png)
-
 * **Nuevas funciones de ayuda en las expresiones de personalización**. Las nuevas funciones de ayuda ya están disponibles en las expresiones de personalización:
 
   * `appendQueryParams`: anexa un parámetro de consulta a una dirección URL o lo reemplaza si la clave ya existe.
@@ -447,3 +439,14 @@ En esta versión se incluyen las siguientes mejoras en los informes.
 * **Complemento de rendimiento para el rendimiento en campañas activadas por API - Push** - Hay un nuevo modo de mensajería transaccional de alto rendimiento disponible en campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Antes solo estaba disponible para el canal de correo electrónico, pero ahora también lo está para el canal push, para organizaciones que han adquirido la oferta de complementos de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información. <!-- Documentation link: TBD -->
 
 +++
+
+### Mejoras de uso {#july-26-usability}
+
+* **Métodos abreviados de inicio rápido en el inventario de fragmentos**: ahora puede acceder rápidamente a las acciones comunes desde la lista de fragmentos con el botón **[!UICONTROL Más acciones]**. Los métodos abreviados disponibles incluyen editar el fragmento, abrir sus detalles y descartar la versión de borrador. [Más información](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **Métodos abreviados de inicio rápido en el inventario de plantillas** - El botón **[!UICONTROL Más acciones]** de la lista Plantillas de contenido ahora proporciona acceso rápido a acciones comunes: editar detalles de plantilla, simular contenido y eliminar una plantilla. También hay disponibles métodos abreviados adicionales específicos del canal: para plantillas de correo electrónico, edite el cuerpo del correo electrónico, vea o envíe una prueba, ejecute un informe de correo no deseado y procese el correo electrónico; para plantillas de SMS, compruebe el recuento de caracteres y el número de segmentos. [Más información](../content-management/access-content-templates.md#edit)
+
+  ![](../content-management/assets/content-template-quick-launch-email.png)
+
