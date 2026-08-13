@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 1697
-ht-degree: 95%
+source-wordcount: 1692
+ht-degree: 94%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campañas"
->abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Canales admitidos: correo electrónico, SMS, notificaciones push, correo directo."
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Admitir canales salientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"

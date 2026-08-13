@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 3245
+source-wordcount: 3334
 ht-degree: 19%
 
 ---
@@ -106,6 +106,25 @@ ht-degree: 19%
 <p>Los casos de uso admitidos incluyen facturas, extractos, tickets, contratos, etiquetas de envío y documentos similares que varían según el destinatario. Los archivos adjuntos personalizados de PDF solo están disponibles para campañas de correo electrónico transaccionales activadas por API y no son compatibles con recorridos o campañas organizadas.</p>
 <p>Los volúmenes y tamaños de archivos adjuntos más grandes son compatibles mediante el complemento de archivos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../email/pdf-attachments.md#personalized-attachments">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 12 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Campañas orquestadas {#august-26-oc}
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con el canal LINE (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con el lanzamiento de la función de canales salientes personalizados, ahora puede añadir acciones LINE directamente a sus campañas orquestadas. Esta nueva actividad le permite crear y ofrecer contenido altamente personalizado, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes Flex enriquecidos, para atraer a sus clientes sin problemas en la plataforma LINE. Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Para obtener más información, consulte la <a href="../orchestrated/activities/channels.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 12 de agosto de 2026</p>
 </td>
 </tr>
@@ -199,7 +218,7 @@ En esta versión se han introducido las siguientes funciones y mejoras.
 </tbody>
 </table>
 
-* **Canal de WhatsApp: admite plantillas de flujo de WhatsApp**. Ahora puedes enviar plantillas de flujo de WhatsApp en Adobe Journey Optimizer para ofrecer experiencias interactivas en varias pantallas, como encuestas y captura de posibles clientes. Las respuestas se capturan al enviarlas y se almacenan como cargas JSON sin procesar en el nuevo conjunto de datos de evento de seguimiento de canal de Journey Optimizer. [Más información](../data/get-started-datasets.md)
+* **Canal de WhatsApp: admite plantillas de flujo de WhatsApp**. Ahora puedes enviar plantillas de flujo de WhatsApp en Adobe Journey Optimizer para ofrecer experiencias interactivas en varias pantallas, como encuestas y captura de posibles clientes. Las respuestas se capturan al enviarlas y se almacenan como cargas JSON sin procesar en el nuevo conjunto de datos de evento de seguimiento de canal de Journey Optimizer. [Más información](../data/get-started-datasets.md#system-datasets)
 
 * **Integraciones mejoradas de proveedores personalizados - Móvil** - Las integraciones de proveedores personalizados ahora ofrecen una mayor flexibilidad con mensajes clave y actualizaciones de encabezados:
 
