@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +66,14 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 <table>
 <thead>
 <tr>
-<th><strong>resistencia a nivel de recorrido</strong><br/></th>
+<th><strong>Recorrido de nivel de resistencia (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Ahora puede configurar un grupo de exclusión para los recorridos directamente desde las propiedades de recorrido. Una exclusión es un porcentaje configurable de la audiencia de destino que se excluye de la entrada al recorrido y que no recibe ninguna comunicación. Al comparar los perfiles de exclusión con los perfiles activos en los informes de Customer Journey Analytics, puede medir el alza incremental, el verdadero impacto, que ofrece su recorrido.</p>
+<p> Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -86,7 +87,7 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 
 ### Campañas {#august-26-camp}
 
-Las siguientes funcionalidades y mejoras están llegando a las campañas de esta versión.
+En esta versión de Campaign se incluyen las siguientes funcionalidades y mejoras.
 
 <table>
 <thead>
@@ -112,11 +113,11 @@ Las siguientes funcionalidades y mejoras están llegando a las campañas de esta
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **Anular el campo de ejecución predeterminado en Campañas de acción**: anteriormente disponible en el nivel de recorrido, ahora puede anular el campo de ejecución predeterminado establecido globalmente para sus envíos de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción. <!-- Documentation link: TBD -->
+* **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción. <!-- Documentation link: TBD -->
 
 ### Campañas orquestadas {#august-26-oc}
 
-Las siguientes funcionalidades y mejoras estarán disponibles en las campañas orquestadas en esta versión.
+Las siguientes funcionalidades y mejoras están llegando a Orchestrated Campaigns en esta versión.
 
 <table>
 <thead>
@@ -127,7 +128,7 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 <tbody>
 <tr>
 <td>
-<p>Ahora puede aplicar horas tranquilas. Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para evitar que los mensajes se envíen durante períodos específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento en los casos de uso de la orquestación de la campaña.</p>
+<p>Ahora puede aplicar Horas de silencio. Las horas tranquilas le permiten definir exclusiones basadas en el tiempo para evitar que los mensajes se envíen durante períodos específicos, lo que le ayuda a respetar las preferencias de los clientes y los requisitos de cumplimiento en los casos de uso de la orquestación de la campaña.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
