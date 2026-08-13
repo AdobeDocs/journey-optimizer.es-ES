@@ -6,19 +6,14 @@ description: Obtenga información sobre cómo añadir una actividad de canal en 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 36%
+source-wordcount: 2012
+ht-degree: 37%
 
 ---
 
@@ -49,6 +44,13 @@ ht-degree: 36%
 >id="ajo_orchestration_target"
 >title="Target"
 >abstract="La sección **[!UICONTROL Target]** establece el destinatario de la entrega para esta actividad del canal. Use **[!UICONTROL Dimensión de destino]** para seleccionar qué dimensión de destino se aplica a este envío. A continuación, elija **[!UICONTROL Un mensaje por perfil]** para enviar un solo mensaje por persona o **[!UICONTROL Un mensaje por dimensión secundaria]** para enviar un mensaje por dimensión secundaria correspondiente; por ejemplo, un mensaje de correo electrónico por vuelo cuando el mismo viajero tiene varios vuelos coincidentes."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Actividad de Line"
+>abstract="La actividad de **Line** le permite añadir una acción de LINE a su campaña orquestada. Cree contenido personalizado, desde texto y pegatinas hasta imágenes, vídeos, ubicaciones y mensajes de Flex, para atraer a los clientes en LINE."
+
 
 <!--
 UNUSED IDs in BJ
@@ -186,8 +188,7 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="correo electrónico" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creación de un correo electrónico</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Creación de un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Crear una acción personalizada</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Crear una acción personalizada</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="línea" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>Creación de un mensaje de LINE (LA)</strong></a></td></tr></table>
 
 ### Adición de personalización {#add-personalization}
 
