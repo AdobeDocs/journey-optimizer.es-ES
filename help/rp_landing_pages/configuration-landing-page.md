@@ -26,7 +26,7 @@ Explore en detalle los temas siguientes para descubrir cómo funcionan conjuntam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la configuración de canal
 
@@ -36,7 +36,7 @@ Conozca los pasos para configurar canales en Adobe Journey Optimizer, incluidos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Configurar y administrar configuraciones de canal
 
@@ -46,7 +46,7 @@ Siga una guía detallada para crear, editar, desactivar y monitorizar las config
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configuración de canal guiada
 
@@ -56,7 +56,7 @@ Configure los canales web y móviles de forma eficaz con las instrucciones paso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Delegar y administrar subdominios de correo electrónico
 
@@ -66,7 +66,7 @@ Aprenda a delegar y configurar subdominios de correo electrónico para optimizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Implementar un plan de calentamiento de IP
 
@@ -76,7 +76,7 @@ Cree y ejecute planes de calentamiento de IP para establecer la reputación del 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Monitorizar la entregabilidad y reputación de correo electrónico
 
