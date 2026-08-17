@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -182,8 +182,8 @@ Los resultados de la consulta muestran campos clave que ayudan a identificar el 
 * **actionExecutionError** - Cuando se establece en `businessRuleProfileDiscarded`, esto indica que el perfil se descartó debido a una regla de negocio. El campo `eventType` proporciona detalles adicionales sobre qué regla de negocio específica provocó el descarte.
 
 * **eventType** - Especifica el tipo de regla de negocio que provocó el descarte:
-   * `quietHours`: el perfil se descartó debido a la configuración de horas de inactividad
-   * `forcedDiscardDueToQuietHours`: el perfil se descartó a la fuerza porque se alcanzó el límite de protección para perfiles retenidos en horas de silencio
+  * `quietHours`: el perfil se descartó debido a la configuración de horas de inactividad
+  * `forcedDiscardDueToQuietHours`: el perfil se descartó a la fuerza porque se alcanzó el límite de protección para perfiles retenidos en horas de silencio
 
 +++
 
@@ -1247,23 +1247,23 @@ Esta consulta filtra los recorridos que han participado en más de 1000 perfiles
 
 +++
 
-+++Total de perfiles únicos comprometidos en todos los recorridos en los últimos 12 meses
++++Total de identidades únicas comprometidas en todos los recorridos en los últimos 12 meses
 
-Esta consulta proporciona un recuento de perfiles únicos comprometidos en todos los recorridos en los últimos 12 meses, lo que le ofrece una visión general de su participación basada en recorridos.
+Esta consulta proporciona un recuento de identidades únicas comprometidas en todos los recorridos en los últimos 12 meses, lo que le ofrece una visión general de su participación basada en recorridos.
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_IDENTITIES
 FROM journey_step_events
 WHERE timestamp > (now() - interval '12' month);
 ```
 
 _Salida de ejemplo_
 
-| TOTAL_ENGAGED_PROFILES |
+| TOTAL_ENGAGED_IDENTITIES |
 |---|
-| 2.547.890 |
+| 2,547,890 |
 
-Este número único representa el recuento total de perfiles únicos que ha participado al menos un recorrido en los últimos 12 meses.
+Este número único representa el recuento total de identidades únicas que ha participado al menos un recorrido en los últimos 12 meses.
 
 >[!NOTE]
 >

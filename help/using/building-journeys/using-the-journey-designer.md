@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2393
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -102,9 +102,13 @@ Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda
 
 ![](assets/journey-new-experience-switch.png)
 
+Al usar la nueva experiencia, puedes seleccionar varios nodos a la vez manteniendo presionado **Shift** y arrastrando el ratón sobre el lienzo. Una vez seleccionada, puede ejecutar una acción masiva en los nodos seleccionados, como copiar, eliminar o guardar como fragmento de recorrido.
+
 >[!TIP]
 >
 >Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=es){target="_blank"}.
+
+
 
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
@@ -194,7 +198,7 @@ Estos son los pasos para copiar/pegar actividades:
 1. Presione **Ctrl/Comando + C**.
 Si solo desea copiar una actividad, puede hacer clic en ella y usar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
    ![Icono de copiar en el panel de configuración de la actividad](assets/copy-paste2.png)
-1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+1. En cualquier recorrido, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y presionar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![Actividades pegadas en lienzo de recorrido listas para conectarse](assets/copy-paste3.png)
 
 +++ Referencia de conocimientos de AI

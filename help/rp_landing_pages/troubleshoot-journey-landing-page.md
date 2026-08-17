@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Solución de problemas
+title: Resolución de problemas
 description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -109,6 +109,26 @@ Valide y depure las acciones personalizadas mediante la función **Enviar solici
 :::
 
 :::
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
+
+Solucionar problemas de actividades activas
+
+Diagnostique por qué las actividades de Live no aparecen, actualizan ni finalizan, lo que abarca problemas de token de perfil, configuración de campaña, carga útil y entrega para casos de uso unitarios y de difusión.
+
+[Corregir problemas de actividades activas](../using/mobile-live/troubleshoot-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
+
+Solución de problemas de fragmentos de contenido AEM
+
+Revise las consideraciones clave y los problemas comunes al trabajar con fragmentos de contenido de Adobe Experience Manager en Journey Optimizer, incluidos los tipos de fragmentos, el acceso al repositorio y la personalización.
+
+[Resolver problemas de fragmentos de contenido](../using/integrations/aem-fragments-limitations.md)
+:::
+
+:::
 ![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=es)
 
 Pautas para los tickets de asistencia
@@ -122,6 +142,22 @@ Conozca qué debe incluir al ponerse en contacto con el servicio de asistencia d
 
 ## Recursos adicionales
 
+### Recorridos
+
 * [Preguntas frecuentes sobre el recorrido](../using/building-journeys/journey-faq.md): respuestas completas a preguntas comunes acerca de recorridos, que abarcan tipos de recorridos, ejecución, configuración y procedimientos recomendados para la resolución de problemas.
 
 * [Mecanismos de protección y limitaciones](../using/start/guardrails.md): obtenga información acerca de los mecanismos de protección, las limitaciones de productos, las consideraciones de rendimiento y los exploradores admitidos de Journey Optimizer para garantizar un uso óptimo.
+
+### Campañas
+
+* [Solucionar problemas de activación de campañas](../using/campaigns/trigger-campaigns.md#troubleshooting): resuelva problemas comunes que se encuentren al revisar y activar campañas.
+
+### Canales e integraciones
+
+* [Solucionar problemas de configuración de canales de WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting): diagnostica y corrige problemas comunes de configuración al configurar el canal de WhatsApp.
+
+* [Preguntas frecuentes sobre la solución de problemas de integraciones](../using/integrations/vendor-integration-faq.md#troubleshooting): encuentre respuestas a errores comunes de conexión y conexión de prueba para integraciones de terceros.
+
+### Configuración
+
+* [Solucionar problemas de delegación de subdominios personalizados](../using/configuration/delegate-custom-subdomain.md#check-list): revise una lista de comprobación para resolver problemas al enviar un subdominio personalizado.

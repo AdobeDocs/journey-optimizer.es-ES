@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
 workflow-type: tm+mt
-source-wordcount: 3545
-ht-degree: 4%
+source-wordcount: 3677
+ht-degree: 3%
 
 ---
 
@@ -221,14 +221,15 @@ Este límite se comprueba cada 30 minutos. Esto significa que puede superar temp
 * Incluso después de la pausa, a medida que los eventos se siguen procesando, estos eventos se contarán hacia el número de Eventos de Recorrido por segundo de cuota, después de lo cual la restricción se obtiene por unitaria
 * Cuando los perfiles se mantienen en un recorrido pausado, en el momento de la reanudación se actualizan los atributos del perfil
 * Las condiciones se siguen ejecutando en recorridos en pausa, por lo que si un recorrido se ha pausado debido a problemas de calidad de datos, cualquier condición anterior a un nodo de acción se puede evaluar con datos incorrectos
+* Los perfiles que ya han pasado por una actividad **Optimize** antes de que se pausara el recorrido mantienen la asignación de ruta de acceso realizada en ese momento. Esta asignación no se vuelve a evaluar de forma retroactiva, aunque la audiencia subyacente o la definición de criterios cambien durante la pausa. Solo los perfiles que alcanzan la actividad después de que se reanude el recorrido se evalúan respecto a la definición más reciente.
 * Para recorridos de **audiencia de lectura** basados en audiencias incrementales, se tiene en cuenta la duración de la pausa. Este no es el caso de la calificación de audiencias o de los recorridos basados en eventos (si se recibe una calificación de audiencia o un evento durante una pausa y son la primera actividad del recorrido, esos eventos se descartan)
 * Si los perfiles se mantienen en un recorrido y este recorrido se reanuda automáticamente pasados unos días, los perfiles continúan con el recorrido y no se pierden. Si desea soltarlos, debe detener el recorrido
 * En los recorridos en pausa, las alertas no se activan para [alertas de segmentos por lotes](../reports/alerts.md#alert-read-audiences)
 * No hay registros de auditoría en el sistema cuando después de 14 días de pausa se finaliza el estado de la recorrido
 * Algunos perfiles descartados pueden ser visibles en el Evento de paso de Recorrido, pero no en los informes. Por ejemplo:
-   * Descartar eventos empresariales de **Leer audiencia**
-   * Se han eliminado **leer audiencia** trabajos debido a un recorrido pausado
-   * Se descartaron eventos cuando la actividad **Event** era posterior a una acción en la que el perfil estaba esperando
+  * Descartar eventos empresariales de **Leer audiencia**
+  * Se han eliminado **leer audiencia** trabajos debido a un recorrido pausado
+  * Se descartaron eventos cuando la actividad **Event** era posterior a una acción en la que el perfil estaba esperando
 
 
 
@@ -242,11 +243,11 @@ Al pausar este recorrido, selecciona si los perfiles son **Descartados** o **Ret
 
 1. Actividad **AddToCart**: todas las entradas de perfiles nuevos están bloqueadas. Si un perfil ya ha entrado en el recorrido antes de una pausa, continúa hasta el siguiente nodo de acción.
 1. Actividad **Wait**: los perfiles siguen esperando normalmente en el nodo y lo cerrarán, incluso si el recorrido está en pausa.
-1. **Condición**: los perfiles siguen atravesando condiciones y se mueven a la rama derecha, según la expresión definida en la condición.
+1. **Optimizar (condición)**: los perfiles siguen atravesando condiciones y se mueven a la rama derecha, según la expresión definida en la condición.
 1. Actividades **Push**/**Email**: durante un recorrido en pausa, los perfiles comienzan a esperar o se descartan (según la elección hecha por el usuario en el momento de la pausa) en el siguiente nodo de acción. Por lo tanto, los perfiles empezarán a esperar o se descartarán allí.
 1. **Eventos** después de **nodos de acción**: si un perfil está esperando en un nodo **Acción** y hay una actividad **Evento** después de él, si ese evento se activa, el evento se descarta.
 
-Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** sigue habilitada, lo que aumenta el número de perfiles que pasan por la actividad **Condition**, a medida que salen de ella.
+Según este comportamiento, puede ver que los números de perfiles aumentan cuando se pausa el recorrido, sobre todo en las actividades anteriores a **Action**. Por ejemplo, en ese ejemplo, la actividad **Wait** sigue habilitada, lo que aumenta el número de perfiles que pasan por la actividad **Optimize (Condition)** al salir de ella.
 
 Cuando reanude este recorrido:
 
@@ -273,9 +274,9 @@ Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://e
 
   Esto enumerará los descartes que se produjeron en el punto de entrada del recorrido:
 
-   1. Cuando se está ejecutando un recorrido de audiencia y el primer nodo aún se está procesando, si el recorrido está en pausa, se descartan todos los perfiles no procesados.
+  1. Cuando se está ejecutando un recorrido de audiencia y el primer nodo aún se está procesando, si el recorrido está en pausa, se descartan todos los perfiles no procesados.
 
-   1. Cuando llega un nuevo evento unitario para el nodo de inicio (para almacenar en déclencheur una entrada) mientras el recorrido está en pausa, el evento se descarta.
+  1. Cuando llega un nuevo evento unitario para el nodo de inicio (para almacenar en déclencheur una entrada) mientras el recorrido está en pausa, el evento se descarta.
 
 * Para los descartes que se producen cuando el perfil ya está en la recorrido, utilice el siguiente código:
 
@@ -293,9 +294,9 @@ Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://e
 
   Este comando enumera los descartes que se producen cuando los perfiles están en un recorrido:
 
-   1. Si el recorrido está en pausa con la opción de descarte activada y ya se ha introducido un perfil antes de la pausa, ese perfil se descarta cuando llega al siguiente nodo de acción.
+  1. Si el recorrido está en pausa con la opción de descarte activada y ya se ha introducido un perfil antes de la pausa, ese perfil se descarta cuando llega al siguiente nodo de acción.
 
-   1. Si el recorrido se ha pausado con la opción de retención seleccionada, pero los perfiles se descartaron debido a que se superó la cuota de 10 millones, esos perfiles se descartarán cuando lleguen al siguiente nodo de acción.
+  1. Si el recorrido se ha pausado con la opción de retención seleccionada, pero los perfiles se descartaron debido a que se superó la cuota de 10 millones, esos perfiles se descartarán cuando lleguen al siguiente nodo de acción.
 
 +++ Referencia de conocimientos de AI
 

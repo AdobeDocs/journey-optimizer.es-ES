@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3399
 ht-degree: 19%
 
 ---
@@ -131,6 +131,12 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### Canales {#august-26-channels}
+
+* **Complemento de rendimiento para el rendimiento - Push** - Hay un nuevo modo de mensajería transaccional de alto rendimiento disponible en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Antes solo estaba disponible para el canal de correo electrónico, pero ahora también lo está para el canal push, para organizaciones que han adquirido la oferta de complementos de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información. [Más información](../campaigns/api-triggered-high-throughput.md)
+
+  Fecha de disponibilidad: 11 de agosto de 2026
+
 ### Mejoras de uso {#august-26-usability}
 
 * **Operaciones masivas en el inventario de recorrido**: ahora puede realizar nuevas acciones masivas directamente desde la lista de inventario de recorrido, lo que permite administrar varios recorridos a la vez con mayor rapidez. Seleccione varios recorridos y aplique cualquiera de las siguientes acciones nuevas en un solo paso: **agregar al paquete**, **eliminar**, **mover a la carpeta**, **editar etiquetas** o **administrar el acceso**. Esto reduce la necesidad de repetir la misma acción un recorrido a la vez, lo que optimiza la administración de recorridos para equipos que trabajan con un gran número de recorridos. [Más información](../building-journeys/journey-ui.md)
@@ -140,6 +146,10 @@ ht-degree: 19%
 * **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. [Más información](../test-approve/simulate-content-variations.md)
 
   Fecha de disponibilidad: 11 de agosto de 2026
+
+* **Selección múltiple en el nuevo lienzo de recorrido**: ahora puede seleccionar varios nodos a la vez en la nueva experiencia del lienzo de recorrido para ejecutar acciones masivas, como copiar, eliminar o guardar como un fragmento de recorrido, en varios nodos a la vez. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Fecha de disponibilidad: 17 de agosto de 2026
 
 ## Notas de la versión de julio de 2026 {#july-26-updates}
 
@@ -218,7 +228,11 @@ En esta versión se han introducido las siguientes funciones y mejoras.
 </tbody>
 </table>
 
-* **Canal de WhatsApp: admite plantillas de flujo de WhatsApp**. Ahora puedes enviar plantillas de flujo de WhatsApp en Adobe Journey Optimizer para ofrecer experiencias interactivas en varias pantallas, como encuestas y captura de posibles clientes. Las respuestas se capturan al enviarlas y se almacenan como cargas JSON sin procesar en el nuevo conjunto de datos de evento de seguimiento de canal de Journey Optimizer. [Más información](../data/get-started-datasets.md#system-datasets)
+* **Canal de WhatsApp: admite plantillas de flujo de WhatsApp**. Ahora puedes enviar plantillas de flujo de WhatsApp en Adobe Journey Optimizer para ofrecer experiencias interactivas en varias pantallas, como encuestas y captura de posibles clientes. Las respuestas se capturan al enviarlas y se almacenan como cargas JSON sin procesar en el nuevo conjunto de datos de evento de seguimiento de canal de Journey Optimizer:
+
+  * **Conjunto de datos de evento de seguimiento de canal de AJO**: captura todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
+
+  [Más información](../data/get-started-datasets.md#system-datasets)
 
 * **Integraciones mejoradas de proveedores personalizados - Móvil** - Las integraciones de proveedores personalizados ahora ofrecen una mayor flexibilidad con mensajes clave y actualizaciones de encabezados:
 
@@ -477,14 +491,6 @@ En esta versión se incluyen las siguientes mejoras en los informes.
   * Estimated CTOR (tasa de clics hasta la apertura): se calcula como una estimación de clics en relación con el número total de aperturas estimadas.
 
     Fecha de disponibilidad: 29 de julio de 2026
-
-### Campañas {#campaigns}
-
-+++ Próximamente
-
-* **Complemento de rendimiento para el rendimiento en campañas activadas por API - Push** - Hay un nuevo modo de mensajería transaccional de alto rendimiento disponible en campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Antes solo estaba disponible para el canal de correo electrónico, pero ahora también lo está para el canal push, para organizaciones que han adquirido la oferta de complementos de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información. <!-- Documentation link: TBD -->
-
-+++
 
 ### Mejoras de uso {#july-26-usability}
 

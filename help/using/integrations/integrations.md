@@ -16,9 +16,9 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: 1153
+source-wordcount: 1160
 ht-degree: 8%
 
 ---
@@ -190,4 +190,9 @@ Cada mensaje en cola también lleva un período de validez (TTL). Si el procesam
    ![](assets/external-integration-content-12.png)
 
 Una vez que la prueba se haya realizado correctamente, seleccione **[!UICONTROL Activar]** en la configuración de la integración. Consulte [Configurar su integración](#configure).
+
+**Consulte también**
+
+* [Preguntas frecuentes sobre integraciones y resolución de problemas](vendor-integration-faq.md#troubleshooting)
+* [Monitorización y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
