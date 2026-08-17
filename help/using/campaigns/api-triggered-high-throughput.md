@@ -10,21 +10,14 @@ level: Experienced
 keywords: campañas, activadas por API, REST, optimizador, mensajes
 exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
 TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4fe71dee2b654321e267218081b7067cab641c1d
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: 789
 ht-degree: 4%
 
 ---
@@ -33,7 +26,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Active el modo de alto rendimiento para las campañas activadas por API de modo que pueda enviar correos electrónicos transaccionales a gran escala y en tiempo real con un máximo de 5000 transacciones por segundo sin depender de los perfiles.
+**En esta página:** Active el modo de alto rendimiento para campañas activadas por API de modo que pueda enviar mensajes transaccionales en tiempo real a gran escala (correo electrónico y push) a un máximo de 5000 transacciones por segundo sin depender de los perfiles.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +38,7 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
 * **Acceso**: disponible en todas las regiones, excepto en Suiza, para organizaciones con licencia del complemento de mensajería transaccional de alto rendimiento.
 
-* **Canales**: Actualmente solo está disponible para correo electrónico.
+* **Canales**: notificaciones push y por correo electrónico.
 
 * **Personalization**:
 
@@ -64,22 +57,27 @@ Esta página explica cómo las campañas de alto rendimiento difieren de las cam
 
   Los conjuntos de datos utilizados son:
 
-  * **Conjunto De Datos De Evento De Comentarios De Mensajes De AJO - Sin Perfil**
-  * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil**
+  * **Conjunto de datos de evento de comentarios de mensajes de AJO - Sin perfil** — se usa para los comentarios de correo electrónico y push.
+  * **Conjunto de datos de evento de experiencia de seguimiento de correo electrónico de AJO - Sin perfil** - se usa solo para el seguimiento de correo electrónico. Todavía no está disponible un conjunto de datos de seguimiento dedicado que no sea de perfil para push.
 
 * **Asignación de rendimiento**: el rendimiento aprovisionado en el complemento Alto rendimiento está reservado exclusivamente para las campañas de alto rendimiento. No se comparte el rendimiento entre las campañas estándar y las activadas por la API de alto rendimiento.
 
 * **Archivos adjuntos personalizados de PDF**: no se admiten cuando una campaña de alto rendimiento conmuta por error a otra región. [Más información sobre los archivos adjuntos personalizados de PDF](../email/pdf-attachments.md#personalized-attachments)
+* **Notificaciones push**:
+
+  * **Inserción web**: las campañas push web de alto rendimiento se ejecutan en una infraestructura compartida y no se benefician de la capacidad dedicada reservada para la inserción móvil de alto rendimiento.
+  * **Tamaño de carga útil** — El tamaño máximo de carga útil es 5 KB.
+  * **Comportamiento de la Lista de bloqueados de la**: cuando un mensaje llega a una lista de bloqueados de la misma, se conservan los comentarios de la entrega, pero no se producen comentarios sobre la actualización del perfil. Esto significa que las respuestas de lista de bloqueados de la no almacenan en déclencheur las actualizaciones de perfil ni la invalidación de tokens en Adobe Experience Platform.
 
 ## Elección entre campañas de rendimiento estándar y campañas de alto rendimiento
 
 Utilice esta tabla para decidir qué tipo de campaña activada por API se adapta a su caso de uso:
 
 | Función/requisito | Campaña activada por API estándar | Campaña de alto rendimiento |
-|------------------------|---------------------------------|---------------------------|
+| ------------------------ | --------------------------------- | --------------------------- |
 | **Disponibilidad** | Incluido en la oferta base | Requiere un complemento de mensajería transaccional de alto rendimiento. |
 | **Rendimiento** | Hasta 500 transacciones por segundo | Hasta 5000 transacciones por segundo |
-| **Canales** | Correo electrónico, SMS, push | Correo electrónico |
+| **Canales** | Correo electrónico, SMS, push | Correo electrónico, push |
 | **Personalización** | Perfil + contextual en la carga útil de API | Solo contextual en la carga útil de API |
 | **Perfil y vinculación** | Existe o se crea con eventos vinculados al perfil | Sin perfil |
 | **Volumen de mensajes** | Paquetes de mensaje y asignación de derechos estándar | Volúmenes de mensajes por niveles independientes |
@@ -94,13 +92,13 @@ En otras palabras:
   * Sus necesidades de rendimiento son &lt;500 TPS.
   * Necesita una personalización basada en Perfiles de Adobe.
   * Desea vincular los datos de campaña a los perfiles para una futura segmentación.
-  * Desea utilizar otro canal que no sea Correo electrónico.
+  * Desea utilizar otro canal que no sea Correo electrónico o Push.
 
 * Elija **Alto rendimiento** campañas si:
   * Necesita rendimiento > 500 TPS.
   * No es necesario vincular perfiles.
   * Puede pasar toda la personalización en la carga útil de la API.
-  * Desea utilizar el canal de correo electrónico.
+  * Desea utilizar el canal de correo electrónico o push.
 
 ## Directrices de configuración
 
