@@ -6,16 +6,13 @@ description: Obtenga información sobre cómo crear y programar una campaña org
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +65,7 @@ Para crear una campaña orquestada, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planificador"
->abstract="Como administrador de campañas, puede programar campañas para que se inicien automáticamente a horas específicas o establecerlas como **Activadas por una señal** para que se inicien cuando las llamen desde la API de REST o desde la actividad **Finalizar** de otra campaña orquestada. [Más información](trigger-orchestrated-campaign.md)"
+>abstract="Como administrador de campañas, puede programar campañas para que se inicien automáticamente a horas específicas o establecerlas como **Activadas por una señal** para que se inicien cuando las llamen desde la API de REST o desde la actividad **Finalizar** de otra campaña orquestada."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +75,7 @@ Para crear una campaña orquestada, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opciones del planificador"
->abstract="Elija cómo se inicia la campaña: en una programación única o recurrente (una vez, diaria, semanal, mensual, etc.), o **Activada por una señal** para que espere una llamada de API o la actividad **Finalizar** de una campaña ascendente. En las campañas activadas por señales, puede definir los parámetros que se van a transferir en la carga útil. [Más información](trigger-orchestrated-campaign.md)"
+>abstract="Elija cómo se inicia la campaña: en una programación única o recurrente (una vez, diaria, semanal, mensual, etc.), o **Activada por una señal** para que espere una llamada de API o la actividad **Finalizar** de una campaña ascendente. En las campañas activadas por señales, puede definir los parámetros que se van a transferir en la carga útil."
 
 De forma predeterminada, las campañas orquestadas se inician cuando se activan manualmente y finalizan una vez ejecutadas sus actividades asociadas. Si prefiere retrasar la ejecución o ejecutar la campaña de forma recurrente, puede definir una programación para la campaña.
 
@@ -114,10 +111,10 @@ Para configurar la programación de la campaña, siga estos pasos:
    Ejecute la campaña todos los días o en los días seleccionados.
 
    * **[!UICONTROL Periodicidad diaria]**: elija la frecuencia con la que debe ejecutarse la campaña:
-      * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días de la semana, incluidos los fines de semana.
-      * **[!UICONTROL Días laborables]**: ejecuta la campaña solamente de lunes a viernes.
-      * **[!UICONTROL Durante un período específico]**: ejecuta la campaña diariamente dentro de un intervalo de fechas definido (por ejemplo, del 1 al 15 de julio). La campaña no se ejecutará fuera de este intervalo.
-      * **[!UICONTROL En días seleccionados de la semana]**: ejecuta la campaña solamente durante los días especificados de la semana (por ejemplo, lunes, miércoles, viernes).
+     * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días de la semana, incluidos los fines de semana.
+     * **[!UICONTROL Días laborables]**: ejecuta la campaña solamente de lunes a viernes.
+     * **[!UICONTROL Durante un período específico]**: ejecuta la campaña diariamente dentro de un intervalo de fechas definido (por ejemplo, del 1 al 15 de julio). La campaña no se ejecutará fuera de este intervalo.
+     * **[!UICONTROL En días seleccionados de la semana]**: ejecuta la campaña solamente durante los días especificados de la semana (por ejemplo, lunes, miércoles, viernes).
 
    * **[!UICONTROL Hora de inicio]**: defina la hora a la que la campaña debe ejecutarse cada día.
 
@@ -149,11 +146,11 @@ Para configurar la programación de la campaña, siga estos pasos:
 
    * **[!UICONTROL Periodicidad mensual]**: seleccione si la campaña se ejecuta todos los meses o solo durante meses específicos.
    * **[!UICONTROL Periodicidad diaria]**:
-      * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días naturales del mes, incluidos los fines de semana.
-      * **[!UICONTROL Último día del mes]**: ejecuta la campaña solamente el último día natural de cada mes (por ejemplo, el 31 de enero, 28/29 de febrero).
-      * **[!UICONTROL Día específico del mes (por ejemplo, el 15)]**: ejecuta la campaña un día especificado (por ejemplo, el 15 de cada mes).
-      * **[!UICONTROL Primer/último o enésimo día de la semana]** (por ejemplo, primer lunes): ejecuta la campaña un día de la semana especificado (por ejemplo, el 15 de cada semana).
-      * **[!UICONTROL Días seleccionados de la semana]**: ejecuta la campaña un día especificado.
+     * **[!UICONTROL Todos los días]**: ejecuta la campaña todos los días naturales del mes, incluidos los fines de semana.
+     * **[!UICONTROL Último día del mes]**: ejecuta la campaña solamente el último día natural de cada mes (por ejemplo, el 31 de enero, 28/29 de febrero).
+     * **[!UICONTROL Día específico del mes (por ejemplo, el 15)]**: ejecuta la campaña un día especificado (por ejemplo, el 15 de cada mes).
+     * **[!UICONTROL Primer/último o enésimo día de la semana]** (por ejemplo, primer lunes): ejecuta la campaña un día de la semana especificado (por ejemplo, el 15 de cada semana).
+     * **[!UICONTROL Días seleccionados de la semana]**: ejecuta la campaña un día especificado.
 
    * **[!UICONTROL Hora de inicio]**: establezca la hora a la que se debe ejecutar la campaña.
 
