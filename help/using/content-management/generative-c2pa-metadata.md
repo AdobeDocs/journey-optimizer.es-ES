@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: eeea63d195527451e3ce40481b2ff4657aa76d3b
+source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,5 @@ Es posible que algunos métodos para introducir imágenes en el contenido, como 
 
 ## Recursos adicionales
 
-* [Metadatos de C2PA de Adobe](https://helpx.adobe.com/es/firefly/using/content-credentials.html){target="_blank"}: obtenga más información sobre cómo funcionan los metadatos de C2PA en los productos de Adobe.
 * [Directrices de usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [Mecanismos de protección y limitaciones](gs-generative.md#generative-guardrails)
