@@ -11,26 +11,15 @@ keywords: tiempo de envío, envío, mensaje, optimización, recorrido, IA, intel
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9c2a0ec8c3329869c3b1d41948faf33abe6a73e7
 workflow-type: tm+mt
-source-wordcount: 2298
+source-wordcount: 2537
 ht-degree: 6%
 
 ---
@@ -60,7 +49,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->La optimización del tiempo de envío solo está disponible para acciones integradas de correo electrónico y push dentro de los recorridos. Actualmente no está disponible para mensajes enviados a través de campañas o mensajes enviados a través de acciones personalizadas o para otros tipos de acción.
+>La optimización del tiempo de envío está disponible para las acciones integradas de correo electrónico y push en los recorridos y para la [actividad de espera](wait-activity.md#sto-wait), donde determina el momento óptimo para continuar con la siguiente actividad. Actualmente no está disponible para mensajes enviados a través de campañas o para otros tipos de acción.
 
 La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimizer], con tecnología de los servicios de IA de Recorrido de Adobe, elige la hora de envío óptima para los mensajes de correo electrónico y push para maximizar la participación de los clientes, en función de la apertura y el comportamiento de los clics históricos de sus clientes.
 
@@ -68,7 +57,7 @@ La función de optimización del tiempo de envío de [!DNL Adobe Journey Optimiz
 >
 >* La característica Optimización del tiempo de envío está habilitada para [!DNL Adobe Journey Optimizer] clientes que la soliciten. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activar la función para su organización.
 >
->* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**.
+>* La optimización del tiempo de envío solo se aplica a los canales **Correo electrónico** y **Notificación push**, así como a la actividad **[!UICONTROL Esperar]**.
 >
 >* La optimización del tiempo de envío se admite en las siguientes regiones de AEP Hub: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Estos son códigos de región de implementación de Adobe. Póngase en contacto con su representante de Adobe si no está seguro de la región que utiliza su organización.
 >
@@ -102,6 +91,14 @@ Antes de empezar, considere qué mensajes encajan bien antes de activarlos. La o
 Cuando el recorrido se activa y un cliente llega a la acción Enviar por correo electrónico o Push en el recorrido, la optimización del tiempo de envío elegirá el tiempo de envío mejor predicho disponible para cada usuario dentro de los límites especificados.
 
 Para supervisar el rendimiento de su recorrido, consulte la [página de información general](../reports/channel-report-cja.md).
+
+## Optimización del tiempo de envío en la actividad de espera {#sto-wait-activity}
+
+![Opción de optimización del tiempo de envío en la actividad de espera](../building-journeys/assets/wait_sto.png)
+
+Además de las acciones de correo electrónico y push, también puede aplicar la optimización del tiempo de envío a una actividad de **[!UICONTROL Espera]**. Se basa en el mismo modelo de optimización del tiempo de envío para calcular el tiempo de espera óptimo de cada perfil, pero aquí la espera está disociada del envío: en lugar de estar vinculada únicamente a una acción de correo electrónico o push, puede ir seguida de cualquier actividad, como una acción personalizada.
+
+[Aprenda a configurar la optimización del tiempo de envío en una actividad de espera](wait-activity.md#sto-wait).
 
 ## Funcionamiento de la optimización del tiempo de envío {#how-send-time}
 
@@ -215,6 +212,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Establecer la ventana de espera máxima (Enviar en el siguiente) para el envío retrasado
 * Comprender cómo el modelo de IA predice los tiempos de envío óptimos mediante datos de comportamiento
 * Determine si la optimización del tiempo de envío es adecuada para un tipo de mensaje determinado
+* Utilice la optimización del tiempo de envío dentro de una actividad de espera para retrasar cualquier actividad descendente, disociada del envío de mensajes
 
 **Glosario:**
 
@@ -227,7 +225,8 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Protecciones:**
 
 * Adobe debe habilitar la optimización del tiempo de envío para la organización; póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe para activarla.
-* La optimización del tiempo de envío solo se aplica a los canales de notificaciones push y de correo electrónico dentro de los Recorridos; no está disponible para campañas o acciones personalizadas.
+* La optimización del tiempo de envío se aplica a los canales de notificaciones push y de correo electrónico dentro de los Recorridos y a la actividad de espera; no está disponible para campañas o acciones personalizadas.
+* La optimización del tiempo de envío no tiene visibilidad de las reglas de horas silenciosas; una actividad de espera de optimización del tiempo de envío puede seleccionar una hora dentro de una ventana de horas silenciosas para una acción del canal descendente, que puede poner el mensaje en cola o descartarlo según la configuración de la regla de horas silenciosas.
 * La organización debe haber utilizado acciones de correo electrónico o push en Journey Optimizer durante al menos 30 días antes de que la optimización del tiempo de envío produzca resultados significativos.
 * No utilice Optimización del tiempo de envío para mensajes operativos urgentes o urgentes (por ejemplo, confirmaciones de pedidos, restablecimientos de contraseñas o cambios en las puertas de vuelo).
 * El intervalo máximo de tiempo de espera es de 2 a 100 horas; el intervalo recomendado es de 6 a 24 horas para obtener los mejores resultados.
@@ -242,7 +241,8 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **PREGUNTAS MÁS FRECUENTES:**
 
-* **Q: ¿Qué canales admiten la optimización del tiempo de envío?** — Solo los canales de correo electrónico y notificaciones push dentro de los Recorridos; no se admiten campañas y acciones personalizadas.
+* **Q: ¿Qué canales admiten la optimización del tiempo de envío?** — Canales de notificación por correo electrónico y push dentro de Recorrido y la actividad de espera; no se admiten campañas y acciones personalizadas.
+* **Q: ¿La optimización del tiempo de envío conoce las horas de inactividad?** — No. Las horas tranquilas solo se evalúan cuando un perfil alcanza una acción de mensaje, por lo que una actividad de espera de optimización del tiempo de envío puede elegir un tiempo dentro de una ventana de horas silenciosas. Según la regla de horas tranquilas, el mensaje se pone en cola hasta que terminan las horas tranquilas o se descarta y el perfil sale del recorrido. [Más información](wait-activity.md#sto-wait).
 * **Q: ¿Debo optimizar para aperturas o clics en correos electrónicos?** — Optimizar para clics para la mayoría de los correos electrónicos. Elija Abre cuando el mensaje es informativo y no está pensado para dirigir una acción específica.
 * **Q: ¿Cuánto tiempo debe esperar la organización antes de habilitar STO?** — Se necesitan al menos 30 días de uso de correo electrónico o push en Journey Optimizer para recopilar datos de comportamiento suficientes. Los resultados continúan mejorando hasta 16 semanas.
 * **Q: ¿Puede STO enviar notificaciones push por la noche?** — Sí, si el comportamiento de un usuario sugiere una participación nocturna o si se selecciona una hora de envío de exploración. Para evitarlo, utilice un tiempo de envío matutino con una breve ventana de espera máxima.

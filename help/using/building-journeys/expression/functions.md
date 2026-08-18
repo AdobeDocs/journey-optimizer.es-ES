@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1339
-ht-degree: 6%
+source-wordcount: 1377
+ht-degree: 7%
 
 ---
 
@@ -129,10 +129,11 @@ Trabaje con fechas, horas y zonas horarias para crear condiciones basadas en el 
 
 **Manipulación y análisis de colecciones**
 
-Filtre, ordene, transforme y analice matrices y listas para trabajar con estructuras de datos complejas y realizar operaciones de conjunto.
+Filtre, ordene, transforme y analice matrices y listas para trabajar con estructuras de datos complejas y realizar operaciones de conjunto como intersección, unión y diferencia.
 
 | Función | Descripción |
 |----------|-------------|
+| [differenceLists](../functions/list-functions.md#differenceLists) | Obtener elementos de una lista que no están presentes en otra |
 | [distinct](../functions/list-functions.md#distinct) | Obtener valores únicos (excluye valores nulos) |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | Obtener valores únicos (incluye valores nulos) |
 | [filtro](../functions/list-functions.md#filter) | Filtrar lista según ciertos criterios |
@@ -141,6 +142,7 @@ Filtre, ordene, transforme y analice matrices y listas para trabajar con estruct
 | [intersección](../functions/list-functions.md#intersect) | Búsqueda de elementos comunes entre listas |
 | [límite](../functions/list-functions.md#limit) | Limitar el número de elementos devueltos |
 | [listSize](../functions/list-functions.md#listSize) | Obtener el tamaño de la lista |
+| [mergeLists](../functions/list-functions.md#mergeLists) | Combinación de dos listas, con o sin deduplicación |
 | [serializeList](../functions/list-functions.md#serializeList) | Convertir lista en cadena |
 | [sort](../functions/list-functions.md#sort) | Ordenar elementos de lista |
 
