@@ -5,10 +5,10 @@ title: Resolución de problemas
 description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -71,7 +71,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
-Solucionar errores antes de probar o publicar el recorrido
+Solucionar errores de Recorrido
 
 Identifique y resuelva errores en todo el recorrido, problemas de actividad, y establezca acciones de reserva para garantizar que las pruebas y la publicación se realicen sin problemas.
 
@@ -81,7 +81,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
-Solución de problemas de la ejecución del recorrido activo
+Solucionar problemas de ejecución de Recorrido
 
 Diagnostique problemas con la validación de eventos, la entrada de perfiles, la navegación mediante el recorrido y el envío de mensajes durante la ejecución activa.
 
@@ -91,7 +91,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
-Solución de problemas de acciones de entrada en recorridos
+Solucionar problemas de acciones entrantes
 
 Depure los problemas de las acciones de envío, como la falta de contenido o la entrega continua después de la salida del perfil, mediante guías paso a paso detalladas.
 
@@ -101,7 +101,7 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
-Solución de problemas de acciones personalizadas
+Solucionar problemas de acciones personalizadas
 
 Valide y depure las acciones personalizadas mediante la función **Enviar solicitud de prueba** para asegurarse de que las llamadas de API y la configuración de autenticación sean correctas.
 
@@ -121,7 +121,7 @@ Diagnostique por qué las actividades de Live no aparecen, actualizan ni finaliz
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
 
-Solución de problemas de fragmentos de contenido AEM
+Solucionar problemas de fragmentos de contenido de AEM
 
 Revise las consideraciones clave y los problemas comunes al trabajar con fragmentos de contenido de Adobe Experience Manager en Journey Optimizer, incluidos los tipos de fragmentos, el acceso al repositorio y la personalización.
 
