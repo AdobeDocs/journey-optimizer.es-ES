@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,7 @@ Se define el número de olas, su tamaño (como porcentaje de la audiencia o como
 
 Las siguientes limitaciones se aplican al envío de ondas en cualquier contexto:
 
+* El envío de ondas solo se aplica a **canales salientes** (correo electrónico, SMS, push, correo directo).
 * Debe definir al menos **2 olas** y puede agregar **10 ondas**.
 * El intervalo mínimo entre el inicio de dos olas es de **30 minutos**.
 * No se puede establecer un inicio de ola en el pasado.
@@ -55,17 +56,13 @@ Se aplican restricciones adicionales específicas del contexto:
 
 >[!TAB Campañas de acción]
 
-* El envío de ondas solo se aplica a **acciones salientes** (correo electrónico, SMS, push, correo directo).
 * No se puede iniciar una ola antes del inicio de la campaña.
 
+>[!TAB Campañas orquestadas]
+
+* El envío de ondas se configura en el **nivel de actividad de canal**, de forma independiente para cada actividad de canal en la campaña.
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## Configurar el envío de olas {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de 
 
 1. Elige cómo definir el tamaño y el tiempo de la onda como se detalla en la sección [Tamaño y tiempo de la onda](#wave-options) a continuación.
 
->[!ENDTABS]
+>[!TAB Campañas orquestadas]
 
+1. Abra una actividad de canal (correo electrónico, SMS, push o correo postal) en el lienzo de la campaña orquestada.
 
-<!--
->[!TAB Orchestrated campaigns]
+1. Vaya a la pestaña **[!UICONTROL Programar]** de la actividad del canal.
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. En **[!UICONTROL Programación de olas]**, habilite la opción **[!UICONTROL Enviar en olas]**.
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   ![Pestaña Programación de actividad de canal con la opción Enviar en olas habilitada en Programación de ondas](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. Defina el número de olas utilizando la lista desplegable **[!UICONTROL Seleccionar número de olas]**.
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >Se deben definir al menos 2 olas y se pueden añadir hasta 10.
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. Elige cómo definir el tamaño y el tiempo de la onda como se detalla en la sección [Tamaño y tiempo de la onda](#wave-options) a continuación.
+
+>[!ENDTABS]
 
 ## Tamaño y tiempo de onda {#wave-options}
 
@@ -194,15 +188,15 @@ El envío de ondas le ayuda a controlar cuándo y cuántos mensajes se emiten, l
 
 * **Centro de llamadas o administración de respuestas:** Limite la cantidad de mensajes que se emiten por día o por hora para que los equipos intermedios (por ejemplo, el servicio de atención al cliente) puedan gestionar las respuestas a una velocidad manejable.
 
-  ![Ejemplo de envío de ondas: 20 mensajes al día configurados para coincidir con la capacidad de respuesta del centro de llamadas](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![Ejemplo de envío de ondas: 20 mensajes al día configurados para coincidir con la capacidad de respuesta del centro de llamadas](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **Gran volumen y capacidad de entrega:** Evite enviar una audiencia muy grande de una sola vez. La propagación de la entrega a lo largo del tiempo ayuda a mantener la reputación del remitente y reduce el riesgo de ser marcado como correo no deseado.
 
-  ![Ejemplo de envío de onda: envío distribuido en varios días para admitir la reputación del remitente para un envío de gran volumen](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![Ejemplo de envío de onda: envío distribuido en varios días para admitir la reputación del remitente para un envío de gran volumen](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **calentamiento de IP:** Al usar una nueva plataforma o dirección IP, aumente progresivamente el volumen (por ejemplo, 10% en la primera ola, luego 15%, 20%, etc.) para generar gradualmente la reputación de envío.
 
-  ![Ejemplo de envío de ondas: aumento de volumen progresivo entre ondas para calentamiento de IP, a partir del 10 % y creciendo en cada ola](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![Ejemplo de envío de ondas: aumento de volumen progresivo entre ondas para calentamiento de IP, a partir del 10 % y creciendo en cada ola](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## Preguntas frecuentes {#faq}
 
@@ -242,7 +236,7 @@ No. El envío de ondas solo se aplica a las **acciones salientes** del canal: co
 
 * [Usar una audiencia en un recorrido](../building-journeys/read-audience.md): configure la actividad Leer audiencia
 * [Programar una campaña de acción](../campaigns/campaign-schedule.md): establezca la fecha de inicio, la fecha de finalización y la frecuencia
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* [Actividades de canal en campañas orquestadas](../orchestrated/activities/channels.md): configure actividades de canal en el lienzo orquestado
 
 +++ Referencia de conocimientos de AI
 
@@ -271,7 +265,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 * Leer recorridos de audiencia (&quot;Lo antes posible&quot; o solo programador &quot;Una vez&quot;, no para recorridos recurrentes, activados por eventos, de evento empresarial, de prueba o de ejecución en seco)
 * Campañas de acción (solo acciones de canal saliente)
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* Campañas organizadas (solo actividades de canal saliente, configuradas por actividad de canal)
 
 **Protecciones comunes (todos los contextos):**
 

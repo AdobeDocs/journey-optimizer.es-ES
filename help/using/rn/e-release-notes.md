@@ -6,18 +6,13 @@ description: Notas de versión preliminar de Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: fbbab8c264a03f2170f4ab37fa89f1b4e77d6e50
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 17%
+source-wordcount: 1040
+ht-degree: 18%
 
 ---
 
@@ -194,8 +189,6 @@ En esta versión de, se incluyen las siguientes funcionalidades y mejoras en Dec
 
 * **Límite de frecuencia de nivel de ubicación en Decisioning**: las reglas de límite de frecuencia en Decisioning ahora se pueden vincular a ubicaciones individuales, lo que le proporciona un control más preciso sobre la frecuencia con la que se muestra una oferta en una superficie determinada. Hay dos modos disponibles: límite específico de la ubicación, que define un límite que se aplica solo cuando la oferta se muestra en una ubicación seleccionada, y límite por ubicación, que aplica un límite de forma independiente en cada ubicación en la que aparece la oferta, de modo que cada ubicación mantiene su propio contador de límite. Tenga en cuenta que el límite relacionado con la ubicación no se aplica a las ofertas restringidas mediante reglas basadas en datos de Adobe Experience Platform. <!-- Documentation link: TBD -->
 
-* **Páginas espejo en fragmentos visuales**: ahora puede insertar páginas espejo en un fragmento visual. Los atributos de toma de decisiones se representan correctamente en el vínculo de la página espejo, incluso cuando el fragmento se utiliza en una campaña de correo electrónico que aprovecha Decisioning. La página espejo debe agregarse al fragmento visual antes de publicar el fragmento para que se muestren los atributos de toma de decisiones. <!-- Documentation link: TBD -->
-
 ### Administración {#august-26-administration}
 
 La siguiente mejora se presenta para la administración en esta versión.
@@ -208,7 +201,7 @@ La siguiente mejora se presenta para la administración en esta versión.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
