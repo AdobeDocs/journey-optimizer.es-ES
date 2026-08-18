@@ -6,16 +6,13 @@ description: Obtenga información sobre cómo asignar un esquema relacional al p
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -73,6 +70,10 @@ Comience por configurar la orquestación de campañas asignando un esquema relac
 
    ![](assets/target-dimension-2.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** para completar la configuración. Tenga en cuenta que una vez creada, una **[!UICONTROL dimensión de destino]** no se puede eliminar ni editar.
+1. Haga clic en **[!UICONTROL Guardar]** para completar la configuración. Tenga en cuenta que una vez creada, no se puede editar una **[!UICONTROL dimensión de destino]**.
+
+1. Acceda al ![menú avanzado](assets/do-not-localize/rule-builder-icon-more.svg) para eliminar su **[!UICONTROL dimensión de destino]**.
+
+   ![](assets/target-dimension-5.png)
 
 Después de configurar **[!UICONTROL Target Dimension]**, proceda a crear y configurar su **[!UICONTROL configuración de canal]** y defina los **[!UICONTROL detalles de ejecución]** correspondientes.
