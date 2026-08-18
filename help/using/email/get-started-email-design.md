@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 92%
+source-wordcount: 1043
+ht-degree: 72%
 
 ---
 
@@ -101,13 +87,13 @@ Una vez creado un correo electrónico, puede empezar a diseñar su contenido.
 
 Al enviar correos electrónicos, es importante tener en cuenta que los destinatarios pueden reenviarlos, lo que a veces puede causar problemas con el procesamiento del correo electrónico. Esto es especialmente cierto cuando se utilizan clases CSS que tal vez el proveedor de correo electrónico no admita para el reenvío, por ejemplo, si utiliza la clase de CSS &quot;is-desktop-hidden&quot; para ocultar una imagen en dispositivos móviles.
 
-Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico.
+Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico. Lo mismo se aplica cuando los correos electrónicos se abren en Gmail o Outlook a través de un explorador web móvil, donde el manejo de CSS difiere significativamente del de las aplicaciones nativas: los diseños simples basados en tablas con estilos totalmente insertados son la opción más segura. [Más información](../content-management/rendering.md#rendering-limitations)
 
 Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
 
 Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el diseño de correo electrónico:
 
-| Recomendado | Usar con cuidado | No recomendado |
+| Recomendado | Uso con cuidado | No recomendado |
 |-|-|-|
 | <ul><li><b>Diseños estáticos basados en tablas</b> para la estructura</li> <li><b>Tablas HTML y tablas anidadas</b> para mantener la coherencia del diseño</li> <li><b>Anchuras de plantilla</b> entre 600 y 800 píxeles </li> <li><b>CSS en línea simple</b> para diseñar </li> <li><b>Fuentes seguras para la web</b> para compatibilidad universal</li> | <ul><li>Es posible que las <b>imágenes de fondo</b> no aparezcan en ciertas plataformas de correo electrónico.</li><li><b>Las fuentes web personalizadas</b> carecen de compatibilidad universal.</li><li><b>Los diseños anchos</b> pueden visualizarse mal en las pantallas más pequeñas.</li><li><b>Los mapas de imagen</b> ofrecen una funcionalidad limitada.</li><li><b>Un CSS incrustado</b> a veces se elimina durante el envío del correo electrónico.</li> | <ul><li><b>JavaScript</b> generalmente no es compatible en los entornos de correo electrónico.</li> <li> Las etiquetas <b>`<iframe>`</b> se bloquean en la mayoría de las plataformas. </li> <li><b>Flash</b> está obsoleto y ya no es compatible.</li> <li><b>El audio incrustado</b> a menudo no se reproduce.</li> <li><b>El vídeo incrustado</b> no es compatible con muchas plataformas de correo electrónico.</li> <li> <b>Los formularios</b> no funcionan en los correos electrónicos.</li> <li> Las capas `<div>` pueden dar lugar a problemas de renderizado.</li> |
 
@@ -115,12 +101,25 @@ Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el di
 >
 >La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Además de las prácticas recomendadas de diseño de correo electrónico incluidas en esta sección, asegúrese de seguir las directrices específicas que se indican en [esta página](accessible-content.md) para la creación de contenido accesible con el Diseñador de correo electrónico.
 
+### Consideraciones de procesamiento de Outlook {#outlook-tips}
+
+Outlook tiene varias peculiaridades de procesamiento que pueden afectar al diseño del correo electrónico si no se tienen en cuenta durante el diseño:
+
+* Utilice números pares para el relleno, los tamaños de fuente y los anchos. Outlook convierte los píxeles en puntos internamente, lo que puede introducir espaciado desigual y líneas blancas no deseadas cuando se utilizan números impares.
+* Establezca anchos de tabla en píxeles, no porcentajes. Los anchos basados en porcentajes pueden romper el diseño en Outlook. Aplique los valores de anchura directamente en el atributo style de cada tabla.
+* Establezca siempre las anchuras de la imagen con el atributo `width`. Outlook ignora las propiedades CSS `width` y `height` de las imágenes y vuelve a las dimensiones nativas del archivo si no hay ningún atributo de HTML presente.
+* Incluir texto ALT en todas las imágenes. Esto evita problemas de visualización y seguridad cuando las imágenes están bloqueadas.
+* Aplique bordes a las celdas de la tabla, no al propio elemento de la tabla. Si un borde no se representa como se espera, muévalo del `<table>` al `<td>`.
+* Evite las esquinas redondeadas. CSS `border-radius` no se admite de forma fiable en Outlook; las esquinas cuadradas son la opción predeterminada segura.
+
+Para obtener información sobre el diseño en modo oscuro, incluido cómo usar consultas de medios y técnicas de intercambio de imágenes específicas de Outlook.com, consulte [esta página](dark-mode.md).
+
 ## Vídeotutoriales {#video}
 
 Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416231?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
