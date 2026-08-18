@@ -9,27 +9,15 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -65,7 +53,7 @@ Las alertas del sistema están disponibles en el menú **[!UICONTROL Alertas]** 
 
 Antes de trabajar con alertas:
 
-* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es#permissions){target="_blank"}.
+* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconocimiento de zona protegida**: Las suscripciones de alerta son específicas de la zona protegida. Al suscribirse a las alertas, solo se aplican a la zona protegida actual. Cuando se restablece una zona protegida, también se restablecen todas las suscripciones de alerta.
 
@@ -269,7 +257,7 @@ Le notifica cuando una operación **stop** **falla**. Investigue el estado de la
 
 +++ Envío de campaña iniciado
 
-Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3&rbrace; (la ejecución ha pasado a la fase de entrega).**
+Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3} (la ejecución ha pasado a la fase de entrega).**
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -289,7 +277,7 @@ Le notifica cuando **la entrega de mensajes** para una campaña se ha **completa
 
 +++ Error de envío de campaña
 
-Le notifica cuando **falla la entrega de mensajes** para una campaña **3&rbrace;.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
+Le notifica cuando **falla la entrega de mensajes** para una campaña **3}.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -406,7 +394,7 @@ Si se activa esta alerta, siga los pasos a continuación para investigar y resol
 
 >[!NOTE]
 >
->Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}.
+>Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Suscribirse a alertas {#subscribe-alerts}
 
@@ -431,7 +419,7 @@ Las suscripciones de alerta determinan qué usuarios reciben notificaciones cuan
 
 **Método de suscripción alternativo:**
 
-Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}.
+Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 ### Métodos de suscripción
 
@@ -439,7 +427,7 @@ Puede suscribirse a las alertas de varias formas:
 
 * **[Suscripción global (zona protegida)](#subscribe-alerts)**: Reciba notificaciones de todos los recorridos o campañas que coincidan en la **zona protegida actual**. Utilice esta opción cuando desee una cobertura amplia.
 * **[Suscripción específica de Recorrido](#subscribe-alerts)**: Para las alertas de recorrido admitidas, limite las notificaciones a **un recorrido** a la vez desde el inventario de recorrido.
-* **Suscripción específica de la campaña**: Actualmente, las alertas del ciclo vital de la campaña solo se pueden suscribir en el nivel de espacio aislado.
+* **[Suscripción específica de la campaña](#subscribe-alerts)**: Para las alertas de ciclo vital de campaña admitidas, limite las notificaciones a **una campaña** a la vez desde el inventario de campañas.
 
 >[!BEGINTABS]
 
@@ -467,7 +455,7 @@ Haga clic en **[!UICONTROL Cancelar la suscripción]** junto a la alerta.
 
 **Método de suscripción alternativo:**
 
-También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de las suscripciones de E/S de alertas de recorrido se indican en la [ficha Alertas de Recorrido](#available-alerts) en **Alertas disponibles**, según corresponda. Las alertas del ciclo vital de Campaign siguen el mismo modelo de suscripción de Platform; consulte esa documentación para la integración programática.
+También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de las suscripciones de E/S de alertas de recorrido se indican en la [ficha Alertas de Recorrido](#available-alerts) en **Alertas disponibles**, según corresponda. Las alertas del ciclo vital de Campaign siguen el mismo modelo de suscripción de Platform; consulte esa documentación para la integración programática.
 
 >[!TAB suscripción específica del Recorrido]
 
@@ -501,31 +489,35 @@ Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UI
 >
 >La alerta [Leer Déclencheur de audiencias no se ha realizado correctamente](#available-alerts) solo está disponible a través de una suscripción global, no de una suscripción por recorrido.
 
+>[!TAB Suscripción específica de campaña]
+
+Las suscripciones específicas de la campaña se aplican a [alertas del ciclo vital de la campaña](#available-alerts). Permiten monitorizar campañas de alta prioridad individuales sin recibir la misma alerta para cada campaña en la zona protegida.
+
+**Para suscribirse a las alertas del ciclo vital de una campaña específica:**
+
+1. Vaya al inventario **[!UICONTROL Campaigns]** y abra la pestaña del tipo de campaña (**[!UICONTROL Action]** o **[!UICONTROL API activada]**).
+
+1. Haga clic en el menú **⋯** (más acciones) de la campaña que desee monitorizar.
+
+1. Seleccione **[!UICONTROL Suscribirse a alertas]**.
+
+   ![Suscripción a una alerta para una campaña específica](assets/subscribe-campaign-alert.png){width=75%}
+
+1. Seleccione las alertas del ciclo vital de campaña que desee entre las opciones disponibles (consulte [Alertas de campaña](#available-alerts)).
+
+1. Haz clic en **[!UICONTROL Guardar]** para confirmar tus suscripciones.
+
+**Para cancelar la suscripción:**
+
+Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UICONTROL Guardar]**.
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
+>[!TIP]
+>
+>Puede combinar la suscripción de **sandbox-level** (de la pestaña Alerts **[!UICONTROL Browse]**) con **suscripciones específicas de la campaña**. Utilice la cobertura a nivel de zona protegida para todo lo que hay en ella y añada suscripciones por campaña solo para las campañas para las que desee realizar un seguimiento por separado.
 
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
-
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Administración de alertas {#manage-alerts}
 
@@ -587,6 +579,6 @@ Para quitar suscriptores, elimina su dirección de correo electrónico de los su
 **Marco de alertas:**
 
 * [Información general sobre alertas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}: Descripción del marco de alertas
-* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es){target="_blank"}: ver, suscribirse y administrar alertas
-* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"} - Opciones de integración avanzadas
-* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}: lista completa de alertas de plataforma disponibles
+* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"}: ver, suscribirse y administrar alertas
+* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opciones de integración avanzadas
+* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}: lista completa de alertas de plataforma disponibles
