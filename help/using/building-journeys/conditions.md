@@ -11,23 +11,16 @@ keywords: actividad, condición, lienzo, recorrido
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2629
-ht-degree: 10%
+source-wordcount: 2631
+ht-degree: 11%
 
 ---
 
@@ -42,7 +35,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condiciones"
->abstract="Las condiciones le permiten definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas. Tenga en cuenta que las condiciones ahora se configuran en la actividad Optimizar, que reemplaza a la actividad Condición anterior."
+>abstract="Las condiciones le permiten definir cómo progresan las personas a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas. Tenga en cuenta que las condiciones ahora se configuran en la actividad Optimizar, que reemplaza a la actividad Condición anterior."
 
 Con **condiciones** puede definir el progreso de los individuos en su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
 
@@ -75,14 +68,14 @@ Para añadir una condición al recorrido, siga los pasos a continuación.
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Administrar rutas de condición {#condition_paths}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="Acerca del editor de expresiones simple"
->abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se interconectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se conectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
 
 Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas más fácilmente.
 
@@ -115,7 +108,7 @@ Si está usando el [servicio de segmentación de Adobe Experience Platform](http
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics pasados en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. [Más información](../building-journeys/using-the-journey-designer.md#paths)
+Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. [Más información](../building-journeys/using-the-journey-designer.md#paths)
 
 En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
 
@@ -167,7 +160,7 @@ Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones se
 >
 >* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md)
 >
->* De manera predeterminada, la **[!UICONTROL condición de tiempo]** se establece por hora, de 00:00 a 12:00.
+>* De manera predeterminada, la **[!UICONTROL condición horaria]** se establece por hora, de 00:00 a 12:00.
 
 ![Condición de tiempo con intervalo de horas y selectores de día de semana](assets/journey51.png)
 
@@ -222,7 +215,7 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 ➡️ **Véalo en la práctica:** Aprenda a utilizar las condiciones de tiempo y día de la semana para [enviar correos electrónicos solo entre semana](weekday-email-uc.md).
 
