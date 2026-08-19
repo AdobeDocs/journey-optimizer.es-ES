@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1497
 ht-degree: 4%
 
 ---
@@ -51,6 +49,8 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    Cuerpo de texto sin formato con botones interactivos opcionales. Ideal para notificaciones, alertas, recordatorios y flujos de conversación donde no se necesitan imágenes.
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ Medios
@@ -59,7 +59,10 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    1. En el menú Encabezado, escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo que se va a mostrar.
 
+      ![](assets/rcs_media.png)
+
    1. Si el contenido es un archivo de vídeo, si lo desea, escriba una **[!UICONTROL URL en miniatura]**.
+
 
    +++
 
@@ -69,7 +72,10 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    1. Escriba un **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
+
    1. Escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo que se va a mostrar.
+
+      ![](assets/rcs_card.png)
 
    1. Si el contenido es un archivo de vídeo, si lo desea, escriba una **[!UICONTROL URL en miniatura]**.
 
@@ -80,11 +86,18 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
    Una serie de tarjetas enriquecidas desplazable horizontalmente en un solo mensaje, cada una con su propia imagen, título, descripción y botones. Ideal para catálogos de productos o promociones. Se requiere un mínimo de 2 tarjetas.
 
    1. Seleccione un **[!UICONTROL Ancho de tarjeta]** para controlar el ancho de visualización de cada tarjeta.
+
+      ![](assets/rcs_caroussel.png)
+
    1. Para cada tarjeta, escribe **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
    1. Escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo de esa tarjeta.
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. De manera opcional, seleccione un **[!UICONTROL alto de medios]** y agregue botones de acción sugeridos.
+
+   1. Haz clic en **[!UICONTROL Agregar tarjeta]** para agregar una tarjeta a tu carrusel.
 
    +++
 
