@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
 workflow-type: tm+mt
-source-wordcount: 4611
-ht-degree: 92%
+source-wordcount: 4638
+ht-degree: 91%
 
 ---
 
@@ -146,7 +137,7 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de público**.
 * Un recorrido que se inicia con una actividad de **Calificación de público** en la versión 1 siempre debe comenzar con una **Calificación de público** en versiones posteriores.
-* El público y el espacio de nombres elegidos en la **Calificación de públicos** (primer nodo) no se pueden cambiar en las versiones nuevas.
+* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primera actividad) no se pueden cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 * No se puede crear una nueva versión de un recorrido de lectura de público con lectura incremental. Debe duplicar el recorrido.
@@ -171,8 +162,8 @@ Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md)
 * Los recorridos activados por eventos pueden tardar hasta **5 minutos** en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
-* Se puede hacer referencia a un solo evento en un máximo de **25** recorridos al mismo tiempo, en todos los recorridos activos y cerrados. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
-* Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos activos y cerrados a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
+* Se puede hacer referencia a un evento único en un máximo de **25** recorridos al mismo tiempo, en todos los recorridos activos, cerrados, pausados, de modo de prueba y de ejecución en seco. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
+* Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos en vivo, cerrados, en pausa, en modo de prueba y en ejecución en seco a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
 * Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través del **servicio de consultas** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
@@ -208,7 +199,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
@@ -233,7 +224,7 @@ Las siguientes limitaciones se aplican a la actividad de recorrido [Calificació
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 * No se admiten identificadores suplementarios para los recorridos de calificación de público.
-* Una zona protegida puede incluir un máximo de **300** nodos de calificación de audiencia en todos los recorridos activos y cerrados. Cuando se alcanza este límite, se bloquean las recorridos de publicación con nodos de calificación de audiencia adicionales.
+* Una zona protegida puede incluir un máximo de **300** actividades de calificación de audiencia en todos los recorridos activos, cerrados, pausados, de modo de prueba y de ejecución en seco. Este límite también se aplica a las actividades de Calificación de audiencias utilizadas como criterios de salida. Cuando se alcanza este límite, se bloquea la publicación de recorridos con actividades de calificación de audiencias adicionales.
 
 Obtenga más información acerca de las tasas de procesamiento de recorrido y los límites de rendimiento en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
