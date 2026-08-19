@@ -11,10 +11,10 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 46%
+source-wordcount: 444
+ht-degree: 38%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 46%
 Como especialista en marketing, puede mejorar la segmentación de audiencia cambiando de una entidad de datos a una relacionada dentro de una campaña orquestada. Esto le permite ir más allá de los perfiles de usuario y centrarse en comportamientos específicos, como compras, reservas u otras interacciones.
 
 Para lograrlo, use la actividad **[!UICONTROL Cambiar dimensión]**. Permite ajustar la dimensión de segmentación durante la campaña orquestada.
+
+>[!NOTE]
+>
+>Para muchos escenarios de **varias entidades**, es opcional **[!UICONTROL Cambiar dimensión]** de forma explícita. Cuando la ruta de relación lo permita, puede conectar una actividad de **[!UICONTROL Generar audiencia]** directamente a una actividad de canal y establecer la opción **[!UICONTROL Un mensaje por dimensión secundaria]**. Consulte [Agregar una actividad de canal y definir sus propiedades](channels.md#add).  El producto puede inferir dimensiones **primary y** secundarias viables a partir de esquemas segmentables vinculados a la consulta. Agregue **[!UICONTROL Change dimension]** cuando necesite un cambio deliberado de eje en el flujo de trabajo.
 
 <!--
 >[!IMPORTANT]

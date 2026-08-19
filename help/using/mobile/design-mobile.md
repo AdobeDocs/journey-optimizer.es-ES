@@ -11,9 +11,9 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1499
 ht-degree: 4%
 
 ---
@@ -51,6 +51,8 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    Cuerpo de texto sin formato con botones interactivos opcionales. Ideal para notificaciones, alertas, recordatorios y flujos de conversación donde no se necesitan imágenes.
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ Medios
@@ -59,7 +61,10 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    1. En el menú Encabezado, escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo que se va a mostrar.
 
+      ![](assets/rcs_media.png)
+
    1. Si el contenido es un archivo de vídeo, si lo desea, escriba una **[!UICONTROL URL en miniatura]**.
+
 
    +++
 
@@ -69,7 +74,10 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    1. Escriba un **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
+
    1. Escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo que se va a mostrar.
+
+      ![](assets/rcs_card.png)
 
    1. Si el contenido es un archivo de vídeo, si lo desea, escriba una **[!UICONTROL URL en miniatura]**.
 
@@ -80,11 +88,18 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
    Una serie de tarjetas enriquecidas desplazable horizontalmente en un solo mensaje, cada una con su propia imagen, título, descripción y botones. Ideal para catálogos de productos o promociones. Se requiere un mínimo de 2 tarjetas.
 
    1. Seleccione un **[!UICONTROL Ancho de tarjeta]** para controlar el ancho de visualización de cada tarjeta.
+
+      ![](assets/rcs_caroussel.png)
+
    1. Para cada tarjeta, escribe **[!UICONTROL Título]** y **[!UICONTROL Descripción]**.
 
    1. Escriba una **[!UICONTROL URL multimedia]** que apunte a la imagen o al vídeo de esa tarjeta.
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. De manera opcional, seleccione un **[!UICONTROL alto de medios]** y agregue botones de acción sugeridos.
+
+   1. Haz clic en **[!UICONTROL Agregar tarjeta]** para agregar una tarjeta a tu carrusel.
 
    +++
 
@@ -94,13 +109,17 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    1. Escriba el decimal **[!UICONTROL Latitud]** y **[!UICONTROL Longitud]** de la ubicación.
 
+      ![](assets/rcs_location.png)
+
    1. Opcionalmente, escriba un **[!UICONTROL nombre de ubicación]** para mostrarlo como una etiqueta en el pin del mapa.
 
    +++
 
-1. En el campo **[!UICONTROL Texto del mensaje]**, escriba el contenido del mensaje. Puede utilizar la personalización para adaptar el texto a cada perfil. Tenga en cuenta que los límites de caracteres varían según el tipo de mensaje: 3072 caracteres para medios enriquecidos (únicos) y 160 para RCS básicos.
+1. En los campos **[!UICONTROL Texto del mensaje]** o **[!UICONTROL Descripción]**, escriba el contenido del mensaje. Puede utilizar la personalización para adaptar el texto a cada perfil. Tenga en cuenta que los límites de caracteres varían según el tipo de mensaje: 3072 caracteres para medios enriquecidos (únicos) y 160 para RCS básicos.
 
 1. Use el **[!UICONTROL editor de Personalization]** para definir contenido, agregar personalización y contenido dinámico. Puede utilizar cualquier atributo, como el nombre del perfil o la ciudad, por ejemplo. También puede definir reglas condicionales.
+
+   ![](assets/rcs_perso.png)
 
 1. Opcionalmente, agregue **[!UICONTROL Acciones sugeridas]**, botones interactivos que permiten que los perfiles actúen con un solo toque.
 
@@ -116,9 +135,13 @@ Para definir el contenido del mensaje RCS, siga los pasos a continuación.
 
    * **[!UICONTROL Ver ubicación]**: abre la aplicación de mapas predeterminada del dispositivo en una ubicación especificada. Proporcione el decimal **[!UICONTROL Latitud]** y **[!UICONTROL Longitud]** de la ubicación que se va a mostrar.
 
+     ![](assets/rcs_actions.png)
+
 1. En el campo **[!UICONTROL Texto de reserva predeterminado]**, escriba la versión de texto sin formato del mensaje SMS. Esto es obligatorio y se entrega a perfiles cuyo dispositivo o operador no admite RCS.
 
 1. En el menú desplegable **[!UICONTROL Webview]**, elige el tamaño de tu **[!UICONTROL Webview]** al enviar una acción **[!UICONTROL Abrir URL]**.
+
+   ![](assets/rcs_webview.png)
 
 1. Haga clic en **[!UICONTROL Guardar]** y compruebe el mensaje en la vista previa. Ahora puede probar y comprobar el contenido del mensaje como se detalla en [esta sección](send-mobile-message.md).
 

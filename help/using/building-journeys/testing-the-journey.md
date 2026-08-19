@@ -47,7 +47,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Prueba del recorrido"
->abstract="Los perfiles de prueba permiten probar el recorrido antes de publicarlo. Esto permite analizar el flujo de los particulares en el recorrido y solucionar los problemas antes de la publicación."
+>abstract="Los perfiles de prueba permiten probar el recorrido antes de publicarlo. Esto permite analizar el flujo de las personas en el recorrido y solucionar los problemas antes de la publicación."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Ensayo del recorrido"
 
 Una vez creado el recorrido, puede probarlo antes de publicarlo. [!DNL Adobe Journey Optimizer] ofrece el &quot;Modo de prueba&quot; como una forma de ver los perfiles de prueba a medida que se mueven por el recorrido, detectando posibles errores antes de la activación. La ejecución de pruebas rápidas le permite comprobar que los recorridos funcionan correctamente para que pueda publicarlos con confianza.
@@ -233,7 +233,7 @@ Tenga en cuenta que cuando se déclencheur un evento empresarial por primera vez
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Registros del modo de prueba"
->abstract="El botón **Mostrar registro** muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de particulares dentro del recorrido y su estado."
+>abstract="El botón **Mostrar registro** muestra los resultados de las pruebas en formato JSON. Estos resultados muestran el número de personas dentro del recorrido y su estado."
 
 El botón **[!UICONTROL Mostrar registro]** le permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del recorrido.
 

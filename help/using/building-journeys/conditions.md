@@ -26,8 +26,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2629
-ht-degree: 10%
+source-wordcount: 2631
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condiciones"
->abstract="Las condiciones le permiten definir cómo progresan los individuos a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas. Tenga en cuenta que las condiciones ahora se configuran en la actividad Optimizar, que reemplaza a la actividad Condición anterior."
+>abstract="Las condiciones le permiten definir cómo progresan las personas a través de su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas. Tenga en cuenta que las condiciones ahora se configuran en la actividad Optimizar, que reemplaza a la actividad Condición anterior."
 
 Con **condiciones** puede definir el progreso de los individuos en su recorrido creando múltiples rutas basadas en criterios específicos. También puede configurar una ruta alternativa para gestionar tiempos de espera o errores, lo que garantiza una experiencia sin problemas.
 
@@ -82,7 +82,7 @@ Para añadir una condición al recorrido, siga los pasos a continuación.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="Acerca del editor de expresiones simple"
->abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se interconectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
+>abstract="El modo de editor de expresiones simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Los campos se arrastran y sueltan en la zona principal. Para combinar los diferentes elementos, se conectan entre sí para crear diferentes grupos o niveles de grupo. A continuación, un operador lógico combina elementos en el mismo nivel."
 
 Al utilizar varias condiciones en un recorrido, puede definir etiquetas para cada una de ellas para identificarlas más fácilmente.
 
@@ -115,7 +115,7 @@ Si está usando el [servicio de segmentación de Adobe Experience Platform](http
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics pasados en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [esta página](expression/expressionadvanced.md).
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. [Más información](../building-journeys/using-the-journey-designer.md#paths)
+Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. [Más información](../building-journeys/using-the-journey-designer.md#paths)
 
 En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. [Más información](expression/journey-properties.md)
 
@@ -167,7 +167,7 @@ Use una **[!UICONTROL condición horaria]** para realizar diferentes acciones se
 >
 >* La zona horaria no es específica de una condición y se define en el nivel de recorrido en las propiedades del recorrido. [Más información](../building-journeys/timezone-management.md)
 >
->* De manera predeterminada, la **[!UICONTROL condición de tiempo]** se establece por hora, de 00:00 a 12:00.
+>* De manera predeterminada, la **[!UICONTROL condición horaria]** se establece por hora, de 00:00 a 12:00.
 
 ![Condición de tiempo con intervalo de horas y selectores de día de semana](assets/journey51.png)
 

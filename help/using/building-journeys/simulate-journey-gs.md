@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2186
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -155,6 +155,16 @@ Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas nu
 | Retención de usuarios simulada global | 12 meses | Los usuarios globales simulados se eliminan automáticamente 12 meses después de la creación. |
 
 +++
+
+## Vídeo práctico {#video}
+
+El siguiente vídeo muestra cómo utilizar la simulación rápida para probar los recorridos de los clientes automatizando los procesos clave. Genera perfiles de prueba, organiza eventos, acelera los tiempos de espera y valida escenarios.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497478/?captions=spa&learn=on)
+
+
+
+</br>
 
 +++ Referencia de conocimientos de AI
 

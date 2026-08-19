@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
+source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 92%
+source-wordcount: 1325
+ht-degree: 57%
 
 ---
 
@@ -87,6 +87,10 @@ Una vez creado un correo electrónico, puede empezar a diseñar su contenido.
 
 1. Una vez definido y personalizado el contenido del correo electrónico, puede verificarlo con **comprobaciones de contenido automatizadas** para detectar problemas de HTML y CSS, como etiquetas no admitidas, divs vacíos e infracciones del límite de tamaño, directamente en el panel de creación, antes de enviarlo. [Más información](content-check.md)
 
+   >[!NOTE]
+   >
+   >El sistema también comprueba la configuración clave mientras diseña y muestra alertas para detectar advertencias (recomendaciones y prácticas recomendadas) y errores (problemas de bloqueo que impiden realizar pruebas o activaciones). [Más información sobre las alertas por correo electrónico](create-email.md#check-email-alerts)
+
    ![Panel de verificación de contenido en el Designer de correo electrónico con problemas](assets/content-check.png)
 
 1. También puede validar la calidad del contenido para identificar posibles problemas con legibilidad, coherencia del contenido y eficacia. [Más información sobre la validación de calidad del contenido](../content-management/brands-score.md#validate-quality)
@@ -103,17 +107,56 @@ Al enviar correos electrónicos, es importante tener en cuenta que los destinata
 
 Para minimizar estos problemas de renderización, se recomienda mantener la estructura de diseño del correo electrónico lo más sencilla posible. Intente utilizar un único diseño que funcione bien tanto para dispositivos de escritorio como móviles, y evite utilizar clases CSS complejas u otros elementos de diseño que puedan no ser totalmente compatibles con todos los clientes de correo electrónico.
 
+>[!NOTE]
+>
+>Lo mismo se aplica cuando los correos electrónicos se abren en Gmail o Outlook a través de un explorador web móvil, donde el manejo de CSS difiere significativamente del de las aplicaciones nativas: los diseños simples basados en tablas con estilos totalmente insertados son la opción más segura. [Más información](#mobile-web-limitations)
+
 Siguiendo estas prácticas recomendadas, puede ayudar a garantizar que los mensajes de correo electrónico se procesen correctamente, independientemente de cómo los destinatarios los vean o los reenvíen.
 
 Consulte la tabla siguiente para conocer las prácticas recomendadas sobre el diseño de correo electrónico:
 
-| Recomendado | Usar con cuidado | No recomendado |
+| Recomendado | Uso con cuidado | No recomendado |
 |-|-|-|
 | <ul><li><b>Diseños estáticos basados en tablas</b> para la estructura</li> <li><b>Tablas HTML y tablas anidadas</b> para mantener la coherencia del diseño</li> <li><b>Anchuras de plantilla</b> entre 600 y 800 píxeles </li> <li><b>CSS en línea simple</b> para diseñar </li> <li><b>Fuentes seguras para la web</b> para compatibilidad universal</li> | <ul><li>Es posible que las <b>imágenes de fondo</b> no aparezcan en ciertas plataformas de correo electrónico.</li><li><b>Las fuentes web personalizadas</b> carecen de compatibilidad universal.</li><li><b>Los diseños anchos</b> pueden visualizarse mal en las pantallas más pequeñas.</li><li><b>Los mapas de imagen</b> ofrecen una funcionalidad limitada.</li><li><b>Un CSS incrustado</b> a veces se elimina durante el envío del correo electrónico.</li> | <ul><li><b>JavaScript</b> generalmente no es compatible en los entornos de correo electrónico.</li> <li> Las etiquetas <b>`<iframe>`</b> se bloquean en la mayoría de las plataformas. </li> <li><b>Flash</b> está obsoleto y ya no es compatible.</li> <li><b>El audio incrustado</b> a menudo no se reproduce.</li> <li><b>El vídeo incrustado</b> no es compatible con muchas plataformas de correo electrónico.</li> <li> <b>Los formularios</b> no funcionan en los correos electrónicos.</li> <li> Las capas `<div>` pueden dar lugar a problemas de renderizado.</li> |
 
 >[!NOTE]
 >
 >La [Ley de accesibilidad europea](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} estipula que todas las comunicaciones digitales deben ser accesibles. Además de las prácticas recomendadas de diseño de correo electrónico incluidas en esta sección, asegúrese de seguir las directrices específicas que se indican en [esta página](accessible-content.md) para la creación de contenido accesible con el Diseñador de correo electrónico.
+
+## Limitaciones y protecciones específicas {#email-guardrails}
+
+Incluso los correos electrónicos bien estructurados pueden procesarse de forma diferente en función del cliente o del entorno en el que se abran. Las secciones siguientes documentan las limitaciones conocidas y los comportamientos específicos del cliente que se deben tener en cuenta al diseñar los correos electrónicos.
+
+### Limitaciones del explorador web móvil {#mobile-web-limitations}
+
+El procesamiento del correo electrónico puede diferir cuando los destinatarios abren Gmail o Outlook **a través de un explorador web móvil** (por ejemplo, Chrome en un teléfono), en lugar de usar una aplicación móvil nativa o un cliente de escritorio. Se trata de una limitación conocida de los entornos de correo web móviles y no es específica de Journey Optimizer.
+
+Esta diferencia de procesamiento se debe al comportamiento de los clientes de webmail dentro de un navegador móvil. El explorador procesa primero la interfaz de usuario completa del correo web de escritorio, colocando el correo electrónico a dos capas de profundidad, fuera del alcance de cualquier CSS o consulta de medios adaptable. Gmail Web también elimina los bloques de CSS `<style>` y ajusta el contenido del correo electrónico en su propio `<div>`, lo que puede anular los estilos y crear conflictos de alineación.
+
+Los síntomas habituales incluyen el desplazamiento de la alineación del texto (el texto alineado a la izquierda aparece centrado), líneas de separación blancas adicionales entre secciones de contenido y un diseño general que difiere del diseño de la plantilla.
+
+Estos problemas solo se producen en Gmail Web y Outlook Web cuando se accede a ellas a través de un explorador móvil. Las aplicaciones móviles nativas de Outlook y Gmail, así como todos los clientes de escritorio, no se ven afectados.
+
+>[!TIP]
+>
+>Para minimizar el impacto:
+>
+>* Utilice diseños sencillos basados en tablas con CSS totalmente alineado.
+>
+>* Evite depender de consultas de medios o bloques de `<style>` para propiedades de diseño críticas, como la alineación del texto.
+
+### Consideraciones de procesamiento de Outlook {#outlook-tips}
+
+Outlook tiene varias peculiaridades de procesamiento que pueden afectar al diseño del correo electrónico si no se tienen en cuenta durante el diseño. Para garantizar que los correos electrónicos se representan correctamente en Outlook, siga estas prácticas recomendadas:
+
+* Utilice números pares para el relleno, los tamaños de fuente y los anchos. Outlook convierte los píxeles en puntos internamente, lo que puede introducir espaciado desigual y líneas blancas no deseadas cuando se utilizan números impares.
+* Establezca anchos de tabla en píxeles, no porcentajes. Los anchos basados en porcentajes pueden romper el diseño en Outlook. Aplique los valores de anchura directamente en el atributo style de cada tabla.
+* Establezca siempre las anchuras de la imagen con el atributo `width`. Outlook ignora las propiedades CSS `width` y `height` de las imágenes y vuelve a las dimensiones nativas del archivo si no hay ningún atributo de HTML presente.
+* Incluir texto alternativo en todas las imágenes. Esto evita problemas de visualización y seguridad cuando las imágenes están bloqueadas.
+* Aplique bordes a las celdas de la tabla, no al propio elemento de la tabla. Si un borde no se representa como se espera, muévalo del `<table>` al `<td>`.
+* Evite las esquinas redondeadas. CSS `border-radius` no se admite de forma fiable en Outlook; las esquinas cuadradas son la opción predeterminada segura.
+
+Para obtener información sobre el diseño en modo oscuro, incluido cómo usar consultas de medios y técnicas de intercambio de imágenes específicas de Outlook.com, consulte [esta página](dark-mode.md).
 
 ## Vídeotutoriales {#video}
 

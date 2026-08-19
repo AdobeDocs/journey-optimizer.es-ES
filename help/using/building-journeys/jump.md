@@ -28,7 +28,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1982
+source-wordcount: 2057
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
 >title="Actividad de salto"
->abstract="La actividad de la acción de salto permite insertar particulares de un recorrido a otro. Esta función permite simplificar el diseño de recorridos muy complejos y crear recorridos basados en patrones de recorrido comunes y reutilizables."
+>abstract="La actividad de la acción de salto permite insertar personas de un recorrido a otro. Esta función permite simplificar el diseño de recorridos muy complejos y crear recorridos basados en patrones de recorrido comunes y reutilizables."
 
 La actividad de acción **[!UICONTROL Jump]** le permite insertar particulares de un recorrido a otro. Esta función le permite:
 
@@ -143,7 +143,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
    ![Menú desplegable de selección de recorrido de destino en la configuración de actividad de salto](assets/jump2.png)
 
 1. Haga clic dentro del campo **recorrido de destino**.
-La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento de **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
+La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
 
    ![Actividad de salto que muestra el recorrido de destino y los parámetros de acción](assets/jump3.png)
 

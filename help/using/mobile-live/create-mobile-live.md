@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 9%
+source-wordcount: 676
+ht-degree: 7%
 
 ---
 
@@ -177,6 +177,74 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 >[!TIP]
 >
 >Si su actividad Live no aparece o no se actualiza según lo esperado, consulte [Solucionar problemas de actividades Live](troubleshoot-mobile-live.md) para obtener instrucciones de depuración paso a paso.
+
+## Añadir datos personalizados con metadatos de ejecución {#metadata}
+
+>[!AVAILABILITY]
+>
+> `executionMetadata` está disponible para las campañas **Transaccional activada por API** y **Marketing activada por API**.
+
+Adjunte sus propios **datos personalizados** a un perfil, como un ID de pedido, un nivel de lealtad o un código de región, usando el campo opcional `executionMetadata`. Journey Optimizer almacena estos datos junto con la ejecución para que pueda recuperarlos más tarde de su **conjunto de datos de comentarios de actividades en directo** y hacer coincidir los resultados de la entrega con sus propios registros comerciales.
+Para agregar datos personalizados con metadatos de ejecución:
+
+* Agregar `executionMetadata` a un perfil, junto a `userId` y `namespace`. Solo se aceptan claves de cadena y valores de cadena. Convierta cualquier valor que no sea de cadena en una cadena antes de enviarla.
+
+* Los valores se registran exactamente como enviados. `executionMetadata` no admite expresiones de personalización, por lo que cualquier expresión `{{...}}` se trata como texto literal en lugar de resolverse. Siempre debe enviar valores literales finales.
+
+* Cada perfil puede llevar hasta **50 pares de clave/valor**, con un límite de tamaño combinado de **2 KB** para todas las claves y valores. Los metadatos que exceden este límite se descartan, pero la actividad en directo sigue entregándose. Limite la carga útil a la información necesaria para los informes.
+
++++ Ejemplo de JSON
+
+En este ejemplo, `orderId`, `tier`, `restaurant` y `region` son sus propios valores. Una vez activada la actividad Live, puede leerlas desde el conjunto de datos de comentarios para vincular la entrega al registro de pedidos.
+
+```json
+{
+    "requestId": "your-request-id",
+    "campaignId": "your-campaign-id",
+    "recipients": [
+        {
+            "type": "aep",
+            "userId": "testemail@gmail.com",
+            "namespace": "email",
+            "executionMetadata": {
+                "orderId": "A-123",
+                "tier": "gold",
+                "restaurant": "PizzaPlace",
+                "region": "EU"
+            },
+            "context": {
+                "requestPayload": {
+                    "aps": {
+                        "content-available": 1,
+                        "timestamp": 1756984054,
+                        "dismissal-date": 1756984084,
+                        "event": "update",
+                        "content-state": {
+                            "orderStatus": "Delivered"
+                        },
+                        "attributes-type": "FoodDeliveryLiveActivityAttributes",
+                        "attributes": {
+                            "restaurantName": "PizzaPlace",
+                            "liveActivityData": {
+                                "liveActivityID": "orderId1"
+                            }
+                        },
+                        "alert": {
+                            "title": "Order Delivered!",
+                            "body": "Your pizza has arrived."
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+
++++
+
+Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir el impacto de su actividad en vivo con [informes integrados](../reports/campaign-global-report-cja-activity.md).
+
 
 ## Vídeo tutorial
 

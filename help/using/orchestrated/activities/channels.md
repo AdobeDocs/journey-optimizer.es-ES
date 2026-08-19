@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 37%
+source-wordcount: 2370
+ht-degree: 31%
 
 ---
 
@@ -121,9 +121,22 @@ Vea [Protecciones y limitaciones](../guardrails.md) para todas las limitaciones 
 
 1. Seleccione la actividad y haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** o **[!UICONTROL Editar correo postal]** según el canal elegido.
 
-   ![imagen que muestra el lienzo con una actividad de correo electrónico](../assets/channel-edit.png)
+1. En la sección **[!UICONTROL Target]**, configure el destino de la entrega:
 
-1. En la pestaña **[!UICONTROL Propiedades]**, escriba una descripción y, a continuación, cambie a la pestaña **[!UICONTROL Acciones]** para configurar la actividad.
+   * Seleccione la **[!UICONTROL dimensión de destino]** para este envío en la lista desplegable.
+
+   * Cuando se aplique una dimensión secundaria (tablas relacionadas vinculadas a cada perfil), elija cuántos mensajes enviar:
+
+     * **[!UICONTROL Un mensaje por perfil]**: envíe un mensaje por perfil, incluso cuando existan varias filas de la dimensión secundaria.
+     * **[!UICONTROL Un mensaje por dimensión secundaria]**: Envíe un mensaje por fila correspondiente desde la dimensión secundaria. Cuando varias filas coinciden con el mismo perfil, ese perfil puede recibir varios mensajes.
+
+   ![imagen que muestra la sección de destino con opciones de dimensión secundarias](../assets/secondary-dimension.png)
+
+   **Ejemplo** - Supongamos que una tabla de &quot;vuelos&quot; está vinculada a la tabla de destinatarios y desea que cada perfil reciba un mensaje por vuelo que se aplique a ellos. Seleccione **[!UICONTROL Un mensaje por dimensión secundaria]**. Use **[!UICONTROL Un mensaje por perfil]** cuando solo desee recibir un mensaje por perfil, independientemente de cuántas filas de vuelo relacionadas califiquen.
+
+   Para obtener más información sobre las dimensiones de segmentación y cómo configurarlas, consulte esta página: [Configurar una dimensión de segmentación](../target-dimension.md)
+
+1. Haga clic en **[!UICONTROL Editar correo electrónico]**, **[!UICONTROL Editar SMS]**, **[!UICONTROL Editar push]** o **[!UICONTROL Editar correo directo]** según el canal elegido para crear el mensaje como de costumbre y, a continuación, vuelva al **carril derecho** para finalizar **[!UICONTROL las acciones]**.
 
 ## Marketing frente a mensajes transaccionales {#marketing-vs-transactional}
 
@@ -149,11 +162,13 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
 
    La configuración la define el [administrador del sistema](../../start/path/administrator.md). Contiene todos los parámetros técnicos para enviar el mensaje, como parámetros de encabezado, subdominio, aplicaciones móviles, etc. [Aprenda a configurar las configuraciones de canal](../../configuration/channel-surfaces.md)
 
+   La lista de configuraciones de canal se filtra según el destino establecido para la entrega en el panel de propiedades al seleccionarlo en el lienzo. Solo aparecen las configuraciones compatibles con ese destino.
+
    ![imagen que muestra la sección Acciones](../assets/channel-actions.png)
 
 1. **Aplicar reglas de límite**
 
-   En la lista desplegable **[!UICONTROL Conjunto de reglas]**, seleccione un conjunto de reglas de canal para aplicar reglas de límite a la campaña. El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. [Aprenda a trabajar con conjuntos de reglas](../../conflict-prioritization/rule-sets.md).
+   En la lista desplegable **[!UICONTROL Conjunto de reglas]**, seleccione un conjunto de reglas de canal para aplicar reglas de límite a la campaña. El uso de conjuntos de reglas de canal le permite establecer reglas, incluidos límite de frecuencia y horas de silencio por tipo de comunicación, para evitar sobrecargar a los clientes con mensajes similares y para evitar enviarlos durante las horas de silencio configuradas. [Aprenda a trabajar con conjuntos de reglas](../../conflict-prioritization/rule-sets.md).
 
 1. **Crear un experimento de contenido**
 
@@ -166,6 +181,25 @@ Use la pestaña **[!UICONTROL Acciones]** para seleccionar una configuración de
    ![imagen que muestra la sección Experimento de contenido](../assets/channel-experiment.png)
 
 Hay disponibles ajustes adicionales en función del canal de comunicación seleccionado. Expanda las secciones siguientes para obtener más información.
+
++++**Personalización del encabezado del correo electrónico** (correo electrónico).
+
+>[!AVAILABILITY]
+>
+>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+Después de seleccionar la configuración de canal, habilite **[!UICONTROL Anular la configuración de envío de correo electrónico]** para reemplazar los valores definidos en esa configuración. Puede personalizar la siguiente configuración para esta actividad de canal:
+
+* **Parámetros de encabezado de correo electrónico**: **[!UICONTROL De nombre]**, **[!UICONTROL De prefijo de correo electrónico]**, **[!UICONTROL Responder a nombre]** y **[!UICONTROL Responder a correo electrónico]**
+
+* **Dirección de ejecución**: **[!UICONTROL Source]** (**[!UICONTROL Perfil]** o **[!UICONTROL Dimension de destino]**) y **[!UICONTROL Dirección de entrega]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+Para cualquier campo que deje en blanco, [!DNL Journey Optimizer] utiliza el valor de la configuración de canal seleccionada.
+
+![imagen que muestra la configuración de personalización del encabezado del correo electrónico](../assets/email-header.png)
++++
 
 +++**Rastrear participación** (Correo electrónico y SMS).
 
@@ -184,7 +218,6 @@ Para obtener más información sobre el rendimiento al usar el modo de envío r�
 Una vez configurada la actividad de canal, seleccione la pestaña **[!UICONTROL Contenido]** para definir su contenido.
 
 ## Definición del contenido {#content}
-
 
 ### Creación del contenido del mensaje
 
@@ -218,13 +251,17 @@ Cuando simula contenido con **perfiles de prueba** en una campaña orquestada, s
 
 ## Confirmar envío de mensajes
 
-De forma predeterminada, para las campañas orquestadas no recurrentes, la entrega de mensajes se pausa hasta que se apruebe explícitamente la entrega. Después de publicar la campaña, confirme la solicitud de envío desde el panel de propiedades de la actividad del canal.
+De forma predeterminada, para las campañas orquestadas no recurrentes, la entrega de mensajes se pausa hasta que se apruebe explícitamente la entrega. Después de publicar la campaña, confirme la solicitud de envío de **[!UICONTROL Properties]** en el **carril derecho** mientras la actividad de canal está seleccionada.
 
 ![imagen que muestra el botón Confirmar](../assets/confirm-sending.png)
 
-La confirmación de envío se puede desactivar antes de publicar la campaña orquestada. Para ello, seleccione la actividad de canal en el lienzo para mostrar sus propiedades y active **[!UICONTROL Enviar sin confirmación]**.
+La confirmación de envío se puede desactivar antes de publicar la campaña orquestada. Para ello, seleccione la actividad de canal en el lienzo, vaya a **[!UICONTROL Properties]** en el **carril derecho** y active **[!UICONTROL Send without confirmation]**.
 
 ![imagen que muestra el botón Enviar sin confirmación](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>Antes de confirmar, puede dividir el envío en lotes programados mediante el envío de olas. Esta opción solo se aplica a las actividades de canal saliente (correo electrónico, SMS, push o correo directo). [Aprenda a enviar mediante olas](../../delivery/send-using-waves.md)
 
 ## Establecer control de velocidad {#rate-control}
 

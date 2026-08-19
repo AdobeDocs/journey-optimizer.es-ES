@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +54,11 @@ Para configurar la configuración de canal:
 
    * **[!UICONTROL Target Dimension]**: enviar a la entidad principal; por ejemplo, destinatario.
 
-   * **[!UICONTROL Target + Dimension secundario]**: envíe utilizando entidades primarias y secundarias; por ejemplo, destinatario + contrato.
+   * **[!UICONTROL Destinatario + Dimension secundario]**: envíe utilizando entidades primarias y secundarias; por ejemplo, destinatario + contrato o destinatario + vuelos.
 
-1. Seleccione en la lista desplegable su [Dimension de Target creado anteriormente](#targeting-dimension).
+     Elija esta opción para admitir campañas orquestadas de varias entidades en las que un perfil pueda recibir varios mensajes, uno por fila correspondiente en la tabla vinculada que seleccione como [!UICONTROL Dimension secundario] (por ejemplo, **vuelos** vinculados a **destinatarios** o **detalles de vuelo** vinculados a **vuelos**, según el modelo de datos).
+
+1. Seleccione en la lista desplegable su [Dimension de Target creado anteriormente](target-dimension.md#targeting-dimension).
 
    ![](assets/target-dimension-4.png)
 

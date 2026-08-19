@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 9976
-ht-degree: 82%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,14 @@ ht-degree: 82%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Agosto de 2026 {#august-2026}
+
+* La página **Protecciones y limitaciones** se ha actualizado para aclarar las protecciones de actividad y eventos de calificación de audiencia: la redacción ahora hace referencia de forma coherente a las **actividades** de calificación de audiencia (en lugar de a los nodos), incluso cuando se utilizan como criterios de salida, y ambas protecciones ahora abarcan explícitamente los recorridos **activo, cerrado, pausado, en modo de prueba y de ejecución en seco**. [Más información](../start/guardrails.md#audience-qualif-g)
+
+* Se ha agregado una nota a la sección **Optimización del tamaño de Test HTML** para aclarar que los tamaños de prueba reflejan el tamaño de la plantilla de HTML (Handlebars al valor mínimo), no el tamaño final del correo electrónico enviado, que puede ser más grande una vez que las expresiones dinámicas se resuelven en el momento de la entrega. [Más información](../email/create-email.md#optimize-html-proof)
+
+* Se ha agregado una nueva sección **Limitaciones del explorador web móvil** a la página **Introducción al diseño de correo electrónico**, que documenta por qué los correos electrónicos pueden procesarse de forma diferente en Gmail o Outlook cuando se accede a ellos a través de un explorador móvil, junto con una sugerencia de solución. [Más información](../email/get-started-email-design.md#mobile-web-limitations)
+
+* Se ha agregado una nueva sección de **Consideraciones de procesamiento de Outlook** a la página **Introducción al diseño de correo electrónico**, en la que se enumeran las peculiaridades comunes de Outlook que se deben tener en cuenta durante el diseño: números pares para el relleno y las anchuras, anchos de tabla basados en píxeles, atributos de anchura de imagen de HTML, texto ALT, bordes de celdas de tabla y esquinas redondeadas. [Más información](../email/get-started-email-design.md#outlook-tips)
 
 * La página **Protecciones de tiempo de vida de conjuntos de datos (TTL)** se ha actualizado con una tabla **Conjuntos de datos afectados** significativamente ampliada, que ahora cubre todos los conjuntos de datos generados por el sistema Journey Optimizer (incluidos varios que no se habían enumerado anteriormente, como el servicio de consentimiento de AJO, el perfil de mensajería interactiva, el perfil push y los conjuntos de datos de exportación de mensajes) junto con una nueva columna **Disponibilidad** que indica si cada conjunto de datos se incluye de forma predeterminada o requiere un complemento o licencia específicos. La página **Protecciones y limitaciones** también se ha actualizado para reflejar la fecha de aplicación confirmada para esta protección: el cambio se aplicará en **zonas protegidas de clientes existentes** a partir del **1 de octubre de 2026**. [Más información](../data/datasets-ttl.md#datasets)
 

@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Para obtener información general por tipo de recorrido, consulte [Introducción
 
 Después de la activación, los recorridos por lotes con la entrada de audiencia de lectura ofrecen dos formas de ejecutar una simulación:
 
-* **[!UICONTROL Simulación rápida]** se ejecuta de extremo a extremo con usuarios generados, valores de eventos generados y configuraciones de pruebas predeterminadas, con tecnología Journey Agent. Es una forma rápida de simular un recorrido de principio a fin con una intervención mínima. La simulación rápida se inicia en cuanto se selecciona esta opción.
+* **[!UICONTROL Simulación rápida]** se ejecuta de extremo a extremo con usuarios generados, valores de eventos generados y configuraciones de pruebas predeterminadas, con tecnología Journey Agent. Es una forma rápida de simular un recorrido de principio a fin con una intervención mínima. La simulación rápida se inicia en cuanto se selecciona esta opción. [Vea el vídeo de simulación rápida](simulate-journey-gs.md#video)
 
 * **[!UICONTROL La simulación manual]** le permite ejecutar una simulación paso a paso, manualmente. Cree usuarios simulados (manualmente o con Journey Agent), déclencheur en el recorrido, defina cargas útiles de evento (manualmente o con Journey Agent) y anule las esperas.
 

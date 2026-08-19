@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 298aaf6b76a4a508175d579ca3913d1f7d681675
 workflow-type: tm+mt
-source-wordcount: 1797
-ht-degree: 9%
+source-wordcount: 1824
+ht-degree: 10%
 
 ---
 
@@ -114,18 +114,15 @@ La imagen ![que muestra el botón Más acciones](assets/do-not-localize/rule-bui
 **Para todos los tipos de campaña:**
 
 * **[!UICONTROL Ver informe de todos los tiempos]** / **[!UICONTROL Ver informe de las últimas 24 horas]**: acceda a informes para medir y visualizar el impacto y el rendimiento de sus campañas. [Más información sobre los informes de campaña →](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. [Aprenda a utilizar etiquetas →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Editar etiquetas]**: edite las etiquetas asociadas a la campaña. [Más información sobre cómo utilizar etiquetas →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicate]**: utilice esta opción para duplicar una campaña, por ejemplo, para ejecutar una campaña orquestada que se haya detenido. [Más información sobre cómo duplicar →](#duplicate-a-campaign)
 * **[!UICONTROL Eliminar]** - Utilice esta opción para eliminar una campaña. [Más información sobre cómo eliminar →](#delete-a-campaign)
 * **[!UICONTROL Archivar]**: archive la campaña. Todas las campañas archivadas se eliminan según una programación móvil 30 días después de su última fecha de modificación. Esta acción está disponible para todas las campañas excepto para **[!UICONTROL Borrador]**. [Más información sobre cómo archivar →](#archive-a-campaign)
 
 **Solo para campañas activadas por acción y API:**
 
-<!--
-Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
-* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
--->
-* **[!UICONTROL Agregar al paquete]**: agregue la campaña a un paquete para exportarla a otra zona protegida. [Obtenga información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Suscribirse a alertas]**: elija qué alertas del sistema de ciclo vital de campaña se aplican solo a esta campaña (además de cualquier suscripción de alerta de zona protegida). [Más información sobre las alertas del sistema →](../reports/alerts.md#subscribe-alerts)
+* **[!UICONTROL Agregar al paquete]**: agregue la campaña a un paquete para exportarla a otra zona protegida. [Más información sobre cómo exportar objetos →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Abrir versión de borrador]**: si se ha creado una nueva versión de la campaña y aún no se ha activado, puede acceder a su versión de borrador mediante esta acción.
 
 **Solo para campañas orquestadas:**

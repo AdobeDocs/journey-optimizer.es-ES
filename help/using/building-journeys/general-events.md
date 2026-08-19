@@ -41,14 +41,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Eventos unitarios"
->abstract="Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, al particular que entra en el recorrido. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de eventos la realiza un ingeniero de datos y no se puede editar."
+>abstract="Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de eventos la realiza un ingeniero de datos y no se puede editar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business_canvas"
 >title="Eventos empresariales"
 >abstract="Estos eventos le permiten iniciar un recorrido utilizando un evento no relacionado con el perfil. Cuando se active ese evento, podrá enviar mensajes a un público de perfiles. Para este tipo de evento, solo puede añadir una etiqueta y una descripción. La configuración de eventos la realiza un usuario técnico y no se puede editar."
 
-Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, al particular que entra en el recorrido.
+Los eventos permiten activar sus recorridos de forma unitaria para enviar mensajes, en tiempo real, a la persona que entra en el recorrido.
 
 Para este tipo de evento, solo puede añadir una etiqueta y una descripción. El resto de la configuración no se puede editar. Lo ha realizado el usuario técnico. Consulte [esta página](../event/about-events.md).
 

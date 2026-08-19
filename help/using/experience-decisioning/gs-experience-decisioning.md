@@ -41,7 +41,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
 >title="¿Qué es la toma de decisiones?"
->abstract="La toma de decisiones es una nueva herramienta, además de la gestión de decisiones, para elegir los mejores elementos del motor de decisión y entregarlos a cada individuo. Requiere una configuración adicional para poderla utilizar."
+>abstract="La toma de decisiones es una nueva herramienta, además de la gestión de decisiones, para elegir los mejores elementos del motor de decisión y entregarlos a cada persona. Requiere una configuración adicional para poderla utilizar."
 
 ## Qué es Decisioning {#about}
 
@@ -53,7 +53,7 @@ Estos elementos de decisión se integran perfectamente en los mensajes y experie
 >
 >Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push**, **SMS** y **Correo directo**.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 
@@ -110,7 +110,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 1. **Cree una política de decisión e incrústela en su recorrido o campaña** (experiencia basada en código, correo electrónico, SMS o push): las políticas de decisión combinan varias estrategias de selección para determinar los elementos de decisión aptos que se mostrarán a la audiencia deseada.
 
    ➡️ [Aprenda a trabajar con directivas de decisión](create-decision.md)
-➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).
+   ➡️ Para entregar correctamente la oferta a través del canal de experiencia basado en código, siga los pasos de implementación de [esta sección](../code-based/code-based-implementation-samples.md).
 
 >[!NOTE]
 >

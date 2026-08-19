@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -439,7 +439,7 @@ Puede suscribirse a las alertas de varias formas:
 
 * **[Suscripción global (zona protegida)](#subscribe-alerts)**: Reciba notificaciones de todos los recorridos o campañas que coincidan en la **zona protegida actual**. Utilice esta opción cuando desee una cobertura amplia.
 * **[Suscripción específica de Recorrido](#subscribe-alerts)**: Para las alertas de recorrido admitidas, limite las notificaciones a **un recorrido** a la vez desde el inventario de recorrido.
-* **Suscripción específica de la campaña**: Actualmente, las alertas del ciclo vital de la campaña solo se pueden suscribir en el nivel de espacio aislado.
+* **[Suscripción específica de la campaña](#subscribe-alerts)**: Para las alertas de ciclo vital de campaña admitidas, limite las notificaciones a **una campaña** a la vez desde el inventario de campañas.
 
 >[!BEGINTABS]
 
@@ -501,29 +501,33 @@ Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UI
 >
 >La alerta [Leer Déclencheur de audiencias no se ha realizado correctamente](#available-alerts) solo está disponible a través de una suscripción global, no de una suscripción por recorrido.
 
+>[!TAB Suscripción específica de campaña]
+
+Las suscripciones específicas de la campaña se aplican a [alertas del ciclo vital de la campaña](#available-alerts). Permiten monitorizar campañas de alta prioridad individuales sin recibir la misma alerta para cada campaña en la zona protegida.
+
+**Para suscribirse a las alertas del ciclo vital de una campaña específica:**
+
+1. Vaya al inventario **[!UICONTROL Campaigns]** y abra la pestaña del tipo de campaña (**[!UICONTROL Action]** o **[!UICONTROL API activada]**).
+
+1. Haga clic en el menú **⋯** (más acciones) de la campaña que desee monitorizar.
+
+1. Seleccione **[!UICONTROL Suscribirse a alertas]**.
+
+   ![Suscripción a una alerta para una campaña específica](assets/subscribe-campaign-alert.png){width=75%}
+
+1. Seleccione las alertas del ciclo vital de campaña que desee entre las opciones disponibles (consulte [Alertas de campaña](#available-alerts)).
+
+1. Haz clic en **[!UICONTROL Guardar]** para confirmar tus suscripciones.
+
+**Para cancelar la suscripción:**
+
+Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UICONTROL Guardar]**.
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
-
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
+>[!TIP]
+>
+>Puede combinar la suscripción de **sandbox-level** (de la pestaña Alerts **[!UICONTROL Browse]**) con **suscripciones específicas de la campaña**. Utilice la cobertura a nivel de zona protegida para todo lo que hay en ella y añada suscripciones por campaña solo para las campañas para las que desee realizar un seguimiento por separado.
 
 <!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
 

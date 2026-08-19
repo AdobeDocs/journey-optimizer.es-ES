@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 4%
+source-wordcount: 2072
+ht-degree: 6%
 
 ---
 
@@ -44,21 +44,21 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Actividad Esperar"
->abstract="La actividad Wait permite esperar antes de ejecutar la siguiente actividad en la ruta. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
+>abstract="La actividad Esperar permite esperar antes de ejecutar la siguiente actividad en la ruta. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay dos opciones disponibles: duración y personalizado."
 
 Puede usar una actividad **[!UICONTROL Wait]** para definir una duración antes de ejecutar la siguiente actividad.  La duración máxima de espera es de **90 días**.
 
-Puede establecer dos tipos de actividad **Wait**:
+Puede establecer tres tipos de actividad **Wait**:
 
 * Una espera basada en una duración relativa. [Más información](#duration)
 * Una fecha personalizada, con funciones para calcularla. [Más información](#custom)
+* Una espera de optimización del tiempo de envío. [Más información](#sto-wait)
 
 <!--
-* [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
-## Recommendations {#wait-recommendations}
+## Recomendaciones {#wait-recommendations}
 
 Utilice estas recomendaciones para mantener las esperas predecibles y seguras.
 
@@ -124,6 +124,33 @@ Una práctica recomendada es utilizar fechas personalizadas específicas para lo
 
 Para validar que la actividad de espera funciona según lo esperado, puede utilizar eventos de paso. [Más información](../reports/query-examples.md#common-queries).
 
+### Espera de optimización del tiempo de envío {#sto-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_channel"
+>title="Canal de optimización"
+>abstract="Elija el modelo de optimización del tiempo de envío del canal que se utilizará para calcular el tiempo de espera óptimo de cada perfil: notificaciones push o por correo electrónico. La actividad de espera reutiliza las puntuaciones de participación ya calculadas para ese canal, por lo que el canal que seleccione debe coincidir con el comportamiento de mensajería en el que desea optimizar la espera."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_type"
+>title="Tipo de optimización"
+>abstract="En el caso del correo electrónico, elija si el tiempo de espera óptimo debe calcularse para maximizar las aperturas o los clics. La funcionalidad push siempre optimiza las aperturas, ya que el rastreo de clics no se aplica a los mensajes push. Elija el tipo de participación que mejor se ajuste al objetivo de la actividad que sigue a esta espera."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_send_within"
+>title="Enviar en el siguiente"
+>abstract="Establezca el número máximo de horas (2-100) que el sistema puede esperar antes de continuar con la siguiente actividad. Esto define el límite exterior de la ventana que Send-Time Optimization considera al elegir el mejor momento: una ventana más corta limita cuánto beneficio puede proporcionar el modelo de IA, mientras que una ventana más larga puede retrasar las actividades posteriores más de lo deseado."
+
+![Definir la duración de la espera](assets/wait_sto.png)
+
+Seleccione el tipo **[!UICONTROL Optimización del tiempo de envío]** para permitir que la IA de Adobe determine el tiempo óptimo para continuar con la siguiente actividad de la ruta, según el comportamiento de participación predicho de cada perfil. Utiliza el mismo modelo de optimización del tiempo de envío [Send-Time](send-time-optimization.md) que las acciones de correo electrónico y push, pero desvincula la espera del propio envío. La actividad que sigue a la espera puede ser cualquier actividad, como una acción personalizada, en lugar de estar vinculada únicamente a una acción de correo electrónico o push.
+
+[Obtenga más información sobre cómo funciona la optimización del tiempo de envío y cómo habilitarla para su organización](send-time-optimization.md#how-send-time).
+
+>[!IMPORTANT]
+>
+>La optimización del tiempo de envío no tiene visibilidad de las reglas de [horas tranquilas](../conflict-prioritization/quiet-hours.md). Las horas tranquilas solo se evalúan cuando un perfil alcanza una acción **message**, de modo que una actividad de espera de optimización del tiempo de envío puede seleccionar un tiempo óptimo que se encuentra dentro de una ventana de horas silenciosas para una acción del canal descendente. El conflicto solo aparece más adelante, cuando se envía el mensaje.
+
 ## Actualización de perfil tras esperar {#profile-refresh}
 
 Cuando un perfil está estacionado en una actividad **Wait** en un recorrido que comienza con una actividad **Read Audience**, el recorrido actualiza automáticamente los atributos del perfil desde el servicio Unified Profile Service (UPS) para recuperar los datos disponibles más recientes.
@@ -140,7 +167,7 @@ Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Acerca del nodo de espera automático"
->abstract="Se inserta automáticamente un nodo **Wait** después de esta acción entrante. Se establece en 3 días de forma predeterminada, lo que garantiza que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje o la experiencia. La duración de la espera se puede actualizar o el nodo se puede eliminar si el caso de uso lo requiere."
+>abstract="Se inserta automáticamente un nodo **Esperar** después de esta acción de entrada. Se establece en tres días de forma predeterminada, lo que garantiza que los perfiles permanezcan en el recorrido el tiempo suficiente para ver el mensaje o la experiencia. La duración de la espera se puede actualizar o el nodo se puede eliminar si el caso de uso lo requiere."
 
 Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.
 
@@ -159,12 +186,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Comprenda cómo las actividades de espera interactúan con el tiempo de espera global de recorrido (91 días)
 * Utilice el parámetro Tiempo de espera en prueba para acelerar la validación del modo de prueba
 * Obtenga información sobre cómo se actualizan los atributos de perfil después de un nodo de espera en Leer recorridos de audiencia
+* Utilice la optimización del tiempo de envío dentro de una actividad de espera para determinar el tiempo óptimo antes de continuar con cualquier actividad descendente
 
 **Glosario:**
 
 * **Actividad de espera**: Una actividad de orquestación de recorrido que pone en pausa la progresión del perfil durante un tiempo especificado o hasta una fecha calculada antes de que se ejecute la siguiente actividad *(específica del producto)*
 * **Duración de espera**: Tipo de espera que establece un período de tiempo relativo en pausa, con un máximo de 90 días *(específico del producto)*
 * **Espera personalizada**: un tipo de espera que usa una expresión `dateTimeOnly` derivada de datos de perfil o evento para definir una fecha u hora futura específica para la reanudación *(específica del producto)*
+* **Espera de optimización del tiempo de envío**: un tipo de espera que usa el modelo de IA de optimización del tiempo de envío de Adobe para seleccionar el momento óptimo para continuar con la siguiente actividad, desunido de cualquier envío de mensaje *(específico del producto)*
 * **Nodo de espera automático**: una actividad de espera de 3 días insertada automáticamente después de actividades de experiencia de entrada (en la aplicación, basada en código, tarjeta) para mantener el perfil en la recorrido el tiempo suficiente para ver el contenido *(específico del producto)*
 * **Tiempo de espera en la prueba**: un parámetro de modo de prueba de recorrido que anula las duraciones de espera reales (10 segundos predeterminados) para que los resultados de la prueba se devuelvan rápidamente *(específico del producto)*
 
@@ -177,6 +206,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Las expresiones de espera personalizadas deben utilizar el formato `dateTimeOnly` y no deben incluir un sufijo `Z` ni un desplazamiento explícito de zona horaria.
 * El uso de una fecha estática fija (por ejemplo, `toDateTimeOnly('2024-01-01T01:11:00Z')`) en una espera personalizada puede causar problemas; use fechas dinámicas específicas del perfil en su lugar.
 * Los atributos de perfil se actualizan desde el servicio de perfiles unificado después de un nodo de espera en Leer recorridos de audiencia, lo que puede producir resultados inesperados si se espera coherencia de instantánea.
+* La optimización del tiempo de envío dentro de una actividad de espera no tiene visibilidad sobre las reglas de horas de inactividad; si una acción del canal descendente está protegida por una regla de horas de inactividad configurada para descartar mensajes, el perfil se puede eliminar de la entrega de mensajes y salir de la recorrido.
 
 **Terminología:**
 
@@ -191,5 +221,6 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Por qué debería evitar anexar Z a una expresión de espera personalizada?** — Añadir Z o un desplazamiento de zona horaria a una expresión `toDateTimeOnly()` puede hacer que los perfiles se queden atascados en la actividad de espera; la expresión debe depender de la zona horaria configurada por el recorrido.
 * **Q: ¿Se actualizan los atributos de perfil después de un nodo de espera?** — Sí, en los recorridos que comienzan por Leer audiencia, la recorrido actualiza los atributos de perfil del servicio de perfil unificado después de la espera, por lo que las actividades posteriores pueden ver valores actualizados en lugar de los datos de instantánea de audiencia originales.
 * **Q: ¿Qué es el nodo de espera automática?** — Una actividad de espera de 3 días insertada automáticamente después de actividades de experiencia entrantes (en la aplicación, basada en código, tarjeta) para garantizar que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje; se puede eliminar o volver a configurar según sea necesario.
+* **Q: ¿La actividad de espera de optimización del tiempo de envío conoce las horas tranquilas?** — No. Las horas tranquilas solo se evalúan en la acción del mensaje, por lo que la actividad Espera puede elegir una hora dentro de un intervalo de horas silenciosas. Según la regla de horas tranquilas, el mensaje se pone en cola hasta que terminan las horas silenciosas, o se descarta, lo que también sale del perfil de la recorrido.
 
 +++

@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
+source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 13%
@@ -65,14 +65,14 @@ En la tabla siguiente se enumeran todos los conjuntos de datos generados por el 
 | Conjunto de datos de evento de decisión de AJO ExD *(anteriormente: ODE DecisionEvents - prod decisioning)* | Requiere el complemento de Decisioning | 13 meses | n/a |
 | Conjunto de datos de evento de comentarios de actividades de AJO Live | Incluido | 13 meses | n/a |
 | Conjunto de datos de resumen de STO de AJO | Incluido | 13 meses | n/a |
-| Conjunto de datos del servicio de consentimiento AJO | Incluido | 13 meses | 90 días |
-| Conjunto de datos del perfil de mensajería interactiva de AJO | Incluido | 13 meses | 90 días |
-| Conjunto de datos del perfil push de AJO | Incluido | 13 meses | 90 días |
-| Extensión de contadores de perfil de AJO | Incluido | 13 meses | 90 días |
-| Recorrido entrante | Incluido | 13 meses | 90 días |
+| Conjunto de datos del servicio de consentimiento AJO | Incluido | n/a | n/a |
+| Conjunto de datos del perfil de mensajería interactiva de AJO | Incluido | n/a | n/a |
+| Conjunto de datos del perfil push de AJO | Incluido | n/a | n/a |
+| Extensión de contadores de perfil de AJO | Incluido | n/a | n/a |
+| Recorrido entrante | Incluido | n/a | n/a |
 | Conjunto de datos de clasificación AJO | Incluido | n/a | n/a |
 | Conjunto de datos de evento de seguimiento de canal AJO | Incluido | 13 meses | 90 días |
-| Conjunto de datos de evento de cambio de estado de desafío de fidelidad Adobe | Requiere licencia de fidelización de Journey Optimizer | 13 meses | n/a |
+| Conjunto de datos de evento de cambio de estado de desafío de fidelidad Adobe | Requiere licencia de Journey Optimizer Loyalty | 13 meses | n/a |
 | Conjunto de datos de exportación de mensajes AJO | Requiere el complemento Message Export | 30 días | n/a |
 | Conjunto de datos de metadatos de evento de mensaje AJO | Requiere el complemento Message Export | 30 días | n/a |
 

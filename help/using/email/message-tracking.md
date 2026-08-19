@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 25%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +172,14 @@ El período de retención de una página espejo es de **90 días**. Después de 
 >* Al crear correos electrónicos que dependen en gran medida de la personalización en tiempo de ejecución (por ejemplo, bucles de `#each`, objetos anidados, datos de carga útil grandes), las direcciones URL de página espejo pueden llegar a ser excesivamente grandes, especialmente en campañas activadas por API que utilizan datos contextuales extensos de cargas útiles. Esto puede provocar errores de HTTP (404, 422, 502) en exploradores o clientes de correo electrónico. Adobe recomienda limitar la anchura y profundidad de los campos dinámicos, reducir la dependencia de fragmentos complejos y acoplar las estructuras de personalización para evitar errores de vínculos.
 >
 >* En la [prueba](../content-management/proofs.md) enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo está activo en los mensajes finales.
+
+### Toma de decisiones en páginas espejo {#decisioning-mirror-page}
+
+Puede usar [!DNL Decisioning] para personalizar y optimizar el contenido del correo electrónico, aprovechando las puntuaciones de prioridad, las fórmulas o los modelos de IA para mostrar las ofertas y el contenido más relevantes a cada destinatario. Estos atributos de [!DNL Decisioning] también se representan en páginas espejo, incluso cuando la página espejo se inserta en un [fragmento visual](../content-management/fragments.md), siempre que la página espejo se agregue antes de que se publique el fragmento.
+
+>[!CAUTION]
+>
+>Si agrega una página espejo a un fragmento visual ya publicado, debe volver a publicar las campañas o recorridos que la usan para que los atributos de [!DNL Decisioning] se muestren cuando se haga clic en el vínculo.
 
 ## Personalizar la apariencia y el destino del vínculo {#adjust-links}
 
