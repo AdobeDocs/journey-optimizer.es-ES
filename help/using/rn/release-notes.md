@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f5e0c4ebcc6af1cef57c2c02a69f3f483887bff1
 workflow-type: tm+mt
-source-wordcount: 1436
-ht-degree: 24%
+source-wordcount: 2034
+ht-degree: 21%
 
 ---
 
@@ -93,6 +81,14 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 </tbody>
 </table>
 
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+* **Advertencia de tamaño de variante de contenido**: Journey Optimizer ahora muestra una advertencia de límite suave cuando una variante de contenido supera su umbral de tamaño recomendado: 1200 KB para plantillas y mensajes, 700 KB para fragmentos y 1000 KB para páginas de aterrizaje. Guardar y publicar no están bloqueados.
+
+* **Límites de recuento de fragmentos en el contenido**: Journey Optimizer ahora valida el número de fragmentos únicos utilizados dentro de un fragmento de contenido: hasta 60 por variante y hasta 120 en todas las variantes de un solo mensaje. Las advertencias aparecen en el 75 % de cada límite; la publicación se bloquea cuando se alcanza el límite estricto.
+
++++
+
 ### Recorridos {#aug-26-journeys}
 
 * **Nuevas funciones de lista en el editor de expresiones avanzadas**: hay dos nuevas funciones disponibles en el editor de expresiones avanzadas: `mergeLists` combina dos listas, con o sin deduplicación, y `differenceLists` devuelve los elementos de una lista que no están presentes en otra. [Más información](../building-journeys/functions/list-functions.md)
@@ -102,6 +98,30 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 * **Optimización del tiempo de envío en la actividad de espera**: la optimización del tiempo de envío ya está disponible en la actividad de espera, lo que permite que la IA de Adobe determine el momento óptimo para continuar a cualquier actividad descendente. [Más información](../building-journeys/wait-activity.md#sto-wait)
 
   Fecha de disponibilidad: 13 de agosto de 2026
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Recorrido de nivel de resistencia (disponibilidad limitada)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede configurar un grupo de exclusión para los recorridos directamente desde las propiedades de recorrido. Una exclusión es un porcentaje configurable de la audiencia de destino que se excluye de la entrada al recorrido y que no recibe ninguna comunicación. Al comparar los perfiles de exclusión con los perfiles activos en los informes de Customer Journey Analytics, puede medir el alza incremental, el verdadero impacto, que ofrece su recorrido.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Agregar nueva función dateDiff en el editor de expresiones de recorrido** - El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.
+
+* **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido, ahora aparecen en el encabezado del recorrido junto al distintivo de estado. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
+
++++
 
 ### Campañas {#aug-26-campaigns}
 
@@ -128,6 +148,32 @@ En esta versión se han introducido las siguientes funciones y mejoras en Campa�
 
 * **Suscripciones a la alerta de ciclo vital por campaña**: ahora puede suscribirse a alertas de ciclo vital de campaña admitidas para una sola campaña, además de la suscripción existente a nivel de zona protegida. Esto permite monitorizar campañas de alta prioridad individuales sin recibir la misma alerta para cada campaña en la zona protegida. [Más información](../reports/alerts.md#subscribe-alerts)
 Fecha de disponibilidad: 13 de agosto de 2026
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulación de experiencia entrante en campañas de acción</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede simular acciones de canal entrante en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar reglas, decisiones y el procesamiento de contenido de principio a fin.</p>
+<p>Actualmente, esta funcionalidad está en versión beta privada y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Rediseño del flujo de creación de campañas de acción**: el flujo de creación de campañas de acción de Adobe Journey Optimizer se ha rediseñado para ofrecer una experiencia de usuario significativamente más intuitiva, eficiente y fluida.
+
+* **Carpetas para campañas de acción**: ahora puede organizar sus campañas de acción en carpetas para mejorar la navegación y la administración en la interfaz.
+
+* **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
+
++++
 
 ### Campañas orquestadas {#august-26-oc}
 
@@ -233,3 +279,24 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
   Fecha de disponibilidad: 11 de agosto de 2026
 
   [Más información](../email/message-tracking.md#decisioning-mirror-page)
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con Decisioning en el canal web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning ya está disponible para el canal Web. Puede utilizar las políticas de decisión directamente en el editor visual web para entregar las ofertas más relevantes a cada visitante.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Límite de frecuencia de nivel de ubicación en Decisioning**: las reglas de límite de frecuencia en Decisioning ahora se pueden vincular a ubicaciones individuales, lo que le proporciona un control más preciso sobre la frecuencia con la que se muestra una oferta en una superficie determinada. Hay dos modos disponibles: **límite específico de la ubicación**, que define un límite que se aplica solo cuando la oferta se muestra en una ubicación seleccionada, y **límite por ubicación**, que aplica un límite de forma independiente en cada ubicación donde aparece la oferta, de modo que cada ubicación mantiene su propio contador de límite. Tenga en cuenta que el límite relacionado con la ubicación no se aplica a las ofertas restringidas mediante reglas basadas en datos de Adobe Experience Platform.
+
++++
