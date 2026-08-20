@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ El estado del recorrido depende de su ciclo de vida. Puede ser:
 * **Pausado**: el recorrido activo se ha pausado, usando el botón **Pausar**. [Más información](../building-journeys/journey-pause.md)
 * **Detenido**: el recorrido se ha desactivado con el botón **Detener**. Todos los individuos abandonan el recorrido al instante. [Más información](../building-journeys/end-journey.md#stop-journey)
 * **Cerrado**: el recorrido se ha cerrado con el botón **Cerca de nuevas entradas**. El recorrido deja de permitir que nuevas personas entren en el recorrido. Las personas que ya están en el recorrido pueden terminar el recorrido normalmente. [Más información](../building-journeys/end-journey.md)
+
+Todas las [fechas de inicio y finalización](journey-properties.md#dates) configuradas aparecen en el encabezado del recorrido, junto al distintivo de estado. Esto le proporciona una vista rápida de la programación del recorrido sin abrir el panel de propiedades.
 
 >[!NOTE]
 >
