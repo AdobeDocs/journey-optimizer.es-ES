@@ -11,24 +11,15 @@ keywords: subdominio, delegación, dominio, DNS
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 24%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +51,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. En la sección **[!UICONTROL Configurar método]**, seleccione **[!UICONTROL Delegación personalizada]**.
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![Opción de delegación personalizada seleccionada en la sección Configurar método](assets/subdomain-method-custom.png){width=90%}
 
 1. Especifique el nombre del subdominio que desea delegar.
 
@@ -83,7 +74,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. Si todo está configurado correctamente, marque la casilla &quot;Confirmo...&quot;.
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   ![Casilla de verificación de confirmación después de generar registros DNS en la solución de alojamiento](assets/subdomain-custom-submit.png){width="75%"}
 
 ## Cargar el certificado SSL {#upload-ssl-certificate}
 
@@ -99,7 +90,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. En la sección **[!UICONTROL Certificado SSL]**, haga clic en **[!UICONTROL Generar CSR]**.
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   ![Botón Generar CSR en la sección Certificado SSL](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +98,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. Rellene el formulario que se muestra y genere la solicitud de firma de certificado (CSR).
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   ![Formulario para generar la solicitud de firma de certificado](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -117,9 +108,11 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. Envíelo a la autoridad de certificación (CA) para obtener su certificado SSL.
 
-   * La CSR descargada ya incluye `data.subdomain.com` y `cdn.subdomain.com` como nombres alternativos del sujeto (SAN); no se requiere ninguna adición manual de SAN antes de enviarla a su CA. Por ejemplo, si está delegando `example.adobe.com`, la CSR cubre `data.example.adobe.com` y `cdn.example.adobe.com`.
+   >[!NOTE]
+   >
+   >La CSR descargada ya incluye `data.subdomain.com` y `cdn.subdomain.com` como nombres alternativos del sujeto (SAN); no se requiere ninguna adición manual de SAN antes de enviarla a su CA. Por ejemplo, si está delegando `example.adobe.com`, la CSR cubre `data.example.adobe.com` y `cdn.example.adobe.com`.
 
-   * Una vez firmada, la CA emitirá un único certificado que abarcará tanto el dominio de datos como el subdominio de CDN.
+   Una vez firmada, la CA emitirá un único certificado que abarcará tanto el dominio de datos como el subdominio de CDN.
 
 1. Una vez recuperado, haga clic en **[!UICONTROL Cargar certificado SSL]** y cargue el certificado en [!DNL Journey Optimizer] en formato .pem con la cadena de certificados completa. Este es un ejemplo de formato de archivo .pem:
 
@@ -142,7 +135,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 >title="Complete los pasos del bucle de retroalimentación"
 >abstract="Vaya a Yahoo! Sender Hub y rellene el formulario para comprobar la propiedad del dominio. Introduzca la dirección de correo electrónico del sistema de informes de FBL que se indica a continuación y utilice la contraseña de un solo uso (OTP) que recibirá para verificar la propiedad en Yahoo! Sender Hub."
 
-1. Vaya a [Yahoo! Sitio web del concentrador de remitentes &#x200B;](https://senders.yahooinc.com/) y rellene el formulario necesario para comprobar la propiedad del dominio.
+1. Vaya a [Yahoo! Sitio web del concentrador de remitentes ](https://senders.yahooinc.com/) y rellene el formulario necesario para comprobar la propiedad del dominio.
 
 1. Para verificar la propiedad del dominio, Yahoo! Sender Hub necesitará que proporcione una dirección de correo electrónico. Escriba la dirección de correo electrónico de informe FBL en **[!UICONTROL Valor]**. Es una dirección de correo electrónico propiedad de Adobe.
 
@@ -162,7 +155,7 @@ Para configurar un subdominio personalizado, siga los pasos a continuación.
 
 1. Si todo está configurado correctamente, marque la casilla &quot;He completado...&quot;.
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   ![Casilla de verificación de confirmación después de completar los pasos del bucle de comentarios](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## Copiar el registro de validación de URL de CDN SSL {#copy-ssl-cdn-url-record}
 
