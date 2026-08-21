@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2098
+source-wordcount: 2105
 ht-degree: 20%
 
 ---
@@ -93,6 +93,7 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 </tbody>
 </table>
 
+
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Advertencia de tamaño de variante de contenido**: Journey Optimizer ahora muestra una advertencia de límite suave cuando una variante de contenido supera su umbral de tamaño recomendado: 1200 KB para plantillas y mensajes, 700 KB para fragmentos y 1000 KB para páginas de aterrizaje. Guardar y publicar no están bloqueados.
@@ -102,6 +103,12 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 +++
 
 ### Recorridos {#aug-26-journeys}
+
+
+* **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido, ahora aparecen en el encabezado del recorrido junto al distintivo de estado. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado. [Más información](../building-journeys/journey-properties.md#dates)
+
+
+Fecha de disponibilidad: 20 de agosto de 2026
 
 * **Nuevas funciones de lista en el editor de expresiones avanzadas**: hay dos nuevas funciones disponibles en el editor de expresiones avanzadas: `mergeLists` combina dos listas, con o sin deduplicación, y `differenceLists` devuelve los elementos de una lista que no están presentes en otra. [Más información](../building-journeys/functions/list-functions.md)
 
@@ -131,7 +138,6 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 
 * **Agregar nueva función dateDiff en el editor de expresiones de recorrido** - El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.
 
-* **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido, ahora aparecen en el encabezado del recorrido junto al distintivo de estado. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado.
 
 +++
 

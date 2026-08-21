@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +176,15 @@ La zona horaria se define en el nivel de recorrido. Puede escribir una zona hora
 De forma predeterminada, los perfiles pueden entrar en el recorrido en cuanto se publique y pueden permanecer hasta que se alcance el [tiempo de espera de recorrido global](#global_timeout). La única excepción son los recorridos de lectura recurrentes con **Forzar reentrada en repetición** activada, que terminan en la fecha de inicio de la siguiente ocurrencia.
 
 Si es necesario, puede definir **fecha de inicio** y **fecha de finalización** personalizadas. Esto permite a los perfiles introducir el recorrido en una fecha específica y salir automáticamente cuando se llega a la fecha de finalización.
+
+Las fechas de inicio y finalización configuradas aparecen directamente en el **encabezado de recorrido**, junto al distintivo de estado. Esto le proporciona una vista rápida de la programación del recorrido sin abrir el panel de propiedades. La etiqueta mostrada se adapta en función del estado de cada fecha:
+
+* **Próxima fecha de inicio**: el encabezado muestra la fecha de inicio configurada.
+* **Fecha de inicio pasada** — el encabezado indica que el recorrido ya ha comenzado.
+* **Próxima fecha de finalización**: el encabezado muestra la fecha de finalización configurada.
+* **Fecha de finalización pasada** — el encabezado indica que el recorrido ha finalizado.
+
+Si no se define ninguna fecha de inicio o de finalización, no aparece ninguna información de fecha en el encabezado.
 
 ## Tiempo de espera {#timeout}
 

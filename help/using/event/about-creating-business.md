@@ -27,10 +27,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -69,6 +69,7 @@ Los eventos empresariales pueden ser &quot;un producto vuelve a estar en stock&q
 * Al probar un evento empresarial, debe pasar los parámetros de evento y el identificador del perfil de prueba que va a introducir el recorrido en la prueba. Además, al probar un recorrido basado en eventos empresariales, solo puede almacenar en déclencheur una entrada de perfil única. Consulte [esta sección](../building-journeys/testing-the-journey.md#test-business). En el modo de prueba, no hay disponible el modo &quot;Vista de código&quot;.
 * ¿Qué les sucede a las personas que están actualmente en el recorrido si llega un nuevo evento empresarial? Se comporta de la misma manera que cuando los individuos siguen en un recorrido recurrente cuando ocurre una nueva recurrencia. Su camino ha terminado. Como resultado, los especialistas en marketing deben prestar atención para evitar crear recorridos demasiado largos si esperan eventos comerciales frecuentes.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
+* La carga útil de un evento empresarial está limitada a un máximo de **64 KB de JSON minimizado y sin comprimir**. Este límite también se aplica a los eventos unitarios. Los eventos que superen este tamaño se perderán y no almacenarán en déclencheur el recorrido. [Más información sobre limitaciones y protecciones](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Varios eventos empresariales {#multiple-business-events}
 
