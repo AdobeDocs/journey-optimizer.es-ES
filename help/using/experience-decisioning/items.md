@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +54,7 @@ Para crear un elemento de decisión, vaya a **[!UICONTROL Decisioning]** > **[!U
 
 Comience por definir los atributos estándar y personalizados del elemento de decisión:
 
-![](assets/item-attributes.png)
+![Formulario de creación de elementos de decisión que muestra campos de atributo como nombre, descripción, fechas de inicio y finalización, prioridad y etiquetas](assets/item-attributes.png)
 
 1. Proporcione un nombre y una descripción.
 1. Especifique las fechas de inicio y finalización. El motor de decisión solo considerará el elemento en estas fechas.
@@ -105,8 +102,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -124,9 +121,9 @@ Básicamente, el resultado de una audiencia es una lista de perfiles, mientras q
 
 * Para limitar la presentación del elemento de decisión a los miembros de una o varias audiencias de Adobe Experience Platform, seleccione la opción **[!UICONTROL Visitantes que pertenecen a una o varias audiencias]**, luego agregue una o varias audiencias desde el panel izquierdo y combínelas con los operadores lógicos **[!UICONTROL And]** / **[!UICONTROL Or]**. [Más información sobre los públicos](../audience/about-audiences.md)
 
-* Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL By rule]** y, a continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md)
+  ![Sección de elegibilidad para elemento de decisión que muestra las opciones de selección de audiencia](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* Para asociar una regla de decisión específica al elemento de decisión, seleccione **[!UICONTROL By rule]** y, a continuación, arrastre la regla deseada desde el panel izquierdo al área central. [Más información sobre las reglas de decisión](rules.md)
 
 Al seleccionar públicos o reglas de decisión, puede ver información sobre los perfiles calificados estimados. Haga clic en **[!UICONTROL Actualizar]** para actualizar los datos.
 
@@ -141,9 +138,14 @@ Al seleccionar públicos o reglas de decisión, puede ver información sobre los
 >title="Expresión"
 >abstract="En lugar de utilizar un valor estático para el umbral de límite, puede definir su propia expresión. Esto le permite calcular el umbral dinámicamente mediante atributos de decisión y/o atributos externos de un conjunto de datos de Adobe Experience Platform.<br/><br/>Las **expresiones** de la regla de límite están disponibles como Disponibilidad limitada para todos los usuarios. Solo son compatibles con el tipo de límite **[!UICONTROL En total]**."
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="Ámbito de límite"
+>abstract="Defina cómo se aplica la regla de límite entre ubicaciones. De forma predeterminada, se aplica un solo límite independientemente de la ubicación. Seleccione **Cada ubicación** para rastrear el límite de forma independiente por ubicación, o **Ubicación específica** para restringir el límite solo a las ubicaciones seleccionadas. Tenga en cuenta que el límite de **ubicación específica** solo se admite para los canales web y de correo electrónico."
+
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar un elemento de oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta. Puede crear hasta 10 límites para un elemento de decisión determinado.
 
-![](assets/item-capping.png)
+![Elemento de decisión que muestra el panel de reglas de límite con el botón Crear límite](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +154,13 @@ El límite se utiliza como restricción para definir el número máximo de veces
 
 Al configurar reglas de límite, puede hacer referencia a atributos almacenados en conjuntos de datos de Adobe Experience Platform para definir umbrales. Para usar un conjunto de datos, selecciónelo en la sección **[!UICONTROL Conjunto de datos]**. [Aprenda a utilizar los datos de Adobe Experience Platform para la toma de decisiones](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![Campo de selección de conjunto de datos en la configuración de límite para hacer referencia a atributos de Adobe Experience Platform como umbrales](assets/exd-lookup-capping.png){width="80%"}
 
-Para establecer reglas de límite para el elemento de decisión, haga clic en el botón **[!UICONTROL Crear límite]** y siga los pasos que se detallan a continuación.
-
-![](assets/item-capping-create.png)
+Para establecer reglas de límite para el elemento de decisión, siga los pasos detallados a continuación.
 
 1. Defina qué **[!UICONTROL evento de límite]** se tendrá en cuenta para aumentar el contador.
+
+   ![Cree un formulario de regla de límite que muestre la configuración de evento de límite, ámbito, tipo, umbral y frecuencia de restablecimiento](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL Evento de decisión]** (valor predeterminado): Número máximo de veces que se puede presentar una oferta.
    * **[!UICONTROL Impresión]** (solo canales entrantes): Número máximo de veces que la oferta se puede mostrar a un usuario.
@@ -171,7 +173,7 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    Para las notificaciones push, el seguimiento de eventos desde el canal móvil incluye el Experience Cloud ID (ECID). Se recomienda utilizar ECID en la configuración de campaña o Recorrido para mantener la coherencia de la identidad y garantizar que el límite funcione según lo esperado.
 
-   ![](assets/push-capping.png)
+   ![Configuración de límite push que muestra la opción de evento personalizado con la selección del tipo de evento de seguimiento push](assets/push-capping.png)
 
    +++
 
@@ -182,6 +184,26 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
    * [Configuración de la recopilación de datos](data-collection/schema-requirement.md)
 
    +++
+
+1. Utilice la sección **[!UICONTROL Ámbito de límite]** para definir cómo se aplica la regla de límite en todas las ubicaciones. [Más información sobre las ubicaciones](placements.md#about)
+
+   ![Sección de ámbito de límite que muestra las opciones de radio Nivel de oferta, Cada ubicación y Ubicación específica](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL Nivel de oferta]** (predeterminado): el límite se aplica por oferta, independientemente de la ubicación en la que se muestre. La misma oferta mostrada en varias ubicaciones cuenta una vez por evento de decisión.
+   * **[!UICONTROL Cada ubicación]**: El límite se aplica a cada ubicación en la que aparece esta oferta. Cada ubicación mantiene su propio contador de límite y las nuevas ubicaciones se rastrean automáticamente la primera vez que se ven. Por ejemplo, si una oferta aparece en un banner principal y en una barra lateral, cada ubicación rastrea las impresiones de forma independiente: limitar la oferta en una ubicación no afecta a la otra.
+   * **[!UICONTROL Ubicación específica]**: El límite solo se aplica cuando la oferta se muestra en las ubicaciones seleccionadas.
+
+     >[!CAUTION]
+     >
+     >El límite de **ubicación específica** solo se admite para los canales **Web** y **Correo electrónico**. No está disponible para canales de experiencia basados en código, SMS, Push o de correo directo.
+
+     Haga clic en **[!UICONTROL Seleccionar ubicaciones]** para elegir las ubicaciones que desea limitar. Otras ubicaciones pasan sin límite. Por ejemplo, si selecciona la ubicación Hero Banner con un límite de 3 impresiones al día, la oferta deja de aparecer en el Hero Banner después de 3 impresiones, pero sigue siendo apta en todas las demás ubicaciones.
+
+     ![Ámbito de límite de ubicación específico seleccionado, que muestra el botón Seleccionar ubicaciones y las etiquetas de ubicación seleccionadas](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >La restricción de nivel de ubicación no se aplica a las ofertas restringidas mediante reglas basadas en datos de Adobe Experience Platform.
 
 1. Elija el tipo de límite:
 
@@ -211,7 +233,7 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    Para usar una expresión, habilite la opción **[!UICONTROL Expression]** y, a continuación, edite la expresión como desee.
 
-   ![](assets/exd-lookup-capping-expression.png)
+   ![Editor de expresiones para definir un umbral de límite dinámico mediante atributos de decisión o de conjunto de datos](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +245,11 @@ Para establecer reglas de límite para el elemento de decisión, haga clic en el
 
    * Puede haber un tiempo de búfer de hasta 15 minutos antes de que los eventos se contabilicen como restricciones de límite de frecuencia, ya sea cuando se aprueba el elemento de decisión o cuando se crea el límite, lo que ocurra en último lugar.
 
-1. Haga clic en **[!UICONTROL Crear]** para confirmar la creación de la regla de límite. Puede crear hasta 10 reglas para un solo elemento de decisión. Para ello, haga clic en el botón **[!UICONTROL Crear límite]** y repita los pasos anteriores.
+1. Haga clic en **[!UICONTROL Crear]** para confirmar la creación de la regla de límite.
 
-   ![](assets/item-capping-rules.png)
+1. Puede crear hasta 10 reglas para un solo elemento de decisión. Para ello, haga clic en el botón **[!UICONTROL Crear límite]** y repita los pasos anteriores.
+
+   ![Elemento de decisión que muestra varias reglas de límite enumeradas con un botón Crear límite para agregar más](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +262,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. El elemento de decisión aparece ahora en la lista, con el estado **[!UICONTROL Borrador]**. Cuando esté listo para ser presentado a los perfiles, haga clic en el botón de puntos suspensivos y seleccione **[!UICONTROL Aprobar]**.
 
-   ![](assets/item-approve.png)
+   ![Lista de elementos de decisión con elipsis abierta que muestra la opción Aprobar](assets/item-approve.png)
 
 ## Administrar elementos de decisión {#manage}
 
@@ -259,7 +283,6 @@ Al seleccionar un elemento de decisión o hacer clic en el botón de puntos susp
 
   Los elementos de oferta aprobados no se pueden eliminar si se utilizan en una colección o una decisión. Para eliminarlos, cambie su estado a Borrador. Para ello, haga clic en el botón de los tres puntos y seleccione **[!UICONTROL Deshacer aprobación]**.
 
-  ![](assets/item-undo.png)
+  ![Menú de puntos suspensivos del elemento de decisión que muestra la opción Deshacer aprobación](assets/item-undo.png)
 
 * **[!UICONTROL Archivo]**: Establece el estado del elemento de decisión en **[!UICONTROL Archivado]**. El elemento de decisión aún está disponible en la lista, pero no puedes volver a establecer su estado en **[!UICONTROL Borrador]** o **[!UICONTROL Aprobado]**. Solo puede duplicarlo o eliminarlo.
-
