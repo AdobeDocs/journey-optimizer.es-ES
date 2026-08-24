@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2105
+source-wordcount: 2112
 ht-degree: 20%
 
 ---
@@ -137,7 +137,6 @@ Fecha de disponibilidad: 20 de agosto de 2026
 </table>
 
 * **Agregar nueva función dateDiff en el editor de expresiones de recorrido** - El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.
-
 
 +++
 
@@ -266,11 +265,9 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 
 ### Canales {#august-26-channels}
 
-
 * **Metadatos de ejecución de actividades activas (executionMetadata)**: las campañas de actividades activas activadas por API (transaccionales y de marketing) ahora admiten un campo executionMetadata opcional en cada destinatario. Esto permite adjuntar datos de clave/valor personalizados, como un ID de pedido, un nivel de fidelidad o un código de región, a una ejecución. [Más información](../mobile-live/create-mobile-live.md#metadata)
 
   Fecha de disponibilidad: 19 de agosto de 2026
-
 
 * **Complemento de rendimiento para el rendimiento - Push** - Hay un nuevo modo de mensajería transaccional de alto rendimiento disponible en las campañas activadas por API. Este modo está diseñado para la mensajería transaccional a gran escala y en tiempo real y admite hasta 5000 transacciones por segundo con una mayor disponibilidad. Antes solo estaba disponible para el canal de correo electrónico, pero ahora también lo está para el canal push, para organizaciones que han adquirido la oferta de complementos de mensajería transaccional de alto rendimiento de Adobe. Póngase en contacto con su representante de Adobe para obtener más información. [Más información](../campaigns/api-triggered-high-throughput.md)
 
@@ -282,27 +279,15 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 
   Fecha de disponibilidad: 20 de agosto de 2026
 
-### Mejoras de uso {#august-26-usability}
-
-* **Operaciones masivas en el inventario de recorrido**: ahora puede realizar nuevas acciones masivas directamente desde la lista de inventario de recorrido, lo que permite administrar varios recorridos a la vez con mayor rapidez. Seleccione varios recorridos y aplique cualquiera de las siguientes acciones nuevas en un solo paso: **agregar al paquete**, **eliminar**, **mover a la carpeta**, **editar etiquetas** o **administrar el acceso**. Esto reduce la necesidad de repetir la misma acción un recorrido a la vez, lo que optimiza la administración de recorridos para equipos que trabajan con un gran número de recorridos. [Más información](../building-journeys/journey-ui.md)
-
-  Fecha de disponibilidad: 12 de agosto de 2026
-
-* **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. [Más información](../test-approve/simulate-content-variations.md)
-
-  Fecha de disponibilidad: 11 de agosto de 2026
-
-* **Selección múltiple en el nuevo lienzo de recorrido**: la nueva experiencia del lienzo de recorrido presenta la selección simplificada de varios nodos: mantenga presionada la tecla Mayús y arrastre para seleccionar varios nodos a la vez, en lugar de seleccionarlos individualmente. Esto permite realizar acciones masivas, como copiar, eliminar o guardar como un fragmento de recorrido, de forma eficaz en varios nodos. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
-
-  Fecha de disponibilidad: 17 de agosto de 2026
-
 ### Toma de decisiones {#decisioning-august}
 
-* **Páginas espejo en fragmentos visuales**: ahora puede insertar páginas espejo en un fragmento visual. Los atributos de toma de decisiones se representan correctamente en el vínculo de la página espejo, incluso cuando el fragmento se utiliza en una campaña de correo electrónico que aprovecha Decisioning. La página espejo debe agregarse al fragmento visual antes de publicar el fragmento para que se muestren los atributos de toma de decisiones.
+* **Límite de frecuencia de nivel de ubicación en Decisioning**: las reglas de límite de frecuencia en Decisioning ahora se pueden vincular a ubicaciones individuales, lo que le proporciona un control más preciso sobre la frecuencia con la que se muestra una oferta en una superficie determinada. Hay dos modos disponibles: **límite específico de la ubicación**, que define un límite que se aplica solo cuando la oferta se muestra en una ubicación seleccionada, y **límite por ubicación**, que aplica un límite de forma independiente en cada ubicación donde aparece la oferta, de modo que cada ubicación mantiene su propio contador de límite. Tenga en cuenta que el límite relacionado con la ubicación no se aplica a las ofertas restringidas mediante reglas basadas en datos de Adobe Experience Platform. [Más información](../experience-decisioning/items.md#capping)
+
+  Fecha de disponibilidad: 24 de agosto de 2026
+
+* **Páginas espejo en fragmentos visuales**: ahora puede insertar páginas espejo en un fragmento visual. Los atributos de toma de decisiones se representan correctamente en el vínculo de la página espejo, incluso cuando el fragmento se utiliza en una campaña de correo electrónico que aprovecha Decisioning. La página espejo debe agregarse al fragmento visual antes de publicar el fragmento para que se muestren los atributos de toma de decisiones. [Más información](../email/message-tracking.md#decisioning-mirror-page)
 
   Fecha de disponibilidad: 11 de agosto de 2026
-
-  [Más información](../email/message-tracking.md#decisioning-mirror-page)
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
@@ -321,6 +306,18 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 </tbody>
 </table>
 
-* **Límite de frecuencia de nivel de ubicación en Decisioning**: las reglas de límite de frecuencia en Decisioning ahora se pueden vincular a ubicaciones individuales, lo que le proporciona un control más preciso sobre la frecuencia con la que se muestra una oferta en una superficie determinada. Hay dos modos disponibles: **límite específico de la ubicación**, que define un límite que se aplica solo cuando la oferta se muestra en una ubicación seleccionada, y **límite por ubicación**, que aplica un límite de forma independiente en cada ubicación donde aparece la oferta, de modo que cada ubicación mantiene su propio contador de límite. Tenga en cuenta que el límite relacionado con la ubicación no se aplica a las ofertas restringidas mediante reglas basadas en datos de Adobe Experience Platform.
-
 +++
+
+### Mejoras de uso {#august-26-usability}
+
+* **Operaciones masivas en el inventario de recorrido**: ahora puede realizar nuevas acciones masivas directamente desde la lista de inventario de recorrido, lo que permite administrar varios recorridos a la vez con mayor rapidez. Seleccione varios recorridos y aplique cualquiera de las siguientes acciones nuevas en un solo paso: **agregar al paquete**, **eliminar**, **mover a la carpeta**, **editar etiquetas** o **administrar el acceso**. Esto reduce la necesidad de repetir la misma acción un recorrido a la vez, lo que optimiza la administración de recorridos para equipos que trabajan con un gran número de recorridos. [Más información](../building-journeys/journey-ui.md)
+
+  Fecha de disponibilidad: 12 de agosto de 2026
+
+* **Nueva experiencia de simulación de contenido para pruebas de contenido**. El flujo de trabajo **Simular contenido** presenta una experiencia rediseñada: ahora todas las variantes se representan juntas en una sola cuadrícula desplazable (una al lado de la otra, apilada o envuelta en diseños), reemplazando la vista de variante a variante. Una sola barra de acciones inferior consolida la navegación entre las variantes de prueba, el zoom, el cambio de ventanilla (escritorio/móvil), el cambio de configuración regional, la adición de entradas de muestra, la generación de variantes con IA, la selección y el guardado de usuarios simulados y la importación o exportación de variantes. Si se elimina el carril izquierdo y se contraen las capas de encabezado adicionales, las previsualizaciones tendrán mucho más espacio. La opción **Cambiar a experiencia clásica** de la barra de acciones inferior le permite volver a la experiencia anterior en cualquier momento. [Más información](../test-approve/simulate-content-variations.md)
+
+  Fecha de disponibilidad: 11 de agosto de 2026
+
+* **Selección múltiple en el nuevo lienzo de recorrido**: la nueva experiencia del lienzo de recorrido presenta la selección simplificada de varios nodos: mantenga presionada la tecla Mayús y arrastre para seleccionar varios nodos a la vez, en lugar de seleccionarlos individualmente. Esto permite realizar acciones masivas, como copiar, eliminar o guardar como un fragmento de recorrido, de forma eficaz en varios nodos. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Fecha de disponibilidad: 17 de agosto de 2026

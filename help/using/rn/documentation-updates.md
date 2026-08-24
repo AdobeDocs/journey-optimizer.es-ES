@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
+source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
 workflow-type: tm+mt
-source-wordcount: 10165
+source-wordcount: 10200
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La página **Protecciones de tiempo de vida de conjuntos de datos (TTL)** se ha actualizado con una tabla **Conjuntos de datos afectados** significativamente ampliada, que ahora cubre todos los conjuntos de datos generados por el sistema Journey Optimizer (incluidos varios que no se habían enumerado anteriormente, como el servicio de consentimiento de AJO, el perfil de mensajería interactiva, el perfil push y los conjuntos de datos de exportación de mensajes) junto con una nueva columna **Disponibilidad** que indica si cada conjunto de datos se incluye de forma predeterminada o requiere un complemento o licencia específicos. La página **Protecciones y limitaciones** también se ha actualizado para reflejar la fecha de aplicación confirmada para esta protección: el cambio se aplicará en **zonas protegidas de clientes existentes** a partir del **1 de octubre de 2026**. [Más información](../data/datasets-ttl.md#datasets)
 
 * Se ha agregado una nueva sección **Usar modo de configuración de imagen** a la documentación de contenido generativo. En él se explican los modos **Equilibrado**, **DAM** y **Creative** disponibles en **[!UICONTROL Configuración de imágenes]**, que controlan si el contenido generado por IA genera imágenes de su biblioteca de administración de recursos digitales, las genera con IA o las mezcla. [Más información](../content-management/generative-uc.md#image-mode)
+
+* La descripción de **Destinos** en **Navegación izquierda > Secciones principales** se ha actualizado para tener en cuenta que las organizaciones con [!DNL Real-Time CDP] o [!DNL Adobe Journey Optimizer] también pueden activar audiencias en destinos de personalización aptos, como [!DNL Adobe Target], desde el catálogo de destinos de Experience Platform. [Más información](../start/user-interface.md#main-sections)
 
 ## Julio de 2026 {#july-2026}
 
