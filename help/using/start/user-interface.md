@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 96%
+source-wordcount: 1429
+ht-degree: 95%
 
 ---
 
@@ -191,7 +175,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 **Conexiones**: integre con otros sistemas
 
 * **Fuentes**: ingeste datos de sistemas externos. [Configuración de fuentes](get-started-sources.md)
-* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es){target="_blank"}.
+* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente**: administre públicos y perfiles
 
@@ -352,21 +336,6 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="Webhooks de comentarios"
 >abstract="Los webhooks de comentarios le permiten recibir comentarios en tiempo real sobre el estado de ejecución de los mensajes enviados con campañas transaccionales activadas por API. Solo se permite una configuración de webhook por organización + combinación de zona protegida."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_configuration"
->title="Configuración básica"
->abstract="En esta sección, introduzca un nombre descriptivo para identificar el webhook y seleccione los canales para los que este webhook debe recibir comentarios (correo electrónico o SMS). En el campo URL del webhook, indique el punto final de HTTPS en el que deben entregarse los eventos de comentarios."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_authentication"
->title="Autenticación"
->abstract="Si el punto final requiere autenticación JWT, seleccione **Autenticación JWT** de la lista y proporcione los detalles necesarios."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="Parámetros de encabezado"
->abstract="En esta sección, puede configurar encabezados personalizados adicionales para que se envíen con cada solicitud de webhook."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
