@@ -75,7 +75,7 @@ Para configurar la actividad **[!UICONTROL Calificación de audiencias]**, siga 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Público"
->abstract="Público de [!DNL Adobe Experience Platform] que supervisa el recorrido. Los perfiles entran o avanzan según cumplen los requisitos o salen de este público. Se recomiendan los públicos de streaming para que la calificación se evalúe en tiempo real."
+>abstract="Público de [!DNL Adobe Experience Platform] que monitoriza el recorrido. Los perfiles entran o avanzan según cumplen los requisitos o salen de este público. Se recomiendan los públicos de streaming para que la calificación se evalúe en tiempo real."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
