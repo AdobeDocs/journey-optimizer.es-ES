@@ -54,4 +54,4 @@ Es posible que algunos métodos para introducir imágenes en el contenido, como 
 
 * [Directrices de usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [Mecanismos de protección y limitaciones](gs-generative.md#generative-guardrails)
-* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
