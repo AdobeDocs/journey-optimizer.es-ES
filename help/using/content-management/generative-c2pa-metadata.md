@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
+source-git-commit: 22a514528dd9746bbf45da59a20d6fe17feb6e40
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -55,3 +55,4 @@ Es posible que algunos métodos para introducir imágenes en el contenido, como 
 
 * [Directrices de usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [Mecanismos de protección y limitaciones](gs-generative.md#generative-guardrails)
+* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)

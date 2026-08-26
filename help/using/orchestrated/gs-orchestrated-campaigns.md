@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
-source-wordcount: 986
-ht-degree: 98%
+source-wordcount: 989
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orquestación de campañas</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su público<br/><br/> <b>Aproveche los datos de varias entidades</b><br/>Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización<br/><br/><b>Segmentación ad hoc y recuentos exactos</b><br/>Cree su segmento paso a paso con recuentos exactos<br/><br/><b>Canales disponibles</b><br/>Correo electrónico, SMS, notificaciones push, Correo directo"
+>abstract="<b>Orquestación de campañas</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su público<br/><br/> <b>Aproveche los datos de varias entidades</b><br/>Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización<br/><br/><b>Segmentación ad hoc y recuentos exactos</b><br/>Cree su segmento paso a paso con recuentos exactos<br/><br/><b>Canales disponibles</b><br/>Correo electrónico, SMS, notificaciones push, Correo directo, LINE, Canales personalizados"
 
 La orquestación de campaña de [!DNL Adobe Journey Optimizer] alimenta campañas sofisticadas iniciadas por la marca en varios canales, tanto **marketing** como **transaccional**. Las campañas de marketing le ayudan a impulsar la participación, los ingresos y la lealtad de los clientes a escala. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones urgentes, como interrupciones, emergencias o cancelaciones.
 
