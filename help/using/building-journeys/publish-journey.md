@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +54,17 @@ Antes de publicar, asegúrese de que el recorrido cumpla los siguientes requisit
 * **Carga útil dentro del límite**: la carga útil de recorrido debe estar dentro del límite configurado (4 MB de forma predeterminada). Ver [validación del tamaño de carga útil de Recorrido](../start/guardrails.md#journey-payload-size).
 * **Aprobación obtenida**: si su recorrido está sujeto a una directiva de aprobación, solicite y obtenga la aprobación antes de publicarlo. [Más información](../test-approve/gs-approval.md).
 
->[!TIP]
->
->Antes de publicar, valide el recorrido con una de las opciones de prueba disponibles:
->
->* [Simulación](simulate-journey-gs.md): prueba con usuarios simulados, sin usar perfiles de prueba persistentes en Adobe Experience Platform.
->* [Modo de prueba](testing-the-journey.md): prueba con perfiles persistentes marcados como perfiles de prueba en Adobe Experience Platform.
->* [Ejecución en seco](journey-dry-run.md): prueba con datos de producción reales, sin contactar con perfiles.
+### Elija el método de validación adecuado antes de publicar {#choose-validation-method}
+
+Valide el recorrido con una de las opciones de prueba disponibles. Cada uno utiliza un tipo diferente de datos y se adapta a una fase diferente de la compilación:
+
+| Opción | Datos utilizados | Mejor para | ¿Envía mensajes reales? |
+| --- | --- | --- | --- |
+| [Simulación](simulate-journey-gs.md) | Usuarios simulados temporales, generados automáticamente | Iteración rápida durante el diseño del recorrido: no es necesario crear ni esperar a que se propaguen los perfiles de prueba de AEP | No |
+| [Modo de prueba](testing-the-journey.md) | Perfiles de prueba de AEP persistentes | Validación manual paso a paso de la lógica de ramas y mensajes en un recorrido de borrador | Sí: a las bandejas de entrada reales de los perfiles de prueba, utilizando la misma canalización de entrega que en la producción. |
+| [Ejecución en seco](journey-dry-run.md) | Datos de audiencia de producción real | Comprobación final previa al lanzamiento de alcance y direccionamiento reales de la audiencia a escala, sin ponerse en contacto con nadie | No |
+
+Ni la simulación ni la ejecución en seco ofrecen comunicaciones reales ni actualizan los datos de perfil en directo. El modo de prueba no envía mensajes reales, pero solo a perfiles que haya marcado explícitamente como perfiles de prueba.
 
 ## Proceso de publicación {#journey-publication}
 
@@ -212,6 +216,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Nombre canónico: Publicar Recorrido — Acrónimo: none — variantes: activar recorrido, activar
 * Sinónimos: &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
 * No confundir: Detener (parada de emergencia de todos los perfiles) ≠ Cerca de nuevas entradas (cierre correcto manual; perfiles existentes terminan) ≠ Estado cerrado (automático cuando se publica una nueva versión o después de cerrar manualmente las nuevas entradas)
+* No confundir: Simulación (usuarios simulados temporales, no se necesitan perfiles de prueba de AEP) ≠ Modo de prueba (perfiles de prueba de AEP persistentes, solo recorridos de borrador) ≠ Ejecución en seco (datos de audiencia de producción real, sin contacto, sin actualización de perfil, nodos de acción omitidos)
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Puedo editar un recorrido después de publicarlo?** — Sólo se pueden cambiar las etiquetas, las descripciones y el nombre del recorrido. Para realizar otras modificaciones, cree una nueva versión del recorrido.
