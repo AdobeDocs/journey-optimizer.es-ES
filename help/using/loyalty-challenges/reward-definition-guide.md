@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 1183
+source-wordcount: 1204
 ht-degree: 3%
 
 ---
@@ -62,6 +62,8 @@ ht-degree: 3%
 Cuando una tarea, hito o desafío de desafío completa **y tiene configurado un valor de recompensa**, la plataforma emite un incentivo llamando al extremo HTTP del proveedor de recompensas con una carga útil JSON. Una **definición de recompensa** describe qué recompensa emitir y proporciona una expresión [JSONata](https://docs.jsonata.org/overview) — `rewardJsonata` — que define la carga útil exacta que espera su proveedor.
 
 Esta guía explica cómo configurar un proveedor de recompensas, crear definiciones de recompensas, escribir la expresión `rewardJsonata` y comprender qué contexto está disponible en el momento de la evaluación.
+
+➡️ [Mira cómo configurar un proveedor de recompensas por fidelidad](#video)
 
 ## Modelo de dos niveles
 
@@ -476,3 +478,8 @@ Para desarrollar y probar una expresión antes de publicarla, use [JSONata Exerc
 | Se accedió a `milestone` cuando el origen es `"task"` o `"challenge"` | `milestone` es nulo; la expresión emite o produce campos nulos | Compruebe `rewardContext.source` antes de acceder a `milestone` o use `milestone` solamente en las definiciones adjuntas a las recompensas de hito |
 | La expresión devuelve una matriz en lugar de un objeto | El proveedor recibe una estructura de carga útil inesperada | Agrupar expresiones que devuelven matrices en un objeto externo: `{ "items": [...] }` |
 
+## Vídeotutoriales {#video}
+
+➡️ Mira cómo configurar un proveedor de recompensas por fidelidad
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
