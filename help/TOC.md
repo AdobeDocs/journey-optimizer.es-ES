@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
+source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -277,13 +277,13 @@ ht-degree: 93%
     + [Solicitud de aprobación](using/test-approve/request-approval.md)
     + [Aprobación de una solicitud](using/test-approve/review-approve-request.md)
 + Monitorización y solución de problemas {#monitor}
-  + [Introducción a la supervisión y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+  + [Introducción a la monitorización y solución de problemas](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
   + [Seguimiento en Journey Optimizer](using/start/get-started-tracking.md)
   + Entregabilidad del correo electrónico {#deliverability}
     + [Introducción a la Entregabilidad](using/reports/deliverability.md)
     + [Explicación de la lista de supresión](using/reports/suppression-list.md)
     + [Nuevo requisito de DMARC](using/configuration/dmarc-record-update.md)
-  + Supervisión de alertas y códigos de error {#monitor-alerts-errors}
+  + Monitorización de alertas y códigos de error {#monitor-alerts-errors}
     + [Alertas del sistema](using/reports/alerts.md)
     + [Referencia de códigos de error](using/building-journeys/error-codes-reference.md)
   + Solución de problemas {#troubleshooting}
@@ -570,7 +570,7 @@ ht-degree: 93%
   + Generar contenido {#generate-content}
     + [Introducción a la generación de contenido](using/content-management/gs-generative.md)
     + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[Content Credentials en el asistente de IA](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials en el asistente de IA](using/content-management/generative-c2pa-metadata.md)
     + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
     + [Generación de texto con IA](using/content-management/generative-text.md)
     + [Generación de imágenes con IA](using/content-management/generative-image.md)
