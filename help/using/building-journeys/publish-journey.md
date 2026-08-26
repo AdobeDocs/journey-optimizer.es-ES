@@ -11,21 +11,16 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 13%
+source-wordcount: 2032
+ht-degree: 12%
 
 ---
 
@@ -52,7 +47,7 @@ Antes de publicar, asegúrese de que el recorrido cumpla los siguientes requisit
 * **Sin errores de validación**: no puede publicar un recorrido que contenga errores. [Pruebe primero su recorrido](testing-the-journey.md) y [solucione los errores de actividad](../building-journeys/troubleshooting.md#activity-errors).
 * **Permiso de publicación** — La publicación requiere el permiso de alto nivel **[!DNL Publish journeys]**. Más información sobre [administrar derechos de acceso](../administration/permissions-overview.md).
 * **Carga útil dentro del límite**: la carga útil de recorrido debe estar dentro del límite configurado (4 MB de forma predeterminada). Ver [validación del tamaño de carga útil de Recorrido](../start/guardrails.md#journey-payload-size).
-* **Aprobación obtenida**: si su recorrido está sujeto a una directiva de aprobación, solicite y obtenga la aprobación antes de publicarlo. [Más información](../test-approve/gs-approval.md).
+* **Cumplimiento de la directiva de aprobación**: si el recorrido está sujeto a una directiva de aprobación, la publicación la envía para su aprobación en lugar de publicarla de inmediato. Una vez que un aprobador cierra la sesión, el recorrido se publica automáticamente; no hay ningún paso de publicación independiente que realizar después. [Más información](../test-approve/gs-approval.md).
 
 ### Elija el método de validación adecuado antes de publicar {#choose-validation-method}
 
@@ -60,11 +55,11 @@ Valide el recorrido con una de las opciones de prueba disponibles. Cada uno util
 
 | Opción | Datos utilizados | Mejor para | ¿Envía mensajes reales? |
 | --- | --- | --- | --- |
-| [Simulación](simulate-journey-gs.md) | Usuarios simulados temporales, generados automáticamente | Iteración rápida durante el diseño del recorrido: no es necesario crear ni esperar a que se propaguen los perfiles de prueba de AEP | No |
+| [Simulación](simulate-journey-gs.md) | Usuarios simulados temporales, creados manualmente o autogenerados | Iteración rápida durante el diseño del recorrido: no es necesario crear ni esperar a que se propaguen los perfiles de prueba de AEP | Sí: a las direcciones de ejecución definidas en el nivel de usuario simulado |
 | [Modo de prueba](testing-the-journey.md) | Perfiles de prueba de AEP persistentes | Validación manual paso a paso de la lógica de ramas y mensajes en un recorrido de borrador | Sí: a las bandejas de entrada reales de los perfiles de prueba, utilizando la misma canalización de entrega que en la producción. |
 | [Ejecución en seco](journey-dry-run.md) | Datos de audiencia de producción real | Comprobación final previa al lanzamiento de alcance y direccionamiento reales de la audiencia a escala, sin ponerse en contacto con nadie | No |
 
-Ni la simulación ni la ejecución en seco ofrecen comunicaciones reales ni actualizan los datos de perfil en directo. El modo de prueba no envía mensajes reales, pero solo a perfiles que haya marcado explícitamente como perfiles de prueba.
+La ejecución en seco nunca ofrece comunicaciones reales ni actualiza datos de perfil en directo. Los modos Simulación y Prueba no entregan mensajes reales: Simulación a las direcciones de ejecución definidas en los usuarios simulados y Modo de prueba a las bandejas de entrada reales de perfiles que haya marcado explícitamente como perfiles de prueba.
 
 ## Proceso de publicación {#journey-publication}
 
@@ -76,7 +71,7 @@ Los pasos para publicar un recorrido se detallan a continuación:
 
    >[!NOTE]
    >
-   > Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación para publicar el recorrido. [Más información](../test-approve/gs-approval.md)
+   > Si el recorrido está sujeto a una directiva de aprobación, al hacer clic en **[!UICONTROL Publicar]** se envía el recorrido para su aprobación en lugar de publicarlo de inmediato. Una vez que un aprobador cierra la sesión, el recorrido se publica automáticamente; no es necesario que vuelva a publicarlo. [Más información](../test-approve/gs-approval.md)
 
    ![Botón Publicar en la barra de herramientas de recorrido para activar el recorrido](assets/journeyuc1_18.png)
 
@@ -180,7 +175,7 @@ Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la a
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referencia de conocimientos de AI
 
