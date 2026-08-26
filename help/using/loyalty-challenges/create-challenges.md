@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 8%
 
 ---
@@ -276,6 +276,8 @@ Para configurar el contenido de desafío:
 
    Puede añadir varias acciones para representar el desafío en diferentes superficies.
 
+➡️ [Vea cómo crear una tarjeta de contenido de desafío](#video)
+
 Después de configurar el contenido, configure la mensajería para atraer a los clientes a lo largo del ciclo de vida del desafío.
 
 ### Configurar la mensajería {#configure-messaging}
@@ -308,6 +310,8 @@ Seleccione la **[!UICONTROL configuración del canal]** asociada y haga clic en 
 | **[!UICONTROL Experiencia basada en código]** | Ofrezca contenido a través de una implementación personalizada utilizando el canal basado en código de AJO. [Acerca de las experiencias basadas en código](../code-based/get-started-code-based.md) · [Crear una experiencia basada en código](../code-based/create-code-based.md) |
 | **[!UICONTROL Acción personalizada]** | Almacenar en déclencheur un sistema externo o un extremo personalizado. [Acerca de las acciones personalizadas](../action/about-custom-action-configuration.md) |
 
+➡️ [Vea cómo configurar la mensajería de ciclo vital para un desafío](#video)
+
 El desafío está ahora completamente configurado con su configuración, estructura, contenido y mensajería. Para iniciarlo, debe publicar el desafío y su recorrido asociado.
 
 ## Lanzamiento del desafío {#launch}
@@ -317,6 +321,8 @@ Tiene dos opciones para lanzar el desafío:
 * **[!UICONTROL Desafío de publicación]** (disponible en el menú **[!UICONTROL ...]**): utilice esta opción para publicar el desafío sin generar un recorrido. Esto le permite probar, previsualizar y simular la experiencia de desafío antes de la entrega. Los clientes no recibirán el desafío hasta que genere y publique un recorrido.
 
 * **[!UICONTROL Generar Recorrido]**: utilice esta opción para publicar automáticamente el desafío y crear el recorrido que organizará su envío de desafío a los clientes.
+
+➡️ [Vea cómo publicar un desafío y generar un recorrido](#video)
 
 ### Publicación del desafío {#publish-challenge}
 
@@ -367,4 +373,16 @@ Aprenda a crear y configurar desafíos de lealtad con estos tutoriales de vídeo
 **Configurar recompensas** - Configurar entrega y cumplimiento de recompensas
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496484?captions=spa&quality=12)
+
+➡️ Vea cómo crear una tarjeta de contenido de desafío
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496532?captions=spa&quality=12)
+
+➡️ Vea cómo configurar la mensajería del ciclo vital para un desafío
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497458?captions=spa&quality=12)
+
+➡️ Vea cómo publicar un desafío y generar un recorrido
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498580?captions=spa&quality=12)
 

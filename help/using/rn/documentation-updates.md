@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 10200
+source-wordcount: 10236
 ht-degree: 80%
 
 ---
@@ -42,6 +42,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Se ha agregado una nueva sección **Usar modo de configuración de imagen** a la documentación de contenido generativo. En él se explican los modos **Equilibrado**, **DAM** y **Creative** disponibles en **[!UICONTROL Configuración de imágenes]**, que controlan si el contenido generado por IA genera imágenes de su biblioteca de administración de recursos digitales, las genera con IA o las mezcla. [Más información](../content-management/generative-uc.md#image-mode)
 
 * La descripción de **Destinos** en **Navegación izquierda > Secciones principales** se ha actualizado para tener en cuenta que las organizaciones con [!DNL Real-Time CDP] o [!DNL Adobe Journey Optimizer] también pueden activar audiencias en destinos de personalización aptos, como [!DNL Adobe Target], desde el catálogo de destinos de Experience Platform. [Más información](../start/user-interface.md#main-sections)
+
+* Se han añadido vídeos de procedimientos a la documentación de Retos de fidelización para crear desafíos, configurar proveedores de recompensas y supervisar el rendimiento de los desafíos. [Vea los vídeos del desafío](../loyalty-challenges/create-challenges.md#video), [vea el vídeo del proveedor de recompensas](../loyalty-challenges/reward-definition-guide.md#video) y [vea el vídeo del informe](../loyalty-challenges/loyalty-reporting.md#video).
 
 ## Julio de 2026 {#july-2026}
 
@@ -225,7 +227,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación de **Diseño de notificación push** se ha actualizado con una nota que aclara el comportamiento de los vínculos universales en iOS: si la dirección URL de notificación está registrada como vínculo universal, la aplicación asociada se abrirá independientemente de la acción de dirección URL web elegida. Se ha añadido una guía sobre cómo forzar la apertura de un explorador. [Más información](../push/design-push.md)
 
-* Ahora hay disponible una nueva página **Supervisar sus modelos de IA** en la documentación de Decisioning. Explica cómo realizar un seguimiento del estado, el estado de formación y el rendimiento de los modelos de optimización personalizados directamente en [!DNL Journey Optimizer]. [Más información](../experience-decisioning/ranking/ai-model-observability.md)
+* Ahora hay disponible una nueva página **Monitorizar sus modelos de IA** en la documentación de Decisioning. Explica cómo realizar un seguimiento del estado, el estado de formación y el rendimiento de los modelos de optimización personalizados directamente en [!DNL Journey Optimizer]. [Más información](../experience-decisioning/ranking/ai-model-observability.md)
 
 * El **editor avanzado de HTML** (modo experto) para plantillas de correo electrónico ya está disponible en disponibilidad limitada. La página de documentación ahora es de acceso público. Esta capacidad le permite ver y editar la fuente sin procesar de HTML de las plantillas de contenido de correo electrónico directamente desde el Diseñador de correo electrónico. [Más información](../email/email-expert-mode.md)
 

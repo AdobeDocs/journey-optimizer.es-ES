@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 95%
+source-wordcount: 1608
+ht-degree: 85%
 
 ---
 
@@ -371,3 +371,24 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="Cuerpo de autenticación"
+>abstract="El cuerpo de solicitud que Journey Optimizer envía al extremo de autenticación al solicitar un token. Especifique siempre un JSON válido, aunque el tipo de contenido de autenticación esté establecido en `application/x-www-form-urlencoded`. Journey Optimizer lo serializa en el formato correcto del lado del servidor antes de llamar al extremo del token. Ejemplo: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="Parámetros de encabezado"
+>abstract="Encabezados HTTP estáticos incluidos con cada solicitud de retransmisión al extremo de destino, como una clave de API, por ejemplo, x-api-key. Se envían junto con cualquier token de autenticación configurado anteriormente. Agregue un encabezado por fila como par nombre/valor."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="Tipo de autenticación"
+>abstract="Cómo se autentica Journey Optimizer con el destino de retransmisión. Elija **Sin autenticación** para retransmitir mensajes sin credenciales o **Autenticación personalizada** para solicitar primero un token de un extremo de autenticación, por ejemplo, un flujo de credenciales de cliente de OAuth, y adjuntarlo a cada solicitud de retransmisión."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="URL de destino de retransmisión"
+>abstract="El extremo HTTPS al que Journey Optimizer llama para transmitir cada mensaje entrante. Journey Optimizer envía un POST HTTP independiente aquí por cada mensaje recibido. Es distinto de la URL de autenticación en Autenticación personalizada, que solo se utiliza para obtener un token de acceso, no para recibir mensajes."

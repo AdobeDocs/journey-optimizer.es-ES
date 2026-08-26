@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Utilice los informes Retos de fidelización para ver el rendimiento de los desafíos. Compruebe quién se inscribe, quién completa los desafíos y cuántos ingresos genera su programa, todo en un solo lugar. Los datos proceden de Adobe Customer Journey Analytics.
 
 Para abrir los paneles de informes, ve a **[!UICONTROL Desafíos de fidelidad]** en Journey Optimizer y selecciona **[!UICONTROL Rendimiento]** en el panel de navegación izquierdo.
+
+➡️ [Vea cómo medir el rendimiento de los desafíos con los informes de desafíos](#video)
 
 La interfaz de informes tiene dos pestañas:
 
@@ -90,3 +92,8 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 | **Ciclo de vida del miembro** | Cómo progresan los miembros en las fases de inscripción, participación y cancelación |
 | **Tendencia** | Patrones basados en el tiempo, como ciclos semanales, picos estacionales o reversiones de tendencias |
 
+## Vídeotutoriales {#video}
+
+➡️ Vea cómo medir el rendimiento de los desafíos con los informes de desafíos
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497562?captions=spa&quality=12)

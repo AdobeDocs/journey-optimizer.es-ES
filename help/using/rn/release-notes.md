@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
 workflow-type: tm+mt
-source-wordcount: 2118
+source-wordcount: 2183
 ht-degree: 20%
 
 ---
@@ -118,6 +118,23 @@ Fecha de disponibilidad: 20 de agosto de 2026
   Fecha de disponibilidad: 13 de agosto de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Generación de expresiones con IA en recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El editor de expresiones avanzadas de recorrido ahora integra la generación de expresiones con tecnología de IA: describa la expresión que desea crear en lenguaje natural y el editor genera código listo para usar que puede aplicar inmediatamente o refinar mediante mensajes de seguimiento.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Fecha de disponibilidad: 31 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

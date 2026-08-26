@@ -7,8 +7,7 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-hide: true
-source-git-commit: 22a514528dd9746bbf45da59a20d6fe17feb6e40
+source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 3%
