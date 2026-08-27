@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
-ht-degree: 80%
+source-wordcount: 10287
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 80%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Agosto de 2026 {#august-2026}
+
+* Ya está disponible la nueva página **Elegir un método de validación**. Compara la simulación de Recorrido, el modo de prueba y la ejecución en seco de Recorrido: los datos que utiliza cada uno, independientemente de si envía mensajes reales, errores comunes que se deben evitar y una guía de decisión para elegir el método adecuado en cada fase de la creación de un recorrido. [Más información](../building-journeys/choose-validation-method.md)
 
 * La página **Protecciones y limitaciones** se ha actualizado para aclarar las protecciones de actividad y eventos de calificación de audiencia: la redacción ahora hace referencia de forma coherente a las **actividades** de calificación de audiencia (en lugar de a los nodos), incluso cuando se utilizan como criterios de salida, y ambas protecciones ahora abarcan explícitamente los recorridos **activo, cerrado, pausado, en modo de prueba y de ejecución en seco**. [Más información](../start/guardrails.md#audience-qualif-g)
 

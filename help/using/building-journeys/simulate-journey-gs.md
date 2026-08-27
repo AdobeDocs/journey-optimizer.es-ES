@@ -11,9 +11,9 @@ keywords: comprobación, recorrido, comprobación, error, solución de problemas
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: 2496
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 1%
 **En esta página:** Descubra cómo la simulación de recorrido le permite realizar pruebas con usuarios simulados y cómo varía la experiencia de simulación en función del tipo de recorrido antes de publicar.
 
 >[!ENDSHADEBOX]
+
+¿No está seguro de que la simulación es el método adecuado para usted? [Comparar las tres opciones de validación](choose-validation-method.md).
 
 >[!IMPORTANT]
 >
@@ -134,6 +136,7 @@ Las siguientes capacidades no son compatibles con **[!UICONTROL Simulación]**.
 | Recorridos de envío de ondas | No compatible. |
 | Horario silencioso | No evaluado ni aplicado durante la simulación. |
 | Privacy service | Los usuarios simulados no son perfiles persistentes compatibles con el RGPD. No incluya datos de clientes reales en usuarios simulados. |
+| Persistencia del perfil | Al enviar un usuario simulado a un recorrido, se envía un mensaje real a través de la canalización de envío estándar. Si un conjunto de datos afectado, por ejemplo eventos de comentarios o eventos de seguimiento, está habilitado para perfiles, se puede crear un perfil persistente en Adobe Experience Platform para ese usuario simulado, aunque la ejecución esté marcada como simulación. |
 
 +++
 
@@ -183,7 +186,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Decida si desea utilizar la simulación rápida o la simulación manual en función de las necesidades de prueba
 
 **Glosario:**
-* **Usuarios simulados**: entidades temporales de tipo perfil creadas para la simulación sin persistir en Adobe Experience Platform *(específicas del producto)*
+* **Usuarios simulados**: entidades temporales de tipo perfil creadas para la simulación. Al enviar un usuario simulado déclencheur un envío de mensaje real, lo que actualmente puede dar como resultado la creación de un perfil persistente en Adobe Experience Platform *(específico del producto)*
 * **Simulación**: Un estado de recorrido (junto con Borrador, Modo de prueba y Activo) que se usa para realizar pruebas con usuarios simulados en lugar de perfiles de prueba persistentes *(específicos del producto)*
 * **Journey Agent**: el componente de IA que genera usuarios simulados, valores de evento y configuraciones de prueba durante la simulación rápida y la simulación manual asistida por IA *(específico del producto)*
 * **Simulación rápida**: ejecución de simulación automatizada de extremo a extremo que genera usuarios y eventos con una entrada manual mínima *(específica del producto)*
@@ -210,7 +213,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Qué permisos necesito para usar Simulation?** — Necesita al menos uno de: Simular recorridos, Publicar recorridos o Aprobar y publicar recorridos. Las funciones de IA también requieren el permiso Generar contenido de la capacidad Asistente de IA.
-* **Q: ¿En qué se diferencia la simulación del modo de prueba?** — La simulación utiliza usuarios simulados temporales creados sobre la marcha sin perfiles Adobe Experience Platform persistentes; el modo de prueba utiliza perfiles persistentes marcados explícitamente como perfiles de prueba en AEP.
+* **Q: ¿En qué se diferencia la simulación del modo de prueba?** — La simulación utiliza usuarios simulados temporales creados sobre la marcha, generalmente sin perfiles creados previamente en Adobe Experience Platform; el modo de prueba utiliza perfiles persistentes marcados explícitamente como perfiles de prueba en AEP. Al enviar un usuario simulado, se sigue almacenando en déclencheur el envío de un mensaje real, lo que puede dar como resultado la creación de un perfil persistente.
 * **Q: ¿Puedo simular un recorrido que comience con un evento empresarial?** — No. Los recorridos activados por un evento empresarial no se pueden ejecutar en Simulación.
 * **Q: ¿Cuántos usuarios simulados puedo probar en una sola ejecución de simulación?** — Hasta 100 usuarios simulados únicos por ejecución; cada acción Enviar todo está limitada a 20 usuarios a la vez.
 * **Q: ¿Se aplican directivas de consentimiento durante la simulación?** — No. La evaluación de la política de consentimiento, el límite de frecuencia, la administración de exclusión y las horas de silencio no se evalúan durante la simulación.

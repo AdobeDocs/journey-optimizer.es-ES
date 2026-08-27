@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ Obtenga más información sobre los recorridos de prueba en el modo de prueba en
 
 ### Simulación de un recorrido {#simulate-journey}
 
-El modo **Simulation** de [!DNL Journey Optimizer] le permite validar su recorrido de extremo a extremo mediante usuarios simulados (entidades temporales similares a perfiles que no persisten en Adobe Experience Platform) sin que sea necesario crear previamente perfiles de prueba.
+El modo **Simulation** de [!DNL Journey Optimizer] le permite validar su recorrido de extremo a extremo mediante usuarios simulados: entidades temporales similares a perfiles sin que sea necesario crear previamente perfiles de prueba.
 
 En el caso de los canales personalizados, la simulación resuelve las expresiones de personalización y procesa la previsualización de carga útil para cada usuario simulado, de modo que puede verificar que el contenido correcto se entregaría antes de publicarse.
 
@@ -117,10 +117,6 @@ Para simular un recorrido con un canal personalizado:
 1. Configure los eventos de entrada necesarios y, a continuación, almacene en déclencheur los usuarios simulados a través del recorrido.
 
 1. Cuando un usuario simulado llega al nodo de acción del canal personalizado, inspeccione la carga útil resuelta en el panel de vista previa para confirmar que los tokens de personalización y la estructura de carga útil son correctos.
-
->[!NOTE]
->
->La simulación está disponible tanto para recorridos en borrador como activos, y utiliza usuarios simulados temporales que no cuentan para cuotas de perfil o llamadas de extremo reales.
 
 Obtenga más información acerca de la simulación de recorrido en [esta sección](../building-journeys/simulate-journey-gs.md).
 

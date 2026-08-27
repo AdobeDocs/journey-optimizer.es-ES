@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 593
-ht-degree: 3%
+source-wordcount: 605
+ht-degree: 2%
 
 ---
 
@@ -126,6 +126,8 @@ La tabla **[!UICONTROL Razones de rechazos]** proporciona una visión general co
 ## Motivos de error {#error-reasons-push}
 
 La tabla **[!UICONTROL Motivos del error]** le permite identificar los errores específicos que se produjeron durante el proceso de envío de las notificaciones push, lo que facilita un análisis exhaustivo de los problemas encontrados.
+
+Consulte [esta sección](campaign-global-report-cja-push.md#error-reasons-push) para obtener la lista detallada de las razones de error de inserción.
 
 ## Motivos excluidos {#exclude-reasons-push}
 

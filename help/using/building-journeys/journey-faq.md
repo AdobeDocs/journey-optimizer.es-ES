@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 6214
-ht-degree: 0%
+source-wordcount: 6272
+ht-degree: 1%
 
 ---
 
@@ -118,9 +118,9 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 * **Uso del Recorrido**: Compatible con las actividades Leer audiencia, Calificación de audiencias y Condición
 * **Lo mejor para**: Participación en tiempo real en función de cambios de comportamiento o actualizaciones de perfil
 * **Protecciones**:
-   * El tamaño máximo de audiencia depende de la licencia de Journey Optimizer
-   * Latencia de la evaluación normalmente inferior a 5 minutos
-   * La lógica de segmento compleja puede afectar al rendimiento de la evaluación
+  * El tamaño máximo de audiencia depende de la licencia de Journey Optimizer
+  * Latencia de la evaluación normalmente inferior a 5 minutos
+  * La lógica de segmento compleja puede afectar al rendimiento de la evaluación
 
 **2. Audiencias por lotes**
 
@@ -129,9 +129,9 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 * **Uso del Recorrido**: compatible con las actividades Leer audiencia y Condición; compatibilidad limitada con los recorridos de calificación de audiencias
 * **Lo mejor para**: campañas regulares, boletines informativos y comunicaciones programadas
 * **Protecciones**:
-   * La evaluación se realiza una vez al día (valor predeterminado) o según la programación configurada
-   * Es posible que los perfiles no reflejen los cambios en tiempo real hasta la siguiente evaluación
-   * La actividad Leer audiencia puede procesar audiencias por lotes grandes de forma eficaz
+  * La evaluación se realiza una vez al día (valor predeterminado) o según la programación configurada
+  * Es posible que los perfiles no reflejen los cambios en tiempo real hasta la siguiente evaluación
+  * La actividad Leer audiencia puede procesar audiencias por lotes grandes de forma eficaz
 
 **3. Cargar audiencias (carga personalizada)**
 
@@ -140,10 +140,10 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 * **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias
 * **Mejor para**: campañas únicas, importaciones de listas externas y comunicaciones de destino
 * **Protecciones**:
-   * Se aplican límites de tamaño de archivo CSV (compruebe los límites actuales en la documentación del producto)
-   * Los miembros de la audiencia permanecen estáticos hasta que se actualizan con una nueva carga
-   * El área de nombres de identidad debe coincidir con el recorrido
-   * Los perfiles deben existir en [!DNL Adobe Experience Platform]
+  * Se aplican límites de tamaño de archivo CSV (compruebe los límites actuales en la documentación del producto)
+  * Los miembros de la audiencia permanecen estáticos hasta que se actualizan con una nueva carga
+  * El área de nombres de identidad debe coincidir con el recorrido
+  * Los perfiles deben existir en [!DNL Adobe Experience Platform]
 
 **4. Audiencias de composición de audiencias federadas (FAC)**
 
@@ -152,10 +152,10 @@ Más información sobre [actividades de recorrido](about-journey-activities.md).
 * **Uso del Recorrido**: Compatible con las actividades Leer audiencia y Condición; **no compatible** en los recorridos de Calificación de audiencias (similar a cargar audiencias desde una perspectiva back-end)
 * **Lo mejor para**: integración del almacén de datos empresarial, composición de audiencias mediante fuentes de datos externas, escenarios que requieren datos para permanecer en sistemas externos
 * **Protecciones**:
-   * Los miembros de la audiencia permanecen estáticos hasta la siguiente ejecución de composición federada
-   * El área de nombres de identidad debe coincidir con el recorrido
-   * El rendimiento depende de las capacidades de consulta externas del Data Warehouse
-   * Requiere el complemento Composición de audiencia federada
+  * Los miembros de la audiencia permanecen estáticos hasta la siguiente ejecución de composición federada
+  * El área de nombres de identidad debe coincidir con el recorrido
+  * El rendimiento depende de las capacidades de consulta externas del Data Warehouse
+  * Requiere el complemento Composición de audiencia federada
 
 **Audiencias de Customer Journey Analytics (CJA)**:
 
@@ -193,7 +193,7 @@ Use **leer recorridos de audiencia** cuando:
 
 * Está enviando comunicaciones por lotes a un grupo (por ejemplo, newsletter mensual, campañas promocionales)
 * Todos los clientes deben recibir el mensaje aproximadamente a la misma hora
-* Se está dirigiendo a un segmento de audiencia predefinido
+* Va a segmentar un segmento de audiencia predefinido
 
 +++
 
@@ -322,7 +322,7 @@ Más información sobre [Eventos de reacción](reaction-events.md).
 
 Cree un recorrido activado por un evento mediante un evento **[!UICONTROL Reaction]** con un tiempo de espera:
 
-1. **Configurar un evento &quot;Abandonado del carro de compras&quot;**: Se activa cuando se agregan elementos, pero el cierre de compra no se completó dentro de un intervalo de tiempo
+1. **Configurar un evento &quot;Abandonado del carro de compras&quot;**: Se activa cuando se agregan elementos, pero el cierre de compra no se completa dentro de un intervalo de tiempo
 2. **Enviar un mensaje inicial** (opcional): enviar correo electrónico reconociendo los elementos del carro de compras
 3. **Agregar un evento [!UICONTROL Reacción] inmediatamente después de la acción del canal**: configúrelo para que escuche un evento de compra
 4. **Establecer un tiempo de espera**: Defina un tiempo de espera (por ejemplo, de 1 a 2 horas) en el evento **[!UICONTROL Reacción]** para que el cliente tenga tiempo de completar de forma natural
@@ -415,14 +415,15 @@ Más información sobre [Fragmentos de Recorrido](journey-fragments.md).
 
 +++ ¿Cómo pruebo mi recorrido antes de publicarlo?
 
-Journey Optimizer ofrece dos métodos de prueba:
+Journey Optimizer ofrece tres métodos de validación:
 
-* **Modo de prueba**: simule perfiles individuales que se mueven por el recorrido paso a paso, lo que le permite comprobar la lógica, las condiciones y las acciones antes de lanzarse.
+* **Simulación de Recorrido**: valide su recorrido con usuarios simulados temporales, creados manualmente o autogenerados; no es necesario crear ni esperar perfiles de prueba reales. Lo mejor para una iteración rápida durante el diseño del recorrido.
+* **Modo de prueba**: revise paso a paso los perfiles reales (pero designados como prueba) del recorrido, lo que le permitirá comprobar la lógica, las condiciones y las acciones antes de lanzarse.
 * **Modo de ejecución en seco**: ejecute el recorrido utilizando datos de producción reales sin ponerse en contacto con los clientes reales ni actualizar la información del perfil. Esto le proporciona confianza en la segmentación de audiencias y en el diseño de recorridos.
 
 **Práctica recomendada**: Pruebe siempre los recorridos antes de publicarlos para asegurarse de que funcionan según lo esperado e identificar cualquier problema antes de tiempo.
 
-Obtenga más información sobre [modo de prueba](testing-the-journey.md) y [ejecución en seco](journey-dry-run.md).
+Vea [Elegir un método de validación](choose-validation-method.md) para obtener una comparación completa o para obtener más información acerca de [simulación](simulate-journey-gs.md), [modo de prueba](testing-the-journey.md) y [ejecución en seco](journey-dry-run.md).
 
 +++
 
@@ -480,7 +481,7 @@ Más información sobre [recorridos finales](end-journey.md).
 
 +++
 
-+++ ¿Cuál es la diferencia entre &quot;Cerca de nuevas entradas&quot; y &quot;Detener&quot;?
++++ ¿Cuál es la diferencia entre &quot;Cerca de nuevas entradas&quot; y &quot;Parada&quot;?
 
 **Cerca de nuevas entradas**:
 
@@ -865,9 +866,9 @@ Más información sobre [eventos empresariales](general-events.md).
 **Impacto en recorridos**:
 
 * Los recorridos utilizan la política de combinación asociada a la audiencia o al evento para determinar qué datos de perfil están disponibles
-   * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
-   * En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
-   * En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
+  * En Leer recorridos de cualificación de audiencias o audiencias: se utiliza la política de combinación de la audiencia
+  * En recorridos de eventos unitarios: se utiliza la política de combinación predeterminada
+  * En recorridos de eventos empresariales: se utiliza la política de combinación de la audiencia de destino en la siguiente actividad Leer audiencia
 
 * La política de combinación afecta a los atributos que son accesibles en las condiciones de recorrido, la personalización y las acciones
 * Las distintas políticas de combinación pueden dar como resultado que se utilicen datos de perfil diferentes en la recorrido

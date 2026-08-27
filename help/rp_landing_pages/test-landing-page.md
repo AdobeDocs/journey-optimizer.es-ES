@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
-source-wordcount: '2281'
-ht-degree: 100%
+source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
+workflow-type: tm+mt
+source-wordcount: '2596'
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 
 Prueba del recorrido
 
-Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un espacio de nombres.
+Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un espacio de nombres. ¿No está seguro de qué método encaja? Consulte [Elegir un método de validación](../using/building-journeys/choose-validation-method.md).
 
 [Prueba del recorrido](../using/building-journeys/testing-the-journey.md)
 :::
@@ -98,9 +98,9 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
-Listas semilla para la supervisión de partes interesadas
+Listas semilla para la monitorización de partes interesadas
 
-Incluya automáticamente direcciones de partes interesadas internas en los envíos para supervisar los mensajes reales enviados a los clientes y garantizar la calidad y el cumplimiento. Disponible solo para el canal de correo electrónico.
+Incluya automáticamente direcciones de partes interesadas internas en los envíos para monitorizar los mensajes reales enviados a los clientes y garantizar la calidad y el cumplimiento. Disponible solo para el canal de correo electrónico.
 
 [Configuración de listas semilla](../using/configuration/seed-lists.md)
 :::
@@ -223,7 +223,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 * Comprobar [renderizado de correo electrónico](../using/content-management/rendering.md) entre dispositivos y clientes (solo canal de correo electrónico)
 * Ejecutar [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md) (solo canal de correo electrónico)
 * Revisar [conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas y recorridos
-* Configurar [listas semilla](../using/configuration/seed-lists.md) para la supervisión de partes interesadas (solo canal de correo electrónico)
+* Configurar [listas semilla](../using/configuration/seed-lists.md) para la monitorización de partes interesadas (solo canal de correo electrónico)
 * Enviar para [aprobación](../using/test-approve/gs-approval.md) antes de la activación
 
 **Para pruebas A/B y optimización:**
@@ -238,14 +238,18 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 
 **Para todos los recorridos:**
 
-* Utilice el [modo de prueba](../using/building-journeys/testing-the-journey.md) para simular la progresión del perfil (solo recorridos de borrador, requiere espacio de nombres) o [ensayo](../using/building-journeys/journey-dry-run.md) para analizar las rutas de ejecución sin enviar mensajes
+* Use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) para probar rápidamente una rama con usuarios simulados temporales; no se requieren perfiles de prueba
+* Use [modo de prueba](../using/building-journeys/testing-the-journey.md) para recorrer manualmente la lógica de ramas y mensajes con perfiles de prueba de AEP reales (solo recorridos de borrador, requiere área de nombres)
+* Use [ejecución en seco](../using/building-journeys/journey-dry-run.md) para comprobar el alcance real de la audiencia y la lógica de rama a escala, justo antes de publicar, sin enviar mensajes
 * Pruebe mensajes individuales usando [vista previa y pruebas](../using/content-management/preview-test.md)
 * Compruebe [conflictos](../using/conflict-prioritization/conflicts.md) con otros recorridos y campañas
 * Envíe para [aprobación](../using/test-approve/gs-approval.md) antes de publicar
 
+¿No está seguro de cuál de los tres métodos de validación de recorrido utilizar? Consulte [Elegir un método de validación](../using/building-journeys/choose-validation-method.md) para obtener una comparación completa.
+
 **Para recorridos complejos:**
 
-* Utilice el modo de prueba y el ensayo juntos para validar completamente la lógica de ramificación y las rutas de ejecución
+* Utilice la simulación de Recorrido al iterar en la lógica de rama y, a continuación, pruebe el modo y ejecute en seco juntos para validar completamente la lógica de ramificación y las rutas de ejecución antes de publicar
 * Pruebe de manera sistemática diferentes condiciones de entrada y atributos de perfil
 
 **Nota:** La detección de conflictos y la restricción de recorridos solo están disponibles para recorridos unitarios, de calificación de públicos y de lectura de públicos.
@@ -277,7 +281,9 @@ Para maximizar la eficacia de su trabajo en las pruebas, siga estas prácticas r
 
 1. **Pruebe variaciones de contenido con datos de muestra**: utilice [datos de entrada de muestra](../using/test-approve/simulate-sample-input.md) de archivos CSV o JSON, con entrada manual o generación automática con IA para probar hasta 30 contextos de personalización sin crear numerosos perfiles de prueba.
 
-1. **Use listas semilla para la supervisión de las partes interesadas**: configure [listas semilla](../using/configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la supervisión de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
+1. **Use listas semilla para la monitorización de las partes interesadas**: configure [listas semilla](../using/configuration/seed-lists.md) para incluir automáticamente a las partes interesadas internas que recibirán copias de todos los envíos en el momento de la ejecución para la monitorización de la calidad y la verificación del cumplimiento (solo canal de correo electrónico).
+
+1. **Itere con la simulación de Recorrido antes de crear perfiles de prueba**. Use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) para validar rápidamente una nueva rama o ruta de directiva de decisión con usuarios simulados temporales, guardando [modo de prueba](../using/building-journeys/testing-the-journey.md) para cuando necesite recorrer manualmente el recorrido con perfiles de prueba AEP reales.
 
 1. **Simule rutas de recorrido**: para recorridos complejos con varias ramas, use [modo de prueba](../using/building-journeys/testing-the-journey.md) para probar diferentes condiciones de entrada y atributos de perfil y validar todas las rutas posibles. Disponible para recorridos de borrador que utilizan un espacio de nombres.
 
@@ -295,8 +301,8 @@ Siga este enfoque de 4 fases para validar sus campañas y recorridos antes del l
 |-------|-------------|-------------|
 | **1. Validación de contenido** | Personalization, diseño, renderizado | [Vista previa con perfiles de prueba](../using/content-management/preview-test.md), probar [múltiples variaciones](../using/test-approve/simulate-sample-input.md) con CSV/JSON, comprobar [renderizado](../using/content-management/rendering.md) entre dispositivos |
 | **2. Comprobaciones técnicas** | Entregabilidad, vínculos, conflictos | Ejecutar [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md), validar vínculos, comprobar [conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas |
-| **3. Lógica de recorrido** (solo recorridos) | Condiciones de entrada, flujo, ramificación | Usar [modo de prueba](../using/building-journeys/testing-the-journey.md) para simular la progresión, ejecutar [ensayo](../using/building-journeys/journey-dry-run.md) para las rutas complejas |
-| **4. Antes del lanzamiento** | Configuración, aprobaciones, supervisión | Enviar para [aprobación](../using/test-approve/gs-approval.md), comprobar programaciones y públicos, habilitar [alertas](../using/reports/alerts.md) |
+| **3. Lógica de recorrido** (solo recorridos) | Condiciones de entrada, flujo, ramificación | Use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) para una iteración rápida, [modo de prueba](../using/building-journeys/testing-the-journey.md) para recorrer la lógica con perfiles de prueba reales y [ejecución en seco](../using/building-journeys/journey-dry-run.md) para una comprobación final a escala; vea [cómo elegir](../using/building-journeys/choose-validation-method.md) |
+| **4. Antes del lanzamiento** | Configuración, aprobaciones, monitorización | Enviar para [aprobación](../using/test-approve/gs-approval.md), comprobar programaciones y públicos, habilitar [alertas](../using/reports/alerts.md) |
 
 **Sugerencia profesional:** comience con la [zona de juegos de personalización](../using/personalization/personalize.md#playground) para probar las expresiones antes de generar contenido y compruebe siempre la [detección de conflictos](../using/conflict-prioritization/conflicts.md) antes del inicio para evitar mensajes excesivos.
 
@@ -313,7 +319,7 @@ Consulte cómo se aplican los conceptos de prueba a los casos reales:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envío de mensajes multicanal</strong></a>
 </div>
 <p>
-Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de público hasta el envío de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
+Pruebe un recorrido que combine Leer público, eventos de reacción y mensajes push/de correo electrónico. Valide todo el flujo desde la segmentación de públicos hasta el envío de mensajes. Céntrese en la coordinación multicanal, los eventos de reacción, la validación de flujo de extremo a extremo y los pasos de prueba/publicación.
 </p>
 </td>
 <td>
@@ -324,7 +330,7 @@ Pruebe un recorrido que combine Leer audiencia, eventos de reacción y mensajes 
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envío de un mensaje a los suscriptores</strong></a>
 </div>
 <p>
-Pruebe recorridos dirigidos a listas de suscripciones de público destinatario con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
+Realice pruebas de recorridos dirigidas a listas de suscripción con direccionamiento de correo electrónico dinámico. Valide expresiones de personalización para la segmentación correcta de suscriptores. Céntrese en las expresiones de personalización, el direccionamiento dinámico y la segmentación de listas de suscripción.
 </p>
 </td>
 <td>
@@ -335,7 +341,7 @@ Pruebe recorridos dirigidos a listas de suscripciones de público destinatario c
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Envío de mensajes con límite de tiempo</strong></a>
 </div>
 <p>
-Pruebe recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Valide las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de la programación.
+Recorridos de prueba con condiciones basadas en el tiempo para garantizar que los mensajes se envíen en días específicos. Valide las actividades de espera y la lógica de programación. Céntrese en las condiciones basadas en el tiempo, las actividades de espera y la validación de programación.
 </p>
 </td>
 </tr></table>
@@ -349,7 +355,7 @@ Pruebe recorridos de prueba con condiciones basadas en el tiempo para garantizar
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorar más casos de uso de recorridos</strong></a>
 </div>
 <p>
-Acceda a una colección completa de ejemplos prácticos que abarquen eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore diversos escenarios, patrones avanzados y los enfoques de pruebas de integración.
+Acceda a una completa colección de ejemplos prácticos que abarcan eventos de experiencia, mensajería multicanal e integraciones de sistemas externos. Explore varios contextos, patrones avanzados y enfoques de prueba de integración.
 </p>
 </td>
 </tr></table>
@@ -360,13 +366,15 @@ Familiarícese con estos conceptos esenciales de prueba para comprender mejor la
 
 **[Perfiles de prueba](../using/content-management/test-profiles.md)**: perfiles de cliente sintéticos (clientes no reales) que se usan para obtener una vista previa del contenido personalizado. Marcado en el servicio de Perfil del cliente en tiempo real. Obligatorio para el modo de prueba y la previsualización de contenido. [Más información sobre cómo crear perfiles de prueba](../using/audience/creating-test-profiles.md)
 
-**[Modo de prueba](../using/building-journeys/testing-the-journey.md)**: característica de simulación de recorrido que envía perfiles de prueba a través de rutas de recorrido. Limitaciones: solo recorridos de borrador, requiere espacio de nombres, solo perfiles de prueba. [Ver documentación del modo de prueba](../using/building-journeys/testing-the-journey.md)
+**[Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md)**: método de validación que ejecuta un recorrido con usuarios simulados temporales, creados manualmente o autogenerados, en lugar de perfiles de prueba de AEP reales. Caso de uso: iteración rápida durante el diseño del recorrido. [Introducción a la simulación del recorrido](../using/building-journeys/simulate-journey-gs.md)
+
+**[Modo de prueba](../using/building-journeys/testing-the-journey.md)**: característica de validación de Recorrido que envía perfiles de prueba de AEP reales a través de rutas de recorrido. Limitaciones: solo recorridos de borrador, requiere espacio de nombres, solo perfiles de prueba. [Ver documentación del modo de prueba](../using/building-journeys/testing-the-journey.md)
 
 **[Ensayo](../using/building-journeys/journey-dry-run.md)**: herramienta de análisis de ejecución de recorrido que rastrea rutas sin enviar mensajes ni realizar llamadas de API. Caso de uso: validación de la lógica sin consumir recursos. [Más información sobre el ensayo](../using/building-journeys/journey-dry-run.md)
 
 **[Datos de entrada de muestra](../using/test-approve/simulate-sample-input.md)**: archivos CSV o JSON, entrada manual o generación automática por IA para probar la personalización. Admite hasta 30 variantes. [Cómo simular variaciones de contenido](../using/test-approve/simulate-sample-input.md)
 
-**[Listas semilla](../using/configuration/seed-lists.md)**: las direcciones de correo electrónico de las partes interesadas internas se incluyen automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: supervisión de la calidad y cumplimiento normativo. [Configure listas semilla](../using/configuration/seed-lists.md)
+**[Listas semilla](../using/configuration/seed-lists.md)**: las direcciones de correo electrónico de las partes interesadas internas se incluyen automáticamente en los envíos reales (no en los envíos de prueba). Solo canal de correo electrónico. Caso de uso: monitorización de la calidad y cumplimiento normativo. [Configure listas semilla](../using/configuration/seed-lists.md)
 
 **[Experimentos de contenido](../using/content-management/get-started-experiment.md)**: pruebas A/B o experimentos de bandidos multibrazo que comparan variaciones de contenido. Solo campañas, no disponible en recorridos. [Introducción a los experimentos](../using/content-management/get-started-experiment.md) | [Crear experimentos](../using/content-management/content-experiment.md)
 
@@ -418,7 +426,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 * Activación de campaña/recorrido: no se puede activar sin resolver errores
 * Publicación: es posible que se requiera la aprobación antes de publicar
-* Supervisión en directo: supervisión e informes posteriores al lanzamiento
+* Monitorización en directo: monitorización e informes posteriores al lanzamiento
 * Optimización: utilice los resultados de las pruebas para refinar las campañas futuras
 
 ### Capacidades relacionadas
@@ -428,13 +436,13 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 * Pruebas + Experimentos de contenido: optimización del rendimiento
 * Pruebas + Creación de informes: ciclo de mejora continua
 * Perfiles de prueba + Personalization: validación de contenido
-* Ensayo + Modo de prueba: validación completa del recorrido
+* Simulación de recorrido + Modo de prueba + Ejecución en seco: validación completa del recorrido
 
 ### Combinaciones habituales de capacidades
 
 * Prueba de contenido: Perfiles de prueba + Datos de entrada de muestra + Zona de juegos de personalización
 * Validación de correo electrónico: pruebas de renderizado + Puntuaciones de correo no deseado + Perfiles de prueba + Pruebas
-* Validación de recorrido: Modo de prueba + Ensayo + Perfiles de prueba
+* Validación de recorrido: Simulación de Recorrido + Modo de prueba + Ejecución en seco + Perfiles de prueba
 * Lista de comprobación previa al lanzamiento: todas las pruebas técnicas + detección de conflictos + flujos de trabajo de aprobación
 
 >[!TAB Preguntas frecuentes]
@@ -451,11 +459,12 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 **Alternativa:** crear entre 3 y 5 [perfiles de prueba](../using/audience/creating-test-profiles.md) representativos que cubran segmentos clave
 **Herramienta de aprendizaje:** experimentar primero en el [área de juegos de personalización](../using/personalization/personalize.md#playground)
 
-### Q: ¿Cuál es la diferencia entre el modo de prueba y el ensayo para recorridos?
+### P: ¿Cuál es la diferencia entre la simulación de Recorrido, el modo de prueba y la ejecución en seco?
 
-**Modo de prueba:** envía perfiles de prueba a través del recorrido, activa acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
-**Ensayo:** rastrea las rutas de ejecución sin enviar nada. Funciona en cualquier estado de recorrido. No se envían mensajes ni se ejecutan acciones.
-**Utilizar conjuntamente:** modo de prueba para la prueba de mensajes + ensayo para la validación lógica: cobertura completa.
+**Simulación de Recorrido:** Ejecuta el recorrido con usuarios simulados temporales, no se necesitan perfiles de prueba de AEP reales. Envía mensajes reales a las direcciones configuradas de los usuarios simulados.
+**Modo de prueba:** Envía perfiles de prueba de AEP reales a través del recorrido, déclencheur acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
+**Ejecución en seco:** Rastrea rutas de ejecución en relación con datos de audiencia de producción real sin enviar nada. No se envían mensajes ni se ejecutan acciones.
+**Úsalos juntos:** Simulación de Recorrido al iterar en el diseño, modo de prueba para prueba lógica/mensaje manual con perfiles de prueba reales, ejecución en seco para una comprobación lógica final a escala. Consulte [Elegir un método de validación](../using/building-journeys/choose-validation-method.md) para obtener una comparación completa.
 
 ### P: ¿Puedo probar recorridos en estado de producción/activo?
 
@@ -472,7 +481,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Cómo pruebo las campañas activadas por API?
 
-**Opción 1:** utilizar [API de simulación de campaña ](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 1:** utilizar [API de simulación de campaña &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
 **Opción 2:** vista previa del contenido con perfiles de prueba en la IU
 **Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
 **Práctica recomendada:** combinar las tres opciones para obtener una validación completa

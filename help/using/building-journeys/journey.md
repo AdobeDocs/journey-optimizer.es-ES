@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2334
-ht-degree: 68%
+source-wordcount: 2403
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ Use [!DNL Journey Optimizer] para:
 
 * Crear casos de uso de **orquestación en tiempo real** aprovechando los datos contextuales almacenados en eventos o fuentes de datos
 * Diseñar **casos avanzados de varios pasos** que respondan dinámicamente al comportamiento de los clientes y a los eventos empresariales
-* Ofrecer **1:1 experiencias personalizadas** a escala en correo electrónico, push, SMS, en la aplicación, web y más
+* Ofrezca **experiencias personalizadas 1:1** a escala en correo electrónico, push, SMS, en la aplicación, web y mucho más
 
 ![Interfaz del diseñador de recorrido con panel de paleta, lienzo y propiedades](assets/journey38.png)
 
@@ -76,7 +76,7 @@ Use [!DNL Journey Optimizer] para:
 
 ### Recorridos vs. Campañas: cuándo usar cada uno {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] ofrece tres métodos para llegar a los clientes: **Recorridos** (1:1 orquestación en tiempo real), **Campañas** (envío simple por lotes o desencadenado por API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
+[!DNL Adobe Journey Optimizer] ofrece tres métodos para llegar a los clientes: **Recorridos** (orquestación en tiempo real 1:1), **Campañas** (entrega simple desencadenada por lotes o API) y **Campañas orquestadas** (flujos de trabajo por lotes de lienzo con datos de varias entidades).
 
 **Decisión rápida:**
 
@@ -179,14 +179,14 @@ Utilice tiempos de espera, saltos, actualizaciones de perfiles y gestión de pú
 
 La creación de recorridos exitosos sigue un proceso claro y repetible. Este es su flujo de trabajo paso a paso:
 
-**1. Planificación** → **2. Diseño** → **3. Prueba** → **4. Publicación** → **5. Supervisión** → **6. Optimización**
+**1. Planificación** → **2. Diseño** → **3. Prueba** → **4. Publicación** → **5. Monitorización** → **6. Optimización**
 
 ### &#x200B;1. Planifique su recorrido {#plan}
 
 Antes de abrir el diseñador, tenga claros sus objetivos:
 
-* **¿Cuál es el objetivo** (por ejemplo, incorporar nuevos clientes, volver a atraer usuarios inactivos)
-* **¿Quién es el público?** (segmento específico, individuos impulsados por evento)
+* **¿Cuál es el objetivo?** (por ejemplo, incorporar nuevos clientes, volver a atraer usuarios inactivos)
+* **¿Quién es la audiencia?** (segmento específico, individuos impulsados por evento)
 * **¿Qué tipo de recorrido encaja?** (Ver [tipos de recorrido](#journey-types) más arriba)
 * **¿Qué canales usará?** (correo electrónico, push, SMS, etc.)
 
@@ -206,12 +206,13 @@ Utilice el diseñador de recorridos para crear el flujo:
 
 Pruebe siempre el recorrido para detectar problemas antes de que los clientes lo experimenten:
 
-* Use **modo de prueba** para simular el recorrido con perfiles de prueba
+* Utilice **Simulación de Recorrido** para una iteración rápida con usuarios simulados temporales, no se necesitan perfiles de prueba
+* Use **modo de prueba** para recorrer paso a paso los perfiles reales (pero designados como prueba) del recorrido
 * Use **ejecución en seco** para ejecutar el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar perfiles
 * Compruebe que todas las condiciones, mensajes y acciones funcionan según lo esperado
 * Compruebe la sincronización, los flujos de datos y la personalización
 
-[Pruebe su recorrido →](testing-the-journey.md) | [Más información sobre el ensayo de recorrido →](journey-dry-run.md)
+[Elija un método de validación →](choose-validation-method.md) | [Prueba tu recorrido →](testing-the-journey.md) | [Más información sobre la ejecución en seco →](journey-dry-run.md)
 
 ### &#x200B;4. Publique el recorrido {#publish}
 
@@ -223,7 +224,7 @@ Una vez finalizada la prueba, publique para que el recorrido esté activo:
 
 [Publique su recorrido →](publish-journey.md)
 
-### &#x200B;5. Supervise el rendimiento {#monitor}
+### &#x200B;5. Monitorice el rendimiento {#monitor}
 
 Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 
@@ -231,7 +232,7 @@ Realice un seguimiento del rendimiento de su recorrido en el mundo real:
 * Monitorice las tasas de entrada, finalización y error
 * Configure alertas para problemas críticos
 
-[Supervise e informe →](report-journey.md) | [Configure alertas →](../reports/alerts.md)
+[Monitorice e informe →](report-journey.md) | [Configure alertas →](../reports/alerts.md)
 
 ### &#x200B;6. Optimice e itere {#optimize}
 
@@ -398,7 +399,7 @@ Obtenga una introducción visual a los componentes del recorrido y aprenda los c
 
 [!DNL Adobe Journey Optimizer] ofrece tres enfoques:
 
-* **Recorridos**: 1:1 orquestación en tiempo real en la que cada perfil recorre los pasos a su propio ritmo. Ideal para experiencias de varios pasos y basadas en el comportamiento con lógica condicional (por ejemplo, incorporación, abandono del carro de compras).
+* **Recorridos**: orquestación en tiempo real 1:1 en la que cada perfil viaja a través de pasos a su propio ritmo. Ideal para experiencias de varios pasos y basadas en el comportamiento con lógica condicional (por ejemplo, incorporación, abandono del carro de compras).
 
 * **Campañas (activadas por acción y API)**: envío de mensaje simple a los públicos, que se ejecuta simultáneamente en todos los perfiles según lo programado o mediante el activador de API. Ideal para campañas promocionales, boletines informativos y mensajes transaccionales.
 
@@ -474,7 +475,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Diseñador de Recorridos**: el lienzo visual de arrastrar y soltar de AJO que se usa para generar y configurar flujos de recorridos sin escribir código. *(específico del producto)*
 * **Modo de prueba**: Un modo de validación de recorrido que usa perfiles de prueba Adobe Experience Platform persistentes (marcados explícitamente como perfiles de prueba) para recorrer un recorrido de borrador antes de publicarlo. *(específico del producto)*
 * **Ejecución en seco**: Modo de publicación especial que ejecuta el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar perfiles. *(específico del producto)*
-* **Simulación**: Modo de validación que utiliza usuarios simulados temporales generados sobre la marcha; los usuarios simulados no persisten en Adobe Experience Platform. *(específico del producto)*
+* **Simulación**: modo de validación que utiliza usuarios simulados temporales, creados manualmente o generados automáticamente; los usuarios simulados no persisten en Adobe Experience Platform. *(específico del producto)*
 * **Campañas orquestadas**: flujos de trabajo por lotes de varios pasos en AJO que utilizan datos relacionales (perfiles + productos/tiendas/reservas) y procesan todos los perfiles con recuentos exactos de preenvío. *(específico del producto)*
 
 **Protecciones:**
@@ -491,10 +492,10 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **PREGUNTAS MÁS FRECUENTES:**
 
-* **Q: ¿Cuál es la diferencia entre un recorrido y una campaña en Journey Optimizer?** — Los Recorridos proporcionan una orquestación en tiempo real de 1:1 en la que cada perfil progresa a su propio ritmo mediante lógica condicional; las campañas envían mensajes simultáneamente a una audiencia en una programación o mediante un déclencheur de API; las campañas orquestadas son flujos de trabajo de lienzo por lotes para una segmentación compleja de varias entidades.
+* **Q: ¿Cuál es la diferencia entre un recorrido y una campaña en Journey Optimizer?** — Los Recorridos proporcionan una orquestación en tiempo real 1:1 en la que cada perfil progresa a su propio ritmo mediante la lógica condicional; las campañas envían mensajes simultáneamente a una audiencia en una programación o mediante el déclencheur de API; las campañas orquestadas son flujos de trabajo de lienzo por lotes para la segmentación compleja de varias entidades.
 * **Q: ¿Puedo editar un recorrido activo?** — Se pueden editar elementos limitados como el nombre y el contenido del mensaje; los cambios estructurales requieren la creación de una nueva versión del recorrido.
 * **Q: ¿Cuáles son los pasos para generar un recorrido?** — El flujo de trabajo de seis pasos es: Planificar, Diseño en el lienzo, Prueba (modo de prueba o ejecución en seco), Publicar, Monitorizar rendimiento y Optimizar/iterar.
-* **Q: ¿Cómo valido un recorrido sin enviar mensajes reales?** : utilice Simulation (usuarios simulados temporales), Test mode (perfiles de prueba AEP persistentes) o Dry run (datos de producción reales sin contacto de cliente ni actualizaciones de perfil). Los perfiles de ejecución en seco se contabilizan en Perfiles atractivos y cuota de recorrido en directo.
+* **Q: ¿Cómo valido un recorrido sin ponerme en contacto con clientes reales?** — Utilice Simulation (usuarios simulados temporales): tenga en cuenta que esto envía mensajes reales, pero solo a las direcciones de ejecución configuradas en dichos usuarios simulados), Test mode (perfiles de prueba AEP persistentes; tenga en cuenta que esto envía mensajes reales a las bandejas de entrada de dichos perfiles de prueba) o Dry run (datos de producción real, nodos de acción omitidos, no se envían mensajes). Los perfiles de ejecución en seco se contabilizan en Perfiles atractivos y cuota de recorrido en directo. Consulte [Elegir un método de validación](choose-validation-method.md) para obtener una comparación completa.
 * **Q: ¿Qué tipo de recorrido debo usar para un correo electrónico de bienvenida activado por una suscripción?** — Utilizar un recorrido unitario, activado por un evento individual específico, como la suscripción.
 
 +++

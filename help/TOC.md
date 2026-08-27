@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 93%
     + [Establecimiento de las propiedades del recorrido](using/building-journeys/journey-properties.md)
     + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
     + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
-    + Simulación {#simulate-journey}
-      + [Introducción a la simulación del recorrido](using/building-journeys/simulate-journey-gs.md)
-      + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
-    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
-    + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
+    + Validación del recorrido {#validate-journey}
+      + [Elegir un método de validación](using/building-journeys/choose-validation-method.md)
+      + Simulación {#simulate-journey}
+        + [Introducción a la simulación del recorrido](using/building-journeys/simulate-journey-gs.md)
+        + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
+      + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
+      + [Ensayo del recorrido](using/building-journeys/journey-dry-run.md)
     + [Publicación del recorrido](using/building-journeys/publish-journey.md)
     + [Pausa de un recorrido](using/building-journeys/journey-pause.md)
     + [Informe en vivo en el recorrido](using/building-journeys/report-journey.md)
@@ -570,7 +572,7 @@ ht-degree: 93%
   + Generar contenido {#generate-content}
     + [Introducción a la generación de contenido](using/content-management/gs-generative.md)
     + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials en el asistente de IA](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials en Generar contenido](using/content-management/generative-c2pa-metadata.md)
     + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
     + [Generación de texto con IA](using/content-management/generative-text.md)
     + [Generación de imágenes con IA](using/content-management/generative-image.md)

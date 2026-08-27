@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 3541
+source-wordcount: 3556
 ht-degree: 5%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 5%
 **En esta página:** Aprenda a validar el recorrido antes de publicar mediante simulación con usuarios simulados o modo de prueba con perfiles de prueba para detectar errores de forma temprana.
 
 >[!ENDSHADEBOX]
+
+¿No está seguro de que el modo de prueba sea el adecuado para usted? [Comparar las tres opciones de validación](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
