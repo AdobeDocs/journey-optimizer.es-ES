@@ -163,7 +163,7 @@ Estas protecciones se aplican a **[!UICONTROL Simulación]**. Las mayúsculas nu
 
 El siguiente vídeo muestra cómo utilizar la simulación rápida para probar los recorridos de los clientes automatizando los procesos clave. Genera perfiles de prueba, organiza eventos, acelera los tiempos de espera y valida escenarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497478/?captions=spa&learn=on)
 
 
 
