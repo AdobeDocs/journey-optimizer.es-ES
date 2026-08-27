@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Elija cómo probar y validar el recorrido
+title: Elegir un método de validación
 description: Compare la simulación de Recorrido, el modo de prueba de Recorrido y la ejecución en seco de Recorrido y elija el método de validación adecuado para el recorrido antes de publicar.
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: probar, simular, simulación, modo de prueba, ejecución en seco, recorrido, validar, comparar, elegir, guía de decisión
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# Elija cómo probar y validar el recorrido {#choose-validation-method}
+# Elegir un método de validación {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 

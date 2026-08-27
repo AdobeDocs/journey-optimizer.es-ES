@@ -6,9 +6,9 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 93%
     + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
     + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
     + Validación del recorrido {#validate-journey}
-      + [Elija cómo probar y validar el recorrido](using/building-journeys/choose-validation-method.md)
+      + [Elegir un método de validación](using/building-journeys/choose-validation-method.md)
       + Simulación {#simulate-journey}
         + [Introducción a la simulación del recorrido](using/building-journeys/simulate-journey-gs.md)
         + [Simulación del recorrido](using/building-journeys/simulate-journey.md)

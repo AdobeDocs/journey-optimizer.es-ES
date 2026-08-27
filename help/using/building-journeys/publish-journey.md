@@ -11,20 +11,15 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -66,7 +61,7 @@ Valide el recorrido con una de las opciones de prueba disponibles. Cada uno util
 
 La ejecución en seco nunca ofrece comunicaciones reales ni actualiza datos de perfil en directo. Los modos Simulación y Prueba no entregan mensajes reales: Simulación a las direcciones de ejecución definidas en los usuarios simulados y Modo de prueba a las bandejas de entrada reales de perfiles que haya marcado explícitamente como perfiles de prueba.
 
-Para ver una comparación completa de estos tres métodos, vea [Elegir cómo probar y validar el recorrido](choose-validation-method.md).
+Para obtener una comparación completa de estos tres métodos, vea [Elegir un método de validación](choose-validation-method.md).
 
 ## Proceso de publicación {#journey-publication}
 
@@ -182,7 +177,7 @@ Si el recorrido está sujeto a una directiva de aprobación, al hacer clic en **
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referencia de conocimientos de AI
 
