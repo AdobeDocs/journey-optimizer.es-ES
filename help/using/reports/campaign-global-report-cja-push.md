@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 TQID: https://experienceleague.adobe.com/wsbWXuQT-JWFmKKu-qIG8OgzKQ7mMY4yFcqKLaM3RDc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 782
+ht-degree: 7%
 
 ---
 
@@ -123,6 +113,40 @@ La tabla **[!UICONTROL Razones de rechazos]** proporciona una visión general co
 ## Motivos de error {#error-reasons-push}
 
 La tabla **[!UICONTROL Motivos del error]** le permite identificar los errores específicos que se produjeron durante el proceso de envío de las notificaciones push, lo que facilita un análisis exhaustivo de los problemas encontrados.
+
++++ Más información sobre los Motivos de error
+
+Cada envío de notificación push se clasifica en uno de los siguientes motivos, según la respuesta devuelta por el proveedor de notificaciones push ([!DNL Apple Push Notification service (APNs)] o [!DNL Firebase Cloud Messaging (FCM)]):
+
+* **ENVIADO**: el proveedor aceptó la notificación.
+* **LISTA DE BLOQUEADOS de**: el token del dispositivo ya no es válido (por ejemplo, la aplicación se desinstaló o el token expiró). El token se añade a la lista de bloqueados de la y se omiten los envíos futuros a ella.
+* **MALFORMED_NOTIFICATION**: el proveedor rechazó la carga útil de notificación por no ser válida (por ejemplo, si la carga útil es demasiado grande, está vacía o faltan campos obligatorios).
+* **INVALID_PUSH_CREDENTIAL**: La credencial push (certificado, clave o configuración de tema) utilizada para enviar la notificación no es válida o no coincide con el dispositivo/aplicación de destino.
+* **PUSH_PROVIDER_ERROR**: El proveedor devolvió un error transitorio o inesperado (por ejemplo, limitación de velocidad o un error interno). Estos envíos se vuelven a intentar automáticamente.
+
+**APN**
+
+| Estado HTTP | Razón de APNS | Motivo del error |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | LISTA DE BLOQUEADOS de |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | MALFORMED_NOTIFICATION |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_ERROR |
+| cualquier otro | cualquier otro / ninguno | PUSH_PROVIDER_ERROR |
+
+**FCM**
+
+| Estado HTTP | Código de error de FCM | Motivo del error |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | LISTA DE BLOQUEADOS de |
+| 400 | `INVALID_ARGUMENT` | MALFORMED_NOTIFICATION |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_ERROR |
+| 500 | `INTERNAL` | PUSH_PROVIDER_ERROR |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_ERROR |
+| cualquier otro | `UNSPECIFIED_ERROR` / any other / none | PUSH_PROVIDER_ERROR |
+
++++
 
 ## Motivos excluidos {#exclude-reasons-push}
 
