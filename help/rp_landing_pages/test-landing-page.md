@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
 workflow-type: tm+mt
 source-wordcount: '2596'
 ht-degree: 87%
@@ -26,7 +26,7 @@ Esta página de destino le ayuda a elegir el método de prueba adecuado según l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -46,17 +46,17 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
-Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un espacio de nombres. Para una iteración rápida sin perfiles de prueba, use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) en su lugar.
+Valide el recorrido antes de publicarlo probándolo con perfiles específicos para garantizar que los eventos, las condiciones y las acciones funcionan según lo esperado. Disponible para recorridos de borrador que utilizan un espacio de nombres. ¿No está seguro de qué método encaja? Consulte [Elegir un método de validación](../using/building-journeys/choose-validation-method.md).
 
 [Prueba del recorrido](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido
 
@@ -66,7 +66,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -76,7 +76,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Zona de juegos de personalización
 
@@ -86,7 +86,7 @@ Experimente con expresiones de personalización en un entorno seguro. Pruebe el 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de contenido y pruebas A/B
 
@@ -96,7 +96,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -106,7 +106,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -481,7 +481,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Cómo pruebo las campañas activadas por API?
 
-**Opción 1:** utilizar [API de simulación de campaña &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 1:** utilizar [API de simulación de campaña ](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
 **Opción 2:** vista previa del contenido con perfiles de prueba en la IU
 **Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
 **Práctica recomendada:** combinar las tres opciones para obtener una validación completa
