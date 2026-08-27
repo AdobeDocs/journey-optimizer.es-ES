@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: probar, simular, simulación, modo de prueba, ejecución en seco, recorrido, validar, comparar, elegir, guía de decisión
 version: Journey Orchestration
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: 881cbee186a4f58fe23e5e0c62972743921bd5f4
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Mecánica clave:
 
 **Cuándo se debe usar:** Verificación manual de la rama y la lógica de mensaje paso a paso, con perfiles reales (pero designados como prueba) recorriendo el recorrido de borrador.
 
-[Modo de prueba de Recorrido](testing-the-journey.md) le permite validar un recorrido de borrador usando [perfiles de prueba de AEP](../audience/creating-test-profiles.md) persistentes. Los eventos se activan manualmente desde la interfaz para confirmar que la lógica de ramificación y la mecánica de envío de mensajes funcionan según lo diseñado, antes de que cualquier audiencia de producción toque el recorrido.
+[Modo de prueba de Recorrido](testing-the-journey.md) le permite validar un recorrido de borrador usando [perfiles de prueba de AEP](../audience/creating-test-profiles.md) persistentes. Para confirmar que la lógica de ramificación y la mecánica de envío de mensajes funcionan según lo diseñado antes de que cualquier audiencia de producción toque el recorrido, active los eventos manualmente desde la interfaz.
 
 Mecánica clave:
 
@@ -93,7 +93,7 @@ Mecánica clave:
 Mecánica clave:
 
 * Utiliza la audiencia de producción real, para que vea el alcance real y la segmentación a escala (por ejemplo, detectar un error en el que una rama entera recibe inesperadamente cero perfiles).
-* En cada activación, puede optar por desactivar las actividades de espera (de modo que las métricas regresen más rápido) y desactivar las llamadas a fuentes de datos externas (de modo que la recorrido permanezca en silo completo).
+* En cada activación, para recuperar las métricas más rápido puede deshabilitar las actividades de espera y, para mantener la recorrido en silo completo, puede deshabilitar las llamadas a fuentes de datos externas.
 * Actualmente, esta es una característica de **disponibilidad limitada** que se está implementando globalmente a lo largo del tiempo.
 
 **Perfecto para:** Detectar problemas como nodos de condición mal escritos o audiencias que inesperadamente no llegan a una rama, justo antes de activar la recorrido.
@@ -108,7 +108,7 @@ Comience con una pregunta sencilla: ¿ya tiene perfiles de prueba que se ajusten
 
 Más allá de esta opción, la respuesta suele responder a una pregunta más: *¿hasta dónde se acerca la producción?*
 
-Si todavía **está iterando en el diseño de recorrido** — probando una rama nueva, comparando con un plazo — use **Simulación de Recorrido** para validar la lógica de su recorrido. No necesita perfiles reales y se ejecuta en segundos. También sigue siendo una opción válida más adelante en la compilación, siempre que no sea práctico crear perfiles de prueba adecuados para el caso de uso. Recuerde que envía mensajes reales a las direcciones de ejecución configuradas en los usuarios simulados.
+Si todavía **está iterando en el diseño de recorrido** — probando una rama nueva, comparando con un plazo — use **Simulación de Recorrido**. No necesita perfiles reales y se ejecuta en segundos. También sigue siendo una opción válida más adelante en la compilación, siempre que no sea práctico crear perfiles de prueba adecuados para el caso de uso. Recuerde que envía mensajes reales a las direcciones de ejecución configuradas en los usuarios simulados.
 
 Si necesita **comprobar manualmente la bifurcación y la lógica de mensajes paso a paso** y desea crear o reutilizar perfiles de prueba de AEP, use **Modo de prueba de Recorrido**. Solo recuerde que envía mensajes reales a las bandejas de entrada reales de esos perfiles de prueba.
 
@@ -134,7 +134,7 @@ Ninguno de estos métodos contacta con clientes reales. Los datos de perfil tamp
 * **Creando perfiles de prueba de AEP cuando la simulación de Recorrido funcionaba.** Si solo necesita validar una nueva rama o ruta de política de decisión rápidamente, la simulación omite la espera de la propagación del perfil de prueba por completo: el modo de prueba Guardar Recorrido para cuando realmente necesite perfiles de prueba reales.
 * **Tratando el modo de prueba de Recorrido como &quot;seco&quot;.** Los perfiles del modo de prueba de recorrido reciben mensajes reales a través de la canalización de entrega de producción. Asegúrese de que los perfiles de prueba solo utilicen las direcciones que controla.
 * **Se espera que la ejecución en seco del Recorrido detecte problemas de contenido o envío.** La ejecución en seco omite los nodos de acción por completo: valida el alcance de la audiencia y la lógica de rama, no el contenido del mensaje ni la mecánica de envío. Para ello, utilice el modo de simulación o el modo de prueba de Recorrido.
-* **Olvidando el requisito del área de nombres para el modo de prueba de Recorrido.** El modo de prueba de recorrido solo funciona en recorridos de borrador que utilizan un área de nombres; sin uno, Journey Optimizer no puede comprobar si un perfil está marcado como perfil de prueba.
+* **Olvidando el requisito del área de nombres para el modo de prueba de Recorrido.** El modo de prueba de recorrido solo funciona en recorridos de borrador que utilizan un área de nombres, ya que Journey Optimizer necesita un área de nombres para comprobar si un perfil está marcado como perfil de prueba.
 
 ## Próximos pasos {#next-steps}
 
