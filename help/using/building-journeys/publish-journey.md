@@ -11,20 +11,15 @@ keywords: publicar, recorrido, en directo, validez, comprobar
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2032
+source-wordcount: 2093
 ht-degree: 12%
 
 ---
@@ -65,6 +60,8 @@ Valide el recorrido con una de las opciones de prueba disponibles. Cada uno util
 | [Ejecución en seco](journey-dry-run.md) | Datos de audiencia de producción real | Comprobación final previa al lanzamiento de alcance y direccionamiento reales de la audiencia a escala, sin ponerse en contacto con nadie | No |
 
 La ejecución en seco nunca ofrece comunicaciones reales ni actualiza datos de perfil en directo. Los modos Simulación y Prueba no entregan mensajes reales: Simulación a las direcciones de ejecución definidas en los usuarios simulados y Modo de prueba a las bandejas de entrada reales de perfiles que haya marcado explícitamente como perfiles de prueba.
+
+Para ver una comparación completa de estos tres métodos, vea [Elegir cómo probar y validar el recorrido](choose-validation-method.md).
 
 ## Proceso de publicación {#journey-publication}
 
@@ -164,7 +161,7 @@ Sí. Si cambia una decisión de oferta utilizada en el mensaje de un recorrido, 
 
 **¿Puedo publicar un recorrido que requiera aprobación?**
 
-Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la aprobación antes de publicar. [Más información sobre la aprobación](../test-approve/gs-approval.md).
+Si el recorrido está sujeto a una directiva de aprobación, al hacer clic en **[!UICONTROL Publicar]** se envía para su aprobación en lugar de publicarlo de inmediato. El recorrido se publica automáticamente una vez que un aprobador lo cierra; no hay ningún paso de publicación independiente que realizar después. [Más información sobre la aprobación](../test-approve/gs-approval.md).
 
 ## Temas relacionados {#related-topics}
 
@@ -180,7 +177,7 @@ Si el recorrido está sujeto a una directiva de aprobación, debe solicitar la a
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Referencia de conocimientos de AI
 
@@ -223,6 +220,6 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Qué les sucede a los perfiles de una versión de recorrido anterior cuando se publica una nueva versión?** : los perfiles que ya están en la versión anterior permanecen allí hasta que finalizan; los nuevos perfiles introducen la versión más reciente.
 * **Q: ¿Puedo volver a publicar una versión de recorrido cerrado?** — No. Una vez que una versión anterior está Cerrada, permanece cerrada incluso si se detiene la última versión.
 * **Q: ¿Qué debo hacer si cambia una decisión de oferta usada en el recorrido?** — Cancele la publicación del recorrido y vuelva a publicarlo para incorporar la decisión de oferta actualizada.
-* **Q: ¿Se requiere aprobación antes de publicar?** — Solo si su recorrido está sujeto a una directiva de aprobación; en ese caso, primero debe solicitar la aprobación.
+* **Q: ¿Se requiere aprobación antes de publicar?** — Solo si el recorrido está sujeto a una directiva de aprobación; en ese caso, la publicación envía el recorrido para su aprobación en lugar de publicarlo de inmediato y se publica automáticamente una vez que el aprobador lo cierra.
 
 +++

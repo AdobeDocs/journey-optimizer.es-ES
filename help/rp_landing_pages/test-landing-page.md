@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: probar, validar, aprobar, aprobación, garantía de calidad, control de calidad, perfiles de prueba, personalización, procesamiento, comprobación de spam, experimento de contenido, prueba a/b, detección de conflictos, lista semilla, pruebas, datos de muestra, flujo de trabajo de aprobación, prueba de correo electrónico, flujo de trabajo de validación
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: c7eb2d867da40b2fce904f3240e312de951ed703
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 88%
+source-wordcount: '2600'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Esta página de destino le ayuda a elegir el método de prueba adecuado según l
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vista previa, prueba y validación de contenido
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo obtener una vista previa, probar y validar cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flujos de trabajo de aprobación para recorridos y campañas
 
@@ -46,7 +46,7 @@ Obtenga información sobre cómo configurar, administrar y ejecutar procesos de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prueba del recorrido
 
@@ -56,7 +56,7 @@ Valide el recorrido antes de publicarlo probándolo con perfiles específicos pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ensayo del recorrido
 
@@ -66,7 +66,7 @@ Realice un ensayo para simular y validar la ruta de ejecución del recorrido e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorización y solución de problemas
 
@@ -76,7 +76,7 @@ Acceda a recursos completos de solución de problemas, alertas del sistema y có
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Zona de juegos de personalización
 
@@ -86,7 +86,7 @@ Experimente con expresiones de personalización en un entorno seguro. Pruebe el 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Experimentos de contenido y pruebas A/B
 
@@ -96,7 +96,7 @@ Optimice sus campañas probando varias variaciones de contenido y midiendo el re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listas semilla para la monitorización de partes interesadas
 
@@ -106,7 +106,7 @@ Incluya automáticamente direcciones de partes interesadas internas en los enví
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Detección de conflictos
 
@@ -245,7 +245,7 @@ El método de prueba adecuado depende de lo que esté creando y de lo que necesi
 * Compruebe [conflictos](../using/conflict-prioritization/conflicts.md) con otros recorridos y campañas
 * Envíe para [aprobación](../using/test-approve/gs-approval.md) antes de publicar
 
-<!-- Not sure which of the three journey validation methods to use? See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+¿No está seguro de cuál de los tres métodos de validación de recorrido utilizar? Consulte [Elija cómo probar y validar su recorrido](../using/building-journeys/choose-validation-method.md) para ver una comparación completa.
 
 **Para recorridos complejos:**
 
@@ -301,7 +301,7 @@ Siga este enfoque de 4 fases para validar sus campañas y recorridos antes del l
 |-------|-------------|-------------|
 | **1. Validación de contenido** | Personalization, diseño, renderizado | [Vista previa con perfiles de prueba](../using/content-management/preview-test.md), probar [múltiples variaciones](../using/test-approve/simulate-sample-input.md) con CSV/JSON, comprobar [renderizado](../using/content-management/rendering.md) entre dispositivos |
 | **2. Comprobaciones técnicas** | Entregabilidad, vínculos, conflictos | Ejecutar [comprobaciones de puntuación de correo no deseado](../using/content-management/spam-report.md), validar vínculos, comprobar [conflictos](../using/conflict-prioritization/conflicts.md) con otras campañas |
-| **3. Lógica de recorrido** (solo recorridos) | Condiciones de entrada, flujo, ramificación | Use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) para una iteración rápida, [modo de prueba](../using/building-journeys/testing-the-journey.md) para recorrer la lógica con perfiles de prueba reales y [ejecución en seco](../using/building-journeys/journey-dry-run.md) para una comprobación final a escala <!-- — see [how to choose](../using/building-journeys/choose-validation-method.md) --> |
+| **3. Lógica de recorrido** (solo recorridos) | Condiciones de entrada, flujo, ramificación | Use [Simulación de Recorrido](../using/building-journeys/simulate-journey-gs.md) para una iteración rápida, [modo de prueba](../using/building-journeys/testing-the-journey.md) para recorrer la lógica con perfiles de prueba reales y [ejecución en seco](../using/building-journeys/journey-dry-run.md) para una comprobación final a escala; vea [cómo elegir](../using/building-journeys/choose-validation-method.md) |
 | **4. Antes del lanzamiento** | Configuración, aprobaciones, monitorización | Enviar para [aprobación](../using/test-approve/gs-approval.md), comprobar programaciones y públicos, habilitar [alertas](../using/reports/alerts.md) |
 
 **Sugerencia profesional:** comience con la [zona de juegos de personalización](../using/personalization/personalize.md#playground) para probar las expresiones antes de generar contenido y compruebe siempre la [detección de conflictos](../using/conflict-prioritization/conflicts.md) antes del inicio para evitar mensajes excesivos.
@@ -464,7 +464,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 **Simulación de Recorrido:** Ejecuta el recorrido con usuarios simulados temporales, no se necesitan perfiles de prueba de AEP reales. Envía mensajes reales a las direcciones configuradas de los usuarios simulados.
 **Modo de prueba:** Envía perfiles de prueba de AEP reales a través del recorrido, déclencheur acciones reales y genera mensajes de prueba. Requiere recorrido de borrador + espacio de nombres.
 **Ejecución en seco:** Rastrea rutas de ejecución en relación con datos de audiencia de producción real sin enviar nada. No se envían mensajes ni se ejecutan acciones.
-**Úsalos juntos:** Simulación de Recorrido al iterar en el diseño, modo de prueba para las pruebas lógicas/mensajes manuales con perfiles de prueba reales, ejecución en seco para una comprobación lógica final a escala.<!-- See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+**Úsalos juntos:** Simulación de Recorrido al iterar en el diseño, modo de prueba para prueba lógica/mensaje manual con perfiles de prueba reales, ejecución en seco para una comprobación lógica final a escala. Consulte [Elija cómo probar y validar su recorrido](../using/building-journeys/choose-validation-method.md) para ver una comparación completa.
 
 ### P: ¿Puedo probar recorridos en estado de producción/activo?
 
@@ -481,7 +481,7 @@ Aprenda cómo las funciones de prueba se conectan entre sí y con los flujos de 
 
 ### P: ¿Cómo pruebo las campañas activadas por API?
 
-**Opción 1:** utilizar [API de simulación de campaña &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
+**Opción 1:** utilizar [API de simulación de campaña ](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} para pruebas programáticas
 **Opción 2:** vista previa del contenido con perfiles de prueba en la IU
 **Opción 3:** enviar pruebas para probar las direcciones de correo electrónico
 **Práctica recomendada:** combinar las tres opciones para obtener una validación completa
