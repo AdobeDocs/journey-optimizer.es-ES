@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: probar, simular, simulación, modo de prueba, ejecución en seco, recorrido, validar, comparar, elegir, guía de decisión
 version: Journey Orchestration
 hide: true
-source-git-commit: 389b459608eb4abd020233e534120ddcd3d7847a
+source-git-commit: d10f3af7e2557c48be93694d4eb8f87d06332e42
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2289'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 >[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] le ofrece tres formas de validar un recorrido antes de que se ponga en marcha. No son intercambiables: cada uno utiliza un tipo diferente de datos, se adapta a una fase diferente de la compilación y conlleva diferentes consecuencias en el mundo real. Comprender la diferencia por adelantado le ayuda a evitar dos errores comunes: dedicar tiempo a crear perfiles de prueba cuando una simulación rápida lo haría, o suponer que un paso de validación es completamente &quot;seguro&quot; cuando aún puede ponerse en contacto con bandejas de entrada reales o realizar llamadas salientes reales.
+
+Esta página se centra en la validación del flujo de recorrido y la lógica de ramificación. Para obtener una imagen completa de las capacidades de prueba y aprobación, incluida la vista previa de contenido, el procesamiento de correo electrónico y las comprobaciones de correo no deseado, los experimentos A/B y los flujos de trabajo de aprobación, consulte [Probar, validar y aprobar](../../rp_landing_pages/test-landing-page.md).
 
 ## ¿Es nuevo en validación? Empiece aquí {#quick-pick}
 
@@ -141,6 +143,7 @@ Ninguno de estos métodos contacta con clientes reales. Los datos de perfil tamp
 * **[Publicar su recorrido](publish-journey.md)**: Requisitos previos y proceso de publicación
 * **[Introducción a recorrido](journey.md)**: Información general sobre aspectos básicos y funcionalidades
 * **[Preguntas frecuentes sobre Journey Orchestration](journey-faq.md)** — Preguntas frecuentes respondidas
+* **[Probar, validar y aprobar](../../rp_landing_pages/test-landing-page.md)**: entorno de prueba y aprobación completo, que incluye vista previa de contenido, comprobaciones de procesamiento/correo no deseado, experimentos y flujos de trabajo de aprobación
 
 +++ Referencia de conocimientos de AI
 
