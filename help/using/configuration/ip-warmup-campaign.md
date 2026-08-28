@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
+source-git-commit: 12c97ba2a2f0f8f25206f5462c821e43d87deb0a
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 9%
+source-wordcount: 597
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,9 @@ Para crear una campaña de calentamiento de IP, siga los pasos a continuación.
    >
    >Las audiencias permitidas en una campaña de calentamiento de IP deben estar [basadas en segmentos](../audience/creating-a-segment-definition.md) y creadas con la [política de combinación predeterminada](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
-   >Las audiencias de carga de CSV no son compatibles con las campañas de calentamiento de IP, por lo que se producirá un error al activar la campaña.
+   >Los siguientes tipos de audiencia no son compatibles con las campañas de calentamiento de IP y provocarán un error al activarlas:
+   >* **[Audiencias de carga de CSV](../audience/custom-upload.md)**
+   >* [Audiencias de Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} (audiencias creadas con consultas SQL)
 
    Para obtener más información sobre cómo configurar una campaña, consulte [esta página](../campaigns/get-started-with-campaigns.md).
 
