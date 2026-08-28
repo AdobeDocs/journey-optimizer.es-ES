@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
 workflow-type: tm+mt
-source-wordcount: 4884
-ht-degree: 86%
+source-wordcount: 4929
+ht-degree: 85%
 
 ---
 
@@ -454,7 +454,12 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Para crear, editar, archivar y publicar fragmentos, necesita los permisos **[!DNL Manage library items]** y **[Publicar fragmento]** incluidos en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
-* Los fragmentos visuales no pueden superar los **100 KB**. Los fragmentos de expresión no pueden superar los **200 KB**.
+* Los fragmentos no pueden exceder los **700 KB**. Es una protección del sistema para el almacenamiento y el procesamiento de tamaño de fragmento. Para permanecer por debajo de este umbral, divida el contenido grande en varios fragmentos reutilizables, reduzca el marcado intenso y optimice los recursos vinculados.
+
+  >[!NOTE]
+  >
+  >Si un fragmento visual supera los **100 KB** o un fragmento de expresión supera los **200 KB**, esto puede causar problemas de truncamiento en la entrega de correo electrónico.
+
 * **Límites de recuento de fragmentos**: el número de fragmentos únicos utilizados dentro de un fragmento de contenido se valida durante la creación. Solo se cuentan los fragmentos (incluidos los fragmentos de AEM) a los que se hace referencia directamente: los fragmentos anidados dentro de otros fragmentos no se cuentan por separado.
 
   * **Por variante**: hasta 60 fragmentos únicos por variante de contenido. Se muestra una advertencia cuando el uso alcanza el 45 (75 % del límite); la publicación se bloquea al 60.
