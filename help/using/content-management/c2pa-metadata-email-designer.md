@@ -58,4 +58,4 @@ Todavía no hay una forma de inspeccionar una Content Credential directamente de
 ## Recursos adicionales
 
 * [Metadatos de C2PA en Generar contenido](generative-c2pa-metadata.md)
-* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
