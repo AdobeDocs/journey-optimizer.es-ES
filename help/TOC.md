@@ -6,10 +6,10 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: d1cae5de98b0536e85f0aa9e2e4290d530290753
 workflow-type: tm+mt
-source-wordcount: '3503'
-ht-degree: 93%
+source-wordcount: '3513'
+ht-degree: 92%
 
 ---
 
@@ -572,7 +572,9 @@ ht-degree: 93%
   + Generar contenido {#generate-content}
     + [Introducción a la generación de contenido](using/content-management/gs-generative.md)
     + [Prácticas recomendadas de indicaciones a la IA](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials en Generar contenido](using/content-management/generative-c2pa-metadata.md)
+    + Metadatos de C2PA {#c2pa}
+      + [Metadatos de C2PA en Generar contenido](using/content-management/generative-c2pa-metadata.md)
+      + [Metadatos de C2PA en Designer de correo electrónico y página de aterrizaje](using/content-management/c2pa-metadata-email-designer.md)
     + [Generación de contenido completo con IA](using/content-management/generative-full-content.md)
     + [Generación de texto con IA](using/content-management/generative-text.md)
     + [Generación de imágenes con IA](using/content-management/generative-image.md)
