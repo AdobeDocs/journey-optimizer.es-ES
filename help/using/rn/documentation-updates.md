@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 10287
-ht-degree: 79%
+source-wordcount: 10454
+ht-degree: 78%
 
 ---
 
@@ -28,6 +28,14 @@ ht-degree: 79%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Agosto de 2026 {#august-2026}
+
+* La página **Agregar fragmentos visuales a tus correos electrónicos** ahora aclara que un fragmento con contenido dinámico y un estado predeterminado vacío aparece en blanco en el Designer de correo electrónico, simula con un perfil coincidente para obtener una vista previa del contenido. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* La página **Seguir tus mensajes** se ha actualizado para aclarar que los caracteres de URL no admitidos (por ejemplo, apóstrofos) deben tener una codificación porcentual y que, si no se codifican, pueden romperse los vínculos seguidos y los parámetros de seguimiento de URL. [Más información](../email/message-tracking.md#insert-links)
+
+* La página **Enviar mediante oleadas** se ha actualizado para documentar que la última oleada de un recorrido de lectura-audiencia debe programarse en un plazo de **6 días y 18 horas** desde el inicio del recorrido. Si se supera esta ventana, se déclencheur un error de validación y se evita que la recorrido entre en el modo de prueba o se active. [Más información](../delivery/send-using-waves.md#limitations-guardrails)
+
+* Se ha agregado una nueva sección **Suprimir eventos de comentarios** a la página **Recopilación de datos de administración de decisiones**, en la que se documenta cómo usar el indicador `dryRun` para suprimir eventos de decisión durante las pruebas y evitar que se recopilen comentarios para los contadores de informes y límite de frecuencia. [Más información](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * Ya está disponible la nueva página **Elegir un método de validación**. Compara la simulación de Recorrido, el modo de prueba y la ejecución en seco de Recorrido: los datos que utiliza cada uno, independientemente de si envía mensajes reales, errores comunes que se deben evitar y una guía de decisión para elegir el método adecuado en cada fase de la creación de un recorrido. [Más información](../building-journeys/choose-validation-method.md)
 

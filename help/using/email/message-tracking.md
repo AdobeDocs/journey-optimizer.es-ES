@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ Para insertar vínculos en el contenido del correo electrónico, siga los pasos 
 
 1. Introduzca la dirección URL deseada en el campo correspondiente o seleccione una página de aterrizaje y defina la configuración y los estilos del vínculo. [Más información](#adjust-links)
 
-   >[!NOTE]
+   Para interpretar direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL agregada al contenido, la dirección URL codifica la cadena como una solución alternativa. Por ejemplo, si una ruta de acceso a la dirección URL contiene un apóstrofo (`'`), use `%27` en su lugar (por ejemplo, `https://example.com/nature%27s-miracle` en lugar de `https://example.com/nature's-miracle`).
+
+   >[!CAUTION]
    >
-   >Para interpretar direcciones URL, [!DNL Journey Optimizer] cumple con la sintaxis de URI ([estándar RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), que deshabilita algunos caracteres internacionales especiales en las direcciones URL. Al intentar enviar la prueba o el correo electrónico, si se le devuelve un error que implica una dirección URL añadida al contenido, puede codificar la cadena como una solución alternativa.
+   >Cuando se utilizan vínculos rastreados o parámetros de seguimiento de URL anexados, dejar sin codificar caracteres no admitidos puede llevar a un control de URL descendente incorrecto después del redireccionamiento. Codifique los caracteres no admitidos para conservar la dirección URL de destino completa.
 
 1. Puede personalizar los vínculos. [Más información](url-personalization.md)
 
