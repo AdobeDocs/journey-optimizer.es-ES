@@ -96,4 +96,4 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 
 ➡️ Vea cómo medir el rendimiento de los desafíos con los informes de desafíos
 
->[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497562?captions=spa&quality=12)
