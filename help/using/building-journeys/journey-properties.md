@@ -11,26 +11,15 @@ keywords: recorrido, configuración, propiedades
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 5141
+source-wordcount: 5676
 ht-degree: 10%
 
 ---
@@ -39,7 +28,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a establecer las propiedades globales de un recorrido, incluido su nombre, reglas de entrada, huso horario, fechas de inicio y finalización, tiempo de espera, criterios de salida y administración de conflictos, desde el carril derecho durante la creación.
+**En esta página:** Aprenda a establecer las propiedades globales de un recorrido, incluido su nombre, reglas de entrada, huso horario, fechas de inicio y finalización, tiempo de espera, criterios de salida, administración de conflictos y configuración de exclusión (disponibilidad limitada), desde el carril derecho durante la creación.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +48,7 @@ En esta sección, defina el nombre del recorrido, añada una descripción y defi
 Puede hacer lo siguiente:
 
 * Asigne etiquetas unificadas [!DNL Adobe Experience Platform] al recorrido para clasificarlas fácilmente y mejorar la búsqueda desde la lista de campañas. [Descubra cómo trabajar con campañas](../start/search-filter-categorize.md#tags)
-* Seleccione las métricas de recorridos. [Aprenda a configurar y rastrear sus métricas de recorridos](success-metrics.md)
+* Seleccione las métricas de éxito de recorridos. [Aprenda a configurar y rastrear sus métricas de éxito de recorridos](success-metrics.md)
 * Administrar [entrada y reentrada](#entrance). La administración de la entrada del perfil depende del tipo de recorrido. Los detalles están disponibles en [esta página](entry-management.md)
 * Administrar [acceso a datos](#manage-access)
 * Seleccione el recorrido y el perfil [husos horarios](#timezone)
@@ -67,6 +56,7 @@ Puede hacer lo siguiente:
 * Defina un tiempo de espera de [timeout duration](#timeout) en las actividades de recorrido (solo para usuarios administradores)
 * Supervise el [tamaño actual de carga útil de recorrido](#journey-payload-size) para evitar errores de publicación
 * Supervise los conflictos y dé prioridad a sus recorridos con [herramientas de administración de conflictos](#conflict)
+* [Mida el alza de recorridos con un grupo de exclusión (disponibilidad limitada)](#performance-management) para cuantificar la efectividad incremental de su recorrido
 
 ![panel de configuración de propiedades de Recorrido con configuración general y opciones avanzadas](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
@@ -474,6 +464,37 @@ La sección **[!UICONTROL Administración de conflictos]** de las propiedades de
 
 * **Ver conflictos** con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. [Aprenda a identificar posibles conflictos en el recorrido](../conflict-prioritization/conflicts.md)
 
+## Mida la elevación del recorrido con un grupo de retención {#performance-management}
+
+>[!AVAILABILITY]
+>
+>Actualmente, esta capacidad está en disponibilidad limitada. Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_performance_measurement"
+>title="Medición del rendimiento"
+>abstract="Configure un grupo de exclusión de nivel de recorrido para medir la efectividad incremental del recorrido. Seleccione una métrica de éxito y defina un porcentaje de exclusión para excluir esa parte de la audiencia de la entrada en el recorrido. Los perfiles excluidos se rastrean mediante eventos de exclusión y se pueden comparar con perfiles activos en los informes de Customer Journey Analytics para medir el alza."
+
+La sección **[!UICONTROL Medición de rendimiento]** en las propiedades del recorrido le permite configurar un **grupo de espera de nivel de recorrido** para medir la efectividad incremental de su recorrido.
+
+Un holdout es un porcentaje aleatorio seleccionado de la audiencia de destino que se excluye de la entrada al recorrido y no recibe comunicación. Al comparar los resultados de los perfiles de exclusión con los de los perfiles que ingresaron al recorrido, puede medir el alza incremental, es decir, el impacto real que el recorrido tiene en la audiencia.
+
+### Configuración de la exclusión {#configure-holdout}
+
+Para configurar una resistencia para el recorrido:
+
+1. En la sección de propiedades de recorrido **[!UICONTROL Medición de rendimiento]**, seleccione la **[!UICONTROL métrica de éxito]** que desee usar para medir el rendimiento del recorrido y calcular el alza incremental respecto al grupo de exclusión.
+
+1. Cambie **[!UICONTROL Measure lift mediante holdout]** para habilitar el grupo de holdout.
+
+1. Escriba **[!UICONTROL Holdout percentage]**: el porcentaje de audiencia que se excluirá de la entrada al recorrido.
+
+   ![](assets/performance-measurement.png)
+
+   *En este ejemplo, el 50% de la audiencia se asignará al grupo de no participación y no entrará en el recorrido. Para el resto de la audiencia, el recorrido se ejecutará normalmente y Customer Journey Analytics utilizará la métrica Aperturas de correo electrónico (AJO) para medir el alza.*
+
+1. Haga clic en **[!UICONTROL Save]**.
+
 ## Preguntas frecuentes {#faq}
 
 **¿Dónde encuentro las propiedades de un recorrido?**
@@ -490,7 +511,7 @@ La mayoría de las propiedades son de solo lectura una vez que el recorrido est�
 
 **¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
 
-Un tiempo de espera de recorrido global de [1&rbrace; detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. &#x200B;](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
+Un tiempo de espera de recorrido global de [1} detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. ](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
 
 **¿Por qué no se puede publicar mi recorrido debido al tamaño de la carga útil?**
 
@@ -547,6 +568,9 @@ En esta página se explica cómo configurar y administrar todas las configuracio
 * **Administración de conflictos**: herramientas en propiedades de recorrido para asignar puntuaciones de prioridad, aplicar conjuntos de reglas e identificar recorridos o campañas superpuestos. *(específico del producto)*
 * **Tamaño de carga útil de Recorrido**: El tamaño actual de la carga útil de definición del recorrido en comparación con el límite configurado; al exceder el límite, se bloquea la publicación. *(específico del producto)*
 * **OLAC (Control de acceso de nivel de objeto)**: modelo de permisos que restringe el acceso a recorridos individuales que utilizan etiquetas de uso de datos.
+* **Grupo de espera (nivel de recorrido) (disponibilidad limitada)**: configurado en la sección de propiedades de recorrido de **Medir alza de recorrido con un grupo de espera**; le permite excluir un porcentaje de su audiencia del recorrido para medir su efectividad incremental. *(específico del producto)*
+* **Grupo de espera**: Un porcentaje de la audiencia objetivo excluida de entrar en un recorrido, usado como línea de base para medir la efectividad incremental del recorrido. Los perfiles del grupo de exclusión se rastrean mediante eventos de exclusión. *(específico del producto)*
+* **Aumento incremental**: La diferencia mensurable en el resultado entre perfiles que entraron en el recorrido (grupo activo) y perfiles que no lo hicieron (grupo de exclusión), utilizada para cuantificar el verdadero impacto del recorrido.
 
 >[!TAB Terminología]
 
@@ -565,6 +589,10 @@ En esta página se explica cómo configurar y administrar todas las configuracio
 * Cuando se actualiza una política de combinación de audiencias, cualquier recorrido activo que haga referencia a esa audiencia debe volver a publicarse
 * Políticas de combinación incoherentes en una publicación de bloque de recorrido; las incoherencias en la personalización de los mensajes no avisan
 * En el caso de los recorridos activos, el panel de propiedades muestra solo la fecha de publicación y el nombre del editor
+* Holdout: mínimo del 5 % de la audiencia y 1000 perfiles recomendados para la relevancia estadística
+* Holdout: las métricas de aperturas y clics no son significativas; use métricas de conversión de la parte inferior de funnel en su lugar
+* Holdout: solo se admite una métrica de éxito por recorrido; no se admite el holdout entre recorridos
+* Los cambios de porcentaje de exclusión en una nueva versión del recorrido solo se aplican a los nuevos visitantes
 
 >[!TAB Preguntas más frecuentes]
 
@@ -591,5 +619,9 @@ La fecha de finalización detiene todas las nuevas entradas y sale automáticame
 **Q: ¿Cómo se determina la política de combinación para un recorrido?**
 
 Depende del tipo de recorrido: Leer audiencia y recorridos de calificación de audiencia utilizan la política de combinación de la audiencia; recorridos de evento unitarios utilizan la política de combinación predeterminada; recorridos de evento empresarial utilizan la política de combinación de la audiencia de destino en la actividad de lectura de audiencia posterior.
+
+**Q: ¿Cómo funciona el grupo de exclusión?**
+
+El grupo de exclusión es un porcentaje configurable de la audiencia de destino que no puede entrar en el recorrido. La asignación es determinista (el mismo perfil siempre se asigna a holdout para el mismo recorrido) y se evalúa al entrar en el tiempo. Los perfiles de exclusión no reciben ninguna comunicación, pero se rastrean mediante eventos de exclusión en el conjunto de datos para la creación de informes de elevación de CJA descendente. Ver [Medir el alza de recorridos con un grupo de exclusión](#performance-management).
 
 >[!ENDTABS]
