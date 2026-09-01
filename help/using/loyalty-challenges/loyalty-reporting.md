@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Debajo de las métricas clave, la sección **Desafíos** le ofrece dos vistas de
 ![](assets/reporting-challenge-challenges.png)
 
 * **Participación en el desafío**: Una cronología que muestra cuántos miembros iniciaron, están en curso y completaron desafíos durante el período.
-* **Informes de desafíos**: Una tabla de todos tus desafíos con detalles como tipo, tareas, estado y números de inscripción. Utilice la barra de búsqueda para encontrar un desafío específico. Seleccione un desafío para ver su informe completo con tendencias de participación y detalles de rendimiento.
+* **Informes de desafíos**: Una tabla de todos tus desafíos con detalles como tipo, estado y números de inscripción. Utilice la barra de búsqueda para encontrar un desafío específico. Seleccione un desafío para ver su informe completo con tendencias de participación y detalles de rendimiento.
 
   +++Ejemplo de informe de desafío
 
@@ -96,4 +96,4 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 
 ➡️ Vea cómo medir el rendimiento de los desafíos con los informes de desafíos
 
->[!VIDEO](https://video.tv.adobe.com/v/3497562?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
