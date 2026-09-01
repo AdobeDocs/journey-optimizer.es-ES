@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 4929
-ht-degree: 85%
+source-wordcount: 5006
+ht-degree: 83%
 
 ---
 
@@ -361,19 +361,22 @@ Las siguientes limitaciones se aplican a la actividad [canal de correo electrón
 
 Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe superar los **2 MB** después del procesamiento del back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
 
+Esta limitación de tamaño también se aplica a otras operaciones backend que procesan la carga útil de correo electrónico completa, como **[!UICONTROL Copiar a otras configuraciones regionales]** en [administración de contenido multilingüe](../content-management/multilingual-manual.md). Aunque solo esté copiando contenido entre configuraciones regionales, la operación serializa y procesa la carga útil de correo electrónico completa, por lo que puede fallar con el mismo error de tamaño.
+
 >[!CAUTION]
 >
->Si el contenido final del mensaje procesado supera los **2 MB**, fallará la publicación del recorrido. Mantenga el contenido del mensaje creado por debajo de 2 MB (preferiblemente por debajo de **1 MB**) para disponer de un margen de entre 300 y 400 KB para la sobrecarga de procesamiento en el back-end.
+>Si el contenido final del mensaje procesado sobrepasa los **2 MB**, se producirá un error en la operación (recorrido la publicación o copia en otras configuraciones regionales). Mantenga el contenido del mensaje creado muy por debajo de los 2 MB, idealmente por debajo de **1 MB**, para permitir un búfer de 300-400 KB para la sobrecarga de procesamiento del servidor.
 
-**Prácticas recomendadas para evitar errores de publicación:**
+**Prácticas recomendadas para evitar errores:**
 
 * Mantener el contenido del correo electrónico creado por debajo de **1 MB**
 * Minimizar el número de variantes de contenido
 * Optimizar y comprimir imágenes antes de añadirlas a los mensajes
 * Eliminar recursos no utilizados y elementos de HTML innecesarios
 * Compruebe el tamaño del mensaje antes de publicar recorridos en producción
+* Cuando copie contenido en varias configuraciones regionales, copie a menos configuraciones regionales a la vez para reducir la sobrecarga de procesamiento
 
-Si la publicación del recorrido falla debido al tamaño del contenido, reduzca el contenido del mensaje y vuelva a publicar el recorrido.
+Si la publicación o la operación de copia falla debido al tamaño del contenido, reduzca el contenido del mensaje e inténtelo de nuevo.
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
