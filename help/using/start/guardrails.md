@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 4929
-ht-degree: 85%
+source-wordcount: 5006
+ht-degree: 83%
 
 ---
 
@@ -210,7 +201,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
@@ -361,19 +352,22 @@ Las siguientes limitaciones se aplican a la actividad [canal de correo electrón
 
 Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe superar los **2 MB** después del procesamiento del back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
 
+Esta limitación de tamaño también se aplica a otras operaciones backend que procesan la carga útil de correo electrónico completa, como **[!UICONTROL Copiar a otras configuraciones regionales]** en [administración de contenido multilingüe](../content-management/multilingual-manual.md). Aunque solo esté copiando contenido entre configuraciones regionales, la operación serializa y procesa la carga útil de correo electrónico completa, por lo que puede fallar con el mismo error de tamaño.
+
 >[!CAUTION]
 >
->Si el contenido final del mensaje procesado supera los **2 MB**, fallará la publicación del recorrido. Mantenga el contenido del mensaje creado por debajo de 2 MB (preferiblemente por debajo de **1 MB**) para disponer de un margen de entre 300 y 400 KB para la sobrecarga de procesamiento en el back-end.
+>Si el contenido final del mensaje procesado sobrepasa los **2 MB**, se producirá un error en la operación (recorrido la publicación o copia en otras configuraciones regionales). Mantenga el contenido del mensaje creado muy por debajo de los 2 MB, idealmente por debajo de **1 MB**, para permitir un búfer de 300-400 KB para la sobrecarga de procesamiento del servidor.
 
-**Prácticas recomendadas para evitar errores de publicación:**
+**Prácticas recomendadas para evitar errores:**
 
 * Mantener el contenido del correo electrónico creado por debajo de **1 MB**
 * Minimizar el número de variantes de contenido
 * Optimizar y comprimir imágenes antes de añadirlas a los mensajes
 * Eliminar recursos no utilizados y elementos de HTML innecesarios
 * Compruebe el tamaño del mensaje antes de publicar recorridos en producción
+* Cuando copie contenido en varias configuraciones regionales, copie a menos configuraciones regionales a la vez para reducir la sobrecarga de procesamiento
 
-Si la publicación del recorrido falla debido al tamaño del contenido, reduzca el contenido del mensaje y vuelva a publicar el recorrido.
+Si la publicación o la operación de copia falla debido al tamaño del contenido, reduzca el contenido del mensaje e inténtelo de nuevo.
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
