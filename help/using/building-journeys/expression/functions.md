@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: 1421
 ht-degree: 7%
 
 ---
@@ -109,6 +109,7 @@ Trabaje con fechas, horas y zonas horarias para crear condiciones basadas en el 
 | Función | Descripción |
 |----------|-------------|
 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) | Obtener el tiempo actual en milisegundos |
+| [dateDiff](../functions/date-functions.md#dateDiff) | Calcular la diferencia entre dos fechas o fecha-hora |
 | [inLastDays](../functions/date-functions.md#inLastDays) | Comprobar si la fecha está dentro de los últimos N días |
 | [inLastHours](../functions/date-functions.md#inLastHours) | Comprobar si la fecha está dentro de las últimas N horas |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | Comprobar si la fecha está dentro de los últimos N meses |
@@ -216,7 +217,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 * Identificar la función correcta para una tarea explorando las tablas de funciones clasificadas
 * Transforme tipos de datos entre cadena, entero, decimal, booleano, fecha y duración mediante funciones de conversión
-* Realizar filtrado basado en fecha con funciones como `inLastDays`, `inNextHours` y `nowWithDelta`
+* Realizar filtrado basado en fecha con funciones como `inLastDays`, `inNextHours`, `nowWithDelta` y `dateDiff`
 * Manipular y validar valores de cadena mediante funciones como `contain`, `replace`, `split` y `trim`
 * Realizar cálculos estadísticos sobre las colecciones mediante funciones de agregación como `count`, `avg`, `sum` y `distinctCount`
 * Comprobar la pertenencia a audiencias en condiciones de recorrido mediante la función `inAudience`
@@ -247,6 +248,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Cuántas funciones están disponibles en el editor de expresiones de Recorrido?** — Más de 60 funciones organizadas en diferentes categorías, incluidas agregación, conversión, fecha, lista, matemáticas, cadena y Adobe Experience Platform.
 * **Q: ¿Cómo puedo comprobar si un perfil pertenece a una audiencia en una condición de recorrido?** — Utilice la función `inAudience` con el identificador de audiencia.
 * **Q: ¿Qué función debo usar para compensar la fecha y hora actuales con un número de días?** — Use `nowWithDelta(N, "days")` para obtener un desplazamiento de dateTime con respecto a la hora actual.
+* **Q: ¿Cómo puedo calcular la diferencia entre dos fechas?** — Usar la función `dateDiff`. Ambos parámetros deben ser del mismo tipo: `dateOnly` parámetros devuelven la diferencia en días, mientras que `dateTimeOnly` y `dateTime` parámetros devuelven la diferencia en milisegundos.
 * **Q: ¿Puede una función devolver tipos diferentes dependiendo de cómo se llame?** — Una función tiene un tipo de valor devuelto específico por firma, pero un solo nombre de función puede tener varias firmas con diferentes conjuntos de parámetros y tipos de valor devuelto.
 * **Q: ¿Cuál es la diferencia entre `count` y `countWithNull`?** — `count` solo cuenta elementos no nulos; `countWithNull` cuenta todos los elementos, incluidos los valores nulos.
 

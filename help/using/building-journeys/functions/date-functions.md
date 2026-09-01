@@ -9,20 +9,15 @@ keywords: fecha, funciones, expresión, recorrido, hora
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 7%
+source-wordcount: 1710
+ht-degree: 6%
 
 ---
 
@@ -33,6 +28,7 @@ Las funciones de fecha permiten manipular y trabajar con valores de fecha y hora
 Utilice las funciones de fecha cuando necesite:
 
 * Obtener la hora o fecha actual con el control específico de zona horaria ([ahora](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Calcule la diferencia entre dos fechas u horas, en días o milisegundos, según el tipo de parámetro ([dateDiff](#dateDiff))
 * Compruebe si una fecha está dentro de un intervalo de tiempo específico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
 * Modificar componentes de fecha y hora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Realizar cálculos y comparaciones basados en el tiempo
@@ -73,6 +69,67 @@ Devuelve un entero.
 `currentTimeInMillis()`
 
 Devuelve &quot;1544712617131&quot;
+
++++
+
+## dateDiff {#dateDiff}
+
+Devuelve la diferencia entre dos fechas u horas del mismo tipo. La unidad del resultado depende del tipo de parámetro: `dateOnly` parámetros devuelven la diferencia en **días**, mientras que `dateTimeOnly` y `dateTime` parámetros devuelven la diferencia en **milisegundos**. Devuelve `null` si alguno de los parámetros es `null`.
+
+>[!NOTE]
+>
+>Esta función es diferente de `dateDiff`, disponible en el [editor de personalización](../../personalization/functions/dates.md#date-diff). La versión del editor de personalización solo acepta `dateTime` parámetros y siempre devuelve la diferencia en días.
+
++++Sintaxis
+
+`dateDiff(<date1>,<date2>)`
+
++++
+
++++Parámetros
+
+| Parámetro | Tipo |
+|-----------|--------------------------------------|
+| fecha 1 | dateOnly, dateTimeOnly o dateTime |
+| fecha 2 | dateOnly, dateTimeOnly o dateTime |
+
+Ambos parámetros deben utilizar el mismo tipo de datos; no se admiten los tipos de mezcla (por ejemplo, `dateOnly` con `dateTime`). Los parámetros pueden ser valores de fecha literales, otras funciones como `now()` o atributos contextuales (campos de carga útil de evento, campos de respuesta de acción personalizada, campos de entidad o perfil y variables) siempre y cuando se escriban como `dateOnly`, `dateTimeOnly` o `dateTime`.
+
++++
+
++++Firmas y tipo devuelto
+
+`dateDiff(<dateOnly>,<dateOnly>)`
+
+Devuelve un entero que representa el número de días entre las dos fechas.
+
+`dateDiff(<dateTimeOnly>,<dateTimeOnly>)`
+
+Devuelve un entero que representa el número de milisegundos entre las dos fechas y horas.
+
+`dateDiff(<dateTime>,<dateTime>)`
+
+Devuelve un entero que representa el número de milisegundos entre las dos fechas y horas.
+
++++
+
++++Ejemplos
+
+`dateDiff(toDateOnly('2023-12-15'), toDateOnly('2023-12-12'))`
+
+Devuelve 3 (días).
+
+`dateDiff(toDateTimeOnly('2023-12-15T00:00:00'), toDateTimeOnly('2023-12-12T00:00:00'))`
+
+Devuelve 259200000 (milisegundos, equivalente a 3 días).
+
+`dateDiff(now(), toDateTime('2024-12-25T00:00:00Z'))`
+
+Devuelve el número de milisegundos entre hoy y el 25 de diciembre de 2024.
+
+`dateDiff(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate}, toDateOnly('2023-01-01'))`
+
+Devuelve el número de días entre el campo `birthDate` del perfil y el 1 de enero de 2023, suponiendo que `birthDate` tiene el tipo `dateOnly`.
 
 +++
 
@@ -494,7 +551,7 @@ Devuelve 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Regresa mañana a las 8:XY p.m., siendo XY los minutos en el momento de la evaluación de la hora actual. Si la evaluación se realiza a las 2:45 a. m., la hora devuelta será las 8:45 p. m.
+Regresa mañana a las 8:XY p.m., siendo XY los minutos en el momento de la evaluación de la hora actual. Si la evaluación se realiza a las 2:45, la hora de retorno será las 8:45 p.m.
 
 +++
 
@@ -588,12 +645,14 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **Intenciones:**
 * Obtener la fecha y hora actual (con zona horaria opcional) utilizando `now` o `nowWithDelta`
 * Recuperar la hora actual como un entero epoch usando `currentTimeInMillis`
+* Calcule la diferencia entre dos fechas u horas utilizando `dateDiff`
 * Compruebe si una fecha y hora se encuentra dentro de los últimos N días, horas, meses o años con `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`
 * Compruebe si una fecha y hora se encuentra dentro de los N días, horas, meses o años siguientes usando `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`
 * Forzar una hora o día específico del mes en un valor datetime utilizando `setHours` o `setDays`
 * Convertir una fecha y hora en una zona horaria diferente preservando al mismo tiempo el mismo instante mediante `updateTimeZone`
 
 **Glosario:**
+* **dateOnly**: un valor de fecha sin información de hora o zona horaria *(específico del producto)*
 * **dateTime**: un valor de fecha y hora que incluye información de desplazamiento de zona horaria *(específico del producto)*
 * **dateTimeOnly**: un valor de fecha y hora sin información de zona horaria *(específico del producto)*
 * **epoch milisegundos**: Un entero que representa el número de milisegundos transcurridos desde 1970-01-01T00:00:00Z
@@ -603,6 +662,9 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * `now()` solo está disponible en expresiones de recorrido; en su lugar, utilice `getCurrentZonedDateTime()` para la personalización del correo electrónico
 * El identificador de zona horaria de `nowWithDelta` debe ser una constante de cadena; no se admiten referencias de campo ni expresiones dinámicas
 * El identificador de zona horaria de `updateTimeZone` debe ser una constante de cadena
+* `dateDiff` requiere que ambos parámetros sean del mismo tipo de datos (`dateOnly`, `dateTimeOnly` o `dateTime`); no se admiten los tipos de mezcla
+* `dateDiff` devuelve `null` si alguno de los parámetros es `null`
+* `dateDiff` devuelve días para `dateOnly` parámetros, pero milisegundos (no días) para `dateTimeOnly` y `dateTime` parámetros (conviértalos como corresponda al comparar los resultados entre tipos)
 
 **Terminología:**
 * Nombre canónico: Funciones de fecha — Acrónimo: none — variantes: funciones de fecha y hora, funciones temporales
@@ -610,6 +672,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * No confunda: &quot;inLastDays&quot; (retrocede en el tiempo) ≠ &quot;inNextDays&quot; (retrocede en el tiempo)
 * No confunda: &quot;setHours&quot; (reemplaza el componente de hora) ≠ &quot;nowWithDelta&quot; (desplaza la hora actual)
 * No confunda: &quot;updateTimeZone&quot; (mismo instante, diferente representación de zona horaria) ≠ &quot;setHours&quot; (cambia el valor de hora en sí)
+* No confunda: `dateDiff` del editor de expresiones de recorrido (acepta `dateOnly`, `dateTimeOnly` o `dateTime`; devuelve días o milisegundos según el tipo) ≠ `dateDiff` del editor de personalización (solo acepta `dateTime`; siempre devuelve días)
 
 **PREGUNTAS MÁS FRECUENTES:**
 * **Q: ¿Puedo usar `now()` en el contenido de personalización de correo electrónico?** — No, `now()` solo está disponible en expresiones de recorrido. Usar `getCurrentZonedDateTime()` para la personalización del correo electrónico.
