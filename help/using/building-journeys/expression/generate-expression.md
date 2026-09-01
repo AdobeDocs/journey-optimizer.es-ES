@@ -7,14 +7,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta pública" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 2%
+source-wordcount: 1117
+ht-degree: 1%
 
 ---
 
@@ -26,15 +25,13 @@ ht-degree: 2%
 >title="Generación de expresiones con IA"
 >abstract="Utilice IA para crear y generar expresiones directamente en el editor de expresiones avanzadas de Recorrido. Por ejemplo, en las condiciones, las actividades **Optimizar** o las actividades **Esperar** que usan una fecha personalizada. Cuando describe lo que necesita en lenguaje sencillo, AI genera la expresión correspondiente."
 
->[!AVAILABILITY]
->
->Esta característica se encuentra actualmente en **versión beta pública**. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../../rn/releases.md).
+>[!IMPORTANT]
 >
 >Antes de usar esta capacidad, lea las [protecciones y limitaciones](../../content-management/gs-generative.md#generative-guardrails) relacionadas que se aplican a las características de IA generativa en Journey Optimizer.
 
 Esta capacidad con tecnología de IA, integrada en el editor de expresiones avanzadas de Recorrido, le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
@@ -91,6 +88,12 @@ Cuando una actividad **[!UICONTROL Wait]** usa una fecha personalizada, usted de
 * *&quot;nodo de espera: dentro de 30 días a las 10 p.m. solo como fecha y hora&quot;*
 * *&quot;esperar hasta las 9 a. m. de hoy en la zona horaria UTC, devolver solo como fecha y hora&quot;*
 
+### Mensajes de pertenencia a audiencia {#example-prompts-audience}
+
+Describa la comprobación de pertenencia a audiencia que desea realizar en lenguaje sencillo. Por ejemplo:
+
+* *&quot;comprobar si el perfil se encuentra en la audiencia de Lealtad oro&quot;*
+
 ## Recursos relacionados {#related}
 
 * [Trabajar con el editor de expresiones avanzadas](expressionadvanced.md): Información general sobre la interfaz del editor de expresiones y sintaxis admitida.
@@ -110,6 +113,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * Aplique una expresión generada directamente en el editor de expresiones avanzadas con el botón Aplicar
 * Utilice la generación de expresiones basadas en IA dentro de Optimizar actividades, Condicionar actividades y actividades de Espera de fecha personalizada
 * Proporcione peticiones de ejemplo para condiciones basadas en eventos y `dateTimeOnly` expresiones de espera
+* Compruebe el abono a audiencia utilizando un símbolo del sistema en lenguaje natural, como preguntar si un perfil está en la audiencia de Lealtad oro
 * Solucione los problemas de generación fallida revisando las indicaciones para hacer referencia a nombres de campo y fuentes de datos válidos
 
 **Glosario:**
@@ -121,7 +125,6 @@ Para una comprensión completa, esta información debe combinarse con la documen
 
 **Protecciones:**
 
-* Generar expresiones con IA está actualmente en **beta pública**; la disponibilidad y el comportamiento pueden cambiar
 * A esta función se aplican limitaciones y protecciones de IA generativas de la documentación principal de generación de contenido
 * Si el asistente hace referencia a campos que no están presentes en las fuentes de datos del recorrido, devuelve un error: revise el mensaje para utilizar los nombres de campo disponibles
 * La sintaxis de la expresión generada exacta depende de los campos y las actividades configurados en el recorrido específico
@@ -138,6 +141,4 @@ Para una comprensión completa, esta información debe combinarse con la documen
 * **Q: ¿Qué sucede si AI no puede generar una expresión válida?** — Aparecerá un mensaje de error; deberá revisar la solicitud para que utilice nombres de campo y fuentes de datos que existan en la configuración de recorrido.
 * **Q: ¿Cómo inserto una expresión generada en el editor?** — Haga clic en el botón **Aplicar** del panel del asistente para insertarlo directamente en la posición actual del cursor en el editor de expresiones avanzadas.
 * **Q: ¿Es posible generar expresiones con IA para crear expresiones `dateTimeOnly` para las actividades de espera?** — Sí; por ejemplo, si se solicita &quot;dentro de 30 días a las 10 p.m. solo hora de fecha&quot;, se generará la expresión `dateTimeOnly` adecuada.
-* **Q: ¿Está disponible de forma general Generar expresiones con IA?** — No; actualmente está en versión beta pública. Consulte la página Ciclo de versiones de Journey Optimizer para ver las actualizaciones de disponibilidad.
-
 +++
