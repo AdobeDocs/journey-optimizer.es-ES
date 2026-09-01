@@ -12,24 +12,16 @@ mini-toc-levels: 1
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 TQID: https://experienceleague.adobe.com/8D-sZ8--lEZSWcfVb9Q-dT59WqBQM2tRV5ses3PX0Ps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+source-git-commit: 6258db4eb542a124b5eae54aa0c8ec49004945d3
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 9%
+source-wordcount: 902
+ht-degree: 8%
 
 ---
 
@@ -50,7 +42,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->La capacidad de búsqueda de datos solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte [Ciclo de lanzamiento de Journey Optimizer](../rn/releases.md).
+>La función de búsqueda de datos está disponible de forma limitada y para todos los clientes de Journey Optimizer.
 
 Obtenga más información sobre cómo acceder a los conjuntos de datos y trabajar con ellos en esta sección: [Introducción a los conjuntos de datos](../data/get-started-datasets.md)
 
