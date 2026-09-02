@@ -1,5 +1,5 @@
 ---
-title: Crear un canal personalizado
+title: Creación de un canal personalizado
 description: Obtenga información sobre cómo crear y configurar un canal personalizado en Adobe Journey Optimizer mediante el Generador de canales.
 feature: Channel Configuration
 topic: Content Management
@@ -9,7 +9,7 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '1584'
-ht-degree: 1%
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
 >title="Acerca de los canales personalizados"
->abstract="Un canal personalizado permite a Adobe Journey Optimizer enviar mensajes personalizados a un sistema externo a través de su propio extremo de API. Defina las propiedades generales, el punto de conexión, la autenticación y la carga útil, y luego pruebe y active su nuevo canal personalizado. Una vez finalizado, puede utilizarlo al crear una configuración de canal para que los especialistas en marketing puedan utilizarlo en recorridos y campañas."
+>abstract="Un canal personalizado permite a Adobe Journey Optimizer enviar mensajes personalizados a un sistema externo a través de su propio punto final de API. Defina las propiedades generales, el punto final, la autenticación y la carga útil, y luego pruebe y active su nuevo canal personalizado. Una vez finalizado, puede utilizarlo al crear una configuración de canal para que los especialistas en marketing puedan utilizarlo en recorridos y campañas."
 >additional-url="" text="Introducción a los canales personalizados"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
@@ -62,7 +62,7 @@ Para acceder al **Generador de canales** y administrar tus canales personalizado
 
    Al archivar un canal activo, se eliminará de todas las listas desplegables de selección: selector de acciones de campaña, paleta de acciones de recorrido, <!--orchestrated campaigns channel list,--> configuraciones de canal y plantillas de contenido. Los recorridos y campañas existentes que ya usan el canal siguen funcionando normalmente.
 
-## Crear un canal personalizado {#create-channel}
+## Creación de un canal personalizado {#create-channel}
 
 Para crear un nuevo canal personalizado, siga los pasos a continuación.
 
@@ -136,7 +136,7 @@ Debe configurar el punto de conexión, que es la URL HTTP del sistema de mensaje
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
 >title="Definición del tipo de autenticación"
->abstract="La autenticación garantiza que solo se envíen solicitudes autorizadas al sistema de mensajería externo. Puede elegir entre varios métodos de autenticación, incluidos API Key, Basic Auth y OAuth 2.0. Tras la activación, Adobe Journey Optimizer genera automáticamente un conjunto inicial de credenciales de API para el canal, que se pueden administrar en el inventario de credenciales de API. Sin embargo, aunque pueda cambiar las credenciales más adelante, debe proporcionar los detalles de autenticación aquí para probar la conexión con el extremo antes de activar el canal."
+>abstract="La autenticación garantiza que solo se envíen solicitudes autorizadas a su sistema de mensajería externo. Puede elegir entre varios métodos de autenticación, incluidos clave de API, autenticación básica y OAuth 2.0. Tras la activación, Adobe Journey Optimizer genera de forma automática un conjunto inicial de credenciales de API para el canal, que se pueden administrar en el inventario de credenciales de API. Sin embargo, aunque pueda cambiar las credenciales más adelante, debe proporcionar los detalles de autenticación aquí para probar la conexión con el punto final antes de activar el canal."
 >additional-url="" text="Más información sobre las credenciales de API"
 
 Seleccione el **[!UICONTROL tipo de autenticación]** que necesita usar para este canal. Las opciones disponibles dependen de los métodos de autenticación admitidos por el sistema de mensajería externo.
@@ -155,13 +155,13 @@ Cuando el tipo de autenticación es cualquier otro que **None**, [!DNL Journey O
 
 Sin embargo, los detalles de autenticación son necesarios aquí para probar la conexión con el punto de conexión antes de activar el canal. Hay disponible un botón **[!UICONTROL Probar conexión]** para validar la configuración de autenticación. [Más información](#test-activate)
 
-## Configuración de carga útil {#payload-configuration}
+## Configuración de la carga útil {#payload-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"
->title="Habilitar campo para configuración de canal"
->abstract="Si está activado, los campos de esta columna aparecen en la configuración del canal, lo que permite a los administradores definir distintos valores por configuración (por ejemplo, un ID de remitente diferente por marca o región). Esto resulta útil para campos que pueden variar según el contexto de la campaña o el recorrido, como la información del remitente o las plantillas de mensajes."
->additional-url="" text="Configure parámetros dinámicos en la configuración de canal personalizada"
+>title="Habilitación del campo para la configuración de canal"
+>abstract="Si está activado, los campos de esta columna aparecen en la configuración de canal, lo que permite a los administradores definir distintos valores por configuración (por ejemplo, un ID de remitente diferente por marca o región). Esto resulta útil para campos que pueden variar según el contexto de la campaña o el recorrido, como la información del remitente o las plantillas de mensajes."
+>additional-url="" text="Configuración de parámetros dinámicos en la configuración de canal personalizada"
 
 <!--Create a page on Custom channel config to explain how to use the payload in a channel configuration.-->
 

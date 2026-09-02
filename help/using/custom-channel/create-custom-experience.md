@@ -1,5 +1,5 @@
 ---
-title: Crear experiencias de canal personalizadas
+title: Creación de experiencias de canal personalizadas
 description: Aprenda a utilizar un canal personalizado en un recorrido o una campaña en Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
@@ -9,12 +9,12 @@ badge: label="Disponibilidad limitada" type="Informative"
 source-git-commit: 1a57ac19ba39ed89cb99575ba7278518318e815a
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
 
-# Crear experiencias de canal personalizadas {#create-custom-channel}
+# Creación de experiencias de canal personalizadas {#create-custom-channel}
 
 >[!BEGINSHADEBOX]
 
@@ -32,12 +32,12 @@ En [!DNL Journey Optimizer], puede enviar mensajes mediante canales personalizad
 >
 >Antes de crear una experiencia de canal personalizado, asegúrese de que el administrador haya configurado un canal personalizado. [Más información](configure-custom-channel.md)
 
-## Añadir una acción personalizada mediante un recorrido o una campaña {#create-custom-channel-experience}
+## Añadir una acción personalizada a través de un recorrido o una campaña {#create-custom-channel-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
->title="Acción de canal personalizado"
->abstract="Una acción de canal personalizado envía un mensaje a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo de recorrido y la acción hace referencia a una configuración de canal personalizada que define el punto de conexión, la carga útil y las credenciales utilizadas para enviar el mensaje. La sección **Optimization** puede incluir experimentos de contenido o reglas de segmentación, y la sección **Timeout o error** puede definir una ruta alternativa si la acción falla."
+>title="Acción de canal personalizada"
+>abstract="Una acción de canal personalizada envía un mensaje a los perfiles cuando llegan a este paso del recorrido. La etiqueta identifica la actividad en el lienzo del recorrido y la acción hace referencia a una configuración de canal personalizada que define el punto final, la carga útil y las credenciales utilizadas para entregar el mensaje. La sección **Optimización** puede incluir experimentos de contenido o reglas de segmentación, y la sección **Tiempo de espera o error** puede definir una ruta alternativa si la acción falla."
 >additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introducción a los canales personalizados"
 
 
