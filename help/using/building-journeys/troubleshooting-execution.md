@@ -101,9 +101,9 @@ Si los perfiles de prueba no progresan a través del recorrido en el modo de pru
 Si los perfiles de prueba entran en el recorrido pero no avanzan más allá del paso inicial, compruebe lo siguiente:
 
 * **fecha de inicio del Recorrido** - La causa más común es cuando la fecha de inicio del recorrido se establece en el futuro. Los perfiles de prueba se descartan inmediatamente si la hora actual no coincide con la ventana [fechas/hora de inicio y finalización](journey-properties.md#dates) de la recorrido, lo que genera la entrada de registro: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Para resolver:
-   * Compruebe que la fecha de inicio del recorrido no esté establecida en el futuro
-   * Asegúrese de que la hora actual se encuentre dentro de la ventana de fecha activa del recorrido
-   * Si es necesario, establezca temporalmente la fecha de inicio a una hora anterior al momento actual para realizar la prueba y, a continuación, restáurela antes de publicar
+  * Compruebe que la fecha de inicio del recorrido no esté establecida en el futuro
+  * Asegúrese de que la hora actual se encuentre dentro de la ventana de fecha activa del recorrido
+  * Si es necesario, establezca temporalmente la fecha de inicio a una hora anterior al momento actual para realizar la prueba y, a continuación, restáurela antes de publicar
 
 * **Configuración del perfil de prueba** - Confirme que el perfil está marcado correctamente como perfil de prueba en [!DNL Adobe Experience Platform]. Consulte [cómo crear perfiles de prueba](../audience/creating-test-profiles.md) para obtener más información.
 

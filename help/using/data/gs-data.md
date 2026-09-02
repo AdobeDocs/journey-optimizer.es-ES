@@ -29,9 +29,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2696
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Utilice esta guía junto con sus ingenieros de datos, administradores y especial
 
 ## Cómo utiliza Journey Optimizer los datos de Adobe Experience Platform {#aep-data}
 
-[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras [!DNL CX Enterprise] aplicaciones.
+[!DNL Adobe Journey Optimizer] se creó en [!DNL Adobe Experience Platform]. No mantiene un almacén de datos separado y aislado. En su lugar, utiliza la misma base de datos que otras aplicaciones de [!DNL CX Enterprise].
 
 Los esquemas y conjuntos de datos se encuentran en Adobe Experience Platform. El servicio de identidad y el servicio de perfil administran las identidades y el [perfil del cliente en tiempo real](../audience/get-started-profiles.md). Journey Optimizer lee datos de perfil y evento de Adobe Experience Platform para evaluar las condiciones del recorrido, personalizar los mensajes y seleccionar ofertas. Escribe datos de interacción (como eventos de envío, apertura, clics y rechazos, y eventos de pasos de recorrido) en conjuntos de datos de Experience Platform. También puede buscar conjuntos de datos adicionales durante la ejecución sin copiar esos datos en el perfil.
 
@@ -155,7 +155,7 @@ Elija una identidad principal para sus clientes (como ECID, correo electrónico 
 Cree esquemas de **XDM Individual Profile** para capturar atributos del cliente, como información de nombre y contacto, preferencias e intereses, y la fase del ciclo vital o el estado de consentimiento. Cree **esquemas XDM ExperienceEvent** para capturar datos de comportamiento y transaccionales, como eventos web y de aplicación, compras e interacciones sin conexión. Marque los campos correctos como identidades y atributos de perfil donde corresponda.
 
 ➡️ [Más información sobre los Esquemas](get-started-schemas.md)\
-➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Cree esquemas de **XDM Individual Profile** para capturar atributos del cliente,
 En Adobe Experience Platform, cree conjuntos de datos basados en los esquemas XDM y habilite Perfil en cualquier conjunto de datos que deba contribuir al Perfil del cliente en tiempo real. Confirme que los conjuntos de datos generados por el sistema y creados por Journey Optimizer estén visibles en el espacio de trabajo Conjuntos de datos.
 
 ➡️ [Más información acerca de los conjuntos de datos](get-started-datasets.md)\
-➡️ [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 

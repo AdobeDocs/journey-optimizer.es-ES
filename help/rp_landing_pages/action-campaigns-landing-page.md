@@ -6,7 +6,7 @@ description: Campañas de acción
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 

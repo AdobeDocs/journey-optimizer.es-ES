@@ -81,7 +81,7 @@ Para obtener más información sobre la administración de zonas protegidas, con
 
 ## Conceptos básicos de la API {#api-basics}
 
-### URL básica {#base-url}
+### URL base {#base-url}
 
 Utilice la siguiente URL base:
 

@@ -163,13 +163,13 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   +++Referencias de muestra
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +187,10 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   donde:
 
-   * `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
-   * `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
-   * `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
-   * `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
+  * `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
+  * `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
+  * `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
+  * `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
 
   Para obtener más información sobre la API Decisions y las representaciones Offer, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +198,21 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   +++Referencias de muestra
 
-   * Ubicación donde se aloja la imagen:
+  * Ubicación donde se aloja la imagen:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * URL de destino al hacer clic en la imagen:
+  * URL de destino al hacer clic en la imagen:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * Contenido de texto de la oferta procedente del motor de decisión:
+  * Contenido de texto de la oferta procedente del motor de decisión:
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * Contenido de HTML de la oferta proveniente del motor de decisión:
+  * Contenido de HTML de la oferta proveniente del motor de decisión:
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 

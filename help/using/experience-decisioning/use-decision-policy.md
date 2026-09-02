@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1262
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ También puede insertar el código de directiva de decisión al usar el modo **[
 
 >[!IMPORTANT]
 >
->Experience Decisioning con notificaciones push requiere una versión específica de Mobile SDK. Antes de implementar esta característica, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión requerida y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>Decisiones sobre experiencias con notificaciones push requiere una versión específica del SDK para móviles. Antes de implementar esta función, compruebe [las notas de la versión](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} para identificar la versión necesaria y asegúrese de haber actualizado según corresponda. También puede ver todas las versiones de SDK disponibles para su plataforma en [esta sección](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 >[!TAB Correo directo]
 

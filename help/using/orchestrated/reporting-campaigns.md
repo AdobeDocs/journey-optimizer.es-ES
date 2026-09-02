@@ -16,8 +16,8 @@ subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 185
-ht-degree: 44%
+source-wordcount: 225
+ht-degree: 53%
 
 ---
 
@@ -40,14 +40,14 @@ La campaña organizada le ofrece información práctica a través de sus sólida
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Informe activo" src="assets/last-24hours.png"></a></td>
       <td>
-        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información acerca de los informes en vivo <a href="../reports/live-report.md">en esta sección</a>.
+        Use <b>Informe en vivo</b> para medir y visualizar en tiempo real el impacto y el rendimiento de sus campañas orquestadas en un panel integrado. Los datos están disponibles en el <b>informe en vivo</b> tan pronto como su campaña orquestada se ejecute desde el menú <b>Ver el informe de las últimas 24 horas</b>. Obtenga más información sobre los informes activos <a href="../reports/live-report.md">en esta sección</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Informe de todo el tiempo" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>Informe de todos los tiempos</b> está totalmente integrado con las capacidades de Customer Journey Analytics, estandarizando la generación de informes en ambas plataformas y mejorando la consistencia y confiabilidad de los datos. Obtenga más información acerca de todos los informes de tiempo <a href="../reports/report-gs-cja.md">en esta sección</a>.
+        <b>Informe todo el tiempo</b> está totalmente integrado con las funcionalidades de Customer Journey Analytics, lo que estandariza la creación de informes en ambas plataformas y mejora la coherencia y fiabilidad de los datos. Obtenga más información sobre los informes todo el tiempo <a href="../reports/report-gs-cja.md">en esta sección</a>.
       </td>
     </tr>
   </tbody>

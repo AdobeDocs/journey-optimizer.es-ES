@@ -29,8 +29,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2210
-ht-degree: 10%
+source-wordcount: 2223
+ht-degree: 11%
 
 ---
 
@@ -120,7 +120,7 @@ Para asignar este **[!UICONTROL perfil de producto]** a los usuarios, siga los p
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -178,35 +178,35 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
      ![](assets/add-app-config-ios.png)
 
-      1. Escriba la aplicación móvil **[!UICONTROL ID de aplicación]**.
+     1. Escriba la aplicación móvil **[!UICONTROL ID de aplicación]**.
 
-      1. Habilite la opción **[!UICONTROL Aplicar a todas las zonas protegidas]** para que estas credenciales push estén disponibles en todas las zonas protegidas. Si una zona protegida específica tiene sus propias credenciales para el mismo par de plataforma e ID de aplicación, esas credenciales específicas de la zona protegida tendrán prioridad.
+     1. Habilite la opción **[!UICONTROL Aplicar a todas las zonas protegidas]** para que estas credenciales push estén disponibles en todas las zonas protegidas. Si una zona protegida específica tiene sus propias credenciales para el mismo par de plataforma e ID de aplicación, esas credenciales específicas de la zona protegida tendrán prioridad.
 
-      1. Se ha activado el botón **[!UICONTROL Introducir credenciales de inserción manualmente]** para agregar sus credenciales.
+     1. Se ha activado el botón **[!UICONTROL Introducir credenciales de inserción manualmente]** para agregar sus credenciales.
 
-      1. Arrastre y suelte su archivo .p8 de clave de autenticación de notificaciones push de Apple. Esta clave se puede adquirir desde la página **Certificados**, **Identificadores** y **Perfiles**.
+     1. Arrastre y suelte su archivo .p8 de clave de autenticación de notificaciones push de Apple. Esta clave se puede adquirir desde la página **Certificados**, **Identificadores** y **Perfiles**.
 
-         >[!NOTE]
-         >
-         > Solo se admiten claves de notificación push de Apple .p8. Utilice otra cuenta de Apple Developer si ha alcanzado el límite de claves .p8.
-         >Para obtener más información sobre los límites de claves de Apple, consulte [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
+        >[!NOTE]
+        >
+        > Solo se admiten claves de notificación push de Apple .p8. Utilice otra cuenta de Apple Developer si ha alcanzado el límite de claves .p8.
+        >Para obtener más información sobre los límites de claves de Apple, consulte [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 
-      1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8. Se encuentra en la ficha **Claves** de la página **Certificados**, **Identificadores** y **Perfiles**.
+     1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8. Se encuentra en la ficha **Claves** de la página **Certificados**, **Identificadores** y **Perfiles**.
 
-      1. Proporcione el **ID de equipo**. Es un valor de cadena que se puede encontrar en la pestaña Pertenencia.
+     1. Proporcione el **ID de equipo**. Es un valor de cadena que se puede encontrar en la pestaña Pertenencia.
 
    * **Para Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. Proporcione el **[!UICONTROL ID de aplicación]**, normalmente el nombre del paquete es el ID de aplicación que hay en su archivo `build.gradle`.
+     1. Proporcione el **[!UICONTROL ID de aplicación]**, normalmente el nombre del paquete es el ID de aplicación que hay en su archivo `build.gradle`.
 
-      1. Habilite la opción **[!UICONTROL Aplicar a todas las zonas protegidas]** para que estas credenciales push estén disponibles en todas las zonas protegidas. Si una zona protegida específica tiene sus propias credenciales para el mismo par de plataforma e ID de aplicación, esas credenciales específicas de la zona protegida tendrán prioridad.
+     1. Habilite la opción **[!UICONTROL Aplicar a todas las zonas protegidas]** para que estas credenciales push estén disponibles en todas las zonas protegidas. Si una zona protegida específica tiene sus propias credenciales para el mismo par de plataforma e ID de aplicación, esas credenciales específicas de la zona protegida tendrán prioridad.
 
-      1. Se ha activado el botón **[!UICONTROL Introducir credenciales de inserción manualmente]** para agregar sus credenciales.
+     1. Se ha activado el botón **[!UICONTROL Introducir credenciales de inserción manualmente]** para agregar sus credenciales.
 
-      1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+     1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 <!--
     * **For Web**

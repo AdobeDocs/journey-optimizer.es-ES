@@ -173,20 +173,20 @@ Con este modo de autenticación, la ejecución de la acción es un proceso de do
 * método de la petición HTTP en el extremo (`GET` o `POST`)
 * `headers`: pares clave-valor que se insertarán como encabezados en esta llamada si es necesario
 * `body`: describe el cuerpo de la llamada si el método es POST. Apoyamos una estructura de cuerpo limitada, definida en bodyParams (pares clave-valor). bodyType describe el formato y la codificación del cuerpo en la llamada:
-   * `form`: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
-   * `json`: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * `form`: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave-valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
+  * `json`: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares clave-valor se serializarán como un objeto json tal cual: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción{#custom-authentication-access-token}
 
 * **authorizationType**: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
-   * `bearer`: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Portador &lt;token de acceso>_
-   * `header`: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad `tokenTarget`. Por ejemplo, si `tokenTarget` es `myHeader`, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
-   * `queryParam`: indica que el token de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;token de acceso>_
+  * `bearer`: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Portador &lt;token de acceso>_
+  * `header`: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad `tokenTarget`. Por ejemplo, si `tokenTarget` es `myHeader`, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
+  * `queryParam`: indica que el token de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;token de acceso>_
 
 * **tokenInResponse**: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
-   * `response`: indica que la respuesta HTTP es el token de acceso
-   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será:_ json: //access_token_
+  * `response`: indica que la respuesta HTTP es el token de acceso
+  * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será:_ json: //access_token_
 
 El formato de esta autenticación es:
 

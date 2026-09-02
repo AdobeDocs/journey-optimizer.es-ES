@@ -58,9 +58,9 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Cambiar fuentes de captura de datos**. Toda la ingesta debe realizarse mediante Cambiar fuentes de captura de datos:
 
-   * **Fuentes basadas en archivos** - El campo `_change_request_type` es obligatorio. Los valores admitidos son `u` (actualizado) o `d` (eliminado). Estos valores deben estar en minúsculas `u` y `d`, no en mayúsculas `U` y `D`.
+  * **Fuentes basadas en archivos** - El campo `_change_request_type` es obligatorio. Los valores admitidos son `u` (actualizado) o `d` (eliminado). Estos valores deben estar en minúsculas `u` y `d`, no en mayúsculas `U` y `D`.
 
-   * **Fuentes basadas en la nube**: el registro de tablas debe estar habilitado.
+  * **Fuentes basadas en la nube**: el registro de tablas debe estar habilitado.
 
 * **Solo registros completos**: no se permiten actualizaciones parciales de registros; cada fila debe proporcionarse como un registro completo.
 
@@ -68,11 +68,11 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Latencia de ingesta**: la latencia de ingesta en el almacén relacional suele oscilar entre 15 minutos y 2 horas, en función de:
 
-   * Volumen de datos
+  * Volumen de datos
 
-   * Concurrencia del sistema
+  * Concurrencia del sistema
 
-   * Tipo de operación (por ejemplo, las inserciones son más rápidas que las actualizaciones)
+  * Tipo de operación (por ejemplo, las inserciones son más rápidas que las actualizaciones)
 
 * **Relación entre el flujo de datos y el conjunto de datos**: la relación entre el flujo de datos y el conjunto de datos es 1-1. Solo una fuente puede alimentar un conjunto de datos a la vez. Para cambiar la fuente, elimine el flujo de datos existente y cree un nuevo flujo de datos con la nueva fuente.
 
@@ -104,7 +104,7 @@ A continuación, encontrará limitaciones y protecciones al utilizar campañas o
 
 * **Audiencias guardadas**
 
-   * **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
+  * **Las audiencias guardadas son estáticas**. Las actividades de audiencia guardadas son estáticas; reflejan los datos disponibles en el momento de la ejecución de la campaña.
 
 * **No se anexó a la audiencia guardada**. No se admite anexar a una actividad de audiencia guardada. Cualquier modificación requiere una sobrescritura completa de la audiencia.
 

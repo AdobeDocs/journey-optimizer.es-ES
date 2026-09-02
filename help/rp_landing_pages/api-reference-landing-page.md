@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Heredado" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 

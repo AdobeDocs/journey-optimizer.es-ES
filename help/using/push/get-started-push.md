@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 651
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 57%
 
 Las notificaciones push le ayudan a llegar a sus usuarios de aplicaciones móviles en cualquier momento, especialmente cuando no utilizan activamente su aplicación ni exploran su sitio web. Las notificaciones push pueden ayudarle a lograr una variedad de casos de uso, como proporcionar actualizaciones sobre el servicio, solicitar al usuario que realice una acción, avisar al usuario de una nueva oferta, etc. Las plataformas de dispositivos exigen que los usuarios den su inclusión antes de que puedan recibir o ver las notificaciones. La inclusión del usuario puede recibirse tan pronto como se inicie la aplicación por primera vez después de la instalación, o en una sesión o flujo de trabajo posterior, según corresponda.
 
-[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en Recorrido para aprovechar la información de datos que su marca tiene con [!DNL Adobe CX Enterprise].
+[!DNL Journey Optimizer] admite notificaciones push y le ayuda a enviar notificaciones muy relevantes a tasas de rendimiento líderes en el sector. Las notificaciones push pueden incluir personalización y contexto basado en recorridos para aprovechar la información de datos que su marca tiene con [!DNL Adobe CX Enterprise].
 
 Se pueden crear notificaciones push:
 
@@ -101,21 +101,21 @@ Utilice las pestañas dedicadas para definir la configuración de las notificaci
 
 Las notificaciones push funcionan mejor cuando necesita llegar a los usuarios de forma rápida y directa en su dispositivo, sin depender de que estén dentro de la aplicación ni comprobar su bandeja de entrada.
 
-| Ventaja | Por qué | Casos de uso de ejemplo |
+| Ventaja | Por qué | Ejemplos de casos de uso |
 | --- | --- | --- |
-| Actualizaciones con distinción de tiempo | Se entrega al instante, incluso cuando los usuarios no utilizan activamente la aplicación | Alertas de retraso de vuelo, cambios de estado de pedidos, noticias de última hora |
-| Nueva participación | Solicita a los usuarios que regresen a la aplicación después de un período de inactividad | Recordatorios de abandono del carro de compras, campañas de recuperación |
-| Reducción de costes frente a SMS | Sin tarifas de operador de mensajes, a diferencia de los SMS | Notificaciones transaccionales o promocionales de gran volumen |
+| Actualizaciones con plazos específicos | Se entrega al instante, incluso cuando los usuarios no utilizan activamente la aplicación | Alertas de retrasos de vuelos, cambios de estado de pedidos, noticias de última hora |
+| Renovación de la participación | Invita a los usuarios a volver a la aplicación después de un período de inactividad | Recordatorios de abandono del carro de compras, campañas de recuperación de clientes |
+| Reducción de costes frente a SMS | Sin tarifas de operador por mensajes, a diferencia de los SMS | Notificaciones transaccionales o promocionales de gran volumen |
 | Contenido enriquecido e interactivo | Admite imágenes, botones de acción y vínculos profundos | Promociones de productos con botones de tocar para comprar, previsualizaciones de medios enriquecidos |
-| Funciones nativas del dispositivo | Aprovecha las funciones del sistema operativo que no están disponibles para otros canales | Alertas de vibraciones, distintivos de iconos de aplicaciones, déclencheur de ubicación geovalados |
-| Alta probabilidad de inclusión | Los usuarios deben incluirse ya en la instalación de la aplicación o en el primer inicio | Flujos de incorporación, campañas de participación del día uno |
+| Funciones nativas del dispositivo | Aprovecha las funciones del sistema operativo que no están disponibles para otros canales | Alertas por vibración, indicadores en el icono de la aplicación, activadores de ubicación mediante geovalla |
+| Alta probabilidad de inclusión | Se solicita a los usuarios que acepten participar desde la instalación de la aplicación o el primer inicio | Flujos de incorporación, campañas de participación del primer día |
 
 ## Cuándo no utilizar
 
 Las notificaciones push no son adecuadas para cada mensaje. Considere otro canal en las siguientes situaciones:
 
-* Su audiencia tiene bajas tasas de inclusión push o ha mostrado resistencia a las notificaciones, ya que es posible que el mensaje nunca llegue a ellos
+* Su público tiene bajas tasas de inclusión push o se ha mostrado reacio a recibir notificaciones, ya que es posible que el mensaje nunca les llegue
 * El mensaje requiere contenido de formato largo, que el correo electrónico gestiona mejor y permite un formato más detallado
 * El contenido es confidencial o privado y no debe ser visible en una pantalla de bloqueo, donde cualquier persona cerca del dispositivo podría verlo
-* La mayoría de los usuarios accede al servicio desde el escritorio en lugar de desde una aplicación móvil, donde las notificaciones push tienen un alcance limitado o nulo
+* La mayoría de los usuarios accede al servicio desde el escritorio en lugar de una aplicación móvil, donde las notificaciones push tienen un alcance limitado o nulo
 

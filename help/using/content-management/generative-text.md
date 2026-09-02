@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar Generar contenido en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.

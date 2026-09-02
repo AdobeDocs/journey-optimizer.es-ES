@@ -64,25 +64,25 @@ Esta función permite a los especialistas en marketing aprovechar correos electr
 
 * [Los fragmentos](../content-management/fragments.md) no son compatibles entre los modos Usar temas y Estilo manual.
 
-   * Los fragmentos de temas no están disponibles en el contenido del correo electrónico creado sin utilizar temáticas.
+  * Los fragmentos de temas no están disponibles en el contenido del correo electrónico creado sin utilizar temáticas.
 
-   * Para aprovechar un [fragmento](../content-management/fragments.md) en un contenido temático, este fragmento debe haberse creado a sí mismo usando temáticas. [Más información](#leverage-themes-fragment)
+  * Para aprovechar un [fragmento](../content-management/fragments.md) en un contenido temático, este fragmento debe haberse creado a sí mismo usando temáticas. [Más información](#leverage-themes-fragment)
 
-   * Cuando utilice un fragmento en el contenido del correo electrónico, asegúrese de aplicar una temática que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores. [Más información](#leverage-themes-fragment)
+  * Cuando utilice un fragmento en el contenido del correo electrónico, asegúrese de aplicar una temática que haya definido para este fragmento. Si no se hace esto, pueden producirse problemas de visualización, especialmente en Outlook 2021 y versiones anteriores. [Más información](#leverage-themes-fragment)
 
 * Si usa un contenido creado en HTML, estará en [modo de compatibilidad](existing-content.md) y no podrá aplicar temas directamente a este contenido.
 
-   * Para aplicar temáticas, primero debe guardar el contenido importado [como una nueva plantilla](../content-management/create-content-templates.md#save-as-template) y, a continuación, convertir esta plantilla en un contenido compatible con temáticas. A continuación, puede utilizar esta plantilla para crear el contenido del correo electrónico. Aprenda a convertir una plantilla creada con estilo manual en [esta sección](#theme-convertor).
+  * Para aplicar temáticas, primero debe guardar el contenido importado [como una nueva plantilla](../content-management/create-content-templates.md#save-as-template) y, a continuación, convertir esta plantilla en un contenido compatible con temáticas. A continuación, puede utilizar esta plantilla para crear el contenido del correo electrónico. Aprenda a convertir una plantilla creada con estilo manual en [esta sección](#theme-convertor).
 
-   * También puede convertir el contenido de HTML importado. [Más información](existing-content.md)
+  * También puede convertir el contenido de HTML importado. [Más información](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * Cuando utilice fuentes web personalizadas (incluidas fuentes Google) en las temáticas, tenga en cuenta que muchos clientes de correo electrónico no las admiten. Defina siempre las fuentes de reserva adecuadas en la temática para garantizar la legibilidad en todos los clientes de correo electrónico.
 
-   * Gmail y Yahoo! no cargue fuentes web externas y volverá a las fuentes del sistema, independientemente de la familia de fuentes especificada en HTML/CSS.
-   * Las únicas fuentes Google compatibles con Gmail son Roboto y Google Sans.
-   * Los clientes de correo electrónico que *do* admiten fuentes web incluyen Apple Mail, iOS Mail, Android Mail, Thunderbird y Outlook para macOS.
+  * Gmail y Yahoo! no cargue fuentes web externas y volverá a las fuentes del sistema, independientemente de la familia de fuentes especificada en HTML/CSS.
+  * Las únicas fuentes Google compatibles con Gmail son Roboto y Google Sans.
+  * Los clientes de correo electrónico que *do* admiten fuentes web incluyen Apple Mail, iOS Mail, Android Mail, Thunderbird y Outlook para macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1140
 ht-degree: 11%
 
 ---
@@ -126,20 +126,20 @@ Para crear una configuración en la aplicación en Journey Optimizer, siga estos
 
      +++ Cómo generar una regla de coincidencia de páginas.
 
-      1. Seleccione **[!UICONTROL Regla de coincidencia de páginas]** como Configuración de aplicación e introduzca su **[!UICONTROL URL de página]**.
+     1. Seleccione **[!UICONTROL Regla de coincidencia de páginas]** como Configuración de aplicación e introduzca su **[!UICONTROL URL de página]**.
 
-      1. En la ventana **[!UICONTROL Editar regla de configuración]**, defina los criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
-      1. En los menús desplegables de condición, personalice aún más los criterios.
+     1. En la ventana **[!UICONTROL Editar regla de configuración]**, defina los criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
+     1. En los menús desplegables de condición, personalice aún más los criterios.
 
-         Por ejemplo, para editar los elementos que se muestran en todas las páginas de productos de ventas del sitio web de Luma, seleccione Dominio > Empieza con > Luma y Página > Contiene > Ventas.
+        Por ejemplo, para editar los elementos que se muestran en todas las páginas de productos de ventas del sitio web de Luma, seleccione Dominio > Empieza con > Luma y Página > Contiene > Ventas.
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. Haga clic en **[!UICONTROL Agregar otra regla de página]** para crear otra regla si es necesario.
+     1. Haga clic en **[!UICONTROL Agregar otra regla de página]** para crear otra regla si es necesario.
 
-      1. Seleccione la **[!UICONTROL URL de creación y vista previa predeterminada]**.
+     1. Seleccione la **[!UICONTROL URL de creación y vista previa predeterminada]**.
 
-      1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
+     1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
 
      +++
 

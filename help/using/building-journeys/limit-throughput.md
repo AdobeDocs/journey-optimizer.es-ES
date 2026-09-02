@@ -85,12 +85,12 @@ Veamos un ejemplo de **recorridos activados por la audiencia** que trabajan con 
 1. Después, agregue actividades de Espera con un temporizador específico en cada rama. Aquí hemos configurado una espera de 30 segundos para cada uno. A cada segundo, fluirán 100 perfiles a cada rama.
 
    * En la rama 1, esperarán 30 segundos, lo que significa que:
-      * el segundo 1, 100 perfiles esperarán el segundo 31
-      * el segundo 2, 100 perfiles esperarán el segundo 32, etc.
+     * el segundo 1, 100 perfiles esperarán el segundo 31
+     * el segundo 2, 100 perfiles esperarán el segundo 32, etc.
 
    * En la rama 2, esperarán 60 segundos, lo que significa que:
-      * En el segundo 1, 100 perfiles esperarán el segundo 61 (1&#39;01&#39;&#39;)
-      * En el segundo 2, 100 perfiles esperarán el segundo 62 (1&#39;02&#39;&#39;), etc.
+     * En el segundo 1, 100 perfiles esperarán el segundo 61 (1&#39;01&#39;&#39;)
+     * En el segundo 2, 100 perfiles esperarán el segundo 62 (1&#39;02&#39;&#39;), etc.
 
    * Sabiendo que esperamos un máximo de 20 segundos para leer todos los perfiles, no habrá superposición entre cada rama, siendo la segunda 20 la última en la que los perfiles fluirán a la condición. Entre el segundo 31 y el segundo 51, se procesarán todos los perfiles de la rama 1. Entre el segundo 61 (1&#39;01&#39;&#39;) y el segundo 81 (1&#39;21&#39;&#39;), se procesarán todos los perfiles de la rama 2, etc.
 

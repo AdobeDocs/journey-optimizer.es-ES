@@ -109,9 +109,9 @@ Para ello, se han añadido las actividades siguientes:
 * Una actividad **[!UICONTROL Fork]** divide la campaña orquestada en tres rutas.
 * Las actividades de **[!UICONTROL Generar público]** se dirigen a los tres grupos de clientes siguientes:
 
-   * Clientes con un correo electrónico,
-   * Clientes que han realizado una compra de al menos 100 USD,
-   * Clientes que tienen menos de 50 puntos de lealtad.
+  * Clientes con un correo electrónico,
+  * Clientes que han realizado una compra de al menos 100 USD,
+  * Clientes que tienen menos de 50 puntos de lealtad.
 
 * La actividad **[!UICONTROL Combinar]** agrupa a los clientes con un correo electrónico y a aquellos que han realizado una compra de al menos 100 USD,
 * Una actividad **[!UICONTROL Combinar]** excluye clientes con menos de 50 puntos de lealtad,

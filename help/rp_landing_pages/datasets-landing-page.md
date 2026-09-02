@@ -6,7 +6,7 @@ description: Conjuntos de datos de Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-06-02
 exl-id: 0e750496-fad5-44bc-a38d-014a0f7f82dc
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 

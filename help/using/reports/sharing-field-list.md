@@ -137,8 +137,8 @@ A continuación encontrará definiciones, causas comunes y pasos de solución de
 
 * Para descartes que se produzcan en recorridos pausados:
 
-   * **PAUSED_RECORRIDO_VERSION**: descartes que se produjeron en el punto de entrada del recorrido
-   * **RECORRIDO_IN_PAUSED_STATE**: descarta lo que ocurrió cuando los perfiles están en un recorrido
+  * **PAUSED_RECORRIDO_VERSION**: descartes que se produjeron en el punto de entrada del recorrido
+  * **RECORRIDO_IN_PAUSED_STATE**: descarta lo que ocurrió cuando los perfiles están en un recorrido
 
   Obtenga más información acerca de estos eventos y cómo solucionarlos en la sección [Pausar un Recorrido](../building-journeys/journey-pause.md#discards-troubleshoot).
 

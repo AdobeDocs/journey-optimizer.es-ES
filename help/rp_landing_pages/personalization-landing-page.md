@@ -6,7 +6,7 @@ description: Personalización
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La personalización en Adobe Journey Optimizer le permite crear experiencias de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la personalización
 
@@ -40,7 +40,7 @@ Domine el editor de personalización para crear contenido personalizado para cor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Información sobre la sintaxis de personalización
 

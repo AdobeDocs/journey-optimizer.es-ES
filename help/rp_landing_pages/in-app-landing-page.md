@@ -6,7 +6,7 @@ description: Canal en la aplicación
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 

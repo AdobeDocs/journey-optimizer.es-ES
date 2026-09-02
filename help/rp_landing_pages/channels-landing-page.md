@@ -5,9 +5,9 @@ title: Canales de comunicación
 description: Canales de comunicación
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 
 Mensajería SMS/MMS/RCS
 
-Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines transaccionales y de marketing, incluidas la conformidad y la personalización.
+Aprenda a crear, administrar y configurar mensajes SMS, MMS y RCS para fines transaccionales y de marketing, incluidas la conformidad y la personalización.
 
 [Más información sobre la mensajería SMS/MMS/RCS](sms-landing-page.md)
 :::
@@ -74,7 +74,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 
 Campañas de correo directo
 
-Descubra cómo crear y administrar campañas de correo directo, incluida la exportación de archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
+Descubra cómo crear y administrar campañas de correo directo, incluyendo exportar archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
 
 [Más información sobre las campañas de correo directo](direct-mail-landing-page.md)
 :::
@@ -88,5 +88,5 @@ Descubra cómo crear y administrar campañas de correo directo, incluida la expo
 - **[Experiencia basada en código](code-based-experience-landing-page.md)**: sumérjase en experiencias basadas en código para ofrecer contenido personalizado en distintas plataformas digitales mediante SDK y API.
 - **[Tarjetas de contenido](content-card-landing-page.md)**: descubra cómo configurar, crear y diseñar tarjetas de contenido para ofrecer mensajes atractivos y personalizados en aplicaciones móviles y sitios web.
 - **[Mensajería WhatsApp](whatsapp-landing-page.md)**: aprenda a integrar y utilizar la mensajería WhatsApp a través de la API en la nube de Meta para ofrecer campañas de comunicación personalizadas y compatibles.
-- **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: diagnostica y resuelve problemas de canal rápidamente, incluida la solución de problemas de configuración del canal WhatsApp.
+- **[Monitorización y solución de problemas](troubleshoot-journey-landing-page.md)**: diagnostique y resuelva problemas de canal con rapidez, incluida la solución de problemas de configuración del canal de WhatsApp.
 - **[Mensajería LINE](line-landing-page.md)**: descubra cómo configurar, crear y personalizar mensajes LINE para una comunicación efectiva en campañas y recorridos.

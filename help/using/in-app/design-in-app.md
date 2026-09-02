@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1301
 ht-degree: 26%
 
 ---
@@ -82,11 +82,11 @@ En la sección **[!UICONTROL Diseño del mensaje]**, seleccione una de las cuatr
 
 * **[!UICONTROL Personalizado]**: el modo de mensaje personalizado le permite importar y editar directamente uno de sus mensajes preconfigurados de HTML.
 
-   * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código HTML sin procesar.
+  * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código HTML sin procesar.
 
-     Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
+    Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
 
-   * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido de HTML.
+  * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido de HTML.
 
 ## Pestaña Contenido {#content-tab}
 
@@ -126,7 +126,7 @@ El campo **[!UICONTROL Medios]** le permite agregar contenido multimedia al mens
 
 ![](assets/in_app_web_design_3.png)
 
-Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. [Más información sobre la administración de recursos](../integrations/assets.md).
+Escriba su URL de medios o haga clic en el icono **[!UICONTROL Seleccionar Assets]** para agregar directamente a su mensaje en la aplicación los recursos almacenados en su biblioteca de Assets. [Más información acerca de la administración de recursos](../integrations/assets.md).
 También puede agregar **[!UICONTROL texto alternativo]** para las aplicaciones de lectura de pantalla.
 
 +++Más opciones con formato avanzado

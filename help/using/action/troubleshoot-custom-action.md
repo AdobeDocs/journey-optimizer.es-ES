@@ -102,8 +102,8 @@ Como administrador de Journey Optimizer, también puede utilizar herramientas ex
 
 * **Recorrido de AJO** ejecuta la solicitud de prueba, lo que significa que:
 
-   * Se utiliza la estructura exacta de la solicitud (incluidos los encabezados específicos de Adobe Journey Optimizer).
-   * La IP de origen y los encabezados coinciden con los utilizados en los recorridos activos.
+  * Se utiliza la estructura exacta de la solicitud (incluidos los encabezados específicos de Adobe Journey Optimizer).
+  * La IP de origen y los encabezados coinciden con los utilizados en los recorridos activos.
 
 * La capacidad **[!UICONTROL Enviar solicitud de prueba]** se puede usar para solucionar problemas de **recorridos activos**, ya que la acción personalizada ya está implementada.
 

@@ -6,7 +6,7 @@ description: Integración de los recorridos con los sistemas externos
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 

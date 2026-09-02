@@ -8,17 +8,17 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Introducción a Adobe Journey Optimizer{#get-started}
 
-Tanto si es su primera vez en Journey Optimizer como si vuelve para explorar una nueva funcionalidad, esta página es su punto de partida. Elija la ruta que se ajuste a su función y objetivo.
+Tanto si es su primera vez en Journey Optimizer como si vuelve para explorar una nueva funcionalidad, esta página es su punto de partida. Elija la ruta que se ajuste a su función y meta.
 
-## ¿Es nuevo en Journey Optimizer? {#essentials}
+## ¿Es su primera vez en Journey Optimizer? {#essentials}
 
 Conozca los aspectos básicos de Adobe Journey Optimizer y cómo permite la personalización basada en datos a gran escala.
 
@@ -116,24 +116,24 @@ Integre aplicaciones móviles, implemente SDK web, configure eventos y cree inte
 
 ## Explorar casos de uso {#explore-use-cases}
 
-¿No estás seguro de por dónde empezar? Encuentre la capacidad que coincida con su objetivo.
+¿No tiene claro por dónde empezar? Encuentre la funcionalidad que coincida con su meta.
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
-Encuentre la capacidad adecuada para su objetivo
+Encuentre la funcionalidad adecuada para su meta
 
-Examine casos de uso por objetivo empresarial y salte a la funcionalidad recomendada de Journey Optimizer.
+Examine los casos de uso por meta empresarial y salte a la funcionalidad recomendada de Journey Optimizer.
 
 [Explorar casos de uso](../using/start/ajo-use-case-guide.md)
 :::
 
 ::::
 
-## ¿Ya incorporado? {#already-onboarded}
+## ¿Ya ha completado la incorporación? {#already-onboarded}
 
-Salta directamente a las áreas donde haces tu trabajo diario.
+Salta directamente a las áreas donde hace su trabajo diario.
 
 :::: landing-cards-container
 :::
@@ -243,4 +243,4 @@ Empiece a crear de inmediato con estas guías esenciales:
 
 ## ¿Busca la secuencia de implementación?
 
-Si su equipo configura Journey Optimizer por primera vez, consulte [Roles y responsabilidades](../using/start/quick-start.md) para ver el orden recomendado de operaciones en todos los roles.
+Si su equipo configura Journey Optimizer por primera vez, consulte [Funciones y responsabilidades](../using/start/quick-start.md) para ver el orden recomendado de operaciones en todas las funciones.

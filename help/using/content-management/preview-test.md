@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
   Puede utilizar perfiles de prueba para previsualizar el contenido, enviar pruebas de correo electrónico y comprobar la representación de correo electrónico. Si ha añadido campos personalizados, puede comprobar ahora cómo se muestran utilizando datos de perfil de prueba. Para obtener más información, consulte estas secciones:
 
   ➡️ [Seleccionar perfiles de prueba](test-profiles.md)
-➡️ [Vista previa usando perfiles de prueba](preview.md)
-➡️ [Enviar pruebas de correo electrónico](proofs.md)
-➡️ [Comprobar representación de correo electrónico](rendering.md)
-➡️ [Vista previa y prueba del correo electrónico (vídeo)](#video-preview)
+  ➡️ [Vista previa usando perfiles de prueba](preview.md)
+  ➡️ [Enviar pruebas de correo electrónico](proofs.md)
+  ➡️ [Comprobar representación de correo electrónico](rendering.md)
+  ➡️ [Vista previa y prueba del correo electrónico (vídeo)](#video-preview)
 
 * **Prueba de variaciones de contenido mediante datos de entrada de muestra**
 
@@ -67,7 +67,7 @@ Journey Optimizer proporciona dos experiencias para probar el contenido:
 
   ➡️ [Simulación de variaciones de contenido](../test-approve/simulate-sample-input.md)
 
-Para las campañas activadas por API y de acción (programadas), también puede enviar pruebas mediante programación usando [API de simulaciones](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Esto no es compatible con campañas organizadas.
+Para las campañas activadas por API y de acción (programadas), también puede enviar pruebas mediante programación usando la [API de simulaciones](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Esto no es compatible con campañas orquestadas.
 
 ## Lectura obligatoria
 

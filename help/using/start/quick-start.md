@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Funciones y responsabilidades | ADOBE JOURNEY OPTIMIZER
+title: Funciones y responsabilidades | Adobe Journey Optimizer
 description: Comprenda las funciones, las responsabilidades y el orden de implementación recomendado para Adobe Journey Optimizer.
 feature: Get Started
 topic: Get Started
@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2101
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,11 +55,11 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer se implementa mediante cuatro funciones distintas que funcionan en secuencia. Esta página asigna las responsabilidades de cada función y los vínculos a guías de introducción detalladas.
+Adobe Journey Optimizer se implementa mediante cuatro funciones distintas que funcionan de forma secuencial. Esta página asigna las responsabilidades de cada función y los vínculos a guías de introducción detalladas.
 
 >[!NOTE]
 >
->¿Es nuevo en Journey Optimizer? Comience por [Qué es Journey Optimizer](get-started.md) primero.
+>¿Es su primera vez en Journey Optimizer? Comience primero con [Qué es Journey Optimizer](get-started.md).
 
 **Nota importante:** Adobe Journey Optimizer define funciones distintas con responsabilidades específicas. Un solo individuo puede desempeñar varias funciones o todas las funciones, según la estructura de su organización.
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer se implementa mediante cuatro funciones distintas que fu
 >
 >* Los componentes y las funciones disponibles en su entorno dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
 >
->* [!DNL Adobe CX Enterprise] se aplican procedimientos y directrices generales de privacidad a [!DNL Journey Optimizer]. [Más información sobre [!DNL Adobe CX Enterprise] privacidad](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
+>* Los procedimientos y las directrices generales de privacidad de [!DNL Adobe CX Enterprise] se aplican a [!DNL Journey Optimizer]. [Más información sobre la privacidad de  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
 
 ## Antes de empezar {#before-you-begin}
 
@@ -126,7 +126,7 @@ Una implementación correcta de Journey Optimizer suele seguir esta secuencia, q
 4. **Experto en marketing**: diseña y ejecuta experiencias de clientes\
    Los expertos en marketing impulsan todo el trabajo básico para crear recorridos, crear contenido y optimizar las experiencias de los clientes en todos los canales.
    * Crear públicos mediante segmentación, carga de CSV o composición de público
-   * Diseño de contenido personalizado con plantillas y Generar contenido
+   * Diseño de contenido personalizado con Generar contenido y plantillas
    * Creación de recorridos multicanal con activadores de evento y público
    * Probar con flujos de trabajo de aprobación antes del lanzamiento
    * Monitorización del rendimiento y optimización en función de las perspectivas de informes
@@ -270,7 +270,7 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 * [Vídeos de tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}: tutoriales de vídeo paso a paso para todas las funciones
 * [Introducción a la administración de datos](../data/gs-data.md): esquemas, conjuntos de datos, identidades y lista de comprobación de preparación de datos para Journey Optimizer
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación
-* [Funciones inteligentes y de IA](ai-features.md): obtenga información sobre IA, optimización del tiempo de envío y generación de contenido
+* [IA y funciones inteligentes](ai-features.md): obtenga información sobre la IA, la optimización del tiempo de envío y la generación de contenido
 * [Guía de interfaz de usuario](user-interface.md): navegue por Journey Optimizer de forma eficaz
 
 >[!TAB Manténgase al día]

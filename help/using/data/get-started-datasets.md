@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1343
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Todos los datos que se incorporan a Adobe Experience Platform se conservan dentr
 
 * A partir de febrero de 2025, se implementará una protección de tiempo de vida (TTL) en los conjuntos de datos generados por el sistema de Journey Optimizer. [Más información](datasets-ttl.md)
 
-* Habilitar un conjunto de datos para el perfil tiene implicaciones permanentes en el nivel de esquema. Planifique su esquema y diseño de identidad cuidadosamente antes de habilitar. [Más información](#profile-datasets)
+* Habilitar un conjunto de datos para el perfil tiene implicaciones permanentes en el nivel de esquema. Planifique su esquema y diseño de identidad cuidadosamente antes de habilitarlo. [Más información](#profile-datasets)
 
 ## Acceso a conjuntos de datos {#access}
 
@@ -86,7 +86,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
   * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.
   * _Informes: recorridos_: información sobre el alojamiento del conjunto de datos de metadatos de cada paso de un recorrido.
   * _Informes - CCO_: conjunto de datos del evento de comentarios que almacena los registros de envío de los correos electrónicos CCO. Se utilizarán para elaborar informes.
-  * _Conjunto de datos de evento de seguimiento de canal de AJO_: captura todas las respuestas de WhatsApp entrantes, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
+  * _Conjunto de datos del evento de seguimiento del canal de AJO_: captura todas las respuestas de WhatsApp de entrada, incluidas las enviadas a través de plantillas de flujo de WhatsApp.
 
 * Consentimiento
 
@@ -123,17 +123,17 @@ Obtenga información sobre cómo crear un conjunto de datos, asignarlo a un esqu
 
 ## Habilitar conjuntos de datos para el perfil {#profile-datasets}
 
-Al crear un conjunto de datos, puede habilitarlo para que contribuya a [Perfil del cliente en tiempo real](../audience/get-started-profiles.md). Esto permite utilizar los datos que contiene para la segmentación, personalización y condiciones de recorrido en [!DNL Journey Optimizer].
+Al crear un conjunto de datos, puede habilitarlo para que contribuya al [Perfil del cliente en tiempo real](../audience/get-started-profiles.md). Esto permite utilizar los datos que contiene para la segmentación, la personalización y las condiciones del recorrido en [!DNL Journey Optimizer].
 
-Antes de habilitar, tenga en cuenta lo siguiente:
+Antes de habilitarlo, tenga en cuenta lo siguiente:
 
 * **La habilitación del esquema es permanente.** Una vez que el esquema subyacente a un conjunto de datos está habilitado para el perfil, esto no se puede deshacer; el esquema no se puede deshabilitar ni eliminar. Solo el propio conjunto de datos se puede deshabilitar o eliminar por separado.
 * **Deshabilitar un conjunto de datos tiene consecuencias.** Puede deshabilitar o eliminar un conjunto de datos para el perfil independientemente de su esquema, pero al hacerlo se eliminan los registros de perfil asociados y puede interrumpir los flujos de trabajo de segmentación y activación.
-* **Planifique su configuración antes de habilitar.** Los campos de identidad y las selecciones de grupos de campos se tornan más difíciles de cambiar después de la Habilitación de perfiles. Finalice primero el diseño de esquema.
+* **Planifique su configuración antes de la habilitación.** Los campos de identidad y las selecciones de grupos de campos se tornan más difíciles de cambiar después de la Habilitación de perfiles. Finalice primero el diseño del esquema.
 
 Para obtener instrucciones detalladas, consulte la documentación de Adobe Experience Platform:
 
-* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
+* [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: lista de comprobación de habilitación previa que cubre la configuración de identidad, la selección de grupos de campos y la validación de propósito de conjuntos de datos.
 * [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: instrucciones sobre cómo dejar obsoletos esquemas habilitados para perfiles, incluidas las estrategias de cambio de nombre.
 
 ## Gobernanza de datos
@@ -158,4 +158,4 @@ Obtenga más información sobre la gobernanza de datos y etiquetas de uso de dat
 >* [Documentación de conjuntos de datos](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=es){target="_blank"}
 >* [Documentación de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es){target="_blank"}.
 >* [Prácticas recomendadas de asignación de licencias para administración de datos](https://experienceleague.adobe.com/es/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

@@ -47,13 +47,13 @@ Puede seleccionar en campañas y recorridos cualquier audiencia generada mediant
 
 * **Carga personalizada y composición de audiencia federada**: para las audiencias de carga personalizada y Composición de audiencia federada, tenga en cuenta las siguientes protecciones:
 
-   * **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
+  * **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
 
-   * **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil del servicio de perfiles unificado, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se usan normalmente en [!DNL Journey Optimizer] (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos. Por lo tanto, estos campos no pueden utilizarse para la segmentación.
+  * **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil del servicio de perfiles unificado, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se usan normalmente en [!DNL Journey Optimizer] (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos. Por lo tanto, estos campos no pueden utilizarse para la segmentación.
 
-     Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad en la creación de la audiencia sea el que se use para la segmentación en [!DNL Journey Optimizer].
+    Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad en la creación de la audiencia sea el que se use para la segmentación en [!DNL Journey Optimizer].
 
-   * **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la siguiente exportación de perfiles del servicio de perfil unificado, estos registros se vinculan con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
+  * **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la siguiente exportación de perfiles del servicio de perfil unificado, estos registros se vinculan con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
 
 ## Retraso de activación de audiencias {#activation}
 

@@ -6,9 +6,9 @@ description: Administrar los recorridos
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La administración de los recorridos en Adobe Journey Optimizer consiste en prop
 
 Examinar y filtrar los recorridos
 
-Obtenga información sobre cómo navegar, filtrar, organizar recorridos en carpetas y administrar recorridos de forma eficaz, incluidas las métricas del tablero de recorridos, las vistas de calendarios y los procesos de duplicación.
+Aprenda a navegar, filtrar y organizar recorridos por carpetas, y a administrar sus recorridos de manera eficiente, incluidas las métricas del panel de recorridos, las vistas de calendario y los procesos de duplicación.
 
 [Explorar la administración de recorrido](../using/building-journeys/journey-ui.md)
 :::

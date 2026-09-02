@@ -231,11 +231,11 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
 
 * Si activa la primera ejecución de una fase:
 
-   * Se crea una [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+  * Se crea una [audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=es){target="_blank"} para las audiencias de campaña excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
-   * Se crea una audiencia para los grupos de dominios excluidos (si los hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
+  * Se crea una audiencia para los grupos de dominios excluidos (si los hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
-   * Se crea otra audiencia para las audiencias de recorrido excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
+  * Se crea otra audiencia para las audiencias de recorrido excluidas (si las hay), con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -245,23 +245,23 @@ Al activar una ejecución, se crean varias audiencias automáticamente.
 
 * Al activar cualquier ejecución:
 
-   * Se crea otra audiencia para el último filtro de participación, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+  * Se crea otra audiencia para el último filtro de participación, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
-     >[!NOTE]
-     >
-     >La audiencia se limpia después de que el plan de calentamiento se marque como completado.
-     >
-     >El sistema no crea una audiencia nueva en caso de que no haya cambios en el último filtro de participación para las fases siguientes.
+    >[!NOTE]
+    >
+    >La audiencia se limpia después de que el plan de calentamiento se marque como completado.
+    >
+    >El sistema no crea una audiencia nueva en caso de que no haya cambios en el último filtro de participación para las fases siguientes.
 
-   * Se crea una [composición de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"} correspondiente a la audiencia a la que se enviará la campaña, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+  * Se crea una [composición de audiencia](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=es){target="_blank"} correspondiente a la audiencia a la que se enviará la campaña, con la siguiente convención de nombres: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
-     >[!NOTE]
-     >
-     >Se crea una nueva composición de audiencia para cada ejecución. Con un límite de 10, los usuarios que ejecuten varias campañas, recorridos y planes de calentamiento de IP simultáneamente mediante composiciones de audiencia publicadas deben planificar con anticipación para mantenerse dentro de este límite para operaciones paralelas.
-     >
-     >La composición de la audiencia (y, por lo tanto, la audiencia de salida) se limpia cuando se activa la siguiente iteración.
+    >[!NOTE]
+    >
+    >Se crea una nueva composición de audiencia para cada ejecución. Con un límite de 10, los usuarios que ejecuten varias campañas, recorridos y planes de calentamiento de IP simultáneamente mediante composiciones de audiencia publicadas deben planificar con anticipación para mantenerse dentro de este límite para operaciones paralelas.
+    >
+    >La composición de la audiencia (y, por lo tanto, la audiencia de salida) se limpia cuando se activa la siguiente iteración.
 
-   * Se crea una audiencia de salida con la siguiente convención de nombres: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
+  * Se crea una audiencia de salida con la siguiente convención de nombres: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

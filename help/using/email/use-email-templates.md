@@ -53,9 +53,9 @@ Puede elegir entre:
 
 * **Plantillas guardadas**. También puede utilizar una plantilla personalizada que permita:
 
-   * Creadas desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]**. [Más información](../content-management/content-templates.md#content-templates)
+  * Creadas desde cero utilizando el menú **[!UICONTROL Plantillas de contenido]**. [Más información](../content-management/content-templates.md#content-templates)
 
-   * Se guardó desde un correo electrónico en un recorrido o una campaña usando la opción **[!UICONTROL Guardar como plantilla de contenido]**. [Más información](../content-management/content-templates.md#video-templates)
+  * Se guardó desde un correo electrónico en un recorrido o una campaña usando la opción **[!UICONTROL Guardar como plantilla de contenido]**. [Más información](../content-management/content-templates.md#video-templates)
 
 Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas, siga los pasos a continuación.
 

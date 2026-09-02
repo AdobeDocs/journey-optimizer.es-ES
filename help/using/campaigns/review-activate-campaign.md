@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: 341
 ht-degree: 3%
 
 ---
@@ -67,6 +67,6 @@ Una vez configurada la campaña de acción, debe revisar su parámetro y conteni
 
 1. Una vez activada una campaña, puede comprobar en cualquier momento su información abriéndola. El resumen le permite obtener estadísticas sobre el número de perfiles objetivo y las acciones enviadas y fallidas.
 
-   También puede obtener estadísticas adicionales en informes dedicados si hace clic en el botón **[!UICONTROL Informes]**. [Más información](../reports/campaign-global-report-cja.md)
+   También puede obtener estadísticas adicionales en informes dedicados si hace clic en el botón **[!UICONTROL Ver informe]**. [Más información](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

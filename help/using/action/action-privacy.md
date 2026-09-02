@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1421
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,12 @@ Con su marco de [gobernanza de uso de etiquetado y aplicación del uso de datos 
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#policy)
 
-Después de crear las políticas de gobernanza, puede aplicar las acciones de marketing a sus recorridos/campañas y a las acciones personalizadas de recorrido.[Aprenda a aplicar acciones de marketing en Journey Optimizer](#apply-marketing-actions)
+Después de crear las políticas de gobernanza, puede aplicar las acciones de marketing a sus recorridos/campañas y a las acciones personalizadas de recorrido.
+[Aprenda a aplicar acciones de marketing en Journey Optimizer](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >
->La aplicación de la directiva DULE solo se aplica a **atributos de perfil**. Los campos basados en eventos (atributos de contexto), como los campos de evento de recorrido, no son compatibles con las directivas DULE. Las etiquetas aplicadas a los campos de evento en la interfaz de usuario no tendrán ningún efecto y no restringirán el uso de datos.
+>La aplicación de directivas DULE solo se aplica a **atributos de perfil**. Los campos basados en eventos (atributos de contexto), como los campos de evento de recorrido, no son compatibles con las directivas DULE. Las etiquetas aplicadas a los campos de evento en la interfaz de usuario no tendrán ningún efecto y no restringirán la utilización de datos.
 
 Al crear un recorrido o una campaña, después de seleccionar una configuración de canal o añadir una acción personalizada, el sistema comprueba si la acción de marketing de la configuración del canal de mensajes o la acción personalizada forman parte de una política de gobernanza de datos. Si es así, el sistema comprueba si algún campo del público de destino o la personalización del mensaje están etiquetados y restringidos por la política. Si se detecta una etiqueta de este tipo, se bloquea la publicación del recorrido o la campaña. [Aprenda a detectar la infracción de la política de gobernanza de datos](#violation)
 

@@ -123,10 +123,10 @@ Para crear su plan de calentamiento de IP, rellene la primera pestaña con los d
 
 * Puede tener hasta 6 columnas (4 columnas para grupos de dominio, una para la columna **Otros** y otra para la columna **Días de participación**). En este ejemplo, el plan se divide en seis columnas:
 
-   * Tres de los cuales corresponden a **grupos de dominios predeterminados** que se usarán en su plan (Gmail, Yahoo y Microsoft). Los grupos de dominio predeterminados están todos enumerados en la ficha [Grupos de dominio OOTB](#ootb-domain-groups-tab).
-   * Una columna corresponde a un grupo de dominio personalizado (que debe agregar mediante la ficha [Grupo de dominio personalizado](#custom-domain-group-tab)).
-   * La quinta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
-   * La última columna, **Días de participación**, le permite especificar el número de días durante los cuales se debe realizar un seguimiento o evaluar la participación.
+  * Tres de los cuales corresponden a **grupos de dominios predeterminados** que se usarán en su plan (Gmail, Yahoo y Microsoft). Los grupos de dominio predeterminados están todos enumerados en la ficha [Grupos de dominio OOTB](#ootb-domain-groups-tab).
+  * Una columna corresponde a un grupo de dominio personalizado (que debe agregar mediante la ficha [Grupo de dominio personalizado](#custom-domain-group-tab)).
+  * La quinta columna, **Otros**, contiene todas las direcciones restantes de otros dominios que no están cubiertos explícitamente en el plan. Esta columna es opcional: si se omite, los correos electrónicos solo irán a los dominios especificados.
+  * La última columna, **Días de participación**, le permite especificar el número de días durante los cuales se debe realizar un seguimiento o evaluar la participación.
 
 La idea es aumentar progresivamente el número de direcciones objetivo en cada ejecución, al mismo tiempo que se reduce el número de ejecuciones para cada fase.
 

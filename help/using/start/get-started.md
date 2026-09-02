@@ -34,9 +34,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: 832
+ht-degree: 100%
 
 ---
 
@@ -91,16 +91,16 @@ Las marcas pueden aplicar decisiones centralizadas e incorporar inteligencia art
 
 Journey Optimizer admite una amplia gama de escenarios, desde recorridos activados en tiempo real y recuperación del carro de compras abandonado hasta campañas programadas, toma de decisiones y notificaciones operativas.
 
-Para encontrar la funcionalidad que se ajuste a su objetivo, consulte la [descripción general de los casos de uso de Journey Optimizer](ajo-use-case-guide.md). Para ver ejemplos prácticos e integrales, examine la [biblioteca de casos de uso de recorrido](../building-journeys/jo-use-cases.md).
+Para encontrar la funcionalidad que se ajuste a su meta, consulte la [información general de los casos de uso de Journey Optimizer](ajo-use-case-guide.md). Para ver ejemplos prácticos de extremo a extremo, examine la [biblioteca de casos de uso de recorrido](../building-journeys/jo-use-cases.md).
 
-¿No está seguro de si usar Recorridos o campañas para su objetivo? Ver [Recorridos vs. Campañas: elige el enfoque correcto](journeys-vs-campaigns.md).
+¿No tiene claro si usar recorridos o campañas para su meta? Vea [Recorridos frente a campañas: elija el enfoque correcto](journeys-vs-campaigns.md).
 
 
 ## Disponibilidad y licencias {#availability}
 
 Esta documentación incluye la versión actual de Journey Optimizer y se aplica a los usuarios de B2C y B2B edition a menos que se indique lo contrario. Los componentes y las funciones disponibles en su entorno dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
 
-[!DNL Adobe CX Enterprise] se aplican procedimientos y directrices generales de privacidad a [!DNL Journey Optimizer]. [Más información sobre [!DNL Adobe CX Enterprise] privacidad](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
+Los procedimientos y directrices generales de privacidad de [!DNL Adobe CX Enterprise] se aplican a [!DNL Journey Optimizer]. [Más información sobre la privacidad de  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## Arquitectura {#architecture}
@@ -120,10 +120,10 @@ Journey Optimizer se ha creado de forma nativa en Adobe Experience Platform, com
 
 ## A dónde ir a continuación {#where-next}
 
-| Quiero... | Ir a... |
+| Quiero… | Ir a… |
 |------------|--------|
-| Comprender cómo Journey Optimizer se integra con Adobe Experience Platform | [Explicación de Journey Optimizer](understanding-ajo.md) |
+| Comprenda cómo Journey Optimizer se integra con Adobe Experience Platform | [Explicación de Journey Optimizer](understanding-ajo.md) |
 | Introducción a mi función específica | [Funciones y responsabilidades](quick-start.md) |
 | Explorar casos de uso | [Información general sobre casos de uso de Journey Optimizer](ajo-use-case-guide.md) |
-| Decidir entre Recorridos y campañas | [Recorridos frente a campañas](journeys-vs-campaigns.md) |
-| Consulte terminología clave | [Terminología](terminology.md) |
+| Decida entre recorridos y campañas | [Recorridos frente a campañas](journeys-vs-campaigns.md) |
+| Consulte la terminología clave | [Terminología](terminology.md) |

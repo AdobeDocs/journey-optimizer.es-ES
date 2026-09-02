@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1688
+source-wordcount: 1749
 ht-degree: 15%
 
 ---
@@ -178,7 +178,7 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
 1. Seleccione el campo elegido como clave en la lista de campos de carga útil.
 
-Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un [tipo de identidad](../event/about-creating.md#select-the-namespace), la clave se puede usar para realizar consultas en Adobe Experience Platform. Ver [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
+Cuando se recibe el evento, el valor de la clave permite al sistema identificar a la persona asociada al evento. Asociada a un [tipo de identidad](../event/about-creating.md#select-the-namespace), la clave se puede usar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-journey-activities.md#orchestration-activities).
 La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares del mismo recorrido.
 
 ## Editor de expresiones avanzadas {#adv-exp-editor}

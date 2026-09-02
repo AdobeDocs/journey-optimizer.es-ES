@@ -152,7 +152,7 @@ Para agregar una acción de canal integrada al recorrido mediante la actividad *
       <img alt="Poco frecuente" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>Creación de notificaciones push<strong></a>
+      <a href="../push/create-push.md"><strong>Crear notificaciones push<strong></a>
       </div>
       <p>
       </td>

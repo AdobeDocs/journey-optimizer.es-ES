@@ -138,7 +138,7 @@ Se debe elegir un valor inicial para los parámetros **&#x200B;**&#x200B;**, &#x
 
 En un enfoque de muestreo Thompson general, la parte posterior se calcula simplemente añadiendo el número de éxitos y errores a los parámetros existentes **&#x200B;**&#x200B;**, &#x200B;**&#x200B;**&#x200B;**. La optimización automática utiliza diferentes factores de ponderación para nuevos éxitos y errores a la hora de modificar el impacto de los nuevos datos frente a los datos anteriores, tanto en los bandidos basados en la exploración como en los basados en la explotación.
 
-## Referencias {#references}
+## Referencias: {#references}
 
 Para profundizar en el muestreo de bandidos Thompson, consulte los siguientes artículos de investigación:
 

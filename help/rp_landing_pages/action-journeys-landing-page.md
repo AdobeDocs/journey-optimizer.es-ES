@@ -6,7 +6,7 @@ description: Aprenda a configurar acciones personalizadas en Journey Optimizer p
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 

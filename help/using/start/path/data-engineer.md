@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Como **arquitecto de datos** o **ingeniero de datos**, usted configura y mantien
 
 >[!NOTE]
 >
->**Orden de implementación:** [Administrador](administrator.md) → Usted está aquí: **Ingeniero de datos** → [Desarrollador](developer.md) → [Especialista en mercadotecnia](marketer.md)
+>**Orden de implementación:** [Administrador](administrator.md) → Usted está aquí: **Ingeniero de datos** → [Desarrollador](developer.md) → [Experto en marketing](marketer.md)
 >
->Complete la [configuración del administrador](administrator.md) antes de iniciar el trabajo de base de datos.
+>Complete la [Configuración de administrador](administrator.md) antes de iniciar el trabajo de la base de datos.
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Colabore con [expertos en marketing](marketer.md) en públicos y datos:
 * Cree públicos en función de sus necesidades de campaña y recorrido
 * Configure esquemas relacionales para campañas orquestadas
 * Compatibilidad con la segmentación de varias entidades para casos de uso avanzados
-* Cuando los especialistas en marketing elijan entre recorridos y campañas, comparta [Recorridos vs. Campañas](../journeys-vs-campaigns.md) y [tipos de Recorridos: elija el adecuado](../../building-journeys/journey-types-selection.md) para ayudarlos a elegir la arquitectura de datos correcta para su caso de uso
+* Cuando los expertos en marketing elijan entre recorridos y campañas, comparta [Recorridos frente a campañas](../journeys-vs-campaigns.md) y [Tipos de recorrido: elija el correcto](../../building-journeys/journey-types-selection.md) para ayudarlos a elegir la arquitectura de datos correcta para su caso de uso
 
 >[!ENDTABS]
 
@@ -152,4 +152,4 @@ Colabore con [expertos en marketing](marketer.md) en públicos y datos:
 | Desarrollador | [Introducción para desarrolladores](developer.md) |
 | Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
 
-Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
+Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

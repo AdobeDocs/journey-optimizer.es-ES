@@ -17,9 +17,9 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 product_v2: []
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0ef320aaf7cf211c949522f89c53991c0f17beb8
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: 634
 ht-degree: 17%
 
 ---
@@ -53,7 +53,6 @@ El servidor de Offer Decisioning solo admite un **subconjunto** de las funciones
 * Let
 * Valor de reserva predeterminado
 * fragmento
-* datasetLookup
 * externalDataLookup (Alpha)
 * En línea
 * Url

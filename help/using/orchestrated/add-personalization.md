@@ -48,9 +48,9 @@ Al abrir el editor de personalización, dos carpetas principales contienen atrib
 
   Atributos calculados en el lienzo de la campaña desde la tabla de trabajo. Esta carpeta tiene dos subcarpetas:
 
-   * **`<Targeting dimension>`** (por ejemplo, Recipients o Purchases): atributos relacionados con la dimensión de destino en la campaña.
+  * **`<Targeting dimension>`** (por ejemplo, Recipients o Purchases): atributos relacionados con la dimensión de destino en la campaña.
 
-   * **`Enrichment`**: datos agregados a través de **[!UICONTROL actividades de enriquecimiento]** (vínculos relacionales, líneas recopiladas, agregados). Después de un enriquecimiento de **[!UICONTROL Collect data]** de 1:N, obtendrá líneas numeradas y una matriz de colección. [Aprenda a trabajar con datos de colección de enriquecimiento](#enrichment-collections)
+  * **`Enrichment`**: datos agregados a través de **[!UICONTROL actividades de enriquecimiento]** (vínculos relacionales, líneas recopiladas, agregados). Después de un enriquecimiento de **[!UICONTROL Collect data]** de 1:N, obtendrá líneas numeradas y una matriz de colección. [Aprenda a trabajar con datos de colección de enriquecimiento](#enrichment-collections)
 
 Para obtener una descripción detallada del editor de personalización en [!DNL Journey Optimizer], consulte [Introducción a la personalización](../personalization/personalize.md).
 

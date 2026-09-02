@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 284
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Antes de empezar a usar esta capacidad, lea [Protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
+>Antes de empezar a usar esta capacidad, lea las [Mecanismos de protecciones y limitaciones](gs-generative.md#generative-guardrails) relacionadas.
 ></br>
 >
 >Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) para poder usar Generar contenido en Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.

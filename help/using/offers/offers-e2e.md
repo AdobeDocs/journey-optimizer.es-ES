@@ -54,9 +54,9 @@ A continuación se enumeran los pasos clave para configurar ofertas, incluirlas 
    * Crear ofertas
    * Para cada oferta:
 
-      * Cree representaciones y seleccione una colocación y un recurso para cada representación
-      * Añadir una regla para cada oferta
-      * Definir una prioridad para cada oferta
+     * Cree representaciones y seleccione una colocación y un recurso para cada representación
+     * Añadir una regla para cada oferta
+     * Definir una prioridad para cada oferta
 
 1. [Crear una oferta de reserva](#create-fallback)
 

@@ -79,23 +79,23 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
   +++ Aprenda a asignar permisos relacionados multilingües
 
-   1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
+  1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
-   1. Haga clic en **Editar** para modificar los permisos.
+  1. Haga clic en **Editar** para modificar los permisos.
 
-   1. Agregue el recurso **Servicio de traducción** y, a continuación, seleccione los permisos multilingües adecuados en el menú desplegable.
+  1. Agregue el recurso **Servicio de traducción** y, a continuación, seleccione los permisos multilingües adecuados en el menú desplegable.
 
-      ![](assets/multilingual-permission.png){zoomable="yes"}
+     ![](assets/multilingual-permission.png){zoomable="yes"}
 
-   1. Haga clic en **Guardar** para aplicar los cambios.
+  1. Haga clic en **Guardar** para aplicar los cambios.
 
-      Los permisos de los usuarios que ya estén asignados a esta función se actualizarán automáticamente.
+     Los permisos de los usuarios que ya estén asignados a esta función se actualizarán automáticamente.
 
-   1. Para asignar esta función a nuevos usuarios, vaya a la pestaña **Usuarios** en el panel de control **Funciones** y haga clic en **Añadir usuario**.
+  1. Para asignar esta función a nuevos usuarios, vaya a la pestaña **Usuarios** en el panel de control **Funciones** y haga clic en **Añadir usuario**.
 
-   1. Introduzca el nombre del usuario y su dirección de correo electrónico, o selecciónelo en la lista, y haga clic en **Guardar**.
+  1. Introduzca el nombre del usuario y su dirección de correo electrónico, o selecciónelo en la lista, y haga clic en **Guardar**.
 
-   1. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
+  1. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
 
   +++
 
@@ -103,17 +103,17 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
   +++ Obtenga información sobre cómo habilitar la función de traducción
 
-   1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con el administrador de su organización y de la zona protegida para solicitar acceso.
+  1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con el administrador de su organización y de la zona protegida para solicitar acceso.
 
   ![](assets/multi-troubleshoot.png)
 
-   1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda.
+  1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda.
 
-      El sistema activará automáticamente la función de traducción.
+     El sistema activará automáticamente la función de traducción.
 
-   1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
+  1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
 
-   1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con su representante de Adobe para obtener más ayuda.
+  1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con su representante de Adobe para obtener más ayuda.
 
   +++
 

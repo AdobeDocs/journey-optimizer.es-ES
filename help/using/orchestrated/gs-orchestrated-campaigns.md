@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
 source-wordcount: 989
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orquestación de campañas</b><br/>Divida, combine, enriquezca y manipule conjuntos de datos relacionales para definir su público<br/><br/> <b>Aproveche los datos de varias entidades</b><br/>Descubra cómo las campañas orquestadas pueden aprovechar los conjuntos de datos relacionales para enriquecer los datos para la segmentación y personalización<br/><br/><b>Segmentación ad hoc y recuentos exactos</b><br/>Cree su segmento paso a paso con recuentos exactos<br/><br/><b>Canales disponibles</b><br/>Correo electrónico, SMS, notificaciones push, Correo directo, LINE, Canales personalizados"
 
-La orquestación de campaña de [!DNL Adobe Journey Optimizer] alimenta campañas sofisticadas iniciadas por la marca en varios canales, tanto **marketing** como **transaccional**. Las campañas de marketing le ayudan a impulsar la participación, los ingresos y la lealtad de los clientes a escala. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones urgentes, como interrupciones, emergencias o cancelaciones.
+La orquestación de campañas de [!DNL Adobe Journey Optimizer] potencia campañas sofisticadas iniciadas por la marca en todos los canales, tanto de **marketing** como **transaccionales**. Las campañas de marketing le ayudan a impulsar la participación, los ingresos y la lealtad de los clientes a escala. Los mensajes transaccionales no requieren la inclusión y son adecuados para comunicaciones urgentes, como interrupciones, emergencias o cancelaciones.
 
 >[!IMPORTANT]
 >

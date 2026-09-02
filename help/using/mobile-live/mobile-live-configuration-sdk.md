@@ -72,9 +72,9 @@ Compruebe que están instaladas las siguientes versiones mínimas para garantiza
 **Requisitos previos:**
 
 * **iOS:**
-   * **iOS16.1 o posterior**: Funcionalidad básica de actividad en directo
-   * **iOS 17.2+**: compatibilidad con push-to-start
-   * **iOS 18+**: compatibilidad con el canal de difusión
+  * **iOS16.1 o posterior**: Funcionalidad básica de actividad en directo
+  * **iOS 17.2+**: compatibilidad con push-to-start
+  * **iOS 18+**: compatibilidad con el canal de difusión
 * **Xcode:** 14.0 o posterior
 * **Swift:** 5.7 o posterior
 * **Dependencias:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
@@ -99,8 +99,8 @@ Cree una estructura que se ajuste al protocolo `LiveActivityAttributes`. Esto de
 Los componentes clave incluyen:
 
 * **`liveActivityData`** (obligatorio) que contiene datos específicos de Adobe Experience Platform.
-   * Para usuarios individuales: use `LiveActivityData(liveActivityID: "unique-id")`
-   * Para difusión: usar `LiveActivityData(channelID: "channel-id")`
+  * Para usuarios individuales: use `LiveActivityData(liveActivityID: "unique-id")`
+  * Para difusión: usar `LiveActivityData(channelID: "channel-id")`
 
 * Atributos estáticos, propiedades personalizadas específicas del caso de uso, por ejemplo `restaurantName`.
 

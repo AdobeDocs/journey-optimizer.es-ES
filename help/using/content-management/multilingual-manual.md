@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ Después de configurar el contenido multilingüe, está listo para crear la camp
 1. Elija la configuración regional que desee en el menú desplegable para aplicarla al contenido creado existente.
 
 1. Acceda a la configuración avanzada del menú **[!UICONTROL Configuraciones regionales]** y seleccione **[!UICONTROL Copiar a todas las configuraciones regionales]**.
+
+   >[!NOTE]
+   >
+   >Esta operación procesa la carga útil completa del correo electrónico en el servidor y está sujeta a la misma protección de tamaño de contenido de [mensaje](../start/guardrails.md#message-content-size) que la publicación en recorrido (2 MB como máximo, idealmente por debajo de 1 MB). Si el contenido es grande, copie a menos configuraciones regionales a la vez.
 
    ![](assets/multilingual-campaign-4.png)
 

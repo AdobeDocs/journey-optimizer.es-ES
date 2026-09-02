@@ -29,7 +29,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -354,40 +354,40 @@ Proporcionar compatibilidad con la navegación mediante el teclado y el enfoque 
 
 * Enfoque mediante el teclado
 
-   * Asegúrese de que todos los elementos interactivos (como botones, casillas de verificación y vínculos) tengan `tabindex="0"` para que se incluyan en el orden de tabulación natural.
+  * Asegúrese de que todos los elementos interactivos (como botones, casillas de verificación y vínculos) tengan `tabindex="0"` para que se incluyan en el orden de tabulación natural.
 
-   * Permita la navegación utilizando las teclas de tabulación y flecha (↑ ↓ ← →), que deben resaltar visiblemente el elemento centrado.
+  * Permita la navegación utilizando las teclas de tabulación y flecha (↑ ↓ ← →), que deben resaltar visiblemente el elemento centrado.
 
 * Estilo de enfoque personalizado
 
-   * Aplique estilos claros y distinguibles para centrarse en elementos procesables:
+  * Aplique estilos claros y distinguibles para centrarse en elementos procesables:
 
-     +++Ejemplo (CSS)
+    +++Ejemplo (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Asegúrese de que los indicadores de enfoque cumplan los estándares de apariencia de enfoque WCAG 2.2, que incluyen:
+  * Asegúrese de que los indicadores de enfoque cumplan los estándares de apariencia de enfoque WCAG 2.2, que incluyen:
 
-      * Área mínima: contorno de grosor de 2 píxeles CSS.
+    * Área mínima: contorno de grosor de 2 píxeles CSS.
 
-      * Proporción de contraste: ≥ 3:1 entre el estado centrado y no centrado.
+    * Relación de contraste: ≥ 3:1 entre el estado centrado y el no centrado.
 
 * Compatibilidad con activación de teclado
 
-   * Asegúrese de que las casillas de verificación y los botones responden a las teclas Intro y Espacio.
+  * Asegúrese de que las casillas de verificación y los botones responden a las teclas Intro y Espacio.
 
-   * Validar la interacción utilizando solo el teclado:
+  * Validar la interacción utilizando solo el teclado:
 
-      * Intro o Espacio deben alternar las casillas de verificación.
+    * Intro o Espacio deben alternar las casillas de verificación.
 
-      * Intro o espacio deben contener botones de déclencheur.
+    * Intro o espacio deben contener botones de déclencheur.

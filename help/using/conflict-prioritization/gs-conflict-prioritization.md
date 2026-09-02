@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 917
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,6 +94,6 @@ Los conjuntos de reglas permiten **agrupar varias reglas en múltiples reglas** 
 * **[Límite y arbitraje de recorridos](journey-capping.md)**: configure las reglas de limitación y el arbitraje a nivel de recorrido.
 * **[Restricción de frecuencia por canal](channel-capping.md)**: establezca límites de frecuencia a nivel de canal para evitar mensajes excesivos.
 * **[Establecer horas tranquilas](quiet-hours.md)**: defina exclusiones basadas en el tiempo para el envío de mensajes.
-* **[Clasificar recorridos mediante fórmulas](journey-ranking-formulas.md) y [modelos de IA](journey-ai-models.md)**: aprenda a crear fórmulas y modelos de IA para clasificar recorridos cuando se apliquen límites.
+* **[Clasificar recorridos mediante fórmulas](journey-ranking-formulas.md) y [modelos de IA](journey-ai-models.md)**: aprenda a generar fórmulas y modelos de IA para clasificar recorridos cuando se apliquen límites.
 * **[Tutoriales de administración de conflictos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutoriales de vídeo paso a paso.
 * **[Casos de uso de Journey Optimizer](../building-journeys/jo-use-cases.md)**: examine patrones prácticos, como la restricción de frecuencia y la lógica de supresión de recorrido.

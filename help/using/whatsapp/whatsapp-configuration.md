@@ -86,9 +86,9 @@ Estos pasos debe realizarlos un administrador del sistema [de Adobe Journey Opti
 1. La configuración de tu número de teléfono se completa automáticamente:
 
    * **Clasificación de calidad**: refleja los comentarios de los clientes sobre los mensajes enviados en las últimas 24 horas.
-      * Verde: alta calidad
-      * Amarillo: calidad Medium
-      * Rojo: baja calidad
+     * Verde: alta calidad
+     * Amarillo: calidad Medium
+     * Rojo: baja calidad
 
      Más información sobre [Clasificación de calidad](https://www.facebook.com/business/help/766346674749731#)
 

@@ -6,9 +6,9 @@ description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
-workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Descubra las últimas funciones y mejoras de Journey Optimizer en las Notas de l
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Desafíos de fidelización]
+>[!TAB Retos de lealtad]
 
-Descubra cómo crear y administrar **Desafíos de fidelidad** para atraer y recompensar a sus clientes más fieles con funciones de gamification.
+Descubra cómo crear y administrar **Retos de lealtad** para atraer y recompensar a sus clientes más fieles con funciones de gamificación.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB Aptitudes de Journey Optimizer en CX Coworker]
 
-Hemos agregado una nueva página de documentación para las aptitudes de **Journey Optimizer en CX Coworker**, que incluye aptitudes **centradas en el recorrido** y **centradas en la lealtad**, con instrucciones y muestras de mensajes.
+Hemos añadido una nueva página de documentación para las aptitudes de **Journey Optimizer en CX Coworker**, que incluye aptitudes **centradas en el recorrido** y **centradas en la lealtad**, con instrucciones y muestras de indicaciones.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
@@ -137,7 +137,7 @@ Aprenda a priorizar y administrar los conflictos de comunicación entre campaña
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td>
 </tr></table>
 

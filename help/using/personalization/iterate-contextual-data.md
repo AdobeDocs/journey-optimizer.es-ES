@@ -621,8 +621,8 @@ serializeList(
 * `currentEventField`: representa cada elemento de la matriz de eventos a medida que se recorre en bucle
 * `.SKU`: proyecta la lista para incluir solamente valores de SKU
 * `serializeList(list, delimiter, addQuotes)`: une la lista en una cadena
-   * `","`: usar una coma como delimitador
-   * `true`: agregar comillas alrededor de cada elemento de cadena
+  * `","`: usar una coma como delimitador
+  * `true`: agregar comillas alrededor de cada elemento de cadena
 * Resultado: `"SKU-1,SKU-3"` (adecuado para un parámetro de consulta)
 
 Más información sobre:

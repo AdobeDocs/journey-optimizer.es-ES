@@ -99,9 +99,9 @@ Una vez completada esta configuración, póngase en contacto con Adobe para perm
 
    * Contenido: habilite mi entorno para utilizar eventos AA.
 
-      * ID de organización: &quot;XXX@AdobeOrg&quot;
+     * ID de organización: &quot;XXX@AdobeOrg&quot;
 
-      * ID de fuente de datos: &quot;ID: xxxxx&quot;
+     * ID de fuente de datos: &quot;ID: xxxxx&quot;
 
 1. Una vez que tenga la confirmación de que su entorno está listo, puede utilizar los datos de Adobe Analytics en sus recorridos.
 

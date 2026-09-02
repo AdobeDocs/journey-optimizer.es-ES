@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introducción a la generación de contenido en Journey Optimizer
+title: Introducción a Generar contenido en Journey Optimizer
 description: Obtenga información sobre cómo acceder y trabajar con Generar contenido en Journey Optimizer
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
@@ -28,29 +28,29 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
-workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 62%
+workflow-type: ht
+source-wordcount: 1005
+ht-degree: 100%
 
 ---
 
-# Introducción a la generación de contenido {#gs-content-assistant}
+# Introducción a Generar contenido {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a acceder a Generar contenido en Adobe Journey Optimizer, configure los permisos necesarios y comprenda las protecciones para generar contenido de texto e imagen.
+**En esta página:** aprenda a acceder a Generar contenido en Adobe Journey Optimizer, configure los permisos necesarios y comprenda los mecanismos de protección para generar contenido de texto e imagen.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Generar contenido en Journey Optimizer"
->abstract="Una vez que haya creado y personalizado su envío, puede utilizar IA para editar y refinar su contenido. Esta función simplifica el proceso de personalización y mejora del contenido al permitirle refinarlo, describiendo lo que desea generar."
+>abstract="Cuando haya creado y personalizado su envío, puede utilizar la IA para editar y mejorar el contenido. Esta función simplifica el proceso de personalización y mejora del contenido al permitirle refinarlo, describiendo lo que desea generar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Cargar recurso de marca"
->abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que contenga contenido que pueda proporcionar un contexto adicional para Generar contenido en Journey Optimizer o para seleccionar un recurso cargado anteriormente. Esta opción garantiza que Generate Content tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y relevancia."
+>abstract="El menú Cargar recurso de marca le permite añadir cualquier recurso de marca que incluya contenido que pueda proporcionar un contexto adicional para Generar contenido en Journey Optimizer o seleccionar un recurso cargado anteriormente. Esta opción garantiza que Generar contenido tenga acceso a todos los materiales necesarios para mejorar su funcionalidad y relevancia."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -63,9 +63,9 @@ ht-degree: 62%
 >Sumérjase en una experiencia práctica con [nuestra vista previa de funciones en directo](https://experienceleague.adobe.com/es/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, diseñada para permitirle explorar sus funciones en primera persona y comprender plenamente sus posibilidades.
 
 
-Generar contenido en Adobe Journey Optimizer, con tecnología Microsoft Azure OpenAI y Adobe Firefly, ofrece sugerencias proactivas de variación de contenido para texto e imágenes. Esta nueva funcionalidad proporciona una **generación de textos e imágenes basada en indicaciones**. La generación de imágenes se administra con Adobe Firefly.
+Generar contenido en Adobe Journey Optimizer, con tecnología de Microsoft Azure OpenAI y Adobe Firefly, aporta sugerencias proactivas de variación de contenido para textos e imágenes. Esta nueva funcionalidad proporciona una **generación de textos e imágenes basada en indicaciones**. La generación de imágenes se administra con Adobe Firefly.
 
-Generate Content admite la generación **en varios idiomas**, lo que le permite llegar a diversas audiencias globales y participar en ellas. Generar contenido está disponible en los siguientes idiomas:
+Generar contenido admite la generación **en varios idiomas**, lo que le permite llegar a diversos públicos globales y hacer que interactúen. Generar contenido está disponible en los siguientes idiomas:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -98,18 +98,18 @@ Generate Content admite la generación **en varios idiomas**, lo que le permite 
   </tbody>
 </table>
 
-Utilice la IA para optimizar el impacto de su mensaje experimentando con diferentes títulos e imágenes principales. Genere variantes y cree un experimento para compararlas. Con el **Experimento de contenido de Journey Optimizer**, puede definir varios tratamientos para los mensajes a fin de medir cuál ofrece el mejor rendimiento para su público destinatario. Puede elegir entre variar el contenido del envío o el asunto. El público del mensaje se asigna aleatoriamente a cada tratamiento para determinar cuál funciona mejor en términos de la métrica especificada. Obtenga más información sobre el Experimento de contenido en [esta sección](../content-management/content-experiment.md).
+Ahora puede utilizar la IA para optimizar el impacto del mensaje experimentando con diferentes títulos e imágenes principales. Genere variantes y cree un experimento para compararlas. Con el **Experimento de contenido de Journey Optimizer**, puede definir varios tratamientos para los mensajes a fin de medir cuál ofrece el mejor rendimiento para su público destinatario. Puede elegir entre variar el contenido del envío o el asunto. El público del mensaje se asigna aleatoriamente a cada tratamiento para determinar cuál funciona mejor en términos de la métrica especificada. Obtenga más información sobre el Experimento de contenido en [esta sección](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Antes de empezar a usar esta capacidad, lea los [Mecanismos de seguridad y limitaciones](#generative-guardrails) relacionados.
 >
 >
->* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar Generar contenido en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
+>* Debe aceptar un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder utilizar Generar contenido en Adobe Journey Optimizer. Para obtener más información, contacte con su representante de Adobe.
 
 ## Acceder a Generar contenido {#generative-access}
 
-Para acceder a Generar contenido en Adobe Journey Optimizer, los usuarios deben recibir el permiso **Generar contenido**. [Más información](../administration/permissions.md)
+Para acceder a Generar contenido de Adobe Journey Optimizer, los usuarios deben tener concedido el permiso **Generar contenido**. [Más información](../administration/permissions.md)
 
 +++  Más información sobre la asignación de permisos relacionados con la generación de contenido
 
@@ -137,7 +137,7 @@ El usuario recibirá un correo electrónico con instrucciones para acceder a su 
 
 ## Mecanismos de protección y limitaciones {#generative-guardrails}
 
-A continuación, se enumeran las directrices generales para utilizar Generar contenido en Adobe Journey Optimizer para la generación de correo electrónico:
+A continuación se indican las directrices generales para utilizar Generar contenido de Adobe Journey Optimizer para la generación de correos electrónicos:
 
 ### Canales admitidos
 
@@ -145,7 +145,7 @@ A continuación, se enumeran las directrices generales para utilizar Generar con
 
 ### Calidad del contenido, indicaciones y comentarios
 
-* La calidad del contenido generado depende en gran medida del objetivo de marketing o la indicación que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete correctamente. 
+* La calidad del contenido generado depende en gran medida del objetivo de marketing o indicación que defina. Utilice indicaciones bien definidas para que el modelo GenAI las interprete con precisión. 
 * El contenido de GenAI podría no ser siempre preciso: comparta sus comentarios para que nuestros ingenieros puedan perfeccionar los modelos.
 * Asegúrese de notificar cualquier salida problemática utilizando los iconos de pulgar hacia arriba, pulgar hacia abajo o bandera al seleccionar variantes.
 
@@ -157,24 +157,24 @@ A continuación, se enumeran las directrices generales para utilizar Generar con
 
 ### Plantillas de correo electrónico e imágenes
 
-* Utilice una plantilla específica de la marca o personalizada para crear el contenido de su correo electrónico con Generar contenido en Adobe Journey Optimizer. Se recomiendan plantillas de correo electrónico con un máximo de 8 a 10 imágenes.
+* Utilice plantillas específicas de la marca o personalizadas para crear el contenido de sus correos electrónicos utilizando Generar contenido en Adobe Journey Optimizer. Se recomiendan plantillas de correo electrónico con un máximo de 8 a 10 imágenes.
 
 ### Uso legal y transparencia
 
-* El uso de Generar contenido está sujeto a las Directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* El uso que haga de Generar contenido está sujeto a las directrices del usuario de IA generativa de Adobe Experience Cloud. [Más información](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Como parte del compromiso de Adobe de fomentar la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplicará Content Credentials cuando se descargue o exporte contenido o un proyecto que incluya un recurso generado por Firefly. [Más información](https://helpx.adobe.com/es/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### Generar contenido para expresiones de personalización {#ai-assistant-personalization-editor-guardrails}
 
-Las siguientes protecciones se aplican a [Generar contenido para expresiones de personalización](generative-personalization-expressions.md) en el [!UICONTROL Editor de Personalization] y en el Designer de correo electrónico.
+Los siguientes mecanismos de protección se aplican a [Generar contenido para expresiones de personalización](generative-personalization-expressions.md) en el [!UICONTROL Editor de personalización] y en el Diseñador de correo electrónico.
 
 * **Oferta y Decisiones sobre experiencias**: no admitidos.
 * **Favoritos**: no admitido.
 * **Condiciones guardadas**: no admitido.
 * **Fragmentos de contenido de Adobe Experience Manager**: no admitido.
 
-## Generar funcionalidades de contenido {#generative-features}
+## Funcionalidades de Generar contenido {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -206,5 +206,5 @@ Las siguientes protecciones se aplican a [Generar contenido para expresiones de 
 
 ## Recursos adicionales
 
-* **[Casos de uso de generación de contenido](generative-uc.md)**: aprenda, a través de casos de uso, cómo usar Generar contenido
-* **[Tutoriales de generación de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características de generación de contenido y las prácticas recomendadas.
+* **[Casos de uso de Generar contenido](generative-uc.md)**: aprenda, a través de casos de uso, cómo utilizar Generar contenido
+* **[Tutoriales de Generar contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las funciones y las prácticas recomendadas de Generar contenido.

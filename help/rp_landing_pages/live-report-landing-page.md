@@ -6,7 +6,7 @@ description: Informe activo
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La función de informes activos de Adobe Journey Optimizer le permite realizar u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción al informe activo
 

@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -96,23 +96,23 @@ Cree reglas de aceptación que determinen qué ofertas mostrar en función del t
 
 * regla de dispositivo iphone:
 
-   * Nombre de regla: &quot;Edge Context Rule - iphone&quot;
-   * Configuración: deviceType = &#39;iphone&#39;
-   * Sintaxis de PQL:
+  * Nombre de regla: &quot;Edge Context Rule - iphone&quot;
+  * Configuración: deviceType = &#39;iphone&#39;
+  * Sintaxis de PQL:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * regla de dispositivo ipad:
 
-   * Nombre de regla: &quot;Edge Context Rule - ipad&quot;
-   * Configuración: deviceType = &#39;ipad&#39;
-   * Sintaxis de PQL
+  * Nombre de regla: &quot;Edge Context Rule - ipad&quot;
+  * Configuración: deviceType = &#39;ipad&#39;
+  * Sintaxis de PQL
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## Crear ofertas {#offers}
 
@@ -120,13 +120,13 @@ Cree una oferta para cada tipo de dispositivo y vincúlela a la regla de elegibi
 
 * Oferta para usuarios de iPhone:
 
-   * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPhone&quot;
-   * Regla asociada: &quot;Regla de contexto de Edge: iphone&quot;
+  * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPhone&quot;
+  * Regla asociada: &quot;Regla de contexto de Edge: iphone&quot;
 
 * Oferta para usuarios de iPad:
 
-   * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPad&quot;
-   * Regla asociada: &quot;Regla de contexto de Edge - ipad&quot;
+  * Nombre de la oferta: &quot;Edge Context - Contenido de la oferta de iPad&quot;
+  * Regla asociada: &quot;Regla de contexto de Edge - ipad&quot;
 
 Además, cree una oferta de reserva (aquí &quot;Contenido de reserva de contexto&quot;) para que se muestre si no se cumplen criterios específicos de dispositivo.
 

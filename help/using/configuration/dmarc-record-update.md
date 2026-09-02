@@ -27,8 +27,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: ht
-source-wordcount: 493
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -58,15 +58,15 @@ Por consiguiente, Adobe le recomienda encarecidamente que se asegure de tener co
 
 * Si ha [delegado completamente](delegate-subdomain.md#set-up-subdomain) sus subdominios a Adobe, elija una de las siguientes opciones:
 
-   * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
-O bien,
-   * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**: sin trabajo adicional en su solución de alojamiento. [Descubra cómo](dmarc-record.md#implement-dmarc)
+  * Configure DMARC en el dominio principal de los subdominios delegados **en su solución de alojamiento**.
+    o
+  * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**: sin trabajo adicional en su solución de alojamiento. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
 * Si ha configurado los subdominios de envío con [CNAME](delegate-subdomain.md#cname-subdomain-setup), siga una de estas opciones:
 
-   * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
-O bien,
-   * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**. [Descubra cómo](dmarc-record.md#implement-dmarc)
+  * Configure DMARC en los subdominios o en el dominio principal de los subdominios **en su solución de alojamiento**.
+    o
+  * Configure DMARC en los subdominios delegados **en la interfaz de usuario de configuración de[!DNL Journey Optimizer]**. [Descubra cómo](dmarc-record.md#implement-dmarc)
 
   Sin embargo, la configuración CNAME también requiere algunas entradas adicionales en la solución de alojamiento. Por lo tanto, asegúrese de coordinar con su departamento de TI para que puedan realizar la actualización detallada en [esta sección](dmarc-record.md#implement-dmarc).
 

@@ -215,17 +215,17 @@ El campo **[!UICONTROL Elegir evento de límite]** le permite definir qué event
 
   En el siguiente ejemplo, desea limitar el número de cierres de compra.
 
-   1. Seleccione **[!UICONTROL Custom Event]** de la lista y use el botón **[!UICONTROL Agregar evento personalizado]**.
+  1. Seleccione **[!UICONTROL Custom Event]** de la lista y use el botón **[!UICONTROL Agregar evento personalizado]**.
 
-   1. Use el generador **[!UICONTROL Crear reglas de evento personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
+  1. Use el generador **[!UICONTROL Crear reglas de evento personalizadas]** para seleccionar el evento correspondiente. Puede elegir cualquier acción del usuario sobre la que desee limitar las ofertas.
 
-      Aquí elige **[!UICONTROL Commerce]** > **[!UICONTROL Cierres de compra]** > **[!UICONTROL Value]** y selecciona **[!UICONTROL exists]** en la lista desplegable.
+     Aquí elige **[!UICONTROL Commerce]** > **[!UICONTROL Cierres de compra]** > **[!UICONTROL Value]** y selecciona **[!UICONTROL exists]** en la lista desplegable.
 
-      ![](../assets/offer-capping-custom-event.png)
+     ![](../assets/offer-capping-custom-event.png)
 
-   1. Una vez creada la regla, se muestra en el campo **[!UICONTROL Consulta de evento personalizado]**.
+  1. Una vez creada la regla, se muestra en el campo **[!UICONTROL Consulta de evento personalizado]**.
 
-      ![](../assets/offer-capping-custom-event-query.png)
+     ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >

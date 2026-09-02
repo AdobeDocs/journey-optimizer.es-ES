@@ -38,7 +38,8 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>De forma predeterminada, los recorridos se ejecutan en el contexto de un <b>ID de perfil</b>. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, Journey Optimizer le permite capturar un <b>identificador adicional</b>, como un identificador de pedido, un identificador de suscripción o un identificador de prescripción, además del identificador de perfil.  <p>En este ejemplo, hemos agregado un <b>ID de reserva</b> como identificador suplementario.</p>
+      <p>De forma predeterminada, los recorridos se ejecutan en el contexto de un <b>ID de perfil</b>. Esto significa que, siempre y cuando el perfil esté activo en un recorrido determinado, no podrá volver a entrar en otro recorrido. Para evitarlo, Journey Optimizer le permite capturar un <b>identificador adicional</b>, como un identificador de pedido, un identificador de suscripción o un identificador de prescripción, además del identificador de perfil.  
+      <p>En este ejemplo, hemos agregado un <b>ID de reserva</b> como identificador suplementario.</p>
       <p>Al hacerlo, los recorridos se ejecutan en el contexto del ID de perfil asociado al identificador suplementario (en este caso, el ID de reserva). Se ejecuta una instancia del recorrido para cada iteración del identificador suplementario. Esto permite varias entradas del mismo ID de perfil en recorridos si han realizado reservas diferentes.</p>
       <p>Además, Journey Optimizer le permite aprovechar los atributos del identificador suplementario (por ejemplo, número de reserva, fecha de renovación de la prescripción, tipo de producto) para la personalización de mensajes, lo que garantiza comunicaciones muy relevantes.</p>
     </td>
@@ -64,8 +65,8 @@ ht-degree: 2%
 
   El recorrido del comportamiento de reentrada con identificadores suplementarios sigue la política de reentrada existente:
 
-   * Si el recorrido no es de reentrada, la misma combinación de ID de perfil + ID suplementario no puede volver a entrar en el recorrido.
-   * Si el recorrido es de reentrada con una ventana de tiempo, la misma combinación de ID de perfil + ID suplementario puede volver a introducirse después de la ventana de tiempo definida.
+  * Si el recorrido no es de reentrada, la misma combinación de ID de perfil + ID suplementario no puede volver a entrar en el recorrido.
+  * Si el recorrido es de reentrada con una ventana de tiempo, la misma combinación de ID de perfil + ID suplementario puede volver a introducirse después de la ventana de tiempo definida.
 
 * **Etiquetado y aplicación del uso de datos (Data Use Labeling and Enforcement, DULE)**: no se realizan comprobaciones de validación DULE en el ID suplementario. Esto significa que este atributo no se tendrá en cuenta cuando el recorrido busque infracciones de directivas de gobernanza de datos.
 
@@ -75,10 +76,10 @@ ht-degree: 2%
 
 * **Leer recorridos de audiencia**
 
-   * **Eventos empresariales**: el Id. suplementario se deshabilita si usa un evento empresarial.
-   * **Campos de contexto y evento**: El identificador suplementario no debe proceder de un campo de contexto de evento o recorrido.
-   * **Selección de atributos**: cualquier atributo que no sea de identidad (o identidad que no sea de persona) puede usarse como ID suplementario para todos los tipos de audiencia (servicio de perfil unificado, importación de CSV y composición de audiencias federadas). No se permiten los atributos de identidad basados en personas. Para audiencias externas, vea [Identificadores adicionales con audiencias externas](#external-audiences) para patrones de datos compatibles y requisitos de configuración.
-   * **Tasa de lectura**: Para los recorridos de audiencia de lectura que usan un campo de ID suplementario de tipo matriz, la tasa de lectura de la actividad Leer audiencia está limitada a un máximo de 500 perfiles por segundo.
+  * **Eventos empresariales**: el Id. suplementario se deshabilita si usa un evento empresarial.
+  * **Campos de contexto y evento**: El identificador suplementario no debe proceder de un campo de contexto de evento o recorrido.
+  * **Selección de atributos**: cualquier atributo que no sea de identidad (o identidad que no sea de persona) puede usarse como ID suplementario para todos los tipos de audiencia (servicio de perfil unificado, importación de CSV y composición de audiencias federadas). No se permiten los atributos de identidad basados en personas. Para audiencias externas, vea [Identificadores adicionales con audiencias externas](#external-audiences) para patrones de datos compatibles y requisitos de configuración.
+  * **Tasa de lectura**: Para los recorridos de audiencia de lectura que usan un campo de ID suplementario de tipo matriz, la tasa de lectura de la actividad Leer audiencia está limitada a un máximo de 500 perfiles por segundo.
 
 ## Comportamiento de criterios de salida con ID suplementarios {#exit-criteria}
 
@@ -306,25 +307,25 @@ Estos ejemplos muestran cómo los identificadores suplementarios admiten varios 
 
 * **Escenario**: un proveedor de seguros envía recordatorios de renovación por cada póliza activa que posea un cliente.
 * **Ejecución**:
-   * Perfil: &quot;John&quot;.
-   * Identificadores suplementarios: `"AutoPolicy123", "HomePolicy456"`.
-   * El recorrido se ejecuta por separado para cada póliza, con fechas de renovación personalizadas, detalles de cobertura e información sobre primas.
+  * Perfil: &quot;John&quot;.
+  * Identificadores suplementarios: `"AutoPolicy123", "HomePolicy456"`.
+  * El recorrido se ejecuta por separado para cada póliza, con fechas de renovación personalizadas, detalles de cobertura e información sobre primas.
 
 ### **Administración de suscripciones**
 
 * **Escenario**: un servicio de suscripción envía mensajes personalizados para cada suscripción cuando se activa un evento para esa suscripción.
 * **Ejecución**:
-   * Perfil: &quot;Jane&quot;.
-   * Identificadores suplementarios: `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Cada evento incluye un ID de suscripción y detalles sobre dicha suscripción. El recorrido se ejecuta por separado para cada evento/suscripción, lo que permite ofertas de renovación personalizadas por suscripción.
+  * Perfil: &quot;Jane&quot;.
+  * Identificadores suplementarios: `"Luma Yoga Program ", "Luma Fitness Program"`.
+  * Cada evento incluye un ID de suscripción y detalles sobre dicha suscripción. El recorrido se ejecuta por separado para cada evento/suscripción, lo que permite ofertas de renovación personalizadas por suscripción.
 
 ### **Recomendaciones de productos**
 
 * **Escenario**: una plataforma de comercio electrónico envía recomendaciones basadas en productos específicos comprados por un cliente.
 * **Ejecución**:
-   * Perfil: &quot;Alex&quot;.
-   * Identificadores suplementarios: `"productID1234", "productID5678"`.
-   * El recorrido se ejecuta por separado para cada producto, con oportunidades de ampliación de venta personalizadas.
+  * Perfil: &quot;Alex&quot;.
+  * Identificadores suplementarios: `"productID1234", "productID5678"`.
+  * El recorrido se ejecuta por separado para cada producto, con oportunidades de ampliación de venta personalizadas.
 
 ## Vídeo práctico {#video}
 

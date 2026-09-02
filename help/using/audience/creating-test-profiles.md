@@ -25,7 +25,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1400
 ht-degree: 3%
 
 ---
@@ -199,7 +199,7 @@ En [!DNL Adobe Experience Platform], puede crear perfiles cargando un archivo cs
    ![Menú de flujos de trabajo en Adobe Experience Platform](assets/test-profiles-14.png)
 1. Elija **[!UICONTROL Asignar CSV al esquema XDM]** y, a continuación, haga clic en **Iniciar**.
    ![Asignar CSV a la opción de flujo de trabajo de esquema XDM](assets/test-profiles-16.png)
-1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Siguiente**.
+1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Next**.
    ![Pantalla de selección de conjuntos de datos para importación de CSV](assets/test-profiles-17.png)
 1. Haga clic en **Elegir archivos** y seleccione el archivo CSV. Cuando se cargue el archivo, haga clic en **Siguiente**.
    ![Pantalla de carga de archivos con el botón Elegir archivos](assets/test-profiles-18.png)

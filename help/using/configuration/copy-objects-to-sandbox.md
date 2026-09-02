@@ -201,7 +201,7 @@ Antes de importar en producción, tenga en cuenta los siguientes comportamientos
 
 +++
 
-+++ Fragmentos del recorrido
++++ Fragmentos de recorrido
 
 * [Los fragmentos de Recorrido](../building-journeys/journey-fragments.md) (conjuntos reutilizables de nodos de recorrido) son compatibles con las herramientas de espacio aislado. Al exportar un fragmento de recorrido, su último estado de Borrador se copia en la zona protegida de destino.
 

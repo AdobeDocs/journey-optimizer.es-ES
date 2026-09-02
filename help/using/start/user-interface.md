@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 85%
 
 >[!ENDSHADEBOX]
 
-Para acceder a Adobe Journey Optimizer, inicia sesión en [[!DNL Adobe CX Enterprise]](https://experience.adobe.com) con tu Adobe ID y, a continuación, selecciona [!DNL Journey Optimizer].
+Para acceder a Adobe Journey Optimizer, inicie sesión en [[!DNL Adobe CX Enterprise]](https://experience.adobe.com) con su Adobe ID y, a continuación, seleccione [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 |---------|---------|
 | Administración de recorrido | Campañas, recorridos, informes |
 | Gestión de decisiones | Ofertas y personalización |
-| Administración de contenido | Recursos, plantillas, fragmentos, páginas de destino |
+| Gestión de contenidos | Recursos, plantillas, fragmentos, páginas de destino |
 | Administración de datos | Esquemas, conjuntos de datos, consultas |
 | Conexiones | Fuentes y destinos |
 | Cliente | Públicos, perfiles, identidades |
@@ -359,7 +359,7 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generación de expresiones con IA"
->abstract="Utilice la IA para generar y refinar expresiones en Journey Optimizer."
+>abstract="Utilice la IA para generar y perfeccionar expresiones en Journey Optimizer."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

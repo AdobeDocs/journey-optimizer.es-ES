@@ -69,9 +69,9 @@ Al crear un ajuste preestablecido:
 * Puede configurar varios ajustes preestablecidos utilizando diferentes combinaciones de conjuntos de datos y conexiones de flujo continuo.
 * El mismo conjunto de datos o conexión de flujo continuo se puede reutilizar en varios ajustes preestablecidos.
 * Cada conexión de flujo continuo genera automáticamente recursos como:
-   * **Conexión de Source** - donde se originan los datos.
-   * **Conexión de destino** - donde se almacenan o consumen los datos.
-   * **Flujo de Source**: la canalización que mueve datos de la conexión de origen a [!DNL Experience Platform], y administra la asignación, la transformación y la validación.
+  * **Conexión de Source** - donde se originan los datos.
+  * **Conexión de destino** - donde se almacenan o consumen los datos.
+  * **Flujo de Source**: la canalización que mueve datos de la conexión de origen a [!DNL Experience Platform], y administra la asignación, la transformación y la validación.
 
 Para crear un ajuste preestablecido de formulario, siga los pasos a continuación.
 

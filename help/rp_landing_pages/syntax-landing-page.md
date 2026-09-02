@@ -6,7 +6,7 @@ description: Sintaxis
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Obtenga información sobre las reglas de sintaxis detalladas para utilizar el ed
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Instrucción condicional (if, then, else)
 
@@ -40,7 +40,7 @@ Domine el uso de instrucciones condicionales para crear expresiones complejas y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Información sobre los tipos de datos
 

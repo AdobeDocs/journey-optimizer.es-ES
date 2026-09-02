@@ -84,9 +84,9 @@ Las audiencias se pueden generar mediante diferentes métodos:
 
 * **Definiciones de segmentos**: Cree una nueva definición de audiencia con el servicio de segmentación de Adobe Experience Platform. Las audiencias se generan a partir de definiciones de segmentos y se actualizan en momentos diferentes según su tipo de evaluación:
 
-   * Segmentación de streaming: las audiencias se actualizan en tiempo real a medida que ingresan nuevos datos, lo que garantiza una relevancia continua basada en la actividad del usuario.
-   * Segmentación por lotes: las audiencias se actualizan cada 24 horas y capturan una instantánea de los perfiles a un intervalo fijo. Cuando se utilizan en los recorridos, es posible que los miembros del segmento recién cualificados no aparezcan hasta la siguiente captura de pantalla. [Más información sobre la sincronización](../building-journeys/audience-qualification-events.md#timing-segment-membership).
-   * Segmentación de Edge: las audiencias se evalúan instantáneamente en el perímetro, lo que permite la personalización en tiempo real.
+  * Segmentación de streaming: las audiencias se actualizan en tiempo real a medida que ingresan nuevos datos, lo que garantiza una relevancia continua basada en la actividad del usuario.
+  * Segmentación por lotes: las audiencias se actualizan cada 24 horas y capturan una instantánea de los perfiles a un intervalo fijo. Cuando se utilizan en los recorridos, es posible que los miembros del segmento recién cualificados no aparezcan hasta la siguiente captura de pantalla. [Más información sobre la sincronización](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+  * Segmentación de Edge: las audiencias se evalúan instantáneamente en el perímetro, lo que permite la personalización en tiempo real.
 
   [Obtenga información sobre cómo generar definiciones de segmentos](creating-a-segment-definition.md)
 

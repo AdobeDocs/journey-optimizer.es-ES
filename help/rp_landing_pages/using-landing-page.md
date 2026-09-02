@@ -32,8 +32,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
-workflow-type: ht
-source-wordcount: 459
+workflow-type: tm+mt
+source-wordcount: 462
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer permite a los equipos diseñar y ofrecer experiencias de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a Adobe Journey Optimizer
 
@@ -57,7 +57,7 @@ Conozca los conceptos básicos de Adobe Journey Optimizer, incluidas sus funcion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -67,7 +67,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -77,7 +77,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 
@@ -111,7 +111,7 @@ Aprenda a priorizar y administrar los conflictos de comunicación entre campaña
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td>
 </tr></table>
 

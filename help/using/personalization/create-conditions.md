@@ -73,8 +73,8 @@ Los pasos para crear una regla condicional son los siguientes:
    Los atributos se organizan en tres pestañas:
 
    * **[!UICONTROL Perfil]**:
-      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (por ejemplo: estado, versión, etc.) para [servicio de segmentación Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
-      * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} definido en Adobe Experience Platform.
+     * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (por ejemplo: estado, versión, etc.) para [servicio de segmentación Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
+     * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} definido en Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 

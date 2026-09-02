@@ -6,7 +6,7 @@ description: Consulta de la base de datos
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Tutorial paso a paso sobre la creación y validación de reglas para filtrar y s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Cómo editar expresiones en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Domine el editor de expresiones para definir manualmente las reglas de consulta 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creación de consultas de resegmentación en Adobe Journey Optimizer
 

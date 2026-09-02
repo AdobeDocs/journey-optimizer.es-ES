@@ -6,7 +6,7 @@ description: Creación de informes
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La creación de informes en Adobe Journey Optimizer consiste en convertir los da
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a la creación de informes
 
@@ -50,7 +50,7 @@ Conozca las métricas, la integración con Customer Journey Analytics y las herr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de informes de recorrido personalizados
 

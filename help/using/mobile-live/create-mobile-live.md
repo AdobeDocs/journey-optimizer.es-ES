@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +185,9 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 > `executionMetadata` está disponible para las campañas **Transaccional activada por API** y **Marketing activada por API**.
 
 Adjunte sus propios **datos personalizados** a un perfil, como un ID de pedido, un nivel de lealtad o un código de región, usando el campo opcional `executionMetadata`. Journey Optimizer almacena estos datos junto con la ejecución para que pueda recuperarlos más tarde de su **conjunto de datos de comentarios de actividades en directo** y hacer coincidir los resultados de la entrega con sus propios registros comerciales.
+
+Para enviar estos datos a través de la API, consulte la [referencia de API de mensajería para el campo `executionMetadata`](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request). Para volver a leer los valores en el dispositivo, consulte la [guía de Mobile SDK sobre la recepción de metadatos de ejecución desde el déclencheur de la API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger).
+
 Para agregar datos personalizados con metadatos de ejecución:
 
 * Agregar `executionMetadata` a un perfil, junto a `userId` y `namespace`. Solo se aceptan claves de cadena y valores de cadena. Convierta cualquier valor que no sea de cadena en una cadena antes de enviarla.
@@ -242,9 +245,6 @@ En este ejemplo, `orderId`, `tier`, `restaurant` y `region` son sus propios valo
 ```
 
 +++
-
-Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir el impacto de su actividad en vivo con [informes integrados](../reports/campaign-global-report-cja-activity.md).
-
 
 ## Vídeo tutorial
 

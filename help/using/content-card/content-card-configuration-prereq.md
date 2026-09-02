@@ -14,8 +14,8 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 9%
+source-wordcount: 398
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ Para que Adobe Journey Optimizer muestre correctamente las tarjetas de contenido
 * **Recopilación de datos de Adobe Experience Platform**
 
   [Cree una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"} y [agregue el servicio Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Habilite las opciones **[!UICONTROL Segmentación de Edge]** y **[!UICONTROL Adobe Journey Optimizer]**. Esto garantiza que Adobe Experience Platform Edge Network gestione los eventos de Journey Optimizer.
-Agregue el grupo de campos **Evento de experiencia - Interacción de propuesta** al conjunto de datos para incluir estos datos en los informes. [Más información sobre las secuencias de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"}
+  Agregue el grupo de campos **Evento de experiencia - Interacción de propuesta** al conjunto de datos para incluir estos datos en los informes. [Más información sobre las secuencias de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

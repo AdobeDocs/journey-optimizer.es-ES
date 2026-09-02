@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,4 +74,4 @@ Instrucciones detalladas para diseñar, iniciar y administrar campañas de marke
 
 ## Recursos adicionales
 
-- **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: realice un seguimiento del rendimiento, supervise las alertas y resuelva problemas rápidamente, incluida la solución de problemas de activación de campañas.
+- **[Monitorización y solución de problemas](troubleshoot-journey-landing-page.md)**: realice un seguimiento del rendimiento, monitorice las alertas y resuelva problemas rápidamente, incluida la solución de problemas de activación de campañas.

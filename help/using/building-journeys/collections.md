@@ -166,43 +166,43 @@ Aunque las colecciones en acciones personalizadas proporcionan flexibilidad para
 
   Por ejemplo:
 
-   1. El siguiente ejemplo ilustra un **caso de uso no admitido**.
+  1. El siguiente ejemplo ilustra un **caso de uso no admitido**.
 
-      En este ejemplo, la matriz de productos incluye una matriz anidada (`locations`) con un número dinámico de elementos, que no se admite en las cargas útiles de solicitud.
+     En este ejemplo, la matriz de productos incluye una matriz anidada (`locations`) con un número dinámico de elementos, que no se admite en las cargas útiles de solicitud.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. Ejemplo compatible, con elementos fijos definidos como constantes.
+  2. Ejemplo compatible, con elementos fijos definidos como constantes.
 
-      En este caso, las ubicaciones anidadas se reemplazan por campos fijos (`location1`, `location2`), lo que permite que la carga útil siga siendo válida dentro de la configuración admitida.
+     En este caso, las ubicaciones anidadas se reemplazan por campos fijos (`location1`, `location2`), lo que permite que la carga útil siga siendo válida dentro de la configuración admitida.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **Colecciones de prueba**: para probar las colecciones con el modo de prueba, debe usar el modo de vista de código. Tenga en cuenta que el modo de vista de código no es compatible con eventos empresariales, por lo que en ese caso, solo puede enviar una colección que contenga un solo elemento.

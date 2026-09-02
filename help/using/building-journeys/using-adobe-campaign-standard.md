@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1540
 ht-degree: 5%
 
 ---
@@ -79,9 +79,9 @@ Para **[!UICONTROL correo electrónico]** y **[!UICONTROL SMS]**, los parámetro
 >[!NOTE]
 >
 >Al utilizar la plantilla transaccional de un perfil para el correo electrónico, [!DNL Adobe Campaign] Standard gestiona automáticamente el mecanismo de baja.
->Incluir un bloque de contenido de **[!UICONTROL vínculo de baja]** en [la plantilla de correo electrónico transaccional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
+>Incluir un bloque de contenido de **[!UICONTROL Vínculo de baja]** en [la plantilla de correo electrónico transaccional](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
 >Si utiliza una plantilla basada en eventos (rtEvent), incorpore un vínculo en el mensaje que pase el correo electrónico del destinatario como parámetro de URL y lo dirija a una página de aterrizaje de baja.
->Cree la página de aterrizaje y asegúrese de que la decisión de cancelar la suscripción del destinatario se transmita a Adobe.
+>Cree la página de aterrizaje de y asegúrese de que la decisión de cancelar la suscripción del destinatario se transmita a Adobe.
 
 En primer lugar, debe elegir una plantilla de mensajería transaccional.
 

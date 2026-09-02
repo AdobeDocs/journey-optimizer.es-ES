@@ -24,9 +24,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: 575
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Para obtener más información sobre Privacy Service y cómo crear y administrar
 Puede enviar solicitudes individuales para acceder a los datos de consumo y eliminarlos de Adobe Journey Optimizer de dos formas:
 
 * A través de la **IU de Privacy Service**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es){target="_blank"}
-* A través de la **API de Privacy Service**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"}
+* A través de la **API de Privacy Service**. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service admite dos tipos de solicitudes: **acceso a datos** y **eliminación de datos**.

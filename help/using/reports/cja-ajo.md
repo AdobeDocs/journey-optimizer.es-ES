@@ -79,7 +79,8 @@ El uso de [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] podría
 
 * **En [!DNL Journey Optimizer] informes, la métrica Enviada también incluye la métrica Reintento.**
 
-  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que [!DNL Customer Journey Analytics] **[!UICONTROL métricas enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.Para reducir las discrepancias, utilice intervalos de fechas de hace una semana o incluso más tarde.
+  **[!UICONTROL Reintentos]** no se incluirá en la métrica **[!UICONTROL Enviados]** en [!DNL Customer Journey Analytics]. Esto hará que [!DNL Customer Journey Analytics] **[!UICONTROL métricas enviadas]** muestren valores inferiores a [!DNL Journey Optimizer]. Sin embargo, los datos de reintentos convergen a la métrica **[!UICONTROL Mensajes enviados correctamente]** o **[!UICONTROL Devoluciones]**.
+  Para reducir las discrepancias, utilice intervalos de fechas de hace una semana o incluso más tarde.
 
 * **Los informes se están suministrando desde una fuente de datos diferente.**
 

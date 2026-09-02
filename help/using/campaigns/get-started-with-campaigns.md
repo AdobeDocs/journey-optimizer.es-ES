@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Comprenda los aspectos básicos de la campaña, compare los tipos de campaña disponibles y siga el flujo de trabajo de creación de extremo a extremo para que pueda elegir el enfoque adecuado y generar campañas que envíen contenido de destino a través de los canales en Adobe Journey Optimizer.
+**En esta página:** comprenda los aspectos básicos de la campaña, compare los tipos de campaña disponibles y siga el flujo de trabajo de creación de extremo a extremo para que pueda elegir el enfoque adecuado y generar campañas que envíen contenido de destino a través de los canales en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +90,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campañas"
->abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Admitir canales salientes."
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Admita canales de salida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -193,7 +193,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
   >[!NOTE]
   >
-  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles atractivos** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en una audiencia grande o nueva puede provocar un aumento significativo de este recuento. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
+  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles interesados** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en un público grande o nuevo puede provocar un aumento significativo de este recuento. [Monitorización del recuento de Perfiles interesados](../audience/license-usage.md)
 
 * **Configuraciones de canal**: las configuraciones de canal (ajustes preestablecidos) deben crearse y estar disponibles para los canales que desee utilizar. [Creación de configuraciones de canal →](../configuration/channel-surfaces.md)
 

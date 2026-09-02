@@ -6,7 +6,7 @@ description: Configuración de la fuente de datos
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 

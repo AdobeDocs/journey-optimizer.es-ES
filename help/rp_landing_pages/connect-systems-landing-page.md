@@ -6,7 +6,7 @@ description: Conectar sus sistemas y entornos
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

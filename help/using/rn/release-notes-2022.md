@@ -33,8 +33,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 3603
+workflow-type: tm+mt
+source-wordcount: 3645
 ht-degree: 100%
 
 ---
@@ -168,7 +168,7 @@ Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] l
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform le permite adoptar y aplicar fácilmente políticas de marketing que respeten las preferencias de consentimiento de sus clientes. Las políticas de consentimiento se definen en Adobe Experience Platform. En Journey Optimizer, puede aplicarlas a sus acciones personalizadas. Por ejemplo, puede definir políticas de consentimiento para excluir a los clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS.
+<p>Adobe Experience Platform le permite adoptar y aplicar fácilmente políticas de marketing que respeten las preferencias de consentimiento de sus clientes. Las políticas de consentimiento se definen en Adobe Experience Platform. En Journey Optimizer, puede aplicar estas políticas de consentimiento a sus acciones personalizadas. Por ejemplo, puede definir políticas de consentimiento para excluir a los clientes que no hayan aceptado recibir comunicaciones por correo electrónico, push o SMS.
 <p>Actualmente, la aplicación automática del consentimiento solo está disponible para las organizaciones que han adquirido la oferta complementaria Escudo de atención sanitaria.</p>
 <p>Para obtener más información, consulte la <a href="../action/consent.md">documentación detallada</a>.
 </td>
@@ -793,8 +793,8 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Creación de informes**
 
 * Ahora se pueden filtrar los envíos en función de su estado:
-   * Desde la lista Ejecución de mensajes, ahora puede excluir pruebas de la lista de envíos.
-   * Desde los informes activos/globales, puede elegir excluir los eventos de prueba.
+  * Desde la lista Ejecución de mensajes, ahora puede excluir pruebas de la lista de envíos.
+  * Desde los informes activos/globales, puede elegir excluir los eventos de prueba.
 
 * Ahora puede acceder a los informes sobre los datos de optimización del tiempo de envío: el número de personas que recibieron mensajes inmediatamente y el número de personas que recibieron mensajes con optimización de una hora, dos horas, etc.
 

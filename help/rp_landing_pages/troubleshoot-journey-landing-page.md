@@ -6,9 +6,9 @@ description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Comprenda los códigos de error comunes en Adobe Journey Optimizer y encuentre s
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
-Solucionar errores de Recorrido
+Solución de errores del recorrido
 
 Identifique y resuelva errores en todo el recorrido, problemas de actividad, y establezca acciones de reserva para garantizar que las pruebas y la publicación se realicen sin problemas.
 
@@ -81,7 +81,7 @@ Identifique y resuelva errores en todo el recorrido, problemas de actividad, y e
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
-Solucionar problemas de ejecución de Recorrido
+Solución de problemas de la ejecución del recorrido
 
 Diagnostique problemas con la validación de eventos, la entrada de perfiles, la navegación mediante el recorrido y el envío de mensajes durante la ejecución activa.
 
@@ -91,7 +91,7 @@ Diagnostique problemas con la validación de eventos, la entrada de perfiles, la
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
-Solucionar problemas de acciones entrantes
+Solución de problemas de acciones de entrada
 
 Depure los problemas de las acciones de envío, como la falta de contenido o la entrega continua después de la salida del perfil, mediante guías paso a paso detalladas.
 
@@ -101,7 +101,7 @@ Depure los problemas de las acciones de envío, como la falta de contenido o la 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
-Solucionar problemas de acciones personalizadas
+Solución de problemas de acciones personalizadas
 
 Valide y depure las acciones personalizadas mediante la función **Enviar solicitud de prueba** para asegurarse de que las llamadas de API y la configuración de autenticación sean correctas.
 
@@ -111,21 +111,21 @@ Valide y depure las acciones personalizadas mediante la función **Enviar solici
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
-Solucionar problemas de actividades activas
+Solución de problemas de actividades activas
 
-Diagnostique por qué las actividades de Live no aparecen, actualizan ni finalizan, lo que abarca problemas de token de perfil, configuración de campaña, carga útil y entrega para casos de uso unitarios y de difusión.
+Diagnostique por qué las actividades activas no aparecen, se actualizan ni finalizan, lo que abarca problemas de token de perfil, configuración de campaña, carga útil y envío para casos de uso unitarios y de difusión.
 
-[Corregir problemas de actividades activas](../using/mobile-live/troubleshoot-mobile-live.md)
+[Corrección de problemas de actividades activas](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=es)
 
-Solucionar problemas de fragmentos de contenido de AEM
+Solución de problemas de fragmentos de contenido de AEM
 
 Revise las consideraciones clave y los problemas comunes al trabajar con fragmentos de contenido de Adobe Experience Manager en Journey Optimizer, incluidos los tipos de fragmentos, el acceso al repositorio y la personalización.
 
-[Resolver problemas de fragmentos de contenido](../using/integrations/aem-fragments-limitations.md)
+[Resolución de problemas de fragmentos de contenido](../using/integrations/aem-fragments-limitations.md)
 :::
 
 :::
@@ -150,14 +150,14 @@ Conozca qué debe incluir al ponerse en contacto con el servicio de asistencia d
 
 ### Campañas
 
-* [Solucionar problemas de activación de campañas](../using/campaigns/trigger-campaigns.md#troubleshooting): resuelva problemas comunes que se encuentren al revisar y activar campañas.
+* [Solución de problemas de activación de campañas](../using/campaigns/trigger-campaigns.md#troubleshooting): resuelva problemas comunes que se encuentren al revisar y activar campañas.
 
 ### Canales e integraciones
 
-* [Solucionar problemas de configuración de canales de WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting): diagnostica y corrige problemas comunes de configuración al configurar el canal de WhatsApp.
+* [Solución de problemas de configuración de canales de WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting): diagnostique y corrija problemas comunes de configuración al definir el canal de WhatsApp.
 
 * [Preguntas frecuentes sobre la solución de problemas de integraciones](../using/integrations/vendor-integration-faq.md#troubleshooting): encuentre respuestas a errores comunes de conexión y conexión de prueba para integraciones de terceros.
 
 ### Configuración
 
-* [Solucionar problemas de delegación de subdominios personalizados](../using/configuration/delegate-custom-subdomain.md#check-list): revise una lista de comprobación para resolver problemas al enviar un subdominio personalizado.
+* [Solución de problemas de delegación de subdominios personalizados](../using/configuration/delegate-custom-subdomain.md#check-list): revise una lista de comprobación para resolver problemas al enviar un subdominio personalizado.

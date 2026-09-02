@@ -65,11 +65,11 @@ En la sección **[!UICONTROL Diseño del mensaje]**, seleccione una de las cuatr
 
 * **[!UICONTROL Personalizado]**: el modo de mensaje personalizado le permite importar y editar directamente uno de sus mensajes preconfigurados de HTML.
 
-   * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código HTML sin procesar.
+  * Seleccione **[!UICONTROL Componer]** para ingresar o pegar su código HTML sin procesar.
 
-     Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
+    Utilice el panel izquierdo para aprovechar las funcionalidades de personalización de Journey Optimizer. Para obtener más información, consulte [esta sección](../personalization/personalize.md).
 
-   * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido de HTML.
+  * Seleccione **[!UICONTROL Import]** para importar el archivo HTML o .zip que contiene el contenido de HTML.
 
 ## Pestaña Contenido {#content-tab}
 

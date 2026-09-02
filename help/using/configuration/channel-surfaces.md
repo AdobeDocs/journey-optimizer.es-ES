@@ -180,10 +180,10 @@ Si se produce uno de estos errores, comuníquese con el [Servicio de atención a
 * **Error de validación de registro MX**: El error de validación de registro MX (Mail eXchange) significa que los servidores de correo responsables de aceptar correos electrónicos entrantes en nombre de un subdominio determinado no están correctamente configurados.
 
 * **Error en las configuraciones de entrega**: El error en las configuraciones de entrega puede deberse a cualquiera de las siguientes razones:
-   * Inclusión en la lista de bloqueados de las direcciones IP asignadas
-   * Nombre de `helo` no válido
-   * Correos electrónicos enviados desde direcciones IP distintas de las especificadas en el grupo de IP de la configuración correspondiente
-   * No se pueden enviar correos electrónicos a las bandejas de entrada de los principales ISP
+  * Inclusión en la lista de bloqueados de las direcciones IP asignadas
+  * Nombre de `helo` no válido
+  * Correos electrónicos enviados desde direcciones IP distintas de las especificadas en el grupo de IP de la configuración correspondiente
+  * No se pueden enviar correos electrónicos a las bandejas de entrada de los principales ISP
 
 ## Editar una configuración de canal {#edit-channel-surface}
 

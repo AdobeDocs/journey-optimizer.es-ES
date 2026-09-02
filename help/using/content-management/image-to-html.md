@@ -12,9 +12,9 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
-source-wordcount: 2126
+source-wordcount: 2103
 ht-degree: 4%
 
 ---
@@ -74,8 +74,6 @@ El convertidor de imagen a HTML es ideal para:
 Para tener acceso a esta característica, su organización debe haber firmado el anexo [!DNL Generative AI] con Adobe. Si no está seguro, póngase en contacto con su representante de Adobe.
 
 **Permisos**
-
-* Para acceder y crear plantillas, su función debe incluir el permiso **[!UICONTROL Administrar plantillas de contenido]** (en el recurso **Administración de contenido**). [Más información sobre los permisos](../administration/permissions.md)
 
 * Para usar el convertidor de imagen a HTML, se le debe otorgar el permiso **Generar contenido**. Aprenda a asignar permisos relacionados con la generación de contenido en [esta sección](../content-management/gs-generative.md#generative-access).
 

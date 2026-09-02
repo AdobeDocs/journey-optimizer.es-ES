@@ -95,9 +95,9 @@ Journey Optimizer admite varios tipos de fuentes para conectarse con los sistema
 * Salesforce
 * Marketing Cloud de Salesforce
 
-**Fidelidad y recompensas:**
+**Lealtad y recompensas:**
 * Talon.One
-* Capilar
+* Capillary
 * Kobie
 * LAVA
 

@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1733
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ Como **experto en marketing** o **profesional empresarial**, diseña recorridos 
 
 >[!NOTE]
 >
->**Orden de implementación:** [Administrador](administrator.md) → [Ingeniero de datos](data-engineer.md) → [Desarrollador](developer.md) → Usted está aquí: **Especialista en marketing**
+>**Orden de implementación:** [Administrador](administrator.md) → [Ingeniero de datos](data-engineer.md) → [Desarrollador](developer.md) → Usted está aquí: **Experto en marketing**
 >
->Confirme que la [configuración del entorno](administrator.md) y la [configuración de datos](data-engineer.md) se han completado antes de generar los recorridos.
+>Confirme que la [configuración del entorno](administrator.md) y la [configuración de datos](data-engineer.md) se hayan completado antes de generar los recorridos.
 
 ## Comience con lo esencial
 
 >[!NOTE]
 >
->¿Es nuevo en Journey Optimizer? Lea [Qué es Journey Optimizer](../get-started.md) antes de comenzar esta guía.
+>¿Es su primera vez en Journey Optimizer? Lea [Qué es Journey Optimizer](../get-started.md) antes de comenzar esta guía.
 
 Trabaje con sus [administradores](administrator.md) para obtener acceso a los [ingenieros de datos](data-engineer.md) y con ellos configurar públicos, datos y esquemas relacionales para la segmentación avanzada. Consulte la información general de [Introducción a la administración de datos](../../data/gs-data.md) para comprender qué configuración de datos es necesaria para poder crear recorridos y campañas.
 
@@ -63,7 +63,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 1. **Crear públicos**. Cree públicos a través de definiciones de segmentos, cargue archivos CSV o utilice la composición de público. Journey Optimizer ofrece varias formas de dirigirse a los clientes adecuados. Más información sobre [públicos](../../audience/about-audiences.md) y [creación de definiciones de segmento](../../audience/creating-a-segment-definition.md).
 
 1. **Contenido de diseño**. Cree mensajes atractivos en todos los canales, incluidos correo electrónico, SMS, push, push web, en la aplicación, web, correo postal y tarjetas de contenido:
-   * Utilice IA para generar contenido de correo electrónico, líneas de asunto e imágenes en función de las directrices de marca. [Más información sobre la generación de contenido de IA](../../content-management/gs-generative.md)
+   * Use la IA para generar contenido de correo electrónico, asuntos e imágenes según las directrices de su marca. [Más información sobre la generación de contenido de IA](../../content-management/gs-generative.md)
    * **Personalice mensajes** con datos de clientes, contenido dinámico y lógica condicional. [Más información sobre la personalización](../../personalization/personalize.md)
    * **Itere en datos contextuales** para mostrar listas dinámicas a partir de eventos, acciones personalizadas y búsquedas de conjuntos de datos. [Obtenga información sobre cómo iterar datos contextuales](../../personalization/iterate-contextual-data.md)
    * Cree **plantillas de contenido** y **fragmentos** reutilizables para mantener la coherencia de la marca. [Trabajo con plantillas](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 
 * **Comience con plantillas**: use plantillas prediseñadas y fragmentos de contenido para acelerar la creación y mantener la coherencia
 * **Realice pruebas tempranas y con frecuencia**: obtenga siempre una vista previa del contenido en todos los dispositivos y utilice perfiles de prueba para validar la personalización
-* **Aproveche bien la IA**: Use la IA para los borradores y las variaciones iniciales, pero siempre revise y perfeccione la voz de su marca
+* **Aproveche bien la IA**: use la IA para los borradores y las variaciones iniciales, pero siempre revise y perfeccione la voz de su marca
 * **Simplifique**: los mensajes claros y concisos con llamadas a la acción potentes funcionan mejor que los diseños complejos
 
 ### Diseño de recorrido
@@ -145,7 +145,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 
 ### Orquestación de campañas
 
-* **Elija el enfoque correcto**: vea [Recorridos vs. Campañas](../journeys-vs-campaigns.md) para decidir entre la orquestación en tiempo real y la entrega programada y, a continuación, [tipos de Recorridos: elija el correcto](../../building-journeys/journey-types-selection.md) para elegir el tipo de recorrido correcto
+* **Elija el enfoque correcto**: vea [Recorridos frente a campañas](../journeys-vs-campaigns.md) para decidir entre la orquestación en tiempo real y el envío programado y, a continuación, en [Tipos de recorridos: elija el correcto](../../building-journeys/journey-types-selection.md) para seleccionar el tipo de recorrido correcto
 * **Defina objetivos de campaña claros**: establezca metas antes de diseñar flujos de trabajo de varios pasos
 * **Comience con públicos piloto**: valide los recuentos y la lógica de segmentación antes de escalar
 * **Aproveche los datos relacionales**: use la segmentación de varias entidades para conectar los datos de los clientes con cuentas, compras y suscripciones para una segmentación precisa.
@@ -235,7 +235,7 @@ Colabore con [administradores](administrator.md) en el acceso y las configuracio
 ## Próximos pasos
 
 1. **Empiece poco a poco**: cree un recorrido de bienvenida simple o una campaña de un solo mensaje para conocer la plataforma
-2. **Aprovechar IA**: Use IA para hacer preguntas y acelerar la creación de contenido
+2. **Aproveche la IA**: use la IA para hacer preguntas y acelerar la creación de contenido
 3. **Únase a la comunidad**: conéctese con otros usuarios de Journey Optimizer en la [Comunidad de Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}
 4. **Explore tutoriales**: vea vídeos paso a paso en [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}
 
@@ -244,8 +244,8 @@ Colabore con [administradores](administrator.md) en el acceso y las configuracio
 | Función | Guía |
 |------|-------|
 | Administrador | [Introducción para administradores](administrator.md) |
-| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
-| Desarrollador | [Introducción para desarrolladores](developer.md) |
-| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+| Ingeniero de datos | [Introducción para los ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para los desarrolladores](developer.md) |
+| Experto en marketing | [Introducción para los expertos en marketing](marketer.md) |
 
-Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
+Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

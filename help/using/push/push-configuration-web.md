@@ -118,7 +118,7 @@ Para asignar este **[!UICONTROL perfil de producto]** a los usuarios, siga los p
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](assets/push_product_7.png)
 

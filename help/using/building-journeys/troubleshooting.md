@@ -75,7 +75,7 @@ Los errores y las advertencias que son globales para el recorrido aparecen prime
 
 Puede definir una acción de reserva en caso de error en las siguientes actividades de recorrido: **[!UICONTROL Optimizar]** y **[!UICONTROL Acción]**.
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es resolver el problema. Para evitar interrumpir el recorrido, también puede marcar la opción **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad. Obtenga más información en [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera de continuar es resolver el problema. Para evitar interrumpir el recorrido, también puede marcar la opción **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad. Obtenga más información en [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 +++ Referencia de conocimientos de AI
 

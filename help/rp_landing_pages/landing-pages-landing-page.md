@@ -6,7 +6,7 @@ description: Páginas de aterrizaje
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Configure listas de suscripción para administrar perfiles de inclusión y optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casos de uso de la página de aterrizaje
 

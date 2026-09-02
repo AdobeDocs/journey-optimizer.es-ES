@@ -25,8 +25,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 749
-ht-degree: 6%
+source-wordcount: 753
+ht-degree: 7%
 
 ---
 
@@ -44,9 +44,9 @@ Para ello, la organización debería:
 
 * Ejecute la API [!DNL Batch Decisioning], que contiene dos solicitudes:
 
-   1. Una **solicitud POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
+  1. Una **solicitud POST por lotes** para iniciar una carga de trabajo para procesar por lotes las selecciones de ofertas.
 
-   2. Una **solicitud GET por lotes** para obtener el estado de la carga de trabajo por lotes.
+  2. Una **solicitud GET por lotes** para obtener el estado de la carga de trabajo por lotes.
 
 * Exporte el conjunto de datos a la API del proveedor de entrega de mensajes.
 

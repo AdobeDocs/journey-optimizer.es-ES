@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
-source-wordcount: 2056
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2058
+ht-degree: 100%
 
 ---
 
@@ -292,12 +292,12 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Interfaz de usuario**
 
-* **Buscar**: en cada página, ahora puede buscar objetos empresariales y artículos de ayuda directamente desde el campo de búsqueda Unificado [!DNL CX Enterprise]. [Más información](../start/user-interface.md#unified-search)
+* **Buscar**: en todas las páginas, ahora puede buscar objetos empresariales y artículos de ayuda directamente desde el campo de búsqueda de [!DNL CX Enterprise] unificado. [Más información](../start/user-interface.md#unified-search)
 * **Recientes**: la visualización de elementos recientes de la página principal de Adobe Journey Optimizer ahora se amplía a objetos comerciales adicionales. Con esta actualización, los accesos directos a los que se ha accedido recientemente incluyen Mensajes, Recorridos, Públicos, Esquemas, Conjuntos de datos, Fuentes de datos, Eventos, Orígenes y Destinos. [Más información](../action/about-custom-action-configuration.md#passing-collection)
 
 **Diseño de contenido**
 
-* **Fondo**: ahora se admiten imágenes de fondo en la vista previa dinámica. [Más información](../content-management/preview-test.md)
+* **Contexto**: las imágenes de fondo ahora se admiten en la vista previa en vivo. [Más información](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **Personalización**

@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Estas funcionalidades pueden gestionarlas los **[!UICONTROL Administradores de p
 
 >[!NOTE]
 >
->**Orden de implementación:** Usted está aquí: **Administrador** → [Ingeniero de datos](data-engineer.md) → [Desarrollador](developer.md) → [Especialista en marketing](marketer.md)
+>**Orden de implementación:** Usted está aquí: **Administrador** → [Ingeniero de datos](data-engineer.md) → [Desarrollador](developer.md) → [Experto en marketing](marketer.md)
 >
->El administrador configura primero el entorno. Los ingenieros de datos, los desarrolladores y los especialistas en marketing dependen de que este trabajo se complete antes de que pueda comenzar.
+>El administrador configura el entorno primero. Los ingenieros de datos, los desarrolladores y los expertos en marketing dependen de que este trabajo se complete antes de que pueda comenzar.
 
 ## Configuración de acceso y permisos
 
@@ -159,7 +159,7 @@ Colabore con [expertos en marketing](marketer.md) en la configuración de permis
 * Configure los canales que utilizarán (correo electrónico, push, SMS, etc.)
 * Apoye entornos de prueba de soporte y flujos de trabajo de aprobación
 * Habilite el acceso a las nuevas funciones y capacidades
-* Comparta guías de decisión para ayudar a su equipo a elegir el enfoque adecuado: [Recorridos frente a Campañas](../journeys-vs-campaigns.md) y [tipos de Recorridos: elija el adecuado](../../building-journeys/journey-types-selection.md)
+* Comparta guías de decisión para ayudar a su equipo a elegir el enfoque adecuado: [Recorridos frente a Campañas](../journeys-vs-campaigns.md) y [Tipos de recorridos: elija el adecuado](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -180,4 +180,4 @@ Una vez configurado el entorno:
 | Desarrollador | [Introducción para desarrolladores](developer.md) |
 | Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
 
-Volver a [Resumen de funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
+Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

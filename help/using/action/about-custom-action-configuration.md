@@ -249,9 +249,9 @@ En esta configuración de campo, debe:
 
 * Defina una constante o un parámetro de variable:
 
-   * **Constant** significa que el valor del parámetro lo define un técnico en el panel de configuración de la acción. El valor siempre será el mismo en todos los recorridos. No varía y el experto en marketing no puede verlo al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que espere el sistema de terceros. En ese caso, el valor constante se establece en el campo a la derecha de la constante/variable de alternancia.
+  * **Constant** significa que el valor del parámetro lo define un técnico en el panel de configuración de la acción. El valor siempre será el mismo en todos los recorridos. No varía y el experto en marketing no puede verlo al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que espere el sistema de terceros. En ese caso, el valor constante se establece en el campo a la derecha de la constante/variable de alternancia.
 
-   * **Variable** significa que el valor del parámetro puede variar. Los especialistas en marketing que utilizan esta acción personalizada en un recorrido pueden transferir el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante/variable de alternancia es el que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
+  * **Variable** significa que el valor del parámetro puede variar. Los especialistas en marketing que utilizan esta acción personalizada en un recorrido pueden transferir el valor que deseen o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante/variable de alternancia es el que los especialistas en marketing verán en el recorrido para asignar un nombre a este parámetro.
 
   Para los parámetros opcionales, habilite la opción **[!UICONTROL Is optional]** al final de la línea. Al marcar esta opción, marca el parámetro como no obligatorio y permite que los profesionales del recorrido elijan rellenarlo o no al crear esa acción personalizada en un recorrido.
 

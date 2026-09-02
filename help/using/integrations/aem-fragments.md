@@ -23,7 +23,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1784
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Después de crear y personalizar los fragmentos de contenido de AEM, ahora puede
    1. **Asignación de cadenas estáticas**: asigne un valor de cadena fijo poniéndolo entre comillas dobles, por ejemplo name = &quot;John&quot;.
 
    1. **Asignación de variables**: Haga referencia a una variable declarada anteriormente en la misma HTML, por ejemplo name = &#39;variableName&#39;.
-En este caso, asegúrese de que se ha declarado **_variableName_** antes de agregar el ID de fragmento, con la siguiente sintaxis:
+      En este caso, asegúrese de que se ha declarado **_variableName_** antes de agregar el ID de fragmento, utilizando la siguiente sintaxis:
 
       ```html
       {% let variableName = attribute name %} 

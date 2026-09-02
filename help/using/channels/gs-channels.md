@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantall
 
 Mensajes móviles
 
-Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines transaccionales y de marketing, incluidas la conformidad y la personalización.
+Aprenda a crear, administrar y configurar mensajes SMS, MMS y RCS para fines transaccionales y de marketing, incluidas la conformidad y la personalización.
 
-[Más información sobre los Mensajes móviles](../mobile/get-started-mobile.md)
+[Más información sobre los mensajes móviles](../mobile/get-started-mobile.md)
 :::
 
 :::
@@ -91,9 +91,9 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 
 Correo directo
 
-Descubra cómo crear y administrar campañas de correo directo, incluida la exportación de archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
+Descubra cómo crear y administrar campañas de correo directo, incluyendo exportar archivos de extracción para proveedores de terceros y garantizar la conformidad con el consentimiento del usuario.
 
-[Más información sobre el Correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
+[Más información sobre el correo directo](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

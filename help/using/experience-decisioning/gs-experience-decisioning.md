@@ -53,7 +53,7 @@ Estos elementos de decisión se integran perfectamente en los mensajes y experie
 >
 >Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push**, **SMS** y **Correo directo**.
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 

@@ -15,11 +15,11 @@ subfeature_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 553
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# Usar un conjunto de datos personalizado para palabras clave entrantes {#custom-dataset-inbound-keywords}
+# Uso de un conjunto de datos personalizado para palabras clave entrantes {#custom-dataset-inbound-keywords}
 
 >[!BEGINSHADEBOX]
 

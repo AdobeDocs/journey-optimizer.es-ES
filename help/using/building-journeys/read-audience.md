@@ -289,9 +289,9 @@ Utilice la siguiente tabla para comprender el comportamiento combinado en la sig
 | [!UICONTROL Lectura incremental] | [!UICONTROL Forzar reentrada en repetición] | Comportamiento en la siguiente ejecución |
 | ------------------------------ | ------------------------------------------- | ------------------------ |
 | Desactivado | Desactivado | [!DNL Journey Optimizer] lee la audiencia completa de esa ejecución. Los perfiles que aún están activos en el recorrido no se restablecen automáticamente. |
-| Día | Desactivado | [!DNL Journey Optimizer] solo lee perfiles que se agregaron a la audiencia desde la última ejecución. Los perfiles que aún están activos en el recorrido no se restablecen automáticamente. |
-| Desactivado | Día | [!DNL Journey Optimizer] quita los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, vuelve a leer la audiencia completa. Esto permite que los perfiles comiencen de nuevo en la nueva ocurrencia. |
-| Día | Día | [!DNL Journey Optimizer] elimina los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, solo lee los perfiles que se agregaron a la audiencia desde la última ejecución. La reentrada forzada restablece la participación activa en el recorrido, pero la lectura incremental limita la selección a los miembros de audiencia recién añadidos. |
+| El | Desactivado | [!DNL Journey Optimizer] solo lee perfiles que se agregaron a la audiencia desde la última ejecución. Los perfiles que aún están activos en el recorrido no se restablecen automáticamente. |
+| Desactivado | El | [!DNL Journey Optimizer] quita los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, vuelve a leer la audiencia completa. Esto permite que los perfiles comiencen de nuevo en la nueva ocurrencia. |
+| El | El | [!DNL Journey Optimizer] elimina los participantes activos de la ejecución de recorrido actual antes de iniciar la siguiente ejecución y, a continuación, solo lee los perfiles que se agregaron a la audiencia desde la última ejecución. La reentrada forzada restablece la participación activa en el recorrido, pero la lectura incremental limita la selección a los miembros de audiencia recién añadidos. |
 
 En otras palabras, **[!UICONTROL Forzar reentrada en repetición] no deshabilita [!UICONTROL Lectura incremental]**. Si ambas opciones están habilitadas, los perfiles se eliminan de su instancia de recorrido activa antes de que comience la siguiente ocurrencia, pero esta sigue seleccionando solo los miembros de audiencia que se consideran nuevos desde la última ejecución.
 
@@ -432,9 +432,9 @@ Si el problema persiste después de estas comprobaciones, consulte [Validación 
 * **Verificar políticas de combinación**: Asegúrese de que la política de combinación configurada para su audiencia coincida con el comportamiento esperado para combinar datos de perfil de diferentes fuentes. Más información sobre [políticas de combinación en [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=es){target="_blank"}.
 
 * **Revisar definiciones de segmentos**: Confirme que las definiciones de segmentos están configuradas correctamente e incluyan todos los criterios de calificación esperados. Más información sobre [cómo generar audiencias](../audience/creating-a-segment-definition.md). Preste especial atención a:
-   * Condiciones basadas en el tiempo que pueden excluir perfiles basados en marcas de tiempo de eventos
-   * Cualificaciones de atributo que dependen de datos actualizados recientemente
-   * Métodos de evaluación de flujo frente a lotes
+  * Condiciones basadas en el tiempo que pueden excluir perfiles basados en marcas de tiempo de eventos
+  * Cualificaciones de atributo que dependen de datos actualizados recientemente
+  * Métodos de evaluación de flujo frente a lotes
 
 * **Validar configuración del área de nombres**: Asegúrese de que el área de nombres seleccionado en la actividad **Leer audiencia** coincida con la identidad principal utilizada por los perfiles de su audiencia. Los perfiles sin el área de nombres seleccionada no entrarán en el recorrido. Más información sobre [áreas de nombres de identidad](../event/about-creating.md#select-the-namespace).
 

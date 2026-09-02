@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 609
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 
   Un esquema estándar consta de:
 
-   * Una **clase** (que define el comportamiento de los datos: registro o serie temporal).
-   * Uno o más **grupos de campos** (que añaden campos específicos al esquema).
+  * Una **clase** (que define el comportamiento de los datos: registro o serie temporal).
+  * Uno o más **grupos de campos** (que añaden campos específicos al esquema).
 
   En Journey Optimizer, los esquemas estándar generalmente se utilizan para representar a **personas individuales y sus atributos**, capturar **interacciones de series de tiempo** como clics, compras o inicios de sesión, y potenciar el **Perfil del cliente en tiempo real** para la segmentación y personalización.
 
@@ -61,24 +61,24 @@ Existen dos tipos de esquemas en Adobe Experience Platform:
 * Los **esquemas relacionales** son esquemas planos no jerárquicos que no utilizan clases ni grupos de campos. Se usan para capturar datos de registros para entidades relacionales y se usan principalmente en [!DNL Journey Optimizer] **campañas orquestadas**.
 
   Algunos ejemplos de entidades relacionales son:
-   * Reservas, contratos o suscripciones
-   * Productos o catálogos
-   * Tiendas, ubicaciones o socios
+  * Reservas, contratos o suscripciones
+  * Productos o catálogos
+  * Tiendas, ubicaciones o socios
 
   Con los esquemas relacionales, puede enviar un mensaje por entidad (por ejemplo, por reserva o por suscripción), crear segmentos basados en atributos de entidad (por ejemplo, categoría de producto, ubicación de tienda) y mejorar la capacidad de direccionamiento llegando a todos los contactos vinculados a una entidad.
 
   Cómo funcionan los esquemas relacionales:
 
-   1. **Crear esquemas manualmente o importar mediante DDL**
-   1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
-   1. **Introducir datos** en su conjunto de datos desde fuentes compatibles.
+  1. **Crear esquemas manualmente o importar mediante DDL**
+  1. **Vincular esquemas** para definir las relaciones entre entidades y personas (por ejemplo, transacciones de fidelidad vinculadas a miembros, recompensas vinculadas a marcas).
+  1. **Introducir datos** en su conjunto de datos desde fuentes compatibles.
 
   ➡️ [Aprenda a administrar los esquemas y conjuntos de datos relacionales](../orchestrated/gs-schemas.md)
-➡️ [Introducción a las campañas orquestadas](../orchestrated/gs-schemas.md)
+  ➡️ [Introducción a las campañas orquestadas](../orchestrated/gs-schemas.md)
 
 >[!IMPORTANT]
 >
->La activación de un esquema para el Perfil del cliente en tiempo real es una decisión permanente: una vez activado, el esquema no se puede desactivar ni eliminar. Los conjuntos de datos creados en ese esquema se pueden deshabilitar o eliminar por separado, pero al hacerlo se eliminan los registros de perfil asociados y pueden afectar a los flujos de trabajo de segmentación y activación. Antes de habilitar, finalice la configuración de identidad y la selección de grupos de campos. Para obtener instrucciones detalladas, consulte [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} y [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} en la documentación de Adobe Experience Platform.
+>La activación de un esquema para el Perfil del cliente en tiempo real es una decisión permanente: una vez activado, el esquema no se puede desactivar ni eliminar. Los conjuntos de datos creados en ese esquema se pueden deshabilitar o eliminar por separado, pero al hacerlo se eliminan los registros de perfil asociados y pueden afectar a los flujos de trabajo de segmentación y activación. Antes de habilitarlos, finalice la configuración de identidad y la selección de grupos de campos. Para obtener instrucciones detalladas, consulte [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} y [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} en la documentación de Adobe Experience Platform.
 
 ## Vídeo tutorial{#video-schema}
 
@@ -92,7 +92,7 @@ Obtenga información sobre cómo crear un esquema estándar, añadir grupos de c
 >* [Creación de un esquema y un conjunto de datos, e introducción de datos para añadir perfiles de prueba en Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Información general sobre el sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"}
 >* [Prácticas recomendadas para el modelado de datos](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=es){target="_blank"}
->* [Planificación de habilitación de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [Administrar esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Planificación de habilitación de perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Administración de esquemas habilitados para perfiles](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Creación de un esquema con la API del registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=es){target="_blank"}
 >* [Definición de una relación entre dos esquemas con el editor de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=es){target="_blank"}
