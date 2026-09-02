@@ -6,27 +6,11 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
@@ -119,7 +103,7 @@ Web SDK (`alloy.js`) es una sola biblioteca de JavaScript que reemplaza el mosai
 
 1. **Configure secuencias de datos**: cree y configure una secuencia de datos en [!DNL Adobe Experience Platform Data Collection] con Journey Optimizer habilitado. Obtenga más información en la [documentación de secuencias de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es){target="_blank"}.
 
-1. **Habilitar notificaciones push web** (opcional): las notificaciones push web ya están disponibles de forma general. Configure la propiedad [pushNotifications](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} en la configuración de su SDK web y utilice el comando [sendPushSubscription](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} para registrar suscripciones push. [Más información acerca de la configuración de las notificaciones push web](../../push/push-configuration-web.md).
+1. **Habilitar notificaciones push web** (opcional): las notificaciones push web ya están disponibles de forma general. Configure la propiedad [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} en la configuración de su SDK web y utilice el comando [sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} para registrar suscripciones push. [Más información acerca de la configuración de las notificaciones push web](../../push/push-configuration-web.md).
 
 ### Implementar experiencias basadas en código (Web SDK)
 
@@ -201,7 +185,7 @@ Cuando un recorrido alcanza un paso de acción personalizada, Journey Optimizer 
 
 1. **Devolver datos procesables**: diseñe su API para devolver datos que se puedan usar en pasos de recorrido posteriores. Obtenga información acerca de [respuestas de acción](../../action/action-response.md).
 
-1. **Supervisar el estado de las acciones personalizadas**: use el panel de supervisión de acciones personalizadas para rastrear las llamadas, los errores, el rendimiento, los tiempos de respuesta y los tiempos de espera de cola correctos. Obtenga información sobre la [creación informes de acciones personalizadas](../../action/reporting.md).
+1. **Monitorizar el estado de las acciones personalizadas**: use el panel de monitorización de acciones personalizadas para rastrear las llamadas, los errores, el rendimiento, los tiempos de respuesta y los tiempos de espera de cola correctos. Obtenga información sobre la [creación informes de acciones personalizadas](../../action/reporting.md).
 
 1. **Implemente limitación de velocidad**: asegúrese de que los puntos finales puedan asumir el volumen esperado. Journey Optimizer aplica un límite de 5000 llamadas/segundo, pero el sistema debe ser flexible. Obtenga información sobre [límite y regulación](../../configuration/external-systems.md).
 
@@ -237,13 +221,13 @@ Antes de que la implementación se ponga en marcha, debe confiar en que los even
 
 1. **Use el modo de prueba con perfiles de prueba**: trabaje con su [ingeniero de datos](data-engineer.md) para obtener acceso a los perfiles de prueba y, a continuación, valide su implementación mediante el modo de prueba de recorrido. Aprenda a [probar recorridos](../../building-journeys/testing-the-journey.md).
 
-1. **Supervise los registros de SDK**: habilite el registro de depuración en la implementación de SDK para solucionar problemas durante el desarrollo:
+1. **Monitorice los registros de SDK**: habilite el registro de depuración en la implementación de SDK para solucionar problemas durante el desarrollo:
    * **SDK móvil**: habilite el registro para ver eventos de SDK y llamadas a la API
-   * **Web SDK**: utilice la consola del explorador para supervisar la actividad de SDK
+   * **Web SDK**: utilice la consola del explorador para monitorizar la actividad de SDK
 
 1. **Verifique la configuración de la secuencia de datos**: asegúrese de que la secuencia de datos esté configurada correctamente para enviar datos a Journey Optimizer. Compruebe que los eventos fluyen a través de la secuencia de datos hasta los destinos correctos.
 
-1. **Consulte datos de recorrido para el análisis**: use consultas SQL en el lago de datos para analizar eventos de pasos de recorrido, depurar problemas y supervisar el rendimiento de acciones personalizadas. Explore [ejemplos de consultas para el análisis de recorrido](../../reports/query-examples.md), incluidos:
+1. **Consulte datos de recorrido para el análisis**: use consultas SQL en el lago de datos para analizar eventos de pasos de recorrido, depurar problemas y monitorizar el rendimiento de acciones personalizadas. Explore [ejemplos de consultas para el análisis de recorrido](../../reports/query-examples.md), incluidos:
    * Razones de entrada/salida del perfil y de descarte
    * Métricas de rendimiento de acciones personalizadas (latencia, rendimiento, errores)
    * Envío de eventos y patrones de error

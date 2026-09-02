@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: integración, proveedor, terceros
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10209
+source-wordcount: 10212
 ht-degree: 5%
 
 ---
@@ -769,8 +768,8 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 | Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `progressStatus` | `progressStatus` | Variable | en curso/completado/caducado | No (desactivado) |
-| `startDate` | `startDate` | Variable | 29/05/2024 T15:04:05+07:00 | No (desactivado) |
-| `endDate` | `endDate` | Variable | 29/05/2024 T15:04:05+07:00 | No (desactivado) |
+| `startDate` | `startDate` | Variable | 29-05-2024 T15:04:05+07:00 | No (desactivado) |
+| `endDate` | `endDate` | Variable | 29-05-2024 T15:04:05+07:00 | No (desactivado) |
 | `pageSize` | `pageSize` | Variable | `<default_page_size>` | No (desactivado) |
 | `skip` | `skip` | Variable | `<items_to_skip>` | No (desactivado) |
 
@@ -1229,7 +1228,7 @@ Se aplican las siguientes limitaciones y exclusiones:
 
 Utilice el siguiente procedimiento para configurar esta integración en Journey Optimizer. Consulte **Campos de integración de muestra** para obtener detalles de solicitud de ejemplo y confirme esos valores con la documentación del proveedor para su entorno.
 
-1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
+1. Seguir [Trabajar con integraciones](integrations.md). Las llamadas de envío suelen ser **POST** con un cuerpo JSON. Configure OAuth según [Target authentication](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, pegue una respuesta de ejemplo, asigne campos y realice pruebas en el volumen esperado.
 
 1. En Journey Optimizer, vaya a **[!UICONTROL Configuraciones]** > **[!UICONTROL Administrar]** y, a continuación, seleccione **[!UICONTROL Crear integración]**.
 
@@ -1282,7 +1281,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Autenticación**
 
-Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/es/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
+Consulte [Configuración de autenticación de destino](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) y agregue JSON a la carga útil.
 
 **Solicitar carga**
 
@@ -2039,7 +2038,7 @@ Ejemplo de punto de entrada: `https://api.bazaarvoice.com/data/products.json` co
 | Parámetro | Nombre | Tipo | Valor | Obligatorio |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | Constante | 5.4 | Sí (activado) |
-| `filter` | `filter` | Variable | Id.:47950830 | No (desactivado) |
+| `filter` | `filter` | Variable | Id:47950830 | No (desactivado) |
 | `stats` | `stats` | Variable | todo | No (desactivado) |
 
 +++
@@ -2112,7 +2111,7 @@ En la tabla siguiente se muestran valores de ejemplo para esta solicitud de inte
 
 **Parámetros de ruta**
 
-| Parámetro | Nombre | Valor |
+| Parámetro | Name | Valor |
 | --- | --- | --- |
 | `preferencecenterid` | `preferencecenterid` | `<pref-id>` |
 

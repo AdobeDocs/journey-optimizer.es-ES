@@ -37,7 +37,8 @@ Con su marco de [gobernanza de uso de etiquetado y aplicación del uso de datos 
 
 Una vez definidas las etiquetas y las acciones de marketing, puede crear **políticas de gobernanza de datos** que vinculen estos dos elementos. Por ejemplo, puede configurar una política que asocie una etiqueta “ePHI” con una acción de marketing de “direccionamiento de correo electrónico”, lo que garantiza que los campos etiquetados como “ePHI” no se utilicen para personalizar los mensajes de correo electrónico. [Aprenda a crear políticas de gobernanza de datos](#policy)
 
-Después de crear las políticas de gobernanza, puede aplicar las acciones de marketing a sus recorridos/campañas y a las acciones personalizadas de recorrido.[Aprenda a aplicar acciones de marketing en Journey Optimizer](#apply-marketing-actions)
+Después de crear las políticas de gobernanza, puede aplicar las acciones de marketing a sus recorridos/campañas y a las acciones personalizadas de recorrido.
+[Aprenda a aplicar acciones de marketing en Journey Optimizer](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >

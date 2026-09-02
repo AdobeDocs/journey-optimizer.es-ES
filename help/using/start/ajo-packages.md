@@ -11,7 +11,7 @@ keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales
 hide: true
 source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1995'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ No. [!DNL Adobe Journey Optimizer] utiliza un modelo modular: la oferta base det
 
 **[Las campañas](../campaigns/get-started-with-campaigns.md)** están basadas en audiencias y planificadas por expertos en marketing; usted define una audiencia, crea un mensaje y lo programa o lo déclencheur como un envío por lotes. Son perfectas para flujos de trabajo de alcance promocional, boletines informativos y audiencias de varios pasos.
 
-Los **[Recorridos](../building-journeys/journey-gs.md)** están impulsados por eventos y en tiempo real; reaccionan al comportamiento individual de los clientes a medida que ocurre y orquestan experiencias de 1:1 en puntos de contacto. Son ideales para flujos de incorporación, secuencias posteriores a la compra y mensajes activados en tiempo real.
+Los **[Recorridos](../building-journeys/journey-gs.md)** están impulsados por eventos y en tiempo real; reaccionan al comportamiento individual de los clientes a medida que ocurre y orquestan experiencias 1:1 en puntos de contacto. Son ideales para flujos de incorporación, secuencias posteriores a la compra y mensajes activados en tiempo real.
 
 **Campañas y Recorridos** le ofrece ambas funciones en una sola licencia.
 

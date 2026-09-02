@@ -153,7 +153,7 @@ Todas las características de Decisioning requieren el complemento **Decisioning
 | Compatibilidad con la toma de decisiones en el canal de correo directo | GA | Todas las ofertas base | 3 de junio de 2026 | Admite decisiones por lotes |
 | La optimización mediante IA de las reglas de toma de decisiones y fórmulas de clasificación | GA | Todas las ofertas base | 5 de mayo de 2026 | Simplificaciones sugeridas por IA |
 | Admisión de la toma de decisiones en el canal de correo electrónico | GA | Todas las ofertas base | 6 de abril de 2026 | Páginas espejo admitidas |
-| Supervisión del modelo de IA | GA | Todas las ofertas base | 9 de marzo de 2026 | Solo modelos de optimización personalizados |
+| Monitorización del modelo de IA | GA | Todas las ofertas base | 9 de marzo de 2026 | Solo modelos de optimización personalizados |
 | Compatibilidad con la toma de decisiones en el canal SMS | GA | Todas las ofertas base | 2 de febrero de 2026 | — |
 | Compatibilidad con la toma de decisiones en el canal de Push | GA | Todas las ofertas base | 30 de enero de 2026 | — |
 | Fragmentos de contenido de Adobe Experience Manager en Decisioning | LA | Todas las ofertas base | 20 de mayo de 2026 | Póngase en contacto con su representante de Adobe |

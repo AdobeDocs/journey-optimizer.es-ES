@@ -9,21 +9,12 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 841
@@ -47,13 +38,13 @@ Puede seleccionar en campañas y recorridos cualquier audiencia generada mediant
 
 * **Carga personalizada y composición de audiencia federada**: para las audiencias de carga personalizada y Composición de audiencia federada, tenga en cuenta las siguientes protecciones:
 
-   * **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
+  * **Compatibilidad con vista previa y prueba:** En la actualidad, la vista previa y la prueba no son compatibles con las audiencias creadas mediante la carga de CSV o la composición de audiencias federada. Tenga esto en cuenta al planificar las campañas.
 
-   * **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil del servicio de perfiles unificado, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se usan normalmente en [!DNL Journey Optimizer] (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos. Por lo tanto, estos campos no pueden utilizarse para la segmentación.
+  * **Segmentación de nuevos perfiles:** Cuando no se encuentra una coincidencia entre un registro y un perfil del servicio de perfiles unificado, se crea un nuevo perfil vacío. Este perfil está vinculado a los atributos de enriquecimiento que se almacenan en el lago de datos. Dado que este nuevo perfil está vacío, los campos de segmentación que se usan normalmente en [!DNL Journey Optimizer] (por ejemplo, personalEmail.address, mobilePhone.number) están vacíos. Por lo tanto, estos campos no pueden utilizarse para la segmentación.
 
-     Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad en la creación de la audiencia sea el que se use para la segmentación en [!DNL Journey Optimizer].
+    Para resolver esto, puede especificar el &quot;campo de ejecución&quot; (o la &quot;dirección de ejecución&quot; según el canal) en la configuración del canal como &quot;identityMap&quot;. Esto garantiza que el atributo elegido como identidad en la creación de la audiencia sea el que se use para la segmentación en [!DNL Journey Optimizer].
 
-   * **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la siguiente exportación de perfiles del servicio de perfil unificado, estos registros se vinculan con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
+  * **Registros activados y vinculación de identidad:** Todos los registros de la audiencia están activados, incluidos los duplicados. Durante la siguiente exportación de perfiles del servicio de perfil unificado, estos registros se vinculan con la identidad. Como resultado, el número de registros activados puede diferir del número de perfiles después de la vinculación de identidad.
 
 ## Retraso de activación de audiencias {#activation}
 

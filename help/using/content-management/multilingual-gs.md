@@ -10,20 +10,11 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 667
@@ -73,29 +64,29 @@ Para cualquier problema o solicitud de ayuda relacionada con sus traducciones, p
 
 Para el contenido multilingüe, se debe definir la siguiente configuración:
 
-* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Para utilizar la función de traducción en Journey Optimizer, debe asignar la API a la función correspondiente. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * Para empezar a crear contenido multilingüe, los usuarios deben recibir el permiso **[!UICONTROL Administrar configuración de idioma]**. Para el flujo automatizado, los usuarios también necesitarán permisos relacionados con las capacidades del **[!UICONTROL servicio de traducción]**. [Más información sobre los permisos](../administration/permissions.md)
 
   +++ Aprenda a asignar permisos relacionados multilingües
 
-   1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
+  1. En el producto **Permisos**, vaya a la pestaña **Funciones** y seleccione la **Función** que desee.
 
-   1. Haga clic en **Editar** para modificar los permisos.
+  1. Haga clic en **Editar** para modificar los permisos.
 
-   1. Agregue el recurso **Servicio de traducción** y, a continuación, seleccione los permisos multilingües adecuados en el menú desplegable.
+  1. Agregue el recurso **Servicio de traducción** y, a continuación, seleccione los permisos multilingües adecuados en el menú desplegable.
 
-      ![](assets/multilingual-permission.png){zoomable="yes"}
+     ![](assets/multilingual-permission.png){zoomable="yes"}
 
-   1. Haga clic en **Guardar** para aplicar los cambios.
+  1. Haga clic en **Guardar** para aplicar los cambios.
 
-      Los permisos de los usuarios que ya estén asignados a esta función se actualizarán automáticamente.
+     Los permisos de los usuarios que ya estén asignados a esta función se actualizarán automáticamente.
 
-   1. Para asignar esta función a nuevos usuarios, vaya a la pestaña **Usuarios** en el panel de control **Funciones** y haga clic en **Añadir usuario**.
+  1. Para asignar esta función a nuevos usuarios, vaya a la pestaña **Usuarios** en el panel de control **Funciones** y haga clic en **Añadir usuario**.
 
-   1. Introduzca el nombre del usuario y su dirección de correo electrónico, o selecciónelo en la lista, y haga clic en **Guardar**.
+  1. Introduzca el nombre del usuario y su dirección de correo electrónico, o selecciónelo en la lista, y haga clic en **Guardar**.
 
-   1. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
+  1. Si el usuario no estaba ya creado, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/users).
 
   +++
 
@@ -103,17 +94,17 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
   +++ Obtenga información sobre cómo habilitar la función de traducción
 
-   1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con el administrador de su organización y de la zona protegida para solicitar acceso.
+  1. Si está viendo la siguiente página de error, indica que la característica **[!UICONTROL Traducción]** aún no se ha habilitado. Póngase en contacto con el administrador de su organización y de la zona protegida para solicitar acceso.
 
   ![](assets/multi-troubleshoot.png)
 
-   1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda.
+  1. El administrador tendrá que navegar al menú **[!UICONTROL Traducción]** en la barra lateral izquierda.
 
-      El sistema activará automáticamente la función de traducción.
+     El sistema activará automáticamente la función de traducción.
 
-   1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
+  1. Una vez que la característica se haya habilitado correctamente, podrá obtener acceso a la página **[!UICONTROL Traducción]**, junto con las fichas **[!UICONTROL Proyectos]**, **[!UICONTROL Proveedores]** y **[!UICONTROL Configuración regional]**.
 
-   1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con su representante de Adobe para obtener más ayuda.
+  1. Si este procedimiento ha fallado, seguirá viendo la misma página de error. En ese caso, póngase en contacto con su representante de Adobe para obtener más ayuda.
 
   +++
 
@@ -121,4 +112,4 @@ Para el contenido multilingüe, se debe definir la siguiente configuración:
 
 Aprenda a crear contenido en varios idiomas dentro de una sola campaña o recorrido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452116?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

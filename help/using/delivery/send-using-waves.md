@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: 33625f5141457414cddd51758412789849954104
+source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2271'
 ht-degree: 1%
 
 ---
@@ -47,9 +47,10 @@ Se aplican restricciones adicionales específicas del contexto:
 
 >[!TAB Leer recorridos de audiencia]
 
-* El envío de ondas solo está disponible para recorridos de audiencia de lectura con los tipos de programador **[!DNL As soon as possible]** y **[!UICONTROL Once]**. [Más información sobre el horario de recorrido](../building-journeys/read-audience.md#schedule).
+* El envío de ondas solo está disponible para recorridos de audiencia de lectura con los tipos de programador **[!DNL As soon as possible]** y **[!UICONTROL Once]**. [Más información sobre el horario de recorrido](../building-journeys/read-audience.md#schedule)
 * El envío de ondas no está disponible para recorridos recurrentes, activados por eventos, de evento empresarial, de modo de prueba o de ejecución en seco.
 * No se puede iniciar una ola antes del inicio del recorrido.
+* La última ola debe programarse en un plazo de **6 días y 18 horas** desde el inicio del recorrido. Programar la última ola más allá de esta ventana déclencheur un error de validación y evita que la recorrido entre en modo de prueba o se active.
 * Dividir la audiencia en olas puede tardar hasta 1 hora. Es posible que los perfiles no entren en el recorrido hasta que se complete la división.
 * Dentro de una sola versión de recorrido, dos olas nunca se ejecutan al mismo tiempo. La siguiente ola comienza solo después de que haya finalizado la anterior. Por ejemplo, si las olas se programan con una diferencia de 1 hora, pero la primera ola se ejecuta durante 2 horas, la segunda ola se inicia cuando termina la primera, no en su hora programada originalmente.
 * Los inicios de ola se pueden retrasar cuando la plataforma aplica límites de cuota o cuando la capacidad del sistema está bajo una carga pesada.
@@ -278,6 +279,7 @@ Para una comprensión completa, esta información debe combinarse con la documen
 **protecciones específicas del Recorrido:**
 
 * El inicio de ola no puede ser antes del inicio del recorrido
+* La última oleada debe programarse en un plazo de 6 días y 18 horas desde el inicio del recorrido; si se excede este déclencheur, se produce un error de validación
 * La división de audiencias puede tardar hasta 1 hora; los perfiles pueden retrasarse
 * Dos olas nunca se ejecutan simultáneamente dentro de la misma versión de recorrido
 * Los inicios de ola se pueden retrasar por los límites de cuota de plataforma o la carga pesada del sistema

@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1276
-ht-degree: 20%
+source-wordcount: 1277
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Estas son las limitaciones relacionadas con el uso de recorridos.
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
 * Solo se admiten los métodos de llamada de POST y PUT. 
-* El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
+* El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o “$”. 
 * No se permiten direcciones IP. 
 * Las direcciones internas de Adobe (.adobe.) no están permitidas.
 

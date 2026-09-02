@@ -6,7 +6,7 @@ description: Establecimiento de reglas de límite de mensajes y recorridos
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Puede establecer límites en cuanto a la frecuencia con la que se envían los me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Trabajar con conjuntos de reglas
 
@@ -32,7 +32,7 @@ Obtenga información sobre cómo crear, administrar y activar conjuntos de regla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Límite y arbitraje del recorrido
 
@@ -42,7 +42,7 @@ Descubra cómo establecer límites de entrada y simultaneidad de recorridos, pri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Restricción de frecuencia por canal
 
@@ -52,7 +52,7 @@ Obtenga información sobre cómo crear y aplicar reglas de restricción de frecu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Establecer horas de inactividad
 

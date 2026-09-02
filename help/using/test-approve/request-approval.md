@@ -6,18 +6,14 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -34,17 +30,17 @@ El acceso al flujo de trabajo de aprobación viene determinado por el caso de us
 
 * **No existe ninguna directiva de aprobación activa**
 
-   * **Campañas**: si no hay ninguna directiva de aprobación activa para el objeto de campaña en una zona protegida, las campañas mostrarán el botón **[!UICONTROL Activar]**, que le permitirá activarlas sin necesidad de aprobación.
+  * **Campañas**: si no hay ninguna directiva de aprobación activa para el objeto de campaña en una zona protegida, las campañas mostrarán el botón **[!UICONTROL Activar]**, que le permitirá activarlas sin necesidad de aprobación.
 
-   * **Recorridos**: si no hay ninguna directiva de aprobación activa para el objeto de Recorrido, recorrido mostrará el botón **[!UICONTROL Publicar]**, que le permitirá publicar directamente.
+  * **Recorridos**: si no hay ninguna directiva de aprobación activa para el objeto de Recorrido, recorrido mostrará el botón **[!UICONTROL Publicar]**, que le permitirá publicar directamente.
 
 * **Existen directivas de aprobación activas**
 
-   * **Campañas**: Si existen una o más políticas de aprobación activas para el objeto de campaña en una zona protegida, todas las campañas de dicha zona protegida mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
-Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
+  * **Campañas**: Si existen una o más políticas de aprobación activas para el objeto de campaña en una zona protegida, todas las campañas de dicha zona protegida mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
+    Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
 
-   * **Recorridos**: si existen una o más directivas de aprobación activas para el objeto de Recorrido en una zona protegida, todos los recorridos mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
-Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
+  * **Recorridos**: si existen una o más directivas de aprobación activas para el objeto de Recorrido en una zona protegida, todos los recorridos mostrarán el botón **[!UICONTROL Solicitar aprobación]**.
+    Si no se aplica ninguna directiva de aprobación al objeto seleccionado cuando se hace clic en el botón **[!UICONTROL Solicitar aprobación]**, se activará el flujo de trabajo de aprobación automática.
 
 ## Enviar solicitud de aprobación
 

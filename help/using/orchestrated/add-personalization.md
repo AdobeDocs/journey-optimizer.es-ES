@@ -5,14 +5,9 @@ title: Añadir personalización en campañas organizadas
 description: Obtenga información sobre cómo personalizar mensajes de campañas orquestadas mediante atributos de perfil, atributos de destinatario de la tabla de trabajo y matrices de recopilación de enriquecimiento.
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 477
@@ -48,9 +43,9 @@ Al abrir el editor de personalización, dos carpetas principales contienen atrib
 
   Atributos calculados en el lienzo de la campaña desde la tabla de trabajo. Esta carpeta tiene dos subcarpetas:
 
-   * **`<Targeting dimension>`** (por ejemplo, Recipients o Purchases): atributos relacionados con la dimensión de destino en la campaña.
+  * **`<Targeting dimension>`** (por ejemplo, Recipients o Purchases): atributos relacionados con la dimensión de destino en la campaña.
 
-   * **`Enrichment`**: datos agregados a través de **[!UICONTROL actividades de enriquecimiento]** (vínculos relacionales, líneas recopiladas, agregados). Después de un enriquecimiento de **[!UICONTROL Collect data]** de 1:N, obtendrá líneas numeradas y una matriz de colección. [Aprenda a trabajar con datos de colección de enriquecimiento](#enrichment-collections)
+  * **`Enrichment`**: datos agregados a través de **[!UICONTROL actividades de enriquecimiento]** (vínculos relacionales, líneas recopiladas, agregados). Después de un enriquecimiento de **[!UICONTROL Collect data]** de 1:N, obtendrá líneas numeradas y una matriz de colección. [Aprenda a trabajar con datos de colección de enriquecimiento](#enrichment-collections)
 
 Para obtener una descripción detallada del editor de personalización en [!DNL Journey Optimizer], consulte [Introducción a la personalización](../personalization/personalize.md).
 

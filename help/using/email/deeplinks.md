@@ -88,12 +88,12 @@ Para poder utilizar vínculos profundos en correos electrónicos y SMS para sus 
 1. Aloje el archivo AASA para iOS y el archivo assetLinks.json para Android en su subdominio. Póngase en contacto con el servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} o con su representante de Adobe y proporcione los siguientes detalles:
 
    * **Para iOS (AASA)**:
-      * Subdominio delegado
-      * ID de paquete de aplicaciones
+     * Subdominio delegado
+     * ID de paquete de aplicaciones
    * **Para Android (assetLinks.json)**:
-      * Subdominio delegado
-      * ID de paquete de aplicaciones
-      * Huella digital del certificado SHA-256
+     * Subdominio delegado
+     * ID de paquete de aplicaciones
+     * Huella digital del certificado SHA-256
 
 >[!IMPORTANT]
 >
@@ -322,9 +322,9 @@ Valores de parámetro de consulta de codificación de URL. Esto reduce los probl
 
 * Cree una prueba con un vínculo profundo, haga clic en ella en dispositivos iOS y Android (escenarios instalados y no instalados).
 * Validar:
-   * El valor final del vínculo de correo electrónico o SMS (host/ruta/consulta)
-   * La asociación a nivel del sistema operativo (si se utilizan vínculos universales o de aplicación)
-   * El resultado del enrutamiento en la aplicación
+  * El valor final del vínculo de correo electrónico o SMS (host/ruta/consulta)
+  * La asociación a nivel del sistema operativo (si se utilizan vínculos universales o de aplicación)
+  * El resultado del enrutamiento en la aplicación
 
 +++
 

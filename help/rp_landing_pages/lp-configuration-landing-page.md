@@ -6,7 +6,7 @@ description: Aprenda a configurar subdominios y ajustes preestablecidos de las p
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Tanto si utiliza dominios existentes como si utiliza nuevas configuraciones, est
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurar subdominios de las páginas de destino
 
@@ -36,7 +36,7 @@ Obtenga información sobre cómo configurar y administrar los subdominios para a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definir ajustes preestablecidos de página de destino
 

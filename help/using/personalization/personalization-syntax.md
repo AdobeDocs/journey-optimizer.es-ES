@@ -10,19 +10,12 @@ level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -163,13 +156,13 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   +++Referencias de muestra
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +180,10 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   donde:
 
-   * `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
-   * `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
-   * `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
-   * `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
+  * `offers` identifica la expresión de ruta que pertenece al área de nombres de la oferta
+  * `Type` determina el tipo de representación de la oferta. Los valores posibles son: `image`, `html` y `text`
+  * `Placement Id` y `Activity Id` son identificadores de ubicación y actividad
+  * `Attributes` son atributos específicos de la oferta que dependen del tipo de oferta. Ejemplo: `deliveryUrl` para imágenes
 
   Para obtener más información sobre la API Decisions y las representaciones Offer, consulte [esta página](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +191,21 @@ PQL tiene establecimiento inflexible de tipos. Al comparar o pasar valores, ambo
 
   +++Referencias de muestra
 
-   * Ubicación donde se aloja la imagen:
+  * Ubicación donde se aloja la imagen:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * URL de destino al hacer clic en la imagen:
+  * URL de destino al hacer clic en la imagen:
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * Contenido de texto de la oferta procedente del motor de decisión:
+  * Contenido de texto de la oferta procedente del motor de decisión:
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * Contenido de HTML de la oferta proveniente del motor de decisión:
+  * Contenido de HTML de la oferta proveniente del motor de decisión:
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 
@@ -388,7 +381,7 @@ Use un solo(a) `=` para las comparaciones de igualdad en PQL. Usar `==` es un er
 
 **Q: ¿Cómo hago referencia a un campo de esquema cuyo nombre es una palabra clave reservada (por ejemplo `next`, `last`, `this`)?**
 
-Jódelo en comillas invertidas: `{{profile.person.\`next\`.name&rbrace;&grave;. Esto se aplica tanto a las rutas de Handlebars como a las expresiones PQL.
+Jódelo en comillas invertidas: `{{profile.person.\`next\`.name}`. Esto se aplica tanto a las rutas de Handlebars como a las expresiones PQL.
 
 **Q: ¿Puedo llamar a funciones de PQL dentro de `{{...}}` bloques de Handlebars?**
 

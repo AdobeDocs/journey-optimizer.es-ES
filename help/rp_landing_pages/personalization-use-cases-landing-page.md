@@ -6,7 +6,7 @@ description: Casos de uso paso a paso para crear mensajes personalizados en Adob
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
 source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ En esta sección se proporcionan casos de uso paso a paso para crear mensajes pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Notificación del estado del pedido
 
@@ -30,7 +30,7 @@ Recorra un escenario completo que combina atributos de perfil, datos contextuale
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Correo electrónico de abandono del carro de compras
 
@@ -40,7 +40,7 @@ Aprenda a utilizar las funciones de ayuda para rellenar dinámicamente un correo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Alerta sobre recetas del plan de estado
 
@@ -50,7 +50,7 @@ Cree un único correo electrónico personalizado que enumere todas las recetas d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fórmulas de personalización
 

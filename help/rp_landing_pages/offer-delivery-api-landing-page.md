@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="Heredado" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Las API para el envío de ofertas de Adobe Journey Optimizer le permiten enviar 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introducción a las API de envío de ofertas
 
@@ -35,7 +35,7 @@ Obtenga información sobre las API disponibles para enviar ofertas personalizada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Envío de ofertas mediante la API de toma de decisiones
 
@@ -45,7 +45,7 @@ Cree y envíe ofertas de marketing personalizadas mediante la API de toma de dec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Enviar ofertas mediante la API de toma de decisiones en Edge
 
@@ -55,7 +55,7 @@ Implemente el envío de ofertas personalizadas mediante el SDK web de Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uso de la API de toma de decisiones por lotes para enviar ofertas
 

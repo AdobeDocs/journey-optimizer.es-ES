@@ -29,7 +29,7 @@ Para empezar a usar [!DNL Adobe Journey Optimizer], siga los pasos a continuaci�
 
 1. Consulte los [requisitos previos](web-prerequisites.md), en concreto:
    * Configuró [!DNL Adobe Experience Cloud Visual Editing Helper].
-   * Habilite [!DNL Adobe Journey Optimizer] en su [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es){target="_blank"}.
+   * Habilite [!DNL Adobe Journey Optimizer] en su [secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}.
    * Habilite la opción [!UICONTROL Política de combinación activa en Edge].
 
 1. Agregue la opción `renderDecisions` a los eventos. Establezca `renderDecisions` en `true` para el procesamiento automático de las propuestas de contenido de Journey Optimizer enviadas en las superficies de página web.
@@ -41,7 +41,7 @@ Para empezar a usar [!DNL Adobe Journey Optimizer], siga los pasos a continuaci�
    })
    ```
 
-1. Si lo desea, puede especificar superficies adicionales en los eventos. De forma predeterminada, Web SDK genera automáticamente la superficie web para la página web actual y la incluye en la solicitud a Edge Network. Si es necesario, se pueden incluir superficies adicionales en la solicitud especificándolas en la opción `personalization.surfaces` del comando `sendEvent` o en la configuración **[!UICONTROL Superficies]** [[!UICONTROL Enviar evento] acción](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=es#send-event){target="_blank"} correspondiente de la extensión de Web SDK.
+1. Si lo desea, puede especificar superficies adicionales en los eventos. De forma predeterminada, Web SDK genera automáticamente la superficie web para la página web actual y la incluye en la solicitud a Edge Network. Si es necesario, se pueden incluir superficies adicionales en la solicitud especificándolas en la opción `personalization.surfaces` del comando `sendEvent` o en la configuración **[!UICONTROL Superficies]** [[!UICONTROL Enviar evento] acción](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"} correspondiente de la extensión de Web SDK.
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ Para empezar a usar [!DNL Adobe Journey Optimizer], siga los pasos a continuaci�
    }
    ```
 
-1. Al igual que otras características de personalización, puede agregar un **[fragmento preocultado](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=es){target="_blank"}** para ocultar solo ciertas partes de la página al recuperar experiencias.
+1. Al igual que otras características de personalización, puede agregar un **[fragmento preocultado](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}** para ocultar solo ciertas partes de la página al recuperar experiencias.
 
 ## Representación de contenido personalizado {#rendering-personalized-content}
 
-Consulte la [documentación de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=es){target="_blank"} para obtener más información sobre cómo procesar contenido personalizado.
+Consulte la [documentación de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} para obtener más información sobre cómo procesar contenido personalizado.
 
 Las propuestas de Adobe Journey Optimizer para superficies web se procesan de manera similar a las propuestas de ámbito de decisión `__view__`. Específicamente, cuando la opción `renderDecisions` se establece en `true` en el comando `sendEvent`, Web SDK la procesará automáticamente.
 
@@ -124,6 +124,6 @@ Ejemplo de propuesta de contenido de Journey Optimizer:
 
 ## Depuración {#debugging}
 
-Para depurar las implementaciones de personalización de Adobe Journey Optimizer, use [Depuración de Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=es){target="_blank"}. Hay disponibles [!DNL Adobe Journey Optimizer] seguimientos de depuración al solucionar problemas con [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Buscar eventos con el prefijo `AJO:`.
+Para depurar las implementaciones de personalización de Adobe Journey Optimizer, use [Depuración de Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}. Hay disponibles [!DNL Adobe Journey Optimizer] seguimientos de depuración al solucionar problemas con [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Buscar eventos con el prefijo `AJO:`.
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
