@@ -20,7 +20,7 @@ La funcionalidad Generar contenido de Adobe Journey Optimizer revoluciona la cre
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a Generar contenido
 
@@ -30,7 +30,7 @@ Aprenda a acceder y configurar Generar contenido para mejorar la creación y la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Generar contenido completo
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar la IA para crear contenido completo, incluidos texto e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=es)
 
 Generación de solo texto
 
@@ -50,7 +50,7 @@ Utilice la IA para generar y refinar el contenido de texto para todos los canale
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=es)
 
 Generar solo imágenes
 
