@@ -83,4 +83,4 @@ Para las campañas activadas por API y de acción (programadas), también puede 
 
 Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430335?captions=spa&quality=12)
