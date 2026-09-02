@@ -3,22 +3,18 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Actualizaciones de la documentación
 description: Obtenga información sobre las últimas actualizaciones de la documentación de Adobe Journey Optimizer, incluidas nuevas páginas, reorganizaciones y aclaraciones.
-keywords: actualizaciones de la documentación, notas de la versión, recorrido optimizer, changelog
+keywords: actualizaciones de la documentación, notas de la versión, optimizador de recorridos, registro de cambios
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
 source-wordcount: 10520
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -45,17 +41,17 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Ya está disponible la nueva página **Elegir un método de validación**. Compara la simulación de Recorrido, el modo de prueba y la ejecución en seco de Recorrido: los datos que utiliza cada uno, independientemente de si envía mensajes reales, errores comunes que se deben evitar y una guía de decisión para elegir el método adecuado en cada fase de la creación de un recorrido. [Más información](../building-journeys/choose-validation-method.md)
 
-* La página **Protecciones y limitaciones** se ha actualizado para aclarar las protecciones de actividad y eventos de calificación de audiencia: la redacción ahora hace referencia de forma coherente a las **actividades** de calificación de audiencia (en lugar de a los nodos), incluso cuando se utilizan como criterios de salida, y ambas protecciones ahora abarcan explícitamente los recorridos **activo, cerrado, pausado, en modo de prueba y de ejecución en seco**. [Más información](../start/guardrails.md#audience-qualif-g)
+* La página **Mecanismos de protección y limitaciones** se ha actualizado para aclarar los mecanismos de protección de la actividad de calificación de público y los eventos: la redacción ahora hace referencia de forma coherente a las **actividades** de calificación de público (en lugar de a los nodos), incluso cuando se utilizan como criterios de salida, y ambos mecanismos de protección ahora abarcan de forma explícita los recorridos **activos, cerrados, pausados, en modo de prueba y de ensayo**. [Más información](../start/guardrails.md#audience-qualif-g)
 
-* Se ha agregado una nota a la sección **Optimización del tamaño de Test HTML** para aclarar que los tamaños de prueba reflejan el tamaño de la plantilla de HTML (Handlebars al valor mínimo), no el tamaño final del correo electrónico enviado, que puede ser más grande una vez que las expresiones dinámicas se resuelven en el momento de la entrega. [Más información](../email/create-email.md#optimize-html-proof)
+* Se ha añadido una nota a la sección **Optimización del tamaño de la prueba HTML** para aclarar que los tamaños de prueba reflejan el tamaño de la plantilla HTML (barra de controlador al valor mínimo), no el tamaño final del correo electrónico enviado, que puede ser más grande una vez que las expresiones dinámicas se resuelven en el momento del envío. [Más información](../email/create-email.md#optimize-html-proof)
 
-* Se ha agregado una nueva sección **Limitaciones del explorador web móvil** a la página **Introducción al diseño de correo electrónico**, que documenta por qué los correos electrónicos pueden procesarse de forma diferente en Gmail o Outlook cuando se accede a ellos a través de un explorador móvil, junto con una sugerencia de solución. [Más información](../email/get-started-email-design.md#mobile-web-limitations)
+* Se ha añadido una nueva sección **Limitaciones del explorador web móvil** a la página **Introducción al diseño de correo electrónico**, que documenta por qué los correos electrónicos pueden procesarse de forma diferente en Gmail u Outlook cuando se accede a ellos a través de un explorador móvil, junto con una sugerencia de solución. [Más información](../email/get-started-email-design.md#mobile-web-limitations)
 
-* Se ha agregado una nueva sección de **Consideraciones de procesamiento de Outlook** a la página **Introducción al diseño de correo electrónico**, en la que se enumeran las peculiaridades comunes de Outlook que se deben tener en cuenta durante el diseño: números pares para el relleno y las anchuras, anchos de tabla basados en píxeles, atributos de anchura de imagen de HTML, texto ALT, bordes de celdas de tabla y esquinas redondeadas. [Más información](../email/get-started-email-design.md#outlook-tips)
+* Se ha añadido una nueva sección de **Consideraciones de procesamiento de Outlook** a la página **Introducción al diseño de correo electrónico**, en la que se enumeran las peculiaridades comunes de Outlook que se deben tener en cuenta durante el diseño: números pares para el relleno y las anchuras, anchos de tabla basados en píxeles, atributos de anchura de imagen HTML, texto ALT, bordes de celdas de tabla y esquinas redondeadas. [Más información](../email/get-started-email-design.md#outlook-tips)
 
-* La página **Protecciones de tiempo de vida de conjuntos de datos (TTL)** se ha actualizado con una tabla **Conjuntos de datos afectados** significativamente ampliada, que ahora cubre todos los conjuntos de datos generados por el sistema Journey Optimizer (incluidos varios que no se habían enumerado anteriormente, como el servicio de consentimiento de AJO, el perfil de mensajería interactiva, el perfil push y los conjuntos de datos de exportación de mensajes) junto con una nueva columna **Disponibilidad** que indica si cada conjunto de datos se incluye de forma predeterminada o requiere un complemento o licencia específicos. La página **Protecciones y limitaciones** también se ha actualizado para reflejar la fecha de aplicación confirmada para esta protección: el cambio se aplicará en **zonas protegidas de clientes existentes** a partir del **1 de octubre de 2026**. [Más información](../data/datasets-ttl.md#datasets)
+* La página **Mecanismos de protección de tiempo de vida del conjunto de datos (TTL)** se ha actualizado con una tabla **Conjuntos de datos afectados** significativamente ampliada, que ahora cubre todos los conjuntos de datos generados por el sistema de Journey Optimizer (incluidos varios que no se habían enumerado anteriormente, como el servicio de consentimiento de AJO, el perfil de mensajería interactiva, el perfil push y los conjuntos de datos de exportación de mensajes) junto con una nueva columna **Disponibilidad** que indica si cada conjunto de datos se incluye de forma predeterminada o requiere un complemento o licencia específicos. La página **Mecanismos de protección y limitaciones** también se ha actualizado para reflejar la fecha de aplicación confirmada para este mecanismo de protección: el cambio se aplicará en **zonas protegidas de clientes existentes** a partir del **1 de octubre de 2026**. [Más información](../data/datasets-ttl.md#datasets)
 
-* Se ha agregado una nueva sección **Usar modo de configuración de imagen** a la documentación de contenido generativo. En él se explican los modos **Equilibrado**, **DAM** y **Creative** disponibles en **[!UICONTROL Configuración de imágenes]**, que controlan si el contenido generado por IA genera imágenes de su biblioteca de administración de recursos digitales, las genera con IA o las mezcla. [Más información](../content-management/generative-uc.md#image-mode)
+* Se ha añadido una nueva sección **Uso del modo de configuración de imagen** a la documentación de contenido generativo. En ella se explican los modos **Equilibrado**, **DAM** y **Creative** disponibles en **[!UICONTROL Configuración de imágenes]**, que controlan si el contenido generado por IA utiliza imágenes de su biblioteca de administración de recursos digitales, las genera con IA o las mezcla. [Más información](../content-management/generative-uc.md#image-mode)
 
 * La descripción de **Destinos** en **Navegación izquierda > Secciones principales** se ha actualizado para tener en cuenta que las organizaciones con [!DNL Real-Time CDP] o [!DNL Adobe Journey Optimizer] también pueden activar audiencias en destinos de personalización aptos, como [!DNL Adobe Target], desde el catálogo de destinos de Experience Platform. [Más información](../start/user-interface.md#main-sections)
 
@@ -63,69 +59,69 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Julio de 2026 {#july-2026}
 
-* Se ha agregado una nueva sección **Configuración de envío** a la navegación de la documentación. Agrupa funciones relacionadas con la entrega que se aplican a todos los recorridos, campañas y campañas orquestadas: **Enviar mediante olas**, **Optimización del tiempo de envío** y **Optimización del canal** se han movido allí desde la sección de Recorridos.
+* Se ha añadido una nueva sección **Configuración de envío** a la navegación de la documentación. Agrupa funciones relacionadas con el envío que se aplican a todos los recorridos, las campañas y las campañas orquestadas: **Envío por oleadas**, **Optimización del tiempo de envío** y **Optimización del canal** se han movido allí desde la sección de Recorridos.
 
-* Las páginas de documentación separadas de **Send using waves** para recorridos y campañas de acción se han combinado en una sola página, y ahora también abarcan campañas orquestadas. [Más información](../delivery/send-using-waves.md)
+* Las páginas de documentación separadas de **Envío por oleadas** para recorridos y campañas de acción se han combinado en una sola página y ahora también abarcan campañas orquestadas. [Más información](../delivery/send-using-waves.md)
 
-* Se ha agregado una sugerencia que apunta al artículo de la comunidad de Experience League sobre **cómo desasociar y volver a unir nodos** en el nuevo lienzo de recorrido a la página **Diseñar tu recorrido**. [Más información](../building-journeys/using-the-journey-designer.md)
+* Se ha añadido una sugerencia que apunta al artículo de la comunidad de Experience League sobre **cómo desasociar y volver a unir nodos** en el nuevo lienzo del recorrido a la página **Diseño de su recorrido**. [Más información](../building-journeys/using-the-journey-designer.md)
 
-* La sección de componentes **Grid** se ha agregado a la página **Componentes de contenido de Designer de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
+* La sección de componentes **Cuadrícula** se ha añadido a la página **Componentes de contenido del Diseñador de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
 
-* La documentación de **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro del mismo entorno limitado o a uno diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+* La documentación de la **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro de la misma zona protegida o a una diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
-* Ya está disponible la nueva página **CX Coworker Skills**. Proporciona documentación completa de todas las aptitudes de Recorrido disponibles en Journey Optimizer, incluidas la creación de Recorridos, la creación de contenido de canal, la administración de retos de fidelidad y el análisis de Recorrido, con casos de uso, mensajes de muestra y prácticas recomendadas para cada aptitud. [Más información](../start/ajo-coworker-skills.md)
+* Ahora hay disponible una nueva página de **Aptitudes de CX Coworker**. Proporciona documentación completa de todas las aptitudes de recorrido disponibles en Journey Optimizer, incluidas la creación de recorridos, la creación de contenido de canal, la administración de retos de lealtad y el análisis de recorridos, con casos de uso, indicaciones de muestra y prácticas recomendadas para cada aptitud. [Más información](../start/ajo-coworker-skills.md)
 
-* La documentación de la función **To Precision** se ha actualizado para aclarar que `toPrecision` se comporta como JavaScript `toFixed()`: devuelve una cadena con un número fijo de decimales, incluido el relleno cero cuando es necesario. [Más información](../personalization/functions/math.md#to-precision)
+* La documentación de la función **A Precisión** se ha actualizado para aclarar que `toPrecision` se comporta como `toFixed()` JavaScript: devuelve una cadena con un número fijo de decimales, incluido el relleno cero cuando es necesario. [Más información](../personalization/functions/math.md#to-precision)
 
-* La página **Finalizar un recorrido** se ha actualizado para aclarar el tiempo de detención automática de los recorridos de audiencia de lectura no recurrentes: un búfer de seguridad de aproximadamente **96 horas (~4 días)** después de la ejecución programada (ventana inactiva de 24 horas + asignación de horas silenciosas de 72 horas), durante el cual el recorrido puede permanecer en el estado **Activo** antes de pasar a **Detenido** poco después de que transcurra el búfer. La página ahora también aclara que los recorridos basados en olas (multionda) y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta parada automática y, en su lugar, siguen el tiempo de espera de recorrido estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
+* La página **Finalizar un recorrido** se ha actualizado para aclarar la temporización de la detención automática de los recorridos de público de lectura no recurrentes: un búfer de seguridad de aproximadamente **96 horas (~4 días)** después de la ejecución programada (ventana sin actividad de 24 horas + asignación de horas de inactividad de 72 horas), durante el cual el recorrido puede permanecer en el estado **Activo** antes de pasar a **Detenido** poco después de que transcurra el búfer. La página ahora también aclara que los recorridos basados en oleadas (multioleada) y los recorridos que utilizan la optimización del tiempo de envío se excluyen de esta parada automática y, en su lugar, siguen el tiempo de espera de recorrido estándar de 91 días. [Más información](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
-* La página **Crear campañas de calentamiento de IP** se ha actualizado para aclarar que se pueden aplicar reglas de segmentación a las campañas de calentamiento de IP y para documentar el comportamiento de evaluación: la pertenencia a la audiencia se corrige al ejecutar la activación (segmentación por lotes diaria), mientras que los atributos de perfil se leen en el momento de la ejecución a partir de los datos por lotes ingeridos más recientemente. [Más información](../configuration/ip-warmup-campaign.md)
+* La página **Crear campañas de calentamiento de IP** se ha actualizado para aclarar que se pueden aplicar reglas de segmentación a las campañas de calentamiento de IP y para documentar el comportamiento de evaluación: la pertenencia al público se corrige al ejecutar la activación (segmentación por lotes diaria), mientras que los atributos de perfil se leen en el momento de la ejecución a partir de los datos por lotes ingeridos más recientemente. [Más información](../configuration/ip-warmup-campaign.md)
 
-* Se ha agregado una advertencia a la página **Editar registros PTR** para informar a los clientes de que al agregar un nuevo registro DNS de reenvío a su plataforma, el registro DNS de reenvío del subdominio anterior no debe quitarse hasta que se complete el movimiento, ya que esto provocará que la edición falle. [Más información](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+* Se ha añadido una advertencia a la página **Editar registros PTR** para informar a los clientes de que, al incluir un nuevo registro DNS de reenvío a su plataforma, el registro de DNS de reenvío del subdominio anterior no debe quitarse hasta que se complete el movimiento, ya que esto provocará que la edición falle. [Más información](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* Las páginas **Enviar mediante olas** se han actualizado para aclarar el comportamiento de reevaluación de audiencias en todas las olas: la pertenencia a la audiencia se corrige en el momento de la activación (captura de pantalla), pero los atributos de perfil y el consentimiento se evalúan en el momento en que se procesa cada ola. Esto significa que se respetan las exclusiones que se producen entre olas. Obtenga más información en la [sección de preguntas frecuentes](../delivery/send-using-waves.md#faq).
+* Las páginas **Envío por oleadas** se han actualizado para aclarar el comportamiento de reevaluación de públicos en todas las oleadas: la pertenencia al público se corrige en el momento de la activación (captura de pantalla), pero los atributos de perfil y el consentimiento se evalúan en el momento en que se procesa cada oleada. Esto significa que se respetan las exclusiones que se producen entre oleadas. Puede leer más información en la [sección de preguntas frecuentes](../delivery/send-using-waves.md#faq).
 
-* La página **Control de datos** se ha actualizado para aclarar que la aplicación de la directiva DULE se aplica solo a **campos de atributos de perfil**. No se admiten los campos basados en eventos (atributos de contexto como los campos de evento de recorrido): las etiquetas aplicadas a esos campos en la interfaz de usuario no restringirán el uso de datos. [Más información](../action/action-privacy.md)
+* La página **Gobernanza de datos** se ha actualizado para aclarar que la aplicación de la directiva DULE se aplica solo a **campos de atributos de perfil**. No se admiten los campos basados en eventos (atributos de contexto como los campos de evento de recorrido): las etiquetas aplicadas a esos campos en la interfaz de usuario no restringirán la utilización de datos. [Más información](../action/action-privacy.md)
 
-* La documentación de **Optimización del tiempo de envío** se ha actualizado para reflejar el nuevo límite de **[!UICONTROL Envío en las siguientes]** de **2-100 horas** (anteriormente era de 1-168) y para documentar las regiones de AEP Hub admitidas para esta funcionalidad. [Más información](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+* La documentación de **Optimización del tiempo de envío** se ha actualizado para reflejar el nuevo límite **[!UICONTROL Enviar dentro de las próximas]** de **2-100 horas** (antes era de 1-168) y para documentar las regiones de AEP Hub admitidas para esta funcionalidad. [Más información](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 
-* Las páginas del **modelo de optimización personalizado** se han actualizado para reflejar las mejoras del modelo más recientes, que abarcan el funcionamiento del modelo ensamblado, los requisitos de conjuntos de datos, los casos de uso, las suposiciones clave y el comportamiento del inicio en frío. Obtenga más información en las secciones [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) y [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
+* Las páginas del **Modelo de optimización personalizada** se han actualizado para reflejar las mejoras del modelo más recientes, que abarcan el funcionamiento del modelo ensamblado, los requisitos de conjuntos de datos, los casos de uso, las suposiciones clave y el comportamiento de inicio en frío. Obtenga más información en las secciones [Decisiones sobre experiencias](../experience-decisioning/ranking/personalized-optimization-model.md) y [Toma de decisiones sobre ofertas](../offers/ranking/personalized-optimization-model.md).
 
-* Se ha agregado una nota a la página **fórmulas de clasificación de mediación de Recorrido** para especificar que las fórmulas de clasificación solo están disponibles para las organizaciones que han adquirido la oferta del complemento **Decisioning**. [Más información](../conflict-prioritization/journey-ranking-formulas.md)
+* Se ha añadido una nota a la página **Fórmulas de clasificación de mediación de recorridos** para especificar que las fórmulas de clasificación solo están disponibles para las organizaciones que han adquirido la oferta del complemento **Toma de decisiones**. [Más información](../conflict-prioritization/journey-ranking-formulas.md)
 
-* Ya está disponible la nueva página **Fragmentos dinámicos**. Documenta cómo utilizar la resolución dinámica de fragmentos en [!DNL Journey Optimizer] para seleccionar qué fragmento publicado se inserta en un mensaje durante la ejecución, en función de atributos de perfil, búsquedas de conjuntos de datos o datos de contexto pasados en el momento del envío. [Más información](../content-management/dynamic-fragments.md)
+* Ahora hay disponible una nueva página de **Fragmentos dinámicos**. Documenta cómo utilizar la resolución dinámica de fragmentos en [!DNL Journey Optimizer] para seleccionar qué fragmento publicado se inserta en un mensaje durante el tiempo de ejecución, en función de atributos de perfil, búsquedas de conjuntos de datos o datos de contexto pasados en el momento del envío. [Más información](../content-management/dynamic-fragments.md)
 
 ## Junio de 2026 {#june-2026}
 
-* La página **Comprobar y enviar un mensaje de correo postal** se ha actualizado para aclarar el tiempo y el comportamiento de agrupamiento de las exportaciones de correo postal, incluida la programación fija de 4 horas UTC, por qué se pueden generar varios archivos en un solo día, cuándo se ejecuta **[!UICONTROL Actualizar perfil]** en recorridos y recomendaciones para escenarios de un archivo por día. [Más información](../direct-mail/test-send-direct-mail.md#dm-export-timing)
+* La página **Comprobación y envío de un mensaje de correo directo** se ha actualizado para aclarar la temporización y el comportamiento de agrupamiento de las exportaciones de correo directo, incluida la programación fija de 4 horas UTC, por qué se pueden generar varios archivos en un solo día, cuándo se ejecuta **[!UICONTROL Actualizar perfil]** en recorridos y recomendaciones para escenarios de un archivo por día. [Más información](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
-* Hay disponibles nuevos tipos de Recorrido **elegir la página correcta**. Compara todos los puntos de entrada de recorrido (audiencia de lectura, calificación de audiencias, evento unitario y evento empresarial) con guías de decisión y una matriz de compatibilidad de funciones que le ayudará a seleccionar el tipo adecuado para su caso de uso. [Más información](../building-journeys/journey-types-selection.md)
+* Ahora hay disponible una nueva página de **Tipos de recorrido: elija el correcto**. Compara todos los puntos de entrada del recorrido (Leer público, Calificación de público, Evento unitario y Evento empresarial) con guías de decisión y una matriz de compatibilidad de funciones que le ayudará a seleccionar el tipo adecuado para su caso de uso. [Más información](../building-journeys/journey-types-selection.md)
 
-* Ya está disponible la nueva página **Recorridos vs. campañas**. Compara Recorridos, campañas de acción y campañas activadas por API en estilos de ejecución, modelos de datos y casos de uso, incluida la activación de canal entrante para la personalización de Edge con baja latencia, la entrega entrante de varias superficies y la orientación sobre cuándo utilizar campañas orquestadas (composición de audiencia ad hoc, datos federados). [Más información](../start/journeys-vs-campaigns.md)
+* Ahora hay disponible una nueva página de **Recorridos frente a campañas**. Compara recorridos, campañas de acción y campañas activadas por API en estilos de ejecución, modelos de datos y casos de uso, incluida la activación del canal de entrada para la personalización de Edge con baja latencia, el envío de entrada de varias superficies y la orientación sobre cuándo utilizar campañas orquestadas (composición de público ad hoc, datos federados). [Más información](../start/journeys-vs-campaigns.md)
 
 * La página **Modo de alto rendimiento** se ha actualizado para reflejar la disponibilidad regional ampliada: la función ya está disponible en todas las regiones, excepto en Suiza para organizaciones con licencia con el complemento de mensajería transaccional de alto rendimiento. [Más información](../campaigns/api-triggered-high-throughput.md)
 
-* Se ha agregado una nueva sección **Perfiles atractivos y uso de licencias** a la página **Introducción a los perfiles** como única fuente fiable para este concepto, con referencias de destino agregadas en las secciones Audiencias, Campañas y Toma de decisiones. [Más información](../audience/get-started-profiles.md#engageable-profiles)
+* Se ha añadido una nueva sección **Perfiles interesados y uso de licencias** a la página **Introducción a los perfiles** como única fuente de confianza para este concepto, con referencias de destino incorporadas a las secciones Públicos, Campañas y Toma de decisiones. [Más información](../audience/get-started-profiles.md#engageable-profiles)
 
-* La documentación de la actividad **Split** se ha actualizado para documentar el campo **[!UICONTROL Código de segmento]** disponible en la configuración de cada subconjunto, lo que le permite asignar un identificador único a cada segmento de audiencia con fines de seguimiento y creación de informes. [Más información](../orchestrated/activities/split.md)
+* La documentación de la actividad **División** se ha actualizado para documentar el campo **[!UICONTROL Código de segmento]** disponible en la configuración de cada subconjunto, lo que le permite asignar un identificador único a cada segmento del público con fines de seguimiento y creación de informes. [Más información](../orchestrated/activities/split.md)
 
-* La página **Configurar una dimensión de segmentación** se ha actualizado para documentar los dos tipos de dimensiones de segmentación disponibles en las campañas orquestadas: la **dimensión de segmentación de perfiles** integrada (no se requiere configuración) y **dimensiones de segmentación personalizadas** basadas en esquemas relacionales. [Más información](../orchestrated/target-dimension.md)
+* La página **Configuración de una dimensión de segmentación** se ha actualizado para documentar los dos tipos de dimensiones de segmentación disponibles en las campañas orquestadas: la **dimensión de segmentación de perfiles** integrada (no se requiere configuración) y las **dimensiones de segmentación personalizadas** basadas en esquemas relacionales. [Más información](../orchestrated/target-dimension.md)
 
-* Se ha aclarado la documentación de **Aprovechar temáticas en un fragmento** para documentar explícitamente el límite de compatibilidad de 5 temáticas (incluida la restricción de temática predeterminada de Adobe) y explicar que la inserción de fragmentos se bloquea cuando la temática de correo electrónico no es una de las temáticas asociadas a fragmentos. [Más información](../email/apply-email-themes.md#leverage-themes-fragment)
+* Se ha aclarado la documentación de **Uso de temáticas en un fragmento** para documentar explícitamente el límite de compatibilidad de cinco temáticas (incluida la restricción de temática predeterminada de Adobe) y explicar que la inserción de fragmentos se bloquea cuando la temática de correo electrónico no es una de las temáticas asociadas a fragmentos. [Más información](../email/apply-email-themes.md#leverage-themes-fragment)
 
-* Las páginas de **Introducción a los conjuntos de datos** y **Introducción a los esquemas** se han actualizado con instrucciones sobre la habilitación de conjuntos de datos y esquemas para el Perfil del cliente en tiempo real, incluidas consideraciones clave, la distinción entre la deshabilitación de un conjunto de datos y su esquema subyacente, y vínculos a la documentación de prácticas recomendadas y planificación de Adobe Experience Platform. [Más información sobre los conjuntos de datos](../data/get-started-datasets.md) y [Más información sobre los esquemas](../data/get-started-schemas.md)
+* Las páginas **Introducción a los conjuntos de datos** e **Introducción a los esquemas** se han actualizado con instrucciones sobre la habilitación de conjuntos de datos y esquemas para el Perfil del cliente en tiempo real, incluidas consideraciones clave, la distinción entre la deshabilitación de un conjunto de datos y su esquema subyacente y vínculos a la documentación de prácticas recomendadas y planificación de Adobe Experience Platform. [Más información sobre los conjuntos de datos](../data/get-started-datasets.md) y [más información sobre los esquemas](../data/get-started-schemas.md)
 
-* Ya está disponible un nuevo concentrador de incorporación de **Introducción a Adobe Journey Optimizer**. Los nuevos usuarios pueden elegir su ruta por función, explorar los aspectos básicos o ir a las áreas diarias si ya están incorporadas, sin necesidad de saber dónde buscar primero. [Más información](../../rp_landing_pages/get-started-landing-page.md)
+* Ya está disponible un nuevo centro de incorporación de **Introducción a Adobe Journey Optimizer**. Los nuevos usuarios pueden elegir su ruta por función, explorar los aspectos básicos o ir a las áreas diarias si ya están incorporados, sin necesidad de saber dónde buscar primero. [Más información](../../rp_landing_pages/get-started-landing-page.md)
 
-* Una nueva página de **Empiece desde su objetivo** le permite comenzar desde lo que desea lograr en lugar de usar un nombre de característica. Asigna los objetivos comerciales a la capacidad [!DNL Journey Optimizer] recomendada en la configuración, los recorridos, las campañas, la personalización, las decisiones y los informes. [Más información](../start/ajo-use-case-guide.md)
+* Una nueva página de **Empiece desde su meta** le permite comenzar desde lo que desea lograr, en lugar de desde un nombre de característica. Asigna las metas empresariales a la funcionalidad [!DNL Journey Optimizer] recomendada en la configuración, los recorridos, las campañas, la personalización, la toma de decisiones y la creación de informes. [Más información](../start/ajo-use-case-guide.md)
 
-* La guía de funciones de **Introducción para desarrolladores** se ha actualizado con introducciones más claras para cada sección y **Colaborar entre funciones** pestañas que hacen referencia a recorridos y vínculos a páginas de implementación clave. [Más información](../start/path/developer.md)
+* La guía de funciones de **Introducción para desarrolladores** se ha actualizado con introducciones más claras para cada sección y pestañas mejoradas de **Colaboración entre funciones** que hacen referencia a recorridos y vinculan a páginas de implementación clave. [Más información](../start/path/developer.md)
 
-* Se ha agregado una nueva subsección **Asignación de ruta al volver a entrar al recorrido** a la documentación de **experimentación de rutas**. Aclara que la asignación de ruta es persistente para un perfil en varias entradas en la misma versión de recorrido, pero solo dentro de esa versión de recorrido. Las asignaciones se restablecen cuando se publica una nueva versión del recorrido y cada actividad de experimentación de rutas de un recorrido aplica una asignación aleatoria independiente. [Más información](../building-journeys/path-experimentation.md#path-assignment)
+* Se ha añadido una nueva subsección **Asignación de ruta al volver a entrar al recorrido** a la documentación de **Experimentación de rutas**. Aclara que la asignación de ruta es persistente para un perfil en varias entradas en la misma versión de recorrido, pero solo dentro de esa versión de recorrido. Las asignaciones se restablecen cuando se publica una nueva versión del recorrido y cada actividad de experimentación de rutas de un recorrido aplica una asignación aleatoria independiente. [Más información](../building-journeys/path-experimentation.md#path-assignment)
 * Las referencias a **Adobe Experience Cloud** se han alineado con la marca **[!DNL Adobe CX Enterprise]** en la documentación de [!DNL Journey Optimizer].
 
-* La documentación de **`nowWithDelta()`date function** se ha actualizado para aclarar el comportamiento de fin de mes: cuando el mes de destino tiene menos días que el día del mes actual, el resultado se normaliza al último día válido de ese mes. [Más información](../building-journeys/functions/date-functions.md#nowWithDelta)
+* La documentación de la función de fecha **`nowWithDelta()`** se ha actualizado para aclarar el comportamiento de final de mes: cuando el mes de destino tiene menos días que el día del mes actual, el resultado se normaliza al último día válido de ese mes. [Más información](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * La página **Introducción a la entregabilidad** se ha actualizado con una nueva subsección **Proveedores sin FBL por destinatario**. Enumera los principales proveedores de buzones de correo que no devuelven quejas de correo no deseado por destinatario (Gmail/Google Workspace, Apple iCloud y Corporate Microsoft 365/Exchange Online) y explica por qué no se espera una entrada de lista de supresión para los destinatarios que utilizan estos servicios. [Más información](../reports/deliverability.md#providers-no-fbl)
 
@@ -141,7 +137,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Mayo de 2026 {#may-2026}
 
-* Las limitaciones y prácticas recomendadas al usar contenido dinámico en fragmentos visuales se han combinado en una sola sección **Administrar contenido condicional en fragmentos** para mejorar la legibilidad. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Las limitaciones y prácticas recomendadas al usar contenido dinámico en fragmentos visuales se han combinado en una sola sección **Administración de contenido condicional en fragmentos** para mejorar la legibilidad. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se han añadido dos nuevos permisos de alto nivel: **Administrar registro de claves**, que permite a los usuarios ver, crear, rotar y revocar claves del registro de claves, y **Ver registro de claves**, que permite a los usuarios ver la lista del registro de claves y los detalles de las claves. [Más información](../administration/high-low-permissions.md#administration-permissions)
 
@@ -163,7 +159,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una limitación a la documentación del asistente de **Metadatos de ejecución**: la función no se admite en los canales entrantes (web, experiencia basada en código, mensaje en la aplicación, tarjetas de contenido). [Más información](../personalization/functions/helpers.md#execution-metadata)
 
-* Se ha agregado una nueva página **Fórmulas de Personalization** que proporciona patrones de personalización listos para usar para los casos de uso más comunes de [!DNL Journey Optimizer]. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos de días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (utilizando `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (alternativas para campos vacíos usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
+* Se ha añadido la nueva página **Fórmulas de personalización** que proporciona patrones de personalización listos para usar para los casos de uso más comunes de [!DNL Journey Optimizer]. Abarca fórmulas de fecha y hora (formato de fecha actual, cuenta atrás hasta la caducidad, cálculos de días antes, visualización de solo hora y detección de fin de semana vs. día de la semana), fórmulas de cadena (utilizando `replaceAll` con asignación de variables) y fórmulas de reserva condicionales (alternativas para campos vacíos usando `isEmpty`). [Más información](../personalization/personalization-recipes.md)
 
 * La documentación de **Sintaxis de la personalización** se ha actualizado con una introducción ampliada que aclara la diferencia entre las sintaxis de Handlebars (`{{...}}`) y PQL (`{%= ... %}`), incluyendo una tabla de uso, instrucciones sobre cómo escapar las comillas dobles literales y una nueva sección **Reglas de sintaxis de PQL para claves de atributos especiales** que abarca palabras clave reservadas, claves de atributos con guiones e ID de eventos numéricos. También se ha corregido la nota sobre el escape de acentos graves: se puede hacer referencia a los nombres de campo con guiones directamente en bloques `{{...}}`; solo la sintaxis de acento grave falla allí. [Más información](../personalization/personalization-syntax.md)
 
@@ -351,7 +347,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una nueva tabla de disponibilidad de canales de comunicación a la página Introducción a los canales, que muestra qué canales son compatibles con todos los recorridos y campañas (campañas de acción, campañas activadas por API y campañas orquestadas). [Más información](../channels/gs-channels.md#channels)
 
-* Se ha creado una nueva página de aterrizaje de seguimiento completa para ayudar a los usuarios a descubrir y tener acceso a todas las capacidades de seguimiento y supervisión disponibles en [!DNL Journey Optimizer]. [Más información](../start/get-started-tracking.md)
+* Se ha creado una nueva página de destino de seguimiento completa para ayudar a los usuarios a descubrir y acceder a todas las funcionalidades de seguimiento y monitorización disponibles en [!DNL Journey Optimizer]. [Más información](../start/get-started-tracking.md)
 
 * La página de administración de exclusión de correo electrónico se ha mejorado con información detallada sobre el flujo de cancelación de suscripción, que explica el orden esperado de los eventos para la exclusión de la página de aterrizaje. [Más información](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -365,7 +361,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Ya está disponible un nuevo caso de uso que muestra cómo configurar un recorrido para enviar correos electrónicos solo entre semana (lunes a viernes), con colas automáticas para que las entradas de fin de semana se envíen el lunes a una hora especificada. [Más información](../building-journeys/weekday-email-uc.md)
 
-* Ahora hay disponible una nueva página que explica las capacidades de decisión de [!DNL Journey Optimizer], incluidas las diferencias entre el marco de trabajo de toma de decisiones de próxima generación y la solución de administración de decisiones establecida, así como las ventajas clave de ofrecer ofertas personalizadas en todos los canales. [Más información](../experience-decisioning/gs-decision.md)
+* Ya está disponible la nueva página que explica las funcionalidades de decisión de [!DNL Journey Optimizer], incluidas las diferencias entre el marco de toma de decisiones de próxima generación y la solución de gestión de decisiones establecida, así como sus ventajas clave para ofrecer ofertas personalizadas en todos los canales. [Más información](../experience-decisioning/gs-decision.md)
 
 * Se ha añadido una nueva sección a la documentación de activación de públicos que explica cómo activar tipos de públicos no compatibles (como públicos de Customer Journey Analytics) en [!DNL Journey Optimizer] ajustándolos en una nueva definición de segmento en Audience Portal. [Más información](../audience/target-audiences.md#activation-non-supported)
 
@@ -402,7 +398,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una nueva sección a la documentación de integración de las versiones 7 y 8 de Campaign que explica cómo actualizar las acciones personalizadas existentes cuando cambia el punto final en tiempo real (RT). La sección incluye instrucciones paso a paso para actualizar la URL del punto final, probar la conexión y validar los cambios antes de guardar. [Más información](../action/acc-action.md#update-action)
 
-* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos que contienen contenido condicional dentro de otros fragmentos desbloqueados con contenido condicional. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Se han añadido nuevas secciones de limitaciones y prácticas recomendadas a la documentación de fragmentos visuales para advertir a los usuarios sobre el anidamiento no admitido de fragmentos con contenido condicional dentro de otros fragmentos desbloqueados con contenido condicional. Las directrices incluyen pasos para la resolución de problemas relacionados con el modo de compatibilidad y recomendaciones para un diseño adecuado de la estructura de correo electrónico. [Más información](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Se ha añadido una sección de resolución de problemas a la documentación de creación de informes en tiempo real del recorrido para ayudar a los usuarios a solucionar los problemas relacionados con la falta de datos en los informes. La sección abarca la sincronización del nombre del recorrido con conjuntos de datos de creación de informes, temporización de actualización de datos, verificación de permisos de acceso y requisitos de estado de recorrido. [Más información](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -428,7 +424,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Ya está disponible la documentación sobre cómo trabajar con eventos de paso de recorrido. [Más información](../reports/journey-step-events-overview.md)
 
-* Ya está disponible una nueva guía completa sobre los criterios de entrada y salida de recorrido, que abarca las prácticas recomendadas, los ejemplos reales y las directrices prácticas para administrar cuándo los perfiles entran y salen de los recorridos en [!DNL Adobe Journey Optimizer]. [Más información](../building-journeys/entry-exit-criteria-guide.md)
+* Ya está disponible la nueva guía completa sobre los criterios de entrada y salida de recorrido que abarca las prácticas recomendadas, los ejemplos reales y las directrices prácticas para administrar cuándo los perfiles entran y salen de los recorridos en [!DNL Adobe Journey Optimizer]. [Más información](../building-journeys/entry-exit-criteria-guide.md)
 
 * Ya está disponible una nueva página que explica cómo iterar en los datos contextuales de los mensajes. Esta guía explica cómo utilizar la sintaxis de Handlebars para mostrar listas dinámicas a partir de eventos, respuestas de acciones personalizadas, búsquedas de conjuntos de datos y otras fuentes de contexto en la personalización. [Más información](../personalization/iterate-contextual-data.md)
 
@@ -486,7 +482,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación sobre cómo utilizar identificadores suplementarios en recorridos ahora incluye una tabla que detalla cómo se comportan los perfiles cuando se aplican criterios de salida en recorridos que utilizan ID suplementarios. [Más información](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* Se ha añadido una sección de solución de problemas para comprender los descartes de perfil en recorridos pausados. [Más información](../building-journeys/journey-pause.md#discards-troubleshoot)
+* Se ha añadido la sección de solución de problemas para comprender los descartes de perfil en los recorridos pausados. [Más información](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * Se ha añadido información en la documentación de información general de esquemas para diferenciar los esquemas estándar y relacionales utilizados para campañas orquestadas. [Más información](../data/gs-data.md)
 
@@ -522,7 +518,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una nota a la sección Fragmentos que especifica que, cuando el seguimiento está habilitado en un recorrido o una campaña, si los vínculos están presentes en un fragmento y si este fragmento se utiliza en un mensaje, se realiza el seguimiento de estos vínculos, al igual que todos los demás incluidos en el mensaje. [Más información](../content-management/create-fragments.md#content)
 
-* Las protecciones y limitaciones aplicables a la delegación de subdominios en [!DNL Journey Optimizer] se han enriquecido y consolidado en una sección dedicada. [Más información](../configuration/delegate-subdomain.md#guardrails)
+* Los mecanismos de protección y las limitaciones aplicables a la delegación de subdominios en [!DNL Journey Optimizer] se han enriquecido y consolidado en una sección dedicada. [Más información](../configuration/delegate-subdomain.md#guardrails)
 
 * Se ha añadido una nota a las páginas Crear ofertas de reserva y Crear decisión para mencionar que las ofertas de reserva deben contener todas las representaciones utilizadas dentro de una decisión. [Más información](../offers/offer-library/creating-fallback-offers.md)
 
@@ -560,11 +556,11 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Mayo de 2025 {#may-2025}
 
-* Las integraciones de Adobe disponibles con [!DNL Journey Optimizer] ahora se enumeran en la sección &quot;Conectar sus sistemas y entornos&quot;. [Más información](../integrations/ajo-integrations.md)
+* Las integraciones de Adobe disponibles con [!DNL Journey Optimizer] ahora se enumeran en la sección “Conectar sus sistemas y entornos”. [Más información](../integrations/ajo-integrations.md)
 
 * Las integraciones de contenido ahora se agrupan en la sección Administración de contenido. [Más información](../integrations/content-integrations.md)
 
-* Se han actualizado los diagramas de arquitectura de Adobe Experience Platform y [!DNL Journey Optimizer]. [Más información](../start/get-started.md#architecture)
+* Se han actualizado los diagramas de arquitectura para Adobe Experience Platform y [!DNL Journey Optimizer]. [Más información](../start/get-started.md#architecture)
 
 * Se ha añadido un vídeo sobre el patio del editor de personalización para ayudarle a aprender a escribir y probar el código de personalización mediante datos de muestra. [Más información](../personalization/personalize.md#video-perso)
 
@@ -604,7 +600,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Los permisos integrados de la página de destino que faltan se han añadido a la documentación. [Más información](../administration/ootb-permissions.md)
 * Se ha añadido una nota sobre la programación de campañas recurrentes. [Más información](../campaigns/create-campaign.md)
 * Se ha actualizado y reorganizado la sección sobre la inserción de vínculos y la habilitación del seguimiento en un mensaje de correo electrónico. [Más información](../email/message-tracking.md)
-* Se ha reorganizado y mejorado la sección acerca de las funcionalidades de personalización de [!DNL Adobe Journey Optimizer]. [Más información](../personalization/personalize.md)
+* Se ha reorganizado y mejorado la sección sobre funcionalidades de personalización en [!DNL Adobe Journey Optimizer]. [Más información](../personalization/personalize.md)
 * La API de Gestión de decisiones para enumerar ofertas personalizadas se ha actualizado con una muestra para realizar la paginación si faltan varias ofertas personalizadas en la respuesta. [Más información](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Se ha creado una nueva página con toda la información relativa a la función Cancelar la suscripción a una lista para una mayor claridad. [Más información](../email/list-unsubscribe.md)
 * La sección Restricción de frecuencia se ha actualizado con información sobre cómo se actualiza el contador de restricción de frecuencia para las API de decisiones y decisiones por lotes, además de la API de decisiones de Edge. [Más información](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -658,7 +654,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Se ha añadido una nota sobre el próximo mecanismo de protección del tiempo de vida (TTL) para los conjuntos de datos generados por el sistema. [Más información](../data/get-started-datasets.md)
 * Se ha añadido una nueva sección para describir cómo obtener una vista previa de las experiencias personalizadas basadas en código directamente en el explorador o en los dispositivos móviles, mediante la opción **Vista previa en el dispositivo** al simular contenido en un recorrido o una campaña. [Más información](../code-based/test-code-based.md#preview-on-device)
 * Se ha añadido una nueva página sobre cómo aprovechar los públicos de carga personalizados para la toma de decisiones. [Más información](../offers/custom-upload-decisioning.md)
-* Se ha agregado una nueva página para introducir las capacidades de decisión disponibles en [!DNL Journey Optimizer]. [Más información](../experience-decisioning/gs-decision.md)
+* Se ha añadido una nueva página para introducir las funciones de decisión disponibles en [!DNL Journey Optimizer]. [Más información](../experience-decisioning/gs-decision.md)
 * Se han añadido mecanismos de protección y limitaciones a la documentación sobre la toma de decisiones. [Más información](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## Septiembre de 2024 {#sept-2024}
@@ -754,7 +750,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -784,7 +780,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=es){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -859,7 +855,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -987,7 +983,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

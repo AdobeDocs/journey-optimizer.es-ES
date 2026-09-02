@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
 source-wordcount: 5006
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -76,13 +67,13 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
   A medida que los recorridos se acercan a este límite, el rendimiento de la edición y la de publicación puede degradarse y pueden producirse errores al guardar o validar. Si esto sucede, divida el recorrido en subrecorridos más pequeños mediante [actividades de salto](../building-journeys/jump.md) o vuelva a crearlo en una nueva versión. El límite de la actividad no se puede aumentar.
 
-* El número de recorridos activos, cerrados, pausados y de ejecución en seco que pueden estar activos al mismo tiempo se limita a **200** en zonas protegidas de producción y a **100** en zonas protegidas de desarrollo. Este límite se aplica cuando publica un recorrido. El número actual de recorridos se muestra encima del lienzo del recorrido.
+* El número de recorridos activos, cerrados, pausados y de ensayo que pueden estar activos al mismo tiempo se limita a **200** en zonas protegidas de producción y a **100** en zonas protegidas de desarrollo. Este límite se aplica cuando publica un recorrido. El número actual de recorridos se muestra encima del lienzo del recorrido.
 
-  A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Los recorridos cerrados se cuentan únicamente si se crean después de desplegar esta protección.
+  A medida que publica recorridos, los ampliamos y ajustamos automáticamente para garantizar el máximo rendimiento y estabilidad. Los recorridos cerrados se cuentan únicamente si se crean después de desplegar este mecanismo de protección.
 
 >[!NOTE]
 >
->Para las protecciones de tiempo de publicación, las organizaciones que ya exceden un límite cuando se introduce la protección reciben una excepción. Los recorridos existentes no se ven afectados.
+>Para los mecanismos de protección de tiempo de publicación, las organizaciones que ya exceden un límite cuando se introduce el mecanismo de protección reciben una excepción. Los recorridos existentes no se ven afectados.
 
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta **10 minutos** en estar activa y en escuchar los perfiles que entran o salen del público.
 
@@ -96,7 +87,7 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 >[!TIP]
 >
->**Lo que esto significa para usted:** El **límite de 50 actividades** y el **límite de recorridos activos** son las dos barreras que la mayoría de los equipos encuentran primero al escalar. Planifique la división anticipada del recorrido y extienda las horas de inicio de la lectura del público con una diferencia mínima de entre 5 y 10 minutos para evitar la contención del rendimiento de la zona protegida.
+>**Qué implica esto para usted:** el **límite de 50 actividades** y el **límite de recorridos activos** son los dos mecanismos de protección que la mayoría de los equipos encuentran primero al escalar. Planifique la división anticipada del recorrido y extienda las horas de inicio de la lectura del público con una diferencia mínima de entre 5 y 10 minutos para evitar la contención del rendimiento de la zona protegida.
 
 #### Validación del tamaño de la carga útil del recorrido {#journey-payload-size}
 
@@ -148,7 +139,7 @@ Las siguientes limitaciones se aplican a las [versiones del recorrido](../start/
 
 * Un recorrido que se inicia con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No puede iniciar un recorrido con un evento de **Calificación de público**.
 * Un recorrido que se inicia con una actividad de **Calificación de público** en la versión 1 siempre debe comenzar con una **Calificación de público** en versiones posteriores.
-* La audiencia y el área de nombres elegidos en **Calificación de audiencias** (primera actividad) no se pueden cambiar en las nuevas versiones.
+* El público y el espacio de nombres elegidos en la **Calificación de público** (primera actividad) no se pueden cambiar en las versiones nuevas.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 * El recorrido que comience con **Leer público** no puede comenzar con otro evento en las versiones siguientes.
 * No se puede crear una nueva versión de un recorrido de lectura de público con lectura incremental. Debe duplicar el recorrido.
@@ -169,13 +160,13 @@ Puede elegir entre una de estas dos soluciones:
 
 Las siguientes limitaciones se aplican a los [Eventos](../event/about-events.md) en sus recorridos:
 
-* Journey Optimizer admite un volumen máximo de **5.000 eventos de recorrido entrantes por segundo** para eventos unitarios y **5.000 eventos de recorrido entrantes por segundo** para eventos de recorrido basados en Audiencias de lectura en todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
+* Journey Optimizer admite un volumen máximo de **5000 eventos de recorrido de entrada por segundo** para eventos unitarios y **5000 eventos de recorrido de entrada por segundo** para eventos de recorrido basados en Leer público en todas las zonas protegidas. Obtenga más información acerca de esta limitación [en esta página](../event/about-events.md#event-thoughput).
 * Los recorridos activados por eventos pueden tardar hasta **5 minutos** en procesar la primera acción del recorrido.
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido del cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
 * Los eventos empresariales no se pueden usar junto con eventos unitarios o actividades de calificación de público.
-* Se puede hacer referencia a un evento único en un máximo de **25** recorridos al mismo tiempo, en todos los recorridos activos, cerrados, pausados, de modo de prueba y de ejecución en seco. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
-* Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos en vivo, cerrados, en pausa, en modo de prueba y en ejecución en seco a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
-* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
+* Se puede hacer referencia a un evento único en un máximo de **25** recorridos al mismo tiempo, en todos los recorridos activos, cerrados, pausados, en modo de prueba y de ensayo. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido adicional que utilice ese evento.
+* Se puede hacer referencia a un único esquema XDM mediante un máximo de **100** eventos en todos los recorridos activos, cerrados, pausados, en modo de prueba y de ensayo a la vez. Cuando se alcanza este límite, se bloquea la publicación de cualquier recorrido con un nodo de evento que haga referencia a ese esquema.
+* Los recorridos unitarios (que se inician con un evento o una calificación de público) incluyen un mecanismo de protección que evita que los recorridos se activen varias veces de forma errónea para el mismo evento. La reentrada del perfil está bloqueada temporalmente de forma predeterminada durante **5 minutos**. Por ejemplo, si un evento activa un recorrido a las 12:01 para un perfil específico y otro llega a las 12:03 (ya sea el mismo evento o uno diferente que active el mismo recorrido), ese recorrido no se iniciará de nuevo para este perfil.
 * Journey Optimizer requiere que los eventos se transmitan al servicio principal de recopilación de datos (DCCS) para poder activar un recorrido. Los eventos importados por lotes, los eventos insertados a través del **servicio de consultas** o los eventos procedentes de conjuntos de datos internos de Journey Optimizer (comentarios sobre mensajes, seguimiento de correos electrónicos, etc.) no se puede usar para activar un recorrido. Para los casos de uso en los que no pueda obtener los eventos transmitidos, genere un público basado en dichos eventos y utilice la actividad **Público de lectura** en su lugar. Técnicamente, la calificación del público puede utilizarse, pero no se recomienda porque puede provocar problemas posteriores en función de las acciones utilizadas.
 
 ### Fuentes de datos {#data-sources-g}
@@ -210,7 +201,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
@@ -231,11 +222,11 @@ Los siguientes mecanismos de protección se aplican al [editor de expresiones de
 
 #### Actividad de calificación de público {#audience-qualif-g}
 
-Las siguientes limitaciones se aplican a la actividad de recorrido [Calificación de audiencias](../building-journeys/audience-qualification-events.md):
+Los siguientes mecanismos de protección se aplican a la actividad de recorrido [Calificación del público](../building-journeys/audience-qualification-events.md):
 
 * La actividad de calificación de público no se puede utilizar con actividades de Adobe Campaign.
 * No se admiten identificadores suplementarios para los recorridos de calificación de público.
-* Una zona protegida puede incluir un máximo de **300** actividades de calificación de audiencia en todos los recorridos activos, cerrados, pausados, de modo de prueba y de ejecución en seco. Este límite también se aplica a las actividades de Calificación de audiencias utilizadas como criterios de salida. Cuando se alcanza este límite, se bloquea la publicación de recorridos con actividades de calificación de audiencias adicionales.
+* Una zona protegida puede incluir un máximo de **300** actividades de Calificación del público en todos los recorridos activos, cerrados, pausados, en modo de prueba y de ensayo. Este límite también se aplica a las actividades de Calificación de público utilizadas como criterios de salida. Cuando se alcanza este límite, se bloquea la publicación de recorridos con actividades de Calificación de público adicionales.
 
 Obtenga más información acerca de las tasas de procesamiento de recorrido y los límites de rendimiento en [esta sección](../building-journeys/entry-management.md#journey-processing-rate).
 
@@ -319,7 +310,7 @@ Se aplican mecanismos de protección específicos a **Ensayo de recorrido**, inc
 
 Se aplican mecanismos de protección específicos a **Fragmentos de Recorrido**, incluidos un máximo de **20 nodos por fragmento** y **200 fragmentos activos por zona protegida**. Se muestran en [esta página](../building-journeys/journey-fragments.md#guardrails).
 
-#### Envío mediante olas {#waves-g}
+#### Envío por oleadas {#waves-g}
 
 Existen mecanismos de protección específicos para **el envío de olas en recorridos**, que incluyen un intervalo de ondas de 2 a 10 y un **intervalo mínimo de 30 minutos** entre olas. Se muestran en [esta página](../delivery/send-using-waves.md#limitations-guardrails).
 
@@ -437,9 +428,9 @@ Los límites de tamaño recomendados para los tipos de contenido son los siguien
 
 Aparece una advertencia cuando una variante de contenido supera su umbral de tamaño recomendado. Esto se aplica a todos los tipos de contenido y canales, y no bloquea el guardado ni la publicación.
 
-### Generar protecciones de contenido {#ai-assistant-g}
+### Generar mecanismos de protección de contenido {#ai-assistant-g}
 
-Las protecciones y limitaciones de **Generar contenido**, incluidos los canales admitidos (correo electrónico, push, web, SMS) y las limitaciones del editor de personalización, se enumeran en [esta página](../content-management/gs-generative.md#generative-guardrails).
+Los mecanismos de protección y las limitaciones para **Generar contenido**, incluidos los canales admitidos (correo electrónico, push, web, SMS) y las limitaciones del editor de personalización, se enumeran en [esta página](../content-management/gs-generative.md#generative-guardrails).
 
 ### Mecanismos de protección de las páginas de destino {#lp-guardrails}
 
