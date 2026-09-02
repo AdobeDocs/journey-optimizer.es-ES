@@ -10,7 +10,8 @@ level: Beginner
 keywords: correo electrónico, plantilla, imagen, HTML, IA, diseño, convertidor
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
 source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
 source-wordcount: 2103
