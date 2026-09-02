@@ -67,4 +67,4 @@ Para crear, editar y eliminar plantillas de contenido, asegúrese de que tiene e
 
 Aprenda a crear, editar y utilizar plantillas de contenido en [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418585/?captions=spa&quality=12)

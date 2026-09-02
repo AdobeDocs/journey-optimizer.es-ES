@@ -273,7 +273,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451885?captions=spa&quality=12&learn=on)
 
   +++
 
@@ -281,7 +281,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445291/?captions=spa&learn=on&autoplay=true)
 
   +++
 
@@ -289,7 +289,7 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 
   +++Vea el vídeo
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451834/?captions=spa&learn=on&autoplay=true)
 
   +++
 

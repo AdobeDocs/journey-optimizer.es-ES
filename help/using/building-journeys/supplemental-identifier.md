@@ -331,7 +331,7 @@ Estos ejemplos muestran cómo los identificadores suplementarios admiten varios 
 
 Obtenga información sobre cómo habilitar y aplicar un identificador suplementario en [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464795?captions=spa&quality=12)
 
 +++ Referencia de conocimientos de AI
 

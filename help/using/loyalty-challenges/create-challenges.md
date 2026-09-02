@@ -368,21 +368,21 @@ Aprenda a crear y configurar desafíos de lealtad con estos tutoriales de vídeo
 
 **Configurar un desafío de fidelidad**: cree y configure un nuevo desafío de fidelidad
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496474?captions=spa&quality=12)
 
 **Configurar recompensas** - Configurar entrega y cumplimiento de recompensas
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496484?captions=spa&quality=12)
 
 ➡️ Vea cómo crear una tarjeta de contenido de desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496532?captions=spa&quality=12)
 
 ➡️ Vea cómo configurar la mensajería del ciclo vital para un desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497458?captions=spa&quality=12)
 
 ➡️ Vea cómo publicar un desafío y generar un recorrido
 
->[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498580?captions=spa&quality=12)
 
