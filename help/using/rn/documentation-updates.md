@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10454
+source-wordcount: 10520
 ht-degree: 78%
 
 ---
@@ -26,6 +26,12 @@ ht-degree: 78%
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
+
+## Septiembre de 2026 {#september-2026}
+
+* La página **Configurar la configuración de su canal** ahora incluye una nota que aclara que el esquema utilizado para la dimensión secundaria debe tener una clave principal y que las claves principales compuestas no son compatibles. [Más información](../orchestrated/channel-config.md)
+
+* Se han actualizado las páginas de **Datos y conjuntos de datos de fidelización** y **Introducción a las fuentes** para incluir LAVA como conector de fidelidad y recompensas compatible, junto con Talon.One, Capillary y Kobie. [Más información](../loyalty-challenges/loyalty-data-and-datasets.md)
 
 ## Agosto de 2026 {#august-2026}
 

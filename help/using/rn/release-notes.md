@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 20%
+source-wordcount: 2281
+ht-degree: 21%
 
 ---
 
@@ -48,28 +48,70 @@ ht-degree: 20%
 >
 >Las funcionalidades que se enumeran en estas notas de la versión incluyen una **Fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
 
-## Notas de la versión de agosto de 2026 {#aug-26-updates}
-
-<!--
-### Loyalty {#aug-26-loyalty}
+## Actualizaciones de septiembre de 2026 {#sep-26-updates}
 
 <table>
 <thead>
 <tr>
-<th><strong>Loyalty Insights skill</strong><br/></th>
+<th><strong>Recorrido de nivel de resistencia (disponibilidad limitada)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
-<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
-<p>Availability date: August 12, 2026</p>
+<p>Ahora puede configurar un grupo de exclusión para los recorridos directamente desde las propiedades de recorrido. Una exclusión es un porcentaje configurable de la audiencia de destino que se excluye de la entrada al recorrido y que no recibe ninguna comunicación. Al comparar los perfiles de exclusión con los perfiles activos en los informes de Customer Journey Analytics, puede medir el alza incremental, el verdadero impacto, que ofrece su recorrido.</p>
+<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte <a href="releases.md">Ciclo de lanzamiento de Journey Optimizer</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journey-properties.md#performance-management">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 1 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>Generación de expresiones con IA en recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El editor de expresiones avanzadas de recorrido ahora integra la generación de expresiones con tecnología de IA: describa la expresión que desea crear en lenguaje natural y el editor genera código listo para usar que puede aplicar inmediatamente o refinar mediante mensajes de seguimiento.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/expression/generate-expression.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 1 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Nueva función dateDiff en el editor de expresiones de recorrido**. El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
+
+  Fecha de disponibilidad: 1 de septiembre de 2026
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulación de experiencia entrante en campañas de acción</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede simular acciones de canal entrante en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar reglas, decisiones y el procesamiento de contenido de principio a fin.</p>
+<p>Actualmente, esta funcionalidad está en versión beta privada y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
+<p>Fecha de disponibilidad: 4 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+## Notas de la versión de agosto de 2026 {#aug-26-updates}
 
 ### Administración de contenido
 
@@ -117,45 +159,6 @@ Fecha de disponibilidad: 20 de agosto de 2026
 
   Fecha de disponibilidad: 13 de agosto de 2026
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Generación de expresiones con IA en recorridos</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El editor de expresiones avanzadas de recorrido ahora integra la generación de expresiones con tecnología de IA: describa la expresión que desea crear en lenguaje natural y el editor genera código listo para usar que puede aplicar inmediatamente o refinar mediante mensajes de seguimiento.</p>
-<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
-<p>Fecha de disponibilidad: 31 de agosto de 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Recorrido de nivel de resistencia (disponibilidad limitada)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede configurar un grupo de exclusión para los recorridos directamente desde las propiedades de recorrido. Una exclusión es un porcentaje configurable de la audiencia de destino que se excluye de la entrada al recorrido y que no recibe ninguna comunicación. Al comparar los perfiles de exclusión con los perfiles activos en los informes de Customer Journey Analytics, puede medir el alza incremental, el verdadero impacto, que ofrece su recorrido.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Agregar nueva función dateDiff en el editor de expresiones de recorrido** - El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.
-
-+++
-
 ### Campañas {#aug-26-campaigns}
 
 En esta versión se han introducido las siguientes funciones y mejoras en Campañas.
@@ -184,21 +187,6 @@ Fecha de disponibilidad: 13 de agosto de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
-<table>
-<thead>
-<tr>
-<th><strong>Simulación de experiencia entrante en campañas de acción</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede simular acciones de canal entrante en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar reglas, decisiones y el procesamiento de contenido de principio a fin.</p>
-<p>Actualmente, esta funcionalidad está en versión beta privada y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Rediseño del flujo de creación de campañas de acción**: el flujo de creación de campañas de acción de Adobe Journey Optimizer se ha rediseñado para ofrecer una experiencia de usuario significativamente más intuitiva, eficiente y fluida.
 
@@ -278,6 +266,25 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 * **Simplificación de la dimensión de destino**: la dimensión de segmentación activa ahora se muestra en el lienzo del flujo de trabajo, para que pueda ver qué dimensión utiliza una actividad de canal. El flujo de segmentación de varias entidades es más sencillo, ya que ya no necesita una actividad &quot;Change dimension&quot; independiente. Además, ahora puede elegir explícitamente si los mensajes se envían en el nivel de perfil o en un nivel de dimensión secundario. [Más información](../orchestrated/activities/channels.md#add)
 
   Fecha de disponibilidad: 18 de agosto de 2026
+
+### Lealtad {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Aptitud de Loyalty Insights</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nueva habilidad de los compañeros de CX para hacer preguntas acerca del rendimiento de desafíos y otros datos del programa de fidelización incorporados en los grupos de campo Lealtad en Adobe Experience Platform.</p>
+<p>Para obtener más información, consulte la <a href="../start/ajo-coworker-skills.md#loyalty-skills">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 31 de agosto de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Canales {#august-26-channels}
 

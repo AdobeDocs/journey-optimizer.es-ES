@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
+source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 7%
+source-wordcount: '3341'
+ht-degree: 6%
 
 ---
 
@@ -41,6 +41,7 @@ CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de f
 **Aptitudes centradas en la fidelización:**
 
 * **Administración de retos de fidelidad**: cree y administre desafíos de fidelidad mediante mensajes en lenguaje natural
+* **Agente de fidelización - Habilidad de Data Insight**: consulte y analice los datos de rendimiento del programa de fidelización utilizando lenguaje natural
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
@@ -348,11 +349,13 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 
 ## Aptitudes de fidelización {#loyalty-skills}
 
-### Administración de desafío de fidelización {#loyalty-challenge-management}
-
 >[!AVAILABILITY]
 >
 >Las habilidades de fidelización están disponibles en CX Coworker para las organizaciones elegibles. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de colaborador de CX.
+
+Las habilidades de lealtad permiten a los administradores y analistas de lealtad crear, administrar y analizar programas de lealtad mediante el lenguaje natural. Con estas habilidades impulsadas por IA, puede diseñar rápidamente desafíos de lealtad atractivos, rastrear métricas de rendimiento y tomar decisiones basadas en datos para optimizar la participación de los miembros y la rentabilidad del programa. Tanto si desea crear un nuevo desafío como si desea analizar las tendencias del programa de fidelización, las habilidades de fidelización optimizan todo el flujo de trabajo de gestión de la fidelidad.
+
+### Administración de desafío de fidelización {#loyalty-challenge-management}
 
 La administración de retos de fidelidad permite a los usuarios de Journey Optimizer crear y gestionar retos de fidelidad en CX Coworker utilizando indicaciones en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
 
@@ -408,6 +411,46 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Indica la recompensa**: Puntos, millas, créditos de extractos, extensiones de estado, cupones o beneficios otorgados al finalizar.
 1. **Haga referencia al evento correspondiente**: indique el SKU, el producto, la acción de la cuenta o el evento de participación específico que rastrea el desafío.
 
+### Agente de fidelización: Data Insight {#loyalty-data-insight}
+
+Agente de fidelización: la aptitud de Data Insight permite a los usuarios de Journey Optimizer analizar y consultar los datos de rendimiento del programa de fidelidad mediante el lenguaje natural. Esta aptitud proporciona perspectivas sobre puntos de fidelidad, niveles de miembros, reembolsos y métricas de ingresos, lo que permite a los administradores y analistas de fidelidad tomar decisiones basadas en datos sobre sus programas de fidelidad.
+
+Casos de uso clave:
+
+1. **Análisis de puntos de fidelización**
+
+   * Analice los puntos de lealtad concedidos, obtenidos y canjeados en períodos específicos.
+   * Compare actividades de puntos de fidelidad en diferentes niveles y programas de fidelidad.
+   * Rastree el saldo de puntos de lealtad por segmento de miembro.
+
+   Ejemplos de mensajes:
+   * &quot;¿Cuántos puntos de lealtad se concedieron durante agosto de 2026?&quot;
+   * &quot;¿Cuántos puntos de lealtad obtuvieron los miembros en cada nivel de lealtad durante agosto de 2026?&quot;
+   * &quot;Muéstreme el total de puntos de fidelidad canjeados por el estado de fidelidad del miembro (no el nivel de fidelidad) durante agosto de 2026&quot;.
+   * &quot;Mostrar el saldo total de puntos de lealtad desglosado por nivel de lealtad durante agosto de 2026&quot;.
+
+1. **Análisis de ingresos y descuentos**
+
+   * Analice los ingresos de los pedidos y las tendencias de descuento por fidelidad por nivel y programa.
+   * Compare la generación de ingresos entre programas de fidelización y períodos de tiempo.
+   * Rastree el impacto de los descuentos en los ingresos y la participación de los miembros.
+
+   Ejemplos de mensajes:
+   * &quot;¿Cuál fue el ingreso total de pedidos para cada nivel de fidelidad durante agosto de 2026?&quot;
+   * &quot;¿Cuánto en descuentos por fidelidad se aplicó a cada nivel de fidelidad durante agosto de 2026?&quot;
+   * &quot;Mostrar los descuentos de fidelidad totales desglosados por programa de fidelidad durante agosto de 2026&quot;.
+   * &quot;¿Cuál fue el ingreso total de pedidos generado por cada programa de fidelidad durante agosto de 2026?&quot;
+
+1. **Perspectivas de rendimiento del programa**
+
+   * Analizar métricas de rendimiento de programas diarias, semanales y mensuales.
+   * Compare el rendimiento en diferentes categorías de productos y estrategias de descuento.
+   * Identifique las tendencias en los patrones de participación y canje de miembros.
+
+   Ejemplos de mensajes:
+   * &quot;Mostrar los ingresos totales del programa de fidelización desglosados por día durante agosto de 2026&quot;.
+   * &quot;Mostrar los descuentos de fidelidad totales desglosados por categoría de producto durante agosto de 2026&quot;.
+   * &quot;Mostrarme el informe de rendimiento del programa de fidelización para el tercer trimestre de 2026&quot;.
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill

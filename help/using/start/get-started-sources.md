@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 96%
+source-wordcount: 727
+ht-degree: 99%
 
 ---
 
@@ -99,6 +99,7 @@ Journey Optimizer admite varios tipos de fuentes para conectarse con los sistema
 * Talon.One
 * Capilar
 * Kobie
+* LAVA
 
 ➡️ Vea la lista completa en el [catálogo de fuentes de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"}
 
@@ -120,7 +121,7 @@ Adobe Journey Optimizer utiliza el marco de trabajo de fuentes de Adobe Experien
 2. **Seleccionar datos**: elija qué datos importar y con qué frecuencia sincronizar
 3. **Asignar campos**: defina cómo se corresponden los campos de datos externos con los atributos de perfil de Journey Optimizer
 4. **Programar**: configure intervalos de actualización automática de datos
-5. **Supervisar**: efectúe el seguimiento del flujo de datos y resuelva los problemas de sincronización
+5. **Monitorizar**: efectúe el seguimiento del flujo de datos y resuelva los problemas de sincronización
 
 Una vez configuradas, las fuentes se ejecutan automáticamente en segundo plano, lo que mantiene los datos de los clientes actualizados y listos para usarlos en los recorridos.
 

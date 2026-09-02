@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 566
 ht-degree: 5%
 
 ---
@@ -34,6 +34,7 @@ Los conectores de fidelización y recompensas enumerados en la documentación de
 * **Talón.Uno**
 * **Capilar**
 * **Kobie**
+* **LAVA**
 
 Para obtener información sobre la incorporación del conector y la configuración de extremo a extremo, consulte [Introducción a los conectores de fuentes](../start/get-started-sources.md) y el [catálogo de fuentes de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#sources-catalog){target="_blank"}.
 

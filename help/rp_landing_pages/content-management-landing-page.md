@@ -5,10 +5,10 @@ title: Gestión de contenidos
 description: Gestión de contenidos
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 94%
+source-wordcount: '337'
+ht-degree: 81%
 
 ---
 
@@ -87,3 +87,4 @@ Integre soluciones de Adobe como Experience Manager, Stock y GenStudio para logr
 - **[Generar contenido](ai-assistant-landing-page.md)**: use IA para generar y personalizar contenido en correos electrónicos, SMS, páginas web y experimentos.
 - **[Administración de contenido multilingüe](content-multilingual-landing-page.md)**: cree y administre contenido multilingüe mediante flujos de trabajo de traducción manuales y automatizados.
 - **[Experimentación de contenido](../using/content-management/get-started-experiment.md)**: configure y analice experimentos para optimizar la participación del público y los resultados de la campaña.
+- **[Creación de contenido en la marca con tecnología de IA para especialistas en marketing](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: aprenda a utilizar las capacidades y características de IA de Adobe Journey Optimizer para crear, refinar y administrar contenido en la marca en varios canales y configuraciones regionales.

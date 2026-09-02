@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +77,9 @@ Para configurar la configuración de canal:
    * **[!UICONTROL Dimension secundario]**: Cuando use **[!UICONTROL Target + Dimension secundario]** como método de envío, seleccione el **[!UICONTROL Dimension secundario]** relevante que configuró anteriormente.
 
      Por ejemplo, si la dimensión secundaria representa una reserva o una suscripción, la dirección de ejecución, como un correo electrónico, se puede tomar de ese nivel. Esto resulta útil en casos en los que los perfiles utilizan un detalle de contacto diferente al reservar o suscribirse a un servicio.
+
+     >[!NOTE]
+     >El esquema utilizado para la dimensión secundaria debe tener una clave principal. Las claves principales compuestas no son compatibles con las dimensiones secundarias.
 
 1. En el campo **[!UICONTROL Dirección de entrega]**, haga clic en ![icono de edición](assets/do-not-localize/edit.svg) para elegir el campo específico que se usará para la entrega de mensajes.
 
