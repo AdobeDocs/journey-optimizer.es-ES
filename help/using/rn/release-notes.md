@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notas de la versión de Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2240
 ht-degree: 21%
 
 ---
@@ -149,7 +137,7 @@ En esta versión se han introducido las siguientes funciones y mejoras en la Ges
 * **Fechas de inicio y finalización en el encabezado del recorrido**: cuando las fechas de inicio o finalización se configuran en un recorrido, ahora aparecen en el encabezado del recorrido junto al distintivo de estado. La etiqueta mostrada se adapta en función de si cada fecha es próxima o ya ha pasado. [Más información](../building-journeys/journey-properties.md#dates)
 
 
-Fecha de disponibilidad: 20 de agosto de 2026
+  Fecha de disponibilidad: 20 de agosto de 2026
 
 * **Nuevas funciones de lista en el editor de expresiones avanzadas**: hay dos nuevas funciones disponibles en el editor de expresiones avanzadas: `mergeLists` combina dos listas, con o sin deduplicación, y `differenceLists` devuelve los elementos de una lista que no están presentes en otra. [Más información](../building-journeys/functions/list-functions.md)
 
@@ -183,7 +171,8 @@ En esta versión se han introducido las siguientes funciones y mejoras en Campa�
 </table>
 
 * **Suscripciones a la alerta de ciclo vital por campaña**: ahora puede suscribirse a alertas de ciclo vital de campaña admitidas para una sola campaña, además de la suscripción existente a nivel de zona protegida. Esto permite monitorizar campañas de alta prioridad individuales sin recibir la misma alerta para cada campaña en la zona protegida. [Más información](../reports/alerts.md#subscribe-alerts)
-Fecha de disponibilidad: 13 de agosto de 2026
+
+  Fecha de disponibilidad: 13 de agosto de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
@@ -312,26 +301,11 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 
   Fecha de disponibilidad: 11 de agosto de 2026
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con Decisioning en el canal web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Decisioning ya está disponible para el canal Web. Puede utilizar las políticas de decisión directamente en el editor visual web para entregar las ofertas más relevantes a cada visitante.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### Mejoras de uso {#august-26-usability}
+
+* **Selección múltiple en el nuevo lienzo de recorrido**: la nueva experiencia del lienzo de recorrido presenta la selección simplificada de varios nodos: mantenga presionada la tecla Mayús y arrastre para seleccionar varios nodos a la vez, en lugar de seleccionarlos individualmente. Esto permite realizar acciones masivas, como copiar, eliminar o guardar como un fragmento de recorrido, de forma eficaz en varios nodos. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Fecha de disponibilidad: 17 de agosto de 2026
 
 * **Operaciones masivas en el inventario de recorrido**: ahora puede realizar nuevas acciones masivas directamente desde la lista de inventario de recorrido, lo que permite administrar varios recorridos a la vez con mayor rapidez. Seleccione varios recorridos y aplique cualquiera de las siguientes acciones nuevas en un solo paso: **agregar al paquete**, **eliminar**, **mover a la carpeta**, **editar etiquetas** o **administrar el acceso**. Esto reduce la necesidad de repetir la misma acción un recorrido a la vez, lo que optimiza la administración de recorridos para equipos que trabajan con un gran número de recorridos. [Más información](../building-journeys/journey-ui.md)
 
@@ -341,6 +315,4 @@ En esta versión se han introducido las siguientes funciones y mejoras en las ca
 
   Fecha de disponibilidad: 11 de agosto de 2026
 
-* **Selección múltiple en el nuevo lienzo de recorrido**: la nueva experiencia del lienzo de recorrido presenta la selección simplificada de varios nodos: mantenga presionada la tecla Mayús y arrastre para seleccionar varios nodos a la vez, en lugar de seleccionarlos individualmente. Esto permite realizar acciones masivas, como copiar, eliminar o guardar como un fragmento de recorrido, de forma eficaz en varios nodos. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-  Fecha de disponibilidad: 17 de agosto de 2026
