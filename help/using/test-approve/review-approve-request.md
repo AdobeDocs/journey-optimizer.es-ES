@@ -67,4 +67,4 @@ Después de enviar la solicitud, se notifica al creador de la recorrido/campaña
 
 >[!NOTE]
 >
-> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en el perfil [!DNL CX Enterprise]. [Más información](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)
+> Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en el perfil [!DNL CX Enterprise]. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)

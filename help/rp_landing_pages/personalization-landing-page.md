@@ -30,7 +30,7 @@ Aprenda los conceptos básicos de la personalización en Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Añadir y validar la personalización
 
@@ -50,7 +50,7 @@ Profundice en las reglas y ejemplos de la sintaxis de personalización basada en
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Reutilizar fragmentos de expresiones
 
@@ -60,7 +60,7 @@ Aproveche los fragmentos de expresiones reutilizables para una personalización 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 Uso de datos de Adobe Experience Platform para la personalización (Beta)
 
@@ -70,7 +70,7 @@ Aprenda a utilizar los conjuntos de datos de AEP con la función de ayuda &#39;d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Guía de referencia de las funciones de ayuda
 

@@ -48,7 +48,7 @@ Descubra cómo seleccionar y administrar perfiles de prueba para previsualizar y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Previsualizar el contenido mediante perfiles de prueba
 

@@ -40,7 +40,7 @@ Descubra cómo crear, configurar y administrar elementos de decisión, entre ell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Administrar colecciones de elementos
 

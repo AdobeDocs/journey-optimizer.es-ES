@@ -40,7 +40,7 @@ Instrucciones paso a paso para configurar las credenciales de la API de WhatsApp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Creación de mensajes de WhatsApp
 

@@ -26,7 +26,7 @@ Tanto si utiliza dominios existentes como si utiliza nuevas configuraciones, est
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar subdominios de las páginas de destino
 

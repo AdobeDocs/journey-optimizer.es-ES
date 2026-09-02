@@ -21,7 +21,7 @@ Crear un recorrido en Adobe Journey Optimizer le permite crear experiencias del 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear su primer recorrido del cliente
 
@@ -31,7 +31,7 @@ Aprenda a crear, diseñar, probar y publicar su primer recorrido de cliente con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Definir y administrar las propiedades del recorrido
 
@@ -41,7 +41,7 @@ Configure las reglas de entrada, la configuración relacionada con el tiempo, la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Cómo diseñar su recorrido
 
@@ -51,7 +51,7 @@ Utilice la interfaz de tipo arrastrar y soltar para diseñar recorridos de marke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo probar su recorrido
 
@@ -61,7 +61,7 @@ Pruebe los recorridos con perfiles simulados y detecte errores antes de activarl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
 
 Prueba de recorridos con el modo de ensayo
 
@@ -71,7 +71,7 @@ Valide los recorridos con datos de producción reales sin ponerse en contacto co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Publicación de un recorrido
 

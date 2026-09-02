@@ -60,7 +60,7 @@ Ahorre tiempo utilizando plantillas de correo electrónico de ejemplo o personal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Aprovechar las temáticas de correo electrónico
 

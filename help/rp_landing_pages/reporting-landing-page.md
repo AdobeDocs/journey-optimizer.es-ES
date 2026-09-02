@@ -30,7 +30,7 @@ Obtenga información sobre las funciones de creación de informes en Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Informes activos
 
@@ -40,7 +40,7 @@ Explore las herramientas de creación de informes en tiempo real para medir y op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Creación de informes de todo el tiempo
 

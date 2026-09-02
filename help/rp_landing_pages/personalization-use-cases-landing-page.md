@@ -20,7 +20,7 @@ En esta sección se proporcionan casos de uso paso a paso para crear mensajes pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Notificación del estado del pedido
 
@@ -30,7 +30,7 @@ Recorra un escenario completo que combina atributos de perfil, datos contextuale
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 Correo electrónico de abandono del carro de compras
 

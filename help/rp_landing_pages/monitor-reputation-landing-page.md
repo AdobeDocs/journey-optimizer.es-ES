@@ -20,7 +20,7 @@ Administrar el buen funcionamiento de las campañas de correo electrónico comie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Administrar la lista de supresión
 
@@ -40,7 +40,7 @@ Conozca y configure los mecanismos de reintento de los errores de rechazo tempor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 Configuración de la lista de permitidos
 

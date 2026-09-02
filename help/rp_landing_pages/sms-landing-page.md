@@ -20,7 +20,7 @@ El canal de SMS/MMS/RCS de Adobe Journey Optimizer le permite interaccionar con 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la mensajería de texto
 

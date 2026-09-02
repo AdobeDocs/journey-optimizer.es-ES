@@ -30,7 +30,7 @@ Explore ejemplos prácticos y estrategias para maximizar las funciones de Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Búsqueda de eventos de experiencia
 
@@ -50,7 +50,7 @@ Cree recorridos que aprovechen la segmentación del público y activadores de ev
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Envío de un mensaje mediante Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integre Adobe Campaign con Journey Optimizer para enviar mensajes de correo elec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Envío de un mensaje a los suscriptores
 

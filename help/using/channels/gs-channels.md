@@ -67,7 +67,7 @@ Obtenga información sobre cómo crear, configurar y enviar notificaciones push 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Actividades de iOS Live
 
@@ -77,7 +77,7 @@ Ofrezca actualizaciones persistentes y en tiempo real directamente en la pantall
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=es)
 
 Mensajes móviles
 
@@ -87,7 +87,7 @@ Aprenda cómo crear, administrar y configurar mensajes SMS, MMS y RCS para fines
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=es)
 
 Correo directo
 
@@ -125,7 +125,7 @@ Con las experiencias de entrada de la aplicación móvil y la web, los clientes 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=es)
 
 Mensajería en la aplicación
 

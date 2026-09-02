@@ -20,7 +20,7 @@ Descubra cómo crear, personalizar y optimizar experiencias web con las potentes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Editar contenido mediante Web Designer
 
@@ -30,7 +30,7 @@ Aprenda a utilizar el diseñador web visual en Adobe Journey Optimizer para crea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Editar contenido web mediante el editor no visual
 
@@ -40,7 +40,7 @@ Descubra cómo utilizar el editor no visual para modificaciones web, entre ellas
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administrar modificaciones web en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Aprenda a administrar modificaciones web mediante el panel Modificaciones, entre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Monitorizar las experiencias web
 
@@ -60,7 +60,7 @@ Obtenga información sobre cómo monitorizar la participación web mediante info
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 Cómo crear aplicaciones de una sola página en Adobe Journey Optimizer
 

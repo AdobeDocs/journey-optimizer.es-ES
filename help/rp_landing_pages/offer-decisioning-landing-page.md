@@ -25,7 +25,7 @@ La gestión de decisiones en Adobe Journey Optimizer le permite presentar la ofe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la gestión de decisiones
 

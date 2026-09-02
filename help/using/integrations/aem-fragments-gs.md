@@ -43,13 +43,13 @@ ht-degree: 0%
 
 Al integrar **[!DNL Adobe Experience Manager as a Cloud Service]** y **[!DNL Adobe Experience Manager Managed Service]** con Adobe Journey Optimizer, puede utilizar fragmentos de contenido de AEM en recorridos y campañas. Para **[!DNL Adobe Experience Manager Managed Service]**, la integración admite los niveles de **Author** y **Publish** en el SP2 **de** Soporte a largo plazo de AEM (LTS); las actualizaciones en tiempo real de Adobe Experience Manager no están disponibles en esta versión. Póngase en contacto con su representante de Adobe Managed Services para configurar la instancia y [configurar el acceso al repositorio de Adobe Experience Manager](aem-admin-settings.md) para agregar su repositorio de Managed Services.
 
-Para obtener más información sobre los fragmentos de contenido de AEM, consulte [Trabajar con fragmentos de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} en la documentación de Experience Manager.
+Para obtener más información sobre los fragmentos de contenido de AEM, consulte [Trabajar con fragmentos de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} en la documentación de Experience Manager.
 
 ## Ciclo de fragmento de contenido
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-Los fragmentos de contenido siguen diferentes etapas del ciclo vital según el nivel de Adobe Experience Manager en el que existan. [Obtenga más información en la documentación de Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+Los fragmentos de contenido siguen diferentes etapas del ciclo vital según el nivel de Adobe Experience Manager en el que existan. [Obtenga más información en la documentación de Adobe Experience Manager](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 El contenido se crea y administra en el **nivel de creación**, donde los fragmentos pueden tener estados como Nuevo, Borrador, Publicado, Modificado o No publicado. Estos estados se aplican solamente en el **nivel de creación** y admiten la creación y revisión de contenido.
 

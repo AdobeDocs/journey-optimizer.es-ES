@@ -20,7 +20,7 @@ El correo directo en Adobe Journey Optimizer le permite llegar a los clientes si
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a las campañas de correo directo
 
@@ -30,7 +30,7 @@ Obtenga información sobre las campañas de correo directo en Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Cómo crear una campaña de correo directo
 
@@ -40,7 +40,7 @@ Guía paso a paso para crear campañas de correo directo y configurar archivos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo comprobar y enviar una campaña de correo directo
 
@@ -50,7 +50,7 @@ Obtenga una vista previa, valide, active y administre el consentimiento para cam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Configurar el canal de correo directo
 
