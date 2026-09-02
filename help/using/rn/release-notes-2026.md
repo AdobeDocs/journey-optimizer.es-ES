@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 79%
@@ -44,7 +40,7 @@ Journey Optimizer presenta Loyalty Challenges, una nueva funcionalidad de esta v
 <p>Los administradores pueden utilizar el menú de configuraciones de Fidelidad para conectar Journey Optimizer con el ecosistema de fidelidad, incluidas las API de cumplimiento de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración de identidad. Los especialistas en marketing pueden diseñar desafíos estándar, de racha o secuenciales, definir tareas y recompensas, ofrecer tarjetas de contenido de marca y mensajes, y monitorizar el rendimiento con paneles de informes impulsados por IA. Journey Optimizer genera los recorridos que organizan cada desafío en segundo plano, de modo que los equipos puedan centrarse en la experiencia del cliente y los objetivos empresariales.</p>
 <p>La lealtad también introduce habilidades de Coworker que permiten a los equipos realizar operaciones de desafío clave de forma más eficiente, incluida la creación de desafíos, la configuración de propiedades de desafío, la administración de audiencias y la configuración relacionada, y la revisión de perspectivas para monitorizar la participación en el desafío y recompensar el rendimiento.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
-<p>Esta funcionalidad solo está disponible para organizaciones con licencia de Lealtad de Journey Optimizer. Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
+<p>Esta funcionalidad solo está disponible para organizaciones con licencia para Journey Optimizer Loyalty. Para obtener acceso, póngase en contacto con su representante de Adobe.</p>
 <p>Para obtener más información, consulte la <a href="../loyalty-challenges/get-started.md">documentación detallada</a>.</p>
 <p> Fecha de disponibilidad: 28 de julio de 2026</p>
 </td>
@@ -219,7 +215,7 @@ En esta versión se han añadido las siguientes funciones y mejoras a los recorr
 
   Fecha de disponibilidad: 29 de julio de 2026
 
-* **Protección de disyuntor para extremos de acción personalizados lentos**: Para los extremos enrutados a través del servicio de acción personalizada lenta, Journey Optimizer ahora limita temporalmente todas las llamadas durante un máximo de 5 minutos cuando más del 20 % de las llamadas en una ventana de 120 segundos exceden los 10 segundos, si hay al menos 200 llamadas en la ventana de observación de 120 segundos. Esto ayuda a evitar sobrecargar puntos finales que ya son lentos. [Más información](../configuration/external-systems.md#response-time)
+* **Protección de disyuntor para extremos de acción personalizados lentos**: Para los extremos enrutados a través del servicio de acción personalizada lenta, Journey Optimizer ahora limita temporalmente todas las llamadas durante un máximo de 5 minutos cuando más del 20 % de las llamadas en una ventana de 120 segundos exceden los 5 segundos, si hay al menos 200 llamadas en la ventana de observación de 120 segundos. Esto ayuda a evitar sobrecargar puntos finales que ya son lentos. [Más información](../configuration/external-systems.md#response-time)
 
   Fecha de disponibilidad: 29 de julio de 2026. Esta capacidad se está implantando gradualmente en todas las regiones.
 
@@ -1430,7 +1426,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Fecha de la versión**: 24-25 de marzo de 2026
@@ -1630,7 +1626,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>Supervisión del modelo de IA</strong><br/></th>
+<th><strong>Monitorización del modelo de IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality).
 
-  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Recorridos
 
