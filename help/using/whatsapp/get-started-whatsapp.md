@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 707
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -45,26 +39,26 @@ Ahora puede enviar mensajes de WhatsApp directamente a través de Journey Optimi
 
 ## Casos de uso {#use-cases}
 
-WhatsApp funciona mejor cuando tu audiencia ya utiliza la plataforma y quieres combinar contenido enriquecido con una conversación genuinamente bidireccional.
+WhatsApp funciona mejor cuando su público ya utiliza la plataforma y usted quiere combinar contenido enriquecido con una conversación genuinamente bidireccional.
 
-| Ventaja | Por qué | Casos de uso de ejemplo |
+| Ventaja | Por qué | Ejemplos de casos de uso |
 | --- | --- | --- |
-| Alta participación global | Plataforma de mensajería ampliamente utilizada con una fuerte adopción en muchas regiones | Llegar a audiencias internacionales ya activas en WhatsApp |
-| Mensajes interactivos y enriquecidos | Admite imágenes, vídeos, botones y respuestas rápidas | Catálogos de productos, confirmaciones de citas con opciones de respuesta rápida |
-| Experiencias conversacionales bidireccionales | Los destinatarios pueden responder dentro del mismo subproceso | Conversaciones de asistencia al cliente, preguntas de seguimiento de pedidos |
-| Experiencias interactivas en varias pantallas | Las plantillas de flujo de WhatsApp te permiten crear interacciones guiadas de varios pasos dentro del chat | Encuestas, formularios de captura de posibles clientes |
-| Conformidad y confianza mediante API oficial | Entregado a través de la API en la nube verificada de Meta con verificación del remitente | Comunicaciones verificadas por la marca que generan confianza en los destinatarios |
-| Integración con otros canales | Se puede agrupar con recorridos y campañas junto con otros canales | Recorridos multicanal con WhatsApp como punto de contacto complementario |
+| Alta participación global | Plataforma de mensajería ampliamente utilizada con una fuerte adopción en muchas regiones | Alcance de públicos internacionales ya activos en WhatsApp |
+| Mensajes interactivos enriquecidos | Compatibilidad con imágenes, vídeos, botones y respuestas rápidas | Catálogos de productos, confirmaciones de citas con opciones de respuesta rápida |
+| Experiencias conversacionales bidireccionales | Respuesta de los destinatarios dentro del mismo subproceso | Conversaciones de asistencia al cliente, preguntas de seguimiento de pedidos |
+| Experiencias interactivas en varias pantallas | Plantillas de flujo de WhatsApp que permiten crear interacciones guiadas de varios pasos dentro del chat | Encuestas, formularios de captura de posibles clientes |
+| Cumplimiento y confianza mediante API oficial | Envío a través de la API en la nube verificada de Meta con verificación del remitente | Comunicaciones verificadas por la marca que generan confianza en los destinatarios |
+| Integración con otros canales | Agrupación con recorridos y campañas junto con otros canales | Recorridos multicanal con WhatsApp como punto de contacto complementario |
 
 ## Cuándo no utilizar {#when-not-to-use}
 
-WhatsApp depende de la adopción de audiencias y del consentimiento explícito, por lo que no es adecuado para todos los escenarios. Considere otro canal en las siguientes situaciones:
+WhatsApp depende de la adopción de públicos y del consentimiento explícito, por lo que no es adecuado para todos los escenarios. Considere otro canal en las siguientes situaciones:
 
-* Su audiencia no utiliza WhatsApp, ya que la adopción varía ampliamente según la región y la población
-* Los destinatarios no han dado la opción de inclusión explícita, que se requiere en las políticas de mensajería de Meta
-* El mensaje es urgente y necesita una entrega garantizada, que SMS o push gestione mejor dadas las restricciones de entrega y revisión de plantillas de WhatsApp
-* El contenido es largo o complejo y se adapta mejor al correo electrónico, lo que ofrece más espacio y un formato más enriquecido
-* El soporte conversacional en tiempo real no es factible de su parte, ya que los hilos bidireccionales de WhatsApp establecen la expectativa de una respuesta oportuna
+* Su público no utiliza WhatsApp, ya que la adopción varía ampliamente según la región y la población.
+* Los destinatarios no han dado la opción de inclusión explícita, que se requiere en las directivas de mensajería de Meta.
+* El mensaje es urgente y necesita un envío garantizado, que SMS o push gestiona mejor dadas las restricciones de envío y revisión de plantillas de WhatsApp.
+* El contenido es largo o complejo y se adapta mejor al correo electrónico, que ofrece más espacio y un formato más detallado.
+* El soporte conversacional en tiempo real no es factible de su parte, ya que los hilos bidireccionales de WhatsApp establecen la expectativa de una respuesta oportuna.
 
 ## Requisitos previos {#prereq}
 
@@ -99,7 +93,7 @@ El siguiente vídeo muestra cómo integrar WhatsApp como canal nativo en Adobe J
 
 +++ Vea el vídeo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470247?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

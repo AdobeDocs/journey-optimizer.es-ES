@@ -8,25 +8,16 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 TQID: https://experienceleague.adobe.com/b139LQsPe3HwKe1O5cyBx4Nj4jpW3GXCFIVIWTAIlbg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 601
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -83,29 +74,29 @@ Utilice Journey Optimizer para crear notificaciones en la aplicación y configur
 
 ## Casos de uso
 
-Los mensajes en la aplicación funcionan mejor cuando desea guiar o influir en los usuarios mientras estos ya están comprometidos con la aplicación, aprovechando ese momento de atención activa.
+Los mensajes en la aplicación funcionan mejor cuando se desea guiar o influir en los usuarios mientras estos ya están comprometidos con la aplicación, de modo que se aprovecha ese momento de atención activa.
 
-| Ventaja | Por qué | Casos de uso de ejemplo |
+| Ventaja | Por qué | Ejemplos de casos de uso |
 | --- | --- | --- |
-| Alta participación del usuario | Llega a los usuarios mientras están activos en una sesión de la aplicación | Anuncios de funciones, sugerencias de incorporación |
-| Déclencheur relevantes para el contexto | Se puede activar según el comportamiento o la ubicación dentro de la aplicación | Resaltar una función justo después de que un usuario visite una pantalla relacionada |
-| Entrega en tiempo real | Sin dependencia de tokens push ni servicios de envío externos | Mensajes con distinción de tiempo que se muestran durante la sesión actual |
-| Sin dependencia de canales externos | Funciona completamente dentro de la aplicación, independientemente del estado de inclusión de otros canales | Llegar a los usuarios que han excluido las notificaciones push |
-| Mejor potencial de conversión | Entregado en un momento de atención activa, aumentando las tasas de respuesta | Ofertas de ampliación de venta o de venta cruzada, indicadores de encuestas |
-| Personalización y segmentación | El diseño, el texto y los botones se pueden adaptar a audiencias específicas | Flujos de incorporación personalizados para diferentes segmentos de usuario |
-| Diseño no intrusivo | Se puede diseñar para complementar la experiencia del usuario en lugar de interrumpirla | Titulares o modelos que se alinean con la interfaz de usuario de la aplicación |
+| Alta participación del usuario | Alcance de los usuarios mientras están activos en una sesión de la aplicación | Anuncios de funciones, sugerencias de incorporación |
+| Activadores relevantes en el contexto | Posibilidad de activación según el comportamiento o la ubicación en la aplicación | Resaltado de una función justo después de que un usuario visite una pantalla relacionada |
+| Envío en tiempo real | Sin dependencia de tokens push ni servicios de envío externo | Indicaciones urgentes que se muestran durante la sesión actual |
+| Sin dependencia de canales externos | Funcionamiento completo dentro de la aplicación, independientemente del estado de inclusión de otros canales | Alcance de los usuarios que han excluido las notificaciones push |
+| Mejor potencial de conversión | Envío en un momento de atención activa, lo que aumenta las tasas de respuesta | Ofertas para impulsar ventas o de venta cruzada, indicaciones de encuesta |
+| Personalización y segmentación | Diseño, texto y botones que se pueden adaptar a públicos específicos | Flujos de incorporación personalizados para diferentes segmentos de usuario |
+| Diseño no intrusivo | Posibilidad de diseño para complementar la experiencia del usuario, en lugar de interrumpirla | Banners o modales que se alinean con la interfaz de usuario de la aplicación |
 
 ## Cuándo no utilizar
 
 Los mensajes en la aplicación dependen de una sesión activa, por lo que no son adecuados para todos los escenarios. Considere otro canal en las siguientes situaciones:
 
-* El usuario no está utilizando la aplicación de forma activa, ya que el mensaje nunca se mostrará
-* El mensaje es un problema crítico o sensible al tiempo que requiere llegar a los usuarios fuera de la aplicación, como una interrupción o una alerta de seguridad
-* La comunicación es reglamentaria o legal y requiere una confirmación de lectura que los mensajes en la aplicación no pueden proporcionar
-* El objetivo es la reactivación de cuentas o una campaña de recuperación para los usuarios inactivos que es poco probable que abran la aplicación
-* El mensaje es una actualización transaccional de gran volumen, como una confirmación de pedido, más adecuada para correos electrónicos o SMS
-* El uso excesivo puede provocar ceguera en los banners, donde los usuarios comienzan a ignorar los mensajes que aparecen con demasiada frecuencia
-* Los usuarios pueden estar sin conexión o sin conectividad de la aplicación cuando el mensaje está pensado para enviarse
+* El usuario no está utilizando la aplicación de forma activa, por lo que el mensaje nunca se mostrará.
+* El mensaje es un problema crítico o urgente que requiere llegar a los usuarios fuera de la aplicación, como una interrupción o una alerta de seguridad.
+* La comunicación tiene un carácter normativo o legal y requiere una confirmación de lectura que los mensajes en la aplicación no pueden proporcionar.
+* La meta es la reactivación de cuentas o una campaña de recuperación para los usuarios inactivos que es poco probable que abran la aplicación.
+* El mensaje es una actualización transaccional de gran volumen, como una confirmación de pedido, más adecuada para correos electrónicos o SMS.
+* El uso excesivo puede provocar que se ignoren los banners y los mensajes, ya que aparecen con demasiada frecuencia.
+* Los usuarios pueden estar sin conexión o sin conectividad de la aplicación cuando está pensado que se envíe el mensaje.
 
 
 

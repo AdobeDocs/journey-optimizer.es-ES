@@ -7,26 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f88eedcc-cf3e-46b8-9e94-0293589325f3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1246
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -57,25 +46,25 @@ Con la funcionalidad de la **experiencia basada en código** puede definir las e
 
 ## Casos de uso {#use-cases}
 
-El canal basado en código funciona mejor cuando su caso de uso va más allá de lo que un editor visual puede admitir y tiene recursos de desarrollo disponibles para generar y mantener la implementación.
+El canal basado en código funciona mejor cuando su caso de uso va más allá de lo que un editor visual puede admitir y usted tiene recursos de desarrollo disponibles para generar y mantener la implementación.
 
-| Ventaja | Por qué | Casos de uso de ejemplo |
+| Ventaja | Por qué | Ejemplos de casos de uso |
 | --- | --- | --- |
-| Personalización profunda | Admite lógica compleja y datos en tiempo real más allá de lo que exponen los editores visuales | Personalization impulsado por el inventario en tiempo real o el contexto de usuario |
-| Integración con sistemas externos | El contenido puede componerse con datos de sistemas externos | Promociones basadas en el tiempo, ofertas basadas en inventarios en tiempo real |
+| Personalización profunda | Admite lógica compleja y datos en tiempo real más allá de lo que exponen los editores visuales | Personalización impulsada por el inventario en tiempo real o el contexto de usuario |
+| Integración con sistemas externos | Posibilidad de componer el contenido con datos de sistemas externos | Promociones basadas en el tiempo, ofertas basadas en inventarios en tiempo real |
 | Flujos de trabajo condicionales avanzados de varios pasos | Sin limitarse a las acciones predefinidas de los canales visuales | Lógica de decisiones de varios pasos en puntos de contacto |
-| Superar los límites de la plataforma | Permite a los desarrolladores crear elementos interactivos personalizados | Los componentes de la IU personalizada no son compatibles con los canales predeterminados |
-| Flexibilidad de campaña mejorada | El contenido y la lógica se definen mediante su propia implementación | Propiedades digitales sin encabezado, basadas en API o sin explorador |
+| Superación de los límites de la plataforma | Posibilidad para los desarrolladores de generar elementos interactivos personalizados | Componentes de la IU personalizada no compatibles con los canales predeterminados |
+| Flexibilidad de la campaña mejorada | Contenido y lógica definidos mediante su propia implementación | Propiedades digitales headless, basadas en API o sin explorador |
 
 ## Cuándo no utilizar {#when-not-to-use}
 
 El canal basado en código requiere un esfuerzo de desarrollo, por lo que no es la opción correcta para cada escenario. Considere otro canal en las siguientes situaciones:
 
-* Su campaña es rápida o sencilla y se puede crear con un canal sin código como web o en la aplicación, sin ningún esfuerzo de desarrollo
-* No tiene recursos de desarrollador ni un entorno de prueba disponibles para generar y validar una implementación personalizada
-* Su cronología o presupuesto es limitado para el desarrollo personalizado, ya que las experiencias basadas en código requieren una planificación más directa
-* La mensajería estándar ya se ajusta a las funciones de canal integradas, lo que hace que el desarrollo personalizado sea innecesario
-* La capacidad de mantenimiento a largo plazo del código personalizado es motivo de preocupación, ya que las superficies y las implementaciones necesitan la asistencia continua del desarrollador
+* Su campaña es rápida o sencilla y se puede crear con un canal sin código como la web o en la aplicación, sin ningún esfuerzo de desarrollo.
+* No tiene recursos de desarrollador ni un entorno de prueba disponibles para generar y validar una implementación personalizada.
+* Su cronología o presupuesto es limitado para el desarrollo personalizado, ya que las experiencias basadas en código requieren una planificación más directa.
+* La mensajería estándar ya se ajusta a las funciones de canal integradas, lo que hace que el desarrollo personalizado sea innecesario.
+* La capacidad de mantenimiento a largo plazo del código personalizado es motivo de preocupación, ya que las superficies y las implementaciones necesitan el soporte continuo del desarrollador.
 
 ## Cuándo usar canales basados en código o en otros canales {#code-based-vs-other-channels}
 

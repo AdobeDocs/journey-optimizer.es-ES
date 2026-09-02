@@ -6,9 +6,9 @@ description: Configuración de canal
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Explore en detalle los temas siguientes para descubrir cómo funcionan conjuntam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción a la configuración de canal
 
@@ -36,7 +36,7 @@ Conozca los pasos para configurar canales en Adobe Journey Optimizer, incluidos 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurar y administrar configuraciones de canal
 
@@ -46,7 +46,7 @@ Siga una guía detallada para crear, editar, desactivar y monitorizar las config
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de canal guiada
 
@@ -56,7 +56,7 @@ Configure los canales web y móviles de forma eficaz con las instrucciones paso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegar y administrar subdominios de correo electrónico
 
@@ -66,7 +66,7 @@ Aprenda a delegar y configurar subdominios de correo electrónico para optimizar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementar un plan de calentamiento de IP
 
@@ -76,7 +76,7 @@ Cree y ejecute planes de calentamiento de IP para establecer la reputación del 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorizar la entregabilidad y reputación de correo electrónico
 
@@ -93,4 +93,4 @@ Administre listas de supresión, listas de permitidos y mecanismos de reintento 
 - **[Uso de listas semilla](../using/configuration/seed-lists.md)**: aprenda a crear y administrar listas semilla para monitorizar los envíos de correo electrónico y garantizar la seguridad de la campaña.
 - **[Compatibilidad del archivado para fines de cumplimiento](../using/configuration/archiving-support.md)**: configure funciones de archivado como correos electrónicos CCO y administración de conjuntos de datos para garantizar el cumplimiento de normas como RGPD e HIPAA.
 - **[Administración de direcciones de ejecución](../using/configuration/primary-email-addresses.md)**: configure y priorice los campos de correo electrónico o número de teléfono para la comunicación entre recorridos y campañas.
-- **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: diagnostique y resuelva problemas rápidamente, incluida la solución de problemas de delegación de subdominios personalizados.
+- **[Monitorización y solución de problemas](troubleshoot-journey-landing-page.md)**: diagnostique y resuelva problemas rápidamente, incluida la solución de problemas de delegación de subdominios personalizados.

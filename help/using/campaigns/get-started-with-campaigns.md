@@ -11,31 +11,16 @@ mini-toc-levels: 1
 keywords: campaña, cómo, inicio, optimizador
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +28,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Comprenda los aspectos básicos de la campaña, compare los tipos de campaña disponibles y siga el flujo de trabajo de creación de extremo a extremo para que pueda elegir el enfoque adecuado y generar campañas que envíen contenido de destino a través de los canales en Adobe Journey Optimizer.
+**En esta página:** comprenda los aspectos básicos de la campaña, compare los tipos de campaña disponibles y siga el flujo de trabajo de creación de extremo a extremo para que pueda elegir el enfoque adecuado y generar campañas que envíen contenido de destino a través de los canales en Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +75,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campañas"
->abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Admitir canales salientes."
+>abstract="Cree su flujo de segmentación, cree sus mensajes en canales múltiples y planifique sus campañas. Admita canales de salida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -193,7 +178,7 @@ Antes de trabajar con campañas, asegúrese de haber revisado los requisitos pre
 
   >[!NOTE]
   >
-  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles atractivos** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en una audiencia grande o nueva puede provocar un aumento significativo de este recuento. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
+  >Cada perfil involucrado en una campaña cuenta para la métrica de licencia de **Perfiles interesados** de su organización (ventana móvil de 12 meses, contada una vez por zona protegida). La activación de una campaña en un público grande o nuevo puede provocar un aumento significativo de este recuento. [Monitorización del recuento de Perfiles interesados](../audience/license-usage.md)
 
 * **Configuraciones de canal**: las configuraciones de canal (ajustes preestablecidos) deben crearse y estar disponibles para los canales que desee utilizar. [Creación de configuraciones de canal →](../configuration/channel-surfaces.md)
 
@@ -299,12 +284,12 @@ Nota: Las campañas activas no se pueden editar (debe duplicar para realizar cam
 Realice un seguimiento del rendimiento de la campaña:
 
 * Ver informes y análisis de campaña
-* Monitorización de tasas de envío y métricas de participación
+* Supervisión de tasas de envío y métricas de participación
 * Seguimiento de errores y devoluciones
 * Análisis de la conversión y el ROI
 * Uso de perspectivas para la optimización
 
-**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Monitorización de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Supervisión de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 

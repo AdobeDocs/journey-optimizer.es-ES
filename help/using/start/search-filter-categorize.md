@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +34,7 @@ A medida que los proyectos de Adobe Journey Optimizer crecen, encontrar y organi
 
 ## Buscar {#unified-search}
 
-Desde la interfaz de Adobe Journey Optimizer, utilice la función de búsqueda unificada [!DNL Adobe CX Enterprise] en el centro de la barra superior para buscar recursos, recorridos, conjuntos de datos y mucho más en los entornos limitados.
+Desde la interfaz de Adobe Journey Optimizer, utilice la funcionalidad de búsqueda unificada de [!DNL Adobe CX Enterprise] en el centro de la barra superior para buscar recursos, recorridos, conjuntos de datos y más en las zonas protegidas.
 
 Empiece a introducir contenido para mostrar los resultados principales. Los artículos de ayuda sobre las palabras clave introducidas también se muestran en los resultados.
 
@@ -69,7 +62,7 @@ En las listas, puede realizar acciones básicas por cada elemento. Por ejemplo, 
 
 ## Acciones masivas {#bulk-actions}
 
-En las listas **Campañas**, **Fragmentos**, **Recorridos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones en masa que aparece en la parte inferior de la pantalla.
+En las listas **Campañas**, **Fragmentos**, **Recorridos** y **Plantillas**, puede seleccionar varios elementos a la vez mediante las casillas de verificación y aplicar operaciones a todos ellos desde una barra de acciones masiva que aparece en la parte inferior de la pantalla.
 
 Las siguientes operaciones son posibles:
 
@@ -78,7 +71,7 @@ Las siguientes operaciones son posibles:
 * **[!UICONTROL Editar etiquetas]**: edite las etiquetas asignadas a los elementos seleccionados. [Más información sobre cómo utilizar etiquetas →](#add-tags)
 * **[!UICONTROL Administrar acceso]**: aplique etiquetas de acceso a los elementos seleccionados. [Más información sobre el control de acceso a nivel de objeto →](../administration/object-based-access.md)
 * **[!UICONTROL Archivar]**: archive los elementos seleccionados. Disponible en fragmentos y plantillas.
-* **[!UICONTROL Eliminar]**: elimine permanentemente los elementos seleccionados. Disponible para campañas y Recorridos.
+* **[!UICONTROL Eliminar]**: elimine permanentemente los elementos seleccionados. Disponible para campañas y recorridos.
 
 >[!NOTE]
 >

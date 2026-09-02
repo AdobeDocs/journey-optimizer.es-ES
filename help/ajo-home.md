@@ -6,9 +6,9 @@ description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
-workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Descubra las últimas funciones y mejoras de Journey Optimizer en las Notas de l
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Desafíos de fidelización]
+>[!TAB Retos de lealtad]
 
-Descubra cómo crear y administrar **Desafíos de fidelidad** para atraer y recompensar a sus clientes más fieles con funciones de gamification.
+Descubra cómo crear y administrar **Retos de lealtad** para atraer y recompensar a sus clientes más fieles con funciones de gamificación.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB Aptitudes de Journey Optimizer en CX Coworker]
 
-Hemos agregado una nueva página de documentación para las aptitudes de **Journey Optimizer en CX Coworker**, que incluye aptitudes **centradas en el recorrido** y **centradas en la lealtad**, con instrucciones y muestras de mensajes.
+Hemos añadido una nueva página de documentación para las aptitudes de **Journey Optimizer en CX Coworker**, que incluye aptitudes **centradas en el recorrido** y **centradas en la lealtad**, con instrucciones y muestras de indicaciones.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
@@ -54,7 +54,7 @@ Aprenda a utilizar la sintaxis de iteración para mostrar listas dinámicas de d
 
 ::::landing-cards-container
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -64,7 +64,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -74,7 +74,7 @@ Conozca los conceptos básicos de Journey Optimizer, incluidas sus funcionalidad
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guía completa de los Recorridos
 
@@ -84,7 +84,7 @@ Diseñe, organice, administre y optimice recorridos personalizados del cliente c
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Explicación y administración de campañas
 
@@ -94,7 +94,7 @@ Directrices detalladas sobre la creación, administración y optimización de va
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -104,7 +104,7 @@ Configure y administre correo electrónico, SMS, notificaciones push y otros can
 :::
 
 :::
-![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=es)
+![icono](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Administración de conflictos y priorización
 
@@ -137,7 +137,7 @@ Aprenda a priorizar y administrar los conflictos de comunicación entre campaña
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td>
 </tr></table>
 
