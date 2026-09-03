@@ -6,19 +6,14 @@ description: Obtenga información sobre cómo añadir una actividad de canal en 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 37%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -184,9 +179,13 @@ Hay disponibles ajustes adicionales en función del canal de comunicación selec
 
 +++**Personalización del encabezado del correo electrónico** (correo electrónico).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+> 
+>Journey Optimizer permite personalizar la información del remitente, incluidos los datos del almacén relacional de Campaign Orchestration, lo que permite casos de uso como el envío de un correo electrónico en el nombre del administrador de cuentas. Dado que estos datos pueden estar sujetos a restricciones de uso definidas por su organización o por regulaciones legales, asegúrese de que las operaciones de datos de Journey Optimizer cumplan con sus obligaciones legales y de cumplimiento de normas.
+>
+>Adobe Journey Optimizer gestiona el consentimiento a través de Adobe Experience Platform (AEP) en el nivel de perfil. Al personalizar mediante datos relacionales y sin perfil de Journey Optimizer Campaign Orchestration, las organizaciones deben crear y aplicar directivas de consentimiento mediante la segmentación y personalización.
 
 Después de seleccionar la configuración de canal, habilite **[!UICONTROL Anular la configuración de envío de correo electrónico]** para reemplazar los valores definidos en esa configuración. Puede personalizar la siguiente configuración para esta actividad de canal:
 
