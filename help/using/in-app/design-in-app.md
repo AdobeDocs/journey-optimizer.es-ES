@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +95,7 @@ Desde la ficha **Contenido**, puede definir y personalizar el contenido de la no
 ### Botón Cerrar {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="Elija el estilo de su botón Cerrar."
 >abstract="La sección del botón Cerrar ofrece opciones para seleccionar variaciones del botón Cerrar del mensaje y una opción para cargar una imagen personalizada."
 
@@ -118,7 +118,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede marcar la 
 ### Medios {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="Añada medios al mensaje en la aplicación para crear una experiencia atractiva para el usuario final."
 >abstract="Proporcione un vínculo directo al contenido o utilice el selector de recursos para seleccionar medios en Asset Essentials y añadirlos a su mensaje."
 
@@ -138,7 +138,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puedes personali
 ### Contenido {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="Para redactar el mensaje, introduzca el contenido en los campos Encabezado y Cuerpo."
 >abstract="Aquí se pueden añadir tanto el encabezado como el texto del cuerpo. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
 
@@ -161,7 +161,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puedes elegir en
 ### Botones {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="Añada botones para que los usuarios interactúen con el mensaje en la aplicación."
 >abstract="Esta sección le permite añadir botones de llamada a la acción al mensaje. Puede incluir texto personalizado y destinos para cada botón."
 
@@ -204,6 +204,11 @@ En la pestaña **Configuración**, puede definir el diseño del mensaje y previs
 >title="Previsualice el mensaje en la aplicación."
 >abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen del mensaje del dispositivo."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="Previsualice el mensaje en la aplicación."
+>abstract="Esta es la imagen de vista previa que se mostrará cuando el mensaje se envíe al resumen del mensaje del dispositivo."
+
 >[!NOTE]
 >
 >La vista previa solo está disponible para mensajes móviles en la aplicación.
@@ -221,9 +226,15 @@ La **[!UICONTROL Vista previa de la aplicación]** le permite agregar un fondo d
 ### Diseño {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="Defina el diseño del mensaje en la aplicación."
 >abstract="Esta sección le permite añadir un fondo al mensaje en la aplicación. Esto requiere que la adquisición de la IU esté habilitada."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="Defina el diseño del mensaje en la aplicación."
+>abstract="Esta sección le permite añadir un fondo al mensaje en la aplicación. Esto requiere que la adquisición de la IU esté habilitada."
+
 
 ![](assets/in_app_web_design_6.png)
 
