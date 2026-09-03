@@ -22,7 +22,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
+source-git-commit: ef9d3dc8fa637f0e4d9c0904aaa2accd596ce84c
 workflow-type: tm+mt
 source-wordcount: 492
 ht-degree: 39%
@@ -73,6 +73,8 @@ Los pasos dependen del proveedor de SMS. Examine los vínculos siguientes para a
    * [Proveedor personalizado](mobile-configuration-custom.md)
 1. [Crear webhook](mobile-webhook.md)
 1. [Creación de una configuración para dispositivos móviles](mobile-configuration-surface.md)
+
+{{$include /help/_includes/mobile-opt-out-keyword-override.md}}
 
 Si compra SMS a través de Adobe Journey Optimizer, también puede [ver las métricas de uso de SMS](sms-usage-report.md) para reconciliar el volumen de MO y MT con la facturación del proveedor.
 
