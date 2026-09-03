@@ -11,12 +11,12 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 
-# Crear desafíos {#create-challenges}
+# Crear retos {#create-challenges}
 
 Esta página cubre el proceso completo de creación y publicación de un desafío de fidelidad en Adobe Journey Optimizer.
 
@@ -254,12 +254,12 @@ Para configurar cuándo y cómo se entregan las recompensas:
 
 Después de configurar la estructura de desafíos con tareas y recompensas, puede configurar de forma opcional cómo se representa el desafío para los clientes. Si no necesita contenido de desafío, omita este paso y continúe directamente a [Configurar mensajes](#configure-messaging).
 
-## Configuración del contenido de desafío (opcional) {#configure-content-cards}
+## Configuración del contenido de reto (opcional) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenido"
->abstract="Configure cómo se representa el desafío en ubicaciones en las que los miembros socio accedan a los desafíos y realicen un seguimiento de su progreso. Utilice la acción Añadir para elegir Tarjeta de contenido para mostrar una experiencia de estilo tarjeta o Experiencia basada en código para entregar contenido a través de su propia implementación personalizada."
+>abstract="Configure cómo se representa el reto en ubicaciones en las que los miembros leales accedan a los retos y realicen un seguimiento de su progreso. Utilice la acción Añadir para elegir Tarjeta de contenido para mostrar una experiencia de estilo tarjeta o Experiencia basada en código para entregar contenido a través de su propia implementación personalizada."
 
 La pestaña **[!UICONTROL Contenido]** controla cómo se representa el desafío en ubicaciones donde los miembros socio acceden a los desafíos y hacen un seguimiento de su progreso.
 

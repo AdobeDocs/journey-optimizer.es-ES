@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
 source-wordcount: 2370
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="La sección **[!UICONTROL Target]** establece el destinatario de la entrega para esta actividad del canal. Use **[!UICONTROL Dimensión de destino]** para seleccionar qué dimensión de destino se aplica a este envío. A continuación, elija **[!UICONTROL Un mensaje por perfil]** para enviar un solo mensaje por persona o **[!UICONTROL Un mensaje por dimensión secundaria]** para enviar un mensaje por dimensión secundaria correspondiente; por ejemplo, un mensaje de correo electrónico por vuelo cuando el mismo viajero tiene varios vuelos coincidentes."
+>abstract="La sección **[!UICONTROL Destino]** establece el destino de la entrega para esta actividad del canal. Use **[!UICONTROL Dimensión del destino]** para seleccionar qué dimensión de destino se aplica a este envío. A continuación, elija **[!UICONTROL Un mensaje por perfil]** para enviar un solo mensaje por persona o **[!UICONTROL Un mensaje por dimensión secundaria]** para enviar un mensaje por dimensión secundaria correspondiente; por ejemplo, un mensaje de correo electrónico por vuelo cuando el mismo viajero tiene varios vuelos coincidentes."
 
 
 >[!CONTEXTUALHELP]
@@ -79,7 +79,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
 >title="Actividad de canal personalizado"
->abstract="La actividad de canal personalizado permite enviar mensajes a través de sistemas de terceros o integraciones personalizadas dentro de la campaña orquestada. Permite almacenar en déclencheur los procesos de entrega externos, como las plataformas de socios o las herramientas de mensajería propietarias, exportando los datos de audiencia a un sistema externo. Puede combinar actividades de canal personalizado con otras actividades de canal en el lienzo de la campaña para crear campañas de canales cruzados que involucren a los clientes en puntos de contacto nativos y personalizados."
+>abstract="La actividad de canal personalizado permite enviar mensajes a través de sistemas de terceros o integraciones personalizadas dentro de la campaña orquestada. Permite activar los procesos de envío externo, como las plataformas de socios o las herramientas de mensajería de propietario, exportando los datos de público a un sistema externo. Puede combinar actividades de canal personalizado con otras actividades de canal en el lienzo de la campaña para crear campañas de canales múltiples que involucren a los clientes en puntos de contacto nativos y personalizados."
 
 [!DNL Adobe Journey Optimizer] le permite automatizar y ejecutar campañas en todos los canales (correo electrónico, SMS, notificaciones push, correo directo y personalizado), tanto para los mensajes transaccionales como de marketing. Puede combinar estas actividades de canal en el lienzo de campaña para crear campañas orquestadas en canales múltiples. Estas campañas pueden almacenar en déclencheur las acciones en función del comportamiento y los datos de los clientes.
 

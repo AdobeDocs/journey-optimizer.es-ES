@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
 source-wordcount: 1958
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 14%
 >id="ajo_message_email"
 >title="Creación de correo electrónico"
 >abstract="Defina la línea de asunto del correo electrónico y abra el diseñador de correo electrónico para crear su contenido."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Siga el curso de contenido de IA"
+>additional-url="https://experienceleague.adobe.com/es/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Siga el curso de contenido de IA"
 
 
 ## Añadir una acción de correo electrónico {#email-action}
@@ -216,7 +216,7 @@ Pueden producirse dos tipos de alertas:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Reducir tamaño de HTML"
->abstract="Active esta opción para comprimir el correo electrónico de HTML durante la publicación eliminando los espacios en blanco y la sangría innecesarios. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
+>abstract="Habilite esta opción para comprimir el HTML de correo electrónico durante la publicación eliminando la sangría y los espacios en blanco innecesarios. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Tenga en cuenta que cuando se trabaja con correos electrónicos multilingües, esta opción está habilitada de forma predeterminada para todas las configuraciones regionales."
 
 [!DNL Journey Optimizer] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco y sangrías innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
 
