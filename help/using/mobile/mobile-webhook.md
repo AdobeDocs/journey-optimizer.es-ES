@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 47f9503a977fedd560e822ef93203d862bb9f95a
 workflow-type: tm+mt
-source-wordcount: 2835
+source-wordcount: 2888
 ht-degree: 3%
 
 ---
@@ -62,6 +59,8 @@ Al configurar un gancho web, puede definir su propósito según el tipo de datos
 >[!NOTE]
 >
 >Los datos de palabras clave entrantes se almacenan en el conjunto de datos del sistema _AJO Email Tracking Dataset_, a menos que se configure un conjunto de datos personalizado. Un perfil debe tener al menos un mensaje enviado desde [!DNL Journey Optimizer] para que se puedan capturar los mensajes entrantes. [Más información](../data/get-started-datasets.md#system-datasets)
+
+{{$include /help/_includes/mobile-opt-out-keyword-override.md}}
 
 Según el proveedor, habrá diferentes expectativas sobre lo que se debe configurar para tener una implementación correcta de SMS:
 
@@ -425,11 +424,11 @@ Para los proveedores de SMS personalizados, cree dos webhooks independientes: un
 
    ```json
    {
-   "clientReference": "{{client_reference}}",
+   "clientReference": "\{\{client_reference\}\}",
    "statuses": [
        {
-           "code": "{{failureCode}}",
-           "status": "{{feedbackStatus}}"
+           "code": "\{\{failureCode\}\}",
+           "status": "\{\{feedbackStatus\}\}"
        }
    ]
    }
