@@ -11,25 +11,16 @@ keywords: solución de problemas, solución de problemas, recorrido, comprobaci�
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 3051
-ht-degree: 8%
+source-wordcount: 2321
+ht-degree: 11%
 
 ---
 
@@ -53,7 +44,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=es){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a los recorridos. De hecho, los recorridos dependen de las API de ingesta de transmisión de [!DNL Adobe Experience Platform]. Como resultado, en caso de problemas relacionados con el evento, puede consultar [[!DNL Adobe Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} para la solución de problemas de las API de ingesta de transmisión.
 
 Si el recorrido no puede habilitar el modo de prueba con el error `ERR_MODEL_RULES_16`, asegúrese de que el evento usado incluya un [área de nombres de identidad](../audience/get-started-identity.md) al usar una acción de canal.
 
@@ -83,7 +74,7 @@ Puede comenzar la resolución de problemas con las preguntas siguientes:
 
 * **Evento descartado - no se cumple la condición de calificación** - Para los eventos basados en reglas, si la **condición de calificación** no se cumple con la carga útil del evento (por ejemplo, falta un campo obligatorio o está vacío, o falla una condición como `isNotEmpty` en un campo), el evento se **recibe pero se descarta** y el recorrido no se activa. Los registros y los seguimientos de Splunk pueden mostrar que el evento se recibió pero se descartó porque no cumplía la condición de calificación, con códigos de descarte como `notSuitableInitialEvent`. Este es el comportamiento esperado: si no se cumple la condición de calificación, el evento se descarta y el recorrido no se activa para ese perfil. Compruebe que la carga útil de evento contiene los campos y valores esperados y que la regla de la configuración de evento coincide con los datos que envía. Si el evento se activa mediante una **acción personalizada** desde otro recorrido, consulte [Gestión de eventos de descarte y tiempos de espera inactivos](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) en la solución de problemas de acciones personalizadas.
 
-&#x200B;>>
+>>
 **Para recorridos de calificación de audiencia con audiencias de streaming**: Si usa una actividad de calificación de audiencia como punto de entrada de recorrido, tenga en cuenta que no todos los perfiles aptos para la audiencia entrarán necesariamente en la recorrido debido a factores de tiempo, salidas rápidas de la audiencia o si los perfiles ya estaban en la audiencia antes de la publicación. Más información sobre [consideraciones de tiempo para la calificación de audiencias de streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verificar identidad del evento {#verify-event-identity-and-rule-data-types}
@@ -253,50 +244,4 @@ Si las direcciones URL de seguimiento en los correos electrónicos enviados cont
 
 Para resolver esto, vuelva a publicar el recorrido ([cree una nueva versión y publíquelo](publish-journey.md#journey-create-new-version)) o quite la referencia al campo de contexto afectado de los [parámetros de seguimiento de URL](../email/url-tracking.md) en la configuración del canal o del contenido del correo electrónico.
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página es una referencia completa de solución de problemas para la ejecución de recorridos en directo en Adobe Journey Optimizer, y abarca la entrega de eventos, errores de entrada de perfil, problemas de transición de modo de prueba, eventos descartados, registros de eventos de pasos duplicados, comprobaciones de entrega de mensajes y discrepancias de métricas de panel.
-
-**Intenciones:**
-* Diagnostique por qué los eventos no activan la entrada de recorridos comprobando la estructura de carga útil, los encabezados y las condiciones de calificación
-* Compruebe si los perfiles entran y progresan a través de un recorrido en directo o en modo de prueba
-* Resolver errores de transición del modo de prueba causados por fechas de inicio futuras o áreas de nombres de identidad mal configuradas
-* Comprenda y gestione el motivo de descarte de `maxInstanceStackEventsReached` para las instancias de recorrido bloqueadas
-* Identificar y consultar correctamente las entradas duplicadas del registro de eventos de paso de Recorrido provocadas por el escalado automático del servidor
-* Investigue los mensajes que faltan comprobando los resultados de los informes de recorrido y las llamadas de acción personalizada
-* Corrección de marcadores de posición de URL de seguimiento vacíos en correos electrónicos de recorridos cerrados
-
-**Glosario:**
-* **Eventos de paso de Recorrido**: Un conjunto de datos que registra cada paso que un perfil ejecuta dentro de un recorrido y que se utiliza para generar informes y depurar *(específico del producto)*
-* **notSuitableInitialEvent**: Se recibió un código de descarte que indica un evento, pero se descartó porque no se cumplió la condición de calificación *(específico del producto)*
-* **maxInstanceStackEventsReached**: se ha excedido *(específico del producto)* un código de descarte que indica el límite de 10 eventos de recorrido por perfil
-* **isValidTransition**: propiedad de solo interfaz de usuario en los detalles técnicos del recorrido; un valor nulo puede indicar una fecha de inicio futura o una conexión de nodo dañada, pero no afecta al procesamiento back-end *(específico del producto)*
-* **Condición de calificación**: regla definida en un evento que debe cumplirse para que el evento almacene en déclencheur un recorrido; los eventos que no cumplan esta condición se descartarán
-* **Reequilibrio**: una operación de escalado automático back-end en los microservicios de AJO que puede crear entradas de registro de eventos de pasos de Recorrido duplicadas con valores de `_id` diferentes
-
-**Protecciones:**
-* Los eventos enviados fuera de la ventana de fecha y hora activa del recorrido se descartan silenciosamente sin ningún mensaje de error
-* El límite de pila de eventos de instancia de recorrido por perfil es de 10 eventos. Si se supera este límite, los eventos se descartarán con `maxInstanceStackEventsReached`
-* Las entradas duplicadas de eventos de pasos de Recorrido con valores diferentes de `_id` se esperan en el sistema y no indican la duplicación de mensajes
-* Las métricas de Información general del panel solo incluyen recorridos con tráfico en las últimas 24 horas; las métricas pueden tardar hasta 30 minutos en actualizarse
-* Los recorridos cerrados que no se hayan vuelto a publicar después de un cambio de producto pueden producir marcadores de posición vacíos en las direcciones URL de seguimiento
-
-**Terminología:**
-* Nombre canónico: Eventos de paso de Recorrido — Acrónimo: none — variantes: eventos de paso, registros de ejecución de recorrido
-* Nombre canónico: Condición de calificación — Acrónimo: none — variantes: regla de calificación de eventos, condición de evento
-* Sinónimos: &quot;reequilibrio&quot; = &quot;escalado automático&quot; (operación back-end que provoca entradas de registro duplicadas)
-* No confunda: &quot;duplicar `_id`&quot; ≠ &quot;duplicar entradas de registro del reequilibrio&quot;: los duplicados verdaderos comparten el mismo `_id`; los duplicados del reequilibrio tienen valores diferentes de `_id`
-
-**PREGUNTAS MÁS FRECUENTES:**
-* **Q: ¿Por qué mis eventos no desencadenan un recorrido aunque se envíen correctamente?** — Compruebe que el recorrido está activo o en modo de prueba, que la carga útil coincide con la estructura del esquema de eventos, que se cumple la condición de calificación y que se incluyen los encabezados correctos (`X-gw-ims-org-id`, `Content-type`).
-* **Q: ¿Por qué los perfiles de prueba entran en el recorrido pero no avanzan más allá del primer paso?** — La causa más común es una fecha de inicio del recorrido establecida en el futuro; los eventos se descartan silenciosamente fuera de la ventana de fecha activa. Compruebe también la coincidencia del indicador del perfil de prueba y el área de nombres de identidad.
-* **Q: ¿Qué significa `maxInstanceStackEventsReached`?** — El tiempo de ejecución de la recorrido ha alcanzado el límite interno de pila de 10 eventos para una instancia de perfil específica, normalmente porque un paso de larga duración está bloqueando el procesamiento. Reduzca las esperas largas, deduplique los eventos ascendentes o divida el escenario en varios recorridos.
-* **Q: veo filas duplicadas en Eventos de paso de Recorrido. ¿Hay algún problema?** — No. Se esperan entradas duplicadas con diferentes valores de `_id` y el resultado es un escalado automático del backend. Solo se envía un mensaje; compruebe con `ajo_message_feedback_event_dataset`.
-* **Q: ¿Por qué las direcciones URL de seguimiento en los correos electrónicos muestran marcadores de posición vacíos como `cid=em-acou-adob{}`?** — El recorrido se cerró y no se volvió a publicar después de un cambio de producto; los campos de contexto no se pueden resolver. Vuelva a publicar el recorrido o elimine la referencia del campo de contexto afectado de los parámetros de seguimiento de URL.
-* **Q: ¿Por qué el panel Información general muestra números diferentes a los de la ficha Examinar?** — El tablero solo cuenta los recorridos con tráfico en las últimas 24 horas, las métricas tardan hasta 30 minutos en actualizarse y los permisos de acceso pueden limitar la visibilidad.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-troubleshooting-execution.md}}

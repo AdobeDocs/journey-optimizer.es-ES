@@ -10,34 +10,16 @@ keywords: recorrido, detección, inicio, unitario, leer público, calificación 
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2403
-ht-degree: 63%
+source-wordcount: 1729
+ht-degree: 87%
 
 ---
 
@@ -152,7 +134,7 @@ Utilice datos contextuales de eventos, [!DNL Adobe Experience Platform] o servic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Conectar sistemas externos**
 
@@ -284,7 +266,7 @@ Aumente gradualmente el volumen del mensaje para aumentar la reputación de su e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Segmente por día laborable**
 
@@ -372,7 +354,7 @@ Utilice etiquetas para categorizar y filtrar recorridos para una mejor administr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Control de rendimiento**
 
@@ -389,7 +371,7 @@ Limite el rendimiento del mensaje para administrar la reputación de envío y ev
 
 Obtenga una introducción visual a los componentes del recorrido y aprenda los conceptos básicos de la creación de recorridos en el lienzo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430353?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **¿Quiere más vídeos?** [Explorar tutoriales de vídeo de recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -452,50 +434,4 @@ Configure **[alertas de recorridos](../reports/alerts.md)** para recibir notific
 
 **¿Todo listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página es el concentrador de introducción para Adobe Journey Optimizer recorrido, donde se explica cuáles son los recorridos, los cuatro tipos de recorridos, el flujo de trabajo de creación de seis pasos, los casos de uso reales y los vínculos a funciones avanzadas.
-
-**Intenciones:**
-
-* Comprenda cuáles son los recorridos y en qué se diferencian de las campañas y las campañas orquestadas
-* Elija el tipo de recorrido adecuado (Unitario, Leer audiencia, Calificación de audiencia o Evento empresarial) para un caso de uso
-* Siga el flujo de trabajo de creación de recorridos de seis pasos: Planificar, Diseñar, Probar, Publicar, Supervisar, Optimizar
-* Utilice Simulación, Modo de prueba o Ejecución en seco para validar un recorrido antes de activarlo
-* Publicar un recorrido y supervisar el rendimiento mediante informes y alertas
-* Explore funciones avanzadas como expresiones, administración de huso horario, copia a zona protegida y control de rendimiento
-
-**Glosario:**
-
-* **Recorrido**: una experiencia de cliente automatizada y de varios pasos que organiza interacciones personalizadas entre canales en respuesta a la conducta de los clientes, eventos empresariales o campañas programadas. *(específico del producto)*
-* **Diseñador de Recorridos**: el lienzo visual de arrastrar y soltar de AJO que se usa para generar y configurar flujos de recorridos sin escribir código. *(específico del producto)*
-* **Modo de prueba**: Un modo de validación de recorrido que usa perfiles de prueba Adobe Experience Platform persistentes (marcados explícitamente como perfiles de prueba) para recorrer un recorrido de borrador antes de publicarlo. *(específico del producto)*
-* **Ejecución en seco**: Modo de publicación especial que ejecuta el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar perfiles. *(específico del producto)*
-* **Simulación**: modo de validación que utiliza usuarios simulados temporales, creados manualmente o generados automáticamente; los usuarios simulados no persisten en Adobe Experience Platform. *(específico del producto)*
-* **Campañas orquestadas**: flujos de trabajo por lotes de varios pasos en AJO que utilizan datos relacionales (perfiles + productos/tiendas/reservas) y procesan todos los perfiles con recuentos exactos de preenvío. *(específico del producto)*
-
-**Protecciones:**
-
-* Los recorridos activos no se pueden editar estructuralmente; los cambios requieren la creación de una nueva versión
-* El modo de prueba y la ejecución en seco deben usarse antes de publicar para detectar problemas
-
-**Terminología:**
-
-* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, recorrido de AJO
-* Sinónimos: &quot;diseñador de recorridos&quot; = &quot;lienzo&quot; = &quot;lienzo de recorrido&quot;
-* No confunda: &quot;Recorrido&quot; ≠ &quot;Campaña&quot;: los Recorridos mantienen el estado de cliente individual para experiencias en tiempo real impulsadas por comportamientos de varios pasos; las campañas envían mensajes en lote a las audiencias según una programación o mediante el déclencheur de API
-* No confunda: &quot;Simulación&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: la simulación utiliza usuarios simulados temporales; el modo de prueba utiliza perfiles de prueba AEP persistentes en un recorrido de borrador; la ejecución en seco se ejecuta con datos de producción reales sin ponerse en contacto con los clientes ni actualizar perfiles
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Cuál es la diferencia entre un recorrido y una campaña en Journey Optimizer?** — Los Recorridos proporcionan una orquestación en tiempo real 1:1 en la que cada perfil progresa a su propio ritmo mediante la lógica condicional; las campañas envían mensajes simultáneamente a una audiencia en una programación o mediante el déclencheur de API; las campañas orquestadas son flujos de trabajo de lienzo por lotes para la segmentación compleja de varias entidades.
-* **Q: ¿Puedo editar un recorrido activo?** — Se pueden editar elementos limitados como el nombre y el contenido del mensaje; los cambios estructurales requieren la creación de una nueva versión del recorrido.
-* **Q: ¿Cuáles son los pasos para generar un recorrido?** — El flujo de trabajo de seis pasos es: Planificar, Diseño en el lienzo, Prueba (modo de prueba o ejecución en seco), Publicar, Monitorizar rendimiento y Optimizar/iterar.
-* **Q: ¿Cómo valido un recorrido sin ponerme en contacto con clientes reales?** — Utilice Simulation (usuarios simulados temporales): tenga en cuenta que esto envía mensajes reales, pero solo a las direcciones de ejecución configuradas en dichos usuarios simulados), Test mode (perfiles de prueba AEP persistentes; tenga en cuenta que esto envía mensajes reales a las bandejas de entrada de dichos perfiles de prueba) o Dry run (datos de producción real, nodos de acción omitidos, no se envían mensajes). Los perfiles de ejecución en seco se contabilizan en Perfiles atractivos y cuota de recorrido en directo. Consulte [Elegir un método de validación](choose-validation-method.md) para obtener una comparación completa.
-* **Q: ¿Qué tipo de recorrido debo usar para un correo electrónico de bienvenida activado por una suscripción?** — Utilizar un recorrido unitario, activado por un evento individual específico, como la suscripción.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey.md}}

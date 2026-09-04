@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: probar, simular, simulación, modo de prueba, ejecución en seco, recorrido, validar, comparar, elegir, guía de decisión
 version: Journey Orchestration
-source-git-commit: bd0fcc9ebc9e906f2040bc520bc13f0a9318f6d8
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -146,59 +146,4 @@ Ninguno de estos métodos contacta con clientes reales. Los datos de perfil tamp
 * **[Preguntas frecuentes sobre Journey Orchestration](journey-faq.md)** — Preguntas frecuentes respondidas
 * **[Probar, validar y aprobar](../../rp_landing_pages/test-landing-page.md)**: entorno de prueba y aprobación completo, que incluye vista previa de contenido, comprobaciones de procesamiento/correo no deseado, experimentos y flujos de trabajo de aprobación
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página compara los tres métodos de validación de recorrido de Adobe Journey Optimizer: simulación de Recorrido, modo de prueba de Recorrido y ejecución en seco de Recorrido. Proporciona una selección rápida de una pregunta, una guía de decisión, una tabla de comparación rápida y una lista de errores comunes para ayudar a los usuarios a elegir el adecuado para su fase actual de creación de un recorrido.
-
-**Intenciones:**
-
-* Elija el método de validación correcto para una fase determinada de la creación de recorridos
-* Compare la simulación de Recorrido, el modo de prueba de Recorrido y la ejecución en seco de Recorrido en paralelo
-* Comprenda cuándo utilizar la simulación de Recorrido para una iteración rápida sin perfiles de prueba reales
-* Comprenda cuándo utilizar el modo de prueba de Recorrido para la validación manual paso a paso con perfiles de prueba reales
-* Comprender cuándo utilizar la ejecución en seco de Recorrido para una comprobación final previa al lanzamiento con los datos de producción
-* Comprender qué métodos de validación envían mensajes reales o contactan con clientes reales
-* Evite errores comunes al seleccionar o utilizar un método de validación
-
-**Glosario:**
-
-* **Simulación de Recorrido**: método de validación que utiliza usuarios simulados temporales, creados manualmente o autogenerados, para probar un recorrido sin necesidad de perfiles de prueba de AEP reales. *(específico del producto)*
-* **Modo de prueba de Recorrido**: método de validación que utiliza perfiles de prueba AEP persistentes, marcados en Perfil del cliente en tiempo real, para recorrer manualmente la rama y la lógica de mensaje de un borrador de recorrido. *(específico del producto)*
-* **Ejecución en seco del Recorrido**: Modo de publicación que ejecuta un recorrido con datos de audiencia de producción real sin ponerse en contacto con los clientes ni actualizar datos de perfil; se omiten los nodos de acción. *(específico del producto)*
-* **Agente de simulación**: El mecanismo que genera automáticamente los eventos de prueba y los relaciona con los usuarios simulados durante la simulación de Recorrido. *(específico del producto)*
-
-**Protecciones:**
-
-* El modo de prueba de recorrido solo está disponible para recorridos de borrador que utilicen un área de nombres y admite un máximo de 100 perfiles de prueba por sesión
-* Los eventos del modo de prueba de recorrido solo se pueden activar desde la interfaz, no desde sistemas externos a través de la API
-* El modo de prueba de recorrido envía mensajes reales a las bandejas de entrada reales de los perfiles de prueba mediante la canalización de entrega de producción
-* Al deshabilitar el modo de prueba de Recorrido se eliminan todos los perfiles que ingresaron a la recorrido y se borran los informes
-* La simulación de recorrido no evalúa los criterios de salida, las políticas de consentimiento, la restricción de recorrido/frecuencia, la exclusión/supresión o las horas de inactividad
-* Las acciones personalizadas y las llamadas a fuentes de datos externas de la simulación de recorrido son reales, no simuladas
-* La simulación de recorrido envía mensajes reales a las direcciones de ejecución (correo electrónico, teléfono, token push) configuradas en los usuarios simulados, utilizando la misma canalización de entrega que la de producción
-* A diferencia de la simulación de Recorrido, la ejecución en seco de Recorrido nunca envía mensajes reales
-* La ejecución en seco de recorrido es actualmente una función de disponibilidad limitada, que se está implementando globalmente a lo largo del tiempo
-* Recorrido La ejecución en seco omite los nodos de acción (correo electrónico, SMS, acciones personalizadas), pero sigue enrutando perfiles a través de ramas y nodos mediante datos de producción reales
-
-**Terminología:**
-
-* Nombre canónico: Recorrido Simulation — variantes: simular, modo de simulación
-* Nombre canónico: Modo de prueba de Recorrido — variantes: Modo de prueba, prueba de recorrido, prueba de recorrido
-* Nombre canónico: Recorrido Dry run — variantes: dry run, dry run mode
-* No confunda: Simulación de Recorrido (usuarios simulados temporales, no se necesitan perfiles de prueba de AEP, envía mensajes reales a las direcciones de ejecución configuradas de los usuarios simulados) ≠ Modo de prueba de Recorrido (perfiles de prueba de AEP persistentes, envía mensajes reales a las bandejas de entrada reales de esos perfiles) ≠ Ejecución en seco de Recorrido (datos de audiencia de producción real, sin contacto, sin actualización de perfil, nodos de acción omitidos, nunca envía mensajes reales)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Qué método de validación debo usar mientras sigo diseñando un recorrido?** — Utilice la simulación de Recorrido; no necesita perfiles de prueba reales y se ejecuta en segundos, lo que lo hace ideal para una iteración rápida.
-* **Q: ¿La simulación de Recorrido envía mensajes reales?** — Sí. La simulación envía mensajes reales a las direcciones de ejecución (correo electrónico, teléfono, token push) configuradas en los usuarios simulados, a menudo en la propia dirección del comprobador. Utiliza la misma canalización de entrega que la producción, pero no contacta con clientes reales ni actualiza datos de perfil en directo.
-* **Q: ¿El modo de prueba de Recorrido envía correos electrónicos o SMS reales?** — Sí. El modo de prueba de recorrido envía mensajes reales a las bandejas de entrada reales de los perfiles de prueba, utilizando la misma canalización de entrega que la producción. No contacta con clientes reales, pero los mensajes en sí son reales.
-* **Q: ¿La ejecución de Recorrido seco envía algún mensaje?** — No. La ejecución en seco omite nodos de acción como correo electrónico, SMS y acciones personalizadas, de modo que los perfiles fluyen por la lógica de recorrido sin que se envíe ningún mensaje.
-* **Q: necesito validar una nueva rama rápidamente antes de la fecha límite. ¿Qué método encaja?** — Simulación de Recorrido; genera usuarios simulados bajo demanda (o vuelve a utilizar los guardados en el inventario) en lugar de requerir la creación previa y la espera de perfiles de prueba reales.
-* **Q: ¿La ejecución en seco de Recorrido está disponible para todos?** — Actualmente se trata de una función de disponibilidad limitada que se está implementando globalmente a lo largo del tiempo; compruebe la disponibilidad de su organización.
-* **Q: ¿Puedo activar eventos de modo de prueba de Recorrido desde un sistema externo?** — No; en el modo de prueba de Recorrido, los eventos solo se pueden activar desde la interfaz, no desde sistemas externos a través de la API.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-choose-validation-method.md}}

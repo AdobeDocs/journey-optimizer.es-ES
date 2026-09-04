@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'tipos de recorrido: elija el correcto'
+title: 'Tipos de recorrido: elija el correcto'
 description: Compare tipos de recorridos y elija el adecuado para su caso de uso con guías de decisión y matriz de compatibilidad de funciones
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner
 keywords: tipos de recorrido, unitario, leer audiencia, calificación de audiencia, evento empresarial, comparación, guía de decisión, elegir, selección, tiempo real, programado, por lotes, activado por evento
 version: Journey Orchestration
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 0%
+source-wordcount: '1077'
+ht-degree: 3%
 
 ---
 
 
-# tipos de recorrido: elija el correcto {#journey-types-selection}
+# Tipos de recorrido: elija el correcto {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
@@ -143,64 +143,4 @@ Ahora que ha elegido un tipo de recorrido:
 * **[Introducción a recorrido](journey.md)**: Información general sobre aspectos básicos y funcionalidades
 * **[Preguntas frecuentes sobre Journey Orchestration](journey-faq.md)** — Preguntas frecuentes respondidas
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página proporciona una comparación completa de los cuatro tipos de recorrido de AJO (evento unitario, audiencia de lectura, calificación de audiencia y evento empresarial), junto con una guía de decisión y una matriz de compatibilidad de características para ayudar a los usuarios a elegir el tipo adecuado para su caso de uso.
-
-**Intenciones:**
-
-* Elija el tipo de recorrido correcto para un caso de uso empresarial determinado mediante la tabla de decisión
-* Compare los tipos de recorridos en paralelo utilizando la matriz de compatibilidad de funciones detallada
-* Saber cuándo usar Leer recorridos de audiencia para comunicaciones por lotes programadas
-* Comprenda cuándo utilizar recorridos de evento unitarios para experiencias activadas por eventos en tiempo real
-* Comprender cuándo usar recorridos de calificación de audiencia para respuestas de cambio de estado en tiempo real
-* Comprender cuándo usar recorridos de evento empresarial para comunicaciones basadas en condiciones empresariales
-* Comprenda los límites de rendimiento por tipo de recorrido al planificar implementaciones de gran volumen
-
-**Glosario:**
-
-* **recorrido de eventos unitarios**: Un recorrido desencadenado por una acción individual del cliente específica (por ejemplo, compra o inicio de sesión) en la que los perfiles escriben uno a la vez en tiempo real. *(específico del producto)*
-* **Leer recorrido de audiencias**: Un recorrido que comienza con una audiencia de Adobe Experience Platform y envía mensajes en lote a todos los perfiles simultáneamente según una programación. *(específico del producto)*
-* **recorrido de calificación de audiencias**: un recorrido que déclencheur cuándo los perfiles cumplen los requisitos para un segmento de audiencia específico o lo abandonan. Requiere una audiencia evaluada por streaming para el comportamiento de entrada en tiempo real. *(específico del producto)*
-* **recorrido de evento empresarial**: recorrido desencadenado por un evento de nivel empresarial (por ejemplo, actualización de existencias, cambio de precio) que afecta a varios perfiles simultáneamente; siempre asociado con un paso Leer audiencia interno para la ingesta de perfiles. *(específico del producto)*
-* **Lectura incremental**: una capacidad de Audiencia de lectura que procesa solo perfiles que se unieron a la audiencia desde la última ejecución, no la audiencia completa cada vez. Solo está disponible para recorridos de audiencia de lectura. *(específico del producto)*
-* **Audiencia de streaming**: una audiencia de Adobe Experience Platform se evalúa continuamente en tiempo real, a diferencia de una audiencia por lotes que se evalúa según una programación (por ejemplo, diariamente). Necesario para que los recorridos de cualificación de audiencia logren un comportamiento de entrada en tiempo real. *(específico del producto)*
-
-**Protecciones:**
-
-* La lectura incremental solo está disponible para recorridos de audiencia de lectura, no para recorridos de evento unitario, calificación de audiencia o evento empresarial
-* Los experimentos de ruta (pruebas A/B) no son compatibles con los recorridos de eventos empresariales
-* La reentrada de perfiles en Read Audience recorrido está limitada a una vez por ejecución de forma predeterminada; utilice Forzar reentrada en repetición en ejecuciones programadas para permitir que los perfiles vuelvan a entrar en la siguiente ejecución
-* La actividad Leer audiencia solo está disponible como entrada de recorrido en recorridos Leer audiencia y Evento empresarial, no en recorridos de entrada de evento unitario o de calificación de audiencia
-* Los recorridos de cualificación de audiencia y lectura de audiencia no pueden contener una actividad de salto y no pueden ser el destino de una actividad de salto de otro recorrido
-* Los recorridos de calificación de audiencias requieren una audiencia evaluada por streaming. A partir de agosto de 2026, las audiencias evaluadas por lotes no se podrán usar en un nodo de calificación de audiencias; consulte la [guía de migración](aq-batch-audiences-migration.md)
-* Los recorridos de calificación de eventos unitarios y audiencias comparten un límite de rendimiento de 5000 TPS a nivel de organización; los recorridos de audiencia de lectura admiten hasta 20 000 TPS por zona protegida
-* Un perfil que ya está presente en un recorrido no puede volver a introducir la misma versión de ese recorrido, independientemente de la configuración de reentrada
-
-**Terminología:**
-
-* Nombre canónico: recorrido de evento unitario — variantes: recorrido activado por evento, recorrido unitario
-* Nombre canónico: Leer recorrido de audiencia — variantes: recorrido por lotes
-* Nombre canónico: recorrido de calificación de audiencias — variantes: recorrido de evento de calificación de audiencias
-* Nombre canónico: recorrido de evento de negocio — variantes: recorrido activado por evento de negocio
-* No confunda: &quot;Leer recorrido de audiencias&quot; ≠ &quot;recorrido de calificación de audiencias&quot;: la lectura de audiencia procesa a todos los miembros de la audiencia en lote según lo programado; la calificación de audiencias responde a cambios de pertenencia individuales en tiempo real (transmite audiencias solo para su entrada inmediata)
-* No confundir: &quot;recorrido de evento unitario&quot; ≠ &quot;recorrido de evento empresarial&quot;: el evento unitario se activa por una acción del cliente que afecta a un perfil; el evento empresarial se activa por una condición empresarial y consume varios perfiles a través de un paso interno de Leer audiencia
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Qué tipo de recorrido debo usar para una newsletter mensual?** — Utilice un recorrido Leer audiencia; está diseñado para la comunicación programada por lotes a todos los perfiles de un segmento de audiencia simultáneamente.
-* **Q: ¿Qué tipo de recorrido debo usar para recuperar un carro de compras abandonado?** — Utilizar un recorrido de eventos unitario; se aplica inmediatamente como déclencheur cuando se produce el evento de abandono y responde al comportamiento del individuo en tiempo real.
-* **Q: ¿Puedo ejecutar experimentos de ruta A/B en un recorrido de eventos empresariales?** — No; los experimentos de ruta no son compatibles con los recorridos de evento empresarial.
-* **Q: ¿Cuál es la diferencia entre un recorrido de evento unitario y un recorrido de calificación de audiencia?** — Un recorrido de evento unitario se activa por una acción específica del cliente (por ejemplo, compra); un recorrido de calificación de audiencia se activa cuando un perfil entra o sale de un segmento de audiencia en función de la evaluación de criterios de flujo continuo.
-* **Q: ¿Qué tipos de recorrido admiten la lectura incremental?** — Solo los recorridos de audiencia de lectura admiten la lectura incremental; los otros tres tipos de recorrido no.
-* **Q: ¿Puedo agregar una actividad Leer audiencia a un recorrido de eventos unitario?** — No; la actividad Leer audiencia solo está disponible como entrada de recorrido en recorridos Leer audiencia y Evento empresarial.
-* **Q: ¿Puedo usar una actividad de salto en un recorrido de lectura de audiencias?** — No; los recorridos que comienzan con una actividad Leer audiencia o Calificación de audiencia no pueden contener una actividad Saltar y no pueden ser el destino de un salto de otro recorrido.
-* **Q: ¿Puedo dar la bienvenida a los nuevos usuarios de la aplicación con un recorrido de calificación de audiencia?** — Sí, si la entrada está dirigida por una audiencia de flujo continuo (por ejemplo, cuando un perfil se une a un segmento de nuevo usuario); un recorrido de evento unitario de registro también es un patrón común.
-* **Q: mi recorrido de calificación de audiencia no se activa en tiempo real. ¿Por qué?** — Los recorridos de cualificación de audiencias requieren una audiencia evaluada por streaming. El uso de una audiencia evaluada por lotes está obsoleto y se bloqueará a partir de agosto de 2026. [Consulte la guía de migración](aq-batch-audiences-migration.md)
-* **Q: ¿Cuál es la diferencia de rendimiento entre el evento unitario y los recorridos de lectura de audiencia?** — Los recorridos de eventos unitarios comparten un límite de 5000 TPS con los recorridos de calificación de audiencias a nivel de organización. Los recorridos de audiencia de lectura admiten hasta 20 000 TPS por zona protegida, lo que los hace más adecuados para campañas por lotes a gran escala.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-types-selection-v2.md}}

@@ -11,23 +11,16 @@ keywords: solución de problemas, solución de problemas, recorrido, comprobaci�
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DorhpVm3trSxHG-l77-DpwbLTNQQxET1SIMYX-8ClQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 18%
+source-wordcount: 548
+ht-degree: 33%
 
 ---
 
@@ -77,46 +70,4 @@ Puede definir una acción de reserva en caso de error en las siguientes activida
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera de continuar es resolver el problema. Para evitar interrumpir el recorrido, también puede marcar la opción **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]** en las propiedades de la actividad. Obtenga más información en [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo identificar y resolver errores y advertencias de configuración en un recorrido antes de entrar en modo de prueba o publicar.
-
-**Intenciones:**
-
-* Identificar los errores de configuración de nivel de actividad antes de probar o publicar un recorrido
-* Distinguir entre errores de bloqueo y advertencias sin bloqueo en el panel Alertas
-* Utilice el ID del registro de errores (formato ERR_XXX_XXX) para diagnosticar problemas de recorrido
-* Copie los detalles técnicos del recorrido para compartirlos con los administradores y solucionar problemas
-* Añada una ruta alternativa para evitar que los recorridos individuales se detengan por error o por tiempo de espera
-
-**Glosario:**
-
-* **Botón Alertas**: Control de lienzo que muestra todos los errores y advertencias detectados por el sistema que bloquean la publicación o la activación de prueba *(específica del producto)*
-* **ERR_XXX_XXX**: formato de ID de registro de problemas asignado a cada problema detectado, utilizado para identificar y comunicar errores *(específicos del producto)*
-* **Ruta alternativa**: Se agregó una rama de reserva a una actividad de acción o condición que continúa el recorrido cuando se produce un error o se agota el tiempo de espera *(específico del producto)*
-
-**Protecciones:**
-
-* No puede activar el modo de prueba ni publicar un recorrido si los errores de bloqueo siguen sin resolverse.
-* Las advertencias no bloquean la publicación ni la activación de pruebas, pero indican posibles problemas.
-* Las rutas alternativas solo están disponibles para las actividades Optimizar y Acción.
-
-**Terminología:**
-
-* Nombre canónico: Alertas — Acrónimo: none — variantes: Panel Alertas, botón Alertas
-* Sinónimos: &quot;errores&quot; = &quot;problemas de bloqueo&quot;; &quot;advertencias&quot; = &quot;problemas sin bloqueo&quot;
-* No confundir: &quot;errores&quot; (publicación en bloque) ≠ &quot;advertencias&quot; (no bloquear publicación)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Cuál es la diferencia entre un error y una advertencia en Journey Optimizer?** — Los errores bloquean la activación del modo de prueba y la publicación del recorrido; las advertencias indican posibles problemas, pero no impiden la prueba o publicación.
-* **Q: ¿Dónde puedo ver todos los errores que afectan a mi recorrido?** — haga clic en el botón Alertas situado encima del lienzo para ver una lista consolidada de todos los errores y advertencias detectados por el sistema.
-* **Q: ¿Qué debo hacer si no puedo identificar un problema a partir de la descripción del error?** : utilice el botón Copiar detalles situado en la parte inferior de la lista Alertas para capturar información técnica y enviarla al administrador.
-* **Q: ¿Puedo mantener un recorrido en ejecución para personas aunque una acción encuentre un error?** — Sí, habilite la opción &quot;Añadir una ruta alternativa en caso de tiempo de espera o error&quot; en las propiedades de la actividad para definir una ruta de reserva.
-* **Q: ¿Cuándo debo realizar estas comprobaciones de solución de problemas?** — Todas las comprobaciones se pueden realizar en el modo de prueba o cuando el recorrido está activo; se recomienda resolver todos los problemas en el modo de prueba antes de publicar.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-troubleshooting.md}}

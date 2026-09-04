@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1117
-ht-degree: 1%
+source-wordcount: 642
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Esta capacidad con tecnología de IA, integrada en el editor de expresiones avanzadas de Recorrido, le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 
@@ -99,46 +99,4 @@ Describa la comprobación de pertenencia a audiencia que desea realizar en lengu
 * [Trabajar con el editor de expresiones avanzadas](expressionadvanced.md): Información general sobre la interfaz del editor de expresiones y sintaxis admitida.
 * [Empiece a generar contenido en Journey Optimizer](../../content-management/gs-generative.md): protecciones generales, acceso y configuración para las funciones de IA generativa.
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo usar IA en el editor de expresiones avanzadas de Recorrido para generar expresiones de recorrido válidas a partir de mensajes de lenguaje sencillo.
-
-**Intenciones:**
-
-* Generación de una expresión de recorrido a partir de una descripción en lenguaje natural mediante IA
-* Aplique una expresión generada directamente en el editor de expresiones avanzadas con el botón Aplicar
-* Utilice la generación de expresiones basadas en IA dentro de Optimizar actividades, Condicionar actividades y actividades de Espera de fecha personalizada
-* Proporcione peticiones de ejemplo para condiciones basadas en eventos y `dateTimeOnly` expresiones de espera
-* Compruebe el abono a audiencia utilizando un símbolo del sistema en lenguaje natural, como preguntar si un perfil está en la audiencia de Lealtad oro
-* Solucione los problemas de generación fallida revisando las indicaciones para hacer referencia a nombres de campo y fuentes de datos válidos
-
-**Glosario:**
-
-* **Generar expresiones con IA**: una capacidad generativa con tecnología de IA incrustada en el editor de expresiones avanzadas de Recorrido que convierte los mensajes de texto sin formato en expresiones de recorrido válidas *(específicas del producto)*
-* **Editor de expresiones avanzadas**: La interfaz de Journey Optimizer para escribir expresiones complejas en condiciones, actividades de espera y asignación de parámetros de acción *(específico del producto)*
-* **dateTimeOnly**: un tipo de expresión de fecha y hora sin zona horaria, necesaria para las actividades de espera de fecha personalizada *(específica del producto)*
-* **Optimizar actividad**: una actividad de recorrido que admite condiciones de ramificación configurables mediante el editor de expresiones avanzadas *(específico del producto)*
-
-**Protecciones:**
-
-* A esta función se aplican limitaciones y protecciones de IA generativas de la documentación principal de generación de contenido
-* Si el asistente hace referencia a campos que no están presentes en las fuentes de datos del recorrido, devuelve un error: revise el mensaje para utilizar los nombres de campo disponibles
-* La sintaxis de la expresión generada exacta depende de los campos y las actividades configurados en el recorrido específico
-
-**Terminología:**
-
-* Nombre canónico: Generar expresiones con IA — Acrónimo: none — variantes: generación de expresiones de IA, generador de expresiones de recorrido
-* Sinónimos: &quot;Generar expresiones con IA&quot; = &quot;Generador de expresiones de IA&quot;
-* No confunda: genera expresiones con AI (generador alimentado por IA) ≠ el editor de expresiones avanzadas (el propio editor de código manual)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Dónde está disponible Generar expresiones con IA?** — Está disponible dondequiera que se abra el editor de expresiones avanzadas de Recorrido, incluidas las actividades Condición, Optimizar actividades y Actividades de espera con una fecha personalizada.
-* **Q: ¿Qué sucede si AI no puede generar una expresión válida?** — Aparecerá un mensaje de error; deberá revisar la solicitud para que utilice nombres de campo y fuentes de datos que existan en la configuración de recorrido.
-* **Q: ¿Cómo inserto una expresión generada en el editor?** — Haga clic en el botón **Aplicar** del panel del asistente para insertarlo directamente en la posición actual del cursor en el editor de expresiones avanzadas.
-* **Q: ¿Es posible generar expresiones con IA para crear expresiones `dateTimeOnly` para las actividades de espera?** — Sí; por ejemplo, si se solicita &quot;dentro de 30 días a las 10 p.m. solo hora de fecha&quot;, se generará la expresión `dateTimeOnly` adecuada.
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-expression-generate-expression.md}}
