@@ -37,7 +37,7 @@ Content here — any standard markdown is valid.
 
 El contenido extraído a través de `{{$include}}` desde `help/_includes/do-not-localize/` se ha **excluido de la localización**; así es como el bloque permanece sin traducir.
 
----
+&#x200B;---
 
 ## Flujo de trabajo
 
@@ -89,7 +89,7 @@ Antes de escribir el bloque, vuelva a leer la notificación de contenido generad
 
 **Regla de corrección:** Si falla alguna comprobación, corrija el contenido **antes de** que escriba el bloque. Registre todas las correcciones en el informe del paso 5.
 
----
+&#x200B;---
 
 ### Paso 4: Escriba el bloque en una inclusión no localizada y luego inclúyalo
 
@@ -131,7 +131,7 @@ El comentario de sincronización aún permite la detección de deriva: el hash d
 - Archivos omitidos + motivo (ya tiene bloque / vacío / página de índice)
 - Cualquier advertencia de validación generada durante el paso 2
 
----
+&#x200B;---
 
 ## Reglas de generación de contenido
 
@@ -246,7 +246,7 @@ Las respuestas deben utilizar las mismas opciones de verbo y sustantivo que el c
 - **no** inventa contenido no admitido por la página
 - **no** usa los siguientes términos imprecisos a menos que aparezcan textualmente en el cuerpo de la página: &quot;sintético&quot;, &quot;datos falsos&quot;, &quot;sin datos reales&quot;, &quot;revertir&quot;, &quot;revertir&quot; (al describir transiciones de estado del producto)
 
----
+&#x200B;---
 
 ## Lista de comprobación de validación posterior a la generación
 
@@ -269,7 +269,7 @@ Ejecute esta lista de comprobación en cada bloque antes de escribir la inclusi�
 
 Si alguna comprobación falla, corrija el bloque antes de escribir la inclusión. Registre la corrección en el informe Paso 5.
 
----
+&#x200B;---
 
 ## Responsabilidad de sincronización
 
@@ -282,7 +282,7 @@ El bloque Referencia de conocimiento de IA es una derivada del cuerpo de la pág
 
 El comentario de sincronización dentro del archivo de inclusión (`<!-- ai-section-version -->`) es la señal: si el cuerpo de la página de inclusión ha cambiado desde que se escribió ese hash, el bloque es candidato para revisión. Al actualizar, edite el archivo de inclusión en `help/_includes/do-not-localize/`, no la página.
 
----
+&#x200B;---
 
 ## Plantilla completa
 
