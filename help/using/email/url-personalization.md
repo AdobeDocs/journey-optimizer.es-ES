@@ -9,7 +9,8 @@ role: User
 level: Intermediate, Experienced
 keywords: url, vínculo, personalización, seguimiento, codificación, llaves
 feature_v2: []
-subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: 281619fd97fde20e0088847eb77e3ccd778e5300
 workflow-type: tm+mt
 source-wordcount: 842
