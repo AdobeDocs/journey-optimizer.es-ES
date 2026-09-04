@@ -7,22 +7,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 TQID: https://experienceleague.adobe.com/CEjKwnKx1ixUKA-mO7FfWGXaW9FyO-I-ZYyYm0scs88
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 366
 ht-degree: 16%
@@ -77,3 +68,5 @@ Esta información puede ser útil para mejorar la experiencia de los usuarios de
 1. Para eliminar el rastreo de clics en un elemento, seleccione el icono de eliminación correspondiente.
 
 Una vez que la campaña esté activa, puede comprobar el número de clics de cada elemento en los [informes activos](../reports/campaign-live-report.md#web-tab) y [informes de Customer Journey Analytics](../reports/campaign-global-report-cja-web.md) de la web de la campaña.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-monitor-web-experiences.md}}

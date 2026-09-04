@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Las vistas XDM se pueden aprovechar en Adobe Journey Optimizer para que los espe
 
 Esto requiere realizar los siguientes pasos para completar una configuración de desarrollador única:
 
-1. Instale [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es){target="_blank"} y compruebe la página de [requisitos previos del canal web](web-prerequisites.md).
+1. Instale [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"} y compruebe la página de [requisitos previos del canal web](web-prerequisites.md).
 
 2. Determine todas las vistas XDM de la aplicación de una sola página que desee personalizar.
 
@@ -179,3 +179,5 @@ class Products extends Component {
     }
 }
 ```
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa-implementation.md}}

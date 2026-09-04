@@ -7,19 +7,12 @@ role: User
 level: Experienced
 exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
 TQID: https://experienceleague.adobe.com/AVN9LN-KzTpcMx-dexxN7i1i2nB4496dzSZ473a3NJE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 462
 ht-degree: 0%
@@ -92,3 +85,5 @@ Para crear sus experiencias web con el editor no visual, siga los pasos a contin
    ![](assets/web-campaign-modifications.png)
 
    También puede cambiar al diseñador web si lo desea. Se conservarán todas las modificaciones.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-non-visual-editor.md}}
