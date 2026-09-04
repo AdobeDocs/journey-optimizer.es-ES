@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -59,3 +59,5 @@ Siga estos pasos para configurar y utilizar la bandeja de entrada:
 * [Personalización de la bandeja de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox): ajuste el diseño, el estilo y el comportamiento de interacción de la bandeja de entrada para su aplicación de Android (documentación de Adobe Developer).
 
 * [Escucha de eventos de la bandeja de entrada](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events): suscríbase a las devoluciones de llamadas de la bandeja de entrada para acciones de usuarios y actualizaciones del ciclo de vida en Android (documentación de Adobe Developer).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-gs.md}}

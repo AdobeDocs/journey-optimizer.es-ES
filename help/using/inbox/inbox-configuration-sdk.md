@@ -5,14 +5,14 @@ feature: Content Cards
 topic: Content Management
 role: Developer
 level: Experienced
-source-git-commit: 4eb7013c2c3178caf7863ff36cb4c194c829e37c
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Configuración de la compatibilidad con la bandeja de entrada en Web SDK {#inbox-configuration-sdk}
+# Configuración de la compatibilidad con la bandeja de entrada en el SDK web {#inbox-configuration-sdk}
 
 >[!BEGINSHADEBOX]
 
@@ -147,3 +147,4 @@ La bandeja de entrada se basa en dos comandos de Web SDK:
 
 1. Actualice la constante `datastreamId`, `orgId` y `SURFACE` en `src/app/page.js` para que apunte a su entorno de AJO antes de realizar la prueba.
 
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-configuration-sdk.md}}
