@@ -66,7 +66,7 @@ Para adjuntar un archivo PDF a un mensaje de correo electrónico, siga los pasos
 
    >[!NOTE]
    >
-   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
 
 1. Use el filtro **[!UICONTROL PDF]** en la sección **[!UICONTROL Tipo MIME]** para restringir la selección al formato de archivo correcto.
 
@@ -105,9 +105,9 @@ El tamaño combinado de todos los archivos adjuntos estáticos y personalizados 
 >
 >* Los archivos adjuntos personalizados y estáticos de PDF se contabilizan en la misma cuota. [Más información](#pdf-attachments)
 
-Los archivos adjuntos personalizados de PDF deben cargarse en el contenedor de [zona de aterrizaje de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico para los datos adjuntos y, a continuación, se hará referencia a él en la carga útil de la API. Actualmente, la zona de aterrizaje de datos es la única ubicación de almacenamiento compatible para archivos adjuntos personalizados de PDF.
+Los archivos adjuntos personalizados de PDF deben cargarse en el contenedor de [zona de aterrizaje de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico para los datos adjuntos y, a continuación, se hará referencia a él en la carga útil de la API. Actualmente, la zona de aterrizaje de datos es la única ubicación de almacenamiento compatible para archivos adjuntos personalizados de PDF.
 
-1. Recupere las credenciales de la zona de aterrizaje de datos de su zona protegida utilizando `type=ajoemailattachments` para la misma organización de IMS y zona protegida que la solicitud de ejecución, tal como se describe en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Según el proveedor de la nube, utilice el contenedor de Azure o el bloque de AWS y la carpeta devueltos por la API.
+1. Recupere las credenciales de la zona de aterrizaje de datos de su zona protegida utilizando `type=ajoemailattachments` para la misma organización de IMS y zona protegida que la solicitud de ejecución, tal como se describe en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Según el proveedor de la nube, utilice el contenedor de Azure o el bloque de AWS y la carpeta devueltos por la API.
 
 1. Genere los archivos PDF con la herramienta que elija y cárguelos en su contenedor de zona de aterrizaje de datos.
 
