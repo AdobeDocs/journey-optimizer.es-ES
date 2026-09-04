@@ -33,7 +33,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1686
 ht-degree: 100%
 
@@ -299,12 +299,12 @@ Nota: Las campañas activas no se pueden editar (debe duplicar para realizar cam
 Realice un seguimiento del rendimiento de la campaña:
 
 * Ver informes y análisis de campaña
-* Supervisión de tasas de envío y métricas de participación
+* Monitorización de tasas de envío y métricas de participación
 * Seguimiento de errores y devoluciones
 * Análisis de la conversión y el ROI
 * Uso de perspectivas para la optimización
 
-**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Supervisión de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
+**Guías específicas del tipo:** [Informes de campañas de acción](../reports/campaign-global-report-cja.md) | [Monitorización de campaña activada por API](api-triggered-campaigns.md#monitor) | [Análisis de campañas orquestadas](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 

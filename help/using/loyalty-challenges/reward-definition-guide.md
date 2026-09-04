@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guía de definición de recompensa
+title: Guía de definición de recompensas
 description: Aprenda a configurar las definiciones de recompensas para los proveedores de recompensas de Retos de fidelidad en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
 source-wordcount: 1204
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_reward_definition"
->title="Guía de definición de recompensa"
+>title="Guía de definición de recompensas"
 >abstract="Utilice esta guía para configurar las definiciones de recompensas para los proveedores de recompensas de fidelidad, incluidos los campos de comportamiento de definición predeterminada y carga útil de cumplimiento."
 
 >[!BEGINSHADEBOX]
 
 **Tabla de contenido**
 
-[Introducción a los retos de fidelización](get-started.md)
+[Introducción a los retos de lealtad](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,20 +37,20 @@ ht-degree: 3%
 
 **Crear y administrar desafíos**
 
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
+* [Acceder a retos y tareas y administrarlos](access-loyalty-challenges.md)
+* [Crear retos](create-challenges.md)
+* [Crear tareas](create-tasks.md)
+* [Monitorizar el rendimiento del reto de lealtad](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">
 
 **Configurar e integrar**
 
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
+* [Configurar retos de lealtad](loyalty-admin.md)
 * **Guía de definición de recompensa** ◀︎ **Usted está aquí**
 * [Guía del transformador de eventos](event-transformer-guide.md)
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
+* [Datos y conjuntos de datos de lealtad](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 </td>
