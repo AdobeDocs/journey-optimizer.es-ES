@@ -11,7 +11,7 @@ keywords: texto, correo electrónico, versión, sin formato, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1199
 ht-degree: 8%
@@ -267,3 +267,5 @@ Actualícelo siempre que realice cambios significativos en el contenido de HTML.
 
 **¿Debo incluir imágenes en texto sin formato?**\
 No, el texto sin formato no admite imágenes. En su lugar, describa lo que muestra la imagen o proporcione un vínculo para verla en línea.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-text-version-email.md}}

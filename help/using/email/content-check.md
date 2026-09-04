@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, comprobación de contenido, HTML, CSS, validación, procesamiento, calidad
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ Los resultados aparecen como errores, advertencias o avisos informativos en el p
 
 Las comprobaciones de contenido siempre están disponibles en el Designer de correo electrónico. Para verlos, haga clic en el icono Problemas en el carril derecho para abrir el panel **[!UICONTROL Comprobación de contenido]**, donde se enumeran todos los problemas detectados.
 
-![Panel de verificación de contenido en el Designer de correo electrónico con problemas](assets/content-check.png)
+![Panel Comprobación de contenido en el Diseñador de correo electrónico con problemas](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -131,3 +131,5 @@ Las advertencias de tamaño (por ejemplo, HTML que supera los 100 KB) son **señ
 
 * Cortes de correo electrónico recortados por Gmail, que recorta mensajes a aproximadamente 102 KB de HTML
 * Representación lenta en dispositivos móviles o en conexiones de bajo ancho de banda
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}

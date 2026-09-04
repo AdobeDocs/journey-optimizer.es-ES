@@ -10,19 +10,12 @@ level: Beginner
 keywords: correo electrónico, mensaje, adjunto, pdf, editor, personalizado, activado por API
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 916
 ht-degree: 7%
@@ -66,7 +59,7 @@ Para adjuntar un archivo PDF a un mensaje de correo electrónico, siga los pasos
 
    >[!NOTE]
    >
-   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=es){target="_blank"}.
+   >Al diseñar mensajes, puede acceder al repositorio de Assets Essentials directamente desde la interfaz de Journey Optimizer. Para obtener más información sobre la interfaz de usuario [!DNL Assets Essentials] incrustada, consulte [Documentación de Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Use el filtro **[!UICONTROL PDF]** en la sección **[!UICONTROL Tipo MIME]** para restringir la selección al formato de archivo correcto.
 
@@ -105,9 +98,9 @@ El tamaño combinado de todos los archivos adjuntos estáticos y personalizados 
 >
 >* Los archivos adjuntos personalizados y estáticos de PDF se contabilizan en la misma cuota. [Más información](#pdf-attachments)
 
-Los archivos adjuntos personalizados de PDF deben cargarse en el contenedor de [zona de aterrizaje de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico para los datos adjuntos y, a continuación, se hará referencia a él en la carga útil de la API. Actualmente, la zona de aterrizaje de datos es la única ubicación de almacenamiento compatible para archivos adjuntos personalizados de PDF.
+Los archivos adjuntos personalizados de PDF deben cargarse en el contenedor de [zona de aterrizaje de datos](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} específico para los datos adjuntos y, a continuación, se hará referencia a él en la carga útil de la API. Actualmente, la zona de aterrizaje de datos es la única ubicación de almacenamiento compatible para archivos adjuntos personalizados de PDF.
 
-1. Recupere las credenciales de la zona de aterrizaje de datos de su zona protegida utilizando `type=ajoemailattachments` para la misma organización de IMS y zona protegida que la solicitud de ejecución, tal como se describe en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Según el proveedor de la nube, utilice el contenedor de Azure o el bloque de AWS y la carpeta devueltos por la API.
+1. Recupere las credenciales de la zona de aterrizaje de datos de su zona protegida utilizando `type=ajoemailattachments` para la misma organización de IMS y zona protegida que la solicitud de ejecución, tal como se describe en la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. Según el proveedor de la nube, utilice el contenedor de Azure o el bloque de AWS y la carpeta devueltos por la API.
 
 1. Genere los archivos PDF con la herramienta que elija y cárguelos en su contenedor de zona de aterrizaje de datos.
 
@@ -133,3 +126,5 @@ Los archivos adjuntos personalizados de PDF deben cargarse en el contenedor de [
 En el momento del envío, [!DNL Journey Optimizer] recupera el archivo de la ubicación especificada y lo adjunta al mensaje para ese destinatario. Los archivos adjuntos personalizados de PDF son compatibles con [Alto rendimiento](../campaigns/api-triggered-high-throughput.md) campañas en la región principal. No son compatibles durante la conmutación por error regional.
 
 Para obtener la referencia de carga útil de API completa, consulte la [documentación de API de ejecución de mensajes interactivos](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution){target="_blank"}.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-pdf-attachments.md}}
