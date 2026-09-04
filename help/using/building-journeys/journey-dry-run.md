@@ -221,6 +221,6 @@ Sí. En el caso de los recorridos que usan una actividad **Leer audiencia** con 
 
 Aprenda a secar los recorridos en este vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464685/?captions=spa&learn=on&enablevpops)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-dry-run.md}}

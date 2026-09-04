@@ -182,6 +182,6 @@ Si el recorrido está sujeto a una directiva de aprobación, al hacer clic en **
 
 Obtenga información sobre cómo publicar un recorrido en este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427933?captions=spa&quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-publish-journey.md}}

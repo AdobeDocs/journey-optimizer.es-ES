@@ -112,7 +112,7 @@ Al usar la nueva experiencia, puedes seleccionar varios nodos a la vez mantenien
 
 Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
 ## Inicie el recorrido {#start-your-journey}
 
