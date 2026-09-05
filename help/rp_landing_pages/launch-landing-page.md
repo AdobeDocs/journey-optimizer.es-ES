@@ -60,7 +60,7 @@ Obtenga información sobre cómo probar, publicar y monitorizar sus campañas or
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Sistema de informes de campañas orquestadas
 

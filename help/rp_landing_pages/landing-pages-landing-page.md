@@ -70,7 +70,7 @@ Configure listas de suscripción para administrar perfiles de inclusión y optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Casos de uso de la página de aterrizaje
 

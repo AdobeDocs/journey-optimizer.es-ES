@@ -40,7 +40,7 @@ Tutorial paso a paso sobre la creación y validación de reglas para filtrar y s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Cómo editar expresiones en Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Domine el editor de expresiones para definir manualmente las reglas de consulta 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Creación de consultas de resegmentación en Adobe Journey Optimizer
 

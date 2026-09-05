@@ -45,7 +45,7 @@ Siga las instrucciones paso a paso para crear fórmulas de clasificación utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 Modelos de IA para la clasificación de ofertas
 

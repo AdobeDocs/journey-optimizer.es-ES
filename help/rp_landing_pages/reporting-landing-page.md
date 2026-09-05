@@ -20,7 +20,7 @@ La creación de informes en Adobe Journey Optimizer consiste en convertir los da
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Introducción a la creación de informes
 
@@ -50,7 +50,7 @@ Conozca las métricas, la integración con Customer Journey Analytics y las herr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Creación de informes de recorrido personalizados
 

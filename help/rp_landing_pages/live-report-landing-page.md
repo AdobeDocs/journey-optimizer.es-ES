@@ -20,7 +20,7 @@ La función de informes activos de Adobe Journey Optimizer le permite realizar u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción al informe activo
 

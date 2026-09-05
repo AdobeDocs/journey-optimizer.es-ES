@@ -20,7 +20,7 @@ El diseño del contenido en Adobe Journey Optimizer le permite crear páginas de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Diseño de una página de aterrizaje en Adobe Journey Optimizer
 
