@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2072
-ht-degree: 6%
+source-wordcount: 1259
+ht-degree: 10%
 
 ---
 
@@ -171,56 +171,4 @@ Ejemplo: Si un perfil se califica para una audiencia de &quot;cliente plata&quot
 
 Cada actividad de experiencia entrante (mensaje en la aplicación, experiencia basada en código o tarjeta) viene con una actividad de **Espera** de 3 días. Como los mensajes entrantes finalizan automáticamente cuando un perfil llega al final del recorrido, suponemos que desea que los usuarios lo vean al menos durante 3 días. Puede quitar esta actividad **Wait** o cambiar su configuración si es necesario.
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo configurar la actividad Espera en un recorrido para pausar la progresión del perfil durante un tiempo relativo o hasta una fecha calculada personalizada antes de ejecutar el siguiente paso.
-
-**Intenciones:**
-
-* Agregue una actividad Wait para pausar un recorrido durante un periodo de tiempo relativo fijo (hasta 90 días)
-* Configure una Espera personalizada mediante una expresión avanzada para retrasar hasta una fecha calculada específica de un perfil
-* Comprenda cómo las actividades de espera interactúan con el tiempo de espera global de recorrido (91 días)
-* Utilice el parámetro Tiempo de espera en prueba para acelerar la validación del modo de prueba
-* Obtenga información sobre cómo se actualizan los atributos de perfil después de un nodo de espera en Leer recorridos de audiencia
-* Utilice la optimización del tiempo de envío dentro de una actividad de espera para determinar el tiempo óptimo antes de continuar con cualquier actividad descendente
-
-**Glosario:**
-
-* **Actividad de espera**: Una actividad de orquestación de recorrido que pone en pausa la progresión del perfil durante un tiempo especificado o hasta una fecha calculada antes de que se ejecute la siguiente actividad *(específica del producto)*
-* **Duración de espera**: Tipo de espera que establece un período de tiempo relativo en pausa, con un máximo de 90 días *(específico del producto)*
-* **Espera personalizada**: un tipo de espera que usa una expresión `dateTimeOnly` derivada de datos de perfil o evento para definir una fecha u hora futura específica para la reanudación *(específica del producto)*
-* **Espera de optimización del tiempo de envío**: un tipo de espera que usa el modelo de IA de optimización del tiempo de envío de Adobe para seleccionar el momento óptimo para continuar con la siguiente actividad, desunido de cualquier envío de mensaje *(específico del producto)*
-* **Nodo de espera automático**: una actividad de espera de 3 días insertada automáticamente después de actividades de experiencia de entrada (en la aplicación, basada en código, tarjeta) para mantener el perfil en la recorrido el tiempo suficiente para ver el contenido *(específico del producto)*
-* **Tiempo de espera en la prueba**: un parámetro de modo de prueba de recorrido que anula las duraciones de espera reales (10 segundos predeterminados) para que los resultados de la prueba se devuelvan rápidamente *(específico del producto)*
-
-**Protecciones:**
-
-* La duración máxima de espera es de 90 días.
-* Los perfiles se pierden de una recorrido después de 91 días (tiempo de espera global), independientemente de las actividades de espera pendientes.
-* Un perfil solo puede introducir una actividad Wait si queda tiempo suficiente en la recorrido para completar la espera antes del tiempo de espera de 91 días.
-* No utilice las actividades de Espera para bloquear la reentrada; utilice en su lugar la opción Permitir reentrada en las propiedades del recorrido.
-* Las expresiones de espera personalizadas deben utilizar el formato `dateTimeOnly` y no deben incluir un sufijo `Z` ni un desplazamiento explícito de zona horaria.
-* El uso de una fecha estática fija (por ejemplo, `toDateTimeOnly('2024-01-01T01:11:00Z')`) en una espera personalizada puede causar problemas; use fechas dinámicas específicas del perfil en su lugar.
-* Los atributos de perfil se actualizan desde el servicio de perfiles unificado después de un nodo de espera en Leer recorridos de audiencia, lo que puede producir resultados inesperados si se espera coherencia de instantánea.
-* La optimización del tiempo de envío dentro de una actividad de espera no tiene visibilidad sobre las reglas de horas de inactividad; si una acción del canal descendente está protegida por una regla de horas de inactividad configurada para descartar mensajes, el perfil se puede eliminar de la entrega de mensajes y salir de la recorrido.
-
-**Terminología:**
-
-* Nombre canónico: Actividad de espera — Acrónimo: none — variantes: Nodo de espera, paso de espera
-* Sinónimos: &quot;Espera de duración&quot; = &quot;espera relativa&quot;; &quot;Espera personalizada&quot; = &quot;espera basada en expresiones&quot;
-* No confunda: &quot;Duración de espera&quot; (relativa, p. ej. 3 días a partir de ahora) ≠ &quot;Espera personalizada&quot; (fecha calculada absoluta a partir de los datos del perfil)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Cuál es la duración máxima de una actividad de espera?** — La duración máxima de espera es de 90 días; los perfiles también están sujetos al tiempo de espera de recorrido global de 91 días.
-* **Q: ¿Cómo administra el modo de prueba las actividades de espera?** — En el modo de prueba, el parámetro &quot;Tiempo de espera en prueba&quot; anula la duración de espera real; el valor predeterminado es 10 segundos, por lo que las pruebas se completan rápidamente.
-* **Q: ¿Por qué debería evitar anexar Z a una expresión de espera personalizada?** — Añadir Z o un desplazamiento de zona horaria a una expresión `toDateTimeOnly()` puede hacer que los perfiles se queden atascados en la actividad de espera; la expresión debe depender de la zona horaria configurada por el recorrido.
-* **Q: ¿Se actualizan los atributos de perfil después de un nodo de espera?** — Sí, en los recorridos que comienzan por Leer audiencia, la recorrido actualiza los atributos de perfil del servicio de perfil unificado después de la espera, por lo que las actividades posteriores pueden ver valores actualizados en lugar de los datos de instantánea de audiencia originales.
-* **Q: ¿Qué es el nodo de espera automática?** — Una actividad de espera de 3 días insertada automáticamente después de actividades de experiencia entrantes (en la aplicación, basada en código, tarjeta) para garantizar que los perfiles permanezcan en la recorrido el tiempo suficiente para ver el mensaje; se puede eliminar o volver a configurar según sea necesario.
-* **Q: ¿La actividad de espera de optimización del tiempo de envío conoce las horas tranquilas?** — No. Las horas tranquilas solo se evalúan en la acción del mensaje, por lo que la actividad Espera puede elegir una hora dentro de un intervalo de horas silenciosas. Según la regla de horas tranquilas, el mensaje se pone en cola hasta que terminan las horas silenciosas, o se descarta, lo que también sale del perfil de la recorrido.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-wait-activity.md}}

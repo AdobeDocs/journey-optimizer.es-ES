@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 853
 ht-degree: 6%
@@ -106,3 +106,5 @@ La siguiente ilustración muestra los distintos pasos, de extremo a extremo, nec
 * [Crear una notificación push](create-push.md)
 * [Añadir un mensaje en un recorrido](../building-journeys/journey-action.md)
 * [Añadir un mensaje en una campaña](../campaigns/create-campaign.md)
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-gs.md}}

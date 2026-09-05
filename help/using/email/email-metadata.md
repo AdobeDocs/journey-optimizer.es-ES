@@ -26,7 +26,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 364
 ht-degree: 24%
@@ -75,3 +75,5 @@ Para establecer esta configuración, siga los pasos a continuación.
    ![](assets/email_body_settings.png)
 
 1. Haz clic en **[!UICONTROL Guardar]** para confirmar los cambios.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-metadata.md}}

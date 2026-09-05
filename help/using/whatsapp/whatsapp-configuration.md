@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
 workflow-type: tm+mt
 source-wordcount: 1447
 ht-degree: 19%
@@ -259,3 +259,5 @@ El siguiente vídeo muestra cómo configurar el canal de WhatsApp en Adobe Journ
 >[!VIDEO](https://video.tv.adobe.com/v/3470271/?captions=spa&learn=on)
 
 +++
+
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-whatsapp-configuration.md}}

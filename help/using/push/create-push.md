@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1094
 ht-degree: 25%
@@ -182,3 +182,5 @@ La mensajería de envío rápido incluye los siguientes requisitos:
    >Asegúrese de que el contenido del mensaje no incluya personalización y de que la audiencia tenga menos de 30 millones de perfiles.
 
 1. Revise y active la campaña como de costumbre. Tenga en cuenta que, en el modo de prueba, los mensajes no se envían mediante el modo de envío rápido.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-create-push.md}}

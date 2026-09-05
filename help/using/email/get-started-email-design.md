@@ -30,8 +30,8 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
-workflow-type: ht
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 100%
 
@@ -167,3 +167,5 @@ Aprenda a crear contenido de correo electrónico con el editor de mensajes.
 Aprenda a configurar experimentos de contenido para realizar pruebas A/B y explorar el contenido de correo electrónico que mejor impulsa sus objetivos empresariales.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3447334?captions=spa)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-design.md}}

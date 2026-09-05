@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2225
 ht-degree: 13%
@@ -233,3 +233,5 @@ Puede configurar **[!UICONTROL opciones avanzadas]** para la notificación push.
 | **[!UICONTROL Prioridad de notificación]** (solo Android) | Define la importancia de la notificación push de baja a máxima. Esto determina la intrusión que tendrá la notificación push cuando se envíe. Para obtener más información, consulte la [documentación para desarrolladores de Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Prioridad de envío]** (solo Android) | Establece una prioridad alta o normal para las notificaciones push. Para obtener más información sobre la prioridad de los mensajes, consulte la [documentación para desarrolladores de Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
 | **[!UICONTROL Tiempo de vida]** (solo Android) | Establezca el número de segundos después de los cuales caducará el mensaje. En Android, la caducidad se trata como una ventana de entrega: Firebase Cloud Messaging (FCM) convierte la hora de caducidad en un valor de tiempo de vida (TTL) que comienza cuando se recibe el mensaje, lo que significa que las campañas no entregadas se pueden enviar más tarde de lo esperado o incluso fuera del periodo de tiempo deseado. Para obtener más información, consulte la [documentación para desarrolladores de Android](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-design-push.md}}

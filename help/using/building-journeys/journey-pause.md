@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 3677
-ht-degree: 3%
+source-wordcount: 2919
+ht-degree: 4%
 
 ---
 
@@ -298,53 +298,4 @@ Puede usar el [[!DNL Adobe Experience Platform] servicio de consultas](https://e
 
   1. Si el recorrido se ha pausado con la opción de retención seleccionada, pero los perfiles se descartaron debido a que se superó la cuota de 10 millones, esos perfiles se descartarán cuando lleguen al siguiente nodo de acción.
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo pausar y reanudar un recorrido activo en Adobe Journey Optimizer, incluido el comportamiento de retención o descarte de perfiles durante la pausa, cómo aplicar criterios de salida de atributos de perfil mientras está en pausa y cómo solucionar problemas de descartes de perfiles mediante el servicio de consultas.
-
-**Intenciones:**
-* Pausar un recorrido activo para evitar nuevas entradas de perfil y mantener o descartar perfiles en vuelo en el siguiente nodo de acción
-* Reanudar un recorrido pausado manualmente o comprender cuándo se reanuda automáticamente después del período de pausa máximo
-* Aplique un criterio de salida de atributo de perfil para excluir perfiles específicos (por ejemplo, por país) cuando se pausa un recorrido
-* Pausa masiva o reanudación masiva de varios recorridos activos desde la lista de inventario de recorridos
-* Solución de problemas de descartes de perfiles en un recorrido pausado mediante consultas de eventos del paso del servicio de consultas de Adobe Experience Platform
-* Ver la pista de auditoría de quién pausó o reanudó un recorrido y cuándo
-
-**Glosario:**
-* **Pausar (recorrido)**: estado que suspende temporalmente un recorrido activo, lo que evita nuevas entradas y detiene el progreso del perfil en el siguiente nodo de acción; no se envían comunicaciones mientras se está en pausa *(específico del producto)*
-* **Modo de espera**: Una opción de pausa que hace que los perfiles en vuelo esperen al siguiente nodo de acción hasta que la recorrido se reanude *(específico del producto)*
-* **Modo de descarte**: una opción de pausa que sale de los perfiles en vuelo de la recorrido cuando llegan al siguiente nodo de acción *(específico del producto)*
-* **Criterios de salida basados en atributos de perfil**: Un filtro aplicado a un recorrido en pausa que excluye perfiles que coinciden con una expresión definida en el siguiente nodo de acción tras la reanudación *(específico del producto)*
-* **Pausa masiva / Reanudación masiva**: La capacidad para pausar o reanudar varios recorridos activos o pausados simultáneamente desde la lista de inventario de recorrido *(específica del producto)*
-
-**Protecciones:**
-* Solo los usuarios con el permiso **Publicar recorridos** pueden pausar y reanudar los recorridos; para detener un recorrido en pausa se requiere **Administrar recorridos** (y **Campañas > Publicar campañas** si hay campañas en línea o nodos de mensajería)
-* La duración de la pausa se puede configurar de 1 a 14 días; después, la recorrido se reanuda automáticamente
-* Los perfiles retenidos durante la pausa se reanudan a un máximo de 5000 TPS; el recorrido permanece en Reanudación hasta que se hayan reanudado todos los perfiles retenidos
-* Se pueden mantener un máximo de 10 millones de perfiles en todos los recorridos pausados de una organización; los perfiles sobrantes se descartan automáticamente
-* Solo se puede establecer un criterio de salida basado en atributos de perfil por recorrido
-* Los criterios de salida basados en atributos de perfil solo se pueden crear, actualizar o eliminar mientras se pausa el recorrido
-* Los recorridos en pausa se contabilizan en la cuota de recorridos activos
-* El tiempo de espera global de recorrido (91 días) sigue aplicándose durante una pausa
-* Las comunicaciones de actividad entrantes ya activadas antes de la pausa siguen entregándose; para detenerlas, el recorrido debe detenerse por completo
-* Las alertas del segmento por lotes no se activan en recorridos en pausa
-* Las nuevas entradas siempre se descartan cuando se pone en pausa un recorrido, independientemente del modo Retener o Descartar
-
-**Terminología:**
-* Nombre canónico: Pausar un recorrido — Acrónimo: none — variantes: recorrido pause, pause/resume
-* Sinónimos: &quot;Mantener&quot; = &quot;perfiles de parque&quot;; &quot;Descartar&quot; = &quot;perfiles de salida&quot;
-* No confundir: &quot;Pausar&quot; ≠ &quot;Detener&quot;: la pausa es temporal y permite reanudarla; la detención sale inmediatamente de todos los perfiles y no se puede deshacer en un estado activo
-* No confundir: &quot;Pausar&quot; ≠ &quot;Cerca de nuevas entradas&quot;: al cerrar las nuevas entradas, los perfiles existentes pueden finalizar, pero no suspenderse; la pausa suspende todos los perfiles en vuelo en el siguiente nodo de acción
-
-**PREGUNTAS MÁS FRECUENTES:**
-* **Q: ¿Qué les sucede a los perfiles que ya están en un recorrido cuando se pone en pausa?** — Según la opción elegida en el momento de la pausa, los perfiles se retienen (esperando en el siguiente nodo de acción) o se descartan (se salen del recorrido en el siguiente nodo de acción).
-* **Q: ¿Durante cuánto tiempo puede permanecer en pausa un recorrido?** — Entre 1 y 14 días (seleccionados al pausar el tiempo); después de eso, se reanuda automáticamente.
-* **Q: ¿Puedo excluir ciertos perfiles mientras un recorrido está en pausa?** — Sí; aplicar un criterio de salida basado en atributos de perfil (uno por recorrido) mientras el recorrido se pone en pausa para excluir los perfiles coincidentes en el siguiente nodo de acción tras la reanudación.
-* **Q: ¿La pausa de un recorrido detiene los mensajes en la aplicación o en la web ya desencadenados?** — No; las comunicaciones entrantes ya activadas antes de la pausa se siguen entregando. Para detener todas las comunicaciones entrantes, debe detener el recorrido por completo.
-* **Q: ¿Cómo encuentro qué perfiles se descartaron durante una pausa?** — Consulte el conjunto de datos `journey_step_events` en el servicio de consultas de Adobe Experience Platform usando los filtros de tipo de evento `PAUSED_JOURNEY_VERSION` o `JOURNEY_IN_PAUSED_STATE` con el identificador de versión de recorrido.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-pause.md}}

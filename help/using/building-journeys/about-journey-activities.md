@@ -33,10 +33,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 3fe3b3372865d6a349fef6baf2861625796e9244
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 8%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
@@ -101,9 +101,9 @@ También puede configurar acciones específicas para enviar mensajes:
 
 * Si está trabajando con [!DNL Adobe Campaign] y [!DNL Adobe Journey Optimizer], consulte estas secciones:
 
-   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
-   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] Standard](../action/acs-action.md)
-   * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
+  * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+  * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+  * [[!DNL Adobe Journey Optimizer] y  [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Prácticas recomendadas {#best-practices}
 
@@ -141,7 +141,7 @@ En algunos contextos particulares, puede anular los valores de estos parámetros
 
 ### Añadir una ruta alternativa
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Ver [esta sección](../building-journeys/using-the-journey-designer.md#paths)
+Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera de continuar es marcar la casilla **[!UICONTROL Agregar una ruta alternativa en caso de tiempo de espera o error]**. Ver [esta sección](../building-journeys/using-the-journey-designer.md#paths)
 
 ![Agregar una opción de ruta alternativa en las propiedades de la actividad de condición](assets/journey42.png)
 
@@ -153,43 +153,4 @@ Aprenda a solucionar errores en las actividades y en el recorrido [de esta pági
 
 Ver también [Supervisión y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se presentan las tres categorías de actividades de recorrido (eventos, orquestación y acciones) y se explican las prácticas recomendadas para etiquetar, administrar parámetros y controlar errores en los recorridos de Adobe Journey Optimizer.
-
-**Intenciones:**
-* Identificar y distinguir entre actividades de evento, orquestación y acción en un recorrido
-* Añada etiquetas y descripciones a las actividades de recorrido para facilitar la identificación y la creación de informes
-* Configuración de una ruta alternativa para gestionar tiempos de espera o errores en una actividad de recorrido
-* Anular parámetros avanzados en una actividad de recorrido específica
-* Combine varios tipos de actividades para crear escenarios de recorridos entre canales
-* Solucionar errores de configuración de actividades antes de publicar un recorrido
-
-**Glosario:**
-* **Actividad de evento**: Una actividad de recorrido desencadenada por un evento entrante (por ejemplo, una compra o una calificación de audiencia) que inicia o avanza un perfil a través del recorrido *(específico del producto)*
-* **Actividad de orquestación**: Una actividad de recorrido (por ejemplo, Optimizar, Leer audiencia, Esperar) que controla el flujo y la lógica de ramificación de un recorrido *(específico del producto)*
-* **Actividad de acción**: Una actividad de recorrido que envía una comunicación o llama a un sistema externo como resultado de un déclencheur *(específico del producto)*
-* **Acción personalizada**: una acción configurada por el usuario que conecta Journey Optimizer con un sistema de terceros para enviar mensajes o datos *(específicos del producto)*
-* **Ruta alternativa**: Se agregó una rama de reserva a una actividad para que el recorrido continúe incluso cuando se agote el tiempo de espera o se produzca un error *(específico del producto)*
-
-**Protecciones:**
-* No se pueden realizar pruebas y publicaciones si se siguen detectando errores de configuración en cualquier actividad
-* Los parámetros avanzados o técnicos de la mayoría de las actividades son de solo lectura y no se pueden modificar sin utilizar la función de anulación de parámetros
-
-**Terminología:**
-* Nombre canónico: Actividad de Recorrido — Acrónimo: none — variantes: activity, node, step
-* Sinónimos: &quot;actividad de acción&quot; = &quot;acción del canal&quot; = &quot;acción del mensaje&quot;
-* No confunda: &quot;Actividad de orquestación&quot; ≠ &quot;Actividad de acción&quot; (flujo de controles de orquestación; las acciones entregan comunicaciones)
-
-**PREGUNTAS MÁS FRECUENTES:**
-* **Q: ¿Cuál es la diferencia entre las actividades de evento, orquestación y acción?** — Actividades de evento déclencheur la entrada o progresión del recorrido; las actividades de orquestación controlan la ramificación y la lógica de flujo; las actividades de acción envían mensajes o llaman a sistemas externos.
-* **Q: ¿Cómo se agrega una etiqueta a una actividad de recorrido?** — Abra el panel de propiedades de la actividad y rellene el campo Etiqueta; la etiqueta aparece como un sufijo bajo el nodo de la actividad en el lienzo.
-* **Q: ¿Qué sucede cuando se produce un error en una actividad de acción o condición?** — El recorrido del perfil se detiene a menos que marque la opción &quot;Añadir una ruta alternativa en caso de tiempo de espera o error&quot; en esa actividad.
-* **Q: ¿Puedo usar Adobe Campaign para enviar mensajes desde un recorrido?** — Sí, Journey Optimizer admite la integración con Adobe Campaign v7/v8, Campaign Standard y Marketo Engage para enviar mensajes mediante actividades de acción personalizadas.
-* **Q: ¿Cómo invalido un parámetro avanzado de solo lectura en una actividad?** — Haga clic en el icono &quot;Habilitar anulación de parámetros&quot; a la derecha del campo de parámetro para forzar un valor personalizado.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-about-journey-activities.md}}

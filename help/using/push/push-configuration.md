@@ -27,7 +27,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2223
 ht-degree: 11%
@@ -453,3 +453,5 @@ El evento se habrá creado y podrá utilizarlo en un recorrido.
 1. Haga clic en **[!UICONTROL Enviar]**.
 
 Se activará el evento y recibirá una notificación push a su aplicación móvil.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration.md}}

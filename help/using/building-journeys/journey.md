@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2403
-ht-degree: 63%
+source-wordcount: 1729
+ht-degree: 87%
 
 ---
 
@@ -112,7 +112,7 @@ El **[diseñador de recorridos](using-the-journey-designer.md)** es el lienzo vi
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 **Definir puntos de entrada**
 
@@ -122,7 +122,7 @@ Elegir cómo entran los clientes: a través de un evento, segmento de público o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 **Envío de mensajes**
 
@@ -132,7 +132,7 @@ Utilice acciones de canal integradas para correo electrónico, notificaciones pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 **Añadir lógica y condiciones**
 
@@ -142,7 +142,7 @@ Ramifique su recorrido en función de atributos de perfil, pertenencia a públic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 **Aprovechamiento de datos**
 
@@ -162,7 +162,7 @@ Cree acciones personalizadas para integrar sistemas de terceros para enviar mens
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **Añada actividades de orquestación**
 
@@ -254,7 +254,7 @@ Aprenda con ejemplos prácticos que muestran cómo aplicar conceptos de recorrid
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
 
 **Dé la bienvenida a nuevos suscriptores**
 
@@ -264,7 +264,7 @@ Cuando un cliente se suscriba a su servicio, active un recorrido de bienvenida q
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=es)
 
 **Optimización del tiempo de envío**
 
@@ -274,7 +274,7 @@ Utilice la IA para enviar correos electrónicos cuando sea más probable que cad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Aumento de envíos**
 
@@ -294,7 +294,7 @@ Envíe contenido diferente en función del día de la semana en el que los clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
 
 **Campañas multicanal**
 
@@ -304,7 +304,7 @@ Orqueste experiencias optimizadas en canales de correo electrónico, push, SMS y
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 **Todos los casos de uso**
 
@@ -322,7 +322,7 @@ A medida que se vaya familiarizando con la creación de recorridos, explore esta
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=es)
 
 **Expresiones avanzadas**
 
@@ -332,7 +332,7 @@ Cree condiciones dinámicas y personalización mediante el editor de expresiones
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
 
 **Administración de husos horarios**
 
@@ -342,7 +342,7 @@ Gestione públicos globales con ajustes automáticos de zona horaria y tiempos d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=es)
 
 **Modo de prueba y ensayo**
 
@@ -352,7 +352,7 @@ Valide los recorridos con perfiles de prueba antes de activarlos y previsualice 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=es)
 
 **Copie a la zona protegida**
 
@@ -362,7 +362,7 @@ Duplique los recorridos en las zonas protegidas para optimizar los flujos de tra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 **Etiquetas y organización**
 
@@ -452,50 +452,4 @@ Configure **[alertas de recorridos](../reports/alerts.md)** para recibir notific
 
 **¿Todo listo para crear su primer recorrido?** [Empiece ahora →](journey-gs.md)
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página es el concentrador de introducción para Adobe Journey Optimizer recorrido, donde se explica cuáles son los recorridos, los cuatro tipos de recorridos, el flujo de trabajo de creación de seis pasos, los casos de uso reales y los vínculos a funciones avanzadas.
-
-**Intenciones:**
-
-* Comprenda cuáles son los recorridos y en qué se diferencian de las campañas y las campañas orquestadas
-* Elija el tipo de recorrido adecuado (Unitario, Leer audiencia, Calificación de audiencia o Evento empresarial) para un caso de uso
-* Siga el flujo de trabajo de creación de recorridos de seis pasos: Planificar, Diseñar, Probar, Publicar, Supervisar, Optimizar
-* Utilice Simulación, Modo de prueba o Ejecución en seco para validar un recorrido antes de activarlo
-* Publicar un recorrido y supervisar el rendimiento mediante informes y alertas
-* Explore funciones avanzadas como expresiones, administración de huso horario, copia a zona protegida y control de rendimiento
-
-**Glosario:**
-
-* **Recorrido**: una experiencia de cliente automatizada y de varios pasos que organiza interacciones personalizadas entre canales en respuesta a la conducta de los clientes, eventos empresariales o campañas programadas. *(específico del producto)*
-* **Diseñador de Recorridos**: el lienzo visual de arrastrar y soltar de AJO que se usa para generar y configurar flujos de recorridos sin escribir código. *(específico del producto)*
-* **Modo de prueba**: Un modo de validación de recorrido que usa perfiles de prueba Adobe Experience Platform persistentes (marcados explícitamente como perfiles de prueba) para recorrer un recorrido de borrador antes de publicarlo. *(específico del producto)*
-* **Ejecución en seco**: Modo de publicación especial que ejecuta el recorrido con datos de producción reales sin enviar comunicaciones ni actualizar perfiles. *(específico del producto)*
-* **Simulación**: modo de validación que utiliza usuarios simulados temporales, creados manualmente o generados automáticamente; los usuarios simulados no persisten en Adobe Experience Platform. *(específico del producto)*
-* **Campañas orquestadas**: flujos de trabajo por lotes de varios pasos en AJO que utilizan datos relacionales (perfiles + productos/tiendas/reservas) y procesan todos los perfiles con recuentos exactos de preenvío. *(específico del producto)*
-
-**Protecciones:**
-
-* Los recorridos activos no se pueden editar estructuralmente; los cambios requieren la creación de una nueva versión
-* El modo de prueba y la ejecución en seco deben usarse antes de publicar para detectar problemas
-
-**Terminología:**
-
-* Nombre canónico: Recorrido — Acrónimo: none — variantes: recorrido del cliente, recorrido de AJO
-* Sinónimos: &quot;diseñador de recorridos&quot; = &quot;lienzo&quot; = &quot;lienzo de recorrido&quot;
-* No confunda: &quot;Recorrido&quot; ≠ &quot;Campaña&quot;: los Recorridos mantienen el estado de cliente individual para experiencias en tiempo real impulsadas por comportamientos de varios pasos; las campañas envían mensajes en lote a las audiencias según una programación o mediante el déclencheur de API
-* No confunda: &quot;Simulación&quot; ≠ &quot;Modo de prueba&quot; ≠ &quot;Ejecución en seco&quot;: la simulación utiliza usuarios simulados temporales; el modo de prueba utiliza perfiles de prueba AEP persistentes en un recorrido de borrador; la ejecución en seco se ejecuta con datos de producción reales sin ponerse en contacto con los clientes ni actualizar perfiles
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Cuál es la diferencia entre un recorrido y una campaña en Journey Optimizer?** — Los Recorridos proporcionan una orquestación en tiempo real 1:1 en la que cada perfil progresa a su propio ritmo mediante la lógica condicional; las campañas envían mensajes simultáneamente a una audiencia en una programación o mediante el déclencheur de API; las campañas orquestadas son flujos de trabajo de lienzo por lotes para la segmentación compleja de varias entidades.
-* **Q: ¿Puedo editar un recorrido activo?** — Se pueden editar elementos limitados como el nombre y el contenido del mensaje; los cambios estructurales requieren la creación de una nueva versión del recorrido.
-* **Q: ¿Cuáles son los pasos para generar un recorrido?** — El flujo de trabajo de seis pasos es: Planificar, Diseño en el lienzo, Prueba (modo de prueba o ejecución en seco), Publicar, Monitorizar rendimiento y Optimizar/iterar.
-* **Q: ¿Cómo valido un recorrido sin ponerme en contacto con clientes reales?** — Utilice Simulation (usuarios simulados temporales): tenga en cuenta que esto envía mensajes reales, pero solo a las direcciones de ejecución configuradas en dichos usuarios simulados), Test mode (perfiles de prueba AEP persistentes; tenga en cuenta que esto envía mensajes reales a las bandejas de entrada de dichos perfiles de prueba) o Dry run (datos de producción real, nodos de acción omitidos, no se envían mensajes). Los perfiles de ejecución en seco se contabilizan en Perfiles atractivos y cuota de recorrido en directo. Consulte [Elegir un método de validación](choose-validation-method.md) para obtener una comparación completa.
-* **Q: ¿Qué tipo de recorrido debo usar para un correo electrónico de bienvenida activado por una suscripción?** — Utilizar un recorrido unitario, activado por un evento individual específico, como la suscripción.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey.md}}

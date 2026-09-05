@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1421
-ht-degree: 7%
+source-wordcount: 922
+ht-degree: 11%
 
 ---
 
@@ -205,51 +205,4 @@ Ahora que comprende las funciones disponibles, explore:
 * **[Operadores](operators.md)**: descubra los operadores que puede usar con funciones para generar lógica
 * **[Referencias de campos](field-references.md)**: obtenga información sobre cómo hacer referencia a campos de datos en sus expresiones
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página es una referencia por categorías de las más de 60 funciones integradas disponibles en el editor de expresiones avanzadas de Recorrido, que cubren las funciones de agregación, conversión, fecha/hora, lista, matemáticas, cadena y audiencia de Adobe Experience Platform.
-
-**Intenciones:**
-
-* Identificar la función correcta para una tarea explorando las tablas de funciones clasificadas
-* Transforme tipos de datos entre cadena, entero, decimal, booleano, fecha y duración mediante funciones de conversión
-* Realizar filtrado basado en fecha con funciones como `inLastDays`, `inNextHours`, `nowWithDelta` y `dateDiff`
-* Manipular y validar valores de cadena mediante funciones como `contain`, `replace`, `split` y `trim`
-* Realizar cálculos estadísticos sobre las colecciones mediante funciones de agregación como `count`, `avg`, `sum` y `distinctCount`
-* Comprobar la pertenencia a audiencias en condiciones de recorrido mediante la función `inAudience`
-
-**Glosario:**
-
-* **Funciones de agregación**: Funciones que calculan un solo valor (recuento, suma, promedio, mínimo, máximo) a partir de una colección de valores *(específicos del producto)*
-* **Funciones de conversión**: funciones que convierten un valor de un tipo de datos a otro (por ejemplo, `toString`, `toDateTime`, `toDuration`) *(específico del producto)*
-* **Funciones de fecha**: funciones para trabajar con valores de fecha, hora y zona horaria en expresiones de recorrido *(específicas del producto)*
-* **Funciones de lista**: funciones para filtrar, ordenar y analizar datos de matriz/colección *(específicos del producto)*
-* **inAudience**: una función que comprueba si un perfil pertenece a un segmento de audiencia de Adobe Experience Platform especificado *(específico del producto)*
-
-**Protecciones:**
-
-* Las funciones siguen una sintaxis coherente: `functionName(param1, param2, ...)`
-* Una función puede tener varias firmas (diferentes conjuntos de parámetros) para gestionar diferentes casos de uso
-* Cada función tiene un tipo de valor devuelto fijo: asegúrese de que el tipo de valor devuelto coincida con lo que espera el contexto de la expresión
-* Las funciones disponibles en el editor de expresiones de Recorrido difieren de las del editor de personalización
-
-**Terminología:**
-
-* Nombre canónico: Functions — Acrónimo: none — variantes: funciones integradas, funciones de expresión
-* Sinónimos: &quot;funciones de agregación&quot; = &quot;funciones estadísticas&quot;; &quot;funciones de conversión&quot; = &quot;funciones de conversión de tipo&quot;
-* No confunda: funciones de expresión de recorrido ≠ funciones del editor de personalización (conjuntos diferentes)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Cuántas funciones están disponibles en el editor de expresiones de Recorrido?** — Más de 60 funciones organizadas en diferentes categorías, incluidas agregación, conversión, fecha, lista, matemáticas, cadena y Adobe Experience Platform.
-* **Q: ¿Cómo puedo comprobar si un perfil pertenece a una audiencia en una condición de recorrido?** — Utilice la función `inAudience` con el identificador de audiencia.
-* **Q: ¿Qué función debo usar para compensar la fecha y hora actuales con un número de días?** — Use `nowWithDelta(N, "days")` para obtener un desplazamiento de dateTime con respecto a la hora actual.
-* **Q: ¿Cómo puedo calcular la diferencia entre dos fechas?** — Usar la función `dateDiff`. Ambos parámetros deben ser del mismo tipo: `dateOnly` parámetros devuelven la diferencia en días, mientras que `dateTimeOnly` y `dateTime` parámetros devuelven la diferencia en milisegundos.
-* **Q: ¿Puede una función devolver tipos diferentes dependiendo de cómo se llame?** — Una función tiene un tipo de valor devuelto específico por firma, pero un solo nombre de función puede tener varias firmas con diferentes conjuntos de parámetros y tipos de valor devuelto.
-* **Q: ¿Cuál es la diferencia entre `count` y `countWithNull`?** — `count` solo cuenta elementos no nulos; `countWithNull` cuenta todos los elementos, incluidos los valores nulos.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-expression-functions.md}}

@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 5%
+source-wordcount: 1395
+ht-degree: 8%
 
 ---
 
@@ -865,61 +865,4 @@ Devuelve el listObject ordenado por atributo SKU (orden ascendente)
 
 +++
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Esta página documenta todas las funciones de lista disponibles en las expresiones de recorrido de AJO, y abarca cómo filtrar, ordenar, deduplicar, comprobar suscripciones, limitar, serializar, combinar, restar y buscar intersecciones de listas y matrices.
-
-**Intenciones:**
-* Quitar valores duplicados de una lista mediante `distinct` (omitiendo valores nulos) o `distinctWithNull` (conservando valores nulos)
-* Filtre un listObject para devolver únicamente objetos que coincidan con valores de clave específicos mediante `filter`
-* Recuperar un elemento en un índice específico de una lista utilizando `getListItem`
-* Comprobar si existe un valor en una lista con `in`
-* Buscar elementos comunes entre dos listas utilizando `intersect`
-* Combine dos listas, con o sin anulación de duplicación, usando `mergeLists`
-* Restar una lista de otra (establecer diferencia) usando `differenceLists`
-* Devolver los primeros o últimos elementos N de una lista utilizando `limit`
-* Contar el número total de elementos de una lista utilizando `listSize`
-* Convertir una lista en una cadena delimitada usando `serializeList`
-* Ordenar una lista en orden ascendente o descendente utilizando `sort`
-
-**Glosario:**
-* **listObject**: una lista de objetos complejos que debe ser una referencia de campo; no puede contener objetos nulos *(específicos del producto)*
-* **keyAttributeName**: parámetro de cadena opcional utilizado con `distinct`, `filter` y `sort` para identificar qué atributo de objeto usar para la deduplicación, el filtrado o la ordenación *(específico del producto)*
-* **intersect**: una operación set devuelve solamente los elementos presentes en ambas listas de entrada
-* **mergeLists**: Una operación set que devuelve la unión (deduplicada) o concatenación (con duplicados) de dos listas, según el parámetro `deduplicate` *(específico del producto)*
-* **differenceLists**: Una operación set devuelve los elementos de la primera lista que no están presentes en la segunda lista *(específica del producto)*
-
-**Protecciones:**
-* `distinctWithNull` no admite el tipo de parámetro `<listObject>`
-* `filter` requiere que el parámetro listObject sea una referencia de campo, no un literal en línea
-* `listSize` en un listObject requiere que la lista sea una referencia de campo; un listObject no puede contener objetos nulos
-* `serializeList` no admite el tipo `listObject`
-* `mergeLists` y `differenceLists` solo admiten tipos de listas escalares (cadena, entero, decimal, booleano, dateTime, dateTimeOnly, dateOnly, duration); no se admite `listObject`
-* El parámetro `deduplicate` de `mergeLists` debe ser un literal `true`/`false`, no una expresión booleana dinámica
-* `differenceLists` siempre anula la duplicación de su resultado; no hay opción de conservar duplicados
-
-**Terminología:**
-* Nombre canónico: Funciones de lista — Acrónimo: none — variantes: funciones de colección, funciones de matriz
-* Sinónimos: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
-* No confunda: &quot;distinct&quot; (ignora los valores nulos) ≠ &quot;distinctWithNull&quot; (conserva null como valor distinto)
-* No confunda: &quot;limit&quot; con el tercer parámetro `true` (devuelve los primeros N elementos) ≠ &quot;limit&quot; con `false` (devuelve los últimos N elementos)
-* No confunda: &quot;intersect&quot; (elementos comunes entre dos listas) ≠ &quot;filter&quot; (elementos que coinciden con valores clave específicos)
-* No confunda: &quot;mergeLists&quot; (combina dos listas, unión o concatenación) ≠ &quot;differenceLists&quot; (resta una lista de otra) ≠ &quot;intersect&quot; (solo elementos comunes)
-
-**PREGUNTAS MÁS FRECUENTES:**
-* **Q: ¿Cómo obtengo los primeros 3 elementos de una lista?** — Use `limit(myList, 3)` o `limit(myList, 3, true)`; el valor predeterminado es devolver los primeros elementos.
-* **Q: ¿Cómo obtengo los últimos 3 elementos de una lista?** — Usar `limit(myList, 3, false)`.
-* **Q: ¿Cuál es la diferencia entre `distinct` y `distinctWithNull`?** — `distinct` ignora los valores nulos y los excluye del resultado; `distinctWithNull` trata el valor nulo como un valor distinto e incluye una entrada nula si hay valores nulos.
-* **Q: ¿Puedo filtrar una lista de cadenas con `filter`?** — No, `filter` solo funciona en `listObject`; para las listas escalares, use `in` o `distinct` para la deduplicación.
-* **Q: ¿Cómo puedo comprobar si un valor está en una lista?** — Use `in(value, myList)`, que devuelve true si el valor se encuentra en la lista.
-* **Q: ¿Puedo ordenar un listObject por un atributo específico?** — Sí, usar `sort(@event{...}, "attributeName", true)`, donde el segundo parámetro es el nombre del atributo y el tercero es la dirección de ordenación (verdadero = ascendente).
-* **Q: ¿Cómo combino dos listas y elimino duplicados?** — Usar `mergeLists(list1, list2, true)`.
-* **Q: ¿Cómo se combinan dos listas pero se mantienen los valores duplicados?** — Usar `mergeLists(list1, list2, false)`.
-* **Q: ¿Cómo encuentro los elementos de una lista que no están en otra?** — Use `differenceLists(list1, list2)`, que devuelve los elementos de `list1` que no están presentes en `list2`.
-* **Q: ¿Cuál es la diferencia entre `intersect` y `differenceLists`?** — `intersect` devuelve elementos comunes a ambas listas; `differenceLists` devuelve elementos de la primera lista que están ausentes de la segunda.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-functions-list-functions.md}}

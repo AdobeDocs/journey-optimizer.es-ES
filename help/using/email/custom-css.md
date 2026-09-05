@@ -27,7 +27,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 9%
@@ -270,16 +270,18 @@ Si no se aplica el CSS personalizado, tenga en cuenta las siguientes opciones.
 
 * Asegúrese de que otras reglas CSS no anulen su CSS, incluido cualquier [tema](apply-email-themes.md) aplicado al contenido.
 
-   * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
+  * Utilice las herramientas para desarrolladores del navegador para inspeccionar el contenido y comprobar que el CSS está dirigido a los selectores correctos.
 
-   * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
+  * Considere agregar `!important` a sus declaraciones para asegurarse de que tengan prioridad.
 
-     +++ Por ejemplo:
+    +++ Por ejemplo:
 
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
 
-     +++
+    +++
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-custom-css.md}}

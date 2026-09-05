@@ -23,7 +23,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 6be6438a23ad673d97417c5205ae5985abfc52c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 512
 ht-degree: 24%
@@ -114,3 +114,5 @@ En este vídeo se explica cómo:
 * Realizar acciones masivas en las modificaciones
 
 >[!VIDEO](https://video.tv.adobe.com/v/3446888/?captions=spa&quality=12&learn=on)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa.md}}

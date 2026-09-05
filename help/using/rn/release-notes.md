@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
+source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
 workflow-type: tm+mt
-source-wordcount: 2234
-ht-degree: 85%
+source-wordcount: 2323
+ht-degree: 83%
 
 ---
 
@@ -49,6 +49,25 @@ ht-degree: 85%
 >Las funcionalidades que se enumeran en estas notas de la versión incluyen una **Fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
 
 ## Actualizaciones de septiembre de 2026 {#sep-26-updates}
+
+### Administración de contenido {#sep-26-content-management}
+
+<table>
+<thead>
+<tr>
+<th><strong>Herramientas MCP de gestión de contenido en CX Coworker</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CX Coworker ahora tiene un nuevo conjunto de <strong>herramientas MCP de administración de contenido</strong>, que le permiten descubrir y administrar recursos de contenido de Journey Optimizer a través de mensajes en lenguaje natural. Pídale que enumere o recupere plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. También puede crear contenido, actualizar plantillas y crear, actualizar, clonar y publicar fragmentos, además de actualizar el contenido de acciones del canal en línea directamente en recorrido y campaña.</p>
+<p>Para obtener más información, consulte la <a href="../start/ajo-coworker-skills.md#content-management">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 3 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Recorridos {#sep-26-journeys}
 

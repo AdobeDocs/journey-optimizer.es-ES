@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: módulos, diseñador de correo electrónico, encabezados, héroe, tarjetas, pie de página, diseño de correo electrónico, arrastrar y soltar
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -81,6 +81,8 @@ Las siguientes categorías de módulos están disponibles de forma predeterminad
 | **[!UICONTROL Tarjetas]** | Productos, artículos o elementos de contenido en diseños de cuadrícula de una o varias columnas. |
 | **[!UICONTROL Equipos]** | Integrantes del equipo, autores o oradores con una foto, un nombre y una función. |
 | **[!UICONTROL Pies de página]** | Pie de página completo del correo electrónico con vínculos de navegación, iconos de medios sociales, copia legal y vínculos obligatorios de exclusión y de página espejo. |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 6%
@@ -83,3 +83,5 @@ Para identificar y editar el relleno sobrante en fragmentos:
 >[!NOTE]
 >
 >Este comportamiento se espera cuando los fragmentos se insertan y eliminan repetidamente, ya que las reglas de estilo se pueden acumular. Compruebe siempre los valores de relleno con la navegación de ruta de exploración, especialmente cuando se segmentan en dispositivos móviles.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-alignment-and-padding.md}}

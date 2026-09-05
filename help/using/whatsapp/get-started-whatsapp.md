@@ -20,8 +20,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: ht
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
+workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 100%
 
@@ -109,3 +109,4 @@ Explore más tutoriales en vídeo sobre la mensajería y configuración de Whats
 
 ➡️ [Tutoriales de canal de WhatsApp](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-get-started-whatsapp.md}}

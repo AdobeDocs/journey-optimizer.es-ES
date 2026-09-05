@@ -8,9 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
+source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3996'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las habilidades de Adobe Journey Optimizer disponibles en CX Coworker, desde la creación y el análisis de recorridos hasta la generación de contenido de canal, con instrucciones detalladas, ejemplos de mensajes y prácticas recomendadas para cada habilidad.
+**En esta página:** Descubra las habilidades de Adobe Journey Optimizer disponibles en CX Coworker, desde la creación y el análisis de recorridos hasta la generación de contenido de canal y la administración de recursos de contenido, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas para cada habilidad.
 
 >[!ENDSHADEBOX]
 
@@ -42,6 +42,8 @@ CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de f
 
 * **Administración de retos de fidelidad**: cree y administre desafíos de fidelidad mediante mensajes en lenguaje natural
 * **Agente de fidelización - Habilidad de Data Insight**: consulte y analice los datos de rendimiento del programa de fidelización utilizando lenguaje natural
+
+CX Coworker también incluye un conjunto de **herramientas MCP de administración de contenido** para detectar, crear y administrar plantillas de contenido de Journey Optimizer, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. [Más información](#content-management)
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
@@ -451,6 +453,98 @@ Casos de uso clave:
    * &quot;Mostrar los ingresos totales del programa de fidelización desglosados por día durante agosto de 2026&quot;.
    * &quot;Mostrar los descuentos de fidelidad totales desglosados por categoría de producto durante agosto de 2026&quot;.
    * &quot;Mostrarme el informe de rendimiento del programa de fidelización para el tercer trimestre de 2026&quot;.
+
+## Herramientas de administración de contenido {#content-management}
+
+>[!AVAILABILITY]
+>
+>La administración de contenido está disponible para todos los clientes que tengan acceso a CX Coworker.
+
+<!--However, you will need the following permissions in order to fully use the Content Management features:
+**Manage Library Items**: This permission lets you list, retrieve, create, and update content templates and fragments directly in CX Coworker.
+
+**Publish Fragment**: This permission lets you publish fragments directly in CX Coworker.-->
+
+Los usuarios de Journey Optimizer pueden descubrir y gestionar recursos de contenido (plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña) directamente desde CX Coworker con indicaciones en lenguaje natural. Permite pasar de &quot;hablarme sobre mi contenido&quot; a &quot;compilarlo, actualizarlo y publicarlo&quot;, sin abandonar la conversación. Esta capacidad está equipada con 15 herramientas de MCP con capacidad de lectura y escritura para el contenido de Journey Optimizer.
+
+#### Casos de uso clave
+
+1. **Examinar e inspeccionar contenido**
+
+   * Enumere las plantillas de contenido, los fragmentos o las páginas de aterrizaje disponibles y recupere su estructura, metadatos y estado.
+   * Recupere el contenido del mensaje en línea configurado en un nodo de recorrido o de acción de campaña.
+
+   Ejemplos de mensajes:
+   * &quot;Enumerar mis plantillas de contenido de correo electrónico&quot;.
+   * &quot;Mostrarme los fragmentos disponibles para mi campaña de verano&quot;.
+   * &quot;Obtenga los detalles de la página de aterrizaje página-123&quot;.
+   * &quot;¿Qué contenido está configurado para la variante de correo electrónico del nodo de acción en campaign camp-789?&quot;
+
+1. **Crear plantillas de contenido**
+
+   * Cree una nueva plantilla de contenido para cualquier canal.
+
+   Ejemplos de mensajes:
+   * &quot;Cree una plantilla de correo electrónico denominada Rebajas de verano con este contenido de HTML&quot;.
+   * &quot;Cree una nueva plantilla de SMS llamada Alerta Flash&quot;.
+
+1. **Actualizar plantillas de contenido**
+
+   * Reemplazar completamente el contenido de una plantilla existente.
+
+   Ejemplos de mensajes:
+   * &quot;Actualice la plantilla abc-123 con este nuevo cuerpo de HTML&quot;.
+
+1. **Crear, actualizar, clonar y publicar fragmentos**
+
+   * Cree un nuevo HTML o fragmento de expresión.
+   * Actualizar el contenido o los metadatos de un fragmento existente.
+   * Clonar un fragmento existente con un nombre nuevo.
+   * Envíe un fragmento de borrador para su publicación.
+
+   Ejemplos de mensajes:
+   * &quot;Cree un fragmento de HTML llamado Banner de promoción con este marcado&quot;.
+   * &quot;Actualice el fragmento frag-456 para cambiar su nombre a Banner promocional V2.&quot;
+   * &quot;Clonar el fragmento abc-123 como titular de la promoción - Verano (Variante B).&quot;
+   * &quot;Publicar fragmento frag-456&quot;.
+
+1. **Actualizar contenido de mensaje en línea**
+
+   * Reemplace una variante de canal en el mensaje en línea de un nodo de acción de recorrido o campaña.
+   * Enumerar las variantes de canal definidas en un nodo de recorrido o de acción de campaña.
+
+   Ejemplos de mensajes:
+   * &quot;Actualice la variante de correo electrónico del nodo de acción en campaign camp-789 con este nuevo contenido&quot;.
+   * &quot;¿Qué variantes de canal se definen en este nodo de acción?&quot;
+
+#### En ámbito
+
+La administración de contenido admite las siguientes funciones:
+
+* **Enumerar y obtener plantillas de contenido**: Examine las plantillas de contenido y recupere su estructura y metadatos.
+* **Enumerar y obtener fragmentos**: Examine fragmentos de contenido y expresión y recupere sus detalles.
+* **Enumerar y obtener páginas de aterrizaje**: Examine páginas de aterrizaje y recupere sus metadatos y contenido de página.
+* **Obtener contenido en línea de campaña/recorrido**: recupere el contenido del mensaje en línea configurado en un nodo de acción de campaña o recorrido, incluidas las variantes multilingües.
+* **Crear plantillas de contenido**: cree una nueva plantilla para cualquier canal.
+* **Actualizar plantillas de contenido**: reemplace completamente el contenido de una plantilla existente.
+* **Crear, actualizar, clonar y publicar fragmentos**: cree nuevos fragmentos, actualice los existentes, clone un fragmento con un nuevo nombre y envíe un borrador de fragmento para su publicación.
+* **Actualizar contenido de mensajes en línea**: reemplace una variante de canal en el mensaje en línea de un nodo de acción de campaña/recorrido, incluidas las variantes multilingües, y enumere las variantes de canal definidas en un nodo de acción.
+
+#### Fuera de ámbito
+
+Actualmente no se admiten las siguientes funcionalidades:
+
+* **Búsqueda de texto completo en plantillas o fragmentos**
+* **Validación de plantilla o fragmento** (referencias huérfanas, vínculos rotos, componentes obsoletos)
+* **Creando o publicando páginas de aterrizaje**
+* **Eliminando plantillas de contenido, fragmentos o páginas de aterrizaje**
+
+#### Impulso de las prácticas recomendadas
+
+1. **ID de referencia conocidos**: proporcione la plantilla, el fragmento, la página de aterrizaje o el ID de campaña/recorrido cuando solicite obtener, actualizar, clonar o publicar un recurso específico.
+1. **Sea explícito sobre el canal**: Al crear una plantilla o un fragmento, especifique el canal o el tipo de contenido (correo electrónico, fragmento de HTML, fragmento de expresión).
+1. **Confirmar antes de publicar**: revise el contenido de un fragmento después de crearlo o actualizarlo antes de pedir a su compañero que lo publique.
+1. **Proporcionar contenido de reemplazo completo**: las operaciones de actualización reemplazan el contenido por completo, de modo que incluya el cuerpo completo de HTML o el contenido de variante en el mensaje.
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill

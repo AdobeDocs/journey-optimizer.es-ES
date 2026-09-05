@@ -31,7 +31,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 1958
 ht-degree: 16%
@@ -335,3 +335,5 @@ Control the rendering of your email, and check personalization settings with tes
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. 
 -->
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-create-email.md}}

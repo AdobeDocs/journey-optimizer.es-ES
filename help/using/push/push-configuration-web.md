@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -205,3 +205,5 @@ Una vez configuradas las credenciales de inserción y la configuración de canal
 Después de completar la configuración de web push en Adobe Experience Platform y [!DNL Adobe Experience Platform Data Collection], puede probar la implementación antes de enviar notificaciones web push a sus perfiles. Las pruebas garantizan que las suscripciones se registren correctamente y que las notificaciones se envíen correctamente a los exploradores de los usuarios.
 
 Para obtener instrucciones detalladas sobre la creación de un recorrido de prueba con eventos para validar la configuración de notificaciones push web, consulte la [documentación de configuración de notificaciones push de aplicaciones móviles](push-configuration.md), que proporciona un flujo de trabajo de prueba completo aplicable tanto a canales push móviles como web.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

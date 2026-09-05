@@ -23,7 +23,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 563
 ht-degree: 100%
@@ -140,3 +140,5 @@ Configure subdominios dinámicos, encabezados personalizados y el seguimiento de
 :::
 
 ::::
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-config.md}}

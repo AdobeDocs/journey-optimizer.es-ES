@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2345
-ht-degree: 10%
+source-wordcount: 1642
+ht-degree: 14%
 
 ---
 
@@ -214,54 +214,5 @@ Las siguientes operaciones son posibles:
 >
 >Puede pausar/reanudar hasta 10 recorridos por operación.
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo examinar, filtrar, ver (lista y calendario), duplicar y realizar operaciones masivas en recorridos desde el panel de Journey Optimizer.
-
-**Intenciones:**
-
-* Examine y busque recorridos desde las pestañas Información general y Examinar
-* Filtrar recorridos por estado, tipo, versión, etiquetas, fecha de creación o fecha de publicación
-* Cambiar entre la vista de lista y la vista de calendario para visualizar las programaciones de recorrido
-* Añadir y administrar calendarios externos cargando archivos CSV
-* Duplique un recorrido existente para reutilizar su configuración
-* Aplicar operaciones por lotes a varios recorridos seleccionados desde la barra de acciones por lotes: agregar a un paquete, mover a una carpeta, editar etiquetas, administrar el acceso, eliminar, pausar o reanudar
-
-**Glosario:**
-
-* **Panel de Recorridos**: La interfaz principal de recorrido con una ficha Información general que muestra las métricas clave y una ficha Examinar que enumera todos los recorridos. *(específico del producto)*
-* **Tasa de descarte**: La proporción de perfiles que no cumplen los requisitos para entrar en el recorrido (por ejemplo, debido a reglas de área de nombres o reentrada incorrectas) en comparación con el total de perfiles que intentaron entrar en las últimas 24 horas. *(específico del producto)*
-* **Vista de calendario de Recorridos**: Una representación visual de recorridos semanales, a la que se puede tener acceso haciendo clic en el icono de calendario de la lista recorridos. *(específico del producto)*
-* **Barra de acciones en lotes**: La barra de acciones que aparece en la parte inferior de la lista de recorridos una vez que se han seleccionado uno o más recorridos, que ofrece agregar al paquete, mover a la carpeta, editar etiquetas, administrar el acceso, eliminar, pausar y reanudar. *(específico del producto)*
-* **Pausa/reanudación masiva**: Las operaciones de pausa y reanudación disponibles en la barra de acciones masivas, se limitan a recorridos activos (pausa) o recorridos en pausa (reanudación), hasta 10 por operación. *(específico del producto)*
-
-**Protecciones:**
-
-* Las métricas del panel se actualizan cada 30 minutos y solo cuando hay nuevos datos disponibles; solo abarcan las últimas 24 horas
-* Los recorridos de borrador y los recorridos del modo de prueba no se muestran en la vista Calendario
-* La pausa/reanudación masiva está limitada a 10 recorridos por operación
-* El botón Reanudar solo está activo cuando se seleccionan recorridos en pausa; el botón Pausa solo está activo cuando se seleccionan recorridos activos
-* El calendario muestra los recorridos en intervalos de tiempo de 1 hora, independientemente de la hora de envío o finalización real
-
-**Terminología:**
-
-* Nombre canónico: panel de Recorrido — Acrónimo: none — variantes: lista de recorridos, descripción general de recorridos
-* Sinónimos: &quot;pestaña Examinar&quot; = &quot;lista de recorridos&quot;
-* No confundir: &quot;Tasa de descarte&quot; ≠ &quot;Tasa de error&quot;: la tasa de descarte cuenta los perfiles que no cumplen los requisitos para entrar. La tasa de error cuenta los perfiles introducidos pero que han encontrado un error de procesamiento
-* Nota: Las opciones Añadir a paquete, mover a carpeta, editar etiquetas, gestionar acceso y borrar se comparten con las listas Campañas, Fragmentos y Plantillas. Las pausas y reanudaciones son específicas del recorrido
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Dónde puedo ver las métricas clave de rendimiento de recorridos de un vistazo?** — En la pestaña Información general del panel de Recorrido, que muestra los perfiles procesados, los recorridos activos, la tasa de error y la tasa de descarte de las últimas 24 horas.
-* **Q: ¿Cómo encuentro recorridos que utilizan un evento o una acción específicos?** — utilice los filtros de actividad y los filtros de datos de la lista de recorrido para mostrar los recorridos que hacen referencia a un evento, grupo de campos o acción específicos.
-* **Q: ¿Puedo pausar varios recorridos a la vez?** — Sí; seleccione varios recorridos interactivos en la lista y haga clic en el botón Pausa de la barra inferior. Se pueden pausar hasta 10 recorridos por operación.
-* **Q: ¿Cómo se agregan eventos externos al calendario de recorrido?** — Haga clic en el icono de adición de calendario y, a continuación, arrastre y suelte un archivo CSV con columnas de nombre de evento, fecha de inicio y fecha de finalización; los eventos cargados son visibles para todos los usuarios de la organización.
-* **Q: ¿Por qué el calendario muestra un recorrido como 1 hora aunque se ejecute durante más tiempo?** — El calendario muestra todos los recorridos como intervalos de tiempo de 1 hora para mantener la coherencia visual; esto no refleja la hora real de envío o finalización.
-* **Q: ¿Qué operaciones masivas puedo realizar en varios recorridos a la vez?** — Además de pausar y reanudar, puede seleccionar varios recorridos y añadirlos a un paquete, moverlos a una carpeta, editar sus etiquetas, administrar su acceso o eliminarlos, utilizando la barra de acciones por lotes en la parte inferior de la lista recorridos.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-ui.md}}
 

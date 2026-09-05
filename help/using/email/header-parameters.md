@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1172
 ht-degree: 54%
@@ -154,3 +154,4 @@ La dirección de correo electrónico de reenvío la configura Adobe. Este proces
 
 Una vez finalizado, todos los mensajes recibidos en las direcciones **[!UICONTROL Responder a (correo electrónico)]** y **Correo electrónico de error**, así como todos los correos electrónicos enviados a la dirección **Correo electrónico del remitente**, se reenviarán a la dirección de correo electrónico específica que haya facilitado.
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-header-parameters.md}}

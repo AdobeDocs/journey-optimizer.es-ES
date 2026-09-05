@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 502dcdd62f6044006219367d42429cac9183568c
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
 workflow-type: tm+mt
 source-wordcount: 1212
 ht-degree: 11%
@@ -239,3 +239,5 @@ El siguiente vídeo muestra cómo crear un recorrido de WhatsApp de varios pasos
 >[!VIDEO](https://video.tv.adobe.com/v/3470285/?captions=spa&learn=on")
 
 +++
+
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-create-whatsapp.md}}

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 976
 ht-degree: 12%
 
 ---
@@ -169,3 +169,5 @@ Al crear una regla [que coincida con varias páginas](#web-page-matching-rule), 
     </tr>
     </tbody>
 </table>
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-configuration.md}}

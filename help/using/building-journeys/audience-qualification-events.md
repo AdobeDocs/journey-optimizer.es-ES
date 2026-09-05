@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
+source-git-commit: 3fe3b3372865d6a349fef6baf2861625796e9244
 workflow-type: tm+mt
-source-wordcount: 2584
-ht-degree: 9%
+source-wordcount: 1937
+ht-degree: 13%
 
 ---
 
@@ -156,7 +156,7 @@ La velocidad de recepción de esta información es alta. Las mediciones muestran
 
 >[!CAUTION]
 >
->**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un nodo **Calificación de audiencias**. Los recorridos en directo existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
+>**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un nodo **Calificación de audiencias**. Los recorridos activos existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
 
 Cuando utilice la calificación de audiencia para una audiencia por lotes, tenga en cuenta que se produce un pico de entrada en el momento del cálculo diario. El tamaño del pico depende de cuántos individuos entren o salgan de la audiencia cada día.
 
@@ -254,48 +254,4 @@ Comprenda los casos de uso aplicables para los recorridos de calificación de au
 
 >[!VIDEO](https://video.tv.adobe.com/v/3446207?captions=spa&quality=12)
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo configurar y utilizar la actividad de evento Calificación de audiencias en Journey Optimizer para almacenar en déclencheur o avanzar perfiles en un recorrido cuando entran o salen de una audiencia de Adobe Experience Platform.
-
-**Intenciones:**
-* Configure una actividad de evento de calificación de audiencia para almacenar en déclencheur la entrada de recorrido cuando cambie la pertenencia a audiencias
-* Seleccione el comportamiento correcto (entrada, salida o ambos) para una actividad de calificación de audiencia
-* Aplique las prácticas recomendadas para evitar la sobrecarga de sistemas al utilizar audiencias por lotes o de flujo continuo
-* Comprenda por qué algunos perfiles cualificados pueden no entrar en el recorrido y cómo mitigarlo
-* Utilice la carga útil del nodo AudienceQualification en acciones y condiciones de flujo descendente
-
-**Glosario:**
-* **Evento de calificación de audiencias**: una actividad de evento de recorrido que escucha las entradas o salidas de perfil de una audiencia de Adobe Experience Platform y déclencheur la progresión de recorrido *(específica del producto)*
-* **Comportamiento (entrada/salida)**: La configuración que controla si el recorrido reacciona a los perfiles que se unen (&quot;Realizados&quot;), que salen (&quot;Salidos&quot;) o a ambos estados de una audiencia *(específica del producto)*
-* **Audiencia de streaming**: Una audiencia evaluada continuamente en tiempo real mediante la opción Audiencias de alta frecuencia; recomendada para las actividades de calificación de audiencias *(específica del producto)*
-* **Audiencia por lotes**: Una audiencia se recalcula una vez al día; presenta un pico diario de entradas de perfil y requiere un período de preparación de dos horas después de la finalización del trabajo de segmentación *(específico del producto)*
-* **Nodo AudienceQualification**: el nodo de contexto disponible en el editor de expresiones después de una actividad de calificación de audiencia, que expone la última hora de calificación y el estado *(específico del producto)*
-* **Propagación de Edge a Hub**: Proceso mediante el cual se sincroniza con Hub la pertenencia a un segmento de flujo continuo evaluada en Edge antes de que el recorrido pueda actuar en él; normalmente tarda de 15 a 30 minutos *(específico del producto)*
-
-**Protecciones:**
-* Un nuevo recorrido de calificación de audiencia tarda hasta 10 minutos en activarse después de la publicación
-* Las audiencias de streaming o por lotes que utilizan atributos ingeridos por lotes están listas aproximadamente 2 horas después de completarse el trabajo de segmentación
-* Solo se pueden utilizar las audiencias creadas con definiciones de segmento; no se admiten las audiencias de flujo de trabajo de composición o de carga personalizada
-* Los grupos de campos de evento de experiencia no se pueden usar en recorridos que comiencen por Calificación de audiencias
-* Solo están disponibles las áreas de nombres de identidad basadas en personas para el campo de área de nombres; no se admiten las áreas de nombres de tabla de búsqueda
-* Los perfiles que ya están en la audiencia antes de la publicación del recorrido no entrarán en la recorrido de forma retroactiva
-* La propagación de Edge a Hub para segmentos de flujo continuo suele tardar entre 15 y 30 minutos
-
-**Terminología:**
-* Nombre canónico: Evento de calificación de audiencias — Acrónimo: none — variantes: calificación de segmentos, actividad de calificación de audiencias
-* Sinónimos: &quot;Entrar&quot; = &quot;Realizado&quot; ; &quot;Salir&quot; = &quot;Salido&quot;
-* No confunda: &quot;Calificación de audiencias&quot; ≠ &quot;Leer audiencia&quot; (la calificación de audiencias reacciona ante los cambios de pertenencia en tiempo real; la audiencia de lectura procesa todos los miembros a una hora programada)
-
-**PREGUNTAS MÁS FRECUENTES:**
-* **Q: ¿Cuándo comienza a procesar entradas un recorrido de calificación de audiencia recién publicado?** — La actividad tarda hasta 10 minutos después de la publicación en activarse y en comenzar a escuchar las entradas y salidas del perfil.
-* **Q: ¿Por qué los perfiles no entran en mi recorrido de calificación de audiencias?** — Entre las causas comunes se incluyen: los perfiles ya estaban en la audiencia antes de la publicación, la ventana de activación de 10 minutos no ha transcurrido o la propagación de Edge a Hub (15-30 minutos) para segmentos de flujo continuo aún no ha finalizado.
-* **Q: ¿Puedo usar una audiencia por lotes en una actividad de Calificación de audiencias?** — Sí, pero no se recomienda. Las audiencias por lotes generan un pico de entrada diario y no son adecuadas para casos de uso en tiempo real; utilice una actividad Leer audiencia en su lugar para escenarios por lotes.
-* **Q: ¿Qué datos están disponibles en la carga de AudienceQualification?** — La carga útil incluye el comportamiento (entrada o salida), la marca de tiempo de la calificación y el ID de audiencia.
-* **Q: ¿Puedo usar audiencias creadas a partir de flujos de trabajo de composición en una actividad de calificación de audiencias?** — No, en esta actividad solo se admiten las audiencias creadas con definiciones de segmento.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-audience-qualification-events.md}}

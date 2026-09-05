@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -179,3 +179,5 @@ class Products extends Component {
     }
 }
 ```
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa-implementation.md}}

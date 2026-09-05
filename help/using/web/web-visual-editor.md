@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 981
 ht-degree: 10%
@@ -194,3 +194,5 @@ La capacidad de cambiar el tamaño del dispositivo está diseñada para sitios a
 El siguiente vídeo muestra cómo crear una experiencia web con el diseñador web en [!DNL Journey Optimizer] campañas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-visual-editor.md}}
