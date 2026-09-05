@@ -30,7 +30,7 @@ Obtenga información sobre las reglas de sintaxis detalladas para utilizar el ed
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Instrucción condicional (if, then, else)
 
@@ -40,7 +40,7 @@ Domine el uso de instrucciones condicionales para crear expresiones complejas y 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Información sobre los tipos de datos
 

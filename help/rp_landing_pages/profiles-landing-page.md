@@ -20,7 +20,7 @@ Los perfiles de Adobe Journey Optimizer le permiten crear vistas unificadas de c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a los perfiles
 
@@ -30,7 +30,7 @@ Aprenda a crear, administrar y utilizar perfiles en Adobe Journey Optimizer para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Cómo crear perfiles de prueba
 
@@ -40,7 +40,7 @@ Instrucciones paso a paso sobre la creación de perfiles de prueba para pruebas 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=es)
 
 Trabajar con atributos calculados
 

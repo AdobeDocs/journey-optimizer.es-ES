@@ -35,7 +35,7 @@ Obtenga información sobre las API disponibles para enviar ofertas personalizada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Envío de ofertas mediante la API de toma de decisiones
 
@@ -45,7 +45,7 @@ Cree y envíe ofertas de marketing personalizadas mediante la API de toma de dec
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Enviar ofertas mediante la API de toma de decisiones en Edge
 

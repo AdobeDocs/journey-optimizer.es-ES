@@ -20,7 +20,7 @@ La personalización en Adobe Journey Optimizer le permite crear experiencias de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Introducción a la personalización
 
@@ -40,7 +40,7 @@ Domine el editor de personalización para crear contenido personalizado para cor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Información sobre la sintaxis de personalización
 

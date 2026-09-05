@@ -20,7 +20,7 @@ Los casos de uso de Adobe Journey Optimizer le permiten crear experiencias de cl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=es)
 
 Descubra los casos de uso
 
@@ -40,7 +40,7 @@ Utilice alternativas a los eventos de experiencia para administrar exclusiones, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
 
 Envío de mensajes multicanal
 
@@ -70,7 +70,7 @@ Configure recorridos para enviar mensajes a los suscriptores en función de las 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Paso de colecciones de forma dinámica mediante acciones personalizadas
 

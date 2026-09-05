@@ -50,7 +50,7 @@ Conozca los campos de eventos de pasos heredados que se utilizan en Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Ejemplos de consultas SQL para el análisis de datos
 

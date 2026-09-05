@@ -40,7 +40,7 @@ Aprenda a utilizar las funciones de ayuda para rellenar dinámicamente un correo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
 
 Alerta sobre recetas del plan de estado
 
@@ -50,7 +50,7 @@ Cree un único correo electrónico personalizado que enumere todas las recetas d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
 
 Fórmulas de personalización
 

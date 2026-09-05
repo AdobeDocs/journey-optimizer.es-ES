@@ -30,7 +30,7 @@ Obtenga información sobre cómo controlar la entregabilidad del correo electró
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
 
 Administración de reintentos y listas de supresión
 
