@@ -205,7 +205,7 @@ Para unirse a las ramas, haz clic en el icono más **(+)** en el perímetro dond
 
 Aprenda a utilizar la nueva experiencia de lienzo de recorrido.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
 ## Inicie el recorrido {#start-your-journey}
 
