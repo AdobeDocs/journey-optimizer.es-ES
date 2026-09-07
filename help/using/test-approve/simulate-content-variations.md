@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: c8aa25ff288fcf8efc2b211bc8b0005b7a8771c0
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 1%
 **En esta página:** Obtenga una vista previa de todas las variantes de contenido de un vistazo en una cuadrícula en paralelo, adminístrelas desde una barra de acciones inferior consolidada y vuelva a la experiencia clásica en cualquier momento.
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_content_variations"
+>title="Simular mediante entrada de muestra"
+>abstract="En esta pantalla, puede obtener una vista previa y comparar todas las variantes de contenido en paralelo. Cree variantes introduciendo valores manualmente, cargando un archivo CSV o JSON, generándolos automáticamente con IA o seleccionando usuarios simulados existentes."
 
 La experiencia **[!UICONTROL Simular variaciones de contenido]** se ha rediseñado para que las pruebas y comparaciones de las variantes sean más rápidas y sencillas. Ahora, todas las variantes se representan juntas en una sola cuadrícula desplazable y todos los controles que necesite están disponibles en una sola barra de acciones inferior.
 

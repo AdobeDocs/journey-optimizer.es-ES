@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +107,14 @@ Para definir contenido específico que permita a los usuarios seleccionar y envi
    * **[!UICONTROL Adhesión si está marcada]**: los usuarios deben marcar la casilla para dar su consentimiento (inclusión).
    * **[!UICONTROL Exclusión si está marcada]**: los usuarios deben marcar la casilla para eliminar su consentimiento (exclusión).
    * **[!UICONTROL Adhesión si está marcada, exclusión si no está marcada]**: esta opción le permite insertar una sola casilla de verificación para la inclusión/exclusión. Los usuarios deben marcar la casilla de verificación para el consentimiento (inclusión) y desmarcar para eliminar su consentimiento (exclusión).
+
+1. Para las casillas de verificación de inclusión/exclusión, seleccione **[!UICONTROL Hacer que el campo del formulario sea obligatorio]** si desea que los usuarios deban seleccionar esta casilla de verificación antes de poder enviar el formulario.
+
+   >[!NOTE]
+   >
+   >Esta opción está seleccionada de forma predeterminada.
+
+   Si esta opción está habilitada y el usuario no selecciona la casilla de verificación, el formulario no se puede enviar.
 
 1. Elija lo que desea actualizar entre las tres opciones siguientes:
 

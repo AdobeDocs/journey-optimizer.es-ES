@@ -22,9 +22,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
+source-git-commit: a2c3b641cc80cc876cb6a4a7e3f922ffdc6a9818
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 722
 ht-degree: 6%
 
 ---
@@ -182,7 +182,7 @@ Después de diseñar la actividad en vivo, puede hacer un seguimiento para medir
 
 >[!AVAILABILITY]
 >
-> `executionMetadata` está disponible para las campañas **Transaccional activada por API** y **Marketing activada por API**.
+> `executionMetadata` solo está disponible para **campañas transaccionales activadas por API**.
 
 Adjunte sus propios **datos personalizados** a un perfil, como un ID de pedido, un nivel de lealtad o un código de región, usando el campo opcional `executionMetadata`. Journey Optimizer almacena estos datos junto con la ejecución para que pueda recuperarlos más tarde de su **conjunto de datos de comentarios de actividades en directo** y hacer coincidir los resultados de la entrega con sus propios registros comerciales.
 

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
+source-git-commit: 244b58d353087b16607109b6163ed7a312e8b802
 workflow-type: tm+mt
-source-wordcount: 2323
-ht-degree: 83%
+source-wordcount: 2424
+ht-degree: 79%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 83%
 </tr>
 </tbody>
 </table>
+
+* **Casilla de verificación de consentimiento obligatoria para las páginas de aterrizaje**: ahora puede hacer que una casilla de verificación sea obligatoria en el componente de formulario de la página de aterrizaje, lo que requiere que los visitantes la seleccionen (por ejemplo, dar su consentimiento) antes de que puedan enviar el formulario. [Más información](../landing-pages/lp-content.md#use-form-component)
+
+  Fecha de disponibilidad: 4 de septiembre de 2026
 
 ### Recorridos {#sep-26-journeys}
 
@@ -110,6 +114,10 @@ ht-degree: 83%
 * **Nueva función dateDiff en el editor de expresiones de recorrido**. El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
+
+* **Analizar anomalías de Recorrido** - CX Coworker ahora puede detectar picos inesperados, caídas o líneas planas en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas usando la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
+
+  Fecha de disponibilidad: 2 de septiembre de 2026
 
 ### Campañas {#sep-26-campaigns}
 
