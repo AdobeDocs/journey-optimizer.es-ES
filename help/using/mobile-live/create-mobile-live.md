@@ -250,4 +250,4 @@ En este ejemplo, `orderId`, `tier`, `restaurant` y `region` son sus propios valo
 
 Descubra cómo configurar las actividades en directo de iOS con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
