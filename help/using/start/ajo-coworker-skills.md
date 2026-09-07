@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# Aptitudes de Journey Optimizer en CX Coworker {#ajo-coworker-skills}
+# Funciones de IA de Journey Optimizer en CX Coworker {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las habilidades de Adobe Journey Optimizer disponibles en CX Coworker, desde la creación y el análisis de recorridos hasta la generación de contenido de canal y la administración de recursos de contenido, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas para cada habilidad.
+**En esta página:** Descubra las funcionalidades de IA de Adobe Journey Optimizer disponibles en CX Coworker, desde la creación y el análisis de recorridos hasta la generación de contenido de canal y la administración de recursos de contenido, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas para cada funcionalidad.
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ Gracias a sus conocimientos con tecnología de IA, CX Coworker permite a los usu
 
 CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de fidelidad:
 
-**aptitudes centradas en el Recorrido:**
+**Funciones de IA centradas en el Recorrido:**
 
 * **Creación de Recorrido**: cree y configure recorridos de marketing mediante mensajes en lenguaje natural
 * **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 * **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice el rendimiento del recorrido
 
-**Aptitudes centradas en la fidelización:**
+**Funciones de IA centradas en la fidelidad:**
 
 * **Administración de retos de fidelidad**: cree y administre desafíos de fidelidad mediante mensajes en lenguaje natural
 * **Agente de fidelización - Habilidad de Data Insight**: consulte y analice los datos de rendimiento del programa de fidelización utilizando lenguaje natural
@@ -48,14 +48,14 @@ CX Coworker también incluye un conjunto de **herramientas MCP de administració
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
 * Quick simulation
 -->
 
-## aptitudes de recorrido {#journey-skills}
+## Recorridos {#journey-skills}
 
 ### Crear recorrido {#journey-create}
 
@@ -315,6 +315,21 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
    * &quot;Mostrarme la causa raíz de los errores de acciones personalizadas en el recorrido [Nombre de Recorrido]&quot;.
    * &quot;¿Hay algún error de acción personalizada que afecte al recorrido [Nombre de Recorrido] en este momento?&quot;
 
+1. **Analizar anomalías de Recorrido**
+
+   * Detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en comparación con las líneas de base históricas, incluso cuando la pregunta se formula en torno al número de perfiles que entran, salen o completan el recorrido.
+   * Confirme si un cambio marcado es una anomalía genuina mediante una comprobación estadística determinista, en lugar de depender únicamente del indicador de anomalía sin procesar.
+   * Ejecute diagnósticos limitados de solo lectura con datos de ejecución de recorrido para identificar una causa raíz probable, mostrando lo que cada comprobación buscó y encontró junto con la recomendación.
+   * Investigue las alertas de anomalías que hagan referencia a una versión de recorrido y una marca de tiempo específicas.
+
+   Ejemplos de mensajes:
+   * &quot;¿Por qué se cayeron las entradas para mi recorrido de bienvenida de ayer?&quot;
+   * &quot;¿Aumentaron las salidas del recorrido de abandono del carro de compras esta semana?&quot;
+   * &quot;Los envíos parecen bajos para el recorrido de recordatorio de renovación de hoy, ¿qué ha pasado?&quot;
+   * &quot;¿Por qué ha habido una caída repentina en el número de perfiles que han entrado en mi recorrido de agradecimiento de aniversario de miembro en los últimos 30 días?&quot;
+   * &quot;Menos perfiles de los habituales completan este mes mi recorrido de recordatorio de renovación, ¿por qué?&quot;
+   * &quot;Se activó una alerta de anomalía para el recorrido [Id. de versión de Recorrido] a las [marcas de tiempo] — investigar&quot;.
+
 #### Aptitudes en el ámbito
 
 El análisis de Recorrido admite las siguientes funciones:
@@ -323,13 +338,13 @@ El análisis de Recorrido admite las siguientes funciones:
 * **Integración con otras habilidades**: colabora con las capacidades de Audience y Data Insights para realizar un análisis más profundo.
 * **Estructura de la respuesta**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
 * **Análisis de errores de acciones personalizadas**: Detecte y diagnostique errores de acciones personalizadas y picos de error dentro de un recorrido.
+* **Detección de anomalías**: detecte y confirme los picos, las caídas o las líneas planas estadísticamente significativos en los recuentos de entrada, salida o envío de un recorrido, y detecte una causa probable.
 
 #### Aptitudes fuera del ámbito
 
 Actualmente no se admiten las siguientes funcionalidades:
 
 * **Creación automática de recorridos**
-* **Detección de anomalías en tiempo real**
 * **Los canales se solapan**
 * **Análisis de entrada del recorrido**
 * **Análisis de problemas técnicos**
@@ -349,7 +364,7 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 * **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 * **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
-## Aptitudes de fidelización {#loyalty-skills}
+## Lealtad {#loyalty-skills}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +642,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
