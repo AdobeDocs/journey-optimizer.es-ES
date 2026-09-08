@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Monitorización del rendimiento del desafío de fidelidad
+title: Monitorizar el rendimiento del reto de lealtad
 description: Aprenda a utilizar los paneles de informes de Retos de fidelidad para rastrear el rendimiento y las perspectivas de los desafíos en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Monitorización del rendimiento del desafío de fidelidad {#loyalty-reporting}
+# Monitorizar el rendimiento del reto de lealtad {#loyalty-reporting}
 
 Utilice los informes Retos de fidelización para ver el rendimiento de los desafíos. Compruebe quién se inscribe, quién completa los desafíos y cuántos ingresos genera su programa, todo en un solo lugar. Los datos proceden de Adobe Customer Journey Analytics.
 
@@ -96,4 +96,4 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 
 ➡️ Vea cómo medir el rendimiento de los desafíos con los informes de desafíos
 
->[!VIDEO](https://video.tv.adobe.com/v/3497562?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)

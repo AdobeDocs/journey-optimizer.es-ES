@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: experimentación, experimento, recorrido, ruta, optimización, pruebas A/B, multi-armed bandit, escalar el ganador
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: d328f775-66ee-431a-bd26-490e1e80c48f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1308
 ht-degree: 6%

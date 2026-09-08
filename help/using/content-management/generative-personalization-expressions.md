@@ -8,11 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0e98b784ec90c5a816e3d5db69a5f96a737ab31a
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1504
 ht-degree: 2%
@@ -133,7 +131,7 @@ En Email Designer, puede usar [!UICONTROL Generar contenido para expresiones de 
 
    ![](assets/ai-perso-add-expression-insert.png)
 
-   Se puede:
+   Puede:
 
    * Valide el resultado de la expresión con un valor de muestra; use la ficha **[!UICONTROL Vista previa]**.
    * Generar otra sugerencia desde el mismo mensaje: use **[!UICONTROL Regenerar]**.

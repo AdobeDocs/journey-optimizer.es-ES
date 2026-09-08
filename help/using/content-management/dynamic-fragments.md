@@ -8,9 +8,11 @@ topic: Content Management
 role: User, Developer
 level: Intermediate, Experienced
 keywords: dinámico, fragmento, expresión, personalización, tiempo de ejecución
-source-git-commit: b4affc5b905236419928a65cd173173b49058827
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1317
 ht-degree: 2%
 
 ---

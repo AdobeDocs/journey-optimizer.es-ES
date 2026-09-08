@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 mini-toc-levels: 2
-feature_v2: []
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 642
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 Esta capacidad con tecnología de IA, integrada en el editor de expresiones avanzadas de Recorrido, le ayuda a generar expresiones válidas a partir de peticiones de datos en lenguaje sencillo.
 
-Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera &#x200B;]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
+Está disponible dondequiera que se abra el Recorrido **[!UICONTROL Editor de expresiones avanzadas]**. Por ejemplo, al configurar condiciones y enrutamiento dentro de una **[actividad de optimización](../optimize.md)**, o al configurar una actividad de [**[!UICONTROL Espera ]**](../wait-activity.md) que usa una fecha personalizada y necesita una expresión `dateTimeOnly`.
 
 ## Generar una expresión {#generate}
 

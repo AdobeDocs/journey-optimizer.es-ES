@@ -5,18 +5,14 @@ title: Uso de la actividad Cargar archivo
 description: Aprenda a utilizar la actividad Cargar archivo para dirigirse a una audiencia de campaña organizada desde un archivo CSV o TXT sin ingerir el archivo en Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1612
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +31,7 @@ ht-degree: 4%
 
 La actividad **[!UICONTROL Cargar archivo]** es una actividad de **[!UICONTROL Administración de datos]**. Utilícela para trabajar con perfiles y datos almacenados en un archivo externo. Admite **segmentación basada en archivos** en campañas orquestadas cuando la lista de destinatarios proviene de un sistema externo (por ejemplo, una exportación de CRM o un archivo de socio) y desea ejecutar una campaña sin crear primero una canalización de ingesta de Adobe Experience Platform completa.
 
-Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene la audiencia limpia sin preprocesamiento manual.
+Durante la configuración del archivo, puede definir asignaciones de columnas, tipos de datos, control de valores NULL y directivas de error por columna. Las filas que no superan la validación se rechazan y registran antes de que se ejecute la campaña, lo que mantiene el público limpio sin preprocesamiento manual.
 
 >[!AVAILABILITY]
 >

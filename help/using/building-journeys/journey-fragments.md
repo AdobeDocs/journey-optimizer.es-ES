@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fragmentos del recorrido
+title: Fragmentos de recorrido
 description: Aprenda a crear y utilizar fragmentos de recorrido para guardar y reutilizar conjuntos de nodos de recorrido en varios recorridos en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1671
 ht-degree: 11%
@@ -19,7 +19,7 @@ ht-degree: 11%
 ---
 
 
-# Fragmentos del recorrido {#journey-fragments}
+# Fragmentos de recorrido {#journey-fragments}
 
 >[!BEGINSHADEBOX]
 

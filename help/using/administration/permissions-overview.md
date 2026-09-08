@@ -10,25 +10,16 @@ level: Intermediate
 keywords: permisos, derechos, restricciones, acceso, zona protegida
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: []
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 5%
+source-wordcount: 961
+ht-degree: 4%
 
 ---
 
@@ -44,7 +35,7 @@ ht-degree: 5%
 
 El control de acceso de [!DNL Journey Optimizer] se proporciona mediante **Permisos** en [!DNL Adobe CX Enterprise]. Esta funcionalidad aprovecha las funciones y directivas que vinculan a los usuarios con permisos y zonas protegidas.
 
-Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
+Para configurar el control de acceso para Journey Optimizer, debe tener privilegios de administrador de sistemas o productos para su organización. La función mínima que puede conceder o retirar permisos es de administrador de productos. Otros roles de administrador que pueden administrar permisos son administradores del sistema (sin restricciones). Consulte el [artículo del Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} sobre funciones administrativas para obtener más información.
 
 <!--
  A high-level workflow for gaining and assigning access permissions can be summarized as follows:
@@ -61,7 +52,7 @@ Para configurar el control de acceso para Journey Optimizer, debe tener privileg
 La administración de usuarios en [!DNL Journey Optimizer] se basa en estos conceptos clave:
 
 * **[!UICONTROL Roles]**: Los roles hacen referencia a una colección de usuarios que comparten los mismos permisos y zonas protegidas. Estas funciones le permiten administrar fácilmente el acceso y los permisos para diferentes grupos de usuarios dentro de su organización. Una función viene con un conjunto de derechos unitarios (permisos) que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz.
-Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL roles]** preexistentes, cada uno con diferentes niveles de permisos, para asignarlos a sus usuarios. Obtenga más información acerca de las **funciones integradas** disponibles en [esta página](ootb-product-profiles.md).
+Con [!DNL Journey Optimizer], puede elegir entre una serie de **[!UICONTROL roles]** preexistentes, cada uno con diferentes niveles de permisos, para asignarlos a los usuarios. Obtenga más información acerca de las **funciones integradas** disponibles en [esta página](ootb-product-profiles.md).
 
 * **[!UICONTROL Permisos]**: los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a **[!UICONTROL roles]**. Cada permiso se recopila en recursos como, por ejemplo, Recorrido u Ofertas, que representan las diferentes funcionalidades u objetos de [!DNL Journey Optimizer]. Obtenga más información en la sección [Niveles de permisos](high-low-permissions.md).
 

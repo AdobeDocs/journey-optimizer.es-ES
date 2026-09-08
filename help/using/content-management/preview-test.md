@@ -5,11 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: ht
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 637
 ht-degree: 100%
 
@@ -83,4 +82,4 @@ Para las campañas activadas por API y de acción (programadas), también puede 
 
 Aprenda a utilizar perfiles de prueba para probar la representación de correo electrónico en varias bandejas de entrada, previsualizar los correos electrónicos personalizados con perfiles de prueba y enviar pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430335?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 exl-id: 3f2a1c0d-8e9b-4a7c-b5d1-0f2e3a4b5c6d
-feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 4%

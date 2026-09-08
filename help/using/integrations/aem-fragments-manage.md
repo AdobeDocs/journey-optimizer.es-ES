@@ -6,9 +6,11 @@ description: Descubra cómo administrar fragmentos de contenido de AEM
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: 415
 ht-degree: 0%
 
 ---

@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 811
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -53,7 +44,7 @@ Estos elementos de decisión se integran perfectamente en los mensajes y experie
 >
 >Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push**, **SMS** y **Correo directo**.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 
@@ -114,7 +105,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 >[!NOTE]
 >
->Los perfiles que reciben una decisión a través de un recorrido o una campaña se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización, junto con perfiles comprometidos a través de otras funcionalidades de Journey Optimizer. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
+>Los perfiles que reciben una decisión a través de un recorrido o una campaña se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización, junto con perfiles comprometidos a través de otras funcionalidades de Journey Optimizer. [Monitorización del recuento de Perfiles interesados](../audience/license-usage.md)
 
 ## Proceso de toma de decisiones {#process}
 
@@ -137,4 +128,4 @@ El siguiente gráfico resume el proceso de toma de decisiones de extremo a extre
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

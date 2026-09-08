@@ -9,12 +9,12 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1705
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 **Tabla de contenido**
 
-[Introducción a los retos de fidelización](get-started.md)
+[Introducción a los retos de lealtad](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,20 +37,20 @@ ht-degree: 1%
 
 **Crear y administrar desafíos**
 
-* [Acceder y administrar desafíos y tareas](access-loyalty-challenges.md)
-* [Crear desafíos](create-challenges.md)
-* [Creación de tareas](create-tasks.md)
-* [Monitorización del rendimiento del desafío de fidelidad](loyalty-reporting.md)
+* [Acceder a retos y tareas y administrarlos](access-loyalty-challenges.md)
+* [Crear retos](create-challenges.md)
+* [Crear tareas](create-tasks.md)
+* [Monitorizar el rendimiento del reto de lealtad](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">
 
 **Configurar e integrar**
 
-* [Configuración de desafíos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensa](reward-definition-guide.md)
+* [Configurar retos de lealtad](loyalty-admin.md)
+* [Guía de definición de recompensas](reward-definition-guide.md)
 * **Guía del transformador de eventos** ◀︎ **Usted está aquí**
-* [Datos y conjuntos de datos de fidelización](loyalty-data-and-datasets.md)
+* [Datos y conjuntos de datos de lealtad](loyalty-data-and-datasets.md)
 * [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 </td>

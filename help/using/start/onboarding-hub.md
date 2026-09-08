@@ -9,10 +9,12 @@ role: User
 level: Beginner
 hide: true
 keywords: optimizador de recorrido, incorporación, centro de incorporación, casos de uso, vídeos, tutoriales, introducción, ampliación, primer recorrido
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: 1149
+ht-degree: 11%
 
 ---
 
@@ -39,12 +41,12 @@ rebuild
 
 Si tiene diez minutos, empiece con este vídeo de orientación. Recorre la interfaz y resalta las capacidades clave por función.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 A continuación, genere confianza práctica con estos recursos de aprendizaje:
 
 * [Tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: vídeos paso a paso y tutoriales guiados para cada función.
-* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
+* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
 * [Entorno aislado de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un entorno seguro con datos de ejemplo para practicar.
 * [Desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — Aplique lo que aprende con ejercicios guiados.
 
@@ -79,7 +81,7 @@ Cada uno de los pasos a continuación es un breve conjunto de pasos orientados a
 ### Envío de mensajes transaccionales {#build-transactional}
 
 **Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.
-**Ideal para:** especialistas en marketing y desarrolladores · **Capacidad:** Campaña activada por API
+**Ideal para:** especialistas en marketing y desarrolladores · **Funcionalidad:** Campaña activada por API
 
 1. Revise cómo funcionan [campañas activadas por API](../campaigns/api-triggered-campaigns.md) y qué carga útil esperan.
 2. Diseñe la plantilla de mensaje y [personalícela](../personalization/personalize.md) con los detalles de la transacción.
@@ -101,7 +103,7 @@ Cada uno de los pasos a continuación es un breve conjunto de pasos orientados a
 ### Personalizar ofertas por cliente {#build-offers}
 
 **Creará:** Una decisión que muestra la mejor oferta para cada cliente.
-**Ideal para:** especialistas en marketing · **Capacidad:** Toma de decisiones
+**Óptimo para:** Especialistas en marketing · **Capacidad:** Toma de decisiones
 
 1. [Empiece con Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) y cree sus ofertas y reglas de elegibilidad.
 2. Agregue la decisión a un [recorrido](../building-journeys/journey-gs.md) o mensaje de campaña.
@@ -139,7 +141,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 >[!TAB Informes y optimización]
 
 * [Monitorice y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Rastree el rendimiento en tiempo real.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 

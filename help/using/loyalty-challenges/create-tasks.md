@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1140
 ht-degree: 9%
 
 ---
 
-# Creación de tareas {#create-tasks}
+# Crear tareas {#create-tasks}
 
 Las tareas definen las acciones o los hitos específicos que los clientes deben completar para obtener recompensas en un desafío de lealtad. Puede configurar tareas de compra y gasto o **[!UICONTROL eventos personalizados]** tareas que hagan un seguimiento de los eventos de experiencia de Adobe Experience Platform que su organización ya capture.
 
@@ -170,5 +170,5 @@ Después de configurar todos los atributos y propiedades, seleccione **[!UICONTR
 
 Aprenda a crear y configurar tareas con este tutorial paso a paso:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496445?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

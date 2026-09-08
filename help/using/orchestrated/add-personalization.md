@@ -5,15 +5,11 @@ title: Añadir personalización en campañas organizadas
 description: Obtenga información sobre cómo personalizar mensajes de campañas orquestadas mediante atributos de perfil, atributos de destinatario de la tabla de trabajo y matrices de recopilación de enriquecimiento.
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 477
 ht-degree: 0%

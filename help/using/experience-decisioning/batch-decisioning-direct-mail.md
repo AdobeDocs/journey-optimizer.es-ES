@@ -6,9 +6,11 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: toma de decisiones por lotes, correo directo, toma de decisiones
-source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 886
 ht-degree: 0%
 
 ---

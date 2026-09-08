@@ -9,20 +9,12 @@ level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ytq-DaCojPLwO0ReHyA6oYnAzepr02rthWrZwU-lehY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2297
 ht-degree: 0%
@@ -158,7 +150,8 @@ En la inicialización, ningún modelo se ha entrenado todavía, así que el 100%
 
 Para maximizar la ventaja de utilizar la optimización personalizada, hay que tener en cuenta algunos supuestos y limitaciones clave.
 
-* **Las ofertas son lo suficientemente diferentes como para que los usuarios tengan preferencias diferentes entre las ofertas consideradas**. Si las ofertas son demasiado similares, un modelo resultante tendrá menos impacto, ya que las respuestas son aparentemente aleatorias.Por ejemplo, si un banco tiene dos ofertas de tarjetas de crédito con la única diferencia de color, puede que no importe qué tarjeta se recomienda, pero si cada tarjeta tiene términos diferentes, esto proporciona una justificación de por qué ciertos clientes elegirían uno y proporcionarían suficiente diferencia entre ofertas para crear un modelo más impactante.
+* **Las ofertas son lo suficientemente diferentes como para que los usuarios tengan preferencias diferentes entre las ofertas consideradas**. Si las ofertas son demasiado similares, un modelo resultante tendrá menos impacto, ya que las respuestas son aparentemente aleatorias.
+Por ejemplo, si un banco tiene dos ofertas de tarjetas de crédito con la única diferencia de color, puede que no importe qué tarjeta se recomienda, pero si cada tarjeta tiene términos diferentes, esto proporciona una justificación de por qué ciertos clientes elegirían uno y proporcionarían suficiente diferencia entre ofertas para crear un modelo más impactante.
 * **La composición del tráfico del usuario es estable**. Si la composición del tráfico del usuario cambia drásticamente durante el aprendizaje y la predicción del modelo, el rendimiento del modelo podría degradarse. Por ejemplo, supongamos que en la fase de formación del modelo solo están disponibles los datos de los usuarios de la audiencia A, pero el modelo entrenado se utiliza para generar predicciones para los usuarios de la audiencia B y, por lo tanto, el rendimiento del modelo podría verse afectado.
 * **El rendimiento de las ofertas no cambia drásticamente en un corto período de tiempo**, ya que este modelo se actualiza semanalmente y los cambios de rendimiento se transmiten como actualizaciones del modelo. Por ejemplo, un producto era muy popular antes, pero un informe público identifica que el producto es perjudicial para nuestra salud, y este producto se vuelve impopular extremadamente rápido. En esta situación, el modelo podría seguir prediciendo este producto hasta que se actualice con cambios en el comportamiento del usuario.
 

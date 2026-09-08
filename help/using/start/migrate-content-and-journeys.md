@@ -7,10 +7,12 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 1%
+source-wordcount: 1317
+ht-degree: 2%
 
 ---
 
@@ -119,7 +121,7 @@ Una vez que tenga un origen para el contenido, ya sea un archivo HTML o una cone
 
 1. Agregue su **[!UICONTROL Línea de asunto]** y asigne cada marcador de posición de personalización al atributo de perfil correspondiente.
 
-   El espacio de trabajo convierte automáticamente la sintaxis de la secuencia de comandos de origen a la sintaxis Handlebars. Para obtener una lista de los operadores admitidos, consulte [Operadores](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   El espacio de trabajo convierte automáticamente la sintaxis de la secuencia de comandos de origen a la sintaxis Handlebars. Para obtener una lista de los operadores admitidos, consulte [Operadores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor de correo electrónico importado con campo de línea de asunto y asignación de marcador de posición de personalización](assets/onboarding-hub-8.png)
 

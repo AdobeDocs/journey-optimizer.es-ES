@@ -9,9 +9,11 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1995
 ht-degree: 2%
 
 ---

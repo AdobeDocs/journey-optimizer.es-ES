@@ -7,10 +7,12 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: b5afe8bf-bda6-41b5-ba06-922638872d63id: a7289281-9ae4-47b1-b8cf-4028b98af776id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: 544
+ht-degree: 1%
 
 ---
 

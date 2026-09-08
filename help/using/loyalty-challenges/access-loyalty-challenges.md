@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Acceder y administrar desafíos y tareas
+title: Acceder a retos y tareas y administrarlos
 description: Obtenga información sobre cómo acceder, administrar y organizar desafíos y tareas de lealtad en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Acceder y administrar desafíos y tareas {#access-loyalty-challenges}
+# Acceder a retos y tareas y administrarlos {#access-loyalty-challenges}
 
-## Acceder y administrar desafíos y tareas
+## Acceder a retos y tareas y administrarlos
 
 Para acceder a Desafíos de fidelización, vaya a Journey Optimizer y seleccione **[!UICONTROL Desafío de fidelización]** en la sección **[!UICONTROL Administración de Recorridos]**. La interfaz Retos de fidelización proporciona una ubicación centralizada para ver, administrar y organizar todos los desafíos y tareas.
 
