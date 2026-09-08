@@ -8,9 +8,10 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: vínculo profundo, vínculo profundo, vínculos universales, vínculos de aplicación, correo electrónico, sms
-feature_v2: []
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
-source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1367
 ht-degree: 1%

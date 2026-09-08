@@ -8,9 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3183'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +42,7 @@ La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)*
 
 >[!TIP]
 >
->¿Es nuevo en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>¿Es su primera vez en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configuración de Journey Optimizer para su equipo {#setup-admin}
 
@@ -212,7 +217,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 ### Envío de mensajes transaccionales {#flow-transactional}
 
 **Creará:** confirmaciones de pedidos, envíos o citas a petición activadas por un sistema externo.
-**Ideal para:** especialistas en marketing y desarrolladores · **Capacidad:** Campaña activada por un sistema externo
+**Ideal para:** especialistas en marketing y desarrolladores · **Funcionalidad:** Campaña desencadenada por un sistema externo
 
 1. Revise cómo funcionan las [campañas activadas por un sistema externo](../campaigns/api-triggered-campaigns.md) y qué carga útil esperan.
 1. Diseñe la plantilla de mensaje y [personalícela](../personalization/personalize.md) con los detalles de la transacción.
@@ -234,7 +239,7 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 ### Personalizar ofertas por cliente {#flow-offers}
 
 **Creará:** Una decisión que muestra la mejor oferta para cada cliente.
-**Ideal para:** especialistas en marketing · **Capacidad:** Toma de decisiones
+**Óptimo para:** Especialistas en marketing · **Capacidad:** Toma de decisiones
 
 1. [Empiece con Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) y cree sus ofertas y reglas de elegibilidad.
 1. Agregue la decisión a un [recorrido](../building-journeys/journey-gs.md) o mensaje de campaña.
@@ -306,7 +311,7 @@ Una marca comercial que planea el lanzamiento de un producto utiliza la función
 
 **Función:** Operaciones | **Capacidad principal:** [Organización de recorrido que no es de marketing](../building-journeys/journey-gs.md)
 
-Quienes no son especialistas en marketing, como los equipos de operaciones y el servicio de atención al cliente, pueden usar [!DNL Adobe Journey Optimizer] para administrar las notificaciones operacionales o supervisar los procesos de incorporación. Por ejemplo, un parque de atracciones donde los visitantes descargan una aplicación móvil como parte de su experiencia: el personal de mantenimiento puede utilizar Journey Optimizer para notificar a los visitantes del parque de las atracciones que están cerradas debido al mantenimiento.
+Quienes no son especialistas en marketing, como los equipos de operaciones y el servicio de atención al cliente, pueden usar [!DNL Adobe Journey Optimizer] para administrar las notificaciones operacionales o monitorizar los procesos de incorporación. Por ejemplo, un parque de atracciones donde los visitantes descargan una aplicación móvil como parte de su experiencia: el personal de mantenimiento puede utilizar Journey Optimizer para notificar a los visitantes del parque de las atracciones que están cerradas debido al mantenimiento.
 
 [Creación de su primer recorrido](../building-journeys/journey-gs.md)
 

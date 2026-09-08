@@ -12,11 +12,10 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
@@ -28,8 +27,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 100%
 
@@ -178,6 +177,6 @@ Una vez configurado el entorno:
 | Administrador | [Introducción para administradores](administrator.md) |
 | Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
 | Desarrollador | [Introducción para desarrolladores](developer.md) |
-| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+| Experto en marketing | [Introducción para los expertos en marketing](marketer.md) |
 
 Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

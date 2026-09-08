@@ -13,11 +13,9 @@ TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -31,8 +29,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 2058
 ht-degree: 100%
 
@@ -119,7 +117,7 @@ Consulte también las [Notas de la versión de octubre de Adobe Experience Platf
 
 **Administración**
 
-* **Editar ajustes preestablecidos de mensaje**: ahora puede editar los ajustes preestablecidos de mensajes y controlar su estado de actualización. [Más información](../configuration/channel-surfaces.md#edit-channel-surface)
+* **Editar ajustes preestablecidos de mensaje**: ahora puede editar los ajustes preestablecidos de mensajes y monitorizar su estado de actualización. [Más información](../configuration/channel-surfaces.md#edit-channel-surface)
 * **Editar registros PTR**: ahora puede editar registros PTR y monitorizar su estado de actualización. [Más información](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personalización**

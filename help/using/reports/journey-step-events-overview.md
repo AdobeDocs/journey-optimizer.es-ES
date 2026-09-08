@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/PSXSN-31GNlM0zBKcCvdKPciHt5zhQPPCffFrUo
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -38,7 +37,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 5%

@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 811
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -53,7 +53,7 @@ Estos elementos de decisión se integran perfectamente en los mensajes y experie
 >
 >Las directivas de decisión están disponibles para todos los clientes para los canales **Experiencia basada en código**, **Correo electrónico**, **Notificación push**, **SMS** y **Correo directo**.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ➡️ En [esta sección](experience-decisioning-uc.md) se presenta un caso de uso de extremo a extremo que muestra cómo crear decisiones y utilizarlas en experimentos de contenido con el canal de experiencia basado en código.
 
@@ -114,7 +114,7 @@ Los pasos principales para trabajar con Decisioning son los siguientes:
 
 >[!NOTE]
 >
->Los perfiles que reciben una decisión a través de un recorrido o una campaña se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización, junto con perfiles comprometidos a través de otras funcionalidades de Journey Optimizer. [Supervisar el recuento de perfiles atractivos](../audience/license-usage.md)
+>Los perfiles que reciben una decisión a través de un recorrido o una campaña se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización, junto con perfiles comprometidos a través de otras funcionalidades de Journey Optimizer. [Monitorización del recuento de Perfiles interesados](../audience/license-usage.md)
 
 ## Proceso de toma de decisiones {#process}
 

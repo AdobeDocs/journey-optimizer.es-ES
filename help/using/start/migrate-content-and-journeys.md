@@ -7,10 +7,14 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 1%
+source-wordcount: 1317
+ht-degree: 2%
 
 ---
 

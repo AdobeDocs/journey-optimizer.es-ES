@@ -11,10 +11,10 @@ TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3N
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
@@ -29,8 +29,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 1103
 ht-degree: 100%
 
@@ -150,6 +150,6 @@ Colabore con [expertos en marketing](marketer.md) en públicos y datos:
 | Administrador | [Introducción para administradores](administrator.md) |
 | Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
 | Desarrollador | [Introducción para desarrolladores](developer.md) |
-| Experto en marketing | [Introducción para expertos en marketing](marketer.md) |
+| Experto en marketing | [Introducción para los expertos en marketing](marketer.md) |
 
 Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

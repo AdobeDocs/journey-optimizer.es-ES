@@ -10,12 +10,10 @@ TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 43
 ht-degree: 100%

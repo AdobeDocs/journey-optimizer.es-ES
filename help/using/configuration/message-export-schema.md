@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: exportación, mensajes, conjunto de datos, esquema, correos electrónicos, SMS
-feature_v2: []
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 447
 ht-degree: 3%
@@ -63,55 +64,55 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `recipient`\
   **Tipo:** objeto
 
-   * cco
+  * cco
 
-     **Campo:** `bcc`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `bcc`\
+    **Tipo:** matriz de cadenas
 
-   * cc
+  * cc
 
-     **Campo:** `cc`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `cc`\
+    **Tipo:** matriz de cadenas
 
-   * correo electrónico
+  * correo electrónico
 
-     **Campo:** `email`\
-     **Tipo:** cadena
+    **Campo:** `email`\
+    **Tipo:** cadena
 
-   * name
+  * name
 
-     **Campo:** `name`\
-     **Tipo:** cadena
+    **Campo:** `name`\
+    **Tipo:** cadena
 
 * remitente
 
   **Campo:** `sender`\
   **Tipo:** objeto
 
-   * correo electrónico
+  * correo electrónico
 
-     **Campo:** `email`\
-     **Tipo:** cadena
+    **Campo:** `email`\
+    **Tipo:** cadena
 
-   * errorEmail
+  * errorEmail
 
-     **Campo:** `errorEmail`\
-     **Tipo:** cadena
+    **Campo:** `errorEmail`\
+    **Tipo:** cadena
 
-   * name
+  * name
 
-     **Campo:** `name`\
-     **Tipo:** cadena
+    **Campo:** `name`\
+    **Tipo:** cadena
 
-   * replyToEmail
+  * replyToEmail
 
-     **Campo:** `replyToEmail`\
-     **Tipo:** cadena
+    **Campo:** `replyToEmail`\
+    **Tipo:** cadena
 
-   * replyToName
+  * replyToName
 
-     **Campo:** `replyToName`\
-     **Tipo:** cadena
+    **Campo:** `replyToName`\
+    **Tipo:** cadena
 
 +++
 
@@ -125,20 +126,20 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `recipient`\
   **Tipo:** objeto
 
-   * número
+  * número
 
-     **Campo:** `number`\
-     **Tipo:** cadena
+    **Campo:** `number`\
+    **Tipo:** cadena
 
 * remitente
 
   **Campo:** `sender`\
   **Tipo:** objeto
 
-   * números
+  * números
 
-     **Campo:** `numbers`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `numbers`\
+    **Tipo:** matriz de cadenas
 
 +++
 
@@ -152,15 +153,15 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `audience`\
   **Tipo:** objeto
 
-   * id
+  * id
 
-     **Campo:** `id`\
-     **Tipo:** cadena
+    **Campo:** `id`\
+    **Tipo:** cadena
 
-   * tipo
+  * tipo
 
-     **Campo:** `type`\
-     **Tipo:** cadena
+    **Campo:** `type`\
+    **Tipo:** cadena
 
 * fragmentPublicationIDs
 
@@ -172,34 +173,34 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `metadata`\
   **Tipo:** mapa
 
-   * [Clave de mapa]
+  * [Clave de mapa]
 
-     **Tipo:** cadena
+    **Tipo:** cadena
 
 * parentSourceMeta
 
   **Campo:** `parentSourceMeta`\
   **Tipo:** objeto
 
-   * sourceActionID
+  * sourceActionID
 
-     **Campo:** `sourceActionID`\
-     **Tipo:** cadena
+    **Campo:** `sourceActionID`\
+    **Tipo:** cadena
 
-   * sourceID
+  * sourceID
 
-     **Campo:** `sourceID`\
-     **Tipo:** cadena
+    **Campo:** `sourceID`\
+    **Tipo:** cadena
 
-   * sourceType
+  * sourceType
 
-     **Campo:** `sourceType`\
-     **Tipo:** cadena
+    **Campo:** `sourceType`\
+    **Tipo:** cadena
 
-   * sourceVersionID
+  * sourceVersionID
 
-     **Campo:** `sourceVersionID`\
-     **Tipo:** cadena
+    **Campo:** `sourceVersionID`\
+    **Tipo:** cadena
 
 * batchInstanceID
 
@@ -278,55 +279,55 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `channel`\
   **Tipo:** objeto
 
-   * contentTypes
+  * contentTypes
 
-     **Campo:** `contentTypes`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `contentTypes`\
+    **Tipo:** matriz de cadenas
 
-   * locationTypes
+  * locationTypes
 
-     **Campo:** `locationTypes`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `locationTypes`\
+    **Tipo:** matriz de cadenas
 
-   * metricTypes
+  * metricTypes
 
-     **Campo:** `metricTypes`\
-     **Tipo:** matriz de cadenas
+    **Campo:** `metricTypes`\
+    **Tipo:** matriz de cadenas
 
-   * _id
+  * _id
 
-     **Campo:** `_id`\
-     **Tipo:** cadena
+    **Campo:** `_id`\
+    **Tipo:** cadena
 
-   * _type
+  * _type
 
-     **Campo:** `_type`\
-     **Tipo:** cadena
+    **Campo:** `_type`\
+    **Tipo:** cadena
 
-   * mediaAction
+  * mediaAction
 
-     **Campo:** `mediaAction`\
-     **Tipo:** cadena
+    **Campo:** `mediaAction`\
+    **Tipo:** cadena
 
-   * mediaType
+  * mediaType
 
-     **Campo:** `mediaType`\
-     **Tipo:** cadena
+    **Campo:** `mediaType`\
+    **Tipo:** cadena
 
-   * modo
+  * modo
 
-     **Campo:** `mode`\
-     **Tipo:** cadena
+    **Campo:** `mode`\
+    **Tipo:** cadena
 
-   * referenceSource
+  * referenceSource
 
-     **Campo:** `referringSource`\
-     **Tipo:** cadena
+    **Campo:** `referringSource`\
+    **Tipo:** cadena
 
-   * typeAtSource
+  * typeAtSource
 
-     **Campo:** `typeAtSource`\
-     **Tipo:** cadena
+    **Campo:** `typeAtSource`\
+    **Tipo:** cadena
 
 * isSendTimeOptimized
 
@@ -380,40 +381,40 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
   **Campo:** `emailContent`\
   **Tipo:** objeto
 
-   * html
+  * html
 
-     **Campo:** `html`\
-     **Tipo:** cadena
+    **Campo:** `html`\
+    **Tipo:** cadena
 
-   * sujeto
+  * sujeto
 
-     **Campo:** `subject`\
-     **Tipo:** cadena
+    **Campo:** `subject`\
+    **Tipo:** cadena
 
-   * texto
+  * texto
 
-     **Campo:** `text`\
-     **Tipo:** cadena
+    **Campo:** `text`\
+    **Tipo:** cadena
 
 * smsContent
 
   **Campo:** `smsContent`\
   **Tipo:** objeto
 
-   * medios
+  * medios
 
-     **Campo:** `media`\
-     **Tipo:** cadena
+    **Campo:** `media`\
+    **Tipo:** cadena
 
-   * message
+  * message
 
-     **Campo:** `message`\
-     **Tipo:** cadena
+    **Campo:** `message`\
+    **Tipo:** cadena
 
-   * título
+  * título
 
-     **Campo:** `title`\
-     **Tipo:** cadena
+    **Campo:** `title`\
+    **Tipo:** cadena
 
 +++
 
@@ -426,20 +427,20 @@ Esta sección enumera los campos disponibles en el conjunto de datos exportado.
 
   **Tipo:** matriz de objetos
 
-   * authenticatedState
+  * authenticatedState
 
-     **Campo:** `authenticatedState`\
-     **Tipo:** cadena
+    **Campo:** `authenticatedState`\
+    **Tipo:** cadena
 
-   * id
+  * id
 
-     **Campo:** `id`\
-     **Tipo:** cadena
+    **Campo:** `id`\
+    **Tipo:** cadena
 
-   * principal
+  * principal
 
-     **Campo:** `primary`\
-     **Tipo:** booleano
+    **Campo:** `primary`\
+    **Tipo:** booleano
 
 +++
 

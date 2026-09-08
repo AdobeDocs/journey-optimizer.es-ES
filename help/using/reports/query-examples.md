@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
 subfeature_v2:
@@ -25,7 +24,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -57,7 +56,7 @@ Antes de ejecutar cualquier consulta en esta página, asegúrese de lo siguiente
 
 ## Encuentre la consulta correcta {#find-query}
 
-| Quiero... | Ir a |
+| Quiero… | Ir a |
 |---|---|
 | Contar perfiles que han introducido un recorrido | [Casos de uso básicos](#common-queries) |
 | Depuración de la ruta de recorrido de un perfil específico | [Consultas basadas en perfiles](#profile-based-queries) |

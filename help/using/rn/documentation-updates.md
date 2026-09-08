@@ -10,14 +10,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
 workflow-type: tm+mt
-source-wordcount: 10520
+source-wordcount: 10562
 ht-degree: 96%
 
 ---
@@ -28,6 +26,8 @@ ht-degree: 96%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Septiembre de 2026 {#september-2026}
+
+* La página **Diseña tu recorrido** ahora incluye una sección de tutorial completa sobre la nueva experiencia de lienzo, que cubre cómo agregar actividades, usar los iconos de la barra de herramientas, seleccionar varias actividades para acciones masivas, copiar y pegar actividades, y unir o desasociar ramas. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * La página **Configurar la configuración de su canal** ahora incluye una nota que aclara que el esquema utilizado para la dimensión secundaria debe tener una clave principal y que las claves principales compuestas no son compatibles. [Más información](../orchestrated/channel-config.md)
 

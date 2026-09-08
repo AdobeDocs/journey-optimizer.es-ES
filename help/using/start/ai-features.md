@@ -12,9 +12,10 @@ TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrp
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
+  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
@@ -29,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%

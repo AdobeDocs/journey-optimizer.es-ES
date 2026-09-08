@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: error, códigos, resolución de problemas, recorrido, campaña, mensajes
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: bf4bee78-72fe-48e8-ba77-2ecb14c2827d
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2379
 ht-degree: 3%

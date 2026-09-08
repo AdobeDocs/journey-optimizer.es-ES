@@ -9,9 +9,14 @@ role: User
 level: Beginner
 hide: true
 keywords: recorrido, campaña, comparación, elegir, decisión, flujo de trabajo, tiempo real, lote, orquestación, varios pasos, programado, activado por API, impulsado por evento
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---
@@ -51,13 +56,13 @@ Si necesita un **flujo de trabajo por lotes complejo con segmentación avanzada,
 
 | Enfoque | Mejor para | Estilo de ejecución |
 |----------|----------|-----------------|
-| **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | 1:1 orquestación: cada perfil a su propio ritmo |
+| **Recorridos** | Experiencias de cliente en tiempo real de varios pasos con lógica condicional | Orquestación 1:1 — cada perfil a su propio ritmo |
 | **Campañas de acción** | Activaciones programadas o recurrentes para audiencias | Ejecución por lotes: audiencia procesada conjuntamente en el momento del envío |
 | **Campañas activadas por API** | Mensajes transaccionales o impulsados por eventos de sistemas externos | Ejecución bajo demanda: activada por una llamada de API con carga útil |
 
 ## Funcionamiento de cada enfoque {#key-distinctions}
 
-### Recorridos: 1:1 orquestación en tiempo real
+### Recorridos: orquestación en tiempo real 1:1
 
 Un Recorrido es un lienzo en el que cada perfil recorre su propio camino a su propio ritmo. AJO realiza un seguimiento de la posición de cada persona en el flujo y reacciona en tiempo real ante su comportamiento, ya sea mediante una acción, un periodo de inactividad o un cambio en el perfil.
 
@@ -203,7 +208,7 @@ Esta sección contiene conocimientos estructurados destinados a apoyar la interp
 
 Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
 
-* **TL;DR:** Elija entre Recorridos, campañas de acción y campañas activadas por API en función de si necesita orquestación 1:1 en tiempo real, entrega por lotes programada o entrante o ejecución activada por API a petición.
+* **TL;DR:** Elija entre Recorridos, campañas de acción y campañas activadas por API en función de si necesita orquestación 1:1 en tiempo real, entrega por lotes programada o entrante, o ejecución activada por API bajo demanda.
 
 **Intenciones:**
 * Comprenda las diferencias clave entre Recorridos, campañas de acción y campañas activadas por API

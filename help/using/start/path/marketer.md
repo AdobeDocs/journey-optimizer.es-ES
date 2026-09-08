@@ -11,12 +11,9 @@ TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHG
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: []
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
@@ -27,8 +24,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 1733
 ht-degree: 100%
 
@@ -114,15 +111,15 @@ Siga estos pasos principales para empezar a crear experiencias:
 
    Aprenda a [empezar a usar campañas orquestadas](../../orchestrated/gs-orchestrated-campaigns.md) y sepa cuándo [usar campañas en lugar de recorridos](../../orchestrated/orchestrated-campaigns-faq.md).
 
-1. **Supervise y optimice**. Rastree el rendimiento y mejore los resultados con el tiempo:
-   * Supervise el rendimiento de un **recorrido activo** e identifique obstáculos
+1. **Monitorice y optimice**. Rastree el rendimiento y mejore los resultados con el tiempo:
+   * Monitorice el rendimiento de un **recorrido activo** e identifique obstáculos
    * Análisis de tasas y métricas de participación en el **envío de mensajes**
    * Uso de **tableros de informes** con la integración de Customer Journey Analytics
    * Rastreo de **conversión** e impacto en la empresa
    * Administre la **frecuencia de mensajes y priorización** con reglas de administración de conflictos para evitar la sobrecomunicación.
    * Use **horas de inactividad** (exclusiones basadas en el tiempo) para evitar envíos durante períodos específicos. [Obtenga más información sobre la gestión de conflictos](../../conflict-prioritization/gs-conflict-prioritization.md) y las [horas de inactividad](../../conflict-prioritization/quiet-hours.md)
 
-   Aprenda a [supervisar el rendimiento](../../reports/report-gs-cja.md).
+   Aprenda a [monitorizar el rendimiento](../../reports/report-gs-cja.md).
 
 ## Prácticas recomendadas para el éxito
 
@@ -164,7 +161,7 @@ Siga estos pasos principales para empezar a crear experiencias:
 * **Respete las preferencias del cliente**: cumpla las cláusulas de exclusión voluntaria y las preferencias de comunicación
 * **Defina límites de frecuencia**: utilice conjuntos de reglas para evitar la fatiga de los mensajes entre canales
 * **Coordinar campañas**: use la administración de conflictos para asegurarse de que los clientes reciban el mensaje correcto en el momento adecuado
-* **Supervise la participación**: observe si hay signos de fatiga (disminución de las tasas de apertura, aumento de las cancelaciones de suscripción)
+* **Monitorice la participación**: observe si hay signos de fatiga (disminución de las tasas de apertura, aumento de las cancelaciones de suscripción)
 
 [Más información sobre la restricción de frecuencia](../../conflict-prioritization/channel-capping.md)
 
@@ -244,8 +241,8 @@ Colabore con [administradores](administrator.md) en el acceso y las configuracio
 | Función | Guía |
 |------|-------|
 | Administrador | [Introducción para administradores](administrator.md) |
-| Ingeniero de datos | [Introducción para los ingenieros de datos](data-engineer.md) |
-| Desarrollador | [Introducción para los desarrolladores](developer.md) |
+| Ingeniero de datos | [Introducción para ingenieros de datos](data-engineer.md) |
+| Desarrollador | [Introducción para desarrolladores](developer.md) |
 | Experto en marketing | [Introducción para los expertos en marketing](marketer.md) |
 
 Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)

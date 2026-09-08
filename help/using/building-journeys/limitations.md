@@ -10,9 +10,11 @@ level: Intermediate
 keywords: recorridos, limitación
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 46%

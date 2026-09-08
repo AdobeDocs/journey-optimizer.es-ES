@@ -8,10 +8,11 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: 
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 838
 ht-degree: 18%

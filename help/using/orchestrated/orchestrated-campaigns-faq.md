@@ -11,6 +11,7 @@ product_v2:
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
@@ -21,9 +22,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 2785
+source-wordcount: 2786
 ht-degree: 11%
 
 ---
@@ -107,7 +108,7 @@ Para acceder a Campaign Orchestration, la licencia debe incluir **Journey Optimi
 
 +++ ¿Qué es la segmentación de varias entidades?
 
-La organización de campañas en Adobe Journey Optimizer utiliza una base de datos relacional. Este tipo de modelo de datos tiene esquemas de datos independientes que están conectados mediante relaciones de tipo 1:1 o 1:many. Esto permite a los usuarios iniciar una consulta en cualquier esquema, no solo a nivel de destinatario, y luego dar la vuelta y volver a otros esquemas relacionados, como compras, productos, reservas o detalles del destinatario, lo que proporciona una gran flexibilidad en la forma de crear y refinar segmentos y audiencias.
+La organización de campañas en Adobe Journey Optimizer utiliza una base de datos relacional. Este tipo de modelo de datos tiene esquemas de datos independientes que están conectados mediante relaciones 1:1 o 1:many. Esto permite a los usuarios iniciar una consulta en cualquier esquema, no solo a nivel de destinatario, y luego dar la vuelta y volver a otros esquemas relacionados, como compras, productos, reservas o detalles del destinatario, lo que proporciona una gran flexibilidad en la forma de crear y refinar segmentos y audiencias.
 
 **Ejemplo** - Segmentar todos los destinatarios con suscripciones que caduquen en los próximos 30 días. En Campaign Orchestration, la consulta puede comenzar con el esquema Subscriptions, buscar solo la columna de fecha de caducidad de ese esquema y devolver todas las suscripciones que deben caducar y, a continuación, acumular los datos del destinatario relacionados con los ID de suscripciones específicos que devuelven los resultados de forma más rápida y eficaz que los modelos de datos que comienzan cada consulta en el nivel de destinatario.
 

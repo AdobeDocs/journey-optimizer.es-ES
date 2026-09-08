@@ -6,9 +6,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-feature_v2: []
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1148
 ht-degree: 3%

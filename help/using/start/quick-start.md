@@ -14,8 +14,7 @@ TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6Mbv
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
@@ -40,8 +39,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 100%
 
@@ -67,7 +66,7 @@ Adobe Journey Optimizer se implementa mediante cuatro funciones distintas que fu
 >
 >* Los componentes y las funciones disponibles en su entorno dependen de los [permisos](../administration/permissions.md) y del [paquete de licencias](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Para cualquier pregunta, póngase en contacto con Adobe Customer Success Manager o su representante de Adobe.
 >
->* Los procedimientos y las directrices generales de privacidad de [!DNL Adobe CX Enterprise] se aplican a [!DNL Journey Optimizer]. [Más información sobre la privacidad de  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
+>* Los procedimientos y directrices generales de privacidad de [!DNL Adobe CX Enterprise] se aplican a [!DNL Journey Optimizer]. [Más información sobre la privacidad de  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/es/privacy/experience-cloud.html){target="_blank"}.
 
 ## Antes de empezar {#before-you-begin}
 
@@ -168,7 +167,7 @@ Como arquitecto de datos o ingeniero, puede configurar y mantener los datos de p
 * **Resolución de identidades**: configure espacios de nombres de identidad para actualizar continuamente los perfiles y mover clientes dentro y fuera de segmentos y recorridos en tiempo real
 * **Fuentes de datos**: configure las fuentes de datos para que escuchen en tiempo real las señales externas a través del recorrido del cliente
 * **Administración de perfiles**: habilite conjuntos de datos para el Perfil del cliente en tiempo real para potenciar las experiencias personalizadas
-* **Calidad de los datos**: supervise la ingesta de datos para asegurarse de que todo fluye sin problemas a Journey Optimizer
+* **Calidad de los datos**: monitorice la ingesta de datos para asegurarse de que todo fluye sin problemas a Journey Optimizer
 
 **Empiece con:** revise la [Introducción a la administración de datos](../data/gs-data.md) para comprender los esquemas, conjuntos de datos, identidades y la lista de comprobación completa de la configuración de datos. A continuación, modele su primer esquema de perfil de cliente y configure un conector de origen para comenzar a introducir datos.
 
@@ -293,4 +292,4 @@ Para obtener información y actualizaciones más detalladas, explore los siguien
 | Administrador | [Introducción para administradores](path/administrator.md) |
 | Ingeniero de datos | [Introducción para ingenieros de datos](path/data-engineer.md) |
 | Desarrollador | [Introducción para desarrolladores](path/developer.md) |
-| Experto en marketing | [Introducción para expertos en marketing](path/marketer.md) |
+| Experto en marketing | [Introducción para los expertos en marketing](path/marketer.md) |

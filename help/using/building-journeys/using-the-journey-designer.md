@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 2029
+source-wordcount: 2725
 ht-degree: 2%
 
 ---
@@ -77,6 +77,10 @@ La **barra de herramientas**, ubicada en la esquina superior derecha del lienzo,
 
 ![barra de herramientas de Recorrido con controles de zoom, cuadrícula y captura de pantalla](assets/toolbar.png){width="70%"}
 
+>[!NOTE]
+>
+>Si está usando la nueva experiencia de lienzo, vea [Usar los iconos de la barra de herramientas](#use-the-toolbar-icons) en su lugar.
+
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Eliminar]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancelar]** para cancelar las modificaciones o en **[!UICONTROL Aceptar]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla Esc, se cerrará el panel de configuración de actividad.
 
 De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el icono **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de la actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
@@ -87,7 +91,7 @@ Según el estado del recorrido, puede realizar diferentes acciones en el recorri
 
 ![Botones de acción de Recorrido: Publicar, Duplicar, Eliminar, Modo de prueba, Administrar acceso, Alertas](assets/journey41.png)
 
-## nueva experiencia de interfaz de recorrido {#canvas-capabilities}
+## Nueva experiencia de lienzo de recorrido {#canvas-capabilities}
 
 Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, diseñada para adaptarse a los casos de uso más complejos:
 
@@ -95,22 +99,111 @@ Hay disponible una **nueva interfaz de usuario** para el lienzo de recorrido, di
 * **Diseño automático**: organiza automáticamente las actividades para mejorar la legibilidad.
 * **Creación guiada**: proporciona una experiencia de creación estructurada que le ayudará a crear recorridos con facilidad y eficacia.
 
-![](assets/journey-new-canvas.png)
+![Nueva experiencia en lienzo de recorrido](assets/journey-new-canvas.png)
 
-Para cambiar a la nueva experiencia, haz clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Una vez cambiado, este ajuste se guarda en el nivel de recorrido, por lo que el recorrido se abrirá en la nueva experiencia de forma predeterminada en las visitas posteriores. Para volver, haz clic en el botón **[!UICONTROL Experiencia antigua]**.
-Además, la última experiencia seleccionada (antigua o nueva) ahora se recuerda en el nivel de usuario. En adelante, esta preferencia se aplicará automáticamente cada vez que cree un nuevo recorrido, por lo que no tendrá que cambiar manualmente cada vez.
+Los recorridos recién creados utilizan la nueva experiencia de lienzo. Para los recorridos creados antes de este cambio, puedes cambiar a la nueva experiencia haciendo clic en el botón **[!UICONTROL Nueva experiencia]** en el lienzo del recorrido. Para volver a la experiencia anterior, haga clic en el botón **[!UICONTROL Experiencia anterior]**.
 
-![](assets/journey-new-experience-switch.png)
+![Cambiar entre la experiencia del lienzo de recorrido antiguo y la nueva](assets/journey-new-experience-switch.png)
 
-Al usar la nueva experiencia, puedes seleccionar varios nodos a la vez manteniendo presionado **Shift** y arrastrando el ratón sobre el lienzo. Una vez seleccionada, puede ejecutar una acción masiva en los nodos seleccionados, como copiar, eliminar o guardar como fragmento de recorrido.
+Vea este [vídeo explicativo](#video) para obtener una descripción general de la nueva experiencia en lienzo.
 
->[!TIP]
+### Añadir actividades al recorrido
+
+Para añadir una actividad al lienzo, haga clic en el icono de signo más (+) entre dos actividades y seleccione una actividad de la lista para añadirla al recorrido.
+
+![Agregar una actividad desde el lienzo mediante el icono de signo más](assets/journey-canvas-add-activity.png)
+
+La lista filtra automáticamente para mostrar solo las actividades que se pueden agregar en esa ubicación específica del recorrido, en lugar de todas las actividades disponibles en la paleta. Si desea ver todas las actividades independientemente de su ubicación, haga clic en el icono **[!UICONTROL Filtrar elementos]** y borre la opción **[!UICONTROL Mostrar solo los elementos disponibles]**.
+
+### Uso de los iconos de barra de herramientas
+
+La barra de herramientas situada en la esquina superior derecha del lienzo proporciona un acceso rápido a las funciones esenciales. Utilice estas herramientas para personalizar la vista de lienzo y administrar diseños de recorrido complejos.
+
+![Barra de herramientas de lienzo](assets/journey-canvas-toolbar.png)
+
+| Icono Barra de herramientas | Descripción |
+|--- |--- |
+| Descargar imagen de lienzo | Capture la vista de lienzo actual como una imagen y guárdela en el equipo. |
+| Compartir comentarios | Abra un formulario de comentarios para hacernos saber si le falta algo en el nuevo lienzo o si tiene una idea para mejorarlo. |
+| Selección múltiple | Cambie al modo de selección para seleccionar varias actividades. |
+| Rotar | Cambie la orientación del diseño del lienzo. |
+| Ajustar a pantalla | Ajuste automáticamente el nivel de zoom para ajustar todo el recorrido a la vista. |
+| Alejar | Disminuir el nivel de zoom. |
+| Acercar | Aumente el nivel de zoom. |
+
+### Seleccionar varias actividades para acciones masivas
+
+Puede seleccionar varias actividades a la vez y ejecutar una acción masiva en ellas.
+
+Para seleccionar varias actividades, utilice uno de estos métodos:
+
+* **Mayús + arrastrar** — Mantenga presionada la tecla **Mayús** y arrastre el ratón por las actividades que desee seleccionar.
+* **Ctrl/Cmd + clic**: selecciona la primera actividad, mantén presionada **Ctrl** (o **Comando** en Mac) y haz clic en actividades adicionales para seleccionarlas individualmente.
+* **Barra de herramientas**: haga clic en el icono **Selección múltiple** de la barra de herramientas y, a continuación, haga clic en cada actividad que desee seleccionar.
+
+Una vez seleccionadas, puede realizar estas acciones masivas:
+
+* **Copiar**: copie todas las actividades seleccionadas para usarlas en el mismo recorrido o péguelas en otro recorrido.
+* **Eliminar** — Elimina todas las actividades seleccionadas a la vez.
+* **Guardar como fragmento de recorrido**: convierta las actividades seleccionadas en un fragmento de recorrido reutilizable para utilizarlo en otros recorridos.
+
+![Seleccione varias actividades para ejecutar una acción en masa](assets/journey-canvas-bulk.png)
+
+### Copiar y pegar actividades
+
+Para reutilizar actividades o secuencias de recorrido completas:
+
+1. Seleccione las actividades que desee copiar.
+1. Seleccione **Copiar** o presione **Ctrl+C** (o Comando+C en Mac) para copiar.
+
+   ![](assets/journey-canvas-copy.png)
+
+1. Vaya al destino, ya sea el mismo recorrido o un recorrido diferente en la zona protegida.
+1. Haga clic en el icono más **(+)** y seleccione **[!UICONTROL Pegar]** en la lista desplegable.
+
+   ![](assets/journey-canvas-paste.png)
+
+Puede pegar las actividades en el mismo orden en que se copiaron y mantendrán su configuración. Para obtener información más detallada sobre las restricciones de copiar/pegar y las prácticas recomendadas, consulte [Copiar y pegar actividades](#copy-paste).
+
+Para copiar una sola actividad, selecciónela y luego haga clic en el icono **[!UICONTROL Copiar]** en el panel de configuración de la actividad a la derecha, o presione **Ctrl+C** (o Comando+C en Mac) para copiar.
+
+![](assets/journey-canvas-copy-single.png)
+
+Para pegarlo, haga clic en el icono más **(+)** y seleccione **[!UICONTROL Pegar]** en la lista desplegable.
+
+
+### Unir y desasociar ramas
+
+Puede desasociar una rama para desconectarla del resto del recorrido sin eliminarla y volver a unirla más tarde para volver a conectarla en un punto diferente.
+
+Para desasociar una rama, utilice uno de estos métodos:
+
+* Haga clic directamente en el borde que lleva a la actividad que desea desasociar y luego seleccione **[!UICONTROL Desasociar borde]**.
+
+  ![Desasociar un perímetro haciendo clic en él](assets/journey-canvas-detach.png)
+
+* Haga clic en el icono más **(+)** de ese borde y seleccione **[!UICONTROL Desasociar borde]**.
+
+  ![Desasociar un borde del menú de iconos de signo más](assets/journey-canvas-detach2.png)
+
+Cualquiera de los métodos vuelve a conectar el perímetro a una nueva actividad **[!UICONTROL End]**, lo que limita la cadena por encima del punto de desconexión. La actividad desconectada, junto con cualquier elemento posterior, no se elimina. Se convierte en su propia rama desconectada en el lienzo que puede reutilizar más adelante.
+
+![Rama separada en el lienzo](assets/journey-canvas-detached-branch.png)
+
+>[!NOTE]
 >
->Para obtener instrucciones paso a paso sobre cómo desasociar y volver a unir nodos en el lienzo de recorrido, consulte este [artículo de la comunidad de Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=es){target="_blank"}.
+>**[!UICONTROL Desasociar borde]** solo aparece donde tiene sentido realizar la desasociación. Por ejemplo, no está disponible en un perímetro cuyo destino sea una actividad **[!UICONTROL End]** compartida por más de una rama.
 
+Para unirse a las ramas, haz clic en el icono más **(+)** en el perímetro donde deseas que continúe la conexión y, a continuación, abre la sección **[!UICONTROL Unirse]** en el menú desplegable. A partir de ahí:
 
+* Seleccione una rama de la lista **[!UICONTROL Desconectada]** (ramas aún no conectadas en cualquier parte del recorrido) o de la lista **[!UICONTROL Ramas]** (ramas ya utilizadas en otras partes del recorrido). Utilice el campo de búsqueda si tiene un gran número de actividades.
+* Elige **[!UICONTROL Seleccionar del lienzo]** para resaltar todas las actividades elegibles en el lienzo y luego haz clic en la actividad a la que quieras conectarte.
 
-Vea este vídeo de información general sobre la nueva experiencia de lienzo de recorrido:
+![Únase a una rama seleccionándola en el lienzo](assets/journey-canvas-join.png)
+
+## Vídeo práctico {#video}
+
+Aprenda a utilizar la nueva experiencia de lienzo de recorrido.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496196?captions=spa)
 
@@ -177,6 +270,10 @@ En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia.
 
 ![Icono de advertencia que muestra actividades desconectadas en el lienzo](assets/canvas-disconnected.png)
 
+>[!NOTE]
+>
+>Si está usando la nueva experiencia de lienzo, vea [Unirse y desasociar ramas](#join-and-detach-branches) en su lugar.
+
 ## Copiar y pegar actividades {#copy-paste}
 
 Puede copiar una o varias actividades de un recorrido y pegarlas en el mismo recorrido o en uno diferente. Esto le permite ahorrar tiempo si desea reutilizar numerosas actividades que ya se han configurado en un recorrido anterior.
@@ -191,6 +288,10 @@ Puede copiar una o varias actividades de un recorrido y pegarlas en el mismo rec
 * Puede seleccionar cualquier actividad, incluso las que no estén vinculadas. Las actividades vinculadas permanecerán vinculadas después de pegarse.
 
 Estos son los pasos para copiar/pegar actividades:
+
+>[!NOTE]
+>
+>Si está usando la nueva experiencia de lienzo, vea [Copiar y pegar actividades](#copy-and-paste-activities) en su lugar.
 
 1. Abra un recorrido.
 1. Seleccione las actividades que desee copiar moviendo el ratón mientras hace clic en. También puede hacer clic en cada actividad mientras presiona la tecla **Ctrl/Comando**. Use **Ctrl/Comando + A** si desea seleccionar todas las actividades.

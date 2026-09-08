@@ -9,9 +9,11 @@ role: Developer
 level: Experienced
 keywords: consulta, colecciones, funciones, carga útil, recorrido
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 740
 ht-degree: 2%

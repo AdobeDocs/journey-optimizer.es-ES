@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1320
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -99,7 +99,7 @@ Tablero que documenta el rendimiento de los elementos de decisión y las estrate
 
 * **Escalabilidad y rendimiento**: mejora arquitectónica que mueve el cálculo de decisiones del concentrador al perímetro, lo que reduce significativamente la latencia y mejora el rendimiento en los casos de uso de alto tráfico.
 
-## Casos de uso de ejemplo {#use-cases}
+## Ejemplos de casos de uso {#use-cases}
 
 | Caso de uso | Gestión de decisiones | Toma de decisiones |
 |----------|---------------------|-------------|

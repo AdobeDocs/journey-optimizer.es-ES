@@ -8,9 +8,11 @@ level: Experienced
 keywords: inSegment, function, expression, recorrido
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 198
 ht-degree: 6%

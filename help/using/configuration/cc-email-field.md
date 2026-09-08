@@ -9,10 +9,11 @@ role: Admin
 level: Experienced
 keywords: CC, copia de carbón, correo electrónico, configuración de canal, encabezados de correo electrónico, CCO
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-feature_v2: []
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 937
 ht-degree: 5%

@@ -8,9 +8,13 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '4199'
+source-wordcount: 4199
 ht-degree: 5%
 
 ---

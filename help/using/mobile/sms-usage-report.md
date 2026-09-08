@@ -6,9 +6,13 @@ description: Obtenga información sobre cómo generar informes de uso de SMS par
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 500
 ht-degree: 27%
 
 ---

@@ -13,8 +13,8 @@ TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm1
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 641
 ht-degree: 5%
@@ -61,9 +61,9 @@ Puede utilizar una audiencia de carga personalizada como criterio de idoneidad t
 
 * Cree una regla de decisión con una audiencia de carga personalizada:
 
-   1. Al crear una regla, accede a la pestaña **Audiencias** y busca tu audiencia CSV en la lista. Arrastre y suelte la audiencia en el lienzo de reglas.
-   1. Utilice la ficha **Atributos** y navegue hasta los esquemas de enriquecimiento vinculados a la audiencia seleccionada. Esto le permite acceder a todos los datos del archivo CSV y utilizarlos en la regla. [Aprenda a crear una regla de decisión](../offers/offer-library/creating-decision-rules.md)
-   1. Guarde la regla. Una vez creada la regla, se puede utilizar en los niveles de oferta y decisión para restringir su idoneidad.
+  1. Al crear una regla, accede a la pestaña **Audiencias** y busca tu audiencia CSV en la lista. Arrastre y suelte la audiencia en el lienzo de reglas.
+  1. Utilice la ficha **Atributos** y navegue hasta los esquemas de enriquecimiento vinculados a la audiencia seleccionada. Esto le permite acceder a todos los datos del archivo CSV y utilizarlos en la regla. [Aprenda a crear una regla de decisión](../offers/offer-library/creating-decision-rules.md)
+  1. Guarde la regla. Una vez creada la regla, se puede utilizar en los niveles de oferta y decisión para restringir su idoneidad.
 
   ![Audiencia CSV en el lienzo de la regla de decisión](assets/csv-rule.png)
 
@@ -71,8 +71,8 @@ Puede utilizar una audiencia de carga personalizada como criterio de idoneidad t
 
   Al crear una oferta, en el paso **Agregar restricciones** puede:
 
-   * Utilice la audiencia de carga personalizada para definir la idoneidad de la oferta,
-   * Aplique una regla que aproveche la audiencia de carga personalizada.
+  * Utilice la audiencia de carga personalizada para definir la idoneidad de la oferta,
+  * Aplique una regla que aproveche la audiencia de carga personalizada.
 
   ![Opciones de restricción de audiencia de carga personalizada](assets/csv-offer.png)
 

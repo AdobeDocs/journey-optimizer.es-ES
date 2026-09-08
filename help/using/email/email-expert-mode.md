@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-feature_v2: []
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 614
 ht-degree: 6%
