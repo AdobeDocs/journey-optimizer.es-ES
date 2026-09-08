@@ -10,11 +10,19 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 667

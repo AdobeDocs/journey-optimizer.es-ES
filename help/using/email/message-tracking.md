@@ -10,12 +10,25 @@ level: Beginner, Intermediate
 keywords: vínculos, seguimiento, monitorización, correo electrónico
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1id: dc22c819-3f29-4e91-8b7d-5c6719831141id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
 workflow-type: tm+mt
 source-wordcount: 1631

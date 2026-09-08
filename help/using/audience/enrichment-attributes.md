@@ -9,12 +9,19 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 TQID: https://experienceleague.adobe.com/Tf-a0MQ4SBclyiXPLohyD1rr-7rHq9ASNuaKN10anyw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 595

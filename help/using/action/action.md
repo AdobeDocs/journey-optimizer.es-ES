@@ -10,11 +10,22 @@ level: Experienced
 keywords: acciones, recorrido, mensajes, envío, conexiones
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 TQID: https://experienceleague.adobe.com/u-fLClLKK9cC7D2BwO5vxdW11tywPDRWzOMBtYUj5Ts
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
 workflow-type: tm+mt
 source-wordcount: 397

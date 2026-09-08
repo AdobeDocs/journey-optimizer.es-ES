@@ -10,12 +10,22 @@ level: Intermediate
 keywords: IP, grupos, capacidad de entrega
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 TQID: https://experienceleague.adobe.com/mzP9buvUwW2h0QahDBXWxefokjZv-XziM-uFaPwg3Wg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 597

@@ -10,12 +10,22 @@ level: Beginner
 keywords: aterrizaje, página de aterrizaje, creación, publicación
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 TQID: https://experienceleague.adobe.com/EZ4dKkk6sFemC9-KqH4zYoMGVQU7nxtGnaUJ-mPJkQU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1750

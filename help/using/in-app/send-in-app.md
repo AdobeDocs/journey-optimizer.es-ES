@@ -8,12 +8,22 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 TQID: https://experienceleague.adobe.com/lInGr6DN0-ED3ouErpV09-9ovLvOL1oHiSZEO-NBA7c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: dc22c819-3f29-4e91-8b7d-5c6719831141id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 436

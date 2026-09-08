@@ -10,12 +10,24 @@ level: Beginner, Intermediate
 keywords: correo electrónico, diseño, stock, activos
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 1325

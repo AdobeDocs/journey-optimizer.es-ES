@@ -6,8 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 265

@@ -10,12 +10,22 @@ level: Beginner
 keywords: correo electrónico, inicio, creación, vista previa
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 TQID: https://experienceleague.adobe.com/-qzd-EVJ7zdf8MnBb8onuapLtdLloci20rTeSzF2Tys
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4did: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 341

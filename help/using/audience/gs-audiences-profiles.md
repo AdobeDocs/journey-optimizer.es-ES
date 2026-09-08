@@ -7,8 +7,11 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
 source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 204

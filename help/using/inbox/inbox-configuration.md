@@ -6,8 +6,12 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: d308ab4a-843c-4729-ad18-97d89c708357
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: bd995268-c4fc-41c8-8f09-eb370effe46eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: bd995268-c4fc-41c8-8f09-eb370effe46e
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 337
