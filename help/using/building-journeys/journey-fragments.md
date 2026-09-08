@@ -9,8 +9,10 @@ role: User
 level: Intermediate
 keywords: fragmentos, recorrido, reutilizar, nodos, lienzo, inventario, reutilizable
 version: Journey Orchestration
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1671

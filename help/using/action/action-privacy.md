@@ -9,7 +9,8 @@ role: Developer, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

@@ -8,8 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: exportación, mensajes, conjunto de datos, esquema, correos electrónicos, SMS
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 447

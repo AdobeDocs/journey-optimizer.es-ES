@@ -9,8 +9,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1468

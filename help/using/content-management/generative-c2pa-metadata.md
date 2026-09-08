@@ -7,8 +7,10 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 764

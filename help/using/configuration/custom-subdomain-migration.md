@@ -10,8 +10,10 @@ level: Intermediate
 keywords: subdominio, delegación, migración, CNAME, delegación personalizada
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1254

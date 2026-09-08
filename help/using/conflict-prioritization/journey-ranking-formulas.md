@@ -7,8 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2:
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1174

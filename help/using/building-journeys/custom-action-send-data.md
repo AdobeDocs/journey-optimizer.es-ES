@@ -9,7 +9,8 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: recorrido, caso de uso
 version: Journey Orchestration
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

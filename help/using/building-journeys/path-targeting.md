@@ -9,8 +9,10 @@ role: User
 level: Intermediate
 keywords: segmentación, reglas, recorrido, ruta, optimización, personalización
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 823

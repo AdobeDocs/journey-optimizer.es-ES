@@ -5,8 +5,10 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 192

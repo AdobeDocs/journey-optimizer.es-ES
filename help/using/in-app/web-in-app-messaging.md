@@ -6,8 +6,11 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: en la aplicación, mensaje, sdk web, configuración
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1020

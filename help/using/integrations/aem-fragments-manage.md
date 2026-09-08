@@ -6,7 +6,8 @@ description: Descubra cómo administrar fragmentos de contenido de AEM
 topic: Content Management
 role: User
 level: Beginner
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

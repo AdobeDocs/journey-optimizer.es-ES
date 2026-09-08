@@ -8,8 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
-feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3221

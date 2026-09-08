@@ -6,8 +6,11 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: ajo;ajo web;adobe recorrido optimizer;renderDecisions;superficies;decisiones;propuestas;ámbito;esquema
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: d056adbe-402d-4f42-9746-f3d424e598b1id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 406

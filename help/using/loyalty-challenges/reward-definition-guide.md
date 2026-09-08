@@ -9,8 +9,10 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
-feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1204

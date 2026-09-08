@@ -8,8 +8,10 @@ role: User
 level: Beginner
 keywords: tipos de recorrido, unitario, leer audiencia, calificación de audiencia, evento empresarial, comparación, guía de decisión, elegir, selección, tiempo real, programado, por lotes, activado por evento
 version: Journey Orchestration
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1077
