@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 7f362a24944a78f1512f0a4e52417722d71b7ddd
 workflow-type: tm+mt
-source-wordcount: 1827
+source-wordcount: 1929
 ht-degree: 1%
 
 ---
@@ -106,9 +106,8 @@ Algunos nodos impiden que **[!UICONTROL Simulation]** se inicie. Otros se ejecut
 | Eventos empresariales | No se pueden ejecutar recorridos que comiencen con un evento empresarial en **[!UICONTROL Simulación]**. |
 | Canales de entrada | No se pueden ejecutar recorridos que incluyan un nodo de canal entrante en **[!UICONTROL Simulación]**. |
 | ID suplementario (reentrada múltiple) | **[!UICONTROL La simulación]** no se inicia cuando se habilita la reentrada múltiple y el mismo usuario simulado podría tener varias instancias activas a la vez. |
-| Nodo de decisión de contenido | Elimine o cambie esta actividad antes de simular el recorrido. |
 | Búsqueda de conjuntos de datos | **[!UICONTROL La simulación]** no admite búsquedas de conjuntos de datos de clientes por clave. Elimine o cambie esta actividad antes de ejecutar una simulación. |
-| Actividad **[!UICONTROL Optimizar]** | **[!UICONTROL Experimento]** y **[!UICONTROL Regla de segmentación]** no son compatibles. Elimine o cambie el nodo antes de simular.<br><br>Otros métodos **[!UICONTROL Optimize]** se comportan de la siguiente manera:<br><br>**[!UICONTROL División porcentual &#x200B;]**: Journey Agent crea un usuario simulado por rama, no según los porcentajes de rama. Durante el tiempo de ejecución, la evaluación en directo selecciona la rama y puede diferir de la ruta generada. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior.<br><br>**[!UICONTROL Condición de tiempo]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una ventana de 8:00 a 20:00 solo permite a los usuarios pasar mientras la simulación se ejecuta dentro de esa ventana. No se puede burlar del tiempo de ejecución. Configure la condición para que coincida con la hora actual cuando realice la prueba.<br><br>**[!UICONTROL Condición de fecha &#x200B;]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una fecha del 8 de junio de 2026 solo permite a los usuarios pasar cuando la simulación se ejecuta en esa fecha. No se puede burlar la fecha de ejecución. Establezca la condición en la fecha actual cuando realice la prueba.<br><br>**[!UICONTROL Límite de perfil]**: No se aplican límites durante la simulación. Journey Agent crea un usuario simulado por rama. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior. |
+| Actividad **[!UICONTROL Optimizar]** | **[!UICONTROL No se admite el experimento]**. Elimine o cambie el nodo antes de simular.<br><br>Otros métodos **[!UICONTROL Optimize]** se comportan de la siguiente manera:<br><br>**[!UICONTROL Regla de segmentación &#x200B;]**: Journey Agent evalúa la regla configurada con los atributos de perfil del usuario simulado para seleccionar la rama.<br><br>**[!UICONTROL División porcentual]**: Journey Agent crea un usuario simulado por rama, no según los porcentajes de rama. Durante el tiempo de ejecución, la evaluación en directo selecciona la rama y puede diferir de la ruta generada. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior.<br><br>**[!UICONTROL Condición de tiempo &#x200B;]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una ventana de 8:00 a 20:00 solo permite a los usuarios pasar mientras la simulación se ejecuta dentro de esa ventana. No se puede burlar del tiempo de ejecución. Configure la condición para que coincida con la hora actual cuando realice la prueba.<br><br>**[!UICONTROL Condición de fecha]**: las condiciones se aplican durante la ejecución como en un recorrido activo. Por ejemplo, una fecha del 8 de junio de 2026 solo permite a los usuarios pasar cuando la simulación se ejecuta en esa fecha. No se puede burlar la fecha de ejecución. Establezca la condición en la fecha actual cuando realice la prueba.<br><br>**[!UICONTROL Límite de perfil &#x200B;]**: No se aplican límites durante la simulación. Journey Agent crea un usuario simulado por rama. No puede burlarse de una elección de rama. Para dirigir a los usuarios, confíe en el orden de ramas en el lienzo. Siempre se elige la rama superior. |
 | Ramas de tiempo de espera y error | Journey Agent no genera usuarios para el tiempo de espera de la actividad ni para las ramas de error. Los usuarios solo introducen esas rutas si se produce un tiempo de espera o error real durante la simulación. |
 | Rama de tiempo de espera (actividades de evento) | Se crean usuarios simulados, pero en **[!UICONTROL simulación manual]** Journey Agent no decide quién entra en una rama de tiempo de espera de evento. Controle la ruta enviando o no enviando el evento. Por ejemplo, para probar una rama de tiempo de espera, espere al tiempo de espera configurado y no envíe el evento. **[!UICONTROL Simulación rápida]** puede enviar o retener eventos automáticamente para cubrir las ramas de tiempo de espera. |
 | Eventos de reacción | Los eventos de reacción se ejecutan en simulación, pero la acción debe ocurrir en la vida real. Por ejemplo, una reacción de correo electrónico **open** requiere que se abra el mensaje de prueba. No se pueden burlar de las reacciones en la IU de simulación. |
@@ -120,14 +119,31 @@ Algunos nodos impiden que **[!UICONTROL Simulation]** se inicie. Otros se ejecut
 
 </br>
 
++++ Comportamiento de decisiones
+
+Se admiten los siguientes elementos de Decisioning:
+
+| Elemento Decisioning | Notas |
+| -- | -- |
+| Idoneidad de oferta | Compatible, incluida la idoneidad en función de los atributos del perfil. |
+| Regla de elegibilidad | Compatible. La regla puede contener atributos de perfil. |
+| Audiencia de idoneidad | Se admite cuando la audiencia se añade al perfil del usuario simulado. |
+| Clasificación por prioridad de oferta | Compatible. Los atributos de perfil no están implicados. |
+| Clasificación por fórmula | Compatible. La fórmula puede utilizar atributos de perfil. |
+| Clasificación por **[!UICONTROL modelo de IA - Automático]** | Compatible. La clasificación se basa únicamente en la oferta y en el conjunto de datos configurado, los atributos de perfil no están implicados. Requiere que los datos necesarios estén presentes en el conjunto de datos configurado. |
+| Clasificación por **[!UICONTROL modelo de IA - Personalization]** | Compatible. La audiencia se tiene en cuenta para la clasificación, no para la idoneidad. Como la clasificación se basa en IA, las ofertas devueltas pueden variar entre ejecuciones de simulación. |
+
++++
+
+</br>
+
 +++ Limitaciones funcionales
 
-Las siguientes capacidades no son compatibles con **[!UICONTROL Simulación]**.
+Las siguientes capacidades **no** son compatibles con **[!UICONTROL Simulación]**.
 
 | Capacidad | Notas |
 | --- | --- |
 | Criterios de salida | Los criterios de salida no se aplican cuando ejecuta **[!UICONTROL Simulation]**. |
-| [!DNL Adobe Journey Optimizer] toma de decisiones dentro de una acción como, por ejemplo, contenido de correo electrónico con Adobe Journey Optimizer Decisioning | No se generan las revisiones de acción para el contenido que usa la toma de decisiones [!DNL Adobe Journey Optimizer]. |
 | Simular respuesta de acción personalizada | [!UICONTROL Las acciones personalizadas] realizan una llamada saliente real de forma predeterminada. No se admite la burla de la respuesta para que no se ejecute ninguna llamada externa. |
 | Evaluación de directiva de consentimiento | El consentimiento no se puede burlar en el nivel de usuario simulado y las políticas de consentimiento no se evalúan durante la simulación. |
 | restricción y arbitraje de recorridos | No se evalúa ni se aplica durante la simulación. |

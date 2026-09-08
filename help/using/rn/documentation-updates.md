@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La sección de componentes **Cuadrícula** se ha añadido a la página **Componentes de contenido del Diseñador de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
 
 * La documentación de la **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro de la misma zona protegida o a una diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* La documentación de la API de migración de decisiones **Decisioning** se ha mejorado con instrucciones completas para migrar objetos de administración de decisiones a Decisioning. Las nuevas secciones incluyen: referencia de asignación de entidades con 10 convenciones de nomenclatura, cobertura en ámbito frente a fuera de ámbito, comparaciones detalladas de modelos de solicitud/respuesta, tres patrones de implementación (del lado del cliente, del lado del servidor, híbrido) con administración de cookies, requisitos de seguimiento de eventos con 5 ejemplos de JSON de evento, requisitos previos de migración entre zonas protegidas, un proceso de migración de extremo a extremo de 5 pasos y preguntas frecuentes sobre migración. [Más información](../experience-decisioning/decisioning-migration-api.md)
 
 * Ahora hay disponible una nueva página de **Aptitudes de CX Coworker**. Proporciona documentación completa de todas las aptitudes de recorrido disponibles en Journey Optimizer, incluidas la creación de recorridos, la creación de contenido de canal, la administración de retos de lealtad y el análisis de recorridos, con casos de uso, indicaciones de muestra y prácticas recomendadas para cada aptitud. [Más información](../start/ajo-coworker-skills.md)
 

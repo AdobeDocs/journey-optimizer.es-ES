@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
 workflow-type: tm+mt
-source-wordcount: 2424
-ht-degree: 79%
+source-wordcount: 2515
+ht-degree: 77%
 
 ---
 
@@ -109,6 +109,17 @@ ht-degree: 79%
 </tbody>
 </table>
 
+* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones de Adobe Journey Optimizer, con los siguientes elementos recientemente admitidos:
+
+  * Los nodos de decisión de contenido ahora son compatibles con la simulación.
+  * El método de regla Targeting de la actividad Optimize ahora se admite en Simulación.
+  * Ahora se admiten acciones con contenido decidido por Adobe Journey Optimizer (por ejemplo, correo electrónico con una directiva de decisión) en Simulación.
+  * Las políticas de decisión que utilizan la idoneidad de la oferta y la clasificación por regla, audiencia, prioridad o fórmula son totalmente compatibles. Clasificación por modelo de IA: Personalization también es compatible, aunque las ofertas devueltas pueden variar entre ejecuciones.
+
+  [Más información](../building-journeys/simulate-journey-gs.md)
+
+  Fecha de disponibilidad: 8 de septiembre de 2026
+
 * **Nueva función dateDiff en el editor de expresiones de recorrido**. El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
@@ -118,6 +129,8 @@ ht-degree: 79%
   Fecha de disponibilidad: 2 de septiembre de 2026
 
 ### Campañas {#sep-26-campaigns}
+
+* **Rediseño del flujo de creación de campañas de acción**: el flujo de creación de campañas de acción de Adobe Journey Optimizer se ha rediseñado para ofrecer una experiencia del usuario significativamente más intuitiva, eficiente y fluida.
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
@@ -132,15 +145,12 @@ ht-degree: 79%
 <td>
 <p>Ahora puede simular acciones de canal de entrada en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar las reglas, la toma de decisiones y el renderizado de contenido de extremo a extremo.</p>
 <p>Actualmente, esta funcionalidad está en versión Private Beta y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
-<p>Fecha de disponibilidad: 4 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 * **Carpetas para campañas de acción**: ahora puede organizar sus campañas de acción en carpetas para mejorar la navegación y la administración en la interfaz.
-
-* **Rediseño del flujo de creación de campañas de acción**: el flujo de creación de campañas de acción de Adobe Journey Optimizer se ha rediseñado para ofrecer una experiencia del usuario significativamente más intuitiva, eficiente y fluida.
 
 * **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
 
