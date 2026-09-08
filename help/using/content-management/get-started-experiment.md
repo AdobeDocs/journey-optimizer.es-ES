@@ -10,28 +10,13 @@ level: Beginner
 keywords: introducción, inicio, contenido, experimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: f29a52db-c90c-4345-902e-b586d1406d8did: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 2170
 ht-degree: 90%
@@ -84,13 +69,13 @@ En el momento de la asignación, es decir, cuando el mensaje se envía en canale
 Las métricas de objetivo se pueden agrupar en dos clases principales:
 
 * Métricas directas, en las que el usuario reacciona directamente al tratamiento, por ejemplo, abriendo un correo electrónico o haciendo clic en un vínculo.
-* Métricas indirectas o &quot;de fondo de canal&quot;, que se producen después de que el usuario haya sido expuesto al tratamiento.
+* Métricas indirectas o &quot;de fondo de embudo&quot;, que se producen después de que el usuario haya sido expuesto al tratamiento.
 
 Para las métricas de objetivo directo en las que Adobe Journey Optimizer realiza un seguimiento de los mensajes, los eventos de respuesta de los usuarios finales se etiquetan automáticamente con los identificadores de campaña y tratamiento, lo que permite la asociación directa de la métrica de respuesta con un tratamiento. [Más información sobre el seguimiento](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 
-Para objetivos indirectos o &quot;de fondo de canal&quot; como las compras, los eventos de respuesta de los usuarios finales no se etiquetan con identificadores de campaña y tratamiento, es decir, un evento de compra se produce después de la exposición a un tratamiento, no hay una asociación directa de esa compra con una asignación de tratamiento anterior. Para estas métricas, Adobe asociará el tratamiento con el evento de conversión del fondo de canal si:
+Para objetivos indirectos o &quot;de fondo de embudo&quot; como las compras, los eventos de respuesta de los usuarios finales no se etiquetan con identificadores de campaña y tratamiento, es decir, un evento de compra se produce después de la exposición a un tratamiento, no hay una asociación directa de esa compra con una asignación de tratamiento anterior. Para estas métricas, Adobe asociará el tratamiento con el evento de conversión del fondo de embudo si:
 
 * La identidad del usuario es la misma en el momento de la asignación y el evento de conversión.
 * La conversión se produce dentro de los siete días siguientes a la asignación del tratamiento.

@@ -8,26 +8,16 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: ht
-source-wordcount: 449
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+workflow-type: tm+mt
+source-wordcount: 467
+ht-degree: 96%
 
 ---
 
@@ -67,20 +57,20 @@ A diferencia de las notificaciones push tradicionales, las actividades en direct
 
 Con Adobe Journey Optimizer, puede **iniciar**, **actualizar** y **finalizar** actividades en directo de forma remota y mediante programación a través de campañas activadas por API, lo que admite casos de uso individuales y basados en públicos a escala.
 
-Las actividades en vivo **solo** se inician a través de **campañas activadas por la API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
-El tipo de campaña **activada por la API** debe seleccionarse en función del caso de uso previsto de la actividad en vivo:
+Las actividades en directo **solo** se inician a través de campañas **activadas por la API**, lo que le permite proporcionar cargas útiles personalizadas y realizar toda la personalización a través de su propia carga útil.
+Se debe seleccionar el tipo de campañas **activado por API** apropiado en función del caso de uso previsto de la actividad en directo:
 
 * Seleccione **Marketing activado por API** para casos de uso de difusión, es decir, actualizaciones basadas en públicos enviadas a escala:
 
-   * Puntuaciones deportivas y cuenta atrás de eventos en directo
-   * Actualizaciones del estado del vuelo para todos los pasajeros de una ruta
-   * Experiencias compartidas en un segmento de usuario
+  * Puntuaciones deportivas y cuenta atrás de eventos en directo
+  * Actualizaciones del estado del vuelo para todos los pasajeros de una ruta
+  * Experiencias compartidas en un segmento de usuario
 
-* Seleccione **Transaccional activado por API** para casos de uso individuales — 1:1 actualizaciones en tiempo real por usuario:
+* Seleccione **Transaccional activado por API** para casos de uso individuales — actualizaciones en tiempo real 1:1 por usuario:
 
-   * Seguimiento del pedido y estado del envío
-   * Actualizaciones del estado del servicio o del viaje
-   * Confirmaciones de reservas y citas en tiempo real
+  * Seguimiento del pedido y estado del envío
+  * Actualizaciones del estado del servicio o del viaje
+  * Confirmaciones de reservas y citas en tiempo real
 
 ## Guía de inicio rápido
 
@@ -106,4 +96,4 @@ Complete los pasos siguientes para configurar e implementar actividades en direc
 
 Descubra cómo configurar las actividades en directo de iOS con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)

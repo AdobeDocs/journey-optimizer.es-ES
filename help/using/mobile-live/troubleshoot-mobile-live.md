@@ -6,15 +6,11 @@ description: Obtenga información sobre cómo solucionar problemas de actividade
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 5964
+source-wordcount: 5976
 ht-degree: 1%
 
 ---
@@ -177,12 +173,12 @@ La API devuelve el valor HTTP 200, pero la actividad Live no aparece. Causas fre
 #### Comprobaciones previas
 
 * Requisitos de la aplicación iOS:
-   * iOS 16.1+
-   * `NSSupportsLiveActivities` se estableció en `YES` en `Info.plist`
-   * `ActivityAttributes` se implementó correctamente.
+  * iOS 16.1+
+  * `NSSupportsLiveActivities` se estableció en `YES` en `Info.plist`
+  * `ActivityAttributes` se implementó correctamente.
 * Integración de SDK móvil:
-   * Adobe Experience Platform Mobile SDK (mensajería SDK 5.11.0+)
-   * `Messaging.registerLiveActivities` implementado y llamado con el token de inserción de actividad en vivo.
+  * Adobe Experience Platform Mobile SDK (mensajería SDK 5.11.0+)
+  * `Messaging.registerLiveActivities` implementado y llamado con el token de inserción de actividad en vivo.
 
 #### Pasos de depuración
 
@@ -393,8 +389,8 @@ Asegúrese de que la carga útil de la API coincida con la implementación de la
 
 * Incluir todos los `ContentState` campos en `content-state` (requerido para todos los tipos de eventos).
 * Incluir todos los campos de `LiveActivityAttributes` en `attributes` (solo eventos de inicio), incluidos:
-   * `liveActivityData` (obligatorio; normalmente contiene `liveActivityID` o un identificador similar)
-   * Todos los campos personalizados de la estructura
+  * `liveActivityData` (obligatorio; normalmente contiene `liveActivityID` o un identificador similar)
+  * Todos los campos personalizados de la estructura
 * Haga coincidir los nombres de los campos exactamente (con distinción de mayúsculas y minúsculas).
 * Hacer coincidir tipos de datos (String, Int, Bool, objetos anidados).
 * Conservar la estructura de objetos anidados.
@@ -449,15 +445,15 @@ Pero la actividad en directo sigue sin aparecer, actualizarse ni finalizar segú
 **Comprobaciones previas**
 
 * **Escenarios Anteriores Validados:**
-   * El perfil existe con `liveActivityPushNotificationDetails` correctos
-   * La superficie de campaña y el tipo de actividad son correctos
-   * La carga útil de API es válida con la marca de tiempo actual
-   * Los tokens de actualización se sincronizan (para eventos de actualización/finalización)
+  * El perfil existe con `liveActivityPushNotificationDetails` correctos
+  * La superficie de campaña y el tipo de actividad son correctos
+  * La carga útil de API es válida con la marca de tiempo actual
+  * Los tokens de actualización se sincronizan (para eventos de actualización/finalización)
 
 * **Llamada API confirmada:**
 
-   * La llamada de API devolvió HTTP 200 (correcto)
-   * El ID de campaña y los detalles del destinatario son correctos
+  * La llamada de API devolvió HTTP 200 (correcto)
+  * El ID de campaña y los detalles del destinatario son correctos
 
 #### Pasos de depuración
 
@@ -744,8 +740,8 @@ Este escenario de solución de problemas se aplica a todos los eventos de activi
 **Comprobaciones previas:**
 
 * **Tipo de campaña**:
-   * Compruebe que la campaña se ha creado como marketing activado por API (necesario para las campañas de difusión/basadas en audiencia).
-   * Confirme que se ha definido una audiencia en la configuración de la campaña.
+  * Compruebe que la campaña se ha creado como marketing activado por API (necesario para las campañas de difusión/basadas en audiencia).
+  * Confirme que se ha definido una audiencia en la configuración de la campaña.
 * **Validación de perfil y token**: muestree varios perfiles de la audiencia para comprobar que tienen `liveActivityPushNotificationDetails` válidos. Para ver los pasos de validación detallados, siga [Ejemplo 1](#scenario-1-profile-or-push-token-issues).
 
 #### Pasos de depuración
@@ -807,17 +803,17 @@ La estructura de carga útil de difusión difiere de las campañas unitarias. Co
 **Campos críticos específicos de difusión:**
 
 * **`input-push-channel`**:
-   * Necesario para todas las actividades de difusión en directo.
-   * Sirve como identificador único para esta instancia de difusión específica.
-   * Todos los perfiles de la audiencia reciben actividades en directo vinculadas a este canal.
-   * Debe coincidir con `channelID` en `liveActivityData.channelID` (consulte el paso 3).
-   * El cliente debe crear para `appID` en Apple Developer Portal.
-   * Solo se pueden usar los canales creados para `appID` en concreto para difundir una actividad en directo en esa aplicación.
+  * Necesario para todas las actividades de difusión en directo.
+  * Sirve como identificador único para esta instancia de difusión específica.
+  * Todos los perfiles de la audiencia reciben actividades en directo vinculadas a este canal.
+  * Debe coincidir con `channelID` en `liveActivityData.channelID` (consulte el paso 3).
+  * El cliente debe crear para `appID` en Apple Developer Portal.
+  * Solo se pueden usar los canales creados para `appID` en concreto para difundir una actividad en directo en esa aplicación.
 
 * **`audience.id`**:
-   * Debe hacer referencia a un segmento de audiencia válido creado en Adobe Experience Platform.
-   * Todos los perfiles de esta audiencia están segmentados para la actividad en directo.
-   * La audiencia debe estar activada y contener perfiles con `liveActivityPushNotificationDetails` válidos.
+  * Debe hacer referencia a un segmento de audiencia válido creado en Adobe Experience Platform.
+  * Todos los perfiles de esta audiencia están segmentados para la actividad en directo.
+  * La audiencia debe estar activada y contener perfiles con `liveActivityPushNotificationDetails` válidos.
 
 **Usar siempre la marca de tiempo más reciente:**
 
@@ -955,8 +951,8 @@ Adobe Experience Platform utiliza diferentes métodos de evaluación de audienci
 **Comprobaciones previas:**
 
 * **Validación de campaña y carga útil**:
-   * Complete las comprobaciones en [este escenario](#broadcast-config) para asegurarse de que la campaña y la carga útil sean correctas.
-   * Compruebe que `audience.id` en la carga útil de la API coincida con la configuración de la campaña.
+  * Complete las comprobaciones en [este escenario](#broadcast-config) para asegurarse de que la campaña y la carga útil sean correctas.
+  * Compruebe que `audience.id` en la carga útil de la API coincida con la configuración de la campaña.
 * **El perfil existe**: confirme que el perfil existe en AEP con `liveActivityPushNotificationDetails` válido.
 
 #### Pasos de depuración
@@ -1030,9 +1026,9 @@ Siga los pasos adecuados para la resolución de problemas según el método de e
 1. **Resolver el problema:**
    * **Para nuevos perfiles**: Se califican automáticamente si se cumplen los criterios. No se necesita ninguna acción.
    * **Para perfiles existentes sin actualizaciones recientes:**
-      * Realice una actualización menor del perfil (por ejemplo, actualice un campo de marca de tiempo).
-      * Esto déclencheur la evaluación de la transmisión y añade el perfil a la audiencia.
-      * Alternativa: Utilice una audiencia por lotes o una audiencia perimetral para los perfiles existentes.
+     * Realice una actualización menor del perfil (por ejemplo, actualice un campo de marca de tiempo).
+     * Esto déclencheur la evaluación de la transmisión y añade el perfil a la audiencia.
+     * Alternativa: Utilice una audiencia por lotes o una audiencia perimetral para los perfiles existentes.
 
 +++
 
@@ -1112,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap` es un tipo de MAP estructurado, no una cadena. Utilice la sintaxis del descriptor de acceso array y struct que se muestra arriba. Las funciones de cadena como `LIKE` devolverán un error `DATATYPE_MISMATCH`.
 >
 ></br>
->&gt; El conjunto de datos de evento de comentarios de mensajes almacena solo ECID en su identityMap. Si el perfil afectado se identifica mediante un área de nombres personalizada en lugar de ECID, resuelva primero el ECID: vaya a **Perfiles** en AEP, busque el perfil utilizando el área de nombres personalizada y el valor de identidad, y recupere el ECID de los detalles de identidad del perfil. Utilice ese valor ECID en la consulta anterior.
+&gt; El conjunto de datos de evento de comentarios de mensajes almacena solo ECID en su identityMap. Si el perfil afectado se identifica mediante un área de nombres personalizada en lugar de ECID, resuelva primero el ECID: vaya a **Perfiles** en AEP, busque el perfil utilizando el área de nombres personalizada y el valor de identidad, y recupere el ECID de los detalles de identidad del perfil. Utilice ese valor ECID en la consulta anterior.
 
 ### feedbackStatus, valores
 

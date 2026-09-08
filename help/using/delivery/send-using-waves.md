@@ -9,14 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
-source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: []
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: 2271
 ht-degree: 1%
 
 ---
 
-# Envío mediante olas {#send-using-waves}
+# Envío por oleadas {#send-using-waves}
 
 >[!BEGINSHADEBOX]
 
@@ -69,12 +71,12 @@ Se aplican restricciones adicionales específicas del contexto:
 
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
->title="Envío mediante olas"
+>title="Envío por oleadas"
 >abstract="Divida la entrega de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta 10 olas con intervalos y tamaños iguales o personalizados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
->title="Envío mediante olas"
+>title="Envío por oleadas"
 >abstract="Divida la entrega de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta 10 olas con intervalos y tamaños iguales o personalizados."
 
 Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de lectura-audiencia o campaña de acción. Seleccione la pestaña correspondiente a continuación y consulte la sección [Tamaño y temporización de la onda](#wave-options) para finalizar la configuración.

@@ -6,9 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bd995268-c4fc-41c8-8f09-eb370effe46eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 453
 ht-degree: 100%
 
 ---

@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1140
 ht-degree: 9%
@@ -172,5 +170,5 @@ Después de configurar todos los atributos y propiedades, seleccione **[!UICONTR
 
 Aprenda a crear y configurar tareas con este tutorial paso a paso:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496445?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

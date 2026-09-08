@@ -5,21 +5,13 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 TQID: https://experienceleague.adobe.com/8QpErWykIh4UPZIZpe43QS2RDkjgWdvrOMK52At3tWM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 993
 ht-degree: 18%
@@ -136,8 +128,8 @@ Una vez que un recorrido está activo, puede registrar en el informe de recorrid
 
 ![](assets/journey-report.png)
 
-Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
+Además, puede usar [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} para generar consultas a fin de identificar qué regla impidió que un perfil entrara en un recorrido determinado. Hay ejemplos de consultas disponibles en [esta sección](../reports/query-examples.md#business-rules-queries), incluido el motivo secundario de descarte (`CAP_REACHED` o `LOWER_PRIORITY`).
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447617?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

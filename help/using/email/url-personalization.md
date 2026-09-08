@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url, vínculo, personalización, seguimiento, codificación, llaves
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 842
 ht-degree: 1%

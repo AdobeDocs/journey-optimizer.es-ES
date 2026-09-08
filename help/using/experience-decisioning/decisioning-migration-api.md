@@ -6,12 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: bf147566ac63bce11f4413a2450b55d436f01d7a
 workflow-type: tm+mt
 source-wordcount: 3211
 ht-degree: 3%
@@ -454,23 +451,23 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **Encabezados:**
-&#x200B;- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
-&#x200B;- `x-api-key: <API_KEY>` (de Developer Console)
-&#x200B;- `x-gw-ims-org-id: <IMS_ORG_ID>` (formato: `{ORG_ID}@AdobeOrg`)
-&#x200B;- `x-request-id: <UNIQUE_REQUEST_ID>` (para seguimiento y deduplicación)
-&#x200B;- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
-&#x200B;- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
-&#x200B;- `x-sandbox-name: <SANDBOX_NAME>` (por ejemplo, prod, dev)
+- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
+- `x-api-key: <API_KEY>` (de Developer Console)
+- `x-gw-ims-org-id: <IMS_ORG_ID>` (formato: `{ORG_ID}@AdobeOrg`)
+- `x-request-id: <UNIQUE_REQUEST_ID>` (para seguimiento y deduplicación)
+- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
+- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
+- `x-sandbox-name: <SANDBOX_NAME>` (por ejemplo, prod, dev)
 
 **Parámetros de cuerpo de solicitud:**
-&#x200B;- `xdm:dryRun` (true/false): solicitudes de prueba sin informes contaminantes
-&#x200B;- `xdm:propositionRequests[]` - Matriz de solicitudes de decisión:
-  &#x200B;- `activityId` - Identificador de actividad de decisión
-  &#x200B;- `placementId` - Identificador de ubicación
-  &#x200B;- `itemCount`: número máximo de ofertas que se devolverán
-&#x200B;- `xdm:profiles[].xdm:identityMap`: asignación de identidad (correo electrónico, ECID, etc.)
-&#x200B;- `xdm:validateContextData` - Indicador de validación de datos de contexto estricto
-&#x200B;- `xdm:responseFormat.xdm:includeContent`: incluir contenido real frente a solo ID
+- `xdm:dryRun` (true/false): solicitudes de prueba sin informes contaminantes
+- `xdm:propositionRequests[]` - Matriz de solicitudes de decisión:
+  - `activityId` - Identificador de actividad de decisión
+  - `placementId` - Identificador de ubicación
+  - `itemCount`: número máximo de ofertas que se devolverán
+- `xdm:profiles[].xdm:identityMap`: asignación de identidad (correo electrónico, ECID, etc.)
+- `xdm:validateContextData` - Indicador de validación de datos de contexto estricto
+- `xdm:responseFormat.xdm:includeContent`: incluir contenido real frente a solo ID
 
 **Cuerpo de solicitud de ejemplo:**
 
@@ -491,7 +488,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->Para obtener la referencia completa de solicitud/respuesta de Administración de decisiones (OD), consulte la [API de Edge Decisioning](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) (la variante de Web SDK/Edge, que usa `decisionScopes` con codificación base64 que lleva `activityId` y `placementId`).
+>Para obtener la referencia completa de solicitud/respuesta de Administración de decisiones (OD), consulte la [API de Edge Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) (la variante de Web SDK/Edge, que usa `decisionScopes` con codificación base64 que lleva `activityId` y `placementId`).
 
 ### Decisión de una solicitud de Edge (después de la migración) {#decisioning-request}
 
@@ -504,15 +501,15 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **Campos de solicitud de clave:**
-&#x200B;- `query.identity.fetch`: matriz de tipos de identidad para resolver (por ejemplo, `["ECID"]`)
-&#x200B;- `event.xdm.environment.type` - Tipo de entorno: `"browser"`, `"app"` o `"server"`
-&#x200B;- `event.xdm.environment.browserDetails` - Metadatos del explorador (`viewportWidth`, `viewportHeight`, `userAgent`)
-&#x200B;- `event.xdm.identityMap` - Misma asignación de identidad que Administración de decisiones
-&#x200B;- `event.xdm.timestamp` - Marca de tiempo ISO 8601
-&#x200B;- `query.personalization.surfaces` - Matriz de superficies de destino (por ejemplo, `["web://site.com/homepage"]`) — reemplaza a `decisionScope`
-&#x200B;- `query.personalization.schemas` - Esquemas de contenido para devolver (por ejemplo, `["json-content-item", "html-content-item"]`)
-&#x200B;- `data.__adobe.ajo.allowDuplicateDecisionItems` - Control de deduplicación (el valor predeterminado es `true`; establezca `false` de modo que un elemento que cumpla los requisitos para varias superficies se devuelva solo una vez, y las demás superficies recibirán un elemento de reserva o vacío). Reemplaza la Administración de decisiones `allowDuplicatePropositions`.
-&#x200B;- `data.__adobe.ajo.dryRun` - Indicador de prueba; suprime los eventos de comentarios tanto para los contadores de informes como de límite. Reemplaza la Administración de decisiones `xdm:dryRun`. Eliminar antes de producción.
+- `query.identity.fetch`: matriz de tipos de identidad para resolver (por ejemplo, `["ECID"]`)
+- `event.xdm.environment.type` - Tipo de entorno: `"browser"`, `"app"` o `"server"`
+- `event.xdm.environment.browserDetails` - Metadatos del explorador (`viewportWidth`, `viewportHeight`, `userAgent`)
+- `event.xdm.identityMap` - Misma asignación de identidad que Administración de decisiones
+- `event.xdm.timestamp` - Marca de tiempo ISO 8601
+- `query.personalization.surfaces` - Matriz de superficies de destino (por ejemplo, `["web://site.com/homepage"]`) — reemplaza a `decisionScope`
+- `query.personalization.schemas` - Esquemas de contenido para devolver (por ejemplo, `["json-content-item", "html-content-item"]`)
+- `data.__adobe.ajo.allowDuplicateDecisionItems` - Control de deduplicación (el valor predeterminado es `true`; establezca `false` de modo que un elemento que cumpla los requisitos para varias superficies se devuelva solo una vez, y las demás superficies recibirán un elemento de reserva o vacío). Reemplaza la Administración de decisiones `allowDuplicatePropositions`.
+- `data.__adobe.ajo.dryRun` - Indicador de prueba; suprime los eventos de comentarios tanto para los contadores de informes como de límite. Reemplaza la Administración de decisiones `xdm:dryRun`. Eliminar antes de producción.
 
 **Cuerpo de solicitud de ejemplo (lado del servidor):**
 
@@ -560,7 +557,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->Para obtener la referencia completa de Journey Optimizer Decisioning Web SDK / Edge, consulte [Experiencia basada en código: Implementaciones de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
+>Para obtener la referencia completa de Journey Optimizer Decisioning Web SDK / Edge, consulte [Experiencia basada en código: Implementaciones de decisiones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
 
 ### Decidir la respuesta de Edge {#decisioning-response}
 
@@ -621,16 +618,16 @@ La respuesta de Decisioning contiene varios identificadores organizados por tipo
 ```
 
 **Campos de respuesta clave:**
-&#x200B;- `handle[].type` - Tipo de identificador (`personalization:decisions`, `locationHint:result`, `state:store`)
-&#x200B;- `payload[].id` - ID de instancia de propuesta única — Eco de nuevo en los eventos de visualización/interacción
-&#x200B;- `payload[].scope`: URI de superficie para el que se resolvió la propuesta
-&#x200B;- `payload[].scopeDetails.decisionProvider` - Confirma que el motor es `AJO`
-&#x200B;- `payload[].scopeDetails.correlationID`: vincula la instancia de decisión con el evento de servicio
-&#x200B;- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` - Metadatos de clasificación, campaña y acción de la propuesta
-&#x200B;- `payload[].scopeDetails.characteristics.eventToken` - Token de seguimiento de nivel de mensaje
-&#x200B;- `payload[].scopeDetails.characteristics.subPropositions` - **matriz de elementos de decisión** codificada en Base64; cada elemento lleva su propio elemento por elemento `token`. Estos tokens por elemento son lo que se pasa en `propositionAction.tokens` en eventos de visualización/interacción
-&#x200B;- `payload[].items[].schema` / `payload[].items[].data.content`: esquema de contenido y contenido de oferta real (JSON/HTML) que se procesarán
-&#x200B;- `state:store` carga: las cookies de identidad y de clúster que se mantendrán y reenviarán en solicitudes posteriores (del lado del servidor)
+- `handle[].type` - Tipo de identificador (`personalization:decisions`, `locationHint:result`, `state:store`)
+- `payload[].id` - ID de instancia de propuesta única — Eco de nuevo en los eventos de visualización/interacción
+- `payload[].scope`: URI de superficie para el que se resolvió la propuesta
+- `payload[].scopeDetails.decisionProvider` - Confirma que el motor es `AJO`
+- `payload[].scopeDetails.correlationID`: vincula la instancia de decisión con el evento de servicio
+- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` - Metadatos de clasificación, campaña y acción de la propuesta
+- `payload[].scopeDetails.characteristics.eventToken` - Token de seguimiento de nivel de mensaje
+- `payload[].scopeDetails.characteristics.subPropositions` - **matriz de elementos de decisión** codificada en Base64; cada elemento lleva su propio elemento por elemento `token`. Estos tokens por elemento son lo que se pasa en `propositionAction.tokens` en eventos de visualización/interacción
+- `payload[].items[].schema` / `payload[].items[].data.content`: esquema de contenido y contenido de oferta real (JSON/HTML) que se procesarán
+- `state:store` carga: las cookies de identidad y de clúster que se mantendrán y reenviarán en solicitudes posteriores (del lado del servidor)
 
 La cadena `characteristics.subPropositions` base64-descodifica la matriz de elementos servidos, cada uno con su valor por elemento `token`:
 
@@ -681,19 +678,19 @@ Para atribuir correctamente los resultados de las decisiones, habilitar la restr
 Se requieren `eventType` y `_experience.decisioning.propositionEventType`. Si falta alguna de las dos, el contador de visualización/interacción correspondiente no se incrementa.
 
 * **`eventType`** - Especifica la categoría del evento:
-  &#x200B;- `decisioning.propositionDisplay` — Evento de impresión (oferta mostrada al usuario)
-  &#x200B;- `decisioning.propositionInteract`: evento de interacción (el usuario hizo clic o participó en la oferta)
+  - `decisioning.propositionDisplay` — Evento de impresión (oferta mostrada al usuario)
+  - `decisioning.propositionInteract`: evento de interacción (el usuario hizo clic o participó en la oferta)
 
 * **`_experience.decisioning.propositionEventType`** - Marca el subtipo de evento. Incluir **exactamente una clave de tipo de evento** establecida en `1` (cada valor es `1` o `0`; no establezca varios tipos de evento en `1` en el mismo objeto):
-  &#x200B;- `{ "display": 1 }` — Evento de impresión
-  &#x200B;- `{ "interact": 1 }` — evento de interacción
-  &#x200B;- Si todos/as los/las `display`/`interact`/`dismiss` son `0` (o `eventType` es cualquier valor distinto de `decisioning.proposition<Display|Interact|Dismiss>`), el evento se trata como un **evento personalizado**.
+  - `{ "display": 1 }` — Evento de impresión
+  - `{ "interact": 1 }` — evento de interacción
+  - Si todos/as los/las `display`/`interact`/`dismiss` son `0` (o `eventType` es cualquier valor distinto de `decisioning.proposition<Display|Interact|Dismiss>`), el evento se trata como un **evento personalizado**.
 
 * **`_experience.decisioning.propositionAction.tokens[]`** - Token(s) por elemento(s) que identifica qué elemento(s) sirvió(n) para incrementar los contadores de:
-  &#x200B;- Copie los `token` de cada elemento de la matriz `subPropositions` descodificada — **no** `scopeDetails.characteristics.eventToken`, que es un token de nivel de mensaje diferente.
-  &#x200B;- Pase el token exactamente como se recibió, sin modificar.
-  &#x200B;- **Eventos de interacción:** proporcionan **exactamente un token** (el elemento donde se hizo clic).
-  &#x200B;- **Mostrar eventos:** opcional — proporciona token(s) para incrementar elementos específicos, o **omite** `tokens` para incrementar el contador de **todos** los elementos de `subPropositions`.
+  - Copie los `token` de cada elemento de la matriz `subPropositions` descodificada — **no** `scopeDetails.characteristics.eventToken`, que es un token de nivel de mensaje diferente.
+  - Pase el token exactamente como se recibió, sin modificar.
+  - **Eventos de interacción:** proporcionan **exactamente un token** (el elemento donde se hizo clic).
+  - **Mostrar eventos:** opcional — proporciona token(s) para incrementar elementos específicos, o **omite** `tokens` para incrementar el contador de **todos** los elementos de `subPropositions`.
 
 * **`_experience.decisioning.propositions[]`**: haga eco de las propuestas servidas, incluidas `id`, `scope` y la `scopeDetails` completa de la respuesta (que lleva `characteristics.subPropositions` y requiere `decisionProvider`). No es necesario que genere una matriz `items[]` explícita.
 
@@ -704,9 +701,9 @@ Asocie el grupo de campos Decisioning al esquema del conjunto de datos de evento
 1. En Experience Platform, abra el esquema del conjunto de datos de eventos
 2. Agregar el grupo de campos `Experience Event - Proposition Details`
 3. Asegúrese de que los siguientes campos estén asignados:
-   &#x200B;- `_experience.decisioning.*` campos
-   &#x200B;- `_experience.decisioning.propositionAction.tokens`
-   &#x200B;- `_experience.decisioning.propositionEventType`
+   - `_experience.decisioning.*` campos
+   - `_experience.decisioning.propositionAction.tokens`
+   - `_experience.decisioning.propositionEventType`
 
 ### Administración de tokens de seguimiento {#tracking-token}
 
@@ -856,7 +853,7 @@ Un evento personalizado usa un `eventType` definido por el cliente (cualquier va
 }
 ```
 
-Estos eventos permiten la restricción de frecuencia, la creación de informes predeterminados y la optimización de clasificación impulsada por IA en Decisioning. Para enviar eventos de propuesta con Web SDK, consulte [Experiencia basada en código: Implementaciones de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
+Estos eventos permiten la restricción de frecuencia, la creación de informes predeterminados y la optimización de clasificación impulsada por IA en Decisioning. Para enviar eventos de propuesta con Web SDK, consulte [Experiencia basada en código: Implementaciones de decisiones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
 
 ## Proceso de migración de extremo a extremo {#migration-process}
 

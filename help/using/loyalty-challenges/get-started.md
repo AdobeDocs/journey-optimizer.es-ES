@@ -8,12 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1005
 ht-degree: 13%
@@ -163,7 +160,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -186,5 +183,5 @@ Para obtener la autenticación y los encabezados requeridos, consulte el [tutori
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

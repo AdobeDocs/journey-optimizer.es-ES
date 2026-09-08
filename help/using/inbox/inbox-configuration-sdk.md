@@ -5,9 +5,11 @@ feature: Content Cards
 topic: Content Management
 role: Developer
 level: Experienced
-source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: bd995268-c4fc-41c8-8f09-eb370effe46eid: d056adbe-402d-4f42-9746-f3d424e598b1
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 524
 ht-degree: 1%
 
 ---

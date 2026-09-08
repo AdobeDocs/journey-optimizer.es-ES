@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 2577
 ht-degree: 10%
@@ -372,21 +370,21 @@ Aprenda a crear y configurar desafíos de lealtad con estos tutoriales de vídeo
 
 **Configurar un desafío de fidelidad**: cree y configure un nuevo desafío de fidelidad
 
->[!VIDEO](https://video.tv.adobe.com/v/3496474?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurar recompensas** - Configurar entrega y cumplimiento de recompensas
 
->[!VIDEO](https://video.tv.adobe.com/v/3496484?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Vea cómo crear una tarjeta de contenido de desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3496532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Vea cómo configurar la mensajería del ciclo vital para un desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3497458?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Vea cómo publicar un desafío y generar un recorrido
 
->[!VIDEO](https://video.tv.adobe.com/v/3498580?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
