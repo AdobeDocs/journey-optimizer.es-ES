@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -72,10 +72,6 @@ A través de la actividad **Optimizar**, puede realizar las siguientes acciones 
 * [Ejecutar experimentos de rutas](path-experimentation.md): Pruebe diferentes rutas basadas en divisiones aleatorias para determinar cuál tiene el mejor rendimiento según las métricas de éxito predefinidas (por ejemplo: tasa de conversión, ingresos, participación).
 
 * [Aprovechar reglas de segmentación](path-targeting.md): defina las reglas específicas que deben cumplirse para que un cliente pueda ingresar a una de las rutas de recorrido, según segmentos de audiencia, atributos de perfil o datos contextuales. Esto garantiza que la audiencia correcta entre en la ruta especificada.
-
-  >[!AVAILABILITY]
-  >
-  >Actualmente, esta capacidad está en disponibilidad limitada. Para solicitar acceso, póngase en contacto con su representante de Adobe.
 
 * [Aplicar condiciones](conditions.md): cree rutas condicionales basadas en criterios específicos, como fuentes de datos, hora, fecha, divisiones de porcentaje o límites de perfil. Es el equivalente de la actividad Condición anterior.
 
