@@ -7,13 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 13%
@@ -106,8 +102,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -201,7 +197,7 @@ Para establecer reglas de límite para el elemento de decisión, siga los pasos 
      >
      >El límite de **ubicación específica** solo se admite para los canales **Web** y **Correo electrónico**. No está disponible para canales de experiencia basados en código, SMS, Push o de correo directo.
 
-     Haga clic en **[!UICONTROL Seleccionar ubicaciones]** para elegir las ubicaciones que desea limitar. Otras ubicaciones pasan sin límite. Por ejemplo, si selecciona la ubicación Hero Banner con un límite de 3 impresiones al día, la oferta deja de aparecer en el Hero Banner después de 3 impresiones, pero sigue siendo apta en todas las demás ubicaciones.
+     Haga clic en **[!UICONTROL Seleccionar ubicación]** para elegir la ubicación que desea limitar. Otras ubicaciones pasan sin límite. Por ejemplo, si selecciona la ubicación Hero Banner con un límite de 3 impresiones al día, la oferta deja de aparecer en el Hero Banner después de 3 impresiones, pero sigue siendo apta en todas las demás ubicaciones.
 
      ![Ámbito de límite de ubicación específico seleccionado, que muestra el botón Seleccionar ubicaciones y las etiquetas de ubicación seleccionadas](assets/item-capping-scope-specific.png){width="75%"}
 
