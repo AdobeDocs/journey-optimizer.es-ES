@@ -9,8 +9,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
 source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
 workflow-type: tm+mt
 source-wordcount: 11156
