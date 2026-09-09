@@ -10,26 +10,14 @@ level: Experienced
 keywords: conjunto de datos, optimizador, casos de uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
 workflow-type: tm+mt
-source-wordcount: 1152
+source-wordcount: 1498
 ht-degree: 2%
 
 ---
@@ -101,13 +89,55 @@ limit 100;
 
 _Nombre en la interfaz: conjunto de datos de evento de comentarios de mensajes de AJO_
 
-Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
+El conjunto de datos de evento de comentarios de mensajes de AJO almacena los comentarios de envío de mensajes generados por Adobe Journey Optimizer. Admite el análisis de comentarios de entrega en todos los canales de mensajes, incluidos correo electrónico, SMS/RCS/MMS y correo directo. Los eventos de comentarios se pueden utilizar para casos de uso de creación de informes y audiencias.
 
 El esquema relacionado es AJO Message Feedback Event Schema.
 
 >[!NOTE]
 >
 >Este conjunto de datos utiliza la ingesta por lotes. Se espera una latencia de datos de hasta dos horas al consultar este conjunto de datos o al utilizarlo para fines de informes.
+
+Para obtener la lista completa de campos, rutas de campo, tipos de datos y descripciones, consulte la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+
+>[!NOTE]
+>
+>No se garantiza que los campos de contexto específicos del canal se rellenen en cada evento de comentarios del mensaje. La disponibilidad de los campos puede depender del canal, la carga útil de comentarios del proveedor, el tipo de evento y la fase de envío. Utilice los identificadores de ejecución de mensajes, el estado de los comentarios, los detalles del error, la marca de tiempo y la información de identidad como campos de correlación principales.
+
+### Clasificar ejecuciones de prueba y no de prueba{#classify-test-executions}
+
+Utilice el campo `isTestExecution` para distinguir las ejecuciones de prueba de las ejecuciones que no son de prueba cuando se rellene el campo.
+
+Antes de crear una consulta, use la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar la ruta de campo, el tipo de datos y la descripción actuales del esquema de evento de comentarios de mensajes de AJO.
+
+Interprete los valores rellenados de la siguiente manera:
+
+| Valor | Interpretación |
+| ------- | ------- |
+| `true` | El mensaje formaba parte de una ejecución de prueba. |
+| `false` | El mensaje no formaba parte de una ejecución de prueba. |
+| `NULL` o falta | No se ha registrado ningún valor para el campo. Tratar esto como desconocido a menos que se haya validado una asignación específica de canal y hora. |
+
+No convierta automáticamente `NULL` a `false` y no dé por sentado que cada valor nulo representa una ejecución de producción. Si una implementación de informes ha validado que los valores nulos representan registros que no son de prueba para un canal o período histórico específico, aplique esa asignación en una vista de informes descendente y documente la regla explícitamente.
+
+Es posible que algunos registros históricos o específicos del canal no rellenen todos los campos de contexto del mensaje. Por lo tanto, debe probar la disponibilidad de los campos por canal y conservar los valores nulos en lugar de tratarlos como cadenas vacías o valores deducidos.
+
+Ejecute esta consulta solo después de confirmar la ruta de acceso `isTestExecution` en la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+Esta consulta agrupa los registros de comentarios de los mensajes por indicador de ejecución de prueba y estado de comentarios de entrega. El resultado conserva los valores `isTestExecution` nulos o que faltan, de modo que los registros sin un valor de ejecución de prueba registrado se pueden revisar por separado.
 
 Esta consulta muestra el recuento de diferentes estados de comentarios de correo electrónico (enviados, rechazados, etc.) para un mensaje determinado:
 
