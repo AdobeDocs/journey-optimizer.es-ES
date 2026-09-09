@@ -11,8 +11,9 @@ keywords: recorrido, caso de uso
 version: Journey Orchestration
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+subfeature_v2:
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 324
 ht-degree: 7%

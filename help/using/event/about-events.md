@@ -14,8 +14,8 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2401
 ht-degree: 15%
 
 ---
@@ -70,9 +70,9 @@ La configuración del evento es **obligatoria** y la debe realizar un ingeniero 
 
 Puede configurar tres tipos de eventos: **Eventos unitarios**, **Eventos empresariales** y **Eventos de calificación de audiencias**.
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
-➡️ [Descubra esta funcionalidad en vídeo](#video)
+➡️ [Descubra esta función en vídeo](#video)
 
 ## Eventos unitarios {#unitary-events}
 
@@ -84,7 +84,7 @@ Puede configurar tres tipos de eventos: **Eventos unitarios**, **Eventos empresa
 
 >[!NOTE]
 >
->Los recorridos unitarios incluyen una protección de reentrada: la reentrada del perfil se bloquea de forma predeterminada durante 5 minutos después de los déclencheur del recorrido. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil y otro llega a las 12:03, el recorrido no se reiniciará para ese perfil.
+>Los recorridos unitarios incluyen una protección de reentrada: la reentrada del perfil se bloquea de forma predeterminada durante 5 minutos después de los déclencheur del recorrido. Por ejemplo, si un evento déclencheur un recorrido a las 12:01 para un perfil y otro llega a las 12:03, el recorrido no se reinicia para ese perfil.
 
 ## Eventos empresariales {#business-events}
 

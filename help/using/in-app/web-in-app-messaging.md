@@ -8,10 +8,11 @@ level: Intermediate
 keywords: en la aplicación, mensaje, sdk web, configuración
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1020
 ht-degree: 0%

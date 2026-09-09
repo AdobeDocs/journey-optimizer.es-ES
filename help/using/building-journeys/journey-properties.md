@@ -14,9 +14,9 @@ TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
   - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 5676
 ht-degree: 10%
@@ -371,7 +371,7 @@ Para obtener más información sobre las políticas de combinación, consulte [[
 
 >[!CAUTION]
 >
->**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un **criterio de salida**. Los recorridos en directo existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
+>**Aviso de obsolescencia - septiembre de 2026**: a partir del **septiembre de 2026**, Journey Optimizer bloqueará la publicación de cualquier recorrido que utilice una audiencia por lotes en un **criterio de salida**. Los recorridos activos existentes no se ven afectados. Los recorridos nuevos, borradores y duplicados con esta configuración deben actualizarse antes de septiembre de 2026. [Aprenda a migrar sus recorridos](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"

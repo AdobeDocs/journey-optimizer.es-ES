@@ -13,12 +13,11 @@ TQID: https://experienceleague.adobe.com/jEYKbk8AUhJooMOr0x-0TbLfmvGdnDD6mosJpTX
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -28,8 +27,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: ht
+source-git-commit: 3398e1cf84b0a8eeb91eb63a306c91ccb1af716e
+workflow-type: tm+mt
 source-wordcount: 1395
 ht-degree: 100%
 
@@ -61,8 +60,8 @@ Los pasos principales para aplicar las políticas de consentimiento son los sigu
 
    * En el nivel de recorrido, puede:
 
-      * Asociar un canal y una acción de marketing a una acción personalizada en el momento de la configuración. [Aprenda a aprovechar las políticas de consentimiento al configurar una acción personalizada](#consent-custom-action)
-      * Definir una acción de marketing adicional al añadir una acción personalizada en un recorrido. [Aprenda a aprovechar las políticas de consentimiento al añadir una acción personalizada en un recorrido](#consent-journey)
+     * Asociar un canal y una acción de marketing a una acción personalizada en el momento de la configuración. [Aprenda a aprovechar las políticas de consentimiento al configurar una acción personalizada](#consent-custom-action)
+     * Definir una acción de marketing adicional al añadir una acción personalizada en un recorrido. [Aprenda a aprovechar las políticas de consentimiento al añadir una acción personalizada en un recorrido](#consent-journey)
 
 ## Utilización de las políticas de consentimiento mediante configuraciones de canal {#surface-marketing-actions}
 

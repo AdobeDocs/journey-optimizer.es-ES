@@ -6,15 +6,19 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: 265
+ht-degree: 4%
 
 ---
 
 
-# Administrar credenciales de API {#api-credentials}
+# Administración de las credenciales de API {#api-credentials}
 
 >[!BEGINSHADEBOX]
 

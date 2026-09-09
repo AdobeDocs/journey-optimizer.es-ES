@@ -14,9 +14,7 @@ product_v2:
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -25,10 +23,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 691
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -102,7 +100,7 @@ Una vez que las audiencias estén listas, puede seleccionarlas al crear recorrid
 
 >[!NOTE]
 >
->Los perfiles que se activan mediante una audiencia (ya sea en una actividad de recorrido, campaña o toma de decisiones) se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización. Cada perfil se cuenta una vez por zona protegida durante un periodo móvil de 12 meses. [Supervisar el recuento de perfiles atractivos](license-usage.md)
+>Los perfiles que se activan mediante una audiencia (ya sea en una actividad de recorrido, campaña o toma de decisiones) se contabilizan en la métrica de licencia de **Perfiles atractivos** de su organización. Cada perfil se cuenta una vez por zona protegida durante un periodo móvil de 12 meses. [Monitorización del recuento de Perfiles interesados](license-usage.md)
 
 ## Vídeo práctico {#video}
 

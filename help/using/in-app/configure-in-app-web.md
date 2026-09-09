@@ -8,10 +8,11 @@ level: Beginner
 keywords: en la aplicación, mensaje, creación, inicio
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 3%
@@ -147,20 +148,20 @@ ht-degree: 3%
 
      +++ Cómo generar una regla de coincidencia de páginas.
 
-      1. Seleccione **[!UICONTROL Regla de coincidencia de páginas]** como Configuración de aplicación e introduzca su **[!UICONTROL URL de página]**.
+     1. Seleccione **[!UICONTROL Regla de coincidencia de páginas]** como Configuración de aplicación e introduzca su **[!UICONTROL URL de página]**.
 
-      1. En la ventana **[!UICONTROL Editar regla de configuración]**, defina los criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
-      1. En los menús desplegables de condición, personalice aún más los criterios.
+     1. En la ventana **[!UICONTROL Editar regla de configuración]**, defina los criterios para los campos **[!UICONTROL Dominio]** y **[!UICONTROL Página]**.
+     1. En los menús desplegables de condición, personalice aún más los criterios.
 
-         Por ejemplo, para editar los elementos que se muestran en todas las páginas de productos de ventas del sitio web de Luma, seleccione Dominio > Empieza con > Luma y Página > Contiene > Ventas.
+        Por ejemplo, para editar los elementos que se muestran en todas las páginas de productos de ventas del sitio web de Luma, seleccione Dominio > Empieza con > Luma y Página > Contiene > Ventas.
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. Haga clic en **[!UICONTROL Agregar otra regla de página]** para crear otra regla si es necesario.
+     1. Haga clic en **[!UICONTROL Agregar otra regla de página]** para crear otra regla si es necesario.
 
-      1. Seleccione la **[!UICONTROL URL de creación y vista previa predeterminada]**.
+     1. Seleccione la **[!UICONTROL URL de creación y vista previa predeterminada]**.
 
-      1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
+     1. Guarde los cambios. La regla se muestra en la pantalla **[!UICONTROL Crear campaña]**.
 
      +++
 

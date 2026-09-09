@@ -12,6 +12,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
@@ -23,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1355
 ht-degree: 29%
@@ -140,7 +141,7 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puedes personali
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_Inapp_authoring_Content"
 >title="Para redactar el mensaje, introduzca el contenido en los campos Encabezado y Cuerpo."
->abstract="Aquí se pueden añadir tanto el encabezado como el texto del cuerpo. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
+>abstract="Aquí se pueden añadir tanto el encabezado como el texto del cuerpo. Para incluir tokens de personalización, abra el cuadro de diálogo de personalización."
 
 Para redactar el mensaje, escribe el contenido en los campos **[!UICONTROL Encabezado]** y **[!UICONTROL Cuerpo]**.
 
