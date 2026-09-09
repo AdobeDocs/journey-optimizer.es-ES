@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +543,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a la g
 
 ### Canal de correo electrónico {#june-26-email}
 
-En esta versión se han añadido las siguientes mejoras al canal de correo electrónico.
-
-* **Cifrado de parámetro de URL**: ahora puede cifrar parámetros de URL en los vínculos de seguimiento y página de destino añadidos a sus mensajes de correo electrónico. Esto proporciona una capa adicional de seguridad para los datos de parámetros confidenciales. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). [Más información](../personalization/url-parameter-encryption.md)
-
-  Fecha de disponibilidad: 1 de junio de 2026
-
-* **Nuevos permisos para el registro de claves**: ahora se necesitan dos nuevos permisos para acceder y administrar las claves necesarias para el cifrado de parámetros de URL: **Administrar el registro de claves** y **Ver el registro de claves**. [Más información](../administration/high-low-permissions.md#administration-permissions)
-
-  Fecha de disponibilidad: 1 de junio de 2026
+En esta versión se han añadido las siguientes funciones al canal de correo electrónico.
 
 <table>
 <thead>
@@ -700,6 +690,18 @@ En esta versión se han añadido las siguientes mejoras a la creación de inform
   * **CTOR (Porcentaje de clic-para-abrir) estimado**: se calcula como una estimación de clics en relación con el número total de aperturas estimadas.
 
   Fecha de disponibilidad: 25 de junio de 2026
+
+### Configuración {#june-26-configuration}
+
+En esta versión se incluyen las siguientes mejoras en la configuración.
+
+* **Cifrado de parámetro de URL**: ahora puede cifrar parámetros de URL en los vínculos de seguimiento y página de destino añadidos a sus mensajes de correo electrónico. Esto proporciona una capa adicional de seguridad para los datos de parámetros confidenciales. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). [Más información](../personalization/url-parameter-encryption.md)
+
+  Fecha de disponibilidad: 1 de junio de 2026
+
+* **Nuevos permisos para el registro de claves**: ahora se necesitan dos nuevos permisos para acceder y administrar las claves necesarias para el cifrado de parámetros de URL: **Administrar el registro de claves** y **Ver el registro de claves**. [Más información](../administration/high-low-permissions.md#administration-permissions)
+
+  Fecha de disponibilidad: 1 de junio de 2026
 
 ### Administración {#june-26-administration}
 
@@ -1428,7 +1430,7 @@ Las secciones [Nuevas funcionalidades](#march-26-features) y [Mejoras](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Fecha de la versión**: 24-25 de marzo de 2026
@@ -2182,7 +2184,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Comprobaciones de calidad del contenido del Asistente de IA**: además de la alineación de marca, ahora puede evaluar la <strong>calidad del contenido</strong> general para descubrir posibles problemas con la <strong>legibilidad</strong>, la coherencia y la eficacia, independientemente de las directrices de marca. Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content-management/brands-score.md#validate-quality).
 
-  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470549/?captions=spa&learn=on).
+  [Descubra esta función en vídeo](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Recorridos
 
