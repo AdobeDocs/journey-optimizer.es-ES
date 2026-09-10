@@ -37,10 +37,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -151,6 +151,34 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
+
+**Análisis de acciones personalizadas**
+
+Utilice eventos de paso de recorrido para comprobar que Journey Optimizer ha ejecutado una acción personalizada y para inspeccionar su estado, latencia y detalles de error:
+
+```sql
+-- Example: Inspect custom action execution for a given custom action and profile in a journey
+SELECT
+  timestamp,
+  _experience.journeyOrchestration.stepEvents.actionID AS action_id,
+  _experience.journeyOrchestration.stepEvents.actionName AS action_name,
+  _experience.journeyOrchestration.stepEvents.actionType AS action_type,
+  _experience.journeyOrchestration.stepEvents.stepStatus AS step_status,
+  _experience.journeyOrchestration.stepEvents.actionExecutionError AS action_execution_error,
+  _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS action_execution_error_code
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
+AND _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction'
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profile-id>'
+AND _experience.journeyOrchestration.stepEvents.nodeName = '<node-name>'
+ORDER BY timestamp DESC;
+```
+
+>[!NOTE]
+>
+>Esta consulta tiene un ámbito de un solo perfil y nodo de recorrido. Sin los filtros `profileID` y `nodeName`, la consulta puede devolver un gran número de filas, especialmente para recorridos de gran volumen o recorridos que contienen varios nodos de acción personalizados.
+
+Esta consulta informa de los detalles de ejecución solo en el lado del Journey Optimizer. Un resultado correcto no confirma que el sistema externo haya enviado un mensaje: compruebe los registros o los informes del servicio externo para ver el estado de envío descendente. Aprenda a [elegir el conjunto de datos correcto](../data/datasets-query-examples.md#choose-the-correct-dataset) para los comentarios de envío de mensajes.
 
 **análisis de funnel de Recorrido**
 

@@ -12,9 +12,9 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de f
 **Funciones de IA centradas en la fidelidad:**
 
 * **Administración de retos de fidelidad**: cree y administre desafíos de fidelidad mediante mensajes en lenguaje natural
-* **Agente de fidelización - Habilidad de Data Insight**: consulte y analice los datos de rendimiento del programa de fidelización utilizando lenguaje natural
+* **Habilidad de perspectivas de fidelización**: consulte y analice los datos de rendimiento del programa de fidelización con lenguaje natural
 
 CX Coworker también incluye un conjunto de **herramientas MCP de administración de contenido** para detectar, crear y administrar plantillas de contenido de Journey Optimizer, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. [Más información](#content-management)
 
@@ -432,9 +432,9 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Indica la recompensa**: Puntos, millas, créditos de extractos, extensiones de estado, cupones o beneficios otorgados al finalizar.
 1. **Haga referencia al evento correspondiente**: indique el SKU, el producto, la acción de la cuenta o el evento de participación específico que rastrea el desafío.
 
-### Agente de fidelización: Data Insight {#loyalty-data-insight}
+### Habilidad de perspectivas de fidelización {#loyalty-data-insight}
 
-Agente de fidelización: la aptitud de Data Insight permite a los usuarios de Journey Optimizer analizar y consultar los datos de rendimiento del programa de fidelidad mediante el lenguaje natural. Esta aptitud proporciona perspectivas sobre puntos de fidelidad, niveles de miembros, reembolsos y métricas de ingresos, lo que permite a los administradores y analistas de fidelidad tomar decisiones basadas en datos sobre sus programas de fidelidad.
+La aptitud de Loyalty Insights permite a los usuarios de Journey Optimizer analizar y consultar los datos de rendimiento del programa de fidelidad mediante lenguaje natural. Esta aptitud proporciona perspectivas sobre puntos de fidelidad, niveles de miembros, reembolsos y métricas de ingresos, lo que permite a los administradores y analistas de fidelidad tomar decisiones basadas en datos sobre sus programas de fidelidad.
 
 Casos de uso clave:
 

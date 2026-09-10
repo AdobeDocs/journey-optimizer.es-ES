@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: fb4dabc9839ce736abad94c5c12b7652188f1daa
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 100%
+source-wordcount: 1370
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ Esta sección enumera los conjuntos de datos del sistema utilizados por [!DNL Jo
 
 * Creación de informes
 
-  * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.**
+  * _Informes: conjunto de datos del evento de comentarios de mensajes_: registros de envío de mensajes. Información sobre el envío de mensajes desde Journey Optimizer con fines de creación de informes y públicos. Los comentarios de los ISP de correo electrónico sobre los rechazos también se registran en este conjunto de datos. **Este conjunto de datos utiliza la ingesta por lotes; se espera una latencia de datos de hasta dos horas.** Para obtener definiciones y rutas de acceso de nivel de campo, vea la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/tools/ajo-schemas){target="_blank"}. Para ver ejemplos de informes de SQL, vea [Ejemplos de consultas de conjuntos de datos](../data/datasets-query-examples.md).
   * _Sistema de informes: conjunto de datos del evento de experiencia de seguimiento del correo electrónico_: registros de interacción para los datos de contexto del canal de correo electrónico y del canal de WhatsApp en el grupo de campos `whatsAppChannelContext`. Se utiliza para la creación de informes y públicos. La información almacenada incluye las acciones realizadas por el usuario final en el correo electrónico (aperturas, clics, etc.) y las interacciones mediante WhatsApp.
   * _Creación de informes: conjunto de datos de evento de experiencia de seguimiento push_: registros de interacción para canales push que se utilizan con fines de creación de informes y públicos. La información almacenada informa sobre las acciones realizadas por el usuario final en las notificaciones push.
   * _Informes: evento de paso de recorrido_: captura todos los eventos de experiencia de los pasos de Recorrido generados desde Journey Optimizer para que los consuman servicios como Informes. También es fundamental para crear informes en Customer Journey Analytics para análisis YoY. Vinculado a metadatos de recorrido.

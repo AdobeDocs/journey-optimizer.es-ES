@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
 workflow-type: tm+mt
-source-wordcount: 10638
-ht-degree: 95%
+source-wordcount: 11156
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,29 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Septiembre de 2026 {#september-2026}
 
+* La documentación de la actividad **Optimize** ya no marca el método **Targeting rule** como disponibilidad limitada: las reglas de segmentación ahora están disponibles de forma general. [Más información](../building-journeys/optimize.md#optimization-methods)
+
 * La página **Diseña tu recorrido** ahora incluye una sección de tutorial completa sobre la nueva experiencia de lienzo, que cubre cómo agregar actividades, usar los iconos de la barra de herramientas, seleccionar varias actividades para acciones masivas, copiar y pegar actividades, y unir o desasociar ramas. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+* Se han agregado nuevas directrices para comprobar la entrega de acciones personalizadas: la página **Ejemplos de consultas de conjuntos de datos** ahora explica cómo elegir entre los conjuntos de datos Evento de comentarios de mensajes, Seguimiento de correo electrónico y Evento de pasos de Recorrido según el tipo de acción, y documenta cómo resolver el error &quot;Tabla no aprovisionada para el conjunto de datos&quot;. Las páginas **Información general sobre los eventos de paso de Recorrido** y **Solucionar problemas de la ejecución del recorrido en directo** se han actualizado en consecuencia, lo que aclara que una llamada de acción personalizada correcta solo confirma que Journey Optimizer ejecutó la acción, no que el sistema externo entregó un mensaje. [Más información](../data/datasets-query-examples.md#choose-the-correct-dataset)
+
+* Se ha documentado una nueva aptitud de **Analizar anomalías de Recorrido** en **Analizar Recorrido** en la página CX Coworker. Detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas, y ejecuta diagnósticos de solo lectura para detectar una causa raíz probable. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
+
+* La página **Protecciones y limitaciones** se ha corregido para eliminar notas obsoletas que indican que los fragmentos visuales de más de 100 KB o los fragmentos de expresiones de más de 200 KB pueden causar problemas de truncamiento en la entrega de correo electrónico: solo se aplica la protección de tamaño de fragmento de 700 KB. [Más información](../start/guardrails.md#fragments-guardrails)
+
+* Se ha corregido la página **Crear una actividad en directo**: el campo `executionMetadata` solo está disponible para **campañas transaccionales activadas por API**, no para campañas de marketing activadas por API como se indicó anteriormente. [Más información](../mobile-live/create-mobile-live.md#metadata)
+
+* La documentación de **Conjunto de datos de evento de comentarios de mensajes de AJO** se ha ampliado para aclarar que cubre los comentarios de entrega de mensajes en todos los canales (correo electrónico, SMS/RCS/MMS, correo directo), no solo correo electrónico y push, y ahora incluye una sección de **Clasificar ejecuciones de prueba y no de prueba** que explica cómo interpretar el campo `isTestExecution`, incluidos `NULL` o los valores que faltan. [Más información](../data/datasets-query-examples.md#classify-test-executions)
+
+* Se ha documentado una nueva funcionalidad **Content Management** para CX Coworker, con 15 herramientas MCP de lectura y escritura que le permiten detectar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña utilizando indicaciones en lenguaje natural. [Más información](../start/ajo-coworker-skills.md#content-management)
+
+* La documentación de **Agregar contenido a la página de aterrizaje** ahora describe la opción **Hacer obligatorio el campo de formulario** para las casillas de verificación de consentimiento: cuando está habilitada, el formulario no se puede enviar a menos que la casilla de verificación esté seleccionada y se aplique tanto en el lado del cliente como en el del servidor. [Más información](../landing-pages/lp-content.md#use-form-component)
+
+* La página **Introducción a la simulación de Recorrido** se ha actualizado para documentar que los nodos de decisión de contenido y el método de regla de segmentación de la actividad **Optimize** ahora son compatibles con la simulación (anteriormente enumerados como bloqueo), con una nueva tabla de **Toma de decisiones** que detalla cómo se evalúan la elegibilidad de la oferta, las reglas de elegibilidad, las audiencias y los métodos de clasificación durante la ejecución de la simulación. [Más información](../building-journeys/simulate-journey-gs.md#limitations)
+
+* La página **Convertir imágenes en plantillas de contenido de correo electrónico** se ha corregido para eliminar un requisito de permisos impreciso: el permiso **Administrar plantillas de contenido** no es necesario para acceder y crear plantillas con el convertidor de imagen a HTML; solo se necesita el permiso **Generar contenido**. [Más información](../content-management/image-to-html.md#access-image-to-html)
+
+* Se ha corregido la página **Sistemas externos (acciones personalizadas)**: el disyuntor para extremos de acción personalizada lentos ahora se activa cuando más del 20 % de las llamadas en una ventana de 120 segundos superan los **5 segundos** (anteriormente documentados como 10 segundos). [Más información](../configuration/external-systems.md#response-time)
 
 * La página **Configurar la configuración de su canal** ahora incluye una nota que aclara que el esquema utilizado para la dimensión secundaria debe tener una clave principal y que las claves principales compuestas no son compatibles. [Más información](../orchestrated/channel-config.md)
 

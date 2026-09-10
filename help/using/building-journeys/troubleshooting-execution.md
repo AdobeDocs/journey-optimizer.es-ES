@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ Si las personas recorren el recorrido correctamente pero no reciben mensajes que
 * [!DNL Journey Optimizer] ha enviado correctamente el mensaje. Compruebe los informes de recorrido para asegurarse de que no hay errores.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de recorrido es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
+
+>[!NOTE]
+>
+>Para las acciones nativas del canal de Journey Optimizer, consulte el conjunto de datos de evento de comentarios de mensajes para confirmar el estado de envío, como `sent` o `bounce`. Para las acciones personalizadas, consulte el conjunto de datos Evento de paso de Recorrido para confirmar que Journey Optimizer ejecutó la acción correctamente: una llamada HTTP correcta no confirma por sí misma que el sistema externo entregó un mensaje. Aprenda a [elegir el conjunto de datos correcto](../data/datasets-query-examples.md#choose-the-correct-dataset) para su caso de uso.
 
 ## Explicación de las entradas duplicadas en eventos de paso de Recorrido {#duplicate-step-events}
 
