@@ -45,7 +45,7 @@ Una vez creada una notificación push, puede diseñar su contenido para platafor
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="Personalice la notificación push."
->abstract="Para redactar el mensaje, introduzca el contenido en los campos **Título** y **Cuerpo**. Para incluir tókenes de personalización, abra el cuadro de diálogo de personalización."
+>abstract="Para redactar el mensaje, introduzca el contenido en los campos **Título** y **Cuerpo**. Para incluir tokens de personalización, abra el cuadro de diálogo de personalización."
 
 ![](assets/title-body.png)
 
