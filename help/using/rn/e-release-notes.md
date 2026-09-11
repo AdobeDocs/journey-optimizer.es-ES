@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 498ffd4d4d68dfc678ae4e2e8ad9ae39834a6b23
 workflow-type: tm+mt
-source-wordcount: 2527
+source-wordcount: 2594
 ht-degree: 13%
 
 ---
@@ -298,6 +295,8 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 * **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">DOCAC-14308</a> <!-- Documentation link: TBD -->
 
 * **Mejoras en la experiencia de usuario de unión directa**: al agregar un atributo de una colección relacionada, ahora puede elegir entre tres modos de unión, un nuevo valor predeterminado que le advierte sobre el posible impacto en el rendimiento de los productos cartesianos, además de los modos Agregado y Avanzado existentes, lo que facilita la comprensión de las compensaciones de su consulta antes de crearla. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
+
+* **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en **datos relacionales**, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. Esto reduce una brecha con respecto a la versión original, por lo que los especialistas en marketing pueden crear estas condiciones de forma visual, sin necesidad de ayuda de ingeniería. <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
 
 ### Campañas {#sep-26-campaigns}
 
