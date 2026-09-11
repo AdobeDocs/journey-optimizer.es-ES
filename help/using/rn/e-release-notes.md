@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: d6216ad8546cbbfbccb66104fe61ff6f86a1e68e
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: 1928
 ht-degree: 19%
 
 ---
@@ -340,7 +337,6 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <tr>
 <td>
 <p>Los temas de correo electrónico ahora admiten un estilo independiente para el modo oscuro. En el generador de temáticas, puede activar el modo oscuro para una variante determinada para generar una hoja de estilos en modo oscuro dedicada que edite por separado de los estilos en modo claro: los cambios realizados en un modo ya no sobrescriben al otro. En el editor de correo electrónico y plantillas, una nueva opción de previsualización junto a las opciones de escritorio y vista móvil permite previsualizar el contenido en modo oscuro.</p>
-<p>Debido a que esta previsualización en el editor se basa en un filtro CSS y no es perfecta en píxeles, recomendamos enviar una prueba para verificar el procesamiento exacto en clientes de correo electrónico con habilitado para el modo oscuro.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
