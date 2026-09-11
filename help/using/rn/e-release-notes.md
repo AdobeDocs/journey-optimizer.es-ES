@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
 workflow-type: tm+mt
-source-wordcount: 1951
+source-wordcount: 1958
 ht-degree: 19%
 
 ---
@@ -206,7 +203,7 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <tr>
 <td>
 <p><strong>Canales salientes personalizados</strong> permiten a los administradores llevar cualquier canal de mensajería saliente basado en HTTP, como WeChat, Kakao Talk, Messenger o un proveedor propietario, directamente a Journey Optimizer a través de un Generador de canales sin código. Una vez configurados, los canales personalizados están disponibles en cualquier campaña, recorrido y campaña orquestada, con el mismo conjunto completo de funcionalidades que los canales nativos: personalización con el editor de expresiones, experimentación de contenido, previsualización y prueba, creación de informes predeterminada y aplicación de consentimiento y gobernanza.</p>
-<p>Los canales personalizados también obtienen varias funciones nuevas:</p>
+<p>Con esta versión, los canales salientes personalizados también obtienen varias funciones nuevas:</p>
 <ul>
 <li>Utilice Journey Optimizer Decisioning en la carga útil del canal personalizado a través del Editor de Personalization, del mismo modo que en las experiencias basadas en código.</li>
 <li>Aplique reglas empresariales a los canales personalizados, del mismo modo que ya lo hace en los canales nativos.</li>
@@ -365,7 +362,22 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 </tbody>
 </table>
 
-* **Nuevo componente de tabla en el Designer de correo electrónico**: el Designer de correo electrónico ahora incluye un **componente de tabla** integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado. <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico. <!-- Documentation link: TBD -->
 
