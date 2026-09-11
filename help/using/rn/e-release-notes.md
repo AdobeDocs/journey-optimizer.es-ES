@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 291454989c9871e831ce648c60d43dac5b0264f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
 workflow-type: tm+mt
-source-wordcount: 1961
+source-wordcount: 1951
 ht-degree: 19%
 
 ---
@@ -31,7 +28,7 @@ Adobe Journey Optimizer ofrece de forma continua nuevas funciones, mejoras en la
 
 Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Fecha de la versión**: 21 de septiembre de 2026
+**Fecha de la versión**: 21 y 22 de septiembre de 2026
 
 ### Administración de contenido {#sep-26-content-management}
 
@@ -115,7 +112,7 @@ La siguiente funcionalidad se incorpora en esta versión.
 <table>
 <thead>
 <tr>
-<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos</strong><br/></th>
+<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +203,13 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <tr>
 <td>
 <p><strong>Canales salientes personalizados</strong> permiten a los administradores llevar cualquier canal de mensajería saliente basado en HTTP, como WeChat, Kakao Talk, Messenger o un proveedor propietario, directamente a Journey Optimizer a través de un Generador de canales sin código. Una vez configurados, los canales personalizados están disponibles en cualquier campaña, recorrido y campaña orquestada, con el mismo conjunto completo de funcionalidades que los canales nativos: personalización con el editor de expresiones, experimentación de contenido, previsualización y prueba, creación de informes predeterminada y aplicación de consentimiento y gobernanza.</p>
-<p>Los canales personalizados también obtienen varias funciones nuevas. Ahora puede utilizar Journey Optimizer Decisioning en la carga útil del canal personalizado a través del Editor de Personalization, del mismo modo que en las experiencias basadas en código. Los canales personalizados también admiten reglas empresariales, lo que permite aplicar conjuntos de reglas del mismo modo que ya se puede hacer en los canales nativos. Los canales personalizados ya están disponibles en la lista de canales para campañas activadas por API, lo que no ocurría anteriormente. También puede definir un webhook de informes para un canal personalizado y adjuntarlo a una configuración de canal, de modo que pueda enriquecer los informes de Journey Optimizer con eventos de interacción.</p>
+<p>Los canales personalizados también obtienen varias funciones nuevas:</p>
+<ul>
+<li>Utilice Journey Optimizer Decisioning en la carga útil del canal personalizado a través del Editor de Personalization, del mismo modo que en las experiencias basadas en código.</li>
+<li>Aplique reglas empresariales a los canales personalizados, del mismo modo que ya lo hace en los canales nativos.</li>
+<li>Seleccione canales personalizados en la lista de canales para campañas activadas por API, lo que anteriormente no era posible.</li>
+<li>Defina un webhook de informes para un canal personalizado y adjúntelo a una configuración de canal para que pueda enriquecer los informes de Journey Optimizer con eventos de interacción.</li>
+</ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -271,7 +274,7 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 </tbody>
 </table>
 
-* **Compatibilidad con Line**: ahora puede agregar **acciones de LINE** directamente en sus campañas orquestadas. Esta nueva actividad le permite crear y ofrecer contenido altamente personalizado, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes Flex enriquecidos, para atraer a sus clientes sin problemas en la plataforma LINE. Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <!-- Documentation link: TBD -->
+* **Compatibilidad con LINE**: ahora puede agregar **acciones de LINE** directamente en sus campañas orquestadas. Esta nueva actividad le permite crear y ofrecer contenido altamente personalizado, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes Flex enriquecidos, para atraer a sus clientes sin problemas en la plataforma LINE. Esta capacidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <!-- Documentation link: TBD -->
 
 * **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización. <!-- Documentation link: TBD -->
 
@@ -282,7 +285,7 @@ Las siguientes funcionalidades y mejoras están llegando a las campañas de esta
 <table>
 <thead>
 <tr>
-<th><strong>Simulación de experiencia de entrada en campañas de acción</strong><br/></th>
+<th><strong>Simulación de experiencia entrante en campañas de acción (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -372,29 +375,5 @@ La siguiente mejora se presenta para la administración en esta versión.
 ### Mejoras de uso {#sep-26-usability}
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
-
-<!--
-
-## June '26 pre-release notes {#june-26-rn}
-
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
-
-**Release date**: June 16-17, 2026
-
-### Journeys {#june-26-journeys}
-
-The following capabilities and improvements are coming to journeys in this release.
-
-* **Increased live journey limit and new guardrails** - You can now have up to **200 active journeys**, increased from the previous limit of 100.
-
-
-
-### Orchestrated campaigns {#june-26-oc}
-
-The following capabilities and improvements are coming to orchestrated campaigns in this release.
-
--->
 
 
