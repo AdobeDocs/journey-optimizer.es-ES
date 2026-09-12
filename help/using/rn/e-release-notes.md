@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
+source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
 workflow-type: tm+mt
-source-wordcount: 2747
-ht-degree: 12%
+source-wordcount: 2943
+ht-degree: 11%
 
 ---
 
@@ -183,6 +183,8 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 * **Comparar versiones de recorrido con CX Coworker**: hoy, para revisar lo que ha cambiado entre dos versiones de un recorrido es necesario compararlo manualmente dentro de Journey Optimizer nodo por nodo. No hay una comparación de diferencias estructurada, lo que hace que las comprobaciones de cambio, revisión, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través de CX Coworker Chat y recuperar una fidelidad completa, **comparación de diferencias estructurada** - nodos agregados/eliminados/modificados/movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación - sin necesidad de abrir Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **Vista previa del contenido en el lienzo del recorrido**. Para revisar el contenido del canal hoy mismo es necesario abrir cada nodo individualmente, uno por vez. Es lento y propenso a errores en recorridos con muchos nodos de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por nodo. **Vista previa del contenido** elimina esa fricción al mostrar una miniatura de contenido para cada nodo de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
+
+* **Nueva alerta de anomalía de Recorrido detectada**: ahora una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero inesperadamente en las entradas de Recorrido, salidas de Recorrido y envíos de eventos. Actualmente, esta alerta solo está disponible en zonas protegidas de producción. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
 ### Canales {#sep-26-channels}
 
@@ -445,6 +447,14 @@ La siguiente funcionalidad se incluye en los informes en esta versión.
 </tr>
 </tbody>
 </table>
+
+### Administración {#sep-26-administration}
+
+El siguiente recordatorio se aplica a la administración de en esta versión.
+
+* **Protección de tiempo de vida de conjunto de datos (TTL) — zonas protegidas existentes** - La protección de tiempo de vida (TTL) para conjuntos de datos generados por el sistema de Journey Optimizer (90 días en el almacén de perfiles, 13 meses en el lago de datos) se aplicará en las zonas protegidas de clientes y organizaciones existentes a partir del 1 de octubre de 2026. <a href="https://jira.corp.adobe.com/browse/DOCAC-15239" target="_blank">DOCAC-15239</a> <!-- Documentation link: TBD -->
+
+* **Próximo cambio en las audiencias de enriquecimiento de Composición de audiencia**: durante la versión de octubre (finales de octubre), Journey Optimizer detendrá los recorridos que usen o hagan referencia a una audiencia de Composición de audiencia cuyo conjunto de datos de origen no tenga un **descriptor de identidad principal**. A partir de ese momento, solo se admitirán en recorrido las audiencias de Composición de audiencia creadas con un descriptor de identidad principal. Si necesita que estos recorridos permanezcan activos, póngase en contacto con su representante de Adobe para que nuestro equipo de productos le ayude a realizar la migración. <a href="https://jira.corp.adobe.com/browse/DOCAC-15690" target="_blank">DOCAC-15690</a> <!-- Documentation link: TBD -->
 
 ### Mejoras de uso {#sep-26-usability}
 
