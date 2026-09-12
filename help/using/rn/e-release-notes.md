@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 7e1f3505e283a3017fa52836b825162bea3fc4ae
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2124
-ht-degree: 18%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -40,13 +40,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Complementos de copia de mensajes y diseño de correo electrónico en CX Coworker</strong><br/></th>
+<th><strong>Complementos de diseño de correo electrónico y copia de mensajes en CX Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay dos nuevos complementos disponibles en CX Coworker para optimizar tus <strong>flujos de trabajo de mensajes y correo electrónico</strong> desde la estrategia hasta la implementación:</p>
+<p>Hay dos nuevos complementos disponibles en CX Coworker para optimizar tus flujos de trabajo de <strong>mensajería y correo electrónico</strong> desde la estrategia hasta la implementación:</p>
 <p><strong>Complemento de copia de mensaje</strong>:</p>
 <ul>
 <li>Captura informes de campaña y define mapas de mensajería, arcos narrativos y funciones de canal.</li>
@@ -109,7 +109,7 @@ Las siguientes capacidades y mejoras llegan a Loyalty en esta versión.
 </tbody>
 </table>
 
-* **Habilidad en la recomendación de fidelidad de los compañeros de CX**: los especialistas en marketing ahora pueden solicitar **oportunidades de desafío** directamente en la interfaz conversacional de los compañeros de CX, obteniendo ideas de desafío fundamentadas basadas en tendencias reales del programa de fidelidad y convirtiéndolas en desafíos en vivo sin abandonar el chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+* **aptitud para recomendar fidelidad de CX Coworker**: los especialistas en marketing ahora pueden solicitar **oportunidades de desafío** directamente en la interfaz conversacional de CX Coworker, obteniendo ideas de desafío fundamentadas en tendencias reales del programa de fidelidad y convirtiéndolas en desafíos en vivo sin abandonar el chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
 
 ### Incorporación {#sep-26-onboarding}
 
@@ -147,7 +147,7 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 <tbody>
 <tr>
 <td>
-<p>La <strong>habilidad de simulación de Recorrido</strong> de CX Coworker automatiza la validación de recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.</p>
+<p>La <strong>aptitud de simulación de Recorrido</strong> de CX Coworker automatiza la validación de recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15374" target="_blank">DOCAC-15374</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -156,10 +156,14 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 </tbody>
 </table>
 
+* **La experimentación de rutas de decisiones en la simulación de Recorridos** - **Experimentación de rutas**, parte de la actividad de optimización en Decisioning, ahora se admite en la simulación de Recorridos. <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">DOCAC-15641</a> <!-- Documentation link: TBD -->
+
+* **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura. <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">DOCAC-15448</a> <!-- Documentation link: TBD -->
+
 <table>
 <thead>
 <tr>
-<th><strong>Creación de recorridos desde el carril CX Coworker</strong><br/></th>
+<th><strong>Creación de recorridos desde el carril de CX Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -174,11 +178,11 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 </tbody>
 </table>
 
-* **La experimentación de rutas de decisiones en la simulación de Recorridos** - **Experimentación de rutas**, parte de la actividad de optimización en Decisioning, ahora se admite en la simulación de Recorridos. <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">DOCAC-15641</a> <!-- Documentation link: TBD -->
+* **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad Leer audiencia**, la opción &quot;Déclencheur tras evaluación de audiencia por lotes&quot; en recorrido ahora espera a que se complete cualquier segmentación por lotes que ya esté en curso, lo que garantiza que el recorrido utilice los datos de esa ejecución en lugar de volver a una instantánea anterior. Si no hay ninguna segmentación por lotes en curso, la recorrido se activa inmediatamente con los datos de audiencia más recientes disponibles. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
-* **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura. <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">DOCAC-15448</a> <!-- Documentation link: TBD -->
+* **Comparar versiones de recorrido con CX Coworker**: hoy, para revisar lo que ha cambiado entre dos versiones de un recorrido es necesario compararlo manualmente dentro de Journey Optimizer nodo por nodo. No hay una comparación de diferencias estructurada, lo que hace que las comprobaciones de cambio, revisión, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través de CX Coworker Chat y recuperar una fidelidad completa, **comparación de diferencias estructurada** - nodos agregados/eliminados/modificados/movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación - sin necesidad de abrir Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
-* **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad de lectura de audiencia**, la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; en recorrido ahora espera una nueva evaluación de audiencia solo cuando una segmentación por lotes ya está en curso y el lote que se va a activar difiere del utilizado en la ejecución anterior, lo que evita demoras innecesarias para los recorridos que no necesitan esperar. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **Vista previa del contenido en el lienzo del recorrido**. Para revisar el contenido del canal hoy mismo es necesario abrir cada nodo individualmente, uno por vez. Es lento y propenso a errores en recorridos con muchos nodos de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por nodo. **Vista previa del contenido** elimina esa fricción al mostrar una miniatura de contenido para cada nodo de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
 
 ### Canales {#sep-26-channels}
 
@@ -231,14 +235,15 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Canal de destinos en recorridos</strong><br/></th>
+<th><strong>Anular configuración de canal de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ahora incluye un nuevo nodo <strong>Destinations</strong> en el lienzo del recorrido, lo que permite a los clientes de Adobe Experience Platform Real-Time CDP y Journey Optimizer agregar o eliminar perfiles de audiencias de medios pagados externas, como Facebook y Google, directamente en un recorrido.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11383" target="_blank">DOCAC-11383</a></p>
+<p>Al crear los recorridos y las campañas, ahora puede anular los parámetros de correo electrónico derivados de la configuración de canal seleccionada directamente en el nivel de acción de recorrido o campaña.</p>
+<p>Esto le permite personalizar los campos de encabezado del correo electrónico (<strong>De nombre</strong>, <strong>De prefijo de correo electrónico</strong>, <strong>Responder al nombre</strong> y <strong>Responder al correo electrónico</strong>), la dirección de ejecución y los valores de cancelación de suscripción a una lista, mediante atributos de perfil o datos contextuales para un control más preciso. En particular, esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14718" target="_blank">DOCAC-14718</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -255,13 +260,13 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 <table>
 <thead>
 <tr>
-<th><strong>O unirse a la actividad</strong><br/></th>
+<th><strong>O unirse a la actividad para campañas orquestadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La actividad AND-join se ha actualizado a una <strong>actividad Join</strong> genérica, lo que le permite elegir entre las condiciones AND y OR join.</p>
+<p>La <strong>actividad de unión</strong> en las campañas orquestadas ahora admite las condiciones de unión AND y OR. Con la lógica OR, un perfil que completa cualquier rama ascendente, en lugar de todas, continúa a lo largo de una sola ruta descendente compartida. Esto permite modelar patrones "si A, B o C, entonces hágalo" directamente en el lienzo sin duplicar los pasos descendentes a través de ramas independientes.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15020" target="_blank">DOCAC-15020</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -273,13 +278,13 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 <table>
 <thead>
 <tr>
-<th><strong>Alerta para campañas organizadas</strong><br/></th>
+<th><strong>Alerta para campañas orquestadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las campañas orquestadas ahora admiten <strong>alertas en tiempo real</strong>, incluidas las notificaciones esenciales cuando una campaña falla, se ejecuta más allá de un umbral definido o llega a un error de nivel de actividad, para que los especialistas en marketing puedan captar y resolver problemas sin esperar a que se complete una campaña.</p>
+<p>Las campañas orquestadas ahora admiten <strong>alertas automatizadas</strong> a través del mismo marco de alertas utilizado en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera o requiere confirmación, y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo a la vista de monitorización, clasificados por gravedad para que los equipos puedan priorizar sin comprobaciones manuales de la IU.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14886" target="_blank">DOCAC-14886</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -288,9 +293,13 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 </tbody>
 </table>
 
-* **Compatibilidad con LINE**: ahora puede agregar **acciones de LINE** directamente en sus campañas orquestadas. Esta nueva actividad le permite crear y ofrecer contenido altamente personalizado, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes Flex enriquecidos, para atraer a sus clientes sin problemas en la plataforma LINE. Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general). <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">DOCAC-15102</a> <!-- Documentation link: TBD -->
+* **Canal LINE para campañas orquestadas**: LINE ya está disponible como canal saliente nativo en campañas orquestadas, junto con correo electrónico, SMS y push. Puede crear y enviar mensajes de LINE directamente desde el lienzo de la campaña, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes de Flex, lo que admite casos de uso de participación promocional, transaccional y continua en mercados dominantes de LINE como Japón y APAC. Esta capacidad, que se publicó anteriormente con disponibilidad limitada, ya está disponible de forma general. <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">DOCAC-15102</a> <!-- Documentation link: TBD -->
 
 * **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">DOCAC-14308</a> <!-- Documentation link: TBD -->
+
+* **Mejoras en la experiencia de usuario de unión directa**: al agregar un atributo de una colección relacionada, ahora puede elegir entre tres modos de unión, un nuevo valor predeterminado que le advierte sobre el posible impacto en el rendimiento de los productos cartesianos, además de los modos Agregado y Avanzado existentes, lo que facilita la comprensión de las compensaciones de su consulta antes de crearla. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
+
+* **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en **datos relacionales**, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. Esto reduce una brecha con respecto a la versión original, por lo que los especialistas en marketing pueden crear estas condiciones de forma visual, sin necesidad de ayuda de ingeniería. <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
 
 ### Campañas {#sep-26-campaigns}
 
@@ -337,7 +346,15 @@ Las siguientes funcionalidades y mejoras estarán disponibles en la toma de deci
 </tbody>
 </table>
 
-* **Generación de reglas de decisiones de CX Coworker**: la experiencia **generación de reglas de decisiones asistidas por IA**, disponible anteriormente a través del carril derecho, ahora es accesible a través de CX Coworker, que reemplaza el carril derecho como la forma de generar reglas con IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **Generación de reglas de decisiones desde CX Coworker**: la experiencia **generación de reglas de decisiones asistidas por IA**, disponible anteriormente a través del carril derecho, ahora es accesible a través de CX Coworker, que reemplaza el carril derecho como la forma de generar reglas con IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+
+### Correo directo {#sep-26-direct-mail}
+
+Las siguientes funcionalidades y mejoras se incluyen en Direct Mail en esta versión.
+
+* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos. Un archivo de manifiesto JSON opcional describe todas las partes generadas. <a href="https://jira.corp.adobe.com/browse/DOCAC-15677" target="_blank">DOCAC-15677</a> <!-- Documentation link: TBD -->
+
+* **Límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin alcanzar los errores de creación de archivos. <a href="https://jira.corp.adobe.com/browse/DOCAC-15676" target="_blank">DOCAC-15676</a> <!-- Documentation link: TBD -->
 
 ### Diseñador de correo electrónico {#sep-26-email-designer}
 
@@ -399,11 +416,35 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 
 * **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico. <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
 
-### Administración {#sep-26-administration}
+### Creación de informes {#sep-26-reporting}
 
-La siguiente mejora se presenta para la administración en esta versión.
+La siguiente funcionalidad se incluye en los informes en esta versión.
 
-* **Proceso OTP de bucle de comentarios para subdominios personalizados**: el proceso de configuración de subdominios personalizados de bucle de comentarios (FBL) se ha mejorado al mostrar el centro de remitentes de Yahoo **Contraseña única (OTP)** directamente en la interfaz de usuario del producto. Los usuarios ahora pueden recuperar y mostrar automáticamente el OTP generado durante la verificación de propiedad del dominio del centro de remitentes de Yahoo. <a href="https://jira.corp.adobe.com/browse/DOCAC-14815" target="_blank">DOCAC-14815</a> <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>Nuevos gráficos de monitorización de entrada en Data Management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede supervisar el estado de los datos de entrada directamente desde <strong>Administración de datos &gt; Supervisión &gt; Edge</strong>, con seis nuevos gráficos que cubren los eventos de rendimiento, latencia y propuesta:</p>
+<ul>
+<li><strong>Rendimiento entrante de AJO</strong>: rendimiento entrante general (registros por segundo) a lo largo del tiempo.</li>
+<li><strong>Desglose de rendimiento de entrada de AJO</strong>: rendimiento de entrada desglosado por ubicación.</li>
+<li><strong>Latencia entrante de AJO</strong>: latencia de solicitud entrante (en milisegundos), desglosada por distribución de valores (P50, P90 y más).</li>
+<li><strong>Rendimiento de eventos de propuesta de entrada de AJO</strong>: rendimiento de eventos de propuesta (señales de seguimiento generadas cuando un usuario interactúa con ofertas personalizadas, vistas o déclencheur) a lo largo del tiempo.</li>
+<li><strong>Rendimiento de eventos de propuesta de entrada de AJO por canal</strong>: rendimiento de eventos de propuesta desglosado por canal de entrada (CBE, en la aplicación, tarjetas de contenido).</li>
+<li><strong>Rendimiento global de eventos de propuesta de entrada de AJO por tipo de evento</strong>: rendimiento de eventos de propuesta desglosado por tipo de evento (descartado, suprimido, mostrado, activado, interactuado, enviado).</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Mejoras de uso {#sep-26-usability}
 

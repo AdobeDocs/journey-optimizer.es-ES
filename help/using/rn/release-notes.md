@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 77%
 <table>
 <thead>
 <tr>
-<th><strong>Herramientas MCP de gestión de contenido en CX Coworker</strong><br/></th>
+<th><strong>Herramientas MCP de administración de contenido en CX Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -124,7 +124,7 @@ ht-degree: 77%
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
-* **Analizar anomalías de Recorrido** - CX Coworker ahora puede detectar picos inesperados, caídas o líneas planas en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas usando la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
+* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
 
@@ -312,7 +312,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a las 
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nueva habilidad de los compañeros de CX para hacer preguntas acerca del rendimiento de desafíos y otros datos del programa de fidelización incorporados en los grupos de campo Lealtad en Adobe Experience Platform.</p>
+<p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nueva aptitud de CX Coworker que permite hacer preguntas acerca del rendimiento de desafíos y otros datos de programas de fidelización introducidos en los grupos de campos Lealtad en Adobe Experience Platform.</p>
 <p>Para obtener más información, consulte la <a href="../start/ajo-coworker-skills.md#loyalty-skills">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 31 de agosto de 2026</p>
 </td>
@@ -345,6 +345,16 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a las 
 * **Páginas espejo en fragmentos visuales**: ahora puede insertar páginas espejo en un fragmento visual. Los atributos de toma de decisiones se representan correctamente en el vínculo de la página espejo, incluso cuando el fragmento se utiliza en una campaña de correo electrónico que aprovecha la toma de decisiones. La página espejo debe añadirse al fragmento visual antes de publicar el fragmento para que se muestren los atributos de toma de decisiones. [Más información](../email/message-tracking.md#decisioning-mirror-page)
 
   Fecha de disponibilidad: 11 de agosto de 2026
+
+### Diseñador de correo electrónico {#august-26-email-designer}
+
+* **Aumente el recuento de columnas sin perder contenido en el Designer de correo electrónico**. Ahora puede aumentar el recuento de columnas de una estructura existente (por ejemplo, de 2 columnas a 3) sin eliminarla ni perder contenido. [Más información](../email/content-from-scratch.md)
+
+  Fecha de disponibilidad: 5 de agosto de 2026
+
+* **Más opciones de colocación de imágenes de fondo en el Designer de correo electrónico**. Hay cuatro nuevas opciones de colocación de imágenes de fondo disponibles: Anchura completa - Superior, Anchura completa - Inferior, Altura completa - Izquierda y Altura completa - Derecha. Cada una escala la imagen proporcionalmente a lo largo de un eje, como las opciones existentes Anchura completa y Altura completa, pero la ancla a un borde específico en lugar de centrarla, lo que le proporciona más control sobre qué parte de una imagen a pantalla completa permanece en la vista. [Más información](../email/backgrounds.md)
+
+  Fecha de disponibilidad: 4 de agosto de 2026
 
 ### Mejoras de uso {#august-26-usability}
 

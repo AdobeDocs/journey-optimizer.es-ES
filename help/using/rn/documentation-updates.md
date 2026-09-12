@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,17 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 ## Septiembre de 2026 {#september-2026}
 
-* La documentación de la actividad **Optimize** ya no marca el método **Targeting rule** como disponibilidad limitada: las reglas de segmentación ahora están disponibles de forma general. [Más información](../building-journeys/optimize.md#optimization-methods)
+* Se ha ampliado y mejorado la página **Personalizar el fondo del correo electrónico**. Ahora documenta la lista desplegable completa de **Colocación de imágenes** para imágenes de fondo y agrega nuevas prácticas recomendadas para colores e imágenes de fondo, incluida la recomendación de probar imágenes de fondo en clientes de correo electrónico reales en lugar de depender únicamente de la vista previa de Designer de correo electrónico. [Más información](../email/backgrounds.md)
+
+* Se ha reorganizado y aclarado el contenido de **Diseño desde cero con la página Designer de correo electrónico**: distingue la estructura de la columna **[!UICONTROL n:n]** de las estructuras preestablecidas fijas, documenta que el recuento de columnas de una estructura se puede aumentar sin perder el contenido existente, explica el comportamiento de apilamiento de columnas en dispositivos móviles y agrega un nuevo paso en el uso de **[!UICONTROL Módulos]** para la creación de correo electrónico de inicio rápido. [Más información](../email/content-from-scratch.md)
 
 * La página **Diseña tu recorrido** ahora incluye una sección de tutorial completa sobre la nueva experiencia de lienzo, que cubre cómo agregar actividades, usar los iconos de la barra de herramientas, seleccionar varias actividades para acciones masivas, copiar y pegar actividades, y unir o desasociar ramas. [Más información](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * Se han agregado nuevas directrices para comprobar la entrega de acciones personalizadas: la página **Ejemplos de consultas de conjuntos de datos** ahora explica cómo elegir entre los conjuntos de datos Evento de comentarios de mensajes, Seguimiento de correo electrónico y Evento de pasos de Recorrido según el tipo de acción, y documenta cómo resolver el error &quot;Tabla no aprovisionada para el conjunto de datos&quot;. Las páginas **Información general sobre los eventos de paso de Recorrido** y **Solucionar problemas de la ejecución del recorrido en directo** se han actualizado en consecuencia, lo que aclara que una llamada de acción personalizada correcta solo confirma que Journey Optimizer ejecutó la acción, no que el sistema externo entregó un mensaje. [Más información](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Se ha documentado una nueva aptitud de **Analizar anomalías de Recorrido** en **Analizar Recorrido** en la página CX Coworker. Detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas, y ejecuta diagnósticos de solo lectura para detectar una causa raíz probable. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
+* Se ha documentado una nueva aptitud de **Analizar anomalías de Recorrido** en **Analizar Recorrido** en la página de CX Coworker. Detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas, y ejecuta diagnósticos de solo lectura para detectar una causa raíz probable. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
 
-* La página **Protecciones y limitaciones** se ha corregido para eliminar notas obsoletas que indican que los fragmentos visuales de más de 100 KB o los fragmentos de expresiones de más de 200 KB pueden causar problemas de truncamiento en la entrega de correo electrónico: solo se aplica la protección de tamaño de fragmento de 700 KB. [Más información](../start/guardrails.md#fragments-guardrails)
+* La página **Protecciones y limitaciones** se ha corregido para reflejar el hecho de que los fragmentos visuales de más de 100 KB o los fragmentos de expresiones de más de 200 KB ya no pueden causar problemas de truncamiento en las entregas de correo electrónico: ahora se aplica una única protección de tamaño de fragmento de 700 KB. [Más información](../start/guardrails.md#fragments-guardrails)
 
 * Se ha corregido la página **Crear una actividad en directo**: el campo `executionMetadata` solo está disponible para **campañas transaccionales activadas por API**, no para campañas de marketing activadas por API como se indicó anteriormente. [Más información](../mobile-live/create-mobile-live.md#metadata)
 
