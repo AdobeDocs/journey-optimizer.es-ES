@@ -7,12 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 701
 ht-degree: 7%
@@ -88,7 +85,7 @@ Para crear un modelo de IA para la clasificación de recorridos, siga los pasos 
    >
    >En la lista desplegable solo se muestran los conjuntos de datos creados a partir de esquemas asociados con el grupo de campos **[!UICONTROL Evento de experiencia - Interacciones de propuesta]**. Puede seleccionar hasta 5 conjuntos de datos.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleccione los segmentos que se utilizarán para entrenar el modelo de IA.
 
    >[!NOTE]
    >
@@ -125,3 +122,5 @@ Ahora puede establecer el modelo de IA como referencia para crear una fórmula d
    >Solo se puede aplicar un conjunto de reglas a un recorrido a la vez.
 
 Todos los recorridos que utilicen este conjunto de reglas se clasificarán con la fórmula que haga referencia al modelo de IA seleccionado cuando se aplique el límite.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-ai-models.md}}

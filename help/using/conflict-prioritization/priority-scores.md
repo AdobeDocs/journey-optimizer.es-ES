@@ -5,18 +5,12 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 TQID: https://experienceleague.adobe.com/An8xmTbO8yWDFizK1B8uvSFkr0t6e9a59ntUoLqhosw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 643
 ht-degree: 34%
@@ -90,4 +84,6 @@ Para asignar una puntuación de prioridad a las acciones entrantes definidas en 
 
 ## Vídeo práctico {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445004?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-priority-scores.md}}

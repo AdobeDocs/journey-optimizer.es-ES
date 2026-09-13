@@ -7,12 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 1174
 ht-degree: 3%
@@ -210,3 +207,5 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 
 Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.
 -->
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-ranking-formulas.md}}
