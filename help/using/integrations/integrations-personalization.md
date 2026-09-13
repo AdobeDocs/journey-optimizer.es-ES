@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: integración
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1311
 ht-degree: 1%
@@ -263,4 +261,6 @@ Busque y extraiga el mbox y, a continuación, procese `content` directamente. Om
 
 Este vídeo muestra cómo **Integraciones** conectan Adobe Journey Optimizer a API externas para que pueda extraer datos y contenido en directo en **canales salientes**, correo electrónico, SMS y push para una personalización más relevante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484121/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations-personalization.md}}
