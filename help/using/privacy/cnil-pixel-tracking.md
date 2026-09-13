@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, seguimiento, píxel, correo electrónico, consentimiento, exclusión, privacidad
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-  - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -160,3 +156,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### Creación de informes {#reporting}
 
 Los informes de correo electrónico de Adobe Journey Optimizer proporcionan métricas de aperturas y clics a través de [informes en vivo](../reports/live-report.md) y [informes de Customer Journey Analytics](../reports/report-gs-cja.md). Cuando el seguimiento de **[!UICONTROL Aperturas del correo electrónico]** está deshabilitado para un mensaje, los datos abiertos no se recopilan para ese envío; los informes reflejarán únicamente los clics y otras señales de participación.
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-cnil-pixel-tracking.md}}
