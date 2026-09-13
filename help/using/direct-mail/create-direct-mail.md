@@ -10,21 +10,13 @@ level: Beginner
 keywords: correo directo, mensaje, campaña
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -186,3 +178,5 @@ Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Apren
 * [Previsualización y prueba de contenido](../content-management/preview-test.md)
 
 Si tiene preguntas comunes acerca del correo postal, consulte [Introducción al correo postal](get-started-direct-mail.md).
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-create-direct-mail.md}}
