@@ -5,11 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 994
 ht-degree: 1%
@@ -167,3 +165,5 @@ Si tiene problemas con el canal personalizado, en la tabla siguiente se enumeran
 * [Global report overview](../reports/report-gs-cja.md)
 * [Journey live report](../reports/live-report.md
 -->
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-monitor-custom-channel.md}}

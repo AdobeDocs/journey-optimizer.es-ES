@@ -6,13 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilidad limitada" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804did: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 359
 ht-degree: 11%
@@ -77,3 +73,5 @@ El canal personalizado ya está completamente configurado. Los especialistas en 
 * [Creación de experiencias de canal personalizadas](create-custom-experience.md)
 * [Prueba del canal personalizado](test-custom-channel.md)
 * [Monitorización de canales personalizados](monitor-custom-channel.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-configuration.md}}
