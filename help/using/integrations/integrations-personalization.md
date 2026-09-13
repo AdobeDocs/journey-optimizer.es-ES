@@ -263,6 +263,6 @@ Busque y extraiga el mbox y, a continuación, procese `content` directamente. Om
 
 Este vídeo muestra cómo **Integraciones** conectan Adobe Journey Optimizer a API externas para que pueda extraer datos y contenido en directo en **canales salientes**, correo electrónico, SMS y push para una personalización más relevante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484121/?captions=spa&learn=on)
 
 {{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations-personalization.md}}
