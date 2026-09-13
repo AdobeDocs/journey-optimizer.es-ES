@@ -2,19 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aptitudes de Journey Optimizer en CX Coworker
-description: Descubra las habilidades de Adobe Journey Optimizer disponibles en CX Coworker, con instrucciones detalladas y ejemplos de preguntas.
+description: Descubra las habilidades de Adobe Journey Optimizer disponibles en CX Coworker, con instrucciones detalladas y muestras de mensajes.
 feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4194
 ht-degree: 5%
@@ -26,7 +22,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las funcionalidades de IA de Adobe Journey Optimizer disponibles en CX Coworker, desde la creación y el análisis de recorridos hasta la generación de contenido de canal y la administración de recursos de contenido, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas para cada funcionalidad.
+**En esta página:** Descubra las funcionalidades de IA de Adobe Journey Optimizer disponibles en CX Coworker (desde la creación y el análisis de recorridos hasta la generación de contenido de canal y la administración de recursos de contenido) con instrucciones detalladas, ejemplos de mensajes y prácticas recomendadas para cada funcionalidad.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +30,9 @@ ht-degree: 5%
 
 CX Coworker incorpora funciones con tecnología de IA a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home){target="_blank"} es la experiencia de conversación de Adobe que se integra con las aplicaciones de tu empresa para ayudarte a trabajar de manera más eficiente.
 
-Gracias a sus conocimientos con tecnología de IA, CX Coworker permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o audiencia, analizar el rendimiento y los puntos de entrega e identificar recorridos de alto rendimiento para replicarlos en campañas futuras. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
+Con sus habilidades impulsadas por IA, CX Coworker permite a los usuarios de Journey Optimizer crear, analizar y optimizar recorridos de marketing mediante una interfaz de lenguaje natural. Con las habilidades de Recorrido, los profesionales pueden crear recorridos rápidamente, detectar y resolver conflictos de programación o audiencia, analizar el rendimiento y los puntos de entrega e identificar recorridos de alto rendimiento para replicarlos en campañas futuras. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación de los clientes y optimizar la organización de recorridos.
 
-CX Coworker ofrece varias habilidades para gestionar Recorridos y desafíos de fidelidad:
+CX Coworker proporciona varias habilidades para administrar Recorridos y desafíos de fidelidad:
 
 **Funciones de IA centradas en el Recorrido:**
 
@@ -54,7 +50,7 @@ CX Coworker también incluye un conjunto de **herramientas MCP de administració
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -71,9 +67,9 @@ Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar r
 >
 >Necesita los siguientes permisos para utilizar completamente las funciones de creación de Recorrido:
 >
->**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en CX Coworker.
+>**Administrar Recorridos**: este permiso le permite crear recorridos nuevos directamente en CX Coworker.
 >
->**Ver eventos, fuentes de datos y acciones de Recorrido**: este permiso garantiza que CX Coworker pueda buscar a través de eventos de Recorrido y acciones personalizadas.
+>**Ver eventos, fuentes de datos y acciones de Recorrido**: este permiso garantiza que CX Coworker pueda buscar en eventos de Recorrido y acciones personalizadas.
 >
 >**Ver segmentos**: Este permiso garantiza que CX Coworker pueda buscar segmentos de audiencia al crear un Recorrido.
 >
@@ -252,7 +248,7 @@ Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer ana
 >
 >**Ver Recorridos**: Este permiso le permite ver información sobre el recorrido directamente en CX Coworker.
 >
->**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en CX Coworker.
+>**Administrar Recorridos**: este permiso le permite crear recorridos nuevos directamente en CX Coworker.
 >
 >**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en CX Coworker.
 >
@@ -374,13 +370,13 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 
 >[!AVAILABILITY]
 >
->Las habilidades de fidelización están disponibles en CX Coworker para las organizaciones elegibles. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de colaborador de CX.
+>Las aptitudes de fidelización están disponibles en CX Coworker para las organizaciones aptas. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de CX Coworker.
 
 Las habilidades de lealtad permiten a los administradores y analistas de lealtad crear, administrar y analizar programas de lealtad mediante el lenguaje natural. Con estas habilidades impulsadas por IA, puede diseñar rápidamente desafíos de lealtad atractivos, rastrear métricas de rendimiento y tomar decisiones basadas en datos para optimizar la participación de los miembros y la rentabilidad del programa. Tanto si desea crear un nuevo desafío como si desea analizar las tendencias del programa de fidelización, las habilidades de fidelización optimizan todo el flujo de trabajo de gestión de la fidelidad.
 
 ### Administración de desafío de fidelización {#loyalty-challenge-management}
 
-La administración de retos de fidelidad permite a los usuarios de Journey Optimizer crear y gestionar retos de fidelidad en CX Coworker utilizando indicaciones en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
+La administración de desafíos de lealtad permite a los usuarios de Journey Optimizer crear y administrar desafíos de lealtad en CX Coworker mediante mensajes en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
 
 #### Casos de uso clave
 
@@ -479,14 +475,14 @@ Casos de uso clave:
 
 >[!AVAILABILITY]
 >
->La administración de contenido está disponible para todos los clientes que tengan acceso a CX Coworker.
+>La administración de contenido está disponible para todos los clientes que tienen acceso a CX Coworker.
 
 <!--However, you will need the following permissions in order to fully use the Content Management features:
 **Manage Library Items**: This permission lets you list, retrieve, create, and update content templates and fragments directly in CX Coworker.
 
 **Publish Fragment**: This permission lets you publish fragments directly in CX Coworker.-->
 
-Los usuarios de Journey Optimizer pueden descubrir y gestionar recursos de contenido (plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña) directamente desde CX Coworker con indicaciones en lenguaje natural. Permite pasar de &quot;hablarme sobre mi contenido&quot; a &quot;compilarlo, actualizarlo y publicarlo&quot;, sin abandonar la conversación. Esta capacidad está equipada con 15 herramientas de MCP con capacidad de lectura y escritura para el contenido de Journey Optimizer.
+Los usuarios de Journey Optimizer pueden detectar y administrar recursos de contenido (plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña) directamente desde CX Coworker con indicaciones en lenguaje natural. Permite pasar de &quot;hablarme sobre mi contenido&quot; a &quot;compilarlo, actualizarlo y publicarlo&quot;, sin abandonar la conversación. Esta capacidad está equipada con 15 herramientas de MCP con capacidad de lectura y escritura para el contenido de Journey Optimizer.
 
 #### Casos de uso clave
 
@@ -648,6 +644,8 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-coworker-skills.md}}

@@ -7,14 +7,12 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1317
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -37,7 +35,7 @@ Puede tener acceso a este área de trabajo directamente desde la página princip
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="Nombre de conexión"
->abstract="Un nombre descriptivo que identifique el sistema de origen (por ejemplo, Marketing-Automation-Prod). Debe comenzar por una letra y contener solo caracteres alfanuméricos, guiones bajos o guiones (de 4 a 50 caracteres)."
+>abstract="Un nombre descriptivo que identifique el sistema de origen (por ejemplo, “Marketing-Automation-Prod”). Debe comenzar por una letra y contener solo caracteres alfanuméricos, guiones bajos o guiones (entre cuatro y cincuenta caracteres)."
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +62,7 @@ Puede tener acceso a este área de trabajo directamente desde la página princip
 >[!CONTEXTUALHELP]
 >id="ajo_migration_token_url"
 >title="URL de token"
->abstract="Extremo del servidor de autorización que emite tokens de acceso para el flujo de credenciales del cliente, que normalmente termina en /oauth/token o /token."
+>abstract="Punto final del servidor de autorización que emite tokens de acceso para el flujo de credenciales del cliente, que normalmente termina en /oauth/token o /token."
 
 
 >[!NOTE]
@@ -123,7 +121,7 @@ Una vez que tenga un origen para el contenido, ya sea un archivo HTML o una cone
 
 1. Agregue su **[!UICONTROL Línea de asunto]** y asigne cada marcador de posición de personalización al atributo de perfil correspondiente.
 
-   El espacio de trabajo convierte automáticamente la sintaxis de la secuencia de comandos de origen a la sintaxis Handlebars. Para obtener una lista de los operadores admitidos, consulte [Operadores](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   El espacio de trabajo convierte automáticamente la sintaxis de la secuencia de comandos de origen a la sintaxis Handlebars. Para obtener una lista de los operadores admitidos, consulte [Operadores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor de correo electrónico importado con campo de línea de asunto y asignación de marcador de posición de personalización](assets/onboarding-hub-8.png)
 
@@ -193,4 +191,4 @@ Un conjunto de filtros le permite reducir la lista de contenido de correo electr
 
 ![Filtrar opciones de estado, fecha de creación y fecha de actualización en el área de trabajo](assets/onboarding-hub-5.png)
 
-
+{{$include /help/_includes/do-not-localize/start/ai-augmented-migrate-content-and-journeys.md}}

@@ -9,10 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +151,5 @@ Los errores son visibles desde el botón **[!UICONTROL Alertas]**. Seleccione el
 Este cuadro de diálogo indica que la configuración actual de recorrido/campaña infringe una política de gobernanza de datos existente. Utilice el diagrama de linaje de datos para comprender qué otros cambios de configuración deben realizarse antes de activar el recorrido o la campaña.
 
 Encontrará información detallada en la [documentación sobre infracciones de la política de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}

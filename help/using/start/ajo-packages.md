@@ -9,11 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: recorrido optimizer, paquete, licencia, campañas, recorridos, canales, toma de decisiones, saliente, móvil, web, modular, sms, mms, whatsapp, complementos, select, prime, ultimate, legacy
 hide: true
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 2%
@@ -281,3 +279,5 @@ Ahora que comprende cómo se empaqueta [!DNL Adobe Journey Optimizer], aquí es 
 - **Comprobar disponibilidad de características** — Ver qué características están activas, su estado de ciclo de vida (GA/LA/Beta) y cuándo se enviaron. [Disponibilidad de funciones](ajo-features-availability.md)
 - **Encuentre el caso de uso correcto**: asigne sus objetivos de participación a las capacidades que los admiten. [Guía de caso de uso](ajo-use-case-guide.md)
 - **Configurar tus canales** — Una vez que sepas qué complementos tienes, configura los canales que necesitas: [correo electrónico](../email/get-started-email.md), [notificaciones push](../push/get-started-push.md), [SMS / MMS](../mobile/get-started-mobile.md), [mensajería en la aplicación](../in-app/get-started-in-app.md), [tarjetas de contenido](../content-card/get-started-content-card.md), [el canal web](../web/get-started-web.md) y [experiencias basadas en código](../code-based/get-started-code-based.md).
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-packages.md}}
