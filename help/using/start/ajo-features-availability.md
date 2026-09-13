@@ -9,8 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: recorrido optimizer, disponibilidad de funciones, qué está disponible, GA, disponibilidad limitada, versión beta, ciclo vital, fecha de lanzamiento, asignación de derechos, oferta base, campañas, recorridos
 hide: true
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1878

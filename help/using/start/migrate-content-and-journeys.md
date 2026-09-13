@@ -7,7 +7,9 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
