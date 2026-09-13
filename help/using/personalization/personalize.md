@@ -9,8 +9,11 @@ role: Developer
 level: Beginner
 keywords: expresión, editor, inicio, personalización
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: a757b957-83f3-4a4d-9775-a93854f84f77
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
 source-wordcount: 710
