@@ -8,7 +8,7 @@ ht-degree: 0%
 # Ronda de verificación: la puerta de calidad final obligatoria
 
 Esta es la puerta 2 de 2 y el paso que garantiza que cada bloque es **válido, verdadero y libre de errores
-ambigüedad**. No es **opcional y no se puede omitir**, incluso para actualizaciones de una sola página.
+ambigüedad&#x200B;**. No es &#x200B;** opcional y no se puede omitir**, incluso para actualizaciones de una sola página.
 
 ## Por qué es independiente
 
