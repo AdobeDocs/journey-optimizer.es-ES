@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: integración, proveedor, terceros
 subfeature_v2: []
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
