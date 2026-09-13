@@ -6,15 +6,9 @@ description: Obtenga información sobre cómo almacenar palabras clave de SMS en
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 553
 ht-degree: 12%
@@ -51,7 +45,7 @@ Para utilizar un conjunto de datos personalizado para la palabra clave entrante,
 
 Un esquema define la estructura y las reglas de validación que se aplican a los datos introducidos. Componga un esquema de Evento de experiencia para la colección de palabras clave de entrada agregando los grupos de campos existentes que se enumeran a continuación.
 
-➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
+➡️ [Obtenga más información acerca de la creación de esquemas en la documentación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. En Adobe Experience Platform, desde **[!UICONTROL Administración de datos]**, acceda a **[!UICONTROL Esquemas]** y seleccione **[!UICONTROL Crear esquema]**.
 
@@ -124,3 +118,5 @@ Configure las credenciales según su proveedor de SMS con [Introducción a la co
    >Al guardar las credenciales de la API, Journey Optimizer valida que el conjunto de datos de palabras clave de entrada esté configurado correctamente. Si la validación falla, un mensaje de error indica la corrección necesaria.
 
 Una vez guardadas las credenciales, el comportamiento de la mensajería saliente y entrante no cambia; las palabras clave entrantes para esa credencial se registran en el conjunto de datos personalizado seleccionado.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-custom-dataset-inbound-keywords.md}}
