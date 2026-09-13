@@ -131,6 +131,6 @@ Para este caso de uso, se necesitan los siguientes requisitos previos:
 
 El siguiente vídeo muestra un caso de uso similar que aprovecha los datos contextuales de un recorrido para personalizar un correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428527?captions=spa&quality=12)
 
 {{$include /help/_includes/do-not-localize/personalization/ai-augmented-personalization-use-case.md}}
