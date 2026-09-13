@@ -300,6 +300,6 @@ Para obtener más información, consulte [Documentación para desarrolladores](h
 
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422076?captions=spa&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/in-app/ai-augmented-design-in-app.md}}
