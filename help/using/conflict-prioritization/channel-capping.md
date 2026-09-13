@@ -190,6 +190,6 @@ In this scenario, an individual profile:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **Véalo en la práctica:** Aprenda a implementar [límites de frecuencia diarios en Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"} en este caso de uso de la comunidad.
+➡️ **Véalo en la práctica:** Aprenda a implementar [límites de frecuencia diarios en Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"} en este caso de uso de la comunidad.
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-channel-capping.md}}
