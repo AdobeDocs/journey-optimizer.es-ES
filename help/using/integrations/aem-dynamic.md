@@ -22,7 +22,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1635
 ht-degree: 5%
@@ -282,3 +282,4 @@ Este tutorial explica cómo modificar imágenes directamente en AJO, añadir sup
 
 >[!VIDEO](https://video.tv.adobe.com/v/3463785/?captions=spa&learn=on&enablevpops=&autoplay=true)
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-dynamic.md}}

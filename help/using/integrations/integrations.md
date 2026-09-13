@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1160
 ht-degree: 8%
@@ -196,3 +196,4 @@ Una vez que la prueba se haya realizado correctamente, seleccione **[!UICONTROL 
 * [Preguntas frecuentes sobre integraciones y resolución de problemas](vendor-integration-faq.md#troubleshooting)
 * [Monitorización y solución de problemas](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations.md}}

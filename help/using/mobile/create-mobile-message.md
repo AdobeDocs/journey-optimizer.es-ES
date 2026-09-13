@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 889
 ht-degree: 18%
@@ -140,3 +140,4 @@ Para obtener más información sobre cómo crear, configurar y activar una campa
 * [Configuración del canal de mensajes móviles](mobile-configuration.md)
 * [Informes de mensajes móviles](../reports/journey-global-report-cja-sms.md)
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-create-mobile-message.md}}

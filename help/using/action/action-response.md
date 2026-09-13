@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 880
 ht-degree: 6%
@@ -266,3 +266,5 @@ Para obtener más información, consulte estas páginas:
 
 * [Referencias de campo](../building-journeys/expression/field-references.md).
 * [Funciones de administración de colecciones](../building-journeys/expression/collection-management-functions.md)
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-response.md}}

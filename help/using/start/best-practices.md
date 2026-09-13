@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ Puede adoptar una serie de prácticas recomendadas que le ayudarán a mantenerse
 * Si se acerca al límite de nodos en el lienzo, considere la posibilidad de consolidar acciones con parámetros dinámicos o contenido para ofrecer el contenido correcto en lugar de nodos explícitos.
 
 * Si tiene un recorrido de **Leer audiencia** con el segmento por lotes (A) y está usando un segmento de flujo de audiencia (B) dentro del recorrido que excluir (es decir, realizar A-B), considere mover esa lógica a la lógica de segmentación y use la exclusión como parte de la propia lógica de segmentación.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

@@ -23,7 +23,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 691
 ht-degree: 18%
@@ -107,3 +107,5 @@ Una vez que las audiencias estén listas, puede seleccionarlas al crear recorrid
 Obtenga información sobre perfiles y públicos del cliente en Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-about-audiences.md}}

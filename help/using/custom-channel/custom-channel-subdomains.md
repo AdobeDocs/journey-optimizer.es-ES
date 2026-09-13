@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 872
 ht-degree: 20%
@@ -170,3 +170,5 @@ After your request is handled by Adobe, the undelegated domain is no longer disp
 ## Próximos pasos {#next-steps}
 
 * [Cree una configuración de canal](custom-channel-configuration.md) para vincular su canal personalizado a un subdominio, a las credenciales y a los valores predeterminados de carga útil que los especialistas en marketing seleccionarán en las campañas y recorridos.
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-subdomains.md}}

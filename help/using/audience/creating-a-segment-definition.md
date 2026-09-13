@@ -25,7 +25,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 1158
 ht-degree: 11%
@@ -166,3 +166,5 @@ Puede evaluar hasta 20 audiencias a la vez y las audiencias que no cumplan los r
 Descubra cómo Journey Optimizer utiliza reglas para generar audiencias y aprenda a utilizar atributos, eventos y audiencias existentes para crear una audiencia.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430332?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-a-segment-definition.md}}

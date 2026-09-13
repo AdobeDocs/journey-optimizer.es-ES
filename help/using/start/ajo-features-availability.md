@@ -13,7 +13,7 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1878
 ht-degree: 14%
@@ -201,3 +201,5 @@ Todas las características de Decisioning requieren el complemento **Decisioning
 - **Comprenda qué hay en su paquete** — [Paquetes y capacidades](ajo-packages.md)
 - **Ver todo lo enviado** — [Notas de la versión](../rn/release-notes.md) | [Notas de la versión de 2026](../rn/release-notes-2026.md)
 - **Introducción** — [Introducción a Journey Optimizer](get-started.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-features-availability.md}}

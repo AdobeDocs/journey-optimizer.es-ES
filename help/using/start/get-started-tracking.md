@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 3%
@@ -328,3 +328,5 @@ Configure la monitorización proactiva para recibir notificaciones en tiempo rea
 * **Habilitar registros de auditoría** - Activar registros de auditoría para rastrear todas las acciones en los recursos para el cumplimiento y la solución de problemas. [Más información](../privacy/audit-logs.md)
 
 * **Supervisar integraciones**: realice un seguimiento del rendimiento de las acciones personalizadas y de la conectividad externa del sistema para identificar los problemas de integración de forma temprana. [Más información](../action/reporting.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-tracking.md}}

@@ -11,7 +11,7 @@ keywords: integración, proveedor, terceros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
 ht-degree: 5%
@@ -967,7 +967,7 @@ Utilice la operación GET de administración de fidelidad **perfil de miembro** 
 
 +++
 
-### Capilar {#capillary}
+### Capillary {#capillary}
 
 >[!IMPORTANT]
 >
@@ -2408,3 +2408,4 @@ Patrón de ejemplo: `https://{your-instance}.epsilon3.io/api/v1/planning/events`
 
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration.md}}

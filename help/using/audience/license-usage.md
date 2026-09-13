@@ -25,7 +25,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 6%
@@ -121,3 +121,5 @@ Obtenga más información en la documentación de Adobe Experience Platform:
 * [Exploración del tablero de uso de licencias](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#exploring-the-license-usage-dashboard){target="_blank"}
 * [Métricas disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=es#available-metrics){target="_blank"}
 * [Caducidad de datos de perfil seudónimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=es){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-license-usage.md}}

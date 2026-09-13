@@ -11,7 +11,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 793
 ht-degree: 1%
@@ -31,34 +31,34 @@ ht-degree: 1%
 Tenga en cuenta lo siguiente al utilizar fragmentos de contenido de [!DNL Adobe Experience Manager] en [!DNL Journey Optimizer]:
 
 * **Tipos de fragmentos de contenido**
-   * Se admiten fragmentos de contenido simples, fragmentos de contenido anidados y **variaciones de fragmentos de contenido**. Elija la variación cuando inserte el fragmento en [!DNL Journey Optimizer]. Si no selecciona ninguna variación, se utilizará la variación **Principal** (el contenido principal del fragmento en [!DNL Adobe Experience Manager]).
+  * Se admiten fragmentos de contenido simples, fragmentos de contenido anidados y **variaciones de fragmentos de contenido**. Elija la variación cuando inserte el fragmento en [!DNL Journey Optimizer]. Si no selecciona ninguna variación, se utilizará la variación **Principal** (el contenido principal del fragmento en [!DNL Adobe Experience Manager]).
 
 * **Contenido multilingüe**
-   * Cada variación debe ser creada, etiquetada y publicada en [!DNL Adobe Experience Manager]. En [!DNL Journey Optimizer], seleccione la variación del fragmento que coincida con cada idioma o configuración regional del mensaje.
-   * No hay resolución automática de idioma ni alternativa entre las variaciones.
+  * Cada variación debe ser creada, etiquetada y publicada en [!DNL Adobe Experience Manager]. En [!DNL Journey Optimizer], seleccione la variación del fragmento que coincida con cada idioma o configuración regional del mensaje.
+  * No hay resolución automática de idioma ni alternativa entre las variaciones.
 
 * **Acceso al repositorio**
-   * [!DNL Journey Optimizer] se integra con el nivel [!DNL Adobe Experience Manager] **Publicar** solamente (Sitios, Fragmentos de contenido). Los fragmentos de contenido están disponibles a través de un extremo público no autenticado.
-   * Los repositorios de creación pueden aparecer en el selector de repositorios, pero solo los fragmentos publicados en **Publish** se pueden usar en [!DNL Journey Optimizer].
+  * [!DNL Journey Optimizer] se integra con el nivel [!DNL Adobe Experience Manager] **Publicar** solamente (Sitios, Fragmentos de contenido). Los fragmentos de contenido están disponibles a través de un extremo público no autenticado.
+  * Los repositorios de creación pueden aparecer en el selector de repositorios, pero solo los fragmentos publicados en **Publish** se pueden usar en [!DNL Journey Optimizer].
 
 * **Estado del fragmento de contenido**
-   * Los fragmentos pueden mostrar el estado **[!UICONTROL Publicado]** o **[!UICONTROL Modificado]**; [!DNL Journey Optimizer] siempre usa la **última versión publicada**.
-   * Los cambios realizados después de la publicación no se reflejarán en [!DNL Journey Optimizer] hasta que el fragmento se vuelva a publicar en [!DNL Adobe Experience Manager]. No existe una conciliación automática de versiones entre los dos productos.
+  * Los fragmentos pueden mostrar el estado **[!UICONTROL Publicado]** o **[!UICONTROL Modificado]**; [!DNL Journey Optimizer] siempre usa la **última versión publicada**.
+  * Los cambios realizados después de la publicación no se reflejarán en [!DNL Journey Optimizer] hasta que el fragmento se vuelva a publicar en [!DNL Adobe Experience Manager]. No existe una conciliación automática de versiones entre los dos productos.
 
 * **Personalización**
-   * Admitido: atributos de perfil, atributos contextuales, cadenas estáticas y variables predeclaradas.
-   * No admitido: atributos derivados o calculados.
+  * Admitido: atributos de perfil, atributos contextuales, cadenas estáticas y variables predeclaradas.
+  * No admitido: atributos derivados o calculados.
 
 * **Actualizaciones y versiones**
-   * Las actualizaciones requieren la republicación manual de [!DNL Adobe Experience Manager]. No hay reconciliación automática de versiones.
-   * Cuando se publica o vuelve a publicar un fragmento de contenido en [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] actualiza ese fragmento y **todas las variaciones de ese fragmento a las que se hace referencia** en campañas o recorridos activos.
-   * La [!DNL Adobe Experience Manager] [acción de publicación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) se puede retrasar. Una vez finalizado, [!DNL Journey Optimizer] recibe un evento y actualiza el contenido.
-   * Después de una actualización correcta, los cambios suelen estar disponibles en unos **5 minutos** para los recorridos unitarios y en el **siguiente lote** para los casos de uso por lotes.
+  * Las actualizaciones requieren la republicación manual de [!DNL Adobe Experience Manager]. No hay reconciliación automática de versiones.
+  * Cuando se publica o vuelve a publicar un fragmento de contenido en [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] actualiza ese fragmento y **todas las variaciones de ese fragmento a las que se hace referencia** en campañas o recorridos activos.
+  * La [!DNL Adobe Experience Manager] [acción de publicación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) se puede retrasar. Una vez finalizado, [!DNL Journey Optimizer] recibe un evento y actualiza el contenido.
+  * Después de una actualización correcta, los cambios suelen estar disponibles en unos **5 minutos** para los recorridos unitarios y en el **siguiente lote** para los casos de uso por lotes.
 
 * **Almacenamiento en caché y revisión**
-   * Cuando se agrega un fragmento por primera vez a una campaña o recorrido, [!DNL Journey Optimizer] lo almacena en caché. Si selecciona un fragmento que ya se utilizó en otra parte mediante **[!UICONTROL Abrir el Asesor de contenido de AEM]**, se cargará desde la caché de [!DNL Journey Optimizer].
-   * Después de volver a publicar un fragmento modificado en [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] escucha el evento y actualiza la caché.
-   * Las revisiones siempre reflejan la **última versión publicada**; no puede bloquear versiones históricas para revisiones.
+  * Cuando se agrega un fragmento por primera vez a una campaña o recorrido, [!DNL Journey Optimizer] lo almacena en caché. Si selecciona un fragmento que ya se utilizó en otra parte mediante **[!UICONTROL Abrir el Asesor de contenido de AEM]**, se cargará desde la caché de [!DNL Journey Optimizer].
+  * Después de volver a publicar un fragmento modificado en [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] escucha el evento y actualiza la caché.
+  * Las revisiones siempre reflejan la **última versión publicada**; no puede bloquear versiones históricas para revisiones.
 
 ## Solución de problemas {#troubleshooting}
 
@@ -76,3 +76,5 @@ Si tiene problemas al trabajar con fragmentos de contenido de Adobe Experience M
 | **El vínculo de Experience League AEM devuelve el valor 404** | Marcador antiguo, versión de vista previa o página de ayuda de AEM sin publicar | Abra el tema [Fragmentos de contenido con Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} de la documentación activa de Experience Manager y navegue desde la tabla de contenido en la página o busque el nombre de la sección (por ejemplo **Configuración de Dispatcher**). |
 
 Si el problema persiste, póngase en contacto con su representante de Adobe con detalles sobre el ID del fragmento de contenido, el ID de campaña o recorrido y cualquier mensaje de error que se muestre.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-limitations.md}}

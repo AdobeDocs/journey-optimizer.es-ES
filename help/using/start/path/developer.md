@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 3490
 ht-degree: 100%
@@ -379,3 +379,5 @@ Cada sección incluye vínculos a documentación técnica detallada, ejemplos de
 | Experto en marketing | [Introducción para los expertos en marketing](marketer.md) |
 
 Volver a [Información general sobre funciones y responsabilidades](../quick-start.md) · Volver a [Introducción](../../../rp_landing_pages/get-started-landing-page.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-path-developer.md}}

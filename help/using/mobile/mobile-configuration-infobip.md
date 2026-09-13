@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 1%
@@ -126,3 +126,5 @@ Para configurar RCS con Infobip:
    [Cree una nueva credencial de API](mobile-configuration-custom.md#api-credential) en Journey Optimizer, seleccionando &quot;Personalizado&quot; como proveedor de SMS. Utilice el método de autenticación de extremo RCS adecuado, la dirección URL base y los encabezados.
 
 Después de crear y configurar tu credencial de API, ahora necesitas crear [tu webhook](mobile-webhook.md) y una configuración de canal para tus mensajes RCS. [Más información](mobile-configuration-surface.md)
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-configuration-infobip.md}}

@@ -27,7 +27,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3398e1cf84b0a8eeb91eb63a306c91ccb1af716e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1395
 ht-degree: 100%
@@ -174,3 +174,5 @@ The following data is taken into account for consent:
 -->
 
 Los demás pasos para configurar una acción personalizada en un recorrido se detallan en [esta sección](../building-journeys/using-custom-actions.md).
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-consent.md}}

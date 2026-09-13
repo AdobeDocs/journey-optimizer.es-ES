@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 595
 ht-degree: 9%
@@ -111,3 +111,5 @@ Para utilizar atributos de enriquecimiento de audiencias creadas con flujos de t
 Actualmente, no. Incluso después de los nodos de espera o de evento, los valores de los atributos de enriquecimiento permanecen igual que cuando se inició el recorrido.
 
 +++
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-enrichment-attributes.md}}

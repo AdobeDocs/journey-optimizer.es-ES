@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ Solo las audiencias generadas con **definición de segmento**, **composiciones d
 Si necesita segmentar destinatarios a partir de una audiencia no admitida, como una audiencia de Customer Journey Analytics, debe envolverla en una nueva definición de segmento en el portal de audiencias. Encontrará información detallada sobre cómo agregar audiencias en una definición de segmento en la [documentación del Generador de segmentos](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Una vez finalizado, espere a que se complete la evaluación de la segmentación para utilizarla en sus recorridos y campañas.
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

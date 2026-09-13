@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 19%
@@ -183,3 +183,5 @@ Si el subdominio SMS apunta a un registro CNAME, puede eliminar el registro DNS 
 >Un subdominio de SMS puede señalar a un registro CNAME porque era un [subdominio existente](#sms-use-existing-subdomain) delegado a Adobe mediante el [método CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) o un [nuevo subdominio de SMS](#sms-configure-new-subdomain) que usted configuró.
 
 Una vez que Adobe administra la solicitud, el dominio no delegado ya no se muestra en la página de inventario de subdominios.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-subdomains.md}}

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 397
 ht-degree: 35%
@@ -83,3 +83,4 @@ Examine las secciones siguientes para obtener más información sobre la configu
 * [Pasar colecciones a parámetros de acción personalizados](../building-journeys/collections.md): aprenda a pasar una colección en parámetros de acción personalizados que se rellenan dinámicamente durante la ejecución
 * [Solución de problemas con acciones personalizadas](../action/troubleshoot-custom-action.md) - Aprenda a solucionar problemas de una acción personalizada
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action.md}}

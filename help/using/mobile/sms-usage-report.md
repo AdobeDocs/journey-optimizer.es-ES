@@ -10,7 +10,7 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 27%
@@ -90,3 +90,5 @@ Los informes de uso de SMS presentan el volumen originado en dispositivos móvil
      ![](assets/usage_report_3.png)
 
 1. Para exportar el informe, haga clic en **[!UICONTROL Descargar CSV]**. Journey Optimizer descarga un archivo CSV para el informe que está viendo.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-sms-usage-report.md}}

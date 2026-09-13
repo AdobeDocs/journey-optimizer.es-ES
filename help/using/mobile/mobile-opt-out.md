@@ -23,7 +23,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 701
 ht-degree: 13%
@@ -97,3 +97,5 @@ Los ID de remitente alfanuméricos solo se utilizan en la mensajería unidirecci
   >[!VIDEO](https://video.tv.adobe.com/v/3440278/?captions=spa&learn=on)
 
   +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-opt-out.md}}

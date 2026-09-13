@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 15%
@@ -232,3 +232,5 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 * **Desde un recorrido** - Haga clic en **[!UICONTROL Publicar]** en el área superior derecha. El recorrido se activa y comienza a llamar al extremo externo para calificar perfiles. Más información sobre [recorridos de publicación](../building-journeys/journey-gs.md#publish-journey).
 * **Desde una campaña** - Haz clic en **[!UICONTROL Revisar para activar]**, revisa tu configuración y luego haz clic en **[!UICONTROL Activar]**. La campaña adquiere el estado **[!UICONTROL Activo]** (o **[!UICONTROL Programado]** si se ha definido una fecha de inicio futura). Más información sobre [activar campañas](../campaigns/create-campaign.md#review-activate).
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-experience.md}}

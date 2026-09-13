@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ Use un evento **Reactions** para reaccionar ante los datos de seguimiento relaci
 * En el caso de los correos electrónicos, los recorridos pueden reaccionar a los mensajes en los que se hizo clic, enviados, abiertos o fallidos. [Más información sobre las reacciones y eventos](../building-journeys/reaction-events.md).
 
 Cuando utilice un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. [Más información acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

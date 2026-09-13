@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 265
 ht-degree: 4%
@@ -61,3 +61,5 @@ Para crear credenciales adicionales para el mismo canal, siga los pasos a contin
 
 * [Delegar un subdominio](custom-channel-subdomains.md) (opcional: necesario para el seguimiento de vínculos)
 * [Creación de una configuración de canal](custom-channel-configuration.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-api-credentials.md}}

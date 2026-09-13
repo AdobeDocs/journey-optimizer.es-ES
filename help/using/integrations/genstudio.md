@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1346
 ht-degree: 8%
@@ -244,3 +244,5 @@ Sí, GenStudio está diseñado para la colaboración. Varios integrantes del equ
 Descubra el proceso de exportar una plantilla de correo electrónico de Journey Optimizer a GenStudio for Performance Marketing, crear correos electrónicos compatibles con la marca mediante la plantilla en GenStudio y volver a importarlos sin problemas en Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3456052/?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-genstudio.md}}

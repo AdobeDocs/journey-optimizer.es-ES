@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Ahora que comprende cuáles son las fuentes y por qué son importantes:
 * Aprenda en qué consiste la [asignación y transformación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home){target="_blank"}
 * Descubra cómo [usar datos importados en recorridos](../building-journeys/journey-gs.md)
 * Revise la información general de [Introducción a la administración de datos](../data/gs-data.md) para comprender cómo encajan las fuentes en la configuración de datos completa de Journey Optimizer
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

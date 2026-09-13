@@ -11,7 +11,7 @@ keywords: integración, proveedor, terceros
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 0%
@@ -55,3 +55,5 @@ Utilice estos vínculos agrupados para ir rápidamente al patrón de proveedor r
 * **Plantillas, personalización y recomendaciones:** [Stensul](vendor-integration.md#stensul), [Marigold](vendor-integration.md#marigold), [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)
 * **Datos, tiempo y operaciones:** [AccuWeather](vendor-integration.md#accuweather), [ShipStation](vendor-integration.md#shipstation), [RevenueCat](vendor-integration.md#revenuecat), [Databricks](vendor-integration.md#databricks)
 * **Comentarios, consentimiento y asistencia social:** [Bynder](vendor-integration.md#bynder), [Trustpilot](vendor-integration.md#trustpilot), [Bazaarvoice](vendor-integration.md#bazaarvoice), [OneTrust](vendor-integration.md#onetrust), [Meta](vendor-integration.md#meta), [Aprimo](vendor-integration.md#aprimo), [Epsilon (Epsilon3)](vendor-integration.md#epsilon)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration-gs.md}}

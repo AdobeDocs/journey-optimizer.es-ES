@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1313
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -57,7 +57,7 @@ Los mensajes móviles se pueden crear y enviar en un recorrido o en una campaña
 
 Los SMS, MMS y RCS funcionan mejor cuando necesita llegar a los usuarios de forma fiable, independientemente de si tienen la aplicación instalada o hay una conexión a Internet disponible.
 
-| Ventaja | Por qué | Casos de uso de ejemplo |
+| Ventaja | Por qué | Ejemplos de casos de uso |
 | --- | --- | --- |
 | Alcance máximo e inmediatez | No se requiere ninguna aplicación o conexión a Internet para recibir el mensaje | Llegar a usuarios sin una aplicación de smartphone instalada |
 | Visibilidad garantizada | Los SMS tienen tasas abiertas superiores al 90 % | Códigos OTP, recordatorios de citas y notificaciones de entregas |
@@ -229,3 +229,5 @@ Aprenda a configurar y enviar mensajes RCS interactivos de marca en Adobe Journe
 >[!VIDEO](https://video.tv.adobe.com/v/3464758?captions=spa)
 
 +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-get-started-mobile.md}}

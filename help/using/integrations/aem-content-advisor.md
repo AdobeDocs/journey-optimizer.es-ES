@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 0%
@@ -163,3 +163,5 @@ Para acceder al Asesor de contenido de Adobe Experience Manager en Journey Optim
    ![](assets/content-advisor-13.png){zoomable="yes"}
 
 1. Explore y seleccione el recurso o el fragmento de contenido que desea utilizar y, a continuación, insértelo en el contenido.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-content-advisor.md}}

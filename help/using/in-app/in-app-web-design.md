@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 829
 ht-degree: 7%
@@ -197,3 +197,5 @@ Si el **[!UICONTROL modo de formato avanzado]** está activado, puede personaliz
 * [Prueba y envío de un mensaje en la aplicación](send-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 * [Configuración en la aplicación](inapp-configuration.md)
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-in-app-web-design.md}}

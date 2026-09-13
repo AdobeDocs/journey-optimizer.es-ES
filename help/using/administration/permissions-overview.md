@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 961
-ht-degree: 4%
+source-wordcount: 501
+ht-degree: 8%
 
 ---
 
@@ -116,47 +116,4 @@ Ahora que comprende los conceptos de control de acceso en **[!DNL Journey Optimi
 </td>
 </tr></table>
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** El control de acceso en Journey Optimizer se basa en las funciones, los permisos y los entornos limitados administrados mediante los permisos empresariales de Adobe CX, con capas adicionales de control de acceso basado en objetos (OLAC) y control de acceso basado en atributos (ABAC) para una protección de datos precisa.
-
-**Intenciones:**
-
-* Comprenda los cinco conceptos básicos de control de acceso: funciones, permisos, zonas protegidas, control de acceso basado en objetos y control de acceso basado en atributos
-* Saber quién puede configurar el control de acceso (administrador del sistema o del producto)
-* Vaya a la sección de documentación derecha de cada tema de control de acceso
-* Planificar una estrategia de control de acceso para la organización
-
-**Glosario:**
-
-* **Roles**: colecciones de usuarios que comparten los mismos permisos y zonas protegidas; hay funciones integradas preexistentes disponibles y se pueden crear funciones personalizadas *(específicas del producto)*
-* **Permisos**: derechos unitarios que definen las autorizaciones asignadas a las funciones, agrupadas bajo recursos como Recorrido u Ofertas *(específicas del producto)*
-* **Zonas protegidas**: Entornos virtuales que dividen la instancia de Journey Optimizer en espacios de trabajo virtuales independientes y aislados; asignados mediante funciones en Permisos *(específicos del producto)*
-* **Control de acceso basado en objetos**: Etiquetas aplicadas a objetos Journey Optimizer específicos (recorridos, campañas, ofertas) para restringir el acceso a usuarios autorizados *(específicos del producto)*
-* **Control de acceso basado en atributos**: directivas que controlan el acceso a objetos o capacidades en función de atributos como etiquetas agregadas a campos de esquema o segmentos *(específicos del producto)*
-
-**Protecciones:**
-
-* La configuración del control de acceso requiere privilegios de administrador del sistema o del producto (requisito previo)
-* La función mínima que puede conceder o retirar permisos es la de administrador de productos (como se indica en la página)
-
-**Terminología:**
-
-* Nombre canónico: Control de acceso basado en atributos — Acrónimo: ABAC — variants: attribute-based access management
-* Nombre canónico: Control de acceso basado en objetos — Acrónimo: OLAC — variantes: control de acceso basado en objetos, administración de acceso basado en objetos
-* No confunda: &quot;Control de acceso basado en objetos&quot; (restringe el acceso a objetos AJO específicos como recorridos, campañas y ofertas mediante etiquetas) ≠ &quot;Control de acceso basado en atributos&quot; (restringe el acceso a atributos de datos como campos de esquema y segmentos basados en políticas de etiquetas)
-* No confunda: &quot;Roles&quot; (una colección de usuarios con permisos compartidos y zonas protegidas) ≠ &quot;Permisos&quot; (los derechos unitarios agrupados bajo recursos asignados a funciones)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Quién puede configurar el control de acceso en Journey Optimizer?** — Usuarios con privilegios de administrador del sistema o administrador de productos.
-* **Q: ¿Cuál es el nivel mínimo de administrador necesario para conceder o retirar permisos?** — Administrador del producto.
-* **Q: ¿Las zonas protegidas se administran independientemente de los roles?** — No; los entornos limitados se asignan mediante funciones en el producto Permisos.
-* **Q: ¿Dónde se administra el control de acceso de Journey Optimizer?** — A través de Permisos en Adobe CX Enterprise, que vincula a los usuarios con permisos y zonas protegidas a través de funciones y políticas.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-permissions-overview.md}}

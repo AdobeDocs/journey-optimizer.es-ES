@@ -28,7 +28,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 1140
 ht-degree: 11%
@@ -172,4 +172,4 @@ Si **no** usa los siguientes [grupos de campos](https://experienceleague.adobe.c
 * [Diseño de un mensaje en la aplicación](design-in-app.md)
 * [Informe en la aplicación](../reports/campaign-global-report-cja-inapp.md)
 
-
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-inapp-configuration.md}}

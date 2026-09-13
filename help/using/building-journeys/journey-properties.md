@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 5676
-ht-degree: 10%
+source-wordcount: 4644
+ht-degree: 13%
 
 ---
 
@@ -475,7 +475,7 @@ La sección **[!UICONTROL Administración de conflictos]** de las propiedades de
 
 * **Ver conflictos** con otros recorridos, campañas o configuraciones de canal. Si desea identificar la superposición en la audiencia, la fecha de inicio y finalización, la configuración del canal, el canal o el conjunto de reglas, puede ver posibles conflictos aquí. [Aprenda a identificar posibles conflictos en el recorrido](../conflict-prioritization/conflicts.md)
 
-## Mida la elevación del recorrido con un grupo de retención {#performance-management}
+## Medir el alza del recorrido con un grupo de exclusión {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -484,7 +484,7 @@ La sección **[!UICONTROL Administración de conflictos]** de las propiedades de
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
 >title="Medición del rendimiento"
->abstract="Configure un grupo de exclusión de nivel de recorrido para medir la efectividad incremental del recorrido. Seleccione una métrica de éxito y defina un porcentaje de exclusión para excluir esa parte de la audiencia de la entrada en el recorrido. Los perfiles excluidos se rastrean mediante eventos de exclusión y se pueden comparar con perfiles activos en los informes de Customer Journey Analytics para medir el alza."
+>abstract="Configure un grupo de exclusión a nivel del recorrido para medir la efectividad incremental de su recorrido. Seleccione una métrica de éxito y defina un porcentaje de exclusión para que esa parte del público no acceda al recorrido. Los perfiles excluidos se rastrean mediante eventos de exclusión y se pueden comparar con los perfiles activos de los sistemas de informes de Customer Journey Analytics para medir el alza."
 
 La sección **[!UICONTROL Medición de rendimiento]** en las propiedades del recorrido le permite configurar un **grupo de espera de nivel de recorrido** para medir la efectividad incremental de su recorrido.
 
@@ -545,94 +545,4 @@ Son conceptos separados. El tiempo de espera global de **[recorrido](#global_tim
 * [Administración de zonas horarias](timezone-management.md): configure las zonas horarias de recorrido y perfil
 * [Administración y priorización de conflictos](../conflict-prioritization/conflicts.md): identifique y resuelva conflictos entre recorridos y campañas
 
-## Referencia rápida {#quick-reference}
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
->[!BEGINTABS]
-
->[!TAB Información general]
-
-**TL;DR**
-
-En esta página se explica cómo configurar y administrar todas las configuraciones globales de un recorrido, incluidas las reglas de entrada, las zonas horarias, las fechas de inicio y finalización, el comportamiento del tiempo de espera, los criterios de salida, el tamaño de la carga útil y la administración de conflictos.
-
-**Intenciones**
-
-* Configuración de las reglas de entrada y reentrada de recorrido para perfiles
-* Establezca las fechas de inicio y finalización para controlar cuándo los perfiles pueden entrar o salir de un recorrido
-* Defina criterios de salida para eliminar automáticamente perfiles cuando se cumpla una condición empresarial
-* Administrar el acceso a un recorrido mediante las etiquetas de control de acceso de nivel de objeto
-* Supervisar el tamaño de la carga útil del recorrido para evitar errores de publicación
-* Resolución de conflictos y asignación de puntuaciones de prioridad entre recorridos y campañas
-
->[!TAB Glosario]
-
-* **propiedades de Recorrido**: panel de configuración global (carril derecho) que controla el nombre, las reglas de entrada, la zona horaria, las fechas, el tiempo de espera, el tamaño de carga útil y la administración de conflictos de un recorrido. *(específico del producto)*
-* **Período de espera de reentrada**: tiempo mínimo que un perfil debe esperar antes de que se le permita volver a entrar en un recorrido unitario; el máximo es de 90 días. *(específico del producto)*
-* **Tiempo de espera de recorrido global (TTL)**: El tiempo máximo que un perfil puede permanecer activo en un recorrido (actualmente, 91 días), después del cual se sale del perfil y se eliminan sus datos. *(específico del producto)*
-* **Criterios de salida**: reglas definidas en el nivel de recorrido que quitan automáticamente perfiles de un recorrido cuando se produce un evento especificado o se cumple una condición de audiencia. *(específico del producto)*
-* **Criterios de salida basados en atributos de perfil**: Reglas de salida basadas en atributos de perfil (por ejemplo: ubicación o estado) que se evalúan en los pasos de acción y que solo se pueden editar cuando se pausa un recorrido. *(específico del producto)*
-* **Política de combinación**: conjunto de reglas utilizado por Adobe Experience Platform para combinar datos de perfil de varios orígenes; aplicadas de forma coherente en todo el recorrido. *(específico del producto)*
-* **Administración de conflictos**: herramientas en propiedades de recorrido para asignar puntuaciones de prioridad, aplicar conjuntos de reglas e identificar recorridos o campañas superpuestos. *(específico del producto)*
-* **Tamaño de carga útil de Recorrido**: El tamaño actual de la carga útil de definición del recorrido en comparación con el límite configurado; al exceder el límite, se bloquea la publicación. *(específico del producto)*
-* **OLAC (Control de acceso de nivel de objeto)**: modelo de permisos que restringe el acceso a recorridos individuales que utilizan etiquetas de uso de datos.
-* **Grupo de espera (nivel de recorrido) (disponibilidad limitada)**: configurado en la sección de propiedades de recorrido de **Medir alza de recorrido con un grupo de espera**; le permite excluir un porcentaje de su audiencia del recorrido para medir su efectividad incremental. *(específico del producto)*
-* **Grupo de espera**: Un porcentaje de la audiencia objetivo excluida de entrar en un recorrido, usado como línea de base para medir la efectividad incremental del recorrido. Los perfiles del grupo de exclusión se rastrean mediante eventos de exclusión. *(específico del producto)*
-* **Aumento incremental**: La diferencia mensurable en el resultado entre perfiles que entraron en el recorrido (grupo activo) y perfiles que no lo hicieron (grupo de exclusión), utilizada para cuantificar el verdadero impacto del recorrido.
-
->[!TAB Terminología]
-
-* **Nombre canónico:** propiedades de Recorrido — Acrónimo: none — variantes: configuración de recorrido, panel de configuración de recorrido
-* **Sinónimos:** &quot;tiempo de espera de recorrido global&quot; = &quot;TTL&quot; = &quot;Tiempo de vida&quot;
-* **No confunda:** &quot;tiempo de espera de recorrido global (91 días)&quot; ≠ &quot;ventana de informes (~91 días)&quot;: el tiempo de espera limita la duración de perfil individual en un recorrido; la ventana de informes es un límite de visualización de la interfaz de usuario para los datos de análisis
-
->[!TAB Protecciones y limitaciones]
-
-* El período máximo de espera de reentrada es de 90 días
-* El tiempo de espera de recorrido global es de 91 días; después de este periodo, los datos de perfil se eliminan y el perfil se cierra
-* El límite predeterminado de carga útil de recorrido es de 4 MB; si se supera, se impide la publicación. Póngase en contacto con el Servicio de atención al cliente de Adobe para obtener un límite superior
-* Los criterios de salida solo se pueden configurar en estado de borrador (tipos de evento/audiencia); los criterios de salida de atributos de perfil solo se pueden editar cuando el recorrido está en pausa
-* Solo se permite una regla de criterios de salida de atributo de perfil por recorrido
-* Los criterios de salida de atributos de perfil solo se evalúan en pasos de acción, no de forma global
-* Cuando se actualiza una política de combinación de audiencias, cualquier recorrido activo que haga referencia a esa audiencia debe volver a publicarse
-* Políticas de combinación incoherentes en una publicación de bloque de recorrido; las incoherencias en la personalización de los mensajes no avisan
-* En el caso de los recorridos activos, el panel de propiedades muestra solo la fecha de publicación y el nombre del editor
-* Holdout: mínimo del 5 % de la audiencia y 1000 perfiles recomendados para la relevancia estadística
-* Holdout: las métricas de aperturas y clics no son significativas; use métricas de conversión de la parte inferior de funnel en su lugar
-* Holdout: solo se admite una métrica de éxito por recorrido; no se admite el holdout entre recorridos
-* Los cambios de porcentaje de exclusión en una nueva versión del recorrido solo se aplican a los nuevos visitantes
-
->[!TAB Preguntas más frecuentes]
-
-**Q: ¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
-
-Un máximo de 91 días (el tiempo de espera de recorrido global); después de este período, el perfil se abandona automáticamente y se eliminan sus datos.
-
-**Q: ¿Puedo editar las propiedades del recorrido mientras el recorrido está activo?**
-
-En el caso de los recorridos activos, el panel de propiedades muestra solo la fecha de publicación y el nombre del editor; los cambios estructurales requieren una nueva versión.
-
-**Q: ¿Qué sucede cuando se configuran varios criterios de salida?**
-
-Se evalúan de arriba a abajo con la lógica OR en cada paso del recorrido; un perfil existe cuando se cumple un criterio determinado.
-
-**Q: ¿Cómo evito que un perfil vuelva a entrar en un recorrido?**
-
-Desmarque la opción &quot;Permitir reentrada&quot; en las propiedades del recorrido; esto es adecuado para experiencias únicas, como una oferta de regalo.
-
-**Q: ¿Cuál es la diferencia entre el tiempo de espera del recorrido y la fecha de finalización?**
-
-La fecha de finalización detiene todas las nuevas entradas y sale automáticamente de los perfiles activos en esa fecha específica; el tiempo de espera global de 91 días se aplica por perfil desde el momento en que ingresa, independientemente de la fecha de finalización del recorrido.
-
-**Q: ¿Cómo se determina la política de combinación para un recorrido?**
-
-Depende del tipo de recorrido: Leer audiencia y recorridos de calificación de audiencia utilizan la política de combinación de la audiencia; recorridos de evento unitarios utilizan la política de combinación predeterminada; recorridos de evento empresarial utilizan la política de combinación de la audiencia de destino en la actividad de lectura de audiencia posterior.
-
-**Q: ¿Cómo funciona el grupo de exclusión?**
-
-El grupo de exclusión es un porcentaje configurable de la audiencia de destino que no puede entrar en el recorrido. La asignación es determinista (el mismo perfil siempre se asigna a holdout para el mismo recorrido) y se evalúa al entrar en el tiempo. Los perfiles de exclusión no reciben ninguna comunicación, pero se rastrean mediante eventos de exclusión en el conjunto de datos para la creación de informes de elevación de CJA descendente. Ver [Medir el alza de recorridos con un grupo de exclusión](#performance-management).
-
->[!ENDTABS]
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-properties.md}}

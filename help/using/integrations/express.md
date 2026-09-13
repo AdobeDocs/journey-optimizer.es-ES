@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 615
 ht-degree: 17%
@@ -167,5 +167,4 @@ Obtenga información sobre cómo editar los recursos en Adobe Journey Optimizer 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3455526/?captions=spa&quality=12)
 
-
-
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-express.md}}

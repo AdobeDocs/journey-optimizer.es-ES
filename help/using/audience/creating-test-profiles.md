@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 1400
 ht-degree: 3%
@@ -272,3 +272,5 @@ curl -X POST \
 Obtenga información sobre cómo crear perfiles de prueba.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416330?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-test-profiles.md}}

@@ -22,7 +22,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -56,3 +56,5 @@ El contenido se crea y administra en el **nivel de creación**, donde los fragme
 Cuando se publica un fragmento de contenido, se crea una copia en el **nivel de publicación** y se expone a través de un extremo público no autenticado. Para **[!DNL Adobe Experience Manager as a Cloud Service]**, Journey Optimizer admite la integración con **Author tier** y **Publish tier**.
 
 Como resultado, Journey Optimizer muestra solo fragmentos de contenido publicados o modificados y siempre utiliza la última versión publicada. Los cambios realizados después de la publicación no se reflejarán en Journey Optimizer hasta que se vuelva a publicar el fragmento de contenido.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-gs.md}}

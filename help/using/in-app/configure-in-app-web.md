@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 3%
@@ -168,3 +168,5 @@ ht-degree: 3%
 1. Envíe la configuración web en la aplicación.
 
 Ahora puede [crear una aplicación web](../in-app/create-in-app-web.md) dentro de una campaña.
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-configure-in-app-web.md}}

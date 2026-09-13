@@ -12,10 +12,10 @@ keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2: []
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 1%
+source-wordcount: 1739
+ht-degree: 5%
 
 ---
 
@@ -73,12 +73,12 @@ Se aplican restricciones adicionales específicas del contexto:
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
 >title="Envío por oleadas"
->abstract="Divida la entrega de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta 10 olas con intervalos y tamaños iguales o personalizados."
+>abstract="Divida el envío de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta diez olas con tamaños y tiempos iguales o personalizados."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
 >title="Envío por oleadas"
->abstract="Divida la entrega de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta 10 olas con intervalos y tamaños iguales o personalizados."
+>abstract="Divida el envío de mensajes en lotes programados (olas) para controlar el volumen a lo largo del tiempo. Puede definir hasta diez olas con tamaños y tiempos iguales o personalizados."
 
 Los pasos para habilitar el envío de ondas dependen del contexto: recorrido de lectura-audiencia o campaña de acción. Seleccione la pestaña correspondiente a continuación y consulte la sección [Tamaño y temporización de la onda](#wave-options) para finalizar la configuración.
 
@@ -242,57 +242,4 @@ No. El envío de ondas solo se aplica a las **acciones salientes** del canal: co
 * [Programar una campaña de acción](../campaigns/campaign-schedule.md): establezca la fecha de inicio, la fecha de finalización y la frecuencia
 * [Actividades de canal en campañas orquestadas](../orchestrated/activities/channels.md): configure actividades de canal en el lienzo orquestado
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** En esta página se explica cómo configurar el envío de oleadas en Adobe Journey Optimizer para que entregue mensajes salientes en lotes controlados a lo largo del tiempo, lo que mejora la capacidad de envío y protege la reputación del remitente. El envío de ondas está disponible en recorridos de lectura-audiencia, campañas de acción y campañas orquestadas.
-
-**Intenciones:**
-
-* Habilite el envío de ondas en un recorrido Leer audiencia, una campaña de acción o una actividad de canal de campaña orquestada
-* Configurar ondas iguales con un intervalo fijo entre cada ola
-* Definir tamaños de onda personalizados como porcentajes o recuentos de perfiles absolutos
-* Programar cada ola con una fecha y hora de inicio específicas
-* Controle el volumen de entrega para proteger la reputación del remitente o alinearlo con la capacidad operativa
-
-**Glosario:**
-
-* **Envío de ondas**: Modo de envío que divide la audiencia en lotes (olas) y envía mensajes a cada lote a intervalos programados en lugar de todos a la vez *(específico del producto)*
-* **Olas iguales**: Una configuración en la que la audiencia se divide en partes de igual tamaño con un intervalo fijo entre inicios de ola *(específico del producto)*
-* **Distribución personalizada**: Una configuración en la que el tamaño de cada ola se define manualmente como porcentaje o número absoluto de perfiles *(específicos del producto)*
-* **Programación personalizada**: Una configuración en la que cada ola tiene una fecha y hora de inicio específicas, lo que permite un espaciado no uniforme *(específico del producto)*
-
-**Contextos donde el envío de ondas está disponible:**
-
-* Leer recorridos de audiencia (&quot;Lo antes posible&quot; o solo programador &quot;Una vez&quot;, no para recorridos recurrentes, activados por eventos, de evento empresarial, de prueba o de ejecución en seco)
-* Campañas de acción (solo acciones de canal saliente)
-* Campañas organizadas (solo actividades de canal saliente, configuradas por actividad de canal)
-
-**Protecciones comunes (todos los contextos):**
-
-* Mínimo 2 olas, máximo 10 olas
-* Mínimo de 30 minutos entre el inicio de dos olas consecutivas
-* El inicio de la ola no puede ser del pasado
-* La distribución personalizada basada en porcentajes debe sumar el 100 %
-* La distribución personalizada basada en números no valida automáticamente la cobertura total
-
-**protecciones específicas del Recorrido:**
-
-* El inicio de ola no puede ser antes del inicio del recorrido
-* La última oleada debe programarse en un plazo de 6 días y 18 horas desde el inicio del recorrido; si se excede este déclencheur, se produce un error de validación
-* La división de audiencias puede tardar hasta 1 hora; los perfiles pueden retrasarse
-* Dos olas nunca se ejecutan simultáneamente dentro de la misma versión de recorrido
-* Los inicios de ola se pueden retrasar por los límites de cuota de plataforma o la carga pesada del sistema
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿El envío de ondas se aplica a los canales entrantes?** — No; solo de salida (correo electrónico, SMS, push, correo directo).
-* **Q: ¿Puedo asignar contenido diferente a olas individuales?** — No; la misma audiencia y contenido para todas las olas. Solo pueden diferir el tamaño y el tiempo.
-* **Q: ¿Cuál es el tiempo mínimo entre dos olas?** — 30 minutos entre el inicio de dos olas consecutivas.
-* **Q: ¿Qué sucede si el tamaño de las olas supera o no alcanza la audiencia?** — Exceso: la primera ola envía a la audiencia completa, las olas restantes no se ejecutan. Escasez: solo los perfiles de las olas definidas reciben el mensaje; el resto no se vuelve a intentar.
-* **Q: ¿Se reevalúa la audiencia por ola?** — No; la audiencia se captura al activarse. Los atributos de perfil (personalización, consentimiento) se leen en el momento del procesamiento de la ola.
-
-+++
+{{$include /help/_includes/do-not-localize/delivery/ai-augmented-send-using-waves.md}}

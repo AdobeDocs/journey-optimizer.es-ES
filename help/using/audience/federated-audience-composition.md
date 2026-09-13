@@ -12,7 +12,7 @@ feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 267
 ht-degree: 9%
@@ -43,3 +43,5 @@ Para obtener más información, lea la guía de [Composición de audiencias fede
 Obtenga más información acerca de la composición de audiencias federadas en vídeo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3450884?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-federated-audience-composition.md}}

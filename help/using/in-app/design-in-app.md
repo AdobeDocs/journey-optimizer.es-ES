@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 1355
 ht-degree: 29%
@@ -301,3 +301,5 @@ Para obtener más información, consulte [Documentación para desarrolladores](h
 El siguiente vídeo muestra cómo crear y probar los mensajes en la aplicación.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422076?captions=spa&quality=12&learn=on)
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-design-in-app.md}}

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1996
+source-wordcount: 1546
 ht-degree: 0%
 
 ---
@@ -687,42 +687,4 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
-+++ Referencia de conocimientos de AI
-
-Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
-
-Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
-
-* **TL;DR:** Las funciones de Journey Optimizer se crean a partir de permisos de alto nivel, cada uno de los cuales agrupa los derechos específicos de API de bajo nivel que los usuarios necesitan para leer, escribir, publicar o eliminar recursos en recorridos, campañas, decisiones, configuraciones de canal y mucho más.
-
-**Intenciones:**
-
-* Comprender la distinción entre permisos de alto nivel y de bajo nivel
-* Identificar los permisos de bajo nivel que concede cada permiso de alto nivel
-* Configure las funciones con precisión para recorridos, campañas, administración de decisiones, configuraciones de canal y campañas orquestadas
-* Concesión de acceso de generación de contenido para la generación de contenido
-* Comprenda qué permite el permiso Publicar recorridos en comparación con el permiso Administrar recorridos
-
-**Glosario:**
-
-* **Permiso de alto nivel**: Un permiso con nombre asignado a una función (por ejemplo, Administrar recorridos, Publicar recorridos) que engloba uno o más permisos de bajo nivel *(específico del producto)*
-* **Permiso de bajo nivel**: Un derecho de nivel de API granular (por ejemplo, recorrido.read, recorrido.write) derivado e incluido en un permiso de alto nivel *(específico del producto)*
-* **Función**: Una colección de usuarios que comparten los mismos permisos y zonas protegidas dentro de la organización *(específica del producto)*
-
-**Terminología:**
-
-* No confunda: &quot;Permiso de alto nivel&quot; (denominado derecho asignable a una función) ≠ &quot;Permiso de bajo nivel&quot; (derecho de API granular subyacente, no asignable directamente)
-* No confunda: &quot;Administrar recorridos&quot; (permite crear, editar, eliminar, detener, incluidos los recorridos en directo, el modo de prueba y la ejecución en seco) ≠ &quot;Publicar recorridos&quot; (permite publicar, iniciar modo de prueba, iniciar ejecución en seco, pausar y reanudar)
-* No confunda: &quot;Administrar eventos de recorridos, fuentes de datos y acciones&quot; (CRUD completo en eventos, fuentes, acciones) ≠ &quot;Ver eventos de recorridos, fuentes de datos y acciones&quot; (acceso de solo lectura a esos objetos)
-* No confunda: &quot;Generar contenido&quot; (acceso al asistente de IA en Journey Optimizer) ≠ otros permisos de recorrido o campaña
-* No confunda: &quot;Modo de prueba&quot; (al que se hace referencia en Publicar recorridos y Administrar recorridos como modo de ejecución de recorrido que se puede iniciar o detener) ≠ &quot;Ejecución en seco&quot; (un modo de ejecución de recorrido independiente al que también se hace referencia en esos mismos permisos)
-
-**PREGUNTAS MÁS FRECUENTES:**
-
-* **Q: ¿Permite el permiso Administrar recorridos que un usuario publique recorridos?** — No; la publicación de recorridos requiere el permiso de alto nivel independiente de recorridos de publicación.
-* **Q: ¿Qué concede el permiso Generar contenido?** — Acceso al asistente de IA en Journey Optimizer.
-* **Q: ¿Puede un usuario configurar eventos de recorrido sin el permiso Administrar recorridos?** — Sí; Administrar eventos, fuentes de datos y acciones de recorrido es un permiso independiente de alto nivel que cubre la configuración de eventos, fuentes de datos y acciones.
-* **Q: ¿Qué permisos de bajo nivel se incluyen en el informe Ver recorridos?** — recorrido_report.read y messages_report.read, además de datasets.read, queries.read, queries.write y queries.delete de Adobe Experience Platform.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-high-low-permissions.md}}

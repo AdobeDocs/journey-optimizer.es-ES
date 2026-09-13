@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 1100
 ht-degree: 49%
@@ -203,3 +203,5 @@ Las composiciones pueden tener varios estados:
 >[!NOTE]
 >
 >La composición de audiencia no está integrada actualmente con la capacidad de restablecimiento de la zona protegida. Antes de iniciar el restablecimiento de una zona protegida, debe eliminar las composiciones manualmente para asegurarse de que los datos de audiencia asociados se limpien correctamente. Encontrará información detallada en [Documentación de espacio aislado](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es#delete-audience-compositions) de Adobe Experience Platform
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-audience-orchestration.md}}

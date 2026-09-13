@@ -14,7 +14,7 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 553
 ht-degree: 12%
@@ -124,3 +124,5 @@ Configure las credenciales según su proveedor de SMS con [Introducción a la co
    >Al guardar las credenciales de la API, Journey Optimizer valida que el conjunto de datos de palabras clave de entrada esté configurado correctamente. Si la validación falla, un mensaje de error indica la corrección necesaria.
 
 Una vez guardadas las credenciales, el comportamiento de la mensajería saliente y entrante no cambia; las palabras clave entrantes para esa credencial se registran en el conjunto de datos personalizado seleccionado.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-custom-dataset-inbound-keywords.md}}

@@ -25,7 +25,7 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 19%
@@ -233,3 +233,4 @@ Una vez creadas las credenciales de la API, complete los campos necesarios para 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3431625)
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-configuration-custom.md}}
