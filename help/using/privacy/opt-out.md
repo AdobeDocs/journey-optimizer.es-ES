@@ -25,7 +25,7 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 1320
 ht-degree: 100%
@@ -212,3 +212,5 @@ Ahora puede utilizar este público para filtrar los perfiles que no hayan dado s
 >[!NOTE]
 >
 >Tenga en cuenta que si crea un público que no haya dado su consentimiento para la personalización y luego selecciona este público en una campaña, las herramientas de personalización permanecerán disponibles. Es responsabilidad de los usuarios de marketing comprender que, si trabajan con un público que no haya dado su consentimiento para recibir personalización, no deberían utilizar las herramientas de personalización.
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-opt-out.md}}

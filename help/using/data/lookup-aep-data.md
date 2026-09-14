@@ -26,7 +26,7 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 6258db4eb542a124b5eae54aa0c8ec49004945d3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 902
 ht-degree: 8%
@@ -180,3 +180,5 @@ Una vez habilitado un conjunto de datos para la búsqueda mediante una llamada d
 * [Uso de datos de Adobe Experience Platform para la personalización](../personalization/aep-data-perso.md)
 * [Uso de datos de Adobe Experience Platform para las decisiones](../experience-decisioning/aep-data-exd.md)
 * [Usar datos de Adobe Experience Platform para la orquestación de recorrido](../building-journeys/dataset-lookup.md)
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-lookup-aep-data.md}}

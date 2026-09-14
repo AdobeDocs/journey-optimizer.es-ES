@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 557
 ht-degree: 1%
@@ -113,3 +113,5 @@ Ahora puede iniciar la integración con Adobe Experience Platform Mobile SDK par
 >[!TIP]
 >
 >Si encuentra problemas con la configuración o el envío de actividades en directo, consulte [Solucionar problemas de actividades en directo](troubleshoot-mobile-live.md) para ver los pasos de depuración.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-mobile-live-configuration.md}}

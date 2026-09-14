@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 884
 ht-degree: 1%
@@ -136,3 +136,5 @@ Al simular el contenido del correo electrónico, una barra superior proporciona 
 * **[!UICONTROL Procesar correo electrónico]**: obtiene una vista previa del procesamiento de correo electrónico en clientes y dispositivos de correo electrónico populares. [Más información](../content-management/rendering.md)
 * **[!UICONTROL Enviar prueba]**: envía una prueba de una o más variantes a un conjunto de destinatarios de correo electrónico. Haga clic en **[!UICONTROL Enviar prueba]**, añada hasta 10 direcciones de destinatario, seleccione las variantes que desee incluir y, a continuación, haga clic en **[!UICONTROL Enviar prueba]** para confirmar. Para revisar las pruebas enviadas anteriormente, haga clic en **[!UICONTROL Ver pruebas]**. [Más información](../content-management/proofs.md)
 * **[!UICONTROL Ver detalles de configuración]**: revise la configuración de canal aplicada a este contenido.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

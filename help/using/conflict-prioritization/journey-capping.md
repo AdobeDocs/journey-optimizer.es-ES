@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 993
 ht-degree: 18%
@@ -141,3 +141,5 @@ Además, puede usar [Adobe Experience Platform Query Service](https://experience
 ## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3447617?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-capping.md}}

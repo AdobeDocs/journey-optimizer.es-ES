@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 161
 ht-degree: 100%
@@ -50,3 +50,5 @@ Aprenda a utilizar el Editor de consultas en [esta documentación](https://exper
 >
 >* [Documentación del Servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es){target="_blank"}
 >* [Vídeo resumen del Servicio de consultas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=es){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-get-started-queries.md}}

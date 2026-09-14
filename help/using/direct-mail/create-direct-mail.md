@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -186,3 +186,5 @@ Ahora puede probar el mensaje de correo postal y enviarlo a su audiencia. [Apren
 * [Previsualización y prueba de contenido](../content-management/preview-test.md)
 
 Si tiene preguntas comunes acerca del correo postal, consulte [Introducción al correo postal](get-started-direct-mail.md).
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-create-direct-mail.md}}

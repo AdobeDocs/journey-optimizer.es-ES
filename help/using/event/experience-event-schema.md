@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 422
 ht-degree: 1%
@@ -163,3 +163,5 @@ The linked fields are available when configuring the action parameters of a jour
 
 To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
 -->
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-experience-event-schema.md}}

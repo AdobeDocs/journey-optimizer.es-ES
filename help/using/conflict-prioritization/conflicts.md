@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 781
 ht-degree: 16%
@@ -104,3 +104,5 @@ Al aprovechar estas capacidades, puede asegurarse de que los esfuerzos de market
 ## Vídeo práctico {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3445647?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-conflicts.md}}

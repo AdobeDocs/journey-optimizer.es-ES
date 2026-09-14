@@ -22,7 +22,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
 workflow-type: tm+mt
 source-wordcount: 508
 ht-degree: 6%
@@ -132,3 +132,5 @@ POST https://platform.adobe.io/journey/imp/config/channel-settings
     "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
 }
 ```
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-line-configuration.md}}

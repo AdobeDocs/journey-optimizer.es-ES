@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 97fb33382e3e0f367bcd786a1f2bf5af54ccec68
 workflow-type: tm+mt
 source-wordcount: 782
 ht-degree: 17%
@@ -87,18 +87,18 @@ Ahora puede empezar a diseñar el contenido de su mensaje de LINE desde el botó
 
 1. Haga clic en **[!UICONTROL Crear experimento]** para comenzar a configurar el experimento de contenido y crear tratamientos para medir su rendimiento e identificar la mejor opción para la audiencia objetivo. [Más información](../content-management/content-experiment.md)
 
-1. En la sección **[!UICONTROL Seguimiento de acciones]**, especifique si desea rastrear los clics en los vínculos del mensaje SMS.
+1. En la sección **[!UICONTROL Seguimiento de acciones]**, especifique si desea rastrear clics en vínculos del mensaje de LINE.
 
 1. Las campañas están diseñadas para ejecutarse en una fecha específica o en una frecuencia recurrente. Aprenda a configurar la **[!UICONTROL programación]** de su campaña en [esta sección](../campaigns/create-campaign.md#schedule).
 
-1. En el menú **[!UICONTROL déclencheur de acción]**, elige la **[!UICONTROL Frecuencia]** de tu mensaje SMS:
+1. En el menú **[!UICONTROL déclencheur de acción]**, elija la **[!UICONTROL Frecuencia]** de su mensaje de LINE:
 
    * Una vez
    * Diaria
    * Semanal
    * Month
 
-Ahora puede empezar a diseñar el contenido de su mensaje de texto desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
+Ahora puede empezar a diseñar el contenido de su mensaje de LINE desde el botón **[!UICONTROL Editar contenido]**, como se detalla a continuación.
 
 >[!ENDTABS]
 
@@ -118,7 +118,7 @@ Estos tipos de mensajes se pueden configurar editando directamente el contenido 
 
 Para configurar el contenido de LINE, siga los pasos a continuación.
 
-1. En la pantalla de configuración del recorrido o la campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del mensaje de texto.
+1. En la pantalla de configuración del recorrido o la campaña, haga clic en el botón **[!UICONTROL Editar contenido]** para configurar el contenido del mensaje de LINE.
 
 1. Haga clic en **[!UICONTROL Editar código]** para editar el contenido JSON.
 
@@ -131,3 +131,5 @@ Para configurar el contenido de LINE, siga los pasos a continuación.
 Una vez que haya realizado las pruebas y validado el contenido, puede enviar el mensaje de LINE a su audiencia. Estos pasos se detallan en [esta página](send-line.md)
 
 Una vez enviado, puede medir el impacto de su LINE dentro de los informes de Campaña o Recorrido. Para obtener más información sobre la creación de informes, consulte [esta sección](../reports/campaign-global-report-cja.md).
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-create-line.md}}

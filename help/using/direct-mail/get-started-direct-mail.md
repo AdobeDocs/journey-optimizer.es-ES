@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 487
 ht-degree: 100%
@@ -80,3 +80,5 @@ Aprenda cómo aprovechar el canal de correo directo en Adobe Journey Optimizer p
 Para ver un tutorial escrito de los mismos pasos, consulte los [tutoriales del canal de correo directo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
 Si tiene preguntas frecuentes sobre el correo directo, consulte la sección [Recursos adicionales](#additional-resources) que se encuentra más arriba.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-get-started-direct-mail.md}}

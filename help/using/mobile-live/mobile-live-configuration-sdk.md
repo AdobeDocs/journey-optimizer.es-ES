@@ -25,7 +25,7 @@ subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 579
 ht-degree: 1%
@@ -266,3 +266,5 @@ Para obtener documentación completa de SDK y detalles de la implementación:
 >[!TIP]
 >
 >Si tiene problemas con el registro de tokens, la alineación de carga útil o la entrega de actividades en directo, consulte [Solucionar problemas de actividades en directo](troubleshoot-mobile-live.md) para obtener instrucciones detalladas sobre la depuración.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-mobile-live-configuration-sdk.md}}

@@ -18,7 +18,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 3%
@@ -69,3 +69,5 @@ Después de enviar la solicitud, se notifica al creador de la recorrido/campaña
 >[!NOTE]
 >
 > Si no recibe la notificación de aprobación por correo electrónico, debe actualizar las preferencias de suscripción en el perfil [!DNL CX Enterprise]. [Más información](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences)
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-review-approve-request.md}}

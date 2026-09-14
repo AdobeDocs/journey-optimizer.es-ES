@@ -27,7 +27,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 1234
 ht-degree: 13%
@@ -170,3 +170,5 @@ Utilice la previsualización de carga útil para validar la definición de carga
 1. Compruebe la previsualización para validar la definición de carga útil.
 
 1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que inserte [!DNL Journey Optimizer]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey.md).
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-about-creating-business.md}}

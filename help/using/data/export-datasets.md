@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 5%
@@ -141,3 +141,5 @@ Comprenda, a partir de la tabla siguiente, qué conjuntos de datos de Journey Op
 Para generar informes personalizados sobre la experiencia basada en código y las respuestas de toma de decisiones, use **`scopeDetails.correlationID`** para unir datos de interacción o comentarios al **Conjunto de datos de entidad de AJO** y recuperar metadatos de campañas, recorridos y mensajes. Use **`exdRequestID`** para enlazar una única solicitud de decisión a eventos de análisis.
 
 Si falta `correlationID` (por ejemplo, audiencias de exclusión), utilice conjuntos de datos exportados y claves de unión documentadas en lugar de descodificar campos de carga útil no documentados. [Los ejemplos de consulta de conjuntos de datos de entidad](datasets-query-examples.md#entity-dataset) muestran cómo unirse en `correlationID`.
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-export-datasets.md}}

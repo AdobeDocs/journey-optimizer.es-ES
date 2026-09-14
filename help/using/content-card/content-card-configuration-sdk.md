@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 558
 ht-degree: 6%
@@ -280,3 +280,5 @@ document.getElementById("action-button-2").addEventListener("click", () => {
     });
 });
 ```
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-content-card-configuration-sdk.md}}

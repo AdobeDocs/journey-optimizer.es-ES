@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 29%
@@ -135,4 +135,6 @@ Para obtener más información sobre cómo configurar una fuente de datos de Ado
 Comprenda qué es una fuente de datos y aprenda a configurar fuentes de datos de Experience Platform y externas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416633?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-about-data-sources.md}}
 

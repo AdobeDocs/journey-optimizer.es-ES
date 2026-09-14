@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 810
 ht-degree: 6%
@@ -162,3 +162,5 @@ Ahora que el evento está listo, cree un recorrido para utilizarlo.
 Ahora puede probar y publicar el recorrido. [Más información](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-about-analytics.md}}

@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 722
 ht-degree: 6%
@@ -252,3 +252,5 @@ En este ejemplo, `orderId`, `tier`, `restaurant` y `region` son sus propios valo
 Descubra cómo configurar las actividades en directo de iOS con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479867?captions=spa)
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-create-mobile-live.md}}

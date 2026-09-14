@@ -27,7 +27,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 2696
 ht-degree: 100%
@@ -324,3 +324,5 @@ Un tutorial práctico que muestra cómo crear conjuntos de datos en Adobe Experi
 :::
 
 ::::
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-gs-data.md}}

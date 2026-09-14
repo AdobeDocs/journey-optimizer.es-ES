@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -77,3 +77,5 @@ A continuación se detallan los pasos principales para agregar grupos de campos 
 >[!TIP]
 >
 >Pase el ratón sobre el nombre de un grupo de campos para ver dos iconos a la derecha. Use esto para **duplicar** o **eliminar** el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se usa en ningún recorrido de **Live**, **Draft** o **Finished**. Consulte el campo **[!UICONTROL Utilizado en]** para comprobar si este es el caso.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}

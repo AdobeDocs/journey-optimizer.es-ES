@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 26683cac78595f2361e31de4b9a2d55bb4cef995
 workflow-type: tm+mt
 source-wordcount: 1078
 ht-degree: 20%
@@ -176,3 +176,5 @@ Si desea desdelegar un subdominio de página de aterrizaje, siga los pasos a con
 1. Póngase en contacto con el representante de Adobe con el subdominio que desee desdelegar.
 
 Una vez que Adobe administra la solicitud, el dominio no delegado ya no se muestra en la página de inventario de subdominios.
+
+{{$include /help/_includes/do-not-localize/landing-pages/ai-augmented-lp-subdomains.md}}

@@ -22,7 +22,7 @@ topic_v2:
 subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 575
 ht-degree: 100%
@@ -279,3 +279,5 @@ A través de la API:
     ]
 }
 ```
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-requests.md}}

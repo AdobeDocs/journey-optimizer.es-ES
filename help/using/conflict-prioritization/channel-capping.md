@@ -23,7 +23,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 1346
 ht-degree: 9%
@@ -191,3 +191,5 @@ In this scenario, an individual profile:
 >[!VIDEO](https://video.tv.adobe.com/v/3444729?captions=spa&quality=12)
 
 ➡️ **Véalo en la práctica:** Aprenda a implementar [límites de frecuencia diarios en Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=es){target="_blank"} en este caso de uso de la comunidad.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-channel-capping.md}}

@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 15%
@@ -268,3 +268,5 @@ Aprenda a configurar un evento y a especificar su punto final de reproducción y
 Comprenda los casos de uso aplicables a los eventos empresariales. Obtenga información sobre cómo crear un recorrido mediante un evento empresarial y las prácticas recomendadas que se deben aplicar.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416328?captions=spa&quality=12)
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-about-events.md}}

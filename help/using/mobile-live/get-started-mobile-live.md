@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 467
 ht-degree: 96%
@@ -108,3 +108,5 @@ Complete los pasos siguientes para configurar e implementar actividades en direc
 Descubra cómo configurar las actividades en directo de iOS con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-get-started-mobile-live.md}}
