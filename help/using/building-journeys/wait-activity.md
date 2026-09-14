@@ -13,26 +13,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1259
-ht-degree: 10%
-
+source-wordcount: '1259'
+ht-degree: 23%
 ---
-
 # Actividad Esperar {#wait-activity}
 
 >[!BEGINSHADEBOX]
@@ -129,17 +136,17 @@ Para validar que la actividad de espera funciona según lo esperado, puede utili
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="Canal de optimización"
->abstract="Elija el modelo de optimización del tiempo de envío del canal que se utilizará para calcular el tiempo de espera óptimo de cada perfil: notificaciones push o por correo electrónico. La actividad de espera reutiliza las puntuaciones de participación ya calculadas para ese canal, por lo que el canal que seleccione debe coincidir con el comportamiento de mensajería en el que desea optimizar la espera."
+>abstract="Elija el modelo de optimización del tiempo de envío del canal que se utilizará para calcular el tiempo de espera óptimo de cada perfil: notificación push o por correo electrónico. La actividad de espera reutiliza las puntuaciones de participación ya calculadas para ese canal, por lo que el canal que seleccione debe coincidir con el comportamiento de mensajería en torno al cual desea que se optimice la espera."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
 >title="Tipo de optimización"
->abstract="En el caso del correo electrónico, elija si el tiempo de espera óptimo debe calcularse para maximizar las aperturas o los clics. La funcionalidad push siempre optimiza las aperturas, ya que el rastreo de clics no se aplica a los mensajes push. Elija el tipo de participación que mejor se ajuste al objetivo de la actividad que sigue a esta espera."
+>abstract="En el caso del correo electrónico, elija si el tiempo de espera óptimo debe calcularse para maximizar las aperturas o los clics. La funcionalidad push siempre optimiza las aperturas, ya que el rastreo de clics no se aplica a los mensajes push. Elija el tipo de participación que mejor se ajuste a la meta de la actividad que sigue a esta espera."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="Enviar en el siguiente"
->abstract="Establezca el número máximo de horas (2-100) que el sistema puede esperar antes de continuar con la siguiente actividad. Esto define el límite exterior de la ventana que Send-Time Optimization considera al elegir el mejor momento: una ventana más corta limita cuánto beneficio puede proporcionar el modelo de IA, mientras que una ventana más larga puede retrasar las actividades posteriores más de lo deseado."
+>title="Enviar dentro de las próximas"
+>abstract="Establezca el número máximo de horas (2-100) que el sistema puede esperar antes de continuar con la siguiente actividad. Esto define el límite exterior de la ventana que la optimización del tiempo de envío considera al elegir el mejor momento: una ventana más corta limita cuánto beneficio puede proporcionar el modelo de IA, mientras que una ventana más larga puede retrasar las actividades descendentes más de lo deseado."
 
 ![Definir la duración de la espera](assets/wait_sto.png)
 

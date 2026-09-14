@@ -10,17 +10,18 @@ level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 13%
-
+source-wordcount: '1005'
+ht-degree: 14%
 ---
-
-# Introducción a los desafíos de fidelidad {#get-started-loyalty-challenges}
+# Introducción a los retos de lealtad {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
@@ -60,7 +61,7 @@ Puede crear estos tipos de experiencias de desafío:
 * **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. La configuración, el contenido y la mensajería se configuran del mismo modo que para cualquier otro tipo de desafío.
 
 >[!TIP]
->También puede crear y administrar desafíos de fidelidad mediante la **administración de desafíos de fidelidad** en [Habilidades de Recorrido de compañeros de CX](../start/ajo-coworker-skills.md#loyalty-challenge-management) con indicaciones de lenguaje natural para crear desafíos más rápido.
+>También puede crear y administrar desafíos de fidelidad usando **Administración de desafíos de fidelidad** en [Habilidades de Recorrido de CX Coworker](../start/ajo-coworker-skills.md#loyalty-challenge-management) con indicaciones en lenguaje natural para una creación más rápida de desafíos.
 
 ➡️ [Vea una descripción general de la característica](#video)
 
@@ -163,7 +164,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -186,5 +187,5 @@ Para obtener la autenticación y los encabezados requeridos, consulte el [tutori
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

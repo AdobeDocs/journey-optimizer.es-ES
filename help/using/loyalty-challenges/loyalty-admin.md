@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar retos de lealtad
-description: Aprenda a configurar proveedores de recompensas, definiciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para los desafíos de fidelidad en Adobe [!DNL Journey Optimizer].
+description: Aprenda a configurar proveedores de recompensas, definiciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para Retos de fidelidad en Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1755
-ht-degree: 15%
-
+source-wordcount: '1755'
+ht-degree: 18%
 ---
-
 # Configurar retos de lealtad {#loyalty-admin}
 
 ## Información general {#access-loyalty-admin}
@@ -174,12 +174,12 @@ Para editar un proveedor de recompensas, abra la pestaña **[!UICONTROL Proveedo
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Esquema de evento y transformador"
->abstract="En la sección Esquema de evento, proporcione una expresión JSONata **[!UICONTROL Transformer]** para asignar los campos de evento entrantes con el formato que espera Retos de fidelización."
+>abstract="En la sección Esquema de evento, proporcione una expresión JSONata **[!UICONTROL Transformer]** para asignar los campos de evento entrantes al formato que Retos de fidelidad prevé."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="Identificación de eventos"
->abstract="En la sección Identificación de evento, proporcione el nombre del evento y el ID de esquema XDM necesario utilizado para identificar los eventos entrantes."
+>abstract="En la sección Identificación de evento, proporcione el nombre del evento y el ID de esquema XDM necesario que se utiliza para identificar los eventos entrantes."
 
 **[!UICONTROL Las definiciones de eventos]** indican a [!DNL Journey Optimizer] qué eventos de experiencia de Adobe Experience Platform entrantes se deben procesar. Por ejemplo, una compra o un registro de entrada en el hotel. Los especialistas en marketing hacen referencia a estas definiciones cuando crean **[!UICONTROL tareas de evento personalizado]** en el generador de tareas. Los eventos que no coinciden con ninguna definición se omiten.
 

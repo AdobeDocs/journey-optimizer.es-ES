@@ -9,19 +9,18 @@ level: Experienced
 keywords: waf, cortafuegos, ip, subdominio, seguridad, tráfico, entrante
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 1%
-
+source-wordcount: '1086'
+ht-degree: 6%
 ---
-
 # Administrar IP permitidas {#waf-ip-allowlist}
 
 >[!CONTEXTUALHELP]
 >id="ajo_waf_allowed_ips"
->title="Introduzca las IP permitidas para el subdominio seleccionado"
+>title="Introducir las IP permitidas para el subdominio seleccionado"
 >abstract="Seleccione un subdominio delegado e introduzca las direcciones IP de salida pública del cortafuegos de la aplicación web. Una vez guardado, [!DNL Journey Optimizer] rechazará cualquier solicitud de entrada a ese subdominio que no se origine desde una de las direcciones IP declaradas. Confirme siempre las direcciones IP de salida exactas con el equipo de seguridad antes de guardar."
 
 >[!BEGINSHADEBOX]
