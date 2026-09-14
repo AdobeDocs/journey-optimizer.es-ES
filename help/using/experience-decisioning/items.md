@@ -9,17 +9,19 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
+    internal-label: Edge Decisioning
+source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: '2888'
 ht-degree: 13%
-
 ---
-
 # Creación de su primer elemento de decisión {#items}
 
 >[!BEGINSHADEBOX]
@@ -106,8 +108,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
 >abstract="De forma predeterminada, todos los perfiles podrán recibir el elemento de decisión, pero puede utilizar públicos o reglas para reservar el elemento únicamente a perfiles específicos."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -144,8 +146,8 @@ Al seleccionar públicos o reglas de decisión, puede ver información sobre los
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
->title="Ámbito de límite"
->abstract="Defina cómo se aplica la regla de límite entre ubicaciones. De forma predeterminada, se aplica un solo límite independientemente de la ubicación. Seleccione **Cada ubicación** para rastrear el límite de forma independiente por ubicación, o **Ubicación específica** para restringir el límite solo a las ubicaciones seleccionadas. Tenga en cuenta que el límite de **ubicación específica** solo se admite para los canales web y de correo electrónico."
+>title="Ámbito del límite"
+>abstract="Defina cómo se aplica la regla de límite entre ubicaciones. De forma predeterminada, se aplica un solo límite independientemente de la ubicación. Seleccione **Cada ubicación** para rastrear el límite de forma independiente por ubicación, o **Ubicación específica** para restringir el límite solo a las ubicaciones seleccionadas. Tenga en cuenta que el límite de **Ubicación específica** solo se admite para los canales web y de correo electrónico."
 
 El límite se utiliza como restricción para definir el número máximo de veces que se puede presentar un elemento de oferta. Limitar el número de veces que los usuarios obtienen ofertas específicas le permite evitar saturar a sus clientes y, por lo tanto, optimizar cada punto de contacto con la mejor oferta. Puede crear hasta 10 límites para un elemento de decisión determinado.
 
