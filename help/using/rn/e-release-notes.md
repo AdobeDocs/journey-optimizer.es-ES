@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -32,6 +32,23 @@ Adobe Journey Optimizer ofrece de forma continua nuevas funciones, mejoras en la
 Véase también [Notas de la versión preliminar de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Fecha de la versión**: 22 y 23 de septiembre de 2026
+
+>[!BEGINSHADEBOX]
+
+**Novedades de CX Coworker este mes**
+
+Esta versión incorpora varias características y habilidades nuevas y mejoradas de [CX Coworker](../start/ai-features.md#cx-coworker) que se enumeran aquí para mayor visibilidad. Cada una de ellas se detalla también en la sección pertinente que figura a continuación.
+
+* [Complementos de copia de mensajes y diseño de correo electrónico](#sep-26-content-management): dos nuevos complementos que optimizan los flujos de trabajo de mensajería y correo electrónico en CX Coworker, desde información de campaña hasta HTML y texto listo para la producción.
+* [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de CX Coworker y conviértelas en desafíos en vivo sin salir del chat.
+* [Simulación de Recorrido (MCP y chat)](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en CX Coworker.
+* [Creación de Recorridos desde el carril CX Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de CX Coworker, reemplazando la experiencia anterior del asistente de IA.
+* [Comparar versiones de recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través del chat de CX Coworker.
+* [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
+* [Habilidad con el análisis de rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas desde el chat.
+* [Generación de reglas de decisiones](#sep-26-decisioning): genere reglas de decisiones asistidas por IA directamente en CX Coworker, que ahora reemplaza el carril derecho para esta experiencia.
+
+>[!ENDSHADEBOX]
 
 ### Administración de contenido {#sep-26-content-management}
 
@@ -210,7 +227,8 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 
 * **Comparar versiones de recorrido con CX Coworker**: hoy, para revisar lo que ha cambiado entre dos versiones de un recorrido es necesario compararlo manualmente dentro de Journey Optimizer nodo por nodo. No hay una comparación de diferencias estructurada, lo que hace que las comprobaciones de cambio, revisión, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través de CX Coworker Chat y recuperar una fidelidad completa, **comparación de diferencias estructurada** - nodos agregados/eliminados/modificados/movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación - sin necesidad de abrir Journey Optimizer.
 
-* **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **Supresión de eventos de paso de ejecución en seco para informes personalizados**: como parte de la optimización de eventos de paso, Journey Optimizer ahora deja de generar ciertos eventos de paso que no se pueden notificar durante las ejecuciones en seco de Recorrido. Esto solo afecta a los informes personalizados creados en estos tipos de eventos de paso de ejecución en seco. Si se ve afectado, vuelva a almacenar en déclencheur la ejecución en seco para regenerar los datos.
 
