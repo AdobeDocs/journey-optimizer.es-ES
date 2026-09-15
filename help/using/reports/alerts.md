@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # Acceso y suscripción a alertas del sistema {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ Adobe Journey Optimizer proporciona dos tipos de alertas:
 
 * **Alertas de validación en lienzo**: al crear recorridos y campañas, use el botón **Alertas** del lienzo para identificar y resolver los errores de configuración antes de publicar. Aprenda a [solucionar problemas de sus recorridos](../building-journeys/troubleshooting.md) y a revisar sus campañas: [Campañas de acción](../campaigns/review-activate-campaign.md) | [Campañas activadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campañas organizadas](../orchestrated/start-monitor-campaigns.md).
 
-* **Alertas de supervisión del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se superen los umbrales operativos o se detecten problemas en las configuraciones de canales y recorridos activos, y cuando se produzcan eventos importantes del ciclo vital de la campaña (activación, entrega, detención y errores relacionados). Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil y problemas de envío de correo electrónico, además de esos eventos de campaña.
+* **Alertas de supervisión del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se superen los umbrales operativos o se detecten problemas en las configuraciones de canales y recorridos activos, y cuando se produzcan eventos importantes del ciclo vital de la campaña (activación, entrega, detención y errores relacionados). Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil, tráfico de recorrido anómalo y problemas de envío de correo electrónico, además de esos eventos de campaña.
 
 **Ventajas principales de las alertas del sistema:**
 
@@ -64,7 +73,7 @@ Las alertas del sistema están disponibles en el menú **[!UICONTROL Alertas]** 
 
 Antes de trabajar con alertas:
 
-* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es#permissions){target="_blank"}.
+* **Permisos**: Necesita permisos específicos para ver y administrar alertas. Ver [permisos requeridos en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Reconocimiento de zona protegida**: Las suscripciones de alerta son específicas de la zona protegida. Al suscribirse a las alertas, solo se aplican a la zona protegida actual. Cuando se restablece una zona protegida, también se restablecen todas las suscripciones de alerta.
 
@@ -218,6 +227,28 @@ Para solucionar problemas de límite:
 
 +++
 
++++ Anomalía de recorrido detectada
+
+Esta alerta le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero de forma inesperada. Se supervisan tres métricas de forma independiente para cada recorrido: **[!UICONTROL Entradas de Recorrido]**, **[!UICONTROL Salidas de Recorrido]** y **[!UICONTROL Envíos de eventos]**. La comprobación se ejecuta una vez al día, con una retrospectiva de 30 días por recorrido.
+
+**Línea de base:** el valor esperado para cada métrica combina la previsión de Customer Journey Analytics para ese día con una mediana móvil de 7 días de los propios valores reales del recorrido. Si la previsión cae por debajo del 50 % de la mediana móvil, se utiliza en su lugar la mediana móvil para evitar la subprevisión de un recorrido que ha estado funcionando de forma constante.
+
+Las siguientes razones pueden almacenar en déclencheur una alerta:
+
+* **Anomalía cero**: se activa inmediatamente si una métrica cae a 0 en un día en el que el recorrido haya producido anteriormente tráfico distinto de cero. Los recorridos de **Leer audiencia** están exentos en el día actual, ya que es posible que la ejecución de ese día aún no se haya completado.
+* **Umbral de desviación**: se activa cuando el valor real difiere del valor esperado en un 35% o más, una vez que el recorrido ha mostrado de 3 a 4 días consecutivos de historial distintos de cero, y solo si el valor esperado es al menos 100 (para evitar el ruido de número reducido).
+* Si **Entradas de Recorrido** son anómalas en un día determinado, las anomalías relacionadas en **Salidas** y **Envíos de eventos** se suprimen para ese mismo día y recorrido, por lo que una sola causa raíz no genera múltiples alertas.
+
+Tenga en cuenta que esta alerta solo se aplica a recorridos activos de tipo **evento unitario**, **audiencia de lectura** o **calificación de audiencia** (solo recorridos recurrentes de **audiencia de lectura**), y requiere que la organización o la zona protegida se suscriban a las alertas.
+
+➡️ [Inspeccione el informe en vivo de recorrido para solucionar problemas de una alerta **Detectada anomalía de Recorrido**](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>Actualmente, esta alerta solo está disponible en las zonas protegidas de producción y no está disponible en las de desarrollo o ensayo.
+
++++
+
 >[!TAB Alertas de campaña]
 
 Las alertas del sistema le avisan cuando se producen eventos importantes de ciclo vital o de envío en las campañas **Acción** y **Activadas por API**. Seleccione un nombre de alerta a continuación para expandir su descripción.
@@ -268,7 +299,7 @@ Le notifica cuando una operación **stop** **falla**. Investigue el estado de la
 
 +++ Envío de campaña iniciado
 
-Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3&rbrace; (la ejecución ha pasado a la fase de entrega).**
+Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3} (la ejecución ha pasado a la fase de entrega).**
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -288,7 +319,7 @@ Le notifica cuando **la entrega de mensajes** para una campaña se ha **completa
 
 +++ Error de envío de campaña
 
-Le notifica cuando **falla la entrega de mensajes** para una campaña **3&rbrace;.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
+Le notifica cuando **falla la entrega de mensajes** para una campaña **3}.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -405,7 +436,7 @@ Si se activa esta alerta, siga los pasos a continuación para investigar y resol
 
 >[!NOTE]
 >
->Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}.
+>Para obtener alertas de otros servicios de Adobe Experience Platform (ingesta de datos, resolución de identidades, segmentación, etc.), consulte la [documentación de reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Suscribirse a alertas {#subscribe-alerts}
 
@@ -430,7 +461,7 @@ Las suscripciones de alerta determinan qué usuarios reciben notificaciones cuan
 
 **Método de suscripción alternativo:**
 
-Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}.
+Para integraciones avanzadas, puede suscribirse a través de Eventos de E/S para enviar alertas a sistemas externos. Consulte la [documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 ### Métodos de suscripción
 
@@ -466,7 +497,7 @@ Haga clic en **[!UICONTROL Cancelar la suscripción]** junto a la alerta.
 
 **Método de suscripción alternativo:**
 
-También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de las suscripciones de E/S de alertas de recorrido se indican en la [ficha Alertas de Recorrido](#available-alerts) en **Alertas disponibles**, según corresponda. Las alertas del ciclo vital de Campaign siguen el mismo modelo de suscripción de Platform; consulte esa documentación para la integración programática.
+También puede suscribirse a través de [notificaciones de eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, lo que permite la integración con sistemas externos. Los nombres de las suscripciones de E/S de alertas de recorrido se indican en la [ficha Alertas de Recorrido](#available-alerts) en **Alertas disponibles**, según corresponda. Las alertas del ciclo vital de Campaign siguen el mismo modelo de suscripción de Platform; consulte esa documentación para la integración programática.
 
 >[!TAB suscripción específica del Recorrido]
 
@@ -528,7 +559,7 @@ Abra el mismo cuadro de diálogo, deseleccione las alertas y haga clic en **[!UI
 >
 >Puede combinar la suscripción de **sandbox-level** (de la pestaña Alerts **[!UICONTROL Browse]**) con **suscripciones específicas de la campaña**. Utilice la cobertura a nivel de zona protegida para todo lo que hay en ella y añada suscripciones por campaña solo para las campañas para las que desee realizar un seguimiento por separado.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Administración de alertas {#manage-alerts}
 
@@ -590,6 +621,6 @@ Para quitar suscriptores, elimina su dirección de correo electrónico de los su
 **Marco de alertas:**
 
 * [Información general sobre alertas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=es){target="_blank"}: Descripción del marco de alertas
-* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=es){target="_blank"}: ver, suscribirse y administrar alertas
-* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=es){target="_blank"} - Opciones de integración avanzadas
-* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=es){target="_blank"}: lista completa de alertas de plataforma disponibles
+* [Administrar alertas en la interfaz de usuario](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"}: ver, suscribirse y administrar alertas
+* [Suscribirse a alertas mediante eventos de E/S](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opciones de integración avanzadas
+* [Reglas de alerta estándar](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}: lista completa de alertas de plataforma disponibles
