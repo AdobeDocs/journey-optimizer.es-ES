@@ -10,27 +10,35 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+    internal-label: Journey Optimizer release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
+    internal-label: Personalization
+source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 73%
-
+source-wordcount: '2877'
+ht-degree: 68%
 ---
-
 # Notas de la versión {#release-notes}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +68,7 @@ ht-degree: 73%
 <tr>
 <td>
 <p>CX Coworker ahora tiene un nuevo conjunto de <strong>herramientas MCP de administración de contenido</strong>, que le permiten descubrir y administrar recursos de contenido de Journey Optimizer a través de mensajes en lenguaje natural. Pídale que enumere o recupere plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. También puede crear contenido, actualizar plantillas y crear, actualizar, clonar y publicar fragmentos, además de actualizar el contenido de acciones del canal en línea directamente en recorrido y campaña.</p>
-<p>Para obtener más información, consulte la <a href="../start/ajo-coworker-skills.md#content-management">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../start/content-management-coworker-skills.md#content-management">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 3 de septiembre de 2026</p>
 </td>
 </tr>
@@ -70,6 +78,16 @@ ht-degree: 73%
 * **Casilla de verificación de consentimiento obligatoria para las páginas de aterrizaje**: ahora puede hacer que una casilla de verificación sea obligatoria en el componente de formulario de la página de aterrizaje, lo que requiere que los visitantes la seleccionen (por ejemplo, dar su consentimiento) antes de que puedan enviar el formulario. [Más información](../landing-pages/lp-content.md#use-form-component)
 
   Fecha de disponibilidad: 4 de septiembre de 2026
+
+* **Palabras clave reservadas adicionales en la sintaxis de personalización**: la lista de palabras clave reservadas en Profile Query Language (PQL) se ha ampliado para incluir palabras clave generales, unidades de tiempo y operadores booleanos/lógicos. Si el esquema XDM contiene un nombre de campo que coincide con una de estas palabras clave, encapsúlelo en acentos graves para hacer referencia a él en una expresión personalizada. [Más información](../personalization/personalization-syntax.md#reserved-keywords)
+
+  Fecha de disponibilidad: 1 de septiembre de 2026
+
+### Lealtad {#sep-26-loyalty}
+
+* **&quot;Desafíos de fidelidad para siempre&quot;**: los desafíos de fidelidad ahora pueden ejecutarse indefinidamente. Defina **El desafío finalizará** en **Sin fecha de finalización** al configurar la programación y el desafío nunca caducará. [Más información](../loyalty-challenges/create-challenges.md#schedule)
+
+  Fecha de disponibilidad: 1 de septiembre de 2026
 
 ### Recorridos {#sep-26-journeys}
 
@@ -109,6 +127,18 @@ ht-degree: 73%
 </tbody>
 </table>
 
+* **Nueva alerta de anomalía de Recorrido detectada**: ahora una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero inesperadamente en las entradas de Recorrido, salidas de Recorrido y envíos de eventos. Actualmente, esta alerta solo está disponible en zonas protegidas de producción.
+
+  [Más información](../reports/alerts.md)
+
+  Fecha de disponibilidad: 15 de septiembre de 2026
+
+* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación.
+
+  [Más información](../building-journeys/simulate-journey-gs.md)
+
+  Fecha de disponibilidad: 15 de septiembre de 2026
+
 * **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones de Adobe Journey Optimizer, con los siguientes elementos recientemente admitidos:
 
   * Los nodos de decisión de contenido ahora son compatibles con la simulación.
@@ -124,7 +154,7 @@ ht-degree: 73%
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
-* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/ajo-coworker-skills.md#journey-analyze)
+* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/journeys-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
 
@@ -155,6 +185,12 @@ ht-degree: 73%
 * **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
 
 +++
+
+### Mejoras de uso {#sep-26-usability}
+
+* **Más fácil desasociar y unir ramas en el nuevo lienzo de recorrido**: ahora puede desasociar una rama del resto del recorrido sin eliminarla y volver a unirla más tarde en un punto diferente, ya sea seleccionando una actividad elegible directamente en el lienzo o seleccionándola de una lista de ramas desconectadas o ya utilizadas. [Más información](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
+
+  Fecha de disponibilidad: 1 de septiembre de 2026
 
 ## Notas de la versión de agosto de 2026 {#aug-26-updates}
 
@@ -313,7 +349,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a las 
 <tr>
 <td>
 <p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nueva aptitud de CX Coworker que permite hacer preguntas acerca del rendimiento de desafíos y otros datos de programas de fidelización introducidos en los grupos de campos Lealtad en Adobe Experience Platform.</p>
-<p>Para obtener más información, consulte la <a href="../start/ajo-coworker-skills.md#loyalty-skills">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../start/loyalty-coworker-skills.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 31 de agosto de 2026</p>
 </td>
 </tr>
