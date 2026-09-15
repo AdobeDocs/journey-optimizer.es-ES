@@ -12,24 +12,29 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+    internal-label: Operators
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Advanced expression editor
+source-git-commit: 5951a0b9ac33d03838224bc6e7722367c9a35ddd
 workflow-type: tm+mt
-source-wordcount: 1325
+source-wordcount: '1332'
 ht-degree: 3%
-
 ---
-
 # Sintaxis de personalización {#personalization-syntax}
 
 >[!BEGINSHADEBOX]
@@ -96,9 +101,9 @@ Algunas palabras clave están reservadas en Profile Query Language (PQL) y no se
 
 **Las palabras clave reservadas incluyen:**
 
-* `next`
-* `last`
-* `this`
+* General: `let`, `export`, `to`, `as`, `this`, `last`, `next`, `now`, `NOW`, `today`, `yesterday`, `tomorrow`, `from`, `FROM`, `From`, `before`, `BEFORE`, `Before`, `after`, `AFTER`, `After`
+* Unidades de tiempo: `millisecond`, `milliseconds`, `second`, `seconds`, `minute`, `minutes`, `hour`, `hours`, `day`, `days`, `week`, `weeks`, `month`, `months`, `year`, `years`, `decade`, `decades`, `century`, `centuries`, `millennium`, `millennia`
+* Operadores booleanos y lógicos: `true`, `TRUE`, `True`, `false`, `FALSE`, `False`, `not`, `NOT`, `Not`, `and`, `AND`, `And`, `or`, `OR`, `Or`, `null`, `NULL`, `Null`
 
 **Ejemplo:**
 
