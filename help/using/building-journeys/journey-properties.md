@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Defina las propiedades de su recorrido
-description: Obtenga información sobre cómo establecer las propiedades del recorrido con  [!DNL Adobe Journey Optimizer]
+description: Obtenga información sobre cómo establecer las propiedades del recorrido con [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -13,28 +13,37 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+    internal-label: Journey properties
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 4644
+source-wordcount: '4644'
 ht-degree: 13%
-
 ---
-
 # Establecimiento de las propiedades del recorrido {#jo-properties}
 
 >[!BEGINSHADEBOX]

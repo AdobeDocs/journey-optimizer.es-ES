@@ -11,24 +11,29 @@ exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 24%
-
+source-wordcount: '473'
+ht-degree: 33%
 ---
-
-# Creación de webhooks de comentarios para campañas activadas por API {#webhooks}
+# Creación de webhooks de comentarios para campañas activadas por la API {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -70,7 +75,7 @@ Puede administrar las configuraciones del webhook desde el menú **[!UICONTROL A
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
 >title="URL de retransmisión"
->abstract="El extremo HTTPS al que Journey Optimizer llama para ofrecer eventos para este webhook, incluidas las actualizaciones de estado de entrega y, cuando está activado, los mensajes SMS/RCS entrantes se retransmiten tal cual."
+>abstract="El punto final HTTPS al que Journey Optimizer llama para enviar eventos para este webhook, incluidas las actualizaciones del estado del envío y, cuando esté habilitado, los mensajes SMS/RCS entrantes retransmitidos tal cual."
 
 Para crear un webhook, siga estos pasos:
 

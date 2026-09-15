@@ -11,14 +11,13 @@ mini-toc-levels: 1
 keywords: olas, lotes, programación, recorrido, campaña, orquestado, entrega
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
 subfeature_v2: []
 source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1739
+source-wordcount: '1739'
 ht-degree: 5%
-
 ---
-
 # Envío por oleadas {#send-using-waves}
 
 >[!BEGINSHADEBOX]

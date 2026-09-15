@@ -11,28 +11,37 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
+    internal-label: Content experiment
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+    internal-label: AI content generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1621
-ht-degree: 1%
-
+source-wordcount: '1621'
+ht-degree: 3%
 ---
-
 # Generar casos de uso de contenido {#generative-uc}
 
 >[!BEGINSHADEBOX]
@@ -256,12 +265,12 @@ Con **Gemini 2.5** seleccionado como modelo generador, puede producir variantes 
 
 1. Cuando la superposición de texto parezca correcta, haga clic en **[!UICONTROL Guardar]** y, a continuación, haga clic en **[!UICONTROL Aplicar]** en la variación que desee usar.
 
-## Usar modo de configuración de imagen {#image-mode}
+## Uso del modo de configuración de imagen {#image-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
->title="Modo de selección de Assets"
->abstract="La configuración [!UICONTROL Modo Assets] controla el origen de los recursos visuales. Permite definir si las imágenes se recuperan directamente de la biblioteca de administración de activos digitales (DAM) o si se producen dinámicamente mediante contenido generado por IA."
+>title="Modo de selección de recursos"
+>abstract="La configuración [!UICONTROL Modo de recursos] controla el origen de los recursos visuales. Permite definir si las imágenes se recuperan directamente de la biblioteca DAM (Digital Asset Management) o si se producen dinámicamente mediante contenido generado por IA."
 
 La opción **[!UICONTROL Modo]** en **[!UICONTROL Configuración de imágenes]** controla cómo se obtienen las imágenes de su biblioteca de administración de activos digitales y del contenido generado.
 

@@ -12,23 +12,28 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 7%
-
+source-wordcount: '916'
+ht-degree: 11%
 ---
-
 # Adjuntar un archivo PDF a un correo electrónico {#pdf-attachments}
 
 >[!BEGINSHADEBOX]
@@ -40,7 +45,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Añadir un archivo adjunto de PDF"
->abstract="Busque y seleccione un archivo de PDF para adjuntarlo al correo electrónico.</br>Puede enviar hasta 6 mensajes por perfil con un archivo adjunto de PDF al año. El tamaño máximo de archivo permitido para cada archivo adjunto es 5 MB.</br>Para cualquier tamaño o volumen adicional, puede adquirir el complemento Archivos adjuntos de PDF. Para obtener más información, póngase en contacto con su representante de Adobe."
+>abstract="Busque y seleccione un archivo de PDF para adjuntarlo al correo electrónico.</br>Puede enviar hasta seis mensajes con un archivo adjunto de PDF por perfil y año. El tamaño máximo permitido para cada archivo adjunto es de 5 MB.</br>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de archivos adjuntos PDF. Para obtener más información, póngase en contacto con su representante de Adobe."
 
 Puede adjuntar un archivo PDF estático a los mensajes de correo electrónico que envíe con [!DNL Journey Optimizer]. Si usa [campañas activadas por API](../campaigns/api-triggered-campaigns.md), también puede adjuntar un [archivo PDF personalizado para cada destinatario](#personalized-attachments).
 

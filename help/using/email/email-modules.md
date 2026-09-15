@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uso de módulos de en el Designer de correo electrónico
+title: Módulos en el Diseñador de correo electrónico
 description: Aprenda a utilizar módulos listos para usar para crear correos electrónicos más rápido en Adobe Journey Optimizer.
 feature: Email Design
 topic: Content Management
@@ -10,16 +10,15 @@ level: Beginner, Intermediate
 keywords: módulos, diseñador de correo electrónico, encabezados, héroe, tarjetas, pie de página, diseño de correo electrónico, arrastrar y soltar
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 0%
-
+source-wordcount: '573'
+ht-degree: 10%
 ---
 
-
-# Uso de módulos de en el Designer de correo electrónico {#email-layout-modules}
+# Módulos en el Diseñador de correo electrónico {#email-layout-modules}
 
 >[!BEGINSHADEBOX]
 
@@ -30,7 +29,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
 >title="Acerca de los módulos"
->abstract="Los módulos son bloques de diseño de correo electrónico predefinidos y reutilizables que puede arrastrar y soltar directamente en el lienzo del correo electrónico. Cada módulo viene preconfigurado con un conjunto depurado de propiedades editables, como imágenes, texto, botones y vínculos, que puede personalizar a través de la interfaz de WYSIWYG."
+>abstract="Los módulos son bloques de diseño de correo electrónico predefinidos y reutilizables que puede arrastrar y soltar directamente en el lienzo del correo electrónico. Cada módulo viene preconfigurado con un conjunto seleccionado de propiedades editables, como imágenes, texto, botones y vínculos, que puede personalizar a través de la interfaz de WYSIWYG."
 
 El Designer de correo electrónico incluye una biblioteca de **módulos**: bloques de contenido totalmente estructurados y listos para usar diseñados para acelerar el ensamblado de correos electrónicos y promover la coherencia del diseño en todas las comunicaciones.
 

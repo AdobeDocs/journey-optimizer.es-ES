@@ -12,28 +12,37 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+    internal-label: AI content generation
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1005'
 ht-degree: 100%
-
 ---
-
 # Introducción a Generar contenido {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
