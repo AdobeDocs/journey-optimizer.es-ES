@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # Navegación por la interfaz {#user-interface}
 
@@ -193,7 +193,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 * **Plantillas de contenido**: plantillas de mensajes reutilizables para campañas y recorridos. [Crear plantillas](../content-management/content-templates.md)
 * **Fragmentos**: bloques de contenido que se pueden usar en varios mensajes. [Trabajo con fragmentos](../content-management/fragments.md)
 * **Páginas de destino**: formularios web para suscripciones y preferencias. [Diseño de páginas de destino](../landing-pages/get-started-lp.md)
-* **Manuales de casos de uso**: flujos de trabajo creados previamente para escenarios de marketing frecuentes. [Explorar manuales de tácticas](ai-features.md#playbooks)
+* **Manuales de casos de uso**: flujos de trabajo creados previamente para escenarios de marketing frecuentes. [Explorar manuales de tácticas](ajo-use-case-guide.md#playbooks)
 
 **Administración de datos**: administre su base de datos. [Más información sobre esquemas y conjuntos de datos](../data/get-started-schemas.md)
 
@@ -205,7 +205,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 **Conexiones**: integre con otros sistemas
 
 * **Fuentes**: ingeste datos de sistemas externos. [Configuración de fuentes](get-started-sources.md)
-* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es){target="_blank"}.
+* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente**: administre públicos y perfiles
 
@@ -411,6 +411,18 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Actividad de desactivación de actividad entrante"
 >abstract="Elimina un perfil de hasta cinco actividades o experiencias entrantes directamente de un recorrido, lo que desvincula la descalificación entrante de la salida del recorrido."
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Establecer tiempo de espera de recuperación de evento"
+>abstract="Controla cuánto tiempo el recorrido reproduce automáticamente los eventos afectados por una interrupción del servicio. Desactivado de forma predeterminada (reproducción automática de 72 horas); activado para ajustar la ventana de reproducción de 0 a 72 horas en el caso de recorridos con distinción de tiempo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="Tiempo de espera de acción de IDS/acción personalizada"
+>abstract="La opción de tiempo de espera Acción personalizada / Acción IDS define una ruta alternativa en la recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan a través de una ruta de reserva en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
