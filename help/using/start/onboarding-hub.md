@@ -11,16 +11,17 @@ hide: true
 keywords: optimizador de recorrido, incorporación, centro de incorporación, casos de uso, vídeos, tutoriales, introducción, ampliación, primer recorrido
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # hub de incorporación de Journey Optimizer {#onboarding-hub}
 
 
@@ -44,12 +45,12 @@ rebuild
 
 Si tiene diez minutos, empiece con este vídeo de orientación. Recorre la interfaz y resalta las capacidades clave por función.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430317?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 A continuación, genere confianza práctica con estos recursos de aprendizaje:
 
 * [Tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: vídeos paso a paso y tutoriales guiados para cada función.
-* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
+* [Lista de reproducción de vídeo recopilada por expertos](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: Un conjunto secuenciado de vídeos cortos para ver en orden.
 * [Entorno aislado de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un entorno seguro con datos de ejemplo para practicar.
 * [Desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — Aplique lo que aprende con ejercicios guiados.
 
@@ -144,7 +145,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 >[!TAB Informes y optimización]
 
 * [Monitorice y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Rastree el rendimiento en tiempo real.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 
@@ -165,5 +166,5 @@ Para obtener una descripción general completa de cómo funcionan juntas estas f
 * [Encuentre la capacidad de Journey Optimizer adecuada para su objetivo](ajo-use-case-guide.md): guía de decisión para cada capacidad basada en objetivos.
 * [Biblioteca de casos de uso de Recorrido](../building-journeys/jo-use-cases.md): ejemplos prácticos y patrones de implementación.
 * [Terminología clave](terminology.md): aclare los conceptos subyacentes a cada capacidad.
-* [IA y funciones inteligentes](ai-features.md): Explore el asistente de IA, la optimización del tiempo de envío y la generación de contenido.
+* [Trabajar con IA](ai-features.md): explore el asistente de IA, la optimización del tiempo de envío y la generación de contenido.
 * [Introducción a la administración de datos](../data/gs-data.md): Cómo se incorporan, unifican y activan los datos.

@@ -10,16 +10,17 @@ level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # Empiece desde su meta {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,11 +39,11 @@ Utilice esta página como un enrutador rápido: busque su objetivo y salte direc
 
 Cuando un tutorial completo no está disponible para un escenario específico, el vínculo le lleva al mejor punto de partida actual para aprender la capacidad y comenzar.
 
-La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)** en las tablas siguientes. El asistente conversacional [AI Assistant](ai-features.md#ai-assistant) también puede responder preguntas sobre productos y obtener información operacional sobre tus recorridos en cualquier momento. Para ver el conjunto completo de características inteligentes, consulte [IA y características inteligentes](ai-features.md).
+La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)** en las tablas siguientes. El asistente conversacional [AI Assistant](ai-features.md#ai-assistant) también puede responder preguntas sobre productos y obtener información operacional sobre tus recorridos en cualquier momento. Para ver el conjunto completo de características inteligentes, consulte [Trabajar con IA](ai-features.md).
 
 >[!TIP]
 >
->¿Es su primera vez en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/es/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>¿Es su primera vez en Journey Optimizer? Empiece por [Empiece con Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) para elegir la ruta correcta para su rol y, a continuación, lea [Qué es Journey Optimizer](get-started.md) para lo esencial. Para generar confianza práctica, examine los [tutoriales de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, siga una [lista de reproducción de vídeo](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} seleccionada por expertos y practique en una [zona protegida de formación](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con los [desafíos prácticos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configuración de Journey Optimizer para su equipo {#setup-admin}
 
@@ -114,7 +115,7 @@ Para una difusión programada, de uno a varios, a una audiencia definida.
 
 | Quiero... | Capacidad recomendada | Empiece aquí |
 | --- | --- | --- |
-| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Lanzamiento de un producto con una prueba A/B | Experimentación de contenido **(IA)** | [Empiece a experimentar con el contenido](../content-management/experiment-accelerator-gs.md) · [Cree experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notificar a los clientes de una interrupción o actualización del servicio | Campaña programada + audiencias | [Acerca de las audiencias](../audience/about-audiences.md) |
 | Diseño de una campaña de varios pasos con lógica de ramificación | Campañas orquestadas | [Introducción a las campañas orquestadas](../orchestrated/gs-orchestrated-campaigns.md) |
 | Segmentar solo los perfiles que hayan cambiado desde la última ejecución de mi campaña | Campañas organizadas: consulta incremental | [Generar consultas en campañas orquestadas](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -247,6 +248,43 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 
 ➡️ [Introducción a Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
 
+## Manuales de casos de uso {#playbooks}
+
+Los manuales de casos de uso son flujos de trabajo creados previamente que le ayudan a implementar situaciones de marketing comunes de forma rápida. Cada manual incluye recorridos, mensajes, esquemas y segmentos listos para usar.
+
+![Interfaz de manuales de casos de uso](assets/playbooks-filter.png)
+
++++**Cómo funcionan los libros de reproducción**
+
+1. **Examine** la biblioteca de libros de reproducción para encontrar casos de uso que coincidan con sus metas
+2. **Habilite** un manual para generar automáticamente todos los recursos necesarios
+3. **Personalice** los recursos generados para que coincidan con su marca y sus requisitos
+4. **Implementar** en producción o prueba en una zona protegida de desarrollo
+
++++
+
++++**Libros de reproducción disponibles**
+
+Examine los libros de reproducción de Journey Optimizer para conocer escenarios comunes como:
+
+* Recuperación del carro abandonado
+* Serie de bienvenida para nuevos clientes
+* Participación posterior a la compra
+* Mensajes de cumpleaños
+* Campañas de renovación de participación
+
++++
+
++++**Requisitos previos**
+
+* Zona protegida con los permisos adecuados
+* Configuraciones de canal para correo electrónico, push o SMS
+* Permisos de usuario para crear recorridos y mensajes
+
++++
+
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+
 ## Casos de ejemplo {#example-scenarios}
 
 Estos ejemplos ilustran cómo las capacidades de Journey Optimizer funcionan en conjunto en diferentes funciones, sectores y canales.
@@ -339,7 +377,7 @@ Examine contenido de vídeo depurado por tema. Cada pestaña vincula a los tutor
 >[!TAB Informes y optimización]
 
 * [Supervise y analice su recorrido con informes en vivo](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: efectúe el seguimiento del rendimiento a medida que se ejecutan sus recorridos.
-* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
+* [Crear experimentos de contenido para campañas de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"}: Pruebe y optimice el contenido.
 
 >[!ENDTABS]
 
