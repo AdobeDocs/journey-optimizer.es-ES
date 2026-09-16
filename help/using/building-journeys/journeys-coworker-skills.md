@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aptitudes de CX Coworker para recorridos
-description: Descubra las habilidades de CX Coworker disponibles para crear, generar contenido y analizar recorridos en Adobe Journey Optimizer, con instrucciones detalladas e instrucciones de ejemplo.
+title: Compañero de trabajo para recorridos
+description: Descubra las habilidades de CX Enterprise Coworker disponibles para crear, generar contenido y analizar recorridos en Adobe Journey Optimizer, con instrucciones detalladas e instrucciones de ejemplo.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2511'
 ht-degree: 8%
 ---
 
-# Aptitudes de CX Coworker para recorridos {#journeys-coworker-skills}
+# Compañero de trabajo para recorridos {#journeys-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las habilidades de CX Coworker disponibles para los recorridos en Adobe Journey Optimizer (crear recorridos a partir de lenguaje natural, generar contenido de canal y analizar el rendimiento del recorrido) con instrucciones detalladas, indicaciones de ejemplo y prácticas recomendadas para cada habilidad.
+**En esta página:** Descubra las habilidades de CX Enterprise Coworker disponibles para los recorridos en Adobe Journey Optimizer (crear recorridos a partir de lenguaje natural, generar contenido de canal y analizar el rendimiento del recorrido) con instrucciones detalladas, indicaciones de ejemplo y prácticas recomendadas para cada habilidad.
 
 Más información:
 
-* [Aptitudes de CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills): información general sobre las aptitudes de CX Coworker en todos los Recorridos, lealtad y administración de contenido en Journey Optimizer.
-* [Documentación de CX Coworker](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: Información general sobre las funciones de campañas, chat y proyectos de los compañeros.
+* [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
+* [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
 * [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
@@ -43,13 +43,13 @@ Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar r
 >
 >Necesita los siguientes permisos para utilizar completamente las funciones de creación de Recorrido:
 >
->**Administrar Recorridos**: este permiso le permite crear recorridos nuevos directamente en CX Coworker.
+>**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en Compañero de trabajo.
 >
->**Ver eventos, fuentes de datos y acciones de Recorrido**: este permiso garantiza que CX Coworker pueda buscar en eventos de Recorrido y acciones personalizadas.
+>**Ver eventos de Recorrido, fuentes de datos y acciones**: este permiso garantiza que el colaborador pueda buscar en eventos de Recorrido y acciones personalizadas.
 >
->**Ver segmentos**: Este permiso garantiza que CX Coworker pueda buscar segmentos de audiencia al crear un Recorrido.
+>**Ver segmentos**: Este permiso garantiza que el compañero pueda buscar segmentos de audiencia al crear un Recorrido.
 >
->**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
+>**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en Compañero de trabajo.
 
 ### Casos de uso clave
 
@@ -98,7 +98,7 @@ Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del 
 
 1. **Crear recorrido a partir de la imagen**
 
-   * Cargue una imagen de referencia en su compañero de trabajo y pida crear un recorrido con la imagen como referencia
+   * Cargue una imagen de referencia en Coworker y pida crear un recorrido con la imagen como referencia
    * La aptitud para crear recorridos extraerá un mensaje editable de la imagen de referencia
 
 Con esta aptitud, los requisitos del lenguaje natural se traducen en configuraciones de recorrido estructuradas.
@@ -218,15 +218,15 @@ Las habilidades de recorrido permitirán a los usuarios de Journey Optimizer ana
 
 >[!AVAILABILITY]
 >
->Las habilidades de recorrido están disponibles para todos los clientes que tienen acceso a CX Coworker. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Aptitudes de Recorrido:
+>Las habilidades de recorrido están disponibles para todos los clientes que tienen acceso a Coworker. Sin embargo, necesitará los siguientes permisos para utilizar completamente las funciones de Aptitudes de Recorrido:
 >
->**Ver Recorridos**: Este permiso le permite ver información sobre el recorrido directamente en CX Coworker.
+>**Ver Recorridos**: Este permiso le permite ver información sobre el recorrido directamente en Compañero de trabajo.
 >
->**Administrar Recorridos**: este permiso le permite crear recorridos nuevos directamente en CX Coworker.
+>**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en Compañero de trabajo.
 >
->**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en CX Coworker.
+>**Ver segmentos**: Este permiso le permite ver información de las audiencias directamente en Compañero de trabajo.
 >
->**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en CX Coworker.
+>**Administrar segmentos**: Este permiso le permite crear nuevas audiencias directamente en Compañero de trabajo.
 
 ### Casos de uso clave
 

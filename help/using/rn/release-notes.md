@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # Notas de la versión {#release-notes}
 
@@ -68,7 +68,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>CX Coworker ahora tiene un nuevo conjunto de <strong>herramientas MCP de administración de contenido</strong>, que le permiten descubrir y administrar recursos de contenido de Journey Optimizer a través de mensajes en lenguaje natural. Pídale que enumere o recupere plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. También puede crear contenido, actualizar plantillas y crear, actualizar, clonar y publicar fragmentos, además de actualizar el contenido de acciones del canal en línea directamente en recorrido y campaña.</p>
-<p>Para obtener más información, consulte la <a href="../start/content-management-coworker-skills.md#content-management">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../content-management/content-management-coworker-skills.md#content-management">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 3 de septiembre de 2026</p>
 </td>
 </tr>
@@ -127,19 +127,19 @@ ht-degree: 68%
 </tbody>
 </table>
 
+* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación. Decisioning gestiona el enrutamiento, que es aleatorio y no determinista por usuario simulado.
+
+  [Más información](../building-journeys/simulate-journey-gs.md)
+
+  Fecha de disponibilidad: 15 de septiembre de 2026
+
 * **Nueva alerta de anomalía de Recorrido detectada**: ahora una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero inesperadamente en las entradas de Recorrido, salidas de Recorrido y envíos de eventos. Actualmente, esta alerta solo está disponible en zonas protegidas de producción.
 
   [Más información](../reports/alerts.md)
 
   Fecha de disponibilidad: 15 de septiembre de 2026
 
-* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación.
-
-  [Más información](../building-journeys/simulate-journey-gs.md)
-
-  Fecha de disponibilidad: 15 de septiembre de 2026
-
-* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones de Adobe Journey Optimizer, con los siguientes elementos recientemente admitidos:
+* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones, con los siguientes elementos recientemente admitidos:
 
   * Los nodos de decisión de contenido ahora son compatibles con la simulación.
   * El método de regla Targeting de la actividad Optimize ahora se admite en Simulación.
@@ -154,7 +154,7 @@ ht-degree: 68%
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
-* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../start/journeys-coworker-skills.md#journey-analyze)
+* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
 
@@ -349,7 +349,7 @@ En esta versión se han añadido las siguientes funcionalidades y mejoras a las 
 <tr>
 <td>
 <p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nueva aptitud de CX Coworker que permite hacer preguntas acerca del rendimiento de desafíos y otros datos de programas de fidelización introducidos en los grupos de campos Lealtad en Adobe Experience Platform.</p>
-<p>Para obtener más información, consulte la <a href="../start/loyalty-coworker-skills.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../loyalty-challenges/loyalty-coworker-skills.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 31 de agosto de 2026</p>
 </td>
 </tr>

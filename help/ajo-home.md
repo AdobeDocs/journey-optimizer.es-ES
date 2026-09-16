@@ -5,10 +5,10 @@ title: Documentación de Adobe Journey Optimizer
 description: Documentación de Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 93%
 ---
 # Documentación de Adobe Journey Optimizer{#section-overview}
 
@@ -32,9 +32,9 @@ Descubra cómo crear y administrar **Retos de lealtad** para atraer y recompensa
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB Aptitudes de Journey Optimizer en CX Coworker]
+>[!TAB Aptitudes de Journey Optimizer en CX Enterprise Coworker]
 
-Hemos añadido una nueva página de documentación para las aptitudes de **Journey Optimizer en CX Coworker**, que incluye aptitudes **centradas en el recorrido** y **centradas en la lealtad**, con instrucciones y muestras de indicaciones.
+Hemos agregado una nueva página de documentación para **aptitudes de Journey Optimizer en Coworker**, que incluye **aptitudes centradas en el recorrido** y **enfocadas en la lealtad**, con instrucciones y muestras de mensajes.
 
 [![Más información](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 

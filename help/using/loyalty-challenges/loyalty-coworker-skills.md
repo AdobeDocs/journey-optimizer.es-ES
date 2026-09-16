@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aptitudes de CX Coworker para la lealtad
-description: Descubra las habilidades de CX Coworker disponibles para crear, administrar y analizar desafíos de lealtad en Adobe Journey Optimizer, con instrucciones detalladas y muestras de mensajes.
+title: Compañero de trabajo para fidelización
+description: Descubra las habilidades de CX Enterprise Coworker disponibles para crear, administrar y analizar desafíos de lealtad en Adobe Journey Optimizer, con instrucciones detalladas y muestras de mensajes.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,35 +15,35 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1029'
 ht-degree: 2%
 ---
 
-# Aptitudes de CX Coworker para la lealtad {#loyalty-coworker-skills}
+# Compañero de trabajo para fidelización {#loyalty-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las habilidades de CX Coworker disponibles para los retos de fidelidad en Adobe Journey Optimizer (crear y administrar desafíos y consultar el rendimiento del programa de fidelidad) con instrucciones detalladas, indicaciones de ejemplo y prácticas recomendadas para cada habilidad.
+**En esta página:** Descubra las habilidades de CX Enterprise Coworker disponibles para los retos de fidelidad en Adobe Journey Optimizer (crear y administrar desafíos y consultar el rendimiento del programa de fidelidad) con instrucciones detalladas, indicaciones de ejemplo y prácticas recomendadas para cada habilidad.
 
 Más información:
 
-* [Aptitudes de CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills): información general sobre las aptitudes de CX Coworker en todos los Recorridos, lealtad y administración de contenido en Journey Optimizer.
-* [Documentación de CX Coworker](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: Información general sobre las funciones de campañas, chat y proyectos de los compañeros.
+* [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
+* [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
 * [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Las aptitudes de fidelización están disponibles en CX Coworker para las organizaciones aptas. Los clientes con una licencia de fidelidad pueden acceder a estas habilidades de fidelidad, incluso si no tienen una licencia adicional de CX Coworker.
+>Las habilidades de fidelización están disponibles en Coworker para las organizaciones aptas. Los clientes con una licencia de Lealtad pueden acceder a estas habilidades de lealtad, incluso si no tienen una licencia de colaborador adicional.
 
 Las habilidades de lealtad permiten a los administradores y analistas de lealtad crear, administrar y analizar programas de lealtad mediante el lenguaje natural. Con estas habilidades impulsadas por IA, puede diseñar rápidamente desafíos de lealtad atractivos, rastrear métricas de rendimiento y tomar decisiones basadas en datos para optimizar la participación de los miembros y la rentabilidad del programa. Tanto si desea crear un nuevo desafío como si desea analizar las tendencias del programa de fidelización, las habilidades de fidelización optimizan todo el flujo de trabajo de gestión de la fidelidad.
 
 ## Administración de desafío de fidelización {#loyalty-challenge-management}
 
-La administración de desafíos de lealtad permite a los usuarios de Journey Optimizer crear y administrar desafíos de lealtad en CX Coworker mediante mensajes en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](../loyalty-challenges/get-started.md).
+La administración de desafíos de lealtad permite a los usuarios de Journey Optimizer crear y administrar desafíos de lealtad en Compañeros de trabajo mediante mensajes en lenguaje natural. Para obtener documentación completa sobre cómo crear, configurar y administrar desafíos de lealtad, incluidas instrucciones de configuración detalladas, consulte la [guía de Desafíos de lealtad](get-started.md).
 
 ### Casos de uso clave
 

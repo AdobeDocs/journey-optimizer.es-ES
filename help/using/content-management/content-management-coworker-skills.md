@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Herramientas de administración de contenido de CX Coworker
-description: Descubra las herramientas de administración de contenido de CX Coworker disponibles para detectar, crear y administrar recursos de contenido de Journey Optimizer, con instrucciones detalladas y muestras de mensajes.
+title: Compañero de trabajo para la administración de contenido
+description: Descubra las herramientas de administración de contenido de CX Enterprise Coworker disponibles para detectar, crear y administrar recursos de contenido de Journey Optimizer, con instrucciones detalladas y muestras de mensajes.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '759'
 ht-degree: 2%
 ---
 
-# Herramientas de administración de contenido de CX Coworker {#content-management-coworker-skills}
+# Compañero de trabajo para la administración de contenido {#content-management-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las herramientas de administración de contenido de CX Coworker disponibles en Adobe Journey Optimizer para examinar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido en línea de recorrido/campaña, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas.
+**En esta página:** Descubra las herramientas de administración de contenido de CX Enterprise Coworker disponibles en Adobe Journey Optimizer para examinar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido en línea de recorrido/campaña, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas.
 
 Más información:
 
-* [Aptitudes de CX Coworker para Journey Optimizer](ai-features.md#cx-coworker-skills): información general sobre las aptitudes de CX Coworker en todos los Recorridos, lealtad y administración de contenido en Journey Optimizer.
-* [Documentación de CX Coworker](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: Información general sobre las funciones de campañas, chat y proyectos de los compañeros.
+* [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
+* [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
 * [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
@@ -39,9 +39,9 @@ Más información:
 
 >[!AVAILABILITY]
 >
->La administración de contenido está disponible para todos los clientes que tienen acceso a CX Coworker.
+>La administración de contenido está disponible para todos los clientes que tienen acceso a Coworker.
 
-Los usuarios de Journey Optimizer pueden detectar y administrar recursos de contenido (plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña) directamente desde CX Coworker con indicaciones en lenguaje natural. Permite pasar de &quot;hablarme sobre mi contenido&quot; a &quot;compilarlo, actualizarlo y publicarlo&quot;, sin abandonar la conversación. Esta capacidad está equipada con 15 herramientas de MCP con capacidad de lectura y escritura para el contenido de Journey Optimizer.
+Los usuarios de Journey Optimizer pueden detectar y administrar recursos de contenido (plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña) directamente desde Coworker con indicaciones en lenguaje natural. Permite pasar de &quot;hablarme sobre mi contenido&quot; a &quot;compilarlo, actualizarlo y publicarlo&quot;, sin abandonar la conversación. Esta capacidad está equipada con 15 herramientas de MCP con capacidad de lectura y escritura para el contenido de Journey Optimizer.
 
 ### Casos de uso clave
 

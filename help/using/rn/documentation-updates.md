@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '11356'
 ht-degree: 89%
@@ -37,9 +37,9 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se han agregado nuevas directrices para comprobar la entrega de acciones personalizadas: la página **Ejemplos de consultas de conjuntos de datos** ahora explica cómo elegir entre los conjuntos de datos Evento de comentarios de mensajes, Seguimiento de correo electrónico y Evento de pasos de Recorrido según el tipo de acción, y documenta cómo resolver el error &quot;Tabla no aprovisionada para el conjunto de datos&quot;. Las páginas **Información general sobre los eventos de paso de Recorrido** y **Solucionar problemas de la ejecución del recorrido en directo** se han actualizado en consecuencia, lo que aclara que una llamada de acción personalizada correcta solo confirma que Journey Optimizer ejecutó la acción, no que el sistema externo entregó un mensaje. [Más información](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Se ha agregado información sobre CX Coworker a la página **Trabajar con IA**, que abarca qué es CX Coworker, cómo se relaciona con el Asistente de IA y referencias a la documentación oficial de Coworker. También se han agregado páginas de aptitudes dedicadas a cada guía de capacidades: [aptitudes de CX Coworker para recorridos](../start/journeys-coworker-skills.md), [aptitudes de CX Coworker para la lealtad](../start/loyalty-coworker-skills.md) y [herramientas de administración de contenido de CX Coworker](../start/content-management-coworker-skills.md). [Más información](../start/ai-features.md#cx-coworker)
+* Se ha agregado información sobre CX Coworker a la página **Trabajar con IA**, que abarca qué es CX Coworker, cómo se relaciona con el Asistente de IA y referencias a la documentación oficial de Coworker. También se han agregado páginas de aptitudes dedicadas a cada guía de capacidades: [aptitudes de CX Coworker para recorridos](../building-journeys/journeys-coworker-skills.md), [aptitudes de CX Coworker para la lealtad](../loyalty-challenges/loyalty-coworker-skills.md) y [herramientas de administración de contenido de CX Coworker](../content-management/content-management-coworker-skills.md). [Más información](../start/ai-features.md#cx-coworker)
 
-* Se ha documentado una nueva aptitud de **Analizar anomalías de Recorrido** en **Analizar Recorrido** en la página de CX Coworker. Detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas, y ejecuta diagnósticos de solo lectura para detectar una causa raíz probable. [Más información](../start/journeys-coworker-skills.md#journey-analyze)
+* Se ha documentado una nueva aptitud de **Analizar anomalías de Recorrido** en **Analizar Recorrido** en la página de CX Coworker. Detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas, y ejecuta diagnósticos de solo lectura para detectar una causa raíz probable. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * La página **Protecciones y limitaciones** se ha corregido para reflejar el hecho de que los fragmentos visuales de más de 100 KB o los fragmentos de expresiones de más de 200 KB ya no pueden causar problemas de truncamiento en las entregas de correo electrónico: ahora se aplica una única protección de tamaño de fragmento de 700 KB. [Más información](../start/guardrails.md#fragments-guardrails)
 
@@ -47,7 +47,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * La documentación de **Conjunto de datos de evento de comentarios de mensajes de AJO** se ha ampliado para aclarar que cubre los comentarios de entrega de mensajes en todos los canales (correo electrónico, SMS/RCS/MMS, correo directo), no solo correo electrónico y push, y ahora incluye una sección de **Clasificar ejecuciones de prueba y no de prueba** que explica cómo interpretar el campo `isTestExecution`, incluidos `NULL` o los valores que faltan. [Más información](../data/datasets-query-examples.md#classify-test-executions)
 
-* Se ha documentado una nueva funcionalidad **Content Management** para CX Coworker, con 15 herramientas MCP de lectura y escritura que le permiten detectar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña utilizando indicaciones en lenguaje natural. [Más información](../start/content-management-coworker-skills.md#content-management)
+* Se ha documentado una nueva funcionalidad **Content Management** para CX Coworker, con 15 herramientas MCP de lectura y escritura que le permiten detectar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña utilizando indicaciones en lenguaje natural. [Más información](../content-management/content-management-coworker-skills.md#content-management)
 
 * La documentación de **Agregar contenido a la página de aterrizaje** ahora describe la opción **Hacer obligatorio el campo de formulario** para las casillas de verificación de consentimiento: cuando está habilitada, el formulario no se puede enviar a menos que la casilla de verificación esté seleccionada y se aplique tanto en el lado del cliente como en el del servidor. [Más información](../landing-pages/lp-content.md#use-form-component)
 

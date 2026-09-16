@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3540'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Esta versión incorpora varias características y habilidades nuevas y mejoradas
 
 * [Complementos de diseño de correo electrónico y copia de mensajes](#sep-26-content-management): dos nuevos complementos que optimizan los flujos de trabajo de mensajería y correo electrónico en Coworker, desde información de campaña hasta copia y HTML preparados para la producción.
 * [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de tu compañero y conviértelas en desafíos en vivo sin salir del chat.
-* [Simulación de Recorrido (MCP y Chat)](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
+* [Simulación de Recorrido](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
 * [Creación de Recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA.
 * [Comparar versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través de Coworker Chat.
 * [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
@@ -158,7 +158,7 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 <table>
 <thead>
 <tr>
-<th><strong>Simulación de recorrido en Coworker (MCP y Chat)</strong><br/></th>
+<th><strong>Simulación de recorrido en Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -296,6 +296,29 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Android notificaciones push plantillas mejoras</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las notificaciones push de Android se representaban anteriormente con un diseño único y fijo: las imágenes siempre se recortaban en el centro y el texto largo del cuerpo se truncaba. Esta versión incluye un selector de plantillas en el momento de la creación, lo que permite a los especialistas en marketing controlar el diseño de las notificaciones push de Android.</p>
+<p>Las siguientes mejoras están disponibles:</p>
+<ul>
+<li><b>Selección de diseño</b>: Nuevo selector de diseño de notificaciones push (estándar/expandido) al crear una notificación push de Android.</li>
+<li><b>Diseño estándar con "Mostrar toda la imagen"</b>: elija recortado para rellenar frente a escalado para ajustar.</li>
+<li><b>Diseño ampliado</b>: texto independiente multilínea sin truncamiento, además de una miniatura de icono grande opcional.</li>
+<li><b>Cuerpo contraído (diseño expandido)</b>: establezca un texto independiente más corto para el estado contraído.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 * **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
 
 ### Campañas orquestadas {#sep-26-oc}
@@ -387,13 +410,14 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <table>
 <thead>
 <tr>
-<th><strong>Estilo de modo oscuro independiente para variantes de temas de correo electrónico</strong><br/></th>
+<th><strong>Compatibilidad con el modo oscuro para variantes de temas de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los temas de correo electrónico ahora admiten un estilo independiente para el modo oscuro. En el generador de temáticas, puede activar el modo oscuro para una variante determinada para generar una hoja de estilos en modo oscuro dedicada que edite por separado de los estilos en modo claro: los cambios realizados en un modo ya no sobrescriben al otro. En el editor de correo electrónico y plantillas, una nueva opción de previsualización junto a las opciones de escritorio y vista móvil permite previsualizar el contenido en modo oscuro.</p>
+<p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
+<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
 </td>
 </tr>
 </tbody>

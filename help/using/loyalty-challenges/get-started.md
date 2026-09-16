@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 14%
 ---
 # Introducción a los retos de lealtad {#get-started-loyalty-challenges}
@@ -61,7 +61,7 @@ Puede crear estos tipos de experiencias de desafío:
 * **Traiga sus propios desafíos de datos** (disponibilidad restringida): El marco de desafíos (tareas y recompensas) se configura a partir de su integración de datos de Desafíos de fidelidad. La configuración, el contenido y la mensajería se configuran del mismo modo que para cualquier otro tipo de desafío.
 
 >[!TIP]
->También puede crear y administrar desafíos de lealtad mediante **Administración de desafíos de lealtad** en [habilidades de CX Coworker para la lealtad](../start/loyalty-coworker-skills.md#loyalty-challenge-management) con mensajes en lenguaje natural para una creación más rápida de desafíos.
+>También puede crear y administrar desafíos de lealtad mediante **Administración de desafíos de lealtad** en [Habilidades de compañero para la lealtad](loyalty-coworker-skills.md#loyalty-challenge-management) con indicaciones en lenguaje natural para una creación más rápida de desafíos.
 
 ➡️ [Vea una descripción general de la característica](#video)
 
