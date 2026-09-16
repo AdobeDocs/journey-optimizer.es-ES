@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # Notas de la versión {#release-notes}
 
@@ -127,19 +127,19 @@ ht-degree: 68%
 </tbody>
 </table>
 
+* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación. Decisioning gestiona el enrutamiento, que es aleatorio y no determinista por usuario simulado.
+
+  [Más información](../building-journeys/simulate-journey-gs.md)
+
+  Fecha de disponibilidad: 15 de septiembre de 2026
+
 * **Nueva alerta de anomalía de Recorrido detectada**: ahora una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero inesperadamente en las entradas de Recorrido, salidas de Recorrido y envíos de eventos. Actualmente, esta alerta solo está disponible en zonas protegidas de producción.
 
   [Más información](../reports/alerts.md)
 
   Fecha de disponibilidad: 15 de septiembre de 2026
 
-* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación.
-
-  [Más información](../building-journeys/simulate-journey-gs.md)
-
-  Fecha de disponibilidad: 15 de septiembre de 2026
-
-* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones de Adobe Journey Optimizer, con los siguientes elementos recientemente admitidos:
+* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones, con los siguientes elementos recientemente admitidos:
 
   * Los nodos de decisión de contenido ahora son compatibles con la simulación.
   * El método de regla Targeting de la actividad Optimize ahora se admite en Simulación.
