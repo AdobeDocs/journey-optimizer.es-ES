@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # Introducción a los retos de lealtad {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="Desafíos de lealtad"
 >abstract="Los desafíos de lealtad le permiten crear programas de lealtad atractivos e interactivos que impulsan el comportamiento de los clientes y profundizan las relaciones de marca. Cree desafíos que recompensen a los clientes por acciones específicas, desde hacer compras y escribir críticas hasta participar en redes sociales y recomendar a amigos."
-
->[!AVAILABILITY]
->
->Actualmente, Journey Optimizer Loyalty no está disponible para los clientes de Healthcare Shield y Privacy and Security Shield. La disponibilidad de Healthcare Shield y de los clientes de Privacy and Security Shield se actualizará cuando estén preparados para funciones futuras.
 
 ## Información general {#overview}
 
@@ -164,7 +160,7 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
@@ -187,7 +183,7 @@ Para obtener la autenticación y los encabezados requeridos, consulte el [tutori
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## Demostración interactiva {#demo}
 
