@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3549'
 ht-degree: 8%
 ---
 
@@ -295,6 +295,29 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Android notificaciones push plantillas mejoras</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las notificaciones push de Android se representaban anteriormente con un diseño único y fijo: las imágenes siempre se recortaban en el centro y el texto largo del cuerpo se truncaba. Esta versión incluye un selector de plantillas en el momento de la creación, lo que permite a los especialistas en marketing controlar el diseño de las notificaciones push de Android.</p>
+<p>Las siguientes mejoras están disponibles:</p>
+<ul>
+<li><b>Selección de diseño</b>: Nuevo selector de diseño de notificaciones push (estándar/expandido) al crear una notificación push de Android.</li>
+<li><b>Diseño estándar con "Mostrar toda la imagen"</b>: elija recortado para rellenar frente a escalado para ajustar.</li>
+<li><b>Diseño ampliado</b>: texto independiente multilínea sin truncamiento, además de una miniatura de icono grande opcional.</li>
+<li><b>Cuerpo contraído (diseño expandido)</b>: establezca un texto independiente más corto para el estado contraído.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 * **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
 
