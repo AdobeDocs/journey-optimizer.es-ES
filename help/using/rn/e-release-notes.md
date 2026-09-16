@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
+source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3540'
 ht-degree: 8%
 ---
 
@@ -410,13 +410,14 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <table>
 <thead>
 <tr>
-<th><strong>Estilo de modo oscuro independiente para variantes de temas de correo electrónico</strong><br/></th>
+<th><strong>Compatibilidad con el modo oscuro para variantes de temas de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Los temas de correo electrónico ahora admiten un estilo independiente para el modo oscuro. En el generador de temáticas, puede activar el modo oscuro para una variante determinada para generar una hoja de estilos en modo oscuro dedicada que edite por separado de los estilos en modo claro: los cambios realizados en un modo ya no sobrescriben al otro. En el editor de correo electrónico y plantillas, una nueva opción de previsualización junto a las opciones de escritorio y vista móvil permite previsualizar el contenido en modo oscuro.</p>
+<p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
+<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
 </td>
 </tr>
 </tbody>
