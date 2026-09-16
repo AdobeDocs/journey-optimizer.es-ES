@@ -7,13 +7,11 @@ role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
-
 ---
-
 # Introducción a Adobe Journey Optimizer{#get-started}
 
 Tanto si es su primera vez en Journey Optimizer como si vuelve para explorar una nueva funcionalidad, esta página es su punto de partida. Elija la ruta que se ajuste a su función y meta.
@@ -218,8 +216,8 @@ Encuentre respuestas a preguntas frecuentes y soluciones a problemas habituales 
 ### Obtener información y asistencia
 
 * **[Vídeos explicativos](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=es){target="_blank"}**: tutoriales de vídeo paso a paso que describen las funciones básicas
-* **[Manuales de casos de uso](../using/start/ai-features.md#playbooks)**: flujos de trabajo creados previamente para escenarios comunes como recuperación del carro de compras abandonado y campañas de bienvenida
-* **[Supervisión y solución de problemas](troubleshoot-journey-landing-page.md)**: herramientas para realizar un seguimiento del rendimiento, identificar incidencias y resolver problemas rápidamente
+* **[Manuales de casos de uso](../using/start/ajo-use-case-guide.md#playbooks)**: flujos de trabajo creados previamente para escenarios comunes como recuperación del carro de compras abandonado y campañas de bienvenida
+* **[Monitorización y solución de problemas](troubleshoot-journey-landing-page.md)**: herramientas para realizar un seguimiento del rendimiento, identificar incidencias y resolver problemas rápidamente
 * **[Novedades](../using/rn/release-notes.md)**: manténgase al día con las últimas funciones, mejoras y correcciones
 * **[Foro de la comunidad](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=es){target="_blank"}**: conéctese con otros usuarios, haga preguntas y comparta prácticas recomendadas
 * **[Actualizaciones de documentación](../using/rn/documentation-updates.md)**: manténgase informado sobre los cambios y adiciones recientes a la documentación

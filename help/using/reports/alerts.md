@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # Acceso y suscripción a alertas del sistema {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ Adobe Journey Optimizer proporciona dos tipos de alertas:
 
 * **Alertas de validación en lienzo**: al crear recorridos y campañas, use el botón **Alertas** del lienzo para identificar y resolver los errores de configuración antes de publicar. Aprenda a [solucionar problemas de sus recorridos](../building-journeys/troubleshooting.md) y a revisar sus campañas: [Campañas de acción](../campaigns/review-activate-campaign.md) | [Campañas activadas por API](../campaigns/review-activate-api-triggered-campaign.md) | [Campañas organizadas](../orchestrated/start-monitor-campaigns.md).
 
-* **Alertas de supervisión del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se superen los umbrales operativos o se detecten problemas en las configuraciones de canales y recorridos activos, y cuando se produzcan eventos importantes del ciclo vital de la campaña (activación, entrega, detención y errores relacionados). Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil y problemas de envío de correo electrónico, además de esos eventos de campaña.
+* **Alertas de supervisión del sistema** (detalladas en esta página): Reciba notificaciones dinámicas cuando se superen los umbrales operativos o se detecten problemas en las configuraciones de canales y recorridos activos, y cuando se produzcan eventos importantes del ciclo vital de la campaña (activación, entrega, detención y errores relacionados). Las alertas del sistema supervisan métricas como tasas de error, descartes de perfil, tráfico de recorrido anómalo y problemas de envío de correo electrónico, además de esos eventos de campaña.
 
 **Ventajas principales de las alertas del sistema:**
 
@@ -215,6 +224,28 @@ Para solucionar problemas de límite:
 * Supervise el extremo externo para asegurarse de que puede gestionar la carga esperada.
 
 ➡️ [Configurar límite de acción personalizado](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ Anomalía de recorrido detectada
+
+Esta alerta le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero de forma inesperada. Se supervisan tres métricas de forma independiente para cada recorrido: **[!UICONTROL Entradas de Recorrido]**, **[!UICONTROL Salidas de Recorrido]** y **[!UICONTROL Envíos de eventos]**. La comprobación se ejecuta una vez al día, con una retrospectiva de 30 días por recorrido.
+
+**Línea de base:** el valor esperado para cada métrica combina la previsión de Customer Journey Analytics para ese día con una mediana móvil de 7 días de los propios valores reales del recorrido. Si la previsión cae por debajo del 50 % de la mediana móvil, se utiliza en su lugar la mediana móvil para evitar la subprevisión de un recorrido que ha estado funcionando de forma constante.
+
+Las siguientes razones pueden almacenar en déclencheur una alerta:
+
+* **Anomalía cero**: se activa inmediatamente si una métrica cae a 0 en un día en el que el recorrido haya producido anteriormente tráfico distinto de cero. Los recorridos de **Leer audiencia** están exentos en el día actual, ya que es posible que la ejecución de ese día aún no se haya completado.
+* **Umbral de desviación**: se activa cuando el valor real difiere del valor esperado en un 35% o más, una vez que el recorrido ha mostrado de 3 a 4 días consecutivos de historial distintos de cero, y solo si el valor esperado es al menos 100 (para evitar el ruido de número reducido).
+* Si **Entradas de Recorrido** son anómalas en un día determinado, las anomalías relacionadas en **Salidas** y **Envíos de eventos** se suprimen para ese mismo día y recorrido, por lo que una sola causa raíz no genera múltiples alertas.
+
+Tenga en cuenta que esta alerta solo se aplica a recorridos activos de tipo **evento unitario**, **audiencia de lectura** o **calificación de audiencia** (solo recorridos recurrentes de **audiencia de lectura**), y requiere que la organización o la zona protegida se suscriban a las alertas.
+
+➡️ [Inspeccione el informe en vivo de recorrido para solucionar problemas de una alerta **Detectada anomalía de Recorrido**](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>Actualmente, esta alerta solo está disponible en las zonas protegidas de producción y no está disponible en las de desarrollo o ensayo.
 
 +++
 

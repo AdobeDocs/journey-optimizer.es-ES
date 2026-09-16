@@ -10,16 +10,17 @@ level: Beginner
 keywords: optimizador de recorrido, caso de uso, guía de decisión, qué capacidad, introducción, objetivos del profesional, tutoriales
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # Empiece desde su meta {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ Utilice esta página como un enrutador rápido: busque su objetivo y salte direc
 
 Cuando un tutorial completo no está disponible para un escenario específico, el vínculo le lleva al mejor punto de partida actual para aprender la capacidad y comenzar.
 
-La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)** en las tablas siguientes. El asistente conversacional [AI Assistant](ai-features.md#ai-assistant) también puede responder preguntas sobre productos y obtener información operacional sobre tus recorridos en cualquier momento. Para ver el conjunto completo de características inteligentes, consulte [IA y características inteligentes](ai-features.md).
+La IA está integrada en muchas de estas capacidades. Busque la etiqueta **(AI)** en las tablas siguientes. El asistente conversacional [AI Assistant](ai-features.md#ai-assistant) también puede responder preguntas sobre productos y obtener información operacional sobre tus recorridos en cualquier momento. Para ver el conjunto completo de características inteligentes, consulte [Trabajar con IA](ai-features.md).
 
 >[!TIP]
 >
@@ -246,6 +247,43 @@ Cada flujo de inicio que aparece a continuación es un conjunto de pasos corto y
 1. Capa en [funciones inteligentes](ai-features.md) para clasificar y optimizar ofertas automáticamente.
 
 ➡️ [Introducción a Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## Manuales de casos de uso {#playbooks}
+
+Los manuales de casos de uso son flujos de trabajo creados previamente que le ayudan a implementar situaciones de marketing comunes de forma rápida. Cada manual incluye recorridos, mensajes, esquemas y segmentos listos para usar.
+
+![Interfaz de manuales de casos de uso](assets/playbooks-filter.png)
+
++++**Cómo funcionan los libros de reproducción**
+
+1. **Examine** la biblioteca de libros de reproducción para encontrar casos de uso que coincidan con sus metas
+2. **Habilite** un manual para generar automáticamente todos los recursos necesarios
+3. **Personalice** los recursos generados para que coincidan con su marca y sus requisitos
+4. **Implementar** en producción o prueba en una zona protegida de desarrollo
+
++++
+
++++**Libros de reproducción disponibles**
+
+Examine los libros de reproducción de Journey Optimizer para conocer escenarios comunes como:
+
+* Recuperación del carro abandonado
+* Serie de bienvenida para nuevos clientes
+* Participación posterior a la compra
+* Mensajes de cumpleaños
+* Campañas de renovación de participación
+
++++
+
++++**Requisitos previos**
+
+* Zona protegida con los permisos adecuados
+* Configuraciones de canal para correo electrónico, push o SMS
+* Permisos de usuario para crear recorridos y mensajes
+
++++
+
+[Ver todos los libros de reproducción disponibles](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=es){target="_blank"} | [Obtenga más información en la documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=es){target="_blank"}
 
 ## Casos de ejemplo {#example-scenarios}
 

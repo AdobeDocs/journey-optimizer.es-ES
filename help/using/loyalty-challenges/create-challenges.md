@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: '2577'
-ht-degree: 12%
+source-wordcount: '2634'
+ht-degree: 11%
 ---
 
 # Crear retos {#create-challenges}
@@ -102,14 +102,14 @@ Defina quién puede participar en su desafío de fidelidad.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programación del desafío"
->abstract="Defina cuándo se activará el reto utilizando la fecha y la hora de inicio y finalización y una zona horaria. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo del reto."
+>abstract="Defina cuándo está activo el desafío utilizando la fecha y hora de inicio y finalización y una zona horaria, o seleccione Sin fecha de finalización para ejecutar el desafío indefinidamente. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo del reto."
 
 Configure cuándo se ejecuta el desafío:
 
 1. En la sección **[!UICONTROL Programar]**, establezca:
 
    * **[!UICONTROL Fecha y hora de inicio]**: Cuando el desafío esté disponible para los clientes.
-   * **[!UICONTROL Fecha y hora de finalización]**: cuando caduca el desafío y ya no acepta nuevas finalizaciones.
+   * **[!UICONTROL Fecha y hora de finalización]**: cuando caduca el desafío y ya no acepta nuevas finalizaciones. Seleccione **[!UICONTROL Sin fecha de finalización]** en lugar de una fecha para ejecutar el desafío indefinidamente.
    * **[!UICONTROL Zona horaria]**: La zona horaria usada para la programación de desafío.
 
    ![](assets/challenge-create-schedule.png)
@@ -353,6 +353,8 @@ Tiene dos opciones para lanzar el desafío:
    >[!IMPORTANT]
    >
    >Cualquier cambio en el desafío debe realizarse en el editor del Reto de fidelización y requerirá que genere un nuevo recorrido. Cualquier trabajo realizado directamente en el recorrido de desafío existente se perderá si realiza cambios en el desafío.
+   >
+   >No se genera ningún recorrido para los desafíos configurados con **[!UICONTROL Sin fecha de finalización]**, ya que los recorridos no pueden ejecutarse por más de 90 días. El desafío en sí sigue ejecutándose correctamente y los miembros aún pueden incluirse y completar tareas.
 
 1. Abra el recorrido generado y publíquelo. El recorrido aparece en estado **Draft** con el formato de nombre *&quot;Recorrido: [Nombre del desafío]&quot;* y se puede acceder a él desde:
 
