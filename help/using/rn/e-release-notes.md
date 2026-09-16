@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Esta versión incorpora varias características y habilidades nuevas y mejoradas
 
 * [Complementos de diseño de correo electrónico y copia de mensajes](#sep-26-content-management): dos nuevos complementos que optimizan los flujos de trabajo de mensajería y correo electrónico en Coworker, desde información de campaña hasta copia y HTML preparados para la producción.
 * [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de tu compañero y conviértelas en desafíos en vivo sin salir del chat.
-* [Simulación de Recorrido (MCP y Chat)](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
+* [Simulación de Recorrido](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
 * [Creación de Recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA.
 * [Comparar versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través de Coworker Chat.
 * [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
@@ -158,7 +158,7 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 <table>
 <thead>
 <tr>
-<th><strong>Simulación de recorrido en Coworker (MCP y Chat)</strong><br/></th>
+<th><strong>Simulación de recorrido en Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
