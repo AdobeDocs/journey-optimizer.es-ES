@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
+source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 10%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -345,23 +345,7 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 
 ### Campañas {#sep-26-campaigns}
 
-Las siguientes funcionalidades y mejoras están llegando a las campañas de esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulación de experiencia entrante en campañas de acción (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede simular acciones de canal de entrada en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar las reglas, la toma de decisiones y el renderizado de contenido de extremo a extremo.</p>
-<p>Actualmente, esta funcionalidad está en versión Private Beta y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
-</td>
-</tr>
-</tbody>
-</table>
+Las siguientes mejoras se implementan en las campañas de esta versión.
 
 * **Carpetas para campañas**: ahora puede organizar sus campañas en **carpetas** para mejorar la navegación y la administración en la interfaz.
 
