@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 5%
+source-wordcount: '1680'
+ht-degree: 2%
 ---
 # Guía del transformador de eventos {#event-transformer-guide}
 
@@ -29,35 +29,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**Tabla de contenido**
-
-[Introducción a los retos de lealtad](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crear y administrar desafíos**
-
-* [Acceder a retos y tareas y administrarlos](access-loyalty-challenges.md)
-* [Crear retos](create-challenges.md)
-* [Crear tareas](create-tasks.md)
-* [Monitorizar el rendimiento del reto de lealtad](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configurar e integrar**
-
-* [Configurar retos de lealtad](loyalty-admin.md)
-* [Guía de definición de recompensas](reward-definition-guide.md)
-* **Guía del transformador de eventos** ◀︎ **Usted está aquí**
-* [Datos y conjuntos de datos de lealtad](loyalty-data-and-datasets.md)
-* [Referencia de API de retos de fidelización](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
+**En esta página:** Aprenda cómo las asignaciones de eventos identifican los eventos entrantes y los transforman en el formato de evento de fidelidad de Adobe mediante expresiones JSONata, incluidos los requisitos de campo, el comportamiento coincidente, los ejemplos y las operaciones de API.
 
 >[!ENDSHADEBOX]
 

@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # Crear retos {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a crear, configurar, publicar e iniciar desafíos de fidelidad, incluida su configuración, estructura, contenido, mensajería, tareas y recompensas.
+
+>[!ENDSHADEBOX]
 
 Esta página cubre el proceso completo de creación y publicación de un desafío de fidelidad en Adobe Journey Optimizer.
 
@@ -374,21 +380,21 @@ Aprenda a crear y configurar desafíos de lealtad con estos tutoriales de vídeo
 
 **Configurar un desafío de fidelidad**: cree y configure un nuevo desafío de fidelidad
 
->[!VIDEO](https://video.tv.adobe.com/v/3496474?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurar recompensas** - Configurar entrega y cumplimiento de recompensas
 
->[!VIDEO](https://video.tv.adobe.com/v/3496484?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Vea cómo crear una tarjeta de contenido de desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3496532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Vea cómo configurar la mensajería del ciclo vital para un desafío
 
->[!VIDEO](https://video.tv.adobe.com/v/3497458?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Vea cómo publicar un desafío y generar un recorrido
 
->[!VIDEO](https://video.tv.adobe.com/v/3498580?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
