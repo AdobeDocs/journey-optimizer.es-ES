@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 7a01307eeffda45167a32a90df3143585e8f9730
+source-git-commit: 49d3ff25ab689dac40426f89a67885ab0f522ba1
 workflow-type: tm+mt
 source-wordcount: '3641'
 ht-degree: 7%
@@ -214,6 +214,21 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 <tr>
 <td>
 <p>Una nueva actividad <strong>Inbound Activity Deactivation</strong> en el lienzo de recorrido le permite quitar un perfil de hasta cinco actividades o experiencias entrantes directamente de un recorrido, lo que desvincula la descalificación entrante de la salida del recorrido para una orquestación entre canales más avanzada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista previa del contenido en el lienzo del recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La revisión del contenido del canal hoy en día requiere la apertura de cada nodo individualmente, uno a la vez: lento y propenso a errores en recorridos con muchos nodos de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por nodo. <strong>Vista previa del contenido</strong> elimina esa fricción al mostrar una miniatura de contenido para cada nodo de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes.</p>
 </td>
 </tr>
 </tbody>
@@ -495,8 +510,6 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 ### Mejoras de uso {#sep-26-usability}
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
-
-* **Vista previa del contenido en el lienzo del recorrido**. Para revisar el contenido del canal hoy mismo es necesario abrir cada nodo individualmente, uno por vez. Es lento y propenso a errores en recorridos con muchos nodos de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por nodo. **Vista previa del contenido** elimina esa fricción al mostrar una miniatura de contenido para cada nodo de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes.
 
 * **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 
