@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 5139b995607f670a4ff71deb04ea8d7f20cefb96
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 2%
@@ -104,4 +104,4 @@ Cada tarjeta lleva una **etiqueta category** que identifica a qué parte del pro
 
 ➡️ Vea cómo medir el rendimiento de los desafíos con los informes de desafíos
 
->[!VIDEO](https://video.tv.adobe.com/v/3497562?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
