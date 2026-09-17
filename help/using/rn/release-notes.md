@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2921'
 ht-degree: 67%
 ---
 # Notas de la versión {#release-notes}
@@ -88,6 +88,10 @@ ht-degree: 67%
 * **&quot;Desafíos de fidelidad para siempre&quot;**: los desafíos de fidelidad ahora pueden ejecutarse indefinidamente. Defina **El desafío finalizará** en **Sin fecha de finalización** al configurar la programación y el desafío nunca caducará. [Más información](../loyalty-challenges/create-challenges.md#schedule)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
+
+* **Lealtad disponible para los clientes de Healthcare Shield y Privacy and Security Shield**: Journey Optimizer Loyalty ya está disponible para los clientes de Healthcare Shield y Privacy and Security Shield. [Más información](../loyalty-challenges/get-started.md)
+
+  Fecha de disponibilidad: 15 de septiembre de 2026
 
 ### Recorridos {#sep-26-journeys}
 
