@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '592'
 ht-degree: 6%
-
 ---
-
 # Datos y conjuntos de datos de lealtad {#loyalty-data-and-datasets}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Descubra qué identidades, perfiles, eventos, audiencias y conjuntos de datos de Adobe Experience Platform admiten desafíos de fidelidad y cómo afecta el tiempo de vida del conjunto de datos a la retención de datos.
+
+>[!ENDSHADEBOX]
 
 ## Información general {#overview}
 

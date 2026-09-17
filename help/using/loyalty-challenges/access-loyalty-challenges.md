@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: '492'
 ht-degree: 3%
-
 ---
-
 # Acceder a retos y tareas y administrarlos {#access-loyalty-challenges}
+
+>[!BEGINSHADEBOX]
+
+**En esta página:** Aprenda a acceder a Desafíos de lealtad, revise los inventarios de Desafíos y Tareas y administre los desafíos existentes y las tareas reutilizables.
+
+>[!ENDSHADEBOX]
 
 ## Acceder a retos y tareas y administrarlos
 
