@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 49d3ff25ab689dac40426f89a67885ab0f522ba1
+source-git-commit: ed5fc837094662e56eb94ec57de3e0dff2825e8c
 workflow-type: tm+mt
-source-wordcount: '3641'
-ht-degree: 7%
+source-wordcount: '3514'
+ht-degree: 8%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -237,10 +237,6 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 * **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura.
 
 * **Compatibilidad con saltos para recorridos de calificación de audiencia**: los Recorridos que comienzan con una **calificación de audiencia** ahora pueden usar una actividad **Jump** para entrar en un recorrido de inicio basado en eventos; no se admite el salto a un recorrido basado en calificación de audiencia.
-
-* **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad de lectura de audiencia**, la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; en recorrido ahora siempre espera a que se complete una segmentación por lotes en curso, lo que garantiza que el recorrido utilice los datos de esa ejecución en lugar de volver a una instantánea anterior. Si no hay ninguna segmentación por lotes en curso, el recorrido utiliza inmediatamente la instantánea disponible más reciente, a menos que esa instantánea sea el mismo lote utilizado en la ejecución anterior, en cuyo caso el recorrido espera, hasta la ventana configurada, un lote más reciente y omite la ejecución de ese día si no hay ninguno disponible a tiempo.
-
-* **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura.
 
 * **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad de lectura de audiencia**, la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; en recorrido ahora siempre espera a que se complete una segmentación por lotes en curso, lo que garantiza que el recorrido utilice los datos de esa ejecución en lugar de volver a una instantánea anterior. Si no hay ninguna segmentación por lotes en curso, el recorrido utiliza inmediatamente la instantánea disponible más reciente, a menos que esa instantánea sea el mismo lote utilizado en la ejecución anterior, en cuyo caso el recorrido espera, hasta la ventana configurada, un lote más reciente y omite la ejecución de ese día si no hay ninguno disponible a tiempo.
 
