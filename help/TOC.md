@@ -6,7 +6,7 @@ user-guide-description: Utilice Journey Optimizer para crear y ofrecer experienc
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
 workflow-type: tm+mt
 source-wordcount: '3520'
 ht-degree: 99%
@@ -1045,3 +1045,4 @@ ht-degree: 99%
     + [Administración de las preferencias de los clientes](using/action/preference-center.md)
   + [Gobernanza de datos](using/action/action-privacy.md)
   + [Configurar y administrar claves administradas por el cliente](using/privacy/cmk.md)
+
