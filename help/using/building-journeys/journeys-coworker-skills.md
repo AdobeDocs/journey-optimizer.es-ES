@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
