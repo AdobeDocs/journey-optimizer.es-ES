@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ed5fc837094662e56eb94ec57de3e0dff2825e8c
+source-git-commit: 98db79cf2e1592defaed5de3fe5067458144ca51
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3416'
 ht-degree: 8%
 ---
 
@@ -237,8 +237,6 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 * **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura.
 
 * **Compatibilidad con saltos para recorridos de calificación de audiencia**: los Recorridos que comienzan con una **calificación de audiencia** ahora pueden usar una actividad **Jump** para entrar en un recorrido de inicio basado en eventos; no se admite el salto a un recorrido basado en calificación de audiencia.
-
-* **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad de lectura de audiencia**, la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; en recorrido ahora siempre espera a que se complete una segmentación por lotes en curso, lo que garantiza que el recorrido utilice los datos de esa ejecución en lugar de volver a una instantánea anterior. Si no hay ninguna segmentación por lotes en curso, el recorrido utiliza inmediatamente la instantánea disponible más reciente, a menos que esa instantánea sea el mismo lote utilizado en la ejecución anterior, en cuyo caso el recorrido espera, hasta la ventana configurada, un lote más reciente y omite la ejecución de ese día si no hay ninguno disponible a tiempo.
 
 * **Comparar versiones de recorrido con el colaborador**: hoy, para revisar lo que ha cambiado entre dos versiones de un recorrido es necesario compararlo manualmente dentro de Journey Optimizer nodo por nodo. No hay ninguna comparación de diferencias estructurada, lo que hace que las comprobaciones de cambio, revisión, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través del chat de compañeros y recuperar una fidelidad completa, **diferencia estructurada**: nodos agregados, eliminados, modificados o movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación, sin necesidad de abrir Journey Optimizer.
 
