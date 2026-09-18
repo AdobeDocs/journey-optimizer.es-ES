@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 98db79cf2e1592defaed5de3fe5067458144ca51
+source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3407'
 ht-degree: 8%
 ---
 
@@ -412,7 +412,7 @@ Las siguientes funcionalidades y mejoras estarán disponibles en la toma de deci
 
 Las siguientes funcionalidades y mejoras se incluyen en Direct Mail en esta versión.
 
-* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos. Un archivo de manifiesto JSON opcional describe todas las partes generadas.
+* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
 
 * **Límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin alcanzar los errores de creación de archivos.
 
