@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Uso de una audiencia en un recorrido
-description: Aprenda a configurar y utilizar la actividad Leer audiencia para que las personas de  [!DNL Adobe Experience Platform] audiencias ingresen en recorridos.
+description: Aprenda a configurar y utilizar la actividad Leer audiencia para que los individuos de [!DNL Adobe Experience Platform] audiencias ingresen a recorridos.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -13,29 +13,39 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+    internal-label: Custom actions
   - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+    internal-label: Event activities
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+    internal-label: Audience segmentation
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: 4374
-ht-degree: 11%
-
+source-wordcount: '4434'
+ht-degree: 10%
 ---
-
 # Uso de una audiencia en un recorrido {#segment-trigger-activity}
 
 >[!BEGINSHADEBOX]
@@ -205,7 +215,7 @@ Este valor se almacena en la carga útil de la versión de recorrido. El valor p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Activar tras la evaluación del público por lotes"
->abstract="Retrasa cada ejecución hasta que el público por lotes se ha evaluado recientemente, por lo que el recorrido lee la instantánea de público más actualizada, en lugar de datos antiguos. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
+>abstract="Espera una nueva evaluación de audiencia por lotes antes de cada ejecución: si una segmentación por lotes ya está en curso, el recorrido siempre espera a que finalice. De lo contrario, solo espera si la instantánea más reciente disponible es el mismo lote utilizado en la ejecución anterior. Recomendado para recorridos recurrentes que dependen de los resultados de segmentación más recientes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -300,7 +310,7 @@ En otras palabras, **[!UICONTROL Forzar reentrada en repetición] no deshabilita
 
 +++**[!UICONTROL Déclencheur después de la evaluación de audiencia por lotes]**
 
-Para los recorridos programados a diario y dirigidos a audiencias por lotes, puede definir un período de tiempo de hasta 6 horas para que el recorrido espere datos de audiencia nuevos de los trabajos de segmentación por lotes. Si el trabajo de segmentación se completa dentro del intervalo temporal, el recorrido se compensa con un déclencheur. De lo contrario, omite el recorrido hasta su siguiente aparición. Esta opción garantiza que los recorridos se ejecuten con datos de audiencia precisos y actualizados.
+Para los recorridos programados a diario y dirigidos a audiencias por lotes, puede definir un período de tiempo de hasta 6 horas para que el recorrido espere datos de audiencia nuevos de los trabajos de segmentación por lotes. Si un trabajo de segmentación por lotes ya está en curso, el recorrido siempre espera a que se complete dentro de la ventana de tiempo. Si no hay ningún trabajo de segmentación por lotes en curso, pero la única instantánea disponible es el mismo lote utilizado en la ejecución anterior, el recorrido espera un lote más reciente en lugar de reutilizarlo. Si no se encuentra ningún lote más reciente al final de la ventana de tiempo, la ejecución de la recorrido se omite para esa ocurrencia.
 
 Por ejemplo, si un recorrido está programado para las 18:00 diariamente, puede especificar un número de minutos u horas de espera antes de que se ejecute el recorrido. Cuando el recorrido se despierta a las 18:00, comprueba si hay una audiencia nueva, es decir, una audiencia más reciente que la utilizada en la ejecución de recorrido anterior. Durante el período de tiempo especificado, el recorrido se ejecutará inmediatamente al detectar la audiencia nueva. Si no se detecta ninguna audiencia nueva, la ejecución del recorrido se omitirá ese día.
 

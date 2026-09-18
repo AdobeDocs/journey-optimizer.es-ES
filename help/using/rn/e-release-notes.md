@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ed5fc837094662e56eb94ec57de3e0dff2825e8c
+source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3505'
 ht-degree: 8%
 ---
 
@@ -238,8 +238,6 @@ Las siguientes capacidades y mejoras estarán disponibles en los recorridos en e
 
 * **Compatibilidad con saltos para recorridos de calificación de audiencia**: los Recorridos que comienzan con una **calificación de audiencia** ahora pueden usar una actividad **Jump** para entrar en un recorrido de inicio basado en eventos; no se admite el salto a un recorrido basado en calificación de audiencia.
 
-* **Lógica de espera de evaluación de audiencia por lotes refinada** - En la **actividad de lectura de audiencia**, la opción &quot;Déclencheur después de la evaluación de audiencia por lotes&quot; en recorrido ahora siempre espera a que se complete una segmentación por lotes en curso, lo que garantiza que el recorrido utilice los datos de esa ejecución en lugar de volver a una instantánea anterior. Si no hay ninguna segmentación por lotes en curso, el recorrido utiliza inmediatamente la instantánea disponible más reciente, a menos que esa instantánea sea el mismo lote utilizado en la ejecución anterior, en cuyo caso el recorrido espera, hasta la ventana configurada, un lote más reciente y omite la ejecución de ese día si no hay ninguno disponible a tiempo.
-
 * **Comparar versiones de recorrido con el colaborador**: hoy, para revisar lo que ha cambiado entre dos versiones de un recorrido es necesario compararlo manualmente dentro de Journey Optimizer nodo por nodo. No hay ninguna comparación de diferencias estructurada, lo que hace que las comprobaciones de cambio, revisión, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través del chat de compañeros y recuperar una fidelidad completa, **diferencia estructurada**: nodos agregados, eliminados, modificados o movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación, sin necesidad de abrir Journey Optimizer.
 
 * **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
@@ -298,22 +296,6 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Anular configuración de canal de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Al crear los recorridos y las campañas, ahora puede anular los parámetros de correo electrónico derivados de la configuración de canal seleccionada directamente en el nivel de acción de recorrido o campaña.</p>
-<p>Esto le permite personalizar los campos de encabezado del correo electrónico (<strong>De nombre</strong>, <strong>De prefijo de correo electrónico</strong>, <strong>Responder al nombre</strong> y <strong>Responder al correo electrónico</strong>), la dirección de ejecución y los valores de cancelación de suscripción a una lista, mediante atributos de perfil o datos contextuales para un control más preciso. En particular, esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Android notificaciones push plantillas mejoras</strong><br/></th>
 </tr>
 </thead>
@@ -335,6 +317,90 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 
 
 * **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
+
+### Correo directo {#sep-26-direct-mail}
+
+Las siguientes funcionalidades y mejoras se incluyen en Direct Mail en esta versión.
+
+* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
+
+* **Límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin alcanzar los errores de creación de archivos.
+
+### Canal de correo electrónico {#sep-26-email-channel}
+
+Las siguientes funcionalidades y mejoras están llegando al canal de correo electrónico en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Anular configuración de canal de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Al crear los recorridos y las campañas, ahora puede anular los parámetros de correo electrónico derivados de la configuración de canal seleccionada directamente en el nivel de acción de recorrido o campaña.</p>
+<p>Esto le permite personalizar los campos de encabezado del correo electrónico (<strong>De nombre</strong>, <strong>De prefijo de correo electrónico</strong>, <strong>Responder al nombre</strong> y <strong>Responder al correo electrónico</strong>), la dirección de ejecución y los valores de cancelación de suscripción a una lista, mediante atributos de perfil o datos contextuales para un control más preciso. En particular, esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: ahora puede anular el comportamiento de la lista de supresión local en el nivel de acción de correo electrónico, de modo que las comunicaciones operativas o críticas para el cumplimiento se puedan enviar a través de una configuración dedicada cuando sea necesario. El comportamiento de la lista de supresión global permanece sin cambios.
+
+* **Validación de sintaxis de URL en la creación de correo electrónico**: Journey Optimizer ahora valida las URL anteriores en el flujo de creación de correo electrónico y ofrece una guía más clara cuando se detecta una sintaxis mal formada. Esto ayuda a los autores a detectar problemas antes de la finalización, reducir los errores de publicación y mejorar la confianza de envío.
+
+### Diseñador de correo electrónico {#sep-26-email-designer}
+
+Las siguientes funcionalidades y mejoras están llegando a Email Designer en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Compatibilidad con el modo oscuro para variantes de temas de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
+<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Importar plantillas de Dynamic Media directamente desde archivos de PSD en el Designer de correo electrónico</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media almacenada en Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, puede editarla con el editor integrado de Dynamic Media, la misma experiencia que se utiliza para el contenido de Adobe Express en el Designer de correo electrónico.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico.
 
 ### Campañas orquestadas {#sep-26-oc}
 
@@ -409,66 +475,6 @@ Las siguientes funcionalidades y mejoras estarán disponibles en la toma de deci
 * **Generación de reglas de decisiones de Coworker**: la experiencia **generación de reglas de decisiones asistidas por IA**, disponible anteriormente a través del carril derecho, ahora es accesible a través de Coworker, que reemplaza el carril derecho como la forma de generar reglas con IA.
 
 * **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente.
-
-### Correo directo {#sep-26-direct-mail}
-
-Las siguientes funcionalidades y mejoras se incluyen en Direct Mail en esta versión.
-
-* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos. Un archivo de manifiesto JSON opcional describe todas las partes generadas.
-
-* **Límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin alcanzar los errores de creación de archivos.
-
-### Diseñador de correo electrónico {#sep-26-email-designer}
-
-Las siguientes funcionalidades y mejoras están llegando a Email Designer en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con el modo oscuro para variantes de temas de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
-<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Importar plantillas de Dynamic Media directamente desde archivos de PSD en el Designer de correo electrónico</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media almacenada en Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, puede editarla con el editor integrado de Dynamic Media, la misma experiencia que se utiliza para el contenido de Adobe Express en el Designer de correo electrónico.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico.
 
 ### Creación de informes {#sep-26-reporting}
 

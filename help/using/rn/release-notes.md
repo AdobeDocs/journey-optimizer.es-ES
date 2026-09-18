@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # Notas de la versión {#release-notes}
 
@@ -161,6 +161,10 @@ ht-degree: 67%
 * **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
+
+* **Déclencheur después de la evaluación de audiencia por lotes**: para los recorridos recurrentes dirigidos a audiencias por lotes, puede configurar un período de espera de hasta 6 horas para una nueva evaluación por lotes antes de que se ejecute el recorrido. Si una evaluación está en curso, el recorrido espera a que se complete; si la ejecución anterior utilizó la instantánea más reciente, espera un lote más reciente. Si no hay ninguna audiencia nueva disponible al final de la ventana de espera, se omite esa incidencia. [Más información](../building-journeys/read-audience.md)
+
+  Fecha de disponibilidad: 18 de septiembre de 2026
 
 ### Campañas {#sep-26-campaigns}
 
