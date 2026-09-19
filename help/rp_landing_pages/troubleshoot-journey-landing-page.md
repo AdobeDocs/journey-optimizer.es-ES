@@ -1,28 +1,40 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Resolución de problemas
+title: Solución de problemas
 description: Solución de problemas
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # Seguimiento, monitorización y resolución de problemas {#section-overview}
 
 La administración eficaz de los recorridos de los clientes comienza con un seguimiento completo, lo que permite una monitorización proactiva, informes detallados y una solución de problemas eficaz. Adobe Journey Optimizer proporciona un marco de trabajo completo para capturar las interacciones de los clientes y los eventos del sistema, analizar las métricas de rendimiento y resolver problemas rápidamente cuando surjan.
 
 **Rastree** interacciones de clientes en todos los canales (correos electrónicos, web, push, en la aplicación, SMS y más) y capture aperturas, clics, conversiones y eventos personalizados que revelen cómo los clientes interactúan con su contenido.
 
-**Supervise** el rendimiento de los recorridos y las campañas usando informes en tiempo real, alertas del sistema y métricas de entregabilidad que lo ayudarán a identificar tendencias, medir el éxito y detectar posibles problemas de manera temprana.
+**Monitorice** el rendimiento de los recorridos y las campañas usando informes en tiempo real, alertas del sistema y métricas de entregabilidad que lo ayudarán a identificar tendencias, medir el éxito y detectar posibles problemas de manera temprana.
 
 **Solucione problemas** de forma eficaz con códigos de error detallados, registros de ejecución paso a paso e instrucciones específicas para resolver errores de recorrido, incoherencias de ejecución o problemas de nivel de acción.
 
-Esta página reúne recursos esenciales para ayudarle a implementar un seguimiento, supervisar el estado del recorrido, acceder a perspectivas clave de creación de informes y resolver problemas de forma eficaz en todas las etapas de los recorridos del cliente.
+Esta página reúne recursos esenciales para ayudarle a implementar un seguimiento, monitorizar el estado del recorrido, acceder a perspectivas clave de creación de informes y resolver problemas de forma eficaz en todas las etapas de los recorridos del cliente.
+
+## Encuentre su problema
+
+Utilice el síntoma que mejor se adapte a su problema para ir directamente a la guía de localización de averías pertinente:
+
+| Si tiene este problema | Empiece aquí |
+| --- | --- |
+| No puede probar ni publicar un recorrido | [Solucionar errores de recorrido](../using/building-journeys/troubleshooting.md) |
+| Los perfiles no entran ni progresan a través de un recorrido | [Solucionar problemas de ejecución de recorrido](../using/building-journeys/troubleshooting-execution.md) |
+| Una experiencia entrante no se muestra o continúa después de que salga un perfil | [Solucionar problemas de acciones entrantes](../using/building-journeys/troubleshooting-inbound.md) |
+| Falla una prueba de acción personalizada o una llamada de API | [Solucionar problemas de acciones personalizadas](../using/action/troubleshoot-custom-action.md) |
+| Debe monitorizar los recorridos en directo y las campañas de forma proactiva | [Acceder y suscribirse a las alertas del sistema](../using/reports/alerts.md) |
+| Tiene un código de error de Journey Optimizer | [Ver la referencia de códigos de error](../using/building-journeys/error-codes-reference.md) |
+| Los correos electrónicos se envían, pero no llegan a las bandejas de entrada de los destinatarios según lo esperado | [Revisar guía de entrega](../using/reports/deliverability.md) |
 
 ## Introducción al seguimiento
 
@@ -30,13 +42,13 @@ Antes de sumergirse en la monitorización y la resolución de problemas, asegúr
 
 Obtenga información sobre cómo implementar el seguimiento de correos electrónicos, experiencias web, notificaciones push, mensajes en la aplicación y mucho más, incluido cómo configurar métricas personalizadas, configurar parámetros de URL y acceder a datos de seguimiento a través de informes integrados. [Introducción al seguimiento](../using/start/get-started-tracking.md)
 
-## Informes y supervisión
+## Informes y monitorización
 
 Acceda a informes clave para monitorizar el rendimiento del recorrido, analizar métricas e identificar problemas:
 
 * [Informes globales de recorrido](../using/reports/journey-global-report-cja.md): vea métricas y análisis completos de rendimiento del recorrido en todos los canales.
 
-* [Informes activos de recorrido](../using/reports/journey-live-report.md): supervise los datos de ejecución de recorrido en tiempo real y rastree las interacciones activas de los clientes.
+* [Informes activos de recorrido](../using/reports/journey-live-report.md): monitorice los datos de ejecución de recorrido en tiempo real y rastree las interacciones activas de los clientes.
 
 * [Eventos de pasos de recorrido](../using/reports/journey-step-events-overview.md): analice los eventos de ejecución de recorrido detallados paso a paso para solucionar problemas y optimizar.
 
