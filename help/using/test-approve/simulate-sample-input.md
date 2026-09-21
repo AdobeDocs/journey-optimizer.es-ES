@@ -11,27 +11,35 @@ exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+    internal-label: Proofs
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+    internal-label: Approval workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+    internal-label: Personalization
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: 1432
-ht-degree: 3%
-
+source-wordcount: '1453'
+ht-degree: 4%
 ---
-
 # Simulación de variaciones de contenido {#custom-profiles}
 
 >[!BEGINSHADEBOX]
@@ -217,5 +225,9 @@ Journey Optimizer le permite enviar pruebas a las direcciones de correo electró
 1. Para realizar un seguimiento del envío de prueba, haga clic en el botón **[!UICONTROL Ver pruebas]** en la pantalla de simular contenido.
 
 ![Lista de pruebas enviadas](assets/simulate-custom-sent-proofs.png)
+
+>[!NOTE]
+>
+>El vínculo de la página espejo no está activo en las pruebas enviadas para las variantes. Solo se activa en el mensaje final. [Más información](../email/message-tracking.md#mirror-page).
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-sample-input.md}}

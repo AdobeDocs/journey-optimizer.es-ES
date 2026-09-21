@@ -12,30 +12,41 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
+    internal-label: Privacy
+source-git-commit: 813613268cd90d6bb10a2013bcc65b9dcc463955
 workflow-type: tm+mt
-source-wordcount: 1631
-ht-degree: 23%
-
+source-wordcount: '1697'
+ht-degree: 22%
 ---
-
 # Adición de vínculos y seguimiento de mensajes {#tracking}
 
 >[!BEGINSHADEBOX]
@@ -164,13 +175,15 @@ La página espejo se crea automáticamente. Una vez enviado el correo electróni
 
 El período de retención de una página espejo es de **90 días**. Después de ese retraso, la página espejo ya no está disponible.
 
+La dirección URL de la página espejo no está disponible actualmente como un campo documentado en un conjunto de datos de Adobe Experience Platform y [!DNL Journey Optimizer] no proporciona una API pública para recuperarla mediante un ID de entrega, ID de mensaje, ID de ejecución de mensaje o identidad de destinatario. Si necesita revisar o conservar el contenido enviado a un destinatario, use [Exportación de mensajes](../configuration/message-export.md) o [archivado de CCO](../configuration/archiving-support.md#bcc-email) en su lugar.
+
 >[!CAUTION]
 >
 >* Los vínculos de páginas espejo se generan automáticamente y no se pueden editar. Contienen todos los datos personalizados cifrados necesarios para procesar el correo electrónico original. Como resultado, el uso de atributos personalizados con valores grandes puede generar direcciones URL de páginas espejo largas, lo que puede impedir que el vínculo funcione en exploradores web que tengan una longitud de URL máxima.
 >
 >* Al crear correos electrónicos que dependen en gran medida de la personalización en tiempo de ejecución (por ejemplo, bucles de `#each`, objetos anidados, datos de carga útil grandes), las direcciones URL de página espejo pueden llegar a ser excesivamente grandes, especialmente en campañas activadas por API que utilizan datos contextuales extensos de cargas útiles. Esto puede provocar errores de HTTP (404, 422, 502) en exploradores o clientes de correo electrónico. Adobe recomienda limitar la anchura y profundidad de los campos dinámicos, reducir la dependencia de fragmentos complejos y acoplar las estructuras de personalización para evitar errores de vínculos.
 >
->* En la [prueba](../content-management/proofs.md) enviada a los perfiles de prueba, el vínculo a la página espejo no está activo. Solo está activo en los mensajes finales.
+>* En la [prueba](../content-management/proofs.md) enviada a los perfiles de prueba, incluidas las pruebas enviadas desde el recorrido [Simulación](../building-journeys/simulate-journey.md), el vínculo a la página espejo no está activo. Solo está activo en los mensajes finales.
 
 ### Toma de decisiones en páginas espejo {#decisioning-mirror-page}
 

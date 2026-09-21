@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 6%
 ---
 
 # Simulación de variaciones de contenido {#simulate-content-variations}
@@ -144,5 +144,9 @@ Al simular el contenido del correo electrónico, una barra superior proporciona 
 * **[!UICONTROL Procesar correo electrónico]**: obtiene una vista previa del procesamiento de correo electrónico en clientes y dispositivos de correo electrónico populares. [Más información](../content-management/rendering.md)
 * **[!UICONTROL Enviar prueba]**: envía una prueba de una o más variantes a un conjunto de destinatarios de correo electrónico. Haga clic en **[!UICONTROL Enviar prueba]**, añada hasta 10 direcciones de destinatario, seleccione las variantes que desee incluir y, a continuación, haga clic en **[!UICONTROL Enviar prueba]** para confirmar. Para revisar las pruebas enviadas anteriormente, haga clic en **[!UICONTROL Ver pruebas]**. [Más información](../content-management/proofs.md)
 * **[!UICONTROL Ver detalles de configuración]**: revise la configuración de canal aplicada a este contenido.
+
+>[!NOTE]
+>
+>El vínculo de la página espejo no está activo en las pruebas enviadas para las variantes. Solo se activa en el mensaje final. [Más información](../email/message-tracking.md#mirror-page).
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

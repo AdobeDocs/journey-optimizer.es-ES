@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # Asistencia para el archivado {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ Las regulaciones como HIPAA requieren que [!DNL Journey Optimizer] proporcione u
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] no posee compatibilidad con los requisitos de archivo de SMS. Para obtener soporte de archivo dedicado, trabaje con su proveedor de SMS (Sinch, Infobip o Twilio).
+
+Utilice la tabla siguiente para identificar la opción correcta para sus necesidades.
+
+| Requisito | Opción recomendada | Distinción importante |
+| --- | --- | --- |
+| Mantener una copia oculta de los mensajes de correo electrónico salientes | Correo electrónico CCO | Envía una copia a un buzón de correo configurado; no expone una dirección URL de página espejo ni crea un campo de Experience Platform consultable. |
+| Exportación de contenido de correo electrónico o SMS enviado a un sistema externo | [Exportación de mensajes](../configuration/message-export.md) | Escribe el contenido y los metadatos enviados en el conjunto de datos de exportación de mensajes de AJO para la exportación descendente; no genera una dirección URL de página espejo. |
+| Mostrar la versión en línea de un correo electrónico al destinatario | [Vínculo de página espejo](../email/message-tracking.md#mirror-page) | Se genera como parte del correo electrónico enviado; no es compatible con la API de recuperación de URL posterior al envío. |
+| Almacenar la plantilla de mensaje o los metadatos de envío no personalizados | Conjunto de datos de entidad | No proporciona el contenido personalizado exacto recibido por una persona. |
 
 ## Cómo utilizar CCO para correos electrónicos {#bcc-email}
 
@@ -142,7 +161,7 @@ Para obtener acceso a este conjunto de datos a través de la interfaz de usuario
 
 ![](assets/preset-bcc-dataset.png){width="85%"}
 
-Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+Para ejecutar consultas en este conjunto de datos, puede usar el Editor de consultas que proporciona [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png){width="100%"}
 
@@ -253,7 +272,7 @@ El encabezado `x-message-profile-id` también se almacena en los siguientes conj
 
 * Para acceder a estos conjuntos de datos a través de la interfaz de usuario, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Conjuntos de datos]** > **[!UICONTROL Examinar]**. Obtenga más información acerca de cómo obtener acceso a los conjuntos de datos en [esta sección](../data/get-started-datasets.md#access-datasets).
 
-* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=es){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
+* Use el Editor de consultas proporcionado por [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Para acceder a él, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Consultas]** y haga clic en **[!UICONTROL Crear consulta]**. [Más información](../data/get-started-queries.md)
 
 A continuación se muestran algunas consultas de ejemplo que puede ejecutar para recuperar información correspondiente a sus copias CCO.
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## Preguntas frecuentes {#faq}
+
++++ ¿Puedo recuperar una URL de página espejo después de enviar un correo electrónico?
+
+Actualmente, no, a través de una API pública documentada o un campo de conjunto de datos de Adobe Experience Platform. La [dirección URL de la página espejo](../email/message-tracking.md#mirror-page) se genera como parte del proceso de envío de mensajes. Si necesita conservar o inspeccionar el contenido enviado, use [Exportación de mensajes](message-export.md) o [archivado de CCO](#bcc-email).
+
++++
+
++++ ¿Está disponible la dirección URL de la página espejo en el conjunto de datos de entidad u otros conjuntos de datos de seguimiento?
+
+No. El [conjunto de datos de entidad](../data/datasets-query-examples.md#entity-dataset) proporciona información sobre metadatos y plantillas de mensajes, pero no debería utilizarse como origen del contenido personalizado exacto que recibe un destinatario.
+
++++
+
++++ ¿Puede utilizarse la exportación de mensajes para reconstruir una dirección URL de página espejo?
+
+No. [Exportación de mensajes](message-export.md) proporciona contenido y metadatos de mensajes enviados para la exportación descendente, el archivado, el cumplimiento normativo o el uso del servicio de atención al cliente. No genera ni devuelve una [URL de página espejo](../email/message-tracking.md#mirror-page).
+
++++
+
++++ ¿Qué opción debo utilizar si necesito ver el mensaje exacto enviado a un cliente?
+
+Use [Exportación de mensajes](message-export.md) cuando necesite contenido estructurado de mensajes enviados y metadatos en un sistema externo. Use [CCO](#bcc-email) cuando solo necesite una copia oculta de un correo electrónico saliente retenida en un buzón. Ninguna opción recupera la dirección URL de la página espejo original.
+
++++

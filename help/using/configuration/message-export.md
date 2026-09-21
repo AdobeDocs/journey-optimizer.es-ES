@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # Exportar contenido del mensaje {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ ht-degree: 6%
 Con esta función, el contenido de los mensajes de correo electrónico y SMS enviados a través de [!DNL Journey Optimizer] que se han marcado para la exportación se escribe en el [!DNL Experience Platform] [conjunto de datos de exportación de mensajes de AJO](message-export-schema.md).
 
 A continuación, los registros se conservan en el conjunto de datos durante siete días naturales a partir de la ingesta, durante los cuales puede exportarlos al sistema externo de su elección.
+
+La exportación de mensajes es una alternativa admitida cuando necesita revisar o conservar el contenido exacto enviado a un individuo, por ejemplo, para casos de uso del servicio de atención al cliente, cumplimiento o sistemas descendentes. No genera ni devuelve una dirección URL de página espejo; exporta el contenido del mensaje enviado y los metadatos relacionados para que su organización pueda almacenar y mostrar la información en sus propios sistemas.
 
 ➡️: para obtener preguntas y respuestas comunes, consulte las [Preguntas frecuentes sobre la exportación de mensajes](#message-export-faq).
 
@@ -84,9 +94,9 @@ Para ver los pasos detallados, los destinos de nube admitidos, los permisos requ
 >
 >Esta configuración debe configurarse para cada zona protegida.
 
-1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Elija un Experience Platform [tipo de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Hay disponible una lista de plataformas de destino disponibles que están listas para recibir datos en [esta página](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. En [!DNL Experience Platform], configure el destino definiendo credenciales, contenedor/contenedor, prefijo de ruta y opciones de seguridad. [Descubra cómo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Cree un flujo de exportación de conjunto de datos con los siguientes datos:
 
@@ -426,6 +436,12 @@ Los clientes suelen utilizar la exportación de mensajes para:
 
 +++
 
++++ ¿Message Export proporciona la dirección URL de la página espejo?
+
+No. Message Export proporciona contenido de mensajes enviados y metadatos relacionados en el conjunto de datos de exportación de mensajes de AJO. No genera ni devuelve una dirección URL de página espejo. [Más información sobre las páginas espejo](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ Qué no hace la exportación de mensajes
 
 La exportación de mensajes no:
@@ -434,6 +450,7 @@ La exportación de mensajes no:
 * Proporcionar retención de datos ilimitada o a largo plazo en sistemas Adobe
 * Ofrecer un entorno de prueba
 * Archivar mensajes automáticamente fuera de Adobe
+* Generar, exponer o reconstruir una dirección URL de página espejo
 
 +++
 
