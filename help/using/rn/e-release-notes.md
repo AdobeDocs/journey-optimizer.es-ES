@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Véase también [Notas de la versión preliminar de Adobe Experience Platform](h
 
 Esta versión incorpora varias características y habilidades nuevas y mejoradas de [Coworker](../start/ai-features.md#cx-coworker) que se enumeran aquí para mayor visibilidad. Cada una de ellas se detalla también en la sección pertinente que figura a continuación.
 
-* [Complementos de diseño de correo electrónico y copia de mensajes](#sep-26-content-management): dos nuevos complementos que optimizan los flujos de trabajo de mensajería y correo electrónico en Coworker, desde información de campaña hasta copia y HTML preparados para la producción.
+* [Complemento de contenido de canal CE](#sep-26-content-management): Un nuevo complemento que reúne las habilidades de HTML de copia de campaña, imagen y correo electrónico en Coworker, desde información de campaña hasta copia y HTML listas para la producción.
 * [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de tu compañero y conviértelas en desafíos en vivo sin salir del chat.
 * [Simulación de Recorrido](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
 * [Creación de Recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA.
@@ -57,26 +57,25 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Complementos de diseño de correo electrónico y copia de mensajes en Coworker</strong><br/></th>
+<th><strong>Complemento de contenido de canal en Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Hay dos nuevos complementos disponibles en Coworker para optimizar tus <strong>flujos de trabajo de mensajes y correo electrónico</strong> desde la estrategia hasta la implementación:</p>
-<p><strong>Complemento de copia de mensaje</strong>:</p>
+<p>Ahora hay disponible un nuevo complemento <strong>Channel Content</strong> en Coworker, que reúne las aptitudes de HTML de copia de campaña, imagen y correo electrónico ensamblado en un solo complemento, desde la estrategia hasta la implementación. Las siguientes habilidades están disponibles en el complemento **Contenido del canal**:</p>
 <ul>
-<li>Captura informes de campaña y define mapas de mensajería, arcos narrativos y funciones de canal.</li>
-<li>Crea una matriz de contenido multidimensional adaptada a canales, puntos de contacto, configuraciones regionales, audiencias y variantes.</li>
-<li>Produce una copia nueva y aprovecha Adobe Firefly para generar, recortar y adaptar los elementos visuales de la campaña.</li>
-<li>Permite la evaluación de contenido in situ y vuelve a sincronizar directamente los recursos aprobados con Journey Optimizer, Adobe Campaign V8 y Marketo.</li>
-</ul>
-<p><strong>Complemento de diseño de correo electrónico</strong>:</p>
-<ul>
-<li>Convierte los objetivos de marketing, las capturas de pantalla de referencia o los vínculos de diseño de Figma en planes de diseño personalizados y HTML de correo electrónico listo para la producción.</li>
-<li>Gestiona recursos de marca reutilizables, tokens de diseño y plantillas de correo electrónico estructurales.</li>
-<li>Las auditorías reunieron el código de correo electrónico para el cumplimiento normativo corporativo, la calidad del diseño visual y los estándares de accesibilidad WCAG 2.1 AA.</li>
-<li>Exporta HTML aprobado directamente a Adobe Journey Optimizer y Adobe Campaign.</li>
+<li><strong>Crear contenido para orquestar</strong>.</li>
+<li><strong>Explorar estrategia de contenido</strong></li>
+<li><strong>Resumen de contenido</strong></li>
+<li><strong>Generar contenido</strong></li>
+<li><strong>Comprobar preparación del contenido</strong></li>
+<li><strong>Revisión y regeneración de contenido</strong></li>
+<li><strong>Generar imagen</strong></li>
+<li><strong>Evaluar el diseño del contenido</strong></li>
+<li><strong>Guardar contenido del canal</strong></li>
+<li><strong>Crear correo electrónico desde Figma</strong></li>
+<li><strong>Búsqueda de marca</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
