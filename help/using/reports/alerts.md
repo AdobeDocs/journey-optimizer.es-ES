@@ -319,7 +319,7 @@ Le notifica cuando una operación **stop** **falla**. Investigue el estado de la
 
 +++ Envío de campaña iniciado
 
-Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3} (la ejecución ha pasado a la fase de entrega).**
+Le avisa cuando **se ha iniciado la entrega de mensajes** para una campaña **3&rbrace; (la ejecución ha pasado a la fase de entrega).**
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -339,7 +339,7 @@ Le notifica cuando **la entrega de mensajes** para una campaña se ha **completa
 
 +++ Error de envío de campaña
 
-Le notifica cuando **falla la entrega de mensajes** para una campaña **3}.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
+Le notifica cuando **falla la entrega de mensajes** para una campaña **3&rbrace;.** Revise los informes de campaña, los registros de ejecución y la configuración de canal para solucionar los problemas.
 
 ➡️ [Revisar el informe de campaña (CJA)](../reports/campaign-global-report-cja.md)
 
