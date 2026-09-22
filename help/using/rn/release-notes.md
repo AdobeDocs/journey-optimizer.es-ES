@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # Notas de la versión {#release-notes}
 
@@ -158,6 +158,10 @@ ht-degree: 65%
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
+* **Compatibilidad con actividades de salto en recorridos de calificación de audiencia**. Ahora puede usar actividades de salto en recorridos que comiencen con un nodo de calificación de audiencia para saltar a recorridos basados en eventos. Esta capacidad se está extendiendo progresivamente a las organizaciones. Si no ve esto en su entorno, puede deberse a que aún utiliza audiencias por lotes en las Cualificaciones de audiencia. [Más información](../building-journeys/jump.md)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026.
+
 * **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
@@ -193,6 +197,35 @@ ht-degree: 65%
 * **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
 
 +++
+
+### Campañas orquestadas {#sep-26-orchestrated-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>Alerta para campañas orquestadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las campañas orquestadas ahora admiten <strong>alertas automatizadas</strong> a través del mismo marco de alertas utilizado en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo al lienzo para comprobar más detalles en los registros.</p>
+<p>Para obtener más información, consulte la <a href="../orchestrated/start-monitor-campaigns.md#alerting">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en datos relacionales, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. [Más información](../orchestrated/activities/channels.md#add-personalization)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
+
+### Personalización {#sep-26-personalization}
+
+* **Corregir sintaxis con IA**: cuando se detecta un error de validación de sintaxis de PQL, el Editor de Personalization ahora proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor.
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Mejoras de uso {#sep-26-usability}
 

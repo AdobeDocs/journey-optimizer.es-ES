@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3432'
-ht-degree: 8%
+source-wordcount: '3373'
+ht-degree: 9%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -83,6 +83,14 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tr>
 </tbody>
 </table>
+
+### Integraciones {#sep-26-integrations}
+
+La siguiente funcionalidad está llegando a las integraciones de esta versión.
+
+* **Sustitución dinámica de tokens para fragmentos de Experience Manager**. Las referencias a fragmentos de contenido de Experience Manager ahora admiten un atributo **tokenSubstitution**. Cuando se establece en `false`, la personalización dentro de los campos del fragmento se resuelve directamente, sin un mapa de token en la referencia. El valor predeterminado es `true`, lo cual mantiene el comportamiento existente.
+
+  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ### Lealtad {#sep-26-loyalty}
 
@@ -317,13 +325,9 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 
 * **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
 
-### Correo directo {#sep-26-direct-mail}
+* **Correo directo - Dividir archivos grandes automáticamente** - Los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
 
-Las siguientes funcionalidades y mejoras se incluyen en Direct Mail en esta versión.
-
-* **Dividir archivos grandes automáticamente**: los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
-
-* **Límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin alcanzar los errores de creación de archivos.
+* **Correo directo: límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin llegar a errores de creación de archivos.
 
 ### Canal de correo electrónico {#sep-26-email-channel}
 
@@ -420,28 +424,11 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Alerta para campañas orquestadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Las campañas orquestadas ahora admiten <strong>alertas automatizadas</strong> a través del mismo marco de alertas utilizado en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera o requiere confirmación, y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo a la vista de monitorización, clasificados por gravedad para que los equipos puedan priorizar sin comprobaciones manuales de la IU.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Canal LINE para campañas orquestadas**: LINE ya está disponible como canal saliente nativo en campañas orquestadas, junto con correo electrónico, SMS y push. Puede crear y enviar mensajes de LINE directamente desde el lienzo de la campaña, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes de Flex, lo que admite casos de uso de participación promocional, transaccional y continua en mercados dominantes de LINE como Japón y APAC. Esta capacidad, que se publicó anteriormente con disponibilidad limitada, ya está disponible de forma general.
 
 * **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización.
 
 * **Mejoras en la experiencia de usuario de unión directa**: al agregar un atributo de una colección relacionada, ahora puede elegir entre tres modos de unión, un nuevo valor predeterminado que le advierte sobre el posible impacto en el rendimiento de los productos cartesianos, además de los modos Agregado y Avanzado existentes, lo que facilita la comprensión de las compensaciones de su consulta antes de crearla.
-
-* **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en **datos relacionales**, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. Esto reduce una brecha con respecto a la versión original, por lo que los especialistas en marketing pueden crear estas condiciones de forma visual, sin necesidad de ayuda de ingeniería.
 
 * **Supervisión de Campaign Orchestration**: ya está disponible una nueva interfaz de usuario para realizar el seguimiento del estado de ingesta y la actualización de los datos del almacén relacional que usa la segmentación de Campaign orquestada. Le ofrece una visibilidad directa del estado de los datos que alimentan a las audiencias por lotes. Una nueva pestaña de Campaign Orchestration del panel de monitorización de Adobe Experience Platform muestra el estado de los flujos de datos del almacén relacional (registros ingeridos/actualizados/eliminados/fallidos/omitidos), con gráficos desglosados y un desglose por flujo de datos/conjunto de datos, incluido el linaje.
 

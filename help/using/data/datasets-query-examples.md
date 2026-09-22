@@ -12,28 +12,38 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+    internal-label: Journey Optimizer schemas
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
+    internal-label: Data management
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: '1812'
 ht-degree: 1%
-
 ---
-
 # Ejemplos de consultas {#query-examples}
 
 >[!BEGINSHADEBOX]
@@ -127,6 +137,10 @@ _Nombre en la interfaz: conjunto de datos de evento de comentarios de mensajes d
 El conjunto de datos de evento de comentarios de mensajes de AJO almacena los comentarios de envío de mensajes generados por Adobe Journey Optimizer. Admite el análisis de comentarios de entrega en todos los canales de mensajes, incluidos correo electrónico, SMS/RCS/MMS y correo directo. Los eventos de comentarios se pueden utilizar para casos de uso de creación de informes y audiencias.
 
 El esquema relacionado es AJO Message Feedback Event Schema.
+
+>[!NOTE]
+>
+>En Adobe Journey Optimizer, `sent` es el valor utilizado para los resultados de envío de mensajes correctos en el conjunto de datos de evento de comentarios de mensajes. El valor `delivered` no se usa en los conjuntos de datos de evento de comentarios de mensajes de Adobe Journey Optimizer.
 
 >[!NOTE]
 >

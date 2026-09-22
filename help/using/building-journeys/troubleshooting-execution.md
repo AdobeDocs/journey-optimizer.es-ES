@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # Resolución de problemas de ejecución de recorrido activo {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -162,7 +170,7 @@ En el caso de un mensaje enviado mediante una acción personalizada, lo único q
 
 >[!NOTE]
 >
->Para las acciones nativas del canal de Journey Optimizer, consulte el conjunto de datos de evento de comentarios de mensajes para confirmar el estado de envío, como `sent` o `bounce`. Para las acciones personalizadas, consulte el conjunto de datos Evento de paso de Recorrido para confirmar que Journey Optimizer ejecutó la acción correctamente: una llamada HTTP correcta no confirma por sí misma que el sistema externo entregó un mensaje. Aprenda a [elegir el conjunto de datos correcto](../data/datasets-query-examples.md#choose-the-correct-dataset) para su caso de uso.
+>Para las acciones nativas del canal de Journey Optimizer, consulte el conjunto de datos de evento de comentarios de mensajes para confirmar el estado de envío, como `sent` o `bounce`. En Adobe Journey Optimizer, `sent` es el estado relevante para los resultados de envío de mensajes correctos; el valor `delivered` no se utiliza en los conjuntos de datos de evento de comentarios de mensajes de Adobe Journey Optimizer. Para las acciones personalizadas, consulte el conjunto de datos Evento de paso de Recorrido para confirmar que Journey Optimizer ejecutó la acción correctamente: una llamada HTTP correcta no confirma por sí misma que el sistema externo entregó un mensaje. Aprenda a [elegir el conjunto de datos correcto](../data/datasets-query-examples.md#choose-the-correct-dataset) para su caso de uso.
 
 ## Explicación de las entradas duplicadas en eventos de paso de Recorrido {#duplicate-step-events}
 

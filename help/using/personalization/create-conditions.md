@@ -11,15 +11,15 @@ keywords: expresión, editor, condicional, reglas
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Conditional instruction
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '697'
 ht-degree: 10%
-
 ---
-
 # Trabajo con reglas condicionales {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -75,6 +75,7 @@ Los pasos para crear una regla condicional son los siguientes:
    * **[!UICONTROL Perfil]**:
      * **[!UICONTROL Audiencias]** enumera todos los atributos de audiencia (por ejemplo: estado, versión, etc.) para [servicio de segmentación Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"},
      * **[!UICONTROL Perfiles individuales XDM]** enumera todos los atributos de perfil asociados al esquema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es){target="_blank"} definido en Adobe Experience Platform.
+     * **[!UICONTROL Target]**: en campañas orquestadas, esta carpeta enumera la audiencia entrante y los atributos de enriquecimiento de la tabla de trabajo de campaña, incluidos los datos de esquemas relacionales. [Obtenga más información acerca de los atributos de perfil y destino en campañas organizadas](../orchestrated/add-personalization.md#attributes).
    * **[!UICONTROL Contextual]**: cuando el mensaje se utiliza en un recorrido, los campos de recorrido contextual están disponibles a través de esta pestaña.
    * **[!UICONTROL Audiencias]**: enumera todas las audiencias generadas a partir de las definiciones de segmento creadas en [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es){target="_blank"}.
 
