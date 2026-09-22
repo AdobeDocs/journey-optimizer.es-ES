@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1571'
+ht-degree: 26%
 ---
 # Notas de la versión {#release-notes}
 
@@ -177,28 +177,15 @@ ht-degree: 31%
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+* **Aptitud para el análisis de higiene**: CX Coworker ahora puede analizar los recorridos activos y en borrador para detectar configuraciones rotas, errores silenciosos y recursos en declive o no utilizados, como recorridos en borrador antiguos, fuentes de datos huérfanas y errores persistentes de acciones personalizadas, así como correcciones recomendadas superficiales directamente en el chat. <!-- Documentation link: TBD -->
+
++++
 
 ### Campañas {#sep-26-campaigns}
 
-* **Rediseño del flujo de creación de campañas de acción**: el flujo de creación de campañas de acción de Adobe Journey Optimizer se ha rediseñado para ofrecer una experiencia del usuario significativamente más intuitiva, eficiente y fluida.
-
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulación de experiencia de entrada en campañas de acción</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora puede simular acciones de canal de entrada en campañas de acción antes de lanzarlas. Utilice el modo de simulación para probar la configuración con usuarios simulados y previsualizar la experiencia procesada, incluida una URL y un código QR generados, para poder validar las reglas, la toma de decisiones y el renderizado de contenido de extremo a extremo.</p>
-<p>Actualmente, esta funcionalidad está en versión Private Beta y está disponible para un conjunto limitado de organizaciones. Póngase en contacto con su representante de Adobe para obtener más información.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Carpetas para campañas de acción**: ahora puede organizar sus campañas de acción en carpetas para mejorar la navegación y la administración en la interfaz.
 
