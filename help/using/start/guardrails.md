@@ -226,7 +226,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
