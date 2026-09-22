@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # Envío de pruebas mediante datos de perfiles de prueba {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -37,7 +37,7 @@ Para las campañas activadas por API y de acción (programadas), también puede 
 
 **Reglas de límite de frecuencia**: todas las reglas de límite de frecuencia existentes se aplican a las pruebas. Si ha establecido [reglas de límite de frecuencia](../conflict-prioritization/channel-capping.md) (por ejemplo, envíos máximos por perfil), estos límites también se aplican al enviar pruebas. Si un perfil de prueba ya ha alcanzado el límite de frecuencia, las pruebas se mostrarán como finalizadas, pero no se enviará ningún correo electrónico. Para las pruebas repetidas, considere la posibilidad de utilizar perfiles de prueba únicos o ajustar los límites de frecuencia para los escenarios de prueba según sea necesario.
 
-**Página espejo**: en la prueba enviada, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
+**Página espejo**: el vínculo a la página espejo de una prueba no está activo. Las pruebas permiten revisar las variaciones de procesamiento de correo electrónico, contenido, personalización y contenido, pero no la navegación por páginas espejo, ya que el vínculo solo se activa una vez que se envía el mensaje final. Para confirmar el procesamiento de la página espejo antes del lanzamiento, envíe el mensaje final a una audiencia interna pequeña y controlada en lugar de a su lista de clientes activa. [Más información sobre las páginas espejo](../email/message-tracking.md#mirror-page).
 
 **Assets** - Assets e imágenes tienen reglas de accesibilidad específicas:
 

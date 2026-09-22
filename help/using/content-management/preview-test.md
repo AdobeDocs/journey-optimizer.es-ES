@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # Previsualización y prueba del contenido {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -79,6 +79,8 @@ Para las campañas activadas por API y de acción (programadas), también puede 
 * **Personalización con datos de contexto**: al obtener una vista previa de un mensaje o enviar pruebas, solo se muestran los datos de personalización del perfil. La personalización basada en datos de contexto, como la información del evento, solo se puede probar en el contexto de un recorrido. Obtenga más información en [este caso de uso](../personalization/personalization-use-case.md).
 
 * **Previsualización del contenido con varias variantes condicionales**: al simular o procesar pruebas de correos electrónicos que contienen varias variantes condicionales, Journey Optimizer puede precisar de más tiempo de procesamiento. Si experimenta tiempos de espera o mensajes de error, considere la posibilidad de reducir la cantidad total de variantes o simplificar las reglas condicionales. Obtenga más información sobre el contenido condicional en [esta página](../personalization/dynamic-content.md).
+
+* **Limitación de página espejo**: los vínculos de página espejo no están activos en las pruebas, incluidas las pruebas enviadas desde perfiles de prueba o desde variaciones de contenido probadas con datos de entrada de muestra. Las pruebas permiten validar el contenido, el procesamiento y la personalización, pero no el vínculo de página espejo, que solo se activa en los mensajes finales. [Más información](../email/message-tracking.md#mirror-page).
 
 ## Vídeo tutorial {#video-preview}
 

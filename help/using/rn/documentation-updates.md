@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: d44ffc5f15d5ca65144f79fcc695cb9ba6a23c4b
 workflow-type: tm+mt
-source-wordcount: '11356'
+source-wordcount: '11405'
 ht-degree: 89%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Septiembre de 2026 {#september-2026}
+
+* Se ha ampliado la orientación para las páginas espejo de correo electrónico: la documentación ahora explica que las direcciones URL de las páginas espejo no se pueden recuperar a través de una API pública o un conjunto de datos, recomienda la exportación de mensajes o el archivado según CCO para conservar el contenido enviado y aclara que los vínculos de las páginas espejo están inactivos en las pruebas y simulaciones. [Más información](../email/message-tracking.md#mirror-page)
 
 * Ahora hay disponible una nueva página **Demostración interactiva** para Desafíos de fidelidad, que se vincula a una demostración autoguiada en la que se puede hacer clic y que cubre el flujo de creación de desafíos del experto en marketing (incluidos sus propios datos y los paneles de perspectivas), la experiencia del cliente final y la administración de desafíos de fidelidad en CX Coworker. [Más información](../loyalty-challenges/loyalty-challenges-demo.md)
 
