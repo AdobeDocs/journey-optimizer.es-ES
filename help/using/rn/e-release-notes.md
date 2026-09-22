@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3330'
 ht-degree: 9%
 ---
 
@@ -459,8 +459,6 @@ Las siguientes funcionalidades y mejoras estarán disponibles en la toma de deci
 </table>
 
 * **Generación de reglas de decisiones de Coworker**: la experiencia **generación de reglas de decisiones asistidas por IA**, disponible anteriormente a través del carril derecho, ahora es accesible a través de Coworker, que reemplaza el carril derecho como la forma de generar reglas con IA.
-
-* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente.
 
 ### Creación de informes {#sep-26-reporting}
 
