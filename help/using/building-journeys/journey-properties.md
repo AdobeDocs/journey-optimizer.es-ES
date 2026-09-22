@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: '4644'
+source-wordcount: '4716'
 ht-degree: 13%
 ---
 # Establecimiento de las propiedades del recorrido {#jo-properties}
@@ -155,15 +155,15 @@ Para asignar al recorrido etiquetas de uso de datos personalizadas, haga clic en
 >title="Tamaño actual de la carga útil del recorrido"
 >abstract="Muestra el tamaño actual de la carga útil del recorrido en comparación con el límite configurado. Este indicador monitoriza la complejidad del recorrido antes de la publicación y evita errores producidos por un exceso del límite de tamaño de la carga útil."
 
-El campo **[!UICONTROL Tamaño de carga útil del recorrido actual]** del panel de propiedades del recorrido muestra el tamaño actual de la carga útil del recorrido en relación con el límite configurado; por ejemplo, *1,5 MB (de 2 MB)*. Este indicador de solo lectura es visible en cualquier fase de la creación del recorrido.
+El campo **[!UICONTROL Tamaño actual de carga útil de recorrido]** del panel de propiedades de recorrido muestra el tamaño actual de la definición de recorrido serializado en relación con el límite configurado; por ejemplo, *1,5 MB de 2 MB*. Este indicador de solo lectura está disponible durante la creación del recorrido.
 
 ![Indicador de tamaño de carga útil de recorrido actual en el panel de propiedades de recorrido](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-Utilice esta información para monitorizar la complejidad del recorrido antes de publicarlo. Si el tamaño de la carga útil se aproxima o supera el límite, se produce un error en la publicación del recorrido. Para reducir el tamaño, considere la posibilidad de simplificar la lógica de recorrido o reducir el número de actividades.
+El valor refleja la configuración guardada del recorrido, incluidas sus actividades, expresiones, condiciones, asignaciones de datos, parámetros y acciones. No se calcula solo a partir del recuento de actividad. Si la carga útil se aproxima al límite configurado, Journey Optimizer muestra una advertencia. Si la carga útil alcanza o supera el límite configurado, se bloquea el guardado o la publicación del recorrido.
 
-El límite predeterminado es de 4 MB. Póngase en contacto con el Servicio de atención al cliente de Adobe si necesita solicitar un límite más alto para su organización.
+El tamaño de carga útil de recorrido máximo predeterminado es **2 MB (2.000.000 bytes)**. Algunas organizaciones pueden tener límites personalizados configurados por Adobe. Póngase en contacto con su representante de Adobe si necesita información sobre un límite específico de la organización.
 
-Para obtener información detallada sobre los umbrales, los mensajes de advertencia y error y los pasos para la solución de problemas, consulte [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
+Para obtener detalles sobre los umbrales, las actividades de contribución más grandes, el comportamiento de error y las estrategias de reducción, consulte [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys). Las entidades a las que se hace referencia, como el contenido de correo electrónico al que se hace referencia mediante una acción de correo electrónico, no se incluyen en la carga útil del recorrido serializado; el contenido del mensaje de correo electrónico está sujeto a una protección de tamaño independiente.
 
 ## Zonas horarias de recorrido y perfil {#timezone}
 
@@ -531,11 +531,11 @@ La mayoría de las propiedades son de solo lectura una vez que el recorrido est�
 
 **¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
 
-Un tiempo de espera de recorrido global de [1&rbrace; detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. &#x200B;](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
+Un tiempo de espera de recorrido global de [1} detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. ](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
 
 **¿Por qué no se puede publicar mi recorrido debido al tamaño de la carga útil?**
 
-El indicador **[!UICONTROL Tamaño de carga útil del recorrido actual]** muestra la carga útil del recorrido con respecto al límite configurado (4 MB de forma predeterminada). Si la carga útil se aproxima o supera el límite, la publicación falla. Reduzca el tamaño simplificando la lógica de recorrido o reduciendo el número de actividades, o póngase en contacto con el Servicio de atención al cliente de Adobe para solicitar un límite superior. Ver [tamaño de carga útil de Recorrido](#journey-payload-size), [validación del tamaño de carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
+El indicador **[!UICONTROL Tamaño de carga útil de recorrido actual]** muestra la definición de recorrido serializada con respecto al límite configurado (**2 MB (2.000.000 bytes)** de forma predeterminada). El valor refleja la configuración guardada del recorrido, no solo el recuento de actividades. Se muestra una advertencia cuando la carga útil alcanza el 90 % del límite; el guardado o la publicación se bloquean al 100 % o más. Reduzca el tamaño simplificando expresiones, condiciones, asignaciones de datos o parámetros. Ver [tamaño de carga útil de Recorrido](#journey-payload-size), [validación del tamaño de carga útil de Recorrido](../start/guardrails.md#journey-payload-size) y [protecciones generales de recorrido](../start/guardrails.md#journeys-guardrails-journeys).
 
 **¿Qué política de combinación utiliza mi recorrido?**
 

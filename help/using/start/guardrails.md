@@ -11,25 +11,31 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
 subfeature_v2:
   - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+    internal-label: Journey guardrails
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4973
-ht-degree: 91%
-
+source-wordcount: '5133'
+ht-degree: 87%
 ---
-
 
 # Mecanismos de protección y limitaciones {#limitations}
 
@@ -99,28 +105,39 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 #### Validación del tamaño de la carga útil del recorrido {#journey-payload-size}
 
-Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido para conservar la estabilidad y el rendimiento.
+Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño de la definición del recorrido serializado para conservar la estabilidad y el rendimiento. El tamaño de la carga útil se mide en bytes y no lo determina solo el número de actividades. Cada actividad contribuye según su configuración guardada, incluidas expresiones, condiciones, asignaciones de datos, parámetros y otros valores de configuración.
+
+Los contribuyentes comunes incluyen:
+
+* Condicione actividades con expresiones complejas.
+* Actividades de acción personalizadas con muchos campos o expresiones profundamente anidadas.
+* Asignaciones de datos grandes.
+* Actividades con muchos parámetros o configuración.
+
+No hay ningún valor de tamaño fijo por actividad. Dos recorridos con el mismo número de actividades pueden tener diferentes tamaños de carga útil según su configuración. Cuando se muestre una advertencia o un error, revise la actividad con la mayor contribución identificada en el mensaje.
 
 | Situación | Umbral | Comportamiento |
 |---|---|---|
 | Carga útil &lt; 90 % del límite | Advertencia a continuación | El recorrido se guarda y se publica correctamente. No se muestran advertencias ni errores. |
-| Carga útil entre el 90 y el 99 % del límite | Advertencia (leve) | El recorrido se guarda y se publica con una advertencia: **Advertencia**: el tamaño de la carga útil del recorrido está cerca del límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes). |
-| Carga útil ≥ el 100 % del límite | **Error (crítico)** | Guardar o publicar está bloqueado. Devuelve **HTTP 413 Request Entity Too Large**. Error: el tamaño de la carga útil del recorrido supera el límite. Nodo más grande: &#39;[NodeName]&#39; (tipo: &#39;[NodeType]&#39;, tamaño: [N] bytes). |
+| Carga útil entre el 90 y el 99 % del límite | Advertencia (leve) | El recorrido se guarda y se publica con una advertencia: **Advertencia**: el tamaño de la carga útil del recorrido está cerca del límite. Actividad de contribución más grande: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, tamaño: [N] bytes). |
+| Carga útil ≥ el 100 % del límite | **Error (crítico)** | Guardar o publicar está bloqueado. Devuelve **HTTP 413 Request Entity Too Large**. Error: el tamaño de la carga útil del recorrido supera el límite. Actividad de contribución más grande: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, tamaño: [N] bytes). |
 
 **Configuración predeterminada**
 
-* **Tamaño máximo de solicitud predeterminado**: **2 MB** (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
+* **Tamaño máximo predeterminado de carga útil de recorrido**: **2 MB** (2.000.000 bytes). Algunas organizaciones pueden tener límites personalizados configurados por Adobe.
 * **Umbral de advertencia**: 90% del límite máximo.
 * **Umbral de error**: 100% del límite máximo.
 
 **Resolución de problemas y recomendaciones**
 
-* Revise el nodo más grande resaltado en la advertencia o el error.
-* Simplifique las condiciones, reduzca las asignaciones de datos y elimine pasos o parámetros innecesarios.
+* Revise la actividad con la mayor contribución resaltada en la advertencia o el error.
+* Simplifique expresiones y condiciones complejas, reduzca las asignaciones de datos y elimine campos o parámetros innecesarios.
 * Considere la posibilidad de dividir el recorrido en recorridos más pequeños si es necesario.
 * Si cree que su organización necesita un límite más alto, póngase en contacto con su representante de Adobe.
 
 Para monitorizar el tamaño de la carga útil actual del recorrido antes de publicarlo, utilice el indicador **[!UICONTROL Tamaño de carga útil del recorrido actual]** en el panel de propiedades del recorrido. [Aprenda a comprobar el tamaño de la carga útil de su recorrido](../building-journeys/journey-properties.md#journey-payload-size)
+
+La carga útil de recorrido serializado incluye la configuración de actividades de recorrido. En esta carga útil no se incluyen entidades a las que se hace referencia, como el contenido de correo electrónico al que se hace referencia mediante una acción de correo electrónico. El contenido del mensaje de correo electrónico está sujeto a la protección de tamaño de contenido de mensaje independiente en la sección [Protecciones de correo electrónico](#message-content-size).
 
 ### Comparación de paquetes de licencias {#select-package-limitations}
 
@@ -209,7 +226,7 @@ Las siguientes limitaciones se aplican a las [Acciones personalizadas](../action
 * Las direcciones de Adobe internas (`.adobe.*`) no están permitidas en las direcciones URL y las API.
 * Las acciones personalizadas integradas no se pueden eliminar.
 * Las acciones personalizadas solo admiten el formato JSON cuando se utilizan cargas útiles de solicitud o respuesta. Consulte [esta página](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS **&#x200B;**. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
+* Cualquier punto final segmentado por una acción personalizada debe admitir al menos 200 TPS ****. Tenga cuidado ya que una configuración de limitación no puede estar por debajo de 200 TPS. Según el rendimiento esperado, tener un tiempo de respuesta alto podría afectar al rendimiento real.
 
 >[!TIP]
 >
