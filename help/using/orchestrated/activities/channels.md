@@ -8,21 +8,25 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Personalization
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 2470
-ht-degree: 35%
-
+source-wordcount: '2536'
+ht-degree: 34%
 ---
-
 # Actividades del canal {#channel}
 
 >[!BEGINSHADEBOX]
@@ -233,11 +237,20 @@ Vaya a la pestaña **[!UICONTROL Contenido]** para crear el mensaje. Los pasos d
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Creación de un SMS</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Crear una notificación push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Correo directo" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creación de un correo directo</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personalizado" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Crear una acción personalizada</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="línea" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>Creación de un mensaje de LINE (LA)</strong></a></td></tr></table>
 
-### Adición de personalización {#add-personalization}
+### Añadir personalización y contenido condicional{#add-personalization}
 
 Desde el editor de mensajes en una actividad de canal, inserte **[!UICONTROL atributos de perfil]** y **[!UICONTROL atributos de destino]** de la tabla de trabajo de campaña (dimensión de segmentación y datos de enriquecimiento).
 
 ➡️ [Aprenda a agregar personalización en campañas orquestadas](../add-personalization.md), incluidas matrices de recopilación de enriquecimiento, funciones de matriz e iteración `{{#each}}`.
+
+![](../assets/oc-personalization.png)
+
+Al crear contenido condicional para una entrega por correo electrónico, puede utilizar los atributos **[!UICONTROL Target]** de la tabla de trabajo de la campaña. Estos atributos incluyen datos de audiencia o enriquecimiento entrantes de esquemas relacionales, por lo que puede mostrar contenido diferente en función del registro de destino. Las condiciones son específicas del envío actual y no se pueden guardar como condiciones reutilizables.
+
+➡️ [Aprenda a crear contenido condicional en el Designer de correo electrónico](../../personalization/dynamic-content.md#emails).
+
+
+![](../assets/conditional-content-target.png)
 
 ### Comprobación y prueba del contenido {#simulate-content-test-profiles}
 

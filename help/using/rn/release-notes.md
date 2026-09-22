@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3056'
+ht-degree: 64%
 ---
 # Notas de la versión {#release-notes}
 
@@ -193,6 +193,12 @@ ht-degree: 65%
 * **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
 
 +++
+
+### Campañas orquestadas {#sep-26-orchestrated-campaigns}
+
+* **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en datos relacionales, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. [Más información](../orchestrated/activities/channels.md#add-personalization)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Mejoras de uso {#sep-26-usability}
 
