@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 90%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # Navegación por la interfaz {#user-interface}
 
@@ -205,7 +205,7 @@ La navegación de la izquierda organiza las funcionalidades de Journey Optimizer
 **Conexiones**: integre con otros sistemas
 
 * **Fuentes**: ingeste datos de sistemas externos. [Configuración de fuentes](get-started-sources.md)
-* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es){target="_blank"}.
+* **Destinos**: exporte datos al almacenamiento en la nube. [Configurar destinos](../data/export-datasets.md). También puede activar audiencias en destinos de personalización aptos, como Adobe Target, desde el [catálogo de destinos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
 
 **Cliente**: administre públicos y perfiles
 
@@ -359,10 +359,6 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >title="Habilitar webhooks"
 >abstract="Habilite los webhooks para recibir comentarios en tiempo real sobre el estado de ejecución de sus mensajes. Antes de activar esta opción, asegúrese de que ha configurado un webhook en el menú **Administración**/**canales**/**webhook de comentarios**."
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="Webhooks de comentarios"
->abstract="Los webhooks de comentarios le permiten recibir comentarios en tiempo real sobre el estado de ejecución de los mensajes enviados con campañas transaccionales activadas por API. Solo se permite una configuración de webhook por organización + combinación de zona protegida."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -391,7 +387,7 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_header_parameters"
->title="Parámetros de encabezado"
+>title="Parámetros del encabezado"
 >abstract="Encabezados HTTP estáticos incluidos con cada solicitud de retransmisión al punto final de destino, como una clave de API, por ejemplo, x-api-key. Se envían junto con cualquier token de autenticación configurado anteriormente. Añada un encabezado por fila como par nombre/valor."
 
 >[!CONTEXTUALHELP]
@@ -404,25 +400,32 @@ El Asistente de IA proporciona ayuda instantánea y datos operativos. Haga clic 
 >title="URL de destino de retransmisión"
 >abstract="El punto final HTTPS al que Journey Optimizer llama para transmitir cada mensaje entrante. Journey Optimizer envía un POST HTTP independiente aquí por cada mensaje recibido. Es distinto de la URL de autenticación que figura en Autenticación personalizada, que solo se utiliza para obtener un token de acceso, no para recibir mensajes."
 
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="Establecer como predeterminado"
+>abstract="Active esta opción para utilizar una URL de webhook común para procesar los comentarios del proveedor y los mensajes entrantes recibidos del proveedor."
+
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
->title="Actividad de desactivación de actividad entrante"
+>title="Actividad de desactivación de la actividad entrante"
 >abstract="Elimina un perfil de hasta cinco actividades o experiencias entrantes directamente de un recorrido, lo que desvincula la descalificación entrante de la salida del recorrido."
 
 <!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_recovery_timeout"
->title="Establecer tiempo de espera de recuperación de evento"
->abstract="Controla cuánto tiempo el recorrido reproduce automáticamente los eventos afectados por una interrupción del servicio. Desactivado de forma predeterminada (reproducción automática de 72 horas); activado para ajustar la ventana de reproducción de 0 a 72 horas en el caso de recorridos con distinción de tiempo."
+>title="Establecer tiempo de espera de recuperación del evento"
+>abstract="Controla cuánto tiempo el recorrido reproduce automáticamente los eventos afectados por una interrupción del servicio. Desactivado de forma predeterminada (reproducción automática de 72 horas); activar para ajustar la ventana de reproducción de 0 a 72 horas en el caso de recorridos con restricciones de tiempo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="Tiempo de espera de acción de IDS/acción personalizada"
->abstract="La opción de tiempo de espera Acción personalizada / Acción IDS define una ruta alternativa en la recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan a través de una ruta de reserva en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
+>abstract="La opción Tiempo de espera de acción de IDS/acción personalizada define una ruta alternativa en el recorrido cuando la acción agota el tiempo de espera o devuelve un error, de modo que los perfiles continúan con una ruta de reserva, en lugar de detenerse en este paso. Los valores recomendados están entre 1 y 30 segundos."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
