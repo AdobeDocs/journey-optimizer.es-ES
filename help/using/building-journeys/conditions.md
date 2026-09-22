@@ -80,7 +80,7 @@ Para añadir una condición al recorrido, siga los pasos a continuación.
 
 >[!NOTE]
 >
->La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+>La evaluación de condición fallará para los perfiles que incluyan más de dos identidades entre dispositivos en el [Almacén de perfiles](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es#profile-data-store){target="_blank"}.
 
 ## Administrar rutas de condición {#condition_paths}
 
@@ -227,7 +227,7 @@ Para utilizar una audiencia en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tenga en cuenta que solamente las personas con el estado de participación de audiencia **Realized** se considerarán miembros de la audiencia. Para obtener más información sobre cómo evaluar una audiencia, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
    >
    >Para obtener protecciones de validación de audiencia, incluidas la limitación de caché de 5000 audiencias y la solución alternativa, consulte la [función inAudience](functions/functioninaudience.md#guardrails).
 
