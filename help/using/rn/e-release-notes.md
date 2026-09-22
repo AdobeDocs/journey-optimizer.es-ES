@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3197'
 ht-degree: 8%
 ---
 
@@ -348,7 +348,7 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 </tbody>
 </table>
 
-* **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: ahora puede anular el comportamiento de la lista de supresión local en el nivel de acción de correo electrónico, de modo que las comunicaciones operativas o críticas para el cumplimiento se puedan enviar a través de una configuración dedicada cuando sea necesario. El comportamiento de la lista de supresión global permanece sin cambios.
+* **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: Journey Optimizer ahora le permite anular el comportamiento de la lista de supresión directamente en el nivel de acción de correo electrónico en recorridos y campañas. Esto proporciona a los equipos más flexibilidad para las comunicaciones operativas o críticas para el cumplimiento que requieren una configuración de envío dedicada, al tiempo que conserva los controles de lista de supresión global existentes para todos los demás envíos. Esta mejora ayuda a las organizaciones a gestionar escenarios de excepción con precisión sin cambiar su modelo de gobernanza de supresión más amplio.
 
 * **Validación de sintaxis de URL en la creación de correo electrónico**: Journey Optimizer ahora valida las URL anteriores en el flujo de creación de correo electrónico y ofrece una guía más clara cuando se detecta una sintaxis mal formada. Esto ayuda a los autores a detectar problemas antes de la finalización, reducir los errores de publicación y mejorar la confianza de envío.
 
@@ -468,6 +468,8 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 ### Mejoras de uso {#sep-26-usability}
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+
+* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una Información general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
 
 * **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 
