@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '864'
 ht-degree: 2%
 ---
 # función inAudience {#inAudience}
@@ -52,7 +52,7 @@ Las audiencias pueden tener dos estados de participación:
 * **Realizado**: el individuo cumple los requisitos para la definición de audiencia y es un miembro activo
 * **Salido**: el usuario ha abandonado la audiencia y ya no cumple los requisitos
 
-Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxis
 
@@ -128,11 +128,9 @@ Cuando use la función `inAudience` en los recorridos, tenga en cuenta las sigui
 * Consulte [propiedades de Recorrido](../journey-properties.md) para obtener más información sobre el comportamiento de la política de combinación
 
 **Caché de audiencia para validación:**
-* En una zona protegida que contiene más de 5000 audiencias, las audiencias más antiguas pueden ser
-se rechazó durante la creación del recorrido cuando se usa `inAudience` debido a la validación
-comprueba una caché que solo contiene las 5000 audiencias actualizadas más recientemente.
-* Para solucionarlo, realice un cambio menor en la audiencia, como actualizar el
-descripción o limpie las audiencias antiguas para mantener el total por debajo del límite.
+
+* En una zona protegida que contiene más de 5000 audiencias, las audiencias más antiguas pueden rechazarse durante la creación de la recorrido al usar `inAudience`, porque la validación comprueba una caché que solo contiene las 5000 audiencias actualizadas más recientemente.
+* Para solucionarlo, realice un cambio menor en la audiencia, como actualizar la descripción, o limpie las audiencias más antiguas para mantener el total por debajo del límite.
 * Más información en [Usar audiencias en condiciones](../conditions.md#using-a-segment).
 
 **Tiempo de propagación:** {#propagation-timing}
@@ -140,7 +138,7 @@ descripción o limpie las audiencias antiguas para mantener el total por debajo 
 Cuando se usa `inAudience()` en un nodo de condición, el tiempo de evaluación de pertenencia a segmentos varía según la ubicación de la condición en el recorrido:
 
 * **En un recorrido de audiencia de lectura, antes de una actividad de espera:** Journey Optimizer lee la proyección por lotes del perfil. Los datos de esta proyección se actualizarán dentro de las **2 horas** posteriores a la ingesta. Las audiencias que dependen de condiciones basadas en el día o en la hora pueden experimentar un retraso adicional. Agregue una breve [Actividad de espera](../wait-activity.md) al principio de la recorrido o permita que el tiempo de búfer se asegure de que se refleje el último abono a segmento.
-* **En un recorrido de evento unitario, o después de una actividad de espera:** La pertenencia al segmento se lee desde la proyección de flujo (unitario). Los datos suelen estar disponibles en **15 minutos**. Para obtener más información, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **En un recorrido de evento unitario, o después de una actividad de espera:** La pertenencia al segmento se lee desde la proyección de flujo (unitario). Los datos suelen estar disponibles en **15 minutos**. Para obtener más información, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Temas relacionados
 
