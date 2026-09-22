@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '827'
 ht-degree: 2%
-
 ---
-
 # función inAudience {#inAudience}
 
 La función `inAudience` es una función de Adobe Experience Platform que le permite comprobar si un individuo del recorrido pertenece a una audiencia específica. Esta potente función le permite crear rutas de recorrido personalizadas basadas en la pertenencia a audiencias, lo que permite una segmentación y un direccionamiento sofisticados dentro de las experiencias de los clientes.
@@ -48,7 +52,7 @@ Las audiencias pueden tener dos estados de participación:
 * **Realizado**: el individuo cumple los requisitos para la definición de audiencia y es un miembro activo
 * **Salido**: el usuario ha abandonado la audiencia y ya no cumple los requisitos
 
-Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results){target="_blank"}.
+Solo las personas con el estado **Realized** se considerarán como miembros activos de la audiencia. Cuando la función devuelve `true`, confirma que el individuo tiene estado realizado; cuando devuelve `false`, indica estado saliente. Para obtener más información sobre la evaluación de audiencias, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintaxis
 
@@ -123,12 +127,20 @@ Cuando use la función `inAudience` en los recorridos, tenga en cuenta las sigui
 * Cuando se utilizan varias audiencias con la función `inAudience`, las incoherencias con las políticas de combinación pueden provocar errores o alertas
 * Consulte [propiedades de Recorrido](../journey-properties.md) para obtener más información sobre el comportamiento de la política de combinación
 
+**Caché de audiencia para validación:**
+* En una zona protegida que contiene más de 5000 audiencias, las audiencias más antiguas pueden ser
+se rechazó durante la creación del recorrido cuando se usa `inAudience` debido a la validación
+comprueba una caché que solo contiene las 5000 audiencias actualizadas más recientemente.
+* Para solucionarlo, realice un cambio menor en la audiencia, como actualizar el
+descripción o limpie las audiencias antiguas para mantener el total por debajo del límite.
+* Más información en [Usar audiencias en condiciones](../conditions.md#using-a-segment).
+
 **Tiempo de propagación:** {#propagation-timing}
 
 Cuando se usa `inAudience()` en un nodo de condición, el tiempo de evaluación de pertenencia a segmentos varía según la ubicación de la condición en el recorrido:
 
 * **En un recorrido de audiencia de lectura, antes de una actividad de espera:** Journey Optimizer lee la proyección por lotes del perfil. Los datos de esta proyección se actualizarán dentro de las **2 horas** posteriores a la ingesta. Las audiencias que dependen de condiciones basadas en el día o en la hora pueden experimentar un retraso adicional. Agregue una breve [Actividad de espera](../wait-activity.md) al principio de la recorrido o permita que el tiempo de búfer se asegure de que se refleje el último abono a segmento.
-* **En un recorrido de evento unitario, o después de una actividad de espera:** La pertenencia al segmento se lee desde la proyección de flujo (unitario). Los datos suelen estar disponibles en **15 minutos**. Para obtener más información, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **En un recorrido de evento unitario, o después de una actividad de espera:** La pertenencia al segmento se lee desde la proyección de flujo (unitario). Los datos suelen estar disponibles en **15 minutos**. Para obtener más información, consulte la [documentación de ingesta de transmisión de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Temas relacionados
 
