@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
+source-git-commit: 6f4268a1056816f2a61cac11ff818657c48ca41c
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3504'
 ht-degree: 8%
 ---
 
@@ -83,6 +83,14 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tr>
 </tbody>
 </table>
+
+### Integraciones {#sep-26-integrations}
+
+La siguiente funcionalidad está llegando a las integraciones de esta versión.
+
+* **Sustitución dinámica de tokens para fragmentos de Experience Manager**. Las referencias a fragmentos de contenido de Experience Manager ahora admiten un atributo **tokenSubstitution**. Cuando se establece en `false`, la personalización dentro de los campos del fragmento se resuelve directamente, sin un mapa de token en la referencia. El valor predeterminado es `true`, lo cual mantiene el comportamiento existente.
+
+  Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
 
 ### Lealtad {#sep-26-loyalty}
 
