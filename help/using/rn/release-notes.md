@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # Notas de la versión {#release-notes}
 
@@ -157,6 +157,10 @@ ht-degree: 62%
 * **Nueva función dateDiff en el editor de expresiones de recorrido**. El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
+
+* **Compatibilidad con actividades de salto en recorridos de calificación de audiencia**. Ahora puede usar actividades de salto en recorridos que comiencen con un nodo de calificación de audiencia para saltar a recorridos basados en eventos. Esta capacidad se está extendiendo progresivamente a las organizaciones. Si no ve esto en su entorno, puede deberse a que aún utiliza audiencias por lotes en las Cualificaciones de audiencia. [Más información](../building-journeys/jump.md)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026.
 
 * **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 

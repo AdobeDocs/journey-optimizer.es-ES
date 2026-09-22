@@ -13,26 +13,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qCnWzqjO5YRbKO-WHUo950uoHS0skcZT6sdYyNJ4esE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+    internal-label: Action activities
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 6%
-
+source-wordcount: '2236'
+ht-degree: 3%
 ---
-
 # Saltar de un recorrido a otro {#jump}
 
 >[!BEGINSHADEBOX]
@@ -96,14 +103,17 @@ Utilice estas directrices para mantener el comportamiento de la actividad de sal
 
 ### Creación {#jump-limitations-authoring}
 
-* La actividad **[!UICONTROL Jump]** solo está disponible en recorridos que usan un área de nombres.
-* Solo puede saltar a un recorrido que utilice el mismo área de nombres que el recorrido de origen.
-* No puede saltar a un recorrido que comience con un evento de **Calificación de audiencias** o **Leer audiencia**.
-* No puede tener una actividad **[!UICONTROL Jump]** y un evento **Audience Qualification** o **Read Audience** en el mismo recorrido.
-* Puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario en un recorrido. Después de **[!UICONTROL saltar]**, puedes agregar cualquier actividad que necesites.
-* Puede tener tantos niveles de salto como sea necesario. Por ejemplo, el recorrido A salta al recorrido B, que salta al recorrido C, etc.
-* El recorrido de destino también puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario.
-* No se admiten patrones de bucle. No hay forma de vincular dos o más recorridos, lo que crearía un bucle infinito. La pantalla de configuración de actividad **[!UICONTROL Jump]** impide que lo hagas.
+* **Requisito de área de nombres:** La actividad **[!UICONTROL Jump]** solo está disponible en recorridos que usan un área de nombres. Solo puede saltar a un recorrido que utilice el mismo área de nombres que el recorrido de origen.
+
+* **Restricciones de recorrido de destino:** No puede saltar a un recorrido que comience con un evento de **Calificación de audiencias** o **Leer audiencia**.
+
+* **Compatibilidad con calificación de audiencia (despliegue progresivo):** Puede tener una actividad **[!UICONTROL Jump]** y un evento **Audience Qualification** en el mismo recorrido si el recorrido comienza con la calificación de audiencia y el salto redirige a un recorrido de inicio basado en evento. Esta capacidad se está implementando progresivamente. Si no ve esto en su entorno, puede deberse a que aún utiliza audiencias por lotes en las Cualificaciones de audiencia.
+
+* **Restricción de audiencia de lectura:** No puede tener una actividad **[!UICONTROL Jump]** y un evento **Read Audience** en el mismo recorrido.
+
+* **Varios saltos:** Puedes incluir tantas actividades **[!UICONTROL Jump]** como sea necesario en un recorrido. Después de **[!UICONTROL saltar]**, puedes agregar cualquier actividad que necesites. Puede tener tantos niveles de salto como sea necesario (por ejemplo, el recorrido A salta al recorrido B, que salta al recorrido C). El recorrido de destino también puede incluir tantas actividades **[!UICONTROL Jump]** como sea necesario.
+
+* **Prevención de bucles:** No se admiten patrones de bucles. No hay forma de vincular dos o más recorridos que puedan crear un bucle infinito. La pantalla de configuración de actividad **[!UICONTROL Jump]** impide que lo hagas.
 
 ### Ejecución {#jump-limitations-exec}
 
@@ -143,7 +153,7 @@ Cree cada fase como un recorrido independiente en Journey Optimizer y, a continu
    ![Menú desplegable de selección de recorrido de destino en la configuración de actividad de salto](assets/jump2.png)
 
 1. Haga clic dentro del campo **recorrido de destino**.
-La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento **Calificación de audiencias** no están disponibles. Los recorridos de destino que crearían un patrón de bucle también se filtran.
+La lista muestra todas las versiones de recorrido que son borradores, activos o en modo de prueba. Los recorridos que usan un área de nombres diferente o que comienzan con un evento **Leer audiencia** no están disponibles. Los recorridos que comienzan con un evento de **Calificación de audiencias** solo están disponibles si su recorrido de origen también comienza con la Calificación de audiencias (y las audiencias por lotes han quedado obsoletas para los nuevos nodos de Calificación de audiencias de su organización). Los recorridos de destino que crearían un patrón de bucle también se filtran.
 
    ![Actividad de salto que muestra el recorrido de destino y los parámetros de acción](assets/jump3.png)
 
@@ -192,4 +202,53 @@ En los casos siguientes, el paso de salto se trata como una **acción fallida** 
 * Se configura un período de reentrada en el recorrido de destino. Incluso cuando, en principio, se permite la reentrada, el perfil no puede volver a entrar hasta que transcurra el periodo (el salto falla con el estado &quot;no reentrante para el periodo&quot;).
 * La versión del recorrido de destino no se puede encontrar, se ha eliminado, está en estado terminado o se ha detenido.
 
-{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-jump.md}}
++++ Referencia de conocimientos de AI
+
+Esta sección contiene conocimientos estructurados destinados a apoyar la interpretación, la recuperación y la respuesta a preguntas relacionadas con este tema.
+
+Para una comprensión completa, esta información debe combinarse con la documentación de esta página. Ninguna de las fuentes pretende ser independiente; la página describe la función, mientras que esta sección proporciona contexto adicional que ayuda a desambiguar la terminología, la intención, la aplicabilidad y las restricciones.
+
+* **TL;DR:** En esta página se explica la actividad de salto, que inserta perfiles de un recorrido a otro para simplificar diseños de recorridos complejos mediante patrones de recorridos secundarios reutilizables.
+
+**Intenciones:**
+
+* Utilice la actividad Jump para transferir perfiles de un recorrido de origen a un recorrido de destino
+* Descomponga un recorrido complejo en recorridos secundarios más pequeños y manejables conectados mediante actividades Jump
+* Configure la actividad Jump seleccionando un recorrido de destino y parámetros de acción de asignación
+* Comprender el comportamiento del perfil cuando se ejecuta un salto (perfil activo en ambos recorridos simultáneamente)
+* Solucionar errores de configuración de Jump y errores de tiempo de ejecución
+* Evite los patrones de bucle al encadenar varios recorridos con actividades de salto
+
+**Glosario:**
+
+* **Actividad de salto**: una actividad de acción que envía un evento interno al primer evento de un recorrido de destino, lo que hace que el perfil empiece a fluir a través de ese recorrido. *(específico del producto)*
+* **recorrido de origen**: el recorrido que contiene la actividad de salto e inicia la transferencia de un perfil a otro recorrido. *(específico del producto)*
+* **recorrido de destino**: el recorrido que recibe el perfil a través del déclencheur de eventos interno de la actividad de salto. *(específico del producto)*
+* **Omisión silenciosa**: El comportamiento cuando un perfil ya está activo en el recorrido de destino en el momento de un salto; el salto se omite sin error y el recorrido de origen continúa normalmente. *(específico del producto)*
+
+**Protecciones:**
+
+* La actividad de salto solo está disponible en recorridos que utilizan un área de nombres; los recorridos de origen y destino deben compartir el mismo área de nombres
+* No se puede saltar a un recorrido que comience por un evento de calificación de audiencia o una audiencia de lectura
+* No se puede utilizar una actividad de salto y un evento de audiencia de lectura en el mismo recorrido
+* Puede utilizar una actividad de salto y un evento de calificación de audiencia en el mismo recorrido solo si el recorrido comienza con la calificación de audiencia y salta a un recorrido basado en eventos (sujeto al despliegue de indicadores de funcionalidades)
+* Los patrones de bucle (cadenas de recorrido circulares) no son compatibles y la interfaz de usuario de configuración los impide
+* Durante el tiempo de ejecución, se activa la última versión activa del recorrido de destino
+* Un perfil solo puede estar presente una vez en el mismo recorrido a la vez; si ya está activo en el recorrido de destino, el salto se omite silenciosamente
+* Si el recorrido de destino es borrador, cerrado, detenido, eliminado o si su primera asignación de evento se rompe, el salto provoca un error de configuración
+
+**Terminología:**
+
+* Nombre canónico: Jump activity — Acrónimo: none — variantes: Jump action, recorrido jumping
+* Sinónimos: &quot;recorrido de origen&quot; = &quot;recorrido de origen&quot;; &quot;recorrido de destino&quot; = &quot;recorrido de destino&quot;
+* No confundir: &quot;omisión silenciosa&quot; ≠ &quot;error de tiempo de ejecución&quot;: se produce una omisión silenciosa cuando el perfil ya está en la recorrido de destino (sin que se produzca ningún error); se produce un error de tiempo de ejecución cuando el recorrido de destino no está disponible o no se reintroduce (se trata como una acción fallida)
+
+**PREGUNTAS MÁS FRECUENTES:**
+
+* **Q: ¿Qué le sucede a un perfil en la recorrido de origen después de un salto?** — El perfil sigue progresando a través de los pasos restantes del recorrido de origen después del paso Saltar mientras entra simultáneamente en el recorrido de destino; está activo en ambos recorridos al mismo tiempo.
+* **Q: ¿Puedo saltar a un recorrido de lectura de audiencias?** — No; no puede saltar a un recorrido que comience con un evento Leer audiencia. Tampoco puede saltar a un recorrido que comience con un evento de calificación de audiencias. Sin embargo, si el recorrido de origen comienza con un evento de calificación de audiencias, puede ir a un recorrido basado en eventos (esta funcionalidad se está implementando progresivamente y es posible que aún no esté disponible en todas las organizaciones).
+* **Q: ¿Qué déclencheur genera el recorrido de destino cuando se ejecuta un salto?** — la actividad Jump envía un evento interno al primer evento del recorrido de destinatario; a continuación, el perfil fluye a través del recorrido de destino desde ese primer evento.
+* **Q: ¿Cómo evito bucles infinitos al encadenar recorridos con Jump?** — Los patrones de bucle están bloqueados por la interfaz de usuario de configuración de actividad de salto, que filtra los recorridos de destino que crearían una cadena circular.
+* **Q: ¿Qué versión del recorrido de destino se activa mediante un salto?** — La última versión activa (o en modo de prueba) del recorrido de destino se activa durante la ejecución.
+
++++
