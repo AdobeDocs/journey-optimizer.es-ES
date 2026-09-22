@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7183'
+source-wordcount: '7217'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 Esta página incluye todos los cambios más recientes en la documentación de [!DNL Journey Optimizer], además de las actualizaciones relacionadas con las características y mejoras de la versión mensual.
 
 ## Septiembre de 2026 {#september-2026}
+
+* Las protecciones de `inAudience` ahora incluyen la solución para las zonas protegidas con más de 5000 audiencias, donde las audiencias más antiguas se pueden rechazar durante la creación de recorridos porque la validación solo comprueba las 5000 audiencias actualizadas más recientemente. [Más información](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * Se ha ampliado la orientación para las páginas espejo de correo electrónico: la documentación ahora explica que las direcciones URL de las páginas espejo no se pueden recuperar a través de una API pública o un conjunto de datos, recomienda la exportación de mensajes o el archivado según CCO para conservar el contenido enviado y aclara que los vínculos de las páginas espejo están inactivos en las pruebas y simulaciones. [Más información](../email/message-tracking.md#mirror-page)
 
