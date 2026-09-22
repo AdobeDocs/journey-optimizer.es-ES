@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 59da1a1f2aeb1fb663c55be66fe309182fd06e7f
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 8%
+source-wordcount: '3373'
+ht-degree: 9%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -405,12 +405,6 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 
 * **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico.
 
-### Personalización {#sep-26-personalization}
-
-La siguiente mejora se refiere a la personalización en esta versión.
-
-* **Corregir sintaxis con IA**: cuando se detecta un error de validación de sintaxis de PQL, el Editor de Personalization ahora proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor.
-
 ### Campañas orquestadas {#sep-26-oc}
 
 Las siguientes funcionalidades y mejoras estarán disponibles en las campañas orquestadas en esta versión.
@@ -425,21 +419,6 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 <tr>
 <td>
 <p>La <strong>actividad de unión</strong> en las campañas orquestadas ahora admite las condiciones de unión AND y OR. Con la lógica OR, un perfil que completa cualquier rama ascendente, en lugar de todas, continúa a lo largo de una sola ruta descendente compartida. Esto permite modelar patrones "si A, B o C, entonces hágalo" directamente en el lienzo sin duplicar los pasos descendentes a través de ramas independientes.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Alerta para campañas orquestadas</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Las campañas orquestadas ahora admiten <strong>alertas automatizadas</strong> a través del mismo marco de alertas utilizado en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo al lienzo para comprobar más detalles en los registros.</p>
 </td>
 </tr>
 </tbody>
