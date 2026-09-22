@@ -146,13 +146,13 @@ El esquema relacionado es el esquema `AJO Message Feedback Event`.
 >
 >* No se garantiza que los campos de contexto específicos del canal se rellenen en cada evento. Utilice identificadores de ejecución de mensajes, estado de comentarios, detalles de errores, marcas de tiempo e información de identidad como campos de correlación principales.
 
-Para obtener la lista completa de campos, rutas de campo, tipos de datos y descripciones, consulte la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+Para obtener la lista completa de campos, rutas de campo, tipos de datos y descripciones, consulte la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/tools/ajo-schemas){target="_blank"}.
 
 ### Clasificar ejecuciones de prueba y no de prueba{#classify-test-executions}
 
 Utilice el campo `isTestExecution` para distinguir las ejecuciones de prueba de las ejecuciones que no son de prueba cuando se rellene el campo.
 
-Antes de crear una consulta, use la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} para confirmar la ruta de campo, el tipo de datos y la descripción actuales del esquema de evento de comentarios de mensajes de AJO.
+Antes de crear una consulta, use la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/tools/ajo-schemas){target="_blank"} para confirmar la ruta de campo, el tipo de datos y la descripción actuales del esquema de evento de comentarios de mensajes de AJO.
 
 Interprete los valores rellenados de la siguiente manera:
 
@@ -166,7 +166,7 @@ No convierta automáticamente `NULL` a `false` y no dé por sentado que cada val
 
 Es posible que algunos registros históricos o específicos del canal no rellenen todos los campos de contexto del mensaje. Por lo tanto, debe probar la disponibilidad de los campos por canal y conservar los valores nulos en lugar de tratarlos como cadenas vacías o valores deducidos.
 
-Ejecute esta consulta solo después de confirmar la ruta de acceso `isTestExecution` en la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+Ejecute esta consulta solo después de confirmar la ruta de acceso `isTestExecution` en la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
