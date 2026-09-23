@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 21%
+source-wordcount: '2160'
+ht-degree: 20%
 ---
 # Notas de la versión {#release-notes}
 
@@ -111,6 +111,21 @@ ht-degree: 21%
   Fecha de disponibilidad: 15 de septiembre de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Recomendaciones de desafío</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El menú Rendimiento de fidelidad ahora incluye las pestañas **Oportunidades** y **Tendencia**, que muestran tendencias y brechas detectadas por IA, como fricción de progresión de nivel o desactivación de tareas de desafío, cada una con un impacto proyectado y una acción de un solo clic "Crear con IA" para generar un desafío que lo aborde.</p><p>Además, los especialistas en marketing pueden solicitar oportunidades de **desafío** directamente en la interfaz conversacional de Coworker, obteniendo ideas de desafío fundamentadas en tendencias reales de programas de lealtad y convirtiéndolas en desafíos en vivo sin salir del chat.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Plazos para la finalización del desafío de fidelización por miembro**: los desafíos de fidelización ahora admiten los plazos de finalización por miembro: elija &quot;En un número de días después de la inclusión&quot; en Requisitos de finalización para que el plazo de cada miembro se calcule a partir de su propia fecha de inclusión en lugar de una fecha de finalización fija para todo el programa. Si se establecen tanto una fecha de finalización de desafío como esta ventana de inclusión, el plazo de cada miembro es el que sea primero. <!-- Documentation link: TBD -->
 

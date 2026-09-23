@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -113,8 +113,6 @@ Las siguientes capacidades y mejoras llegan a Loyalty en esta versión.
 </tr>
 </tbody>
 </table>
-
-* **Habilidad para recomendar fidelidad a compañeros de trabajo**: los especialistas en marketing ahora pueden solicitar **oportunidades de desafío** directamente en la interfaz conversacional de los compañeros de trabajo, obteniendo ideas de desafío fundamentadas en tendencias reales del programa de fidelidad y convirtiéndolas en desafíos en vivo sin salir del chat.
 
 * Dominio de **retos en el editor de personalización de tarjetas de contenido**: el editor de personalización de tarjetas de contenido ahora admite **desafíos** como dominio, lo que le permite acceder a los metadatos de desafíos al crear la personalización de tarjetas de contenido. Esto facilita la creación de contenido personalizado para cada fase de un desafío (inicio, en curso y final) sin código personalizado.
 
