@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 9%
+source-wordcount: '2943'
+ht-degree: 8%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -85,11 +85,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 ### Integraciones {#sep-26-integrations}
 
-La siguiente funcionalidad está llegando a las integraciones de esta versión.
+Las siguientes funcionalidades están llegando a las integraciones en esta versión.
 
 * **Sustitución dinámica de tokens para fragmentos de Experience Manager**. Las referencias a fragmentos de contenido de Experience Manager ahora admiten un atributo **tokenSubstitution**. Cuando se establece en `false`, la personalización dentro de los campos del fragmento se resuelve directamente, sin un mapa de token en la referencia. El valor predeterminado es `true`, lo cual mantiene el comportamiento existente.
 
   Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe.
+
+* **Compatibilidad con fragmentos de contenido de AEM Managed Services en Decisioning**: los fragmentos de contenido de AEM Managed Services ahora se admiten en Decisioning al administrar elementos de decisión.
 
 ### Lealtad {#sep-26-loyalty}
 
@@ -429,7 +431,7 @@ La siguiente funcionalidad se incluye en los informes en esta versión.
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
 
-* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una Información general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
+* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una descripción general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
 
 * **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 
