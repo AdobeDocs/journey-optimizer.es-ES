@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2079'
 ht-degree: 21%
 ---
 # Notas de la versión {#release-notes}
@@ -290,7 +290,6 @@ La siguiente mejora se incorpora en esta versión.
 </tbody>
 </table>
 
-
 ### Personalización {#sep-26-personalization}
 
 * **Corregir sintaxis con IA**: cuando se detecta un error de validación de sintaxis de PQL, el Editor de Personalization ahora proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor.
@@ -298,12 +297,6 @@ La siguiente mejora se incorpora en esta versión.
   Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Toma de decisiones {#sep-26-decisioning}
-
-* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  Fecha de disponibilidad: 22 de septiembre de 2026
-
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -313,14 +306,17 @@ La siguiente mejora se incorpora en esta versión.
 </thead>
 <tbody>
 <tr>
-<td>
-<p>La toma de decisiones ya está disponible para el canal web. Puede utilizar las directivas de decisión directamente en el editor visual web para enviar las ofertas más relevantes a cada visitante.</p>
+<td>La toma de decisiones ya está disponible para el canal web. Puede utilizar las directivas de decisión directamente en el editor visual web para enviar las ofertas más relevantes a cada visitante.</p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/use-decision-policy.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Públicos {#sep-26-audiences}
 
