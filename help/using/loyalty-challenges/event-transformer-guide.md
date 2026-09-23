@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guía del transformador de eventos
-description: Obtenga información sobre cómo configurar los ajustes de esquema y transformador para las definiciones de eventos de Retos de fidelidad en Adobe Journey Optimizer.
+description: Obtenga información sobre cómo configurar los ajustes de esquema y transformador para las asignaciones de eventos de Retos de fidelidad en Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="Guía del transformador de eventos"
->abstract="Utilice esta guía para configurar la validación de esquemas y las expresiones del transformador para las definiciones de eventos de Retos de lealtad."
+>abstract="Utilice esta guía para configurar la validación de esquemas y las expresiones del transformador para las asignaciones de eventos de Retos de fidelidad."
 
 >[!BEGINSHADEBOX]
 
@@ -37,16 +37,16 @@ Para que una transacción de cliente se pueda aplicar a un desafío de fidelidad
 
 ## Información general
 
-Una **definición de evento** indica a la plataforma dos cosas:
+Una **asignación de eventos** indica a la plataforma dos cosas:
 
 * **Qué eventos reclamar**: cómo reconocer que un evento entrante pertenece a esta definición (coincidencia)
 * **Cómo darles nueva forma**: una expresión [JSONata](https://docs.jsonata.org/overview) que asigna los campos del cliente al formato de Evento de fidelidad (transformación)
 
-Se pueden configurar varias definiciones de evento por organización. La plataforma los evalúa en orden y aplica el primero que coincida. Los eventos que no coinciden con ninguna definición se transfieren a la ingesta nativa (consulte [Reserva — Eventos de fidelidad nativos](#fallback--native-loyalty-events)).
+Se pueden configurar varias asignaciones de eventos por organización. La plataforma los evalúa en orden y aplica el primero que coincida. Los eventos que no coinciden con ninguna asignación se transfieren a la ingesta nativa (consulte [Reserva — Eventos de fidelidad nativos](#fallback--native-loyalty-events)).
 
 ## El formato de evento de fidelización de Adobe
 
-Cada definición de evento debe producir un objeto JSON con el siguiente formato. Esta es la entrada que procesa el servicio de desafío.
+Cada asignación de evento debe producir un objeto JSON con el siguiente formato. Esta es la entrada que procesa el servicio de desafío.
 
 ```json
 {
@@ -83,7 +83,7 @@ Cada definición de evento debe producir un objeto JSON con el siguiente formato
 | `_id` | No | Se utiliza para la desduplicación si org tiene habilitada la detección de duplicados. |
 | `sub_total` | No | Las tareas de umbral de gasto utilizan esto; omitir significa no gastar. |
 
-## Campos de definición de evento
+## Campos de asignación de eventos
 
 | Campo | Tipo | Requerido | Descripción |
 |--------------------------------|------------------|----------------------|-------------|
@@ -97,7 +97,7 @@ Cada definición de evento debe producir un objeto JSON con el siguiente formato
 
 Los eventos que llegan a través del servicio principal de recopilación de datos (DCCS) llevan una referencia de esquema XDM en su sobre. La plataforma lee el identificador de esquema de `/body/xdmMeta/schemaRef/id` y lo compara con el `xdmSchemaId` de cada definición.
 
-La plataforma recorre las definiciones de evento de la organización **en orden** y aplica la primera coincidencia. Una vez encontrada una coincidencia, el cuerpo `xdmEntity` se pasa al transformador.
+La plataforma recorre las asignaciones de eventos de la organización **en orden** y aplica la primera coincidencia. Una vez encontrada una coincidencia, el cuerpo `xdmEntity` se pasa al transformador.
 
 ## Escritura del transformador
 
@@ -243,7 +243,7 @@ La biblioteca completa de funciones JSONata está disponible. Ejemplos útiles:
 }
 ```
 
-**Definición de evento:**
+**Asignación de eventos:**
 
 ```json
 {
@@ -317,7 +317,7 @@ Una tarea de desafío sin restricciones de inclusión/exclusión contará este e
 }
 ```
 
-**Definición de evento:**
+**Asignación de eventos:**
 
 ```json
 {
@@ -399,7 +399,7 @@ Una tarea de desafío con `include: ["BEVERAGE"]` vería que el elemento de lín
 }
 ```
 
-**Definición de evento:**
+**Asignación de eventos:**
 
 ```json
 {
@@ -485,17 +485,17 @@ Los eventos que no superan la validación del esquema se rechazan antes de ejecu
 
 +++
 
-Pase este esquema como una cadena JSON minificada en el campo `schema` de la definición del evento.
+Pase este esquema como una cadena JSON minificada en el campo `schema` de la asignación de evento.
 
 ## Reserva: eventos de fidelidad nativos
 
-Si ninguna definición de evento coincide con un evento entrante, la plataforma intenta introducirlo directamente como un evento de fidelidad de Adobe nativo. Si la carga útil ya se ajusta al formato de evento de fidelidad descrito anteriormente, no se necesita ningún transformador y el evento se aplica tal cual. Esto permite a los clientes que han formateado previamente sus eventos evitar la transformación por completo.
+Si ninguna asignación de evento coincide con un evento entrante, la plataforma intenta introducirlo directamente como un evento de fidelidad de Adobe nativo. Si la carga útil ya se ajusta al formato de evento de fidelidad descrito anteriormente, no se necesita ningún transformador y el evento se aplica tal cual. Esto permite a los clientes que han formateado previamente sus eventos evitar la transformación por completo.
 
 ## Referencia de la API
 
-Todas las operaciones de definición de eventos utilizan la ruta base `/loyalty/metadata/config/events`.
+Todas las operaciones de asignación de eventos utilizan la ruta base `/loyalty/metadata/config/events`.
 
-+++Creación de una definición de evento
++++Creación de una asignación de eventos
 
 ```http
 POST /loyalty/metadata/config/events
@@ -512,7 +512,7 @@ Content-Type: application/json
 
 +++
 
-+++Enumerar definiciones de eventos
++++Enumerar asignaciones de eventos
 
 ```http
 GET /loyalty/metadata/config/events
@@ -522,7 +522,7 @@ x-sandbox-name: {SANDBOX}
 
 +++
 
-+++Actualizar una definición de evento
++++Actualización de una asignación de eventos
 
 ```http
 PUT /loyalty/metadata/config/events/{eventId}
@@ -538,7 +538,7 @@ Content-Type: application/json
 
 +++
 
-+++Eliminar una definición de evento
++++Eliminar una asignación de eventos
 
 ```http
 DELETE /loyalty/metadata/config/events/{eventId}
@@ -550,7 +550,7 @@ x-sandbox-name: {SANDBOX}
 
 ## Validación del transformador
 
-Las expresiones JSONata se validan para la sintaxis cuando se guarda la definición del evento. Si la expresión no es válida, la API devuelve un error `422` con una descripción del error de análisis.
+Las expresiones JSONata se validan para la sintaxis cuando se guarda la asignación de eventos. Si la expresión no es válida, la API devuelve un error `422` con una descripción del error de análisis.
 
 Para probar un transformador antes de implementarlo, use [JSONata Exerciser](https://try.jsonata.org/): pegue el evento de origen como entrada y la expresión del transformador para comprobar que la salida coincide con el formato de evento de fidelidad esperado.
 

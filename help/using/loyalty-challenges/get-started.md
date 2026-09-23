@@ -16,7 +16,7 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 14%
@@ -73,7 +73,7 @@ El uso de Desafíos de fidelización implica tres fases amplias (configuración,
 
 **1. Configure su programa** *(administrador)*
 
-Antes de poder crear desafíos, un administrador configura las bases del programa: proveedores de recompensas, definiciones de eventos que asignan acciones del cliente a finalizaciones de tareas, inventario de productos y listas de exclusión. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md).
+Antes de poder crear desafíos, un administrador configura las bases del programa: proveedores de recompensas, asignaciones de eventos que asignan acciones del cliente a finalizaciones de tareas, inventario de productos y listas de exclusión. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md).
 
 **2. Autor y desafíos de inicio** *(profesional)*
 
@@ -97,7 +97,7 @@ Póngase en contacto con el administrador si no puede acceder a la función o ne
 
 +++Configuración del programa de fidelización (administradores)
 
-Los administradores configuran los proveedores de recompensas, las definiciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Configuraciones de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
+Los administradores configuran los proveedores de recompensas, las asignaciones de eventos, el inventario de productos, las exclusiones y la configuración global en el menú **[!UICONTROL Configuraciones de fidelidad]**. Los especialistas en marketing que solo crean desafíos no necesitan acceder a este menú. [Aprenda a configurar desafíos de lealtad](loyalty-admin.md)
 
 Póngase en contacto con el administrador si el menú **[!UICONTROL Configuraciones de fidelidad]** no está visible en el panel de navegación izquierdo.
 
@@ -163,14 +163,14 @@ Ahora que sabe cuáles son los Desafíos de Lealtad y cómo funcionan, es hora d
     <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
   <td>
     <a href="loyalty-admin.md">
-    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
+    <em>Set up reward providers, event mappings, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurar retos de fidelización</strong></a>
     </div>
     <p>
-    <em>Configurar proveedores de recompensas, definiciones de eventos y configuraciones de organización</em>
+    <em>Configure proveedores de recompensas, asignaciones de eventos y configuraciones de organización</em>
     </p>
   </td>
 </tr>
@@ -189,7 +189,7 @@ Para obtener la autenticación y los encabezados requeridos, consulte el [tutori
 
 **¿Es nuevo en los desafíos de fidelidad?** Vea esta descripción general para comprender las capacidades y ventajas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496454?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## Demostración interactiva {#demo}
 
