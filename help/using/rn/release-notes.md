@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # Notas de la versión {#release-notes}
@@ -299,7 +299,7 @@ La siguiente mejora se incorpora en esta versión.
 <li>Al migrar un correo electrónico, [!DNL Journey Optimizer] identifica los bloques de contenido a los que hace referencia ese correo electrónico y los presenta como elementos de acción, de modo que puede migrar los bloques de contenido a lo largo del correo electrónico.</li>
 <li>La interfaz se ha mejorado para que la incorporación guiada sea más intuitiva.</li></ul>
 <p>Para obtener más información, consulte la <a href="../start/onboarding-hub.md">documentación detallada</a>.</p>
-<p>Fecha de disponibilidad: 2 de septiembre de 2026</p>
+<p>Fecha de disponibilidad: 23 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
@@ -312,6 +312,8 @@ La siguiente mejora se incorpora en esta versión.
   Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Toma de decisiones {#sep-26-decisioning}
+
+En esta versión se incluyen las siguientes funcionalidades y mejoras para la toma de decisiones.
 
 <table>
 <thead>
@@ -328,6 +330,10 @@ La siguiente mejora se incorpora en esta versión.
 </tr>
 </tbody>
 </table>
+
+* **Los fragmentos de contenido de AEM en Decisioning estaban disponibles para los clientes de Managed Services**. Anteriormente, los fragmentos de contenido de AEM en Decisioning solo estaban disponibles para los clientes que usaban la integración con **Adobe Experience Manager as a Cloud Service**. Esta funcionalidad ahora también está disponible para los clientes que usan **Adobe Experience Manager Managed Services**. [Más información](../experience-decisioning/items.md#attributes)
+
+  Fecha de disponibilidad: 23 de septiembre de 2026
 
 * **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
