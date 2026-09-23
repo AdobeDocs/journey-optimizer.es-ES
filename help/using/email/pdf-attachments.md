@@ -45,7 +45,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Añadir un archivo adjunto de PDF"
->abstract="Busque y seleccione un archivo de PDF para adjuntarlo al correo electrónico.</br>Puede enviar hasta seis mensajes con un archivo adjunto de PDF por perfil y año. El tamaño máximo permitido para cada archivo adjunto es de 5 MB.</br>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de archivos adjuntos PDF. Para obtener más información, póngase en contacto con su representante de Adobe."
+>abstract="Busque y seleccione un archivo PDF para adjuntarlo al correo electrónico.</br>Puede enviar hasta seis mensajes con un archivo adjunto de PDF por perfil y año. El tamaño máximo permitido para cada archivo adjunto es de 5 MB.</br>Para cualquier tamaño o volumen adicional, puede adquirir un complemento de archivos adjuntos PDF. Para obtener más información, póngase en contacto con su representante de Adobe."
 
 Puede adjuntar un archivo PDF estático a los mensajes de correo electrónico que envíe con [!DNL Journey Optimizer]. Si usa [campañas activadas por API](../campaigns/api-triggered-campaigns.md), también puede adjuntar un [archivo PDF personalizado para cada destinatario](#personalized-attachments).
 

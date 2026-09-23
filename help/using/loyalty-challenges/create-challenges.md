@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # Crear retos {#create-challenges}
@@ -108,7 +108,7 @@ Defina quién puede participar en su desafío de fidelidad.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Programación del desafío"
->abstract="Defina cuándo está activo el desafío utilizando la fecha y hora de inicio y finalización y una zona horaria, o seleccione Sin fecha de finalización para ejecutar el desafío indefinidamente. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo del reto."
+>abstract="Defina cuándo se activará el reto utilizando la fecha y la hora de inicio y finalización y una zona horaria, o seleccione Sin fecha de finalización para ejecutar el reto de manera indefinida. En la ventana de finalización de tareas, seleccione cuándo pueden los clientes completar las tareas durante el periodo del reto."
 
 Configure cuándo se ejecuta el desafío:
 

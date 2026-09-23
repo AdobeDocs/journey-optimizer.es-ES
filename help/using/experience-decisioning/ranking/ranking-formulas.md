@@ -10,26 +10,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 2024
+source-wordcount: '2134'
 ht-degree: 4%
-
 ---
-
 # Crear fórmulas de clasificación {#create-ranking-formulas}
 
 >[!BEGINSHADEBOX]
@@ -298,6 +305,8 @@ Tenga en cuenta que al usar la API **Decisioning**, los datos de contexto se agr
 
 Antes de aplicar una fórmula de clasificación a la estrategia de selección, puede probarla con datos de muestra o generados para validar los resultados de clasificación y asegurarse de que ofrece el comportamiento esperado.
 
+### Acceso al espacio de trabajo de simulación
+
 1. Abra una fórmula existente o [cree una nueva](#create-ranking-formula) y haga clic en el botón **[!UICONTROL Simular fórmula]**.
 
    ![](../assets/ranking-formula-simulate-button.png)
@@ -310,7 +319,9 @@ Antes de aplicar una fórmula de clasificación a la estrategia de selección, p
    * **Expresión de clasificación**: muestra la expresión de fórmula para referencia
    * **Resultado de la simulación**: muestra las ofertas clasificadas cuando se selecciona una variante
 
-1. Agregue variantes de prueba utilizando uno de los dos métodos siguientes:
+### Agregar variantes de prueba
+
+1. Agregue variantes de prueba mediante uno de los métodos siguientes:
 
    * Para crear una muestra manual, seleccione el botón **[!UICONTROL Crear muestra]** y luego seleccione los elementos de oferta que desee usar para la prueba.
    * Para generar variantes de prueba mediante IA, haga clic en el botón **[!UICONTROL Generar]**.
@@ -320,6 +331,24 @@ Antes de aplicar una fórmula de clasificación a la estrategia de selección, p
    >La generación de variantes de prueba basada en IA está disponible para las organizaciones con acceso a las funciones de Adobe AI.
 
 La sección Variantes de prueba se rellena automáticamente con los elementos seleccionados o las muestras generadas. Cada variante incluye atributos utilizados en la expresión. Puede editar los valores de campo directamente para simular diferentes escenarios.
+
+### Rellenar variantes con perfiles de prueba de Adobe Experience Platform
+
+Una vez que haya creado o generado una variante, puede usar atributos del [perfil de prueba de Adobe Experience Platform](../../audience/creating-test-profiles.md) existente para rellenar sus atributos.
+
+1. Seleccione **[!UICONTROL Editar]** en una variante y luego haga clic en el botón **[!UICONTROL Seleccionar perfil de AEP]**.
+
+   ![](../assets/ranking-formula-simulate-aep.png)
+
+1. Seleccione un área de nombres de identidad e introduzca el valor de identidad correspondiente.
+
+   El área **Recientes** enumera los perfiles que ha aplicado correctamente. Los perfiles recientes se almacenan en el explorador por organización y zona protegida, se ordenan con el más reciente primero y están limitados a 10 entradas.
+
+   ![](../assets/ranking-formula-simulate-aep-recents.png)
+
+1. Haga clic en el botón **[!UICONTROL Seleccionar perfil]**. Los atributos del perfil de prueba se agregan a la variante seleccionada.
+
+### Visualización de los resultados de la simulación
 
 Para ver el resultado de clasificación de la simulación, seleccione una variante de prueba en la lista. El área Resultado de la simulación muestra las ofertas clasificadas con sus puntuaciones, y cómo la fórmula clasifica los elementos en función de los datos de variante.
 

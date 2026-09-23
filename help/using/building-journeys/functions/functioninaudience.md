@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '864'
 ht-degree: 2%
-
 ---
-
 # función inAudience {#inAudience}
 
 La función `inAudience` es una función de Adobe Experience Platform que le permite comprobar si un individuo del recorrido pertenece a una audiencia específica. Esta potente función le permite crear rutas de recorrido personalizadas basadas en la pertenencia a audiencias, lo que permite una segmentación y un direccionamiento sofisticados dentro de las experiencias de los clientes.
@@ -122,6 +126,12 @@ Cuando use la función `inAudience` en los recorridos, tenga en cuenta las sigui
 **Consideraciones de políticas de combinación:**
 * Cuando se utilizan varias audiencias con la función `inAudience`, las incoherencias con las políticas de combinación pueden provocar errores o alertas
 * Consulte [propiedades de Recorrido](../journey-properties.md) para obtener más información sobre el comportamiento de la política de combinación
+
+**Caché de audiencia para validación:**
+
+* En una zona protegida que contiene más de 5000 audiencias, las audiencias más antiguas pueden rechazarse durante la creación de la recorrido al usar `inAudience`, porque la validación comprueba una caché que solo contiene las 5000 audiencias actualizadas más recientemente.
+* Para solucionarlo, realice un cambio menor en la audiencia, como actualizar la descripción, o limpie las audiencias más antiguas para mantener el total por debajo del límite.
+* Más información en [Usar audiencias en condiciones](../conditions.md#using-a-segment).
 
 **Tiempo de propagación:** {#propagation-timing}
 

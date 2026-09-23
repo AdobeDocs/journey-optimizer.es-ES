@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
 workflow-type: tm+mt
-source-wordcount: '3373'
-ht-degree: 9%
+source-wordcount: '3197'
+ht-degree: 8%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -46,7 +46,6 @@ Esta versión incorpora varias características y habilidades nuevas y mejoradas
 * [Comparar versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través de Coworker Chat.
 * [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
 * [Habilidad con el análisis de rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas desde el chat.
-* [Generación de reglas de decisiones](#sep-26-decisioning): genere reglas de decisiones asistidas por IA directamente en Coworker, que ahora reemplaza el carril derecho para esta experiencia.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +131,7 @@ Las siguientes capacidades y mejoras llegan a Loyalty en esta versión.
 
 * Dominio de **retos en el editor de personalización de tarjetas de contenido**: el editor de personalización de tarjetas de contenido ahora admite **desafíos** como dominio, lo que le permite acceder a los metadatos de desafíos al crear la personalización de tarjetas de contenido. Esto facilita la creación de contenido personalizado para cada fase de un desafío (inicio, en curso y final) sin código personalizado.
 
-* **Plazos para la finalización del desafío de fidelización por miembro**: los desafíos de fidelización ahora admiten los plazos de finalización por miembro: elija &quot;En un número de días después de la inclusión&quot; en Requisitos de finalización para que el plazo de cada miembro se calcule a partir de su propia fecha de inclusión en lugar de una fecha de finalización fija para todo el programa. Si se establecen tanto una fecha de finalización de desafío como esta ventana de inclusión, el plazo de cada miembro es el que sea primero. <!-- Documentation link: TBD -->
+
 
 ### Incorporación {#sep-26-onboarding}
 
@@ -349,7 +348,7 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 </tbody>
 </table>
 
-* **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: ahora puede anular el comportamiento de la lista de supresión local en el nivel de acción de correo electrónico, de modo que las comunicaciones operativas o críticas para el cumplimiento se puedan enviar a través de una configuración dedicada cuando sea necesario. El comportamiento de la lista de supresión global permanece sin cambios.
+* **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: Journey Optimizer ahora le permite anular el comportamiento de la lista de supresión directamente en el nivel de acción de correo electrónico en recorridos y campañas. Esto proporciona a los equipos más flexibilidad para las comunicaciones operativas o críticas para el cumplimiento que requieren una configuración de envío dedicada, al tiempo que conserva los controles de lista de supresión global existentes para todos los demás envíos. Esta mejora ayuda a las organizaciones a gestionar escenarios de excepción con precisión sin cambiar su modelo de gobernanza de supresión más amplio.
 
 * **Validación de sintaxis de URL en la creación de correo electrónico**: Journey Optimizer ahora valida las URL anteriores en el flujo de creación de correo electrónico y ofrece una guía más clara cuando se detecta una sintaxis mal formada. Esto ayuda a los autores a detectar problemas antes de la finalización, reducir los errores de publicación y mejorar la confianza de envío.
 
@@ -433,35 +432,6 @@ Las siguientes funcionalidades y mejoras estarán disponibles en las campañas o
 * **Supervisión de Campaign Orchestration**: ya está disponible una nueva interfaz de usuario para realizar el seguimiento del estado de ingesta y la actualización de los datos del almacén relacional que usa la segmentación de Campaign orquestada. Le ofrece una visibilidad directa del estado de los datos que alimentan a las audiencias por lotes. Una nueva pestaña de Campaign Orchestration del panel de monitorización de Adobe Experience Platform muestra el estado de los flujos de datos del almacén relacional (registros ingeridos/actualizados/eliminados/fallidos/omitidos), con gráficos desglosados y un desglose por flujo de datos/conjunto de datos, incluido el linaje.
 
 
-### Campañas {#sep-26-campaigns}
-
-Las siguientes mejoras se implementan en las campañas de esta versión.
-
-* **Carpetas para campañas**: ahora puede organizar sus campañas en **carpetas** para mejorar la navegación y la administración en la interfaz.
-
-### Toma de decisiones {#sep-26-decisioning}
-
-Las siguientes funcionalidades y mejoras estarán disponibles en la toma de decisiones en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Compatibilidad con decisiones en el canal Web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La toma de decisiones ya está disponible para el canal web. Puede utilizar las directivas de decisión directamente en el editor visual web para enviar las ofertas más relevantes a cada visitante.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Generación de reglas de decisiones de Coworker**: la experiencia **generación de reglas de decisiones asistidas por IA**, disponible anteriormente a través del carril derecho, ahora es accesible a través de Coworker, que reemplaza el carril derecho como la forma de generar reglas con IA.
-
-* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente.
-
 ### Creación de informes {#sep-26-reporting}
 
 La siguiente funcionalidad se incluye en los informes en esta versión.
@@ -498,6 +468,8 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 ### Mejoras de uso {#sep-26-usability}
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+
+* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una Información general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
 
 * **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 

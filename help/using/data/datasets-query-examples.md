@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # Ejemplos de consultas {#query-examples}
@@ -136,21 +136,17 @@ _Nombre en la interfaz: conjunto de datos de evento de comentarios de mensajes d
 
 El conjunto de datos de evento de comentarios de mensajes de AJO almacena los comentarios de envío de mensajes generados por Adobe Journey Optimizer. Admite el análisis de comentarios de entrega en todos los canales de mensajes, incluidos correo electrónico, SMS/RCS/MMS y correo directo. Los eventos de comentarios se pueden utilizar para casos de uso de creación de informes y audiencias.
 
-El esquema relacionado es AJO Message Feedback Event Schema.
+El esquema relacionado es el esquema `AJO Message Feedback Event`.
 
 >[!NOTE]
 >
->En Adobe Journey Optimizer, `sent` es el valor utilizado para los resultados de envío de mensajes correctos en el conjunto de datos de evento de comentarios de mensajes. El valor `delivered` no se usa en los conjuntos de datos de evento de comentarios de mensajes de Adobe Journey Optimizer.
-
->[!NOTE]
+>* En Adobe Journey Optimizer, `sent` es el valor utilizado para los resultados de envío de mensajes correctos; `delivered` no se usa en los conjuntos de datos de eventos de comentarios de mensajes.
 >
->Este conjunto de datos utiliza la ingesta por lotes. Se espera una latencia de datos de hasta dos horas al consultar este conjunto de datos o al utilizarlo para fines de informes.
+>* Este conjunto de datos utiliza la ingesta por lotes, por lo que los datos se pueden retrasar hasta dos horas.
+>
+>* No se garantiza que los campos de contexto específicos del canal se rellenen en cada evento. Utilice identificadores de ejecución de mensajes, estado de comentarios, detalles de errores, marcas de tiempo e información de identidad como campos de correlación principales.
 
 Para obtener la lista completa de campos, rutas de campo, tipos de datos y descripciones, consulte la [Referencia de esquema de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/tools/ajo-schemas){target="_blank"}.
-
->[!NOTE]
->
->No se garantiza que los campos de contexto específicos del canal se rellenen en cada evento de comentarios del mensaje. La disponibilidad de los campos puede depender del canal, la carga útil de comentarios del proveedor, el tipo de evento y la fase de envío. Utilice los identificadores de ejecución de mensajes, el estado de los comentarios, los detalles del error, la marca de tiempo y la información de identidad como campos de correlación principales.
 
 ### Clasificar ejecuciones de prueba y no de prueba{#classify-test-executions}
 
