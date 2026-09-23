@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '2223'
+ht-degree: 20%
 ---
 # Notas de la versión {#release-notes}
 
@@ -85,6 +85,23 @@ ht-degree: 26%
 
 ### Lealtad {#sep-26-loyalty}
 
+<table>
+<thead>
+<tr>
+<th><strong>Actualizaciones de asignación de eventos de fidelización</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La creación o edición de una asignación de eventos ahora utiliza un nuevo **generador de asignaciones visuales**: seleccione un esquema, elija campos de un selector de campos en el que se pueda buscar, asigne cada campo a un campo de evento de lealtad con estado de conexión por fila y previsualice la expresión JSONata generada automáticamente, con la opción de cambiar a la edición manual de JSONata en cualquier momento.</p><p>Además, se ha cambiado el nombre de "Definiciones de eventos" en la administración de Fidelidad a "Asignaciones de eventos", con una vista de lista actualizada que muestra el nombre del esquema de evento de Experience legible en lenguaje natural.</p>
+<p>Para obtener más información, consulte la <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **&quot;Desafíos de fidelidad para siempre&quot;**: los desafíos de fidelidad ahora pueden ejecutarse indefinidamente. Defina **El desafío finalizará** en **Sin fecha de finalización** al configurar la programación y el desafío nunca caducará. [Más información](../loyalty-challenges/create-challenges.md#schedule)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
@@ -95,11 +112,43 @@ ht-degree: 26%
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
+<table>
+<thead>
+<tr>
+<th><strong>Recomendaciones de desafío</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El menú Rendimiento de fidelidad ahora incluye las pestañas **Oportunidades** y **Tendencia**, que muestran tendencias y brechas detectadas por IA, como fricción de progresión de nivel o desactivación de tareas de desafío, cada una con un impacto proyectado y una acción de un solo clic "Crear con IA" para generar un desafío que lo aborde.</p><p>Además, los especialistas en marketing pueden solicitar oportunidades de **desafío** directamente en la interfaz conversacional de Coworker, obteniendo ideas de desafío fundamentadas en tendencias reales de programas de lealtad y convirtiéndolas en desafíos en vivo sin salir del chat.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Plazos para la finalización del desafío de fidelización por miembro**: los desafíos de fidelización ahora admiten los plazos de finalización por miembro: elija &quot;En un número de días después de la inclusión&quot; en Requisitos de finalización para que el plazo de cada miembro se calcule a partir de su propia fecha de inclusión en lugar de una fecha de finalización fija para todo el programa. Si se establecen tanto una fecha de finalización de desafío como esta ventana de inclusión, el plazo de cada miembro es el que sea primero. <!-- Documentation link: TBD -->
 
 +++
 
 ### Recorridos {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulación de recorrido en Coworker</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La <strong>aptitud de simulación de Recorrido</strong> en Coworker automatiza la validación de recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 23 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -179,6 +228,22 @@ ht-degree: 26%
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
+<table>
+<thead>
+<tr>
+<th><strong>Vista previa del contenido en el lienzo del recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La revisión del contenido del canal hoy en día requiere la apertura de cada actividad de forma individual, de una en una, lenta y propensa a errores en recorridos con muchas actividades de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por actividad. <strong>Vista previa del contenido</strong> elimina esa fricción al mostrar una miniatura de contenido para cada actividad de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes.</p>
+<p>Fecha de disponibilidad del destinatario: 28 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Aptitud para el análisis de higiene**: CX Coworker ahora puede analizar los recorridos activos y en borrador para detectar configuraciones rotas, errores silenciosos y recursos en declive o no utilizados, como recorridos en borrador antiguos, fuentes de datos huérfanas y errores persistentes de acciones personalizadas, así como correcciones recomendadas superficiales directamente en el chat. <!-- Documentation link: TBD -->
 
 +++
@@ -216,6 +281,30 @@ ht-degree: 26%
 
   Fecha de disponibilidad: 22 de septiembre de 2026
 
+### Incorporación {#sep-26-onboarding}
+
+La siguiente mejora se incorpora en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las funciones guiadas para incorporar correos electrónicos y recorridos ahora incluyen las siguientes mejoras:</p>
+<ul>
+<li>Al migrar un correo electrónico, [!DNL Journey Optimizer] identifica los bloques de contenido a los que hace referencia ese correo electrónico y los presenta como elementos de acción, de modo que puede migrar los bloques de contenido a lo largo del correo electrónico.</li>
+<li>La interfaz se ha mejorado para que la incorporación guiada sea más intuitiva.</li></ul>
+<p>Para obtener más información, consulte la <a href="../start/onboarding-hub.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 23 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Personalización {#sep-26-personalization}
 
 * **Corregir sintaxis con IA**: cuando se detecta un error de validación de sintaxis de PQL, el Editor de Personalization ahora proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor.
@@ -224,11 +313,7 @@ ht-degree: 26%
 
 ### Toma de decisiones {#sep-26-decisioning}
 
-* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  Fecha de disponibilidad: 22 de septiembre de 2026
-
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
+En esta versión se incluyen las siguientes funcionalidades y mejoras para la toma de decisiones.
 
 <table>
 <thead>
@@ -238,16 +323,39 @@ ht-degree: 26%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>La toma de decisiones ya está disponible para el canal web. Puede utilizar las directivas de decisión directamente en el editor visual web para enviar las ofertas más relevantes a cada visitante.</p>
+<td>La toma de decisiones ya está disponible para el canal web. Puede utilizar las directivas de decisión directamente en el editor visual web para enviar las ofertas más relevantes a cada visitante.</p>
+<p>Para obtener más información, consulte la <a href="../experience-decisioning/use-decision-policy.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Los fragmentos de contenido de AEM en Decisioning estaban disponibles para los clientes de Managed Services**. Anteriormente, los fragmentos de contenido de AEM en Decisioning solo estaban disponibles para los clientes que usaban la integración con **Adobe Experience Manager as a Cloud Service**. Esta funcionalidad ahora también está disponible para los clientes que usan **Adobe Experience Manager Managed Services**. [Más información](../experience-decisioning/items.md#attributes)
+
+  Fecha de disponibilidad: 23 de septiembre de 2026
+
+* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
+
+### Públicos {#sep-26-audiences}
+
+El siguiente recordatorio se aplica a las audiencias de esta versión.
+
+* **Próximo cambio en las audiencias de enriquecimiento de Audience Composition**: durante la versión de octubre (finales de octubre), Journey Optimizer detendrá los recorridos y campañas que usen o hagan referencia a una audiencia de Audience Composition cuyo conjunto de datos de origen no tenga un **descriptor de identidad principal**. A partir de ese momento, solo se admitirán en recorridos y campañas las audiencias de Composición de audiencia creadas con un descriptor de identidad principal. Si necesita que estos recorridos o campañas permanezcan activos, póngase en contacto con su representante de Adobe para que nuestro equipo de productos le ayude a migrar. <!-- Documentation link: TBD -->
+
+### Administración {#sep-26-administration}
+
+El siguiente recordatorio se aplica a la administración de en esta versión.
+
+* **Protección de tiempo de vida de conjunto de datos (TTL) — zonas protegidas existentes** - La protección de tiempo de vida (TTL) para conjuntos de datos generados por el sistema de Journey Optimizer (90 días en el almacén de perfiles, 13 meses en el lago de datos) se aplicará en las zonas protegidas de clientes y organizaciones existentes a partir del 1 de octubre de 2026.
 
 ### Mejoras de uso {#sep-26-usability}
+
+* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una descripción general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
 
 * **Más fácil desasociar y unir ramas en el nuevo lienzo de recorrido**: ahora puede desasociar una rama del resto del recorrido sin eliminarla y volver a unirla más tarde en un punto diferente, ya sea seleccionando una actividad elegible directamente en el lienzo o seleccionándola de una lista de ramas desconectadas o ya utilizadas. [Más información](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 

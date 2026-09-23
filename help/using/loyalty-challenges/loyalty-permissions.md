@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 7%
@@ -60,7 +60,7 @@ La función **Profesional fiel** está diseñada para propietarios de empresas q
 | Administrar retos de fidelización | Crear, editar, eliminar, publicar, cancelar la publicación y archivar desafíos; generación de recorridos de déclencheur |
 | Configurar la configuración principal de fidelización | Cree y edite la configuración de organización principal. No se permite la eliminación |
 | Ver configuración de recompensa de fidelización | Vea la configuración de recompensas, incluidos proveedores, definiciones y proxies. Se excluyen los valores confidenciales |
-| Ver configuración de evento de fidelización | Ver definiciones de eventos y asignaciones de transformación de eventos |
+| Ver configuración de evento de fidelización | Ver asignaciones de eventos y asignaciones de transformación de eventos |
 | Ver catálogo de productos de fidelización | Ver entradas del catálogo de productos e importar estado del trabajo |
 | Desarrollar perspectivas de fidelización | Ver datos de perspectivas y actualizar tarjetas de insight |
 
@@ -116,7 +116,7 @@ Cuando cree una función personalizada para una zona protegida que no sea de pro
 | Configurar la configuración principal de fidelización | Cree y edite la configuración de organización principal. No se permite la eliminación |
 | Administrar configuración avanzada de fidelización | Administrar los extremos de recompensa y la configuración de transformación de eventos, incluido el acceso de lectura y escritura a valores de credenciales confidenciales |
 | Ver configuración de recompensa de fidelización | Ver proveedores de recompensas, definiciones de recompensas y proxies de recompensas. Se excluyen los valores confidenciales |
-| Ver configuración de evento de fidelización | Ver definiciones de eventos y asignaciones de transformación de eventos |
+| Ver configuración de evento de fidelización | Ver asignaciones de eventos y asignaciones de transformación de eventos |
 | Administrar catálogo de productos de fidelización | Ver, importar desde CSV y editar entradas del catálogo de productos, incluidas inclusiones y exclusiones; supervisar el estado del trabajo de importación |
 | Ver catálogo de productos de fidelización | Ver entradas del catálogo de productos e importar el estado del trabajo. No se permiten las acciones de carga y edición |
 | Administrar perspectivas de fidelización | Ver perspectivas, actualizar la configuración de KPI y almacenar en déclencheur la canalización de perspectivas |

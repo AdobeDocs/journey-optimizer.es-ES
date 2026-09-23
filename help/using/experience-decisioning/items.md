@@ -17,10 +17,10 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 13%
+source-wordcount: '2914'
+ht-degree: 14%
 ---
 # Creación de su primer elemento de decisión {#items}
 
@@ -95,6 +95,8 @@ Comience por definir los atributos estándar y personalizados del elemento de de
      >[!AVAILABILITY]
      >
      >Esta función está disponible para canales compatibles con Decisioning.
+     >
+     >Los fragmentos de contenido de AEM en Decisioning están disponibles para los clientes que integran Adobe Experience Manager **as a Cloud Service** o **Managed Services** con Adobe Journey Optimizer. [Más información](../integrations/aem-fragments-gs.md)
 
      Para conocer los requisitos previos y las protecciones, consulte [Usar fragmentos de contenido de AEM con Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 

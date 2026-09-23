@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Aprenda a validar el recorrido antes de publicar mediante simulación con usuarios simulados o modo de prueba con perfiles de prueba para detectar errores de forma temprana.
+**En esta página:** Aprenda a validar el recorrido antes de publicar mediante Simulación de Recorrido, Modo de prueba de Recorrido o Ejecución en seco de Recorrido.
 
 >[!ENDSHADEBOX]
-
-¿No está seguro de que el modo de prueba sea el adecuado para usted? [Comparar las tres opciones de validación](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -65,17 +63,21 @@ Una vez creado el recorrido, puede probarlo antes de publicarlo. [!DNL Adobe Jou
 
 Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear nuevos perfiles de prueba o convertir los perfiles existentes en perfiles de prueba. Obtenga más información acerca de los perfiles de prueba en [esta sección](../audience/creating-test-profiles.md).
 
-Adobe Recorrido Optimizer ofrece dos formas de probar y validar el recorrido:
+Adobe Journey Optimizer ofrece tres formas de probar y validar el recorrido:
 
-* **[Simulation](simulate-journey.md#test-users)**: establezca el recorrido en **[!UICONTROL Simulation]** y utilice usuarios simulados (perfiles temporales que cree o genere sobre la marcha sin perfiles creados previamente en Adobe Experience Platform).
+* **[Simulación de Recorrido](simulate-journey.md#test-users)**: establezca el recorrido en **[!UICONTROL Simulación]** y use usuarios simulados (perfiles temporales que crea o genera sobre la marcha sin perfiles creados previamente en Adobe Experience Platform).
 
-* **[Modo de prueba](#test-profiles)**: los perfiles persistentes se han marcado explícitamente como perfiles de prueba en Adobe Experience Platform. Se pueden reutilizar en varias sesiones de prueba. Se recomienda este método para realizar pruebas con datos de perfil coherentes y predefinidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
+* **[Modo de prueba de Recorrido](#test-profiles)**: los perfiles persistentes se marcan explícitamente como perfiles de prueba en Adobe Experience Platform. Se pueden reutilizar en varias sesiones de prueba. Se recomienda este método para realizar pruebas con datos de perfil coherentes y predefinidos. [Aprenda a crear perfiles de prueba](../audience/creating-test-profiles.md).
+
+* **[Ejecución en seco del Recorrido](journey-dry-run.md)**: ejecute el recorrido con datos de segmentación y audiencia de producción real sin ponerse en contacto con clientes reales ni actualizar información de perfil. Se omiten los nodos de acción, como correo electrónico, SMS y acciones personalizadas. [Más información sobre la carrera en seco de Recorrido](journey-dry-run.md).
+
+¿No está seguro de que el modo de prueba sea el adecuado para usted? [Comparar las tres opciones de validación](choose-validation-method.md).
 
 >[!NOTE]
 >
 >Antes de probar el recorrido, debe resolver todos los errores. Aprenda a comprobar errores antes de probar en [esta sección](../building-journeys/troubleshooting.md). Si los perfiles de prueba no progresan en el modo de prueba, consulte [solución de problemas con las transiciones del modo de prueba](troubleshooting-execution.md#troubleshooting-test-transitions).
 
-## Notas importantes {#important_notes}
+## Mecanismos de protección y limitaciones {#important_notes}
 
 Revise estas notas antes de ejecutar pruebas en el recorrido.
 

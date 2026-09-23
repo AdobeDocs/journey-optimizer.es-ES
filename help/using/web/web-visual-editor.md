@@ -9,28 +9,37 @@ exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 TQID: https://experienceleague.adobe.com/o-MhiSpCJc-gmuHTnBvw3Bb-rBSQpvN7SvDbuQKvFb4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1018'
 ht-degree: 10%
-
 ---
-
 # Trabajar con el diseñador web {#work-with-web-designer}
 
 >[!BEGINSHADEBOX]
@@ -138,6 +147,8 @@ Una vez editado el contenido web, puede administrar las modificaciones. [Más in
 ## Adición de personalización
 
 Para añadir personalización, seleccione un contenedor y seleccione el icono de personalización de la barra de menús contextual que se muestra. Añada los cambios con el editor de personalización. [Más información](../personalization/personalization-build-expressions.md)
+
+También puede usar **Decisioning** para entregar la oferta más relevante a cada visitante. En el editor de personalización, vaya a **[!UICONTROL Directivas de decisión]** y seleccione **[!UICONTROL Insertar sintaxis]** para agregar una directiva de decisión a su componente web. [Más información](../experience-decisioning/use-decision-policy.md)
 
 ![](assets/web-designer-personalization.png)
 

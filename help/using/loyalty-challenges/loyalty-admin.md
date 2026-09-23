@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurar retos de lealtad
-description: Aprenda a configurar proveedores de recompensas, definiciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para Retos de fidelidad en Adobe [!DNL Journey Optimizer].
+description: Aprenda a configurar proveedores de recompensas, asignaciones de eventos, inventario de productos, exclusiones y configuraciones de nivel de organización para los desafíos de fidelidad en Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 18%
+source-wordcount: '1816'
+ht-degree: 12%
 ---
 # Configurar retos de lealtad {#loyalty-admin}
 
@@ -39,7 +39,7 @@ Para abrir la interfaz de configuración, seleccione el menú **[!UICONTROL Conf
 
 * **Configuración global**: seleccione el área de nombres de Experience Platform para su programa. [Aprenda a configurar las opciones globales](#global-settings)
 * **Proveedores de recompensas**: conecte las API que cumplen las recompensas cuando los clientes progresan o completan desafíos. [Aprenda a configurar proveedores de recompensas](#reward-providers).
-* **Definiciones de eventos**: asigne eventos de experiencia entrantes a actividades utilizadas en **[!UICONTROL eventos personalizados]** tareas. [Aprenda a configurar definiciones de eventos](#event-definitions).
+* **Asignación de eventos**: asigna eventos de experiencia entrantes a actividades utilizadas en **[!UICONTROL eventos personalizados]** tareas. [Aprenda a configurar asignaciones de eventos](#event-mappings).
 * **Inventario de productos** — Cargar asignaciones de artículos a grupos para usarlas en las reglas de elegibilidad de tareas. [Aprenda a configurar el inventario de productos](#product-inventory)
 * **Exclusiones** — Cargar exclusiones de grupo y artículo de toda la organización para la configuración de tareas. [Obtenga información sobre cómo configurar exclusiones](#exclusions)
 
@@ -170,43 +170,48 @@ Para editar un proveedor de recompensas, abra la pestaña **[!UICONTROL Proveedo
 >
 >**[!UICONTROL Trae tus propios datos]** desafíos para lograr recompensas a través de tu propia integración de datos. Los proveedores de recompensas configurados aquí no se aplican a esos desafíos. [Aprenda a crear sus propios desafíos de datos](create-challenges.md#create-the-challenge)
 
-## Definiciones de eventos {#event-definitions}
+## Asignaciones de eventos {#event-mappings}
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_definitions"
->title="Definiciones de eventos"
->abstract="Las definiciones de eventos indican a [!DNL Journey Optimizer] cómo identificar e interpretar los datos de eventos entrantes a partir de las fuentes externas. Cada definición asigna un tipo de evento específico, como una compra o un registro, para que el sistema pueda llevar un seguimiento del progreso del cliente hacia las tareas de reto."
+>id="ajo_loyalty_admin_event_mappings"
+>title="Asignaciones de eventos"
+>abstract="Las asignaciones de eventos indican a [!DNL Journey Optimizer] cómo identificar e interpretar los datos de eventos entrantes a partir de los orígenes externos. Cada asignación identifica un tipo de evento específico, como una compra o un registro, para que el sistema pueda rastrear el progreso del cliente hacia las tareas de desafío."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="Esquema de evento y transformador"
->abstract="En la sección Esquema de evento, proporcione una expresión JSONata **[!UICONTROL Transformer]** para asignar los campos de evento entrantes al formato que Retos de fidelidad prevé."
+>title="Esquema y asignación de eventos"
+>abstract="Seleccione el esquema de Experience Platform para el evento entrante y utilice el generador de asignaciones o una expresión JSONata para asignar campos de evento con el formato que espera Loyalty Challenges."
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_identification"
->title="Identificación de eventos"
->abstract="En la sección Identificación de evento, proporcione el nombre del evento y el ID de esquema XDM necesario que se utiliza para identificar los eventos entrantes."
+>id="ajo_loyalty_admin_event_details"
+>title="Detalles del evento"
+>abstract="En la sección Detalles del evento, proporcione el nombre del evento y seleccione el esquema XDM de Experience Platform utilizado para identificar eventos entrantes."
 
-**[!UICONTROL Las definiciones de eventos]** indican a [!DNL Journey Optimizer] qué eventos de experiencia de Adobe Experience Platform entrantes se deben procesar. Por ejemplo, una compra o un registro de entrada en el hotel. Los especialistas en marketing hacen referencia a estas definiciones cuando crean **[!UICONTROL tareas de evento personalizado]** en el generador de tareas. Los eventos que no coinciden con ninguna definición se omiten.
+**[!UICONTROL La asignación de eventos]** indica a [!DNL Journey Optimizer] cómo procesar un evento de experiencia entrante de Adobe Experience Platform. Por ejemplo, una compra o un registro de entrada en el hotel. Los especialistas en marketing hacen referencia a estas asignaciones cuando crean **[!UICONTROL tareas de evento personalizado]** en el generador de tareas. Los eventos que no coinciden con ninguna asignación se omiten.
 
-Utilice esta sección para configurar definiciones de extremo a extremo (identificación de evento más expresión de transformador). Para obtener instrucciones específicas sobre la creación de transformadores, consulte [Guía del transformador de eventos](event-transformer-guide.md).
+Utilice esta sección para configurar la asignación de eventos de extremo a extremo. Para obtener instrucciones específicas sobre la creación de transformadores, consulte [Guía del transformador de eventos](event-transformer-guide.md).
 
-Cuando su organización envía eventos en su propio formato JSON, [**[!UICONTROL Transformer]**](event-transformer-guide.md#writing-the-transformer) ayuda a [!DNL Journey Optimizer] a asignar y analizar las cargas útiles entrantes para que los eventos se puedan rastrear correctamente.
+Para crear una asignación de evento, siga estos pasos:
 
-Para crear una definición de evento, siga estos pasos:
+1. Abra la pestaña **[!UICONTROL Asignación de eventos]** y seleccione **[!UICONTROL Crear asignación de eventos]**.
 
-1. Abra la ficha **[!UICONTROL Definiciones de eventos]** y cree una nueva definición.
+1. En **[!UICONTROL Detalles del evento]**, escriba el **[!UICONTROL Nombre del evento]** necesario y seleccione el **[!UICONTROL esquema de evento de experiencia]** deseado.
 
    ![](assets/admin-event-definition.png)
 
-1. En **[!UICONTROL Identificación de eventos]**, introduzca los valores necesarios:
+1. En la sección **[!UICONTROL Asignación]**, haga clic en el botón **[!UICONTROL Seleccionar campos]**. Busque o filtre el árbol de campos de esquema y, a continuación, seleccione los campos entrantes que desea asignar.
 
-   * **[!UICONTROL Nombre]** — Etiqueta para la definición del evento (por ejemplo, `Coffee purchase`).
-   * **[!UICONTROL ID de esquema XDM]**: ID del esquema XDM de Experience Platform para este tipo de evento.
+   ![](assets/admin-mapping-fields.png)
 
-1. En **[!UICONTROL esquema de evento]**, proporcione la expresión [JSONata](event-transformer-guide.md#writing-the-transformer) necesaria que asigna su carga útil al formato que espera Loyalty Challenges.
+1. En la tabla de asignación, utilice los menús desplegables de **[!UICONTROL Campos de datos entrantes]** para conectar cada campo a los **[!UICONTROL Campos de eventos de fidelización]** correspondientes.
 
-1. Guarde la definición del evento. Aparece en la lista **[!UICONTROL Definiciones de eventos]** y está disponible cuando los especialistas en marketing crean **[!UICONTROL eventos personalizados]** tareas. [Aprenda a crear tareas](create-tasks.md#choose-activity)
+   ![](assets/admin-mapping-map.png)
+
+1. En **[!UICONTROL JSONata y vista previa de salida]**, revise la expresión JSONata generada en el editor de código.
+
+   Para utilizar una expresión personalizada, edite directamente los datos JSON. Para ello, seleccione el botón **[!UICONTROL Restablecer a]** generado para volver a la asignación controlada por tabla. [Aprenda a escribir expresiones JSONata](event-transformer-guide.md#writing-the-transformer).
+
+1. Guarde la asignación. La asignación de eventos aparece en la lista **[!UICONTROL Asignaciones de eventos]** y está disponible cuando los especialistas en marketing crean **[!UICONTROL tareas de eventos personalizados]**. [Aprenda a crear tareas](create-tasks.md#choose-activity)
 
 ## Inventario de productos {#product-inventory}
 

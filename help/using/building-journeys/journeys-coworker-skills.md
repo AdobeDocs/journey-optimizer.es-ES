@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: 1bcaf85fc61ee991c871eea7b451155835426bb3
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2722'
 ht-degree: 8%
 ---
 
@@ -339,5 +339,43 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 * **Defina objetivos claros**: antes de analizar los recorridos, establezca objetivos claros (por ejemplo, mejorar la retención, aumentar las conversiones).
 * **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 * **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
+
+## Simulación de recorrido {#journey-simulation}
+
+La habilidad de simulación de recorrido incorpora la simulación rápida impulsada por IA en la interfaz de chat, lo que permite a los usuarios validar la lógica de un recorrido en conversación. Con Coworker, los usuarios pueden generar datos de prueba simulados, ejecutar y administrar una simulación y revisar los resultados.
+
+### Casos de uso clave
+
+1. **Generar datos de prueba simulados**
+
+   * Genere el mínimo de usuarios simulados necesarios para ejercer las ramas del recorrido.
+   * Generar datos de evento para recorridos activados por eventos, de modo que se active cada rama.
+
+1. **Ejecutar y administrar simulaciones**
+
+   * Inicie una ejecución de simulación.
+   * Restablecer una ejecución de simulación.
+   * Compruebe el estado de una ejecución de simulación.
+   * Enumeración de los usuarios simulados incluidos en una ejecución.
+   * Recuperar registros de ejecución.
+
+1. **Revisar resultados de simulación**
+
+   * Devolver resultados detallados, incluido el recorrido de ruta paso a paso.
+   * Devolver resultados de rama para la ejecución simulada.
+
+### Limitaciones
+
+Actualmente, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.
+
+Utilice la simulación rápida para realizar una comprobación de sanidad rápida y automatizada de la lógica de un recorrido. Para tener un control granular sobre los usuarios y escenarios simulados, usa la [experiencia de simulación manual en Journey Optimizer](simulate-journey-gs.md).
+
+Como parte de esta experiencia de simulación rápida, los usuarios no pueden:
+
+* Elija un usuario simulado guardado existente para una ejecución.
+* Edite un usuario simulado antes de volver a ejecutar una simulación.
+* Cree, examine, actualice o elimine usuarios simulados persistentes a través del chat.
+* Oriente una ruta específica o un caso de prueba personalizado.
+
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-journeys-coworker-skills.md}}

@@ -9,28 +9,37 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 100%
-
+source-wordcount: '339'
+ht-degree: 94%
 ---
-
 # Introducción al canal web {#get-started-web}
 
 >[!BEGINSHADEBOX]
@@ -100,6 +109,7 @@ Descubra los pasos detallados para crear una campaña web en [este vídeo](creat
 * **[Administre modificaciones web](manage-web-modifications.md)**: aprenda a organizar, aplicar y administrar modificaciones en las experiencias web.
 * **[Monitorice experiencias web](monitor-web-experiences.md)**: haga un seguimiento y analice el rendimiento de sus campañas web con informes detallados.
 * **[Genere contenido web con la IA](../content-management/generative-full-content.md)**: aproveche la IA para crear y optimizar contenido web con texto e imágenes.
+* **[Use Decisioning en experiencias web](../experience-decisioning/use-decision-policy.md)**: personalice experiencias web con políticas de decisión para entregar las ofertas más relevantes a cada visitante.
 * **[Tutoriales de campañas web](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: explore tutoriales de vídeo paso a paso sobre las características del canal web y las prácticas recomendadas.
 
 

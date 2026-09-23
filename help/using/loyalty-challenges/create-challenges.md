@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 12%
@@ -134,7 +134,7 @@ Configure cómo se incluyen los miembros, cuándo se contabiliza el progreso de 
 * **[!UICONTROL déclencheur de inclusión]**:
 
   * **[!UICONTROL Método de inclusión]**: elija si los clientes se unen al desafío manualmente o mediante un déclencheur de eventos.
-  * **[!UICONTROL Evento]**: para la inclusión basada en eventos, seleccione el evento de inclusión de déclencheur. Los administradores pueden hacer clic en el botón ![engranaje](assets/do-not-localize/settings-icon.svg) para crear una definición de evento. [Aprenda a configurar definiciones de eventos](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL Evento]**: para la inclusión basada en eventos, seleccione el evento de inclusión de déclencheur. Los administradores pueden hacer clic en el botón ![engranaje](assets/do-not-localize/settings-icon.svg) para crear una asignación de evento. [Aprenda a configurar asignaciones de eventos](loyalty-admin.md#event-mappings)
 
 * **[!UICONTROL Iniciar el seguimiento del progreso]**:
 
