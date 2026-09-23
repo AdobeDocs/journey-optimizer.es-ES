@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 8%
+source-wordcount: '2921'
+ht-degree: 9%
 ---
 
 # Notas de la versión preliminar {#e-release-notes}
@@ -143,21 +143,6 @@ La siguiente funcionalidad se incorpora en esta versión.
 ### Recorridos {#sep-26-journeys}
 
 Las siguientes capacidades y mejoras estarán disponibles en los recorridos en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulación de recorrido en Coworker</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La <strong>aptitud de simulación de Recorrido</strong> en Coworker automatiza la validación de recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
