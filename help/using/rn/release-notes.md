@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 23%
+source-wordcount: '1949'
+ht-degree: 22%
 ---
 # Notas de la versión {#release-notes}
 
@@ -212,6 +212,22 @@ ht-degree: 23%
   Fecha de disponibilidad: 1 de septiembre de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista previa del contenido en el lienzo del recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La revisión del contenido del canal hoy en día requiere la apertura de cada actividad de forma individual, de una en una, lenta y propensa a errores en recorridos con muchas actividades de canal, especialmente cuando la personalización significa comprobar varios tratamientos o variantes por actividad. <strong>Vista previa del contenido</strong> elimina esa fricción al mostrar una miniatura de contenido para cada actividad de canal directamente en el lienzo, con un modal de pantalla completa para inspeccionar y cambiar entre tratamientos y variantes.</p>
+<p>Fecha de disponibilidad del destinatario: 28 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Aptitud para el análisis de higiene**: CX Coworker ahora puede analizar los recorridos activos y en borrador para detectar configuraciones rotas, errores silenciosos y recursos en declive o no utilizados, como recorridos en borrador antiguos, fuentes de datos huérfanas y errores persistentes de acciones personalizadas, así como correcciones recomendadas superficiales directamente en el chat. <!-- Documentation link: TBD -->
 
