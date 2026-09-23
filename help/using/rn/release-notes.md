@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8519e5f342809046780427f225c7ce6473363710
+source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2074'
 ht-degree: 21%
 ---
 # Notas de la versión {#release-notes}
@@ -265,6 +265,31 @@ ht-degree: 21%
 * **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en datos relacionales, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. [Más información](../orchestrated/activities/channels.md#add-personalization)
 
   Fecha de disponibilidad: 22 de septiembre de 2026
+
+### Incorporación {#sep-26-onboarding}
+
+La siguiente mejora se incorpora en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Las funciones guiadas para incorporar correos electrónicos y recorridos ahora incluyen las siguientes mejoras:</p>
+<ul>
+<li>Al migrar un correo electrónico, [!DNL Journey Optimizer] identifica los bloques de contenido a los que hace referencia ese correo electrónico y los presenta como elementos de acción, de modo que puede migrar los bloques de contenido a lo largo del correo electrónico.</li>
+<li>La interfaz se ha mejorado para que la incorporación guiada sea más intuitiva.</li></ul>
+<p>Para obtener más información, consulte la <a href="../start/onboarding-hub.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 2 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### Personalización {#sep-26-personalization}
 
