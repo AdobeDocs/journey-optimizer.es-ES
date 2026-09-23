@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
+source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '2966'
 ht-degree: 8%
 ---
 
@@ -138,11 +138,7 @@ La siguiente funcionalidad se incorpora en esta versión.
 </tbody>
 </table>
 
-### Públicos {#sep-26-audiences}
 
-El siguiente recordatorio se aplica a las audiencias de esta versión.
-
-* **Próximo cambio en las audiencias de enriquecimiento de Audience Composition**: durante la versión de octubre (finales de octubre), Journey Optimizer detendrá los recorridos y campañas que usen o hagan referencia a una audiencia de Audience Composition cuyo conjunto de datos de origen no tenga un **descriptor de identidad principal**. A partir de ese momento, solo se admitirán en recorridos y campañas las audiencias de Composición de audiencia creadas con un descriptor de identidad principal. Si necesita que estos recorridos o campañas permanezcan activos, póngase en contacto con su representante de Adobe para que nuestro equipo de productos le ayude a migrar. <!-- Documentation link: TBD -->
 
 ### Recorridos {#sep-26-journeys}
 
@@ -443,12 +439,6 @@ La siguiente funcionalidad se incluye en los informes en esta versión.
 </tr>
 </tbody>
 </table>
-
-### Administración {#sep-26-administration}
-
-El siguiente recordatorio se aplica a la administración de en esta versión.
-
-* **Protección de tiempo de vida de conjunto de datos (TTL) — zonas protegidas existentes** - La protección de tiempo de vida (TTL) para conjuntos de datos generados por el sistema de Journey Optimizer (90 días en el almacén de perfiles, 13 meses en el lago de datos) se aplicará en las zonas protegidas de clientes y organizaciones existentes a partir del 1 de octubre de 2026.
 
 ### Mejoras de uso {#sep-26-usability}
 
