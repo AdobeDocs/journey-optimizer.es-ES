@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 8519e5f342809046780427f225c7ce6473363710
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 22%
+source-wordcount: '1991'
+ht-degree: 21%
 ---
 # Notas de la versión {#release-notes}
 
@@ -310,6 +310,10 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 * **Protección de tiempo de vida de conjunto de datos (TTL) — zonas protegidas existentes** - La protección de tiempo de vida (TTL) para conjuntos de datos generados por el sistema de Journey Optimizer (90 días en el almacén de perfiles, 13 meses en el lago de datos) se aplicará en las zonas protegidas de clientes y organizaciones existentes a partir del 1 de octubre de 2026.
 
 ### Mejoras de uso {#sep-26-usability}
+
+* **Información general de IA en alertas de validación de fragmentos**: el cuadro de diálogo de alertas de validación de fragmentos ahora incluye una descripción general de IA que resume y explica los problemas de validación (por ejemplo, expresiones mal formadas, campos de perfil que faltan y JSON no válido) para que los usuarios puedan solucionar problemas más rápido.
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
 
 * **Más fácil desasociar y unir ramas en el nuevo lienzo de recorrido**: ahora puede desasociar una rama del resto del recorrido sin eliminarla y volver a unirla más tarde en un punto diferente, ya sea seleccionando una actividad elegible directamente en el lienzo o seleccionándola de una lista de ramas desconectadas o ya utilizadas. [Más información](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
