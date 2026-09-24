@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2384'
 ht-degree: 19%
 ---
 # Notas de la versión {#release-notes}
@@ -57,6 +57,39 @@ ht-degree: 19%
 ## Notas de la versión de septiembre de 2026 {#sep-26-updates}
 
 ### Administración de contenido {#sep-26-content-management}
+
+La siguiente funcionalidad se incluye en la administración de contenido en esta versión.
+
+<table>
+<thead>
+<tr>
+<th><strong>Complemento de contenido de canal en Coworker</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora hay disponible un nuevo complemento <strong>Channel Content</strong> en Coworker, que reúne las aptitudes de HTML de copia de campaña, imagen y correo electrónico ensamblado en un solo complemento, desde la estrategia hasta la implementación. Las siguientes habilidades están disponibles en el complemento **Contenido del canal**:</p>
+<ul>
+<li><strong>Crear contenido para orquestar</strong>.</li>
+<li><strong>Explorar estrategia de contenido</strong></li>
+<li><strong>Resumen de contenido</strong></li>
+<li><strong>Generar contenido</strong></li>
+<li><strong>Comprobar preparación del contenido</strong></li>
+<li><strong>Revisión y regeneración de contenido</strong></li>
+<li><strong>Generar imagen</strong></li>
+<li><strong>Evaluar el diseño del contenido</strong></li>
+<li><strong>Guardar contenido del canal</strong></li>
+<li><strong>Crear correo electrónico desde Figma</strong></li>
+<li><strong>Búsqueda de marca</strong> </li>
+</ul>
+<p>Para obtener más información, consulte la <a href="../content-management/content-management-coworker-skills.md#content-management#ce-channel-content">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>

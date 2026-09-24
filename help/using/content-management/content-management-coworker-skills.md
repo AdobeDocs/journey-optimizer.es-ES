@@ -15,23 +15,23 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: faea09992ef91725f52fed718a893f3a32198dd7
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 2%
+source-wordcount: '1391'
+ht-degree: 1%
 ---
 
 # Compañero de trabajo para la administración de contenido {#content-management-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**En esta página:** Descubra las herramientas de administración de contenido de CX Enterprise Coworker disponibles en Adobe Journey Optimizer para examinar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido en línea de recorrido/campaña, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas.
+**En esta página:** Descubra las herramientas de administración de contenido de CX Coworker disponibles en Adobe Journey Optimizer para examinar, crear, actualizar, clonar y publicar plantillas de contenido, fragmentos, páginas de aterrizaje y contenido en línea de recorrido/campaña; para planificar la estrategia de campaña y generar copias e imágenes de marca en canales, configuraciones regionales, audiencias y variantes; y para crear, revisar y entregar HTML de correo electrónico accesible, con instrucciones detalladas, mensajes de ejemplo y prácticas recomendadas.
 
 Más información:
 
 * [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
 * [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
-* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
+* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
 
@@ -121,5 +121,86 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Sea explícito sobre el canal**: Al crear una plantilla o un fragmento, especifique el canal o el tipo de contenido (correo electrónico, fragmento de HTML, fragmento de expresión).
 1. **Confirmar antes de publicar**: revise el contenido de un fragmento después de crearlo o actualizarlo antes de pedir a su compañero que lo publique.
 1. **Proporcionar contenido de reemplazo completo**: las operaciones de actualización reemplazan el contenido por completo, de modo que incluya el cuerpo completo de HTML o el contenido de variante en el mensaje.
+
+## Contenido de canal {#ce-channel-content}
+
+>[!AVAILABILITY]
+>
+>El contenido del canal está disponible para todos los clientes que tienen acceso a CX Coworker. La generación de imágenes con un modelo personalizado entrenado por la marca requiere acceso de producción a Firefly Services.
+
+El contenido del canal toma un informe, un recorrido, una campaña o una solicitud y lo convierte en copia e imágenes planificadas y según la marca en canales, configuraciones regionales, audiencias y variantes, incluido el correo electrónico final, accesible y ensamblado de HTML. El contenido se puede explorar, diseñar, evaluar, revisar y guardar en la solución activa (Adobe Journey Optimizer u otra solución de activación compatible).
+
+### Aptitudes disponibles
+
+Las siguientes habilidades están disponibles en el complemento **Contenido del canal**:
+
+* **Crear contenido de orquestación** (`orchestrate-content-authoring`)
+
+  Ejecuta el ciclo de vida completo de la creación desde un informe, un recorrido, una campaña o un mensaje, ideando, generando, revisando y guardando contenido, incluidas las copias, las imágenes y las comprobaciones de conformidad, accesibilidad y fidelidad en todos los canales admitidos.
+
+* **Explorar estrategia de contenido** (`explore-content-strategy`)
+
+  Determina qué debe decir una campaña o un mensaje antes de escribir una copia, comparando los mapas de mensajes y la secuenciación de puntos de contacto en el nivel de campaña y decidiendo el orden de sección, el énfasis y el CTA en el nivel de mensaje.
+
+* **Resumen de contenido** (`content-brief`)
+
+  Convierte una dirección de campaña aprobada en requisitos de escritura concretos, incluidos tono, mensajes clave, oferta, puntos esenciales, canal, configuración regional y variantes, además de un plan para producir el contenido.
+
+* **Generar contenido** (`generate-content`)
+
+  Borra un solo mensaje de marketing neto nuevo o una variante de copia para un canal, en función de una audiencia, oferta, tono, CTA y duración establecidos. Solo creación del primer borrador.
+
+* **Comprobar la preparación del contenido** (`check-content-readiness`)
+
+  Evalúa el contenido existente, incluido un correo electrónico ensamblado, para la voz de la marca, la calidad editorial, la accesibilidad y el cumplimiento, y luego muestra bloqueadores explicables y pasos siguientes.
+
+* **Revisar y regenerar contenido** (`revise-regenerate-content`)
+
+  Aplica un cambio específico y confirmado al contenido existente, como la corrección de un resultado de revisión, el ajuste del tono, la traducción o el intercambio de una línea de asunto o CTA, mientras se conserva el artefacto.
+
+* **Generar imagen** (`generate-image`)
+
+  Produce y manipula elementos visuales para una ubicación aprobada, incluidas imágenes a pantalla completa, recortes, superposiciones, variaciones o recursos firmados, lo que confirma el plan antes de aplicarlo.
+
+* **Evaluar diseño de contenido** (`assess-content-design`)
+
+  Evalúa cómo se procesa realmente el contenido, incluida la jerarquía, el espaciado, las imágenes, la ubicación de CTA y la capacidad de respuesta, y recomienda cambios de copia o imagen para cerrar los huecos.
+
+* **Guardar contenido del canal** (`save-channel-content`)
+
+  Guarda el contenido de la campaña aprobada como recurso de borrador o lo rellena en su plantilla de origen en Adobe Journey Optimizer u otra solución compatible.
+
+* **Generar correo electrónico desde Figma** (`build-email-from-figma`)
+
+  Crea el HTML de correo electrónico final directamente desde un fotograma de Figma activo cuando su copia, diseño e imágenes son los que deberían enviarse sin cambios, sin necesidad de un plan de diseño independiente.
+
+  +++Cómo utilizar esta aptitud
+
+  1. Inicia sesión con tu compañero y ve a **[!UICONTROL Configuración]** > **[!UICONTROL Secretos]**.
+
+     ![](assets/coworker-1.png)
+
+  1. En **[!UICONTROL Sus secretos]**, haga clic en **[!UICONTROL Agregar]**.
+
+  1. En **[!UICONTROL Nombre]**, escriba `FIGMA_ACCESS_TOKEN`.
+
+  1. Genere un token de acceso personal (PAT) de Figma con al menos **contenido de archivo: ámbito de solo lectura**. [Aprenda a generar un token de acceso personal Figma](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens#h_01JHJXYMB9CREBR8PB5VJ1Q5ME).
+
+  1. Pegue la ruta de acceso en **[!UICONTROL Value]** y, a continuación, haga clic en **[!UICONTROL Guardar]**.
+
+  +++
+
+* **Búsqueda de marca** (`brand-lookup`)
+
+  Busca, resuelve y aplica directrices de marca aprobadas, incluidas voz, imágenes y asistencia legal, antes de cualquier flujo de trabajo que genere o evalúe contenido de marca propia.
+
+### Impulso de las prácticas recomendadas
+
+1. **Comience con lo breve**: Proporcione el objetivo, la audiencia y los canales de la campaña por adelantado para que el plan de contenido refleje el ámbito deseado.
+1. **Especifique las dimensiones del plan**: llame a los canales, puntos de contacto, configuraciones regionales, audiencias y variantes que desee que se representen en el plan de contenido.
+1. **Incluir contexto de marca**: Haga referencia al kit de marca o a las directrices de voz para que las copias e imágenes generadas permanezcan en la marca.
+1. **Límites de caracteres de estado**: proporcione límites de caracteres de canal explícitamente y revise la copia generada para confirmar que se ajusta antes de publicar.
+1. **Solicite todas las revisiones relevantes**: Pida una revisión de marca, cumplimiento, diseño y accesibilidad antes de tratar el contenido como listo para enviar.
+1. **Revise antes de guardar**: Evalúe y edite el contenido generado antes de pedir al compañero que lo guarde de nuevo en Adobe Journey Optimizer u otra solución de activación compatible.
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-content-management-coworker-skills.md}}

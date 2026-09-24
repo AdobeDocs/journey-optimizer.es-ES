@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: '2586'
 ht-degree: 8%
 ---
 
@@ -48,40 +48,6 @@ Esta versión incorpora varias características y habilidades nuevas y mejoradas
 * [Habilidad con el análisis de rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas desde el chat.
 
 >[!ENDSHADEBOX]
-
-### Administración de contenido {#sep-26-content-management}
-
-La siguiente funcionalidad se incluye en la administración de contenido en esta versión.
-
-<table>
-<thead>
-<tr>
-<th><strong>Complemento de contenido de canal en Coworker</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ahora hay disponible un nuevo complemento <strong>Channel Content</strong> en Coworker, que reúne las aptitudes de HTML de copia de campaña, imagen y correo electrónico ensamblado en un solo complemento, desde la estrategia hasta la implementación. Las siguientes habilidades están disponibles en el complemento **Contenido del canal**:</p>
-<ul>
-<li><strong>Crear contenido para orquestar</strong>.</li>
-<li><strong>Explorar estrategia de contenido</strong></li>
-<li><strong>Resumen de contenido</strong></li>
-<li><strong>Generar contenido</strong></li>
-<li><strong>Comprobar preparación del contenido</strong></li>
-<li><strong>Revisión y regeneración de contenido</strong></li>
-<li><strong>Generar imagen</strong></li>
-<li><strong>Evaluar el diseño del contenido</strong></li>
-<li><strong>Guardar contenido del canal</strong></li>
-<li><strong>Crear correo electrónico desde Figma</strong></li>
-<li><strong>Búsqueda de marca</strong> </li>
-</ul>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Integraciones {#sep-26-integrations}
 
