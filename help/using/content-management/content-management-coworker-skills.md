@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: faea09992ef91725f52fed718a893f3a32198dd7
+source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1838'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ Más información:
 
 * [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
 * [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
-* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
+* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
 
@@ -138,41 +138,121 @@ Las siguientes habilidades están disponibles en el complemento **Contenido del 
 
   Ejecuta el ciclo de vida completo de la creación desde un informe, un recorrido, una campaña o un mensaje, ideando, generando, revisando y guardando contenido, incluidas las copias, las imágenes y las comprobaciones de conformidad, accesibilidad y fidelidad en todos los canales admitidos.
 
+  >[!BEGINSHADEBOX]
+
+  &quot;Ejecute la creación de contenido completo para nuestra campaña de correo electrónico de venta de otoño desde esta información y, a continuación, revise y guarde el HTML final&quot;.
+
+  >[!ENDSHADEBOX]
+
+
 * **Explorar estrategia de contenido** (`explore-content-strategy`)
 
   Determina qué debe decir una campaña o un mensaje antes de escribir una copia, comparando los mapas de mensajes y la secuenciación de puntos de contacto en el nivel de campaña y decidiendo el orden de sección, el énfasis y el CTA en el nivel de mensaje.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Compare un solo correo electrónico de recuperación con un programa de correo electrónico y SMS de tres contactos&quot;.
+  * &quot;Dame tres direcciones de campaña para este lanzamiento antes de elegir una&quot;.
+  * &quot;Ayuda a decidir qué debe decir este correo electrónico y en qué orden antes de escribir la copia&quot;.
+
+  >[!ENDSHADEBOX]
 
 * **Resumen de contenido** (`content-brief`)
 
   Convierte una dirección de campaña aprobada en requisitos de escritura concretos, incluidos tono, mensajes clave, oferta, puntos esenciales, canal, configuración regional y variantes, además de un plan para producir el contenido.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Convierta este informe en requisitos de escritura para un correo electrónico de devolución de saldo a los suscriptores de EE. UU. que hayan caducado: 20 % de descuento hasta el domingo, con CTR como KPI&quot;.
+  * &quot;Queremos promocionar nuestra venta de primavera por correo electrónico y SMS para nuevos suscriptores y miembros fieles. Estructurar los requisitos y crear un informe completo independiente para cada canal y audiencia&quot;.
+  * &quot;Capture este informe de correo electrónico de bienvenida para audiencias en inglés y español, incluidos los requisitos localizados de pie de página legal, y prepárelo para la redacción de textos, no para el diseño de HTML&quot;.
+
+  >[!ENDSHADEBOX]
+
 * **Generar contenido** (`generate-content`)
 
   Borra un solo mensaje de marketing neto nuevo o una variante de copia para un canal, en función de una audiencia, oferta, tono, CTA y duración establecidos. Solo creación del primer borrador.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Escriba tres opciones de línea de asunto y previsualice el texto de nuestro correo electrónico de promoción de primavera&quot;.
+  * &quot;Genere una copia de SMS cálida y concisa para los clientes caducados con una oferta del 20 %&quot;.
+  * &quot;Cree una copia de lanzamiento de marca para correo electrónico, push y SMS desde la dirección de campaña aprobada&quot;.
+
+  >[!ENDSHADEBOX]
 
 * **Comprobar la preparación del contenido** (`check-content-readiness`)
 
   Evalúa el contenido existente, incluido un correo electrónico ensamblado, para la voz de la marca, la calidad editorial, la accesibilidad y el cumplimiento, y luego muestra bloqueadores explicables y pasos siguientes.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;¿Está lista esta copia de correo electrónico para enviarla? Compruebe la voz, la claridad, la accesibilidad y el cumplimiento de la marca&quot;.
+  * &quot;Revise este SMS para ver la calidad editorial, la participación y los bloqueadores antes de la aprobación&quot;.
+  * &quot;Compruebe si hay problemas legales, de accesibilidad y de preparación para el envío en el correo electrónico ensamblado&quot;.
+
+  >[!ENDSHADEBOX]
+
 * **Revisar y regenerar contenido** (`revise-regenerate-content`)
 
   Aplica un cambio específico y confirmado al contenido existente, como la corrección de un resultado de revisión, el ajuste del tono, la traducción o el intercambio de una línea de asunto o CTA, mientras se conserva el artefacto.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Aplique las correcciones de mayor gravedad de este informe de evaluación al SMS&quot;.
+  * &quot;Aumente el tono preservando al mismo tiempo la oferta aprobada y el CTA&quot;.
+  * &quot;Cambie el titular del héroe a &#39;Horas finales para ahorrar&#39; y muéstreme el contenido revisado&quot;.
+
+  >[!ENDSHADEBOX]
 
 * **Generar imagen** (`generate-image`)
 
   Produce y manipula elementos visuales para una ubicación aprobada, incluidas imágenes a pantalla completa, recortes, superposiciones, variaciones o recursos firmados, lo que confirma el plan antes de aplicarlo.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Genere una imagen principal para este correo electrónico de venta de primavera utilizando la dirección de marca aprobada&quot;.
+  * &quot;Cree un recorte compatible con el móvil de esta imagen de producto para el héroe de correo electrónico&quot;.
+  * &quot;Haga dos variaciones visuales de esta imagen de campaña&quot;.
+  * &quot;Generar una imagen similar a la imagen dada&quot;.
+
+  >[!ENDSHADEBOX]
+
 * **Evaluar diseño de contenido** (`assess-content-design`)
 
   Evalúa cómo se procesa realmente el contenido, incluida la jerarquía, el espaciado, las imágenes, la ubicación de CTA y la capacidad de respuesta, y recomienda cambios de copia o imagen para cerrar los huecos.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;¿Cómo se ve visualmente este correo electrónico? Compruebe la jerarquía, el espaciado, la densidad, las imágenes y CTA&quot;.
+  * &quot;¿Ocupa el héroe demasiado espacio en esta HTML de página de aterrizaje?&quot;
+  * &quot;Compare este correo electrónico creado con la composición de diseño aprobada y señale los mayores desajustes visuales&quot;.
+
+  >[!ENDSHADEBOX]
 
 * **Guardar contenido del canal** (`save-channel-content`)
 
   Guarda el contenido de la campaña aprobada como recurso de borrador o lo rellena en su plantilla de origen en Adobe Journey Optimizer u otra solución compatible.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Guarde esta copia de correo electrónico aprobada como borrador de la solución&quot;.
+  * &quot;Rellene el contenido aprobado en la plantilla de origen y prepárelo para su revisión&quot;.
+  * &quot;El correo electrónico está aprobado; guarde el contenido del canal y prepare el envío para su entrega&quot;.
+
+  >[!ENDSHADEBOX]
+
 * **Generar correo electrónico desde Figma** (`build-email-from-figma`)
 
   Crea el HTML de correo electrónico final directamente desde un fotograma de Figma activo cuando su copia, diseño e imágenes son los que deberían enviarse sin cambios, sin necesidad de un plan de diseño independiente.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Cree el correo electrónico final HTML a partir de este marco Figma; la copia del diseño es lo que debería enviarse&quot;.
+  * &quot;Convierta este diseño Figma móvil y de escritorio aprobado en un correo electrónico adaptable&quot;.
+  * &quot;Cree este correo electrónico desde el marco Figma y conserve los recortes de imagen, el CTA y el texto del diseño exactamente&quot;.
+
+  >[!ENDSHADEBOX]
 
   +++Cómo utilizar esta aptitud
 
@@ -193,6 +273,13 @@ Las siguientes habilidades están disponibles en el complemento **Contenido del 
 * **Búsqueda de marca** (`brand-lookup`)
 
   Busca, resuelve y aplica directrices de marca aprobadas, incluidas voz, imágenes y asistencia legal, antes de cualquier flujo de trabajo que genere o evalúe contenido de marca propia.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;¿Qué kits de marca publicados están disponibles para esta campaña?&quot;
+  * &quot;Siga las directrices visuales y de escritura de nuestra marca Acme&quot;.
+
+  >[!ENDSHADEBOX]
 
 ### Impulso de las prácticas recomendadas
 
