@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 16%
+source-wordcount: '3954'
+ht-degree: 13%
 ---
 # Notas de la versión {#release-notes}
 
@@ -55,6 +55,29 @@ ht-degree: 16%
 >Las funcionalidades que se enumeran en estas notas de la versión incluyen una **Fecha de disponibilidad** que indica cuándo se puede acceder a cada cambio en su entorno. Se esperan entradas en los acordeones de **Próximamente** en los próximos días o semanas. La información de estas secciones está sujeta a cambios.
 
 ## Notas de la versión de septiembre de 2026 {#sep-26-updates}
+
+>[!BEGINSHADEBOX]
+
+**Novedades de CX Enterprise Coworker este mes**
+
+Esta versión incorpora varias características y habilidades nuevas y mejoradas de [Coworker](../start/ai-features.md#cx-coworker) que se enumeran aquí para mayor visibilidad. Cada una de ellas se detalla también en la sección pertinente que figura a continuación.
+
+* [Complemento de contenido de canal CE](#sep-26-content-management): Un nuevo complemento que reúne las habilidades de HTML de copia de campaña, imagen y correo electrónico en Coworker, desde información de campaña hasta copia y HTML listas para la producción.
+* [Herramientas MCP de administración de contenido](#sep-26-content-management): descubra y administre plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea mediante mensajes en lenguaje natural en Coworker.
+* [Simulación de Recorrido](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
+* [Comparar versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través de Coworker Chat.
+* [Analizar la habilidad de anomalías de Recorrido](#sep-26-journeys): detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido, con diagnósticos de causa raíz.
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+* [Creación de Recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA.
+* [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de tu compañero y conviértelas en desafíos en vivo sin salir del chat.
+* [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
+* [Habilidad con el análisis de rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas desde el chat.
+
++++
+
+>[!ENDSHADEBOX]
 
 ### Administración de contenido {#sep-26-content-management}
 
@@ -162,9 +185,28 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Plazos para la finalización del desafío de fidelización por miembro**: los desafíos de fidelización ahora admiten los plazos de finalización por miembro: elija &quot;En un número de días después de la inclusión&quot; en Requisitos de finalización para que el plazo de cada miembro se calcule a partir de su propia fecha de inclusión en lugar de una fecha de finalización fija para todo el programa. Si se establecen tanto una fecha de finalización de desafío como esta ventana de inclusión, el plazo de cada miembro es el que sea primero. <!-- Documentation link: TBD -->
 
+* Dominio de **retos en el editor de personalización de tarjetas de contenido**: el editor de personalización de tarjetas de contenido ahora admite **desafíos** como dominio, lo que le permite acceder a los metadatos de desafíos al crear la personalización de tarjetas de contenido. Esto facilita la creación de contenido personalizado para cada fase de un desafío (inicio, en curso y final) sin código personalizado.
+
 +++
 
 ### Recorridos {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Comparar versiones de recorrido con Coworker</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Hoy en día, para revisar lo que ha cambiado entre dos versiones de un recorrido, es necesario compararlos manualmente dentro de Journey Optimizer nodo por nodo. No hay diferencia estructurada, lo que hace que las comprobaciones de revisión de cambios, auditoría y prepublicación sean lentas y propensas a errores, especialmente a medida que los recorridos se vuelven más complejos. Esta funcionalidad permite a un cliente o a un agente de IA comparar dos versiones cualquiera de un recorrido a través de Coworker Chat y recuperar una comparación de diferencias **estructurada** de plena fidelidad: nodos añadidos/eliminados/modificados/movidos con detalles de nivel de campo, conexiones cambiadas, cambios de propiedad de nivel de recorrido y recuentos de acumulación, sin necesidad de abrir Journey Optimizer. </p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/journeys-coworker-skills.md#journey-analyze">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -219,7 +261,6 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tbody>
 </table>
 
-
 * **Compatibilidad con actividades de salto en recorridos de calificación de audiencia**. Ahora puede usar actividades de salto en recorridos que comiencen con un nodo de calificación de audiencia para saltar a recorridos basados en eventos. Esta capacidad se está extendiendo progresivamente a las organizaciones. Si no ve esto en su entorno, puede deberse a que aún utiliza audiencias por lotes en las Cualificaciones de audiencia. [Más información](../building-journeys/jump.md)
 
   Fecha de disponibilidad: 22 de septiembre de 2026.
@@ -264,6 +305,38 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
+<th><strong>Tarjetas de recomendación de IA para alertas de recorrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La página de inicio de Journey Optimizer ahora muestra una <strong>tarjeta de recomendaciones de IA</strong> cuando se activa una alerta de recorrido que cubre <strong>errores de acciones personalizadas de Recorrido</strong> y <strong>anomalías de Recorrido detectadas</strong>. Al seleccionar la tarjeta, se abre el recorrido con el carril derecho rellenado previamente con el análisis ya realizado.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actividad de recorrido de desactivación de actividad entrante</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nueva actividad <strong>Inbound Activity Deactivation</strong> en el lienzo de recorrido le permite quitar un perfil de hasta cinco actividades o experiencias entrantes directamente de un recorrido, lo que desvincula la descalificación entrante de la salida del recorrido para una orquestación entre canales más avanzada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Vista previa del contenido en el lienzo del recorrido</strong><br/></th>
 </tr>
 </thead>
@@ -277,9 +350,28 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Creación de recorridos desde el carril Compañero de trabajo</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La creación de Recorridos de <strong>con IA</strong> ya está disponible directamente desde el carril derecho de la barra de tareas del asistente, reemplazando la experiencia anterior del asistente de IA con un punto de entrada integrado con marca modificada para la generación de recorridos.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Aptitud para el análisis de higiene**: CX Coworker ahora puede analizar los recorridos activos y en borrador para detectar configuraciones rotas, errores silenciosos y recursos en declive o no utilizados, como recorridos en borrador antiguos, fuentes de datos huérfanas y errores persistentes de acciones personalizadas, así como correcciones recomendadas superficiales directamente en el chat. <!-- Documentation link: TBD -->
 
 * **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura.
+
+* **Supresión de eventos de paso de ejecución en seco para informes personalizados**: como parte de la optimización de eventos de paso, Journey Optimizer ahora deja de generar ciertos eventos de paso que no se pueden notificar durante las ejecuciones en seco de Recorrido. Esto solo afecta a los informes personalizados creados en estos tipos de eventos de paso de ejecución en seco. Si se ve afectado, vuelva a almacenar en déclencheur la ejecución en seco para regenerar los datos.
+
+* **Tiempo de espera de recuperación de evento automático en Propiedades de Recorrido** - Propiedades de Recorrido ahora incluye una configuración de **Establecer tiempo de espera de recuperación de evento**: de forma predeterminada, los eventos de recorrido afectados se reproducen automáticamente durante un máximo de 72 horas después de una interrupción del servicio sin necesidad de realizar ninguna acción. Puede activar esta configuración para controlar la ventana de reproducción (0-72 horas) para recorridos con distinción de tiempo. El campo **Tiempo de espera o error** existente también ha cambiado de nombre a **Acción personalizada / Tiempo de espera de la fuente de datos** para evitar confusiones entre las dos configuraciones.
 
 +++
 
@@ -340,6 +432,10 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 
 * **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
 
+* **Correo directo - Dividir archivos grandes automáticamente** - Los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
+
+* **Correo directo: límite de audiencia aumentado**: el límite de audiencia del canal de correo directo se ha aumentado de 3 millones a 100 millones de perfiles, lo que permite dirigirse a audiencias mucho más grandes sin llegar a errores de creación de archivos.
+
 +++
 
 ### Campañas orquestadas {#sep-26-orchestrated-campaigns}
@@ -371,7 +467,6 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
-
 <table>
 <thead>
 <tr>
@@ -389,9 +484,9 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 
 * **Canal LINE para campañas orquestadas**: LINE ya está disponible como canal saliente nativo en campañas orquestadas, junto con correo electrónico, SMS y push. Puede crear y enviar mensajes de LINE directamente desde el lienzo de la campaña, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes de Flex, lo que admite casos de uso de participación promocional, transaccional y continua en mercados dominantes de LINE como Japón y APAC. Esta capacidad, que se publicó anteriormente con disponibilidad limitada, ya está disponible de forma general.
 
-
 * **Supervisión de Campaign Orchestration**: ya está disponible una nueva interfaz de usuario para realizar el seguimiento del estado de ingesta y la actualización de los datos del almacén relacional que usa la segmentación de Campaign orquestada. Le ofrece una visibilidad directa del estado de los datos que alimentan a las audiencias por lotes. Una nueva pestaña de Campaign Orchestration del panel de monitorización de Adobe Experience Platform muestra el estado de los flujos de datos del almacén relacional (registros ingeridos/actualizados/eliminados/fallidos/omitidos), con gráficos desglosados y un desglose por flujo de datos/conjunto de datos, incluido el linaje.
 
+* **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización.
 
 +++
 
@@ -522,3 +617,8 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+* **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+
++++
