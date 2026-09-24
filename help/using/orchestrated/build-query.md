@@ -5,23 +5,27 @@ title: Cree su primera regla
 description: Aprenda a crear reglas para sus campañas organizadas
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
+mini-toc-levels: 1
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: 1947
-ht-degree: 89%
-
+source-wordcount: '2090'
+ht-degree: 79%
 ---
-
 # Cree su primera regla {#build-query}
 
 >[!BEGINSHADEBOX]
@@ -128,9 +132,11 @@ Para añadir condiciones en la consulta, siga estos pasos:
 
    +++
 
-### Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
+## Condiciones personalizadas en las tablas vinculadas (vínculos 1-1 y 1-N){#links}
 
 Las condiciones personalizadas permiten consultar tablas vinculadas a la tabla que utiliza actualmente la regla. Esto incluye tablas con un vínculo de cardinalidad 1-1 o tablas de colección (vínculo 1-N).
+
+### Vínculo 1-1
 
 Para un **vínculo 1-1**, vaya a la tabla vinculada, seleccione el atributo deseado y defina el valor previsto.
 
@@ -154,33 +160,41 @@ Este es un ejemplo de consulta en el que se ha seleccionado directamente un vín
 
 +++ 
 
-Para un **vínculo 1-N**, puede definir subcondiciones para restringir la consulta, como se muestra en el ejemplo siguiente.
+### Vínculo 1-N
 
-+++Ejemplo de consulta
+Para un vínculo **1-N**, puede definir condiciones de dos maneras:
 
-En este caso, la consulta está segmentada a los destinatarios que han realizado compras relacionadas con el producto Brewmsaster, por más de 100 USD.
+* **Seleccione la colección en sí**, como **[!UICONTROL Compras]**. Esto crea una condición **[!UICONTROL exists como]** donde puede agregar subcondiciones.
 
-1. Seleccione la tabla **Compras** y confirme.
+  +++Ejemplo de consulta
 
-1. Haga clic en **[!UICONTROL Añadir condición]** para definir las subcondiciones que se aplicarán a la tabla seleccionada.
+  En este caso, la consulta está segmentada a los destinatarios que han realizado compras relacionadas con el producto Brewmsaster, por más de 100 USD.
 
-   ![Captura de pantalla de la tabla Compra](assets/rule-builder-1-n-purchase.png)
+  1. Seleccione la tabla **Compras** y confirme.
 
-1. Añada subcondiciones para adaptarlas a sus necesidades.
+  1. Haga clic en **[!UICONTROL Añadir condición]** para definir las subcondiciones que se aplicarán a la tabla seleccionada.
 
-   ![Captura de pantalla de la tabla Compra](assets/rule-builder-1-n-collection.png)
+     ![Captura de pantalla de la tabla Compra](assets/rule-builder-1-n-purchase.png)
 
-+++ 
+  1. Añada subcondiciones para adaptarlas a sus necesidades.
 
-### Condiciones personalizadas con Agregar datos {#aggregate}
+     ![Captura de pantalla de la tabla Compra](assets/rule-builder-1-n-collection.png)
 
-Las condiciones personalizadas le permiten realizar operaciones de agregado. Para ello, debe seleccionar directamente un atributo de una tabla de colección:
+  +++
 
-1. Desplácese por la tabla de colección deseada y seleccione el atributo en el que desea realizar una operación de agregado.
+* **Seleccione un atributo de la colección**. Busque en la colección y seleccione un atributo, como **[!UICONTROL Precio]**.
 
-1. En el panel de propiedades, active la opción **Agregar datos** y seleccione la función de agregado que desee.
+  Journey Optimizer proporciona tres opciones para definir la condición.
 
-   ![Captura de pantalla de la opción Agregar datos](assets/rule-builder-aggregate.png)
+  ![Captura de pantalla que muestra las opciones de condición de colección](assets/rule-builder-collection.png)
+
+  * **Predeterminado**: La opción recomendada para la mayoría de los casos de uso. Crea automáticamente una condición `exists such as` para la colección. Esto equivale a seleccionar la colección directamente con el método descrito anteriormente y produce el mismo resultado. Por ejemplo, al seleccionar el atributo **[!UICONTROL Price]** de **[!UICONTROL Purchases]**, se crea una **[!UICONTROL Purchases exists such as]** condition. Luego puede establecer el operador y el valor, como **[!UICONTROL igual a]** `0`.
+
+  * **Agregado**: Aplica una función de agregado al atributo de colección seleccionado. Por ejemplo, seleccione **[!UICONTROL Count]** para crear una condición como **[!UICONTROL Count(Price) igual a 0]**. Puede utilizar la condición adicional para restringir los registros incluidos en la agregación.
+
+  * **Avanzado**: Utiliza una unión directa al elemento de colección. El atributo seleccionado se evalúa directamente, por ejemplo **[!UICONTROL Precio (compras/@price)]**. Utilice esta opción para una sola condición en el elemento de colección.
+
+  La opción **Predeterminada** está seleccionada de manera predeterminada. Use **Agregar** cuando necesite contar o agregar registros de colección, o **Avanzado** cuando necesite una unión directa a un atributo de colección.
 
 ## Combinación de condiciones mediante operadores {#operators}
 

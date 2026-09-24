@@ -13,22 +13,25 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1527'
 ht-degree: 17%
-
 ---
-
 # Publicación del recorrido {#publishing-the-journey}
 
 >[!BEGINSHADEBOX]
@@ -43,7 +46,7 @@ La publicación de un recorrido lo activa: pasa al estado **[!UICONTROL Activo]*
 >
 >Al guardar o publicar un recorrido, Journey Optimizer valida el tamaño total de la carga útil del recorrido y puede advertir o bloquear la publicación si se aproxima o supera el límite. Obtenga más información en [validación del tamaño de la carga útil de Recorrido](../start/guardrails.md#journey-payload-size).
 
-➡️ [Descubra esta función en vídeo](#video)
+➡️ [Descubra esta funcionalidad en vídeo](#video)
 
 ## Antes de publicar {#before-you-publish}
 
@@ -109,6 +112,8 @@ En algunos casos, debe volver a publicar un recorrido para que los cambios o los
 ## Versiones de recorridos {#journey-versions}
 
 En la lista de recorridos, todas las versiones del recorrido se muestran con el número de versión. Cuando busca un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como preferencia del usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de la edición de recorrido, encima del lienzo.
+
+También puede utilizar IA en Coworker para comparar versiones de recorridos. Para obtener más información, consulte [Comparación de versiones de Recorrido](journeys-coworker-skills.md#journey-version-comparison).
 
 ![Lista de versiones de Recorrido que muestra las versiones publicadas y en borrador](assets/journeyversions1.png)
 

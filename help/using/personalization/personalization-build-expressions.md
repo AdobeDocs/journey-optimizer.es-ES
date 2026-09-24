@@ -12,16 +12,17 @@ keywords: expresión, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
+    internal-label: Advanced expression editor
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Operators
+source-git-commit: 69216e69c713facbe3aabdf4c5237940f1dc5004
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 11%
-
+source-wordcount: '1637'
+ht-degree: 10%
 ---
-
 # Adición de personalización {#build-personalization-expressions}
 
 >[!BEGINSHADEBOX]
@@ -177,7 +178,9 @@ Una vez que la expresión personalizada está lista, el editor de personalizaci�
 
 La validación de la expresión se ejecuta automáticamente al hacer clic en el botón **Agregar** para cerrar la ventana del editor. También puede usar el botón **Validar** para comprobar la sintaxis de personalización.
 
-![](assets/perso_validation1.png)
+Cuando se detecta un error de validación de sintaxis de PQL, aparece la opción **[!UICONTROL Corregir con IA]** en el panel inferior. Selecciónela para abrir la herramienta de generación de expresiones en el carril derecho y obtener ayuda para corregir el error. Más información acerca de [editar, corregir o explicar código existente](../content-management/generative-personalization-expressions.md#edit-existing).
+
+![](assets/fix-with-ai.png)
 
 Expanda la sección siguiente para ver los errores comunes que pueden producirse al validar la personalización.
 
