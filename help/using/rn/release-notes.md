@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 20%
+source-wordcount: '2287'
+ht-degree: 19%
 ---
 # Notas de la versión {#release-notes}
 
@@ -278,6 +278,10 @@ ht-degree: 20%
 </table>
 
 * **Contenido condicional con datos relacionales en campañas orquestadas**: al crear contenido condicional en el Designer de correo electrónico para campañas orquestadas, ahora puede generar condiciones directamente en datos relacionales, como registros relacionados asociados a un perfil, no solo atributos de perfil estándar. [Más información](../orchestrated/activities/channels.md#add-personalization)
+
+  Fecha de disponibilidad: 22 de septiembre de 2026
+
+* **Uniones directas en colecciones en campañas orquestadas**: al agregar un atributo de una colección relacionada, ahora puede elegir entre tres modos de unión (un nuevo valor predeterminado que le advierte sobre el posible impacto en el rendimiento de los productos cartesianos, además de los modos Agregado y Avanzado existentes), lo que facilita la comprensión de las compensaciones de su consulta antes de crearla. [Más información](../orchestrated/build-query.md#links)
 
   Fecha de disponibilidad: 22 de septiembre de 2026
 
