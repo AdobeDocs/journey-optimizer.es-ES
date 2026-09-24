@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
+source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1842'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ Más información:
 
 * [Aptitudes de colaborador para Journey Optimizer](../start/ai-features.md#cx-coworker-skills): información general sobre las aptitudes de colaborador en todos los Recorridos, la lealtad y la administración de contenido en Journey Optimizer.
 * [Documentación de los compañeros](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: información general sobre las capacidades de Campañas, Conversaciones y Proyectos de los compañeros.
-* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
+* [Guía de la interfaz de usuario de Coworker Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: cómo acceder y navegar por Coworker Chat.
 
 >[!ENDSHADEBOX]
 
@@ -138,18 +138,17 @@ Las siguientes habilidades están disponibles en el complemento **Contenido del 
 
   Ejecuta el ciclo de vida completo de la creación desde un informe, un recorrido, una campaña o un mensaje, ideando, generando, revisando y guardando contenido, incluidas las copias, las imágenes y las comprobaciones de conformidad, accesibilidad y fidelidad en todos los canales admitidos.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Ejemplos de mensajes&quot;]
 
   &quot;Ejecute la creación de contenido completo para nuestra campaña de correo electrónico de venta de otoño desde esta información y, a continuación, revise y guarde el HTML final&quot;.
 
   >[!ENDSHADEBOX]
 
-
 * **Explorar estrategia de contenido** (`explore-content-strategy`)
 
   Determina qué debe decir una campaña o un mensaje antes de escribir una copia, comparando los mapas de mensajes y la secuenciación de puntos de contacto en el nivel de campaña y decidiendo el orden de sección, el énfasis y el CTA en el nivel de mensaje.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Ejemplos de mensajes&quot;]
 
   * &quot;Compare un solo correo electrónico de recuperación con un programa de correo electrónico y SMS de tres contactos&quot;.
   * &quot;Dame tres direcciones de campaña para este lanzamiento antes de elegir una&quot;.
