@@ -13,28 +13,37 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+    internal-label: Templates
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
+    internal-label: Optimization
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: 1798
-ht-degree: 3%
-
+source-wordcount: '2253'
+ht-degree: 2%
 ---
-
 # Aplicar temáticas al contenido del correo electrónico {#apply-email-themes}
 
 >[!BEGINSHADEBOX]
@@ -94,15 +103,15 @@ Para definir una temática que pueda aprovechar en el contenido futuro del corre
 
 1. Seleccione la opción **[!UICONTROL Crear o editar temáticas]**.
 
-   ![](assets/theme-create.png)
+   ![Crear o editar la opción de temas en la creación de plantillas](assets/theme-create.png)
 
 1. Seleccione un tema de Adobe. En este ejemplo, seleccione el **[!UICONTROL tema predeterminado]** y haga clic en **[!UICONTROL Crear]**.
 
-   ![](assets/theme-select.png)
+   ![Pantalla de selección de tema con tema predeterminado seleccionado](assets/theme-select.png)
 
 1. También puede seleccionar una plantilla personalizada de la ficha **[!UICONTROL Mis temas]** y hacer clic en **[!UICONTROL Editar]** para actualizarla.
 
-   ![](assets/theme-edit.png)
+   ![Ficha Mis temas con la acción Editar para un tema personalizado](assets/theme-edit.png)
 
 1. En la ficha **[!UICONTROL Configuración general]**, empiece a definir el tema asignándole un nombre específico que se adapte a su marca. Puede ajustar la anchura predeterminada de la ventanilla móvil de los correos electrónicos y también exportar el tema actual a [compartirlo en zonas protegidas](../configuration/copy-objects-to-sandbox.md).
 
@@ -110,25 +119,47 @@ Para definir una temática que pueda aprovechar en el contenido futuro del corre
 
 1. Utilice el carril de la derecha para navegar por las diferentes pestañas y actualizar la configuración de diseño.
 
-   ![](assets/theme-right-pane.png)
+   ![Fichas de carril derecho para la configuración del diseño del tema](assets/theme-right-pane.png)
 
 1. Desde la ficha **[!UICONTROL Colores]**:
 
    * Use el botón **[!UICONTROL Editar]** para configurar una **[!UICONTROL paleta de colores]** con colores predeterminados para su marca. Seleccione un **[!UICONTROL ajuste preestablecido]** para crear rápidamente una combinación de colores o ajustar cada color de su tema individualmente. También puede utilizar una combinación de ambos.
 
-     ![](assets/theme-colors.gif)
+     ![Editor de paletas de color para colores de temas](assets/theme-colors.gif)
 
-   * Haga clic en **[!UICONTROL Agregar variante]** para crear varias variantes de color, como el modo claro y oscuro, en las que cada variante del tema tiene su propia paleta de colores y controles de matices.
+   * Haz clic en **[!UICONTROL Agregar variante]** para crear varias variantes de color para tu tema, cada una con su propia paleta de colores y controles de matices.
 
-     ![](assets/theme-colors-variant.png)
+     ![Agregar acción de variante en la configuración de color del tema](assets/theme-colors-variant.png)
 
    * Para cada variante, haga clic en el icono **[!UICONTROL Editar]** para editar cualquier elemento individual. Puede utilizar la paleta predeterminada que ha creado o cualquier color personalizado.
 
-     ![](assets/theme-colors-edit-variant.gif)
+     ![Icono de edición para la configuración de variante de color por elemento](assets/theme-colors-edit-variant.gif)
 
-1. En la **[!UICONTROL configuración de texto]**, puede establecer la fuente global que desee usar para todo el tema. Para un control más granular, también puede editar cada título y tipo de párrafo para ajustar la fuente, el tamaño, el estilo, etc.
+1. **Opcionalmente**, active la opción **[!UICONTROL Habilitar modo oscuro]** para que la vista de modo oscuro esté disponible para todas las variantes de color del tema, a través del conmutador situado en la parte superior derecha del lienzo central. [Más información sobre el modo oscuro](dark-mode.md)
 
-   ![](assets/theme-text.png)
+   ![Habilitar la opción de modo oscuro en la configuración del tema](assets/theme-dark-mode-toggle.png)
+
+   Utilice ese conmutador para cambiar a la vista del modo oscuro. La paleta de colores cambia automáticamente a una versión oscura predeterminada para cada variante.
+
+   ![Vista previa en modo oscuro del tema en lienzo](assets/theme-dark-mode-view.png)
+
+   Puede personalizar aún más cada variante del modo oscuro, utilizando una paleta de colores diferente o colores personalizados.
+
+   ![Personalización del color en modo oscuro para la variante del tema](assets/theme-dark-mode-support.gif)
+
+   >[!CAUTION]
+   >
+   >La previsualización en modo oscuro es una simulación y es posible que no coincida exactamente con el resultado final. Envíe una prueba para verificar el procesamiento exacto en los clientes de correo electrónico que admiten el modo oscuro personalizado. [Más información](dark-mode.md#guardrails)
+
+   Las variantes de color del modo oscuro son independientes de los colores del modo claro, por lo que las ediciones de color en la previsualización del modo oscuro solo se aplican a la versión del modo oscuro. Sin embargo, la configuración que no es de color (como el espaciado, el relleno, el tamaño de la fuente, etc.) se comparten con el modo claro y también se aplican allí.
+
+   >[!NOTE]
+   >
+   >Para eliminar una variante de color, debe estar en modo claro. No es posible eliminar una variante mientras se esté en la vista del modo oscuro.
+
+1. En la **[!UICONTROL configuración de texto]**, puede establecer la fuente global que desee usar para todo el tema. Para un control más granular, también puede editar cada encabezado y tipo de párrafo para ajustar la fuente, el tamaño, el estilo, etc.
+
+   ![Panel de configuración de texto para fuentes y tipografía](assets/theme-text.png)
 
    >[!NOTE]
    >
@@ -140,7 +171,7 @@ Para definir una temática que pueda aprovechar en el contenido futuro del corre
 
 1. Con las otras pestañas de la derecha, puede administrar por separado cada elemento de botón, divisor, formato de imagen adicional y espaciado del diseño de cuadrícula para esta temática.
 
-   ![](assets/theme-buttons.png)
+   ![Botones y configuración de estilo de componente en el editor de temáticas](assets/theme-buttons.png)
 
 1. Haga clic en **[!UICONTROL Guardar]** para almacenar este tema para uso futuro. Ahora se muestra en la pestaña **[!UICONTROL Mis temas]**.
 
@@ -158,7 +189,7 @@ Para aplicar temáticas de estilo predeterminadas o personalizadas a una plantil
 
    * Diseña [nuevo contenido desde cero](content-from-scratch.md) y selecciona **[!UICONTROL Usar temas]** para comenzar con un tema de estilo predefinido.
 
-     ![](assets/theme-from-scratch.png)
+     ![Usar la opción Temas al iniciar contenido desde cero](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
@@ -168,21 +199,31 @@ Para aplicar temáticas de estilo predeterminadas o personalizadas a una plantil
 
 1. Una vez que se encuentre en el Designer de correo electrónico, haga clic en el botón **[!UICONTROL Temas]** en el carril derecho. Se muestra el tema predeterminado o el tema de la plantilla. Puede cambiar entre las dos variantes de color para esta temática.
 
-   ![](assets/theme-default-hero.png)
+   ![Enviar correo electrónico a Designer con el tema predeterminado aplicado](assets/theme-default-hero.png)
 
 1. Haga clic en la flecha situada junto a la temática utilizada actualmente. Se muestra la lista de las temáticas personalizadas y de Adobe disponibles.
 
-   ![](assets/theme-hero-change.png)
+   ![Menú desplegable de temas que muestra los temas disponibles](assets/theme-hero-change.png)
 
 1. Haz clic en **[!UICONTROL Mis temas]** y selecciona un tema que hayas creado.
 
-   ![](assets/theme-select-custom.png)
+   ![Menú desplegable Mis temas con un tema personalizado seleccionado](assets/theme-select-custom.png)
 
 1. Haga clic fuera de la lista desplegable. La temática personalizada recién seleccionada aplica automáticamente sus estilos a todos los componentes del correo electrónico. Puede alternar entre las variantes de color, si las hay.
 
+1. Cambie el conmutador a **[!UICONTROL Modo oscuro]** para el tema seleccionado. La versión en modo oscuro de esa temática se aplica al contenido del correo electrónico. Actualícelo según sea necesario: las ediciones de color y previsualizaciones posteriores reflejan el estilo del modo oscuro.
+
+   ![Vista previa en modo claro del correo electrónico con temas](assets/theme-light-mode.png){width="45%"} ![Vista previa en modo oscuro del correo electrónico con temas](assets/theme-dark-mode.png){width="45%"}
+
+   La versión en modo oscuro se utiliza cuando el mensaje se muestra en clientes de correo electrónico en modo oscuro admitidos. [Más información sobre el modo oscuro](dark-mode.md)
+
+   >[!NOTE]
+   >
+   >Cuando se encuentra en la previsualización del modo oscuro, los cambios de color solo se aplican a la versión del modo oscuro. Sin embargo, la configuración que no es de color (como el espaciado, el relleno, el tamaño de la fuente, etc.) también se aplican al modo de luz.
+
 1. Cuando se selecciona un tema en una plantilla de contenido, puede hacer clic en el botón **[!UICONTROL Editar tema]** para actualizarlo. [Más información](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%"}
+   ![Botón Editar tema en la plantilla de contenido temático](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -196,7 +237,7 @@ Para aplicar temáticas de estilo predeterminadas o personalizadas a una plantil
 
    Para ello, seleccione un componente de estructura, haga clic en la opción **[!UICONTROL Usar variante de tema específico]** de la pestaña **[!UICONTROL Estilos]** de la derecha y aplique la variante que desee a esa estructura.
 
-   ![](assets/theme-structure-variant.png)
+   ![Opción de variante de tema específica de nivel de estructura](assets/theme-structure-variant.png)
 
    En este ejemplo, la primera variante de color de la temática actual se aplica a todo el contenido del correo electrónico, pero la tercera variante de color se aplica a la estructura seleccionada. Se puede ver que los colores del cuerpo y del fondo de la ventanilla móvil de esa estructura específica son diferentes del resto del contenido.
 
@@ -208,13 +249,13 @@ Cuando se selecciona un componente, puede desbloquear su estilo utilizando el ic
 
 ![](assets/theme-unlock-style.png){width="90%"}
 
-La temática seleccionada se seguirá aplicando a ese componente, pero puede anular sus elementos de estilo. Si cambia los temas, el nuevo tema sólo se aplicará a los elementos de estilo que no se reemplazaron.<!--can you revert this action?-->
+La temática seleccionada se seguirá aplicando a ese componente, pero puede anular sus elementos de estilo. Si cambia las temáticas, la nueva temática solo se aplica a los elementos de estilo que no se anularon.
 
-Por ejemplo, si desbloquea un componente de texto, puede cambiar <!--the font size from 11 to 14 and --> el color de la fuente de negro a rojo:
+Por ejemplo, si desbloquea un componente de texto, puede cambiar el color de la fuente de negro a rojo:
 
 ![](assets/theme-unlock-style-ex-white.png){width="80%" align="center" zoomable="yes"}
 
-Si cambia de tema, <!--the font size is still 14 and -->el color de fuente sigue siendo rojo para ese componente, pero el color de fondo para este componente cambiará con el nuevo tema:
+Si cambia de tema, el color de fuente seguirá siendo rojo para ese componente, pero el color de fondo para este componente cambiará con el nuevo tema:
 
 ![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
@@ -228,7 +269,7 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Seleccione **[!UICONTROL Usar temas]** para comenzar con un tema de estilo predefinido.
 
-   ![](assets/fragment-use-themes.png){width="100%"}
+   ![Usar la opción Temas al crear un fragmento visual](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -238,11 +279,11 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Haga clic en el botón **[!UICONTROL Temas]** en el carril derecho. Se muestra la temática predeterminada. Puede cambiar entre las diferentes variantes de color para esta temática.
 
-   ![](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
+   ![Editor de fragmentos con tema predeterminado aplicado](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
 
 1. Puede seleccionar otras temáticas para previsualizar el contenido del fragmento. Para ello, seleccione la flecha junto al tema predeterminado y haga clic en **[!UICONTROL Seleccionar temas]**.
 
-   ![](assets/fragment-select-themes.png){width="40%"}
+   ![Seleccionar acción de temas en el menú de temas del fragmento](assets/fragment-select-themes.png){width="40%"}
 
 1. Puede navegar entre las pestañas **[!UICONTROL Adobe themes]** y **[!UICONTROL Mis temáticas]**, y seleccionar hasta cinco temáticas compatibles (de ambas pestañas) para su fragmento.
 
@@ -250,7 +291,7 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
    >
    >Este límite se impone por motivos de compatibilidad y rendimiento. El **[!UICONTROL tema predeterminado de Adobe]** no se puede quitar, por lo que puede seleccionar hasta cuatro temas personalizados adicionales.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70%}
+   ![Cuadro de diálogo de selección de temas compatibles para el fragmento](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -260,7 +301,7 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Seleccione de nuevo la flecha junto al **[!UICONTROL tema predeterminado]**. Ahora puede alternar entre los diferentes temas que acaba de seleccionar para previsualizar cada renderización de estilo.
 
-   ![](assets/fragment-selected-themes.png){width=90%}
+   ![Cambio de vista previa de fragmento entre temas seleccionados](assets/fragment-selected-themes.png){width=90%}
 
 1. Vuelva a hacer clic en **[!UICONTROL Seleccionar temas]** para agregar más temas o cambiar su selección.
 
@@ -276,17 +317,17 @@ Para crear un fragmento compatible con temáticas, siga los pasos a continuació
 
 1. Seleccione el icono **[!UICONTROL Temas]** en el carril derecho y haga clic en el botón **[!UICONTROL Generar tema a partir del contenido]**.
 
-   ![](assets/generate-theme.png){width=100%}
+   ![Botón Generar tema a partir del contenido en el panel Temas](assets/generate-theme.png){width=100%}
 
 1. Se abre la ventana **[!UICONTROL Crear un tema]**. [!DNL Journey Optimizer] detecta automáticamente los elementos de estilo y los consolida en un nuevo tema.
 
-   ![](assets/generate-theme-create-window.png){width=90%}
+   ![Crear un cuadro de diálogo de tema después de la detección de estilo](assets/generate-theme-create-window.png){width=90%}
 
 1. Asigne un nombre a la temática.
 
 1. Realice sus propios ajustes según sea necesario, tal como lo hace al crear un tema desde cero, como agregar una variante de color, editar fuentes, etc. [Obtenga información](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=90%}
+   ![Configuración del tema generado lista para el ajuste](assets/generate-theme-colors.png){width=90%}
 
 1. Haga clic en **[!UICONTROL Guardar]** para almacenar este nuevo tema y reutilizarlo. Ahora puede aplicar esta temática a su contenido, como cualquier otra temática. [Descubra cómo](#apply-themes-email)
 

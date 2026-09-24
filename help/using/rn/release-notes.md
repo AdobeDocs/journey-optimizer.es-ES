@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '4651'
+source-wordcount: '4588'
 ht-degree: 13%
 ---
 # Notas de la versión {#release-notes}
@@ -411,6 +411,8 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 </ul>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general), con las mejoras descritas anteriormente.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Para obtener más información, consulte la <a href="../custom-channel/get-started-custom-channel.md">documentación detallada</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -564,8 +566,6 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 </tbody>
 </table>
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
-
 <table>
 <thead>
 <tr>
@@ -577,12 +577,15 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <td>
 <p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
 <p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -598,8 +601,6 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 </tr>
 </tbody>
 </table>
-
-* **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico.
 
 +++
 
