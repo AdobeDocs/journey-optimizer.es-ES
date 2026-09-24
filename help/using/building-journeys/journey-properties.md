@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 13%
+source-wordcount: '4756'
+ht-degree: 14%
 ---
 # Establecimiento de las propiedades del recorrido {#jo-properties}
 
@@ -197,6 +197,11 @@ Las fechas de inicio y finalización configuradas aparecen directamente en el **
 Si no se define ninguna fecha de inicio o de finalización, no aparece ninguna información de fecha en el encabezado.
 
 ## Tiempo de espera {#timeout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Establecer tiempo de espera de recuperación del evento"
+>abstract="Controla cuánto tiempo el recorrido reproduce automáticamente los eventos afectados por una interrupción del servicio. Desactivado de forma predeterminada (reproducción automática de 72 horas); activar para ajustar la ventana de reproducción de 0 a 72 horas en el caso de recorridos con restricciones de tiempo."
 
 La configuración del tiempo de espera controla cuánto tiempo espera un recorrido a que se ejecute la actividad y cuánto tiempo pueden permanecer los perfiles en un recorrido.
 
@@ -531,7 +536,7 @@ La mayoría de las propiedades son de solo lectura una vez que el recorrido est�
 
 **¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
 
-Un tiempo de espera de recorrido global de [1&rbrace; detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. &#x200B;](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
+Un tiempo de espera de recorrido global de [1} detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. ](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
 
 **¿Por qué no se puede publicar mi recorrido debido al tamaño de la carga útil?**
 
