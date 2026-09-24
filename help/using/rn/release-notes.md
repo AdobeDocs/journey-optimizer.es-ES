@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
+source-git-commit: 1da3120b8fb13eff15e572a9a4d8d12e799840b9
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 19%
@@ -69,7 +69,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible un nuevo complemento <strong>Channel Content</strong> en Coworker, que reúne las aptitudes de HTML de copia de campaña, imagen y correo electrónico ensamblado en un solo complemento, desde la estrategia hasta la implementación. Las siguientes habilidades están disponibles en el complemento **Contenido del canal**:</p>
+<p>Ahora hay disponible un nuevo complemento <strong>Channel Content</strong> en Coworker, que reúne las aptitudes de HTML de copia de campaña, imagen y correo electrónico ensamblado en un solo complemento, desde la estrategia hasta la implementación. Las siguientes habilidades están disponibles en el complemento <b>Contenido del canal</b>:</p>
 <ul>
 <li><strong>Crear contenido para orquestar</strong>.</li>
 <li><strong>Explorar estrategia de contenido</strong></li>
