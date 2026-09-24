@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 69216e69c713facbe3aabdf4c5237940f1dc5004
 workflow-type: tm+mt
-source-wordcount: '3954'
+source-wordcount: '3958'
 ht-degree: 13%
 ---
 # Notas de la versión {#release-notes}
@@ -563,7 +563,7 @@ Las siguientes funcionalidades están llegando a las integraciones en esta versi
 
 ### Personalización {#sep-26-personalization}
 
-* **Corregir sintaxis con IA**: cuando se detecta un error de validación de sintaxis de PQL, el Editor de Personalization ahora proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor.
+* **Corregir sintaxis con IA**: al validar una expresión, si se detecta un error de sintaxis de PQL, el editor de Personalization proporciona una opción &quot;Corregir con IA&quot; para ayudar a resolver el problema directamente desde el editor. [Más información](../personalization/personalization-build-expressions.md#validation-mechanisms).
 
   Fecha de disponibilidad: 22 de septiembre de 2026
 
