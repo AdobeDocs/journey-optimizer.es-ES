@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
+source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
 workflow-type: tm+mt
-source-wordcount: '4642'
-ht-degree: 12%
+source-wordcount: '4651'
+ht-degree: 13%
 ---
 # Notas de la versión {#release-notes}
 
@@ -410,6 +410,7 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
 </ul>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general), con las mejoras descritas anteriormente.</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
 </td>
 </tr>
 </tbody>
@@ -545,6 +546,24 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 
 Las siguientes funcionalidades y mejoras están llegando a Email Designer en esta versión.
 
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+<p><img src="assets/do-not-localize/table-component.gif"></p>
+<p>Para obtener más información, consulte la <a href="../email/content-components.md#table">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
@@ -558,6 +577,8 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <td>
 <p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
 <p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
+<p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
 </td>
 </tr>
 </tbody>
@@ -572,22 +593,7 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <tbody>
 <tr>
 <td>
-<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media almacenada en Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, puede editarla con el editor integrado de Dynamic Media, la misma experiencia que se utiliza para el contenido de Adobe Express en el Designer de correo electrónico.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, edite la plantilla con el editor integrado de Dynamic Media.</p>
 </td>
 </tr>
 </tbody>
