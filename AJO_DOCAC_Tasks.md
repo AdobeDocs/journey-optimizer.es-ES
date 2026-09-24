@@ -101,7 +101,7 @@ ht-degree: 2%
   - Comentarios: el documento ha actualizado los comentarios siguientes, esperando revisión
 
 
-- ** Aviso por adelantado: los Recorridos y las campañas con audiencias no admitidas se detendrán en octubre**
+- **&#x200B; Aviso por adelantado: los Recorridos y las campañas con audiencias no admitidas se detendrán en octubre**
   - Mejora
   - [DOCAC-15690](https://jira.corp.adobe.com/browse/DOCAC-15690)
   - Descripción: Aviso por adelantado del documento: los Recorridos y campañas con audiencias no admitidas se detendrán en octubre.
@@ -117,7 +117,7 @@ ht-degree: 2%
   - Comentarios: enviado para revisión
 
 
-- ** la creación de Recorridos desde el carril Coworker (Coworker)**
+- **&#x200B; la creación de Recorridos desde el carril Coworker (Coworker)**
   - Función
   - [DOCAC-14898](https://jira.corp.adobe.com/browse/DOCAC-14898) - [CJM-150745](https://jira.corp.adobe.com/browse/CJM-150745)
   - Descripción: Cree un Recorrido de documentos desde el carril Compañero de trabajo.
