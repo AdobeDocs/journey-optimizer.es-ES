@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
+source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
 workflow-type: tm+mt
-source-wordcount: '4588'
-ht-degree: 13%
+source-wordcount: '4725'
+ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
 
@@ -373,6 +373,8 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Tiempo de espera de recuperación de evento automático en Propiedades de Recorrido** - Propiedades de Recorrido ahora incluye una configuración de **Establecer tiempo de espera de recuperación de evento**: de forma predeterminada, los eventos de recorrido afectados se reproducen automáticamente durante un máximo de 72 horas después de una interrupción del servicio sin necesidad de realizar ninguna acción. Puede activar esta configuración para controlar la ventana de reproducción (0-72 horas) para recorridos con distinción de tiempo. El campo **Tiempo de espera o error** existente también ha cambiado de nombre a **Acción personalizada / Tiempo de espera de la fuente de datos** para evitar confusiones entre las dos configuraciones.
 
+* **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad.
+
 +++
 
 ### Campañas {#sep-26-campaigns}
@@ -628,6 +630,26 @@ La siguiente mejora se incorpora en esta versión.
 </tbody>
 </table>
 
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos (disponibilidad general)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La transición a Adobe Journey Optimizer desde otra plataforma de marketing es más sencilla gracias a las funcionalidades guiadas que le ayudan a trasladar el contenido y los recorridos de correo electrónico existentes a Journey Optimizer. Un <strong>espacio de trabajo dedicado</strong> le permite reutilizar lo que tiene en lugar de reconstruirlo desde cero.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
 ### Creación de informes {#sep-26-reporting}
 
 La siguiente funcionalidad se incluye en los informes en esta versión.
@@ -730,5 +752,7 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+
+* **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 
 +++
