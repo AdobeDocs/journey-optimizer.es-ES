@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
+source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
 workflow-type: tm+mt
-source-wordcount: '4642'
-ht-degree: 12%
+source-wordcount: '4725'
+ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
 
@@ -373,6 +373,8 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Tiempo de espera de recuperación de evento automático en Propiedades de Recorrido** - Propiedades de Recorrido ahora incluye una configuración de **Establecer tiempo de espera de recuperación de evento**: de forma predeterminada, los eventos de recorrido afectados se reproducen automáticamente durante un máximo de 72 horas después de una interrupción del servicio sin necesidad de realizar ninguna acción. Puede activar esta configuración para controlar la ventana de reproducción (0-72 horas) para recorridos con distinción de tiempo. El campo **Tiempo de espera o error** existente también ha cambiado de nombre a **Acción personalizada / Tiempo de espera de la fuente de datos** para evitar confusiones entre las dos configuraciones.
 
+* **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad.
+
 +++
 
 ### Campañas {#sep-26-campaigns}
@@ -410,6 +412,9 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
 </ul>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general), con las mejoras descritas anteriormente.</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Para obtener más información, consulte la <a href="../custom-channel/get-started-custom-channel.md">documentación detallada</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -545,7 +550,23 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 
 Las siguientes funcionalidades y mejoras están llegando a Email Designer en esta versión.
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
+<table>
+<thead>
+<tr>
+<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+<p><img src="assets/do-not-localize/table-component.gif"></p>
+<p>Para obtener más información, consulte la <a href="../email/content-components.md#table">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -558,10 +579,15 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <td>
 <p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
 <p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
+<p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 <table>
 <thead>
@@ -572,28 +598,11 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <tbody>
 <tr>
 <td>
-<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media almacenada en Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, puede editarla con el editor integrado de Dynamic Media, la misma experiencia que se utiliza para el contenido de Adobe Express en el Designer de correo electrónico.</p>
+<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, edite la plantilla con el editor integrado de Dynamic Media.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Fuentes de reserva para fuentes personalizadas en temas de correo electrónico**: ahora puede definir una fuente de reserva para cualquier fuente personalizada (web) aplicada a través de temáticas de correo electrónico. Si el cliente de correo electrónico de un suscriptor no admite la fuente personalizada, Adobe Journey Optimizer muestra automáticamente la fuente de reserva especificada en lugar de dejar la opción a la fuente predeterminada del cliente de correo electrónico. Esto mantiene la tipografía del correo electrónico más cerca de las directrices de marca y reduce las incoherencias en el procesamiento de fuentes en los clientes de correo electrónico.
 
 +++
 
@@ -620,6 +629,26 @@ La siguiente mejora se incorpora en esta versión.
 </tr>
 </tbody>
 </table>
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Funciones guiadas para incorporar correos electrónicos y recorridos (disponibilidad general)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La transición a Adobe Journey Optimizer desde otra plataforma de marketing es más sencilla gracias a las funcionalidades guiadas que le ayudan a trasladar el contenido y los recorridos de correo electrónico existentes a Journey Optimizer. Un <strong>espacio de trabajo dedicado</strong> le permite reutilizar lo que tiene en lugar de reconstruirlo desde cero.</p>
+<p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Creación de informes {#sep-26-reporting}
 
@@ -723,5 +752,7 @@ El siguiente recordatorio se aplica a la administración de en esta versión.
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
 * **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+
+* **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
 
 +++

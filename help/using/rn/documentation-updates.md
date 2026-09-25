@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '7217'
-ht-degree: 82%
+source-wordcount: '7221'
+ht-degree: 81%
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
@@ -103,7 +103,7 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 
 * Se ha añadido una sugerencia que apunta al artículo de la comunidad de Experience League sobre **cómo desasociar y volver a unir nodos** en el nuevo lienzo del recorrido a la página **Diseño de su recorrido**. [Más información](../building-journeys/using-the-journey-designer.md)
 
-* La sección de componentes **Cuadrícula** se ha añadido a la página **Componentes de contenido del Diseñador de correo electrónico**. Permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
+* La sección de componentes **Grid** se ha agregado a la página **Usar los componentes de contenido de Email Designer**. El componente Cuadrícula permite organizar el contenido en una cuadrícula estructurada de filas y columnas, donde cada celda puede contener otros componentes de contenido. [Más información](../email/content-components.md#grid)
 
 * La documentación de la **API de migración de decisiones** se ha actualizado con una aclaración que indica que la zona protegida de destino **puede ser la misma que la de origen**. El proceso de migración gestiona este escenario y garantiza la integridad de los datos independientemente de si los objetos se migran dentro de la misma zona protegida o a una diferente. [Más información](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
