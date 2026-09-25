@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
+source-git-commit: d7ea623e1da2675abcd4bd596cd02ef8133c8b3c
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4947'
 ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
@@ -400,7 +400,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 Las siguientes funcionalidades y mejoras están llegando a los canales en esta versión.
 
-* **Límite aumentado de delegación de subdominios**: según el contrato de licencia, ahora puede delegar hasta 3000 subdominios, antes con un límite de 100. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../configuration/delegate-subdomain.md#guardrails)
+* **Límite aumentado de delegación de subdominios**: según el contrato de licencia, ahora puede solicitar hasta 3000 subdominios (antes limitados a 100) poniéndose en contacto con su representante de Adobe. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../configuration/delegate-subdomain.md#guardrails)
 
   Fecha de disponibilidad: 25 de septiembre de 2026
 
