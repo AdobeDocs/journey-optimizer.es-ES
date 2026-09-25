@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: '7221'
+source-wordcount: '7261'
 ht-degree: 81%
 ---
 
@@ -66,6 +66,8 @@ Esta página incluye todos los cambios más recientes en la documentación de [!
 * La página **Configurar la configuración de su canal** ahora incluye una nota que aclara que el esquema utilizado para la dimensión secundaria debe tener una clave principal y que las claves principales compuestas no son compatibles. [Más información](../orchestrated/channel-config.md)
 
 * Se han actualizado las páginas de **Datos y conjuntos de datos de fidelización** y **Introducción a las fuentes** para incluir LAVA como conector de fidelidad y recompensas compatible, junto con Talon.One, Capillary y Kobie. [Más información](../loyalty-challenges/loyalty-data-and-datasets.md)
+
+* Las páginas **Delegar un subdominio** y **Configurar subdominios web** se han actualizado para reflejar que, según el contrato de licencia, ahora puede delegar hasta 3000 subdominios, frente al límite anterior de 100. [Más información](../configuration/delegate-subdomain.md#guardrails)
 
 ## Agosto de 2026 {#august-2026}
 

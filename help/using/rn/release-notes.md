@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 38e0335dd7863f73769ac803503018b106dd3dfc
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: '4900'
+source-wordcount: '4940'
 ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
@@ -399,6 +399,10 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 ### Canales {#sep-26-channels}
 
 Las siguientes funcionalidades y mejoras están llegando a los canales en esta versión.
+
+* **Límite aumentado de delegación de subdominios**: según el contrato de licencia, ahora puede delegar hasta 3000 subdominios, antes con un límite de 100. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../configuration/delegate-subdomain.md#guardrails)
+
+  Fecha de disponibilidad: 25 de septiembre de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 

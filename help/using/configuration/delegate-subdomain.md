@@ -12,25 +12,32 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 TQID: https://experienceleague.adobe.com/DwAI8P5ACNyZ8IGCsMoLglZ-EK0HE99ZV0yap51EfKo
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+    internal-label: Subdomains
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Administration
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: 1994
+source-wordcount: '1994'
 ht-degree: 18%
-
 ---
-
 # Delegar un subdominio {#delegate-subdomain}
 
 >[!BEGINSHADEBOX]
@@ -68,7 +75,7 @@ La **delegación de subdominios completa** es el método recomendado. Obtenga m�
 
 Al configurar subdominios en [!DNL Journey Optimizer], siga las protecciones y recomendaciones que se describen a continuación.
 
-* De manera predeterminada, [!DNL Journey Optimizer] le permite delegar **un máximo de 10 subdominios**. Sin embargo, según el contrato de licencia, puede delegar hasta 100 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
+* De manera predeterminada, [!DNL Journey Optimizer] le permite delegar **un máximo de 10 subdominios**. Sin embargo, según el contrato de licencia, puede delegar hasta 3000 subdominios. Póngase en contacto con la persona de contacto de Adobe para obtener más información sobre el número de subdominios a los que tiene derecho.
 
 * No se admite el envío paralelo de subdominios en [!DNL Journey Optimizer]. Si intenta enviar un subdominio para delegación cuando otro está en estado **[!UICONTROL Procesando]**, recibirá un mensaje de error.
 
