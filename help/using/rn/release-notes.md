@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7d3cceb18c2b2a626b56c3809978c4cfc95689d8
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '4885'
+source-wordcount: '4890'
 ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
@@ -656,8 +656,6 @@ La siguiente mejora se incorpora en esta versión.
 
 La siguiente funcionalidad se incluye en los informes en esta versión.
 
-+++ Próximamente — **La siguiente información está sujeta a cambios.**
-
 <table>
 <thead>
 <tr>
@@ -676,12 +674,12 @@ La siguiente funcionalidad se incluye en los informes en esta versión.
 <li><strong>Rendimiento de eventos de propuesta de entrada de AJO por canal</strong>: rendimiento de eventos de propuesta desglosado por canal de entrada (CBE, en la aplicación, tarjetas de contenido).</li>
 <li><strong>Rendimiento global de eventos de propuesta de entrada de AJO por tipo de evento</strong>: rendimiento de eventos de propuesta desglosado por tipo de evento (descartado, suprimido, mostrado, activado, interactuado, enviado).</li>
 </ul>
+<p>Para obtener más información, consulte la <a href="../data/monitoring.md">documentación detallada</a>.</p>
+<p>Fecha de disponibilidad: 24 de septiembre de 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-+++
 
 ### Integraciones {#sep-26-integrations}
 
