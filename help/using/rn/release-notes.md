@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: d7ea623e1da2675abcd4bd596cd02ef8133c8b3c
 workflow-type: tm+mt
 source-wordcount: '4947'
-ht-degree: 14%
+ht-degree: 68%
 ---
 # Notas de la versión {#release-notes}
 
@@ -60,30 +60,30 @@ ht-degree: 14%
 
 **Novedades de CX Enterprise Coworker este mes**
 
-Esta versión incorpora varias características y habilidades nuevas y mejoradas de [Coworker](../start/ai-features.md#cx-coworker) que se enumeran aquí para mayor visibilidad. Cada una de ellas se detalla también en la sección pertinente que figura a continuación.
+Esta versión incorpora varias funciones y habilidades nuevas y mejoradas de [Coworker](../start/ai-features.md#cx-coworker) que se enumeran aquí para mayor visibilidad. Cada una de ellas se detalla también en la sección pertinente que figura a continuación.
 
 * [Complemento de contenido de canal CE](#sep-26-content-management): Un nuevo complemento que reúne las habilidades de HTML de copia de campaña, imagen y correo electrónico en Coworker, desde información de campaña hasta copia y HTML listas para la producción.
 * [Herramientas MCP de administración de contenido](#sep-26-content-management): descubra y administre plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea mediante mensajes en lenguaje natural en Coworker.
-* [Simulación de Recorrido](#sep-26-journeys): Automatice la validación de recorrido de extremo a extremo e interprete los resultados directamente en Compañero de trabajo.
-* [Comparar versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualquiera de un recorrido a través de Coworker Chat.
+* [Simulación del recorrido](#sep-26-journeys): automatice la validación del recorrido de extremo a extremo e interprete los resultados directamente en Coworker.
+* [Compare versiones de un recorrido](#sep-26-journeys): obtenga una diferencia estructurada y de fidelidad total entre dos versiones cualesquiera de un recorrido a través del chat de Coworke.
 * [Analizar la habilidad de anomalías de Recorrido](#sep-26-journeys): detecta picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido, con diagnósticos de causa raíz.
 * [Aptitud del explicador de la toma de decisiones](#sep-26-decisioning): pregunte al compañero por qué se mostró o no una oferta específica en un perfil o en un segmento y obtenga un seguimiento completo de los requisitos, la clasificación y las exclusiones de reglas.
 * [Aptitud para reglas y clasificación](#sep-26-decisioning): cree, explique, simule y optimice reglas de elegibilidad para la toma de decisiones y fórmulas de clasificación en lenguaje natural, sin escribir ni validar manualmente la sintaxis de PQL.
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
-* [Creación de Recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA.
-* [Habilidad de recomendación de fidelización](#sep-26-loyalty): solicita oportunidades de desafío directamente en la interfaz conversacional de tu compañero y conviértelas en desafíos en vivo sin salir del chat.
-* [Aptitud para el análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos en declive o no utilizados, con las correcciones recomendadas.
-* [Habilidad con el análisis de rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas desde el chat.
+* [Creación de recorridos desde el carril de Coworker](#sep-26-journeys): genere recorridos con IA directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del Asistente de IA.
+* [Habilidad de recomendación de lealtad](#sep-26-loyalty): solicite oportunidades de reto directamente en la interfaz conversacional de Coworker y conviértalas en retos en directo sin salir del chat.
+* [Habilidad Análisis de higiene](#sep-26-journeys): analice los recorridos activos y en borrador para detectar configuraciones dañadas, errores silenciosos y recursos deteriorados o en desuso, con las correcciones recomendadas.
+* [Habilidad Análisis del rendimiento empresarial](#sep-26-journeys): analice el rendimiento del recorrido y obtenga recomendaciones de optimización concretas, directamente desde el chat.
 
 +++
 
 >[!ENDSHADEBOX]
 
-### Administración de contenido {#sep-26-content-management}
+### Gestión de contenidos {#sep-26-content-management}
 
-La siguiente funcionalidad se incluye en la administración de contenido en esta versión.
+En esta versión, se incorporará la siguiente funcionalidad a la gestión de contenidos.
 
 <table>
 <thead>
@@ -119,13 +119,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Herramientas MCP de administración de contenido en CX Coworker</strong><br/></th>
+<th><strong>Herramientas MCP (Protocolo de contexto de modelo) para la gestión de contenidos en CX Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Coworker ahora tiene un nuevo conjunto de <strong>herramientas MCP de administración de contenido</strong>, que le permiten descubrir y administrar recursos de contenido de Journey Optimizer a través de mensajes en lenguaje natural. Pídale que enumere o recupere plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea de recorrido/campaña. También puede crear contenido, actualizar plantillas y crear, actualizar, clonar y publicar fragmentos, además de actualizar el contenido de acciones del canal en línea directamente en recorrido y campaña.</p>
+<p>CX Coworker cuenta ahora con un nuevo conjunto de <strong>herramientas MCP (Protocolo de contexto de modelo) para la administración de contenidos</strong> que le permite descubrir y gestionar recursos de Journey Optimizer mediante indicaciones con lenguaje natural. Pídale que enumere o recupere plantillas de contenido, páginas de destino y el contenido de los mensaje en línea en recorridos y campañas. También permite crear contenido, actualizar plantillas y crear, actualizar, clonar y publicar fragmentos, además de actualizar el contenido de la acción del canal en línea directamente en el recorrido y la campaña.</p>
 <p>Para obtener más información, consulte la <a href="../content-management/content-management-coworker-skills.md#content-management">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 3 de septiembre de 2026</p>
 </td>
@@ -133,11 +133,11 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tbody>
 </table>
 
-* **Casilla de verificación de consentimiento obligatoria para las páginas de aterrizaje**: ahora puede hacer que una casilla de verificación sea obligatoria en el componente de formulario de la página de aterrizaje, lo que requiere que los visitantes la seleccionen (por ejemplo, dar su consentimiento) antes de que puedan enviar el formulario. [Más información](../landing-pages/lp-content.md#use-form-component)
+* **Casilla de verificación de consentimiento obligatoria para las páginas de destino**: ahora puede hacer que una casilla de verificación sea obligatoria en el componente de formulario de la página de destino, de modo que los visitantes tengan que seleccionarla (por ejemplo, para dar su consentimiento) para poder enviar el formulario. [Más información](../landing-pages/lp-content.md#use-form-component)
 
   Fecha de disponibilidad: 4 de septiembre de 2026
 
-* **Palabras clave reservadas adicionales en la sintaxis de personalización**: la lista de palabras clave reservadas en Profile Query Language (PQL) se ha ampliado para incluir palabras clave generales, unidades de tiempo y operadores booleanos/lógicos. Si el esquema XDM contiene un nombre de campo que coincide con una de estas palabras clave, encapsúlelo en acentos graves para hacer referencia a él en una expresión personalizada. [Más información](../personalization/personalization-syntax.md#reserved-keywords)
+* **Palabras clave reservadas en la sintaxis de personalización**: la lista de palabras clave reservadas en Profile Query Language (PQL) se ha ampliado para incluir palabras clave generales, unidades de tiempo y operadores booleanos/lógicos. Si su esquema XDM contiene un nombre de campo que coincide con una de estas palabras clave, colóquelo entre comillas invertidas para hacer referencia a él en una expresión de personalización. [Más información](../personalization/personalization-syntax.md#reserved-keywords)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
@@ -152,13 +152,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Actualizaciones de asignación de eventos de fidelización</strong><br/></th>
+<th><strong>Actualizaciones en la asignación de eventos de lealtad</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La creación o edición de una asignación de eventos ahora utiliza un nuevo **generador de asignaciones visuales**: seleccione un esquema, elija campos de un selector de campos en el que se pueda buscar, asigne cada campo a un campo de evento de lealtad con estado de conexión por fila y previsualice la expresión JSONata generada automáticamente, con la opción de cambiar a la edición manual de JSONata en cualquier momento.</p><p>Además, se ha cambiado el nombre de "Definiciones de eventos" en la administración de Fidelidad a "Asignaciones de eventos", con una vista de lista actualizada que muestra el nombre del esquema de evento de Experience legible en lenguaje natural.</p>
+<p>Ahora para crear o editar una asignación de evento se utiliza un nuevo **generador visual de asignaciones**: seleccione un esquema, elija campos en un selector de campos con capacidad de búsqueda, asigne cada campo a un campo de evento de lealtad con un estado de conexión por fila y obtenga una vista previa de la expresión JSONata generada automáticamente, con la opción de cambiar a la edición manual de JSONata en cualquier momento.</p><p>Además, el nombre “Definiciones de eventos” en Administración de lealtad pasa a denominarse “Asignaciones de eventos”, con una vista de lista actualizada que muestra el nombre del esquema de evento de Experience en un formato legible para el usuario.</p>
 <p>Para obtener más información, consulte la <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
 </td>
@@ -166,11 +166,11 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 </tbody>
 </table>
 
-* **&quot;Desafíos de fidelidad para siempre&quot;**: los desafíos de fidelidad ahora pueden ejecutarse indefinidamente. Defina **El desafío finalizará** en **Sin fecha de finalización** al configurar la programación y el desafío nunca caducará. [Más información](../loyalty-challenges/create-challenges.md#schedule)
+* **Retos de lealtad “para siempre”**: ahora los retos de lealtad se pueden ejecutar indefinidamente. Establezca la **finalización del reto** en **sin fecha de finalización** cuando configure la programación y el reto nunca caducará. [Más información](../loyalty-challenges/create-challenges.md#schedule)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
-* **Lealtad disponible para los clientes de Healthcare Shield y Privacy and Security Shield**: Journey Optimizer Loyalty ya está disponible para los clientes de Healthcare Shield y Privacy and Security Shield. [Más información](../loyalty-challenges/get-started.md)
+* **Loyalty está disponible para los clientes de Healthcare Shield and Privacy and Security Shield**: Journey Optimizer Loyalty ya está disponible para los clientes de Healthcare Shield and Privacy and Security Shield. [Más información](../loyalty-challenges/get-started.md)
 
   Fecha de disponibilidad: 15 de septiembre de 2026
 
@@ -193,7 +193,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Plazos para la finalización del desafío de fidelización por miembro**: los desafíos de fidelización ahora admiten los plazos de finalización por miembro: elija &quot;En un número de días después de la inclusión&quot; en Requisitos de finalización para que el plazo de cada miembro se calcule a partir de su propia fecha de inclusión en lugar de una fecha de finalización fija para todo el programa. Si se establecen tanto una fecha de finalización de desafío como esta ventana de inclusión, el plazo de cada miembro es el que sea primero. <!-- Documentation link: TBD -->
 
-* Dominio de **retos en el editor de personalización de tarjetas de contenido**: el editor de personalización de tarjetas de contenido ahora admite **desafíos** como dominio, lo que le permite acceder a los metadatos de desafíos al crear la personalización de tarjetas de contenido. Esto facilita la creación de contenido personalizado para cada fase de un desafío (inicio, en curso y final) sin código personalizado.
+* **Dominio de los retos en el editor de personalización de las tarjetas de contenido**: el editor de personalización de las tarjetas de contenido ahora admite **Retos** como dominio, lo que le permite acceder a los metadatos de los retos al crear la personalización de las tarjetas de contenido. Esto facilita la creación de contenido personalizado en cada fase de un reto (iniciar, en curso y finalización) sin código personalizado.
 
 +++
 
@@ -225,7 +225,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <tbody>
 <tr>
 <td>
-<p>La <strong>aptitud de simulación de Recorrido</strong> en Coworker automatiza la validación de recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo admite el flujo de simulación rápida y no reemplaza completamente la experiencia de simulación manual de Journey Optimizer.</p>
+<p>La <strong>habilidad Simulación de recorrido</strong> en Coworker automatiza la validación del recorrido de extremo a extremo y le permite interpretar fácilmente los resultados. Tenga en cuenta que, en la actualidad, esta función solo es compatible con el flujo de simulación rápida y no sustituye por completo a la experiencia de simulación manual de Journey Optimizer.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 23 de septiembre de 2026</p>
 </td>
@@ -243,7 +243,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <tr>
 <td>
 <p>Ahora puede configurar un grupo de exclusión para los recorridos directamente desde las propiedades del recorrido. Una exclusión es un porcentaje configurable del público destinatario que se excluye de la entrada al recorrido y que no recibe ninguna comunicación. Al comparar los perfiles de exclusión con los perfiles activos en los informes de Customer Journey Analytics, puede medir el alza incremental (el verdadero impacto) que ofrece su recorrido.</p>
-<p>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte <a href="releases.md">Ciclo de lanzamiento de Journey Optimizer</a>.</p>
+<p>Esta funcionalidad solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener acceso, póngase en contacto con su representante de Adobe. Para obtener información detallada acerca del ciclo de lanzamiento y las fases de disponibilidad, consulte <a href="releases.md">Ciclo de lanzamiento de Journey Optimizer</a>.</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/journey-properties.md#performance-management">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 1 de septiembre de 2026</p>
 </td>
@@ -260,7 +260,7 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <tbody>
 <tr>
 <td>
-<p>El editor de expresiones avanzadas de recorrido ahora integra la generación de expresiones con tecnología de IA: describa la expresión que desea crear en lenguaje natural y el editor genera código listo para usar que puede aplicar inmediatamente o refinar mediante mensajes de seguimiento.</p>
+<p>El editor de expresiones avanzadas de recorrido ahora incorpora una función de generación de expresiones basada en la IA: describa la expresión que desea crear con lenguaje natural y el editor generará código listo para usar que podrá aplicar de inmediato o mejorar mediante indicaciones de seguimiento.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/expression/generate-expression.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 1 de septiembre de 2026</p>
@@ -277,34 +277,34 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
   Fecha de disponibilidad: 18 de septiembre de 2026
 
-* **La toma de decisiones en la simulación de Recorrido** - Experimentación de rutas, como parte de la actividad **Optimizar**, ahora se admite en la simulación. Decisioning gestiona el enrutamiento, que es aleatorio y no determinista por usuario simulado.
+* **Toma de decisiones en la simulación del recorrido**: la experimentación de rutas, como parte de la actividad **Optimizar** ya es compatible con la simulación. La toma de decisiones gestiona el enrutamiento, y es aleatoria y no determinista para cada usuario simulado.
 
   [Más información](../building-journeys/simulate-journey-gs.md)
 
   Fecha de disponibilidad: 15 de septiembre de 2026
 
-* **Nueva alerta de anomalía de Recorrido detectada**: ahora una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido activo se desvía de su propia línea de base histórica o cae a cero inesperadamente en las entradas de Recorrido, salidas de Recorrido y envíos de eventos. Actualmente, esta alerta solo está disponible en zonas protegidas de producción.
+* **Nueva alerta de Anomalía de recorrido detectada**: ahora, una nueva alerta del sistema le avisa cuando el tráfico diario de un recorrido en directo se desvía de su propia línea base histórica o cae hasta cero de forma inesperada, tanto en las entradas de recorrido, como en las salidas del mismo y los envíos de eventos. Esta alerta solo está disponible actualmente en las zonas protegidas de producción.
 
   [Más información](../reports/alerts.md)
 
   Fecha de disponibilidad: 15 de septiembre de 2026
 
-* **Toma de decisiones en la simulación de Recorrido**: ahora puede simular recorridos que dependen de la toma de decisiones, con los siguientes elementos recientemente admitidos:
+* **Toma de decisiones en la simulación del recorrido**: ahora puede simular recorridos que se basan en la toma de decisiones, con los siguientes elementos compatibles recientemente:
 
-  * Los nodos de decisión de contenido ahora son compatibles con la simulación.
-  * El método de regla Targeting de la actividad Optimize ahora se admite en Simulación.
-  * Ahora se admiten acciones con contenido decidido por Adobe Journey Optimizer (por ejemplo, correo electrónico con una directiva de decisión) en Simulación.
-  * Las políticas de decisión que utilizan la idoneidad de la oferta y la clasificación por regla, audiencia, prioridad o fórmula son totalmente compatibles. Clasificación por modelo de IA: Personalization también es compatible, aunque las ofertas devueltas pueden variar entre ejecuciones.
+  * Los nodos de decisión de contenido ya son compatibles con la simulación.
+  * El método Regla de segmentación de la actividad Optimizar ya es compatible con la simulación.
+  * Las acciones con contenido decidido por Adobe Journey Optimizer (por ejemplo, un correo electrónico que utiliza una política de decisión) ya son compatibles con la simulación.
+  * Las políticas de decisión que utilizan la idoneidad de la oferta y se clasifican según la regla, el público, la prioridad o la fórmula son totalmente compatibles. También se admite la clasificación mediante el modelo de IA: personalización, aunque las ofertas devueltas pueden variar entre una ejecución y otra.
 
   [Más información](../building-journeys/simulate-journey-gs.md)
 
   Fecha de disponibilidad: 8 de septiembre de 2026
 
-* **Analizar anomalías de Recorrido**: CX Coworker ahora puede detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en las líneas de base históricas mediante la habilidad **Analizar anomalías de Recorrido**. Una vez confirmada una anomalía real, la aptitud ejecuta diagnósticos de solo lectura para detectar una causa raíz y una recomendación probables. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
+* **Habilidad Analizar anomalías del recorrido**: ahora, CX Coworker puede detectar picos, caídas o líneas planas inesperados en los recuentos de entradas, salidas o envíos de mensajes en comparación con las líneas base históricas, mediante la habilidad **Analizar anomalías del recorrido**. Una vez confirmada una anomalía real, la habilidad ejecuta los diagnósticos de solo lectura para identificar una posible causa raíz y ofrecer una recomendación. [Más información](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Fecha de disponibilidad: 2 de septiembre de 2026
 
-* **Nueva función dateDiff en el editor de expresiones de recorrido**. El editor de expresiones de recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para lógica basada en tiempo, como la creación de plazos, el cálculo de las duraciones del ciclo vital de los clientes o la creación de temporizadores de cuenta atrás en condiciones de recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
+* **Nueva función dateDiff en el editor de expresiones del recorrido**: el editor de expresiones del recorrido ahora incluye la función `dateDiff`, que calcula la diferencia entre dos fechas en número de días. Esta función es útil para la lógica basada en tiempo, como la creación de fechas límite, el cálculo de las duraciones del ciclo de vida del cliente o la creación de temporizadores de cuenta atrás en las condiciones del recorrido.  [Más información](../building-journeys/functions/date-functions.md#dateDiff)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
@@ -313,13 +313,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Tarjetas de recomendación de IA para alertas de recorrido</strong><br/></th>
+<th><strong>Tarjetas de recomendación de IA para las alertas de recorrido</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La página de inicio de Journey Optimizer ahora muestra una <strong>tarjeta de recomendaciones de IA</strong> cuando se activa una alerta de recorrido que cubre <strong>errores de acciones personalizadas de Recorrido</strong> y <strong>anomalías de Recorrido detectadas</strong>. Al seleccionar la tarjeta, se abre el recorrido con el carril derecho rellenado previamente con el análisis ya realizado.</p>
+<p>La página de inicio de Journey Optimizer ahora muestra una <strong>tarjeta de recomendación de IA</strong> cuando se activa una alerta de recorrido que incluye las alertas <strong>Error de Acción personalizada de recorrido</strong> y <strong>Anomalía de recorrido detectada</strong>. Al seleccionar la tarjeta, se abrirá el recorrido con el carril derecho rellenado previamente con el análisis ya realizado.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -330,13 +330,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Actividad de recorrido de desactivación de actividad entrante</strong><br/></th>
+<th><strong>Actividad del recorrido Desactivación de actividad entrante</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Una nueva actividad <strong>Inbound Activity Deactivation</strong> en el lienzo de recorrido le permite quitar un perfil de hasta cinco actividades o experiencias entrantes directamente de un recorrido, lo que desvincula la descalificación entrante de la salida del recorrido para una orquestación entre canales más avanzada.</p>
+<p>Una nueva actividad <strong>Desactivación de actividad entrante</strong> en el lienzo del recorrido le permite quitar un perfil de hasta cinco actividades o experiencias entrantes directamente desde un recorrido, desvinculando la descalificación entrante de la salida del recorrido para una orquestación de canales múltiples más avanzada.</p>
 </td>
 </tr>
 </tbody>
@@ -361,13 +361,13 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 <table>
 <thead>
 <tr>
-<th><strong>Creación de recorridos desde el carril Compañero de trabajo</strong><br/></th>
+<th><strong>Creación de recorridos desde el carril de Coworker</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La creación de Recorridos de <strong>con IA</strong> ya está disponible directamente desde el carril derecho de la barra de tareas del asistente, reemplazando la experiencia anterior del asistente de IA con un punto de entrada integrado con marca modificada para la generación de recorridos.</p>
+<p>La <strong>creación de recorridos con IA</strong> ya está disponible directamente desde el carril derecho de Coworker, reemplazando la experiencia anterior del asistente de IA por un punto de entrada rediseñado e integrado para generar recorridos.</p>
 </td>
 </tr>
 </tbody>
@@ -375,11 +375,11 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Aptitud para el análisis de higiene**: CX Coworker ahora puede analizar los recorridos activos y en borrador para detectar configuraciones rotas, errores silenciosos y recursos en declive o no utilizados, como recorridos en borrador antiguos, fuentes de datos huérfanas y errores persistentes de acciones personalizadas, así como correcciones recomendadas superficiales directamente en el chat. <!-- Documentation link: TBD -->
 
-* **Compatibilidad con ID suplementario en la simulación de Recorrido** - **La simulación de Recorrido admite ahora el ID suplementario**, lo que le permite probar escenarios de usuario complejos para recorridos activados por eventos y de audiencia de lectura.
+* **Compatibilidad con el ID adicional en la simulación de recorrido**: el **ID adicional** ya es compatible con la simulación de recorrido, lo que le permite probar escenarios de usuario complejos tanto para recorridos tanto de lectura de público como para aquellos activados por eventos.
 
-* **Supresión de eventos de paso de ejecución en seco para informes personalizados**: como parte de la optimización de eventos de paso, Journey Optimizer ahora deja de generar ciertos eventos de paso que no se pueden notificar durante las ejecuciones en seco de Recorrido. Esto solo afecta a los informes personalizados creados en estos tipos de eventos de paso de ejecución en seco. Si se ve afectado, vuelva a almacenar en déclencheur la ejecución en seco para regenerar los datos.
+* **Supresión de eventos de paso de ensayo para informes personalizados**: como parte de la optimización de eventos de paso, a partir de ahora, Journey Optimizer deja de generar determinados eventos de paso que no se pueden notificar durante los ensayos de Journey. Esto solo afecta a los informes personalizados creados en estos tipos de eventos de paso de ensayo. Si se ve afectado, vuelva a activar el ensayo para volver a generar los datos.
 
-* **Tiempo de espera de recuperación de evento automático en Propiedades de Recorrido** - Propiedades de Recorrido ahora incluye una configuración de **Establecer tiempo de espera de recuperación de evento**: de forma predeterminada, los eventos de recorrido afectados se reproducen automáticamente durante un máximo de 72 horas después de una interrupción del servicio sin necesidad de realizar ninguna acción. Puede activar esta configuración para controlar la ventana de reproducción (0-72 horas) para recorridos con distinción de tiempo. El campo **Tiempo de espera o error** existente también ha cambiado de nombre a **Acción personalizada / Tiempo de espera de la fuente de datos** para evitar confusiones entre las dos configuraciones.
+* **Tiempo de espera de recuperación de evento automático en Propiedades del recorrido**: ahora las propiedades del recorrido incluyen una configuración **Establecer tiempo de espera de recuperación de eventos**: de forma predeterminada, los eventos de recorrido afectados se reproducen automáticamente durante un máximo de 72 horas después de una interrupción del servicio sin necesidad de realizar ninguna acción. Puede activar esta configuración para controlar la ventana de reproducción (0-72 horas) para los recorridos urgentes. El campo **Tiempo de espera o error** existente también ha cambiado de nombre a **Acción personalizada / Tiempo de espera de la fuente de datos** para evitar confusiones entre las dos configuraciones.
 
 * **Se han reducido los eventos de paso para las actividades de espera y evento** - Ya no se generan eventos de paso para las actividades **wait** y **event** cuando el perfil no se ha procesado realmente en esa actividad.
 
@@ -391,14 +391,14 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 
 * **Carpetas para campañas de acción**: ahora puede organizar sus campañas de acción en carpetas para mejorar la navegación y la administración en la interfaz.
 
-* **Anular los campos de ejecución predeterminados en las campañas de acción**. Anteriormente disponible en el nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para las entregas de correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
+* **Anular los campos de ejecución predeterminados en las campañas de acción**: aunque anteriormente estaba disponible a nivel de recorrido, ahora puede anular los campos de ejecución predeterminados configurados globalmente para los envíos por correo electrónico, SMS y WhatsApp en los parámetros de la campaña de acción.
 
 +++
 
 
 ### Canales {#sep-26-channels}
 
-Las siguientes funcionalidades y mejoras están llegando a los canales en esta versión.
+En esta versión, se incorporarán las siguientes funcionalidades y mejoras a los canales.
 
 * **Límite aumentado de delegación de subdominios**: según el contrato de licencia, ahora puede solicitar hasta 3000 subdominios (antes limitados a 100) poniéndose en contacto con su representante de Adobe. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes. [Más información](../configuration/delegate-subdomain.md#guardrails)
 
@@ -409,18 +409,18 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Canal saliente personalizado (disponibilidad general)</strong><br/></th>
+<th><strong>Canal de salida personalizado (disponibilidad general)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Canales salientes personalizados</strong> permiten a los administradores llevar cualquier canal de mensajería saliente basado en HTTP, como WeChat, Kakao Talk, Messenger o un proveedor propietario, directamente a Journey Optimizer a través de un Generador de canales sin código. Una vez configurados, los canales personalizados están disponibles en cualquier campaña, recorrido y campaña orquestada, con el mismo conjunto completo de funcionalidades que los canales nativos: personalización con el editor de expresiones, experimentación de contenido, previsualización y prueba, creación de informes predeterminada y aplicación de consentimiento y gobernanza.</p>
-<p>Con esta versión, los canales salientes personalizados también obtienen varias funciones nuevas:</p>
+<p>Los <strong>canales de salida personalizados</strong> permiten a los administradores incorporar cualquier canal de mensajería de salida basado en HTTP, como WeChat, Kakao Talk, Messenger o un proveedor de propiedad, directamente a Journey Optimizer a través de un generador de canales sin código. Una vez configurados, los canales personalizados están disponibles en cualquier campaña, recorrido y campaña orquestada, con el mismo conjunto completo de funcionalidades que los canales nativos: personalización con el editor de expresiones, experimentación de contenido, previsualización y prueba, creación de informes predeterminada y aplicación de consentimiento y gobernanza.</p>
+<p>Con esta versión, los canales de salida personalizados también obtienen varias funciones nuevas:</p>
 <ul>
-<li>Utilice Journey Optimizer Decisioning en la carga útil del canal personalizado a través del Editor de Personalization, del mismo modo que en las experiencias basadas en código.</li>
+<li>Utilice Journey Optimizer Decisioning en la carga útil del canal personalizado a través del editor de personalización, del mismo modo que en las experiencias basadas en código.</li>
 <li>Aplique reglas empresariales a los canales personalizados, del mismo modo que ya lo hace en los canales nativos.</li>
-<li>Seleccione canales personalizados en la lista de canales para campañas activadas por API, lo que anteriormente no era posible.</li>
+<li>Seleccione canales personalizados en la lista de canales para las campañas activadas por API, algo que antes no era posible.</li>
 <!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
 </ul>
 <p>Esta capacidad, que antes estaba disponible en disponibilidad limitada, ahora está disponible en todos los entornos (disponibilidad general), con las mejoras descritas anteriormente.</p>
@@ -435,14 +435,14 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Actividades activas para actualizaciones de Android Live</strong><br/></th>
+<th><strong>Actividades en vivo para actualizaciones en vivo de Android</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ahora amplía sus capacidades de personalización móvil en tiempo real al ampliar la compatibilidad con <strong>Actividad en directo a Android</strong>. Puede enviar actualizaciones de progreso en tiempo real directamente a los usuarios, como seguimiento de pedidos, estados de vuelos, actualizaciones de eventos en directo y puntuaciones deportivas en tiempo real.</p>
-<p>Además de admitir las actividades de iOS Live, Journey Optimizer ahora administra tokens push temporales para las actualizaciones de Android Live en las configuraciones de plataforma. Admite flujos de actualización transaccionales y de difusión mediante campañas activadas por API y API sin encabezado.</p>
+<p>Journey Optimizer ahora amplía sus funcionalidades de personalización móvil en tiempo real al ampliar la <strong>compatibilidad de la actividad en vivo con Android</strong>. Puede enviar actualizaciones del progreso en tiempo real directamente a los usuarios, como el seguimiento de los pedidos, los estados de los vuelos, las actualizaciones de eventos en vivo y puntuaciones deportivas en tiempo real.</p>
+<p>Además de ser compatible con iOS Live Activities, ahora Journey Optimizer administra tokens push temporales para Android Live Updates en las configuraciones de la plataforma. Es compatible con los flujos de actualización tanto de difusión como transaccionales mediante campañas activadas por API y API headless.</p>
 </td>
 </tr>
 </tbody>
@@ -451,17 +451,17 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Android notificaciones push plantillas mejoras</strong><br/></th>
+<th><strong>Mejoras en las plantillas de notificaciones push de Android</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las notificaciones push de Android se representaban anteriormente con un diseño único y fijo: las imágenes siempre se recortaban en el centro y el texto largo del cuerpo se truncaba. Esta versión incluye un selector de plantillas en el momento de la creación, lo que permite a los especialistas en marketing controlar el diseño de las notificaciones push de Android.</p>
-<p>Las siguientes mejoras están disponibles:</p>
+<p>Las notificaciones push de Android se representaban anteriormente con un diseño único y fijo: las imágenes siempre se recortaban en el centro y el texto independiente largo se truncaba. Esta versión incluye un selector de plantillas en el momento de la creación, lo que permite a los expertos en marketing controlar el diseño de las notificaciones push de Android.</p>
+<p>Se incorporan las siguientes mejoras:</p>
 <ul>
-<li><b>Selección de diseño</b>: Nuevo selector de diseño de notificaciones push (estándar/expandido) al crear una notificación push de Android.</li>
-<li><b>Diseño estándar con "Mostrar toda la imagen"</b>: elija recortado para rellenar frente a escalado para ajustar.</li>
+<li><b>Selección de diseño</b>: nuevo selector de diseño de notificaciones push (estándar/expandido) al crear una notificación push de Android.</li>
+<li><b>Diseño estándar con “Mostrar toda la imagen”</b>: elija entre recortado para rellenar o escalado para el ajuste.</li>
 <li><b>Diseño ampliado</b>: texto independiente multilínea sin truncamiento, además de una miniatura de icono grande opcional.</li>
 <li><b>Cuerpo contraído (diseño expandido)</b>: establezca un texto independiente más corto para el estado contraído.</li>
 </ul>
@@ -470,7 +470,7 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 </tbody>
 </table>
 
-* **Flexibilidad de autenticación BYOP de SMS personalizado**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluso dónde se coloca el token en los mensajes salientes y cómo se da formato a la propia solicitud de token.
+* **Flexibilidad de la autenticación personalizada BYOP para SMS**: ahora puede configurar **encabezados de autenticación personalizados** al conectar la configuración de OAuth de su proveedor de SMS, incluyendo dónde se coloca el token en los mensajes de salida y cómo se da formato a la propia solicitud de token.
 
 * **Correo directo - Dividir archivos grandes automáticamente** - Los archivos de correo directo ahora se pueden dividir en varias partes automáticamente cuando superan los 20 GB, o manualmente eligiendo un tamaño de archivo de destino en la configuración de enrutamiento de archivos.
 
@@ -483,13 +483,13 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>Alerta para campañas orquestadas</strong><br/></th>
+<th><strong>Alertas para las campañas orquestadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Las campañas orquestadas ahora admiten <strong>alertas automatizadas</strong> a través del mismo marco de alertas utilizado en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo al lienzo para comprobar más detalles en los registros.</p>
+<p>Las campañas orquestadas admiten ahora <strong>alertas automatizadas</strong> a través del mismo marco de alertas que se utiliza en los recorridos y las campañas. Las alertas se activan cuando falla la ejecución de una campaña, agota el tiempo de espera y cada alerta incluye lo que ha sucedido, cuándo, dónde y un vínculo directo al lienzo para comprobar más detalles en los registros.</p>
 <p>Para obtener más información, consulte la <a href="../orchestrated/start-monitor-campaigns.md#alerting">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 22 de septiembre de 2026</p>
 </td>
@@ -510,23 +510,23 @@ Las siguientes funcionalidades y mejoras están llegando a los canales en esta v
 <table>
 <thead>
 <tr>
-<th><strong>O unirse a la actividad para campañas orquestadas</strong><br/></th>
+<th><strong>Actividad de unión OR para las campañas orquestadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La <strong>actividad de unión</strong> en las campañas orquestadas ahora admite las condiciones de unión AND y OR. Con la lógica OR, un perfil que completa cualquier rama ascendente, en lugar de todas, continúa a lo largo de una sola ruta descendente compartida. Esto permite modelar patrones "si A, B o C, entonces hágalo" directamente en el lienzo sin duplicar los pasos descendentes a través de ramas independientes.</p>
+<p>La <strong>actividad de unión</strong> en las campañas orquestadas ahora es compatible con las condiciones de unión AND y OR. Con la lógica OR, un perfil que completa cualquier rama ascendente, en lugar de todas ellas, continúa a lo largo de una sola ruta descendente compartida. Esto permite modelar patrones “si A, B o C, entonces haga esto” directamente en el lienzo sin duplicar los pasos descendentes a través de ramas independientes.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Canal LINE para campañas orquestadas**: LINE ya está disponible como canal saliente nativo en campañas orquestadas, junto con correo electrónico, SMS y push. Puede crear y enviar mensajes de LINE directamente desde el lienzo de la campaña, incluidos texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes de Flex, lo que admite casos de uso de participación promocional, transaccional y continua en mercados dominantes de LINE como Japón y APAC. Esta capacidad, que se publicó anteriormente con disponibilidad limitada, ya está disponible de forma general.
+* **Canal LINE para campañas orquestadas**: LINE ya está disponible como canal de salida nativo en campañas orquestadas, junto con el correo electrónico, SMS y la notificación push. Puede crear y enviar mensajes de LINE directamente desde el lienzo de la campaña, incluyendo texto, pegatinas, imágenes, vídeos, datos de ubicación y mensajes Flex, lo que admite casos de uso de promocionales, transaccionales y de participación continua en mercados en los que predomina LINE como Japón y la región de Asia-Pacífico. Esta funcionalidad, que se lanzó anteriormente con disponibilidad limitada, ya está disponible de forma general.
 
-* **Supervisión de Campaign Orchestration**: ya está disponible una nueva interfaz de usuario para realizar el seguimiento del estado de ingesta y la actualización de los datos del almacén relacional que usa la segmentación de Campaign orquestada. Le ofrece una visibilidad directa del estado de los datos que alimentan a las audiencias por lotes. Una nueva pestaña de Campaign Orchestration del panel de monitorización de Adobe Experience Platform muestra el estado de los flujos de datos del almacén relacional (registros ingeridos/actualizados/eliminados/fallidos/omitidos), con gráficos desglosados y un desglose por flujo de datos/conjunto de datos, incluido el linaje.
+* **Monitorización de la orquestación de campañas**: ya está disponible una nueva interfaz de usuario para realizar el seguimiento del estado de ingesta y la actualización de los datos del almacén relacional utilizados en la segmentación de campañas orquestadas. Le ofrece una visibilidad directa del estado de los datos que alimentan a los públicos por lotes. Una nueva pestaña denominada Orquestación de campañas en el panel de control Monitorización de Adobe Experience Platform muestra el estado de los flujos de datos del almacén relacional (registros ingeridos/actualizados/eliminados/fallidos/omitidos), con gráficos desglosados y un desglose por flujo de datos/conjunto de datos que incluye el linaje.
 
-* **Nuevas API de supervisión de campañas orquestadas**: las nuevas **especificaciones de la API** ya están disponibles para las campañas orquestadas, lo que le permite crear, administrar y almacenar en déclencheur mediante programación campañas orquestadas, lo que permite una integración más profunda con sistemas externos y canalizaciones de automatización.
+* **Nuevas API de monitorización de campañas orquestadas**: ya están disponibles las nuevas **especificaciones de la API** para las campañas orquestadas, lo que permite crear, administrar y activar campañas orquestadas mediante programación, facilitando así una integración más profunda con sistemas externos y canalizaciones de automatización.
 
 +++
 
@@ -539,14 +539,14 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 <table>
 <thead>
 <tr>
-<th><strong>Anular configuración de canal de correo electrónico</strong><br/></th>
+<th><strong>Anular ajustes de configuración de canal de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Al crear los recorridos y las campañas, ahora puede anular los parámetros de correo electrónico derivados de la configuración de canal seleccionada directamente en el nivel de acción de recorrido o campaña.</p>
-<p>Esto le permite personalizar los campos de encabezado del correo electrónico (<strong>De nombre</strong>, <strong>De prefijo de correo electrónico</strong>, <strong>Responder al nombre</strong> y <strong>Responder al correo electrónico</strong>), la dirección de ejecución y los valores de cancelación de suscripción a una lista, mediante atributos de perfil o datos contextuales para un control más preciso. En particular, esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.</p>
+<p>Al crear los recorridos y las campañas, ahora puede anular los parámetros de correo electrónico derivados de la configuración de canal seleccionada directamente a nivel de acción del recorrido o de la campaña.</p>
+<p>Esto le permite personalizar los campos de encabezado del correo electrónico (<strong>Nombre del remitente</strong>, <strong>Prefijo desde correo electrónico</strong>, <strong>Responder al nombre</strong> y <strong>Responder a correo electrónico</strong>), la dirección de ejecución y los valores de cancelación de suscripción a una lista, mediante atributos de perfil o datos contextuales para un control más preciso. Esto permite que los detalles del remitente reflejen el asesor, la ubicación o la sucursal relevantes para cada destinatario, en lugar de enrutar todos los envíos a través de una sola dirección corporativa.</p>
 </td>
 </tr>
 </tbody>
@@ -558,18 +558,18 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 
 ### Diseñador de correo electrónico {#sep-26-email-designer}
 
-Las siguientes funcionalidades y mejoras están llegando a Email Designer en esta versión.
+En esta versión se incorporarán las siguientes funcionalidades y mejoras al diseñador de correo electrónico.
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuevo componente de tabla en Email Designer</strong><br/></th>
+<th><strong>Nuevo componente de tabla en el Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El Designer de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin depender del HTML personalizado.</p>
+<p>El Diseñador de correo electrónico ahora incluye un <strong>componente Tabla</strong> integrado, que le permite estructurar el contenido en filas y columnas directamente dentro del correo electrónico. Arrastre y suelte el componente en el lienzo, personalice el número de filas y columnas y aplique estilo a cada celda de forma independiente para crear diseños claros y organizados sin necesidad de recurrir a código HTML personalizado.</p>
 <p><img src="assets/do-not-localize/table-component.gif"></p>
 <p>Para obtener más información, consulte la <a href="../email/content-components.md#table">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
@@ -587,8 +587,8 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <tbody>
 <tr>
 <td>
-<p>Los temas de correo electrónico ahora admiten el modo oscuro, por lo que cada variante de color puede procesarse con una apariencia adaptada a los destinatarios que ven el correo electrónico en un cliente habilitado para el modo oscuro.</p>
-<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
+<p>Las temáticas de correo electrónico ahora son compatibles con el modo oscuro, por lo que cada variante de color se puede representar con un aspecto adaptado a los destinatarios que visualicen el correo electrónico en un cliente habilitado para el modo oscuro.</p>
+<p>Cuando está habilitada, se genera automáticamente una paleta oscura predeterminada para cada variante y puede personalizarla aun más con una paleta diferente o con sus propios colores personalizados, independientemente del diseño del modo claro, de modo que los cambios realizados en un modo no afectan al otro.</p>
 <p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Para obtener más información, consulte la <a href="../email/apply-email-themes.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2024.</p>
@@ -602,13 +602,13 @@ Las siguientes funcionalidades y mejoras están llegando a Email Designer en est
 <table>
 <thead>
 <tr>
-<th><strong>Importar plantillas de Dynamic Media directamente desde archivos de PSD en el Designer de correo electrónico</strong><br/></th>
+<th><strong>Importación de plantillas de Dynamic Media directamente desde archivos de PSD al Diseñador de correo electrónico</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>El componente Dynamic Media de Designer de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, edite la plantilla con el editor integrado de Dynamic Media.</p>
+<p>El componente Dynamic Media del Diseñador de correo electrónico ahora le permite importar un archivo de Photoshop (PSD) directamente como una plantilla nueva, además de examinar las plantillas de Dynamic Media existentes. Arrastre y suelte un archivo de PSD en el componente y Adobe Journey Optimizer lo convertirá automáticamente en una plantilla de Dynamic Media, sin necesidad de realizar conversiones manuales ni viajes de ida y vuelta a través de Adobe Experience Manager. Una vez importada, edite la plantilla con el editor integrado de Dynamic Media.</p>
 </td>
 </tr>
 </tbody>
@@ -651,7 +651,7 @@ La siguiente mejora se incorpora en esta versión.
 <tbody>
 <tr>
 <td>
-<p>La transición a Adobe Journey Optimizer desde otra plataforma de marketing es más sencilla gracias a las funcionalidades guiadas que le ayudan a trasladar el contenido y los recorridos de correo electrónico existentes a Journey Optimizer. Un <strong>espacio de trabajo dedicado</strong> le permite reutilizar lo que tiene en lugar de reconstruirlo desde cero.</p>
+<p>La transición a Adobe Journey Optimizer desde otra plataforma de marketing resulta más fácil gracias a las funcionalidades guiadas que le ayudan a trasladar el contenido y los recorridos de correo electrónico existentes a Journey Optimizer. Un <strong>espacio de trabajo dedicado</strong> le permite reutilizar lo que tiene en lugar de reconstruirlo desde cero.</p>
 <p>Esta funcionalidad, lanzada anteriormente con disponibilidad limitada, ya está disponible en todos los entornos (disponibilidad general).</p>
 </td>
 </tr>
@@ -662,25 +662,25 @@ La siguiente mejora se incorpora en esta versión.
 
 ### Creación de informes {#sep-26-reporting}
 
-La siguiente funcionalidad se incluye en los informes en esta versión.
+En esta versión se incorporará la siguiente funcionalidad a la creación de informes.
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuevos gráficos de monitorización de entrada en Data Management</strong><br/></th>
+<th><strong>Nuevos gráficos de monitorización de entrada en la administración de datos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede supervisar el estado de los datos de entrada directamente desde <strong>Administración de datos &gt; Supervisión &gt; Edge</strong>, con seis nuevos gráficos que cubren los eventos de rendimiento, latencia y propuesta:</p>
+<p>Ahora puede monitorizar el estado de los datos de entrada directamente desde <strong>Administración de datos &gt; Monitorización &gt; Edge</strong>, con seis nuevos gráficos que cubren los eventos de rendimiento, latencia y propuesta:</p>
 <ul>
-<li><strong>Rendimiento entrante de AJO</strong>: rendimiento entrante general (registros por segundo) a lo largo del tiempo.</li>
-<li><strong>Desglose de rendimiento de entrada de AJO</strong>: rendimiento de entrada desglosado por ubicación.</li>
-<li><strong>Latencia entrante de AJO</strong>: latencia de solicitud entrante (en milisegundos), desglosada por distribución de valores (P50, P90 y más).</li>
-<li><strong>Rendimiento de eventos de propuesta de entrada de AJO</strong>: rendimiento de eventos de propuesta (señales de seguimiento generadas cuando un usuario interactúa con ofertas personalizadas, vistas o déclencheur) a lo largo del tiempo.</li>
-<li><strong>Rendimiento de eventos de propuesta de entrada de AJO por canal</strong>: rendimiento de eventos de propuesta desglosado por canal de entrada (CBE, en la aplicación, tarjetas de contenido).</li>
-<li><strong>Rendimiento global de eventos de propuesta de entrada de AJO por tipo de evento</strong>: rendimiento de eventos de propuesta desglosado por tipo de evento (descartado, suprimido, mostrado, activado, interactuado, enviado).</li>
+<li><strong>Rendimiento de entrada de AJO</strong>: rendimiento de entrada general (registros por segundo) a lo largo del tiempo.</li>
+<li><strong>Desglose del rendimiento de entrada de AJO</strong>: rendimiento de entrada desglosado por ubicación.</li>
+<li><strong>Latencia de entrada de AJO</strong>: latencia de la solicitud de entrada (en milisegundos), desglosada por distribución de valores (P50, P90 y mucho más).</li>
+<li><strong>Rendimiento de los eventos de propuesta de entrada de AJO</strong>: rendimiento de los eventos de propuesta (señales de seguimiento generadas cuando un usuario interactúa con, visualiza o activa ofertas personalizadas) a lo largo del tiempo.</li>
+<li><strong>Rendimiento de los eventos de propuesta de entrada de AJO por canal</strong>: rendimiento de los eventos de propuesta desglosado por canal de entrada (CBE, en la aplicación, tarjetas de contenido).</li>
+<li><strong>Rendimiento global de los eventos de propuesta de entrada de AJO por tipo de evento</strong>: rendimiento de los eventos de propuesta desglosado por tipo de evento (descartado, suprimido, mostrado, activado, interactuado, enviado).</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../data/monitoring.md">documentación detallada</a>.</p>
 <p>Fecha de disponibilidad: 24 de septiembre de 2026</p>
@@ -718,7 +718,7 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la to
 <table>
 <thead>
 <tr>
-<th><strong>Compatibilidad con decisiones en el canal Web</strong><br/></th>
+<th><strong>Compatibilidad con la toma de decisiones en el canal web</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -769,32 +769,32 @@ En esta versión se incluyen las siguientes funcionalidades y mejoras para la to
 
   Fecha de disponibilidad: 23 de septiembre de 2026
 
-* **Compatibilidad con perfiles Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+* **Compatibilidad con los perfiles de Adobe Experience Platform en la simulación de reglas y fórmulas de clasificación**: al simular una regla o una fórmula de clasificación, ahora puede seleccionar un perfil de Adobe Experience Platform para rellenar automáticamente los atributos de una variante de datos de prueba en lugar de introducirlos manualmente. [Más información](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
   Fecha de disponibilidad: 22 de septiembre de 2026
 
 ### Públicos {#sep-26-audiences}
 
-El siguiente recordatorio se aplica a las audiencias de esta versión.
+El siguiente recordatorio se dirige a los públicos de esta versión.
 
-* **Próximo cambio en las audiencias de enriquecimiento de Audience Composition**: durante la versión de octubre (finales de octubre), Journey Optimizer detendrá los recorridos y campañas que usen o hagan referencia a una audiencia de Audience Composition cuyo conjunto de datos de origen no tenga un **descriptor de identidad principal**. A partir de ese momento, solo se admitirán en recorridos y campañas las audiencias de Composición de audiencia creadas con un descriptor de identidad principal. Si necesita que estos recorridos o campañas permanezcan activos, póngase en contacto con su representante de Adobe para que nuestro equipo de productos le ayude a migrar. <!-- Documentation link: TBD -->
+* **Próximo cambio en los públicos de enriquecimiento de composición de público**: durante la versión de octubre (finales de octubre), Journey Optimizer detendrá los recorridos y las campañas que utilicen o hagan referencia a un público de composición de público cuyo conjunto de datos de origen no tenga un **descriptor de identidad principal**. A partir de ese momento, solo se admitirán los públicos de composición de público creados con un descriptor de identidad principal en los recorridos y las campañas. Si necesita que estos recorridos o campañas permanezcan activos, póngase en contacto con su representante de Adobe para que nuestro equipo de productos le ayude a migrar. <!-- Documentation link: TBD -->
 
 ### Administración {#sep-26-administration}
 
-El siguiente recordatorio se aplica a la administración de en esta versión.
+El siguiente recordatorio hace referencia a la administración en esta versión.
 
-* **Protección de tiempo de vida de conjunto de datos (TTL) — zonas protegidas existentes** - La protección de tiempo de vida (TTL) para conjuntos de datos generados por el sistema de Journey Optimizer (90 días en el almacén de perfiles, 13 meses en el lago de datos) se aplicará en las zonas protegidas de clientes y organizaciones existentes a partir del 1 de octubre de 2026.
+* **Mecanismo de protección del tiempo de vida (TTL) de los conjuntos de datos: zonas protegidas existentes**: el mecanismo de protección de tiempo de vida (TTL) para los conjuntos de datos generados por el sistema de Journey Optimizer (noventa días en el almacén de perfiles, trece meses en el lago de datos) se aplicará a las zonas protegidas y organizaciones de clientes existentes a partir del 1 de octubre de 2026.
 
 ### Mejoras de uso {#sep-26-usability}
 
-* **Más fácil desasociar y unir ramas en el nuevo lienzo de recorrido**: ahora puede desasociar una rama del resto del recorrido sin eliminarla y volver a unirla más tarde en un punto diferente, ya sea seleccionando una actividad elegible directamente en el lienzo o seleccionándola de una lista de ramas desconectadas o ya utilizadas. [Más información](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
+* **Separación y unión más sencillas de las ramas en el nuevo lienzo del recorrido**: ahora puede separar una rama del resto del recorrido sin eliminarla y volverla a unir más tarde en un punto diferente, ya sea seleccionando una actividad idónea directamente en el lienzo o eligiéndola entre una lista de ramas desconectadas o ya utilizadas. [Más información](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
 
 +++ Próximamente — **La siguiente información está sujeta a cambios.**
 
-* **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, y cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
+* **Mejoras de uso en la experiencia de simulación de contenido**: la nueva experiencia de simulación de contenido ahora le permite nombrar y organizar sus variantes para facilitar la comparación, copiar o eliminar detalles de la variante directamente desde cada tarjeta, ver rutas de atributos completas y la configuración de canal por tarjeta bajo demanda, así como cargar sus propios perfiles CSV, JSON o JSONL desde un botón de carga más prominente.
 
-* **Calendario unificado para campañas, Recorridos y campañas organizadas**: La vista de calendario para recorridos y campañas ahora se mueve de inventarios separados a un menú unificado, accesible por el carril izquierdo, que muestra ambos en una vista combinada.
+* **Calendario unificado para campañas, recorridos y campañas organizadas**: la vista de calendario para recorridos y campañas ahora pasa de aparecer en inventarios separados a estar en un menú unificado, accesible desde el carril izquierdo, que muestra a los dos elementos en una vista combinada.
 
 +++

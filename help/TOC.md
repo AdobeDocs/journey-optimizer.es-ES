@@ -9,7 +9,7 @@ nudge: yes
 source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
 source-wordcount: '3528'
-ht-degree: 98%
+ht-degree: 99%
 ---
 # Ayuda de Adobe Journey Optimizer {#using}
 
@@ -29,11 +29,11 @@ ht-degree: 98%
   + [Actualizaciones de la documentación](using/rn/documentation-updates.md)
   + {hide-from-toc}[Lienzo del recorrido mejorado](using/rn/new-canvas.md)
   + {hide-from-toc}[Migrar públicos por lotes desde la calificación de público](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[Guía de la CNIL sobre píxeles de seguimiento de correo electrónico](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[Guía de la CNIL sobre los píxeles de seguimiento de correo electrónico](using/privacy/cnil-pixel-tracking.md)
 + Introducción {#get-started}
   + [Empiece aquí](/help/rp_landing_pages/get-started-landing-page.md)
   + [Centro de incorporación](using/start/onboarding-hub.md)
-  + [Trabajo con IA](using/start/ai-features.md)
+  + [Trabajo con la IA](using/start/ai-features.md)
   + [Migración de contenido y recorridos](using/start/migrate-content-and-journeys.md)
   + Características esenciales {#essentials}
     + [Qué es Journey Optimizer](using/start/get-started.md)
@@ -61,7 +61,7 @@ ht-degree: 98%
   + {hide-from-toc}[Guía de introducción de recorrido](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[Tipos de recorrido: elija el correcto-2](using/building-journeys/journey-types-selection-v2.md)
   + [Preguntas frecuentes de Journey Orchestration](using/building-journeys/journey-faq.md)
-  + [Compañero de trabajo para recorridos](using/building-journeys/journeys-coworker-skills.md)
+  + [Coworker para recorridos](using/building-journeys/journeys-coworker-skills.md)
   + Crear un recorrido {#create-journey}
     + [Crear un recorrido](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Creación de su primer recorrido](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 98%
     + [Configuración y seguimiento de la métrica de recorrido](using/building-journeys/success-metrics.md)
     + [Diseño de un recorrido](using/building-journeys/using-the-journey-designer.md)
     + Validación del recorrido {#validate-journey}
-      + [Elegir un método de validación](using/building-journeys/choose-validation-method.md)
+      + [Elija un método de validación](using/building-journeys/choose-validation-method.md)
       + Simulación {#simulate-journey}
         + [Introducción a la simulación del recorrido](using/building-journeys/simulate-journey-gs.md)
         + [Simulación del recorrido](using/building-journeys/simulate-journey.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + Desafíos de lealtad {#loyalty-challenges}
   + [Introducción a los retos de lealtad](using/loyalty-challenges/get-started.md)
   + [Demostración interactiva](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [Compañero de trabajo por lealtad](using/loyalty-challenges/loyalty-coworker-skills.md)
+  + [Coworker para la lealtad](using/loyalty-challenges/loyalty-coworker-skills.md)
   + Crear y administrar retos {#create-manage-challenges}
     + [Acceder a retos y tareas y administrarlos](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Crear retos](using/loyalty-challenges/create-challenges.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [Monitorización de canales personalizados](using/custom-channel/monitor-custom-channel.md)
 + Gestión de contenidos {#content-management}
   + [Gestión de contenidos](/help/rp_landing_pages/content-management-landing-page.md)
-  + [Compañero de trabajo para la administración de contenido](using/content-management/content-management-coworker-skills.md)
+  + [Coworker para la gestión de contenidos](using/content-management/content-management-coworker-skills.md)
   + Personalización {#personalization}
     + [Personalización](/help/rp_landing_pages/personalization-landing-page.md)
     + [Introducción a la personalización](using/personalization/personalize.md)
@@ -556,7 +556,7 @@ ht-degree: 98%
     + Fragmentos de contenido de Experience Manager {#aem}
       + [Introducción a los fragmentos de contenido de Experience Manager](using/integrations/aem-fragments-gs.md)
       + [Configure el repositorio para los fragmentos de contenido](using/integrations/aem-admin-settings.md)
-      + [Trabajar con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
+      + [Trabaje con fragmentos de contenido de Experience Manager](using/integrations/aem-fragments.md)
       + [Administre los fragmentos de contenido de Adobe Experience Manager](using/integrations/aem-fragments-manage.md)
       + [Consideraciones y resolución de problemas](using/integrations/aem-fragments-limitations.md)
     + [Trabajar con el asesor de contenido de Experience Manager](using/integrations/aem-content-advisor.md)
