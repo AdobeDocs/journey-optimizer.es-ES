@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 813abcffbadc596c2a48bb086d0b197ca8cd4715
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2457'
 ht-degree: 3%
 ---
 # Trabajo con IA {#ai-features}
@@ -92,6 +92,7 @@ En Adobe Journey Optimizer, el colaborador ofrece habilidades específicas en es
 * **Recorridos**: genere recorridos con mensajes en lenguaje natural (Recorrido Crear), genere copias y diseños de mensajes específicos del canal (Canal Crear contenido), compare versiones de recorridos y diagnostique bajas de recorridos, superposiciones de programación y anomalías de ejecución (Análisis de Recorrido). [Ver todas las aptitudes de compañero para recorridos](../building-journeys/journeys-coworker-skills.md).
 * **Fidelidad**: cree y configure desafíos de fidelidad (Administración de desafío de fidelidad) y consulte puntos de fidelidad, distribuciones de niveles y métricas de ingresos (Perspectivas de fidelidad). [Ver todas las aptitudes de compañero para la lealtad](../loyalty-challenges/loyalty-coworker-skills.md).
 * **Administración de contenido**: descubra, cree, actualice, clone y publique plantillas, fragmentos, páginas de aterrizaje y variantes de mensajes en línea con 15 herramientas de MCP de lectura y escritura. [Ver todas las herramientas de administración de contenido de Coworker](../content-management/content-management-coworker-skills.md).
+* **Toma de decisiones**: comprende por qué se mostró o no una oferta específica a un perfil o segmento, rastrea la elegibilidad, la clasificación y el límite (Explicador de toma de decisiones); y crea, explica, simula y optimiza las reglas de elegibilidad y las fórmulas de clasificación en lenguaje natural (Reglas y clasificación). [Ver todas las aptitudes de compañero para la toma de decisiones](../experience-decisioning/experience-decisioning-coworker-skills.md).
 
 ## servidor MCP {#mcp-server}
 

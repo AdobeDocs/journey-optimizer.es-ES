@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
 source-wordcount: '5133'
-ht-degree: 87%
+ht-degree: 95%
 ---
 
 # Mecanismos de protección y limitaciones {#limitations}
@@ -91,9 +91,9 @@ Esta sección trata de las protecciones y limitaciones de los recorridos, inclui
 
 * Cuando se utiliza una calificación de público en un recorrido, esa actividad de calificación de público puede tardar hasta **10 minutos** en estar activa y en escuchar los perfiles que entran o salen del público.
 
-* Una instancia de recorrido de un perfil tiene un tamaño máximo de **1 MB**. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej., por debajo de **800 KB**) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Esta guía de 800 KB no se aplica a eventos empresariales o unitarios, que están sujetos al límite más estricto de 64 KB que se describe a continuación. Cuando se alcanza el límite de 1 MB, el perfil está en estado de error y se excluye de la recorrido.
+* Una instancia de recorrido de un perfil tiene un tamaño máximo de **1 MB**. Todos los datos recopilados como parte de la ejecución del recorrido se almacenan en esa instancia de recorrido. Por lo tanto, los datos de un evento entrante, la información de perfil recuperada de Adobe Experience Platform, las respuestas de acciones personalizadas, etc. se almacenan en esa instancia de recorrido y afectan al tamaño del recorrido. Se recomienda, cuando un recorrido comienza con un evento, limitar el tamaño máximo de esa carga útil de evento (p. ej., por debajo de **800 KB**) para evitar alcanzar ese límite después de unas pocas actividades, en la ejecución del recorrido. Esta guía de 800 KB no se aplica a los eventos empresariales o unitarios, que están sujetos al límite más estricto de 64 KB que se describe a continuación. Cuando se alcanza el límite de 1 MB, el perfil pasa al estado de error y se excluye del recorrido.
 
-* Cualquier evento que inicie o entre en un recorrido, incluidos eventos empresariales y eventos unitarios, está sujeto a una protección adicional más estricta: la carga útil del evento está limitada a un máximo de **64 KB de JSON minificado y sin comprimir**. Los eventos que superan este tamaño se pierden y no almacenan en déclencheur el recorrido. Es independiente y más estricto que el límite de instancia de recorrido de 1 MB anterior. [Más información acerca de la configuración de eventos empresariales](../event/about-creating-business.md).
+* Cualquier evento que se inicia o se incorpora a un recorrido, incluidos los eventos empresariales y los unitarios, está sujeto a un mecanismo de protección adicional más estricto: la carga útil de evento está limitada a un máximo de **64 KB de JSON sin comprimir y minimizado**. Los eventos que superen este tamaño se descartan y no activan el recorrido. Es independiente y más estricto que el límite de instancia de recorrido de 1 MB anterior. [Más información sobre la configuración de eventos empresariales](../event/about-creating-business.md).
 
 * Para cada perfil y versión de recorrido, el tiempo de ejecución del recorrido mantiene una cola interna de hasta **10 eventos pendientes** mientras se procesa uno. Si se alcanza este límite, los eventos adicionales se descartan con el motivo `maxInstanceStackEventsReached` hasta que se agote la pila. Consulte [Eventos descartados debido a una instancia de recorrido bloqueada](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
@@ -377,11 +377,11 @@ Las siguientes limitaciones se aplican a la actividad [canal de correo electrón
 
 Al publicar recorridos que contienen mensajes de correo electrónico, el tamaño total del contenido del mensaje no debe superar los **2 MB** después del procesamiento del back-end. Durante la publicación, el sistema procesa automáticamente el contenido del mensaje aplicando parches a los vínculos e imágenes y aplicando transformaciones, lo que aumenta el tamaño de la carga útil por encima del tamaño del contenido creado.
 
-Esta limitación de tamaño también se aplica a otras operaciones backend que procesan la carga útil de correo electrónico completa, como **[!UICONTROL Copiar a otras configuraciones regionales]** en [administración de contenido multilingüe](../content-management/multilingual-manual.md). Aunque solo esté copiando contenido entre configuraciones regionales, la operación serializa y procesa la carga útil de correo electrónico completa, por lo que puede fallar con el mismo error de tamaño.
+Esta limitación del tamaño también se aplica a otras operaciones back-end que procesan la carga útil de correo electrónico completa, como **[!UICONTROL Copiar a otras configuraciones regionales]** en [gestión de contenidos multilingüe](../content-management/multilingual-manual.md). Aunque solo esté copiando contenido entre configuraciones regionales, la operación serializa y procesa la carga útil de correo electrónico completa, por lo que puede generar el mismo error de tamaño.
 
 >[!CAUTION]
 >
->Si el contenido final del mensaje procesado sobrepasa los **2 MB**, se producirá un error en la operación (recorrido la publicación o copia en otras configuraciones regionales). Mantenga el contenido del mensaje creado muy por debajo de los 2 MB, idealmente por debajo de **1 MB**, para permitir un búfer de 300-400 KB para la sobrecarga de procesamiento del servidor.
+>Si el contenido final del mensaje procesado supera los **2 MB**, fallará la operación (publicación del recorrido o copia a otras configuraciones regionales). Mantenga el contenido del mensaje creado por debajo de 2 MB (preferiblemente por debajo de **1 MB**) para disponer de un margen de entre 300 y 400 KB para la sobrecarga de procesamiento en el back-end.
 
 **Prácticas recomendadas para evitar errores:**
 
@@ -390,9 +390,9 @@ Esta limitación de tamaño también se aplica a otras operaciones backend que p
 * Optimizar y comprimir imágenes antes de añadirlas a los mensajes
 * Eliminar recursos no utilizados y elementos de HTML innecesarios
 * Compruebe el tamaño del mensaje antes de publicar recorridos en producción
-* Cuando copie contenido en varias configuraciones regionales, copie a menos configuraciones regionales a la vez para reducir la sobrecarga de procesamiento
+* Cuando copie contenido en varias configuraciones regionales, copie en menos configuraciones regionales a la vez para reducir la sobrecarga de procesamiento
 
-Si la publicación o la operación de copia falla debido al tamaño del contenido, reduzca el contenido del mensaje e inténtelo de nuevo.
+Si la operación de publicación o copia falla debido al tamaño del contenido, reduzca el contenido del mensaje e inténtelo de nuevo.
 
 ### Mecanismos de protección de SMS {#sms-guardrails}
 
@@ -438,20 +438,20 @@ Las protecciones y limitaciones aplicables a la delegación de subdominios en Jo
 
 ## Contenido y recursos {#content-assets}
 
-Esta sección cubre las barreras para la creación y administración de contenido, incluidas las páginas de aterrizaje y los fragmentos.
+Esta sección hace referencia a los mecanismos de protección para la creación y gestión de contenidos, entre ellos, las páginas de destino y los fragmentos.
 
-### Protecciones de creación de contenido {#content-authoring}
+### Mecanismos de protección para la creación de contenido {#content-authoring}
 
 Los límites de tamaño recomendados para los tipos de contenido son los siguientes:
 
 | Tipo de contenido | Límite de tamaño recomendado |
 |---|---|
-| Plantilla | 1200 KB |
-| Fragmento | 700 KB |
-| Mensaje | 1200 KB |
-| Landing page | 1000 KB |
+| Plantilla | 1200 KB |
+| Fragmento | 700 KB |
+| Mensaje | 1200 KB |
+| Página de destino | 1000 KB |
 
-Aparece una advertencia cuando una variante de contenido supera su umbral de tamaño recomendado. Esto se aplica a todos los tipos de contenido y canales, y no bloquea el guardado ni la publicación.
+Aparece una advertencia cuando una variante de contenido supera su umbral de tamaño recomendado. Esto se aplica a todos los tipos de contenido y canales, y no impide guardar ni publicar.
 
 ### Generar mecanismos de protección de contenido {#ai-assistant-g}
 
@@ -473,12 +473,12 @@ Las siguientes limitaciones se aplican a los [fragmentos](../content-management/
 * Para crear, editar, archivar y publicar fragmentos, necesita los permisos **[!DNL Manage library items]** y **[Publicar fragmento]** incluidos en el perfil de producto **[!DNL Content Library Manager]**. [Más información](../administration/ootb-product-profiles.md#content-library-manager)
 * Los fragmentos visuales solo están disponibles para el canal de correo electrónico.
 * Los fragmentos de expresiones no están disponibles para el canal en la aplicación.
-* Los fragmentos no pueden exceder los **700 KB**. Para permanecer por debajo de este umbral, divida el contenido grande en varios fragmentos reutilizables, reduzca el marcado intenso y optimice los recursos vinculados.
+* Los fragmentos visuales no pueden superar los **700 KB**. Para permanecer por debajo de este umbral, divida el contenido grande en varios fragmentos reutilizables, reduzca el exceso de marcado y optimice los recursos vinculados.
 
-* **Límites de recuento de fragmentos**: el número de fragmentos únicos utilizados dentro de un fragmento de contenido se valida durante la creación. Solo se cuentan los fragmentos (incluidos los fragmentos de AEM) a los que se hace referencia directamente: los fragmentos anidados dentro de otros fragmentos no se cuentan por separado.
+* **Límites del recuento de fragmentos**: el número de fragmentos únicos utilizados dentro de un fragmento de contenido se valida durante la creación. Solo se cuentan los fragmentos (incluidos los fragmentos de AEM) a los que se hace referencia directamente: los fragmentos anidados dentro de otros fragmentos no se cuentan por separado.
 
-  * **Por variante**: hasta 60 fragmentos únicos por variante de contenido. Se muestra una advertencia cuando el uso alcanza el 45 (75 % del límite); la publicación se bloquea al 60.
-  * **En todas las variantes**: hasta 120 fragmentos únicos en todas las variantes de un solo mensaje. Se muestra una advertencia cuando el uso alcanza el 90 (75 % del límite); la publicación se bloquea a los 120.
+  * **Por variante**: hasta sesenta fragmentos únicos por variante de contenido. Se muestra una advertencia cuando el uso alcanza 45 (75 % del límite); la publicación se bloquea en 60.
+  * **En todas las variantes**: hasta 120 fragmentos únicos en todas las variantes de un solo mensaje. Se muestra una advertencia cuando el uso alcanza 90 (75 % del límite); la publicación se bloquea en 120.
 
 * Para utilizar un fragmento de un recorrido o una campaña, debe tener el estado **Activo**.
 * No se admiten [atributos contextuales](../personalization/personalization-build-expressions.md) en los fragmentos.

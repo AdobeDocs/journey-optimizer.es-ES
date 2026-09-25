@@ -11,14 +11,13 @@ keywords: datos, gobernanza, DULE, etiquetas, etiquetado, plataforma, directiva
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
 subfeature_v2: []
 source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
-workflow-type: tm+mt
-source-wordcount: 1421
+workflow-type: ht
+source-wordcount: '1421'
 ht-degree: 100%
-
 ---
-
 # Gobernanza de datos {#restrict-fields}
 
 >[!BEGINSHADEBOX]

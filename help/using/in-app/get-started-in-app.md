@@ -10,26 +10,33 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 TQID: https://experienceleague.adobe.com/b139LQsPe3HwKe1O5cyBx4Nj4jpW3GXCFIVIWTAIlbg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+    internal-label: In App channel
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+    internal-label: Mobile SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
-workflow-type: tm+mt
-source-wordcount: 601
+workflow-type: ht
+source-wordcount: '601'
 ht-degree: 100%
-
 ---
-
 # Introducción al canal en la aplicación {#gs-in-app}
 
 >[!BEGINSHADEBOX]
