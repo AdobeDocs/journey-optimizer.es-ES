@@ -536,7 +536,7 @@ La mayoría de las propiedades son de solo lectura una vez que el recorrido est�
 
 **¿Cuánto tiempo puede un perfil permanecer en un recorrido?**
 
-Un tiempo de espera de recorrido global de [1} detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. ](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
+Un tiempo de espera de recorrido global de [1&rbrace; detiene un perfil **91 días** después de que ingresa, ya que el recorrido de un individuo no puede durar más de ese tiempo. &#x200B;](#global_timeout)Este tiempo de espera no se muestra en la interfaz y no se puede cambiar. Como los datos de perfil se eliminan pasados 91 días, no se puede garantizar el bloqueo de reentrada más allá de ese período. Ver también [Cómo terminan los recorridos](end-journey.md#journey-finished-definition).
 
 **¿Por qué no se puede publicar mi recorrido debido al tamaño de la carga útil?**
 
