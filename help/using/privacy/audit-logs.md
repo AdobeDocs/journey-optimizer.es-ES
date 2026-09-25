@@ -10,28 +10,37 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 TQID: https://experienceleague.adobe.com/Usk3qin9P4IZlKw-gEI4zaKO-aRtaKq9-0GMVlOecjA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
+    internal-label: Consent management
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
+    internal-label: Data privacy requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
-workflow-type: tm+mt
-source-wordcount: 380
+workflow-type: ht
+source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # Acciones de auditoría en recursos de Journey Optimizer {#track-changes}
 
 >[!BEGINSHADEBOX]

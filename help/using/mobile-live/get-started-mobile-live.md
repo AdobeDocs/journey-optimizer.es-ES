@@ -10,28 +10,37 @@ exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+    internal-label: Mobile SDK
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+    internal-label: Live activities
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
-workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 96%
-
+workflow-type: ht
+source-wordcount: '467'
+ht-degree: 100%
 ---
-
 # Introducción a las actividades en directo {#get-started-mobile-live}
 
 >[!BEGINSHADEBOX]
@@ -77,7 +86,7 @@ Se debe seleccionar el tipo de campañas **activado por API** apropiado en funci
   * Actualizaciones del estado del vuelo para todos los pasajeros de una ruta
   * Experiencias compartidas en un segmento de usuario
 
-* Seleccione **Transaccional activado por API** para casos de uso individuales — actualizaciones en tiempo real 1:1 por usuario:
+* Seleccione **Transaccional activada por API** para casos de uso individuales: actualizaciones en tiempo real 1:1 por usuario:
 
   * Seguimiento del pedido y estado del envío
   * Actualizaciones del estado del servicio o del viaje
@@ -107,6 +116,6 @@ Complete los pasos siguientes para configurar e implementar actividades en direc
 
 Descubra cómo configurar las actividades en directo de iOS con Adobe Journey Optimizer para ofrecer actualizaciones enriquecidas en tiempo real en la pantalla de bloqueo de iPhone y Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479867/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
 
 {{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-get-started-mobile-live.md}}

@@ -10,24 +10,29 @@ exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 TQID: https://experienceleague.adobe.com/ONswG5tDxJQKJ7xm-7zlXk1HE0G7Y927Qbsdiahzf5E
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
-workflow-type: tm+mt
-source-wordcount: 533
+workflow-type: ht
+source-wordcount: '533'
 ht-degree: 100%
-
 ---
-
 # Accesibilidad en Journey Optimizer{#accessibility}
 
 >[!BEGINSHADEBOX]

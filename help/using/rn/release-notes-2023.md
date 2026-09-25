@@ -11,15 +11,15 @@ level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+    internal-label: Journey Optimizer release notes
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
-workflow-type: tm+mt
-source-wordcount: 4450
+workflow-type: ht
+source-wordcount: '4450'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión de 2023 {#release-notes-2023}
 
 Esta página enumera todas las funciones y mejoras de [!DNL Journey Optimizer] lanzadas en 2023.
