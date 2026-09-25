@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
+source-git-commit: 0633e402cc52ee1cd6c4b7a74c4a57ee5ac33b39
 workflow-type: tm+mt
-source-wordcount: '4890'
+source-wordcount: '4900'
 ht-degree: 14%
 ---
 # Notas de la versión {#release-notes}
@@ -140,6 +140,12 @@ La siguiente funcionalidad se incluye en la administración de contenido en esta
 * **Palabras clave reservadas adicionales en la sintaxis de personalización**: la lista de palabras clave reservadas en Profile Query Language (PQL) se ha ampliado para incluir palabras clave generales, unidades de tiempo y operadores booleanos/lógicos. Si el esquema XDM contiene un nombre de campo que coincide con una de estas palabras clave, encapsúlelo en acentos graves para hacer referencia a él en una expresión personalizada. [Más información](../personalization/personalization-syntax.md#reserved-keywords)
 
   Fecha de disponibilidad: 1 de septiembre de 2026
+
++++ Próximamente — **La siguiente información está sujeta a cambios.**
+
+* **Validación de URL en Simular contenido**: al obtener una vista previa del contenido, Journey Optimizer ahora comprueba automáticamente los vínculos web que contiene y marca las direcciones URL rotas, inseguras o inaccesibles antes de enviarlo. Esta capacidad está disponible en disponibilidad limitada para un conjunto de clientes.
+
++++
 
 ### Lealtad {#sep-26-loyalty}
 
@@ -543,8 +549,6 @@ Las siguientes funcionalidades y mejoras están llegando al canal de correo elec
 </table>
 
 * **Anulación de la lista de supresión en el nivel de acción de correo electrónico**: Journey Optimizer ahora le permite anular el comportamiento de la lista de supresión directamente en el nivel de acción de correo electrónico en recorridos y campañas. Esto proporciona a los equipos más flexibilidad para las comunicaciones operativas o críticas para el cumplimiento que requieren una configuración de envío dedicada, al tiempo que conserva los controles de lista de supresión global existentes para todos los demás envíos. Esta mejora ayuda a las organizaciones a gestionar escenarios de excepción con precisión sin cambiar su modelo de gobernanza de supresión más amplio.
-
-* **Validación de sintaxis de URL en la creación de correo electrónico**: Journey Optimizer ahora valida las URL anteriores en el flujo de creación de correo electrónico y ofrece una guía más clara cuando se detecta una sintaxis mal formada. Esto ayuda a los autores a detectar problemas antes de la finalización, reducir los errores de publicación y mejorar la confianza de envío.
 
 +++
 
