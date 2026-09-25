@@ -32,9 +32,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2154'
 ht-degree: 4%
 ---
 # Crear fórmulas de clasificación {#create-ranking-formulas}
@@ -51,6 +51,10 @@ Para crear estas reglas, el generador de fórmulas de IA de **[!UICONTROL Adobe 
 
 Este enfoque le permite ajustar dinámicamente la clasificación de la oferta en función de cualquier combinación de tendencia impulsada por IA, valor empresarial y contexto en tiempo real, lo que facilita la alineación de la toma de decisiones con los objetivos de marketing y las necesidades del cliente. El generador de fórmulas de IA admite fórmulas simples o avanzadas en función del control que desee aplicar.
 
+>[!TIP]
+>
+>También puede crear, explicar, simular y optimizar fórmulas de clasificación de forma conversacional mediante la habilidad **Reglas y clasificación** en [Compañero de trabajo para la toma de decisiones](../experience-decisioning-coworker-skills.md#rules-ranking).
+
 Una vez creada una fórmula de clasificación, puede asignarla a una [estrategia de selección](../selection-strategies.md). Si se pueden presentar varias ofertas al utilizar esta estrategia de selección, el motor de decisión utilizará la fórmula seleccionada para calcular qué oferta se ofrece primero.
 
 ➡️ [Descubra esta funcionalidad en vídeo](#video)
@@ -64,7 +68,7 @@ Antes de crear fórmulas de clasificación, tenga en cuenta las siguientes restr
 * La profundidad de anidación en una fórmula de clasificación está limitada a 30 niveles, medidos por el recuento de `)` en la cadena de PQL.
 * Una cadena de fórmula de clasificación puede tener hasta 8 KB para caracteres codificados con UTF-8 (8000 caracteres ASCII o 2000-4000 caracteres no ASCII).
 * Los periodos retrospectivos no se admiten en fórmulas de clasificación (por ejemplo, eventos de experiencia del último mes). Los intentos de guardar estas fórmulas déclencheur un error.
-* La optimización de fórmulas con tecnología de IA [1&rbrace; se aplica solamente a las fórmulas de clasificación cuya expresión PQL basada en código es mayor que **2 KB** en tamaño codificado UTF-8; no se analizan las fórmulas más pequeñas.](#optimize)
+* La optimización de fórmulas con tecnología de IA [1} se aplica solamente a las fórmulas de clasificación cuya expresión PQL basada en código es mayor que **2 KB** en tamaño codificado UTF-8; no se analizan las fórmulas más pequeñas.](#optimize)
 
 ## Crear la fórmula de clasificación y establecer las propiedades {#create-ranking-formula}
 

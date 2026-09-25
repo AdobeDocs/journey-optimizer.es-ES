@@ -34,10 +34,10 @@ subfeature_v2:
     internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
     internal-label: Get started
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 21%
+source-wordcount: '845'
+ht-degree: 20%
 ---
 # Introducción a la toma de decisiones {#get-started-experience-decisioning}
 
@@ -133,6 +133,7 @@ El siguiente gráfico resume el proceso de toma de decisiones de extremo a extre
 
 ## Recursos adicionales {#additional-resources}
 
+* **[Compañero de trabajo para la toma de decisiones](experience-decisioning-coworker-skills.md)**: pregunte a su compañero por qué se mostró o no una oferta en un perfil o segmento (Explicador de la toma de decisiones), o cree, explique, simule y optimice reglas y fórmulas de clasificación de forma conversacional (Reglas y clasificación).
 * **[Crear elementos de decisión](items.md)**: aprenda a crear y administrar elementos de decisión, incluidas ofertas, variaciones de contenido y experiencias.
 * **[Configurar catálogos de decisiones](catalogs.md)**: aprenda a organizar los elementos de decisión en catálogos para mejorar la administración.
 * **[Definir estrategias de selección](selection-strategies.md)**: descubra cómo crear estrategias de selección con reglas de elegibilidad y métodos de clasificación.
@@ -146,4 +147,4 @@ El siguiente gráfico resume el proceso de toma de decisiones de extremo a extre
 
 Obtenga información sobre las funcionalidades de Decisioning en Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475866?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
