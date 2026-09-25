@@ -23,10 +23,10 @@ El área de trabajo **[!UICONTROL Supervisión]** incluye las siguientes fichas:
 
 | Tabulación | Descripción | Documentación |
 |---|---|---|
-| **[!UICONTROL Tablero]** | Revise la actividad y el estado del flujo de datos en sus flujos de datos. | [Panel de monitorización de flujo de datos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
-| **[!UICONTROL Lote de extremo a extremo]** | Monitorice el flujo de extremo a extremo y la calidad de los datos ingeridos por lotes. | [Ingesta de datos de extremo a extremo por lotes](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Transmisión de extremo a extremo]** | Monitorice el flujo de extremo a extremo y la calidad de los datos ingeridos por streaming. | [Transmisión de ingesta de datos de extremo a extremo](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Edge]** | Monitorizar los datos enviados a Edge Network. Esta página documenta los gráficos específicos de Journey Optimizer disponibles en esta pestaña. | [Supervisar flujos de datos de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
+| **[!UICONTROL Tablero]** | Revise la actividad y el estado del flujo de datos en sus flujos de datos. | [Panel de monitorización de flujo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
+| **[!UICONTROL Lote de extremo a extremo]** | Monitorice el flujo de extremo a extremo y la calidad de los datos ingeridos por lotes. | [Ingesta de datos de extremo a extremo por lotes](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Transmisión de extremo a extremo]** | Monitorice el flujo de extremo a extremo y la calidad de los datos ingeridos por streaming. | [Transmisión de ingesta de datos de extremo a extremo](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Edge]** | Monitorizar los datos enviados a Edge Network. Esta página documenta los gráficos específicos de Journey Optimizer disponibles en esta pestaña. | [Supervisar flujos de datos de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
 
 ## Monitorización de datos de Journey Optimizer en Edge
 
